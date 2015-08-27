@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 礼物
-categories: [blog ]
-tags: [Mac, ]
-description: 一些零零碎碎的小工具
+title: 情人节的礼物
+date: 2014-02-14
+categories: blog
+tags: [情人节,礼物]
+description: 全天下的男人时常都会面临一个难题：给女朋友送什么礼物，尤其是在情人节，更尤其是在19年一遇，中西方的情人节都重合在一起的日子。
 ---
 
 

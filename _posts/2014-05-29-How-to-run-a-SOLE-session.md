@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何构建自主学习环境——实操指南
-date: 2014-05-29 15:16:50
+date: 2014-05-29
 categories: blog
 tags: [学习,知识]
 description: 本文作者Sugata Mitra，他致力于在偏远地区建立更好的教育体系，所以他创办了云端学校，为了让更多的人参与到云端学校，他在theschoolinthecloud的网站上给出了一份指引，鼓励人们建立更多的自主学习课程，让孩子们受益。

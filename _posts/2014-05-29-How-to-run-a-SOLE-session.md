@@ -8,8 +8,6 @@ description: 本文作者Sugata Mitra，他致力于在偏远地区建立更好�
 ---
 
 
-
-
 原标题：How to run a SOLE session
 
 作者：Sugata Mitra

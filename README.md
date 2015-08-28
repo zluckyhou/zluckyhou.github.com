@@ -1,16 +1,22 @@
-# Microdust 微尘
+##说明
 
-This is a blog designed by Azeril. The blog is live at [azeril.me](http://azeril.me/).
+此博客 fork 自 [Azeril](http://azeril.me/)，感谢。
 
-## Tools used
+##读立写生
 
-* [Github](https://github.com/), all the data based on;
-* [Jekyll](http://jekyllrb.com/), a static site generator;
-* [Clean Blog Theme](http://startbootstrap.com/template-overviews/clean-blog/), a theme by Start Bootstrap;
-* [Git](https://git-scm.com/), blogs and code files version control system.
+我是陈素封，博客：[cnfeat.com](cnfeat.com)
 
-and so on. 
+每天千字践行者，践行时间：2014年02月10日至2014年02月23日，感谢这段经历，让我成为了现在的我。
 
-## Just write
+现在研习 **认知写作学** 。
 
-Start writing now！
+##坚信
+
+
+- 元认知乃一切之源
+- 学苟知本，六经皆我注脚 
+- 一切技能皆可习得，包括写作
+- 「持续」并不是坚持，写就是最好的回报
+
+
+

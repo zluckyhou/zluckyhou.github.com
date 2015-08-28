@@ -10,7 +10,10 @@ header-img: "img/autumn.jpg"
   <div id="article">
   <ul class="posts">
     {% for post in site.posts %}
+      <li><a href="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</a></li>
     <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
+
+

@@ -12,6 +12,8 @@ header-img: "img/blue.jpg"
 3. 相关的文章「唰」一下跳到页面顶端
 4. 马上试试？
 
+##基因列表
+
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}

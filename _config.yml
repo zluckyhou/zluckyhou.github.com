@@ -44,8 +44,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Azeril"
-      header-img: "img/seagulls.jpg" # We don't want posts without a header image, that whould mean white on white
+      author: "CnFeat"
+      header-img: "img/twitter.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :

@@ -341,7 +341,7 @@ hr.small {
   color: #a3a3a3;
 }
 .post-content-preview:hover {
-  color: #4CD5F3;
+  color: #14546D;
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {
@@ -477,7 +477,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a {
   color: #404040;
-}
+}c
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;

@@ -1,16 +1,16 @@
 $("#back-top").hide();
 $(document).ready(function () {
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 800) {
-      $('#back-top').fadeIn();
+    if ($(this).scrollTop() > 200) {
+      $('#back-top').fadeIn(400);
     } else {
-      $('#back-top').fadeOut();
+      $('#back-top').fadeOut(400);
     }
   });
   $('#back-top a').click(function () {
     $('body,html').animate({
       scrollTop: 0
-    }, 1500);
+    }, 800);
     return false;
   });
 });

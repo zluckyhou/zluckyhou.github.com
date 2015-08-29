@@ -1,36 +1,31 @@
+$(document).ready(function() {
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    // hide #back-top first
+    $("#back-top").hide();
 
-<script>
+    // fade in #back-top
+    $(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 100) {
+                $('#back-top').fadeIn();
+            } else {
+                $('#back-top').fadeOut();
+            }
+        });
 
-$(document).ready(function(){ // hide #back-top first
-
-$("#back-top").hide(); // fade in #back-top
-
-$(function () { $(window).scroll(function () {
-
-if ($(this).scrollTop() > 100) { $('#back-top').fadeIn();
-
-}
-
-else { $('#back-top').fadeOut(); } });
-
-// scroll body to 0px on click
-
-$('#back-top a').click(function () {
-
-$('body,html').animate({
-
-scrollTop: 0
-
-}, 800);
-
-return false;
+        // scroll body to 0px on click
+        $('#back-top a').click(function() {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+    });
 
 });
 
-});
+HTML USAGE:
 
-});
-
-</script>
+<p id="back-top" style="display: block; ">
+   <a href="#top"><span></span><em>Back to top</em></a>
+</p>

@@ -1,13 +1,16 @@
 ---
 layout: page
 title: "Tags"
-description: "你找到了我的文章基因库"  
+description: "哈哈，你找到了我的文章基因库"  
 header-img: "img/blue.jpg"  
 ---
 
 ##本页使用方法
 
-随机在下面点一个你喜欢的词，然后与之相关的文章就会「唰」一下出现在你面前，马上去试试？
+1. 在下面选一个你喜欢的词
+2. 点击它
+3. 相关的文章「唰」一下跳到页面顶端
+4. 马上试试？
 
 
 <div id='tag_cloud'>

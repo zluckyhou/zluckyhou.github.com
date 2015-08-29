@@ -8,6 +8,8 @@ description: 我做这个清单的理由很简单——讨厌每次都要回头�
 ---
 
 
+![](http://i173.photobucket.com/albums/w63/cnfeat/24-chinese-fonts-1_zpsnp8nuipk.jpg)
+
 ![](http://cnfeat.qiniudn.com/24-chinese-fonts-1.jpg)
 
-PDF版百度云地址：http://pan.baidu.com/s/1c0bFT8O
+

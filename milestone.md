@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "About"
-description: "学苟知本，六经皆我注脚 "
-header-img: "img/green.jpg"
+title: "milestone"
+description: "知之真切笃实处即是行，行之明觉精察处即是知 "
+header-img: "img/zhihu.jpg"
 ---
 
 
@@ -26,7 +26,7 @@ header-img: "img/green.jpg"
 ###关注：
 
 
-- [元认知](http://www.mesule.com/)
+
 - 写作
 - Python
 - [阳志平](http://www.yangzhiping.com/)
@@ -36,23 +36,17 @@ header-img: "img/green.jpg"
 
 - [《24款最值得推荐的中文字体》](http://cnfeat.com/blog/2015/05/22/a-24-chinese-fonts/)
 
-- [《世界并非如你所见——用可供性来发现更大的世界》](http://cnfeat.com/blog/2015/05/01/affordance/)
+- [《世界并非如你所见——用可供性来发现更大的世界》](http://www.jianshu.com/p/6f1404e0240d)
 
-- [《如何正确地练习写作》](http://cnfeat.com/blog/2015/03/02/how-to-write/)
+- [《如何正确地练习写作》](http://www.jianshu.com/p/2621444b619d)
 
 ###联系
 
-- [博客：www.cnfeat.com](www.cnfeat.com)
+- 博客：www.cnfeat.com
 
-- [微博@CnFeat](http://weibo.com/207775270)
+- 微博@CnFeat
 
-- [知乎@陈素封](http://www.zhihu.com/people/Feat)
-
-- [知乎专栏](http://zhuanlan.zhihu.com/cnfeat)
-
-- 公众号：cnfeat
-
-![](http://i173.photobucket.com/albums/w63/cnfeat/2015-08-29-2_zpsqj7po8eo.png)
+- 知乎@陈素封
 
 
 

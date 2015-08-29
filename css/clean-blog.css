@@ -310,7 +310,7 @@ hr.small {
   font-family: 'Lora', 'Times New Roman', serif;
   color: #808080;
   font-size: 16px;
-  font-style: normal;
+  font-style: italic;
   margin-top: 0;
 }
 .post-preview > .post-meta > a {
@@ -337,7 +337,7 @@ hr.small {
 }
 .post-content-preview {
   font-size: 13px;
-  font-style: italic;
+  font-style: normal;
   color: #a3a3a3;
 }
 .post-content-preview:hover {

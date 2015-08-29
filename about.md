@@ -31,6 +31,7 @@ header-img: "img/green.jpg"
 - Python
 - [阳志平](http://www.yangzhiping.com/)
 - [ZoomQuiet](http://blog.zoomquiet.io/)
+- [YiLEE](http://yilee.me)
 
 ###代表作：
 
@@ -52,7 +53,11 @@ header-img: "img/green.jpg"
 
 - 公众号：cnfeat
 
-![](http://i173.photobucket.com/albums/w63/cnfeat/2015-08-29-2_zpsqj7po8eo.png)
+
+<center>
+    <p><img src="http://i173.photobucket.com/albums/w63/cnfeat/2015-08-29-2_zpsqj7po8eo.png" align="center"></p>
+</center>
+
 
 
 

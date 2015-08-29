@@ -1,11 +1,8 @@
 ---
 layout: post
-
-
-categories: blog
 title: 打造人情味：做一间深夜食堂的可能性（3）
-date: 2014-07-05 23:12:40
-categories: 101商业思考
+date: 2014-07-05
+categories: blog
 tags: [创业,故事,人情味]
 description: 这篇谈都是战术，营业时间，菜品和故事，战术顺着战略的路子铺好，一切都顺利成章了。这篇文章会告诉你如何打造深夜食堂的核心竞争力：利用故事来打造人情味。
 ---

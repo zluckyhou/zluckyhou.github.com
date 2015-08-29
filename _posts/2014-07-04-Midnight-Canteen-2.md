@@ -1,14 +1,8 @@
 ---
 layout: post
-
-
-categories: blog
-
-
-
 title: 如何定位：做一间深夜食堂的可能性（2）
-date: 2014-07-04 23:12:40
-categories: 101商业思考
+date: 2014-07-04
+categories: blog
 tags: [创业,故事,人情味]
 description: 首先必须做好战略，战略高屋建瓴，统领全局，其次就是就定位，location！location！location！选好人群，选定店址，这样，小店活下来的可能性就大大提高了。
 ---

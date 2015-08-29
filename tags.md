@@ -1,9 +1,14 @@
 ---
 layout: page
 title: "Tags"
-description: "博客标签库"  
-header-img: "img/mydog2.jpg"  
+description: "你找到了我的文章基因库"  
+header-img: "img/blue.jpg"  
 ---
+
+##本页使用方法
+
+随机在下面点一个你喜欢的词，然后与之相关的文章就会「唰」一下出现在你面前，马上去试试？
+
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}

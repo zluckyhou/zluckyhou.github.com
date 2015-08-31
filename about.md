@@ -10,7 +10,7 @@ header-img: "img/green.jpg"
     <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
 </center>
 
-我是陈素封，每天千字践行者，践行时间：2014年02月10日至2014年02月23日，感谢这段经历，让我成为了现在的我。
+我是陈素封，每天千字践行者，践行时间：2014年02月10日至2015年02月23日，感谢这段经历，让我成为了现在的我。
 
 现在研习 **认知写作学** 。
 
@@ -31,7 +31,9 @@ header-img: "img/green.jpg"
 - Python
 - [阳志平](http://www.yangzhiping.com/)
 - [ZoomQuiet](http://blog.zoomquiet.io/)
-- [YiLEE](http://yilee.me)
+
+
+
 
 ###代表作：
 
@@ -40,6 +42,14 @@ header-img: "img/green.jpg"
 - [《世界并非如你所见——用可供性来发现更大的世界》](http://cnfeat.com/blog/2015/05/01/affordance/)
 
 - [《如何正确地练习写作》](http://cnfeat.com/blog/2015/03/02/how-to-write/)
+
+
+###我的朋友们
+
+- [YiLee](http://yilee.me)
+- [Caos](http://caos.me)
+- [BuzhiNote](http://BuzhiNote.com)
+- [Azeril](http://azeril.me)
 
 ###联系
 

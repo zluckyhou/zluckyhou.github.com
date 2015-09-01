@@ -218,9 +218,9 @@ DONE中暂存当前阶段完成的事务
 ##参考资料
 
 
-- [我是如何成为大妈的 | Zoom.Quiet Personal Static Wiki](http://wiki.zoomquiet.io/IMHO/om-how2b-dama)
+- [我是如何成为大妈的 ](http://wiki.zoomquiet.io/IMHO/om-how2b-dama)
 - [硝烟中的Scrum和XP](http://www.infoq.com/cn/minibooks/scrum-xp-from-the-trenches)
-- [Trello使用手册(v13.5.9) on GDG-珠海 | Trello](https://trello.com/c/yBTvdA3q/32-trello-v13-5-9)
+- [Trello使用手册(v13.5.9) ](https://trello.com/c/yBTvdA3q/32-trello-v13-5-9)
 - [SMART原则 - MBA智库百科](http://wiki.mbalib.com/wiki/SMART%E5%8E%9F%E5%88%99)
 - [5W1H - Woodpecker Wiki for CPUG](http://wiki.woodpecker.org.cn/moin/5W1H)
 - [Trello使用手册](http://blog.zhgdg.org/2013-04/trello-usage/)

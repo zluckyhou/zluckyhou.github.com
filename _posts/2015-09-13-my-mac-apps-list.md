@@ -12,7 +12,7 @@ description: 高效地使用 Mac App 清单。
 
 ##系统增强
 
-### Alfred 
+### **Alfred**
 
 神器，不解释。
 
@@ -20,7 +20,7 @@ description: 高效地使用 Mac App 清单。
 
 技术参考：
 
-- [[Alfred 2 Workflow发布] Shorten URL v1.1 | 自力博客](http://hzlzh.io/alfred-2-workflow-shorten-url/)
+- [[Alfred 2 Workflow发布]](http://hzlzh.io/alfred-2-workflow-shorten-url/)
 - [借助 Alfred 2 的 Workflows 功能可以做哪些好玩的事情？ - 知乎](http://www.zhihu.com/question/20656680)
 
 推荐Workflow下载列表
@@ -31,21 +31,21 @@ description: 高效地使用 Mac App 清单。
 
 
 
-### Moom
+### **Moom**
 
 窗口管理工具，用得最多的还是窗口化，偶尔分屏，十分好用。
 
 
-### PopClip
+### **PopClip**
 
 文字转中后，自动会有各种的扩展：复制、查字典、保存到 Evernote……
 
 推荐：**短链接生成服务**
 
-[Extensions for PopClip | 自力博客](http://hzlzh.io/popclip-extensions/)
+[Extensions for PopClip](http://hzlzh.io/popclip-extensions/)
 
 
-### aText
+### **aText**
 
 aText和TextExpander，我都测试过，测评如下：
 
@@ -90,111 +90,111 @@ aText和TextExpander，我都测试过，测评如下：
 
      （题图：saurabh mohnot by Nik FC）
 
-### BetterTouchTool
+### **BetterTouchTool**
 
 触板快捷工具，目前我只用了一个快速设置：点触右上角后台打开 Chrome 新链接。
 
 [Better Touch Tool 使用指南 - 简书](http://www.jianshu.com/p/ba8d766559ca)
 
-### Bartender
+### **Bartender**
 
 可以将菜单栏无用或不常用的图标收起来。
 
-### Clean my mac
+### **Clean my mac**
 
 Mac 下好用的清理工具。
 
-### ExtraFinder
+### **ExtraFinder**
 
 资源管理器增强工具，最有用的就是标签页打开文件夹了。
 
-### Flux
+### **Flux**
 
 随时间调整屏幕色温的小工具，保护眼睛，经常熬夜者必备。
 
-### Shadowscoks
+### **Shadowscoks**
 
 其实我不知道这个是什么东西。
 
-### Chrome
+### **Chrome**
 
 这个几乎是默认配置。
 
-### Firefox
+### **Firefox**
 
 Chrome 不能实现的，Firefox来做。
 
 
-## 生产工具
+## **生产工具**
 
-### Macdown
+### **Macdown**
 
 Markdown 写作工具，感觉比 Mou 好用。
 
-### Foxmail
+### **Foxmail**
 
 一个简单好用的邮件客户端，够用就好。
 
-### ColorSnapper
+### **ColorSnapper**
 
 专注取色一万年。
 
-### Evernote 印象笔记
+### **Evernote 印象笔记**
 
 专用来收集外部的好文章，搭配 Clearly 效果更佳。
 
-### 为知笔记
+### **为知笔记**
 
 印象笔记其实相当一个 inbox，为知笔记想当一个 outbox，我专门用来记录自己写各种的笔记，输出和输入分开，十分清晰明了。
 
 为知笔记的一个特色功能，文件名后加上「.md」后就支持 Markdown 了。
 
-### Sublime Text 2
+### **Sublime Text 2**
 
 这个工具我现在只用来修改博客模板的yml、js、css和 html 文件。
 
-### Github desktop
+### **Github desktop**
 
 我的博客是用 jekyll + github pages 搭建的，Github desktop上传博客极其方便。
 
 另也用于项目的 Wiki 维护。
 
 
-### LastPassword
+### **LastPassword**
 
 一款密码管理软件，支持客户端、chrome 和 firefox。
 我从 Win 迁移到 Mac ，一直在用。
 
-### 百度输入法
+### **百度输入法**
 
 采用 小鹤双拼 方案。
 
-### Office 2016
+### **Office 2016**
 
 不管如何说，Mac 上是始终需要备一个 Office 的。
 
 
-### 百度同步盘
+### **百度同步盘**
 
 普通下载百度云盘的大文件总是会遇到各种的问题，，一气之下还是下载了百度同步盘，所以目前下载百度云盘大文件的方法是：先保存到自己选定的网盘文件夹，然后同步到本地。优点是支持断点续传。
 
 
-## 娱乐工具
+## **娱乐工具**
 
-### 网易云音乐
+### **网易云音乐**
 
 一个界面友好的音乐客户端，觉得网易唯一拿得出手的就是这个了。
 
-### Mplayer X
+### **Mplayer X**
 
 一个播放器足够。
 
 
-### Calibre
+### **Calibre**
 
 好用全能的电子书管理工具。
 
-### Thunder
+### **Thunder**
 
 都知道，我就不说了。
 
@@ -218,7 +218,7 @@ Markdown 写作工具，感觉比 Mou 好用。
 
 
 
-![](http://7d9mjz.com1.z0.glb.clouddn.com/20150905-215606.jpg)
+![](http://7d9mjz.com1.z0.glb.clouddn.com/20150913-220033.jpg)
 
 
 （题图：http://www.apple.com/macbook-pro/）

@@ -1,11 +1,10 @@
-
 ---
 layout: post
 title: 我的 Mac App 清单与使用习惯
 date: 2015-09-13
 categories: blog
 tags: [Mac,清单]
-description: 如何高效地使用 Mac 。
+description: 高效地使用 Mac App 清单。
 ---
 
 使用 Mac 一个半月，逐渐在上面安置了各种的工具，只为打造一个适合自己使用的系统，现已渐渐上手，分享一些我的使用习惯和App清单。

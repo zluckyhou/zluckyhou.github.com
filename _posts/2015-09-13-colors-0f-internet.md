@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 跟互联网公司学用色
-date: 2015-09-05
+date: 2015-09-14
 categories: blog
 tags: [颜色,互联网]
 description: 以下我从各大互联网公司网站采集回来的颜色图谱，如果不知道怎么用色，跟着这些互联网大佬们用色是不会错的。

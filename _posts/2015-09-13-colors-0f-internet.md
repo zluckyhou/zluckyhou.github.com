@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 跟互联网公司学用色
+title: 收藏！跟着互联网公司们学用色
 date: 2015-09-14
 categories: blog
 tags: [颜色,互联网]

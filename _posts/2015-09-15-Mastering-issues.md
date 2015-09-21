@@ -1,3 +1,17 @@
+---
+layout: post
+title: 玩转 Issue
+date: 2015-09-05
+categories: blog
+tags: [github,麦肯锡]
+description: 议题（Issue）是 github 中管理任务的有效方法。
+
+
+---
+
+
+
+
 ## 玩转 Issue
 
 议题（Issue）是 github 中管理任务的有效方法，它能保存任务的进度、跟踪任务的管理和追溯项目的bugs。它有点像可以用来跟团队分享和讨论的邮件。大多数的软件项目都有各自 bugs 追溯系统，GitHub的追溯系统就叫做议题，它在 github 的仓库中发挥着独特的作用。

@@ -8,7 +8,44 @@ description: 这是一篇很详尽的独立博客搭建教程，里面介绍了�
 ---
 
 
+## 重要更新
+
+
+
+由于我在2015-07-26换了 mac ,博客平台从 hexo 转移 jekyll.
+
+为什么用 keyll?因为用keyll搭建博客真的好简单.比 hexo 简单多了.
+
+接下来,我将用十步教你搭建博客.
+
+
+1. 继续用我的教程一直操作:购买域名>注册GitHub>SSH Key配置成功
+2. 到"使用GitHub Pages建立博客",你就可以停住了.
+3. 到我的[github](https://github.com/cnfeat),找到[我的仓库](https://github.com/cnfeat/cnfeat.github.io).
+4. 找到右上角的"fork",点击,将我的博客仓库复制到你的仓库.
+5. 回到你的仓库,将"cnfeat.github.io" 改成"你的用户名.github.io"
+6. 这样"你的用户名.github.io"就能访问了,不过页面内容是我的,嘿嘿.
+7. 在本页面搜"DNS设置",参照我的DNS设置,将godaddy的设置改好.
+8. 回到"https://github.com/你的用户名/你的用户名.github.io"找到"CNAME"文件,将"cnfeat.com"改成你的域名,你的域名就拥有我的博客了
+9. 博客的文字都放在"https://github.com/你的用户名/你的用户名.github.io"中的"post"里面,你可以将按照里面文章模板去修改,其他的细节自己摸索一下
+10. 极简博客教程完成.
+
+###广告
+
+我所在的[开智团队](openmind.club)正在开设 Python 入门编程付费课程,由我无比敬仰的[大妈](blog.zoomquiet.io)授课,整个课程持续12周,学费1699元,里面还附设有建立独立博客的课程,学完此课程,我包管你能搭出一个比我更漂亮的博客.
+
+如果你刚好对编程有兴趣,请加我的私人微信号"cnfeat",备注"Python",我会将你拉入课程预备班,10月10日正式开班.
+
+
+### 迭代
+
+- 2015-09-21 01:02:38
+
+
+------
+
 摘要：这是一篇很详尽的独立博客搭建教程，里面介绍了域名注册、DNS设置、github和Hexo设置等过程，这是我写得最长的一篇教程。我想将我搭建独立博客的过程在一篇文章中尽可能详细地写出来，希望能给后来者一个明确的指引，同时用这篇教程开篇，正式开始我的第八大洲之旅。
+
 ##前言
 
 作为一个技术小白，没有技术基础，看网上的教程也云里雾里，看程序员的教程相当不容易，稍微有些细节描述得不清楚自己就要绕弯路去找答案（善用搜索引擎），所以，在自己的博客搭建完成之后，我决定要将我搭建博客的过程全记录下来，以供后期和我一样的小白参考（是的，我坚信还有很多一样和我一样的人），我会尽可能详细的整理这个教程，其中的资料可能会摘录到其他人的教程，我会在后面列出了参考资料，感谢这些作者们。
@@ -228,11 +265,70 @@ Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信�
 
 [GitHub Help - Error Permission denied (publickey)](http://help.github.com/articles/error-permission-denied-publickey)
 
+
+
+##将独立域名与GitHub Pages的空间绑定
+
+###GitHub Pages的设置
+
+方法一：在Repository的根目录下面，新建一个名为CNAME的文本文件，里面写入你要绑定的域名，比如cnfeat.com。
+
+方法二：到我的github仓库，点击右下角的「Download ZIP」，下载源文件，解压，找到CNAME文件，用记事本打开，将cnfeat.com修改成你的域名，放进Hexo\source目录下，用hexo命令提交上去。
+
+    $ hexo d -g
+
+###DNS设置
+
+用DNSpod，快，免费，稳定。
+
+注册[DNSpod](www.dnspod.cn)，添加域名，如下图设置。
+
+![](http://cnfeat.qiniudn.com/15.png)
+
+
+
+其中A的两条记录指向的ip地址是github Pages的提供的ip
+
+- 192.30.252.153
+- 192.30.252.154
+
+如博客不能登录，有可能是github更改了空间服务的ip地址，记得及时到在[GitHub Pages](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages)查看最新的ip即可
+
+www指定的记录是你在github注册的仓库。
+
+###去Godaddy修改DNS地址
+
+更改godaddy的Nameservers为DNSpod的NameServers。
+
+![](http://cnfeat.qiniudn.com/16.png)
+
+1、点击「My Account」，管理我的域名。
+
+![](http://cnfeat.qiniudn.com/17.jpg)
+
+
+2、点击域名。
+
+![](http://cnfeat.qiniudn.com/18.jpg)
+
+
+
+3、将godaddy的Nameservers更改成f1g1ns1.dnspod.net和f1g1ns2.dnspod.net
+
+
+![](http://cnfeat.qiniudn.com/19.jpg)
+
+如有不详看可以看[DNSpod提供的官方帮助](https://support.dnspod.cn/Kb/showarticle/tsid/42/)
+
+详细也可以看这里：[一步步在GitHub上创建博客主页(3)](http://pchou.info/web-build/2013/01/05/build-github-blog-page-03.html)
+
 ##使用GitHub Pages建立博客
 
 与GitHub建立好链接之后，就可以方便的使用它提供的Pages服务，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&组织页（站），另一种是依附项目的pages。
 
 想建立个人博客是用的第一种，形如cnfeat.github.io这样的可访问的站，每个用户名下面只能建立一个。
+
+
 
 ###github上建立仓库
 

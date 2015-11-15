@@ -1,14 +1,11 @@
 ---
 layout: page
 title: "Tags"
-description: "归类也是人类的优点之一，学习！"  
+description: "一只狗的归类"  
 header-img: "img/semantic.jpg"  
 ---
 
-##Tags！嗷呜~
-<br>
-
-###Below is the list of tags,owuuuuu~
+###我的tags是这些有趣的东西：
 <br>
 
 <div id='tag_cloud'>
@@ -19,7 +16,7 @@ header-img: "img/semantic.jpg"
 
 <br>
 
-###以下是我的文章列表，呦~
+###下面这些就是更有趣的正文：
 
 <ul class="listing">
 {% for tag in site.tags %}

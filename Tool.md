@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Tools"
-description: "我的小小工具箱"
+description: "一只狗进化的重要工具"
 header-img: "img/autumn.jpg"
 ---
 

@@ -7,7 +7,7 @@ header-img: "img/green.jpg"
 
 
 <center>
-    <p><img src="image/author_image,jpg" align="center"></p>
+    <p><img src="image/author_image.jpg" align="center"></p>
 </center>
 
 开个玩笑，其实我并不是一只狗，真的，我自我介绍一下:“汪汪汪.."

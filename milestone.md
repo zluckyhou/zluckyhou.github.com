@@ -10,11 +10,12 @@ header-img: "img/my_love.jpg"
 ###代表作：
 
 
-- [《论猫狗合作之可能性》](http://www.jianshu.com/p/6f1404e0240d)
+- [《论猫狗合作之可能性》](http://www.zhihu.com)
 
-- [《人类正确勾搭姿势》](http://www.jianshu.com/p/2621444b619d)
+- [《人类正确勾搭姿势》](http://www.zhihu.com)
 
-- [《狗生最值得去得十个地方》](http://cnfeat.com/blog/2015/05/22/a-24-chinese-fonts/)
+- [《狗生最值得去得十个地方》](http://www.zhihu.com)
+
 
 
 

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: My First Blog
-subtitle:认知CS世界的魅力
-date: 2015-11-07
+date: 2015-11-06
 categories: blog
 tags: [Essays]
 ---

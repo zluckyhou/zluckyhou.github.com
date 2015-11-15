@@ -6,7 +6,6 @@ categories: blog
 tags: [双十一,爱情]
 description: 双十一纪事。
 
-
 ---
 
 ![](http://cnfeat.qiniudn.com/Yosemite,%20U.S..jpg)

@@ -6,6 +6,9 @@ categories: blog
 tags: [python]
 description: 转自Ipython notebook 教程页
 ---
+
+转自Ipython notebook 教程页
+
 ## Python program file
 
 * Python code is usually stored with text file ending with`.py`:

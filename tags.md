@@ -7,8 +7,10 @@ header-img: "img/semantic.jpg"
 
 ##Tags！嗷呜~
 <br>
+
 ###Below is the list of tags,owuuuuu~
 <br>
+
 <div id='tag_cloud'>
 {% for tag in site.tags %}
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
@@ -16,7 +18,7 @@ header-img: "img/semantic.jpg"
 </div>
 
 <br>
-<br>
+
 ###以下是我的文章列表，呦~
 
 <ul class="listing">

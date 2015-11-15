@@ -16,9 +16,9 @@ owner:
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.png
 
-#douban_username:  cnfeat
-twitter_username: New-Norris
-github_username: cnfeat
+#douban_username:  
+twitter_username: New Noriis
+github_username: Norris-Niu
 facebook_username: 
 #weibo_username:  
 zhihu_username: Norris New
@@ -47,13 +47,6 @@ defaults:
       author: "Norris"
       header-img: "img/facebook.jpg" # We don't want posts without a header image, that whould mean white on white
 
-# Comments 
-comments :
-  provider : duoshuo
-  duoshuo :
-    short_name : Norris
-  disqus :
-      short_name : Norris
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: 

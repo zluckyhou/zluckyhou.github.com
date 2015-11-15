@@ -5,7 +5,9 @@ description: "归类也是人类的优点之一，学习！"
 header-img: "img/semantic.jpg"  
 ---
 
-##Tags呦呦
+##Tags！嗷呜~
+
+###Here is the list of tags
 
 
 <div id='tag_cloud'>
@@ -14,7 +16,6 @@ header-img: "img/semantic.jpg"
 {% endfor %}
 </div>
 
-<br>
 <br>
 <br>
 

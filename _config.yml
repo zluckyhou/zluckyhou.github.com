@@ -1,8 +1,8 @@
 # Site settings
 title: Data Science Beginner
 header-img: "img/facebook.jpg"
-tagline: "cn"  
-description: "Data Geeker"  
+tagline: "Norris"  
+description: "A blog of my life"  
 baseurl: ""
 url: "http://norris-niu.github.io"  
 
@@ -34,7 +34,7 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 relative_permalinks: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
+timezone: Asia/Xiamen
 
 # Defaults for posts
 defaults:
@@ -44,7 +44,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "CnFeat"
+      author: "Norris"
       header-img: "img/facebook.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 

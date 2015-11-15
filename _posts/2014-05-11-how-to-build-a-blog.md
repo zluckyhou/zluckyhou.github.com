@@ -9,6 +9,8 @@ description: 这是一篇很详尽的独立博客搭建教程，里面介绍了�
 
 更新：
 
+
+- 2015-11-10 01:07:55
 - 2015-11-06 01:21:21
 
 
@@ -338,17 +340,47 @@ www 指定的记录是你在 github 注册的仓库。
 
 这样，你再去你绑定的域名看看，估计已经导向到 '你的用户名.github.io' 了。
 
-##搭建完成
+## 搭建完成
 
 至此，独立博客就算搭建完成，如需进步一完善请在参看以下文章或博客下留言。
 
 ## 如何更新博文
 
 
+### 下载博客模板的 ZIP
+
+去到你 frok 的仓库地址：https://github.com/你的用户名/你的用户名.github.io
+
+点击右下角的 Download ZIP，你会得到一个名为「你的用户名.github.io-master.zip」的压缩包。
+
+![](http://7d9mjz.com1.z0.glb.clouddn.com/github-zip-down.jpg)
+
+解压到本地，将文件夹改名为'你的 github 用户名.github.io' 
+
+### 安装 github desktop 
+
+下载地址：[GitHub Desktop](https://desktop.github.com/)
+
+### 打开你刚刚下载的文件夹
+
+
+
+![](http://cnfeat.qiniudn.com/add-folder-to-github.jpg)
+
+点击左上角的「+」号，选择 add，choose '你的 github 用户名.github.io' 文件夹。
+
+如此，你的本地博客仓库就已经和 github 的仓库同步起来了。
+
+
+
+
 2015-11-06 01:18:36
 
 
 挖坑，待补增
+
+
+
 
 
 

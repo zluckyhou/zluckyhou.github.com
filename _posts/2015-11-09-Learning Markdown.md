@@ -20,11 +20,16 @@ description: 学习笔记
 
 * 插入图片
 
+notebook中的markdown目前不支持插入本地图片，可以生成网页链接插入。或者使用Html的图片标签。
+
 >< img src="../images/python_logo.svg" >
 
-><img src="test.jpg">
+><img src="/image/green.jpg"
 
 * 插入视频
+
+目前视频差不只支持本地，如果要插入网上视频，需要Html的video标签，详情参看[这里](http://segmentfault.com/q/1010000000424925)
+
 > <video controls src="images/animation.m4v" />
 
 

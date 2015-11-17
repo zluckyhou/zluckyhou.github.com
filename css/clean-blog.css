@@ -96,6 +96,18 @@ hr.small {
   margin: 0;
   margin-bottom: 5px;
 }
+.post-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.post-container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .post-container li h1,
 .post-container li h2,
 .post-container li h3,

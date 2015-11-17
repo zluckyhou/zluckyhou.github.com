@@ -3,7 +3,7 @@ layout: post
 title: python collections module
 date: 2015-11-17
 categories: blog
-tags: [collections,python]
+tags: [module,python]
 description: 自带模块学习
 ---
 

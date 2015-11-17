@@ -76,6 +76,7 @@ hr.small {
 }
 .post-container a {
   color: #2B4180;
+  width:100%;
 }
 .post-container a:hover,
 .post-container a:focus {

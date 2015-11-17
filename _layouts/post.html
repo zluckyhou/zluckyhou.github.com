@@ -34,29 +34,29 @@ layout: default
 
 <!-- Post Content -->
 <article>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
 
-                {{ content }}
+        {{ content }}
 
-                <hr>
+        <hr>
 
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
-                <!-- Disqus评论代码 start (一个网页只需插入一次) -->
-                <div id="disqus_thread"></div>
-                <script>
+        <ul class="pager">
+          {% if page.previous.url %}
+          <li class="previous">
+            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+          </li>
+          {% endif %}
+          {% if page.next.url %}
+          <li class="next">
+            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+          </li>
+          {% endif %}
+        </ul>
+        <!-- Disqus评论代码 start (一个网页只需插入一次) -->
+        <div id="disqus_thread"></div>
+        <script>
                 /**
                 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
                 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
@@ -67,21 +67,21 @@ layout: default
                 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                 };
                 */
-                (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
 
-                s.src = '//norrisnew.disqus.com/embed.js';
+        s.src = '//norrisnew.disqus.com/embed.js';
 
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-                })();
-                </script>
-                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-                <script id="dsq-count-scr" src="//norrisnew.disqus.com/count.js" async></script>
-                <!-- Disqus评论代码 end -->
-            </div>
-        </div>
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        <script id="dsq-count-scr" src="//norrisnew.disqus.com/count.js" async></script>
+        <!-- Disqus评论代码 end -->
+      </div>
     </div>
+  </div>
 </article>
 
 

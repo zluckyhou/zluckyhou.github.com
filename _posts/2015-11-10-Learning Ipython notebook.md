@@ -35,23 +35,23 @@ description: 学习笔记
 Code is run in a separate process called the IPython Kernel. The Kernel can be interrupted or restarted. Try running the following cell and then hit the button in the toolbar above.
 
 
-	```python
-	import time
-	time.sleep(60) #make the ipython kernel sleep for 60 seconds
-	```
+```python
+import time
+time.sleep(60) #make the ipython kernel sleep for 60 seconds
+```
 
 If the Kernel dies you will be prompted to restart it. Here we call the low-level system libc.time routine with the wrong argument via ctypes to segfault the Python interpreter(Kitty remind: just a example to show how the ipython kernel to die and restart):
 
 
-	```python
-	import sys
-	from ctypes import CDLL
-	# This will crash a Linux or Mac system
-	# equivalent calls can be made on Windows
-	dll = 'dylib' if sys.platform == 'darwin' else 'so.6'
-	libc = CDLL("libc.%s" % dll) 
-	libc.time(-1)  # BOOM!!
-	```
+```python
+import sys
+from ctypes import CDLL
+# This will crash a Linux or Mac system
+# equivalent calls can be made on Windows
+dll = 'dylib' if sys.platform == 'darwin' else 'so.6'
+libc = CDLL("libc.%s" % dll) 
+libc.time(-1)  # BOOM!!
+```
 
 ### Cell menu
 The "Cell" menu has a number of menu items for running code in different ways. These includes:
@@ -69,43 +69,43 @@ The kernel maintains the state of a notebook's computations. You can reset this 
 The stdout and stderr streams are displayed as text in the output area.
 
 
-	```python
-	print("Hi,stdout")
-	```
+```python
+print("Hi,stdout")
+```
 
 
-	```python
-	from __future__ import print_function
-	print("Hi,stderr",file=sys.stderr)
-	```
+```python
+from __future__ import print_function
+print("Hi,stderr",file=sys.stderr)
+```
 
 ### Output is asynchronous
 All output is displayed asynchronously as it is generated in the Kernel. If you execute the next cell, you will see the output one piece at a time, not all at the end.
 
 
-	```python
-	import time,sys
-	for i in range(8):
-	    print(i)
-	    time.sleep(0.5)
-	```
+```python
+import time,sys
+for i in range(8):
+    print(i)
+    time.sleep(0.5)
+```
 
 ### Large outputs
 To better handle large outputs, the output area can be collapsed. Run the following cell and then single- or double- click on the active area to the left of the output:
 
 
-	```python
-	for i in range(50):
-	    print(i)
-	```
+```python
+for i in range(50):
+    print(i)
+```
 
 Beyond a certain point, output will scroll automatically:
 
 
-	```python
-	for i in range(500):
-	    print(2**i - 1)
-	```
+```python
+for i in range(500):
+    print(2**i - 1)
+```
 
 ## Markdown Cells
 All the information is in the doucument named "Markdown 使用学习",besides,you can refer the document from [markdown notes in ipython notebook websites][notes],something new you will view.
@@ -122,6 +122,6 @@ You can display the location of your default profile directory by running the co
 
 
 
-	```python
-	!ipython profile locate default
-	```
+```python
+!ipython profile locate default
+```

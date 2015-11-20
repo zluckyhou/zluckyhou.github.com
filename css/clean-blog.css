@@ -75,7 +75,7 @@ hr.small {
   }
 }
 .post-container a {
-  color: #2B4180;
+  color: #000000;
   width:100%;
 }
 .post-container a:hover,
@@ -320,7 +320,7 @@ hr.small {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #2B4180;
+  color: #000000;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -342,7 +342,7 @@ hr.small {
   color: #a3a3a3;
 }
 .post-content-preview:hover {
-  color: #46A5ED;
+  color: #000000;
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {

@@ -2,7 +2,7 @@
 layout: page
 title: "milestone"
 description: "一只狗的成就 "
-header-img: "img/rabbit.jpg"
+header-img: "img/books.jpg"
 ---
 
 

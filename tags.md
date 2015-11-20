@@ -2,7 +2,7 @@
 layout: page
 title: "Tags"
 description: "一只狗的归类"  
-header-img: "img/semantic.jpg"  
+header-img: "img/books.jpg"  
 ---
 
 ###我的tags是这些有趣的东西：

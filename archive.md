@@ -2,7 +2,7 @@
 layout: page
 title: "Archive"
 description: "一只能码字的狗多神奇"
-header-img: "img/orange.jpg"
+header-img: "img/left_rightbrain.jpg"
 ---
 
 

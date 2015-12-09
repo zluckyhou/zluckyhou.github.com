@@ -1,8 +1,8 @@
----
+﻿---
 layout: page
 title: "Tools"
-description: "一只狗进化的重要工具"
-header-img: "img/cat.jpg"
+description: "Hunter's tool"
+header-img: "img/panda.png"
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "milestone"
-description: "一只狗的成就 "
+description: "Hunter's game"
 header-img: "img/color.jpg"
 ---
 

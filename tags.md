@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Tags"
-description: "一只狗的归类"  
+description: "Aim of a Hunter"  
 header-img: "img/books.jpg"  
 ---
 

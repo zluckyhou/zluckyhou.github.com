@@ -1,19 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "Hunter要做些什么 "
+description: "Fit for freedom "
 header-img: "img/about.jpg"
 ---
-###图灵测试（小狗版）
-
-我们来玩一个游戏，你问我三个问题，看看我是不是一只狗。
-
-开个玩笑，其实我并不是一只狗，真的，我认真的自我介绍一下：“汪汪汪.."
-
-你真的不是猫派来的间谍吗？
-
-###梦想
-
-- 我可以遇到一个好主人
-- 我能天天吃好狗粮 
-- 天天都有肉包子陪伴
+It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way--in short, the period was so. far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only. 

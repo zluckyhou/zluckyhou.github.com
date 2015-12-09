@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "你如何知道写下这些的不是一只狗呢"
+description: "这是什么"
 header-img: "img/about.jpg"
 ---
 ###图灵测试（小狗版）

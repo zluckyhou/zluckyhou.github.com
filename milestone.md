@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "milestone"
-description: "Hunter's game"
+description: "最美的风景在远方 "
 header-img: "img/color.jpg"
 ---
 

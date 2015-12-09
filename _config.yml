@@ -5,9 +5,9 @@ header-img: "img/gound.jpg"
 tagline: "zluckyH"  
 =======
 # Site settings
-title: Data Science Beginner
+title: Freedom Hunter
 header-img: "img/gound.jpg"
-tagline: "Norris"  
+tagline: "zluckyH"  
 >>>>>>> origin/master
 description: "A blog of my life"  
 baseurl: ""
@@ -16,16 +16,16 @@ url: "http://zluckyhou.github.io"
 # About/contact
 owner: 
   name: " zluckyH"
-  email: newnorris@gmail.com
-  bio: "资深肉包子爱好者"
+  email: zluckyhou@163.com
+  bio: "为自由而生 "
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/d.png
 
 #douban_username:  
-twitter_username: NewNoriis
-github_username: Norris-Niu
+twitter_username: zluckH
+github_username: zluckyhou
 facebook_username: 
 #weibo_username:  
 zhihu_username: Norris-new

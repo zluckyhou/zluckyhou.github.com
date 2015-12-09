@@ -10,7 +10,7 @@ url: "http://zluckyhou.github.io"
 owner: 
   name: " zluckyH"
   email: zluckyhou@163.com
-  bio: "为自由而生 "
+  bio: "Fit for freedom"
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
@@ -44,7 +44,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Norris"
+      author: "zluckyH"
       header-img: "img/black.jpg" # We don't want posts without a header image, that whould mean white on white
 
 

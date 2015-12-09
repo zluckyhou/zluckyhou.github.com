@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Archive"
-description: "一只能码字的狗多神奇"
+description: "Hunter's Archive"
 header-img: "img/left_rightbrain.jpg"
 ---
 

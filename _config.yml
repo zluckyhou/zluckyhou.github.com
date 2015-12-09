@@ -1,14 +1,14 @@
-# Site settings
-title: Data Science Beginner
-header-img: "img/code.jpg"
-tagline: "Norris"  
+﻿# Site settings
+title: Freedom Hunter
+header-img: "img/gound.jpg"
+tagline: "zluckyH"  
 description: "A blog of my life"  
 baseurl: ""
-url: "http://norris-niu.github.io"  
+url: "http://zluckyhou.github.io"  
 
 # About/contact
 owner: 
-  name: " Norris"
+  name: " zluckyH"
   email: newnorris@gmail.com
   bio: "资深肉包子爱好者"
 

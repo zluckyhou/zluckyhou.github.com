@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-﻿# Site settings
-title: Freedom Hunter
-header-img: "img/gound.jpg"
-tagline: "zluckyH"  
-=======
 # Site settings
 title: Freedom Hunter
 header-img: "img/gound.jpg"
 tagline: "zluckyH"  
->>>>>>> origin/master
 description: "A blog of my life"  
 baseurl: ""
 url: "http://zluckyhou.github.io"  

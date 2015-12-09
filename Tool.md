@@ -1,9 +1,9 @@
-﻿---
+---
 layout: page
 title: "Tools"
 description: "Hunter's tool"
 header-img: "img/panda.png"
-----
+---
 
 
 ### Rule

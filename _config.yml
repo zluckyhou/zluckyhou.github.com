@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 ﻿# Site settings
 title: Freedom Hunter
 header-img: "img/gound.jpg"
 tagline: "zluckyH"  
+=======
+# Site settings
+title: Data Science Beginner
+header-img: "img/gound.jpg"
+tagline: "Norris"  
+>>>>>>> origin/master
 description: "A blog of my life"  
 baseurl: ""
 url: "http://zluckyhou.github.io"  

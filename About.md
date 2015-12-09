@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "About"
-description: "这是什么"
-header-img: "img/panda.png"
+description: "Hunter要做些什么 "
+header-img: "img/about.jpg"
 ---
 ###图灵测试（小狗版）
 

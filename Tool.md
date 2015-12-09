@@ -2,7 +2,7 @@
 layout: page
 title: "Tools"
 description: "Hunter's tool"
-header-img: "img/cat.jpg"
+header-img: "img/eye.png"
 ---
 
 

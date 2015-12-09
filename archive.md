@@ -2,7 +2,7 @@
 layout: page
 title: "Archive"
 description: "Hunter's Archive"
-header-img: "img/left_rightbrain.jpg"
+header-img: "img/map.png"
 ---
 
 

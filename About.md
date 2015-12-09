@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "这是什么"
-header-img: "img/about.jpg"
+header-img: "img/panda.png"
 ---
 ###图灵测试（小狗版）
 

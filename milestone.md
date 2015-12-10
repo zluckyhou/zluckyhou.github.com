@@ -9,7 +9,7 @@ header-img: "img/stone.png"
 ###代表作：
 
 
-- [电影:勇敢的心](http://movie.douban.com/subject/1294639/?source=new_aladdin)
+- [勇敢的心](http://movie.douban.com/subject/1294639/?source=new_aladdin)
 
 - [《论猫狗合作之可能性》](http://www.zhihu.com)
 

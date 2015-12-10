@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Tags"
-description: "Aim of a Hunter"  
+description: "There are two sides to every story ... at least. "  
 header-img: "img/book.jpg"  
 ---
 

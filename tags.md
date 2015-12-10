@@ -2,7 +2,7 @@
 layout: page
 title: "Tags"
 description: "Aim of a Hunter"  
-header-img: "img/books.jpg"  
+header-img: "img/tag.jpg"  
 ---
 
 ###我的tags是这些有趣的东西：

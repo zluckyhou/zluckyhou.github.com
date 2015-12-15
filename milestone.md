@@ -11,6 +11,7 @@ header-img: "img/stone.png"
 
 
 - [对话Facebook人工智能实验室主任、深度学习专家Yann LeCun](http://www.infoq.com/cn/articles/interview-yann-lecun/)
+- [hadoop](https://www.zhihu.com/topic/19563390)
 
 
 

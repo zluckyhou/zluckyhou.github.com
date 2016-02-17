@@ -5,7 +5,8 @@ description: "There are two sides to every story ... at least. "
 header-img: "img/book.jpg"  
 ---
 
-###我的tags是这些有趣的东西：
+### 我的tags是这些有趣的东西：
+
 <br>
 
 <div id='tag_cloud'>
@@ -16,7 +17,7 @@ header-img: "img/book.jpg"
 
 <br>
 
-###下面这些就是更有趣的正文：
+### 下面这些就是更有趣的正文：
 
 <ul class="listing">
 {% for tag in site.tags %}

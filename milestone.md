@@ -17,8 +17,6 @@ header-img: "img/stone.png"
 - [超强教程：教你用Python语言分析引力波数据](http://www.ithome.com/html/it/206349.htm)
 
 
-####tell me why!!!
-
 
 
 

@@ -10,6 +10,7 @@ description: Page build warning
 昨天更新博客，收到一条提示邮件，内容是这样的：
 
 > Page build warning
+
 > The page build completed successfully, but returned the following warning:
 
 > Your CNAME file was ignored because this repository is automatically hosted from zluckyhou.github.io already. See [https://help.github.com/articles/setting-up-your-pages-site-repository/](https://help.github.com/articles/setting-up-your-pages-site-repository/)
@@ -28,10 +29,13 @@ description: Page build warning
 凌晨4点，收到github回复：
 
 > Hello -  
->    
+
 > Thanks for getting in touch!  The message is saying that CNAME files in  a repositories are only necessary for custom domains.  So you don't need to have a CNAME file that says "zluckyhou.github.io", you can delete the CNAME file.   
+
 > If you still have trouble, please let us know.   
+
 > Cheers,   
+
 > Robert   
 
 一万只草泥马奔腾啊有木有，原来只是需要删除CNAME文件即可，试了试果然没再收到提醒邮件，此事终于告一段落。

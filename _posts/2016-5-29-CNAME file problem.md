@@ -28,7 +28,7 @@ description: Page build warning
 凌晨4点，收到github回复：
 
 > Hello -  
->   
+> //
 > Thanks for getting in touch!  The message is saying that CNAME files in  a repositories are only necessary for custom domains.  So you don't need to have a CNAME file that says "zluckyhou.github.io", you can delete the CNAME file.   
 > If you still have trouble, please let us know.   
 > Cheers,   

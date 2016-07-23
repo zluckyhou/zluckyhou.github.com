@@ -1,28 +1,3 @@
----
-layout: post
-title: 如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？
-date: 2016-7-16
-categories: blog
-tags: [python]
-description: python科学计算
----
-
-听说python科学计算的`numbpy`和`pandas`特别厉害，于是想尝试一下，搜素知乎，发现了这篇问答：[如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？](https://www.zhihu.com/question/37180159)，顺藤摸瓜，发现了几个学习资料，暂且收集在这里。
-
-- [Python和数据科学的起步指南](http://python.jobbole.com/80853/)
-
-- [NumPy的详细教程](http://www.tuicool.com/articles/r2yyei)
-
-- [Scipy Lecture Notes](http://www.scipy-lectures.org/)
-
-- [10 Minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
-
-- [Pyplot tutorial](http://matplotlib.org/users/pyplot_tutorial.html)
-
-- [Seaborn: statistical data visualization](http://web.stanford.edu/~mwaskom/software/seaborn/index.html)
-
-ok，资料齐全，接下来开始学习。
-
 
 # NumPy 基础：数组和矢量计算
 
@@ -1381,14 +1356,4 @@ plt.imshow(plt.imread('red_elephant.png'))
 
 
 ![png](output_118_1.png)
-
-
-
-
-
-
-
-
-
-
 

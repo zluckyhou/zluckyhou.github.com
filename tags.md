@@ -2,7 +2,7 @@
 layout: page
 title: "Tags"
 description: "There are two sides to every story ... at least. "  
-header-img: "img/book.jpg"  
+header-img: "img/dog1.jpg"  
 ---
 
 ### 我的tags是这些有趣的东西：

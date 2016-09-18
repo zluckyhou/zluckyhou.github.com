@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "milestone"
-description: "最美的风景在远方 "
+description: "You Are Beautiful "
 header-img: "img/stone.png"
 ---
 

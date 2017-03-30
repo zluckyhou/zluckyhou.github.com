@@ -16,6 +16,8 @@ header-img: "img/stone.png"
 
 - [超强教程：教你用Python语言分析引力波数据](http://www.ithome.com/html/it/206349.htm)
 
+- [通信协议——Http、TCP、UDP ](http://www.cnblogs.com/xhwy/archive/2012/03/03/2378293.html)
+
 
 
 

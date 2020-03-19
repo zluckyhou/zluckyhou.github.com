@@ -5,32 +5,33 @@ description: "There are two sides to every story ... at least. "
 header-img: "img/dog1.jpg"  
 ---
 
-### 我的tags是这些有趣的东西：
+<h1 style="color:#6200EE">我的tags是这些有趣的东西：</h1>
 
 <br>
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="color:#2A6BEE">{{ tag[0] }}&nbsp;&nbsp;&nbsp;&nbsp;</a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="color:#2A6BEE">&nbsp;&nbsp;{{ tag[0] }}&nbsp;&nbsp;</a>
 {% endfor %}
 </div>
 
 <br>
 
-### 下面这些就是更有趣的正文：
+<h1 style="color:#6200EE">下面这些就是更有趣的正文:</h1>
+<HR>
 
 <ul class="listing">
-{% for tag in site.tags %}
+{% for tag in site.tags.reverse() %}
   <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
 {% for post in tag[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-  nbsp;&nbsp;
-  <a href="{{ post.url }}" title="{{ post.title }}" style="color:#2A6BEE">{{ post.title }}</a>
+  
+  <a href="{{ post.url }}" title="{{ post.title }}" style="color:#2A6BEE">nbsp;&nbsp;{{ post.title }}</a>
   </li>
 {% endfor %}
 <HR>
-<br />
+<!-- <br /> -->
 {% endfor %}
 </ul>
 

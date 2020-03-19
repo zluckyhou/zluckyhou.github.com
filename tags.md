@@ -11,7 +11,8 @@ header-img: "img/dog1.jpg"
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="color:#1EB2A6">&nbsp;&nbsp;{{ tag[0] }}&nbsp;&nbsp;</a>
+
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="color:#1EB2A6;font-size:{{ tag[1].size }}">&nbsp;&nbsp;{{ tag[0] }}&nbsp;&nbsp;</a>
 {% endfor %}
 </div>
 

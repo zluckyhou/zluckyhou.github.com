@@ -22,8 +22,8 @@ header-img: "img/dog1.jpg"
 
 <ul class="listing">
 {% for tag in site.tags %}
-  <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
-{% for post in tag[1] %}
+  <li class="listing-seperator" id="{{ tag[0] }}"><p style="color:#1EB2A6"><b>{{ tag[0] }}</b></p></li>
+{% for post in tag[1].reverse() %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
   &nbsp;&nbsp;

@@ -55,6 +55,7 @@ bing_verify:
 
 # Links to include in footer navigation
 
-
+url: "https://zluckyhou.github.io/" # the base hostname & protocol for your site
 plugins:
- - jekyll-sitemap    #jekyll的站点地图插件，用于生成站点地图
+  - jekyll-sitemap
+  - jekyll-paginate

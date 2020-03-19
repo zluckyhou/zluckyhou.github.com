@@ -11,7 +11,7 @@ header-img: "img/dog1.jpg"
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="color:#2A6BEE">&nbsp;&nbsp;{{ tag[0] }}&nbsp;&nbsp;</a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="color:#1EB2A6">&nbsp;&nbsp;{{ tag[0] }}&nbsp;&nbsp;</a>
 {% endfor %}
 </div>
 
@@ -21,13 +21,13 @@ header-img: "img/dog1.jpg"
 <HR>
 
 <ul class="listing">
-{% for tag in site.tags.reverse() %}
+{% for tag in site.tags %}
   <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
 {% for post in tag[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
   &nbsp;&nbsp;
-  <a href="{{ post.url }}" title="{{ post.title }}" style="color:#2A6BEE">{{ post.title }}</a>
+  <a href="{{ post.url }}" title="{{ post.title }}" style="color:#1EB2A6">{{ post.title }}</a>
   </li>
 {% endfor %}
 <HR>
@@ -35,7 +35,7 @@ header-img: "img/dog1.jpg"
 {% endfor %}
 </ul>
 
-<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
+<script src="/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
 <script language="javascript">
 $.fn.tagcloud.defaults = {
     size: {start: 1, end: 1, unit: 'em'},

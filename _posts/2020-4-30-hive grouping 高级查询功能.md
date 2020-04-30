@@ -19,6 +19,7 @@ presto 也有类似的查询功能，相见：[presto groupby高级查询](https
 
 ```
 -- 查询position和action组合的pv
+
 SELECT POSITION,
        action,
        GROUPING__ID,

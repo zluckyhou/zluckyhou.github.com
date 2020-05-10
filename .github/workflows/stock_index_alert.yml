@@ -8,6 +8,8 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  schedule:
+    - cron: '*/5 * * * 1-5'
 
 jobs:
   build:
@@ -29,5 +31,5 @@ jobs:
         pip install tushare
     - name: get real time stock info and 4 ma index 
       run: |
-        python ./python_scripts/real_time_stock_info.py ${{tushare_token}}
+        python ./python_scripts/real_time_stock_info.py ${{secrets.tushare_token}}
 

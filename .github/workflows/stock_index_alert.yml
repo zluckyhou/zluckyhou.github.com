@@ -32,4 +32,11 @@ jobs:
     - name: get real time stock info and 4 ma index 
       run: |
         python ./python_scripts/real_time_stock_info.py ${{secrets.tushare_token}}
-
+    - name: sync github
+      run: |
+        git config --global user.email ${{secrets.mygithub}}
+        git config --global user.name ${{secrets.mygithub_name}}
+        git pull
+        git add *
+        git commit -m 'sync github'
+        git push

@@ -28,6 +28,8 @@ jobs:
         python ./python_scripts/test_location.py
     - name: sync github
       run: |
+        git config --global user.email ${{mygithub}}
+        git config --global user.name ${{mygithub_name}}
         git pull
         git add *
         git commit -m 'sync github'

@@ -23,7 +23,7 @@ pro = ts.pro_api(tushare_token)
 
 # ## 定义股票价格四线预警类
 
-# In[89]:
+# In[110]:
 
 
 class stock_alert(object):
@@ -84,7 +84,7 @@ class stock_alert(object):
         ma_content = '|'.join([f'`{x:.2f}`' if y else f'{x:.2f}' for (x,y) in list(zip(ma_ls,flag_ls))])
 #         mark_ls = ['最新价在此上方' if flag  else '最新价在此下方' for flag in flag_ls]
 #         print_info = f'''{real_info["time"]}|{real_info["name"]}({real_info["code"]})|{real_info["price"]}|处于{sum(flag_ls)}线上方|<font color={mark_ls[0]}>{ma_info["ma21"]:.2f}</font>|<font color={mark_ls[1]}>{ma_info["ma60"]:.2f}</font>|<font color={mark_ls[2]}>{ma_info["ma21_week"]:.2f}</font>|<font color={mark_ls[3]}>{ma_info["ma60_week"]:.2f}</font>'''
-        print_info = f'{real_info["time"]}|{real_info["name"]}({real_info["code"]})|`{real_info["price"]}`|处于`{sum(flag_ls)}`线上方|{ma_content}'
+        print_info = f'{real_info["time"]}|{real_info["name"]}|{real_info["code"]}|`{real_info["price"]}`|处于`{sum(flag_ls)}`线上方|{ma_content}'
 #         print_info = f'{real_info["time"]}, {real_info["name"]}({real_info["code"]}), 最新价{real_info["price"]}, 处于{sum(flag_ls)}线上方\n\n21日线|60日线|21周线|60周线\n---|---|---|---\n{ma_info["ma21"]:.2f}|{ma_info["ma60"]:.2f}|{ma_info["ma21_week"]:.2f}|{ma_info["ma60_week"]:.2f}'
         return print_info
         
@@ -111,7 +111,7 @@ class stock_alert(object):
 #     requests.get(url,params = params)
 
 
-# In[90]:
+# In[111]:
 
 
 mystocks = ['300136.SZ','300618.SZ','300496.SZ','603019.SH','603611.SH','600446.SH','603799.SH','300348.SZ','300377.SZ']
@@ -123,21 +123,21 @@ for stock in mystocks:
     msg_ls.append(print_info)
 
 
-# In[91]:
+# In[112]:
 
 
-header = '时间|名称|最新价|4线位置|21日线|60日线|21周线|60周线\n---|---|---|---|---|---|---|---'
+header = '时间|名称|代码|最新价|4线位置|21日线|60日线|21周线|60周线\n---|---|---|---|---|---|---|---|---'
 
 table = header + '\n' + '\n'.join(msg_ls)
 
 
-# In[92]:
+# In[113]:
 
 
 print(table)
 
 
-# In[93]:
+# In[114]:
 
 
 blog_title = '''
@@ -152,7 +152,7 @@ description: stock index alert
 '''
 
 
-# In[94]:
+# In[115]:
 
 
 blog_paragraph = '''
@@ -162,7 +162,7 @@ blog_paragraph = '''
 '''
 
 
-# In[101]:
+# In[116]:
 
 
 blog_tile = '''
@@ -207,10 +207,4 @@ blog_name = '2020-5-10-股价四线法则实时数据.md'
 
 with open(path + blog_name,'w') as f:
     f.write(blog)
-
-
-# In[ ]:
-
-
-
 

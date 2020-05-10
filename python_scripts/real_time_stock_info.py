@@ -193,7 +193,7 @@ blog = f'{blog_title}\n{blog_paragraph}\n{table}\n{blog_tile}'.strip()
 # In[104]:
 
 
-path = '../_posts/'
+path = './_posts/'
 
 
 # In[105]:

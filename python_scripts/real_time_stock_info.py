@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[1]:
 
 
 import datetime
@@ -11,7 +11,7 @@ import sys
 import requests
 
 
-# In[3]:
+# In[2]:
 
 
 tushare_token = sys.argv[1]
@@ -23,7 +23,7 @@ pro = ts.pro_api(tushare_token)
 
 # ## 定义股票价格四线预警类
 
-# In[110]:
+# In[22]:
 
 
 class stock_alert(object):
@@ -35,7 +35,9 @@ class stock_alert(object):
     def get_real_info(self):
         df_real = ts.get_realtime_quotes(self.stock_code.split('.')[0])
         df_real['price'] = df_real['price'].astype(float)
+        df_real['pre_close'] = df_real['pre_close'].astype(float)
         real_info = df_real.iloc[0].to_dict()
+        real_info['return'] = (real_info['price'] - real_info['pre_close'])/real_info['pre_close']
         df_real['date'] = pd.to_datetime(df_real['date'])
         df_real['date_week'] = df_real['date'].apply(lambda x:x + datetime.timedelta(4 - x.weekday()))
         data_real = df_real[['date','date_week','price']]
@@ -84,7 +86,7 @@ class stock_alert(object):
         ma_content = '|'.join([f'`{x:.2f}`' if y else f'{x:.2f}' for (x,y) in list(zip(ma_ls,flag_ls))])
 #         mark_ls = ['最新价在此上方' if flag  else '最新价在此下方' for flag in flag_ls]
 #         print_info = f'''{real_info["time"]}|{real_info["name"]}({real_info["code"]})|{real_info["price"]}|处于{sum(flag_ls)}线上方|<font color={mark_ls[0]}>{ma_info["ma21"]:.2f}</font>|<font color={mark_ls[1]}>{ma_info["ma60"]:.2f}</font>|<font color={mark_ls[2]}>{ma_info["ma21_week"]:.2f}</font>|<font color={mark_ls[3]}>{ma_info["ma60_week"]:.2f}</font>'''
-        print_info = f'{real_info["time"]}|{real_info["name"]}|{real_info["code"]}|`{real_info["price"]}`|处于`{sum(flag_ls)}`线上方|{ma_content}'
+        print_info = f'{real_info["time"]}|{real_info["name"]}|{real_info["code"]}|`{real_info["price"]}`|{real_info["return"]:.2%}|处于`{sum(flag_ls)}`线上方|{ma_content}'
 #         print_info = f'{real_info["time"]}, {real_info["name"]}({real_info["code"]}), 最新价{real_info["price"]}, 处于{sum(flag_ls)}线上方\n\n21日线|60日线|21周线|60周线\n---|---|---|---\n{ma_info["ma21"]:.2f}|{ma_info["ma60"]:.2f}|{ma_info["ma21_week"]:.2f}|{ma_info["ma60_week"]:.2f}'
         return print_info
         
@@ -92,7 +94,7 @@ class stock_alert(object):
 
 # # 写入blog
 
-# In[283]:
+# In[4]:
 
 
 # wechatkey = sys.argv[2]
@@ -111,7 +113,7 @@ class stock_alert(object):
 #     requests.get(url,params = params)
 
 
-# In[111]:
+# In[23]:
 
 
 mystocks = ['300136.SZ','300618.SZ','300496.SZ','603019.SH','603611.SH','600446.SH','603799.SH','300348.SZ','300377.SZ']
@@ -123,15 +125,15 @@ for stock in mystocks:
     msg_ls.append(print_info)
 
 
-# In[112]:
+# In[24]:
 
 
-header = '时间|名称|代码|最新价|4线位置|21日线|60日线|21周线|60周线\n---|---|---|---|---|---|---|---|---'
+header = '时间|名称|代码|最新价|涨跌幅|4线位置|21日线|60日线|21周线|60周线\n---|---|---|---|---|---|---|---|---'
 
 table = header + '\n' + '\n'.join(msg_ls)
 
 
-# In[113]:
+# In[25]:
 
 
 print(table)

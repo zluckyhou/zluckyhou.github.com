@@ -25,9 +25,9 @@ import tqdm
 # In[99]:
 
 
-# tushare_token = sys.argv[1]
+tushare_token = sys.argv[1]
 
-tushare_token = 'd4815851268468e0b1ec29de65b0d31d8e0d3e0c04a1d89fe04a0120'
+# tushare_token = 'd4815851268468e0b1ec29de65b0d31d8e0d3e0c04a1d89fe04a0120'
 
 ts.set_token(tushare_token)
 
@@ -151,12 +151,6 @@ for stock in tqdm.tqdm(stocks_szc['ts_code']):
 
 
 pick_stocks = [i for i in stocks_szc_ma if i[0] >= 3 and abs(i[1]) <= 0.1]
-
-
-# In[159]:
-
-
-len(pick_stocks)
 
 
 # In[164]:

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[138]:
+# In[5]:
 
 
 import datetime
@@ -12,7 +12,7 @@ import requests
 import tqdm
 
 
-# In[3]:
+# In[6]:
 
 
 # # tushare_token = sys.argv[1]
@@ -22,7 +22,7 @@ import tqdm
 # pro = ts.pro_api(tushare_token)
 
 
-# In[99]:
+# In[7]:
 
 
 tushare_token = sys.argv[1]
@@ -38,7 +38,7 @@ pro = ts.pro_api(tushare_token)
 
 # ## 使用4线发现好股票
 
-# In[141]:
+# In[25]:
 
 
 class stock_ma(object):
@@ -51,10 +51,11 @@ class stock_ma(object):
         df_real = ts.get_realtime_quotes(self.stock_code.split('.')[0])
         df_real['price'] = df_real['price'].astype(float)
         df_real['pre_close'] = df_real['pre_close'].astype(float)
+        df_real['date'] =  df_real['date'] + ' ' + df_real['time']
         real_info = df_real.iloc[0].to_dict()
         real_info['return'] = (real_info['price'] - real_info['pre_close'])/real_info['pre_close']
         df_real['date'] = pd.to_datetime(df_real['date'])
-        df_real['date_week'] = df_real['date'].apply(lambda x:x + datetime.timedelta(4 - x.weekday()))
+        df_real['date_week'] = df_real['date'].apply(lambda x:x.date() + datetime.timedelta(4 - x.weekday()))
         data_real = df_real[['date','date_week','price']]
         data_real.columns = ['date','date_week','close']
         return real_info,data_real
@@ -68,7 +69,7 @@ class stock_ma(object):
         df = ts.pro_bar(ts_code=self.stock_code, adj='qfq', start_date=start_date, end_date=end_date,ma=[5, 20, 50])
         df['date'] = df['trade_date'].apply(lambda x:datetime.datetime.strptime(x,'%Y%m%d'))
         # 添加当周周五，计算周均线
-        df['date_week'] = df['date'].apply(lambda x:x + datetime.timedelta(4 - x.weekday()))
+        df['date_week'] = df['date'].apply(lambda x:x.date() + datetime.timedelta(4 - x.weekday()))
         data_history = df.sort_values(by=['date'],ascending=False).loc[1:][['date','date_week','close']]
         return data_history
     
@@ -78,6 +79,13 @@ class stock_ma(object):
         data_history = self.get_history_info()
         data = pd.concat([data_real,data_history])
         return data
+    
+    def calc_position(self,close,ma21,ma60,ma21_week,ma60_week):
+        ma_ls = [ma21,ma60,ma21_week,ma60_week]
+        flag_ls = [close >= i for i in ma_ls]
+        price_dis = sum([(close-i)/i for i in ma_ls])/4
+        ma_nums = sum(flag_ls)
+        return price_dis,ma_nums
     
     # 计算5日、21日、60日、5周线、21周线、60周线
     def calc_ma(self):
@@ -89,29 +97,35 @@ class stock_ma(object):
         ma60_week = data.groupby('date_week')['close'].first().rolling(60).mean().to_frame(name = 'ma60_week').reset_index()
         data_21week = pd.merge(data,ma21_week,on='date_week')
         data_60week = pd.merge(data_21week,ma60_week)
+        data_60week['price_dis'] =  data_60week.apply(lambda row:self.calc_position(row['close'],row['ma21'],row['ma60'],row['ma21_week'],row['ma60_week'])[0],axis=1)
+        data_60week['ma_nums'] =  data_60week.apply(lambda row:self.calc_position(row['close'],row['ma21'],row['ma60'],row['ma21_week'],row['ma60_week'])[1],axis=1)
+        data_60week['ma_diff'] = data_60week['ma_nums'].diff(-1) # 计算4线位置的变动，例如昨天3线，今天4线，则得到1，表示增加1线
+        data_60week['return_3days'] = data_60week['close'].diff(-3)/data_60week['close'] # 3日收益率
+        data_60week['return_5days'] = data_60week['close'].diff(-5)/data_60week['close'] # 5日收益率
         return data_60week
     
-    # 输出最新价及4线
+    
+    # 输出最新价及4线信息
     def print_info(self):
-        data_60week = self.calc_ma()
-        real_info,data_real = self.get_real_info()
-        ma_info = data_60week.iloc[0].to_dict()
+        data = self.calc_ma()
+        ma_info = data.iloc[0]
         ma_ls = [ma_info['ma21'],ma_info['ma60'],ma_info['ma21_week'],ma_info['ma60_week']]
-        flag_ls = [float(real_info['price']) >= i for i in ma_ls]
-        price_dis = sum([(real_info['price']-i)/i for i in ma_ls])/4
+        flag_ls = [float(ma_info['close']) >= i for i in ma_ls]
         ma_content = '|'.join([f'`{x:.2f}`' if y else f'{x:.2f}' for (x,y) in list(zip(ma_ls,flag_ls))])
+        real_info,data_real = self.get_real_info()
+        stock_url = "https://xueqiu.com/S/" + "".join(self.stock_code.split(".")[::-1])
 #         mark_ls = ['最新价在此上方' if flag  else '最新价在此下方' for flag in flag_ls]
 #         print_info = f'''{real_info["time"]}|{real_info["name"]}({real_info["code"]})|{real_info["price"]}|处于{sum(flag_ls)}线上方|<font color={mark_ls[0]}>{ma_info["ma21"]:.2f}</font>|<font color={mark_ls[1]}>{ma_info["ma60"]:.2f}</font>|<font color={mark_ls[2]}>{ma_info["ma21_week"]:.2f}</font>|<font color={mark_ls[3]}>{ma_info["ma60_week"]:.2f}</font>'''
-        print_info = f'{real_info["time"]}|{real_info["name"]}|{real_info["code"]}|`{real_info["price"]}`|{real_info["return"]:.2%}|处于`{sum(flag_ls)}`线上方|{price_dis:.2%}|{ma_content}'
+        print_info = f'{real_info["time"]}|{real_info["name"]}|[{real_info["code"]}]({stock_url})|`{real_info["price"]}`|{real_info["return"]:.2%}|{ma_info["return_3days"]:.2%}|{ma_info["return_5days"]:.2%}|处`{sum(flag_ls)}`线上方|{int(ma_info["ma_diff"])}|{ma_info["price_dis"]:.2%}|{ma_content}'
 #         print_info = f'{real_info["time"]}, {real_info["name"]}({real_info["code"]}), 最新价{real_info["price"]}, 处于{sum(flag_ls)}线上方\n\n21日线|60日线|21周线|60周线\n---|---|---|---\n{ma_info["ma21"]:.2f}|{ma_info["ma60"]:.2f}|{ma_info["ma21_week"]:.2f}|{ma_info["ma60_week"]:.2f}'
         ma_nums = sum(flag_ls)
-        return ma_nums,price_dis,print_info
+        return ma_nums,ma_info["price_dis"],print_info,ma_info["ma_diff"]
         
 
 
 # ### 获取当前股票列表
 
-# In[153]:
+# In[9]:
 
 
 data = pro.stock_basic(exchange='', list_status='L', fields='ts_code,symbol,name,area,industry,list_date')
@@ -135,7 +149,7 @@ stocks_szc = filter_data[szc_mark&industry_mark].reset_index()
 
 # ### 获取所有创业板股票一段时间内的数据
 
-# In[155]:
+# In[12]:
 
 
 # 创业板股票
@@ -147,27 +161,34 @@ for stock in tqdm.tqdm(stocks_szc['ts_code']):
     stocks_szc_ma.append(stock_ma(stock).print_info())
 
 
-# In[158]:
+# In[13]:
 
 
-pick_stocks = [i for i in stocks_szc_ma if i[0] >= 3 and abs(i[1]) <= 0.1]
+# 选择当天爬上4线或3线，并且当前价格距离4线不超过10%的股票
+pick_stocks = [i for i in stocks_szc_ma if i[0] >= 3 and i[1] <= 0.1 and i[3]>0]
 
 
-# In[164]:
+# In[14]:
 
 
 msg_ls = [i[2] for i in pick_stocks]
 
 
-# In[165]:
+# In[17]:
 
 
-header = '时间|名称|代码|最新价|涨跌幅|4线位置|距离|21日线|60日线|21周线|60周线\n---|---|---|---|---|---|---|---|---'
+header = '时间|名称|代码|最新价|当日涨跌|3日涨跌|5日涨跌|位置|变动|距离|21日线|60日线|21周线|60周线\n---|---|---|---|---|---|---|---|---'
 
 table = header + '\n' + '\n'.join(msg_ls)
 
 
-# In[156]:
+# In[22]:
+
+
+print(table)
+
+
+# In[18]:
 
 
 blog_title = '''
@@ -182,7 +203,7 @@ description: find good stock
 '''
 
 
-# In[172]:
+# In[19]:
 
 
 blog_paragraph = '''
@@ -194,7 +215,7 @@ blog_paragraph = '''
 '''
 
 
-# In[168]:
+# In[20]:
 
 
 blog_tile = '''
@@ -216,7 +237,7 @@ blog_tile = '''
 '''
 
 
-# In[169]:
+# In[21]:
 
 
 blog = f'{blog_title}\n{blog_paragraph}\n{table}\n{blog_tile}'.strip()

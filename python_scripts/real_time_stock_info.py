@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[5]:
 
 
 import datetime
@@ -11,11 +11,11 @@ import sys
 import requests
 
 
-# In[3]:
+# In[6]:
 
 
-# tushare_token = sys.argv[1]
-tushare_token = 'c0641675f20fa1b0c0787235e132a60a1242a89bdf953952773d71e5'
+tushare_token = sys.argv[1]
+# tushare_token = 'c0641675f20fa1b0c0787235e132a60a1242a89bdf953952773d71e5'
 ts.set_token(tushare_token)
 
 pro = ts.pro_api(tushare_token)
@@ -23,7 +23,7 @@ pro = ts.pro_api(tushare_token)
 
 # ## 定义股票价格四线预警类
 
-# In[17]:
+# In[77]:
 
 
 class stock_alert(object):
@@ -36,10 +36,11 @@ class stock_alert(object):
         df_real = ts.get_realtime_quotes(self.stock_code.split('.')[0])
         df_real['price'] = df_real['price'].astype(float)
         df_real['pre_close'] = df_real['pre_close'].astype(float)
+        df_real['date'] =  df_real['date'] + ' ' + df_real['time']
         real_info = df_real.iloc[0].to_dict()
         real_info['return'] = (real_info['price'] - real_info['pre_close'])/real_info['pre_close']
         df_real['date'] = pd.to_datetime(df_real['date'])
-        df_real['date_week'] = df_real['date'].apply(lambda x:x + datetime.timedelta(4 - x.weekday()))
+        df_real['date_week'] = df_real['date'].apply(lambda x:x.date() + datetime.timedelta(4 - x.weekday()))
         data_real = df_real[['date','date_week','price']]
         data_real.columns = ['date','date_week','close']
         return real_info,data_real
@@ -53,7 +54,7 @@ class stock_alert(object):
         df = ts.pro_bar(ts_code=self.stock_code, adj='qfq', start_date=start_date, end_date=end_date,ma=[5, 20, 50])
         df['date'] = df['trade_date'].apply(lambda x:datetime.datetime.strptime(x,'%Y%m%d'))
         # 添加当周周五，计算周均线
-        df['date_week'] = df['date'].apply(lambda x:x + datetime.timedelta(4 - x.weekday()))
+        df['date_week'] = df['date'].apply(lambda x:x.date() + datetime.timedelta(4 - x.weekday()))
         data_history = df.sort_values(by=['date'],ascending=False).loc[1:][['date','date_week','close']]
         return data_history
     
@@ -63,6 +64,13 @@ class stock_alert(object):
         data_history = self.get_history_info()
         data = pd.concat([data_real,data_history])
         return data
+    
+    def calc_position(self,close,ma21,ma60,ma21_week,ma60_week):
+        ma_ls = [ma21,ma60,ma21_week,ma60_week]
+        flag_ls = [close >= i for i in ma_ls]
+        price_dis = sum([(close-i)/i for i in ma_ls])/4
+        ma_nums = sum(flag_ls)
+        return price_dis,ma_nums
     
     # 计算5日、21日、60日、5周线、21周线、60周线
     def calc_ma(self):
@@ -74,24 +82,40 @@ class stock_alert(object):
         ma60_week = data.groupby('date_week')['close'].first().rolling(60).mean().to_frame(name = 'ma60_week').reset_index()
         data_21week = pd.merge(data,ma21_week,on='date_week')
         data_60week = pd.merge(data_21week,ma60_week)
+        data_60week['price_dis'] =  data_60week.apply(lambda row:self.calc_position(row['close'],row['ma21'],row['ma60'],row['ma21_week'],row['ma60_week'])[0],axis=1)
+        data_60week['ma_nums'] =  data_60week.apply(lambda row:self.calc_position(row['close'],row['ma21'],row['ma60'],row['ma21_week'],row['ma60_week'])[1],axis=1)
+        data_60week['ma_diff'] = data_60week['ma_nums'].diff(-1) # 计算4线位置的变动，例如昨天3线，今天4线，则得到1，表示增加1线
         return data_60week
     
-    # 输出最新价及4线
+    
+    # 输出最新价及4线信息
     def print_info(self):
-        data_60week = self.calc_ma()
-        real_info,data_real = self.get_real_info()
-        ma_info = data_60week.iloc[0].to_dict()
+        data = self.calc_ma()
+        ma_info = data.iloc[0]
         ma_ls = [ma_info['ma21'],ma_info['ma60'],ma_info['ma21_week'],ma_info['ma60_week']]
-        flag_ls = [float(real_info['price']) >= i for i in ma_ls]
-        price_dis = sum([(real_info['price']-i)/i for i in ma_ls])/4
+        flag_ls = [float(ma_info['close']) >= i for i in ma_ls]
         ma_content = '|'.join([f'`{x:.2f}`' if y else f'{x:.2f}' for (x,y) in list(zip(ma_ls,flag_ls))])
+        real_info,data_real = self.get_real_info()
 #         mark_ls = ['最新价在此上方' if flag  else '最新价在此下方' for flag in flag_ls]
 #         print_info = f'''{real_info["time"]}|{real_info["name"]}({real_info["code"]})|{real_info["price"]}|处于{sum(flag_ls)}线上方|<font color={mark_ls[0]}>{ma_info["ma21"]:.2f}</font>|<font color={mark_ls[1]}>{ma_info["ma60"]:.2f}</font>|<font color={mark_ls[2]}>{ma_info["ma21_week"]:.2f}</font>|<font color={mark_ls[3]}>{ma_info["ma60_week"]:.2f}</font>'''
-        print_info = f'{real_info["time"]}|{real_info["name"]}|{real_info["code"]}|`{real_info["price"]}`|{real_info["return"]:.2%}|处`{sum(flag_ls)}`线上方|{price_dis:.2%}|{ma_content}'
+        print_info = f'{real_info["time"]}|{real_info["name"]}|{real_info["code"]}|`{real_info["price"]}`|{real_info["return"]:.2%}|处`{sum(flag_ls)}`线上方|{int(ma_info["ma_diff"])}|{ma_info["price_dis"]:.2%}|{ma_content}'
 #         print_info = f'{real_info["time"]}, {real_info["name"]}({real_info["code"]}), 最新价{real_info["price"]}, 处于{sum(flag_ls)}线上方\n\n21日线|60日线|21周线|60周线\n---|---|---|---\n{ma_info["ma21"]:.2f}|{ma_info["ma60"]:.2f}|{ma_info["ma21_week"]:.2f}|{ma_info["ma60_week"]:.2f}'
         ma_nums = sum(flag_ls)
         return print_info
         
+
+
+# In[87]:
+
+
+# #测试代码
+# stock ='300136.SZ'
+
+# df = stock_alert(stock).calc_ma()
+
+# print_info = stock_alert(stock).print_info()
+
+# print(print_info)
 
 
 # # 写入blog
@@ -115,7 +139,7 @@ class stock_alert(object):
 #     requests.get(url,params = params)
 
 
-# In[14]:
+# In[83]:
 
 
 mystocks = ['300136.SZ','300618.SZ','300496.SZ','603019.SH','603611.SH','600446.SH','603799.SH','300348.SZ','300377.SZ']
@@ -127,15 +151,15 @@ for stock in mystocks:
     msg_ls.append(print_info)
 
 
-# In[15]:
+# In[86]:
 
 
-header = '时间|名称|代码|最新价|涨跌幅|位置|距离|21日线|60日线|21周线|60周线\n---|---|---|---|---|---|---|---|---'
+header = '时间|名称|代码|最新价|涨跌幅|位置|变动|距离|21日线|60日线|21周线|60周线\n---|---|---|---|---|---|---|---|---'
 
 table = header + '\n' + '\n'.join(msg_ls)
 
 
-# In[16]:
+# In[85]:
 
 
 print(table)

@@ -145,7 +145,7 @@ class stock_alert(object):
 # In[83]:
 
 
-mystocks = ['300136.SZ','300618.SZ','300496.SZ','603019.SH','603611.SH','600446.SH','603799.SH','300348.SZ','300377.SZ']
+mystocks = ['300136.SZ','300618.SZ','300496.SZ','603019.SH','603611.SH','603799.SH','300348.SZ','300494.SZ','600446.SH','300377.SZ']
 
 msg_ls = []
 for stock in mystocks:

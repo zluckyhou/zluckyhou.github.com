@@ -12,10 +12,9 @@ import requests
 import tqdm
 import time
 
-import multiprocessing
-
-import re
-import akshare as ak
+# import multiprocessing
+# import re
+# import akshare as ak
 
 
 # In[6]:
@@ -33,7 +32,7 @@ import akshare as ak
 
 tushare_token = sys.argv[1]
 
-tushare_token = 'd4815851268468e0b1ec29de65b0d31d8e0d3e0c04a1d89fe04a0120'
+# tushare_token = 'd4815851268468e0b1ec29de65b0d31d8e0d3e0c04a1d89fe04a0120'
 
 ts.set_token(tushare_token)
 

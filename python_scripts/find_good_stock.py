@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[5]:
+# In[1]:
 
 
 import datetime
@@ -10,6 +10,12 @@ import tushare as ts
 import sys
 import requests
 import tqdm
+import time
+
+import multiprocessing
+
+import re
+import akshare as ak
 
 
 # In[6]:
@@ -22,12 +28,12 @@ import tqdm
 # pro = ts.pro_api(tushare_token)
 
 
-# In[7]:
+# In[2]:
 
 
 tushare_token = sys.argv[1]
 
-# tushare_token = 'd4815851268468e0b1ec29de65b0d31d8e0d3e0c04a1d89fe04a0120'
+tushare_token = 'd4815851268468e0b1ec29de65b0d31d8e0d3e0c04a1d89fe04a0120'
 
 ts.set_token(tushare_token)
 
@@ -38,7 +44,7 @@ pro = ts.pro_api(tushare_token)
 
 # ## 使用4线发现好股票
 
-# In[25]:
+# In[3]:
 
 
 class stock_ma(object):
@@ -125,7 +131,7 @@ class stock_ma(object):
 
 # ### 获取当前股票列表
 
-# In[9]:
+# In[43]:
 
 
 data = pro.stock_basic(exchange='', list_status='L', fields='ts_code,symbol,name,area,industry,list_date')
@@ -138,18 +144,17 @@ min_date = datetime.datetime.today().date() + datetime.timedelta(-500)
 
 filter_data = data[data['ipo_date'].apply(lambda x:x <= min_date)] 
 
-# 中小板股票
-stocks_sz = filter_data[filter_data['ts_code'].apply(lambda x:x.startswith('0'))]
 
-# 创业板股票
-szc_mark = filter_data['ts_code'].apply(lambda x:x.startswith('3'))
-industry_mark = filter_data['industry'].isin(['软件服务','元器件','通信设备','半导体','电器仪表','互联网','生物制药','IT设备','化工原料'])
-stocks_szc = filter_data[szc_mark&industry_mark].reset_index()
+# 中小板或创业板股票
+szc_mark = filter_data['ts_code'].apply(lambda x:x.startswith('3') or x.startswith('0'))
+# industry_mark = filter_data['industry'].isin(['软件服务','元器件','通信设备','半导体','电器仪表','互联网','生物制药','IT设备','化工原料'])
+# stocks_szc = filter_data[szc_mark&industry_mark].reset_index()
+stocks_szc = filter_data[szc_mark].reset_index()
 
 
-# ### 获取所有创业板股票一段时间内的数据
+# ### 获取所有创业板股票一段时间内的数据-for loop
 
-# In[12]:
+# In[32]:
 
 
 # 创业板股票
@@ -161,20 +166,43 @@ for stock in tqdm.tqdm(stocks_szc['ts_code']):
     stocks_szc_ma.append(stock_ma(stock).print_info())
 
 
-# In[13]:
+# ### 获取所有中小板股票一段时间内的数据-多进程
+
+# In[48]:
 
 
-# 选择当天爬上4线或3线，并且当前价格距离4线不超过10%的股票
-pick_stocks = [i for i in stocks_szc_ma if i[0] >= 3 and i[1] <= 0.1 and i[3]>0]
+# cpu_count = multiprocessing.cpu_count()
+
+# def func(stock):
+#     try:
+#         res = stock_ma(stock).print_info()
+#     except Exception as e:
+#         res = ''
+#     return res
+
+# start = time.time()
+# with multiprocessing.Pool(cpu_count) as p:
+#     stocks_szc_ma = p.map(func,stocks_szc['ts_code'])
+# end = time.time()
+# time_span = end-start
+# print('耗时：{}秒'.format(time_span))
 
 
-# In[14]:
+# ### 选择当天爬上4线或3线，并且当前价格距离4线不超过10%的股票
+
+# In[56]:
+
+
+pick_stocks = [i for i in stocks_szc_ma if i!='' and  i[0] >= 3 and i[1] <= 0.1 and i[3]>0]
+
+
+# In[57]:
 
 
 msg_ls = [i[2] for i in pick_stocks]
 
 
-# In[17]:
+# In[58]:
 
 
 header = '时间|名称|代码|最新价|当日|3日|5日|位置|变动|距离|ma21|ma60|ma21w|ma60w\n---|---|---|---|---|---|---|---|---'
@@ -182,7 +210,29 @@ header = '时间|名称|代码|最新价|当日|3日|5日|位置|变动|距离|m
 table = header + '\n' + '\n'.join(msg_ls)
 
 
-# In[22]:
+# In[61]:
+
+
+# # 选取最近一次收入增长率 >20%的股票
+
+# pick_stocks_ls = [re.findall('\[(\d+)\]',i.split('|')[2])[0] for i in msg_ls]
+
+# def get_growth_rate(stock):
+#     stock_financial_analysis_indicator_df = ak.stock_financial_analysis_indicator(stock=stock)
+#     # 获取最近一次主营业务收入增长率
+#     growth_rate =  stock_financial_analysis_indicator_df['主营业务收入增长率(%)'].iloc[0]
+#     return growth_rate
+
+# growth_rate_ls = [get_growth_rate(stock) for stock in pick_stocks_ls]
+
+# msg_ls = [i+'|`{:.2%}`'.format(float(j)/100) for (i,j) in list(zip(msg_ls,growth_rate_ls)) if float(j) >20]
+
+# header = '时间|名称|代码|最新价|当日|3日|5日|位置|变动|距离|ma21|ma60|ma21w|ma60w|GR\n---|---|---|---|---|---|---|---|---|---'
+
+# table = header + '\n' + '\n'.join(msg_ls)
+
+
+# In[62]:
 
 
 print(table)

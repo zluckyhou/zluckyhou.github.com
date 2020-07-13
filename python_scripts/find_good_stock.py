@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 
 import datetime
@@ -17,7 +17,7 @@ import time
 # import akshare as ak
 
 
-# In[6]:
+# In[3]:
 
 
 # # tushare_token = sys.argv[1]
@@ -27,7 +27,7 @@ import time
 # pro = ts.pro_api(tushare_token)
 
 
-# In[2]:
+# In[5]:
 
 
 tushare_token = sys.argv[1]
@@ -43,7 +43,7 @@ pro = ts.pro_api(tushare_token)
 
 # ## 使用4线发现好股票
 
-# In[3]:
+# In[6]:
 
 
 class stock_ma(object):
@@ -130,7 +130,7 @@ class stock_ma(object):
 
 # ### 获取当前股票列表
 
-# In[43]:
+# In[7]:
 
 
 data = pro.stock_basic(exchange='', list_status='L', fields='ts_code,symbol,name,area,industry,list_date')
@@ -153,16 +153,27 @@ stocks_szc = filter_data[szc_mark].reset_index()
 
 # ### 获取所有创业板股票一段时间内的数据-for loop
 
-# In[32]:
+# In[8]:
+
+
+def func(stock):
+    try:
+        res = stock_ma(stock).print_info()
+    except Exception as e:
+        res = ''
+    return res
+
+
+# In[ ]:
 
 
 # 创业板股票
 
-# stocks_szc_ma = [stock_ma(stock).print_info() for stock in stocks_szc['ts_code']]
+# stocks_szc_ma = [func(stock) for stock in stocks_szc['ts_code']]
 
 stocks_szc_ma = []
 for stock in tqdm.tqdm(stocks_szc['ts_code']):
-    stocks_szc_ma.append(stock_ma(stock).print_info())
+    stocks_szc_ma.append(func(stock))
 
 
 # ### 获取所有中小板股票一段时间内的数据-多进程

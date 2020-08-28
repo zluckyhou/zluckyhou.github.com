@@ -23,7 +23,7 @@ pro = ts.pro_api(tushare_token)
 
 # ## 定义股票价格四线预警类
 
-# In[15]:
+# In[3]:
 
 
 class stock_alert(object):
@@ -108,7 +108,7 @@ class stock_alert(object):
         
 
 
-# In[16]:
+# In[4]:
 
 
 # #测试代码
@@ -123,13 +123,13 @@ class stock_alert(object):
 
 # # 写入blog
 
-# In[4]:
+# In[5]:
 
 
 # wechatkey = sys.argv[2]
 
 
-# In[5]:
+# In[6]:
 
 
 # def wechatMsg(msg,wechatkey):
@@ -142,10 +142,10 @@ class stock_alert(object):
 #     requests.get(url,params = params)
 
 
-# In[83]:
+# In[10]:
 
 
-mystocks = ['300136.SZ','300618.SZ','300496.SZ','603019.SH','603611.SH','603799.SH','300348.SZ','300494.SZ','600446.SH','300377.SZ']
+mystocks = ['300136.SZ','300618.SZ','300496.SZ','603019.SH','603611.SH','603799.SH','300494.SZ','603068.SH','300776.SZ','002008.SZ','603986.SH']
 
 msg_ls = []
 for stock in mystocks:
@@ -154,7 +154,7 @@ for stock in mystocks:
     msg_ls.append(print_info)
 
 
-# In[86]:
+# In[11]:
 
 
 header = '时间|名称|代码|最新价|当日|3日|5日|位置|变动|距离|ma21|ma60|ma21w|ma60w\n---|---|---|---|---|---|---|---|---'
@@ -162,13 +162,13 @@ header = '时间|名称|代码|最新价|当日|3日|5日|位置|变动|距离|m
 table = header + '\n' + '\n'.join(msg_ls)
 
 
-# In[85]:
+# In[12]:
 
 
 print(table)
 
 
-# In[114]:
+# In[13]:
 
 
 blog_title = '''
@@ -183,7 +183,7 @@ description: stock index alert
 '''
 
 
-# In[115]:
+# In[14]:
 
 
 blog_paragraph = '''
@@ -193,7 +193,7 @@ blog_paragraph = '''
 '''
 
 
-# In[116]:
+# In[15]:
 
 
 blog_tile = '''
@@ -215,27 +215,33 @@ blog_tile = '''
 '''
 
 
-# In[102]:
+# In[16]:
 
 
 blog = f'{blog_title}\n{blog_paragraph}\n{table}\n{blog_tile}'.strip()
 
 
-# In[104]:
+# In[17]:
 
 
 path = './_posts/'
 
 
-# In[105]:
+# In[18]:
 
 
 blog_name = '2020-5-10-股价四线法则实时数据.md'
 
 
-# In[106]:
+# In[21]:
 
 
 with open(path + blog_name,'w') as f:
     f.write(blog)
+
+
+# In[ ]:
+
+
+
 

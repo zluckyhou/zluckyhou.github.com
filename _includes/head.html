@@ -66,4 +66,29 @@ gio('send');
 <!-- 添加Google添加优化工具代码段  -->
 <script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
     
+<!-- 添加字节火山引擎监测代码     -->
+<script>    
+(function(win, export_obj) {
+    win['TeaAnalyticsObject'] = export_obj;
+    if (!win[export_obj]) {
+        function _collect() {
+            _collect.q.push(arguments);
+        }
+        _collect.q = _collect.q || [];
+        win[export_obj] = _collect;            
+    }
+    win[export_obj].l = +new Date();
+})(window, 'collectEvent');
+</script>
+<script async src="https://lf3-data.volccdn.com/obj/data-static/log-sdk/collect/collect-autotrack-rangers.js"></script>
+<script>
+    window.collectEvent('init', { 
+   	app_id:291379,
+    channel: 'cn', 
+   	autotrack: false  //默认关闭，需要热力图及圈选功能可开启
+    });
+    window.collectEvent('start')
+</script>
+    
+    
 </head>

@@ -2,7 +2,7 @@
 title: Freedom Hunter
 header-img: "img/poi.jpg"
 tagline: "zluckyH"  
-description: "A blog of my life"  
+description: "一个产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，利用AI开发了一个聊天工具，一个英语学习工具，一个音频转录工具，持续学习中！"  
 baseurl: ""
 url: "http://zluckyhou.github.io"  
 
@@ -16,12 +16,12 @@ owner:
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/d.png
 
-douban_username:  H_o_u
-twitter_username: zluckyH
+douban_username: 
+twitter_username: John43497285
 github_username: zluckyhou
 facebook_username: 
 #weibo_username:  
-zhihu_username: zluckyH
+zhihu_username: 
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -33,7 +33,7 @@ paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Xiamen
+timezone: Asia/Shanghai
 
 # Defaults for posts
 defaults:

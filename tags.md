@@ -1,13 +1,12 @@
 ---
 layout: page
 title: "Tags"
-description: "There are two sides to every story ... at least. "  
-header-img: "img/dog1.jpg"  
+description: "可以通过标签来查看历史文章"  
+header-img: "img/dark_yellow.png"  
 ---
 
-<h1 style="color:#1EB2A6">我的tags是这些有趣的东西：</h1>
+<h1 style="color:#1EB2A6">我的tags是这些有趣的东西</h1>
 
-<br>
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
@@ -18,8 +17,7 @@ header-img: "img/dog1.jpg"
 
 <br>
 
-<h1 style="color:#1EB2A6">下面这些就是更有趣的正文:</h1>
-<HR>
+<h1 style="color:#1EB2A6">下面这些就是更有趣的正文</h1>
 
 <ul class="listing">
 {% for tag in site.tags %}

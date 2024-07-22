@@ -14,12 +14,12 @@ header-img: "img/dark_yellow.png"
 </div>
 
 <div style="margin-bottom: 30px;">
-    <h2 style="color: #1EB2A6;">英语学习</h2>
+<!--     <h2 style="color: #1EB2A6;">英语学习</h2> -->
     <p>最近在尝试通过英语播客、美剧来学英语，这种方式比传统的背单词更加有效，不仅能掌握知识，还能学到地道的英语表达。顺便通过多邻国Intermediate English来检验学习成果，目前已经刷到60分，CEFR B1 level。</p>
 </div>
 
 <div style="margin-bottom: 30px;">
-    <h2 style="color: #1EB2A6;">AI应用</h2>
+<!--     <h2 style="color: #1EB2A6;">AI应用</h2> -->
     <p>下面是我用AI开发的几个小应用，用来辅助工作和学习，欢迎体验！</p>
     <ul style="list-style-type: none; padding-left: 0;">
         <li style="margin-bottom: 10px;"><a href="https://chatgpt-4o.streamlit.app/" target="_blank" style="color: #1EB2A6; text-decoration: none;">ChatGPT-4o</a>: 与GPT-4o聊天！</li>
@@ -29,7 +29,7 @@ header-img: "img/dark_yellow.png"
 </div>
 
 <div style="margin-bottom: 30px;">
-    <h2 style="color: #1EB2A6;">联系我</h2>
+<!--     <h2 style="color: #1EB2A6;">联系我</h2> -->
     <p>如果你对我的工作感兴趣，或者想讨论产品和AI相关的话题，可以通过<a href="mailto:zluckyhou@163.com" style="color: #1EB2A6; text-decoration: none;">邮件</a>联系我。</p>
 </div>
 

@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "关于我"
-header-img: "img/dark_yellow.png"
+header-img: "img/dark_yellow_400.png"
 ---
 
 <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px;">

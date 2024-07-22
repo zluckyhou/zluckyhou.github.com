@@ -1,11 +1,11 @@
 ---
 layout: page
 title: "Tags"
-description: "可以通过标签来查看历史文章"  
+description: "可以通过Tags来查看历史文章"  
 header-img: "img/dark_yellow.png"  
 ---
 
-<h1 style="color:#1EB2A6">我的tags是这些有趣的东西</h1>
+<h1 style="color:#1EB2A6">Tags</h1>
 
 
 <div id='tag_cloud'>
@@ -17,7 +17,7 @@ header-img: "img/dark_yellow.png"
 
 <br>
 
-<h1 style="color:#1EB2A6">下面这些就是更有趣的正文</h1>
+<h1 style="color:#1EB2A6">Articles</h1>
 
 <ul class="listing">
 {% for tag in site.tags %}

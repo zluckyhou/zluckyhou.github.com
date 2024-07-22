@@ -5,7 +5,10 @@ layout: default
 <style type="text/css">
     header.intro-header{
         background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
-        height: 300px; /* 或者其他您想要的高度 */
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 400px; /* 或者其他您想要的高度 */
     }
     .tag {
         display: inline-block;

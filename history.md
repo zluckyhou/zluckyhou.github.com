@@ -11,7 +11,8 @@ header-img: "img/dark_yellow.png"
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
-    <li class="listing-seperator" ><p style="color:#1EB2A6"><b>{{ y }}</b></p></li>
+<!--     <li class="listing-seperator" ><p style="color:#1EB2A6"><b>{{ y }}</b></p></li> -->
+    <h2 style="color:#1EB2A6">{{ y }}</h2>
       <HR>
   {% endif %}
   <li class="listing-item">

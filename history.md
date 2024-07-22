@@ -2,7 +2,7 @@
 layout: page
 title: "History"
 description: "历史文章"
-header-img: "img/dark_yellow.png"
+header-img: "img/dark_yellow_400.png"
 ---
 
 

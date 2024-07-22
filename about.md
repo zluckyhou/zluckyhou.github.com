@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "About"
-description: "关于我"
+description: "关于"
 header-img: "img/dark_yellow_400.png"
 ---
 
 <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px;">
 
-<h1 style="color: #1EB2A6;">关于我</h1>
+<h1 style="color: #1EB2A6;">关于</h1>
 
 <div style="margin-bottom: 30px;">
     <p>一个产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理。</p>

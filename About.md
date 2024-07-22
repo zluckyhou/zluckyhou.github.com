@@ -21,4 +21,4 @@ header-img: "img/dark_yellow.png"
 
 # 联系我
 
-如果你对我的工作感兴趣，或者想讨论产品和AI相关的话题，可以通过`[邮件](mailto:zluckyhou@163.com)`联系我
+如果你对我的工作感兴趣，或者想讨论产品和AI相关的话题，可以通过[邮件](mailto:zluckyhou@163.com)联系我

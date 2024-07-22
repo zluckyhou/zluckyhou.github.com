@@ -5,18 +5,59 @@ description: "关于我"
 header-img: "img/dark_yellow.png"
 ---
 
-<h2>关于我</h2>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h1, h2 {
+        color: #1EB2A6;
+    }
+    .section {
+        margin-bottom: 30px;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+    a {
+        color: #1EB2A6;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
 
-<p>一个产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，利用AI开发了一个聊天工具、一个英语学习工具、一个音频转录工具，持续学习中！</p>
+<h1>关于我</h1>
 
-<h2>我的产品</h2>
+<div class="section">
+    <p>一个产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理。</p>
+</div>
 
-<ul>
-    <li><a href="https://chatgpt-4o.streamlit.app/" target="_blank">ChatGPT-4o</a>: 与GPT-4o聊天！</li>
-    <li><a href="https://nativespeaker.streamlit.app/" target="_blank">NativeSpeaker</a>: 学习最地道的英语表达！</li>
-    <li><a href="https://whisperflow.streamlit.app/" target="_blank">WhisperFlow</a>: AI音频转录工具，速度超快，英语学习好帮手！</li>
-</ul>
+<div class="section">
+    <h2>英语学习</h2>
+    <p>最近在尝试通过英语播客、美剧来学英语，这种方式比传统的背单词更加有效，不仅能掌握知识，还能学到地道的英语表达。顺便通过多邻国Intermediate English来检验学习成果，目前已经刷到60分，CEFR B1 level。</p>
+</div>
 
-<h2>联系我</h2>
+<div class="section">
+    <h2>AI应用</h2>
+    <p>下面是我用AI开发的几个小应用，用来辅助工作和学习，欢迎体验！</p>
+    <ul>
+        <li><a href="https://chatgpt-4o.streamlit.app/" target="_blank">ChatGPT-4o</a>: 与GPT-4o聊天！</li>
+        <li><a href="https://nativespeaker.streamlit.app/" target="_blank">NativeSpeaker</a>: 学习最地道的英语表达！</li>
+        <li><a href="https://whisperflow.streamlit.app/" target="_blank">WhisperFlow</a>: AI音频转录工具，速度超快，英语学习好帮手！</li>
+    </ul>
+</div>
 
-<p>如果你对我的工作感兴趣，或者想讨论产品和AI相关的话题，可以通过<a href="mailto:zluckyhou@163.com">邮件</a>联系我</p>
+<div class="section">
+    <h2>联系我</h2>
+    <p>如果你对我的工作感兴趣，或者想讨论产品和AI相关的话题，可以通过<a href="mailto:zluckyhou@163.com">邮件</a>联系我。</p>
+</div>

@@ -4,7 +4,8 @@ layout: default
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
-        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
+        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
+        height: 300px; /* 或者其他您想要的高度 */
     }
     .tag {
         display: inline-block;

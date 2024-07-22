@@ -2,7 +2,7 @@
 #back-top {
   position: fixed;
   bottom: 30px;
-  right: 30px; /* 使用 right 替代 margin-left */
+  right: 50px; /* 使用 right 替代 margin-left */
   z-index: 1000; /* 新增，确保按钮在其他内容之上 */
 }
 #back-top a {

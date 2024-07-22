@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "About"
-description: "我是谁"
-header-img: "img/throne.jpg"
+description: "关于我"
+header-img: "img/dark_yellow.png"
 ---
 
 一个产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，利用AI开发了一个聊天工具，一个英语学习工具，一个音频转录工具，持续学习中！

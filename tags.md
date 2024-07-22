@@ -2,7 +2,7 @@
 layout: page
 title: "Tags"
 description: "可以通过Tags来查看历史文章"  
-header-img: "img/dark_yellow.png"  
+header-img: "img/dark_yellow_400.png"  
 ---
 
 <h1 style="color:#1EB2A6">Tags</h1>

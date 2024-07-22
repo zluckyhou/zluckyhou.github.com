@@ -23,6 +23,7 @@ header-img: "img/dark_yellow.png"
 {% for tag in site.tags %}
 <!--   <li class="listing-seperator" id="{{ tag[0] }}"><p style="color:#1EB2A6"><b>{{ tag[0] }}</b></p></li> -->
   <h3 class="listing-seperator" id="{{ tag[0] }}" style="color:#1EB2A6">{{ tag[0] }}</h3>
+  <HR>
 {% for post in tag[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -30,7 +31,7 @@ header-img: "img/dark_yellow.png"
   <a href="{{ post.url }}" title="{{ post.title }}" style="color:#1EB2A6">{{ post.title }}</a>
   </li>
 {% endfor %}
-<HR>
+<!-- <HR> -->
 <!-- <br /> -->
 {% endfor %}
 </ul>

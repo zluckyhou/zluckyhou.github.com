@@ -8,30 +8,39 @@ description: "分享学习、AI、互联网，以及一切有趣的东西！"
     <!-- <p style="text-align: center; color: #666; margin-bottom: 30px;">{{ page.description }}</p> -->
 
     {% for post in paginator.posts %}
-    <div style="margin-bottom: 30px; padding: 20px; background-color: #f9f9f9; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <div class="post-preview" style="margin-bottom: 30px;">
         <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: none; color: inherit;">
-            <h2 style="color: #1EB2A6; margin-top: 0;">{{ post.title }}</h2>
+            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
+                {{ post.title }}
+            </h2>
             {% if post.subtitle %}
-            <h3 style="color: #666; font-size: 18px; margin-top: 10px;">{{ post.subtitle }}</h3>
+            <h3 class="post-subtitle" style="color: #666; font-size: 18px; margin-top: 0;">
+                {{ post.subtitle }}
+            </h3>
             {% endif %}
-            <div style="color: #333; margin-top: 15px; font-size: 16px;">
+            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
                 {{ post.content | strip_html | truncate:150 }}
             </div>
         </a>
-        <p style="color: #999; font-size: 14px; margin-top: 15px;">
-            Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-        </p>
+        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
     </div>
+
+    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
     {% endfor %}
 
+    <!-- Pager -->
     {% if paginator.total_pages > 1 %}
-    <div style="text-align: center; margin-top: 30px;">
+    <ul class="pager" style="list-style-type: none; padding: 0; text-align: center;">
         {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" style="display: inline-block; padding: 10px 20px; background-color: #1EB2A6; color: white; text-decoration: none; border-radius: 3px; margin-right: 10px;">&larr; Newer Posts</a>
+        <li class="previous" style="display: inline-block; margin-right: 10px;">
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" style="color: #1EB2A6; text-decoration: none;">&larr; Newer Posts</a>
+        </li>
         {% endif %}
         {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" style="display: inline-block; padding: 10px 20px; background-color: #1EB2A6; color: white; text-decoration: none; border-radius: 3px;">Older Posts &rarr;</a>
+        <li class="next" style="display: inline-block;">
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" style="color: #1EB2A6; text-decoration: none;">Older Posts &rarr;</a>
+        </li>
         {% endif %}
-    </div>
+    </ul>
     {% endif %}
 </div>

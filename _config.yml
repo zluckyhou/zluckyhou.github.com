@@ -2,7 +2,7 @@
 title: Freedom Hunter
 header-img: "img/dark_yellow_400.png"
 tagline: "zluckyH"  
-description: "一个产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，利用AI开发了一个聊天工具，一个英语学习工具，一个音频转录工具，持续学习中！"  
+description: "一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！"  
 baseurl: ""
 url: "https://zluckyhou.github.io"
 
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "zluckyH"
-      header-img: "img/blue_banner.png" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/dark_blue_banner.png" # We don't want posts without a header image, that whould mean white on white
 
 
 # Analytics and webmaster tools stuff goes here

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！">
+
+    <title>Machine learning in Action 1——k近邻算法 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/blog/2016/09/09/k%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Freedom Hunter</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                <li>
+                    <a href="/">Articles</a>
+                </li>
+                <li>
+                    <a href="/history/">History</a>
+                </li>
+                <li>
+                    <a href="/tags/">Tags</a>
+                </li>
+                
+                <!--                 
+                    <li>
+                        <a href="/Tool/">Tools</a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                
+                    <li>
+                        <a href="/history/">History</a>
+                    </li>
+                
+                    <li>
+                        <a href="/milestone/">milestone</a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                 -->
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/light_blue_banner.png')
+    }
+    .tag {
+        display: inline-block;
+        padding: 4px 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        background-color: #FFF;
+        color: #FF7A00;
+        border-radius: 16px;
+        font-size: 0.9em;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .tag:hover {
+        background-color: #FFF;
+    }
+    .tag::before {
+        content: "#";
+        margin-right: 2px;
+        opacity: 0.7;
+    }
+    .tags-container {
+        margin-bottom: 20px;
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags-container">
+                        
+                        <a class="tag" href="/tags/#Machine learning" title="Machine learning">Machine learning</a>
+                        
+                    </div>
+                    <h1>Machine learning in Action 1——k近邻算法</h1>
+                    
+                    <span class="meta">Posted by zluckyH on September 9, 2016</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p>这是机器学习实战系列的第一篇，k近邻算法(KNN)</p>
+
+<p><strong>KNN算法的优缺点：</strong></p>
+
+<blockquote>
+  <p>优点：精度高、对异常值不敏感、无数据输入假定  <br />
+缺点：计算复杂度高、空间复杂度高 <br />
+使用数据范围：数值型和标称型</p>
+</blockquote>
+
+<p><strong>K近邻算法（KNN）的工作原理</strong>：存在一个样本数据集合，也称作训练样本集，并且样本集中每个数据都存在标签，即我们知道样本集中每一个数据与所属分类的对应关系。输入没有标签的新数据后，将新数据的每个特征与样本集中数据对应的特征进行比较，然后算法提取样本集中特征最相似数据（最近邻）的分类标签。一般来说，我们只选择样本数据集中前k个最相似的数据，通常k不大于20.最后，选择k个最相似数据中出现次数最多的分类，作为新数据的分类。</p>
+
+<p>那么，如何计算新数据与样本数据的相似度呢？通常的做法是计算新数据与样本数据的距离（这又涉及到使用哪种距离计算，一般使用<strong>欧氏距离</strong>），距离越小，则相似度越高。</p>
+
+<p>算法如下:</p>
+
+<blockquote>
+  <p>1.计算已知类别数据集中的点与当前点之间的距离；<br />
+2.按照距离递增次序排序；<br />
+3.选取与当前点距离最小的k个点；<br />
+4.确定前k个点所在的类别的出现频率；<br />
+5.返回前k个点出现频率最高的类别作为当前点的预测分类。</p>
+</blockquote>
+
+<p><strong>注意</strong>：在计算距离时，由于不同特征数值量级不同，会造成一些特征对计算结果的影响较大，<strong>为了避免由于数值大小造成的影响，需要提前对特征的取值进行单位化</strong>。</p>
+
+<p>下面为k近邻算法的python实现：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def classify0(inX,dataSet,labels,k):
+	dataSetSize = dataSet.shape[0]
+	diffMat = np.tile(inX,(dataSetSize,1))-dataSet
+	sqDiffMat = diffMat**2
+	sqDistances = sqDiffMat.sum(axis = 1)
+	distances = sqDistances**0.5
+	sortedDistIndicies = distances.argsort()
+	classCount = {}
+	for i in range(k):
+		voteIlabel = labels[sortedDistIndicies[i]]
+		classCount[voteIlabel] = classCount.get(voteIlabel,0) + 1
+	sortedClassCount = sorted(classCount.iteritems(),key = operator.itemgetter(1),reverse = True)
+	return sortedClassCount[0][0]
+
+</code></pre></div></div>
+
+<p>其中<code class="language-plaintext highlighter-rouge">inX</code>为待分类的数据点，<code class="language-plaintext highlighter-rouge">dataSet</code>为训练数据，<code class="language-plaintext highlighter-rouge">labels</code>为训练数据对应的分类标签。</p>
+
+
+
+        <hr>
+
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/blog/2016/09/05/%E9%B8%9F%E5%93%A5%E7%9A%84Linux-%E7%A7%81%E6%88%BF%E8%8F%9C/" data-toggle="tooltip" data-placement="top" title="鸟哥的 Linux 私房菜">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/blog/2016/09/10/python%E9%87%8D%E8%A6%81%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/" data-toggle="tooltip" data-placement="top" title="python重要知识汇总">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->    
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.1em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2024  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.1/async.js"></script>
+<script>
+    async("https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

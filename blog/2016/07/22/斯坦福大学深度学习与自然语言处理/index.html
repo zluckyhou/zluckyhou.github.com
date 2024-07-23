@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！">
+
+    <title>斯坦福大学深度学习与自然语言处理 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/blog/2016/07/22/%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Freedom Hunter</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                <li>
+                    <a href="/">Articles</a>
+                </li>
+                <li>
+                    <a href="/history/">History</a>
+                </li>
+                <li>
+                    <a href="/tags/">Tags</a>
+                </li>
+                
+                <!--                 
+                    <li>
+                        <a href="/Tool/">Tools</a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                
+                    <li>
+                        <a href="/history/">History</a>
+                    </li>
+                
+                    <li>
+                        <a href="/milestone/">milestone</a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                 -->
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/light_blue_banner.png')
+    }
+    .tag {
+        display: inline-block;
+        padding: 4px 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        background-color: #FFF;
+        color: #FF7A00;
+        border-radius: 16px;
+        font-size: 0.9em;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .tag:hover {
+        background-color: #FFF;
+    }
+    .tag::before {
+        content: "#";
+        margin-right: 2px;
+        opacity: 0.7;
+    }
+    .tags-container {
+        margin-bottom: 20px;
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags-container">
+                        
+                        <a class="tag" href="/tags/#Deep learning" title="Deep learning">Deep learning</a>
+                        
+                    </div>
+                    <h1>斯坦福大学深度学习与自然语言处理</h1>
+                    
+                    <span class="meta">Posted by zluckyH on July 22, 2016</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p>AlphaGo与李世石一战开启了人工智能的新纪元，AI一度火的不要不要的，那么到底什么是AI，要掌握真正的人工智能需要哪些知识，从今天起，我们从深度学习开始，逐渐揭开人工智能的面纱。</p>
+
+<p>斯坦福大学在2015年3月份开设了一门“深度学习与自然语言处理”的课程：<a href="http://cs224d.stanford.edu/">CS224d: Deep Learning for Natural Language Processing</a>，庆幸我们所处的时代，互联网让我们有机会接触到这么好的课程，下面是该课程的一些中文资料，感谢各位无私分享的大神。</p>
+
+<ul>
+  <li><a href="http://www.52nlp.cn/%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E7%AC%AC%E4%B8%80%E8%AE%B2%E5%BC%95%E8%A8%80">斯坦福大学深度学习与自然语言处理第一讲：引言</a>，作者在文章中还提供了各种相关资料，感谢作者的分享</li>
+</ul>
+
+<p>公众号【大数据文摘】也对该课程进行了翻译，每周一篇，目前已经连载到第七弹，另外该文摘还有好多精彩的文章，如<a href="http://mp.weixin.qq.com/s?__biz=MjM5MTQzNzU2NA==&amp;mid=403174417&amp;idx=1&amp;sn=0f421ba4aeb5f3beedc166dcc655fe7a&amp;scene=21#wechat_redirect">神作：深入浅出傅里叶变换 </a>
+、<a href="http://mp.weixin.qq.com/s?__biz=MjM5MTQzNzU2NA==&amp;mid=2651640650&amp;idx=1&amp;sn=c905406e294cf2df5dcc2a3497ac3889&amp;scene=21#wechat_redirect">机器学习算法一览（附python和R代码）</a>，这是题外话，有机会一定要看看。</p>
+
+<ul>
+  <li><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTQzNzU2NA==&amp;mid=2651641662&amp;idx=1&amp;sn=5cfba5999c1dd436af43523f53497094&amp;scene=21#wechat_redirect">重磅启动！翻译斯坦福大学课程：深度学习与自然语言处理 </a></li>
+</ul>
+
+<p><a href="http://blog.csdn.net/han_xiaoyang/article/details/51711134">寒小阳的csdn博客</a>上也有连载，而且还有练习及答案，并且博客的排版也不错，看起来很舒服，推荐查看该博客学习</p>
+
+<p>以上资料，对于学习该课程肯定是足够了，接下来开始学习。最重要的是制定一个学习计划，很简单，人家翻译的每周一篇，那么自己至少也得每周一篇，第一篇从明天开始。</p>
+
+<hr />
+
+<p>更新</p>
+
+<p>突然发现上面的资料并不太详细，对于自然语言处理入门来说还是不够的，在知乎上发现了一个问题<a href="https://www.zhihu.com/question/26391679">数据挖掘、机器学习、自然语言处理这三者是什么关系？这几个怎么入门啊？国内到底是阿里还是百度大数据最好？</a>，最佳答案简直就是为我量身定做的，非常非常感谢作者的分享。</p>
+
+<p><strong>NLP入门</strong>： Michael Collins教授的<a href="http://www.cs.columbia.edu/~mcollins/">Natural Language Processing</a>，除了讲义，coursera上还有视频课程</p>
+
+<p><strong>论文网站</strong>：</p>
+
+<p><a href="http://www.aclweb.org/anthology/">ACL Anthology</a></p>
+
+<p><a href="http://clair.eecs.umich.edu/aan/index.php">http://clair.eecs.umich.edu/aan/index.php</a></p>
+
+
+
+        <hr>
+
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/blog/2016/07/16/python%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/" data-toggle="tooltip" data-placement="top" title="如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/blog/2016/07/22/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" data-toggle="tooltip" data-placement="top" title="正则表达式">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->    
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.1em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2024  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.1/async.js"></script>
+<script>
+    async("https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

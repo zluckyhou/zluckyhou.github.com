@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！">
+
+    <title>用R绘制云图 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/blog/2016/03/17/%E7%94%A8R%E7%BB%98%E5%88%B6%E4%BA%91%E5%9B%BE/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Freedom Hunter</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                <li>
+                    <a href="/">Articles</a>
+                </li>
+                <li>
+                    <a href="/history/">History</a>
+                </li>
+                <li>
+                    <a href="/tags/">Tags</a>
+                </li>
+                
+                <!--                 
+                    <li>
+                        <a href="/Tool/">Tools</a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                
+                    <li>
+                        <a href="/history/">History</a>
+                    </li>
+                
+                    <li>
+                        <a href="/milestone/">milestone</a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                 -->
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/light_blue_banner.png')
+    }
+    .tag {
+        display: inline-block;
+        padding: 4px 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        background-color: #FFF;
+        color: #FF7A00;
+        border-radius: 16px;
+        font-size: 0.9em;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .tag:hover {
+        background-color: #FFF;
+    }
+    .tag::before {
+        content: "#";
+        margin-right: 2px;
+        opacity: 0.7;
+    }
+    .tags-container {
+        margin-bottom: 20px;
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags-container">
+                        
+                        <a class="tag" href="/tags/#R" title="R">R</a>
+                        
+                    </div>
+                    <h1>用R绘制云图</h1>
+                    
+                    <span class="meta">Posted by zluckyH on March 17, 2016</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p>构建云图分析主要包括以下三个步骤：</p>
+
+<ul>
+  <li>中文分词：jiebaR</li>
+  <li>词频统计：table函数</li>
+  <li>创建云图：wordcloud</li>
+</ul>
+
+<h1 id="jiebar中文分词">jiebaR中文分词</h1>
+
+<p><a href="https://github.com/fxsjy/jieba">“结巴”中文分词</a>的R语言版本，支持最大概率法（Maximum Probability），隐式马尔科夫模型（Hidden Markov Model），索引模型（QuerySegment），混合模型（MixSegment），共四种分词模式，同时有词性标注，关键词提取，文本Simhash相似度比较等功能。项目使用了Rcpp和CppJieba进行开发。</p>
+
+<h2 id="安装">安装</h2>
+
+<p>首先安装所需的分词包jiebaR，进行简单的分词尝试</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+#install.packages('jiebaR')
+library("jiebaR")
+mixseg = worker()
+res = mixseg["江州市长江大桥参加了长江大桥的通车仪式"]
+res
+
+</code></pre></div></div>
+
+<h2 id="分词">分词</h2>
+
+<p>jiebaR提供了四种分词模式，可以通过 worker() 来初始化分词引擎，使用 segment() 进行分词。</p>
+
+<pre><code class="language-{r，echo=T}">
+#  接受默认参数，建立分词引擎 
+mixseg = worker()
+# 相当于：
+# worker( type = "mix", dict ="somepath/dict/jieba.dict.utf8",
+#          hmm  = "somepath/dict/hmm_model.utf8",  # HMM模型数据
+#          user = "somepath/dict/user.dict.utf8") #用户自定义词库
+
+mixseg["江州市长江大桥参加了长江大桥的通车仪式"]  # `&lt;=` 或 `[` 为分词运算符
+
+# 相当于 segment( "江州市长江大桥参加了长江大桥的通车仪式" , mixseg ) 
+# 或者 mixseg &lt;= "江州市长江大桥参加了长江大桥的通车仪式"
+
+</code></pre>
+
+<p>支持对文件进行分词：</p>
+
+<pre><code class="language-{r}">
+#本文使用2016年两会政府工作报告的一部分作为例子
+mixseg["C:/Users/zluck/Documents/R/2016工作重点.txt"] 
+# 自动判断输入文件编码模式，默认文件输出在同目录下。
+
+# 等同于segment( "C:/Users/zluck/Documents/R/2016工作重点.txt" , mixseg )
+
+</code></pre>
+
+<h2 id="关键词提取">关键词提取</h2>
+
+<p>关键词提取所使用逆向文件频率（IDF）文本语料库可以切换成自定义语料库的路径，使用方法与分词类似。 topn 参数为关键词的个数。</p>
+
+<pre><code class="language-{r}">
+keys = worker("keywords", topn = 5)
+keys &lt;= "我爱北京天安门"
+keys &lt;= "C:/Users/zluck/Documents/R/2016工作重点.txt" #举个例子
+
+</code></pre>
+
+<h1 id="词频统计">词频统计</h1>
+
+<p>本文利用table()函数进行词频统计，python的字典功能貌似更容易一些，不过需要配置中文环境，可能稍微有些麻烦，随后会尝试使用</p>
+
+<pre><code class="language-{r,warning=FALSE}">
+#读取分词文件，读取结果为一个字符串向量
+mytxt&lt;-readLines("C:/Users/zluck/Documents/R/words.txt",encoding='UTF-8')
+#利用strsplit()对字符串向量进行分割，得到由词语组成的一个列表
+mytxt&lt;-strsplit(mytxt,split = " ")[[1]]
+#利用table进行词频统计
+t&lt;-table(mytxt)
+#提取词语
+words&lt;-names(t)[-c(which(names(t)=="的"),which(names(t)=="和"))]
+#提取频数
+freq&lt;-as.vector(t)[-c(which(names(t)=="的"),which(names(t)=="和"))] 
+
+</code></pre>
+
+<h1 id="创建云图">创建云图</h1>
+
+<p>wordcloud包中的wordcloud()函数可以直接绘制云图，一步到位</p>
+
+<h2 id="wordcloud函数介绍">wordcloud函数介绍</h2>
+
+<p>wordcloud(words,freq,scale=c(4,.5),min.freq=3,max.words=Inf,
+	random.order=TRUE, random.color=FALSE, rot.per=.1,
+	colors=”black”,ordered.colors=FALSE,use.r.layout=FALSE,
+	fixed.asp=TRUE, …)</p>
+
+<p>具体参数介绍详见help()文件</p>
+
+<h2 id="具体使用案例">具体使用案例</h2>
+
+<p>1.安装加载程序包</p>
+
+<pre><code class="language-{r}">
+#install.packages('wordcloud')
+
+library(wordcloud)
+
+</code></pre>
+
+<p>2.给出字体颜色</p>
+
+<p>自己指定字体颜色</p>
+
+<pre><code class="language-{r}">
+colors=c('red','blue','green','yellow','purple')
+
+</code></pre>
+
+<p>或者使用R颜色程序包中现成的主题模板</p>
+
+<pre><code class="language-{r}">
+colors=brewer.pal(9,"Set1")
+
+</code></pre>
+
+<p>3.执行函数</p>
+
+<pre><code class="language-{r,warning=FALSE,fig.showtext=TRUE}">
+wordcloud(words,freq,scale=c(3,0.3),min.freq=-Inf,max.words=Inf,
+          colors=colors,random.order=F,random.color=T,
+          ordered.colors=F,encoding='UTF-8')
+
+</code></pre>
+
+<p>这样我们就得到了2016年两会政府工作报告的一幅云图，从中可以明显看到报告的重点——发展，so，简单有趣，不断尝试，不断发现新乐趣。</p>
+
+<p><strong>Tips</strong></p>
+
+<ul>
+  <li>
+    <p>Rmarkdown输出过程中如果有超过50条warning()，不会导致文件无法编译，而是导致最终输出的pdf文件最后有很多页的错误提示，解决这一问题的方法是在插入命令处设置warning=FALSE，例如{r,warning=FALSE}</p>
+  </li>
+  <li>
+    <p>在使用Rmarkdown的过程中，经常会涉及到中文的输出，在R中可以顺利输出的中文在Rmarkdown中会相当麻烦，关于Rmarkdown涉及中文的图片输出难题，目前个人找到的最简单的解决方法是加载showtext包，在绘图命令处设置fig.showtext=TRUE，{r,fig.showtext=TRUE}，具体可以参考<a href="http://www.jianshu.com/p/0bfda49f1a52">rmarkdown转化中文字符为PDF的设置</a>及<a href="https://github.com/yihui/knitr/issues/799">showtext package integration</a></p>
+  </li>
+</ul>
+
+<p>展示一下成果：</p>
+
+<p><img src="https://raw.githubusercontent.com/zluckyhou/zluckyhou.github.io/master/img/yuntu.PNG" alt="yuntu" /></p>
+
+
+        <hr>
+
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/blog/2016/02/20/%E4%B8%8D%E5%9C%A8%E4%B9%A6%E5%BA%97/" data-toggle="tooltip" data-placement="top" title="不在书店">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/blog/2016/05/15/R%E8%AF%AD%E8%A8%80dplyr%E5%8C%85%E5%AD%A6%E4%B9%A0/" data-toggle="tooltip" data-placement="top" title="dplyr包学习">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->    
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.1em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2024  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.1/async.js"></script>
+<script>
+    async("https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

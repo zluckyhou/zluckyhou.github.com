@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！">
+
+    <title>python 继续 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/blog/2016/09/05/%E5%BB%96%E9%9B%AA%E5%B3%B0%E7%9A%84Python%E6%95%99%E7%A8%8B/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Freedom Hunter</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                <li>
+                    <a href="/">Articles</a>
+                </li>
+                <li>
+                    <a href="/history/">History</a>
+                </li>
+                <li>
+                    <a href="/tags/">Tags</a>
+                </li>
+                
+                <!--                 
+                    <li>
+                        <a href="/Tool/">Tools</a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                
+                    <li>
+                        <a href="/history/">History</a>
+                    </li>
+                
+                    <li>
+                        <a href="/milestone/">milestone</a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                 -->
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/light_blue_banner.png')
+    }
+    .tag {
+        display: inline-block;
+        padding: 4px 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        background-color: #FFF;
+        color: #FF7A00;
+        border-radius: 16px;
+        font-size: 0.9em;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .tag:hover {
+        background-color: #FFF;
+    }
+    .tag::before {
+        content: "#";
+        margin-right: 2px;
+        opacity: 0.7;
+    }
+    .tags-container {
+        margin-bottom: 20px;
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags-container">
+                        
+                        <a class="tag" href="/tags/#python" title="python">python</a>
+                        
+                    </div>
+                    <h1>python 继续</h1>
+                    
+                    <span class="meta">Posted by zluckyH on September 5, 2016</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p>学习了<a href="https://github.com/qiwsir/StarterLearningPython/blob/master/index.md">跟老齐学python</a>，一些基础的知识是掌握了，接下来继续深入学习，<a href="http://www.liaoxuefeng.com/">廖雪峰的python教程</a>中有一些相对高级一点的内容，包括<strong>面向对象编程</strong>、<strong>进程和线程</strong>、<strong>电子邮件</strong>、<strong>web开发</strong>等，在现有的基础上学习这些知识，我觉得刚刚好。</p>
+
+<hr />
+
+<h1 id="day1-函数式编程201695">day1 函数式编程——2016.9.5</h1>
+
+<h2 id="收集参数--and-">收集参数 * and **</h2>
+
+<p>当函数的参数个数不确定时，其它参数全部通过<code class="language-plaintext highlighter-rouge">*arg</code>，以元组的形式由<code class="language-plaintext highlighter-rouge">arg</code>收集起来，例子如下：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def func(x, *arg):
+    print x         #Python 3请自动修改为print()的格式，下同，从略。
+    result = x
+    print arg       #输出通过*arg方式得到的值
+    for i in arg:
+        result +=i
+    return result
+
+print func(1, 2, 3, 4, 5, 6, 7, 8, 9)    #赋给函数的参数个数不仅仅是2个
+
+</code></pre></div></div>
+
+<p>运行结果：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1                       #这是函数体内的第一个print，参数x得到的值是1
+(2, 3, 4, 5, 6, 7, 8, 9) #这是函数内的第二个print，参数arg得到的是一个元组
+45                      #最后的计算结果
+
+</code></pre></div></div>
+
+<p>上面的例子中：</p>
+
+<ul>
+  <li>
+    <p>值1传给了x</p>
+  </li>
+  <li>
+    <p>值2,3,4,5,6,7,8,9被塞入一个元组里面，传给了<code class="language-plaintext highlighter-rouge">arg</code></p>
+  </li>
+</ul>
+
+<p>除了用*args这种形式的参数接收多个值之外，还可以用**kargs的形式接收数值，例如：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; def foo(**kargs):
+...     print kargs        #Python 3:  print(kargs)
+...
+&gt;&gt;&gt; foo(a=1,b=2,c=3)    #注意观察这次赋值的方式和打印的结果
+{'a': 1, 'c': 3, 'b': 2}
+
+</code></pre></div></div>
+
+<p>如果用**kargs的形式收集值，会得到dict类型的数据，但是，需要在传值的时候说明“键”和“值”，因为在字典中是以键值对形式出现的。</p>
+
+<p>综合以上方法，对于不确定参数个数的函数：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; def foo(x,y,z,*args,**kargs):
+...     print x       #Python 3用户请修改为print()格式，下同
+...     print y
+...     print z
+...     print args
+...     print kargs        
+... 
+  #结果
+&gt;&gt;&gt; foo(1,2,3,4,5,name="qiwsir")
+1
+2
+3
+(4, 5)
+{'name': 'qiwsir'}
+
+</code></pre></div></div>
+
+<h2 id="返回函数">返回函数</h2>
+
+<p>对于通常的函数，都会返回结果，例如：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def calc_sum(*args):
+    s = 0
+    for x in args:
+        s +=x
+    return s
+
+
+calc_sum(1,2,3,4,5)
+Out[17]: 15
+
+</code></pre></div></div>
+
+<p>但是，如果不需要立刻求和，而是在后面的代码中，根据需要再计算怎么办？可以不返回求和的结果，而是返回求和的函数！</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def lazy_sum(*args):
+    def sum():
+        s = 0
+        for x in args:
+            s += x
+        return s
+    return sum
+
+
+f = lazy_sum(1,2,3,4,5)
+
+f
+Out[20]: &lt;function __main__.sum&gt;
+
+f()
+Out[21]: 15
+
+</code></pre></div></div>
+
+<h2 id="闭包">闭包</h2>
+
+<p>一个需要注意的问题是，返回的函数并没有立刻执行，而是直到调用了<code class="language-plaintext highlighter-rouge">f()</code>才执行。我们来看一个例子：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def count():
+    fs = []
+    for i in range(1,4):
+        def f():
+            return i*i
+        fs.append(f)
+    return fs
+
+
+f1,f2,f3 = count()
+
+f1
+Out[25]: &lt;function __main__.f&gt;
+
+f1(),f2(),f3()
+Out[27]: (9, 9, 9)
+
+</code></pre></div></div>
+
+<p>你可能认为调用<code class="language-plaintext highlighter-rouge">f1()</code>，<code class="language-plaintext highlighter-rouge">f2()</code>和<code class="language-plaintext highlighter-rouge">f3()</code>结果应该是<code class="language-plaintext highlighter-rouge">1</code>，<code class="language-plaintext highlighter-rouge">4</code>，<code class="language-plaintext highlighter-rouge">9</code>，但实际结果都是<code class="language-plaintext highlighter-rouge">9</code>,原因就在于返回的函数引用了变量<code class="language-plaintext highlighter-rouge">i</code>，但它并非立刻执行。等到3个函数都返回时，它们所引用的变量<code class="language-plaintext highlighter-rouge">i</code>已经变成了<code class="language-plaintext highlighter-rouge">3</code>，因此最终结果为<code class="language-plaintext highlighter-rouge">9</code>。</p>
+
+<p>如果一定要引用循环变量怎么办？方法是再创建一个函数，用该函数的参数绑定循环变量当前的值，无论该循环变量后续如何更改，已绑定到函数参数的值不变：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def count():
+    fs = []
+    for i in range(1,4):
+        def f(j):
+            def g():
+                return j*j
+            return g
+        fs.append(f(i))
+    return fs
+
+
+f1,f2,f3 = count()
+
+f1()
+Out[30]: 1
+
+f2()
+Out[31]: 4
+
+f3()
+Out[32]: 9
+</code></pre></div></div>
+
+<h2 id="装饰器">装饰器</h2>
+
+<p>假设我们要增强一个函数例如<code class="language-plaintext highlighter-rouge">now()</code>函数的功能，比如，在函数调用前后自动打印日志，但又不希望修改<code class="language-plaintext highlighter-rouge">now()</code>函数的定义，这种在代码运行期间动态增加功能的方式，称之为“装饰器”（Decorator）。</p>
+
+<p>本质上，decorator就是一个返回函数的高阶函数。所以，我们要定义一个能打印日志的decorator，可以定义如下：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def log(func):
+    def wrapper(*args, **kw):
+        print 'call %s():' % func.__name__
+        return func(*args, **kw)
+    return wrapper
+
+</code></pre></div></div>
+
+<p>观察上面的<code class="language-plaintext highlighter-rouge">log</code>，因为它是一个decorator，所以接受一个函数作为参数，并返回一个函数。我们要借助Python的<code class="language-plaintext highlighter-rouge">@</code>语法，把decorator置于函数的定义处：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@log
+def now():
+    print '2016-9-5'
+
+</code></pre></div></div>
+
+<p>调用<code class="language-plaintext highlighter-rouge">now()</code>函数，不仅会运行<code class="language-plaintext highlighter-rouge">now()</code>函数本身，还会在运行<code class="language-plaintext highlighter-rouge">now()</code>函数前打印一行日志：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; now()
+call now():
+2016-9-5
+
+</code></pre></div></div>
+
+<h2 id="偏函数">偏函数</h2>
+
+<p>Python的functools模块提供了很多有用的功能，其中一个就是偏函数（Partial function）。<code class="language-plaintext highlighter-rouge">functools.partial</code>就是帮助我们创建一个偏函数的,简单总结<code class="language-plaintext highlighter-rouge">functools.partial</code>的作用就是，把一个函数的某些参数给固定住（也就是设置默认值），返回一个新的函数，调用这个新函数会更简单。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; import functools
+&gt;&gt;&gt; int2 = functools.partial(int, base=2)
+&gt;&gt;&gt; int2('1000000')
+64
+&gt;&gt;&gt; int2('1010101')
+85
+
+</code></pre></div></div>
+
+<h1 id="面向对象编程">面向对象编程</h1>
+
+<h2 id="类和实例">类和实例</h2>
+
+<p>面向对象的设计思想是从自然界中来的，因为在自然界中，类（Class）和实例（Instance）的概念是很自然的。Class是一种抽象概念，比如我们定义的Class——Student，是指学生这个概念，而实例（Instance）则是一个个具体的Student，比如，Bart Simpson和Lisa Simpson是两个具体的Student</p>
+
+<p>所以，面向对象的设计思想是抽象出Class，根据Class创建Instance。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Student(object):
+    def __init__(self,name,score):
+        self.name = name
+        self.score = score
+    def print_score(self):
+        print '%s: %s' %(self.name,self.score)
+    def get_grade(self):
+        if self.score &gt;= 90:
+            return 'A'
+        elif self.score &gt;=60:
+            return 'B'
+        else:
+            return 'C'
+        
+
+bart = Student('bart simpson',59)
+
+bart.get_grade
+Out[116]: &lt;bound method Student.get_grade of &lt;__main__.Student object at 0x0000000003CDB908&gt;&gt;
+
+bart.get_grade()
+Out[117]: 'C'
+</code></pre></div></div>
+
+<h2 id="访问限制">访问限制</h2>
+
+<p>从前面Student类的定义来看，外部代码还是可以自由地修改一个实例的name、score属性：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; bart = Student('Bart Simpson', 98)
+&gt;&gt;&gt; bart.score
+98
+&gt;&gt;&gt; bart.score = 59
+&gt;&gt;&gt; bart.score
+59
+</code></pre></div></div>
+
+<p>如果要让内部属性不被外部访问，可以把属性的名称前加上两个下划线<code class="language-plaintext highlighter-rouge">__</code>，在Python中，实例的变量名如果以<code class="language-plaintext highlighter-rouge">__</code>开头，就变成了一个私有变量（private），只有内部可以访问，外部不能访问，所以，我们把Student类改一改：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Student(object):
+
+    def __init__(self, name, score):
+        self.__name = name
+        self.__score = score
+
+    def print_score(self):
+        print '%s: %s' % (self.__name, self.__score)
+
+
+
+&gt;&gt;&gt; bart = Student('Bart Simpson', 98)
+&gt;&gt;&gt; bart.__name
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+AttributeError: 'Student' object has no attribute '__name'
+
+</code></pre></div></div>
+
+<p>外部无法访问<code class="language-plaintext highlighter-rouge">实例变量.__name</code>和<code class="language-plaintext highlighter-rouge">实例变量.__score</code>,但是如果外部代码要获取name和score怎么办？可以给Student类增加<code class="language-plaintext highlighter-rouge">get_name</code>和<code class="language-plaintext highlighter-rouge">get_score</code>这样的方法：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Student(object):
+
+    def __init__(self, name, score):
+        self.__name = name
+        self.__score = score
+
+    def print_score(self):
+        print '%s: %s' % (self.__name, self.__score)
+
+    def get_name(self):
+        return self.__name
+
+    def get_score(self):
+        return self.__score 
+
+</code></pre></div></div>
+
+<p>如果又要允许外部代码修改score怎么办？可以给Student类增加set_score方法(可以对参数做检查，避免传入无效的参数：)：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Student(object):
+    ...
+
+    def set_score(self, score):
+    	if 0 &lt;= score &lt;= 100:
+    		self.__score = score
+    	else:
+    		raise ValueError('bad score')
+
+</code></pre></div></div>
+
+<h2 id="继承和多态">继承和多态</h2>
+
+<h1 id="面向对象高级编程">面向对象高级编程</h1>
+
+<h2 id="使用__slots__">使用<code class="language-plaintext highlighter-rouge">__slots__</code></h2>
+
+<p>动态绑定允许我们在程序运行的过程中动态给class加上功能,但是，如果我们想要限制class的属性怎么办？比如，只允许对Student实例添加name和age属性。
+为了达到限制的目的，Python允许在定义class的时候，定义一个特殊的<code class="language-plaintext highlighter-rouge">__slots__</code>变量，来限制该class能添加的属性：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; class Student(object):
+...     __slots__ = ('name', 'age') # 用tuple定义允许绑定的属性名称
+...
+
+</code></pre></div></div>
+
+<p>试一下：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; s = Student() # 创建新的实例
+&gt;&gt;&gt; s.name = 'Michael' # 绑定属性'name'
+&gt;&gt;&gt; s.age = 25 # 绑定属性'age'
+&gt;&gt;&gt; s.score = 99 # 绑定属性'score'
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+AttributeError: 'Student' object has no attribute 'score'
+
+</code></pre></div></div>
+
+<p>由于<code class="language-plaintext highlighter-rouge">'score'</code>没有被放到<code class="language-plaintext highlighter-rouge">__slots__</code>中，所以不能绑定<code class="language-plaintext highlighter-rouge">score</code>属性，试图绑定<code class="language-plaintext highlighter-rouge">score</code>将得到<code class="language-plaintext highlighter-rouge">AttributeError</code>的错误。</p>
+
+<h2 id="使用property">使用@property</h2>
+
+<p>Python内置的@property装饰器是负责把一个方法变成属性调用的，它可以让Python做到既能检查参数，又可以用类似属性这样简单的方式来访问类的变量：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Student(object):
+    @property
+    def score(self):
+        return self.__score
+    @score.setter    
+    def score(self,value):
+        if not isinstance(value,int):
+            raise ValueError('score must be an integer')
+        if value&lt;0 or value&gt;100:
+            raise ValueError('score must between 0~100')
+        self.__score = value
+
+</code></pre></div></div>
+
+<p>把一个<code class="language-plaintext highlighter-rouge">getter</code>方法变成属性，只需要加上<code class="language-plaintext highlighter-rouge">@property</code>就可以了，此时，<code class="language-plaintext highlighter-rouge">@property</code>本身又创建了另一个装饰器<code class="language-plaintext highlighter-rouge">@score.setter</code>，负责把一个<code class="language-plaintext highlighter-rouge">setter</code>方法变成属性赋值，于是，我们就拥有一个可控的属性操作：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; s = Student()
+&gt;&gt;&gt; s.score = 60 # OK，实际转化为s.set_score(60)
+&gt;&gt;&gt; s.score # OK，实际转化为s.get_score()
+60
+&gt;&gt;&gt; s.score = 9999
+Traceback (most recent call last):
+  ...
+ValueError: score must between 0 ~ 100!
+
+</code></pre></div></div>
+
+<p>还可以定义只读属性，只定义<code class="language-plaintext highlighter-rouge">getter</code>方法，不定义<code class="language-plaintext highlighter-rouge">setter</code>方法就是一个只读属性：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Student(object):
+    @property
+    def birth(self):
+        return self._birth
+    @birth.setter
+    def birth(self,value):
+        self._birth = value
+    @property
+    def age(self):
+        return 2016 - self._birth
+  
+s.birth = 1991
+
+s.birth
+Out[156]: 1991
+
+s.age
+Out[157]: 25
+
+s.age = 30
+
+AttributeErrorTraceback (most recent call last)
+&lt;ipython-input-158-de6598fd2649&gt; in &lt;module&gt;()
+----&gt; 1 s.age = 30
+
+AttributeError: can't set attribute
+
+</code></pre></div></div>
+
+<p>上面的<code class="language-plaintext highlighter-rouge">birth</code>是可读写属性，而<code class="language-plaintext highlighter-rouge">age</code>就是一个只读属性，因为<code class="language-plaintext highlighter-rouge">age</code>可以根据<code class="language-plaintext highlighter-rouge">birth</code>和当前时间计算出来。</p>
+
+<h2 id="多重继承">多重继承</h2>
+
+<h2 id="定制类">定制类</h2>
+
+<p>前面已经见到过<code class="language-plaintext highlighter-rouge">__slots__</code>和<code class="language-plaintext highlighter-rouge">__len__</code>这样的特殊函数，前者是为了限制类的属性，后者允许class作用于len()函数，
+除此之外，Python的class中还有许多这样有特殊用途的函数，可以帮助我们定制类。</p>
+
+<h3 id="__str__"><code class="language-plaintext highlighter-rouge">__str__</code></h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Student(object):
+    def __init__(self,name):
+        self.name = name
+    def __str__(self):
+        return 'Student object (name: %s)' %self.name
+
+s = Student('michael')
+
+s
+Out[20]: &lt;__main__.Student at 0x3fa1780&gt;
+
+print s
+Student object (name: michael)   
+     
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">__str__</code>让打印出来的实例，不但好看，而且容易看出实例内部重要的数据。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Student(object):
+    def __init__(self, name):
+        self.name = name
+    def __str__(self):
+        return 'Student object (name=%s)' % self.name
+    __repr__ = __str__
+
+s = Student('michale')
+
+s
+Out[25]: Student object (name: michale)
+
+</code></pre></div></div>
+
+<h3 id="__iter__"><code class="language-plaintext highlighter-rouge">__iter__</code></h3>
+
+<h3 id="__getattr__"><code class="language-plaintext highlighter-rouge">__getattr__</code></h3>
+
+<p>正常情况下，当我们调用类的方法或属性时，如果不存在，就会报错，为了避免这个错误，可以使用<code class="language-plaintext highlighter-rouge">__getattr__</code>方法,该方法动态返回一个属性</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Student(object):
+
+    def __init__(self):
+        self.name = 'Michael'
+
+    def __getattr__(self, attr):
+        if attr=='score':
+            return 99
+
+&gt;&gt;&gt; s = Student()
+&gt;&gt;&gt; s.name
+'Michael'
+&gt;&gt;&gt; s.score
+99
+
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Chain(object):
+    def __init__(self,path = ''):
+        self._path = path
+    def __getattr__(self,path):
+        return Chain('%s/%s' %(self._path,path))
+    def __str__(self):
+        return self._path
+    __repr__ = __str__
+    
+
+Chain().status.uer.timeline.list
+Out[97]: /status/uer/timeline/list
+
+</code></pre></div></div>
+
+<h2 id="使用元类">使用元类</h2>
+
+<h3 id="type">type()</h3>
+
+<p><code class="language-plaintext highlighter-rouge">type()</code>函数既可以返回一个对象的类型，又可以创建出新的类型，比如，我们可以通过<code class="language-plaintext highlighter-rouge">type()</code>函数创建出<code class="language-plaintext highlighter-rouge">Hello</code>类，而无需通过<code class="language-plaintext highlighter-rouge">class Hello(object)...</code>的定义：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def fn(self,name = 'world'):
+    print 'hello, %s' %name
+    
+
+Hello = type('Hello',(object,),dict(hello = fn))
+
+h = Hello()
+
+h.hello()
+hello, world
+
+print type(Hello)
+&lt;type 'type'&gt;
+
+print type(h)
+&lt;class '__main__.Hello'&gt;
+
+</code></pre></div></div>
+
+<h3 id="metaclass">metaclass</h3>
+
+<p>metaclass，直译为元类，简单的解释就是：</p>
+
+<p>当我们定义了类以后，就可以根据这个类创建出实例，所以：先定义类，然后创建实例。</p>
+
+<p>但是如果我们想创建出类呢？那就必须根据metaclass创建出类，所以：先定义metaclass，然后创建类。
+连接起来就是：先定义metaclass，就可以创建类，最后创建实例。</p>
+
+<p>所以，metaclass允许你创建类或者修改类。换句话说，你可以把类看成是metaclass创建出来的“实例”。</p>
+
+<p>我们先看一个简单的例子，这个metaclass可以给我们自定义的MyList增加一个add方法：</p>
+
+<p>定义ListMetaclass，按照默认习惯，metaclass的类名总是以Metaclass结尾，以便清楚地表示这是一个metaclass：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># metaclass是创建类，所以必须从`type`类型派生：
+class ListMetaclass(type):
+    def __new__(cls, name, bases, attrs):
+        attrs['add'] = lambda self, value: self.append(value)
+        return type.__new__(cls, name, bases, attrs)
+
+class MyList(list):
+    __metaclass__ = ListMetaclass # 指示使用ListMetaclass来定制类
+
+</code></pre></div></div>
+
+<p>当我们写下<code class="language-plaintext highlighter-rouge">__metaclass__ = ListMetaclass</code>语句时，魔术就生效了，它指示Python解释器在创建<code class="language-plaintext highlighter-rouge">MyList</code>时，要通过<code class="language-plaintext highlighter-rouge">ListMetaclass.__new__()</code>来创建，在此，我们可以修改类的定义，比如，加上新的方法，然后，返回修改后的定义。</p>
+
+<h1 id="错误调试和测试">错误、调试和测试</h1>
+
+<h1 id="进程和线程">进程和线程</h1>
+
+<p><strong>进程</strong>：对于操作系统来说，一个任务就是一个进程（Process），比如打开一个浏览器就是启动一个浏览器进程，打开一个记事本就启动了一个记事本进程，打开两个记事本就启动了两个记事本进程，打开一个Word就启动了一个Word进程。</p>
+
+<p><strong>线程</strong>：有些进程还不止同时干一件事，比如Word，它可以同时进行打字、拼写检查、打印等事情。在一个进程内部，要同时干多件事，就需要同时运行多个“子任务”，我们把进程内的这些“子任务”称为线程（Thread）。</p>
+
+<h2 id="多进程">多进程</h2>
+
+<p>#常用内建函数</p>
+
+<h2 id="collections">collections</h2>
+
+<h3 id="namedtuple">namedtuple</h3>
+
+<p>如果想要表示一个坐标，可以使用<code class="language-plaintext highlighter-rouge">namedtuple</code>,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; from collections import namedtuple
+&gt;&gt;&gt; Point = namedtuple('Point', ['x', 'y'])
+&gt;&gt;&gt; p = Point(1, 2)
+&gt;&gt;&gt; p.x
+1
+&gt;&gt;&gt; p.y
+2
+
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">namedtuple</code>是一个函数，它用来创建一个自定义的<code class="language-plaintext highlighter-rouge">tuple</code>对象，并且规定了<code class="language-plaintext highlighter-rouge">tuple</code>元素的个数，并可以用属性而不是索引来引用<code class="language-plaintext highlighter-rouge">tuple</code>的某个元素。</p>
+
+<h3 id="deque">deque</h3>
+
+<p><code class="language-plaintext highlighter-rouge">deque</code>是为了高效实现插入和删除操作的双向列表，适合用于队列和栈：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; from collections import deque
+&gt;&gt;&gt; q = deque(['a', 'b', 'c'])
+&gt;&gt;&gt; q.append('x')
+&gt;&gt;&gt; q.appendleft('y')
+&gt;&gt;&gt; q
+deque(['y', 'a', 'b', 'c', 'x'])
+</code></pre></div></div>
+
+<h3 id="ordereddict">OrderedDict</h3>
+
+<p>使用<code class="language-plaintext highlighter-rouge">dict</code>时，<code class="language-plaintext highlighter-rouge">Key</code>是无序的。在对<code class="language-plaintext highlighter-rouge">dict</code>做迭代时，我们无法确定<code class="language-plaintext highlighter-rouge">Key</code>的顺序。如果要保持<code class="language-plaintext highlighter-rouge">Key</code>的顺序，可以用<code class="language-plaintext highlighter-rouge">OrderedDict</code>：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; from collections import OrderedDict
+&gt;&gt;&gt; d = dict([('a', 1), ('b', 2), ('c', 3)])
+&gt;&gt;&gt; d # dict的Key是无序的
+{'a': 1, 'c': 3, 'b': 2}
+&gt;&gt;&gt; od = OrderedDict([('a', 1), ('b', 2), ('c', 3)])
+&gt;&gt;&gt; od # OrderedDict的Key是有序的
+OrderedDict([('a', 1), ('b', 2), ('c', 3)])
+
+</code></pre></div></div>
+
+<h3 id="counter">Counter</h3>
+
+<p><code class="language-plaintext highlighter-rouge">Counter</code>是一个简单的计数器，例如，统计字符出现的个数：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; from collections import Counter
+&gt;&gt;&gt; c = Counter()
+&gt;&gt;&gt; for ch in 'programming':
+...     c[ch] = c[ch] + 1
+...
+&gt;&gt;&gt; c
+Counter({'g': 2, 'm': 2, 'r': 2, 'a': 1, 'i': 1, 'o': 1, 'n': 1, 'p': 1})
+</code></pre></div></div>
+
+<h2 id="base64">base64</h2>
+
+<p>Base64是一种用64个字符来表示任意二进制数据的方法。</p>
+
+
+
+        <hr>
+
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/blog/2016/07/22/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" data-toggle="tooltip" data-placement="top" title="正则表达式">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/blog/2016/09/05/%E9%B8%9F%E5%93%A5%E7%9A%84Linux-%E7%A7%81%E6%88%BF%E8%8F%9C/" data-toggle="tooltip" data-placement="top" title="鸟哥的 Linux 私房菜">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->    
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.1em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2024  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.1/async.js"></script>
+<script>
+    async("https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

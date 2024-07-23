@@ -1,0 +1,21 @@
+name: Gitalk
+
+on:
+  push:
+    branches:
+      - gh-pages
+
+jobs:
+  gitalk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+      - uses: Yikun/gitalk-actions@v0.0.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repo: zluckyhou.github.com
+          owner: zluckyhou
+          clientId: e0c458e09bdfb98a8c5f
+          clientSecret: 5bac6315a1dce948f20fd76c4298654042f91e3a

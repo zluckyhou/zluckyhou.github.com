@@ -9,8 +9,8 @@ header-img: "img/dark_yellow_400.png"
 
 <div style="margin-bottom: 30px;">
 <!--     <h2 style="color: #1EB2A6;">工作经历</h2> -->
-    <p>7年产品经验，ToB和ToC产品都负责过，主要能力集中在数据和AI方向，离职中，正在看机会。可以通过<a href="linkedin.com/in/zluckyhou"  target="_blank" style="color: #1EB2A6; text-decoration: none;">Linkedin</a>或<a href="mailto:zluckyhou@163.com" style="color: #1EB2A6; text-decoration: none;">邮件</a>联系我。</p>
-    <p>第一份工作是在晶赞科技，负责DMP产品，为零售类客户提供数据服务，积累了大数据行业的经验，对接过麦当劳、星巴克、可口可乐、皮爷咖啡等客户。 后来在<a href="https://www.taptap.cn/" target="_blank" style="color: #1EB2A6; text-decoration: none;">TapTap</a>负责数据业务，负责数据中台搭建、用户画像、社区风控业务。之后加入了好说(创业公司)，经历了从0-1，负责产品设计、SEO、数据、AI应用。</p>
+    <p>7年产品经验，ToB和ToC产品都负责过，主要能力集中在数据和AI方向，离职中，正在看机会。可以通过<a href="https://www.linkedin.com/in/zluckyhou/"  target="_blank" style="color: #1EB2A6; text-decoration: none;">Linkedin</a>或<a href="mailto:zluckyhou@163.com" style="color: #1EB2A6; text-decoration: none;">邮件</a>联系我。</p>
+    <p>第一份工作是在晶赞科技，负责DMP产品，为零售类客户提供数据服务，积累了大数据行业的经验，对接过麦当劳、星巴克、可口可乐、皮爷咖啡等客户。 后来在<a href="https://www.taptap.cn/" target="_blank" style="color: #1EB2A6; text-decoration: none;">TapTap</a>负责数据业务，负责数据中台搭建、用户画像、社区风控业务。之后加入了好说，经历了从0-1，负责产品设计、SEO、数据、AI应用。</p>
 </div>
 
 <div style="margin-bottom: 30px;">

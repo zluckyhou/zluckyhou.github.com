@@ -14,7 +14,7 @@ header-img: "img/dark_yellow_400.png"
 </div>
 
 <div style="margin-bottom: 30px;">
-    <p>开发了几个AI小应用，用来辅助工作和学习，欢迎体验！</p>
+    <p>下面是我开发的几个AI小应用，用来辅助工作和学习，欢迎体验！</p>
     <ul style="list-style-type: none; padding-left: 0;">
         <li style="margin-bottom: 10px;"><a href="https://chatgpt-4o.streamlit.app/" target="_blank" style="color: #1EB2A6; text-decoration: none;">ChatGPT-4o</a>: 与GPT-4o聊天！</li>
         <li style="margin-bottom: 10px;"><a href="https://nativespeaker.streamlit.app/" target="_blank" style="color: #1EB2A6; text-decoration: none;">NativeSpeaker</a>: 学习最地道的英语表达！</li>

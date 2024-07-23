@@ -14,15 +14,18 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7 # 或者你的 Jekyll 所需的 Ruby 版本
+        ruby-version: 2.7 # 使用与你的项目兼容的 Ruby 版本
+
+    - name: Install compatible Bundler version
+      run: |
+        gem install bundler -v 2.4.22
 
     - name: Install dependencies
       run: |
-        gem install bundler
-        bundle install
+        bundle _2.4.22_ install
 
     - name: Build site
-      run: bundle exec jekyll build
+      run: bundle _2.4.22_ exec jekyll build
 
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3

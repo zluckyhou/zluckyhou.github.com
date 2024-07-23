@@ -46,6 +46,7 @@ defaults:
       layout: "post"
       author: "zluckyH"
       header-img: "img/light_blue_banner.png" # We don't want posts without a header image, that whould mean white on white
+      sitemap: true
 
 
 # Analytics and webmaster tools stuff goes here

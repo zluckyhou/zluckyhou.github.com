@@ -22,5 +22,4 @@ header-img: "img/dark_yellow_400.png"
     </ul>
 </div>
 
-
 </div>

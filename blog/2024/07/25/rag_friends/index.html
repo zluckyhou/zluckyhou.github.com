@@ -297,18 +297,24 @@
 
 <div style="display: flex; justify-content: center;">
     <div class="mermaid">
-        graph TD
-            A[Input Question] --&gt; B[Embed Model]
-            B --&gt; C[Question Vector]
-            D[Document Collection] --&gt; E[Embed Model]
-            E --&gt; F[Document Vectors]
-            C --&gt; G{Vector Similarity Search}
-            F --&gt; G
-            G --&gt; H[Relevant Docs]
-            A --&gt; I[Language Model]
-            H --&gt; I
-            I --&gt; J[Generated Answer]
-            J --&gt; K[Output Answer]
+    %%{init: {'theme': 'neutral', 'themeVariables': { 'fontSize': '16px', 'fontFamily': 'Arial', 'nodeSpacing': 100, 'rankSpacing': 80}}}%%
+    flowchart TD
+        A[Input Question] --&gt; B[Embed Model]
+        B --&gt; C[Question Vector]
+        D[Document Collection] --&gt; E[Embed Model]
+        E --&gt; F[Document Vectors]
+        C &amp; F --&gt; G{Vector Similarity Search}
+        G --&gt; H[Relevant Docs]
+        A &amp; H --&gt; I[Language Model]
+        I --&gt; J[Generated Answer]
+        J --&gt; K[Output Answer]
+    
+        classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
+        classDef process fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+        classDef data fill:#fff3e0,stroke:#e65100,stroke-width:2px;
+        
+        class A,D,K data;
+        class B,E,G,I process;
     </div>
 </div>
 

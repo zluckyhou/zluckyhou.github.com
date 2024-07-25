@@ -8,6 +8,13 @@ description: 我用RAG构建了一个利用老友记学英语的应用，通过�
 keywords: NativeSpeaker,English,Friends,Learn English, AI,RAG,LLM,ChatGPT,Retrieval-Augmented Generation (RAG),llamaindex,langchain
 ---
 
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
+
+
 最近在学英语，发现看老友记能够学到很多地道的表达，于是萌生了一个想法：是否可以通过输入一个场景，来看看老友记中对应的片段？通过这种方式，让学英语变得更加有趣，从技术上来说，其实就是RAG，这个技术已经很成熟了，而且有很多框架提供了方便的接口，做起来应该不难，于是就着手开始，这个项目就这样诞生了。
 
 其实这个项目与chat with pdf这样的项目非常类似，本质上就是提供一个文档，让AI基于文档来回答用户的问题。但是由于文档很长，所以需要先检索到最相关的内容，然后让AI基于这部分内容来回答。
@@ -50,6 +57,21 @@ Anatomy of RAG-Retrieval Augmented Generation
 4. 将question向量化；
 5. 计算question与Documents之间的相似度，提取与question最相关的内容；
 6. 将question和relevant docs发送给LLM，获取答案。
+
+<div class="mermaid">
+    graph TD
+        A[Input Question] --> B[Embed Model]
+        B --> C[Question Vector]
+        D[Document Collection] --> E[Embed Model]
+        E --> F[Document Vectors]
+        C --> G{Vector Similarity Search}
+        F --> G
+        G --> H[Relevant Docs]
+        A --> I[Language Model]
+        H --> I
+        I --> J[Generated Answer]
+        J --> K[Output Answer]
+</div>
 
 ```mermaid
 graph TD

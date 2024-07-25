@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 Jul 2024 22:00:42 +0800</pubDate>
-    <lastBuildDate>Thu, 25 Jul 2024 22:00:42 +0800</lastBuildDate>
+    <pubDate>Thu, 25 Jul 2024 22:06:19 +0800</pubDate>
+    <lastBuildDate>Thu, 25 Jul 2024 22:06:19 +0800</lastBuildDate>
     <generator>Jekyll v3.9.5</generator>
     
       <item>
@@ -17,7 +17,7 @@
 
 &lt;p&gt;但是，这类项目要做好并不容易，之前负责的产品中也提供过文件对话这样的功能，效果并不理想，最终反而采用了直接采用支持超长上下文的模型，让AI基于全文进行回答，代价就是每次的成本都很高。&lt;/p&gt;
 
-&lt;p&gt;所以，我想自己亲自尝试一下，对每一个必要的环节进行优化，看看是否能够达到可用的地步。最终完成后，发现效果还不错，欢迎体验：https://nativespeaker.streamlit.app/&lt;/p&gt;
+&lt;p&gt;所以，我想自己亲自尝试一下，对每一个必要的环节进行优化，看看是否能够达到可用的地步。最终完成后，发现效果还不错，欢迎体验：&lt;a href=&quot;https://nativespeaker.streamlit.app/&quot;&gt;NativeSpeaker&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 

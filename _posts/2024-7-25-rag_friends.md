@@ -14,7 +14,7 @@ keywords: NativeSpeaker,English,Friends,Learn English, AI,RAG,LLM,ChatGPT,Retrie
 
 但是，这类项目要做好并不容易，之前负责的产品中也提供过文件对话这样的功能，效果并不理想，最终反而采用了直接采用支持超长上下文的模型，让AI基于全文进行回答，代价就是每次的成本都很高。
 
-所以，我想自己亲自尝试一下，对每一个必要的环节进行优化，看看是否能够达到可用的地步。最终完成后，发现效果还不错，欢迎体验：https://nativespeaker.streamlit.app/
+所以，我想自己亲自尝试一下，对每一个必要的环节进行优化，看看是否能够达到可用的地步。最终完成后，发现效果还不错，欢迎体验：[NativeSpeaker](https://nativespeaker.streamlit.app/)
 
 ---
 

@@ -251,34 +251,22 @@
   <li>将question和relevant docs发送给LLM，获取答案。</li>
 </ol>
 
-<div class="mermaid">
-    graph TD
-        A[Input Question] --&gt; B[Embed Model]
-        B --&gt; C[Question Vector]
-        D[Document Collection] --&gt; E[Embed Model]
-        E --&gt; F[Document Vectors]
-        C --&gt; G{Vector Similarity Search}
-        F --&gt; G
-        G --&gt; H[Relevant Docs]
-        A --&gt; I[Language Model]
-        H --&gt; I
-        I --&gt; J[Generated Answer]
-        J --&gt; K[Output Answer]
+<div style="display: flex; justify-content: center;">
+    <div class="mermaid">
+        graph TD
+            A[Input Question] --&gt; B[Embed Model]
+            B --&gt; C[Question Vector]
+            D[Document Collection] --&gt; E[Embed Model]
+            E --&gt; F[Document Vectors]
+            C --&gt; G{Vector Similarity Search}
+            F --&gt; G
+            G --&gt; H[Relevant Docs]
+            A --&gt; I[Language Model]
+            H --&gt; I
+            I --&gt; J[Generated Answer]
+            J --&gt; K[Output Answer]
+    </div>
 </div>
-
-<pre><code class="language-mermaid">graph TD
-    A[Input Question] --&gt; B[Embed Model]
-    B --&gt; C[Question Vector]
-    D[Document Collection] --&gt; E[Embed Model]
-    E --&gt; F[Document Vectors]
-    C --&gt; G{Vector Similarity Search}
-    F --&gt; G
-    G --&gt; H[Relevant Docs]
-    A --&gt; I[Language Model]
-    H --&gt; I
-    I --&gt; J[Generated Answer]
-    J --&gt; K[Output Answer]
-</code></pre>
 
 <h1 id="5行代码构建一个rag应用"><strong>5行代码构建一个RAG应用</strong></h1>
 

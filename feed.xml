@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 Jul 2024 22:17:08 +0800</pubDate>
-    <lastBuildDate>Thu, 25 Jul 2024 22:17:08 +0800</lastBuildDate>
+    <pubDate>Thu, 25 Jul 2024 22:31:14 +0800</pubDate>
+    <lastBuildDate>Thu, 25 Jul 2024 22:31:14 +0800</lastBuildDate>
     <generator>Jekyll v3.9.5</generator>
     
       <item>
@@ -65,34 +65,22 @@
   &lt;li&gt;将question和relevant docs发送给LLM，获取答案。&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;div class=&quot;mermaid&quot;&gt;
-    graph TD
-        A[Input Question] --&amp;gt; B[Embed Model]
-        B --&amp;gt; C[Question Vector]
-        D[Document Collection] --&amp;gt; E[Embed Model]
-        E --&amp;gt; F[Document Vectors]
-        C --&amp;gt; G{Vector Similarity Search}
-        F --&amp;gt; G
-        G --&amp;gt; H[Relevant Docs]
-        A --&amp;gt; I[Language Model]
-        H --&amp;gt; I
-        I --&amp;gt; J[Generated Answer]
-        J --&amp;gt; K[Output Answer]
+&lt;div style=&quot;display: flex; justify-content: center;&quot;&gt;
+    &lt;div class=&quot;mermaid&quot;&gt;
+        graph TD
+            A[Input Question] --&amp;gt; B[Embed Model]
+            B --&amp;gt; C[Question Vector]
+            D[Document Collection] --&amp;gt; E[Embed Model]
+            E --&amp;gt; F[Document Vectors]
+            C --&amp;gt; G{Vector Similarity Search}
+            F --&amp;gt; G
+            G --&amp;gt; H[Relevant Docs]
+            A --&amp;gt; I[Language Model]
+            H --&amp;gt; I
+            I --&amp;gt; J[Generated Answer]
+            J --&amp;gt; K[Output Answer]
+    &lt;/div&gt;
 &lt;/div&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;graph TD
-    A[Input Question] --&amp;gt; B[Embed Model]
-    B --&amp;gt; C[Question Vector]
-    D[Document Collection] --&amp;gt; E[Embed Model]
-    E --&amp;gt; F[Document Vectors]
-    C --&amp;gt; G{Vector Similarity Search}
-    F --&amp;gt; G
-    G --&amp;gt; H[Relevant Docs]
-    A --&amp;gt; I[Language Model]
-    H --&amp;gt; I
-    I --&amp;gt; J[Generated Answer]
-    J --&amp;gt; K[Output Answer]
-&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h1 id=&quot;5行代码构建一个rag应用&quot;&gt;&lt;strong&gt;5行代码构建一个RAG应用&lt;/strong&gt;&lt;/h1&gt;
 

@@ -60,18 +60,24 @@ Anatomy of RAG-Retrieval Augmented Generation
 
 <div style="display: flex; justify-content: center;">
     <div class="mermaid">
-        graph TD
-            A[Input Question] --> B[Embed Model]
-            B --> C[Question Vector]
-            D[Document Collection] --> E[Embed Model]
-            E --> F[Document Vectors]
-            C --> G{Vector Similarity Search}
-            F --> G
-            G --> H[Relevant Docs]
-            A --> I[Language Model]
-            H --> I
-            I --> J[Generated Answer]
-            J --> K[Output Answer]
+    %%{init: {'theme': 'neutral', 'themeVariables': { 'fontSize': '16px', 'fontFamily': 'Arial', 'nodeSpacing': 100, 'rankSpacing': 80}}}%%
+    flowchart TD
+        A[Input Question] --> B[Embed Model]
+        B --> C[Question Vector]
+        D[Document Collection] --> E[Embed Model]
+        E --> F[Document Vectors]
+        C & F --> G{Vector Similarity Search}
+        G --> H[Relevant Docs]
+        A & H --> I[Language Model]
+        I --> J[Generated Answer]
+        J --> K[Output Answer]
+    
+        classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
+        classDef process fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+        classDef data fill:#fff3e0,stroke:#e65100,stroke-width:2px;
+        
+        class A,D,K data;
+        class B,E,G,I process;
     </div>
 </div>
 

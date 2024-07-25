@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 Jul 2024 21:53:33 +0800</pubDate>
-    <lastBuildDate>Thu, 25 Jul 2024 21:53:33 +0800</lastBuildDate>
+    <pubDate>Thu, 25 Jul 2024 22:00:42 +0800</pubDate>
+    <lastBuildDate>Thu, 25 Jul 2024 22:00:42 +0800</lastBuildDate>
     <generator>Jekyll v3.9.5</generator>
     
       <item>
@@ -33,7 +33,7 @@
 
 &lt;p&gt;这张图清晰地介绍了RAG的原理，可以查看&lt;a href=&quot;https://x.com/baptadn/status/1813232789946253703&quot;&gt;原文&lt;/a&gt;，原文还提供了一个动画，非常便于理解。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;img/rag_anatomy.png&quot; alt=&quot;Anatomy of RAG-Retrieval Augmented Generation&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/zluckyhou/zluckyhou.github.com/master/img/rag_anatomy.png&quot; alt=&quot;Anatomy of RAG-Retrieval Augmented Generation&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Anatomy of RAG-Retrieval Augmented Generation&lt;/p&gt;
 
@@ -153,7 +153,7 @@ Answer:
 
 &lt;p&gt;在测试了N次prompt之后，效果终于达到了可以接受的地步，让我们看看这个例子：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;img/friends_english_example.png&quot; alt=&quot;老友记学英语-场景：面试&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/zluckyhou/zluckyhou.github.com/master/img/friends_english_example.png&quot; alt=&quot;老友记学英语-场景：面试&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;question&quot;&gt;question&lt;/h2&gt;
 
@@ -177,8 +177,8 @@ Answer:
 &lt;p&gt;RAG还有很多方向的应用，例如AI客服、AI解读（很多电商详情页已经有了问AI这个功能）、AI搜索，但是底层逻辑都是类似的，核心都在于如何有效地检索相关信息并将其与大语言模型结合。无论是哪种应用场景，关键都在于构建高质量的知识库、设计合适的检索策略，以及优化提示工程以生成准确而有用的回答！&lt;/p&gt;
 </description>
         <pubDate>Thu, 25 Jul 2024 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2024/07/25/rag-friends/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2024/07/25/rag-friends/</guid>
+        <link>https://zluckyhou.github.io/blog/2024/07/25/rag_friends/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2024/07/25/rag_friends/</guid>
         
         <category>AI</category>
         

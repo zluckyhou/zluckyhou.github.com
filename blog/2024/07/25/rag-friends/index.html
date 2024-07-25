@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="我用RAG构建了一个利用老友记学英语的应用，通过数据清洗和整理，对Document,question,document split, vector store等细节进行优化，实现了不错的效果。RAG还有很多方向的应用，例如AI客服、AI解读（很多电商详情页已经有了问AI这个功能）、AI搜索，但是底层逻辑都是类似的，核心都在于如何有效地检索相关信息并将其与大语言模型结合。无论是哪种应用场景，关键都在于构建高质量的知识库、设计合适的检索策略，以及优化提示工程以生成准确而有用的回答！">
+    <meta name="keywords" content="NativeSpeaker,English,Friends,Learn English, AI,RAG,LLM,ChatGPT,Retrieval-Augmented Generation (RAG),llamaindex,langchain">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>RAG实践——老友记学英语 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/blog/2024/07/25/rag-friends/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Freedom Hunter</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                <li>
+                    <a href="/">Articles</a>
+                </li>
+                <li>
+                    <a href="/history/">History</a>
+                </li>
+                <li>
+                    <a href="/tags/">Tags</a>
+                </li>
+                
+                <!--                 
+                    <li>
+                        <a href="/Tool/">Tools</a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                
+                    <li>
+                        <a href="/history/">History</a>
+                    </li>
+                
+                    <li>
+                        <a href="/milestone/">milestone</a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                 -->
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/light_blue_banner.png')
+    }
+    .tag {
+        display: inline-block;
+        padding: 4px 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        background-color: #FFF;
+        color: #FF7A00;
+        border-radius: 16px;
+        font-size: 0.9em;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .tag:hover {
+        background-color: #FFF;
+    }
+    .tag::before {
+        content: "#";
+        margin-right: 2px;
+        opacity: 0.7;
+    }
+    .tags-container {
+        margin-bottom: 20px;
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags-container">
+                        
+                        <a class="tag" href="/tags/#AI" title="AI">AI</a>
+                        
+                        <a class="tag" href="/tags/#RAG" title="RAG">RAG</a>
+                        
+                        <a class="tag" href="/tags/#LLM" title="LLM">LLM</a>
+                        
+                        <a class="tag" href="/tags/#ChatGPT" title="ChatGPT">ChatGPT</a>
+                        
+                    </div>
+                    <h1>RAG实践——老友记学英语</h1>
+                    
+                    <span class="meta">Posted by zluckyH on July 25, 2024</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p>最近在学英语，发现看老友记能够学到很多地道的表达，于是萌生了一个想法：是否可以通过输入一个场景，来看看老友记中对应的片段？通过这种方式，让学英语变得更加有趣，从技术上来说，其实就是RAG，这个技术已经很成熟了，而且有很多框架提供了方便的接口，做起来应该不难，于是就着手开始，这个项目就这样诞生了。</p>
+
+<p>其实这个项目与chat with pdf这样的项目非常类似，本质上就是提供一个文档，让AI基于文档来回答用户的问题。但是由于文档很长，所以需要先检索到最相关的内容，然后让AI基于这部分内容来回答。</p>
+
+<p>但是，这类项目要做好并不容易，之前负责的产品中也提供过文件对话这样的功能，效果并不理想，最终反而采用了直接采用支持超长上下文的模型，让AI基于全文进行回答，代价就是每次的成本都很高。</p>
+
+<p>所以，我想自己亲自尝试一下，对每一个必要的环节进行优化，看看是否能够达到可用的地步。最终完成后，发现效果还不错，欢迎体验：https://nativespeaker.streamlit.app/</p>
+
+<hr />
+
+<p>如果你对RAG或AI感兴趣，或者你有其他想法，欢迎留言讨论。</p>
+
+<h1 id="什么是rag"><strong>什么是RAG？</strong></h1>
+
+<blockquote>
+  <p>LLMs are trained on enormous bodies of data but they aren’t trained on <strong>your</strong> data. Retrieval-Augmented Generation (RAG) solves this problem by adding your data to the data LLMs already have access to. 
+—llamaindex</p>
+
+</blockquote>
+
+<p>这张图清晰地介绍了RAG的原理，可以查看<a href="https://x.com/baptadn/status/1813232789946253703">原文</a>，原文还提供了一个动画，非常便于理解。</p>
+
+<p><img src="img/rag_anatomy.png" alt="Anatomy of RAG-Retrieval Augmented Generation" /></p>
+
+<p>Anatomy of RAG-Retrieval Augmented Generation</p>
+
+<p>我们用这张图上的概念来理解RAG：</p>
+
+<ul>
+  <li><strong>Docs</strong>：我们提供的原始文档，目的是让AI基于这份文档提供的内容来回答，图中最右侧的文档部分</li>
+  <li><strong>Question</strong>：想让AI解答的问题，假设你在跟一个AI对话，这就是你发给AI的问题。</li>
+  <li><strong>Embed model</strong>：这个模型用于将提供的文档内容进行向量化，向量化的目的是用来计算文档内容与Question之间的相似度。OpenAI目前最好的向量化模型是text-embedding-3-large，详细解释可以参见<a href="https://platform.openai.com/docs/guides/embeddings/embedding-models">openai embedding models</a>，还有很多大模型都提供了embed的能力，例如<a href="https://docs.cohere.com/reference/embed">cohere embed</a></li>
+  <li><strong>Vector</strong>：提供的docs经过embed model转换之后，会变成向量，其实就是这些文档的数字表示</li>
+  <li><strong>LLM model</strong>：大语言模型，用来回答问题</li>
+  <li><strong>Relevent docs</strong>：Docs中与Question最相关的部分文档，这部分文档将作为context发送给LLM，让LLM基于这个context来回答Question</li>
+  <li><strong>Answer</strong>：LLM最终返回的结果</li>
+</ul>
+
+<p>下面是RAG工作的流程图，主要步骤包括：</p>
+
+<ol>
+  <li>准备原始文档</li>
+  <li>将原始文档进行拆分，生成多个Documents</li>
+  <li>利用embed model将Documents向量化；</li>
+  <li>将question向量化；</li>
+  <li>计算question与Documents之间的相似度，提取与question最相关的内容；</li>
+  <li>将question和relevant docs发送给LLM，获取答案。</li>
+</ol>
+
+<pre><code class="language-mermaid">graph TD
+    A[Input Question] --&gt; B[Embed Model]
+    B --&gt; C[Question Vector]
+    D[Document Collection] --&gt; E[Embed Model]
+    E --&gt; F[Document Vectors]
+    C --&gt; G{Vector Similarity Search}
+    F --&gt; G
+    G --&gt; H[Relevant Docs]
+    A --&gt; I[Language Model]
+    H --&gt; I
+    I --&gt; J[Generated Answer]
+    J --&gt; K[Output Answer]
+</code></pre>
+
+<h1 id="5行代码构建一个rag应用"><strong>5行代码构建一个RAG应用</strong></h1>
+
+<p>在了解了RAG的原理之后，如果要开发一个简单的RAG应用，其实很简单，借助<a href="https://docs.llamaindex.ai/en/stable/understanding/putting_it_all_together/q_and_a/#semantic-search">llamaindex</a>，只需要5行代码即可实现。</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">llama_index.core</span> <span class="kn">import</span> <span class="n">VectorStoreIndex</span><span class="p">,</span> <span class="n">SimpleDirectoryReader</span>
+
+<span class="n">documents</span> <span class="o">=</span> <span class="n">SimpleDirectoryReader</span><span class="p">(</span><span class="s">"data"</span><span class="p">).</span><span class="n">load_data</span><span class="p">()</span>
+<span class="n">index</span> <span class="o">=</span> <span class="n">VectorStoreIndex</span><span class="p">.</span><span class="n">from_documents</span><span class="p">(</span><span class="n">documents</span><span class="p">)</span>
+<span class="n">query_engine</span> <span class="o">=</span> <span class="n">index</span><span class="p">.</span><span class="n">as_query_engine</span><span class="p">()</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">query_engine</span><span class="p">.</span><span class="n">query</span><span class="p">(</span><span class="s">"What did the author do growing up?"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h1 id="真实世界的rag">真实世界的RAG</h1>
+
+<p><a href="https://docs.llamaindex.ai/en/stable/module_guides/">llamaindex</a>、<a href="https://python.langchain.com/v0.2/docs/tutorials/rag/">langchain</a>等框架提供了非常方便的接口，可以用几行代码来实现一个RAG应用，但是如果要实现很好的效果，我们还需要很多的优化。下面是我在老友记学英语项目中遇到的一些坑，希望对大家有一定的参考</p>
+
+<h2 id="数据处理">数据处理</h2>
+
+<p>一般来说，纯文本的文档效果最好，因为不需要对图片或视频进行处理，如果是包含图片或视频的pdf或html文档，还需要一些OCR的工作。</p>
+
+<p>下面是我在这个项目中经历的一些数据处理工作：</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">
+1.</span> 准备数据 - 数据源1：找到一份老友记ass字幕文件，将文件转为srt格式，去掉多余的格式等内容；
+<span class="p">2.</span> 准备数据 - 数据源2：字幕文件不包含对话的角色，导致AI在回答时总是将角色与对话匹配错误，所以又找了一份pdf版本的scripts，包含角色信息与中文翻译；
+<span class="p">3.</span> 准备数据 - 数据源2：对pdf scripts进行处理，拆分为多个文件，提取剧集信息作为文件名…
+<span class="p">4.</span> 拆分文档 - 对每一集的内容进行拆分，尝试不同的拆分方式（按句子拆分、按页拆分、按token拆分…）
+<span class="p">5.</span> 准备数据 - 数据源3：pdf scripts包含的中文翻译导致文件拆分后每一个doc的结果比较混乱，所以又找了一份纯英文的scripts
+<span class="p">6.</span> 准备数据 - 数据源3：整理纯英文老友记scripts，清洗数据…
+
+…
+
+</code></pre></div></div>
+
+<h2 id="文档拆分">文档拆分</h2>
+
+<p>不同的文档拆分方式也会影响最终的效果，下面是最常见的一些拆分方式：</p>
+
+<ul>
+  <li>按句子拆分：例如根据换行符将一个句子作为一个单元，把多个句子作为一个文档；</li>
+  <li>按token拆分：顾名思义，例如把每1000token作为一个文档；</li>
+  <li>根据语义拆分：根据向量相似度，将语义相近的句子作为一个文档；</li>
+  <li>…</li>
+</ul>
+
+<p>可以参考<a href="https://docs.llamaindex.ai/en/stable/module_guides/loading/node_parsers/modules/#text-splitters">textspliter</a> 进一步了解。</p>
+
+<p>在尝试了不同的拆分之后，选择了SentenceSplitter</p>
+
+<h2 id="向量化">向量化</h2>
+
+<p>这一步主要考虑使用哪个向量模型，我直接用了openai 目前效果最好的embedding model text-embedding-3-large，后续可以尝试其他的模型，例如cohere的向量模型。</p>
+
+<p>由于每一次向量化都有成本，所以在测试过程中取了少量documents来向量化，可以在最终数据准备完成之后再对所有的documents进行向量化。</p>
+
+<p>向量化的结果可以保存到本地，也可以用向量数据库。最开始我把结果保存到本地，但是发现每次加载向量的过程非常耗时，于是尝试了<a href="https://qdrant.tech/">qdrant vector database</a>，速度是相当快！</p>
+
+<h2 id="元数据">元数据</h2>
+
+<p>有时候metadata也包含了很多信息，例如文件名，document title，page label等。例如我把老友记的每一集剧本放到一个文件里，用文件名来标识哪一季哪一集，把这个信息放到拆分后的每一个doc中，AI在回复的时候就可以参考，有时候是非常有必要的。</p>
+
+<h2 id="prompt">prompt</h2>
+
+<p>一个好的prompt能够让最终效果提升一个等级，如果使用llamaindex或langchain，默认的prompt可能是这样的：</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">Context information is below.
+---------------------
+{context_str}
+---------------------
+</span>Given the context information and not prior knowledge, answer the query.
+Query: {query_str}
+Answer: 
+</code></pre></div></div>
+
+<p>但是如果想要输出结果更符合我们的预期，可以对prompt进行优化，例如写一个与项目更相关的prompt。</p>
+
+<p>在测试了N次prompt之后，效果终于达到了可以接受的地步，让我们看看这个例子：</p>
+
+<p><img src="img/friends_english_example.png" alt="老友记学英语-场景：面试" /></p>
+
+<h2 id="question">question</h2>
+
+<p>可以看到，默认的prompt中有两个参数：</p>
+
+<ul>
+  <li>context_str：即根据相似度计算出来与question最相关的文档</li>
+  <li>query_str：即原始输入的question</li>
+</ul>
+
+<p>如果想要效果更好，还可以对question进行处理，例如假设用户输入了一个很简单的短语，如果直接将这个输入去做向量化，然后计算相似度获取context_str，有可能得到的结果与question相关性并不大。</p>
+
+<p>注意，优化question需要与优化prompt一起进行！</p>
+
+<h1 id="最后">最后</h1>
+
+<p>以上基本上是我在项目中遇到的所有需要注意的细节，如果你也要用RAG构建应用，欢迎联系我一起讨论。</p>
+
+<p>老友记这个项目仍然还有很大的优化空间，目前还不涉及对图片的处理，也没有涉及到文档关系，对于很多细节也还有待完善。但是作为一个完整的RAG项目，我觉得仍然是一次不错的尝试！</p>
+
+<p>RAG还有很多方向的应用，例如AI客服、AI解读（很多电商详情页已经有了问AI这个功能）、AI搜索，但是底层逻辑都是类似的，核心都在于如何有效地检索相关信息并将其与大语言模型结合。无论是哪种应用场景，关键都在于构建高质量的知识库、设计合适的检索策略，以及优化提示工程以生成准确而有用的回答！</p>
+
+
+        <hr>
+
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/blog/2024/07/23/bilibili2024Q1/" data-toggle="tooltip" data-placement="top" title="bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%">&larr; Previous Post</a>
+          </li>
+          
+          
+        </ul>
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->    
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.1em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2024  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.1/async.js"></script>
+<script>
+    async("https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

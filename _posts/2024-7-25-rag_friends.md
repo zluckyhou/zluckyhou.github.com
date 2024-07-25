@@ -58,35 +58,23 @@ Anatomy of RAG-Retrieval Augmented Generation
 5. 计算question与Documents之间的相似度，提取与question最相关的内容；
 6. 将question和relevant docs发送给LLM，获取答案。
 
-<div class="mermaid">
-    graph TD
-        A[Input Question] --> B[Embed Model]
-        B --> C[Question Vector]
-        D[Document Collection] --> E[Embed Model]
-        E --> F[Document Vectors]
-        C --> G{Vector Similarity Search}
-        F --> G
-        G --> H[Relevant Docs]
-        A --> I[Language Model]
-        H --> I
-        I --> J[Generated Answer]
-        J --> K[Output Answer]
+<div style="display: flex; justify-content: center;">
+    <div class="mermaid">
+        graph TD
+            A[Input Question] --> B[Embed Model]
+            B --> C[Question Vector]
+            D[Document Collection] --> E[Embed Model]
+            E --> F[Document Vectors]
+            C --> G{Vector Similarity Search}
+            F --> G
+            G --> H[Relevant Docs]
+            A --> I[Language Model]
+            H --> I
+            I --> J[Generated Answer]
+            J --> K[Output Answer]
+    </div>
 </div>
 
-```mermaid
-graph TD
-    A[Input Question] --> B[Embed Model]
-    B --> C[Question Vector]
-    D[Document Collection] --> E[Embed Model]
-    E --> F[Document Vectors]
-    C --> G{Vector Similarity Search}
-    F --> G
-    G --> H[Relevant Docs]
-    A --> I[Language Model]
-    H --> I
-    I --> J[Generated Answer]
-    J --> K[Output Answer]
-```
 
 # **5行代码构建一个RAG应用**
 

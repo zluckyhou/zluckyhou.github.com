@@ -28,7 +28,7 @@ keywords: NativeSpeaker,English,Friends,Learn English, AI,RAG,LLM,ChatGPT,Retrie
 
 这张图清晰地介绍了RAG的原理，可以查看[原文](https://x.com/baptadn/status/1813232789946253703)，原文还提供了一个动画，非常便于理解。
 
-![Anatomy of RAG-Retrieval Augmented Generation](img/rag_anatomy.png)
+![Anatomy of RAG-Retrieval Augmented Generation](https://raw.githubusercontent.com/zluckyhou/zluckyhou.github.com/master/img/rag_anatomy.png)
 
 Anatomy of RAG-Retrieval Augmented Generation
 
@@ -146,7 +146,7 @@ Answer:
 
 在测试了N次prompt之后，效果终于达到了可以接受的地步，让我们看看这个例子：
 
-![老友记学英语-场景：面试](img/friends_english_example.png)
+![老友记学英语-场景：面试](https://raw.githubusercontent.com/zluckyhou/zluckyhou.github.com/master/img/friends_english_example.png)
 
 ## question
 

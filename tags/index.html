@@ -171,533 +171,539 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-			<h1 style="color:#1EB2A6">Tags</h1>
+			<style>
+    .tag-cloud {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tag-item {
+        position: relative;
+        margin: 5px;
+        padding: 5px 10px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .tag-count {
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        background-color: #1EB2A6;
+        color: white;
+        border-radius: 50%;
+        padding: 2px 6px;
+        font-size: 0.8em;
+    }
+    .listing-seperator {
+        margin-top: 30px;
+    }
+    .listing-item {
+        margin-bottom: 10px;
+    }
+</style>
 
-<div id="tag_cloud">
+<h1 style="color:#1EB2A6">Tags</h1>
 
+<div class="tag-cloud">
 
-<a href="#随笔" title="随笔" rel="4" style="color:#1EB2A6;font-size:4">&nbsp;&nbsp;随笔&nbsp;&nbsp;</a>
+    <a href="#随笔" class="tag-item" title="随笔" style="font-size: 96%">
+        随笔
+        <span class="tag-count">4</span>
+    </a>
 
+    <a href="#Markdown" class="tag-item" title="Markdown" style="font-size: 84%">
+        Markdown
+        <span class="tag-count">1</span>
+    </a>
 
-<a href="#Markdown" title="Markdown" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;Markdown&nbsp;&nbsp;</a>
+    <a href="#Web" class="tag-item" title="Web" style="font-size: 88%">
+        Web
+        <span class="tag-count">2</span>
+    </a>
 
+    <a href="#Github" class="tag-item" title="Github" style="font-size: 88%">
+        Github
+        <span class="tag-count">2</span>
+    </a>
 
-<a href="#Web" title="Web" rel="2" style="color:#1EB2A6;font-size:2">&nbsp;&nbsp;Web&nbsp;&nbsp;</a>
+    <a href="#R" class="tag-item" title="R" style="font-size: 96%">
+        R
+        <span class="tag-count">4</span>
+    </a>
 
+    <a href="#SQL" class="tag-item" title="SQL" style="font-size: 88%">
+        SQL
+        <span class="tag-count">2</span>
+    </a>
 
-<a href="#Github" title="Github" rel="2" style="color:#1EB2A6;font-size:2">&nbsp;&nbsp;Github&nbsp;&nbsp;</a>
+    <a href="#统计学习" class="tag-item" title="统计学习" style="font-size: 84%">
+        统计学习
+        <span class="tag-count">1</span>
+    </a>
 
+    <a href="#python" class="tag-item" title="python" style="font-size: 124%">
+        python
+        <span class="tag-count">11</span>
+    </a>
 
-<a href="#R" title="R" rel="4" style="color:#1EB2A6;font-size:4">&nbsp;&nbsp;R&nbsp;&nbsp;</a>
+    <a href="#computer" class="tag-item" title="computer" style="font-size: 84%">
+        computer
+        <span class="tag-count">1</span>
+    </a>
 
+    <a href="#LaTex" class="tag-item" title="LaTex" style="font-size: 84%">
+        LaTex
+        <span class="tag-count">1</span>
+    </a>
 
-<a href="#SQL" title="SQL" rel="2" style="color:#1EB2A6;font-size:2">&nbsp;&nbsp;SQL&nbsp;&nbsp;</a>
+    <a href="#Deep learning" class="tag-item" title="Deep learning" style="font-size: 84%">
+        Deep learning
+        <span class="tag-count">1</span>
+    </a>
 
+    <a href="#Linux" class="tag-item" title="Linux" style="font-size: 84%">
+        Linux
+        <span class="tag-count">1</span>
+    </a>
 
-<a href="#统计学习" title="统计学习" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;统计学习&nbsp;&nbsp;</a>
+    <a href="#Machine learning" class="tag-item" title="Machine learning" style="font-size: 84%">
+        Machine learning
+        <span class="tag-count">1</span>
+    </a>
 
+    <a href="#用户标签" class="tag-item" title="用户标签" style="font-size: 84%">
+        用户标签
+        <span class="tag-count">1</span>
+    </a>
 
-<a href="#python" title="python" rel="11" style="color:#1EB2A6;font-size:11">&nbsp;&nbsp;python&nbsp;&nbsp;</a>
+    <a href="#Tools" class="tag-item" title="Tools" style="font-size: 84%">
+        Tools
+        <span class="tag-count">1</span>
+    </a>
 
+    <a href="#stock" class="tag-item" title="stock" style="font-size: 88%">
+        stock
+        <span class="tag-count">2</span>
+    </a>
 
-<a href="#computer" title="computer" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;computer&nbsp;&nbsp;</a>
+    <a href="#互联网" class="tag-item" title="互联网" style="font-size: 88%">
+        互联网
+        <span class="tag-count">2</span>
+    </a>
 
+    <a href="#大公司数据观察" class="tag-item" title="大公司数据观察" style="font-size: 88%">
+        大公司数据观察
+        <span class="tag-count">2</span>
+    </a>
 
-<a href="#LaTex" title="LaTex" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;LaTex&nbsp;&nbsp;</a>
+    <a href="#快手" class="tag-item" title="快手" style="font-size: 84%">
+        快手
+        <span class="tag-count">1</span>
+    </a>
 
+    <a href="#bilibili" class="tag-item" title="bilibili" style="font-size: 84%">
+        bilibili
+        <span class="tag-count">1</span>
+    </a>
 
-<a href="#Deep learning" title="Deep learning" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;Deep learning&nbsp;&nbsp;</a>
+    <a href="#AI" class="tag-item" title="AI" style="font-size: 84%">
+        AI
+        <span class="tag-count">1</span>
+    </a>
 
+    <a href="#RAG" class="tag-item" title="RAG" style="font-size: 84%">
+        RAG
+        <span class="tag-count">1</span>
+    </a>
 
-<a href="#Linux" title="Linux" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;Linux&nbsp;&nbsp;</a>
+    <a href="#LLM" class="tag-item" title="LLM" style="font-size: 84%">
+        LLM
+        <span class="tag-count">1</span>
+    </a>
 
-
-<a href="#Machine learning" title="Machine learning" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;Machine learning&nbsp;&nbsp;</a>
-
-
-<a href="#用户标签" title="用户标签" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;用户标签&nbsp;&nbsp;</a>
-
-
-<a href="#Tools" title="Tools" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;Tools&nbsp;&nbsp;</a>
-
-
-<a href="#stock" title="stock" rel="2" style="color:#1EB2A6;font-size:2">&nbsp;&nbsp;stock&nbsp;&nbsp;</a>
-
-
-<a href="#互联网" title="互联网" rel="2" style="color:#1EB2A6;font-size:2">&nbsp;&nbsp;互联网&nbsp;&nbsp;</a>
-
-
-<a href="#大公司数据观察" title="大公司数据观察" rel="2" style="color:#1EB2A6;font-size:2">&nbsp;&nbsp;大公司数据观察&nbsp;&nbsp;</a>
-
-
-<a href="#快手" title="快手" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;快手&nbsp;&nbsp;</a>
-
-
-<a href="#bilibili" title="bilibili" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;bilibili&nbsp;&nbsp;</a>
-
-
-<a href="#AI" title="AI" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;AI&nbsp;&nbsp;</a>
-
-
-<a href="#RAG" title="RAG" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;RAG&nbsp;&nbsp;</a>
-
-
-<a href="#LLM" title="LLM" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;LLM&nbsp;&nbsp;</a>
-
-
-<a href="#ChatGPT" title="ChatGPT" rel="1" style="color:#1EB2A6;font-size:1">&nbsp;&nbsp;ChatGPT&nbsp;&nbsp;</a>
+    <a href="#ChatGPT" class="tag-item" title="ChatGPT" style="font-size: 84%">
+        ChatGPT
+        <span class="tag-count">1</span>
+    </a>
 
 </div>
-
-<p><br /></p>
 
 <h1 style="color:#1EB2A6">Articles</h1>
 
 <ul class="listing">
 
-<!--   <li class="listing-seperator" id="随笔"><p style="color:#1EB2A6"><b>随笔</b></p></li> -->
   <h3 class="listing-seperator" id="随笔" style="color:#1EB2A6">随笔</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2016-07-01">2016-07-01</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/07/01/%E9%AD%94%E9%83%BD%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/" title="初来魔都有感" style="color:#1EB2A6">初来魔都有感</a>
+    <time datetime="2016-07-01">2016-07-01</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/07/01/%E9%AD%94%E9%83%BD%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/" title="初来魔都有感" style="color:#1EB2A6">初来魔都有感</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2016-02-20">2016-02-20</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/02/20/%E4%B8%8D%E5%9C%A8%E4%B9%A6%E5%BA%97/" title="不在书店" style="color:#1EB2A6">不在书店</a>
+    <time datetime="2016-02-20">2016-02-20</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/02/20/%E4%B8%8D%E5%9C%A8%E4%B9%A6%E5%BA%97/" title="不在书店" style="color:#1EB2A6">不在书店</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2016-02-19">2016-02-19</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/02/19/%E6%96%B0%E5%B9%B4%E4%BC%8A%E5%A7%8B-%E6%95%B4%E8%A3%85%E5%BE%85%E5%8F%91/" title="写于开学初" style="color:#1EB2A6">写于开学初</a>
+    <time datetime="2016-02-19">2016-02-19</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/02/19/%E6%96%B0%E5%B9%B4%E4%BC%8A%E5%A7%8B-%E6%95%B4%E8%A3%85%E5%BE%85%E5%8F%91/" title="写于开学初" style="color:#1EB2A6">写于开学初</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2015-12-09">2015-12-09</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2015/12/09/my-first-blog/" title="My First Blog" style="color:#1EB2A6">My First Blog</a>
+    <time datetime="2015-12-09">2015-12-09</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2015/12/09/my-first-blog/" title="My First Blog" style="color:#1EB2A6">My First Blog</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="Markdown"><p style="color:#1EB2A6"><b>Markdown</b></p></li> -->
   <h3 class="listing-seperator" id="Markdown" style="color:#1EB2A6">Markdown</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2015-12-10">2015-12-10</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2015/12/10/markdown/" title="Markdown学习" style="color:#1EB2A6">Markdown学习</a>
+    <time datetime="2015-12-10">2015-12-10</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2015/12/10/markdown/" title="Markdown学习" style="color:#1EB2A6">Markdown学习</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="Web"><p style="color:#1EB2A6"><b>Web</b></p></li> -->
   <h3 class="listing-seperator" id="Web" style="color:#1EB2A6">Web</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2016-07-22">2016-07-22</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/07/22/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" title="正则表达式" style="color:#1EB2A6">正则表达式</a>
+    <time datetime="2016-07-22">2016-07-22</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/07/22/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" title="正则表达式" style="color:#1EB2A6">正则表达式</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2015-12-21">2015-12-21</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2015/12/21/%E4%B8%80%E4%BA%9B%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99/" title="一些实用网站" style="color:#1EB2A6">一些实用网站</a>
+    <time datetime="2015-12-21">2015-12-21</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2015/12/21/%E4%B8%80%E4%BA%9B%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99/" title="一些实用网站" style="color:#1EB2A6">一些实用网站</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="Github"><p style="color:#1EB2A6"><b>Github</b></p></li> -->
   <h3 class="listing-seperator" id="Github" style="color:#1EB2A6">Github</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2016-05-29">2016-05-29</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/05/29/CNAME-file-problem/" title="CNAME file problem" style="color:#1EB2A6">CNAME file problem</a>
+    <time datetime="2016-05-29">2016-05-29</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/05/29/CNAME-file-problem/" title="CNAME file problem" style="color:#1EB2A6">CNAME file problem</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2016-02-17">2016-02-17</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/02/17/Jekyll-3.0/" title="Jekyll 3.0" style="color:#1EB2A6">Jekyll 3.0</a>
+    <time datetime="2016-02-17">2016-02-17</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/02/17/Jekyll-3.0/" title="Jekyll 3.0" style="color:#1EB2A6">Jekyll 3.0</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="R"><p style="color:#1EB2A6"><b>R</b></p></li> -->
   <h3 class="listing-seperator" id="R" style="color:#1EB2A6">R</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2016-05-29">2016-05-29</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/05/29/R%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/" title="R语言实用小技巧" style="color:#1EB2A6">R语言实用小技巧</a>
+    <time datetime="2016-05-29">2016-05-29</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/05/29/R%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/" title="R语言实用小技巧" style="color:#1EB2A6">R语言实用小技巧</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2016-05-16">2016-05-16</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/05/16/R%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99/" title="R语言学习网站" style="color:#1EB2A6">R语言学习网站</a>
+    <time datetime="2016-05-16">2016-05-16</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/05/16/R%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99/" title="R语言学习网站" style="color:#1EB2A6">R语言学习网站</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2016-05-15">2016-05-15</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/05/15/R%E8%AF%AD%E8%A8%80dplyr%E5%8C%85%E5%AD%A6%E4%B9%A0/" title="dplyr包学习" style="color:#1EB2A6">dplyr包学习</a>
+    <time datetime="2016-05-15">2016-05-15</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/05/15/R%E8%AF%AD%E8%A8%80dplyr%E5%8C%85%E5%AD%A6%E4%B9%A0/" title="dplyr包学习" style="color:#1EB2A6">dplyr包学习</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2016-03-17">2016-03-17</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/03/17/%E7%94%A8R%E7%BB%98%E5%88%B6%E4%BA%91%E5%9B%BE/" title="用R绘制云图" style="color:#1EB2A6">用R绘制云图</a>
+    <time datetime="2016-03-17">2016-03-17</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/03/17/%E7%94%A8R%E7%BB%98%E5%88%B6%E4%BA%91%E5%9B%BE/" title="用R绘制云图" style="color:#1EB2A6">用R绘制云图</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="SQL"><p style="color:#1EB2A6"><b>SQL</b></p></li> -->
   <h3 class="listing-seperator" id="SQL" style="color:#1EB2A6">SQL</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2020-04-30">2020-04-30</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2020/04/30/hive-grouping-%E9%AB%98%E7%BA%A7%E6%9F%A5%E8%AF%A2%E5%8A%9F%E8%83%BD/" title="hive grouping 高级查询功能" style="color:#1EB2A6">hive grouping 高级查询功能</a>
+    <time datetime="2020-04-30">2020-04-30</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2020/04/30/hive-grouping-%E9%AB%98%E7%BA%A7%E6%9F%A5%E8%AF%A2%E5%8A%9F%E8%83%BD/" title="hive grouping 高级查询功能" style="color:#1EB2A6">hive grouping 高级查询功能</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2016-05-28">2016-05-28</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/05/28/SQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="SQL学习笔记" style="color:#1EB2A6">SQL学习笔记</a>
+    <time datetime="2016-05-28">2016-05-28</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/05/28/SQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="SQL学习笔记" style="color:#1EB2A6">SQL学习笔记</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="统计学习"><p style="color:#1EB2A6"><b>统计学习</b></p></li> -->
   <h3 class="listing-seperator" id="统计学习" style="color:#1EB2A6">统计学习</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2016-06-02">2016-06-02</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/06/02/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/" title="统计学习" style="color:#1EB2A6">统计学习</a>
+    <time datetime="2016-06-02">2016-06-02</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/06/02/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/" title="统计学习" style="color:#1EB2A6">统计学习</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="python"><p style="color:#1EB2A6"><b>python</b></p></li> -->
   <h3 class="listing-seperator" id="python" style="color:#1EB2A6">python</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2020-05-12">2020-05-12</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2020/05/12/%E5%9B%9B%E7%BA%BF%E6%B3%95%E5%8F%91%E7%8E%B0%E5%A5%BD%E8%82%A1%E7%A5%A8/" title="四线法发现好股票" style="color:#1EB2A6">四线法发现好股票</a>
+    <time datetime="2020-05-12">2020-05-12</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2020/05/12/%E5%9B%9B%E7%BA%BF%E6%B3%95%E5%8F%91%E7%8E%B0%E5%A5%BD%E8%82%A1%E7%A5%A8/" title="四线法发现好股票" style="color:#1EB2A6">四线法发现好股票</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2020-05-10">2020-05-10</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2020/05/10/%E8%82%A1%E4%BB%B7%E5%9B%9B%E7%BA%BF%E6%B3%95%E5%88%99%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE/" title="股价四线法则实时数据" style="color:#1EB2A6">股价四线法则实时数据</a>
+    <time datetime="2020-05-10">2020-05-10</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2020/05/10/%E8%82%A1%E4%BB%B7%E5%9B%9B%E7%BA%BF%E6%B3%95%E5%88%99%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE/" title="股价四线法则实时数据" style="color:#1EB2A6">股价四线法则实时数据</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2019-10-11">2019-10-11</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2019/10/11/%E7%94%A8python%E5%8F%91%E9%82%AE%E4%BB%B6/" title="python发送带附件的邮件" style="color:#1EB2A6">python发送带附件的邮件</a>
+    <time datetime="2019-10-11">2019-10-11</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2019/10/11/%E7%94%A8python%E5%8F%91%E9%82%AE%E4%BB%B6/" title="python发送带附件的邮件" style="color:#1EB2A6">python发送带附件的邮件</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2017-09-08">2017-09-08</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2017/09/08/LSI%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6%E8%AE%A1%E7%AE%97/" title="LSI文本相似度计算" style="color:#1EB2A6">LSI文本相似度计算</a>
+    <time datetime="2017-09-08">2017-09-08</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2017/09/08/LSI%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6%E8%AE%A1%E7%AE%97/" title="LSI文本相似度计算" style="color:#1EB2A6">LSI文本相似度计算</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2017-06-09">2017-06-09</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2017/06/09/python%E6%93%8D%E4%BD%9Cmysql/" title="Python 操作MySql" style="color:#1EB2A6">Python 操作MySql</a>
+    <time datetime="2017-06-09">2017-06-09</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2017/06/09/python%E6%93%8D%E4%BD%9Cmysql/" title="Python 操作MySql" style="color:#1EB2A6">Python 操作MySql</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2017-03-30">2017-03-30</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2017/03/30/python%E4%BD%9C%E5%9B%BE%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/" title="python作图中文显示问题" style="color:#1EB2A6">python作图中文显示问题</a>
+    <time datetime="2017-03-30">2017-03-30</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2017/03/30/python%E4%BD%9C%E5%9B%BE%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/" title="python作图中文显示问题" style="color:#1EB2A6">python作图中文显示问题</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2016-09-10">2016-09-10</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/09/10/python%E9%87%8D%E8%A6%81%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/" title="python重要知识汇总" style="color:#1EB2A6">python重要知识汇总</a>
+    <time datetime="2016-09-10">2016-09-10</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/09/10/python%E9%87%8D%E8%A6%81%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/" title="python重要知识汇总" style="color:#1EB2A6">python重要知识汇总</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2016-09-05">2016-09-05</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/09/05/%E5%BB%96%E9%9B%AA%E5%B3%B0%E7%9A%84Python%E6%95%99%E7%A8%8B/" title="python 继续" style="color:#1EB2A6">python 继续</a>
+    <time datetime="2016-09-05">2016-09-05</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/09/05/%E5%BB%96%E9%9B%AA%E5%B3%B0%E7%9A%84Python%E6%95%99%E7%A8%8B/" title="python 继续" style="color:#1EB2A6">python 继续</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2016-07-16">2016-07-16</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/07/16/python%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/" title="如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？" style="color:#1EB2A6">如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？</a>
+    <time datetime="2016-07-16">2016-07-16</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/07/16/python%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/" title="如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？" style="color:#1EB2A6">如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2016-06-30">2016-06-30</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/06/30/python%E7%88%AC%E8%99%AB/" title="用python学爬虫" style="color:#1EB2A6">用python学爬虫</a>
+    <time datetime="2016-06-30">2016-06-30</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/06/30/python%E7%88%AC%E8%99%AB/" title="用python学爬虫" style="color:#1EB2A6">用python学爬虫</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2016-06-20">2016-06-20</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/06/20/%E8%B7%9F%E8%80%81%E9%BD%90%E5%AD%A6python/" title="跟老齐学python" style="color:#1EB2A6">跟老齐学python</a>
+    <time datetime="2016-06-20">2016-06-20</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/06/20/%E8%B7%9F%E8%80%81%E9%BD%90%E5%AD%A6python/" title="跟老齐学python" style="color:#1EB2A6">跟老齐学python</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="computer"><p style="color:#1EB2A6"><b>computer</b></p></li> -->
   <h3 class="listing-seperator" id="computer" style="color:#1EB2A6">computer</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2016-07-02">2016-07-02</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/07/02/cmd%E5%91%BD%E4%BB%A4/" title="cmd命令更改目录" style="color:#1EB2A6">cmd命令更改目录</a>
+    <time datetime="2016-07-02">2016-07-02</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/07/02/cmd%E5%91%BD%E4%BB%A4/" title="cmd命令更改目录" style="color:#1EB2A6">cmd命令更改目录</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="LaTex"><p style="color:#1EB2A6"><b>LaTex</b></p></li> -->
   <h3 class="listing-seperator" id="LaTex" style="color:#1EB2A6">LaTex</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2016-07-02">2016-07-02</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/07/02/%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85latex%E5%AE%8F%E5%8C%85/" title="LaTeX手动安装宏包（package）以及生成帮助文档的整套流程" style="color:#1EB2A6">LaTeX手动安装宏包（package）以及生成帮助文档的整套流程</a>
+    <time datetime="2016-07-02">2016-07-02</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/07/02/%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85latex%E5%AE%8F%E5%8C%85/" title="LaTeX手动安装宏包（package）以及生成帮助文档的整套流程" style="color:#1EB2A6">LaTeX手动安装宏包（package）以及生成帮助文档的整套流程</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="Deep learning"><p style="color:#1EB2A6"><b>Deep learning</b></p></li> -->
   <h3 class="listing-seperator" id="Deep learning" style="color:#1EB2A6">Deep learning</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2016-07-22">2016-07-22</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/07/22/%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/" title="斯坦福大学深度学习与自然语言处理" style="color:#1EB2A6">斯坦福大学深度学习与自然语言处理</a>
+    <time datetime="2016-07-22">2016-07-22</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/07/22/%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/" title="斯坦福大学深度学习与自然语言处理" style="color:#1EB2A6">斯坦福大学深度学习与自然语言处理</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="Linux"><p style="color:#1EB2A6"><b>Linux</b></p></li> -->
   <h3 class="listing-seperator" id="Linux" style="color:#1EB2A6">Linux</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2016-09-05">2016-09-05</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/09/05/%E9%B8%9F%E5%93%A5%E7%9A%84Linux-%E7%A7%81%E6%88%BF%E8%8F%9C/" title="鸟哥的 Linux 私房菜" style="color:#1EB2A6">鸟哥的 Linux 私房菜</a>
+    <time datetime="2016-09-05">2016-09-05</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/09/05/%E9%B8%9F%E5%93%A5%E7%9A%84Linux-%E7%A7%81%E6%88%BF%E8%8F%9C/" title="鸟哥的 Linux 私房菜" style="color:#1EB2A6">鸟哥的 Linux 私房菜</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="Machine learning"><p style="color:#1EB2A6"><b>Machine learning</b></p></li> -->
   <h3 class="listing-seperator" id="Machine learning" style="color:#1EB2A6">Machine learning</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2016-09-09">2016-09-09</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2016/09/09/k%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95/" title="Machine learning in Action 1——k近邻算法" style="color:#1EB2A6">Machine learning in Action 1——k近邻算法</a>
+    <time datetime="2016-09-09">2016-09-09</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2016/09/09/k%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95/" title="Machine learning in Action 1——k近邻算法" style="color:#1EB2A6">Machine learning in Action 1——k近邻算法</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="用户标签"><p style="color:#1EB2A6"><b>用户标签</b></p></li> -->
   <h3 class="listing-seperator" id="用户标签" style="color:#1EB2A6">用户标签</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2019-04-27">2019-04-27</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2019/04/27/%E5%85%B3%E4%BA%8E%E7%94%A8%E6%88%B7%E6%A0%87%E7%AD%BE%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/" title="关于用户标签的一些思考" style="color:#1EB2A6">关于用户标签的一些思考</a>
+    <time datetime="2019-04-27">2019-04-27</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2019/04/27/%E5%85%B3%E4%BA%8E%E7%94%A8%E6%88%B7%E6%A0%87%E7%AD%BE%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/" title="关于用户标签的一些思考" style="color:#1EB2A6">关于用户标签的一些思考</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="Tools"><p style="color:#1EB2A6"><b>Tools</b></p></li> -->
   <h3 class="listing-seperator" id="Tools" style="color:#1EB2A6">Tools</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2020-03-19">2020-03-19</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2020/03/19/%E6%9C%89%E8%B6%A3%E7%9A%84%E5%B7%A5%E5%85%B7/" title="记录一些有趣的小工具" style="color:#1EB2A6">记录一些有趣的小工具</a>
+    <time datetime="2020-03-19">2020-03-19</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2020/03/19/%E6%9C%89%E8%B6%A3%E7%9A%84%E5%B7%A5%E5%85%B7/" title="记录一些有趣的小工具" style="color:#1EB2A6">记录一些有趣的小工具</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="stock"><p style="color:#1EB2A6"><b>stock</b></p></li> -->
   <h3 class="listing-seperator" id="stock" style="color:#1EB2A6">stock</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2020-05-12">2020-05-12</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2020/05/12/%E5%9B%9B%E7%BA%BF%E6%B3%95%E5%8F%91%E7%8E%B0%E5%A5%BD%E8%82%A1%E7%A5%A8/" title="四线法发现好股票" style="color:#1EB2A6">四线法发现好股票</a>
+    <time datetime="2020-05-12">2020-05-12</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2020/05/12/%E5%9B%9B%E7%BA%BF%E6%B3%95%E5%8F%91%E7%8E%B0%E5%A5%BD%E8%82%A1%E7%A5%A8/" title="四线法发现好股票" style="color:#1EB2A6">四线法发现好股票</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2020-05-10">2020-05-10</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2020/05/10/%E8%82%A1%E4%BB%B7%E5%9B%9B%E7%BA%BF%E6%B3%95%E5%88%99%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE/" title="股价四线法则实时数据" style="color:#1EB2A6">股价四线法则实时数据</a>
+    <time datetime="2020-05-10">2020-05-10</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2020/05/10/%E8%82%A1%E4%BB%B7%E5%9B%9B%E7%BA%BF%E6%B3%95%E5%88%99%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE/" title="股价四线法则实时数据" style="color:#1EB2A6">股价四线法则实时数据</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="互联网"><p style="color:#1EB2A6"><b>互联网</b></p></li> -->
   <h3 class="listing-seperator" id="互联网" style="color:#1EB2A6">互联网</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2024-07-23">2024-07-23</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2024/07/23/bilibili2024Q1/" title="bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%" style="color:#1EB2A6">bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%</a>
+    <time datetime="2024-07-23">2024-07-23</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2024/07/23/bilibili2024Q1/" title="bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%" style="color:#1EB2A6">bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2024-07-22">2024-07-22</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2024/07/22/%E5%BF%AB%E6%89%8B2024Q1/" title="快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%" style="color:#1EB2A6">快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%</a>
+    <time datetime="2024-07-22">2024-07-22</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2024/07/22/%E5%BF%AB%E6%89%8B2024Q1/" title="快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%" style="color:#1EB2A6">快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="大公司数据观察"><p style="color:#1EB2A6"><b>大公司数据观察</b></p></li> -->
   <h3 class="listing-seperator" id="大公司数据观察" style="color:#1EB2A6">大公司数据观察</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2024-07-23">2024-07-23</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2024/07/23/bilibili2024Q1/" title="bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%" style="color:#1EB2A6">bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%</a>
+    <time datetime="2024-07-23">2024-07-23</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2024/07/23/bilibili2024Q1/" title="bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%" style="color:#1EB2A6">bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%</a>
   </li>
 
   <li class="listing-item">
-  <time datetime="2024-07-22">2024-07-22</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2024/07/22/%E5%BF%AB%E6%89%8B2024Q1/" title="快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%" style="color:#1EB2A6">快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%</a>
+    <time datetime="2024-07-22">2024-07-22</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2024/07/22/%E5%BF%AB%E6%89%8B2024Q1/" title="快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%" style="color:#1EB2A6">快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="快手"><p style="color:#1EB2A6"><b>快手</b></p></li> -->
   <h3 class="listing-seperator" id="快手" style="color:#1EB2A6">快手</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2024-07-22">2024-07-22</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2024/07/22/%E5%BF%AB%E6%89%8B2024Q1/" title="快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%" style="color:#1EB2A6">快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%</a>
+    <time datetime="2024-07-22">2024-07-22</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2024/07/22/%E5%BF%AB%E6%89%8B2024Q1/" title="快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%" style="color:#1EB2A6">快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="bilibili"><p style="color:#1EB2A6"><b>bilibili</b></p></li> -->
   <h3 class="listing-seperator" id="bilibili" style="color:#1EB2A6">bilibili</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2024-07-23">2024-07-23</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2024/07/23/bilibili2024Q1/" title="bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%" style="color:#1EB2A6">bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%</a>
+    <time datetime="2024-07-23">2024-07-23</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2024/07/23/bilibili2024Q1/" title="bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%" style="color:#1EB2A6">bilibili 2024Q1—1亿DAU，3.4亿MAU，营收56亿，同比增长12%</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="AI"><p style="color:#1EB2A6"><b>AI</b></p></li> -->
   <h3 class="listing-seperator" id="AI" style="color:#1EB2A6">AI</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2024-07-25">2024-07-25</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2024/07/25/rag_friends/" title="RAG实践——老友记学英语" style="color:#1EB2A6">RAG实践——老友记学英语</a>
+    <time datetime="2024-07-25">2024-07-25</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2024/07/25/rag_friends/" title="RAG实践——老友记学英语" style="color:#1EB2A6">RAG实践——老友记学英语</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="RAG"><p style="color:#1EB2A6"><b>RAG</b></p></li> -->
   <h3 class="listing-seperator" id="RAG" style="color:#1EB2A6">RAG</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2024-07-25">2024-07-25</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2024/07/25/rag_friends/" title="RAG实践——老友记学英语" style="color:#1EB2A6">RAG实践——老友记学英语</a>
+    <time datetime="2024-07-25">2024-07-25</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2024/07/25/rag_friends/" title="RAG实践——老友记学英语" style="color:#1EB2A6">RAG实践——老友记学英语</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="LLM"><p style="color:#1EB2A6"><b>LLM</b></p></li> -->
   <h3 class="listing-seperator" id="LLM" style="color:#1EB2A6">LLM</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2024-07-25">2024-07-25</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2024/07/25/rag_friends/" title="RAG实践——老友记学英语" style="color:#1EB2A6">RAG实践——老友记学英语</a>
+    <time datetime="2024-07-25">2024-07-25</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2024/07/25/rag_friends/" title="RAG实践——老友记学英语" style="color:#1EB2A6">RAG实践——老友记学英语</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
-<!--   <li class="listing-seperator" id="ChatGPT"><p style="color:#1EB2A6"><b>ChatGPT</b></p></li> -->
   <h3 class="listing-seperator" id="ChatGPT" style="color:#1EB2A6">ChatGPT</h3>
   <hr />
 
   <li class="listing-item">
-  <time datetime="2024-07-25">2024-07-25</time>
-  &nbsp;&nbsp;
-  <a href="/blog/2024/07/25/rag_friends/" title="RAG实践——老友记学英语" style="color:#1EB2A6">RAG实践——老友记学英语</a>
+    <time datetime="2024-07-25">2024-07-25</time>
+    &nbsp;&nbsp;
+    <a href="/blog/2024/07/25/rag_friends/" title="RAG实践——老友记学英语" style="color:#1EB2A6">RAG实践——老友记学英语</a>
   </li>
 
-<!-- <HR> -->
-<!-- <br /> -->
 
 </ul>
 
@@ -706,7 +712,7 @@
 <script language="javascript">
 $.fn.tagcloud.defaults = {
     size: {start: 1, end: 1, unit: 'em'},
-      color: {start: '#f8e0e6', end: '#ff3333'}
+    color: {start: '#f8e0e6', end: '#ff3333'}
 };
 
 $(function () {

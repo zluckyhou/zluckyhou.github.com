@@ -7,14 +7,15 @@ header-img: "img/dark_yellow_400.png"
 
 <h1 style="color:#1EB2A6">Tags</h1>
 
+
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="color:#1EB2A6;font-size:{{ tag[1].size }}px;position:relative;">
-    {{ tag[0] }}
-    <sup style="font-size:0.7em;position:absolute;top:-0.5em;right:-0.5em;">{{ tag[1].size }}</sup>
+
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="color:#1EB2A6;font-size:{{ tag[1].size }}">&nbsp;&nbsp;{{ tag[0] }} <sup style="font-size:0.7em;position:absolute;top:-0.5em;right:-0.5em;">{{ tag[1].size }}</sup> &nbsp;&nbsp;
 </a>
 {% endfor %}
 </div>
+
 
 <br>
 
@@ -22,6 +23,7 @@ header-img: "img/dark_yellow_400.png"
 
 <ul class="listing">
 {% for tag in site.tags %}
+<!--   <li class="listing-seperator" id="{{ tag[0] }}"><p style="color:#1EB2A6"><b>{{ tag[0] }}</b></p></li> -->
   <h3 class="listing-seperator" id="{{ tag[0] }}" style="color:#1EB2A6">{{ tag[0] }}</h3>
   <HR>
 {% for post in tag[1] %}
@@ -31,6 +33,8 @@ header-img: "img/dark_yellow_400.png"
   <a href="{{ post.url }}" title="{{ post.title }}" style="color:#1EB2A6">{{ post.title }}</a>
   </li>
 {% endfor %}
+<!-- <HR> -->
+<!-- <br /> -->
 {% endfor %}
 </ul>
 

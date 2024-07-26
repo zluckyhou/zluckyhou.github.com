@@ -10,12 +10,12 @@ header-img: "img/dark_yellow_400.png"
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="color:#1EB2A6;font-size:{{ tag[1].size }}">&nbsp;&nbsp;{{ tag[0] }} <sup style="font-size:0.7em;position:absolute;top:-0.5em;right:-0.5em;">{{ tag[1].size }}</sup> &nbsp;&nbsp;
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="color:#1EB2A6;font-size:{{ tag[1].size }}px;position:relative;display:inline-block;margin-right:10px;">
+    {{ tag[0] }}
+    <sup style="font-size:0.7em;position:absolute;top:-0.5em;right:-0.5em;">{{ tag[1].size }}</sup>
 </a>
 {% endfor %}
 </div>
-
 
 <br>
 

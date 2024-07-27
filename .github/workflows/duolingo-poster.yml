@@ -1,9 +1,8 @@
 name: Duolingo Poster
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # 每天运行一次
+    - cron: '0 0 * * *'  # Run once a day
 
 jobs:
   run-duolingo-poster:
@@ -11,27 +10,27 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-
+      
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
-
+        
     - name: Install dependencies
       run: |
         pip install github-poster
-
+        
     - name: Run Duolingo Poster
       env:
         DUOLINGO_USER_NAME: ${{ secrets.DUOLINGO_USER_NAME }}
         DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
       run: |
         python3 -m github_poster duolingo --duolingo_user_name ${DUOLINGO_USER_NAME} --duolingo_jwt ${DUOLINGO_JWT} --year 2021-2024 --me John
-
-    - name: Commit and push if changed
+        
+    - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update Duolingo poster" --allow-empty)
+        git commit -m "Update Duolingo poster ($(date +'%Y-%m-%d %H:%M:%S'))" --allow-empty
         git push

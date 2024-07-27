@@ -11,7 +11,7 @@ keywords: AI, Norges Bank Investment Management, In good company, Adobe
 
 本文来自挪威主权财富基金CEO Nicolai Tangen与Adobe CEO的采访播客，如果对采访感兴趣，可以去听完整内容，这里是我做的一些笔记，欢迎访问 [Shantanu Narayen - CEO of Adobe](https://www.notion.so/Shantanu-Narayen-CEO-of-Adobe-ab2b8d4513ad426bbf2f470b6b0ea44b?pvs=21) 
 
----
+
 
 
 标题中这句话是Adobe CEO在与挪威主权财富基金CEO Nicolai Tangen的对话播客中提到的，他认为年轻人做事应该源于热情，而不是出于对职业生涯的考虑，做自己不喜欢的事。

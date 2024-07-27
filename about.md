@@ -25,7 +25,7 @@ header-img: "img/dark_yellow_400.png"
 
 <div style="margin-bottom: 30px;">
     <h3 style="color: #1EB2A6;">Duolingo Streak</h3>
-    <img src="OUT_FOLDER/duolingo.svg" alt="Duolingo Learning Streak" style="max-width: 100%; height: auto;">
+    <img src="/OUT_FOLDER/duolingo.svg" alt="Duolingo Learning Streak" style="max-width: 100%; height: auto;">
 </div>
 
 

@@ -5,9 +5,9 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Aug 2024 08:39:44 +0800</pubDate>
-    <lastBuildDate>Tue, 06 Aug 2024 08:39:44 +0800</lastBuildDate>
-    <generator>Jekyll v3.9.5</generator>
+    <pubDate>Sun, 11 Aug 2024 22:35:43 +0800</pubDate>
+    <lastBuildDate>Sun, 11 Aug 2024 22:35:43 +0800</lastBuildDate>
+    <generator>Jekyll v3.10.0</generator>
     
       <item>
         <title>Adobe CEO Shantanu - The world is your oyster, follow your passion.</title>
@@ -84,7 +84,7 @@ Shantanu 和Nicolai都参与过帆船运动（sailing），Shantanu 认为帆船
       <item>
         <title>RAG实践——老友记学英语</title>
         <description>&lt;script type=&quot;module&quot;&gt;
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    import mermaid from &apos;https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs&apos;;
     mermaid.initialize({ startOnLoad: true });
 &lt;/script&gt;
 
@@ -139,7 +139,7 @@ Shantanu 和Nicolai都参与过帆船运动（sailing），Shantanu 认为帆船
 
 &lt;div style=&quot;display: flex; justify-content: center;&quot;&gt;
     &lt;div class=&quot;mermaid&quot;&gt;
-    %%{init: {'theme': 'neutral', 'themeVariables': { 'fontSize': '16px', 'fontFamily': 'Arial', 'nodeSpacing': 100, 'rankSpacing': 80}}}%%
+    %%{init: {&apos;theme&apos;: &apos;neutral&apos;, &apos;themeVariables&apos;: { &apos;fontSize&apos;: &apos;16px&apos;, &apos;fontFamily&apos;: &apos;Arial&apos;, &apos;nodeSpacing&apos;: 100, &apos;rankSpacing&apos;: 80}}}%%
     flowchart TD
         A[Input Question] --&amp;gt; B[Embed Model]
         B --&amp;gt; C[Question Vector]
@@ -2174,9 +2174,9 @@ Answer:
        &lt;span class=&quot;n&quot;&gt;GROUPING__ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
        &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pv&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ods_event_logs&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'2020-04-29'&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;POSITION&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IN&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'forum_rec'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                   &lt;span class=&quot;s1&quot;&gt;'forum_feed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;2020-04-29&apos;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;POSITION&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IN&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;forum_rec&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                   &lt;span class=&quot;s1&quot;&gt;&apos;forum_feed&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;GROUP&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;POSITION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
          &lt;span class=&quot;n&quot;&gt;action&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;WITH&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;CUBE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -2308,7 +2308,7 @@ import sys
 
 
 def send_mail(send_from, send_to, subject, message, files=[],
-              server=&quot;localhost&quot;, port=587, username='', password='',
+              server=&quot;localhost&quot;, port=587, username=&apos;&apos;, password=&apos;&apos;,
               use_tls=True):
     &quot;&quot;&quot;Compose and send email with provided info and attachments.
 
@@ -2328,29 +2328,29 @@ def send_mail(send_from, send_to, subject, message, files=[],
     try:
         # python2 解决编码问题
         reload(sys)
-        sys.setdefaultencoding('utf-8')
+        sys.setdefaultencoding(&apos;utf-8&apos;)
     except Exception as e:
         pass
         # python3 unicode，编码无忧
         # from imp import  reload
         # reload(sys)
-        # sys.setdefaultencoding('utf-8')
+        # sys.setdefaultencoding(&apos;utf-8&apos;)
     msg = MIMEMultipart()
-    msg['From'] = send_from
-    msg['To'] = COMMASPACE.join(send_to)
-    msg['Date'] = formatdate(localtime=True)
-    msg['Subject'] = subject
-    msg['Accept-Language'] = 'zh-CN'
-    msg['Accept-Charset'] = 'ISO-8859-1,utf-8'
-    msg.attach(MIMEText(message,_charset='utf-8'))
+    msg[&apos;From&apos;] = send_from
+    msg[&apos;To&apos;] = COMMASPACE.join(send_to)
+    msg[&apos;Date&apos;] = formatdate(localtime=True)
+    msg[&apos;Subject&apos;] = subject
+    msg[&apos;Accept-Language&apos;] = &apos;zh-CN&apos;
+    msg[&apos;Accept-Charset&apos;] = &apos;ISO-8859-1,utf-8&apos;
+    msg.attach(MIMEText(message,_charset=&apos;utf-8&apos;))
 
     for path in files:
-        part = MIMEBase('application', &quot;octet-stream&quot;)
-        with open(path, 'rb') as file:
+        part = MIMEBase(&apos;application&apos;, &quot;octet-stream&quot;)
+        with open(path, &apos;rb&apos;) as file:
             part.set_payload(file.read())
         encoders.encode_base64(part)
-        part.add_header('Content-Disposition',
-                        'attachment; filename=&quot;{}&quot;'.format(op.basename(path)))
+        part.add_header(&apos;Content-Disposition&apos;,
+                        &apos;attachment; filename=&quot;{}&quot;&apos;.format(op.basename(path)))
         msg.attach(part)
 
     # smtp = smtplib.SMTP(server, port)
@@ -2362,16 +2362,16 @@ def send_mail(send_from, send_to, subject, message, files=[],
     smtp.sendmail(send_from, send_to, msg.as_string())
     smtp.quit()
 
-if __name__ =='__main__':
-    send_from = '***@163.com'
-    send_to = ['1****@qq.com']
-    subject = 'hello world'
-    message = 'Dear all,...'
-    files = ['test.csv']
-    server = 'smtp.163.com'
+if __name__ ==&apos;__main__&apos;:
+    send_from = &apos;***@163.com&apos;
+    send_to = [&apos;1****@qq.com&apos;]
+    subject = &apos;hello world&apos;
+    message = &apos;Dear all,...&apos;
+    files = [&apos;test.csv&apos;]
+    server = &apos;smtp.163.com&apos;
     port = 465
-    username = '***@**.com'
-    password = '******'
+    username = &apos;***@**.com&apos;
+    password = &apos;******&apos;
     use_tls = False
 send_mail(send_from=send_from,send_to=send_to,subject=subject,message=message,files=files,server=server,port=port,username=username,password=password,use_tls=use_tls)
 

@@ -5,9 +5,74 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Aug 2024 22:35:43 +0800</pubDate>
-    <lastBuildDate>Sun, 11 Aug 2024 22:35:43 +0800</lastBuildDate>
+    <pubDate>Sun, 11 Aug 2024 22:37:49 +0800</pubDate>
+    <lastBuildDate>Sun, 11 Aug 2024 22:37:49 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Duolingo 2024Q2——MAU破亿，DAU 3400万同比提升59%</title>
+        <description>&lt;p&gt;数据来源：duolingo investor relations - https://investors.duolingo.com/&lt;/p&gt;
+
+&lt;p&gt;Duolingo是一款外语学习APP，循序渐进的课程体系、duolingo streak、有趣的动画、简洁的风格等设计让它风靡全球。Duolingo支持很多语言，不同母语的学习者都可以用它来学习外语。&lt;/p&gt;
+
+&lt;p&gt;以下是2024 Q2的业绩表现&lt;/p&gt;
+
+&lt;h1 id=&quot;用户数据&quot;&gt;用户数据&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;DAU&lt;/strong&gt;：3410万，同比提升59%&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MAU&lt;/strong&gt;：1.036亿，同比提升40%，首次破亿&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;付费订阅用户&lt;/strong&gt;：800万，同比增长52%&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;付费用户渗透率（% LTM MAU）&lt;/strong&gt;：付费用户占过去12个月平均MAU的比例为8.6%&lt;/p&gt;
+
+&lt;h1 id=&quot;财务指标&quot;&gt;财务指标：&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;收入&lt;/strong&gt;：1.783亿美元&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;总交易额（total bookings）&lt;/strong&gt;：1.901亿美元，同比增长38%。这个数字包括了订阅收入、广告收入、英语测试收入以及应用内购买等所有实际收到的款项。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;净利润&lt;/strong&gt;：2440万美元，远高于去年的370万美元。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Subscription Bookings and Total Bookings. 
+Subscription bookings represent the amounts we receive from a purchase of any Duolingo subscription offering. &lt;strong&gt;Total bookings include subscription bookings, income from advertising networks for advertisements served to our users, purchases of the Duolingo English Test, and in-app purchases of virtual goods.&lt;/strong&gt; We believe bookings provide an indication of trends in our operating results, including cash flows, that are not necessarily reflected in our revenues because we recognize subscription revenues ratably over the lifetime of a subscription, which is generally from one to twelve months.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;国际化增长策略&quot;&gt;国际化增长策略&lt;/h1&gt;
+
+&lt;p&gt;通过 social-first marketing approach，使日本的DAU同比增加93%，交易额（booking）同比增加58%。该策略已经于近期应用到法国和韩国。&lt;/p&gt;
+
+&lt;h1 id=&quot;friend-streak&quot;&gt;Friend Streak&lt;/h1&gt;
+
+&lt;p&gt;Duolingo的streak是非常成功的一种促进用户留存的功能。Q2增加了Friend Streak功能以此来增加用户粘性。&lt;/p&gt;
+
+&lt;p&gt;DAUs中的一半用户至少关注了一个朋友。&lt;/p&gt;
+
+&lt;p&gt;DAUs中的20%用户有超过365天的streak。&lt;/p&gt;
+
+&lt;h1 id=&quot;商业化&quot;&gt;商业化&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Duolingo Max&lt;/strong&gt;：已经支持GenAI功能，目前在5个课程和27个国家可以使用。duolingo max用户占DAUs的15%。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Family Plan&lt;/strong&gt;：家庭计划占了订阅用户的大约20%，这些用户的留存高于个人订阅用户。未来计划将这一计划推广到免费用户。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 11 Aug 2024 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2024/08/11/duolingo_2024q2/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2024/08/11/duolingo_2024q2/</guid>
+        
+        <category>Language</category>
+        
+        <category>Duolingo</category>
+        
+        <category>English learning</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Adobe CEO Shantanu - The world is your oyster, follow your passion.</title>
@@ -2383,59 +2448,6 @@ send_mail(send_from=send_from,send_to=send_to,subject=subject,message=message,fi
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2019/10/11/%E7%94%A8python%E5%8F%91%E9%82%AE%E4%BB%B6/</guid>
         
         <category>python</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>关于用户标签的一些思考</title>
-        <description>&lt;p&gt;本文涉及的用户标签，指的是业务数据中提取出来的用户标签，这些标签用于对用户进行分析&lt;/p&gt;
-
-&lt;h2 id=&quot;目前的标签生产方式&quot;&gt;目前的标签生产方式&lt;/h2&gt;
-
-&lt;p&gt;目前DMP的用户标签分为2类：&lt;/p&gt;
-
-&lt;p&gt;1.属性标签：指用户固定不变的属性，如性别、年龄等;&lt;/p&gt;
-
-&lt;p&gt;2.行为标签：指用户实际发生的行为，如某个时间在某个地点买了某个产品，那么可以提取出购买门店、购买产品、购买价格相关的标签&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;属性标签&lt;/strong&gt;在提取时目前主要有两种方式：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;将原始数据中的某些字段直接提取为标签，例如将数据中的性别字段直接提取为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gender&lt;/code&gt;、将来自微信小程序的会员打上&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;微信小程序会员&lt;/code&gt;标签&lt;/li&gt;
-  &lt;li&gt;基于聚合后的user_profile计算用户属性，这种方式目前较少，在晶赞画像库生产过程中主要是将不同来源但是表示同一个含义的数据进行合并计算，例如对&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;age_a&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;age_b&lt;/code&gt;等赋予不同的权重，最后计算得出&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;age&lt;/code&gt;标签&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;行为标签&lt;/strong&gt;目前提取的方式主要是：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;直接提取，例如直接提取数据中的产品字段为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;product&lt;/code&gt;标签&lt;/li&gt;
-  &lt;li&gt;通过知识库翻译，例如通过知识库将&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;product_id&lt;/code&gt;翻译为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;product_name&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;思考&quot;&gt;思考&lt;/h2&gt;
-
-&lt;p&gt;当前标签提取主要还是基于原始数据，将原始数据中的某个字段映射为一个标签，其实最终进入到user_profile的标签还是大量的原始业务数据中的字段，例如&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;购买门店&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;购买产品&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;客单价&lt;/code&gt;…&lt;/p&gt;
-
-&lt;p&gt;实际上真正需要的标签大多数是需要基于用户的所有行为进行计算的标签，例如：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;首次消费时间，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{fixed customer_id:min(order_date)}&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;首次消费门店&lt;/li&gt;
-  &lt;li&gt;消费最多的产品&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;所以，目前的大多数行为标签，应该默认直接进入到user_profile中，使用者基于user_profile进行自定义标签，而不是需要经过两步，因此需要进行如下改进：&lt;/p&gt;
-
-&lt;p&gt;1.所有后续可能用到的字段都应该自动进入user_profile中，这一步不需要太多的人工参与；&lt;/p&gt;
-
-&lt;p&gt;2.基于生产后的user_profile对一个用户的历史数据进行计算获得最终需要的业务标签，这一步应该由业务人员进行操作，并且界面需要简单方便&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 27 Apr 2019 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2019/04/27/%E5%85%B3%E4%BA%8E%E7%94%A8%E6%88%B7%E6%A0%87%E7%AD%BE%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2019/04/27/%E5%85%B3%E4%BA%8E%E7%94%A8%E6%88%B7%E6%A0%87%E7%AD%BE%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/</guid>
-        
-        <category>用户标签</category>
         
         
         <category>blog</category>

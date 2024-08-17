@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 17 Aug 2024 14:48:41 +0800</pubDate>
-    <lastBuildDate>Sat, 17 Aug 2024 14:48:41 +0800</lastBuildDate>
+    <pubDate>Sat, 17 Aug 2024 14:50:17 +0800</pubDate>
+    <lastBuildDate>Sat, 17 Aug 2024 14:50:17 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -51,10 +51,10 @@
 
 &lt;p&gt;除此之外，中级英语还引入了English Score的概念。通过练习可以逐渐提升自己的分数，不同分数段对应&lt;a href=&quot;https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions&quot;&gt;CEFR&lt;/a&gt;的不同等级，它表示你当前的英语水平能够做到哪些事，例如70-90分，对应CEFT high B1 level，意味着用户可以自信地用英语处理大多数的日常对话以及表达自己的想法&lt;/p&gt;
 
-&lt;div style=&quot;display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;&quot;&gt;
-    &lt;img src=&quot;/img/duolingo_english_course.jpg&quot; alt=&quot;Duolingo intermediate english&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
-    &lt;img src=&quot;/img/duolingo_english_score.jpg&quot; alt=&quot;Duolingo English&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
-    &lt;img src=&quot;/img/duolingo_about_score.jpg&quot; alt=&quot;About Duolingo English score&quot; style=&quot;width: 30%; height: auto;&quot; /&gt;
+&lt;div style=&quot;display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; gap: 20px;&quot;&gt;
+    &lt;img src=&quot;/img/duolingo_english_course.jpg&quot; alt=&quot;Duolingo intermediate english&quot; style=&quot;width: calc(33.33% - 14px); height: auto;&quot; /&gt;
+    &lt;img src=&quot;/img/duolingo_english_score.jpg&quot; alt=&quot;Duolingo English&quot; style=&quot;width: calc(33.33% - 14px); height: auto;&quot; /&gt;
+    &lt;img src=&quot;/img/duolingo_about_score.jpg&quot; alt=&quot;About Duolingo English score&quot; style=&quot;width: calc(33.33% - 14px); height: auto;&quot; /&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
@@ -64,7 +64,7 @@
 &lt;p&gt;所以放弃之前的无效学习吧，从中级英语开始，学习真正的英语！&lt;/p&gt;
 
 &lt;p&gt;下面是一个Duolingo Intermediate English交流群，欢迎加入一起刷分！
-&lt;img src=&quot;/img/duolingo_english_group.jpg&quot; alt=&quot;Duolingo Intermediate English Group&quot; style=&quot;width: 50%; height: auto;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/img/duolingo_english_group.jpg&quot; alt=&quot;Duolingo Intermediate English Group&quot; style=&quot;width: 50%; height: auto; align-items: center;&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 17 Aug 2024 00:00:00 +0800</pubDate>

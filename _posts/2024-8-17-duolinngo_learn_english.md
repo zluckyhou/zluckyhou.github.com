@@ -46,9 +46,9 @@ Duolingo 在2024年Q1推出了一个单独的中级英语课程，这个课程�
 
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <img src="/img/duolingo_english_course.jpg" alt="Duolingo intermediate english" style="width: 32%; height: auto;">
-    <img src="/img/duolingo_english_score.jpg" alt="Duolingo English" style="width: 32%; height: auto;">
-    <img src="/img/duolingo_about_score.jpg" alt="About Duolingo English score" style="width: 32%; height: auto;">
+    <img src="/img/duolingo_english_course.jpg" alt="Duolingo intermediate english" style="width: 30%; height: auto;">
+    <img src="/img/duolingo_english_score.jpg" alt="Duolingo English" style="width: 30%; height: auto;">
+    <img src="/img/duolingo_about_score.jpg" alt="About Duolingo English score" style="width: 30%; height: auto;">
 </div>
 
 
@@ -59,6 +59,6 @@ Duolingo 在2024年Q1推出了一个单独的中级英语课程，这个课程�
 所以放弃之前的无效学习吧，从中级英语开始，学习真正的英语！
 
 下面是一个Duolingo Intermediate English交流群，欢迎加入一起刷分！
+<img src="/img/duolingo_english_group.jpg" alt="Duolingo Intermediate English Group" style="width: 50%; height: auto;">
 
-![Duolingo Intermediate English Group](/img/duolingo_english_group.jpg)
 

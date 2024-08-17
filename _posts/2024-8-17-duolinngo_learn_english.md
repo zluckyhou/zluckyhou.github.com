@@ -5,7 +5,7 @@ date: 2024-8-17
 categories: blog
 tags: [Language,Duolingo,English learning]
 description: Duolingo是一款外语学习APP，循序渐进的课程体系、duolingo streak、有趣的动画、简洁的风格等设计让它风靡全球。Duolingo支持很多语言，不同母语的学习者都可以用它来学习外语。今天分享一下最近使用Duolingo学英语的正确路径，其实很简单，我觉得这种方式应该被Duolingo官方推荐。
-keywords: Language, Duolingo, English, English learning
+keywords: 多邻国,Language, Duolingo, English, English learning
 ---
 
 

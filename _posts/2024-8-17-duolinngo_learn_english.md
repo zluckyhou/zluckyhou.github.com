@@ -45,12 +45,11 @@ Duolingo 在2024年Q1推出了一个单独的中级英语课程，这个课程�
 除此之外，中级英语还引入了English Score的概念。通过练习可以逐渐提升自己的分数，不同分数段对应[CEFR](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions)的不同等级，它表示你当前的英语水平能够做到哪些事，例如70-90分，对应CEFT high B1 level，意味着用户可以自信地用英语处理大多数的日常对话以及表达自己的想法
 
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <img src="/img/duolingo_english_course.jpg" alt="Duolingo intermediate english" style="width: 30%; height: auto;">
-    <img src="/img/duolingo_english_score.jpg" alt="Duolingo English" style="width: 30%; height: auto;">
-    <img src="/img/duolingo_about_score.jpg" alt="About Duolingo English score" style="width: 30%; height: auto;">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; gap: 20px;">
+    <img src="/img/duolingo_english_course.jpg" alt="Duolingo intermediate english" style="width: calc(33.33% - 14px); height: auto;">
+    <img src="/img/duolingo_english_score.jpg" alt="Duolingo English" style="width: calc(33.33% - 14px); height: auto;">
+    <img src="/img/duolingo_about_score.jpg" alt="About Duolingo English score" style="width: calc(33.33% - 14px); height: auto;">
 </div>
-
 
 <hr>
 
@@ -59,6 +58,6 @@ Duolingo 在2024年Q1推出了一个单独的中级英语课程，这个课程�
 所以放弃之前的无效学习吧，从中级英语开始，学习真正的英语！
 
 下面是一个Duolingo Intermediate English交流群，欢迎加入一起刷分！
-<img src="/img/duolingo_english_group.jpg" alt="Duolingo Intermediate English Group" style="width: 50%; height: auto;">
+<img src="/img/duolingo_english_group.jpg" alt="Duolingo Intermediate English Group" style="width: 50%; height: auto; align-items: center;">
 
 

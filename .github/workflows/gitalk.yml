@@ -4,18 +4,27 @@ on:
   push:
     branches:
       - gh-pages
+  workflow_dispatch:  # 允许手动触发
+
+permissions:
+  contents: write
+  issues: write
 
 jobs:
   gitalk:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
           ref: gh-pages
-      - uses: Yikun/gitalk-actions@v0.0.1
+          fetch-depth: 0
+
+      - name: Run Gitalk Action
+        uses: Yikun/gitalk-actions@v0.0.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repo: zluckyhou.github.com
+          repo: zluckyhou.github.com  # 请确认这是正确的仓库名
           owner: zluckyhou
-          clientId: e0c458e09bdfb98a8c5f
-          clientSecret: 5bac6315a1dce948f20fd76c4298654042f91e3a
+          clientId: ${{ secrets.GITALK_CLIENT_ID }}
+          clientSecret: ${{ secrets.GITALK_CLIENT_SECRET }}

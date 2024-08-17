@@ -34,9 +34,9 @@ Duolingo支持以很多语言来学习外语，绝大多数中文用户都会选
 **正确的方式**
 
 > Our English learner initiative is not only fundamental to our mission, but also it builds on our strengths, and we believe it will provide additional growth over the long term. Although the vast majority of language learners in the world are learning English, they represent less than half of our DAUs. We believe that offering more advanced English content will allow us to attract more learners and meaningfully expand our user base. We significantly expanded our roll out of such content last fall, and now more than one million DAUs interact with it. We also just released a stand-alone intermediate-level English course, which only has exercises in English, and can be used by any learner regardless of their native language. We believe this will allow us to expand our user base more rapidly in more geographies.
-
-Duolingo 2024 Q1 Shareholder letter
 > 
+> Duolingo 2024 Q1 Shareholder letter
+
 
 Duolingo 在2024年Q1推出了一个单独的中级英语课程，这个课程只能通过英语来学习，但是对所有用户开放，只需要 添加课程 > For English speakers > 选择Intermediate English即可。
 

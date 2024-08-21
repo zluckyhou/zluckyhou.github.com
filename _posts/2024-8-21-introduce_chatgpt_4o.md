@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Discover ChatGPT-4o: The Ultimate AI Tool Powered by GPT-4o
+title: Discover ChatGPT-4o, The Ultimate AI Tool Powered by GPT-4o
 date: 2024-8-21
 categories: blog
 tags: [ChatGPT-4o,OpenAI,AI]

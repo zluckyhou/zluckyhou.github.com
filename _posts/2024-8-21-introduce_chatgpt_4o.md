@@ -12,7 +12,7 @@ keywords: ChatGPT-4o, GPT-4o, GPT-4-Turbo, AI tools, image recognition, file int
 Welcome to the forefront of AI innovation with **ChatGPT-4o**—your ultimate AI companion designed to enhance productivity and creativity. Whether you're a developer, content creator, or simply exploring AI's potential, ChatGPT-4o brings the most advanced AI technologies directly to you.
 
 
-<img src="/img/chatgpt-4o-features.png" alt="ChatGPT-4o AI tool features powered by GPT-4o and GPT-4-Turbo." style="width: 50%; height: auto; align-items: center;">
+<img src="/img/chatgpt-4o-features.png" alt="ChatGPT-4o AI tool features powered by GPT-4o and GPT-4-Turbo." style="width: 80%; height: auto; align-items: center;">
 
 
 # Why Choose ChatGPT-4o?

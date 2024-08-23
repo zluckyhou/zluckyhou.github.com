@@ -23,11 +23,18 @@ ChatGPT-4o is built on OpenAI’s latest models—[**GPT-4o**](https://platform.
 ## 2. Advanced Image Recognition
 Move beyond text with ChatGPT-4o’s **image recognition** feature. Upload images, and let the AI analyze and provide detailed insights. This tool is perfect for tasks that require visual data interpretation, enhancing your ability to work with multimedia content.
 
+<img src="/img/image_recognize.png" alt="ChatGPT-4o advanced image recognition feature" style="width: 80%; height: auto; align-items: center;">
+
 ## 3. Comprehensive File Interpretation
 ChatGPT-4o simplifies document management with its **file interpretation** capabilities. Whether it's PDFs, Word documents, or spreadsheets, ChatGPT-4o can extract, interpret, and summarize key information, making it an indispensable tool for handling diverse file formats.
 
+<img src="/img/support_file.png" alt="ChatGPT-4o file uploader" style="width: 80%; height: auto; align-items: center;">
+
+
 ## 4. Real-Time Google Search Integration
 Stay ahead with real-time information access through **Google Search** integration. ChatGPT-4o pulls the latest data from the web, ensuring that you always have the most up-to-date information at your fingertips.
+
+<img src="/img/using_google_search.png" alt="ChatGPT-4o real-time google search integration" style="width: 80%; height: auto; align-items: center;">
 
 ## 5. Seamless Browser Support
 ChatGPT-4o offers built-in **browser support**, allowing you to navigate and interact with web pages without leaving the platform. This feature is ideal for research, data extraction, and multitasking, streamlining your workflow.

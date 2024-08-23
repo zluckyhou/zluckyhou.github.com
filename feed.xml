@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 23 Aug 2024 15:25:37 +0800</pubDate>
-    <lastBuildDate>Fri, 23 Aug 2024 15:25:37 +0800</lastBuildDate>
+    <pubDate>Fri, 23 Aug 2024 15:29:18 +0800</pubDate>
+    <lastBuildDate>Fri, 23 Aug 2024 15:29:18 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -23,11 +23,17 @@
 &lt;h2 id=&quot;2-advanced-image-recognition&quot;&gt;2. Advanced Image Recognition&lt;/h2&gt;
 &lt;p&gt;Move beyond text with ChatGPT-4o’s &lt;strong&gt;image recognition&lt;/strong&gt; feature. Upload images, and let the AI analyze and provide detailed insights. This tool is perfect for tasks that require visual data interpretation, enhancing your ability to work with multimedia content.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/img/image_recognize.png&quot; alt=&quot;ChatGPT-4o advanced image recognition feature&quot; style=&quot;width: 80%; height: auto; align-items: center;&quot; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;3-comprehensive-file-interpretation&quot;&gt;3. Comprehensive File Interpretation&lt;/h2&gt;
 &lt;p&gt;ChatGPT-4o simplifies document management with its &lt;strong&gt;file interpretation&lt;/strong&gt; capabilities. Whether it’s PDFs, Word documents, or spreadsheets, ChatGPT-4o can extract, interpret, and summarize key information, making it an indispensable tool for handling diverse file formats.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/img/support_file.png&quot; alt=&quot;ChatGPT-4o file uploader&quot; style=&quot;width: 80%; height: auto; align-items: center;&quot; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;4-real-time-google-search-integration&quot;&gt;4. Real-Time Google Search Integration&lt;/h2&gt;
 &lt;p&gt;Stay ahead with real-time information access through &lt;strong&gt;Google Search&lt;/strong&gt; integration. ChatGPT-4o pulls the latest data from the web, ensuring that you always have the most up-to-date information at your fingertips.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/using_google_search.png&quot; alt=&quot;ChatGPT-4o real-time google search integration&quot; style=&quot;width: 80%; height: auto; align-items: center;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;5-seamless-browser-support&quot;&gt;5. Seamless Browser Support&lt;/h2&gt;
 &lt;p&gt;ChatGPT-4o offers built-in &lt;strong&gt;browser support&lt;/strong&gt;, allowing you to navigate and interact with web pages without leaving the platform. This feature is ideal for research, data extraction, and multitasking, streamlining your workflow.&lt;/p&gt;

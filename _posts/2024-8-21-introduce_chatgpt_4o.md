@@ -28,7 +28,7 @@ Move beyond text with ChatGPT-4o’s **image recognition** feature. Upload image
 ## 3. Comprehensive File Interpretation
 ChatGPT-4o simplifies document management with its **file interpretation** capabilities. Whether it's PDFs, Word documents, or spreadsheets, ChatGPT-4o can extract, interpret, and summarize key information, making it an indispensable tool for handling diverse file formats.
 
-<img src="/img/support_file.png" alt="ChatGPT-4o file uploader" style="width: 80%; height: auto; align-items: center;">
+<img src="/img/support_file.png" alt="ChatGPT-4o file uploader" style="align-items: center;">
 
 
 ## 4. Real-Time Google Search Integration

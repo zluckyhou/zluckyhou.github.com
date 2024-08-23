@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 视频号与长视频会是腾讯新的增长引擎吗?
+title: 腾讯2024Q2业绩——视频号会是新的增长引擎吗?
 date: 2024-8-23
 categories: blog
 tags: [大公司数据观察,腾讯,视频号]

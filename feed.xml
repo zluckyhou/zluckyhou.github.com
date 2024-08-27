@@ -5,9 +5,61 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Aug 2024 08:40:54 +0800</pubDate>
-    <lastBuildDate>Tue, 27 Aug 2024 08:40:54 +0800</lastBuildDate>
+    <pubDate>Tue, 27 Aug 2024 17:31:45 +0800</pubDate>
+    <lastBuildDate>Tue, 27 Aug 2024 17:31:45 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>全国及各地区养老金数据揭秘：企业职工、政府/事业单位与城乡居民的真实养老金对比</title>
+        <description>&lt;p&gt;大家通常看到的养老金数据都是宏观数据，例如国家有10亿人口缴纳养老金，每年养老金收入和支出都在6万亿以上。但是这些数据对普通人来说没有任何意义，我们想知道的是如果自己退休了，到底能领多少钱。&lt;/p&gt;
+
+&lt;p&gt;本文整理了2021年的全国养老金数据和分地区的养老金数据，其价值在于第一次明确体现了企业单位、非企业单位（大家都懂的）、城乡居民（农民）的人均养老金领取数据。根据本文提供的数据，可以估算出每个地区上述三类人群每个月的退休金。&lt;/p&gt;
+
+&lt;p&gt;全国数据参考了两个来源：1.&lt;a href=&quot;https://www.stats.gov.cn/sj/ndsj/2022/indexch.htm&quot;&gt;国家统计局2022统计年鉴（2021年数据）-社会保险基本情况&lt;/a&gt;，2. 国家发布的另外一篇文章，提到了企业职工养老保险的收入和支出情况：&lt;a href=&quot;https://www.gov.cn/xinwen/2022-02/25/content_5675550.htm&quot;&gt;企业职工基本养老保险全国统筹1月起启动实施 养老金及时足额发放有保障&lt;/a&gt;。 得益于这两个数据，我们能够知道企业单位、非企业单位（大家都懂的）、城乡居民（农民）的具体养老金领取数据。&lt;/p&gt;
+
+&lt;p&gt;分地区数据直接参考自国家统计年鉴分地区养老保险情况。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;全国总体数据&quot;&gt;全国总体数据&lt;/h2&gt;
+
+&lt;p&gt;2021年全国参保人数10.28亿，其中城镇企业职工退休人均每月养老金3071元，非企业职工（政府机构、企事业单位）退休人均每月养老金6354元，城乡居民（农民）人均每月退休金191元。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/user-attachments/assets/88d77fa6-93a1-4d8c-a11d-a4c87bc5df0b&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;城镇职工分地区数据&quot;&gt;城镇职工分地区数据&lt;/h2&gt;
+
+&lt;p&gt;结合全国数据与下面分地区数据，如果按照粗略估计，可以使用以下系数来估计每个地区企业和非企业退休人员的养老金：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;城镇职工-企业：3071/3577 = 0.85&lt;/li&gt;
+  &lt;li&gt;城镇职工-非企业：6354/3577 = 1.77&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;根据上述系数，以上海为例，企业职工退休人员月均退休工资为0.85&lt;em&gt;5081 = 4318，非企业职工退休人员月均退休工资为1.77&lt;/em&gt;5081 = 8993。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/user-attachments/assets/fcbf4fa3-de15-4c2a-81bf-bd02222d4391&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;注：”不分地区”数据包括中央国家机关事业单位、中国人民银行、中国农业发展银行和中央部分所属单位。&lt;/p&gt;
+
+&lt;h2 id=&quot;城乡居民分地区数据&quot;&gt;城乡居民分地区数据&lt;/h2&gt;
+
+&lt;p&gt;农民领取的养老金，上海1445元，北京951元，天津503元，除此之外其他地区的退休养老金每月都在300元以下，绝大多数为100-200元每月。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/user-attachments/assets/dbaabd73-c82a-4be6-905a-63337c67bacc&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2024 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2024/08/27/pension_data_2021/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2024/08/27/pension_data_2021/</guid>
+        
+        <category>数据</category>
+        
+        <category>养老金</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>腾讯2024Q2业绩——视频号会是新的增长引擎吗?</title>
@@ -2246,239 +2298,6 @@ Answer:
         <pubDate>Tue, 12 May 2020 00:00:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/blog/2020/05/12/%E5%9B%9B%E7%BA%BF%E6%B3%95%E5%8F%91%E7%8E%B0%E5%A5%BD%E8%82%A1%E7%A5%A8/</link>
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2020/05/12/%E5%9B%9B%E7%BA%BF%E6%B3%95%E5%8F%91%E7%8E%B0%E5%A5%BD%E8%82%A1%E7%A5%A8/</guid>
-        
-        <category>python</category>
-        
-        <category>stock</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>股价四线法则实时数据</title>
-        <description>&lt;p&gt;本文根据雪球大v&lt;a href=&quot;https://xueqiu.com/u/7148646888&quot;&gt;古泉&lt;/a&gt;的&lt;a href=&quot;https://xueqiu.com/7148646888/130498192&quot;&gt;古泉四线法则&lt;/a&gt;，计算了自己的一些自选股当前所处位置，用于持续追踪验证，帮助自己进行判断。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;说明&lt;/strong&gt;：下表中4线对应取值为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;红色&lt;/code&gt;表示最新价处于对应指标上方，属正面&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;时间&lt;/th&gt;
-      &lt;th&gt;名称&lt;/th&gt;
-      &lt;th&gt;代码&lt;/th&gt;
-      &lt;th&gt;最新价&lt;/th&gt;
-      &lt;th&gt;当日&lt;/th&gt;
-      &lt;th&gt;3日&lt;/th&gt;
-      &lt;th&gt;5日&lt;/th&gt;
-      &lt;th&gt;位置&lt;/th&gt;
-      &lt;th&gt;变动&lt;/th&gt;
-      &lt;th&gt;距离&lt;/th&gt;
-      &lt;th&gt;ma21&lt;/th&gt;
-      &lt;th&gt;ma60&lt;/th&gt;
-      &lt;th&gt;ma21w&lt;/th&gt;
-      &lt;th&gt;ma60w&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;16:49:45&lt;/td&gt;
-      &lt;td&gt;信维通信&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://xueqiu.com/S/SZ300136&quot;&gt;300136&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;19.11&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;-3.63%&lt;/td&gt;
-      &lt;td&gt;-2.30%&lt;/td&gt;
-      &lt;td&gt;-10.78%&lt;/td&gt;
-      &lt;td&gt;处&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;线上方&lt;/td&gt;
-      &lt;td&gt;-3&lt;/td&gt;
-      &lt;td&gt;-1.06%&lt;/td&gt;
-      &lt;td&gt;19.52&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;18.82&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;19.14&lt;/td&gt;
-      &lt;td&gt;19.81&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;16:49:15&lt;/td&gt;
-      &lt;td&gt;寒锐钴业&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://xueqiu.com/S/SZ300618&quot;&gt;300618&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;24.65&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;-3.79%&lt;/td&gt;
-      &lt;td&gt;-7.34%&lt;/td&gt;
-      &lt;td&gt;-10.22%&lt;/td&gt;
-      &lt;td&gt;处&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt;线上方&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;-11.29%&lt;/td&gt;
-      &lt;td&gt;26.33&lt;/td&gt;
-      &lt;td&gt;28.18&lt;/td&gt;
-      &lt;td&gt;27.76&lt;/td&gt;
-      &lt;td&gt;29.02&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;16:49:45&lt;/td&gt;
-      &lt;td&gt;中科创达&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://xueqiu.com/S/SZ300496&quot;&gt;300496&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;44.07&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;-4.80%&lt;/td&gt;
-      &lt;td&gt;-2.77%&lt;/td&gt;
-      &lt;td&gt;-6.92%&lt;/td&gt;
-      &lt;td&gt;处&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt;线上方&lt;/td&gt;
-      &lt;td&gt;-1&lt;/td&gt;
-      &lt;td&gt;-15.41%&lt;/td&gt;
-      &lt;td&gt;45.54&lt;/td&gt;
-      &lt;td&gt;48.91&lt;/td&gt;
-      &lt;td&gt;50.17&lt;/td&gt;
-      &lt;td&gt;69.25&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;15:00:01&lt;/td&gt;
-      &lt;td&gt;中科曙光&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://xueqiu.com/S/SH603019&quot;&gt;603019&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;43.1&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;-2.99%&lt;/td&gt;
-      &lt;td&gt;4.34%&lt;/td&gt;
-      &lt;td&gt;1.86%&lt;/td&gt;
-      &lt;td&gt;处&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3&lt;/code&gt;线上方&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;1.44%&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;41.02&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;42.13&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;44.59&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;42.36&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;15:00:00&lt;/td&gt;
-      &lt;td&gt;诺力股份&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://xueqiu.com/S/SH603611&quot;&gt;603611&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;15.66&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;-0.25%&lt;/td&gt;
-      &lt;td&gt;1.21%&lt;/td&gt;
-      &lt;td&gt;2.36%&lt;/td&gt;
-      &lt;td&gt;处&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt;线上方&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;-12.72%&lt;/td&gt;
-      &lt;td&gt;15.98&lt;/td&gt;
-      &lt;td&gt;18.25&lt;/td&gt;
-      &lt;td&gt;18.42&lt;/td&gt;
-      &lt;td&gt;19.50&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;15:00:00&lt;/td&gt;
-      &lt;td&gt;华友钴业&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://xueqiu.com/S/SH603799&quot;&gt;603799&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;22.11&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;-4.62%&lt;/td&gt;
-      &lt;td&gt;-6.38%&lt;/td&gt;
-      &lt;td&gt;-8.14%&lt;/td&gt;
-      &lt;td&gt;处&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt;线上方&lt;/td&gt;
-      &lt;td&gt;-1&lt;/td&gt;
-      &lt;td&gt;-16.01%&lt;/td&gt;
-      &lt;td&gt;22.74&lt;/td&gt;
-      &lt;td&gt;25.34&lt;/td&gt;
-      &lt;td&gt;26.11&lt;/td&gt;
-      &lt;td&gt;33.11&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;16:49:15&lt;/td&gt;
-      &lt;td&gt;盛天网络&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://xueqiu.com/S/SZ300494&quot;&gt;300494&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;9.08&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;-3.71%&lt;/td&gt;
-      &lt;td&gt;-1.76%&lt;/td&gt;
-      &lt;td&gt;-2.20%&lt;/td&gt;
-      &lt;td&gt;处&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt;线上方&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;-21.21%&lt;/td&gt;
-      &lt;td&gt;9.57&lt;/td&gt;
-      &lt;td&gt;10.86&lt;/td&gt;
-      &lt;td&gt;12.02&lt;/td&gt;
-      &lt;td&gt;14.85&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;15:00:01&lt;/td&gt;
-      &lt;td&gt;博通集成&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://xueqiu.com/S/SH603068&quot;&gt;603068&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;21.89&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;-4.16%&lt;/td&gt;
-      &lt;td&gt;-0.32%&lt;/td&gt;
-      &lt;td&gt;-1.05%&lt;/td&gt;
-      &lt;td&gt;处&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt;线上方&lt;/td&gt;
-      &lt;td&gt;-3&lt;/td&gt;
-      &lt;td&gt;-5.19%&lt;/td&gt;
-      &lt;td&gt;22.18&lt;/td&gt;
-      &lt;td&gt;22.62&lt;/td&gt;
-      &lt;td&gt;22.19&lt;/td&gt;
-      &lt;td&gt;25.72&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;16:49:30&lt;/td&gt;
-      &lt;td&gt;帝尔激光&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://xueqiu.com/S/SZ300776&quot;&gt;300776&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;47.93&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;0.00%&lt;/td&gt;
-      &lt;td&gt;1.65%&lt;/td&gt;
-      &lt;td&gt;-0.75%&lt;/td&gt;
-      &lt;td&gt;处&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt;线上方&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;-1.97%&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;46.47&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;48.65&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;46.84&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;54.37&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;15:00:00&lt;/td&gt;
-      &lt;td&gt;大族激光&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://xueqiu.com/S/SZ002008&quot;&gt;002008&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;21.67&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;-3.47%&lt;/td&gt;
-      &lt;td&gt;-1.66%&lt;/td&gt;
-      &lt;td&gt;-2.22%&lt;/td&gt;
-      &lt;td&gt;处&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4&lt;/code&gt;线上方&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;4.10%&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;20.98&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;20.75&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;20.18&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;21.40&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;15:00:01&lt;/td&gt;
-      &lt;td&gt;兆易创新&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://xueqiu.com/S/SH603986&quot;&gt;603986&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;88.88&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;-5.82%&lt;/td&gt;
-      &lt;td&gt;-5.76%&lt;/td&gt;
-      &lt;td&gt;-10.25%&lt;/td&gt;
-      &lt;td&gt;处&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt;线上方&lt;/td&gt;
-      &lt;td&gt;-2&lt;/td&gt;
-      &lt;td&gt;-0.05%&lt;/td&gt;
-      &lt;td&gt;94.18&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;88.02&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;82.94&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;91.36&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;古泉4线法则的精髓如下。抓住21日线、60日线、21周线及60周线等四条线，外加21月线，任何一只股票上涨都要穿过这四条线，任何一只股票要想爆雷也要先下穿过这四条线：
-
-+ 当股价爬上四条线中的两条可以少量建仓
-
-+ 爬上四条线中的三条可以加大仓位
-
-+ 爬上四条线中的四条可以全仓
-
-任何一只大牛，其股价都会坚守在21月线上方，不会轻易跌破21月线；相反，每跌破四条线中一条就减一些仓位：
-
-+ 21周线可做为多空分水岭及警戒线，股价在21周线及60周线下方就要十分慎重，多看少做
-
-+ 跌破全部四条线就要大幅减仓，甚至清仓，一旦跌破21月线，清仓观望
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Sun, 10 May 2020 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2020/05/10/%E8%82%A1%E4%BB%B7%E5%9B%9B%E7%BA%BF%E6%B3%95%E5%88%99%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2020/05/10/%E8%82%A1%E4%BB%B7%E5%9B%9B%E7%BA%BF%E6%B3%95%E5%88%99%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE/</guid>
         
         <category>python</category>
         

@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Aug 2024 20:25:53 +0800</pubDate>
-    <lastBuildDate>Tue, 27 Aug 2024 20:25:53 +0800</lastBuildDate>
+    <pubDate>Tue, 27 Aug 2024 20:49:06 +0800</pubDate>
+    <lastBuildDate>Tue, 27 Aug 2024 20:49:06 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -44,6 +44,12 @@
 
 &lt;h2 id=&quot;城镇职工分地区数据&quot;&gt;城镇职工分地区数据&lt;/h2&gt;
 
+&lt;p&gt;北京、上海是仅有的人均月退休工资在5000元以上的两个地区，除大西北的几个省份外，陕西的人均月退休工资竟然排名第3，达4450元。&lt;/p&gt;
+
+&lt;p&gt;从收支情况上来看，有12个省份当年出现赤字，其中东三省更是严重入不敷出，甚至黑龙江的累计结余已经达到-372.3亿元。&lt;/p&gt;
+
+&lt;p&gt;注：”不分地区”数据包括中央国家机关事业单位、中国人民银行、中国农业发展银行和中央部分所属单位。（突然想到一个成语，一骑绝尘）&lt;/p&gt;
+
 &lt;p&gt;结合全国数据与下面分地区数据，如果按照粗略估计，可以使用以下系数来估计每个地区企业和非企业退休人员的养老金：&lt;/p&gt;
 
 &lt;ul&gt;
@@ -52,8 +58,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;根据上述系数，以上海为例，企业职工退休人员月均退休工资为0.85 x 5081 = 4318，非企业职工退休人员月均退休工资为1.77 x 5081 = 8993。&lt;/p&gt;
-
-&lt;p&gt;注：”不分地区”数据包括中央国家机关事业单位、中国人民银行、中国农业发展银行和中央部分所属单位。（突然想到一个成语，一骑绝尘）&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://github.com/user-attachments/assets/e9d87709-4f9c-4cb0-bf1c-fb8db637abb4&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 

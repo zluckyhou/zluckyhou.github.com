@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI 时代的核心能力——正确问题
+title: AI 时代的核心能力——正确提问
 date: 2024-9-10
 categories: blog
 tags: [AI,思考]

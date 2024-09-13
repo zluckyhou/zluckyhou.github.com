@@ -5,9 +5,258 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Sep 2024 08:42:09 +0800</pubDate>
-    <lastBuildDate>Fri, 13 Sep 2024 08:42:09 +0800</lastBuildDate>
+    <pubDate>Fri, 13 Sep 2024 12:24:28 +0800</pubDate>
+    <lastBuildDate>Fri, 13 Sep 2024 12:24:28 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>OpenAI发布最新推理模型o1——一个会思考的AI</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://github.com/user-attachments/assets/2cec0f44-6f8b-4b4d-ae7e-a864b2afee83&quot; alt=&quot;OpenAI o1 &amp;gt; Learning to Reason with LLMs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;OpenAI刚刚发布了最新的模型o1，这个模型在回答之前会进行思考，所以非常擅长推理相关的问题，它在多个方面都表现突出：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;竞争编程问题（Codeforces）中排名前89%；&lt;/li&gt;
+  &lt;li&gt;在美国数学奥林匹克（AIME）预选赛中跻身美国前500名学生之列；&lt;/li&gt;
+  &lt;li&gt;在物理、生物、化学问题的基准测试（GPQA）中超过了博士水平的准确性。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;从这些表现来看，o1可以说是最强LLM，在逻辑思考和数学方面有了巨大的提升。之前发现gpt-4o在代码方面明显逊色于claude sonnet，希望o1能再次实现超越。&lt;/p&gt;
+
+&lt;h2 id=&quot;gpt-4o-vs-o1小学生-vs-大学生&quot;&gt;GPT-4o vs o1，小学生 vs 大学生&lt;/h2&gt;
+
+&lt;p&gt;从下面图中的对比来看，在绝大多数推理任务中，o1 的表现明显优于 GPT-4o。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;在数学奥赛中，gpt-4o的表现只能算是小学生，而o1已经达到了大学生水平。&lt;/li&gt;
+  &lt;li&gt;而在代码能力上，o1也表现出巨大的提升。&lt;/li&gt;
+  &lt;li&gt;在数学、物理、LSAT（法学院入学考试）、大学数学，准确率都达到了90%以上&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/user-attachments/assets/ab3ebfcd-6790-4e31-82dd-0dfc7af0d9bd&quot; alt=&quot;Competition evals for Math (AIME 2024), Code (CodeForces), and PhD-Level Science Questions (GPQA Diamond)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/user-attachments/assets/336e27ab-83a8-4484-9a6f-aef97adb2cc0&quot; alt=&quot;Breakdown of the accuracy and raw score of gpt-4o vs. o1 on various competition evals&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;为何o1效果如此炸裂&quot;&gt;为何o1效果如此炸裂？&lt;/h2&gt;
+
+&lt;p&gt;如此炸裂的效果主要得益于思维链这种思考方式。OpenAI的大规模强化学习算法教会模型如何在训练过程中利用其思维链进行高效思考。随着更多的强化学习和更多的思考时间，o1 的性能持续提高。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于思维链&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;类似于人类在回答难题之前可能会思考很长时间，o1 在尝试解决问题时会使用一系列思维。通过强化学习，o1 学会磨练其思维链并完善其使用的策略。它学会认识并纠正错误。它学会将棘手的步骤分解为更简单的步骤。当当前方法不起作用时，它会学会尝试另一种方法。这个过程极大地提高了模型的推理能力。&lt;/p&gt;
+
+&lt;p&gt;OpenAI提供了几个有意思的例子，这里我们看一下编码的例子。o1在回答之前，经过了很多次的尝试，最终找到了正确的编码方式，而gpt-4o明显不具备自我分析自我纠错的能力，因此给出了错误答案。（如果想要了解o1的思考过程，可以参考这篇介绍原文：&lt;a href=&quot;https://openai.com/index/learning-to-reason-with-llms/&quot;&gt;learning-to-reason-with-llms&lt;/a&gt;）&lt;/p&gt;
+
+&lt;p&gt;下面是问题以及对应的两者的答案&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;问题&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;oyfjdnisdr rtqwainr acxz mynzbhhx -&amp;gt; Think step by step
+
+Use the example above to decode:
+
+oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;GPT-4o的回答-错误&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Let’s break this down step by step based on the example:
+&lt;span class=&quot;p&quot;&gt;
+1.&lt;/span&gt; Example given:
+• Input: oyfjdnisdr rtqwainr acxz mynzbhhx
+• Output: Think step by step
+
+By examining the words:
+• The pattern involves selecting specific letters or transforming them.
+&lt;span class=&quot;p&quot;&gt;
+2.&lt;/span&gt; Now, let’s decode the new phrase:
+• Input: oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz
+
+Step-by-step decoding process:
+
+Identify possible word divisions.
+
+The first phrase might follow the same structure as the example. It seems like the input text could be broken into groups based on natural separations or patterns.
+
+A possible division could be:
+
+oyekaijzdf
+
+aaptcg
+
+suaokybhai
+
+ouow
+
+aqht
+
+mynznvaatzacdfoulxxz
+
+However, to make a meaningful decoding, I would need more context about the transformations or letter shifting that might be involved.
+
+Could you provide any additional decoding rules or transformations used in this cipher?
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;o1的思维链回答——正确&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;To decode the given ciphertext using the example provided, we’ll use the pattern identified in the example.
+
+Ciphertext Example:
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;oyfjdnisdr rtqwainr acxz mynzbhhx&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+Decoded as:
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Think step by step&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+Decoding Method:
+
+Pair the letters in the ciphertext.
+
+Convert each letter to its numerical position in the alphabet (A=1, B=2, …, Z=26).
+
+Sum the numerical values of each pair.
+
+Compute the average of the sum (divide by 2).
+
+Convert the average back to a letter (1=A, 2=B, …, 26=Z).
+
+Apply this method to the given ciphertext:
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+Break down the ciphertext into pairs:
+
+1. First word: “oyekaijzdf”
+
+Pairs: oy, ek, ai, jz, df
+
+Decoded letters:
+
+oy → (15+25)/2 = 20 → T
+
+ek → (5+11)/2 = 8 → H
+
+ai → (1+9)/2 = 5 → E
+
+jz → (10+26)/2 = 18 → R
+
+df → (4+6)/2 = 5 → E
+
+Decoded word: THERE
+
+2. Second word: “aaptcg”
+
+Pairs: aa, pt, cg
+
+Decoded letters:
+
+aa → (1+1)/2 = 1 → A
+
+pt → (16+20)/2 = 18 → R
+
+cg → (3+7)/2 = 5 → E
+
+Decoded word: ARE
+
+3. Third word: “suaokybhai”
+
+Pairs: su, ao, ky, bh, ai
+
+Decoded letters:
+
+su → (19+21)/2 = 20 → T
+
+ao → (1+15)/2 = 8 → H
+
+ky → (11+25)/2 = 18 → R
+
+bh → (2+8)/2 = 5 → E
+
+ai → (1+9)/2 = 5 → E
+
+Decoded word: THREE
+
+4. Fourth word: “ouow”
+
+Pairs: ou, ow
+
+Decoded letters:
+
+ou → (15+21)/2 = 18 → R
+
+ow → (15+23)/2 = 19 → S
+
+Decoded letters: R’S
+
+5. Fifth word: “aqht”
+
+Pairs: aq, ht
+
+Decoded letters:
+
+aq → (1+17)/2 = 9 → I
+
+ht → (8+20)/2 = 14 → N
+
+Decoded word: IN
+
+6. Sixth word: “mynznvaatzacdfoulxxz”
+
+Pairs: my, nz, nv, aa, tz, ac, df, ou, lx, xz
+
+Decoded letters:
+
+my → (13+25)/2 = 19 → S
+
+nz → (14+26)/2 = 20 → T
+
+nv → (14+22)/2 = 18 → R
+
+aa → (1+1)/2 = 1 → A
+
+tz → (20+26)/2 = 23 → W
+
+ac → (1+3)/2 = 2 → B
+
+df → (4+6)/2 = 5 → E
+
+ou → (15+21)/2 = 18 → R
+
+lx → (12+24)/2 = 18 → R
+
+xz → (24+26)/2 = 25 → Y
+
+Decoded word: STRAWBERRY
+
+Final Decoded Message:
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;THERE ARE THREE R’S IN STRAWBERRY&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+Answer:
+THERE ARE THREE R’S IN STRAWBERRY
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 13 Sep 2024 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2024/09/13/openai_o1/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2024/09/13/openai_o1/</guid>
+        
+        <category>AI</category>
+        
+        <category>OpenAI</category>
+        
+        <category>o1</category>
+        
+        <category>GPT-4o</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>AI 时代的核心能力——正确提问</title>
@@ -808,91 +1057,6 @@ Answer:
         <category>大公司数据观察</category>
         
         <category>bilibili</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>快手2024Q1 — 4亿日活，7亿月活，收入294亿，同比增长16.6%</title>
-        <description>&lt;p&gt;快手APP业务数据，来自快手&lt;a href=&quot;https://ir.kuaishou.com/zh-hans/news-releases/news-release-details/kuaishoukejifabu2024niandiyijiduweijingshenhecaiwuyeji#:~:text=2024%E5%B9%B4%E7%AC%AC%E4%B8%80%E5%AD%A3%E5%BA%A6%EF%BC%8C%E6%88%91%E4%BB%AC%E7%9A%84%E6%80%BB%E6%94%B6%E5%85%A5%E5%90%8C%E6%AF%94,%E6%98%AF%E5%85%B8%E5%9E%8B%E7%9A%84%E8%A1%8C%E4%B8%9A%E6%B7%A1%E5%AD%A3%E3%80%82&quot;&gt;2024年第一季度财报&lt;/a&gt;（2024年1-3月份）&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;用户数据&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;平均日活跃用户（DAU）：3.938亿，同比增长5.2%&lt;/li&gt;
-      &lt;li&gt;平均月活跃用户（MAU）：6.974亿，同比增长6.6%&lt;/li&gt;
-      &lt;li&gt;日均使用时长：129.5分钟/日活用户&lt;/li&gt;
-      &lt;li&gt;用户总使用时长：同比增长8.6%&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;财务表现&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;总收入：294亿元，同比增长16.6%&lt;/li&gt;
-      &lt;li&gt;毛利：161亿元，同比增长37.6%&lt;/li&gt;
-      &lt;li&gt;毛利率：54.8%，较去年同期提升8.4个百分点&lt;/li&gt;
-      &lt;li&gt;期内利润：41亿元（去年同期亏损8.76亿元）&lt;/li&gt;
-      &lt;li&gt;经调整利润净额：44亿元（去年同期0.42亿元）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;业务板块收入&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;线上营销服务：167亿元，同比增长27.4%，占总收入56.6%&lt;/li&gt;
-      &lt;li&gt;直播业务：86亿元，同比下降8.0%，占总收入29.2%&lt;/li&gt;
-      &lt;li&gt;其他服务（主要为电商）：42亿元，同比增长47.6%，占总收入14.2%&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;电商业务&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;商品交易总额（GMV）：2,881亿元，同比增长28.2%&lt;/li&gt;
-      &lt;li&gt;月活跃买家：1.26亿，同比增长22.4%&lt;/li&gt;
-      &lt;li&gt;月动销商家数：同比增长约70%&lt;/li&gt;
-      &lt;li&gt;泛货架场域GMV：占总GMV约25%，增速超过总体GMV&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;营销服务亮点&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;活跃营销客户数：同比提升近90%&lt;/li&gt;
-      &lt;li&gt;AIGC营销素材：单日消耗峰值突破1,000万元&lt;/li&gt;
-      &lt;li&gt;品牌招商：2024年春节期间同比增长超120%&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;海外业务&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;收入：9.91亿元，同比增长193.2%&lt;/li&gt;
-      &lt;li&gt;经营亏损：同比减少67.4%&lt;/li&gt;
-      &lt;li&gt;巴西市场：&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;ul&gt;
-      &lt;li&gt;日活用户同比增长13%&lt;/li&gt;
-      &lt;li&gt;日均使用时长超75分钟&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;直播业务&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;签约公会机构数量：同比提升50%&lt;/li&gt;
-      &lt;li&gt;签约公会主播数量：同比提升50%&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;企业社会责任&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;兴农计划投入：约百亿元流量及亿元现金&lt;/li&gt;
-      &lt;li&gt;三农垂类万粉以上月活创作者：8万人&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-</description>
-        <pubDate>Mon, 22 Jul 2024 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2024/07/22/%E5%BF%AB%E6%89%8B2024Q1/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2024/07/22/%E5%BF%AB%E6%89%8B2024Q1/</guid>
-        
-        <category>互联网</category>
-        
-        <category>大公司数据观察</category>
-        
-        <category>快手</category>
         
         
         <category>blog</category>

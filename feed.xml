@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Sep 2024 12:24:28 +0800</pubDate>
-    <lastBuildDate>Fri, 13 Sep 2024 12:24:28 +0800</lastBuildDate>
+    <pubDate>Fri, 13 Sep 2024 12:29:09 +0800</pubDate>
+    <lastBuildDate>Fri, 13 Sep 2024 12:29:09 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -103,14 +103,16 @@ Could you provide any additional decoding rules or transformations used in this 
 
 Ciphertext Example:
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;oyfjdnisdr rtqwainr acxz mynzbhhx&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;
+&lt;/span&gt;oyfjdnisdr rtqwainr acxz mynzbhhx
+&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;
+
 Decoded as:
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Think step by step&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;
+&lt;/span&gt;Think step by step
+&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;
+
 Decoding Method:
 
 Pair the letters in the ciphertext.
@@ -125,12 +127,13 @@ Convert the average back to a letter (1=A, 2=B, …, 26=Z).
 
 Apply this method to the given ciphertext:
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-Break down the ciphertext into pairs:
+&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;
+&lt;/span&gt;oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz
+&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;
 
-1. First word: “oyekaijzdf”
+Break down the ciphertext into pairs:
+&lt;span class=&quot;p&quot;&gt;
+1.&lt;/span&gt; First word: “oyekaijzdf”
 
 Pairs: oy, ek, ai, jz, df
 
@@ -147,8 +150,8 @@ jz → (10+26)/2 = 18 → R
 df → (4+6)/2 = 5 → E
 
 Decoded word: THERE
-
-2. Second word: “aaptcg”
+&lt;span class=&quot;p&quot;&gt;
+2.&lt;/span&gt; Second word: “aaptcg”
 
 Pairs: aa, pt, cg
 
@@ -161,8 +164,8 @@ pt → (16+20)/2 = 18 → R
 cg → (3+7)/2 = 5 → E
 
 Decoded word: ARE
-
-3. Third word: “suaokybhai”
+&lt;span class=&quot;p&quot;&gt;
+3.&lt;/span&gt; Third word: “suaokybhai”
 
 Pairs: su, ao, ky, bh, ai
 
@@ -179,8 +182,8 @@ bh → (2+8)/2 = 5 → E
 ai → (1+9)/2 = 5 → E
 
 Decoded word: THREE
-
-4. Fourth word: “ouow”
+&lt;span class=&quot;p&quot;&gt;
+4.&lt;/span&gt; Fourth word: “ouow”
 
 Pairs: ou, ow
 
@@ -191,8 +194,8 @@ ou → (15+21)/2 = 18 → R
 ow → (15+23)/2 = 19 → S
 
 Decoded letters: R’S
-
-5. Fifth word: “aqht”
+&lt;span class=&quot;p&quot;&gt;
+5.&lt;/span&gt; Fifth word: “aqht”
 
 Pairs: aq, ht
 
@@ -203,8 +206,8 @@ aq → (1+17)/2 = 9 → I
 ht → (8+20)/2 = 14 → N
 
 Decoded word: IN
-
-6. Sixth word: “mynznvaatzacdfoulxxz”
+&lt;span class=&quot;p&quot;&gt;
+6.&lt;/span&gt; Sixth word: “mynznvaatzacdfoulxxz”
 
 Pairs: my, nz, nv, aa, tz, ac, df, ou, lx, xz
 
@@ -234,9 +237,10 @@ Decoded word: STRAWBERRY
 
 Final Decoded Message:
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;THERE ARE THREE R’S IN STRAWBERRY&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;
+&lt;/span&gt;THERE ARE THREE R&apos;S IN STRAWBERRY
+&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;
+
 Answer:
 THERE ARE THREE R’S IN STRAWBERRY
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;

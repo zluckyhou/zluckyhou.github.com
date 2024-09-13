@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Sep 2024 12:32:44 +0800</pubDate>
-    <lastBuildDate>Fri, 13 Sep 2024 12:32:44 +0800</lastBuildDate>
+    <pubDate>Fri, 13 Sep 2024 13:14:16 +0800</pubDate>
+    <lastBuildDate>Fri, 13 Sep 2024 13:14:16 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -99,19 +99,20 @@ Could you provide any additional decoding rules or transformations used in this 
 
 &lt;p&gt;&lt;strong&gt;o1的思维链回答——正确&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;To decode the given ciphertext using the example provided, we’ll use the pattern identified in the example.
+&lt;pre&gt;&lt;code&gt;
+To decode the given ciphertext using the example provided, we’ll use the pattern identified in the example.
 
 Ciphertext Example:
 
-&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;
-&lt;/span&gt;oyfjdnisdr rtqwainr acxz mynzbhhx
-&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;
+```
+oyfjdnisdr rtqwainr acxz mynzbhhx
+```
 
 Decoded as:
 
-&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;
-&lt;/span&gt;Think step by step
-&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;
+```
+Think step by step
+```
 
 Decoding Method:
 
@@ -127,13 +128,13 @@ Convert the average back to a letter (1=A, 2=B, …, 26=Z).
 
 Apply this method to the given ciphertext:
 
-&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;
-&lt;/span&gt;oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz
-&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;
+```
+oyekaijzdf aaptcg suaokybhai ouow aqht mynznvaatzacdfoulxxz
+```
 
 Break down the ciphertext into pairs:
-&lt;span class=&quot;p&quot;&gt;
-1.&lt;/span&gt; First word: “oyekaijzdf”
+
+1. First word: “oyekaijzdf”
 
 Pairs: oy, ek, ai, jz, df
 
@@ -150,8 +151,8 @@ jz → (10+26)/2 = 18 → R
 df → (4+6)/2 = 5 → E
 
 Decoded word: THERE
-&lt;span class=&quot;p&quot;&gt;
-2.&lt;/span&gt; Second word: “aaptcg”
+
+2. Second word: “aaptcg”
 
 Pairs: aa, pt, cg
 
@@ -164,8 +165,8 @@ pt → (16+20)/2 = 18 → R
 cg → (3+7)/2 = 5 → E
 
 Decoded word: ARE
-&lt;span class=&quot;p&quot;&gt;
-3.&lt;/span&gt; Third word: “suaokybhai”
+
+3. Third word: “suaokybhai”
 
 Pairs: su, ao, ky, bh, ai
 
@@ -182,8 +183,8 @@ bh → (2+8)/2 = 5 → E
 ai → (1+9)/2 = 5 → E
 
 Decoded word: THREE
-&lt;span class=&quot;p&quot;&gt;
-4.&lt;/span&gt; Fourth word: “ouow”
+
+4. Fourth word: “ouow”
 
 Pairs: ou, ow
 
@@ -194,8 +195,8 @@ ou → (15+21)/2 = 18 → R
 ow → (15+23)/2 = 19 → S
 
 Decoded letters: R’S
-&lt;span class=&quot;p&quot;&gt;
-5.&lt;/span&gt; Fifth word: “aqht”
+
+5. Fifth word: “aqht”
 
 Pairs: aq, ht
 
@@ -206,8 +207,8 @@ aq → (1+17)/2 = 9 → I
 ht → (8+20)/2 = 14 → N
 
 Decoded word: IN
-&lt;span class=&quot;p&quot;&gt;
-6.&lt;/span&gt; Sixth word: “mynznvaatzacdfoulxxz”
+
+6. Sixth word: “mynznvaatzacdfoulxxz”
 
 Pairs: my, nz, nv, aa, tz, ac, df, ou, lx, xz
 
@@ -237,14 +238,14 @@ Decoded word: STRAWBERRY
 
 Final Decoded Message:
 
-&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;
-&lt;/span&gt;THERE ARE THREE R&apos;S IN STRAWBERRY
-&lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;
+```
+THERE ARE THREE R&apos;S IN STRAWBERRY
+```
 
 Answer:
 THERE ARE THREE R’S IN STRAWBERRY
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
+````
+&lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Fri, 13 Sep 2024 00:00:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/blog/2024/09/13/openai_o1/</link>

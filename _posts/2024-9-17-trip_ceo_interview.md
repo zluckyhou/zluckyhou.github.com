@@ -16,7 +16,8 @@ Nicolai问Jane在招聘时都看重候选人的哪些素质，Jane提到了4点�
 
 ### **Topic 1: 招聘时看重什么？**
 
-```markdown
+<pre>
+<code>
 Now how do you screen for those type of people?
 
 那么你如何筛选这样的人呢？
@@ -94,13 +95,18 @@ because as a company,
 you will always have ups and downs.
 
 你总会经历起起落落。
-```
+  
+</code>
+  
+</pre>
 
 ---
 
+
 ### Topic2: 怎么识别一个人的乐观精神?
 
-```markdown
+<pre><code>
+
 How do you screen for optimistic spirit?
 
 你如何筛选乐观的精神？
@@ -151,4 +157,5 @@ the optimistic chess players did better.
 
 And in the investment markets, optimistic investors make more money.
 在投资市场中，乐观的投资者赚得更多。
-```
+
+</code></pre>

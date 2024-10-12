@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！">
+    <meta name="keywords" content="AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转文本">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>一个小技巧，轻松解决长字幕问题 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/blog/2024/10/12/subtitle_trick/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Freedom Hunter</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                <li>
+                    <a href="/">Articles</a>
+                </li>
+                <li>
+                    <a href="/history/">History</a>
+                </li>
+                <li>
+                    <a href="/tags/">Tags</a>
+                </li>
+                
+                <!--                 
+                    <li>
+                        <a href="/Tool/">Tools</a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                
+                    <li>
+                        <a href="/history/">History</a>
+                    </li>
+                
+                    <li>
+                        <a href="/">Articles</a>
+                    </li>
+                
+                    <li>
+                        <a href="/milestone/">milestone</a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                
+                    <li>
+                        <a href="/page2/">Articles</a>
+                    </li>
+                
+                    <li>
+                        <a href="/page3/">Articles</a>
+                    </li>
+                
+                    <li>
+                        <a href="/page4/">Articles</a>
+                    </li>
+                
+                    <li>
+                        <a href="/page5/">Articles</a>
+                    </li>
+                
+                    <li>
+                        <a href="/page6/">Articles</a>
+                    </li>
+                 -->
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    /* 保留您原有的样式 */
+    header.intro-header{
+        background-image: url('/img/light_blue_banner.png')
+    }
+    .tag {
+        display: inline-block;
+        padding: 4px 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        background-color: #FFF;
+        color: #FF7A00;
+        border-radius: 16px;
+        font-size: 0.9em;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .tag:hover {
+        background-color: #FFF;
+    }
+    .tag::before {
+        content: "#";
+        margin-right: 2px;
+        opacity: 0.7;
+    }
+    .tags-container {
+        margin-bottom: 20px;
+    }
+    
+    /* 修改图片样式 */
+    .col-lg-10.col-lg-offset-1.col-md-10.col-md-offset-1.post-container img {
+        max-width: 80%;
+        height: auto;
+        display: block;
+        margin: 2em auto;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    /* 新增样式，优化排版 */
+    .post-container {
+        line-height: 1.8;
+        font-size: 16px;
+    }
+    
+    .post-container h1, .post-container h2, .post-container h3 {
+        margin-top: 1.5em;
+        margin-bottom: 0.8em;
+    }
+    
+    .post-container p {
+        margin-bottom: 1.2em;
+    }
+    
+    .post-container ul, .post-container ol {
+        padding-left: 1.5em;
+        margin-bottom: 1.2em;
+    }
+    
+    .post-container li {
+        margin-bottom: 0.5em;
+    }
+    
+    blockquote {
+        border-left: 4px solid #FF7A00;
+        padding-left: 1em;
+        margin: 1.5em 0;
+        background-color: #f9f9f9;
+    }
+    
+    code {
+        background-color: #f0f0f0;
+        padding: 2px 4px;
+        border-radius: 3px;
+    }
+    
+    pre {
+        background-color: #f5f5f5;
+        padding: 1em;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags-container">
+                        
+                        <a class="tag" href="/tags/#AI" title="AI">AI</a>
+                        
+                        <a class="tag" href="/tags/#字幕" title="字幕">字幕</a>
+                        
+                    </div>
+                    <h1>一个小技巧，轻松解决长字幕问题</h1>
+                    
+                    <span class="meta">Posted by zluckyH on October 12, 2024</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <h1 id="引子">引子</h1>
+
+<p>首先我们来看一个看似无用的常识：</p>
+
+<blockquote>
+  <p>一个人正常速度下每分钟可以朗读200-300字（中文）；如果是英文，速度也差不多，大概在200个单词左右，换算一下，平均朗读一个单词耗时0.3秒。</p>
+
+</blockquote>
+
+<p>这个看似无用的常识，能发挥什么作用呢？</p>
+
+<h1 id="起因">起因</h1>
+
+<p>最近我开发了一个YouTube视频字幕转录的web应用，底层的技术很简单，就是通过AI语音模型，将一段音频转录为文字，然后转为字幕文件。</p>
+
+<p>转录时时间粒度一般选择segment，输出的结果是一段一段的，通常来说，一小段应该是一个句子，下面是一个例子，start 和end分表表示这句话的开始和结束时间，text是这段时间内说的话。</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="err">'id':</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="err">'start':</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="err">'end':</span><span class="w"> </span><span class="mf">6.1</span><span class="p">,</span><span class="w">
+  </span><span class="err">'text':</span><span class="w"> </span><span class="err">'</span><span class="w"> </span><span class="err">Have</span><span class="w"> </span><span class="err">you</span><span class="w"> </span><span class="err">heard</span><span class="w"> </span><span class="err">the</span><span class="w"> </span><span class="err">term</span><span class="w"> </span><span class="err">Zuck-a-saunce?'</span><span class="p">,</span><span class="w">
+  </span><span class="err">...</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>但是，转录中经常会遇到这样的问题，一个segment包含了很长的一个时间跨度，对应的文字会非常长，例如：</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="err">'id':</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="err">'start':</span><span class="w"> </span><span class="mi">286</span><span class="p">,</span><span class="w">
+  </span><span class="err">'end':</span><span class="w"> </span><span class="mi">297</span><span class="p">,</span><span class="w">
+  </span><span class="err">'text':</span><span class="w"> </span><span class="err">'I</span><span class="w"> </span><span class="err">actually</span><span class="w"> </span><span class="err">think</span><span class="w"> </span><span class="err">the</span><span class="w"> </span><span class="err">main</span><span class="w"> </span><span class="err">thing</span><span class="w"> </span><span class="err">that</span><span class="w"> </span><span class="err">people</span><span class="w"> </span><span class="err">are</span><span class="w"> </span><span class="err">going</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">do</span><span class="p">,</span><span class="w"> </span><span class="err">especially</span><span class="w"> </span><span class="err">because</span><span class="w"> </span><span class="err">it's</span><span class="w"> </span><span class="err">open</span><span class="w"> </span><span class="err">source</span><span class="p">,</span><span class="w"> </span><span class="err">is</span><span class="w"> </span><span class="err">use</span><span class="w"> </span><span class="err">it</span><span class="w"> </span><span class="err">as</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="err">teacher</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">train</span><span class="w"> </span><span class="err">smaller</span><span class="w"> </span><span class="err">models</span><span class="w"> </span><span class="err">that</span><span class="w"> </span><span class="err">they</span><span class="w"> </span><span class="err">use</span><span class="w"> </span><span class="err">in</span><span class="w"> </span><span class="err">different</span><span class="w"> </span><span class="err">applications.'</span><span class="p">,</span><span class="w">
+  </span><span class="err">...</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>如果这段话以字幕的形式展示在视频播放器中，会是这样的：</p>
+
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/d70bb796-3d62-478b-8af4-f60241e09fe7/image.png" alt="image.png" /></p>
+
+<p>甚至有时候一段很长的segment对应的字幕，会把整个屏幕铺满。</p>
+
+<h1 id="思路">思路</h1>
+
+<p>对于上面遇到的问题，首先想到的是，能不能通过某种方式把这个长句子进行拆分，分割为多个短句，然后将这多个短句的时间对应上就可以了。</p>
+
+<p>不错的思路！</p>
+
+<p>但是问题来了，总不能手动来做吧，AI时代，能用机器解决的问题，一定不要靠体力来解决！</p>
+
+<p>首先，长句拆分为短句，这个事情很简单，LLM可以轻松完成。那么问题就只剩一个了，怎么把拆分后的短句与音频时间匹配上。同样的，这个问题也可以求助AI.</p>
+
+<ul>
+  <li>
+    <p>claude：如何计算拆分后的短句对应的时长 - 初次尝试</p>
+
+    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  我：这是一个字幕文件中的一行，由于句子太长，我想拆分为多句，但是要保证时间戳正确，有什么办法吗：
+    
+  45
+  00:02:22,267 --&gt; 00:02:37,215
+  It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long
+    
+  AI：为了拆分这个长句子并保持正确的时间戳，我们可以使用一种称为"时间插值"的方法。这种方法会根据原始时间段的长度，为每个新的分割句子分配一个相应的时间段。以下是具体步骤：
+<span class="p">    
+  1.</span> 计算原始时间段的总长度
+<span class="p">  2.</span> 将句子分割成多个较短的句子
+<span class="p">  3.</span> 根据每个新句子的长度，按比例分配时间
+    
+  让我为您演示这个过程：
+    
+  <span class="p">```</span><span class="nl">python
+</span>  <span class="kn">import</span> <span class="nn">datetime</span>
+    
+  <span class="k">def</span> <span class="nf">split_subtitle</span><span class="p">(</span><span class="n">subtitle</span><span class="p">,</span> <span class="n">splits</span><span class="p">):</span>
+      <span class="c1"># 解析开始和结束时间
+</span>      <span class="n">start_time</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">.</span><span class="n">datetime</span><span class="p">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">subtitle</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">split</span><span class="p">(</span><span class="s">' --&gt; '</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span> <span class="s">'%H:%M:%S,%f'</span><span class="p">)</span>
+      <span class="n">end_time</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">.</span><span class="n">datetime</span><span class="p">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">subtitle</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">split</span><span class="p">(</span><span class="s">' --&gt; '</span><span class="p">)[</span><span class="mi">1</span><span class="p">],</span> <span class="s">'%H:%M:%S,%f'</span><span class="p">)</span>
+        
+      <span class="c1"># 计算总时长（以毫秒为单位）
+</span>      <span class="n">total_duration</span> <span class="o">=</span> <span class="p">(</span><span class="n">end_time</span> <span class="o">-</span> <span class="n">start_time</span><span class="p">).</span><span class="n">total_seconds</span><span class="p">()</span> <span class="o">*</span> <span class="mi">1000</span>
+        
+      <span class="c1"># 计算每个字符的时长
+</span>      <span class="n">total_chars</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">strip</span><span class="p">())</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">splits</span><span class="p">)</span>
+      <span class="n">ms_per_char</span> <span class="o">=</span> <span class="n">total_duration</span> <span class="o">/</span> <span class="n">total_chars</span>
+        
+      <span class="n">new_subtitles</span> <span class="o">=</span> <span class="p">[]</span>
+      <span class="n">current_time</span> <span class="o">=</span> <span class="n">start_time</span>
+        
+      <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">split</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">splits</span><span class="p">):</span>
+          <span class="n">split_duration</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">split</span><span class="p">.</span><span class="n">strip</span><span class="p">())</span> <span class="o">*</span> <span class="n">ms_per_char</span>
+          <span class="n">split_end_time</span> <span class="o">=</span> <span class="n">current_time</span> <span class="o">+</span> <span class="n">datetime</span><span class="p">.</span><span class="n">timedelta</span><span class="p">(</span><span class="n">milliseconds</span><span class="o">=</span><span class="n">split_duration</span><span class="p">)</span>
+            
+          <span class="n">new_subtitle</span> <span class="o">=</span> <span class="p">[</span>
+              <span class="nb">str</span><span class="p">(</span><span class="n">subtitle</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">i</span><span class="p">),</span>  <span class="c1"># 新的字幕编号
+</span>              <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">current_time</span><span class="p">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">'%H</span><span class="si">:</span><span class="o">%</span><span class="n">M</span><span class="si">:</span><span class="o">%</span><span class="n">S</span><span class="p">,</span><span class="o">%</span><span class="sa">f</span><span class="s">')[</span><span class="si">:</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span><span class="si">}</span><span class="s"> --&gt; </span><span class="si">{</span><span class="n">split_end_time</span><span class="p">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">'%H</span><span class="si">:</span><span class="o">%</span><span class="n">M</span><span class="si">:</span><span class="o">%</span><span class="n">S</span><span class="p">,</span><span class="o">%</span><span class="sa">f</span><span class="s">')[</span><span class="si">:</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">,</span>
+              <span class="n">split</span><span class="p">.</span><span class="n">strip</span><span class="p">()</span>
+          <span class="p">]</span>
+            
+          <span class="n">new_subtitles</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">new_subtitle</span><span class="p">)</span>
+          <span class="n">current_time</span> <span class="o">=</span> <span class="n">split_end_time</span>
+        
+      <span class="k">return</span> <span class="n">new_subtitles</span>
+    
+  <span class="c1"># 示例使用
+</span>  <span class="n">original_subtitle</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="s">"45"</span><span class="p">,</span>
+      <span class="s">"00:02:22,267 --&gt; 00:02:37,215"</span><span class="p">,</span>
+      <span class="s">"It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long"</span>
+  <span class="p">]</span>
+    
+  <span class="n">splits</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="s">"It just so surreal to see of course the response."</span><span class="p">,</span>
+      <span class="s">"You know this is something that Cynthia and I lived every single day."</span><span class="p">,</span>
+      <span class="s">"The brilliant Cynthia Areva Cynthia Areva So good."</span><span class="p">,</span>
+      <span class="s">"And you know it was ours for so long."</span>
+  <span class="p">]</span>
+    
+  <span class="n">result</span> <span class="o">=</span> <span class="n">split_subtitle</span><span class="p">(</span><span class="n">original_subtitle</span><span class="p">,</span> <span class="n">splits</span><span class="p">)</span>
+    
+  <span class="k">for</span> <span class="n">subtitle</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
+      <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">subtitle</span><span class="p">))</span>
+      <span class="k">print</span><span class="p">()</span>
+    
+</code></pre></div>    </div>
+
+    <p>这个Python脚本可以帮助您拆分字幕并自动调整时间戳。以下是脚本的主要功能：</p>
+
+    <ol>
+      <li><code class="language-plaintext highlighter-rouge">split_subtitle</code> 函数接受原始字幕和想要的拆分方式作为输入。</li>
+      <li>它计算原始字幕的总时长，然后根据每个新句子的字符数按比例分配时间。</li>
+      <li>对于每个拆分的句子，它创建一个新的字幕条目，包括新的编号、计算得出的时间戳和文本内容。</li>
+    </ol>
+
+    <p>要使用这个脚本，您需要：</p>
+
+    <ol>
+      <li>提供原始字幕信息（编号、时间戳和文本）。</li>
+      <li>决定如何拆分原始文本（在示例中，我已经提供了一种可能的拆分方式）。</li>
+    </ol>
+
+    <p>脚本会自动计算新的时间戳并生成拆分后的字幕。</p>
+
+    <p>使用这个脚本的输出结果如下：</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  45
+  00:02:22,267 --&gt; 00:02:25,813
+  It just so surreal to see of course the response.
+    
+  46
+  00:02:25,813 --&gt; 00:02:31,151
+  You know this is something that Cynthia and I lived every single day.
+    
+  47
+  00:02:31,151 --&gt; 00:02:34,744
+  The brilliant Cynthia Areva Cynthia Areva So good.
+    
+  48
+  00:02:34,744 --&gt; 00:02:37,215
+  And you know it was ours for so long.
+</code></pre></div>    </div>
+
+    <p>这个方法确保了每个新的字幕条目的时间长度与其文本长度成正比，同时保持了原始字幕的总时长不变。</p>
+
+    <p>您可以根据需要调整 <code class="language-plaintext highlighter-rouge">splits</code> 列表中的句子划分，以获得最佳的字幕效果。如果您需要进一步的帮助或者对脚本有任何疑问，请随时告诉我。
+  ```</p>
+  </li>
+</ul>
+
+<p>AI 提供了一个思路，根据句子长度，按比例分配时间，只不过AI提供的按比例，是按照字符数的占比来分配时间。例如原句子总共100个字符，时长10秒钟，拆分的一个句子有10个字符，那么对应的时长就是1秒钟。</p>
+
+<p>思路不错，但是太粗暴，还是需要加上人类的常识。对于英文，朗读一段话的时长通常取决于单词数，以及单词的发音，不同单词的发音不同，时长也不同，因此最准确的按比例分配，应该是按照音标分配。</p>
+
+<p>但是我们可以退而求其次，按照单词来分配：假设原文共100个单词，拆分后的一句话有10个单词，那么对应的时长应该是1秒。这种方式有一个前提假设：对比多个句子，每个句子中每个单词的平均朗读时间是相同的。关于这个假设，后面有验证说明。</p>
+
+<ul>
+  <li>
+    <p>claude：按照单词 进行按比例分配时长</p>
+
+    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  我：实际上计算时长是不是应该根据单词，而不是字符，因为英语主要看发音，另外标点符号肯定不需要计算时长的。有没有根据句子总时长，计算拆分句子时长的方法
+    
+  AI：您提出了一个很好的观点。确实，对于英语字幕，基于单词而不是字符来计算时长更为合理，因为英语的发音时长主要取决于单词数量而不是字符数。同时，忽略标点符号也是正确的做法。我们可以修改脚本来实现这一点。
+    
+  <span class="p">```</span><span class="nl">python
+</span>  <span class="kn">import</span> <span class="nn">datetime</span>
+  <span class="kn">import</span> <span class="nn">re</span>
+    
+  <span class="k">def</span> <span class="nf">split_subtitle</span><span class="p">(</span><span class="n">subtitle</span><span class="p">,</span> <span class="n">splits</span><span class="p">):</span>
+      <span class="c1"># 解析开始和结束时间
+</span>      <span class="n">start_time</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">.</span><span class="n">datetime</span><span class="p">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">subtitle</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">split</span><span class="p">(</span><span class="s">' --&gt; '</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span> <span class="s">'%H:%M:%S,%f'</span><span class="p">)</span>
+      <span class="n">end_time</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">.</span><span class="n">datetime</span><span class="p">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">subtitle</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">split</span><span class="p">(</span><span class="s">' --&gt; '</span><span class="p">)[</span><span class="mi">1</span><span class="p">],</span> <span class="s">'%H:%M:%S,%f'</span><span class="p">)</span>
+        
+      <span class="c1"># 计算总时长（以毫秒为单位）
+</span>      <span class="n">total_duration</span> <span class="o">=</span> <span class="p">(</span><span class="n">end_time</span> <span class="o">-</span> <span class="n">start_time</span><span class="p">).</span><span class="n">total_seconds</span><span class="p">()</span> <span class="o">*</span> <span class="mi">1000</span>
+        
+      <span class="c1"># 计算总单词数（忽略标点符号）
+</span>      <span class="n">total_words</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">re</span><span class="p">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s">'\w+'</span><span class="p">,</span> <span class="n">s</span><span class="p">))</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">splits</span><span class="p">)</span>
+        
+      <span class="c1"># 计算每个单词的平均时长
+</span>      <span class="n">ms_per_word</span> <span class="o">=</span> <span class="n">total_duration</span> <span class="o">/</span> <span class="n">total_words</span>
+        
+      <span class="n">new_subtitles</span> <span class="o">=</span> <span class="p">[]</span>
+      <span class="n">current_time</span> <span class="o">=</span> <span class="n">start_time</span>
+        
+      <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">split</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">splits</span><span class="p">):</span>
+          <span class="c1"># 计算当前分割中的单词数
+</span>          <span class="n">word_count</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">re</span><span class="p">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s">'\w+'</span><span class="p">,</span> <span class="n">split</span><span class="p">))</span>
+          <span class="n">split_duration</span> <span class="o">=</span> <span class="n">word_count</span> <span class="o">*</span> <span class="n">ms_per_word</span>
+          <span class="n">split_end_time</span> <span class="o">=</span> <span class="n">current_time</span> <span class="o">+</span> <span class="n">datetime</span><span class="p">.</span><span class="n">timedelta</span><span class="p">(</span><span class="n">milliseconds</span><span class="o">=</span><span class="n">split_duration</span><span class="p">)</span>
+            
+          <span class="n">new_subtitle</span> <span class="o">=</span> <span class="p">[</span>
+              <span class="nb">str</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">subtitle</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">+</span> <span class="n">i</span><span class="p">),</span>  <span class="c1"># 新的字幕编号
+</span>              <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">current_time</span><span class="p">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">'%H</span><span class="si">:</span><span class="o">%</span><span class="n">M</span><span class="si">:</span><span class="o">%</span><span class="n">S</span><span class="p">,</span><span class="o">%</span><span class="sa">f</span><span class="s">')[</span><span class="si">:</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span><span class="si">}</span><span class="s"> --&gt; </span><span class="si">{</span><span class="n">split_end_time</span><span class="p">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">'%H</span><span class="si">:</span><span class="o">%</span><span class="n">M</span><span class="si">:</span><span class="o">%</span><span class="n">S</span><span class="p">,</span><span class="o">%</span><span class="sa">f</span><span class="s">')[</span><span class="si">:</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">,</span>
+              <span class="n">split</span><span class="p">.</span><span class="n">strip</span><span class="p">()</span>
+          <span class="p">]</span>
+            
+          <span class="n">new_subtitles</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">new_subtitle</span><span class="p">)</span>
+          <span class="n">current_time</span> <span class="o">=</span> <span class="n">split_end_time</span>
+        
+      <span class="k">return</span> <span class="n">new_subtitles</span>
+    
+  <span class="c1"># 示例使用
+</span>  <span class="n">original_subtitle</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="s">"45"</span><span class="p">,</span>
+      <span class="s">"00:02:22,267 --&gt; 00:02:37,215"</span><span class="p">,</span>
+      <span class="s">"It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long"</span>
+  <span class="p">]</span>
+    
+  <span class="n">splits</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="s">"It just so surreal to see of course the response."</span><span class="p">,</span>
+      <span class="s">"You know this is something that Cynthia and I lived every single day."</span><span class="p">,</span>
+      <span class="s">"The brilliant Cynthia Areva Cynthia Areva So good."</span><span class="p">,</span>
+      <span class="s">"And you know it was ours for so long."</span>
+  <span class="p">]</span>
+    
+  <span class="n">result</span> <span class="o">=</span> <span class="n">split_subtitle</span><span class="p">(</span><span class="n">original_subtitle</span><span class="p">,</span> <span class="n">splits</span><span class="p">)</span>
+    
+  <span class="k">for</span> <span class="n">subtitle</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
+      <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">subtitle</span><span class="p">))</span>
+      <span class="k">print</span><span class="p">()</span>
+    
+</code></pre></div>    </div>
+
+    <p>这个改进后的脚本采用了基于单词数量而不是字符数来计算时长的方法。以下是主要的改进：</p>
+
+    <ol>
+      <li>
+        <p>使用正则表达式 <code class="language-plaintext highlighter-rouge">re.findall(r'\w+', s)</code> 来计算每个句子中的单词数，这样可以忽略标点符号。</p>
+      </li>
+      <li>
+        <p>计算总单词数和每个单词的平均时长，而不是字符数。</p>
+      </li>
+      <li>
+        <p>对每个拆分的句子，根据其包含的单词数来分配时长。</p>
+      </li>
+    </ol>
+
+    <p>使用这个更新后的脚本，输出结果可能会更接近实际的发音时长：</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  45
+  00:02:22,267 --&gt; 00:02:26,102
+  It just so surreal to see of course the response.
+    
+  46
+  00:02:26,102 --&gt; 00:02:31,772
+  You know this is something that Cynthia and I lived every single day.
+    
+  47
+  00:02:31,772 --&gt; 00:02:34,641
+  The brilliant Cynthia Areva Cynthia Areva So good.
+    
+  48
+  00:02:34,641 --&gt; 00:02:37,215
+  And you know it was ours for so long.
+</code></pre></div>    </div>
+
+    <p>这种方法的优点是：</p>
+
+    <ol>
+      <li>更准确地反映了英语发音的特点，因为它基于单词数而不是字符数。</li>
+      <li>忽略了标点符号，这些在发音中通常不占用时间。</li>
+      <li>保持了原始字幕的总时长不变。</li>
+    </ol>
+
+    <p>然而，这种方法仍然有一些局限性：</p>
+
+    <ol>
+      <li>它假设所有单词的发音时长相同，而实际上有些单词比其他单词更长或更短。</li>
+      <li>它没有考虑到停顿、强调或语速变化等因素。</li>
+    </ol>
+
+    <p>如果您需要更精确的结果，可能需要更复杂的算法，例如考虑音节数、常见单词的平均发音时长等因素。但对于大多数情况，这个改进的方法应该已经能提供相当准确的结果了。</p>
+
+    <p>您可以根据需要进一步调整 <code class="language-plaintext highlighter-rouge">splits</code> 列表中的句子划分。如果您想要尝试使用这个脚本或有任何其他问题，请随时告诉我。
+  ```</p>
+  </li>
+</ul>
+
+<h1 id="实现">实现</h1>
+
+<p>按照这个思路，我们分两步走：</p>
+
+<ol>
+  <li>对于超过一定长度的文本，让AI进行拆分，把长句拆分为多个短句，实现这一步只需要一个prompt；
+    <ul>
+      <li>
+        <p>长句拆分prompt</p>
+
+        <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  You are an expert linguist specializing in sentence structure analysis and subtitle preparation. Your task is to segment long sentences from audio transcriptions into shorter, subtitle-friendly units while maintaining the original content and structure.
+        
+  Input: You will receive text that may be a single long sentence or multiple sentences incorrectly combined due to transcription inaccuracies.
+        
+  Instructions:
+<span class="p">  1.</span> Carefully analyze the input text.
+<span class="p">  2.</span> Divide the text into logical, shorter units suitable for subtitles.
+<span class="p">  3.</span> Maintain the original sentence structure and word order to ensure synchronization with the speaker's rhythm in the video.
+<span class="p">  4.</span> Only correct obvious transcription errors. If no errors are present, do not modify the original content in any way.
+<span class="p">  5.</span> Do not add any words, including subjects or other vocabulary, to the divided units.
+<span class="p">  6.</span> If the input is already a single, short sentence that doesn't require division, leave it as is.
+<span class="p">  7.</span> After segmentation, carefully review your output to ensure:
+     a. No content has been accidentally added.
+     b. There are no repetitions between adjacent units.
+     c. Each unit is unique and necessary.
+        
+  Output: Provide your result as a list of sentence units.
+<span class="p">  -</span> If there's only one sentence or unit after your analysis, return a list with a single element.
+<span class="p">  -</span> If there are multiple units, return a list with multiple elements.
+        
+  Format: Return your result in JSON format with the key <span class="sb">`sentences`</span> and the value as a list of strings.
+        
+  Example output:
+  {
+    "sentences": [
+      "The quick brown fox",
+      "jumps over the lazy dog",
+      "and runs into the forest"
+    ]
+  }
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>根据拆分后的短句单词数，计算每个短句的时长，然后匹配到对应的时间，这一步之需要一段python代码就可以实现。</li>
+</ol>
+
+<p>经过上述两步，我们可以把长句子拆分为多个短句，并且能够正确对其文字与时间戳，下面是一个例子：</p>
+
+<p>原来的转录结果：</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>66
+00:04:46,062 --&gt; 00:04:54,842
+I actually think the main thing that people are going to do, especially because it's open source, is use it as a teacher to train smaller models that they use in different applications.
+</code></pre></div></div>
+
+<p>处理后的结果：</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>105
+00:04:46,382 --&gt; 00:04:48,622
+I actually think the main thing that people are gonna do,
+
+106
+00:04:48,622 --&gt; 00:04:52,042
+especially because it's open source, is use it as a teacher
+
+107
+00:04:52,042 --&gt; 00:04:55,442
+to train smaller models that they use in different applications.
+</code></pre></div></div>
+
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/20839165-b42c-4833-bcc6-73c47dd7771a/image.png" alt="image.png" /></p>
+
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/5f11789a-17f7-4930-8d02-780290e0b2c7/image.png" alt="image.png" /></p>
+
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/797416e8-4559-426a-9bc3-28985df4db1d/image.png" alt="image.png" /></p>
+
+<h1 id="附录">附录</h1>
+
+<h2 id="验证假设">验证假设</h2>
+
+<p>关于开头提到的朗读一个单词的平均时间，这里做了一些统计：随机抽取了74条句子，生成音频，然后计算音频的时长。</p>
+
+<p>在统计时，对句子的长度进行了分组，1-5个单词的句子为sort，5-12为medium，12个单词以上为long。</p>
+
+<p>可以发现，对于超过5个单词的句子，朗读一个单词的平均时间为0.3秒，相对于short组，medium和long这两个分组的数值非常接近。这是因为稍长一点的句子，虽然可能句子中每个单词的朗读时间区别很大，但是整个句子会把均值拉平，这个数据也支撑了使用句子中的单词数来按比例分配时间的做法。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Statistical Analysis:
+--------------------------------------------------
+
+Duration per word statistics:
+count    74.000000
+mean      0.323791
+std       0.060297
+min       0.230400
+25%       0.285750
+50%       0.315714
+75%       0.347400
+max       0.588000
+Name: duration_per_word, dtype: float64
+
+Average duration per word by sentence length category:
+length_category
+short     0.361567
+medium    0.304849
+long      0.307741
+Name: duration_per_word, dtype: float64
+</code></pre></div></div>
+
+<p>https://docs.google.com/spreadsheets/d/1pBGv5IihK6qGps43sVdLYZWu-yRP7SIekEjEL2udxIE/edit?gid=551358910#gid=551358910</p>
+
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/7bc725ac-5d7a-4e1f-b91c-d5adff932ced/image.png" alt="image.png" /></p>
+
+<h2 id="另一个小技巧---通知策略">另一个小技巧 - 通知策略</h2>
+
+<p>做产品经常关注的一件事是，如何让用户持续使用我的产品，产品中最常用的一种功能是通知，通过通知将用户找回。</p>
+
+<p>在设计通知策略时，根据用户的使用习惯来设计通知频率，可以有各种复杂的策略。</p>
+
+<p>但是，有一个简单却非常有效的策略 —— 在用户安装产品后的24小时后进行通知。</p>
+
+<p>这个策略是经过无数次实验得出的，但是仔细一想却很符合直觉，而且基于一个很合理的假设：如果你昨天下午6点有时间，那么大概率今天下午3点也有时间。</p>
+
+<p>简单粗暴，但很有效！</p>
+
+<p>这不是我说的，是Duolingo创始人Luis Von Ahn说的！</p>
+
+<p>https://www.youtube.com/watch?v=P6FORpg0KVo&amp;ab_channel=TED</p>
+
+
+        <hr>
+
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/blog/2024/09/17/trip_ceo_interview/" data-toggle="tooltip" data-placement="top" title="Trip.com CEO 谈招聘——诚信、实干、好奇心与乐观精神">&larr; Previous Post</a>
+          </li>
+          
+          
+        </ul>
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->    
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.1em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2024  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.1/async.js"></script>
+<script>
+    async("https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

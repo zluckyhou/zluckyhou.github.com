@@ -5,9 +5,449 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 12 Oct 2024 08:43:09 +0800</pubDate>
-    <lastBuildDate>Sat, 12 Oct 2024 08:43:09 +0800</lastBuildDate>
+    <pubDate>Sat, 12 Oct 2024 17:53:42 +0800</pubDate>
+    <lastBuildDate>Sat, 12 Oct 2024 17:53:42 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>一个小技巧，轻松解决长字幕问题</title>
+        <description>&lt;h1 id=&quot;引子&quot;&gt;引子&lt;/h1&gt;
+
+&lt;p&gt;首先我们来看一个看似无用的常识：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;一个人正常速度下每分钟可以朗读200-300字（中文）；如果是英文，速度也差不多，大概在200个单词左右，换算一下，平均朗读一个单词耗时0.3秒。&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个看似无用的常识，能发挥什么作用呢？&lt;/p&gt;
+
+&lt;h1 id=&quot;起因&quot;&gt;起因&lt;/h1&gt;
+
+&lt;p&gt;最近我开发了一个YouTube视频字幕转录的web应用，底层的技术很简单，就是通过AI语音模型，将一段音频转录为文字，然后转为字幕文件。&lt;/p&gt;
+
+&lt;p&gt;转录时时间粒度一般选择segment，输出的结果是一段一段的，通常来说，一小段应该是一个句子，下面是一个例子，start 和end分表表示这句话的开始和结束时间，text是这段时间内说的话。&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&apos;id&apos;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&apos;start&apos;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&apos;end&apos;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;6.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&apos;text&apos;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;Have&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;you&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;heard&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;the&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;term&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;Zuck-a-saunce?&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;但是，转录中经常会遇到这样的问题，一个segment包含了很长的一个时间跨度，对应的文字会非常长，例如：&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&apos;id&apos;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&apos;start&apos;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;286&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&apos;end&apos;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;297&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&apos;text&apos;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&apos;I&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;actually&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;think&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;the&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;thing&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;people&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;are&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;going&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;do&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;especially&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;because&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;it&apos;s&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;as&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;teacher&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;smaller&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;models&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;they&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;different&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;applications.&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;如果这段话以字幕的形式展示在视频播放器中，会是这样的：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/d70bb796-3d62-478b-8af4-f60241e09fe7/image.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;甚至有时候一段很长的segment对应的字幕，会把整个屏幕铺满。&lt;/p&gt;
+
+&lt;h1 id=&quot;思路&quot;&gt;思路&lt;/h1&gt;
+
+&lt;p&gt;对于上面遇到的问题，首先想到的是，能不能通过某种方式把这个长句子进行拆分，分割为多个短句，然后将这多个短句的时间对应上就可以了。&lt;/p&gt;
+
+&lt;p&gt;不错的思路！&lt;/p&gt;
+
+&lt;p&gt;但是问题来了，总不能手动来做吧，AI时代，能用机器解决的问题，一定不要靠体力来解决！&lt;/p&gt;
+
+&lt;p&gt;首先，长句拆分为短句，这个事情很简单，LLM可以轻松完成。那么问题就只剩一个了，怎么把拆分后的短句与音频时间匹配上。同样的，这个问题也可以求助AI.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;claude：如何计算拆分后的短句对应的时长 - 初次尝试&lt;/p&gt;
+
+    &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  我：这是一个字幕文件中的一行，由于句子太长，我想拆分为多句，但是要保证时间戳正确，有什么办法吗：
+    
+  45
+  00:02:22,267 --&amp;gt; 00:02:37,215
+  It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long
+    
+  AI：为了拆分这个长句子并保持正确的时间戳，我们可以使用一种称为&quot;时间插值&quot;的方法。这种方法会根据原始时间段的长度，为每个新的分割句子分配一个相应的时间段。以下是具体步骤：
+&lt;span class=&quot;p&quot;&gt;    
+  1.&lt;/span&gt; 计算原始时间段的总长度
+&lt;span class=&quot;p&quot;&gt;  2.&lt;/span&gt; 将句子分割成多个较短的句子
+&lt;span class=&quot;p&quot;&gt;  3.&lt;/span&gt; 根据每个新句子的长度，按比例分配时间
+    
+  让我为您演示这个过程：
+    
+  &lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;python
+&lt;/span&gt;  &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt;
+    
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;split_subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;splits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;# 解析开始和结束时间
+&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;start_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strptime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos; --&amp;gt; &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;%H:%M:%S,%f&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;end_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strptime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos; --&amp;gt; &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;%H:%M:%S,%f&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+      &lt;span class=&quot;c1&quot;&gt;# 计算总时长（以毫秒为单位）
+&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;total_duration&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start_time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;total_seconds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;
+        
+      &lt;span class=&quot;c1&quot;&gt;# 计算每个字符的时长
+&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;total_chars&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;splits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;ms_per_char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;total_duration&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;total_chars&lt;/span&gt;
+        
+      &lt;span class=&quot;n&quot;&gt;new_subtitles&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;current_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start_time&lt;/span&gt;
+        
+      &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;split&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;enumerate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;splits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;split_duration&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ms_per_char&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;split_end_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;timedelta&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;milliseconds&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split_duration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            
+          &lt;span class=&quot;n&quot;&gt;new_subtitle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+              &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 新的字幕编号
+&lt;/span&gt;              &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current_time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;%H&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;)[&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; --&amp;gt; &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split_end_time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;%H&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;)[&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+              &lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            
+          &lt;span class=&quot;n&quot;&gt;new_subtitles&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new_subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;current_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;split_end_time&lt;/span&gt;
+        
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new_subtitles&lt;/span&gt;
+    
+  &lt;span class=&quot;c1&quot;&gt;# 示例使用
+&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;original_subtitle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;45&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;00:02:22,267 --&amp;gt; 00:02:37,215&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    
+  &lt;span class=&quot;n&quot;&gt;splits&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;It just so surreal to see of course the response.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;You know this is something that Cynthia and I lived every single day.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;The brilliant Cynthia Areva Cynthia Areva So good.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;And you know it was ours for so long.&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    
+  &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;split_subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;splits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;这个Python脚本可以帮助您拆分字幕并自动调整时间戳。以下是脚本的主要功能：&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;split_subtitle&lt;/code&gt; 函数接受原始字幕和想要的拆分方式作为输入。&lt;/li&gt;
+      &lt;li&gt;它计算原始字幕的总时长，然后根据每个新句子的字符数按比例分配时间。&lt;/li&gt;
+      &lt;li&gt;对于每个拆分的句子，它创建一个新的字幕条目，包括新的编号、计算得出的时间戳和文本内容。&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;要使用这个脚本，您需要：&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;提供原始字幕信息（编号、时间戳和文本）。&lt;/li&gt;
+      &lt;li&gt;决定如何拆分原始文本（在示例中，我已经提供了一种可能的拆分方式）。&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;脚本会自动计算新的时间戳并生成拆分后的字幕。&lt;/p&gt;
+
+    &lt;p&gt;使用这个脚本的输出结果如下：&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  45
+  00:02:22,267 --&amp;gt; 00:02:25,813
+  It just so surreal to see of course the response.
+    
+  46
+  00:02:25,813 --&amp;gt; 00:02:31,151
+  You know this is something that Cynthia and I lived every single day.
+    
+  47
+  00:02:31,151 --&amp;gt; 00:02:34,744
+  The brilliant Cynthia Areva Cynthia Areva So good.
+    
+  48
+  00:02:34,744 --&amp;gt; 00:02:37,215
+  And you know it was ours for so long.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;这个方法确保了每个新的字幕条目的时间长度与其文本长度成正比，同时保持了原始字幕的总时长不变。&lt;/p&gt;
+
+    &lt;p&gt;您可以根据需要调整 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;splits&lt;/code&gt; 列表中的句子划分，以获得最佳的字幕效果。如果您需要进一步的帮助或者对脚本有任何疑问，请随时告诉我。
+  ```&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;AI 提供了一个思路，根据句子长度，按比例分配时间，只不过AI提供的按比例，是按照字符数的占比来分配时间。例如原句子总共100个字符，时长10秒钟，拆分的一个句子有10个字符，那么对应的时长就是1秒钟。&lt;/p&gt;
+
+&lt;p&gt;思路不错，但是太粗暴，还是需要加上人类的常识。对于英文，朗读一段话的时长通常取决于单词数，以及单词的发音，不同单词的发音不同，时长也不同，因此最准确的按比例分配，应该是按照音标分配。&lt;/p&gt;
+
+&lt;p&gt;但是我们可以退而求其次，按照单词来分配：假设原文共100个单词，拆分后的一句话有10个单词，那么对应的时长应该是1秒。这种方式有一个前提假设：对比多个句子，每个句子中每个单词的平均朗读时间是相同的。关于这个假设，后面有验证说明。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;claude：按照单词 进行按比例分配时长&lt;/p&gt;
+
+    &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  我：实际上计算时长是不是应该根据单词，而不是字符，因为英语主要看发音，另外标点符号肯定不需要计算时长的。有没有根据句子总时长，计算拆分句子时长的方法
+    
+  AI：您提出了一个很好的观点。确实，对于英语字幕，基于单词而不是字符来计算时长更为合理，因为英语的发音时长主要取决于单词数量而不是字符数。同时，忽略标点符号也是正确的做法。我们可以修改脚本来实现这一点。
+    
+  &lt;span class=&quot;p&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;python
+&lt;/span&gt;  &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt;
+  &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;re&lt;/span&gt;
+    
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;split_subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;splits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;# 解析开始和结束时间
+&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;start_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strptime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos; --&amp;gt; &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;%H:%M:%S,%f&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;end_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strptime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos; --&amp;gt; &apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;%H:%M:%S,%f&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+      &lt;span class=&quot;c1&quot;&gt;# 计算总时长（以毫秒为单位）
+&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;total_duration&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start_time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;total_seconds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;
+        
+      &lt;span class=&quot;c1&quot;&gt;# 计算总单词数（忽略标点符号）
+&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;total_words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;findall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;\w+&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;splits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+      &lt;span class=&quot;c1&quot;&gt;# 计算每个单词的平均时长
+&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;ms_per_word&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;total_duration&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;total_words&lt;/span&gt;
+        
+      &lt;span class=&quot;n&quot;&gt;new_subtitles&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;current_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start_time&lt;/span&gt;
+        
+      &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;split&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;enumerate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;splits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+          &lt;span class=&quot;c1&quot;&gt;# 计算当前分割中的单词数
+&lt;/span&gt;          &lt;span class=&quot;n&quot;&gt;word_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;findall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;\w+&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;split_duration&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ms_per_word&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;split_end_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;timedelta&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;milliseconds&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split_duration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            
+          &lt;span class=&quot;n&quot;&gt;new_subtitle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+              &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# 新的字幕编号
+&lt;/span&gt;              &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current_time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;%H&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;)[&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; --&amp;gt; &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split_end_time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;%H&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;)[&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+              &lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            
+          &lt;span class=&quot;n&quot;&gt;new_subtitles&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new_subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;current_time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;split_end_time&lt;/span&gt;
+        
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new_subtitles&lt;/span&gt;
+    
+  &lt;span class=&quot;c1&quot;&gt;# 示例使用
+&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;original_subtitle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;45&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;00:02:22,267 --&amp;gt; 00:02:37,215&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    
+  &lt;span class=&quot;n&quot;&gt;splits&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;It just so surreal to see of course the response.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;You know this is something that Cynthia and I lived every single day.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;The brilliant Cynthia Areva Cynthia Areva So good.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;&quot;And you know it was ours for so long.&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    
+  &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;split_subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;splits&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;这个改进后的脚本采用了基于单词数量而不是字符数来计算时长的方法。以下是主要的改进：&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;使用正则表达式 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;re.findall(r&apos;\w+&apos;, s)&lt;/code&gt; 来计算每个句子中的单词数，这样可以忽略标点符号。&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;计算总单词数和每个单词的平均时长，而不是字符数。&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;对每个拆分的句子，根据其包含的单词数来分配时长。&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;使用这个更新后的脚本，输出结果可能会更接近实际的发音时长：&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  45
+  00:02:22,267 --&amp;gt; 00:02:26,102
+  It just so surreal to see of course the response.
+    
+  46
+  00:02:26,102 --&amp;gt; 00:02:31,772
+  You know this is something that Cynthia and I lived every single day.
+    
+  47
+  00:02:31,772 --&amp;gt; 00:02:34,641
+  The brilliant Cynthia Areva Cynthia Areva So good.
+    
+  48
+  00:02:34,641 --&amp;gt; 00:02:37,215
+  And you know it was ours for so long.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;这种方法的优点是：&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;更准确地反映了英语发音的特点，因为它基于单词数而不是字符数。&lt;/li&gt;
+      &lt;li&gt;忽略了标点符号，这些在发音中通常不占用时间。&lt;/li&gt;
+      &lt;li&gt;保持了原始字幕的总时长不变。&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;然而，这种方法仍然有一些局限性：&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;它假设所有单词的发音时长相同，而实际上有些单词比其他单词更长或更短。&lt;/li&gt;
+      &lt;li&gt;它没有考虑到停顿、强调或语速变化等因素。&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;如果您需要更精确的结果，可能需要更复杂的算法，例如考虑音节数、常见单词的平均发音时长等因素。但对于大多数情况，这个改进的方法应该已经能提供相当准确的结果了。&lt;/p&gt;
+
+    &lt;p&gt;您可以根据需要进一步调整 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;splits&lt;/code&gt; 列表中的句子划分。如果您想要尝试使用这个脚本或有任何其他问题，请随时告诉我。
+  ```&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;实现&quot;&gt;实现&lt;/h1&gt;
+
+&lt;p&gt;按照这个思路，我们分两步走：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;对于超过一定长度的文本，让AI进行拆分，把长句拆分为多个短句，实现这一步只需要一个prompt；
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;长句拆分prompt&lt;/p&gt;
+
+        &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  You are an expert linguist specializing in sentence structure analysis and subtitle preparation. Your task is to segment long sentences from audio transcriptions into shorter, subtitle-friendly units while maintaining the original content and structure.
+        
+  Input: You will receive text that may be a single long sentence or multiple sentences incorrectly combined due to transcription inaccuracies.
+        
+  Instructions:
+&lt;span class=&quot;p&quot;&gt;  1.&lt;/span&gt; Carefully analyze the input text.
+&lt;span class=&quot;p&quot;&gt;  2.&lt;/span&gt; Divide the text into logical, shorter units suitable for subtitles.
+&lt;span class=&quot;p&quot;&gt;  3.&lt;/span&gt; Maintain the original sentence structure and word order to ensure synchronization with the speaker&apos;s rhythm in the video.
+&lt;span class=&quot;p&quot;&gt;  4.&lt;/span&gt; Only correct obvious transcription errors. If no errors are present, do not modify the original content in any way.
+&lt;span class=&quot;p&quot;&gt;  5.&lt;/span&gt; Do not add any words, including subjects or other vocabulary, to the divided units.
+&lt;span class=&quot;p&quot;&gt;  6.&lt;/span&gt; If the input is already a single, short sentence that doesn&apos;t require division, leave it as is.
+&lt;span class=&quot;p&quot;&gt;  7.&lt;/span&gt; After segmentation, carefully review your output to ensure:
+     a. No content has been accidentally added.
+     b. There are no repetitions between adjacent units.
+     c. Each unit is unique and necessary.
+        
+  Output: Provide your result as a list of sentence units.
+&lt;span class=&quot;p&quot;&gt;  -&lt;/span&gt; If there&apos;s only one sentence or unit after your analysis, return a list with a single element.
+&lt;span class=&quot;p&quot;&gt;  -&lt;/span&gt; If there are multiple units, return a list with multiple elements.
+        
+  Format: Return your result in JSON format with the key &lt;span class=&quot;sb&quot;&gt;`sentences`&lt;/span&gt; and the value as a list of strings.
+        
+  Example output:
+  {
+    &quot;sentences&quot;: [
+      &quot;The quick brown fox&quot;,
+      &quot;jumps over the lazy dog&quot;,
+      &quot;and runs into the forest&quot;
+    ]
+  }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;根据拆分后的短句单词数，计算每个短句的时长，然后匹配到对应的时间，这一步之需要一段python代码就可以实现。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;经过上述两步，我们可以把长句子拆分为多个短句，并且能够正确对其文字与时间戳，下面是一个例子：&lt;/p&gt;
+
+&lt;p&gt;原来的转录结果：&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;66
+00:04:46,062 --&amp;gt; 00:04:54,842
+I actually think the main thing that people are going to do, especially because it&apos;s open source, is use it as a teacher to train smaller models that they use in different applications.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;处理后的结果：&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;105
+00:04:46,382 --&amp;gt; 00:04:48,622
+I actually think the main thing that people are gonna do,
+
+106
+00:04:48,622 --&amp;gt; 00:04:52,042
+especially because it&apos;s open source, is use it as a teacher
+
+107
+00:04:52,042 --&amp;gt; 00:04:55,442
+to train smaller models that they use in different applications.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/20839165-b42c-4833-bcc6-73c47dd7771a/image.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/5f11789a-17f7-4930-8d02-780290e0b2c7/image.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/797416e8-4559-426a-9bc3-28985df4db1d/image.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;附录&quot;&gt;附录&lt;/h1&gt;
+
+&lt;h2 id=&quot;验证假设&quot;&gt;验证假设&lt;/h2&gt;
+
+&lt;p&gt;关于开头提到的朗读一个单词的平均时间，这里做了一些统计：随机抽取了74条句子，生成音频，然后计算音频的时长。&lt;/p&gt;
+
+&lt;p&gt;在统计时，对句子的长度进行了分组，1-5个单词的句子为sort，5-12为medium，12个单词以上为long。&lt;/p&gt;
+
+&lt;p&gt;可以发现，对于超过5个单词的句子，朗读一个单词的平均时间为0.3秒，相对于short组，medium和long这两个分组的数值非常接近。这是因为稍长一点的句子，虽然可能句子中每个单词的朗读时间区别很大，但是整个句子会把均值拉平，这个数据也支撑了使用句子中的单词数来按比例分配时间的做法。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Statistical Analysis:
+--------------------------------------------------
+
+Duration per word statistics:
+count    74.000000
+mean      0.323791
+std       0.060297
+min       0.230400
+25%       0.285750
+50%       0.315714
+75%       0.347400
+max       0.588000
+Name: duration_per_word, dtype: float64
+
+Average duration per word by sentence length category:
+length_category
+short     0.361567
+medium    0.304849
+long      0.307741
+Name: duration_per_word, dtype: float64
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;https://docs.google.com/spreadsheets/d/1pBGv5IihK6qGps43sVdLYZWu-yRP7SIekEjEL2udxIE/edit?gid=551358910#gid=551358910&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/7bc725ac-5d7a-4e1f-b91c-d5adff932ced/image.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;另一个小技巧---通知策略&quot;&gt;另一个小技巧 - 通知策略&lt;/h2&gt;
+
+&lt;p&gt;做产品经常关注的一件事是，如何让用户持续使用我的产品，产品中最常用的一种功能是通知，通过通知将用户找回。&lt;/p&gt;
+
+&lt;p&gt;在设计通知策略时，根据用户的使用习惯来设计通知频率，可以有各种复杂的策略。&lt;/p&gt;
+
+&lt;p&gt;但是，有一个简单却非常有效的策略 —— 在用户安装产品后的24小时后进行通知。&lt;/p&gt;
+
+&lt;p&gt;这个策略是经过无数次实验得出的，但是仔细一想却很符合直觉，而且基于一个很合理的假设：如果你昨天下午6点有时间，那么大概率今天下午3点也有时间。&lt;/p&gt;
+
+&lt;p&gt;简单粗暴，但很有效！&lt;/p&gt;
+
+&lt;p&gt;这不是我说的，是Duolingo创始人Luis Von Ahn说的！&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=P6FORpg0KVo&amp;amp;ab_channel=TED&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Oct 2024 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2024/10/12/subtitle_trick/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2024/10/12/subtitle_trick/</guid>
+        
+        <category>AI</category>
+        
+        <category>字幕</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Trip.com CEO 谈招聘——诚信、实干、好奇心与乐观精神</title>
@@ -958,204 +1398,6 @@ Shantanu 和Nicolai都参与过帆船运动（sailing），Shantanu 认为帆船
         <category>Adobe</category>
         
         <category>NBIM</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>RAG实践——老友记学英语</title>
-        <description>&lt;script type=&quot;module&quot;&gt;
-    import mermaid from &apos;https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs&apos;;
-    mermaid.initialize({ startOnLoad: true });
-&lt;/script&gt;
-
-&lt;p&gt;最近在学英语，发现看老友记能够学到很多地道的表达，于是萌生了一个想法：是否可以通过输入一个场景，来看看老友记中对应的片段？通过这种方式，让学英语变得更加有趣，从技术上来说，其实就是RAG，这个技术已经很成熟了，而且有很多框架提供了方便的接口，做起来应该不难，于是就着手开始，这个项目就这样诞生了。&lt;/p&gt;
-
-&lt;p&gt;其实这个项目与chat with pdf这样的项目非常类似，本质上就是提供一个文档，让AI基于文档来回答用户的问题。但是由于文档很长，所以需要先检索到最相关的内容，然后让AI基于这部分内容来回答。&lt;/p&gt;
-
-&lt;p&gt;但是，这类项目要做好并不容易，之前负责的产品中也提供过文件对话这样的功能，效果并不理想，最终反而采用了直接采用支持超长上下文的模型，让AI基于全文进行回答，代价就是每次的成本都很高。&lt;/p&gt;
-
-&lt;p&gt;所以，我想自己亲自尝试一下，对每一个必要的环节进行优化，看看是否能够达到可用的地步。最终完成后，发现效果还不错，欢迎体验：&lt;a href=&quot;https://nativespeaker.streamlit.app/&quot;&gt;NativeSpeaker&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;如果你对RAG或AI感兴趣，或者你有其他想法，欢迎留言讨论。&lt;/p&gt;
-
-&lt;h1 id=&quot;什么是rag&quot;&gt;&lt;strong&gt;什么是RAG？&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;LLMs are trained on enormous bodies of data but they aren’t trained on &lt;strong&gt;your&lt;/strong&gt; data. Retrieval-Augmented Generation (RAG) solves this problem by adding your data to the data LLMs already have access to. 
-—llamaindex&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;这张图清晰地介绍了RAG的原理，可以查看&lt;a href=&quot;https://x.com/baptadn/status/1813232789946253703&quot;&gt;原文&lt;/a&gt;，原文还提供了一个动画，非常便于理解。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/zluckyhou/zluckyhou.github.com/master/img/rag_anatomy.png&quot; alt=&quot;Anatomy of RAG-Retrieval Augmented Generation&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Anatomy of RAG-Retrieval Augmented Generation&lt;/p&gt;
-
-&lt;p&gt;我们用这张图上的概念来理解RAG：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Docs&lt;/strong&gt;：我们提供的原始文档，目的是让AI基于这份文档提供的内容来回答，图中最右侧的文档部分&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Question&lt;/strong&gt;：想让AI解答的问题，假设你在跟一个AI对话，这就是你发给AI的问题。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Embed model&lt;/strong&gt;：这个模型用于将提供的文档内容进行向量化，向量化的目的是用来计算文档内容与Question之间的相似度。OpenAI目前最好的向量化模型是text-embedding-3-large，详细解释可以参见&lt;a href=&quot;https://platform.openai.com/docs/guides/embeddings/embedding-models&quot;&gt;openai embedding models&lt;/a&gt;，还有很多大模型都提供了embed的能力，例如&lt;a href=&quot;https://docs.cohere.com/reference/embed&quot;&gt;cohere embed&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Vector&lt;/strong&gt;：提供的docs经过embed model转换之后，会变成向量，其实就是这些文档的数字表示&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;LLM model&lt;/strong&gt;：大语言模型，用来回答问题&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Relevent docs&lt;/strong&gt;：Docs中与Question最相关的部分文档，这部分文档将作为context发送给LLM，让LLM基于这个context来回答Question&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Answer&lt;/strong&gt;：LLM最终返回的结果&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;下面是RAG工作的流程图，主要步骤包括：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;准备原始文档&lt;/li&gt;
-  &lt;li&gt;将原始文档进行拆分，生成多个Documents&lt;/li&gt;
-  &lt;li&gt;利用embed model将Documents向量化；&lt;/li&gt;
-  &lt;li&gt;将question向量化；&lt;/li&gt;
-  &lt;li&gt;计算question与Documents之间的相似度，提取与question最相关的内容；&lt;/li&gt;
-  &lt;li&gt;将question和relevant docs发送给LLM，获取答案。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div style=&quot;display: flex; justify-content: center;&quot;&gt;
-    &lt;div class=&quot;mermaid&quot;&gt;
-    %%{init: {&apos;theme&apos;: &apos;neutral&apos;, &apos;themeVariables&apos;: { &apos;fontSize&apos;: &apos;16px&apos;, &apos;fontFamily&apos;: &apos;Arial&apos;, &apos;nodeSpacing&apos;: 100, &apos;rankSpacing&apos;: 80}}}%%
-    flowchart TD
-        A[Input Question] --&amp;gt; B[Embed Model]
-        B --&amp;gt; C[Question Vector]
-        D[Document Collection] --&amp;gt; E[Embed Model]
-        E --&amp;gt; F[Document Vectors]
-        C &amp;amp; F --&amp;gt; G{Vector Similarity Search}
-        G --&amp;gt; H[Relevant Docs]
-        A &amp;amp; H --&amp;gt; I[Language Model]
-        I --&amp;gt; J[Generated Answer]
-        J --&amp;gt; K[Output Answer]
-    
-        classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
-        classDef process fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
-        classDef data fill:#fff3e0,stroke:#e65100,stroke-width:2px;
-        
-        class A,D,K data;
-        class B,E,G,I process;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;5行代码构建一个rag应用&quot;&gt;&lt;strong&gt;5行代码构建一个RAG应用&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;在了解了RAG的原理之后，如果要开发一个简单的RAG应用，其实很简单，借助&lt;a href=&quot;https://docs.llamaindex.ai/en/stable/understanding/putting_it_all_together/q_and_a/#semantic-search&quot;&gt;llamaindex&lt;/a&gt;，只需要5行代码即可实现。&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;llama_index.core&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VectorStoreIndex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SimpleDirectoryReader&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;documents&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SimpleDirectoryReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;data&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VectorStoreIndex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_documents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;documents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;query_engine&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;as_query_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;query_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;What did the author do growing up?&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;真实世界的rag&quot;&gt;真实世界的RAG&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.llamaindex.ai/en/stable/module_guides/&quot;&gt;llamaindex&lt;/a&gt;、&lt;a href=&quot;https://python.langchain.com/v0.2/docs/tutorials/rag/&quot;&gt;langchain&lt;/a&gt;等框架提供了非常方便的接口，可以用几行代码来实现一个RAG应用，但是如果要实现很好的效果，我们还需要很多的优化。下面是我在老友记学英语项目中遇到的一些坑，希望对大家有一定的参考&lt;/p&gt;
-
-&lt;h2 id=&quot;数据处理&quot;&gt;数据处理&lt;/h2&gt;
-
-&lt;p&gt;一般来说，纯文本的文档效果最好，因为不需要对图片或视频进行处理，如果是包含图片或视频的pdf或html文档，还需要一些OCR的工作。&lt;/p&gt;
-
-&lt;p&gt;下面是我在这个项目中经历的一些数据处理工作：&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;
-1.&lt;/span&gt; 准备数据 - 数据源1：找到一份老友记ass字幕文件，将文件转为srt格式，去掉多余的格式等内容；
-&lt;span class=&quot;p&quot;&gt;2.&lt;/span&gt; 准备数据 - 数据源2：字幕文件不包含对话的角色，导致AI在回答时总是将角色与对话匹配错误，所以又找了一份pdf版本的scripts，包含角色信息与中文翻译；
-&lt;span class=&quot;p&quot;&gt;3.&lt;/span&gt; 准备数据 - 数据源2：对pdf scripts进行处理，拆分为多个文件，提取剧集信息作为文件名…
-&lt;span class=&quot;p&quot;&gt;4.&lt;/span&gt; 拆分文档 - 对每一集的内容进行拆分，尝试不同的拆分方式（按句子拆分、按页拆分、按token拆分…）
-&lt;span class=&quot;p&quot;&gt;5.&lt;/span&gt; 准备数据 - 数据源3：pdf scripts包含的中文翻译导致文件拆分后每一个doc的结果比较混乱，所以又找了一份纯英文的scripts
-&lt;span class=&quot;p&quot;&gt;6.&lt;/span&gt; 准备数据 - 数据源3：整理纯英文老友记scripts，清洗数据…
-
-…
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;文档拆分&quot;&gt;文档拆分&lt;/h2&gt;
-
-&lt;p&gt;不同的文档拆分方式也会影响最终的效果，下面是最常见的一些拆分方式：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;按句子拆分：例如根据换行符将一个句子作为一个单元，把多个句子作为一个文档；&lt;/li&gt;
-  &lt;li&gt;按token拆分：顾名思义，例如把每1000token作为一个文档；&lt;/li&gt;
-  &lt;li&gt;根据语义拆分：根据向量相似度，将语义相近的句子作为一个文档；&lt;/li&gt;
-  &lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;可以参考&lt;a href=&quot;https://docs.llamaindex.ai/en/stable/module_guides/loading/node_parsers/modules/#text-splitters&quot;&gt;textspliter&lt;/a&gt; 进一步了解。&lt;/p&gt;
-
-&lt;p&gt;在尝试了不同的拆分之后，选择了SentenceSplitter&lt;/p&gt;
-
-&lt;h2 id=&quot;向量化&quot;&gt;向量化&lt;/h2&gt;
-
-&lt;p&gt;这一步主要考虑使用哪个向量模型，我直接用了openai 目前效果最好的embedding model text-embedding-3-large，后续可以尝试其他的模型，例如cohere的向量模型。&lt;/p&gt;
-
-&lt;p&gt;由于每一次向量化都有成本，所以在测试过程中取了少量documents来向量化，可以在最终数据准备完成之后再对所有的documents进行向量化。&lt;/p&gt;
-
-&lt;p&gt;向量化的结果可以保存到本地，也可以用向量数据库。最开始我把结果保存到本地，但是发现每次加载向量的过程非常耗时，于是尝试了&lt;a href=&quot;https://qdrant.tech/&quot;&gt;qdrant vector database&lt;/a&gt;，速度是相当快！&lt;/p&gt;
-
-&lt;h2 id=&quot;元数据&quot;&gt;元数据&lt;/h2&gt;
-
-&lt;p&gt;有时候metadata也包含了很多信息，例如文件名，document title，page label等。例如我把老友记的每一集剧本放到一个文件里，用文件名来标识哪一季哪一集，把这个信息放到拆分后的每一个doc中，AI在回复的时候就可以参考，有时候是非常有必要的。&lt;/p&gt;
-
-&lt;h2 id=&quot;prompt&quot;&gt;prompt&lt;/h2&gt;
-
-&lt;p&gt;一个好的prompt能够让最终效果提升一个等级，如果使用llamaindex或langchain，默认的prompt可能是这样的：&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;Context information is below.
----------------------
-{context_str}
----------------------
-&lt;/span&gt;Given the context information and not prior knowledge, answer the query.
-Query: {query_str}
-Answer: 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;但是如果想要输出结果更符合我们的预期，可以对prompt进行优化，例如写一个与项目更相关的prompt。&lt;/p&gt;
-
-&lt;p&gt;在测试了N次prompt之后，效果终于达到了可以接受的地步，让我们看看这个例子：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/zluckyhou/zluckyhou.github.com/master/img/friends_english_example.png&quot; alt=&quot;老友记学英语-场景：面试&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;question&quot;&gt;question&lt;/h2&gt;
-
-&lt;p&gt;可以看到，默认的prompt中有两个参数：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;context_str：即根据相似度计算出来与question最相关的文档&lt;/li&gt;
-  &lt;li&gt;query_str：即原始输入的question&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;如果想要效果更好，还可以对question进行处理，例如假设用户输入了一个很简单的短语，如果直接将这个输入去做向量化，然后计算相似度获取context_str，有可能得到的结果与question相关性并不大。&lt;/p&gt;
-
-&lt;p&gt;注意，优化question需要与优化prompt一起进行！&lt;/p&gt;
-
-&lt;h1 id=&quot;最后&quot;&gt;最后&lt;/h1&gt;
-
-&lt;p&gt;以上基本上是我在项目中遇到的所有需要注意的细节，如果你也要用RAG构建应用，欢迎联系我一起讨论。&lt;/p&gt;
-
-&lt;p&gt;老友记这个项目仍然还有很大的优化空间，目前还不涉及对图片的处理，也没有涉及到文档关系，对于很多细节也还有待完善。但是作为一个完整的RAG项目，我觉得仍然是一次不错的尝试！&lt;/p&gt;
-
-&lt;p&gt;RAG还有很多方向的应用，例如AI客服、AI解读（很多电商详情页已经有了问AI这个功能）、AI搜索，但是底层逻辑都是类似的，核心都在于如何有效地检索相关信息并将其与大语言模型结合。无论是哪种应用场景，关键都在于构建高质量的知识库、设计合适的检索策略，以及优化提示工程以生成准确而有用的回答！&lt;/p&gt;
-</description>
-        <pubDate>Thu, 25 Jul 2024 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2024/07/25/rag_friends/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2024/07/25/rag_friends/</guid>
-        
-        <category>AI</category>
-        
-        <category>RAG</category>
-        
-        <category>LLM</category>
-        
-        <category>ChatGPT</category>
         
         
         <category>blog</category>

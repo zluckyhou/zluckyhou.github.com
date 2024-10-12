@@ -169,6 +169,6 @@ Name: duration_per_word, dtype: float64
 
 简单粗暴，但很有效！
 
-by the way, 这不是我说的，是Duolingo创始人Luis Von Ahn说的：https://www.youtube.com/watch?v=P6FORpg0KVo&ab_channel=TED
+by the way, 这不是我说的，是Duolingo创始人[Luis Von Ahn](https://www.youtube.com/watch?v=P6FORpg0KVo&ab_channel=TED)说的!
 
 

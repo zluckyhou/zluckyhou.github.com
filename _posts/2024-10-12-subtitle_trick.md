@@ -182,9 +182,12 @@ AI 提供了一个思路，根据句子长度，按比例分配时间，只不�
 
 但是我们可以退而求其次，按照单词来分配：假设原文共100个单词，拆分后的一句话有10个单词，那么对应的时长应该是1秒。这种方式有一个前提假设：对比多个句子，每个句子中每个单词的平均朗读时间是相同的。关于这个假设，后面有验证说明。
 
-- claude：按照单词 进行按比例分配时长
-    
-    ```markdown
+<details>
+
+<summary>
+claude：按照单词 进行按比例分配时长
+</summary>
+
     我：实际上计算时长是不是应该根据单词，而不是字符，因为英语主要看发音，另外标点符号肯定不需要计算时长的。有没有根据句子总时长，计算拆分句子时长的方法
     
     AI：您提出了一个很好的观点。确实，对于英语字幕，基于单词而不是字符来计算时长更为合理，因为英语的发音时长主要取决于单词数量而不是字符数。同时，忽略标点符号也是正确的做法。我们可以修改脚本来实现这一点。
@@ -291,48 +294,15 @@ AI 提供了一个思路，根据句子长度，按比例分配时间，只不�
     如果您需要更精确的结果，可能需要更复杂的算法，例如考虑音节数、常见单词的平均发音时长等因素。但对于大多数情况，这个改进的方法应该已经能提供相当准确的结果了。
     
     您可以根据需要进一步调整 `splits` 列表中的句子划分。如果您想要尝试使用这个脚本或有任何其他问题，请随时告诉我。
-    ```
-    
+  
+</details>
+
 
 # 实现
 
 按照这个思路，我们分两步走：
 
 1. 对于超过一定长度的文本，让AI进行拆分，把长句拆分为多个短句，实现这一步只需要一个prompt；
-    - 长句拆分prompt
-        
-        ```markdown
-        You are an expert linguist specializing in sentence structure analysis and subtitle preparation. Your task is to segment long sentences from audio transcriptions into shorter, subtitle-friendly units while maintaining the original content and structure.
-        
-        Input: You will receive text that may be a single long sentence or multiple sentences incorrectly combined due to transcription inaccuracies.
-        
-        Instructions:
-        1. Carefully analyze the input text.
-        2. Divide the text into logical, shorter units suitable for subtitles.
-        3. Maintain the original sentence structure and word order to ensure synchronization with the speaker's rhythm in the video.
-        4. Only correct obvious transcription errors. If no errors are present, do not modify the original content in any way.
-        5. Do not add any words, including subjects or other vocabulary, to the divided units.
-        6. If the input is already a single, short sentence that doesn't require division, leave it as is.
-        7. After segmentation, carefully review your output to ensure:
-           a. No content has been accidentally added.
-           b. There are no repetitions between adjacent units.
-           c. Each unit is unique and necessary.
-        
-        Output: Provide your result as a list of sentence units.
-        - If there's only one sentence or unit after your analysis, return a list with a single element.
-        - If there are multiple units, return a list with multiple elements.
-        
-        Format: Return your result in JSON format with the key `sentences` and the value as a list of strings.
-        
-        Example output:
-        {
-          "sentences": [
-            "The quick brown fox",
-            "jumps over the lazy dog",
-            "and runs into the forest"
-          ]
-        }
-        ```
         
 2. 根据拆分后的短句单词数，计算每个短句的时长，然后匹配到对应的时间，这一步之需要一段python代码就可以实现。
 
@@ -403,9 +373,8 @@ long      0.307741
 Name: duration_per_word, dtype: float64
 ```
 
-https://docs.google.com/spreadsheets/d/1pBGv5IihK6qGps43sVdLYZWu-yRP7SIekEjEL2udxIE/edit?gid=551358910#gid=551358910
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/7bc725ac-5d7a-4e1f-b91c-d5adff932ced/image.png)
+![Duration per word statistics](/img/word_duration_stats.png)
 
 ## 另一个小技巧 - 通知策略
 
@@ -421,4 +390,4 @@ https://docs.google.com/spreadsheets/d/1pBGv5IihK6qGps43sVdLYZWu-yRP7SIekEjEL2ud
 
 这不是我说的，是Duolingo创始人Luis Von Ahn说的！
 
-https://www.youtube.com/watch?v=P6FORpg0KVo&ab_channel=TED
+<iframe width="800" height="450" src="https://www.youtube.com/watch?v=P6FORpg0KVo&ab_channel=TED" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

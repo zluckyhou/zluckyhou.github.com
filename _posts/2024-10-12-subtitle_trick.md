@@ -34,7 +34,7 @@ keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转
 ```
 
 但是，转录中经常会遇到这样的问题，一个segment包含了很长的一个时间跨度，对应的文字会非常长，例如：
-
+<pre>
 ```json
 {"id": 0,
   "start": 286,
@@ -43,6 +43,8 @@ keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转
   ...
 }
 ```
+</pre>
+
 
 如果这段话以字幕的形式展示在视频播放器中，会是这样的：
 
@@ -61,118 +63,55 @@ keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转
 首先，长句拆分为短句，这个事情很简单，LLM可以轻松完成。那么问题就只剩一个了，怎么把拆分后的短句与音频时间匹配上。同样的，这个问题也可以求助AI.
 
 <details>
-  
-<summary>
-  claude：如何计算拆分后的短句对应的时长 - 初次尝试
-</summary>
+  <summary>claude：如何计算拆分后的短句对应的时长 - 初次尝试</summary>
 
-    我：这是一个字幕文件中的一行，由于句子太长，我想拆分为多句，但是要保证时间戳正确，有什么办法吗：
-    
-    45
-    00:02:22,267 --> 00:02:37,215
-    It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long
-    
-    AI：为了拆分这个长句子并保持正确的时间戳，我们可以使用一种称为"时间插值"的方法。这种方法会根据原始时间段的长度，为每个新的分割句子分配一个相应的时间段。以下是具体步骤：
-    
-    1. 计算原始时间段的总长度
-    2. 将句子分割成多个较短的句子
-    3. 根据每个新句子的长度，按比例分配时间
-    
-    让我为您演示这个过程：
-    
-    ```python
-    import datetime
-    
-    def split_subtitle(subtitle, splits):
-        # 解析开始和结束时间
-        start_time = datetime.datetime.strptime(subtitle[1].split(' --> ')[0], '%H:%M:%S,%f')
-        end_time = datetime.datetime.strptime(subtitle[1].split(' --> ')[1], '%H:%M:%S,%f')
-        
-        # 计算总时长（以毫秒为单位）
-        total_duration = (end_time - start_time).total_seconds() * 1000
-        
-        # 计算每个字符的时长
-        total_chars = sum(len(s.strip()) for s in splits)
-        ms_per_char = total_duration / total_chars
-        
-        new_subtitles = []
-        current_time = start_time
-        
-        for i, split in enumerate(splits):
-            split_duration = len(split.strip()) * ms_per_char
-            split_end_time = current_time + datetime.timedelta(milliseconds=split_duration)
-            
-            new_subtitle = [
-                str(subtitle[0] + i),  # 新的字幕编号
-                f"{current_time.strftime('%H:%M:%S,%f')[:-3]} --> {split_end_time.strftime('%H:%M:%S,%f')[:-3]}",
-                split.strip()
-            ]
-            
-            new_subtitles.append(new_subtitle)
-            current_time = split_end_time
-        
-        return new_subtitles
-    
-    # 示例使用
-    original_subtitle = [
-        "45",
-        "00:02:22,267 --> 00:02:37,215",
-        "It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long"
-    ]
-    
-    splits = [
-        "It just so surreal to see of course the response.",
-        "You know this is something that Cynthia and I lived every single day.",
-        "The brilliant Cynthia Areva Cynthia Areva So good.",
-        "And you know it was ours for so long."
-    ]
-    
-    result = split_subtitle(original_subtitle, splits)
-    
-    for subtitle in result:
-        print("\n".join(subtitle))
-        print()
-    
-    ```
-    
-    这个Python脚本可以帮助您拆分字幕并自动调整时间戳。以下是脚本的主要功能：
-    
-    1. `split_subtitle` 函数接受原始字幕和想要的拆分方式作为输入。
-    2. 它计算原始字幕的总时长，然后根据每个新句子的字符数按比例分配时间。
-    3. 对于每个拆分的句子，它创建一个新的字幕条目，包括新的编号、计算得出的时间戳和文本内容。
-    
-    要使用这个脚本，您需要：
-    
-    1. 提供原始字幕信息（编号、时间戳和文本）。
-    2. 决定如何拆分原始文本（在示例中，我已经提供了一种可能的拆分方式）。
-    
-    脚本会自动计算新的时间戳并生成拆分后的字幕。
-    
-    使用这个脚本的输出结果如下：
-    
-    ```
-    45
-    00:02:22,267 --> 00:02:25,813
-    It just so surreal to see of course the response.
-    
-    46
-    00:02:25,813 --> 00:02:31,151
-    You know this is something that Cynthia and I lived every single day.
-    
-    47
-    00:02:31,151 --> 00:02:34,744
-    The brilliant Cynthia Areva Cynthia Areva So good.
-    
-    48
-    00:02:34,744 --> 00:02:37,215
-    And you know it was ours for so long.
-    ```
-    
-    这个方法确保了每个新的字幕条目的时间长度与其文本长度成正比，同时保持了原始字幕的总时长不变。
-    
-    您可以根据需要调整 `splits` 列表中的句子划分，以获得最佳的字幕效果。如果您需要进一步的帮助或者对脚本有任何疑问，请随时告诉我。
+<p>我：这是一个字幕文件中的一行，由于句子太长，我想拆分为多句，但是要保证时间戳正确，有什么办法吗：</p>
 
+<p>45 00:02:22,267 --> 00:02:37,215 It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long</p>
+
+<p>AI：为了拆分这个长句子并保持正确的时间戳，我们可以使用一种称为"时间插值"的方法。这种方法会根据原始时间段的长度，为每个新的分割句子分配一个相应的时间段。以下是具体步骤：</p>
+
+1. 计算原始时间段的总长度  
+2. 将句子分割成多个较短的句子  
+3. 根据每个新句子的长度，按比例分配时间
+
+<p>让我为您演示这个过程：</p>
+
+<pre><code>
+import datetime
+
+def split_subtitle(subtitle, splits):
+    # 解析开始和结束时间
+    start_time = datetime.datetime.strptime(subtitle[1].split(' --> ')[0], '%H:%M:%S,%f')
+    end_time = datetime.datetime.strptime(subtitle[1].split(' --> ')[1], '%H:%M:%S,%f')
+
+    # 计算总时长（以毫秒为单位）
+    total_duration = (end_time - start_time).total_seconds() * 1000
+
+    # 计算每个字符的时长
+    total_chars = sum(len(s.strip()) for s in splits)
+    ms_per_char = total_duration / total_chars
+
+    new_subtitles = []
+    current_time = start_time
+
+    for i, split in enumerate(splits):
+        split_duration = len(split.strip()) * ms_per_char
+        split_end_time = current_time + datetime.timedelta(milliseconds=split_duration)
+
+        new_subtitle = [
+            str(subtitle[0] + i),  # 新的字幕编号
+            f"{current_time.strftime('%H:%M:%S,%f')[:-3]} --> {split_end_time.strftime('%H:%M:%S,%f')[:-3]}",
+            split.strip()
+        ]
+
+        new_subtitles.append(new_subtitle)
+        current_time = split_end_time
+
+    return new_subtitles
+</code></pre>
 </details>
+
 
     
 

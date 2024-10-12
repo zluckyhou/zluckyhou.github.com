@@ -278,27 +278,27 @@
 
 <p>转录时时间粒度一般选择segment，输出的结果是一段一段的，通常来说，一小段应该是一个句子，下面是一个例子，start 和end分表表示这句话的开始和结束时间，text是这段时间内说的话。</p>
 
-<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="err">'id':</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
-  </span><span class="err">'start':</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
-  </span><span class="err">'end':</span><span class="w"> </span><span class="mf">6.1</span><span class="p">,</span><span class="w">
-  </span><span class="err">'text':</span><span class="w"> </span><span class="err">'</span><span class="w"> </span><span class="err">Have</span><span class="w"> </span><span class="err">you</span><span class="w"> </span><span class="err">heard</span><span class="w"> </span><span class="err">the</span><span class="w"> </span><span class="err">term</span><span class="w"> </span><span class="err">Zuck-a-saunce?'</span><span class="p">,</span><span class="w">
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"start"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"end"</span><span class="p">:</span><span class="w"> </span><span class="mf">6.1</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">" Have you heard the term Zuck-a-saunce?"</span><span class="p">,</span><span class="w">
   </span><span class="err">...</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
 <p>但是，转录中经常会遇到这样的问题，一个segment包含了很长的一个时间跨度，对应的文字会非常长，例如：</p>
 
-<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="err">'id':</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
-  </span><span class="err">'start':</span><span class="w"> </span><span class="mi">286</span><span class="p">,</span><span class="w">
-  </span><span class="err">'end':</span><span class="w"> </span><span class="mi">297</span><span class="p">,</span><span class="w">
-  </span><span class="err">'text':</span><span class="w"> </span><span class="err">'I</span><span class="w"> </span><span class="err">actually</span><span class="w"> </span><span class="err">think</span><span class="w"> </span><span class="err">the</span><span class="w"> </span><span class="err">main</span><span class="w"> </span><span class="err">thing</span><span class="w"> </span><span class="err">that</span><span class="w"> </span><span class="err">people</span><span class="w"> </span><span class="err">are</span><span class="w"> </span><span class="err">going</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">do</span><span class="p">,</span><span class="w"> </span><span class="err">especially</span><span class="w"> </span><span class="err">because</span><span class="w"> </span><span class="err">it's</span><span class="w"> </span><span class="err">open</span><span class="w"> </span><span class="err">source</span><span class="p">,</span><span class="w"> </span><span class="err">is</span><span class="w"> </span><span class="err">use</span><span class="w"> </span><span class="err">it</span><span class="w"> </span><span class="err">as</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="err">teacher</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">train</span><span class="w"> </span><span class="err">smaller</span><span class="w"> </span><span class="err">models</span><span class="w"> </span><span class="err">that</span><span class="w"> </span><span class="err">they</span><span class="w"> </span><span class="err">use</span><span class="w"> </span><span class="err">in</span><span class="w"> </span><span class="err">different</span><span class="w"> </span><span class="err">applications.'</span><span class="p">,</span><span class="w">
-  </span><span class="err">...</span><span class="w">
-</span><span class="p">}</span><span class="w">
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"start"</span><span class="p">:</span><span class="w"> </span><span class="mi">286</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"end"</span><span class="p">:</span><span class="w"> </span><span class="mi">297</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"I actually think the main thing that people are going to do, especially because it"</span><span class="err">s</span><span class="w"> </span><span class="err">open</span><span class="w"> </span><span class="err">source</span><span class="p">,</span><span class="w"> </span><span class="err">is</span><span class="w"> </span><span class="err">use</span><span class="w"> </span><span class="err">it</span><span class="w"> </span><span class="err">as</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="err">teacher</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">train</span><span class="w"> </span><span class="err">smaller</span><span class="w"> </span><span class="err">models</span><span class="w"> </span><span class="err">that</span><span class="w"> </span><span class="err">they</span><span class="w"> </span><span class="err">use</span><span class="w"> </span><span class="err">in</span><span class="w"> </span><span class="err">different</span><span class="w"> </span><span class="err">applications.</span><span class="s2">",
+  ...
+}
 </span></code></pre></div></div>
 
 <p>如果这段话以字幕的形式展示在视频播放器中，会是这样的：</p>
 
-<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/d70bb796-3d62-478b-8af4-f60241e09fe7/image.png" alt="image.png" /></p>
+<p><img src="/img/long_subtitle_video.png" alt="long sentence display as subtitle" /></p>
 
 <p>甚至有时候一段很长的segment对应的字幕，会把整个屏幕铺满。</p>
 
@@ -312,121 +312,119 @@
 
 <p>首先，长句拆分为短句，这个事情很简单，LLM可以轻松完成。那么问题就只剩一个了，怎么把拆分后的短句与音频时间匹配上。同样的，这个问题也可以求助AI.</p>
 
-<ul>
-  <li>
-    <p>claude：如何计算拆分后的短句对应的时长 - 初次尝试</p>
+<details>
+  
+<summary>
+  claude：如何计算拆分后的短句对应的时长 - 初次尝试
+</summary>
 
-    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  我：这是一个字幕文件中的一行，由于句子太长，我想拆分为多句，但是要保证时间戳正确，有什么办法吗：
+    我：这是一个字幕文件中的一行，由于句子太长，我想拆分为多句，但是要保证时间戳正确，有什么办法吗：
     
-  45
-  00:02:22,267 --&gt; 00:02:37,215
-  It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long
+    45
+    00:02:22,267 --&gt; 00:02:37,215
+    It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long
     
-  AI：为了拆分这个长句子并保持正确的时间戳，我们可以使用一种称为"时间插值"的方法。这种方法会根据原始时间段的长度，为每个新的分割句子分配一个相应的时间段。以下是具体步骤：
-<span class="p">    
-  1.</span> 计算原始时间段的总长度
-<span class="p">  2.</span> 将句子分割成多个较短的句子
-<span class="p">  3.</span> 根据每个新句子的长度，按比例分配时间
+    AI：为了拆分这个长句子并保持正确的时间戳，我们可以使用一种称为"时间插值"的方法。这种方法会根据原始时间段的长度，为每个新的分割句子分配一个相应的时间段。以下是具体步骤：
     
-  让我为您演示这个过程：
+    1. 计算原始时间段的总长度
+    2. 将句子分割成多个较短的句子
+    3. 根据每个新句子的长度，按比例分配时间
     
-  <span class="p">```</span><span class="nl">python
-</span>  <span class="kn">import</span> <span class="nn">datetime</span>
+    让我为您演示这个过程：
     
-  <span class="k">def</span> <span class="nf">split_subtitle</span><span class="p">(</span><span class="n">subtitle</span><span class="p">,</span> <span class="n">splits</span><span class="p">):</span>
-      <span class="c1"># 解析开始和结束时间
-</span>      <span class="n">start_time</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">.</span><span class="n">datetime</span><span class="p">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">subtitle</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">split</span><span class="p">(</span><span class="s">' --&gt; '</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span> <span class="s">'%H:%M:%S,%f'</span><span class="p">)</span>
-      <span class="n">end_time</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">.</span><span class="n">datetime</span><span class="p">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">subtitle</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">split</span><span class="p">(</span><span class="s">' --&gt; '</span><span class="p">)[</span><span class="mi">1</span><span class="p">],</span> <span class="s">'%H:%M:%S,%f'</span><span class="p">)</span>
+    ```python
+    import datetime
+    
+    def split_subtitle(subtitle, splits):
+        # 解析开始和结束时间
+        start_time = datetime.datetime.strptime(subtitle[1].split(' --&gt; ')[0], '%H:%M:%S,%f')
+        end_time = datetime.datetime.strptime(subtitle[1].split(' --&gt; ')[1], '%H:%M:%S,%f')
         
-      <span class="c1"># 计算总时长（以毫秒为单位）
-</span>      <span class="n">total_duration</span> <span class="o">=</span> <span class="p">(</span><span class="n">end_time</span> <span class="o">-</span> <span class="n">start_time</span><span class="p">).</span><span class="n">total_seconds</span><span class="p">()</span> <span class="o">*</span> <span class="mi">1000</span>
+        # 计算总时长（以毫秒为单位）
+        total_duration = (end_time - start_time).total_seconds() * 1000
         
-      <span class="c1"># 计算每个字符的时长
-</span>      <span class="n">total_chars</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">strip</span><span class="p">())</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">splits</span><span class="p">)</span>
-      <span class="n">ms_per_char</span> <span class="o">=</span> <span class="n">total_duration</span> <span class="o">/</span> <span class="n">total_chars</span>
+        # 计算每个字符的时长
+        total_chars = sum(len(s.strip()) for s in splits)
+        ms_per_char = total_duration / total_chars
         
-      <span class="n">new_subtitles</span> <span class="o">=</span> <span class="p">[]</span>
-      <span class="n">current_time</span> <span class="o">=</span> <span class="n">start_time</span>
+        new_subtitles = []
+        current_time = start_time
         
-      <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">split</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">splits</span><span class="p">):</span>
-          <span class="n">split_duration</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">split</span><span class="p">.</span><span class="n">strip</span><span class="p">())</span> <span class="o">*</span> <span class="n">ms_per_char</span>
-          <span class="n">split_end_time</span> <span class="o">=</span> <span class="n">current_time</span> <span class="o">+</span> <span class="n">datetime</span><span class="p">.</span><span class="n">timedelta</span><span class="p">(</span><span class="n">milliseconds</span><span class="o">=</span><span class="n">split_duration</span><span class="p">)</span>
+        for i, split in enumerate(splits):
+            split_duration = len(split.strip()) * ms_per_char
+            split_end_time = current_time + datetime.timedelta(milliseconds=split_duration)
             
-          <span class="n">new_subtitle</span> <span class="o">=</span> <span class="p">[</span>
-              <span class="nb">str</span><span class="p">(</span><span class="n">subtitle</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">i</span><span class="p">),</span>  <span class="c1"># 新的字幕编号
-</span>              <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">current_time</span><span class="p">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">'%H</span><span class="si">:</span><span class="o">%</span><span class="n">M</span><span class="si">:</span><span class="o">%</span><span class="n">S</span><span class="p">,</span><span class="o">%</span><span class="sa">f</span><span class="s">')[</span><span class="si">:</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span><span class="si">}</span><span class="s"> --&gt; </span><span class="si">{</span><span class="n">split_end_time</span><span class="p">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">'%H</span><span class="si">:</span><span class="o">%</span><span class="n">M</span><span class="si">:</span><span class="o">%</span><span class="n">S</span><span class="p">,</span><span class="o">%</span><span class="sa">f</span><span class="s">')[</span><span class="si">:</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">,</span>
-              <span class="n">split</span><span class="p">.</span><span class="n">strip</span><span class="p">()</span>
-          <span class="p">]</span>
+            new_subtitle = [
+                str(subtitle[0] + i),  # 新的字幕编号
+                f"{current_time.strftime('%H:%M:%S,%f')[:-3]} --&gt; {split_end_time.strftime('%H:%M:%S,%f')[:-3]}",
+                split.strip()
+            ]
             
-          <span class="n">new_subtitles</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">new_subtitle</span><span class="p">)</span>
-          <span class="n">current_time</span> <span class="o">=</span> <span class="n">split_end_time</span>
+            new_subtitles.append(new_subtitle)
+            current_time = split_end_time
         
-      <span class="k">return</span> <span class="n">new_subtitles</span>
+        return new_subtitles
     
-  <span class="c1"># 示例使用
-</span>  <span class="n">original_subtitle</span> <span class="o">=</span> <span class="p">[</span>
-      <span class="s">"45"</span><span class="p">,</span>
-      <span class="s">"00:02:22,267 --&gt; 00:02:37,215"</span><span class="p">,</span>
-      <span class="s">"It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long"</span>
-  <span class="p">]</span>
+    # 示例使用
+    original_subtitle = [
+        "45",
+        "00:02:22,267 --&gt; 00:02:37,215",
+        "It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long"
+    ]
     
-  <span class="n">splits</span> <span class="o">=</span> <span class="p">[</span>
-      <span class="s">"It just so surreal to see of course the response."</span><span class="p">,</span>
-      <span class="s">"You know this is something that Cynthia and I lived every single day."</span><span class="p">,</span>
-      <span class="s">"The brilliant Cynthia Areva Cynthia Areva So good."</span><span class="p">,</span>
-      <span class="s">"And you know it was ours for so long."</span>
-  <span class="p">]</span>
+    splits = [
+        "It just so surreal to see of course the response.",
+        "You know this is something that Cynthia and I lived every single day.",
+        "The brilliant Cynthia Areva Cynthia Areva So good.",
+        "And you know it was ours for so long."
+    ]
     
-  <span class="n">result</span> <span class="o">=</span> <span class="n">split_subtitle</span><span class="p">(</span><span class="n">original_subtitle</span><span class="p">,</span> <span class="n">splits</span><span class="p">)</span>
+    result = split_subtitle(original_subtitle, splits)
     
-  <span class="k">for</span> <span class="n">subtitle</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
-      <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">subtitle</span><span class="p">))</span>
-      <span class="k">print</span><span class="p">()</span>
+    for subtitle in result:
+        print("\n".join(subtitle))
+        print()
     
-</code></pre></div>    </div>
-
-    <p>这个Python脚本可以帮助您拆分字幕并自动调整时间戳。以下是脚本的主要功能：</p>
-
-    <ol>
-      <li><code class="language-plaintext highlighter-rouge">split_subtitle</code> 函数接受原始字幕和想要的拆分方式作为输入。</li>
-      <li>它计算原始字幕的总时长，然后根据每个新句子的字符数按比例分配时间。</li>
-      <li>对于每个拆分的句子，它创建一个新的字幕条目，包括新的编号、计算得出的时间戳和文本内容。</li>
-    </ol>
-
-    <p>要使用这个脚本，您需要：</p>
-
-    <ol>
-      <li>提供原始字幕信息（编号、时间戳和文本）。</li>
-      <li>决定如何拆分原始文本（在示例中，我已经提供了一种可能的拆分方式）。</li>
-    </ol>
-
-    <p>脚本会自动计算新的时间戳并生成拆分后的字幕。</p>
-
-    <p>使用这个脚本的输出结果如下：</p>
-
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  45
-  00:02:22,267 --&gt; 00:02:25,813
-  It just so surreal to see of course the response.
+    ```
     
-  46
-  00:02:25,813 --&gt; 00:02:31,151
-  You know this is something that Cynthia and I lived every single day.
+    这个Python脚本可以帮助您拆分字幕并自动调整时间戳。以下是脚本的主要功能：
     
-  47
-  00:02:31,151 --&gt; 00:02:34,744
-  The brilliant Cynthia Areva Cynthia Areva So good.
+    1. `split_subtitle` 函数接受原始字幕和想要的拆分方式作为输入。
+    2. 它计算原始字幕的总时长，然后根据每个新句子的字符数按比例分配时间。
+    3. 对于每个拆分的句子，它创建一个新的字幕条目，包括新的编号、计算得出的时间戳和文本内容。
     
-  48
-  00:02:34,744 --&gt; 00:02:37,215
-  And you know it was ours for so long.
-</code></pre></div>    </div>
+    要使用这个脚本，您需要：
+    
+    1. 提供原始字幕信息（编号、时间戳和文本）。
+    2. 决定如何拆分原始文本（在示例中，我已经提供了一种可能的拆分方式）。
+    
+    脚本会自动计算新的时间戳并生成拆分后的字幕。
+    
+    使用这个脚本的输出结果如下：
+    
+    ```
+    45
+    00:02:22,267 --&gt; 00:02:25,813
+    It just so surreal to see of course the response.
+    
+    46
+    00:02:25,813 --&gt; 00:02:31,151
+    You know this is something that Cynthia and I lived every single day.
+    
+    47
+    00:02:31,151 --&gt; 00:02:34,744
+    The brilliant Cynthia Areva Cynthia Areva So good.
+    
+    48
+    00:02:34,744 --&gt; 00:02:37,215
+    And you know it was ours for so long.
+    ```
+    
+    这个方法确保了每个新的字幕条目的时间长度与其文本长度成正比，同时保持了原始字幕的总时长不变。
+    
+    您可以根据需要调整 `splits` 列表中的句子划分，以获得最佳的字幕效果。如果您需要进一步的帮助或者对脚本有任何疑问，请随时告诉我。
 
-    <p>这个方法确保了每个新的字幕条目的时间长度与其文本长度成正比，同时保持了原始字幕的总时长不变。</p>
-
-    <p>您可以根据需要调整 <code class="language-plaintext highlighter-rouge">splits</code> 列表中的句子划分，以获得最佳的字幕效果。如果您需要进一步的帮助或者对脚本有任何疑问，请随时告诉我。
-  ```</p>
-  </li>
-</ul>
+</details>
 
 <p>AI 提供了一个思路，根据句子长度，按比例分配时间，只不过AI提供的按比例，是按照字符数的占比来分配时间。例如原句子总共100个字符，时长10秒钟，拆分的一个句子有10个字符，那么对应的时长就是1秒钟。</p>
 

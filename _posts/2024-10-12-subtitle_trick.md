@@ -86,7 +86,7 @@ AI 提供了一个思路，根据句子长度，按比例分配时间，只不�
 原来的转录结果：
 
 <pre>
-```
+``` markdown
 66
 00:04:46,062 --> 00:04:54,842
 I actually think the main thing that people are going to do, especially because it's open source, is use it as a teacher to train smaller models that they use in different applications.
@@ -96,7 +96,8 @@ I actually think the main thing that people are going to do, especially because 
 
 处理后的结果：
 
-```
+<pre>
+``` markdown
 105
 00:04:46,382 --> 00:04:48,622
 I actually think the main thing that people are gonna do,
@@ -109,7 +110,7 @@ especially because it's open source, is use it as a teacher
 00:04:52,042 --> 00:04:55,442
 to train smaller models that they use in different applications.
 ```
-
+</pre>
 
 
 

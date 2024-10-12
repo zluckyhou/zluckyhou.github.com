@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 12 Oct 2024 19:01:34 +0800</pubDate>
-    <lastBuildDate>Sat, 12 Oct 2024 19:01:34 +0800</lastBuildDate>
+    <pubDate>Sat, 12 Oct 2024 19:05:10 +0800</pubDate>
+    <lastBuildDate>Sat, 12 Oct 2024 19:05:10 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -91,7 +91,7 @@
 &lt;p&gt;原来的转录结果：&lt;/p&gt;
 
 &lt;pre&gt;
-```
+``` markdown
 66
 00:04:46,062 --&amp;gt; 00:04:54,842
 I actually think the main thing that people are going to do, especially because it&apos;s open source, is use it as a teacher to train smaller models that they use in different applications.
@@ -100,7 +100,9 @@ I actually think the main thing that people are going to do, especially because 
 
 &lt;p&gt;处理后的结果：&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;105
+&lt;pre&gt;
+``` markdown
+105
 00:04:46,382 --&amp;gt; 00:04:48,622
 I actually think the main thing that people are gonna do,
 
@@ -111,7 +113,8 @@ especially because it&apos;s open source, is use it as a teacher
 107
 00:04:52,042 --&amp;gt; 00:04:55,442
 to train smaller models that they use in different applications.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+```
+&lt;/pre&gt;
 
 &lt;div style=&quot;display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; gap: 20px;&quot;&gt;
     &lt;img src=&quot;/img/subtitle_lang_sentence_to_short.png&quot; alt=&quot;split long subtitle sentence to short sentences&quot; style=&quot;width: calc(33.33% - 14px); height: auto;&quot; /&gt;

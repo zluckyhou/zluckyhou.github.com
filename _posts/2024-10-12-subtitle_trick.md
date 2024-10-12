@@ -360,8 +360,8 @@ to train smaller models that they use in different applications.
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; gap: 20px;">
     <img src="/img/subtitle_lang_sentence_to_short.png" alt="split long subtitle sentence to short sentences" style="width: calc(33.33% - 14px); height: auto;">
-    <img src="/img/subtitle_lang_sentence_to_short1.png" alt="split long subtitle sentence to short sentences" style="width: calc(33.33% - 14px); height: auto;">
     <img src="/img/subtitle_lang_sentence_to_short2.png" alt="split long subtitle sentence to short sentences" style="width: calc(33.33% - 14px); height: auto;">
+    <img src="/img/subtitle_lang_sentence_to_short3.png" alt="split long subtitle sentence to short sentences" style="width: calc(33.33% - 14px); height: auto;">
 </div>
 
 

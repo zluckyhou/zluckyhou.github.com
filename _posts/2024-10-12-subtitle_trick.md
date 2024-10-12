@@ -25,10 +25,10 @@ keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转
 转录时时间粒度一般选择segment，输出的结果是一段一段的，通常来说，一小段应该是一个句子，下面是一个例子，start 和end分表表示这句话的开始和结束时间，text是这段时间内说的话。
 
 ```json
-{'id': 0,
-  'start': 0,
-  'end': 6.1,
-  'text': ' Have you heard the term Zuck-a-saunce?',
+{"id": 0,
+  "start": 0,
+  "end": 6.1,
+  "text": " Have you heard the term Zuck-a-saunce?",
   ...
 }
 ```
@@ -36,17 +36,17 @@ keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转
 但是，转录中经常会遇到这样的问题，一个segment包含了很长的一个时间跨度，对应的文字会非常长，例如：
 
 ```json
-{'id': 0,
-  'start': 286,
-  'end': 297,
-  'text': 'I actually think the main thing that people are going to do, especially because it's open source, is use it as a teacher to train smaller models that they use in different applications.',
+{"id": 0,
+  "start": 286,
+  "end": 297,
+  "text": "I actually think the main thing that people are going to do, especially because it"s open source, is use it as a teacher to train smaller models that they use in different applications.",
   ...
 }
 ```
 
 如果这段话以字幕的形式展示在视频播放器中，会是这样的：
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/d70bb796-3d62-478b-8af4-f60241e09fe7/image.png)
+![long sentence display as subtitle](/img/long_subtitle_video.png)
 
 甚至有时候一段很长的segment对应的字幕，会把整个屏幕铺满。
 
@@ -60,9 +60,12 @@ keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转
 
 首先，长句拆分为短句，这个事情很简单，LLM可以轻松完成。那么问题就只剩一个了，怎么把拆分后的短句与音频时间匹配上。同样的，这个问题也可以求助AI.
 
-- claude：如何计算拆分后的短句对应的时长 - 初次尝试
-    
-    ```markdown
+<details>
+  
+<summary>
+  claude：如何计算拆分后的短句对应的时长 - 初次尝试
+</summary>
+
     我：这是一个字幕文件中的一行，由于句子太长，我想拆分为多句，但是要保证时间戳正确，有什么办法吗：
     
     45
@@ -168,7 +171,9 @@ keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转
     这个方法确保了每个新的字幕条目的时间长度与其文本长度成正比，同时保持了原始字幕的总时长不变。
     
     您可以根据需要调整 `splits` 列表中的句子划分，以获得最佳的字幕效果。如果您需要进一步的帮助或者对脚本有任何疑问，请随时告诉我。
-    ```
+
+</details>
+
     
 
 AI 提供了一个思路，根据句子长度，按比例分配时间，只不过AI提供的按比例，是按照字符数的占比来分配时间。例如原句子总共100个字符，时长10秒钟，拆分的一个句子有10个字符，那么对应的时长就是1秒钟。

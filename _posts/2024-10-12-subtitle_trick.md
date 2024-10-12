@@ -24,6 +24,7 @@ keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转
 
 转录时时间粒度一般选择segment，输出的结果是一段一段的，通常来说，一小段应该是一个句子，下面是一个例子，start 和end分表表示这句话的开始和结束时间，text是这段时间内说的话。
 
+<pre>
 ```json
 {"id": 0,
   "start": 0,
@@ -32,6 +33,8 @@ keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转
   ...
 }
 ```
+</pre>
+
 
 但是，转录中经常会遇到这样的问题，一个segment包含了很长的一个时间跨度，对应的文字会非常长，例如：
 <pre>
@@ -62,179 +65,12 @@ keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转
 
 首先，长句拆分为短句，这个事情很简单，LLM可以轻松完成。那么问题就只剩一个了，怎么把拆分后的短句与音频时间匹配上。同样的，这个问题也可以求助AI.
 
-<details>
-  <summary>claude：如何计算拆分后的短句对应的时长 - 初次尝试</summary>
-
-<p>我：这是一个字幕文件中的一行，由于句子太长，我想拆分为多句，但是要保证时间戳正确，有什么办法吗：</p>
-
-<p>45 00:02:22,267 --> 00:02:37,215 It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long</p>
-
-<p>AI：为了拆分这个长句子并保持正确的时间戳，我们可以使用一种称为"时间插值"的方法。这种方法会根据原始时间段的长度，为每个新的分割句子分配一个相应的时间段。以下是具体步骤：</p>
-
-1. 计算原始时间段的总长度  
-2. 将句子分割成多个较短的句子  
-3. 根据每个新句子的长度，按比例分配时间
-
-<p>让我为您演示这个过程：</p>
-
-<pre><code>
-import datetime
-
-def split_subtitle(subtitle, splits):
-    # 解析开始和结束时间
-    start_time = datetime.datetime.strptime(subtitle[1].split(' --> ')[0], '%H:%M:%S,%f')
-    end_time = datetime.datetime.strptime(subtitle[1].split(' --> ')[1], '%H:%M:%S,%f')
-
-    # 计算总时长（以毫秒为单位）
-    total_duration = (end_time - start_time).total_seconds() * 1000
-
-    # 计算每个字符的时长
-    total_chars = sum(len(s.strip()) for s in splits)
-    ms_per_char = total_duration / total_chars
-
-    new_subtitles = []
-    current_time = start_time
-
-    for i, split in enumerate(splits):
-        split_duration = len(split.strip()) * ms_per_char
-        split_end_time = current_time + datetime.timedelta(milliseconds=split_duration)
-
-        new_subtitle = [
-            str(subtitle[0] + i),  # 新的字幕编号
-            f"{current_time.strftime('%H:%M:%S,%f')[:-3]} --> {split_end_time.strftime('%H:%M:%S,%f')[:-3]}",
-            split.strip()
-        ]
-
-        new_subtitles.append(new_subtitle)
-        current_time = split_end_time
-
-    return new_subtitles
-</code></pre>
-</details>
-
-
-    
-
 AI 提供了一个思路，根据句子长度，按比例分配时间，只不过AI提供的按比例，是按照字符数的占比来分配时间。例如原句子总共100个字符，时长10秒钟，拆分的一个句子有10个字符，那么对应的时长就是1秒钟。
 
 思路不错，但是太粗暴，还是需要加上人类的常识。对于英文，朗读一段话的时长通常取决于单词数，以及单词的发音，不同单词的发音不同，时长也不同，因此最准确的按比例分配，应该是按照音标分配。
 
 但是我们可以退而求其次，按照单词来分配：假设原文共100个单词，拆分后的一句话有10个单词，那么对应的时长应该是1秒。这种方式有一个前提假设：对比多个句子，每个句子中每个单词的平均朗读时间是相同的。关于这个假设，后面有验证说明。
 
-<details>
-
-<summary>
-claude：按照单词 进行按比例分配时长
-</summary>
-
-    我：实际上计算时长是不是应该根据单词，而不是字符，因为英语主要看发音，另外标点符号肯定不需要计算时长的。有没有根据句子总时长，计算拆分句子时长的方法
-    
-    AI：您提出了一个很好的观点。确实，对于英语字幕，基于单词而不是字符来计算时长更为合理，因为英语的发音时长主要取决于单词数量而不是字符数。同时，忽略标点符号也是正确的做法。我们可以修改脚本来实现这一点。
-    
-    ```python
-    import datetime
-    import re
-    
-    def split_subtitle(subtitle, splits):
-        # 解析开始和结束时间
-        start_time = datetime.datetime.strptime(subtitle[1].split(' --> ')[0], '%H:%M:%S,%f')
-        end_time = datetime.datetime.strptime(subtitle[1].split(' --> ')[1], '%H:%M:%S,%f')
-        
-        # 计算总时长（以毫秒为单位）
-        total_duration = (end_time - start_time).total_seconds() * 1000
-        
-        # 计算总单词数（忽略标点符号）
-        total_words = sum(len(re.findall(r'\w+', s)) for s in splits)
-        
-        # 计算每个单词的平均时长
-        ms_per_word = total_duration / total_words
-        
-        new_subtitles = []
-        current_time = start_time
-        
-        for i, split in enumerate(splits):
-            # 计算当前分割中的单词数
-            word_count = len(re.findall(r'\w+', split))
-            split_duration = word_count * ms_per_word
-            split_end_time = current_time + datetime.timedelta(milliseconds=split_duration)
-            
-            new_subtitle = [
-                str(int(subtitle[0]) + i),  # 新的字幕编号
-                f"{current_time.strftime('%H:%M:%S,%f')[:-3]} --> {split_end_time.strftime('%H:%M:%S,%f')[:-3]}",
-                split.strip()
-            ]
-            
-            new_subtitles.append(new_subtitle)
-            current_time = split_end_time
-        
-        return new_subtitles
-    
-    # 示例使用
-    original_subtitle = [
-        "45",
-        "00:02:22,267 --> 00:02:37,215",
-        "It just so surreal to see of course the response You know this is something that Cynthia and I lived every single day The brilliant Cynthia Areva Cynthia Areva So good And you know it was ours for so long"
-    ]
-    
-    splits = [
-        "It just so surreal to see of course the response.",
-        "You know this is something that Cynthia and I lived every single day.",
-        "The brilliant Cynthia Areva Cynthia Areva So good.",
-        "And you know it was ours for so long."
-    ]
-    
-    result = split_subtitle(original_subtitle, splits)
-    
-    for subtitle in result:
-        print("\n".join(subtitle))
-        print()
-    
-    ```
-    
-    这个改进后的脚本采用了基于单词数量而不是字符数来计算时长的方法。以下是主要的改进：
-    
-    1. 使用正则表达式 `re.findall(r'\w+', s)` 来计算每个句子中的单词数，这样可以忽略标点符号。
-    
-    2. 计算总单词数和每个单词的平均时长，而不是字符数。
-    
-    3. 对每个拆分的句子，根据其包含的单词数来分配时长。
-    
-    使用这个更新后的脚本，输出结果可能会更接近实际的发音时长：
-    
-    ```
-    45
-    00:02:22,267 --> 00:02:26,102
-    It just so surreal to see of course the response.
-    
-    46
-    00:02:26,102 --> 00:02:31,772
-    You know this is something that Cynthia and I lived every single day.
-    
-    47
-    00:02:31,772 --> 00:02:34,641
-    The brilliant Cynthia Areva Cynthia Areva So good.
-    
-    48
-    00:02:34,641 --> 00:02:37,215
-    And you know it was ours for so long.
-    ```
-    
-    这种方法的优点是：
-    
-    1. 更准确地反映了英语发音的特点，因为它基于单词数而不是字符数。
-    2. 忽略了标点符号，这些在发音中通常不占用时间。
-    3. 保持了原始字幕的总时长不变。
-    
-    然而，这种方法仍然有一些局限性：
-    
-    1. 它假设所有单词的发音时长相同，而实际上有些单词比其他单词更长或更短。
-    2. 它没有考虑到停顿、强调或语速变化等因素。
-    
-    如果您需要更精确的结果，可能需要更复杂的算法，例如考虑音节数、常见单词的平均发音时长等因素。但对于大多数情况，这个改进的方法应该已经能提供相当准确的结果了。
-    
-    您可以根据需要进一步调整 `splits` 列表中的句子划分。如果您想要尝试使用这个脚本或有任何其他问题，请随时告诉我。
-  
-</details>
 
 
 # 实现
@@ -249,15 +85,18 @@ claude：按照单词 进行按比例分配时长
 
 原来的转录结果：
 
-```markdown
+<pre>
+```
 66
 00:04:46,062 --> 00:04:54,842
 I actually think the main thing that people are going to do, especially because it's open source, is use it as a teacher to train smaller models that they use in different applications.
 ```
+</pre>
+
 
 处理后的结果：
 
-```markdown
+```
 105
 00:04:46,382 --> 00:04:48,622
 I actually think the main thing that people are gonna do,
@@ -270,6 +109,8 @@ especially because it's open source, is use it as a teacher
 00:04:52,042 --> 00:04:55,442
 to train smaller models that they use in different applications.
 ```
+
+
 
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; gap: 20px;">
@@ -327,6 +168,6 @@ Name: duration_per_word, dtype: float64
 
 简单粗暴，但很有效！
 
-这不是我说的，是Duolingo创始人Luis Von Ahn说的！
+by the way, 这不是我说的，是Duolingo创始人Luis Von Ahn说的：https://www.youtube.com/watch?v=P6FORpg0KVo&ab_channel=TED
 
-<iframe width="800" height="450" src="https://www.youtube.com/watch?v=P6FORpg0KVo&ab_channel=TED" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+

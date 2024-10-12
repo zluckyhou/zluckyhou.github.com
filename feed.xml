@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 12 Oct 2024 19:05:10 +0800</pubDate>
-    <lastBuildDate>Sat, 12 Oct 2024 19:05:10 +0800</lastBuildDate>
+    <pubDate>Sat, 12 Oct 2024 19:08:07 +0800</pubDate>
+    <lastBuildDate>Sat, 12 Oct 2024 19:08:07 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -168,7 +168,7 @@ Name: duration_per_word, dtype: float64
 
 &lt;p&gt;简单粗暴，但很有效！&lt;/p&gt;
 
-&lt;p&gt;by the way, 这不是我说的，是Duolingo创始人Luis Von Ahn说的：https://www.youtube.com/watch?v=P6FORpg0KVo&amp;amp;ab_channel=TED&lt;/p&gt;
+&lt;p&gt;by the way, 这不是我说的，是Duolingo创始人&lt;a href=&quot;https://www.youtube.com/watch?v=P6FORpg0KVo&amp;amp;ab_channel=TED&quot;&gt;Luis Von Ahn&lt;/a&gt;说的!&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 12 Oct 2024 00:00:00 +0800</pubDate>

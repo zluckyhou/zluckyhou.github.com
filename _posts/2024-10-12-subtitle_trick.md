@@ -39,7 +39,7 @@ keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转
 {"id": 0,
   "start": 286,
   "end": 297,
-  "text": "I actually think the main thing that people are going to do, especially because it"s open source, is use it as a teacher to train smaller models that they use in different applications.",
+  "text": "I actually think the main thing that people are going to do, especially because it's open source, is use it as a teacher to train smaller models that they use in different applications.",
   ...
 }
 ```

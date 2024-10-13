@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 13 Oct 2024 10:53:17 +0800</pubDate>
-    <lastBuildDate>Sun, 13 Oct 2024 10:53:17 +0800</lastBuildDate>
+    <pubDate>Sun, 13 Oct 2024 11:03:05 +0800</pubDate>
+    <lastBuildDate>Sun, 13 Oct 2024 11:03:05 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -24,7 +24,7 @@
 
 &lt;h1 id=&quot;起因&quot;&gt;起因&lt;/h1&gt;
 
-&lt;p&gt;最近我开发了一个YouTube视频字幕转录的web应用，底层的技术很简单，就是通过AI语音模型，将一段音频转录为文字，然后转为字幕文件。&lt;/p&gt;
+&lt;p&gt;最近我开发了一个YouTube视频字幕转录的&lt;a href=&quot;https://youtubesubtitle-787174108885.us-east1.run.app/&quot;&gt;web应用&lt;/a&gt;，底层的技术很简单，就是通过AI语音模型，将一段音频转录为文字，然后转为字幕文件。&lt;/p&gt;
 
 &lt;p&gt;转录时时间粒度一般选择segment，输出的结果是一段一段的，通常来说，一小段应该是一个句子，下面是一个例子，start 和end分表表示这句话的开始和结束时间，text是这段时间内说的话。&lt;/p&gt;
 

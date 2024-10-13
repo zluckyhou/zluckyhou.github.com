@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 13 Oct 2024 10:51:01 +0800</pubDate>
-    <lastBuildDate>Sun, 13 Oct 2024 10:51:01 +0800</lastBuildDate>
+    <pubDate>Sun, 13 Oct 2024 10:53:17 +0800</pubDate>
+    <lastBuildDate>Sun, 13 Oct 2024 10:53:17 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -164,7 +164,7 @@ Name: duration_per_word, dtype: float64
 
 &lt;p&gt;但是，有一个简单却非常有效的策略 —— 在用户安装产品后的24小时后进行通知。&lt;/p&gt;
 
-&lt;p&gt;这个策略是经过无数次实验得出的，但是仔细一想却很符合直觉，而且基于一个很合理的假设：如果你昨天下午6点有时间，那么大概率今天下午3点也有时间。&lt;/p&gt;
+&lt;p&gt;这个策略是经过无数次实验得出的，但是仔细一想却很符合直觉，而且基于一个很合理的假设：如果你昨天下午3点有时间，那么大概率今天下午3点也有时间。&lt;/p&gt;
 
 &lt;p&gt;简单粗暴，但很有效！&lt;/p&gt;
 

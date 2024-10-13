@@ -20,7 +20,7 @@ keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转
 
 # 起因
 
-最近我开发了一个YouTube视频字幕转录的web应用，底层的技术很简单，就是通过AI语音模型，将一段音频转录为文字，然后转为字幕文件。
+最近我开发了一个YouTube视频字幕转录的[web应用](https://youtubesubtitle-787174108885.us-east1.run.app/)，底层的技术很简单，就是通过AI语音模型，将一段音频转录为文字，然后转为字幕文件。
 
 转录时时间粒度一般选择segment，输出的结果是一段一段的，通常来说，一小段应该是一个句子，下面是一个例子，start 和end分表表示这句话的开始和结束时间，text是这段时间内说的话。
 

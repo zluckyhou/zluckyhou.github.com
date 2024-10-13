@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 一个小技巧，轻松解决长字幕问题
+title: 一个简单的神奇策略，轻松解决长字幕问题
 date: 2024-10-12
 categories: blog
 tags: [AI,字幕]
-description: 
+description: 探索如何利用AI和简单算法解决视频长字幕问题，提高字幕可读性。同时介绍了一个有效的产品通知策略，帮助提升用户留存率。
 keywords: AI,LLM,subtitle,transcript,speech to text, ASR,转录,字幕,语音转文本
 ---
 

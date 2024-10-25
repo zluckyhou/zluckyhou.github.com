@@ -8,7 +8,7 @@ description: 深度解析特斯拉2024年第三季度财报，探讨导致股价
 keywords: Tesla, Cybertruck, 特斯拉, 财报
 ---
 
-![Tesla (TSLA) stock chart showing a 22% surge on October 24, 2024, marking its biggest single-day gain in 11 years](/img/duolingo_english_score.jpg)
+![Tesla (TSLA) stock chart showing a 22% surge on October 24, 2024, marking its biggest single-day gain in 11 years](/img/tesla_stock_price.png)
 
 
 特斯拉发布2024年第三季度财报后，股价飙升22%，创下11年来最大单日涨幅。对于这家市值8000亿美元的电动车巨头而言，如此显著的涨幅实属罕见。强劲的盈利表现，叠加市场对其未来的乐观预期，推动了这一戏剧性上涨。

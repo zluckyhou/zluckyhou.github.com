@@ -8,7 +8,7 @@ description: 深入解析瑞幸咖啡2024年第三季度财报，详细探讨营
 keywords: 瑞幸咖啡, 大公司数据观察, 财报, luckin
 ---
 
-瑞幸于10月30号发布了2024年Q3的财报，最大的亮点在于营收大幅增长。很难想象，2020年因财务造假一度面临生死危机的瑞幸，4年后竟然活得相当不错。
+瑞幸于10月30号发布了[2024年Q3的财报](https://investor.lkcoffee.com/static-files/1853e6c7-b510-4f58-b87f-72ff31002bec)，最大的亮点在于营收大幅增长。很难想象，2020年因财务造假一度面临生死危机的瑞幸，4年后竟然活得相当不错。
 
 
 # 一、公司基础分析
@@ -93,7 +93,7 @@ keywords: 瑞幸咖啡, 大公司数据观察, 财报, luckin
 - 国际市场拓展面临不确定性
 - 宏观经济波动可能影响消费需求
 
-数据来源：瑞幸咖啡2024年第三季度财报
+数据来源：瑞幸咖啡2024年第三季度财报，参见[luckin investor](https://investor.lkcoffee.com/)
 
 注：所有财务数据均基于美国通用会计准则(GAAP),特殊说明除外。重要财务指标计算方法参照财报"KEY DEFINITIONS"部分
 
@@ -127,7 +127,7 @@ Same-store sales growth（简称SSS或SSSG）是零售行业中一个重要的�
 
 ## 2. SSSG下降的原因
 
-在三季度电话会议中，CFO对SSSG的下降做了解释，这里对其进行翻译，从数据上看，的确如CFO所说，这个指标正在逐步变好
+在[三季度电话会议](https://investor.lkcoffee.com/static-files/e3eda302-012a-4099-a54c-44d48bae34de)中，CFO对SSSG的下降做了解释，这里对其进行翻译，从数据上看，的确如CFO所说，这个指标正在逐步变好
 
 ![luckin coffee 2024 Q3 key operating data](/img/luckin_coffee_key_operating_data.png)
 

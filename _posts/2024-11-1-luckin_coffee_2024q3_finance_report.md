@@ -129,7 +129,7 @@ Same-store sales growth（简称SSS或SSSG）是零售行业中一个重要的�
 
 在三季度电话会议中，CFO对SSSG的下降做了解释，这里对其进行翻译，从数据上看，的确如CFO所说，这个指标正在逐步变好
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/d98659b5-1b1e-4c0f-8cb9-d31b4325f6a4/image.png)
+![luckin coffee 2024 Q3 key operating data](/img/luckin_coffee_key_operating_data.png)
 
 > (Foreign Language) Thank you very much for taking my question. My question is about
 the same-store sales growth. How does management view the fluctuations in the SSSG

@@ -36,7 +36,7 @@ reddit上有[一篇帖子](https://www.reddit.com/r/explainlikeimfive/comments/1
 > "日本拥有作为一个国家失败的所有前提条件，但它就是不会失败。阿根廷拥有成功的所有前提条件，但它就是不会成功。”
 > 
 
-这里整理了这个问题的首赞评论，虽然并没有直接回答这个问题，但是提供了很多的视角，非常值得一读。原文为英文，直接看原文可能会更加清晰，如果感兴趣可以[点此阅读原文](https://www.reddit.com/r/explainlikeimfive/comments/1gid21q/eli5_why_is_the_japanese_yen_so_weak_yet_japan_is/)。以下为翻译：
+本文整理了这个问题的首赞评论，虽然并没有直接回答这个问题，但是提供了很多的视角，非常值得一读。原文为英文，直接看原文可能会更加清晰，如果感兴趣可以[点此阅读原文](https://www.reddit.com/r/explainlikeimfive/comments/1gid21q/eli5_why_is_the_japanese_yen_so_weak_yet_japan_is/)。以下为翻译：
 
 > 首先，日本的货币体系与美元和美分的体系不同。日元相当于美分的层级，没有类似美元这样的更大单位，所以看日本的价格时可以自动把末尾两个零去掉来理解。
 > 

@@ -8,7 +8,6 @@ description: 本文讨论了日本经济的独特性，分析了日元疲软的�
 keywords: 美元,日元,日本,美国,阿根廷, 发达国家,发展中国家,汇率, 日元汇率,美元兑日元汇率
 ---
 
-https://www.reddit.com/r/explainlikeimfive/comments/1gid21q/eli5_why_is_the_japanese_yen_so_weak_yet_japan_is/
 
 ![USD/JPY exchange rate trend](/img/usd_yen_interest_rate_trend.png)
 

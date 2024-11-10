@@ -8,7 +8,7 @@ description: 特朗普在2024年大选中获胜，导致美股三大指数创历
 keywords: 2024美国大选,特朗普,拜登,哈里斯,经济
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6dc789ce-47c2-4e37-b651-67b651aac76b/db2abd55-bfde-48df-ba20-94f576c5afe0/image.png)
+![特朗普获胜，美国三大股指再创新高](/img/sp500.png)
 
 11月6日，特朗普在美国2024年大选中获胜，当天美国标普500、纳斯达克指数、道琼斯指数三大指数创历史新高。
 

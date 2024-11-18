@@ -12,7 +12,6 @@ keywords: disney, disney finance report, 迪士尼,迪士尼财报,disney+, hulu
 
 各业务板块中，娱乐部门表现突出，Q4营收和利润均实现显著增长；体育部门基本稳定；体验业务收入小幅增长但利润略有下滑。流媒体业务实现重要突破，Disney+、Hulu用户持续增长，该业务首次实现季度盈利。
 
-[disney 2024 Q4 summary](https://www.notion.so/disney-2024-Q4-summary-1402bfaa8151809387a8c682cbfd892b?pvs=21)
 
 ## 一、公司业务
 

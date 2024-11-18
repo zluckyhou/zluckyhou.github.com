@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Nov 2024 17:26:33 +0800</pubDate>
-    <lastBuildDate>Mon, 18 Nov 2024 17:26:33 +0800</lastBuildDate>
+    <pubDate>Mon, 18 Nov 2024 17:29:16 +0800</pubDate>
+    <lastBuildDate>Mon, 18 Nov 2024 17:29:16 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -14,6 +14,8 @@
         <description>&lt;p&gt;11月14日，迪士尼发布2024财年第四季度和全年业绩报告。公司整体财务表现稳健，Q4收入同比增长6%至226亿美元，全年收入增长3%至914亿美元。每股收益大幅提升，Q4同比增长79%，全年增长超过一倍。&lt;/p&gt;
 
 &lt;p&gt;各业务板块中，娱乐部门表现突出，Q4营收和利润均实现显著增长；体育部门基本稳定；体验业务收入小幅增长但利润略有下滑。流媒体业务实现重要突破，Disney+、Hulu用户持续增长，该业务首次实现季度盈利。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.notion.so/disney-2024-Q4-summary-1402bfaa8151809387a8c682cbfd892b?pvs=21&quot;&gt;disney 2024 Q4 summary&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;一公司业务&quot;&gt;一、公司业务&lt;/h2&gt;
 
@@ -57,12 +59,13 @@
   &lt;/li&gt;
   &lt;li&gt;盈利能力：
     &lt;ul&gt;
-      &lt;li&gt;Q4调整后EPS：1.14美元，同比+39%，调整项目包括：&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;ul&gt;
-      &lt;li&gt;重组和减值费用15.43亿美元&lt;/li&gt;
-      &lt;li&gt;TFCF和Hulu无形资产摊销3.95亿美元
-    - 全年调整后EPS：4.97美元，同比+32%&lt;/li&gt;
+      &lt;li&gt;Q4调整后EPS：1.14美元，同比+39%，调整项目包括：
+        &lt;ul&gt;
+          &lt;li&gt;重组和减值费用15.43亿美元&lt;/li&gt;
+          &lt;li&gt;TFCF和Hulu无形资产摊销3.95亿美元&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;全年调整后EPS：4.97美元，同比+32%&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;现金流状况：
@@ -74,43 +77,46 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;2-分部业绩&quot;&gt;2. 分部业绩&lt;/h3&gt;
+&lt;h3 id=&quot;2-分部业绩分析&quot;&gt;2. 分部业绩分析&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;娱乐板块：
     &lt;ul&gt;
       &lt;li&gt;收入：108.29亿美元，同比+14%&lt;/li&gt;
       &lt;li&gt;运营利润：10.67亿美元，大幅提升&lt;/li&gt;
-      &lt;li&gt;增长驱动：&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;ul&gt;
-      &lt;li&gt;流媒体订阅收入增长&lt;/li&gt;
-      &lt;li&gt;广告收入提升&lt;/li&gt;
-      &lt;li&gt;电影票房表现强劲&lt;/li&gt;
+      &lt;li&gt;增长驱动：
+        &lt;ul&gt;
+          &lt;li&gt;流媒体订阅收入增长&lt;/li&gt;
+          &lt;li&gt;广告收入提升&lt;/li&gt;
+          &lt;li&gt;电影票房表现强劲&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;体育板块：
     &lt;ul&gt;
       &lt;li&gt;收入：39.14亿美元，基本持平&lt;/li&gt;
       &lt;li&gt;运营利润：9.29亿美元，同比-5%&lt;/li&gt;
-      &lt;li&gt;关键因素：&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;ul&gt;
-      &lt;li&gt;ESPN广告收入增长7%&lt;/li&gt;
-      &lt;li&gt;节目制作成本上升&lt;/li&gt;
-      &lt;li&gt;用户数量略有下降&lt;/li&gt;
+      &lt;li&gt;关键因素：
+        &lt;ul&gt;
+          &lt;li&gt;ESPN广告收入增长7%&lt;/li&gt;
+          &lt;li&gt;节目制作成本上升&lt;/li&gt;
+          &lt;li&gt;用户数量略有下降&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;体验板块：
     &lt;ul&gt;
       &lt;li&gt;收入：82.40亿美元，同比+1%&lt;/li&gt;
       &lt;li&gt;运营利润：16.59亿美元，同比-6%&lt;/li&gt;
-      &lt;li&gt;影响因素：&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;ul&gt;
-      &lt;li&gt;飓风Helene和Milton造成约1.3亿美元负面影响&lt;/li&gt;
-      &lt;li&gt;迪士尼邮轮新项目前期成本约9000万美元&lt;/li&gt;
-      &lt;li&gt;国内园区客单价提升&lt;/li&gt;
+      &lt;li&gt;影响因素：
+        &lt;ul&gt;
+          &lt;li&gt;飓风Helene和Milton造成约1.3亿美元负面影响&lt;/li&gt;
+          &lt;li&gt;迪士尼邮轮新项目前期成本约9000万美元&lt;/li&gt;
+          &lt;li&gt;国内园区客单价提升&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
@@ -129,15 +135,22 @@
   &lt;/li&gt;
   &lt;li&gt;ARPU表现：
     &lt;ul&gt;
-      &lt;li&gt;Disney+ Core：$7.30，环比+1%&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;ul&gt;
-      &lt;li&gt;受益于广告收入增长&lt;/li&gt;
-      &lt;li&gt;零售价格调整效果显现
-    - Hulu SVOD：$12.54，环比-1%&lt;/li&gt;
-      &lt;li&gt;受多产品组合订阅影响
-    - ESPN+：$5.94，环比-5%&lt;/li&gt;
-      &lt;li&gt;广告收入下降影响&lt;/li&gt;
+      &lt;li&gt;Disney+ Core：$7.30，环比+1%
+        &lt;ul&gt;
+          &lt;li&gt;受益于广告收入增长&lt;/li&gt;
+          &lt;li&gt;零售价格调整效果显现&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Hulu SVOD：$12.54，环比-1%
+        &lt;ul&gt;
+          &lt;li&gt;受多产品组合订阅影响&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;ESPN+：$5.94，环比-5%
+        &lt;ul&gt;
+          &lt;li&gt;广告收入下降影响&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
@@ -206,9 +219,7 @@
       &lt;li&gt;ESPN+：作为ESPN的流媒体服务，是Disney体育内容数字化的重要组成部分&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;内容制作与发行：通过电影院线发行（如Inside Out 2和Deadpool &amp;amp; Wolverine）等渠道获得收入&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;内容制作与发行：通过电影院线发行（如Inside Out 2和Deadpool &amp;amp; Wolverine）等渠道获得收入&lt;/li&gt;
   &lt;li&gt;实体娱乐体验：
     &lt;ul&gt;
       &lt;li&gt;主题公园和度假区（Parks &amp;amp; Experiences）&lt;/li&gt;

@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Nov 2024 17:31:28 +0800</pubDate>
-    <lastBuildDate>Mon, 18 Nov 2024 17:31:28 +0800</lastBuildDate>
+    <pubDate>Mon, 18 Nov 2024 17:43:33 +0800</pubDate>
+    <lastBuildDate>Mon, 18 Nov 2024 17:43:33 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -121,37 +121,34 @@
 
 &lt;h2 id=&quot;三运营指标&quot;&gt;三、运营指标&lt;/h2&gt;
 
-&lt;h3 id=&quot;1-流媒体用户指标&quot;&gt;1. 流媒体用户指标&lt;/h3&gt;
+&lt;h3 id=&quot;1-用户规模&quot;&gt;1. 用户规模：&lt;/h3&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;用户规模：
+&lt;ul&gt;
+  &lt;li&gt;Disney+ Core：1.227亿，环比增长440万&lt;/li&gt;
+  &lt;li&gt;Hulu总用户：5200万，环比增长2%&lt;/li&gt;
+  &lt;li&gt;ESPN+：2560万，环比增长3%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-arpu表现&quot;&gt;2. ARPU表现：&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Disney+ Core：$7.30，环比+1%
     &lt;ul&gt;
-      &lt;li&gt;Disney+ Core：1.227亿，环比增长440万&lt;/li&gt;
-      &lt;li&gt;Hulu总用户：5200万，环比增长2%&lt;/li&gt;
-      &lt;li&gt;ESPN+：2560万，环比增长3%&lt;/li&gt;
+      &lt;li&gt;受益于广告收入增长&lt;/li&gt;
+      &lt;li&gt;零售价格调整效果显现&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;ARPU表现：
+  &lt;li&gt;Hulu SVOD：$12.54，环比-1%
     &lt;ul&gt;
-      &lt;li&gt;Disney+ Core：$7.30，环比+1%
-        &lt;ul&gt;
-          &lt;li&gt;受益于广告收入增长&lt;/li&gt;
-          &lt;li&gt;零售价格调整效果显现&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Hulu SVOD：$12.54，环比-1%
-        &lt;ul&gt;
-          &lt;li&gt;受多产品组合订阅影响&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;ESPN+：$5.94，环比-5%
-        &lt;ul&gt;
-          &lt;li&gt;广告收入下降影响&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;受多产品组合订阅影响&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ol&gt;
+  &lt;li&gt;ESPN+：$5.94，环比-5%
+    &lt;ul&gt;
+      &lt;li&gt;广告收入下降影响&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;四未来展望与风险分析&quot;&gt;四、未来展望与风险分析&lt;/h2&gt;
 

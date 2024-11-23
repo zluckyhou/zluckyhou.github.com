@@ -17,7 +17,6 @@ keywords: 皮克斯,乔布斯,史蒂夫·乔布斯,steve jobs, pixar,pixar build
 [![A Day In the Life of Pixar Animation Studios | Pixar](/img/pixar_square.png)](https://www.youtube.com/watch?v=79dOhtRG-ck&t=1s&ab_channel=Pixar)
 
 
-
 Creativity, Inc.关于皮克斯大楼设计理念的片段：
 
 > “Built on the site of a former cannery, Pixar’s fifteen-acre campus, just over the Bay Bridge from San Francisco, was designed, inside and out, by Steve Jobs. (Its name, in fact, is The Steve Jobs Building.) It has well-thought-out patterns of entry and egress that encourage people to mingle, meet, and communicate. Outside, there is a soccer field, a volleyball court, a swimming pool, and a six-hundred-seat amphitheater. Sometimes visitors misunderstand the place, thinking it’s fancy for fancy’s sake. What they miss is that the unifying idea for this building isn’t luxury but community. Steve wanted the building to support our work by enhancing our ability to collaborate.”

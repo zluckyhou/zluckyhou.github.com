@@ -12,9 +12,7 @@ keywords: 皮克斯,乔布斯,史蒂夫·乔布斯,steve jobs, pixar,pixar build
 
 我们日常中见到的一些具有独特设计风格的建筑，通常是博物馆、古代建筑以及一些地标性的建筑，对于办公楼，极少遇到关于设计理念的体现，更别提从设计的角度出发，为它的功能增添色彩。
 
-皮克斯官方有一个视频，介绍了在皮克斯动画工作的一天，这个视频可以让我们更加直观地理解这种设计思路。
-
-[![A Day In the Life of Pixar Animation Studios | Pixar](/img/pixar_square.png)](https://www.youtube.com/watch?v=79dOhtRG-ck&t=1s&ab_channel=Pixar)
+皮克斯官方有一个视频，介绍了在[皮克斯动画工作的一天](https://www.youtube.com/watch?v=79dOhtRG-ck&t=1s&ab_channel=Pixar)，这个视频可以让我们更加直观地理解这种设计思路。
 
 
 Creativity, Inc.关于皮克斯大楼设计理念的片段：

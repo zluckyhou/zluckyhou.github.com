@@ -5,9 +5,44 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 22 Nov 2024 19:44:17 +0800</pubDate>
-    <lastBuildDate>Fri, 22 Nov 2024 19:44:17 +0800</lastBuildDate>
+    <pubDate>Sat, 23 Nov 2024 08:26:12 +0800</pubDate>
+    <lastBuildDate>Sat, 23 Nov 2024 08:26:12 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>皮克斯CEO - 建筑是用来交流的</title>
+        <description>&lt;p&gt;最近在看Nicolai对皮克斯CEO Ed Catmull 的采访，其中提到了Ed Catmull写的一本书《Creativity, Inc.》，于是顺手翻了下，书的开头提到了皮克斯大楼的设计理念（出自乔布斯），它的核心是鼓励人们沟通，这一点让我觉得非常有趣。（本文最后附上了这一段原文，感兴趣的可以查看）&lt;/p&gt;
+
+&lt;p&gt;我们日常中见到的一些具有独特设计风格的建筑，通常是博物馆、古代建筑以及一些地标性的建筑，对于办公楼，极少遇到关于设计理念的体现，更别提从设计的角度出发，为它的功能增添色彩。&lt;/p&gt;
+
+&lt;p&gt;皮克斯官方有一个视频，介绍了在皮克斯动画工作的一天，这个视频可以让我们更加直观地理解这种设计思路。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-HTML&quot;&gt;&amp;lt;video width=&quot;320&quot; height=&quot;240&quot; controls&amp;gt;
+    &amp;lt;source src=&quot;https://www.youtube.com/watch?v=79dOhtRG-ck&amp;amp;t=1s&amp;amp;ab_channel=Pixar&quot; type=&quot;video/mp4&quot;&amp;gt;
+&amp;lt;/video&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Creativity, Inc.关于皮克斯大楼设计理念的片段：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Built on the site of a former cannery, Pixar’s fifteen-acre campus, just over the Bay Bridge from San Francisco, was designed, inside and out, by Steve Jobs. (Its name, in fact, is The Steve Jobs Building.) It has well-thought-out patterns of entry and egress that encourage people to mingle, meet, and communicate. Outside, there is a soccer field, a volleyball court, a swimming pool, and a six-hundred-seat amphitheater. Sometimes visitors misunderstand the place, thinking it’s fancy for fancy’s sake. What they miss is that the unifying idea for this building isn’t luxury but community. Steve wanted the building to support our work by enhancing our ability to collaborate.”&lt;/p&gt;
+
+  &lt;p&gt;“建立在一个前罐头厂址上的皮克斯十五英亩的校园，位于旧金山湾桥对面，由史蒂夫·乔布斯全方位设计（事实上，它的名字是“史蒂夫·乔布斯大楼”）。校园内部和外部都有经过深思熟虑的进出模式，鼓励人们互动、会面和交流。外面有一个足球场、一个排球场、一个游泳池以及一个可容纳六百人的露天剧场。有时，访客误解这个地方，以为它只是为了奢华而奢华。他们忽略了，这座建筑的统一理念不是奢华，而是社区。史蒂夫希望这座建筑能够通过增强我们的合作能力来支持我们的工作。”&lt;/p&gt;
+
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 23 Nov 2024 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2024/11/23/pixar_building/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2024/11/23/pixar_building/</guid>
+        
+        <category>皮克斯</category>
+        
+        <category>乔布斯</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>英伟达2025财年Q3财报：营收351亿美元创纪录，数据中心收入同比增长112%</title>
@@ -1095,293 +1130,6 @@
         <category>大公司数据观察</category>
         
         <category>星巴克</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Airbnb 2024年Q3财报 - 营收增长10%至37亿美元，调整后EBITDA创历史新高达20亿美元</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.airbnb.com/&quot;&gt;Airbnb&lt;/a&gt;是一家全球领先的房屋短租共享平台，成立于2007年，其核心业务是通过在线平台连接房东和房客，为用户提供多样化的住宿选择和旅行体验服务。&lt;/p&gt;
-
-&lt;p&gt;它于2015年8月进入中国，2022年7月30日正式退出中国，如今发展的怎么样？&lt;/p&gt;
-
-&lt;h2 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-公司基本面概述&quot;&gt;1. 公司基本面概述&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;主营业务：全球领先的在线住宿和体验预订平台&lt;/li&gt;
-  &lt;li&gt;核心竞争力：拥有over 8 million活跃房源，覆盖全球主要市场&lt;/li&gt;
-  &lt;li&gt;行业地位：住宿共享经济领域的龙头企业&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2-本期重要战略进展&quot;&gt;2. 本期重要战略进展&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;房东服务升级&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;推出Co-Host Network服务，在10个国家引入超1万名联合房东&lt;/li&gt;
-  &lt;li&gt;73%的联合房东是超级房东，84%管理精选房源&lt;/li&gt;
-  &lt;li&gt;上线3周内吸引超2万名潜在联合房东申请&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;产品体验优化&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;推出50多项客户端升级功能，包括个性化目的地推荐、搜索提示等&lt;/li&gt;
-  &lt;li&gt;移除30万个不达标房源，提升平台服务质量&lt;/li&gt;
-  &lt;li&gt;房东取消率同比下降近30%，显著改善用户体验&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;二核心运营指标分析&quot;&gt;二、核心运营指标分析&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-预订数据&quot;&gt;1. 预订数据&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Q3夜间和体验预订量达1.228亿，同比增长8%，环比趋势持续改善&lt;/li&gt;
-  &lt;li&gt;APP预订量同比增长18%，占总预订量58%（上年同期53%）&lt;/li&gt;
-  &lt;li&gt;总预订交易额(GBV)达201亿美元，同比增长10%&lt;/li&gt;
-  &lt;li&gt;日均房价(ADR)为164美元，同比增长1%，剔除汇率影响增长2%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2-区域表现&quot;&gt;2. 区域表现&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;亚太地区&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;预订量同比增长19%，连续两个季度保持稳定&lt;/li&gt;
-  &lt;li&gt;跨境旅行增长23%，中国出境游市场逐步复苏&lt;/li&gt;
-  &lt;li&gt;日本市场重点布局：推出本土化品牌活动，聚焦国内旅行市场&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;拉美地区&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;预订量同比增长15%&lt;/li&gt;
-  &lt;li&gt;国内预订增长21%，活跃房源增长表现最强&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;欧洲、中东及非洲(EMEA)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;受巴黎奥运会带动，巴黎地区房源增长约35%&lt;/li&gt;
-  &lt;li&gt;日均房价同比增长6%，剔除汇率和结构影响增长3%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;北美地区&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;国内旅行占主导，非城市目的地增长最快&lt;/li&gt;
-  &lt;li&gt;日均房价同比增长3%，剔除汇率和结构影响增长1%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;三财务指标分析&quot;&gt;三、财务指标分析&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-收入和盈利能力&quot;&gt;1. 收入和盈利能力&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;营收37亿美元，同比增长10%&lt;/li&gt;
-  &lt;li&gt;净利润14亿美元，净利率37%（同比下降主要由于2023年Q3确认一次性税收优惠28亿美元）&lt;/li&gt;
-  &lt;li&gt;调整后EBITDA创历史新高达20亿美元，利润率52%&lt;/li&gt;
-  &lt;li&gt;Take rate(抽成率)保持在18.6%，跨币种预订服务费增加被客服投入抵消&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2-现金流状况&quot;&gt;2. 现金流状况&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;经营活动现金流11亿美元，主要受到向IRS支付1.63亿美元款项影响&lt;/li&gt;
-  &lt;li&gt;自由现金流11亿美元，利润率29%&lt;/li&gt;
-  &lt;li&gt;过去12个月累计自由现金流41亿美元，利润率38%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;3-资本配置&quot;&gt;3. 资本配置&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Q3回购11亿美元A类普通股&lt;/li&gt;
-  &lt;li&gt;过去12个月累计回购33亿美元&lt;/li&gt;
-  &lt;li&gt;稀释后股数从去年同期6.81亿降至6.65亿，降幅约6%&lt;/li&gt;
-  &lt;li&gt;剩余42亿美元回购授权额度&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;四未来展望&quot;&gt;四、未来展望&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-短期展望&quot;&gt;1. 短期展望&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Q4预期夜间预订量增速将高于Q3&lt;/li&gt;
-  &lt;li&gt;Q4预期营收23.9-24.4亿美元&lt;/li&gt;
-  &lt;li&gt;2024全年预期调整后EBITDA利润率约35.5%&lt;/li&gt;
-  &lt;li&gt;预计2024年股权激励支出同比增长约25%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2-长期战略&quot;&gt;2. 长期战略&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;全球市场扩张&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;扩大本地支付方式覆盖，预计2025年春季覆盖近40种支付方式&lt;/li&gt;
-  &lt;li&gt;加强品牌本地化建设&lt;/li&gt;
-  &lt;li&gt;持续优化产品市场匹配度&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;产品创新&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2025年推出超越住宿领域的新产品和服务&lt;/li&gt;
-  &lt;li&gt;持续提升APP个性化体验&lt;/li&gt;
-  &lt;li&gt;加强房源质量管理&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;五风险提示&quot;&gt;五、风险提示&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;财务风险&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;税收政策变化可能影响实际税率（预计2024年有效税率约20%）&lt;/li&gt;
-  &lt;li&gt;汇率波动影响收入和利润&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;运营风险&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;区域监管政策存在不确定性&lt;/li&gt;
-  &lt;li&gt;市场竞争加剧可能影响增长&lt;/li&gt;
-  &lt;li&gt;房源质量管理持续面临挑战&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;附录&quot;&gt;附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-关于co-host&quot;&gt;1. 关于co-host&lt;/h3&gt;
-
-&lt;p&gt;Co-Host Network是Airbnb推出的一项服务，旨在帮助房东找到并雇佣当地的联合主持人（Co-Host）来管理他们的Airbnb房源。&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;目的：
-    &lt;ul&gt;
-      &lt;li&gt;为没有时间管理Airbnb房源的房东提供解决方案&lt;/li&gt;
-      &lt;li&gt;通过专业co-host提供个性化支持服务&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Co-host的职责：
-    &lt;ul&gt;
-      &lt;li&gt;帮助设置房源列表&lt;/li&gt;
-      &lt;li&gt;管理预订&lt;/li&gt;
-      &lt;li&gt;与客人沟通&lt;/li&gt;
-      &lt;li&gt;提供个性化支持&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Co-host的资质：
-    &lt;ul&gt;
-      &lt;li&gt;73%是超级房东(Superhost)&lt;/li&gt;
-      &lt;li&gt;84%帮助管理精品房源&lt;/li&gt;
-      &lt;li&gt;都是经验丰富且记录优秀的房东&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;系统特点：
-    &lt;ul&gt;
-      &lt;li&gt;覆盖10个国家，超过10,000名co-host&lt;/li&gt;
-      &lt;li&gt;使用个性化排名算法&lt;/li&gt;
-      &lt;li&gt;考虑位置、主持经验、房屋类型等多个因素&lt;/li&gt;
-      &lt;li&gt;内置消息、日历访问、支付等协作功能&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;服务范围：
-    &lt;ul&gt;
-      &lt;li&gt;在澳大利亚、巴西、加拿大、法国、德国、意大利、墨西哥、西班牙、英国和美国等10个国家可用&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;这项服务上线三周后就收到了超过20,000名潜在co-host的申请，显示出巨大的市场需求。&lt;/p&gt;
-
-&lt;h3 id=&quot;2-take-rate&quot;&gt;2. Take rate&lt;/h3&gt;
-
-&lt;p&gt;Take Rate（抽成率）是指收入除以GBV（Gross Booking Value，总预订交易额）的比率。Airbnb 2024年第三季度的Take Rate为18.6%，与去年同期持平。跨币种预订的额外服务费收入增加与为提升房东和房客体验而进行的客户服务投资相互抵消。&lt;/p&gt;
-
-&lt;h3 id=&quot;3-什么是adjusted-ebitda&quot;&gt;3. 什么是Adjusted EBITDA？&lt;/h3&gt;
-
-&lt;p&gt;EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) 是税息折旧及摊销前利润，而Adjusted EBITDA（调整后EBITDA）是在此基础上进行特定调整的财务指标。详细解释如下：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;EBITDA的构成：
-    &lt;ul&gt;
-      &lt;li&gt;E (Earnings) - 利润&lt;/li&gt;
-      &lt;li&gt;B (Before) - 在…之前&lt;/li&gt;
-      &lt;li&gt;I (Interest) - 利息&lt;/li&gt;
-      &lt;li&gt;T (Taxes) - 税收&lt;/li&gt;
-      &lt;li&gt;D (Depreciation) - 折旧&lt;/li&gt;
-      &lt;li&gt;A (Amortization) - 摊销&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Adjusted EBITDA的调整项目通常包括：
-    &lt;ul&gt;
-      &lt;li&gt;一次性费用或收益&lt;/li&gt;
-      &lt;li&gt;重组成本&lt;/li&gt;
-      &lt;li&gt;资产减值损失&lt;/li&gt;
-      &lt;li&gt;股权激励费用&lt;/li&gt;
-      &lt;li&gt;外汇损益&lt;/li&gt;
-      &lt;li&gt;非经常性项目&lt;/li&gt;
-      &lt;li&gt;非现金项目&lt;/li&gt;
-      &lt;li&gt;并购相关费用&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;使用Adjusted EBITDA的目的：
-    &lt;ul&gt;
-      &lt;li&gt;更好地反映公司核心运营表现&lt;/li&gt;
-      &lt;li&gt;提供更具可比性的业绩衡量标准&lt;/li&gt;
-      &lt;li&gt;排除非经常性或非运营性项目的影响&lt;/li&gt;
-      &lt;li&gt;便于跨期间和跨公司比较&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;优点：
-    &lt;ul&gt;
-      &lt;li&gt;反映实际运营现金流能力&lt;/li&gt;
-      &lt;li&gt;消除会计处理差异的影响&lt;/li&gt;
-      &lt;li&gt;便于企业估值和比较&lt;/li&gt;
-      &lt;li&gt;剔除非经常性项目的干扰&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;局限性：
-    &lt;ul&gt;
-      &lt;li&gt;非标准化指标，不同公司可能有不同的调整方法&lt;/li&gt;
-      &lt;li&gt;可能被用来美化业绩&lt;/li&gt;
-      &lt;li&gt;忽略了资本支出的影响&lt;/li&gt;
-      &lt;li&gt;不考虑营运资金变动&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;举例说明：
-假设一家公司的财务数据如下：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;净利润：1000万
-+ 利息：200万
-+ 税收：300万
-+ 折旧：150万
-+ 摊销：50万
-= EBITDA：1700万
-
-调整项：
-+ 一次性重组费用：100万
-+ 股权激励费用：50万
-- 资产处置收益：30万
-
-= Adjusted EBITDA：1820万
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;数据来源：Airbnb 2024年&lt;a href=&quot;https://s26.q4cdn.com/656283129/files/doc_financials/2024/q3/Airbnb_Q3-2024-Shareholder-Letter_Final.pdf&quot;&gt;第三季度财报&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2024/11/11/airbnb_2024q3_finance_report/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2024/11/11/airbnb_2024q3_finance_report/</guid>
-        
-        <category>大公司数据观察</category>
-        
-        <category>airbnb</category>
         
         
         <category>blog</category>

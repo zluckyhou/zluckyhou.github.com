@@ -14,7 +14,7 @@ keywords: 皮克斯,乔布斯,史蒂夫·乔布斯,steve jobs, pixar,pixar build
 
 皮克斯官方有一个视频，介绍了在皮克斯动画工作的一天，这个视频可以让我们更加直观地理解这种设计思路。
 
-[![A Day In the Life of Pixar Animation Studios | Pixar](/img/pixar_square.png)](ttps://www.youtube.com/watch?v=79dOhtRG-ck&t=1s&ab_channel=Pixar)
+[![A Day In the Life of Pixar Animation Studios | Pixar](/img/pixar_square.png)](https://www.youtube.com/watch?v=79dOhtRG-ck&t=1s&ab_channel=Pixar)
 
 
 

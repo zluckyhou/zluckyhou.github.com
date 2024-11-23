@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Nov 2024 17:30:56 +0800</pubDate>
-    <lastBuildDate>Sat, 23 Nov 2024 17:30:56 +0800</lastBuildDate>
+    <pubDate>Sat, 23 Nov 2024 17:32:33 +0800</pubDate>
+    <lastBuildDate>Sat, 23 Nov 2024 17:32:33 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -17,11 +17,14 @@
 
 &lt;p&gt;皮克斯官方有一个视频，介绍了在皮克斯动画工作的一天，这个视频可以让我们更加直观地理解这种设计思路。&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=79dOhtRG-ck&amp;amp;t=1s&amp;amp;ab_channel=Pixar&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;video width=&quot;320&quot; height=&quot;240&quot; controls=&quot;&quot;&gt;
-    &lt;source src=&quot;https://www.youtube.com/watch?v=79dOhtRG-ck&amp;amp;t=1s&amp;amp;ab_channel=Pixar&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;/video&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[![A Day In the Life of Pixar Animation Studios&lt;/td&gt;
+      &lt;td&gt;Pixar](/img/pixar_square.png)](ttps://www.youtube.com/watch?v=79dOhtRG-ck&amp;amp;t=1s&amp;amp;ab_channel=Pixar)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;Creativity, Inc.关于皮克斯大楼设计理念的片段：&lt;/p&gt;
 

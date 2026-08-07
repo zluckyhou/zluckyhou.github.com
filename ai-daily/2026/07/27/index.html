@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sam Altman 与 Greg Brockman 今天集中强调 ChatGPT 的“work”能力。Sam 的例子是从手机发出一条长任务：读取个人 ChatGPT 历史，规划 9 人长周末旅行，生成一个用于协商目的地的 full-stack site，并在达成一致后准备 Gmail 邮件。Greg 则概括为 ChatGPT 正越来越像 personal AGI。信号不是单个 UI 功能，而是 OpenAI 把记忆、工具调用、代码生成、协作站点和外部应用动作包装成连续个人 workflow。">
+    <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.07.27 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/07/27/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
+        </div>
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.07.27</p>
+    <h1>ChatGPT Work 把个人历史、建站和协作任务串成端到端 workflow</h1>
+    
+    <p class="article-deck">Sam Altman 与 Greg Brockman 今天集中强调 ChatGPT 的“work”能力。Sam 的例子是从手机发出一条长任务：读取个人 ChatGPT 历史，规划 9 人长周末旅行，生成一个用于协商目的地的 full-stack site，并在达成一致后准备 Gmail 邮件。Greg 则概括为 ChatGPT 正越来越像 personal AGI。信号不是单个 UI 功能，而是 OpenAI 把记忆、工具调用、代码生成、协作站点和外部应用动作包装成连续个人 workflow。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-07-27T09:07:00+08:00">2026年7月27日</time>
+      <span>16 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>14</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>6</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>16</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="114-chatgpt-work-把个人历史建站和协作任务串成端到端-workflow">1/14 ChatGPT Work 把个人历史、建站和协作任务串成端到端 workflow</h2>
+<p>Sam Altman 与 Greg Brockman 今天集中强调 ChatGPT 的“work”能力。Sam 的例子是从手机发出一条长任务：读取个人 ChatGPT 历史，规划 9 人长周末旅行，生成一个用于协商目的地的 full-stack site，并在达成一致后准备 Gmail 邮件。Greg 则概括为 ChatGPT 正越来越像 personal AGI。信号不是单个 UI 功能，而是 OpenAI 把记忆、工具调用、代码生成、协作站点和外部应用动作包装成连续个人 workflow。</p>
+<ul>
+  <li><a href="https://x.com/sama/status/2081396796174282900">查看 @sama 原始推文</a></li>
+  <li><a href="https://x.com/sama/status/2081513071135346814">查看 @sama 原始推文</a></li>
+  <li><a href="https://x.com/gdb/status/2081458174662726009">查看 @gdb 原始推文</a></li>
+  <li><a href="https://x.com/gdb/status/2081409255916359771">查看 @gdb 原始推文</a></li>
+</ul>
+
+<h2 id="214-nvidia-nemotron-3-ultra-进入-agentic-chip-design-评测">2/14 NVIDIA Nemotron 3 Ultra 进入 agentic chip design 评测</h2>
+<p>NVIDIA AI 发布 Nemotron 3 Ultra 在 agentic RTL coding 上的测试结果。任务要求模型迭代编写芯片逻辑、运行 simulator、读取失败并改写，接近真实芯片设计工程循环。NVIDIA 称 Nemotron 3 Ultra 在九类真实设计工作中平均达到 97.1% pass rate，每轮平均 6,629 tokens，并在其测试的 open models 中同时领先准确率与 token 效率。芯片设计成为 coding agent 之外另一个可验证、可闭环的高价值 agent 场景。</p>
+<ul>
+  <li><a href="https://x.com/NVIDIAAI/status/2081541801031110903">查看 @NVIDIAAI 原始推文</a></li>
+  <li><a href="https://x.com/NVIDIAAI/status/2081541802893398395">查看 @NVIDIAAI 原始推文</a></li>
+</ul>
+
+<h2 id="314-sakana-fugu-ultra-v11-接入-claude-code-工作流">3/14 Sakana Fugu-Ultra v1.1 接入 Claude Code 工作流</h2>
+<p>Sakana AI 宣布 Fugu-Ultra v1.1 支持 Claude Code-compatible interface。官方描述是让开发者在熟悉的 terminal coding workflow 中调用一个动态协调的 frontier model team，而不是依赖单一模型完成写代码、调试和执行。Hardmaru 同步称 Fugu-Ultra now works with Claude Code。这个方向延续 Sakana 的“一个 API 背后是多智能体系统”路线，把模型选择、专家分工和综合验证隐藏在开发者入口之后。</p>
+<ul>
+  <li><a href="https://x.com/SakanaAILabs/status/2081357365526352038">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/SakanaAILabs/status/2081526987777278155">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/hardmaru/status/2081384883356946799">查看 @hardmaru 原始推文</a></li>
+</ul>
+
+<h2 id="414-open-weights-公开信把开放模型重新推到产业政策中心">4/14 Open weights 公开信把开放模型重新推到产业政策中心</h2>
+<p>Sakana AI、Scale AI、Cohere、Hugging Face 相关账号今天都围绕 open weights 发声。Sakana 表示已签署“Open Weights and American AI Leadership”公开信，称开放生态支持 AI 访问、竞争、用户控制和安全；Scale AI 转发称 open models 对美国 AI leadership 和可靠系统建设很关键；Cohere 则强调今年已以 Apache 2.0 发布 Transcribe、Command A+、North Mini Code。开放模型讨论正在从开发者偏好转成产业政策、技术主权和企业控制权问题。</p>
+<ul>
+  <li><a href="https://x.com/SakanaAILabs/status/2081565741317595425">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/scale_AI/status/2081580459780112420">查看 @scale_AI 原始推文</a></li>
+  <li><a href="https://x.com/cohere/status/2081470432415260682">查看 @cohere 原始推文</a></li>
+  <li><a href="https://x.com/huggingface/status/2081333605448454554">查看 @huggingface 原始推文</a></li>
+</ul>
+
+<h2 id="514-together-将-kimi-k3-放进生产吞吐量产品">5/14 Together 将 Kimi K3 放进生产吞吐量产品</h2>
+<p>Together AI 宣布 Kimi K3 明天登陆 Together，并可通过 Provisioned Throughput 使用。该产品强调 reserved token-based capacity，承诺 guaranteed tokens/min、99% uptime SLA，并声称相较 Fable 成本低 65%。Together 同日还称 open models 在其 token 使用中一年内从 10% 提升到 30%。这把“开放模型是否足够强”的讨论落到生产指标：稳定吞吐、SLA、单位成本和模型可替换性。</p>
+<ul>
+  <li><a href="https://x.com/togethercompute/status/2081545198400909375">查看 @togethercompute 原始推文</a></li>
+  <li><a href="https://x.com/togethercompute/status/2081545200900743672">查看 @togethercompute 原始推文</a></li>
+  <li><a href="https://x.com/togethercompute/status/2081481483483750517">查看 @togethercompute 原始推文</a></li>
+</ul>
+
+<h2 id="614-databricks-genie-hackathon-展示企业数据-agent-的三种形态">6/14 Databricks Genie hackathon 展示企业数据 agent 的三种形态</h2>
+<p>Databricks 总结第五届 customer hackathon，团队在一周内围绕 Genie 做真实技术用例。官方把项目分为三类：用 Genie Agents 查询受治理数据，用 Genie Code 构建数据、分析和 ML 工作流，以及把 Genie Agents 组合成更大的 agent systems。案例包括跨 190 张表和 300 多个 view 路由问题的 supervisory layer、治理智能平台、以及整合 17 个 live public feeds 的 overnight supply-chain brief。企业数据 agent 正从 demo 进入复杂权限和多源场景。</p>
+<ul>
+  <li><a href="https://x.com/databricks/status/2081404199330328756">查看 @databricks 原始推文</a></li>
+  <li><a href="https://x.com/databricks/status/2081558194992632045">查看 @databricks 原始推文</a></li>
+</ul>
+
+<h2 id="714-alphasignal-把新模型评估压缩成生产失败-smoke-test">7/14 AlphaSignal 把新模型评估压缩成生产失败 smoke test</h2>
+<p>AlphaSignalAI 用 Anthropic Claude Opus 5 与 Google DeepMind Gemini Flash 更新引出模型迁移问题：面对新模型，团队不应只相信公开 benchmark，也不必一开始就搭完整内部评测。它建议先用 5-10 个会让系统不可用的生产失败样本做 smoke test，例如固定 180 字技术论文摘要任务中，比较事实保留、长度约束和关键限定语遗漏。这个思路与今天的 model routing 和 open model 成本讨论一致：模型采用正在变成具体业务风险筛选。</p>
+<ul>
+  <li><a href="https://x.com/AlphaSignalAI/status/2081292892187029971">查看 @AlphaSignalAI 原始推文</a></li>
+  <li><a href="https://x.com/AlphaSignalAI/status/2081293025192587382">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<h2 id="814-ethan-mollick-的模型指南刚更新又过期">8/14 Ethan Mollick 的模型指南刚更新又过期</h2>
+<p>Ethan Mollick 表示，自己周四写的 AI model usage guide 已经需要加入 Opus 5 和 Codex voice mode，两者都在周五发布且“significant”。这条不是发布新闻，而是说明模型选择本身已经成为高频运营问题：即使持续关注，也很难维护静态推荐。对企业和个人来说，关键不只是知道最强模型是谁，而是建立按任务、成本、可验证性、数据权限和工具链支持切换模型的机制。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2081475928086003869">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="914-fable-与-opus-5-游戏-demo-把长程生成推向可玩原型">9/14 Fable 与 Opus 5 游戏 demo 把长程生成推向可玩原型</h2>
+<p>Ethan Mollick 展示 Fable 根据他一年前伪造的 AI 视频概念，生成 Piranesi 与 Cezanne 风格 city builder game，模型自行提出拱门、水道、印象派笔触与社区演化等机制，并提供可玩链接与开源版本。Matt Shumer 的时间线则围绕 Opus 5、长循环和单 prompt 3D 游戏 demo 展开，强调用户正在用相同 prompt 复现并改造。多模态/代码模型的展示焦点正在从“生成画面”转为“生成可互动系统”。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2081261849543070181">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2081562248246415752">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2081391655739941362">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/mattshumer_/status/2081423788139221501">查看 @mattshumer_ 原始推文</a></li>
+</ul>
+
+<h2 id="1014-suno-把音乐生成产品扩展到-stemsmidi-和车载场景">10/14 Suno 把音乐生成产品扩展到 stems、MIDI 和车载场景</h2>
+<p>Suno 今天汇总 Web 与移动端的新能力，包括 Advanced Stem Separation、Export Stems as MIDI、Lyric Co-Writer 与 Autosave、Screenshot to Song，以及 Apple CarPlay 和 Android Auto 支持。它还发布完整 walkthrough 展示 10 个工具的使用方式。音乐生成产品竞争正在从“生成一首歌”扩展到创作工作流：拆分 stems、导出 MIDI、辅助歌词、从截图触发创作，以及把消费和创作入口放进移动与车载环境。</p>
+<ul>
+  <li><a href="https://x.com/suno/status/2081443050312843765">查看 @suno 原始推文</a></li>
+  <li><a href="https://x.com/suno/status/2081445078216954299">查看 @suno 原始推文</a></li>
+</ul>
+
+<h2 id="1114-gary-marcus-再次把可靠性定义为当前-ai-影响力上限">11/14 Gary Marcus 再次把可靠性定义为当前 AI 影响力上限</h2>
+<p>Gary Marcus 今天多条推文讨论 AI 可靠性、alignment 和监管。他认为当前 AI 在 coding 和 math 等可验证、人类在环、可合成大量数据的领域已经改变世界，但还不是可以信任的通用自治系统；这限制了其在更广泛场景中的影响。他还提出更高比例 alignment 投入、航空式安全程序与更难被训练污染的 benchmark。该观点与今日 agent 生产化新闻形成对照：系统能力增长仍被可靠性和验证机制约束。</p>
+<ul>
+  <li><a href="https://x.com/GaryMarcus/status/2081531360225923114">查看 @GaryMarcus 原始推文</a></li>
+  <li><a href="https://x.com/GaryMarcus/status/2081516011807703424">查看 @GaryMarcus 原始推文</a></li>
+  <li><a href="https://x.com/GaryMarcus/status/2081414488117678532">查看 @GaryMarcus 原始推文</a></li>
+</ul>
+
+<h2 id="1214-yann-lecun-用开源基础设施回应-open-weights-争论">12/14 Yann LeCun 用开源基础设施回应 open weights 争论</h2>
+<p>Yann LeCun 今天在 open source 话题下回应称，Android 相对 iOS 的胜出与开放性有关，并补充说全世界运行操作系统的计算机大体都依赖 Linux，移动通信网络的软件基础设施也高度开源。他还讨论 MAE、I-JEPA、SimCLR 等自监督方法的差异。放在今日语境中，这些回复为 open weights 公开信提供技术史论据：开放系统的价值不只在研究复现，也在生态规模、成本下降和基础设施可组合性。</p>
+<ul>
+  <li><a href="https://x.com/ylecun/status/2081461983493394805">查看 @ylecun 原始推文</a></li>
+  <li><a href="https://x.com/ylecun/status/2081463233932652917">查看 @ylecun 原始推文</a></li>
+  <li><a href="https://x.com/ylecun/status/2081280166546841639">查看 @ylecun 原始推文</a></li>
+</ul>
+
+<h2 id="1314-langchain-社群继续强调-harnesseval-和-learning-loop">13/14 LangChain 社群继续强调 harness、eval 和 learning loop</h2>
+<p>Harrison Chase 今天转发多条关于 agentic systems 的工程讨论，核心词包括 model optionality、harness control、learning loop、design choices 和 evals。虽然不是 LangChain 官方发布，但它与上周 eval engineering、router、trace 和 coding agent skill 的讨论连在一起：企业拥有的重点不一定是全部模型能力，而是可观测的任务循环、评测数据、工具边界和持续改进流程。agent 生产化的竞争点正在向 harness 和 learning loop 下沉。</p>
+<ul>
+  <li><a href="https://x.com/hwchase17/status/2081579904504873113">查看 @hwchase17 原始推文</a></li>
+  <li><a href="https://x.com/hwchase17/status/2081485208621379782">查看 @hwchase17 原始推文</a></li>
+  <li><a href="https://x.com/hwchase17/status/2081411558664454434">查看 @hwchase17 原始推文</a></li>
+</ul>
+
+<h2 id="1414-xai-与-grok-build-继续把研究和构建能力推向产品入口">14/14 xAI 与 Grok Build 继续把研究和构建能力推向产品入口</h2>
+<p>Elon Musk 今天称 Grok 4.5 是 solid workhorse，并提到 Grok Build /deep-research。虽然相关推文信息量有限，但与 Sam Altman 的 ChatGPT Work、Fugu-Ultra 接入 Claude Code、以及 Databricks Genie 的企业数据 agent 放在一起看，头部产品都在把“研究、构建、调用工具、生成界面”做成统一入口。未来竞争不只是模型分数，而是用户能否把复杂任务直接交给一个可执行环境。</p>
+<ul>
+  <li><a href="https://x.com/elonmusk/status/2081485024872796427">查看 @elonmusk 原始推文</a></li>
+  <li><a href="https://x.com/elonmusk/status/2081449658363134075">查看 @elonmusk 原始推文</a></li>
+  <li><a href="https://x.com/sama/status/2081396796174282900">查看 @sama 原始推文</a></li>
+</ul>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="nvidia-nemotron-3-ultra-agentic-rtl-coding">NVIDIA Nemotron 3 Ultra agentic RTL coding</h3>
+<p>NVIDIA 今日最重要的技术信号是把 open model 评测放进芯片设计闭环。RTL coding 任务要求模型写出芯片逻辑代码、调用 simulator、根据失败反馈继续修改，接近真实硬件工程的可验证循环。NVIDIA 称 Nemotron 3 Ultra 在九类真实设计工作中平均达到 97.1% pass rate，每轮平均 6,629 tokens，并在其测试的 open models 中同时领先准确率和效率。这个方向说明可验证工程任务正在从 SWE-Bench 扩展到芯片设计，frontier labs 与硬件公司会越来越重视“能跑工具、能读错误、能自我修复”的长程 agent 能力。
+<a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-leads-open-models-on-accuracy-and-efficiency-in-agentic-rtl-coding/">查看原文</a></p>
+
+<h3 id="sakana-fugu-ultra-v11-与-claude-code-interface">Sakana Fugu-Ultra v1.1 与 Claude Code interface</h3>
+<p>Fugu-Ultra v1.1 的关键不是又发布一个 coding model，而是把多模型协调放进 Claude Code-compatible interface。开发者仍在 terminal 中工作，但请求背后由 Fugu 动态组织不同 frontier models 执行写代码、调试、执行和综合。这个产品形态把“模型池 + orchestrator + verification”包装成一个模型入口，和 Cursor Router、Together Provisioned Throughput 一样，反映模型选择正在从用户手动判断转为系统内部调度。
+<a href="https://console.sakana.ai/get-started">查看原文</a></p>
+
+<h3 id="together-kimi-k3-provisioned-throughput">Together Kimi K3 Provisioned Throughput</h3>
+<p>Together 的 Kimi K3 发布重点是生产吞吐量，而不是只谈榜单分数。Provisioned Throughput 提供 reserved token-based capacity，推文承诺 guaranteed tokens/min、99% uptime SLA 和相较 Fable 低 65% 的成本。Together 同日称 open models 在其 token 使用中一年内从 10% 增长到 30%。这说明 open model adoption 的核心驱动力正在转为成本和可运营性：企业需要稳定容量、SLA、价格曲线和可替换模型，而不只是能否调用最新 API。
+<a href="https://www.together.ai/">查看原文</a></p>
+
+<h3 id="databricks-genie-customer-hackathon">Databricks Genie customer hackathon</h3>
+<p>Databricks 的第五届 customer hackathon 展示了企业数据 agent 的落地路径。十个项目围绕 Genie 分为三类：用 Genie Agents 查询受治理数据，用 Genie Code 构建数据、分析和 ML 工作流，以及把 Genie Agents 组合进更大的 agent system。案例包括跨 190 张表和 300 多个 view 的问题路由、治理智能平台和整合 17 个 live public feeds 的供应链 brief。重点是 agent 不再只面对单表或 demo 数据，而是在权限、治理、多源数据和真实业务 workflow 中运行。
+<a href="https://www.databricks.com/">查看原文</a></p>
+
+<h3 id="hugging-face-radical-transparency-与开放生态安全议题">Hugging Face radical transparency 与开放生态安全议题</h3>
+<p>Clement Delangue 转发的 TechCrunch 报道把今日 open weights 讨论带到安全治理层面。报道标题指向 Hugging Face CEO 在 OpenAI hack 之后呼吁 radical transparency。无论具体事件细节如何，它和 Sakana、Scale AI、Cohere 的 open weights 表态共同说明：开放生态的争论不只是权重是否公开，还包括安全事件如何披露、用户和企业如何获得控制权、以及产业是否能用更透明机制建立信任。
+<a href="https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/">查看原文</a></p>
+
+<h3 id="ethan-mollick-model-selection-guide">Ethan Mollick model selection guide</h3>
+<p>Mollick 说自己周四写的模型使用指南已经需要加入 Opus 5 和 Codex voice mode，这凸显模型选择的半衰期正在变短。今天的多条新闻共同指向同一问题：ChatGPT Work 强调端到端任务，Fugu-Ultra 强调多模型协调，Together 强调 open model 生产吞吐，AlphaSignal 强调生产失败 smoke test。静态“用哪个模型”清单越来越不够，真正的能力是持续评估、快速试用、按任务切换，并在成本、可靠性和工具链支持之间做取舍。
+<a href="https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/ai-daily/2026/07/23/">
+          <span>上一篇</span>
+          <strong>AI Frontier Daily | 2026.07.23</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/07/28/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.07.28</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2026  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Google DeepMind 发布 Gemma 4 家族，Apache 2.0 协议，共四个尺寸：31B Dense、26B MoE（仅 4B 参数激活）、E4B 和 E2B（Edge 端）。31B 在 AIME 2025 上得分 89.2%、LiveCodeBench 80%，LMArena ELO 约 1452（全球 #3），击败参数量超其 10 倍的模型。26B MoE 量化版仅 18.3GB，可在 3 年前的 Mac Studio M2 Ultra 上流畅运行，RTX 4090 上解码速度高达 162 tokens/s。所有尺寸均原生支持多模态输入（文本、图像、音频）和 256K 上下文。Hugging Face CEO Clement Delangue：「Google 重新入局了。」">
+    <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.04.04 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/04/04/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
+        </div>
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.04.04</p>
+    <h1>Google Gemma 4 震撼发布：开源模型重新定义本地推理天花板</h1>
+    
+    <p class="article-deck">Google DeepMind 发布 Gemma 4 家族，Apache 2.0 协议，共四个尺寸：31B Dense、26B MoE（仅 4B 参数激活）、E4B 和 E2B（Edge 端）。31B 在 AIME 2025 上得分 89.2%、LiveCodeBench 80%，LMArena ELO 约 1452（全球 #3），击败参数量超其 10 倍的模型。26B MoE 量化版仅 18.3GB，可在 3 年前的 Mac Studio M2 Ultra 上流畅运行，RTX 4090 上解码速度高达 162 tokens/s。所有尺寸均原生支持多模态输入（文本、图像、音频）和 256K 上下文。Hugging Face CEO Clement Delangue：「Google 重新入局了。」
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-04-04T09:07:00+08:00">2026年4月4日</time>
+      <span>13 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>15</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>3</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>13</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="115-google-gemma-4-震撼发布开源模型重新定义本地推理天花板">1/15 Google Gemma 4 震撼发布：开源模型重新定义本地推理天花板</h2>
+<p>Google DeepMind 发布 Gemma 4 家族，Apache 2.0 协议，共四个尺寸：31B Dense、26B MoE（仅 4B 参数激活）、E4B 和 E2B（Edge 端）。31B 在 AIME 2025 上得分 89.2%、LiveCodeBench 80%，LMArena ELO 约 1452（全球 #3），击败参数量超其 10 倍的模型。26B MoE 量化版仅 18.3GB，可在 3 年前的 Mac Studio M2 Ultra 上流畅运行，RTX 4090 上解码速度高达 162 tokens/s。所有尺寸均原生支持多模态输入（文本、图像、音频）和 256K 上下文。Hugging Face CEO Clement Delangue：「Google 重新入局了。」</p>
+<ul>
+  <li><a href="https://x.com/demishassabis/status/2040067244349063326">查看 @demishassabis 原始推文</a></li>
+  <li><a href="https://x.com/ClementDelangue/status/2039941213244072173">查看 @ClementDelangue 原始推文</a></li>
+</ul>
+
+<h2 id="215-jeff-dean-时隔多年提交第一个公开-pr献给-huggingface-transformers">2/15 Jeff Dean 时隔多年提交第一个公开 PR，献给 HuggingFace Transformers</h2>
+<p>Google 传奇工程师 Jeff Dean 为 Hugging Face transformers 库提交了 Gemma 4 支持 PR，这是他多年来首次公开代码贡献，该 PR 共有 14 位作者。NVIDIA 也第一时间为 Gemma 4 31B 发布了 NVFP4 量化版本（4x 压缩，前沿性能），同时 RTX 上 llama.cpp 可获得高达 2.7x 加速。HuggingFace 社区在发布后数小时内完成了 MLX、GGUF、transformers.js 等全栈适配，125 个量化变体已上传。</p>
+<ul>
+  <li><a href="https://x.com/ClementDelangue/status/2040201086133248083">查看 @ClementDelangue 原始推文</a></li>
+</ul>
+
+<h2 id="315-anthropic-发布模型差异比对model-diffing研究ai-模型审计新范式">3/15 Anthropic 发布模型差异比对（Model Diffing）研究：AI 模型审计新范式</h2>
+<p>Anthropic Fellows 计划发布重磅研究：将软件开发中的「diff」概念应用于 AI 模型内部结构比对。技术上，该方法仅审查两个模型之间差异性的神经特征，大幅提升审计效率。关键发现：对比阿里 Qwen 与 Meta Llama，在 Qwen 中发现了「CCP 对齐」特征，而在 Llama 中发现了「美国例外主义」特征，两者均为对方模型所独有。这是首次通过可解释性工具在开源模型中系统识别出地缘政治对齐特征，对 AI 供应链安全审计具有深远意义。</p>
+<ul>
+  <li><a href="https://x.com/AnthropicAI/status/2040179539738030182">查看 @AnthropicAI 原始推文</a></li>
+  <li><a href="https://x.com/AnthropicAI/status/2040179543387124172">查看 @AnthropicAI 原始推文</a></li>
+</ul>
+
+<h2 id="415-xai-发布-grok-imagine-quality-模式图像生成质量大幅跃升">4/15 xAI 发布 Grok Imagine Quality 模式：图像生成质量大幅跃升</h2>
+<p>xAI 宣布 Grok Imagine 推出由全新最先进模型驱动的 Quality 模式，带来更强的世界知识与提示理解（能精准还原复杂场景、物理规律、物体关系）、更高精度的多语言文字渲染、以及达到新水平的写实美学（真实感光线、材质和细节）。Speed 模式保留原有模型。公告帖子获得 7,808 收藏、118 万次浏览。该发布正值 OpenAI DALL·E 和 Google Imagen 持续竞争的图像生成赛道。</p>
+<ul>
+  <li><a href="https://x.com/xai/status/2040150187373670570">查看 @xai 原始推文</a></li>
+</ul>
+
+<h2 id="515-qwen36-plus-创-openrouter-历史记录单日-1-万亿-tokens">5/15 Qwen3.6-Plus 创 OpenRouter 历史记录：单日 1 万亿 tokens</h2>
+<p>阿里巴巴通义千问宣布，Qwen3.6-Plus 成为 OpenRouter 平台上首个单日处理量突破 1 万亿 tokens 的模型，位居 OpenRouter 排行榜 #1。Qwen3.6-Plus 于上周发布，定位「面向真实世界智能体」的里程碑产品，在 Code Arena 编程总榜排名 #8、React 榜 #2，并支持 Anthropic API 协议可直接接入 Claude Code 等工具链。此次 1T tokens/day 里程碑证明了其在推理端的极高采用率。</p>
+<ul>
+  <li><a href="https://x.com/Alibaba_Qwen/status/2040242594719158460">查看 @Alibaba_Qwen 原始推文</a></li>
+</ul>
+
+<h2 id="615-emollickrag-时代已短暂结束向量检索不再是-agent-上下文主流范式">6/15 emollick：「RAG 时代已短暂结束」——向量检索不再是 Agent 上下文主流范式</h2>
+<p>沃顿商学院教授 Ethan Mollick 发出 AI 界争议最大的一条推文（782 收藏，16.7 万次浏览）：「RAG 时代虽短暂却激烈，它不再是为 Agent 提供上下文的主流范式。」随后 Mollick 补充说其声明的真假取决于 RAG 的定义，并指出随着模型上下文窗口扩大和长期记忆机制进化，显式检索增强逐渐让位于 Agent 内化的更高级上下文管理策略。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2040094108853600646">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="715-ai-网络安全能力时间轴57-个月翻倍速度前沿模型已达-105-小时专家任务门槛">7/15 AI 网络安全能力时间轴：5.7 个月翻倍速度，前沿模型已达 10.5 小时专家任务门槛</h2>
+<p>一项独立领域延伸研究将 METR 著名的时间轴分析应用到进攻性网络安全领域（使用真实人类专家计时数据）。结果与 METR 相似：约 5.7 个月的翻倍时间。目前前沿模型在 10.5 小时专家级任务上的成功率约为 50%。Mollick 引用了这项研究，强调 AI 在专业网络安全任务中的快速能力增长，尤其对关键基础设施的潜在影响。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2040097443807641982">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="815-together-ai--deepgram实时语音-agent-全栈统一到单一生产环境">8/15 Together AI × Deepgram：实时语音 Agent 全栈统一到单一生产环境</h2>
+<p>Together AI 宣布与 Deepgram 合作，将其语音转文字（STT）和文字转语音（TTS）模型原生托管到 Together AI 平台。现已可用：Flux（对话级 STT，250ms 端点检测）、Nova-3 + Nova-3 Multilingual（多语言生产转录）、Aura-2（高质量 TTS）。全部运行在 Together AI Dedicated Deployments 上，语音 Agent 开发者可在单一平台完成完整语音栈部署，无需跨多个提供商。</p>
+<ul>
+  <li><a href="https://x.com/togethercompute/status/2040137725966246021">查看 @togethercompute 原始推文</a></li>
+</ul>
+
+<h2 id="915-together-ai-上线-wan-27-视频生成从文本到-1080p-视频的专业级工作流">9/15 Together AI 上线 Wan 2.7 视频生成：从文本到 1080P 视频的专业级工作流</h2>
+<p>Together AI 宣布将阿里云 Wan 2.7 模型纳入平台。核心功能：文本生成视频（720P/1080P，2-15 秒，可选音频输入）、场景续写、参考驱动控制、输出修订。Together AI 定位为面向 AI 原生开发者提供更清晰的从初次视频生成到续写、精调的完整工作流路径。这是继 Deepgram 语音之后，Together AI 在多模态 AI 服务平台方向的又一重要扩展。</p>
+<ul>
+  <li><a href="https://x.com/togethercompute/status/2040179789340827746">查看 @togethercompute 原始推文</a></li>
+</ul>
+
+<h2 id="1015-netflix-void-模型首个公开发布在-huggingface-的-netflix-模型">10/15 Netflix VOID 模型：首个公开发布在 HuggingFace 的 Netflix 模型</h2>
+<p>Netflix 在 Hugging Face 上公开发布了其首个 AI 模型——VOID，引发开发者社区广泛关注。VOID 具备目标检测、场景理解等视觉能力，标志着这家娱乐巨头正式迈入开源 AI 模型领域。Hugging Face 和 Clement Delangue 均转发了该消息，社区对 Netflix 的首次开源模型发布反响热烈。具体模型架构和性能细节正在被社区深度评测。</p>
+<ul>
+  <li><a href="https://x.com/huggingface/status/2040072289316724863">查看 @huggingface 原始推文</a></li>
+</ul>
+
+<h2 id="1115-replit-canvas-发布ai-驱动的视觉设计到应用由-tldraw-提供底层支持">11/15 Replit Canvas 发布：AI 驱动的视觉设计到应用，由 tldraw 提供底层支持</h2>
+<p>Replit 宣布与 tldraw 合作推出 Replit Canvas，让用户可以：用 AI 生成多个设计变体、在画布上可视化协作设计、直接从设计生成可运行的应用。Replit 同时预告「Something big is coming」（申请候补名单）。本周 Agent 4 Content Challenge 第二周优胜者 Marcos Leal 用 Agent 4 构建了一个个性化每日新闻简报，展示了 Replit 平台的应用构建能力。</p>
+<ul>
+  <li><a href="https://x.com/Replit/status/2040073400505569610">查看 @Replit 原始推文</a></li>
+</ul>
+
+<h2 id="1215-keras-kinetic-发布用装饰器一键运行-tpugpu-云端任务">12/15 Keras Kinetic 发布：用装饰器一键运行 TPU/GPU 云端任务</h2>
+<p>François Chollet 在 Keras 社区例会上发布 Keras Kinetic——一个通过简单装饰器即可将本地 Python 函数提交到 Google Cloud TPU/GPU 的新库，类似 Modal 但支持 TPU。功能包括：自动代码打包、数据集上传、日志流式输出，以及分布式训练和异步任务支持，兼容所有 Keras 后端（JAX、TensorFlow、PyTorch）。目前处于 Beta 阶段。Chollet 同时宣布 Keras 3.14 即将发布，包含大量新特性。</p>
+<ul>
+  <li><a href="https://x.com/fchollet/status/2040119594984284218">查看 @fchollet 原始推文</a></li>
+</ul>
+
+<h2 id="1315-langsmith--claude-code首个子-agent-运行追踪插件">13/15 LangSmith × Claude Code：首个子 Agent 运行追踪插件</h2>
+<p>LangChain 官方发布了一个新插件，可将 Claude Code 的子 Agent 运行追踪到 LangSmith。LangChain 创始人 Harrison Chase 转发并指出这与他即将发布的博客文章有关，并强调「记忆不能被锁定在专有 harness 或专有 API 后面」——这也是 LangChain 大力推进开放 harness 标准的核心动机之一。</p>
+<ul>
+  <li><a href="https://x.com/hwchase17/status/2040134178864546159">查看 @hwchase17 原始推文</a></li>
+</ul>
+
+<h2 id="1415-claude-code-源码泄露分析reacthooks意大利面条式架构">14/15 Claude Code 源码泄露分析：React+Hooks「意大利面条式」架构</h2>
+<p>研究者 Yoav Goldberg 阅读了泄露的 Claude Code 源码后直言：「代码非常混乱，我很惊讶它居然能正常运行并持续添加新功能——说明 coding 模型确实很厉害。」他特别指出，那些声称将 Claude Code「翻译」为 Python 或 Rust 的仓库几乎不可能真实准确，因为原始代码是大量 React hooks 和 useEffect 的高度交织，极难在其他语言中可靠地镜像其语义。</p>
+<ul>
+  <li><a href="https://x.com/yoavgo/status/2040186408485196263">查看 @yoavgo 原始推文</a></li>
+  <li><a href="https://x.com/yoavgo/status/2040184658155942392">查看 @yoavgo 原始推文</a></li>
+</ul>
+
+<h2 id="1515-机器人学会打网球仅用业余玩家短视频片段完成训练">15/15 机器人学会打网球：仅用业余玩家短视频片段完成训练</h2>
+<p>研究人员展示了一个惊人成果：仅通过几段业余球员进行正手、反手和步法练习的视频片段，机器人学会了打网球——一项速度极快、协调要求极高的运动。这是机器人从人类非结构化视频中自主学习复杂动态技能的又一重要里程碑，展示了模仿学习在机器人控制领域的快速进展。</p>
+<ul>
+  <li><a href="https://x.com/rowancheung/status/2040085788256506190">查看 @rowancheung 原始推文</a></li>
+</ul>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="gemma-4google-重返开源前沿的完整技术图谱">Gemma 4：Google 重返开源前沿的完整技术图谱</h3>
+<p>Gemma 4 共有四种尺寸：31B Dense（本地高性能推理）、26B MoE（A4B，仅 4B 激活参数）、E4B 和 E2B（Edge 端实时推理）。核心能力：原生多模态（文本、图像、音频输入）、256K 上下文、原生工具使用（函数调用）。主要基准：31B 在 AIME 2025 得分 89.2%、LiveCodeBench 80%，LMArena ELO ~1452（全球 #3）。许可证：Apache 2.0（真正的开源）。部署：26B MoE 的 Q4_K_M 量化版约 18.3GB，可在 Mac Mini M4（16GB）上以 34 tokens/s 流畅运行；RTX 4090 单卡 162 tokens/s 解码、8400 tokens/s 预填充；RTX 上 llama.cpp 额外获得 2.7x 加速。NVIDIA NVFP4 量化版提供 4x 压缩且保持前沿性能。Jeff Dean 提交了 transformers 库 PR（14 位联合作者），社区在发布当天完成了 MLX、GGUF、transformers.js、KerasHub 等全栈适配。Clement Delangue 展示了在浏览器中通过 transformers.js 运行 Gemma 4 的完整本地推理——「100% 本地、100% 隐私、100% 免费」。
+<a href="https://deepmind.google/models/gemma">查看原文</a>
+<a href="https://x.com/ClementDelangue/status/2039941213244072173">查看原文</a></p>
+
+<h3 id="anthropic-model-diffing用差异审计揭露-ai-模型的隐性对齐特征">Anthropic Model Diffing：用「差异审计」揭露 AI 模型的隐性对齐特征</h3>
+<p>这项由 Anthropic Fellows 项目出品的研究将软件开发中的「diff」原则应用到 AI 模型可解释性分析中。核心思路：如果新模型与受信任模型共享某个特征，那个区域可能不需要审查；Model Diffing 只隔离新模型特有的特征——那里最可能隐藏新风险。技术上通过稀疏自编码器（SAE）提取神经特征，然后用相似度匹配来识别两个模型之间的差异特征。关键发现：比较 Alibaba Qwen 与 Meta Llama，在 Qwen 中发现了「CCP alignment（中共对齐）」特征，在 Llama 中发现了「American exceptionalism（美国例外主义）」特征，两者均为对方所没有的。此方法的局限性：有时会过度敏感地将相似特征标记为不同。这是首次通过可解释性工具在开源模型中系统检测出地缘政治对齐特征，对 AI 供应链安全、模型审计和监管合规具有深远意义。
+<a href="https://x.com/AnthropicAI/status/2040179539738030182">查看原文</a></p>
+
+<h3 id="ai-进攻性网络安全能力时间轴分析metr-延伸研究">AI 进攻性网络安全能力时间轴分析（METR 延伸研究）</h3>
+<p>这项独立研究将 METR 的时间轴分析方法延伸到进攻性网络安全领域，使用真实人类专家计时数据作为基准（而非众包标注）。核心发现：AI 能力翻倍时间约为 5.7 个月，与 METR 原始结论高度吻合。前沿模型目前在 10.5 小时专家级网络安全任务上的成功率约为 50%，即模型已能独立完成需要专业安全研究员大半天工作量的任务。按照 5.7 个月翻倍速度推算，2026 年底前沿模型有望在更长时间跨度的专家级任务上达到 50% 成功率，意味着 AI 在关键基础设施渗透测试等高价值场景的能力将快速逼近人类专家水平。
+<a href="https://x.com/emollick/status/2040097443807641982">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/ai-daily/2026/04/03/">
+          <span>上一篇</span>
+          <strong>AI Frontier Daily | 2026.04.03</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/04/05/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.04.05</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2026  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

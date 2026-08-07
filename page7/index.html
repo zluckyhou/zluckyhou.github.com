@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="分享学习、AI、互联网，以及一切有趣的东西！">
+    <meta name="description" content="每天筛选值得关注的 AI 信号；用财报、产品与数据，持续记录技术如何改变商业和人的选择。">
     <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
     
     <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
 
-    <title>Articles - Freedom Hunter</title>
+    <title>首页 - Freedom Hunter</title>
 
     <link rel="canonical" href="https://zluckyhou.github.io/page7/">
 
@@ -24,14 +24,14 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
 
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,325 +66,193 @@
 
 <body ontouchstart="">
 
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Freedom Hunter</a>
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/about/">About</a>
-                </li>
-                <li>
-                    <a href="/">Articles</a>
-                </li>
-                <li>
-                    <a href="/history/">History</a>
-                </li>
-                <li>
-                    <a href="/tags/">Tags</a>
-                </li>
-                
-                <!--                 
-                    <li>
-                        <a href="/Tool/">Tools</a>
-                    </li>
-                
-                    <li>
-                        <a href="/about/">About</a>
-                    </li>
-                
-                    <li>
-                        <a href="/history/">History</a>
-                    </li>
-                
-                    <li>
-                        <a href="/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/milestone/">milestone</a>
-                    </li>
-                
-                    <li>
-                        <a href="/tags/">Tags</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page2/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page3/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page4/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page5/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page6/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page7/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page8/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page9/">Articles</a>
-                    </li>
-                 -->
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
     </div>
-    <!-- /.container -->
 </nav>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/dark_yellow_400.png')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Articles</h1>
-                    <hr class="small">
-                    <span class="subheading">分享学习、AI、互联网，以及一切有趣的东西！</span>
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+<main class="editorial-home" id="top">
+    <section class="editorial-hero">
+        <div class="editorial-shell editorial-hero__grid">
+            <div class="editorial-hero__copy">
+                <p class="editorial-eyebrow">产品 · 数据 · AI</p>
+                <h1>读懂 AI 进展，<br>也看公司<em>真实增长</em></h1>
+                <p class="editorial-hero__note">每天筛选值得关注的 AI 信号；用财报、产品与数据，持续记录技术如何改变商业和人的选择。</p>
+            </div>
+            <aside class="editorial-manifesto">
+                <span>EDITOR'S NOTE / 001</span>
+                <p>这里不追逐所有热点。日报负责速度，公司观察负责深度，长期文章负责留下判断。</p>
+            </aside>
+        </div>
+    </section>
+
+    
+    <section class="editorial-shell daily-lead" aria-labelledby="daily-lead-title">
+        <aside class="daily-lead__rail">
+            <p class="editorial-section-label">Today's issue</p>
+            <div class="daily-lead__number" aria-hidden="true">07</div>
+            <div class="daily-lead__stats">
+                <div>
+                    <strong>12</strong>
+                    <span>今日主线</span>
+                </div>
+                <div>
+                    <strong>8</strong>
+                    <span>Deep Dives</span>
                 </div>
             </div>
+        </aside>
+
+        <article class="daily-lead__story">
+            <div class="editorial-meta">
+                <span class="editorial-pill">AI Frontier Daily</span>
+                <span>2026.08.07</span>
+                <span>约 14 分钟</span>
+            </div>
+            <h2 id="daily-lead-title"><a href="/ai-daily/2026/08/07/">OpenAI 统一 ChatGPT 体验，AI Agent 基建继续产品化</a></h2>
+            <p>今天的 12 条主线覆盖 GPT-5.6 Sol、WeatherNext、Cursor Router、开放模型成本线、生成视频与 AI 安全。重点不只是模型变强，而是路由、插件、安全审查和长程研究正在成为新的产品层。</p>
+            <div class="daily-lead__footer">
+                <div class="daily-lead__signals">OpenAI · DeepMind · Cursor · Meta · Qwen · FLUX · Suno · Sakana</div>
+                <a class="editorial-read-link" href="/ai-daily/2026/08/07/">读今日完整日报</a>
+            </div>
+        </article>
+    </section>
+    
+
+    <section class="editorial-content-section editorial-shell" id="company-research">
+        <header class="editorial-section-head">
+            <div>
+                <p class="editorial-section-label">Company intelligence / 01</p>
+                <h2>公司观察</h2>
+            </div>
+            <a href="/company-research/">浏览全部财报分析 ↗</a>
+        </header>
+
+        <div class="finance-grid">
+            
+            <article class="finance-card finance-card--featured">
+                <a href="/blog/2026/08/08/spacex_2026q2_earnings_call/">
+                    <div class="finance-card__topic">
+                        <span>SpaceX · 2026Q2电话会</span>
+                        <span>2026.08.08</span>
+                    </div>
+                    <h3>SpaceX 2026Q2电话会——马斯克把万亿美元营收目标提前到2030，算力扩张成为新主线</h3>
+                    <p>SpaceX上市后首次业绩电话会实录解读：马斯克宣布内部万亿美元营收目标从2031年提前至2030年，甚至"有非零概率在2029年实现"；宣布数据中心全面独家采用Nvidia芯片，明年算力目标最高20吉瓦；Starship隔...</p>
+                    <span class="finance-card__metric">万亿营收目标2031→2030</span>
+                </a>
+            </article>
+            
+            <article class="finance-card">
+                <a href="/blog/2026/08/07/spacex_2026q2_earnings/">
+                    <div class="finance-card__topic">
+                        <span>SpaceX · 2026Q2</span>
+                        <span>2026.08.07</span>
+                    </div>
+                    <h3>SpaceX 2026Q2——上市后首份财报，营收78亿美元同比大增92%，火箭公司只剩12%是火箭</h3>
+                    <p>SpaceX于2026年6月12日完成史上最大规模IPO后，8月4日交出首份季度财报：2026Q2营收78.1亿美元，同比大增92%；净亏损从10亿美元收窄至5.4亿美元。营收结构令人意外——星链通信业务占55%，向Anth...</p>
+                    <span class="finance-card__metric">营收同比+92%</span>
+                </a>
+            </article>
+            
+            <article class="finance-card">
+                <a href="/blog/2026/08/07/apple_fy2026q3_earnings/">
+                    <div class="finance-card__topic">
+                        <span>苹果 · FY2026Q3</span>
+                        <span>2026.08.07</span>
+                    </div>
+                    <h3>Apple 2026财年Q3——营收1094亿美元同比增长16%，库克交出任内最后一份"史上最强六月季度"</h3>
+                    <p>苹果2026财年第三财季（4-6月）营收1094亿美元，同比增长16.4%，创下六月季度历史纪录；净利润298亿美元，同比大增27.1%。iPhone营收543亿美元同比增长21.7%，Mac大涨28.7%，毛利率首次站上5...</p>
+                    <span class="finance-card__metric">营收同比+16.4%，净利润同比+27.1%</span>
+                </a>
+            </article>
+            
         </div>
-    </div>
-</header>
+    </section>
 
-<link rel="stylesheet" href="/css/backtop.css">  <!-- Back Top -->
-<script type="text/javascript" src="/js/backtop.js"></script>  <!-- Back Top -->
+    <section class="ideas-section" id="ideas">
+        <div class="editorial-shell">
+            <header class="editorial-section-head">
+                <div>
+                    <p class="editorial-section-label">Ideas & practice / 02</p>
+                    <h2>思考与实践</h2>
+                </div>
+                <a href="/articles/">查看文章归档 ↗</a>
+            </header>
 
-<div id="back-top">
-  <a href="#top" title="回到顶部"></a>
-</div>
-
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-			<div style="max-width: 800px; margin: 0 auto; font-family: Arial, sans-serif;">
-    <!-- <h1 style="color: #1EB2A6; text-align: center;">文章列表</h1> -->
-    <!-- <p style="text-align: center; color: #666; margin-bottom: 30px;">分享学习、AI、互联网，以及一切有趣的东西！</p> -->
-
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2016/07/02/cmd%E5%91%BD%E4%BB%A4/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                cmd命令更改目录
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                开发过程中会经常用到cmd命令，有时候需要在指定目录下进行操作，那么如何利用cmd命令更改目录呢？其实非常简单
-CMD如何切换目录
-
-
-  
-    首先打开命令提示符符，在搜索框中键入cmd，打开即可；
-  
-  
-    在命令提示符窗口输入cd + 空格+指定目录，例如cd C:\Use...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on July 2, 2016</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2016/07/01/%E9%AD%94%E9%83%BD%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                初来魔都有感
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                6月27日，周一，魔都的天阴沉沉的，这是我第二次来上海，两次都是为了面试。
-
-早上7点，动车到达虹桥火车站，拖着疲倦的身体去赶地铁，希望可以多留出一点时间来睡觉，下午还有面试，总得有点精神。
-
-11点，休息一个多小时之后本能地爬起，5分钟内洗漱完成，10分钟内换上正装，穿上皮鞋，面带倦意地出门...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on July 1, 2016</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2016/06/30/python%E7%88%AC%E8%99%AB/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                用python学爬虫
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                通过跟老齐学python的学习，python基础已经基本过了一遍，突然发现，再过一遍并没有比第一遍学习《python基础教程》时有多大的长进，python的学习不是通过学习教程就可以掌握的，而需要不断的通过项目来练习，在项目中运用已学的知识，这样才能掌握的牢固。
-
-因此，本文尝试学习很久以来一...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on June 30, 2016</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2016/06/20/%E8%B7%9F%E8%80%81%E9%BD%90%E5%AD%A6python/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                跟老齐学python
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                本文来自跟老齐学python，希望从现在开始，重新努力学习python，把这本书中的一些重点积累在这里，一来督促自己学习，二来积攒一些学习的素材和经验。由于是自己学习，本文不会刻意追求排版的优美，只求清晰明了地记录一些自己认为重要的东西。
-
-在此首先表示对老齐的由衷感谢，最近一段时间，我特别觉...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on June 20, 2016</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2016/06/02/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                统计学习
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                统计之都
-
-ESL笔记
-
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on June 2, 2016</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2016/05/29/R%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                R语言实用小技巧
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
+            <div class="ideas-list">
                 
-  
-    一行R代码来实现繁琐的可视化
-  
-  
-    R notebook
-  
-
-
-
+                <a class="idea-row" href="/blog/2024/11/23/pixar_building/">
+                    <time datetime="2024-11-23T00:00:00+08:00">2024.11.23</time>
+                    <h3>皮克斯CEO - 建筑是用来交流的</h3>
+                    <span>皮克斯 · 乔布斯</span>
+                </a>
+                
+                <a class="idea-row" href="/blog/2024/11/10/america_-elections_2024/">
+                    <time datetime="2024-11-10T00:00:00+08:00">2024.11.10</time>
+                    <h3>川普获胜，美股再创新高，这是什么逻辑？</h3>
+                    <span>2024美国大选</span>
+                </a>
+                
+                <a class="idea-row" href="/blog/2024/11/06/why_japanese_yan_is_so_weak/">
+                    <time datetime="2024-11-06T00:00:00+08:00">2024.11.06</time>
+                    <h3>为什么日元如此疲软，日本却仍然是一个高度发达的国家？</h3>
+                    <span>日本</span>
+                </a>
+                
+                <a class="idea-row" href="/blog/2024/10/12/subtitle_trick/">
+                    <time datetime="2024-10-12T00:00:00+08:00">2024.10.12</time>
+                    <h3>一个简单的神奇策略，轻松解决长字幕问题</h3>
+                    <span>AI · 字幕</span>
+                </a>
+                
             </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on May 29, 2016</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2016/05/29/CNAME-file-problem/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                CNAME file problem
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                昨天更新博客，收到一条提示邮件，内容是这样的：
-
-
-  Page build warning
-
-
-
-  The page build completed successfully, but returned the following warning:
-
-
-
-  Your CNAME file...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on May 29, 2016</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2016/05/28/SQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                SQL学习笔记
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                本文内容主要来自SQL菜鸟教程，感谢互联网。
-
-
-
-SQL简介
-
-SQL是什么
-
-
-  SQL，指结构化查询语言，全称是 Structured Query Language。
-  SQL 让您可以访问和处理数据库。
-  SQL 是一种 ANSI（American National Standa...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on May 28, 2016</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-
-    <!-- Pager -->
-    
-    <ul class="pager" style="list-style-type: none; padding: 0; text-align: center;">
-        
-        <li class="previous" style="display: inline-block; margin-right: 10px;">
-            <a href="/page6" style="color: #1EB2A6; text-decoration: none;">&larr; Newer Posts</a>
-        </li>
-        
-        
-        <li class="next" style="display: inline-block;">
-            <a href="/page8" style="color: #1EB2A6; text-decoration: none;">Older Posts &rarr;</a>
-        </li>
-        
-    </ul>
-    
-</div>
-
-		</div>
-	</div>
-</div>
-
-<hr>
+        </div>
+    </section>
+</main>
 
 
     <!-- Footer -->
@@ -458,14 +326,13 @@ SQL是什么
 
 
 <!-- Highlight.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.1/async.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
 <script>
-    async("https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+    if (window.hljs) {
         hljs.initHighlightingOnLoad();
-    })
+    }
 </script>
 <link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
-
 
 
     

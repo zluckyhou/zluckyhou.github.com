@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Anthropic 宣布与 Amazon 大幅扩大合作：双方共同确保最高 5 吉瓦的算力用于训练和部署 Claude，首批 Trainium2 大规模容量将于 2026 年第二季度上线，Trainium3 则预计年内跟进。财务层面，Amazon 今日追加投资 50 亿美元，未来还可能再注资最高 200 亿美元；Anthropic 则承诺在未来十年内向 AWS 技术投入逾 1000 亿美元。值得关注的是，Anthropic 当前年化营收已突破 300 亿美元（2025 年底约为 90 亿美元），在 Amazon Bedrock 上运行 Claude 的客户超过 10 万家。Claude 完整平台将直接集成进 AWS，统一账号管理与计费，目前处于私测阶段。">
+    <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.04.21 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/04/21/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
+        </div>
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.04.21</p>
+    <h1>Anthropic 与 Amazon 达成史诗级算力与投资协议</h1>
+    
+    <p class="article-deck">Anthropic 宣布与 Amazon 大幅扩大合作：双方共同确保最高 5 吉瓦的算力用于训练和部署 Claude，首批 Trainium2 大规模容量将于 2026 年第二季度上线，Trainium3 则预计年内跟进。财务层面，Amazon 今日追加投资 50 亿美元，未来还可能再注资最高 200 亿美元；Anthropic 则承诺在未来十年内向 AWS 技术投入逾 1000 亿美元。值得关注的是，Anthropic 当前年化营收已突破 300 亿美元（2025 年底约为 90 亿美元），在 Amazon Bedrock 上运行 Claude 的客户超过 10 万家。Claude 完整平台将直接集成进 AWS，统一账号管理与计费，目前处于私测阶段。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-04-21T09:07:00+08:00">2026年4月21日</time>
+      <span>15 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>16</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>5</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>15</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="116-anthropic-与-amazon-达成史诗级算力与投资协议">1/16 Anthropic 与 Amazon 达成史诗级算力与投资协议</h2>
+<p>Anthropic 宣布与 Amazon 大幅扩大合作：双方共同确保最高 5 吉瓦的算力用于训练和部署 Claude，首批 Trainium2 大规模容量将于 2026 年第二季度上线，Trainium3 则预计年内跟进。财务层面，Amazon 今日追加投资 50 亿美元，未来还可能再注资最高 200 亿美元；Anthropic 则承诺在未来十年内向 AWS 技术投入逾 1000 亿美元。值得关注的是，Anthropic 当前年化营收已突破 300 亿美元（2025 年底约为 90 亿美元），在 Amazon Bedrock 上运行 Claude 的客户超过 10 万家。Claude 完整平台将直接集成进 AWS，统一账号管理与计费，目前处于私测阶段。</p>
+<ul>
+  <li><a href="https://x.com/AnthropicAI/status/2046327624092487688">查看 @AnthropicAI 原始推文</a></li>
+  <li><a href="https://x.com/AnthropicAI/status/2046327625367625773">查看 @AnthropicAI 原始推文</a></li>
+</ul>
+
+<h2 id="216-kimi-k26-发布开源编程-sota-新标杆">2/16 Kimi K2.6 发布：开源编程 SOTA 新标杆</h2>
+<p>Moonshot AI 发布 Kimi K2.6，在多项权威基准上刷新开源纪录：HLE（含工具）54.0%、SWE-Bench Pro 58.6%、SWE-Bench Multilingual 76.7%、BrowseComp 83.2%、AIME 2026 96.4%。K2.6 最大亮点是长程编程能力——可执行超过 12 小时的工程任务，完成 4000+ 工具调用；支持最多 300 个子 Agent 并行协作完成复杂目标。前端能力同样出色，可原生生成 WebGL 着色器、Three.js 3D 场景、GSAP 动画及完整全栈应用（含认证、数据库、后端部署）。模型已通过 Kimi.com、API 和 Kimi Code 开放访问，Hugging Face 亦同步上线开源权重。</p>
+<ul>
+  <li><a href="https://x.com/Kimi_Moonshot/status/2046249571882500354">查看 @Kimi_Moonshot 原始推文</a></li>
+  <li><a href="https://x.com/Kimi_Moonshot/status/2046265960383033825">查看 @Kimi_Moonshot 原始推文</a></li>
+</ul>
+
+<h2 id="316-阿里巴巴预览-qwen36-max下一代旗舰模型浮出水面">3/16 阿里巴巴预览 Qwen3.6-Max，下一代旗舰模型浮出水面</h2>
+<p>阿里巴巴 Qwen 团队发布 Qwen3.6-Max-Preview，作为下一代旗舰模型的早期预览版本。官方公布的改进方向包括：相较 Qwen3.6-Plus 的 Agentic 编程能力提升、更强的世界知识与指令遵循能力，以及更可靠的真实世界 Agent 与知识性能。该模型目前处于”仍在演进”的预览阶段，完整版本尚待发布，但此举标志着 Qwen 系列持续向下一代能力边界推进。</p>
+<ul>
+  <li><a href="https://x.com/Alibaba_Qwen/status/2046227759475921291">查看 @Alibaba_Qwen 原始推文</a></li>
+</ul>
+
+<h2 id="416-google-ai-studio-向-proultra-订阅用户开放更高配额">4/16 Google AI Studio 向 Pro/Ultra 订阅用户开放更高配额</h2>
+<p>Google AI Studio（原 MakerSuite）宣布全面接入 Google AI 订阅计划：Pro 和 Ultra 订阅用户现在可以直接在 AI Studio 中以更高的速率限制进行 Vibe 编程和 Playground 使用。该功能已立即生效，意在降低 API key 门槛、提升订阅用户的开发体验；部分功能仍需 API key，工作区（Workspace）订阅支持则在持续跟进中。</p>
+<ul>
+  <li><a href="https://x.com/OfficialLoganK/status/2046335947869155529">查看 @OfficialLoganK 原始推文</a></li>
+</ul>
+
+<h2 id="516-openai-codex-推出实验性chronicle功能持久视觉记忆">5/16 OpenAI Codex 推出实验性”Chronicle”功能：持久视觉记忆</h2>
+<p>OpenAI 总裁 Greg Brockman 介绍了 Codex 的实验性新功能 Chronicle：该功能赋予 Codex 实时感知和记忆用户屏幕所见内容的能力，自动为 AI 提供完整的操作上下文，无需手动粘贴截图或描述。内部研发代号为”Telepathy”（心灵感应），Brockman 描述使用体验”出乎意料地神奇”。此外，Brockman 还分享了 Hyatt 酒店集团正在向全员大规模部署 AI 的进展。</p>
+<ul>
+  <li><a href="https://x.com/gdb/status/2046293955009274019">查看 @gdb 原始推文</a></li>
+</ul>
+
+<h2 id="616-cursor-cli-多项品质改进debugbtwconfigstatusline">6/16 Cursor CLI 多项品质改进：/debug、/btw、/config、/statusline</h2>
+<p>Cursor 发布一系列终端 CLI 品质改进：/debug 命令专注于找出难以复现的根因 Bug；/btw 允许在 Agent 运行过程中插入快速旁白问题，而不打断主任务流程；/config 在 CLI 内直接打开设置面板，可查看和修改运行时偏好；/statusline 支持自定义状态栏内容，显示当前会话信号。</p>
+<ul>
+  <li><a href="https://x.com/cursor_ai/status/2046324136377721128">查看 @cursor_ai 原始推文</a></li>
+  <li><a href="https://x.com/cursor_ai/status/2046324138172989687">查看 @cursor_ai 原始推文</a></li>
+</ul>
+
+<h2 id="716-boston-dynamics-spot-接入-google-deepmind-gemini-robotics">7/16 Boston Dynamics Spot 接入 Google DeepMind Gemini Robotics</h2>
+<p>Boston Dynamics 宣布其四足机器人 Spot 现已搭载 Google DeepMind 的 Gemini Robotics-ER 1.6 具身推理模型。主要应用场景为工业巡检：Spot 可自主识别危险碎片与液体泄漏、读取复杂仪表，并利用多角度摄像头进行任务完成度确认。DeepMind 机器人团队负责人 Carolina Parada 强调，推理模型会主动考虑动作后果（如拒绝将水杯放在桌沿易坠落处），体现出安全感知能力。Spot 目前已在全球数千家设施商业化部署，是现阶段具身 AI 落地规模最大的腿足机器人。</p>
+<ul>
+  <li><a href="https://x.com/rowancheung/status/2046245892328743221">查看 @rowancheung 原始推文</a></li>
+</ul>
+
+<h2 id="816-anthropic-启动-stem-fellows-项目招募各领域博士加速科研">8/16 Anthropic 启动 STEM Fellows 项目：招募各领域博士加速科研</h2>
+<p>Anthropic 宣布启动 STEM Fellows 项目，面向 STEM 领域博士（或同等研究背景者）开放申请。项目为期 3 个月（2026 年 6 月 15 日至 9 月 15 日），地点为旧金山，提供每周约 3800 美元的全职全勤薪酬。Fellows 将与 Anthropic 研究团队协作，设计严格的模型能力评估方案，聚焦实验规划、数据解读和机理推理等维度，并将 Claude 应用于本领域未解问题。申请截止日期为 5 月 15 日，6 月 1 日公布结果。</p>
+<ul>
+  <li><a href="https://x.com/AnthropicAI/status/2046362119755727256">查看 @AnthropicAI 原始推文</a></li>
+</ul>
+
+<h2 id="916-ai-经济学家研究claude-code-与-codex-达到人类中位数水平">9/16 AI 经济学家研究：Claude Code 与 Codex 达到人类中位数水平</h2>
+<p>一项新研究复现了经典的”146 个经济学家团队分析同一数据集得出截然不同结论”实验，这次用 Agentic AI 代替人类。结果显示：Claude Code 和 Codex 均落在人类结果中位数附近，但离散度显著更小，没有极端值。AI 评审员对研究质量的排名保持高度一致：Codex GPT-5.4 &gt; GPT-5.3-Codex &gt; Opus 4.6 &gt; 人类团队。研究者 Ethan Mollick 总结：AI 正成为可规模化复现经济学研究的工具，且比人类更具一致性。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2046362044786458648">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2046411222354989189">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="1016-sakana-ai-iclr-2026-论文llms-无法真正掷骰子">10/16 Sakana AI ICLR 2026 论文：LLMs 无法真正”掷骰子”</h2>
+<p>Sakana AI 的 SSoT（String Seed of Thought）论文将在 ICLR 2026 正式亮相。核心发现：让 LLM 重复执行”投掷公平硬币”操作时，正反面比例会严重偏离 50:50，即使明确给出目标概率也无济于事。SSoT 提出的解法是纯提示工程——让模型先生成随机字符串，再通过 ASCII 值算术或滚动哈希操控该字符串得出答案。在石头剪刀布对抗测试中，SSoT 接近伪随机数生成器水平，有效克服了对手的预测。该工作无需外部工具或模型微调，纯靠提示即可解决。</p>
+<ul>
+  <li><a href="https://x.com/SakanaAILabs/status/2046248967307174225">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/hardmaru/status/2046249364604231698">查看 @hardmaru 原始推文</a></li>
+</ul>
+
+<h2 id="1116-gary-marcusamazon-vibe-coding-热潮正在制造混乱">11/16 Gary Marcus：Amazon Vibe Coding 热潮正在制造混乱</h2>
+<p>AI 批评者 Gary Marcus 引用多篇分析，指出 Amazon 大规模推行 AI 辅助编程（”Vibe Coding”）后正在积累技术债务与工程混乱。Marcus 援引经济学家 kareem_carr 的话：LLMs 擅长”给定 A、B、C 推导 D”类数学题，但对需要成熟学术判断的任务”极差，像不成熟的本科生”。他同时指出 OpenAI 的市场份额正在流失。这一系列评论折射出业界对 AI 编程工具规模化落地质量的持续质疑。</p>
+<ul>
+  <li><a href="https://x.com/GaryMarcus/status/2046182689464525033">查看 @GaryMarcus 原始推文</a></li>
+  <li><a href="https://x.com/GaryMarcus/status/2046267501567267237">查看 @GaryMarcus 原始推文</a></li>
+</ul>
+
+<h2 id="1216-google-magika1mb-开源-ai-模型精准识别伪装成-pdf-的恶意软件">12/16 Google Magika：1MB 开源 AI 模型精准识别伪装成 PDF 的恶意软件</h2>
+<p>Google 发布开源文件检测系统 Magika，体积仅 1MB。与传统依赖文件扩展名的检测方式不同，Magika 直接读取文件实际内容来判断真实类型，从而识别伪装成 PDF 的恶意软件。该系统可快速识别文件真实格式，在安全场景下尤其具有实用价值——即便攻击者将可执行恶意代码命名为 .pdf 也无法躲过检测。</p>
+<ul>
+  <li><a href="https://x.com/AlphaSignalAI/status/2046197566287532262">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<h2 id="1316-luma-labs-推出多模态-agent一次-prompt-输出视频设计稿">13/16 Luma Labs 推出多模态 Agent：一次 prompt 输出视频+设计稿</h2>
+<p>Luma Labs 展示了新 Agent 能力：用户可上传原始素材（视频片段、图片、PDF、音频、logo），一句话描述需求，Agent 即可同步输出经过剪辑、配音、品牌设计并适配不同社交平台格式的 16:9 影片，以及打印级品质的 deck 文件。每个社交平台均有对应的创意语言适配（如 TikTok、Instagram、LinkedIn 等）。该系统还新增了基于个人风格描述生成定制表情包的功能。</p>
+<ul>
+  <li><a href="https://x.com/LumaLabsAI/status/2046273405859811717">查看 @LumaLabsAI 原始推文</a></li>
+</ul>
+
+<h2 id="1416-replit-agent-4一个项目同时支持-web移动端与幻灯片">14/16 Replit Agent 4：一个项目同时支持 Web、移动端与幻灯片</h2>
+<p>Replit 宣布 Agent 4 新功能：现有 Web 应用可直接添加配套移动端应用、幻灯片演示或动效——所有内容共享同一项目的品牌与数据。用户只需打开已有应用并向 Agent 描述需求即可，新用户还可获赠 5 美元体验额度。此举进一步强化了 Replit 从”代码平台”向”全栈 Agent 应用发布平台”的定位转型。</p>
+<ul>
+  <li><a href="https://x.com/Replit/status/2046286373553131671">查看 @Replit 原始推文</a></li>
+</ul>
+
+<h2 id="1516-langchain-创始人记忆memory将成为-ai-赛道的最大护城河">15/16 LangChain 创始人：记忆（Memory）将成为 AI 赛道的最大护城河</h2>
+<p>LangChain 创始人 Harrison Chase 在与 hwchase17 的讨论中指出，各大 AI 公司都深知”记忆”将是最大的用户留存壁垒，因此都在争相抢先落地。他认为记忆应当开放（Open Memory），避免厂商利用记忆数据形成垄断性锁定。这一讨论恰逢 OpenAI、Google、Anthropic 等纷纷强化记忆功能的时间节点，具有战略性意义。</p>
+<ul>
+  <li><a href="https://x.com/hwchase17/status/2046308913939919232">查看 @hwchase17 原始推文</a></li>
+</ul>
+
+<h2 id="1616-ethan-mollick开源模型基准分数虚高kimi-k26-也不例外">16/16 Ethan Mollick：开源模型基准分数虚高，Kimi K2.6 也不例外</h2>
+<p>Wharton 教授 Ethan Mollick 对 Kimi K2.6 进行了一系列实测，包括 74 页思维链的”Lem Test”、TiKZ 独角兽绘制和 twigl 着色器编写等。他的结论是：开源模型普遍在基准上超发挥，实际使用时落差明显——K2.6 与 Claude Opus 4.6 相比仍有差距（后者虽被 K2.6 在基准上超越）。他总结：K2.6 是不错的模型，但开源 vs 闭源前沿的差距大致保持不变。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2046411222354989189">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2046430301593751797">查看 @emollick 原始推文</a></li>
+</ul>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="anthropic--amazon史诗级算力与资本绑定">Anthropic × Amazon：史诗级算力与资本绑定</h3>
+<p>2026 年 4 月 20 日，Anthropic 官方宣布与 Amazon 扩大合作。核心条款：① 共同锁定最高 5 吉瓦算力用于 Claude 训练与推理，芯片路线图覆盖 Graviton、Trainium2、Trainium3 至 Trainium4；② Anthropic 目前已使用超过 100 万片 Trainium2 进行训练和推理服务；③ Amazon 今日注资 50 亿美元，未来还可增至最高 200 亿美元；④ Anthropic 承诺在未来十年内向 AWS 投入逾 1000 亿美元；⑤ 年化营收从 2025 年底约 90 亿美元飙升至目前超过 300 亿美元；⑥ Amazon Bedrock 上已有超过 10 万家客户运行 Claude。首批 Trainium2 大规模容量将于 Q2 2026 上线，Trainium3 年内跟进，容量不足所致的服务可靠性问题有望逐步缓解。
+<a href="https://www.anthropic.com/news/anthropic-amazon-compute">查看原文</a></p>
+
+<h3 id="kimi-k26开源长程-agent-与编程新基准">Kimi K2.6：开源长程 Agent 与编程新基准</h3>
+<p>Moonshot AI 发布的 Kimi K2.6 在技术上有几个关键突破：一是长程执行——在 Terminal-Bench 2.0 达到 66.7%，可完成超过 12 小时的工程任务（4000+ 工具调用）；二是 Agent 群落（Swarm）支持——最多可协调 300 个子 Agent、4000 步骤并行执行；三是 5 天自主基础设施管理案例验证了其在 DevOps 场景的实用性；四是前端生成能力极强，原生支持 WebGL/WGSL 着色器、Three.js 3D、GSAP 动效以及完整全栈（Auth + DB + 后端 + 部署）一步到位。主要基准：SWE-Bench Pro 58.6%、SWE-Bench Multilingual 76.7%、HLE（含工具）54.0%、BrowseComp 83.2%、AIME 2026 96.4%。模型权重已在 Hugging Face 开放，可通过 Kimi.com、API、Kimi Code 访问。
+<a href="https://www.kimi.com/blog/kimi-k2-6">查看原文</a></p>
+
+<h3 id="boston-dynamics-spot--gemini-robotics-er-16">Boston Dynamics Spot + Gemini Robotics-ER 1.6</h3>
+<p>Boston Dynamics 为 Spot 配备了 Google DeepMind Gemini Robotics-ER 1.6，一个专为具身推理设计的视觉-语言-动作模型。主要落地场景是工业巡检：Spot 可自主巡逻、识别危险碎片与泄漏、读取复杂仪表盘，并利用多摄像头角度确认任务完成情况。安全层面，模型内置后果推理机制（如主动避免将物品放在易坠落位置）。Boston Dynamics 采用 Beta 测试程序验证可靠性，内部目标是 80% 任务可靠度后才正式推向商用。Spot 目前全球商业部署超过数千台，是现阶段具身 AI 量产规模最大的腿足机器人平台。
+<a href="https://spectrum.ieee.org/boston-dynamics-spot-google-deepmind">查看原文</a></p>
+
+<h3 id="sakana-ai-ssot解决-llm-随机性偏差的纯提示工程方案">Sakana AI SSoT：解决 LLM 随机性偏差的纯提示工程方案</h3>
+<p>论文”SSoT: Prompting LLMs for Distribution-Faithful and Diverse Generation”将在 ICLR 2026 正式发表（作者：Kou Misaki 与 Takuya Akiba）。核心发现：所有主流 LLM 都存在系统性随机性偏差，无法忠实地从给定概率分布中采样。SSoT 的解法无需模型微调，仅靠提示工程：① 让模型生成随机字符串；② 通过 Sum-Mod（ASCII 值求和取模）或 Rolling Hash 操作将字符串转换为所需的概率输出。在分布一致性（PIF 任务）和生成多样性（寓言写作等 DAG 任务）两个维度均显著优于 baseline，DeepSeek-R1 在该方法下接近伪随机数生成器的统计水平。实践意义：在需要精确控制输出分布的 AI Agent 场景中（如 A/B 测试分配、随机策略决策）可直接应用。
+<a href="https://pub.sakana.ai/ssot">查看原文</a></p>
+
+<h3 id="anthropic-stem-fellows-项目详情">Anthropic STEM Fellows 项目详情</h3>
+<p>项目面向 STEM 博士（或同等研究背景）招募，全职驻场旧金山，时间为 2026 年 6 月 15 日至 9 月 15 日，每周薪酬约 3800 美元。工作内容：为 Claude 设计严格的领域能力评估（聚焦实验规划、数据解读、机理推理），识别模型能力缺口，开发针对性数据集，并将 Claude 应用于本领域未解问题。理想候选人需具备 AI 辅助科研热情、在专业工作流中熟练使用 Claude、能在快节奏环境中交付可量化成果。申请截止：5 月 15 日；结果公布：6 月 1 日；需有美国工作授权。
+<a href="https://job-boards.greenhouse.io/anthropic/jobs/5189848008">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/ai-daily/2026/04/20/">
+          <span>上一篇</span>
+          <strong>AI Frontier Daily | 2026.04.20</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/04/22/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.04.22</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2026  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

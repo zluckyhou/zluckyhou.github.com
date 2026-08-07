@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Meta 超级智能实验室（MSL）正式推出首款模型 Muse Spark，定位为"个人超级智能"路线图的起点。模型原生支持多模态推理、工具调用和多智能体协同。Contemplating 模式（并行 agent 协同）在 Humanity's Last Exam 上达到 58%，FrontierScience Research 达到 38%。预训练效率相比 Llama 4 Maverick 提升超一个数量级。Ethan Mollick 评价："表现远超预期——距 Llama 4 一年后 Meta 终于有了新模型，虽然还不及 Big Three，但是一个扎实的开始。"联合超过 1,000 名医生开发了互动式医疗健康功能。">
+    <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.04.12 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/04/12/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
+        </div>
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.04.12</p>
+    <h1>Meta 发布 Muse Spark：走向个人超级智能的第一步</h1>
+    
+    <p class="article-deck">Meta 超级智能实验室（MSL）正式推出首款模型 Muse Spark，定位为”个人超级智能”路线图的起点。模型原生支持多模态推理、工具调用和多智能体协同。Contemplating 模式（并行 agent 协同）在 Humanity’s Last Exam 上达到 58%，FrontierScience Research 达到 38%。预训练效率相比 Llama 4 Maverick 提升超一个数量级。Ethan Mollick 评价：”表现远超预期——距 Llama 4 一年后 Meta 终于有了新模型，虽然还不及 Big Three，但是一个扎实的开始。”联合超过 1,000 名医生开发了互动式医疗健康功能。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-04-12T09:07:00+08:00">2026年4月12日</time>
+      <span>13 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>15</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>5</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>13</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="115-meta-发布-muse-spark走向个人超级智能的第一步">1/15 Meta 发布 Muse Spark：走向个人超级智能的第一步</h2>
+<p>Meta 超级智能实验室（MSL）正式推出首款模型 Muse Spark，定位为”个人超级智能”路线图的起点。模型原生支持多模态推理、工具调用和多智能体协同。Contemplating 模式（并行 agent 协同）在 Humanity’s Last Exam 上达到 58%，FrontierScience Research 达到 38%。预训练效率相比 Llama 4 Maverick 提升超一个数量级。Ethan Mollick 评价：”表现远超预期——距 Llama 4 一年后 Meta 终于有了新模型，虽然还不及 Big Three，但是一个扎实的开始。”联合超过 1,000 名医生开发了互动式医疗健康功能。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2043209068890763334">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2043209495740842443">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="215-minimax-m27-开源代码模型登陆-together-aiswe-达到-gpt-5-级别">2/15 MiniMax M2.7 开源代码模型登陆 Together AI，SWE 达到 GPT-5 级别</h2>
+<p>MiniMax M2.7（229B 参数，FP4 量化）在 Together AI 上线。SWE-Pro 达到 56.22%，与 GPT-5.3-Codex 持平；MLE Bench Lite medal rate 66.6%，开源最高，仅次于 Opus-4.6 和 GPT-5.4。最关键的技术亮点：内部版本自主运行了 100+ 轮优化循环（分析失败轨迹→修改代码→评估结果→决定保留/回滚），在内部基准上实现 30% 自我提升。支持 40+ 复杂技能 97% 的合规率。定价 $0.30/1M 输入 tokens，$1.20/1M 输出 tokens。</p>
+<ul>
+  <li><a href="https://x.com/togethercompute/status/2043139509278396546">查看 @togethercompute 原始推文</a></li>
+  <li><a href="https://x.com/togethercompute/status/2043139511736222100">查看 @togethercompute 原始推文</a></li>
+  <li><a href="https://x.com/togethercompute/status/2043139513061679515">查看 @togethercompute 原始推文</a></li>
+</ul>
+
+<h2 id="315-langchain-发布你的-harness你的记忆agent-记忆锁定危机">3/15 LangChain 发布”你的 Harness，你的记忆”：Agent 记忆锁定危机</h2>
+<p>Harrison Chase（LangChain CEO）发布深度文章指出：Agent Harness 是永久性基础设施，而非过渡脚手架——Claude 泄露的代码库本身就有 512,000 行 harness 代码为证。核心论点：记忆与 harness 深度耦合，闭源 harness（如 Claude Agent SDK）将记忆锁定在供应商服务器，一旦切换模型即丢失全部积累记忆。LangChain 提出 Deep Agents 作为开源替代方案，支持 MongoDB/PostgreSQL/Redis 等可插拔数据库，让用户真正拥有 agent 记忆主权。文章在 AI 开发者社区引发大量转发和讨论。
+https://blog.langchain.com/your-harness-your-memory/</p>
+
+<h2 id="415-gary-marcusclaude-code-源码证明-ai-正走向神经符号混合架构">4/15 Gary Marcus：Claude Code 源码证明 AI 正走向神经符号混合架构</h2>
+<p>Gary Marcus 结合 Claude Code 泄露源码（尤其是 print.ts 中内嵌的 agent loop）发文指出：当前 AI 领域最重大进展（Claude Code、o3、Grok 4）本质上都是神经+符号的混合架构，而非”纯 LLM”。他在推文中写道：”没有任何方法可以让纯 LLM 完成 Claude Code 所做的事情——这就是为什么他们还使用了其他东西。”这被 Marcus 视为其倡导30年的”神经符号主义”立场的实证。Substack 文章标题：”o3 和 Grok 4 如何意外地证明了我是对的。”</p>
+<ul>
+  <li><a href="https://x.com/GaryMarcus/status/2043010252917051669">查看 @GaryMarcus 原始推文</a></li>
+</ul>
+
+<h2 id="515-abacus-ai-发布-agent-swarm多-agent-自动建构整个业务">5/15 Abacus AI 发布 Agent Swarm：多 Agent 自动建构整个业务</h2>
+<p>Abacus AI 创始人 Bindu Reddy 宣布推出 Agent Swarm 系统：Master Agent 动态生成多个 Worker Agent，分别负责研究、设计、编码、测试和自动化流程，底层调用 12+ 个 LLM（包括 Flash、Grok、GLM、Opus、Codex）。Master Agent 全程监控 Worker Agent 并在必要时进行干预。定位为”可以构建整个业务”的多智能体系统。Abacus AI 同步宣布正在整合更多低成本模型以降低运行成本。</p>
+<ul>
+  <li><a href="https://x.com/bindureddy/status/2043034878367908113">查看 @bindureddy 原始推文</a></li>
+</ul>
+
+<h2 id="615-abacus-ai90-的重度编程工作负载从-claude-opus-切换至-codex">6/15 Abacus AI：90% 的重度编程工作负载从 Claude Opus 切换至 Codex</h2>
+<p>Bindu Reddy 披露 Abacus AI 已将 90% 的重度编程任务迁移至 OpenAI Codex，原因是”Opus 随时间推移似乎性能有所下降，且拒绝请求更多了”。这一公开表态在 AI 开发者圈引发关注，也呼应了近期关于 Anthropic 模型对齐调整的讨论。”期待更强大更高效的 Codex。”</p>
+<ul>
+  <li><a href="https://x.com/bindureddy/status/2042917010515071373">查看 @bindureddy 原始推文</a></li>
+</ul>
+
+<h2 id="715-cursor-composer-2-本周末双倍使用额度">7/15 Cursor Composer 2 本周末双倍使用额度</h2>
+<p>Cursor 官方宣布本周末在新版 Agents Window 界面中将 Composer 2 的使用量翻倍，无小时限制。此举被解读为 Cursor 对 Composer 2 新界面的大规模真实流量压测，以及对活跃用户的福利推广。</p>
+<ul>
+  <li><a href="https://x.com/cursor_ai/status/2043009335161430187">查看 @cursor_ai 原始推文</a></li>
+</ul>
+
+<h2 id="815-graphify48小时内构建出-karpathy-呼吁的代码知识图谱工具">8/15 Graphify：48小时内构建出 Karpathy 呼吁的代码知识图谱工具</h2>
+<p>Andrej Karpathy 呼吁应有”将代码库构建为知识图谱”的工具后，开发者在 48 小时内开源了 Graphify。在 Claude Code 等 AI 编码工具中输入 <code class="language-plaintext highlighter-rouge">/graphify</code> 命令，即可将代码、文档、PDF、图片和视频构建为可查询的交互式知识图谱。技术亮点：通过 tree-sitter 进行 AST 解析（无需 LLM），本地 Whisper 处理音视频，Claude 提取文档概念，最终合并为 NetworkX 图谱。声称相比直接读取原始文件，每次查询减少 71.5 倍的 token 消耗。</p>
+<ul>
+  <li><a href="https://x.com/AlphaSignalAI/status/2042981248902037515">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<h2 id="915-google-工程师开源-agent-skills为-ai-编码-agent-注入工程纪律">9/15 Google 工程师开源 Agent Skills：为 AI 编码 Agent 注入工程纪律</h2>
+<p>Google 工程师 Addy Osmani 开源 Agent Skills，包含 20 个工程技能和 7 个斜杠命令（/spec、/plan、/build、/test、/review、/code-simplify、/ship），覆盖从需求规范到生产发布的完整工程流程。核心设计理念：强制 AI agent 不走捷径，在编码前先写规范、先做测试、先做安全检查。内嵌了 Google 工程文化（Hyrum 定律、Beyoncé 规则等）。适配 Claude Code、Cursor、Codex、Gemini CLI 等多个平台。</p>
+<ul>
+  <li><a href="https://x.com/AlphaSignalAI/status/2042936011236282751">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<h2 id="1015-luma-ai-推出角色一致性功能从单张图片到完整世界观">10/15 Luma AI 推出角色一致性功能：从单张图片到完整世界观</h2>
+<p>Luma AI 宣布支持”角色一致性”能力：用户可选择角色原型、锁定参考图，并为同一角色添加不同服装、表情和风格变体，由 Luma Agents 全程引导。此功能解决了视频/图片 AI 生成中角色跨镜头一致性的痛点，面向专业创意工作者。此外 Luma 还发布了 Ray3.14 视频模型（原生 1080p，比上一版本快 4 倍、便宜 3 倍）和首款统一理解生成模型 UNI-1。</p>
+<ul>
+  <li><a href="https://x.com/LumaLabsAI/status/2042996261335257551">查看 @LumaLabsAI 原始推文</a></li>
+</ul>
+
+<h2 id="1115-databricks-serverless-compute1年内性能提升80成本降低70">11/15 Databricks Serverless Compute：1年内性能提升80%、成本降低70%</h2>
+<p>Databricks 披露过去一年 Serverless Compute 的运营数据：性能提升 80%，成本效率提升高达 70%，成功运行率提升 89%。基础设施自动完成规模调整和优化，团队无需管理集群，维护时间大幅减少。适用于 Notebook、Lakeflow Jobs 和 Pipeline 等场景，自动处理 runtime 升级。</p>
+<ul>
+  <li><a href="https://x.com/databricks/status/2043033613990596746">查看 @databricks 原始推文</a></li>
+</ul>
+
+<h2 id="1215-ethan-mollickai-写作风格已高度同质化风格本身正在升值">12/15 Ethan Mollick：AI 写作风格已高度同质化，风格本身正在升值</h2>
+<p>Ethan Mollick 发文指出 LLM 写作存在可识别的固定模式：交叉修辞（chiasmus）、无连词三元组（asyndetic tricolon）、并列句式（parataxis）——”一旦看见就到处都是”。他认为互联网内容正因此走向同质化，仅靠逻辑与论证的写作教育已不够，风格的多样性将越来越有价值。”你可以让 LLM 写得不一样，但你需要理解该怎么做。”</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2042963501199597950">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2042966392002003180">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="1315-ethan-mollick执行成本下降真正有趣的想法正在溢价">13/15 Ethan Mollick：执行成本下降，”真正有趣的想法”正在溢价</h2>
+<p>Mollick 发表观点：随着 AI 降低执行成本，真正有趣的想法将越来越稀缺和有价值。研究表明 AI 在生成有趣想法方面表现不错，但在生成真正突破性的异常想法（outlier really interesting ideas）方面仍有明显差距。这意味着人类创意和洞见将在 AI 时代获得更高溢价。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2043146517028958365">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="1415-perplexity-computer-举办大学生股票投研竞赛奖金-17500">14/15 Perplexity Computer 举办大学生股票投研竞赛，奖金 $17,500</h2>
+<p>Perplexity 举办大学生股票投研竞赛：参赛者使用 Perplexity Computer 进行研究并准备投资演讲，前5名决赛选手在评委面前现场路演，总奖金 $17,500。活动于太平洋时间上午9-10:30进行全程直播，体现了 Perplexity Computer 在专业研究辅助场景的能力展示定位。</p>
+<ul>
+  <li><a href="https://x.com/perplexity_ai/status/2042986522828562499">查看 @perplexity_ai 原始推文</a></li>
+</ul>
+
+<h2 id="1515-sakana-ai-接待日本防卫省研究所深化-ai国防合作">15/15 Sakana AI 接待日本防卫省研究所，深化 AI×国防合作</h2>
+<p>日本 AI 初创公司 Sakana AI 接待了防卫省防衛研究所（NIDS）的研修员，由公司防卫与情报部门的佐藤和石井进行讲解，内容涵盖最新 AI 动向及 Sakana AI 在防卫和情报领域的相关布局。这是 Sakana AI 将 AI 能力延伸至国防领域的公开动作之一，反映出日本 AI 产业与政府/国防机构的合作正在加速。</p>
+<ul>
+  <li><a href="https://x.com/SakanaAILabs/status/2042930936111886582">查看 @SakanaAILabs 原始推文</a></li>
+</ul>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="meta-muse-sparkmeta-超级智能实验室首款模型">Meta Muse Spark：Meta 超级智能实验室首款模型</h3>
+<p>Muse Spark 是 Meta 重组后成立的 Meta Superintelligence Labs（MSL）发布的首款模型，定位为走向”个人超级智能”的起点。支持原生多模态推理、工具调用和多智能体协同；Contemplating 模式（并行 agent）在 Humanity’s Last Exam 达到 58%；预训练效率相比 Llama 4 Maverick 提升超一个数量级。与超过 1,000 名医生合作开发医疗健康功能。Ethan Mollick 评价：超出预期但还不及 Big Three（Claude/GPT-5/Gemini）。
+<a href="https://ai.meta.com/blog/introducing-muse-spark-msl/">查看原文</a></p>
+
+<h3 id="minimax-m27开源自进化代码模型">MiniMax M2.7：开源自进化代码模型</h3>
+<p>229B 参数，FP4 量化，228K 上下文。核心亮点是”自我进化”：内部版本通过 100+ 轮自主优化循环（分析失败→修代码→评估→保留/回滚）在内部基准提升 30%。SWE-Pro 56.22% 与 GPT-5.3-Codex 持平；MLE Bench Lite 66.6% 开源最高。支持 Microsoft Office 高保真多轮编辑。$0.30/$1.20 per 1M 输入/输出 tokens。
+<a href="https://www.together.ai/models/minimax-m2-7">查看原文</a></p>
+
+<h3 id="langchain你的-harness你的记忆">LangChain：你的 Harness，你的记忆</h3>
+<p>Claude 泄露的 512K 行代码证明 harness 是永久性基础设施。记忆与 harness 深度耦合产生三级锁定风险：有状态 API → 闭源 harness（如 Claude Agent SDK）→ 完全供应商依赖。LangChain 推出 Deep Agents 开源方案，支持可插拔数据库，主张用户拥有 agent 记忆主权。
+<a href="https://blog.langchain.com/your-harness-your-memory/">查看原文</a></p>
+
+<h3 id="gary-marcus神经符号主义的30年等待">Gary Marcus：神经符号主义的30年等待</h3>
+<p>Marcus 以 Claude Code 泄露源码（print.ts 中的 agent loop）和 o3 调用 Python 解释器为证据，论证当前 AI 突破本质上是神经+符号的混合架构，是其”神经符号主义”立场经过30年争议后的实证。核心三个符号思想：显式变量的代数系统、结构化符号表征、数据库式知识存储。讽刺之处：各大 AI 公司悄然采用了这一路线，却从未公开承认。
+<a href="https://garymarcus.substack.com/p/how-o3-and-grok-4-accidentally-vindicated">查看原文</a></p>
+
+<h3 id="agent-skillsaddy-osmani-为-ai-编码-agent-编码工程纪律">Agent Skills：Addy Osmani 为 AI 编码 Agent 编码工程纪律</h3>
+<p>Google 工程师 Addy Osmani 开源框架，包含 20 个工程技能（覆盖 Define/Plan/Build/Verify/Review/Ship 六个阶段）和 7 个斜杠命令。核心理念是通过强制流程（反合理化表、证据验证、渐进式披露）让 AI agent 遵循资深工程师的纪律，不走捷径。嵌入 Google 工程文化基因（Hyrum 定律等）。适配 Claude Code、Cursor、Codex、Gemini CLI 等。
+<a href="https://github.com/addyosmani/agent-skills">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/ai-daily/2026/04/11/">
+          <span>上一篇</span>
+          <strong>AI Frontier Daily | 2026.04.11</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/04/13/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.04.13</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2026  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

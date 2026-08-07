@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OpenAI 上线 GPT-5.5 与 GPT-5.5 Pro，今日向 ChatGPT 与 Codex 的 Plus/Pro/Business/Enterprise 用户全量铺开。官方定位为"a new class of intelligence for real work and powering agents"，主打 agentic coding、计算机操作、长链条任务自检与完成。每 token 延迟与 5.4 持平，但完成同样 Codex 任务所需 token 显著减少；首款与 NVIDIA GB200/GB300 NVL72 共同设计的模型。sama 称 OpenAI"现在某种程度上必须成为一家 AI inference company"。">
+    <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.04.24 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/04/24/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
+        </div>
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.04.24</p>
+    <h1>OpenAI 正式发布 GPT-5.5</h1>
+    
+    <p class="article-deck">OpenAI 上线 GPT-5.5 与 GPT-5.5 Pro，今日向 ChatGPT 与 Codex 的 Plus/Pro/Business/Enterprise 用户全量铺开。官方定位为”a new class of intelligence for real work and powering agents”，主打 agentic coding、计算机操作、长链条任务自检与完成。每 token 延迟与 5.4 持平，但完成同样 Codex 任务所需 token 显著减少；首款与 NVIDIA GB200/GB300 NVL72 共同设计的模型。sama 称 OpenAI”现在某种程度上必须成为一家 AI inference company”。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-04-24T09:07:00+08:00">2026年4月24日</time>
+      <span>18 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>17</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>5</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>18</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="117-openai-正式发布-gpt-55">1/17 OpenAI 正式发布 GPT-5.5</h2>
+<p>OpenAI 上线 GPT-5.5 与 GPT-5.5 Pro，今日向 ChatGPT 与 Codex 的 Plus/Pro/Business/Enterprise 用户全量铺开。官方定位为”a new class of intelligence for real work and powering agents”，主打 agentic coding、计算机操作、长链条任务自检与完成。每 token 延迟与 5.4 持平，但完成同样 Codex 任务所需 token 显著减少；首款与 NVIDIA GB200/GB300 NVL72 共同设计的模型。sama 称 OpenAI”现在某种程度上必须成为一家 AI inference company”。</p>
+<ul>
+  <li><a href="https://x.com/OpenAI/status/2047376561205325845">查看 @OpenAI 原始推文</a></li>
+  <li><a href="https://x.com/sama/status/2047378253313106112">查看 @sama 原始推文</a></li>
+  <li><a href="https://x.com/gdb/status/2047381612372115812">查看 @gdb 原始推文</a></li>
+</ul>
+
+<h2 id="217-gpt-55-基准与定价">2/17 GPT-5.5 基准与定价</h2>
+<p>swyx 汇总 benchmark：Terminal-Bench 2.0 82.7%、Expert-SWE 73.1%、SWE-Bench Pro 58.6%、GDPval 84.9%、Tau2-bench Telecom 98.0%、BixBench 80.5%；arcprize 复测 ARC-AGI-2：Max 档 85.0%/题成本 $1.87，Low 档 33.0%/$0.35。API 定价 $5/M 输入、$30/M 输出，1M 上下文——比 5.4 贵一倍、也高于 Opus 4.7，但 sama 强调总 token 消耗会下降。bindureddy 运行 LiveBench 后判断 5.5 已超越 Opus 4.7，指令跟随”INSANELY GOOD”。</p>
+<ul>
+  <li><a href="https://x.com/swyx/status/2047378670986342685">查看 @swyx 原始推文</a></li>
+  <li><a href="https://x.com/sama/status/2047379036419014928">查看 @sama 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2047396413181685853">查看 @bindureddy 原始推文</a></li>
+  <li><a href="https://x.com/fchollet/status/2047392657778094126">查看 @fchollet 原始推文</a></li>
+</ul>
+
+<h2 id="317-codex-同步大更新">3/17 Codex 同步大更新</h2>
+<p>Codex 随 GPT-5.5 获得一轮重要升级：浏览器控制、Sheets/Slides/Docs/PDF 原生操作、OS-wide 听写，以及 gdb 重点推出的 auto-review——用 guardian agent 对即将执行的动作做安全评估，把人类审批点压缩到必要最小。aidan_mclau 分享自己口述一个 RL run 后离开几天，回来发现 5.5 已在 Codex 里连续工作 31 小时并交付成果。Emollick、Bubeck、mattshumer_ 等早期测试者一致认为硬任务上是断层升级。</p>
+<ul>
+  <li><a href="https://x.com/gdb/status/2047489218998628780">查看 @gdb 原始推文</a></li>
+  <li><a href="https://x.com/gdb/status/2047387783111868707">查看 @gdb 原始推文</a></li>
+  <li><a href="https://x.com/aidan_mclau/status/2047388367705575701">查看 @aidan_mclau 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2047407732886532595">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/mattshumer_/status/2047376245369851908">查看 @mattshumer_ 原始推文</a></li>
+</ul>
+
+<h2 id="417-nvidia-与-databricks-官宣协同">4/17 NVIDIA 与 Databricks 官宣协同</h2>
+<p>OpenAI 与 NVIDIA 合作在全公司范围部署 Codex + GPT-5.5，并开放给其他企业复制。NVIDIA 内部已搭建 Codex Lab。Databricks 在 GPT-5.5 首发即集成进 Unity AI Gateway，官方称其在 OfficeQA Pro 企业任务基准上达到 SOTA。这标志 GPT-5.5 与 Codex 正在以”企业级通用 AI 工作者”的产品形态向渠道市场渗透。</p>
+<ul>
+  <li><a href="https://x.com/sama/status/2047395562501411058">查看 @sama 原始推文</a></li>
+  <li><a href="https://x.com/NVIDIAAI/status/2047395826226671950">查看 @NVIDIAAI 原始推文</a></li>
+  <li><a href="https://x.com/databricks/status/2047466454069465329">查看 @databricks 原始推文</a></li>
+</ul>
+
+<h2 id="517-deepseek-v4-preview-官宣开源">5/17 DeepSeek-V4 Preview 官宣开源</h2>
+<p>DeepSeek 在 HuggingFace 发布 V4 Preview 并开权重，全系列默认 1M 上下文。V4-Pro 采用 1.6T 总参/49B 激活，Agentic Coding 开源 SOTA，世界知识仅次于 Gemini 3.1 Pro；V4-Flash 284B/13B active 接近 Pro 水准，主打低成本高速。架构端引入 token-wise 压缩与 DSA (DeepSeek Sparse Attention) 组合，长上下文算力与显存开销大幅下降。API 兼容 OpenAI ChatCompletions 与 Anthropic 双协议，旧模型 <code class="language-plaintext highlighter-rouge">deepseek-chat</code> 与 <code class="language-plaintext highlighter-rouge">deepseek-reasoner</code> 将于 2026-07-24 UTC 下线。</p>
+<ul>
+  <li><a href="https://x.com/deepseek_ai/status/2047516922263285776">查看 @deepseek_ai 原始推文</a></li>
+  <li><a href="https://x.com/deepseek_ai/status/2047516926432399791">查看 @deepseek_ai 原始推文</a></li>
+  <li><a href="https://x.com/deepseek_ai/status/2047516936289017964">查看 @deepseek_ai 原始推文</a></li>
+  <li><a href="https://x.com/deepseek_ai/status/2047516945466188072">查看 @deepseek_ai 原始推文</a></li>
+</ul>
+
+<h2 id="617-deepseek-v4-引爆开源社区">6/17 DeepSeek-V4 引爆开源社区</h2>
+<p>HuggingFace 上 43 分钟冲到 trending #1，ClementDelangue 称为”史上最快登顶的模型”。bindureddy 首跑基准后评价”Opus 4.7 Max 和 GPT-5.5 级别”。emollick 用 TiKZ 独角兽画图测试把 V4-Pro 加入 playable gallery。DeepSeek 内部 agentic coding 已全线切换 V4，并已与 Claude Code、OpenClaw、OpenCode 对接。同日腾讯混元也开源 Hy3 Preview (295B A21B) 推理与 agentic 取向模型——开源阵营在 GPT-5.5 发布当天给出密集回应。</p>
+<ul>
+  <li><a href="https://x.com/ClementDelangue/status/2047535160187330573">查看 @ClementDelangue 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2047515312434934166">查看 @bindureddy 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2047527060713664754">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/huggingface/status/2047589154561659384">查看 @huggingface 原始推文</a></li>
+</ul>
+
+<h2 id="717-google-deepminddecoupled-diloco-跨区训练">7/17 Google DeepMind：Decoupled DiLoCo 跨区训练</h2>
+<p>DeepMind 发表 Decoupled DiLoCo 研究，把 Pathways（异步数据流）与 DiLoCo（低带宽分布式训练）组合，使训练岛屿化、失败可隔离、恢复自动回归。实验在美国 4 个 region 间用 2–5 Gbps 带宽跨区训练 12B Gemma 4 模型，比传统同步方式快 20 倍以上；高故障率下”goodput”达 88%（对照仅 27%）；支持同次训练混用 TPU v6e 与 v5p 不损性能。这为”地理无关、芯片代际无关”的前沿训练奠定工程底座。</p>
+<ul>
+  <li><a href="https://x.com/GoogleDeepMind/status/2047330981145669790">查看 @GoogleDeepMind 原始推文</a></li>
+  <li><a href="https://x.com/GoogleDeepMind/status/2047330984983400793">查看 @GoogleDeepMind 原始推文</a></li>
+  <li><a href="https://x.com/GoogleDeepMind/status/2047330992713589009">查看 @GoogleDeepMind 原始推文</a></li>
+</ul>
+
+<h2 id="817-xai-发布-grok-voice-think-fast-10">8/17 xAI 发布 Grok Voice Think Fast 1.0</h2>
+<p>xAI 推出语音模型 Grok Voice Think Fast 1.0，专为复杂多步工作流设计，号称在 Tau Voice Bench 登顶，能应对真实世界的噪音、口音和打断。Elon 宣布该模型已被 Starlink 客服采用。推文收获 1600 万+ 浏览。配合 FSD v14.3.2 将 Actually Smart Summon、FSD、Robotaxi 模型统一，xAI 的语音模型也开始深度嵌入特斯拉生态。</p>
+<ul>
+  <li><a href="https://x.com/xai/status/2047441173569216721">查看 @xai 原始推文</a></li>
+  <li><a href="https://x.com/elonmusk/status/2047502409728217418">查看 @elonmusk 原始推文</a></li>
+</ul>
+
+<h2 id="917-sakana-ai-发布-fugu-多智能体编排系统">9/17 Sakana AI 发布 Fugu 多智能体编排系统</h2>
+<p>Sakana 首个商用 AI 产品 Fugu Beta 上线——不是新大模型，而是跨厂商前沿模型的编排系统，按任务动态组合开源/闭源模型与角色分工。基准显示 Fugu Ultra 在 GPQA-D (95.1)、ALE-Bench v6 (93.2)、SWE-Pro (54.2) 超过 Gemini 3.1、GPT-5.4、Opus 4.6 等单模型。支持 OpenAI 兼容端点，亮点在”recursive test-time scaling”——可递归调用自身、读取上轮输出、动态纠偏。Mini 主打低延迟，Ultra 全模型池。</p>
+<ul>
+  <li><a href="https://x.com/SakanaAILabs/status/2047479445209145785">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/hardmaru/status/2047483027719348520">查看 @hardmaru 原始推文</a></li>
+</ul>
+
+<h2 id="1017-meta--aws-千万级-graviton-合作">10/17 Meta × AWS 千万级 Graviton 合作</h2>
+<p>Meta 宣布与 AWS 达成协议，将部署千万级 Graviton5 CPU 核心，成为全球最大 Graviton 客户之一。该批算力定向服务于 Meta AI 与 agentic workflow——推理控制流、工具调用、长链条规划等 CPU 密集型任务。与 Meta 既有 AMD、ARM、自研芯片部署互补，标志超大规模 AI 公司在 GPU 之外对 CPU 基础设施的再加码。</p>
+<ul>
+  <li><a href="https://x.com/AIatMeta/status/2047647617681957207">查看 @AIatMeta 原始推文</a></li>
+</ul>
+
+<h2 id="1117-cohere--aleph-alpha-跨大西洋主权-ai-联盟">11/17 Cohere × Aleph Alpha 跨大西洋主权 AI 联盟</h2>
+<p>Cohere（加拿大）与 Aleph Alpha（德国）联合成立跨大西洋 AI 集团，定位”sovereign AI for the world”。Cohere 创始人 Aidan Gomez、Aleph Alpha Samuel Weinbach、Schwarz Digits Rolf Schumann，以及加拿大部长 Solomon、德国部长 Wildberger 同台出席。主打为企业与政府提供在欧盟/加拿大合规框架下的安全、隐私、可信 AI——是欧洲/西方阵营对”主权 AI”议题的实质性整合举动。</p>
+<ul>
+  <li><a href="https://x.com/cohere/status/2047631725426000268">查看 @cohere 原始推文</a></li>
+</ul>
+
+<h2 id="1217-tesla-cybercab-开始量产">12/17 Tesla Cybercab 开始量产</h2>
+<p>Elon Musk 宣布 Cybercab 已开始生产，两条推文合计吸引逾 3000 万浏览。Tesla AI 团队同步推出 FSD v14.3.2，将 Actually Smart Summon、FSD 与 Robotaxi 的底层模型统一，以提升行为一致性与可靠性。Elon 附言：”Tesla AI is where the rubber hits the road”，强调自动驾驶已日常救人性命，其他 AI 团队”尚无此声明资格”。</p>
+<ul>
+  <li><a href="https://x.com/elonmusk/status/2047574971774611553">查看 @elonmusk 原始推文</a></li>
+  <li><a href="https://x.com/elonmusk/status/2047570667030323375">查看 @elonmusk 原始推文</a></li>
+  <li><a href="https://x.com/elonmusk/status/2047574377928307166">查看 @elonmusk 原始推文</a></li>
+</ul>
+
+<h2 id="1317-kimi-k26-双榜夺冠">13/17 Kimi K2.6 双榜夺冠</h2>
+<p>Moonshot 的 Kimi K2.6 成为 Vision &amp; Document Arena 开源模型 #1，同时拿下 MathArena #1。第三方 benchmarker bindureddy 宣布将部分生产负载迁移至 Kimi 2.6——Abacus 团队”首次在实盘用开源模型”。emollick 对比显示 DeepSeek V4 Pro 与 Kimi K2.6 在 TiKZ 独角兽任务上仍有不小差距，但开源阵营整体性价比已形成明显拉力。</p>
+<ul>
+  <li><a href="https://x.com/Kimi_Moonshot/status/2047543386153140231">查看 @Kimi_Moonshot 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2047320286396391710">查看 @bindureddy 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2047530914591158719">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="1417-replit-推出-startup-计划">14/17 Replit 推出 Startup 计划</h2>
+<p>Replit 为初创团队推出 Startup 计划，最高提供 $25K 信用额度，覆盖从产品搭建到扩张的工作流。同日 Replit 还推出”直接从浏览器完成真实 iOS/Android 设备测试”的功能。策略方向很明确：把 Replit 做成从 vibe coding 到真机验证的一站式创业开发闭环。</p>
+<ul>
+  <li><a href="https://x.com/Replit/status/2047392071745487095">查看 @Replit 原始推文</a></li>
+</ul>
+
+<h2 id="1517-langchain-fleet--deep-agents-全面升级">15/17 LangChain Fleet + Deep Agents 全面升级</h2>
+<p>LangChain 把 Fleet 打造成 agent 工作桌面：新增文件浏览器（可直接创建/编辑文档）、演示渲染器（agent 生成完整 PPT）。Harrison Chase 同时主推 “Deep Agents” 中间件，给 agent 提供强默认 harness 与可定制钩子——业界反馈”这些看似微小的 harness 设置对性能影响巨大”。方向是把 LangChain 从 SDK 进一步拉升为 agent 运行时平台。</p>
+<ul>
+  <li><a href="https://x.com/hwchase17/status/2047518568871539165">查看 @hwchase17 原始推文</a></li>
+</ul>
+
+<h2 id="1617-新基准与新工具批量上线">16/17 新基准与新工具批量上线</h2>
+<p>LlamaIndex 发布 ParseBench 上 Kaggle：首个为 AI agents 量身打造的文档 OCR 基准，2000 企业页、167K+ 测试规则、5 维度评估，覆盖 GPT-5 Mini、Gemini 3、Textract、LlamaParse 等 14 种方法。Google Gemini Embedding 2 在 Gemini API 与 Vertex AI 正式 GA，首款原生多模态嵌入。Luma Agents 新增”单照片跨年龄演进”与”按受众自动构建路演幻灯片”能力。Cappy 以短信自然语言做视频编辑，正 FREE 试用。</p>
+<ul>
+  <li><a href="https://x.com/llama_index/status/2047345014225952848">查看 @llama_index 原始推文</a></li>
+  <li><a href="https://x.com/GoogleDeepMind/status/2047381761861058666">查看 @GoogleDeepMind 原始推文</a></li>
+  <li><a href="https://x.com/LumaLabsAI/status/2047471165942518160">查看 @LumaLabsAI 原始推文</a></li>
+  <li><a href="https://x.com/LinusEkenstam/status/2047367027564884413">查看 @LinusEkenstam 原始推文</a></li>
+</ul>
+
+<h2 id="1717-争议与反思llm-vs-世界模型--法律-ai-幻觉真相">17/17 争议与反思：LLM vs 世界模型 / 法律 AI 幻觉真相</h2>
+<p>Yann LeCun 再度开火：强调”机器人遍地的未来靠 LLM 不行”，需要世界模型与零样本规划；认同 LLM 有用但”硅谷过于 LLM-pilled”。另一端，Stanford 研究用 202 个法律查询测试 LexisNexis 与 Thomson Reuters 的法律 AI：”hallucination-free”只是营销——Lexis+ 幻觉率 17%、Thomson 19%、原生 GPT-4 43%；Thomson 还拒答 62% 问题。RAG 有用但”消灭”是夸张。GPT-5.5 发布当天的这两条注脚提醒：能力跃升与可靠性承诺之间的差距仍是真实的。</p>
+<ul>
+  <li><a href="https://x.com/ylecun/status/2047636569767419951">查看 @ylecun 原始推文</a></li>
+  <li><a href="https://x.com/AlphaSignalAI/status/2047330302696055204">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="gpt-55-详细解读">GPT-5.5 详细解读</h3>
+<p>OpenAI 发布 GPT-5.5 与 Pro 版，主打”可以托付整条工作流的通用计算工作者”。Codex 同步深度升级：浏览器控制、Sheets/Slides/Docs/PDF 原生操作、OS-wide 听写、auto-review 守护 agent。Benchmarks 覆盖 Terminal-Bench 2.0 (82.7%)、Expert-SWE (73.1%)、SWE-Bench Pro (58.6%)、GDPval (84.9%)、Tau2-bench Telecom (98.0%)、BixBench (80.5%)；ARC-AGI-2 Max 档 85.0%/$1.87。API $5/$30，1M 上下文。sama 给出的战略框架：”iterative deployment + democratization”，并明言”我们现在必须成为 AI inference 公司”。早期测试者一致认为硬任务上断层升级，aidan_mclau 汇报 5.5 在 Codex 里连续自主工作 31 小时并交付成果。
+<a href="https://x.com/OpenAI/status/2047376561205325845">查看原文</a></p>
+
+<h3 id="deepseek-v4-技术亮点">DeepSeek-V4 技术亮点</h3>
+<p>V4-Pro 1.6T/49B active；V4-Flash 284B/13B active。双模型均支持 1M 上下文、Thinking/Non-Thinking 双模式，API 兼容 OpenAI + Anthropic 协议。架构核心：token-wise 压缩 + DSA (DeepSeek Sparse Attention)，长上下文算力与显存开销大幅下降，1M 成为默认 tier。Agentic Coding 开源 SOTA；世界知识开源第一、仅次于 Gemini 3.1 Pro；Math/STEM 超过所有开源、接近顶级闭源。旧模型 7/24 UTC 下线。HuggingFace 43 分钟冲到 #1 trending，发布当天成为开源阵营对 GPT-5.5 的最硬正面回应。
+<a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf">查看原文</a></p>
+
+<h3 id="decoupled-diloco跨区跨代训练">Decoupled DiLoCo：跨区跨代训练</h3>
+<p>DeepMind 把 Pathways 与 DiLoCo 组合为新的分布式训练架构：训练被切成解耦的计算岛屿，故障岛被隔离、恢复后自动回归，系统自愈。关键实验：4 个美国 region、2–5 Gbps 带宽跨区训练 12B Gemma 4，比传统同步快 20 倍以上；高故障场景 goodput 88%（对照 27%）；同次训练可混用 TPU v6e 与 v5p 无性能损失。意义：把前沿训练从”单一巨型数据中心”解放出来，既是工程突破，也为未来跨国/跨洲算力布局提供可行路径。
+<a href="https://deepmind.google/blog/decoupled-diloco/">查看原文</a></p>
+
+<h3 id="sakana-fugu多智能体编排商业化">Sakana Fugu：多智能体编排商业化</h3>
+<p>Sakana AI 首个商用产品，按任务动态组合开源/闭源前沿模型。Fugu Ultra 在 GPQA-D (95.1)、ALE-Bench v6 (93.2)、SWE-Pro (54.2) 均超过各项目的最强单模型（Gemini 3.1 Pro、Opus 4.6 等）。OpenAI 兼容 API 部署、Mini/Ultra 双档，亮点在 recursive test-time scaling——可递归调用自身读取上轮输出动态纠偏。方向是把”模型路由”升级为”多 agent 协同推理”，挑战 OpenRouter、Martian 等现有编排层。
+<a href="https://sakana.ai/fugu-beta">查看原文</a></p>
+
+<h3 id="meta--aws-gravitonagentic-ai-的-cpu-再下注">Meta × AWS Graviton：agentic AI 的 CPU 再下注</h3>
+<p>Meta 将部署千万级 AWS Graviton5 CPU 核心，成为全球最大 Graviton 客户之一。该批算力定向 agentic workflow——推理控制流、工具调用、长链条规划等 CPU 密集型任务。Meta 基础设施负责人强调”多元化算力来源是战略刚需”，Graviton 与自研 MTIA、AMD、NVIDIA 互补。信号：超大规模 AI 厂商已意识到 agentic 推理的成本结构与 pretraining 显著不同，CPU/专用加速器组合需要被重新权衡。
+<a href="https://about.fb.com/news/2026/04/meta-partners-with-aws-on-graviton-chips-to-power-agentic-ai/">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/ai-daily/2026/04/23/">
+          <span>上一篇</span>
+          <strong>AI Frontier Daily | 2026.04.23</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/04/25/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.04.25</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2026  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

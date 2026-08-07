@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sakana AI 转发 TechCrunch 对 Fugu 和亚洲 AI startups 的报道，并强调 AI 应通过共同开发增强生态韧性，而不是被少数供应商 hoard。同日 Vercel 宣布 Sakana Fugu Ultra 登陆 AI Gateway，支持 OpenAI-compatible access、no markup 和 BYOK。这个组合把“frontier model access 不稳定”从政策争论推进到开发者产品层：如果单一闭源模型访问受限，企业和开发者会更重视可替换模型池、多模型编排和 gateway 分发。">
+    <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.06.29 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/06/29/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
+        </div>
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.06.29</p>
+    <h1>Sakana Fugu 把亚洲 frontier access 讨论推向产品分发层</h1>
+    
+    <p class="article-deck">Sakana AI 转发 TechCrunch 对 Fugu 和亚洲 AI startups 的报道，并强调 AI 应通过共同开发增强生态韧性，而不是被少数供应商 hoard。同日 Vercel 宣布 Sakana Fugu Ultra 登陆 AI Gateway，支持 OpenAI-compatible access、no markup 和 BYOK。这个组合把“frontier model access 不稳定”从政策争论推进到开发者产品层：如果单一闭源模型访问受限，企业和开发者会更重视可替换模型池、多模型编排和 gateway 分发。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-06-29T09:07:00+08:00">2026年6月29日</time>
+      <span>16 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>14</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>6</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>16</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="114-sakana-fugu-把亚洲-frontier-access-讨论推向产品分发层">1/14 Sakana Fugu 把亚洲 frontier access 讨论推向产品分发层</h2>
+<p>Sakana AI 转发 TechCrunch 对 Fugu 和亚洲 AI startups 的报道，并强调 AI 应通过共同开发增强生态韧性，而不是被少数供应商 hoard。同日 Vercel 宣布 Sakana Fugu Ultra 登陆 AI Gateway，支持 OpenAI-compatible access、no markup 和 BYOK。这个组合把“frontier model access 不稳定”从政策争论推进到开发者产品层：如果单一闭源模型访问受限，企业和开发者会更重视可替换模型池、多模型编排和 gateway 分发。</p>
+<ul>
+  <li><a href="https://x.com/SakanaAILabs/status/2071382597226344517">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/SakanaAILabs/status/2071300094922748404">查看 @SakanaAILabs 原始推文</a></li>
+</ul>
+
+<h2 id="214-glm-52-让开源模型追赶-frontier-的讨论升温">2/14 GLM-5.2 让开源模型追赶 frontier 的讨论升温</h2>
+<p>Ethan Mollick 评价 GLM-5.2 不是 GPT-5.5 或 Opus 4.8 级别，但已经说明 open weights 继续追赶 frontier，并进入 GPT-5.2 capability territory；他补充 Qwen、Kimi、MiniMax 与 GLM 的体验显示开放模型处在同一能力曲线上。Together AI 也称 GLM-5.2 足以承担严肃 coding work，价格足以改变 routing decisions。Gary Marcus 则从相反角度解读，认为模型公式趋同会带来 price wars 和低利润。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2071284966139568440">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2071286313199018095">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/togethercompute/status/2071324757383888910">查看 @togethercompute 原始推文</a></li>
+  <li><a href="https://x.com/GaryMarcus/status/2071347041611960371">查看 @GaryMarcus 原始推文</a></li>
+</ul>
+
+<h2 id="314-frontier-model-access-与监管成为全天最大争论">3/14 Frontier model access 与监管成为全天最大争论</h2>
+<p>Bindu Reddy、Matt Shumer 和 Clement Delangue 围绕 Fable、GPT 5.6、Anthropic、开源权重和政府限制展开密集讨论。共同主题不是某个模型本身，而是组织如何应对 frontier API 被拒绝、被延迟或被监管的风险。Bindu Reddy 称全球组织正在转向 multi-LLM、open-source experimentation 和减少 provider lock-in；Matt Shumer 则提醒“open source will save us”并不自动成立，因为强大海外权重也可能被限制。</p>
+<ul>
+  <li><a href="https://x.com/bindureddy/status/2071174510074814582">查看 @bindureddy 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2071057842250113492">查看 @bindureddy 原始推文</a></li>
+  <li><a href="https://x.com/mattshumer_/status/2071343413295718830">查看 @mattshumer_ 原始推文</a></li>
+</ul>
+
+<h2 id="414-hugging-face-继续推动监管-frontier-api不监管-open-weights叙事">4/14 Hugging Face 继续推动“监管 frontier API、不监管 open weights”叙事</h2>
+<p>Clement Delangue 发长文主张，监管 frontier API models、提升政府透明度是合理的，但不应把 open-source AI 一起监管。他的核心论点是，大型闭源 API 通过 coding tools 和 assistants 大规模分发、黑箱程度更高、权力更集中；开放权重虽然也有风险，但透明度、可研究性和分布方式不同。Yann LeCun 与 Hugging Face 官方转发相关内容，使“open weights vs closed API”的监管切分成为当天最重要的政策话题之一。</p>
+<ul>
+  <li><a href="https://x.com/ClementDelangue/status/2071247445204369625">查看 @ClementDelangue 原始推文</a></li>
+  <li><a href="https://x.com/ClementDelangue/status/2071250272177770918">查看 @ClementDelangue 原始推文</a></li>
+  <li><a href="https://x.com/huggingface/status/2071251613071639007">查看 @huggingface 原始推文</a></li>
+  <li><a href="https://x.com/ylecun/status/2071266002369659007">查看 @ylecun 原始推文</a></li>
+</ul>
+
+<h2 id="514-databricks-free-edition-加入-agent-bricksgenie-code-和-serverless-gpus">5/14 Databricks Free Edition 加入 Agent Bricks、Genie Code 和 Serverless GPUs</h2>
+<p>Databricks 宣布 Free Edition 扩展，新增 Agent Bricks、Genie Code、Serverless GPUs、Lakebase 和 Lakeflow Designer，并称 Free Edition 现在包含每个核心 practitioner feature，可用于搭建端到端数据和 AI 项目。这个更新的意义在于，Databricks 把免费入口从数据平台体验扩展到 agent、代码生成、GPU、数据库和 pipeline 设计，降低开发者试用 agentic data workflow 的门槛，也让企业数据 AI 平台竞争提前进入学习和原型阶段。</p>
+<ul>
+  <li><a href="https://x.com/databricks/status/2071318072057573571">查看 @databricks 原始推文</a></li>
+</ul>
+
+<h2 id="614-langchain-把-agent-生产化栈补到-sandboxesevals-和-engine">6/14 LangChain 把 agent 生产化栈补到 sandboxes、evals 和 engine</h2>
+<p>Harrison Chase 连续提到 DeepAgents、LangSmith Sandboxes、eval、LangSmith Engine、Harbor 和 Fleet agents。LangSmith Engine 被定位为把 production traces 转成 fixes、evaluators 和 datasets 的 agent engineering 工具；Harbor 用于需要 sandboxing 的 evals，self-hosted sandboxes 也在路上；Fleet agents 则强调进入 Slack、Teams 等企业协作场景。信号很清楚：agent 平台竞争正在从 framework API 走向执行隔离、评测、修复闭环和组织分发。</p>
+<ul>
+  <li><a href="https://x.com/hwchase17/status/2071294688875958305">查看 @hwchase17 原始推文</a></li>
+  <li><a href="https://x.com/hwchase17/status/2071373847237206138">查看 @hwchase17 原始推文</a></li>
+  <li><a href="https://x.com/hwchase17/status/2071306189846257665">查看 @hwchase17 原始推文</a></li>
+</ul>
+
+<h2 id="714-vercel-把产品设计偏好沉淀为-agent-可执行规则">7/14 Vercel 把产品设计偏好沉淀为 agent 可执行规则</h2>
+<p>swyx 转发 Vercel《Teaching agents product design at Vercel》，文章介绍如何用 agent skills、lint rules、Vercel Agent code reviews、evals 和 human-led update loop 教 agents 贴近 Vercel 的产品设计标准。它说明前端 agent 的下一阶段不是“能生成页面”，而是能吸收团队的 taste、design system、review criteria 和历史反馈。对真实产品团队来说，这类组织特定约束可能比通用代码能力更决定 agent 产出的可用性。</p>
+<ul>
+  <li><a href="https://x.com/swyx/status/2071314320022290875">查看 @swyx 原始推文</a></li>
+</ul>
+
+<h2 id="814-nvidia-与本地-ai-社区信号继续增强">8/14 NVIDIA 与本地 AI 社区信号继续增强</h2>
+<p>NVIDIA AI 转发社区项目“Teamed up with NVIDIA to make Local AI The Default”，并继续推广包含 DGX Spark 和 Stripe credits 的活动。虽然细节主要在视频和社区内容中，但它和 AI Engineer World’s Fair 的 local AI 讨论同频：开发者正在把本地推理、桌面/边缘 GPU、open-weight models 和 agent workflow 视为一套可组合基础设施。frontier API 之外，本地 AI 正在从 hobbyist 方向走向开发者生态和小型生产系统。</p>
+<ul>
+  <li><a href="https://x.com/NVIDIAAI/status/2071320679530529005">查看 @NVIDIAAI 原始推文</a></li>
+  <li><a href="https://x.com/NVIDIAAI/status/2071226846805659716">查看 @NVIDIAAI 原始推文</a></li>
+</ul>
+
+<h2 id="914-ai-engineer-worlds-fair-售罄ai-engineering-社区继续扩张">9/14 AI Engineer World’s Fair 售罄，AI engineering 社区继续扩张</h2>
+<p>swyx 转发 AI Engineer World’s Fair 完全售罄，并补充约 300 人通过 ChatGPT referral 来到今年活动；他还提醒参会者加入 AI Engineer X community、参加 badge pickup 和 New Engineer Orientation。这些推文不是产品发布，但反映 AI engineering 已经形成高度集中的职业社区：会议、社区、工具、local AI、agent patterns 和工作流实践正变成开发者获取信息和建立标准的主要渠道。</p>
+<ul>
+  <li><a href="https://x.com/swyx/status/2071329035599372747">查看 @swyx 原始推文</a></li>
+  <li><a href="https://x.com/swyx/status/2071319972882911687">查看 @swyx 原始推文</a></li>
+  <li><a href="https://x.com/swyx/status/2071364057622569151">查看 @swyx 原始推文</a></li>
+</ul>
+
+<h2 id="1014-hinton-推荐-ai-对物理未来影响的讲座">10/14 Hinton 推荐 AI 对物理未来影响的讲座</h2>
+<p>Geoffrey Hinton 推荐 Adam Brown 关于 AI 对物理未来影响的讲座，称其质量很高。虽然推文本身只给出视频链接，但它是当天 AI-for-science 讨论中最明确的高影响信号。结合近期科学发现、自动化研究和模型辅助推理的趋势，物理研究正在成为评估 AI 长程推理和假设生成能力的重要场景：AI 不只是总结论文，也可能参与理论探索、实验设计和复杂数学推导。</p>
+<ul>
+  <li><a href="https://x.com/geoffreyhinton/status/2071270000065671514">查看 @geoffreyhinton 原始推文</a></li>
+</ul>
+
+<h2 id="1114-grok-训练与推理栈将重写到-cc并适配-gb300">11/14 Grok 训练与推理栈将重写到 C/C++，并适配 GB300</h2>
+<p>Elon Musk 表示，Grok 的“truly massive gains”预计来自约三个月后整个 training and inference stack 用 C/C++ 重写并大幅简化，同时会把 Grok exact-map 到 GB300 上；他还回应称 2T model 的每个方面都比 1.5T model 改进，因此不只是参数增加三分之一。这些信息说明 xAI 的竞争点不只是模型尺寸，也包括软件栈削减、硬件映射、训练/推理一体优化和面向新一代 NVIDIA 系统的部署路径。</p>
+<ul>
+  <li><a href="https://x.com/elonmusk/status/2071385784154759468">查看 @elonmusk 原始推文</a></li>
+  <li><a href="https://x.com/elonmusk/status/2071419926850552224">查看 @elonmusk 原始推文</a></li>
+  <li><a href="https://x.com/elonmusk/status/2071419534628540680">查看 @elonmusk 原始推文</a></li>
+</ul>
+
+<h2 id="1214-chatgpt-日常生活案例从印度本地语境出圈">12/14 ChatGPT 日常生活案例从印度本地语境出圈</h2>
+<p>Greg Brockman 转发“ChatGPT helping in daily life in Bengaluru”的报道，原文讲述班加罗尔一名 auto-rickshaw driver 如何用 ChatGPT 处理日常事务。相比企业 agent 或 frontier benchmark，这类案例展示 AI assistant 的另一个扩散路径：低门槛、多语言、移动端、即时建议和生活场景结合。它说明 ChatGPT 的采用不只发生在开发者和知识工作者中，也在交通、城市服务和普通消费者的具体问题中出现。</p>
+<ul>
+  <li><a href="https://x.com/gdb/status/2071355421819097520">查看 @gdb 原始推文</a></li>
+</ul>
+
+<h2 id="1314-mollick-提醒-model-routers-会低估非可验证任务难度">13/14 Mollick 提醒 model routers 会低估非可验证任务难度</h2>
+<p>Ethan Mollick 讨论 model routing 时指出，很多 router 会低估非数学、非代码任务的难度，把创新、营销、定性分析等 non-verifiable tasks 分配给过弱模型；这些任务往往最能从更强模型中获益。他还提醒，不要只用可验证 IT benchmarks 来估计弱模型能力。这对企业 AI 成本治理很实际：省钱的 routing 策略如果只按 benchmark 或短期正确率优化，可能在开放式知识工作中牺牲质量。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2071265352294584824">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2071266589547036858">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="1414-芯片压力正在传导到消费电子价格预期">14/14 芯片压力正在传导到消费电子价格预期</h2>
+<p>@aravind 认为半导体供应链压力还没有见顶，并提醒 2026-2027 年有明确需求的消费者尽早购买电子产品，尤其是最大化不可升级的 RAM；他判断 iPhone、智能手机、电视、智能设备甚至汽车都可能受到芯片压力影响。虽然这不是单一 AI 发布，但它和算力、HBM、GPU 供应、端侧 AI 设备升级相关：AI 基础设施竞争正在挤压更广泛电子产业链，价格和供给压力可能继续向终端产品扩散。</p>
+<ul>
+  <li><a href="https://x.com/aravind/status/2071261119940112669">查看 @aravind 原始推文</a></li>
+  <li><a href="https://x.com/aravind/status/2071265875710333347">查看 @aravind 原始推文</a></li>
+</ul>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="sakana-fugu-与亚洲-frontier-ai-access">Sakana Fugu 与亚洲 frontier AI access</h3>
+<p>TechCrunch 把 Sakana Fugu 放在亚洲 AI startups 和 frontier model access 的语境中讨论：当部分美国 frontier model access 因政策、出口控制或供应商策略变得不稳定时，亚洲公司开始强调本地生态、多模型编排和可替换模型池。Sakana AI 在转发中强调，AI 不应被少数供应商 hoard，而应通过共同开发增强生态韧性。Vercel 同日宣布 Sakana Fugu Ultra 登陆 AI Gateway，说明这类 orchestration model 正进入开发者分发层。
+<a href="https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/">查看原文</a></p>
+
+<h3 id="databricks-free-edition-新增核心数据与-ai-产品">Databricks Free Edition 新增核心数据与 AI 产品</h3>
+<p>Databricks 宣布 Free Edition 继续扩展，官方博客称已有 50 万人使用 Free Edition 学习 data + AI，并加入 Genie Code、Serverless GPUs、Lakebase、Lakeflow Designer 和 Agent Bricks。社交发布的表述是 Free Edition 现在覆盖每个 core Databricks practitioner feature，让用户能免费搭建端到端数据和 AI 项目。这个更新把 Databricks 的入门路径扩展到 agent、数据库、数据管道、代码生成和 GPU 试验。
+<a href="https://www.databricks.com/blog/whats-coming-next-free-edition">查看原文</a></p>
+
+<h3 id="langsmith-engineharbor-与-agent-工程栈">LangSmith Engine、Harbor 与 agent 工程栈</h3>
+<p>LangChain 文档把 LangSmith Engine 定义为 agent engineering 工具，用于把 production traces 转成 fixes、evaluators 和 datasets，覆盖 agent 开发生命周期。Harrison Chase 同日提到 Harness、DeepAgents、LangSmith Sandboxes、eval 和 LangSmith Engine，并补充 Harbor 可用于需要 sandboxing 的 evals，self-hosted sandboxes 也在路上。企业要 scale agents，难点不再只是接模型，而是把运行、评估、安全隔离和迭代修复连起来。
+<a href="https://docs.langchain.com/langsmith/engine-overview">查看原文</a></p>
+
+<h3 id="vercel-用-agent-skills-与-eval-教产品设计">Vercel 用 agent skills 与 eval 教产品设计</h3>
+<p>Vercel 的文章《Teaching agents product design at Vercel》介绍了如何让 coding/design agents 更贴近 Vercel 的产品审美和交付标准。页面描述的机制包括 agent skills、lint rules、Vercel Agent code reviews、evals，以及人类主导的 update loop，用来把设计偏好、组件规则和审查反馈沉淀到 agent 工作流。这类方法代表 agent 产品竞争的新层次：把组织自己的 taste 和 review criteria 变成可执行约束。
+<a href="https://vercel.com/blog/teaching-agents-product-design-at-vercel">查看原文</a></p>
+
+<h3 id="ai-engineer-worlds-fair-与-local-ai-社区信号">AI Engineer World’s Fair 与 local AI 社区信号</h3>
+<p>swyx 转发并补充 AI Engineer World’s Fair 已售罄，并提到约 300 人通过 ChatGPT referral 参与今年活动。相关转发中还出现 NVIDIA 与社区项目合作推广 local AI 的内容。虽然这些不是单一产品发布，但它们反映开发者生态的两个趋势：AI engineering 正成为独立职业社区，local/open inference、GPU 桌面设备和 agent tooling 正在进入主流开发者议程。
+<a href="https://x.com/aiDotEngineer/status/2071254588808941893">查看原文</a></p>
+
+<h3 id="adam-brown-关于-ai-与物理未来的讲座">Adam Brown 关于 AI 与物理未来的讲座</h3>
+<p>Geoffrey Hinton 推荐 Adam Brown 关于 AI 对物理未来影响的讲座。该链接指向 YouTube 视频，主题聚焦 AI 如何改变物理研究、理论探索和科学发现流程。虽然推文没有给出长摘要，但 Hinton 的转发使它成为当天 AI-for-science 讨论中最突出的信号。后续如可取得 transcript，可进一步补充讲座中的具体论点。
+<a href="https://www.youtube.com/watch?v=Mw60FH5iflI">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/ai-daily/2026/06/27/">
+          <span>上一篇</span>
+          <strong>AI Frontier Daily | 2026.06.27</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/06/30/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.06.30</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2026  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

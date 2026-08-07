@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
 
@@ -24,14 +24,14 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
 
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,212 +66,90 @@
 
 <body ontouchstart="">
 
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Freedom Hunter</a>
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/" aria-current="page">文章</a>
+            <a href="/about/">关于</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/about/">About</a>
-                </li>
-                <li>
-                    <a href="/">Articles</a>
-                </li>
-                <li>
-                    <a href="/history/">History</a>
-                </li>
-                <li>
-                    <a href="/tags/">Tags</a>
-                </li>
-                
-                <!--                 
-                    <li>
-                        <a href="/Tool/">Tools</a>
-                    </li>
-                
-                    <li>
-                        <a href="/about/">About</a>
-                    </li>
-                
-                    <li>
-                        <a href="/history/">History</a>
-                    </li>
-                
-                    <li>
-                        <a href="/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/milestone/">milestone</a>
-                    </li>
-                
-                    <li>
-                        <a href="/tags/">Tags</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page2/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page3/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page4/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page5/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page6/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page7/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page8/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page9/">Articles</a>
-                    </li>
-                 -->
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
     </div>
-    <!-- /.container -->
 </nav>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
 
-    <!-- Post Header -->
-<style type="text/css">
-    /* 保留您原有的样式 */
-    header.intro-header{
-        background-image: url('/img/light_blue_banner.png')
-    }
-    .tag {
-        display: inline-block;
-        padding: 4px 8px;
-        margin-right: 8px;
-        margin-bottom: 8px;
-        background-color: #FFF;
-        color: #FF7A00;
-        border-radius: 16px;
-        font-size: 0.9em;
-        text-decoration: none;
-        transition: background-color 0.3s ease;
-    }
-    .tag:hover {
-        background-color: #FFF;
-    }
-    .tag::before {
-        content: "#";
-        margin-right: 2px;
-        opacity: 0.7;
-    }
-    .tags-container {
-        margin-bottom: 20px;
-    }
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
     
-    /* 修改图片样式 */
-    .col-lg-10.col-lg-offset-1.col-md-10.col-md-offset-1.post-container img {
-        max-width: 80%;
-        height: auto;
-        display: block;
-        margin: 2em auto;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
+
+
+
+
+<header class="article-hero">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">Ideas & practice <span>/</span> 2024.11.06</p>
+    <h1>为什么日元如此疲软，日本却仍然是一个高度发达的国家？</h1>
     
-    /* 新增样式，优化排版 */
-    .post-container {
-        line-height: 1.8;
-        font-size: 16px;
-    }
-    
-    .post-container h1, .post-container h2, .post-container h3 {
-        margin-top: 1.5em;
-        margin-bottom: 0.8em;
-    }
-    
-    .post-container p {
-        margin-bottom: 1.2em;
-    }
-    
-    .post-container ul, .post-container ol {
-        padding-left: 1.5em;
-        margin-bottom: 1.2em;
-    }
-    
-    .post-container li {
-        margin-bottom: 0.5em;
-    }
-    
-    blockquote {
-        border-left: 4px solid #FF7A00;
-        padding-left: 1em;
-        margin: 1.5em 0;
-        background-color: #f9f9f9;
-    }
-    
-    code {
-        background-color: #f0f0f0;
-        padding: 2px 4px;
-        border-radius: 3px;
-    }
-    
-    pre {
-        background-color: #f5f5f5;
-        padding: 1em;
-        border-radius: 5px;
-        overflow-x: auto;
-    }
-</style>
-<header class="intro-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <div class="tags-container">
-                        
-                        <a class="tag" href="/tags/#日本" title="日本">日本</a>
-                        
-                    </div>
-                    <h1>为什么日元如此疲软，日本却仍然是一个高度发达的国家？</h1>
-                    
-                    <span class="meta">Posted by zluckyH on November 6, 2024</span>
-                </div>
-            </div>
-        </div>
+    <p class="article-deck">本文讨论了日本经济的独特性，分析了日元疲软的原因，包括低利率、人口老龄化、以及政治体制的影响。尽管面临经济低迷和劳动力短缺，日本的旅游业因日元贬值而蓬勃发展，但也引发了对过度旅游的担忧，导致部分地区开始限制外国游客的进入。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2024-11-06T00:00:00+08:00">2024年11月6日</time>
+      
     </div>
+  </div>
 </header>
 
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/articles/">← 返回文章</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#日本" title="日本">日本</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
 
-
-<!-- Post Content -->
-<article>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
-
-        <p><img src="/img/usd_yen_interest_rate_trend.png" alt="USD/JPY exchange rate trend" /></p>
+    <div class="post-container article-copy">
+      <p><img src="/img/usd_yen_interest_rate_trend.png" alt="USD/JPY exchange rate trend" /></p>
 
 <p>9月份以来，日元又开始大幅贬值，美元兑日元汇率从9月中旬的1 USD = 140 Yen 上涨到最近的 1 USD = 154 Yen。</p>
 
@@ -336,20 +214,21 @@
 
 
 
-        <hr>
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/blog/2024/11/04/reddit_2024_q3_finance_report/">
+          <span>上一篇</span>
+          <strong>Reddit 2024第三季度财报分析 - 营收增长68%至3.48亿美元，首次实现季度盈利2990万美元</strong>
+        </a>
+        
+        
+        <a href="/blog/2024/11/07/chunqiuhangkong_2024q3_finance_report/">
+          <span>下一篇</span>
+          <strong>春秋航空2024年Q3财报：营收增13.29%，净利润降32.37%，国际航线加速恢复</strong>
+        </a>
+        
+      </nav>
 
-        <ul class="pager">
-          
-          <li class="previous">
-            <a href="/blog/2024/11/04/reddit_2024_q3_finance_report/" data-toggle="tooltip" data-placement="top" title="Reddit 2024第三季度财报分析 - 营收增长68%至3.48亿美元，首次实现季度盈利2990万美元">&larr; Previous Post</a>
-          </li>
-          
-          
-          <li class="next">
-            <a href="/blog/2024/11/07/chunqiuhangkong_2024q3_finance_report/" data-toggle="tooltip" data-placement="top" title="春秋航空2024年Q3财报：营收增13.29%，净利润降32.37%，国际航线加速恢复">Next Post &rarr;</a>
-          </li>
-          
-        </ul>
     <!-- Gitalk 评论 start  -->
 
     <!-- Link Gitalk 的支持文件  -->
@@ -371,8 +250,7 @@
         })
         gitalk.render('gitalk-container')
     </script> 
-    <!-- Gitalk end -->    
-      </div>
+    <!-- Gitalk end -->
     </div>
   </div>
 </article>
@@ -401,22 +279,9 @@
           placement: 'left',
           icon: '#'
         };
-        anchors.add().remove('.intro-header h1').remove('.subheading');
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
     })
 </script>
-<style>
-    /* place left on bigger screen */
-    @media all and (min-width: 800px) {
-        .anchorjs-link{
-            position: absolute;
-            left: -0.1em;
-            font-size: 1.1em;
-            margin-top : -0.1em;
-        }
-    }
-</style>
-
-
 
 
     <!-- Footer -->
@@ -490,14 +355,13 @@
 
 
 <!-- Highlight.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.1/async.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
 <script>
-    async("https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+    if (window.hljs) {
         hljs.initHighlightingOnLoad();
-    })
+    }
 </script>
 <link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
-
 
 
     

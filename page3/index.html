@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="分享学习、AI、互联网，以及一切有趣的东西！">
+    <meta name="description" content="每天筛选值得关注的 AI 信号；用财报、产品与数据，持续记录技术如何改变商业和人的选择。">
     <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
     
     <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
 
-    <title>Articles - Freedom Hunter</title>
+    <title>首页 - Freedom Hunter</title>
 
     <link rel="canonical" href="https://zluckyhou.github.io/page3/">
 
@@ -24,14 +24,14 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
 
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,319 +66,193 @@
 
 <body ontouchstart="">
 
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Freedom Hunter</a>
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/about/">About</a>
-                </li>
-                <li>
-                    <a href="/">Articles</a>
-                </li>
-                <li>
-                    <a href="/history/">History</a>
-                </li>
-                <li>
-                    <a href="/tags/">Tags</a>
-                </li>
-                
-                <!--                 
-                    <li>
-                        <a href="/Tool/">Tools</a>
-                    </li>
-                
-                    <li>
-                        <a href="/about/">About</a>
-                    </li>
-                
-                    <li>
-                        <a href="/history/">History</a>
-                    </li>
-                
-                    <li>
-                        <a href="/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/milestone/">milestone</a>
-                    </li>
-                
-                    <li>
-                        <a href="/tags/">Tags</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page2/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page3/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page4/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page5/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page6/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page7/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page8/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page9/">Articles</a>
-                    </li>
-                 -->
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
     </div>
-    <!-- /.container -->
 </nav>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/dark_yellow_400.png')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Articles</h1>
-                    <hr class="small">
-                    <span class="subheading">分享学习、AI、互联网，以及一切有趣的东西！</span>
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+<main class="editorial-home" id="top">
+    <section class="editorial-hero">
+        <div class="editorial-shell editorial-hero__grid">
+            <div class="editorial-hero__copy">
+                <p class="editorial-eyebrow">产品 · 数据 · AI</p>
+                <h1>读懂 AI 进展，<br>也看公司<em>真实增长</em></h1>
+                <p class="editorial-hero__note">每天筛选值得关注的 AI 信号；用财报、产品与数据，持续记录技术如何改变商业和人的选择。</p>
+            </div>
+            <aside class="editorial-manifesto">
+                <span>EDITOR'S NOTE / 001</span>
+                <p>这里不追逐所有热点。日报负责速度，公司观察负责深度，长期文章负责留下判断。</p>
+            </aside>
+        </div>
+    </section>
+
+    
+    <section class="editorial-shell daily-lead" aria-labelledby="daily-lead-title">
+        <aside class="daily-lead__rail">
+            <p class="editorial-section-label">Today's issue</p>
+            <div class="daily-lead__number" aria-hidden="true">07</div>
+            <div class="daily-lead__stats">
+                <div>
+                    <strong>12</strong>
+                    <span>今日主线</span>
+                </div>
+                <div>
+                    <strong>8</strong>
+                    <span>Deep Dives</span>
                 </div>
             </div>
+        </aside>
+
+        <article class="daily-lead__story">
+            <div class="editorial-meta">
+                <span class="editorial-pill">AI Frontier Daily</span>
+                <span>2026.08.07</span>
+                <span>约 14 分钟</span>
+            </div>
+            <h2 id="daily-lead-title"><a href="/ai-daily/2026/08/07/">OpenAI 统一 ChatGPT 体验，AI Agent 基建继续产品化</a></h2>
+            <p>今天的 12 条主线覆盖 GPT-5.6 Sol、WeatherNext、Cursor Router、开放模型成本线、生成视频与 AI 安全。重点不只是模型变强，而是路由、插件、安全审查和长程研究正在成为新的产品层。</p>
+            <div class="daily-lead__footer">
+                <div class="daily-lead__signals">OpenAI · DeepMind · Cursor · Meta · Qwen · FLUX · Suno · Sakana</div>
+                <a class="editorial-read-link" href="/ai-daily/2026/08/07/">读今日完整日报</a>
+            </div>
+        </article>
+    </section>
+    
+
+    <section class="editorial-content-section editorial-shell" id="company-research">
+        <header class="editorial-section-head">
+            <div>
+                <p class="editorial-section-label">Company intelligence / 01</p>
+                <h2>公司观察</h2>
+            </div>
+            <a href="/company-research/">浏览全部财报分析 ↗</a>
+        </header>
+
+        <div class="finance-grid">
+            
+            <article class="finance-card finance-card--featured">
+                <a href="/blog/2026/08/08/spacex_2026q2_earnings_call/">
+                    <div class="finance-card__topic">
+                        <span>SpaceX · 2026Q2电话会</span>
+                        <span>2026.08.08</span>
+                    </div>
+                    <h3>SpaceX 2026Q2电话会——马斯克把万亿美元营收目标提前到2030，算力扩张成为新主线</h3>
+                    <p>SpaceX上市后首次业绩电话会实录解读：马斯克宣布内部万亿美元营收目标从2031年提前至2030年，甚至"有非零概率在2029年实现"；宣布数据中心全面独家采用Nvidia芯片，明年算力目标最高20吉瓦；Starship隔...</p>
+                    <span class="finance-card__metric">万亿营收目标2031→2030</span>
+                </a>
+            </article>
+            
+            <article class="finance-card">
+                <a href="/blog/2026/08/07/spacex_2026q2_earnings/">
+                    <div class="finance-card__topic">
+                        <span>SpaceX · 2026Q2</span>
+                        <span>2026.08.07</span>
+                    </div>
+                    <h3>SpaceX 2026Q2——上市后首份财报，营收78亿美元同比大增92%，火箭公司只剩12%是火箭</h3>
+                    <p>SpaceX于2026年6月12日完成史上最大规模IPO后，8月4日交出首份季度财报：2026Q2营收78.1亿美元，同比大增92%；净亏损从10亿美元收窄至5.4亿美元。营收结构令人意外——星链通信业务占55%，向Anth...</p>
+                    <span class="finance-card__metric">营收同比+92%</span>
+                </a>
+            </article>
+            
+            <article class="finance-card">
+                <a href="/blog/2026/08/07/apple_fy2026q3_earnings/">
+                    <div class="finance-card__topic">
+                        <span>苹果 · FY2026Q3</span>
+                        <span>2026.08.07</span>
+                    </div>
+                    <h3>Apple 2026财年Q3——营收1094亿美元同比增长16%，库克交出任内最后一份"史上最强六月季度"</h3>
+                    <p>苹果2026财年第三财季（4-6月）营收1094亿美元，同比增长16.4%，创下六月季度历史纪录；净利润298亿美元，同比大增27.1%。iPhone营收543亿美元同比增长21.7%，Mac大涨28.7%，毛利率首次站上5...</p>
+                    <span class="finance-card__metric">营收同比+16.4%，净利润同比+27.1%</span>
+                </a>
+            </article>
+            
         </div>
-    </div>
-</header>
+    </section>
 
-<link rel="stylesheet" href="/css/backtop.css">  <!-- Back Top -->
-<script type="text/javascript" src="/js/backtop.js"></script>  <!-- Back Top -->
+    <section class="ideas-section" id="ideas">
+        <div class="editorial-shell">
+            <header class="editorial-section-head">
+                <div>
+                    <p class="editorial-section-label">Ideas & practice / 02</p>
+                    <h2>思考与实践</h2>
+                </div>
+                <a href="/articles/">查看文章归档 ↗</a>
+            </header>
 
-<div id="back-top">
-  <a href="#top" title="回到顶部"></a>
-</div>
-
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-			<div style="max-width: 800px; margin: 0 auto; font-family: Arial, sans-serif;">
-    <!-- <h1 style="color: #1EB2A6; text-align: center;">文章列表</h1> -->
-    <!-- <p style="text-align: center; color: #666; margin-bottom: 30px;">分享学习、AI、互联网，以及一切有趣的东西！</p> -->
-
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2024/11/01/luckin_coffee_2024q3_finance_report/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                瑞幸咖啡2024年Q3财报 - 营收同比增41.4%至101.8亿元,月活用户增36.5%
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                瑞幸于10月30号发布了2024年Q3的财报，最大的亮点在于营收大幅增长。很难想象，2020年因财务造假一度面临生死危机的瑞幸，4年后竟然活得相当不错。
-
-一、公司基础分析
-
-1. 公司概况
-
-
-  主营业务：连锁咖啡零售
-  门店规模：截至Q3末总计21,343家门店,其中自营店13,936...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on November 1, 2024</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2024/10/25/tesla_2024q3_finance_report/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                股价暴涨22%，一文读懂特斯拉2024Q3财报
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
+            <div class="ideas-list">
                 
-
-特斯拉发布2024年第三季度财报后，股价飙升22%，创下11年来最大单日涨幅。对于这家市值8000亿美元的电动车巨头而言，如此显著的涨幅实属罕见。强劲的盈利表现，叠加市场对其未来的乐观预期，推动了这一戏剧性上涨。
-
-接下来，让我们通过清晰的数据分析，深入解读特斯拉的第三季度财务表现。
-
-一...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on October 25, 2024</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2024/10/12/subtitle_trick/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                一个简单的神奇策略，轻松解决长字幕问题
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                引子
-
-首先我们来看一个看似无用的常识：
-
-
-  一个人正常速度下每分钟可以朗读200-300字（中文）；如果是英文，速度也差不多，大概在200个单词左右，换算一下，平均朗读一个单词耗时0.3秒。
-
-
-
-这个看似无用的常识，能发挥什么作用呢？
-
-起因
-
-最近我开发了一个YouTube视频字幕转...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on October 12, 2024</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2024/09/17/trip_ceo_interview/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                Trip.com CEO 谈招聘——诚信、实干、好奇心与乐观精神
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                今天看了挪威主权财富基金CEO对Trip.com CEO（Jane Sun）的采访，其中提到关于招聘的问题，这里分享出来，供大家参考。
-
-Nicolai问Jane在招聘时都看重候选人的哪些素质，Jane提到了4点，分别是：诚信、实干、好奇心、乐观精神。
-
-在这些素质中，Jane特别强调了如何筛...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on September 17, 2024</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2024/09/13/openai_o1/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                OpenAI发布最新推理模型o1——一个会思考的AI
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
+                <a class="idea-row" href="/blog/2024/11/23/pixar_building/">
+                    <time datetime="2024-11-23T00:00:00+08:00">2024.11.23</time>
+                    <h3>皮克斯CEO - 建筑是用来交流的</h3>
+                    <span>皮克斯 · 乔布斯</span>
+                </a>
                 
-
-OpenAI刚刚发布了最新的模型o1，这个模型在回答之前会进行思考，所以非常擅长推理相关的问题，它在多个方面都表现突出：
-
-
-  竞争编程问题（Codeforces）中排名前89%；
-  在美国数学奥林匹克（AIME）预选赛中跻身美国前500名学生之列；
-  在物理、生物、化学问题的基准测...
+                <a class="idea-row" href="/blog/2024/11/10/america_-elections_2024/">
+                    <time datetime="2024-11-10T00:00:00+08:00">2024.11.10</time>
+                    <h3>川普获胜，美股再创新高，这是什么逻辑？</h3>
+                    <span>2024美国大选</span>
+                </a>
+                
+                <a class="idea-row" href="/blog/2024/11/06/why_japanese_yan_is_so_weak/">
+                    <time datetime="2024-11-06T00:00:00+08:00">2024.11.06</time>
+                    <h3>为什么日元如此疲软，日本却仍然是一个高度发达的国家？</h3>
+                    <span>日本</span>
+                </a>
+                
+                <a class="idea-row" href="/blog/2024/10/12/subtitle_trick/">
+                    <time datetime="2024-10-12T00:00:00+08:00">2024.10.12</time>
+                    <h3>一个简单的神奇策略，轻松解决长字幕问题</h3>
+                    <span>AI · 字幕</span>
+                </a>
+                
             </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on September 13, 2024</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2024/09/10/ask_good_questions_in_ai_era/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                AI 时代的核心能力——正确提问
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                最近几天在频繁使用AI，辅助我写一个网站，这期间涉及到了AI在很多方向的应用：代码、设计、文案、翻译、总结、prompt优化、知识获取，等等。突然想到之前有人问我的一个问题：你觉得AI产品经理最重要的能力是什么？ 如果现在让我回答，那一定是：提出一个好问题。
-
-实际上这个问题扩展一下仍然成立—...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on September 10, 2024</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2024/08/27/pension_data_2021/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                6354 vs 191，都是最真实的养老金
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                大家通常看到的养老金数据都是宏观数据，例如国家有10亿人口缴纳养老金，每年养老金收入和支出都在6万亿以上。但是这些数据对普通人来说没有任何意义，我们想知道的是如果自己退休了，到底能领多少钱。
-
-本文整理了2021年的全国养老金数据和分地区的养老金数据，其价值在于第一次明确体现了企业单位、非企业...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on August 27, 2024</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="/blog/2024/08/23/tencent_2024_q2_performance_report/" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                腾讯2024Q2业绩——视频号会是新的增长引擎吗?
-            </h2>
-            
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                腾讯已经深深融入了我们的日常生活，无论是个人还是企业，几乎都离不开它的产品和服务。因此，了解腾讯的业绩表现，不仅有助于我们洞察这家科技巨头的未来走向，也能更好地把握当前的经济环境。
-
-本文从用户数据、产品表现、财务指标这3个方面来观察腾讯在2024 Q2的业绩表现，所有数据均来自腾讯官方202...
-            </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by zluckyH on August 23, 2024</p>
-    </div>
-
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    
-
-    <!-- Pager -->
-    
-    <ul class="pager" style="list-style-type: none; padding: 0; text-align: center;">
-        
-        <li class="previous" style="display: inline-block; margin-right: 10px;">
-            <a href="/page2" style="color: #1EB2A6; text-decoration: none;">&larr; Newer Posts</a>
-        </li>
-        
-        
-        <li class="next" style="display: inline-block;">
-            <a href="/page4" style="color: #1EB2A6; text-decoration: none;">Older Posts &rarr;</a>
-        </li>
-        
-    </ul>
-    
-</div>
-
-		</div>
-	</div>
-</div>
-
-<hr>
+        </div>
+    </section>
+</main>
 
 
     <!-- Footer -->
@@ -452,14 +326,13 @@ OpenAI刚刚发布了最新的模型o1，这个模型在回答之前会进行思
 
 
 <!-- Highlight.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.1/async.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
 <script>
-    async("https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+    if (window.hljs) {
         hljs.initHighlightingOnLoad();
-    })
+    }
 </script>
 <link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
-
 
 
     

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Anthropic 表示 Claude Fable 5 将在与美国政府沟通后重新全球部署，并加入新的分类器以识别和阻断更多网络安全任务。短期内，部分常规 coding 和 debugging 请求会回退到 Opus 4.8，Anthropic 称未来几周会继续降低误判。随后 Cursor、Perplexity Computer、Abacus AI/ChatLLM Routes 等工具陆续恢复 Fable 5 接入。这个事件把 frontier model 能力、政府风险沟通、工具分发和 coding agent 成本同时放到同一张表上。">
+    <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.07.02 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/07/02/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
+        </div>
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.07.02</p>
+    <h1>Claude Fable 5 重新全球上线，但加入网络安全分类器</h1>
+    
+    <p class="article-deck">Anthropic 表示 Claude Fable 5 将在与美国政府沟通后重新全球部署，并加入新的分类器以识别和阻断更多网络安全任务。短期内，部分常规 coding 和 debugging 请求会回退到 Opus 4.8，Anthropic 称未来几周会继续降低误判。随后 Cursor、Perplexity Computer、Abacus AI/ChatLLM Routes 等工具陆续恢复 Fable 5 接入。这个事件把 frontier model 能力、政府风险沟通、工具分发和 coding agent 成本同时放到同一张表上。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-07-02T09:07:00+08:00">2026年7月2日</time>
+      <span>19 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>14</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>7</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>19</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="114-claude-fable-5-重新全球上线但加入网络安全分类器">1/14 Claude Fable 5 重新全球上线，但加入网络安全分类器</h2>
+<p>Anthropic 表示 Claude Fable 5 将在与美国政府沟通后重新全球部署，并加入新的分类器以识别和阻断更多网络安全任务。短期内，部分常规 coding 和 debugging 请求会回退到 Opus 4.8，Anthropic 称未来几周会继续降低误判。随后 Cursor、Perplexity Computer、Abacus AI/ChatLLM Routes 等工具陆续恢复 Fable 5 接入。这个事件把 frontier model 能力、政府风险沟通、工具分发和 coding agent 成本同时放到同一张表上。</p>
+<ul>
+  <li><a href="https://x.com/AnthropicAI/status/2072163884430229756">查看 @AnthropicAI 原始推文</a></li>
+  <li><a href="https://x.com/AnthropicAI/status/2072405052518752717">查看 @AnthropicAI 原始推文</a></li>
+  <li><a href="https://x.com/cursor_ai/status/2072403323844428217">查看 @cursor_ai 原始推文</a></li>
+  <li><a href="https://x.com/perplexity_ai/status/2072433125104505226">查看 @perplexity_ai 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2072404816903741817">查看 @bindureddy 原始推文</a></li>
+</ul>
+
+<h2 id="214-openai-genebench-pro-把生物医学-ai-评测推向长程判断任务">2/14 OpenAI GeneBench-Pro 把生物医学 AI 评测推向长程判断任务</h2>
+<p>Greg Brockman 转发 GeneBench-Pro，称其测试模型能否处理真实计算生物学中需要判断的分析任务，每个问题约相当于人类专家 20-40 小时工作。AlphaSignal 摘要提到，该基准包含 129 个 genomics 和 biomedicine 问题，GPT-5.6 Sol 在 max reasoning 下得分 28.7%，Sol Pro 在另一组运行中达到 31.5%，Claude Opus 4.8 为 16.0%。重点不是模型完全不会做，而是会在发现局部诊断信号后没有把信号传导到最终分析决策。</p>
+<ul>
+  <li><a href="https://x.com/gdb/status/2072191801122038207">查看 @gdb 原始推文</a></li>
+  <li><a href="https://x.com/AlphaSignalAI/status/2072429750556176398">查看 @AlphaSignalAI 原始推文</a></li>
+  <li><a href="https://x.com/AlphaSignalAI/status/2072429753748058271">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<h2 id="314-anthropicopenaigoogle-同步把-ai-科学瓶颈指向验证">3/14 Anthropic、OpenAI、Google 同步把 AI 科学瓶颈指向验证</h2>
+<p>AlphaSignal 将 Claude Science、GeneBench-Pro 和 Google PAT 放在同一条主线里：Claude Science 是带工具和一致性检查的研究工作台，GeneBench-Pro 衡量模型完成真实生物医学分析的可信度，PAT 则是面向论文审稿前检查的 Paper Assistant Tool。PAT 线程称它读取完整 manuscript、验证实验并检查数学，在 SPOT 数学错误检测 benchmark 上从 Gemini 3.1 Pro zero-shot 的 55.2% 提升到 89.7%。三者共同指向科学 AI 的新瓶颈：不是生成更多结果，而是确认结果。</p>
+<ul>
+  <li><a href="https://x.com/AlphaSignalAI/status/2072429740406063605">查看 @AlphaSignalAI 原始推文</a></li>
+  <li><a href="https://x.com/AlphaSignalAI/status/2072429747276251297">查看 @AlphaSignalAI 原始推文</a></li>
+  <li><a href="https://x.com/AlphaSignalAI/status/2072429756478640398">查看 @AlphaSignalAI 原始推文</a></li>
+  <li><a href="https://x.com/AlphaSignalAI/status/2072429759469105397">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<h2 id="414-xai-推出-grok-voice-agent-builder按分钟定价进入语音代理">4/14 xAI 推出 Grok Voice Agent Builder，按分钟定价进入语音代理</h2>
+<p>xAI 发布 Voice Agent Builder，定位为 no-code 平台，用 Grok Voice 创建类人语音代理，beta 版本按 0.05 美元/分钟计费，并给每个账号提供一个免费电话号码起步。官方称产品面向希望直接上线 production voice agents 的 operators 和 developers，内置 telephony、knowledge retrieval、tools、guardrails 和 observability，也允许带入现有电话号码、API 和 MCP。xAI 强调它不是把 STT、LLM、TTS 三段 API 拼接，而是把语音代理放到一个与 Grok Voice 紧耦合的界面中。</p>
+<ul>
+  <li><a href="https://x.com/xai/status/2072342803787702422">查看 @xai 原始推文</a></li>
+  <li><a href="https://x.com/xai/status/2072342805482222057">查看 @xai 原始推文</a></li>
+  <li><a href="https://x.com/xai/status/2072342807193550900">查看 @xai 原始推文</a></li>
+  <li><a href="https://x.com/xai/status/2072342809034789088">查看 @xai 原始推文</a></li>
+</ul>
+
+<h2 id="514-nvidia-nemotron-labs-twotower-用双塔结构加速-diffusion-language-model">5/14 NVIDIA Nemotron-Labs-TwoTower 用双塔结构加速 diffusion language model</h2>
+<p>NVIDIA Research 发布 Nemotron-Labs-TwoTower，称其从 Nemotron-3-Nano-30B-A3B 改造而来，把 30B 模型拆成两部分并行写 token：一半保留上下文，另一半生成 token，并复用预训练模型而不是从零训练。NVIDIA 在推文中称该方法保留原模型 98.7% 质量，同时生成速度提升 2.42 倍，并提供 arXiv 论文和 Hugging Face 权重页面。这个方向说明开源大模型加速不只靠 speculative decoding，也在探索结构层面的并行生成。</p>
+<ul>
+  <li><a href="https://x.com/NVIDIAAI/status/2072394812301480067">查看 @NVIDIAAI 原始推文</a></li>
+  <li><a href="https://x.com/NVIDIAAI/status/2072395532316889497">查看 @NVIDIAAI 原始推文</a></li>
+  <li><a href="https://x.com/NVIDIAAI/status/2072397350694502552">查看 @NVIDIAAI 原始推文</a></li>
+</ul>
+
+<h2 id="614-databricks-unity-ai-gateway-把-agentmcp-和-skills-纳入治理清单">6/14 Databricks Unity AI Gateway 把 agent、MCP 和 skills 纳入治理清单</h2>
+<p>Databricks 介绍 Unity AI Gateway 更新，称其是 AI assets、models、agents、LLM endpoints、MCP servers、Skills 和 coding agents 的治理方案。新 agent registry 允许企业登记外部 agents、Databricks 内部 agents、MCP 和 Skills，形成集中 inventory 和 system of record。Databricks 同日宣布 Claude Sonnet 5 可通过 Unity AI Gateway 在 AWS、Azure、GCP 上受治理使用。企业 agent 平台的竞争正在从模型调用扩展到资产登记、权限、审计、部署和跨云治理。</p>
+<ul>
+  <li><a href="https://x.com/databricks/status/2072397522157355120">查看 @databricks 原始推文</a></li>
+  <li><a href="https://x.com/databricks/status/2072379280261026234">查看 @databricks 原始推文</a></li>
+</ul>
+
+<h2 id="714-databricks-继续推广-ltap用一份-lake-数据同时服务交易和分析">7/14 Databricks 继续推广 LTAP，用一份 lake 数据同时服务交易和分析</h2>
+<p>Databricks 再次解释 LTAP 架构，称传统数据团队常为 transactions 和 analytics 维护两套系统，导致复制、漂移和治理复杂。LTAP 目标是在开放格式的一份 storage copy 上同时承载 transaction 和 analytics，减少 ETL、replicas 和 pipelines，并让分析系统读取更实时的数据。对 AI 应用来说，这类底层数据架构会影响 agent、BI、实时应用和运营系统能否访问同一份新鲜、可治理的数据，而不是在复制链路后等待。</p>
+<ul>
+  <li><a href="https://x.com/databricks/status/2072320605748162596">查看 @databricks 原始推文</a></li>
+</ul>
+
+<h2 id="814-together-ai-用融资和客户案例强化-open-models-成本叙事">8/14 Together AI 用融资和客户案例强化 open models 成本叙事</h2>
+<p>Together AI 宣布 Series C，并把口号概括为 intelligence should be abundant, not expensive。随后它引用 Decagon co-founder Ashwin Sreenivas 的案例称，从 closed models 迁移到 Together AI 上的 open models 后，任务成本可降到原来的五分之一到七分之一；另一个客户页提到每轮成本降低 6 倍、p95 latency 低于 400ms、模型每周发布。这里的重点是 open models 竞争正在从“能不能用”走向生产经济性、延迟和可持续迭代节奏。</p>
+<ul>
+  <li><a href="https://x.com/togethercompute/status/2072360516857790566">查看 @togethercompute 原始推文</a></li>
+  <li><a href="https://x.com/togethercompute/status/2072360518560645419">查看 @togethercompute 原始推文</a></li>
+  <li><a href="https://x.com/togethercompute/status/2072468212911137067">查看 @togethercompute 原始推文</a></li>
+  <li><a href="https://x.com/togethercompute/status/2072470727287353369">查看 @togethercompute 原始推文</a></li>
+</ul>
+
+<h2 id="914-llamaindex-index-v2-把法律知识库做成-agentic-retrieval-示例">9/14 LlamaIndex Index v2 把法律知识库做成 agentic retrieval 示例</h2>
+<p>LlamaIndex 发布 legal-kb reference application，展示 Index v2 如何支持法律和金融等需要 agent 自主浏览大型知识库的场景。推文称 agentic retrieval 正在改变 RAG 应用构建方式，legal-kb 集成 Index v2，让 agent 能在不断变化的大型知识库中检索、导航和读取，而不是只依赖一次 semantic search。官方同时给出 demo、GitHub repo 和 cloud signup 链接。文档 agent 的上限越来越取决于检索、文件导航和上下文控制，而不只是底层 LLM。</p>
+<ul>
+  <li><a href="https://x.com/llama_index/status/2072372216994374077">查看 @llama_index 原始推文</a></li>
+</ul>
+
+<h2 id="1014-langchain-deep-agents-支持-dynamic-subagents-和-recursive-workflows">10/14 LangChain Deep Agents 支持 dynamic subagents 和 recursive workflows</h2>
+<p>Harrison Chase 转发并补充 Deep Agents 的 dynamic subagents，把它称为实现 agentic map reduce 的方式：主 agent 可按任务动态生成和调度子 agent，用更确定的方式控制创建、运行和综合。当天 LangChain 相关推文还提到 recursive language model workflows、OpenWiki、wiki memory 和面向 agents 的代码库文档。LangChain 生态的更新重点不是单个 chat agent，而是把多 agent 编排、长期记忆、代码库知识和轨迹管理变成可复用运行时组件。</p>
+<ul>
+  <li><a href="https://x.com/hwchase17/status/2072377816780624266">查看 @hwchase17 原始推文</a></li>
+  <li><a href="https://x.com/hwchase17/status/2072364250526630164">查看 @hwchase17 原始推文</a></li>
+  <li><a href="https://x.com/hwchase17/status/2072375664314081287">查看 @hwchase17 原始推文</a></li>
+</ul>
+
+<h2 id="1114-runway-推出虚构产品广告大赛并扩大媒体企业合作">11/14 Runway 推出虚构产品广告大赛，并扩大媒体企业合作</h2>
+<p>Runway 发布 Another Big Ad Contest For Products That Don’t Exist，提供 7 个 brief、4 周制作时间和最高 10 万美元现金奖励，鼓励创作者为不存在的产品制作广告。Cristobal Valenzuela 同日称 Runway 与 Bertelsmann 建立合作，Runway 将被整合进后者全球 portfolio。两条消息都显示生成式视频工具在从单次生成 demo 走向广告、娱乐和企业媒体工作流：平台既需要创作者社区，也需要进入大型内容公司的生产体系。</p>
+<ul>
+  <li><a href="https://x.com/runwayml/status/2072346724312498383">查看 @runwayml 原始推文</a></li>
+  <li><a href="https://x.com/runwayml/status/2072346725969228147">查看 @runwayml 原始推文</a></li>
+  <li><a href="https://x.com/runwayml/status/2072332384855335067">查看 @runwayml 原始推文</a></li>
+</ul>
+
+<h2 id="1214-replit-用-whop-集成把-agent-built-app-推向变现闭环">12/14 Replit 用 Whop 集成把 agent-built app 推向变现闭环</h2>
+<p>Replit 宣布与 Whop 集成，用户可以在 Replit 上构建应用、无额外 setup 接入 payments，然后发布和推广。Replit 同日还发布 builder 安全 walkthrough、vibecon 片段以及 iPhone/subway 编程活动转发。与上周的移动和桌面入口相比，这条更新关注的是 AI coding 工具的商业闭环：agent 生成应用只是第一步，支付、发布、安全检查、营销和用户获取决定一个小型应用能否真正上线并收款。</p>
+<ul>
+  <li><a href="https://x.com/Replit/status/2072349322927321180">查看 @Replit 原始推文</a></li>
+  <li><a href="https://x.com/Replit/status/2072353795162669138">查看 @Replit 原始推文</a></li>
+  <li><a href="https://x.com/Replit/status/2072379710126882894">查看 @Replit 原始推文</a></li>
+  <li><a href="https://x.com/Replit/status/2072423224399606108">查看 @Replit 原始推文</a></li>
+</ul>
+
+<h2 id="1314-cerebras-用-gemma-4-31b-演示多模态-agent-的延迟差异">13/14 Cerebras 用 Gemma 4 31B 演示多模态 agent 的延迟差异</h2>
+<p>Cerebras 用同一个任务对比两个 agent：“Find images matching this description”。两者都使用 Gemma 4 31B，一个跑在 Cerebras 上，另一个跑在 GPUs 上，官方强调速度会改变产品体验。另一条转发称 Gemma 4 31B 在 Cerebras 上超过 1,800 tokens/sec 且支持 multimodal。这个信号与近期端侧和低延迟模型讨论一致：当 agent 需要看图、查找、循环判断和调用工具时，推理延迟会直接影响用户是否觉得产品可用。</p>
+<ul>
+  <li><a href="https://x.com/cerebras/status/2072435024746688521">查看 @cerebras 原始推文</a></li>
+  <li><a href="https://x.com/cerebras/status/2072377856710365454">查看 @cerebras 原始推文</a></li>
+</ul>
+
+<h2 id="1414-开放模型安全叙事转向漏洞报告透明度和-flare">14/14 开放模型安全叙事转向漏洞报告、透明度和 FLARE</h2>
+<p>Clement Delangue 发文称，可访问甚至开源的 AI 系统更安全，因为更多人可以检查、测试、施压并报告破坏或伤害，从而让构建者负责；他同时提到 Hugging Face 参与 FLARE，与安全和网络安全研究者组成 coalition。当天 Hugging Face、Clement 和相关转发还围绕 GLM 5.2、open weights、Portugal open-source AI model 等消息继续强化开放模型叙事。政策争论不再只是 open vs closed，而是围绕透明度、漏洞报告机制、责任边界和安全研究可达性展开。</p>
+<ul>
+  <li><a href="https://x.com/ClementDelangue/status/2072401982569025742">查看 @ClementDelangue 原始推文</a></li>
+  <li><a href="https://x.com/ClementDelangue/status/2072473801858691179">查看 @ClementDelangue 原始推文</a></li>
+  <li><a href="https://x.com/huggingface/status/2072487322621251797">查看 @huggingface 原始推文</a></li>
+</ul>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="anthropic-redeploys-claude-fable-5">Anthropic redeploys Claude Fable 5</h3>
+<p>Anthropic 在公告中说明，Fable 5 重新部署来自与美国政府的一系列沟通，产品侧会加入新的 classifiers，目标是阻断更多网络安全相关任务。公告同时承认短期内一些常规 coding 和 debugging 请求会回退到 Opus 4.8，并会继续调优以减少 false positives、更好地区分真实滥用和合法请求。当天 Cursor、Perplexity Computer 和 Abacus AI 相关推文显示，Fable 5 的恢复不只是 Claude 自有产品事件，也影响下游 coding agent、computer use 和 model routing 工具。
+<a href="https://www.anthropic.com/news/redeploying-fable-5">查看原文</a></p>
+
+<h3 id="genebench-pro--claude-science--pat">GeneBench-Pro / Claude Science / PAT</h3>
+<p>OpenAI GeneBench-Pro、Anthropic Claude Science 和 Google PAT 被当天推文放在同一组科学验证基础设施里。GeneBench-Pro 聚焦需要专家 20-40 小时的真实计算生物学任务，AlphaSignal 摘要称 GPT-5.6 Sol max reasoning 得分 28.7%，Sol Pro 达 31.5%。Claude Science 强调研究工具、数据库和 consistency checks 的集成；PAT 则通过 paper-level review agent 检查实验和数学，AlphaSignal 引述 SPOT benchmark 中 PAT 达到 89.7%。共同信号是科学 AI 正从生成答案走向验证答案。
+<a href="https://openai.com/index/introducing-genebench-pro/">查看原文</a>
+<a href="https://www.anthropic.com/news/claude-science-ai-workbench">查看原文</a>
+<a href="https://arxiv.org/abs/2606.28277">查看原文</a></p>
+
+<h3 id="xai-grok-voice-agent-builder">xAI Grok Voice Agent Builder</h3>
+<p>xAI 的 Voice Agent Builder 把语音代理包装成 no-code beta 产品，支持 telephony、knowledge retrieval、tools、guardrails、observability、现有号码、API 和 MCP。公开定价为 0.05 美元/分钟，并为账号提供免费电话号码试用。xAI 的产品叙事强调减少传统 voice stack 中 STT、LLM、TTS 多供应商拼接造成的延迟、成本和故障点。语音 agent 的竞争因此不只在声音质量，也在电话系统、知识检索、工具执行、监控和生产上线速度。
+<a href="https://x.ai/news/grok-voice-agent-builder">查看原文</a></p>
+
+<h3 id="nvidia-nemotron-labs-twotower">NVIDIA Nemotron-Labs-TwoTower</h3>
+<p>Nemotron-Labs-TwoTower 是 NVIDIA Research 基于 Nemotron-3-Nano-30B-A3B 改造的 diffusion language model。推文称它把一个 30B 模型拆成两半：一半保留 context，另一半并行生成 token，并复用已有预训练模型。NVIDIA 给出的核心数字是保留 98.7% 原模型质量，同时提升 2.42 倍生成速度。Hugging Face 页面和 arXiv 论文提供了模型与技术细节入口。这个方向代表在推理阶段通过模型结构和并行生成降低延迟的尝试。
+<a href="https://huggingface.co/nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16">查看原文</a>
+<a href="https://arxiv.org/abs/2606.26493">查看原文</a></p>
+
+<h3 id="databricks-unity-ai-gateway-and-ltap">Databricks Unity AI Gateway and LTAP</h3>
+<p>Databricks 的 Unity AI Gateway 更新把 AI assets、models、agents、LLM endpoints、MCP servers、Skills 和 coding agents 纳入治理对象，并通过 agent registry 建立集中 inventory。Claude Sonnet 5 在 Databricks 上可通过 Unity AI Gateway 跨 AWS、Azure、GCP 使用。另一条 LTAP 博文则继续解释 Databricks 希望让交易和分析运行在 lake 中同一份开放格式数据上，减少复制、漂移和治理复杂度。两条结合起来看，Databricks 正把 agent 治理和数据新鲜度作为企业 AI 平台底座。
+<a href="https://www.databricks.com/blog/ai-governance-data-ai-summit-2026-whats-new-unity-ai-gateway">查看原文</a>
+<a href="https://www.databricks.com/blog/lakebase-ltap-rethinking-database-storage">查看原文</a></p>
+
+<h3 id="together-ai-open-model-economics">Together AI open-model economics</h3>
+<p>Together AI 的 Series C 公告和 Decagon 客户案例共同强调 open models 的生产经济性。Together 引述客户迁移后任务成本降至 closed models 的五分之一到七分之一，Decagon 案例页还给出每轮成本降低 6 倍、p95 latency 低于 400ms、模型每周发布等指标。它把 open model 采用从技术偏好转成成本、延迟和迭代速度问题。对 agentic workloads 来说，长对话、多工具、多轮反思和高并发会放大单位推理成本，模型服务经济性会直接影响产品形态。
+<a href="https://www.together.ai/blog/announcing-our-series-c">查看原文</a>
+<a href="https://www.together.ai/customers/decagon">查看原文</a></p>
+
+<h3 id="agent-retrieval-and-orchestration-stack">Agent retrieval and orchestration stack</h3>
+<p>LlamaIndex 的 legal-kb 展示 Index v2 如何支持法律知识库中的 agentic retrieval，重点是让 agent 在大型、演变中的文档集合里自主导航、检索和读取。LangChain Deep Agents 的 dynamic subagents 则让主 agent 按任务动态创建子 agent，用于 fanout、map reduce 和 synthesis 等模式。两者共同说明 agent runtime 正在拆成更明确的层：检索和文件导航解决“看什么”，subagent orchestration 解决“谁来并行做什么”，memory/wiki/docs 解决“跨任务保留什么上下文”。
+<a href="https://legal-kb.dev/">查看原文</a>
+<a href="https://github.com/run-llama/legal-kb">查看原文</a>
+<a href="https://docs.langchain.com/oss/python/deepagents/dynamic-subagents">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/ai-daily/2026/06/30/">
+          <span>上一篇</span>
+          <strong>AI Frontier Daily | 2026.06.30</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/07/03/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.07.03</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2026  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

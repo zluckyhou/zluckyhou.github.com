@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OpenAI 正式发布 ChatGPT Workspace Agents，面向企业和团队用户推出共享代理能力。Workspace Agents 构建于云端托管的 Codex 架构之上，可以处理需要上下文、工具调用和长期跟踪的复杂任务。用户只需描述任务，ChatGPT 即可将其转化为可复用的工作流代理，并与 Slack、Linear、Google Docs、邮件等工具无缝集成。代理可在后台持续运行或按计划自动执行，而无需人工监督。目前已向 ChatGPT Business、Enterprise、Edu 和 Teachers 用户开放研究预览。Sam Altman 评价："大多数公司都会想要使用它们。"">
+    <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.04.23 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/04/23/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
+        </div>
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.04.23</p>
+    <h1>OpenAI 发布 Workspace Agents：团队级 AI 工作流代理</h1>
+    
+    <p class="article-deck">OpenAI 正式发布 ChatGPT Workspace Agents，面向企业和团队用户推出共享代理能力。Workspace Agents 构建于云端托管的 Codex 架构之上，可以处理需要上下文、工具调用和长期跟踪的复杂任务。用户只需描述任务，ChatGPT 即可将其转化为可复用的工作流代理，并与 Slack、Linear、Google Docs、邮件等工具无缝集成。代理可在后台持续运行或按计划自动执行，而无需人工监督。目前已向 ChatGPT Business、Enterprise、Edu 和 Teachers 用户开放研究预览。Sam Altman 评价：”大多数公司都会想要使用它们。”
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-04-23T09:07:00+08:00">2026年4月23日</time>
+      <span>15 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>18</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>3</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>15</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="118-openai-发布-workspace-agents团队级-ai-工作流代理">1/18 OpenAI 发布 Workspace Agents：团队级 AI 工作流代理</h2>
+<p>OpenAI 正式发布 ChatGPT Workspace Agents，面向企业和团队用户推出共享代理能力。Workspace Agents 构建于云端托管的 Codex 架构之上，可以处理需要上下文、工具调用和长期跟踪的复杂任务。用户只需描述任务，ChatGPT 即可将其转化为可复用的工作流代理，并与 Slack、Linear、Google Docs、邮件等工具无缝集成。代理可在后台持续运行或按计划自动执行，而无需人工监督。目前已向 ChatGPT Business、Enterprise、Edu 和 Teachers 用户开放研究预览。Sam Altman 评价：”大多数公司都会想要使用它们。”</p>
+<ul>
+  <li><a href="https://x.com/OpenAI/status/2047008987665809771">查看 @OpenAI 原始推文</a></li>
+  <li><a href="https://x.com/gdb/status/2047023089087606814">查看 @gdb 原始推文</a></li>
+  <li><a href="https://x.com/sama/status/2047017964105597009">查看 @sama 原始推文</a></li>
+</ul>
+
+<h2 id="218-qwen36-27b27b-参数击败-397b-超大模型">2/18 Qwen3.6-27B：27B 参数击败 397B 超大模型</h2>
+<p>阿里 Qwen 团队发布最新开源稠密模型 Qwen3.6-27B，在代码能力上全面超越自家 Qwen3.5-397B-A17B（后者总参数 397B，激活 17B，约为前者 15 倍）。核心指标：SWE-bench Verified 77.2（vs. 76.2），SWE-bench Pro 53.5（vs. 50.9），Terminal-Bench 2.0 59.3，SkillsBench 48.2。架构上采用 GatedDeltaNet + GatedAttention 混合设计，原生支持 262K token 上下文，可扩展至 100 万。原生多模态（文本、图像、视频），支持思考/非思考双模式，Apache 2.0 协议开放。</p>
+<ul>
+  <li><a href="https://x.com/Alibaba_Qwen/status/2046939764428009914">查看 @Alibaba_Qwen 原始推文</a></li>
+  <li><a href="https://x.com/Alibaba_Qwen/status/2046939775924584577">查看 @Alibaba_Qwen 原始推文</a></li>
+</ul>
+
+<h2 id="318-google-发布第八代-tpu--宣布-gemini-enterprise-agent-platform">3/18 Google 发布第八代 TPU + 宣布 Gemini Enterprise Agent Platform</h2>
+<p>Google Cloud Next 大会上，Sundar Pichai 发布第八代 TPU：TPU 8t（针对训练优化）和 TPU 8i（针对推理优化），性能较上一代 Ironwood TPU 提升 2-3 倍。与此同时，Google 宣布 Google Cloud 当前每分钟通过直接 API 处理的 token 量超过 160 亿（上季度为 100 亿）。Google DeepMind 同步发布 Gemini Enterprise Agent Platform，作为 Vertex AI 的演进版本，集成了 200+ 主流模型（包括 Gemini 3.1 Pro、Gemini 3.1 Flash Image、Lyria 3 和开源 Gemma 4），并引入代理构建、治理和优化能力。Accenture、BCG、Bain、Deloitte、麦肯锡等咨询巨头已加入合作伙伴体系。</p>
+<ul>
+  <li><a href="https://x.com/sundarpichai/status/2046981627184902378">查看 @sundarpichai 原始推文</a></li>
+  <li><a href="https://x.com/sundarpichai/status/2046930927482482789">查看 @sundarpichai 原始推文</a></li>
+  <li><a href="https://x.com/GoogleDeepMind/status/2046983340524269713">查看 @GoogleDeepMind 原始推文</a></li>
+</ul>
+
+<h2 id="418-kimi-k26登顶-openrouter-编程榜超越-claude-opus-47">4/18 Kimi K2.6：登顶 OpenRouter 编程榜，超越 Claude Opus 4.7</h2>
+<p>Moonshot AI 的 Kimi K2.6 登上 OpenRouter 编程能力排行榜第一名，同时在 Design Arena 排名第一。根据 Bindureddy 的实测，Kimi K2.6 在 LiveBench（一个难以刷榜的综合基准）上超越 Claude Opus 4.7 的低档设置，在推理和编码上均有优势，且成本约为 Opus 4.7 的十分之一。此外，Kimi K2.6 推出 Agent Swarm 功能：支持 300 个并行子代理（上一代 K2.5 为 100 个），每次运行最多 4,000 步（上代 1,500 步），输出为真实文件而非聊天对话，一次运行可生成完整项目。Perplexity 已将 Kimi K2.6 向 Pro 和 Max 订阅用户开放。</p>
+<ul>
+  <li><a href="https://x.com/Kimi_Moonshot/status/2046915283206709581">查看 @Kimi_Moonshot 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2046987327957020909">查看 @bindureddy 原始推文</a></li>
+  <li><a href="https://x.com/Kimi_Moonshot/status/2047190578493096122">查看 @Kimi_Moonshot 原始推文</a></li>
+</ul>
+
+<h2 id="518-anthropic-发布-ai-经济影响研究报告启动月度经济指数调查">5/18 Anthropic 发布 AI 经济影响研究报告，启动月度经济指数调查</h2>
+<p>Anthropic 发布对 81,000 人调查的分析报告，深入研究 AI 的经济影响与用户的经济担忧。关键发现：收入最高和最低职业的人群都报告了最大的 AI 生产力提升；但提升最多的人群同时对工作替代的担忧也最强；软件工程等 Claude 高使用率职业的从业者比低暴露职业更担心岗位被取代。为持续跟踪 AI 经济影响，Anthropic 同步宣布启动”Anthropic 经济指数调查”，每月对 Claude 用户开展问卷，收集 AI 如何改变工作方式的定性数据。</p>
+<ul>
+  <li><a href="https://x.com/AnthropicAI/status/2047006548149289017">查看 @AnthropicAI 原始推文</a></li>
+  <li><a href="https://x.com/AnthropicAI/status/2047006550859125228">查看 @AnthropicAI 原始推文</a></li>
+  <li><a href="https://x.com/AnthropicAI/status/2047006554403057776">查看 @AnthropicAI 原始推文</a></li>
+</ul>
+
+<h2 id="618-微软-copilot-agent-mode-正式全面铺开成为-office-默认体验">6/18 微软 Copilot Agent Mode 正式全面铺开，成为 Office 默认体验</h2>
+<p>微软 CEO Satya Nadella 宣布，Copilot 的 Agent Mode 已正式全面发布（GA），并成为 Word、Excel 和 PowerPoint 中的默认体验。Nadella 特别强调 Excel 的空间推理能力：”给代理一个画布让其推理，一个 prompt 就能同时重塑模型、桥接逻辑与叙事。”微软同时发布 Foundry 中的 Hosted Agents，为每个代理提供独立的企业级沙盒，配备持久状态、内置身份认证与治理机制，支持任意框架接入，意在让”每个代理都有自己的计算机”。微软还宣布对澳大利亚迄今最大投资：承诺投入 250 亿澳元，用于扩展 AI 和云计算基础设施，加强网络安全和数字技能建设。</p>
+<ul>
+  <li><a href="https://x.com/satyanadella/status/2047105085172511013">查看 @satyanadella 原始推文</a></li>
+  <li><a href="https://x.com/satyanadella/status/2047033636923568440">查看 @satyanadella 原始推文</a></li>
+  <li><a href="https://x.com/satyanadella/status/2047118960941023552">查看 @satyanadella 原始推文</a></li>
+</ul>
+
+<h2 id="718-chatgpt-for-cliniciansopenai-发布免费医疗版-chatgpt">7/18 ChatGPT for Clinicians：OpenAI 发布免费医疗版 ChatGPT</h2>
+<p>Greg Brockman 宣布推出 ChatGPT for Clinicians，专门为医护人员打造的免费版本。根据 emollick 的测评，该版本基于 ChatGPT-5.4，在一个由真实临床难题构成的基准测试中表现超越了”拥有无限时间和网络访问权限的专科医生”。这是 OpenAI 在医疗领域的重要落地动作，旨在将 AI 辅助诊断和临床决策支持工具直接交给一线医生使用。</p>
+<ul>
+  <li><a href="https://x.com/gdb/status/2047145125604995280">查看 @gdb 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2047147032016551937">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="818-chatgpt-接入-google-sheetscursor-上线-slack-集成">8/18 ChatGPT 接入 Google Sheets，Cursor 上线 Slack 集成</h2>
+<p>OpenAI 发布 ChatGPT 的 Google Sheets 插件，用户可以直接在表格工作流中调用 ChatGPT 能力。与此同时，Cursor 推出 Slack 集成：在 Slack 对话中 @Cursor 即可启动编程任务，Cursor 会读取线程和频道上下文，自动生成 PR 并实时推送进度更新——将 AI 编码助手从单一 IDE 延伸到团队协作环境。</p>
+<ul>
+  <li><a href="https://x.com/gdb/status/2047064885012599168">查看 @gdb 原始推文</a></li>
+  <li><a href="https://x.com/cursor_ai/status/2047000517751288303">查看 @cursor_ai 原始推文</a></li>
+</ul>
+
+<h2 id="918-mustafa-suleyman训练算力-2028-年底再增-1000-倍">9/18 Mustafa Suleyman：训练算力 2028 年底再增 1000 倍</h2>
+<p>微软 AI CEO Mustafa Suleyman 表示，自 2010 年他开始从事 AI 工作以来，前沿模型的训练算力已经增长了一万亿倍（10^12）。他预测，到 2028 年底，有效算力还将在此基础上再增长约 1000 倍。这意味着届时的算力规模将是 2010 年的 10^15 倍。这一预判意味着当前的 AI 能力曲线仍处于陡坡阶段，远未触顶。</p>
+<ul>
+  <li><a href="https://x.com/mustafasuleyman/status/2046989133676257284">查看 @mustafasuleyman 原始推文</a></li>
+</ul>
+
+<h2 id="1018-perplexity-发布搜索增强后训练研究sft--rl-流水线">10/18 Perplexity 发布搜索增强后训练研究：SFT + RL 流水线</h2>
+<p>Perplexity 公开了其将基础模型训练为高质量搜索问答模型的技术流水线：先通过 SFT（有监督微调）让模型学会遵循指令、保持语言一致性、遵守边界；再通过在策略 RL（强化学习）提升搜索准确度和工具效率。奖励函数设计上，偏好分只在回答正确的前提下才生效，防止模型优化”听起来正确但实则错误”的答案。使用 Qwen 基础模型，Perplexity 的后训练版本在事实准确性上与 GPT 系列相当，但成本更低。</p>
+<ul>
+  <li><a href="https://x.com/perplexity_ai/status/2047016400292839808">查看 @perplexity_ai 原始推文</a></li>
+  <li><a href="https://x.com/perplexity_ai/status/2047016429883740580">查看 @perplexity_ai 原始推文</a></li>
+</ul>
+
+<h2 id="1118-emollickai-正在瓦解一切依赖人类努力成本的系统">11/18 emollick：AI 正在瓦解一切依赖”人类努力成本”的系统</h2>
+<p>宾夕法尼亚大学沃顿商学院教授 Ethan Mollick 指出，所有依靠”对人类而言耗费精力”来隐性或显性约束自身运行的系统，都将面临崩溃——推荐信、诉讼、政府申报、论文等，这些系统的设计默认了人类的时间成本是稀缺的。当 AI 使这些任务边际成本趋近于零时，整个调节机制就会失效。这是对 AI 系统性影响的深刻观察，而非特指某个产品。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2046979551046013125">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="1218-mattshumer企业-ai-考核乱象用-token-消耗量衡量员工-ai-能力">12/18 mattshumer：企业 AI 考核乱象——用 token 消耗量衡量员工 AI 能力</h2>
+<p>HyperWrite 创始人 Matt Shumer 披露，在一些大型企业内部，员工的晋升、绩效和解雇决策正在以”消耗的 token 数量”和”连接的 MCP 工具数”作为衡量标准。更荒诞的是，已有人专门跑循环刷 token 来”表演生产力”。Shumer 预警：18 个月后，这些公司的管理层将宣布”AI 未能兑现 ROI”并削减预算，但实际上是他们用错了指标——衡量产出才是正确方式，AI 本身并没有失败。</p>
+<ul>
+  <li><a href="https://x.com/mattshumer_/status/2046981408623649161">查看 @mattshumer_ 原始推文</a></li>
+</ul>
+
+<h2 id="1318-mit-用-ai-控制的人工肌肉纤维模拟人体肌肉">13/18 MIT 用 AI 控制的人工肌肉纤维模拟人体肌肉</h2>
+<p>MIT 研究人员研发出用 AI 控制的人工肌肉纤维，每根纤维内含一管带电液体和微型电泵，通过电荷注入产生离子驱动液体流动，实现类似二头肌/三头肌的协同收缩。这些纤维可像真实肌肉一样捆绑，通过增加股数来线性放大力量，无需电机和外部泵，完全静音。演示中，纤维已能弯曲机械臂、举起哑铃，也能轻柔到与人握手。该技术适用于假肢、外骨骼和工业机器人场景，代表了”以生物学为基础重新设计执行器”的新方向。</p>
+<ul>
+  <li><a href="https://x.com/rowancheung/status/2046970405219713065">查看 @rowancheung 原始推文</a></li>
+</ul>
+
+<h2 id="1418-openmythos开发者逆向工程-claude-mythos-并开源">14/18 OpenMythos：开发者逆向工程 Claude Mythos 并开源</h2>
+<p>一位开发者逆向还原了 Anthropic 的 Claude Mythos 架构并以 PyTorch 开源，命名为 OpenMythos。核心思路：不堆叠数百个独特层，而是让单一 block 在每次前向传播中最多运行 16 次，共享权重但多次迭代，推理在连续的隐变量空间中进行，不产生 chain-of-thought token。770M 参数的版本在质量上与 1.3B 标准 Transformer 相当。每次迭代激活不同专家子集，使每次 pass 都是真正不同的计算，并允许推理深度在推理时动态扩展。</p>
+<ul>
+  <li><a href="https://x.com/AlphaSignalAI/status/2046977238839558411">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<h2 id="1518-fchollet以模仿能力评判-agi-是范畴错误">15/18 fchollet：以”模仿能力”评判 AGI 是范畴错误</h2>
+<p>Google DeepMind 研究员、ARC-AGI 创始人 François Chollet 发表观点：用 AI 对人类行为的模仿程度来衡量 AGI 是一个根本性的范畴错误，因为”模仿不是智能，也不是通用”。他主张，真正的 AGI 评判标准应当是：AI 能否学会我们没有教过它的事情，包括我们自己也不知道如何做的事情。这一观点与他长期推动的 ARC-AGI 基准测试哲学一脉相承。</p>
+<ul>
+  <li><a href="https://x.com/fchollet/status/2047006540549509248">查看 @fchollet 原始推文</a></li>
+</ul>
+
+<h2 id="1618-langchain-宣布将发布测试工具改进5-月-13-日揭晓">16/18 LangChain 宣布将发布测试工具改进，5 月 13 日揭晓</h2>
+<p>LangChain CEO Harrison Chase 预告：”LangChain 给你测试工具，但它从不告诉你测什么、按什么顺序、何时才算完成。这很快将改变。”将在 5 月 13 日举办的 Interrupt 大会上正式发布。这指向 AI Agent 开发中长期痛点：测试覆盖度和测试终止条件的不确定性。</p>
+<ul>
+  <li><a href="https://x.com/hwchase17/status/2046962351090606404">查看 @hwchase17 原始推文</a></li>
+</ul>
+
+<h2 id="1718-characterai-推出-memory-功能角色将记住用户">17/18 Character.AI 推出 Memory 功能，角色将记住用户</h2>
+<p>Character.AI 官方宣布 Memory 功能正式上线，角色将开始记忆与用户的历史对话。官方表示将在未来几周内陆续推出一系列 Memory 相关新特性。这是 Character.AI 在个性化对话体验上的重要升级，长期记忆能力一直是角色扮演类 AI 产品的核心诉求。</p>
+<ul>
+  <li><a href="https://x.com/character_ai/status/2047030699417571565">查看 @character_ai 原始推文</a></li>
+</ul>
+
+<h2 id="1818-swyx-等人预期-openai-明日发布新模型">18/18 swyx 等人预期 OpenAI 明日发布新模型</h2>
+<p>多位 AI 社区观察者（包括 swyx、bindureddy 等）表达了对 OpenAI 即将发布新模型的强烈预期，swyx 称”GPT 5.5 明天发布将是我能要到的最好生日礼物”。bindureddy 也预告”明天将至，OpenAI 的新模型会打破所有记录吗？”截至日报截稿，官方尚未正式宣布，但社区情绪高涨。</p>
+<ul>
+  <li><a href="https://x.com/swyx/status/2047137849539956862">查看 @swyx 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2047062789915877830">查看 @bindureddy 原始推文</a></li>
+</ul>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="qwen36-27b-技术详情">Qwen3.6-27B 技术详情</h3>
+<p>Qwen3.6-27B 是阿里巴巴通义千问团队发布的最新开源稠密模型，参数量 27B，但在编码 Agent 能力上全面超越 397B 的 Qwen3.5-397B-A17B（总参数约 15 倍）。</p>
+
+<p>关键规格：</p>
+<ul>
+  <li>架构：GatedDeltaNet + GatedAttention 混合层，共 64 层，隐藏维度 5120</li>
+  <li>上下文：原生 262,144 token，YaRN 扩展至 1,010,000 token</li>
+  <li>模态：文本 + 图像 + 视频（统一 checkpoint）</li>
+  <li>许可证：Apache 2.0</li>
+</ul>
+
+<p>核心基准（Coding Agent）：</p>
+<ul>
+  <li>SWE-bench Verified：77.2%（超 Qwen3.5-397B-A17B 的 76.2%）</li>
+  <li>SWE-bench Pro：53.5%（超 50.9%）</li>
+  <li>Terminal-Bench 2.0：59.3%（超 52.5%）</li>
+  <li>SkillsBench Avg5：48.2%（超 30.0%）</li>
+</ul>
+
+<p>知识与推理：MMLU-Pro 86.2%，GPQA Diamond 87.8%，AIME26 94.1%</p>
+
+<p>支持 vLLM（≥0.19.0）、SGLang（≥0.5.10）等主流推理框架。默认开启思考模式，也支持关闭。
+<a href="https://huggingface.co/Qwen/Qwen3.6-27B">查看原文</a></p>
+
+<h3 id="perplexity-搜索增强后训练流水线">Perplexity 搜索增强后训练流水线</h3>
+<p>Perplexity 公开了如何将开源基础模型（如 Qwen 系列）后训练为高质量搜索问答模型的技术细节：</p>
+
+<ol>
+  <li><strong>SFT 阶段</strong>：指令遵循、语言一致性、边界守护（防越界）</li>
+  <li><strong>On-policy RL 阶段</strong>：搜索准确率、引用质量、工具效率提升</li>
+  <li><strong>奖励函数设计</strong>：偏好奖励只在回答正确时才计入，防止模型学到”措辞流畅但事实错误”的捷径</li>
+</ol>
+
+<p>效果：同等基础模型经后训练后，在搜索事实准确性上与 GPT 系列相当，但成本更低。
+<a href="https://x.com/perplexity_ai/status/2047016400292839808">查看原文</a></p>
+
+<h3 id="openmythos开源版-claude-mythos-架构">OpenMythos：开源版 Claude Mythos 架构</h3>
+<p>一位开发者逆向工程并开源了 Anthropic Claude Mythos 的核心架构思路——OpenMythos（PyTorch 实现）。</p>
+
+<p>核心创新：</p>
+<ul>
+  <li>单一 Block 复用：同一 block 在前向传播中运行最多 16 次，而非堆叠不同层</li>
+  <li>隐空间推理：推理在连续隐变量空间进行，不产生 CoT token</li>
+  <li>动态专家激活：每次迭代激活不同专家子集，每次 pass 为独立计算</li>
+  <li>效率：770M 参数版本匹配 1.3B 标准 Transformer 质量</li>
+  <li>推理时可扩展：计算深度在推理阶段动态扩展，内存占用不增加</li>
+</ul>
+
+<p>这一架构允许模型在相同参数量下进行更深度的”内循环思考”。
+<a href="https://x.com/AlphaSignalAI/status/2046977238839558411">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/ai-daily/2026/04/22/">
+          <span>上一篇</span>
+          <strong>AI Frontier Daily | 2026.04.22</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/04/24/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.04.24</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2026  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

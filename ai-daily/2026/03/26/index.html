@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="François Chollet 宣布 ARC-AGI-3 正式发布，这是首个测试 AI 代理交互式推理能力的基准测试，也是目前世界上唯一未饱和的 Agentic 智能基准。与前两代侧重静态推理不同，ARC-AGI-3 要求 AI 在没有任何指令和目标的情况下，通过探索陌生环境自主学习规则。人类得分 100%，而所有前沿 AI 模型得分均低于 1%。包含 1000+ 关卡、150+ 环境，评分指标为"动作效率"——衡量 AI 与人类相比，多快能将环境信息转化为有效策略。ARC Prize 为此专门组建了一个游戏工作室来开发这套测试系统。">
+    <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.03.26 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/03/26/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
+        </div>
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.03.26</p>
+    <h1>ARC-AGI-3 发布：全球唯一未被攻克的 Agentic AI 基准</h1>
+    
+    <p class="article-deck">François Chollet 宣布 ARC-AGI-3 正式发布，这是首个测试 AI 代理交互式推理能力的基准测试，也是目前世界上唯一未饱和的 Agentic 智能基准。与前两代侧重静态推理不同，ARC-AGI-3 要求 AI 在没有任何指令和目标的情况下，通过探索陌生环境自主学习规则。人类得分 100%，而所有前沿 AI 模型得分均低于 1%。包含 1000+ 关卡、150+ 环境，评分指标为”动作效率”——衡量 AI 与人类相比，多快能将环境信息转化为有效策略。ARC Prize 为此专门组建了一个游戏工作室来开发这套测试系统。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-03-26T09:07:00+08:00">2026年3月26日</time>
+      <span>14 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>16</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>4</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>14</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="116-arc-agi-3-发布全球唯一未被攻克的-agentic-ai-基准">1/16 ARC-AGI-3 发布：全球唯一未被攻克的 Agentic AI 基准</h2>
+<p>François Chollet 宣布 ARC-AGI-3 正式发布，这是首个测试 AI 代理交互式推理能力的基准测试，也是目前世界上唯一未饱和的 Agentic 智能基准。与前两代侧重静态推理不同，ARC-AGI-3 要求 AI 在没有任何指令和目标的情况下，通过探索陌生环境自主学习规则。人类得分 100%，而所有前沿 AI 模型得分均低于 1%。包含 1000+ 关卡、150+ 环境，评分指标为”动作效率”——衡量 AI 与人类相比，多快能将环境信息转化为有效策略。ARC Prize 为此专门组建了一个游戏工作室来开发这套测试系统。</p>
+<ul>
+  <li><a href="https://x.com/fchollet/status/2036861192619384989">查看 @fchollet 原始推文</a></li>
+  <li><a href="https://x.com/fchollet/status/2036863769981403497">查看 @fchollet 原始推文</a></li>
+  <li><a href="https://x.com/fchollet/status/2036866189587271797">查看 @fchollet 原始推文</a></li>
+</ul>
+
+<h2 id="216-ai-scientist-研究成果登上-nature-杂志">2/16 AI Scientist 研究成果登上 Nature 杂志</h2>
+<p>Sakana AI 与不列颠哥伦比亚大学、Vector Institute 和牛津大学合作的 The AI Scientist 论文正式发表于 Nature。这是首个能够自主执行完整 ML 研究生命周期的 AI 系统——包括生成研究想法、文献综述、设计并运行实验、撰写 LaTeX 格式论文。此前 AI Scientist-v2 曾向 ICLR 2025 研讨会提交全 AI 生成的论文，平均评分 6.33 分，超过 55% 的人类投稿。该系统内置的自动审稿人在论文质量评估上达到 69% 的均衡准确率。研究人员还发现关键规律：随着基础模型能力提升，论文质量将同步提高。</p>
+<ul>
+  <li><a href="https://x.com/SakanaAILabs/status/2036840833690071450">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/hardmaru/status/2036841736702767135">查看 @hardmaru 原始推文</a></li>
+</ul>
+
+<h2 id="316-openai-关闭-sora-独立-app迪士尼-10-亿美元投资计划随之搁浅">3/16 OpenAI 关闭 Sora 独立 App，迪士尼 10 亿美元投资计划随之搁浅</h2>
+<p>OpenAI 宣布关闭 Sora 视频生成应用，该 App 于 2025 年 9 月发布后曾短暂登顶 iPhone App Store，但此后下载量从峰值下滑近 75%。OpenAI 表示，Sora 团队将重新聚焦于世界模拟研究，推进机器人领域的应用。关闭决定同时波及正在洽谈中的迪士尼合作——后者原计划向 OpenAI 投资 10 亿美元，且关闭消息传出时双方团队还在开会讨论相关项目。Gary Marcus 和 Bindu Reddy 等 AI 观察者认为此举说明 OpenAI 应专注于 GPT-6 和轻量级模型两条核心路线，而非扩张副业。</p>
+<ul>
+  <li><a href="https://x.com/GaryMarcus/status/2036630797147386251">查看 @GaryMarcus 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2036680264777449774">查看 @bindureddy 原始推文</a></li>
+</ul>
+
+<h2 id="416-anthropic-发布-claude-code-auto-modeai-分类器替代人工审批">4/16 Anthropic 发布 Claude Code Auto Mode：AI 分类器替代人工审批</h2>
+<p>Anthropic 工程博客详解 Claude Code Auto Mode 的设计机制。背景是：用户在使用 Claude Code 时对 93% 的权限申请都会同意，导致审批疲劳；而完全跳过权限则存在安全风险。Auto Mode 使用双层 AI 分类器作为中间方案——输入层扫描 prompt 注入攻击，输出层（运行在 Sonnet 4.6 上）在执行前对操作进行快速过滤（两阶段：先 yes/no，再 chain-of-thought）。关键数据：误报率从 8.5% 降至 0.4%，但对”过度主动操作”的漏检率为 17%，对合成数据泄露的漏检率为 5.7%。目前向企业和 API 用户开放研究预览，推荐在隔离沙箱环境中使用。</p>
+<ul>
+  <li><a href="https://x.com/AnthropicAI/status/2036944806317088921">查看 @AnthropicAI 原始推文</a></li>
+</ul>
+
+<h2 id="516-google-lyria-3-pro-上线支持最长-3-分钟-ai-音乐生成">5/16 Google Lyria 3 Pro 上线：支持最长 3 分钟 AI 音乐生成</h2>
+<p>Google DeepMind 发布 Lyria 3 Pro，支持生成最长 3 分钟的完整音乐作品，用户可自定义前奏、主歌、副歌和桥段等完整曲目结构。目前已在 Gemini 付费订阅用户中上线，同时开放 Gemini API 和 Google AI Studio 给开发者使用；Google Workspace 用户可通过 Google Vids 访问，Vertex AI 也提供企业级大规模音频生成能力。所有 AI 生成音乐均带有 SynthID 水印标识。Demis Hassabis 亲自演示用其制作”凌晨 2 点心流状态”的背景音乐。Ethan Mollick 则指出 Lyria 是目前首个通过 API 可访问的音乐创作工具，且规避了困扰 Suno 等产品的版权争议。</p>
+<ul>
+  <li><a href="https://x.com/GoogleDeepMind/status/2036836176233918707">查看 @GoogleDeepMind 原始推文</a></li>
+  <li><a href="https://x.com/OfficialLoganK/status/2036848277333622956">查看 @OfficialLoganK 原始推文</a></li>
+  <li><a href="https://x.com/demishassabis/status/2036901597343838434">查看 @demishassabis 原始推文</a></li>
+</ul>
+
+<h2 id="616-grok-imagine-推出视频故事功能elon-高调宣传">6/16 Grok Imagine 推出视频故事功能，Elon 高调宣传</h2>
+<p>Elon Musk 多次为 Grok Imagine 视频故事功能站台，相关推文总浏览量超 2000 万。他发布”用 Grok Imagine 制作视频故事”的推文并配上”Make video stories with @Grok Imagine”，获超 1700 万次观看。另一条”Grok Imagine 夺金”获 620 万次观看。同期，SuperGrok Lite 新套餐正式推出，月费 10 美元，含 AI 图像和视频生成功能，为 SuperGrok 的平价版本。</p>
+<ul>
+  <li><a href="https://x.com/elonmusk/status/2036803390551056759">查看 @elonmusk 原始推文</a></li>
+  <li><a href="https://x.com/elonmusk/status/2036888086618267696">查看 @elonmusk 原始推文</a></li>
+  <li><a href="https://x.com/elonmusk/status/2036884267234644393">查看 @elonmusk 原始推文</a></li>
+</ul>
+
+<h2 id="716-xai-任命-benji-taylor-担任设计主管x-money-支付布局提速">7/16 xAI 任命 Benji Taylor 担任设计主管，X Money 支付布局提速</h2>
+<p>Elon Musk 宣布欢迎 Benji（Benji Taylor）加入 xAI 和 X，后者将同时负责 X、xAI 和 SpaceX 的设计工作。Benji 此前创立了 Los Feliz Engineering，打造了自托管钱包 Family 并出售给 Aave，还曾领导 Coinbase 旗下 Base 区块链的设计工作。这一任命被外界解读为 X Money 支付功能加速推进的信号，显示 Musk 正借助加密行业人才推动 X 的金融服务扩张。</p>
+<ul>
+  <li><a href="https://x.com/elonmusk/status/2036889456142397808">查看 @elonmusk 原始推文</a></li>
+</ul>
+
+<h2 id="816-google-deepmind-与-agile-robots-建立合作伙伴关系">8/16 Google DeepMind 与 Agile Robots 建立合作伙伴关系</h2>
+<p>Demis Hassabis 宣布 Google DeepMind 与 Agile Robots 达成合作，将 DeepMind 的 AI 模型部署到 Agile Robots 的机器人平台上，目标是解决工业领域最复杂的挑战。此次合作是 DeepMind 在机器人商业化落地上的重要进展，显示其通用 AI 模型正逐步从研究走向工业应用场景。</p>
+<ul>
+  <li><a href="https://x.com/demishassabis/status/2036726283464581343">查看 @demishassabis 原始推文</a></li>
+</ul>
+
+<h2 id="916-andrej-karpathyllm-个性化记忆会造成干扰">9/16 Andrej Karpathy：LLM 个性化记忆会造成干扰</h2>
+<p>Karpathy 发帖指出大语言模型个性化功能的普遍问题：两个月前随口问过的一个话题，会被模型持续记为”核心兴趣”并无端提及，表现出一种”用力过猛”的姿态。该推文引发广泛共鸣，获 1165 万次浏览、1.36 万点赞、669 次转推和 282 次引用。这一观察揭示了 AI 产品在记忆管理和个性化设计上的核心难题：如何区分”偶然提及”与”真实兴趣”。</p>
+<ul>
+  <li><a href="https://x.com/karpathy/status/2036836816654147718">查看 @karpathy 原始推文</a></li>
+</ul>
+
+<h2 id="1016-luma-发布-uni-1强调理解力与审美判断力的新一代图像模型">10/16 Luma 发布 Uni-1：强调理解力与审美判断力的新一代图像模型</h2>
+<p>Luma 推出 Uni-1 图像生成模型，定位为”有品味的智能生成系统”。Luma 通过一系列推文描述 Uni-1 的三大核心特性：智能（理解意图后生成）、可引导（用参考图和方向替代复杂提示词）、有审美（内置视觉判断力）。Luma 将其定位为创意协作工具，而非单纯的文生图模型，当前可在 Luma 官网体验。</p>
+<ul>
+  <li><a href="https://x.com/LumaLabsAI/status/2036941196262543458">查看 @LumaLabsAI 原始推文</a></li>
+  <li><a href="https://x.com/LumaLabsAI/status/2036926112983638473">查看 @LumaLabsAI 原始推文</a></li>
+  <li><a href="https://x.com/LumaLabsAI/status/2036914579692019932">查看 @LumaLabsAI 原始推文</a></li>
+</ul>
+
+<h2 id="1116-langchain-fleet-上线可共享技能skills功能">11/16 LangChain Fleet 上线可共享技能（Skills）功能</h2>
+<p>Harrison Chase 宣布 LangChain Fleet 支持创建、管理和共享 Skills（技能）。团队的领域知识可一次性封装成技能，附加到任意 Agent 上，并在整个组织内共享——无需重复定义。Skills 支持在 Fleet Agents 中调用，也可下载到本地的编码 Agent 中使用。同日，deepagents.js v1.9.0 alpha 版发布，新增异步子代理支持，允许后台并发运行子任务。</p>
+<ul>
+  <li><a href="https://x.com/hwchase17/status/2036860332501852227">查看 @hwchase17 原始推文</a></li>
+</ul>
+
+<h2 id="1216-google-荣登fast-company2026-年全球最具创新力企业榜首">12/16 Google 荣登《Fast Company》2026 年全球最具创新力企业榜首</h2>
+<p>Google 被评为 2026 年《Fast Company》全球最具创新力企业第一名，亦在 AI 领域名列第一。Databricks 同日宣布入选该榜单，并列举了 Lakebase、Lakewatch 和 Genie Code 等近期创新成果。ARC Prize 基金会也获得 Fast Company 独家专访报道。</p>
+<ul>
+  <li><a href="https://x.com/demishassabis/status/2036702876299665846">查看 @demishassabis 原始推文</a></li>
+  <li><a href="https://x.com/databricks/status/2036815401569362137">查看 @databricks 原始推文</a></li>
+</ul>
+
+<h2 id="1316-amd-ceo-lisa-su-获提名加入美国总统科技顾问委员会">13/16 AMD CEO Lisa Su 获提名加入美国总统科技顾问委员会</h2>
+<p>AMD CEO Lisa Su 宣布获美国总统提名，将加入总统科学技术顾问委员会（PCAST），与 Michael Kratsios、David Sacks 等科技领袖共同推进美国科技领导力和创新生态建设。此次任命标志着半导体行业在美国科技政策制定层面获得更高代表性。</p>
+<ul>
+  <li><a href="https://x.com/LisaSu/status/2036850461597151332">查看 @LisaSu 原始推文</a></li>
+</ul>
+
+<h2 id="1416-微软-ai-研究多智能体语义对齐新方案">14/16 微软 AI 研究：多智能体语义对齐新方案</h2>
+<p>Mustafa Suleyman 分享 Microsoft AI 的最新预印本研究，指出多智能体系统中”共享语言≠共享语义”的核心问题——即不同 Agent 对同一术语的理解可能存在偏差，形成”无人监督的传话游戏”。论文提出解决方案：若 Agent 无法就某个定义达成一致，则禁止使用该术语。研究发现这种”强迫共识”机制能有效减少多智能体协作中的语义漂移。</p>
+<ul>
+  <li><a href="https://x.com/mustafasuleyman/status/2036836378101830029">查看 @mustafasuleyman 原始推文</a></li>
+</ul>
+
+<h2 id="1516-together-ai-上线-4-款新图像生成模型">15/16 Together AI 上线 4 款新图像生成模型</h2>
+<p>Together AI 宣布新增 4 款图像生成模型，覆盖四个不同场景：专业文本渲染、角色一致性、搜索引擎增强生成（search-grounded generation），以及将生成与编辑整合为单一工作流的统一模型。</p>
+<ul>
+  <li><a href="https://x.com/togethercompute/status/2036932786049692141">查看 @togethercompute 原始推文</a></li>
+</ul>
+
+<h2 id="1616-openai-model-spec-播客ai-应该做什么不应该做什么">16/16 OpenAI Model Spec 播客：AI 应该做什么、不应该做什么</h2>
+<p>OpenAI 研究员在播客节目中讨论 Model Spec——这是定义 AI 模型行为规范的公开框架。内容涵盖 Model Spec 的实际运作方式、责任链设计，以及随着 AI 能力增强，如何平衡”能做”与”应该做”之间的边界。</p>
+<ul>
+  <li><a href="https://x.com/OpenAI/status/2036855694906057079">查看 @OpenAI 原始推文</a></li>
+</ul>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="arc-agi-3全球唯一未饱和-agentic-基准">ARC-AGI-3：全球唯一未饱和 Agentic 基准</h3>
+<p>ARC-AGI-3 于 2026 年 3 月 25 日发布，是自 2019 年 ARC 基准诞生以来首次重大格式升级。前两代侧重静态推理（图形模式识别），第三代转向交互式推理——AI 需要像真人玩家一样探索游戏环境，无指令、无目标地自主发现规则。1000+ 关卡，150+ 独特环境，全部由人类测试员验证可解（至少 2/10 人能通关）。</p>
+
+<p>评分方式：以人类第 2 名的动作数为基线，衡量 AI 与人类的动作效率比。当前所有前沿模型得分低于 1%（对比人类 100%），预览阶段最好成绩为 12.58%。</p>
+
+<p>Chollet 强调：ARC-AGI-3 不是判断 AGI 的”期末考试”，而是追踪 AGI 进展的工具——任何在排行榜上的突然跃升，都将意味着 AGI 领域真正的突破。
+<a href="https://arcprize.org/arc-agi/3/">查看原文</a></p>
+
+<h3 id="ai-scientistnature-认证的全自动-ai-研究系统">AI Scientist：Nature 认证的全自动 AI 研究系统</h3>
+<p>Sakana AI 与 UBC、Vector Institute、牛津大学合作的 The AI Scientist 论文发表在 Nature 期刊，是 AI 自主完成科研工作里程碑式的成果。系统能够：自动生成研究假设 → 检索文献 → 设计实验 → 并行运行 → 撰写 LaTeX 论文（含图表）。</p>
+
+<p>关键数据：AI Scientist-v2 在 ICLR 2025 研讨会上提交论文，平均评分 6.33（高于 55% 人类投稿）。配套的自动审稿人达到 69% 均衡准确率。论文质量与底层基础模型能力呈正相关，意味着随模型迭代，系统能力将持续提升。局限：仍主要在计算实验领域运作，存在方法论不严格、幻觉引用等问题。团队已为 AI 生成论文加水印并撤回已接收稿件，体现负责任开发理念。
+<a href="https://sakana.ai/ai-scientist-nature/">查看原文</a></p>
+
+<h3 id="anthropic-claude-code-auto-mode分类器替代人工审批">Anthropic Claude Code Auto Mode：分类器替代人工审批</h3>
+<p>Auto Mode 解决的核心问题：用户对 93% 的权限申请都会批准（惯性批准），但完全跳过权限又太危险。解决方案：用 AI 分类器担任”审批人角色”。</p>
+
+<p>技术实现：双层架构。第一层（输入）：服务端扫描工具输出，检测 prompt 注入，发现可疑内容时发出警告。第二层（输出）：Sonnet 4.6 运行的 Transcript Classifier，两阶段执行——Stage 1 做快速 yes/no 过滤，Stage 2 对标记项进行 chain-of-thought 推理。关键设计：分类器会主动剥除 Agent 的推理过程和工具输出，防止 Agent 通过自我辩护”说服”分类器批准危险操作。</p>
+
+<p>效果：误报率 0.4%（人工审批的替代达成率极高），但对”越权行为”漏检率 17%，对合成数据泄露漏检 5.7%。定位：不替代高风险基础设施上的人工审查，仅替代”反正都会批”的疲劳审批场景。
+<a href="https://www.anthropic.com/engineering/claude-code-auto-mode">查看原文</a></p>
+
+<h3 id="google-lyria-3-pro首个可通过-api-访问的完整音乐生成系统">Google Lyria 3 Pro：首个可通过 API 访问的完整音乐生成系统</h3>
+<p>Lyria 3 Pro 是当前 AI 音乐生成领域技术最完善的商业化产品。支持最长 3 分钟完整曲目，用户可精细控制前奏、主歌、副歌、桥段等音乐结构，模型理解音乐语法而非仅响应文字描述。</p>
+
+<p>发布范围全面覆盖：Gemini App（付费用户优先）、Gemini API 公开预览（开发者）、Google AI Studio、Google Vids（Workspace 用户）、Vertex AI（企业大规模音频生成）。所有生成内容均带 SynthID 水印。相较于 Suno，Lyria 最大差异化优势在于：无版权争议（Suno 因训练数据问题持续面临版权诉讼），且开放 API 访问，可嵌入第三方产品。
+<a href="https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/ai-daily/2026/03/25/">
+          <span>上一篇</span>
+          <strong>AI Frontier Daily | 2026.03.25</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/03/27/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.03.27</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2026  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sam Altman 征集用户用 5.6 Sol 做出的有趣作品，并表示会给最酷的项目送出 OpenAI archive 特别礼物。Ethan Mollick 同日补充，很多人并不了解当前模型在 Code/Codex 等环境中、配合正确设置后能完成多少有用工作；他认为 AI 公司没有把系统能力解释清楚。两条放在一起看，frontier model 竞争正在从“谁分数更高”转向“用户能否看到、复现并展示长期工具使用价值”。">
+    <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.07.13 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/07/13/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
+        </div>
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.07.13</p>
+    <h1>OpenAI 5.6 Sol 讨论从 benchmark 转向真实作品</h1>
+    
+    <p class="article-deck">Sam Altman 征集用户用 5.6 Sol 做出的有趣作品，并表示会给最酷的项目送出 OpenAI archive 特别礼物。Ethan Mollick 同日补充，很多人并不了解当前模型在 Code/Codex 等环境中、配合正确设置后能完成多少有用工作；他认为 AI 公司没有把系统能力解释清楚。两条放在一起看，frontier model 竞争正在从“谁分数更高”转向“用户能否看到、复现并展示长期工具使用价值”。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-07-13T09:07:00+08:00">2026年7月13日</time>
+      <span>12 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>12</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>5</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>12</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="112-openai-56-sol-讨论从-benchmark-转向真实作品">1/12 OpenAI 5.6 Sol 讨论从 benchmark 转向真实作品</h2>
+<p>Sam Altman 征集用户用 5.6 Sol 做出的有趣作品，并表示会给最酷的项目送出 OpenAI archive 特别礼物。Ethan Mollick 同日补充，很多人并不了解当前模型在 Code/Codex 等环境中、配合正确设置后能完成多少有用工作；他认为 AI 公司没有把系统能力解释清楚。两条放在一起看，frontier model 竞争正在从“谁分数更高”转向“用户能否看到、复现并展示长期工具使用价值”。</p>
+<ul>
+  <li><a href="https://x.com/sama/status/2076398253332140410">查看 @sama 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2076502712062017758">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="212-grok-45-与-fable-的公开竞争聚焦软件和浏览器使用">2/12 Grok 4.5 与 Fable 的公开竞争聚焦软件和浏览器使用</h2>
+<p>Elon Musk 连续转发和评论 Grok 4.5，称它在部分软件 benchmark 上略高于 Fable，并称 Grok 4.5 已达到 Opus class browser use。相关推文还提到 Grok Build improvements 和 token efficiency。虽然这些说法带有明显产品宣传色彩，但它们显示 xAI 正把 Grok 的定位压到 coding、browser use、成本效率和模型立场上，直接进入 OpenAI、Anthropic 等 frontier labs 的核心叙事区。</p>
+<ul>
+  <li><a href="https://x.com/elonmusk/status/2076434607562531049">查看 @elonmusk 原始推文</a></li>
+  <li><a href="https://x.com/elonmusk/status/2076411563116835245">查看 @elonmusk 原始推文</a></li>
+  <li><a href="https://x.com/elonmusk/status/2076434715951689733">查看 @elonmusk 原始推文</a></li>
+</ul>
+
+<h2 id="312-databricks-把-summit-重点放在企业-ai-apps-和-agents-基础设施">3/12 Databricks 把 Summit 重点放在企业 AI apps 和 agents 基础设施</h2>
+<p>Databricks 宣布 Data + AI Summit 的 keynotes 与技术 session 已开放点播，重点包括 Omnigent、Unity AI Gateway、Genie Ontology 等能力。推文没有强调单个模型，而是把下一代 AI apps 和 agents 放进治理、catalog、gateway、ontology 与生产架构中。对企业市场来说，这代表 agent 采购标准继续从 demo 能力转向可治理入口、统一权限、数据语义层和可落地的生产运行环境。</p>
+<ul>
+  <li><a href="https://x.com/databricks/status/2076349269066326219">查看 @databricks 原始推文</a></li>
+</ul>
+
+<h2 id="412-metr-time-horizons-被用于讨论-ai-产品策略的非线性预期">4/12 METR time horizons 被用于讨论 AI 产品策略的非线性预期</h2>
+<p>Ethan Mollick 用太阳能部署预测反复低估指数增长作类比，认为 AI 产品策略讨论也可能发生类似线性外推错误；随后他补充曲线来源是 METR 的 time horizons 页面。他强调企业规划 AI 时需要更清楚的未来预期，即使只是说明“会逐周延长，但在什么条件下可能停止”也更有帮助。这条线索把模型评估、产品 roadmap 和客户预期管理连接起来。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2076381870636388469">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2076373838028300370">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2076503526016987323">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="512-ghost-font-测试暴露多模态模型的提示依赖与幻觉边界">5/12 Ghost Font 测试暴露多模态模型的提示依赖与幻觉边界</h2>
+<p>Riley Goodside 测试 GPT-5.6 Sol 读取 Ghost Font，一种试图让人类可读、AI 不可读的文本形式。他发现只要提示噪声移动方向，Sol 就能读出内容；但在无提示场景中，Sol Pro 仍可能尝试多种 steganalysis 方法并在失败时产生幻觉。这个案例说明 frontier multimodal model 的能力不是静态 yes/no，而高度依赖提示、effort level、工具路径和模型是否能承认不确定。</p>
+<ul>
+  <li><a href="https://x.com/goodside/status/2076346888538800207">查看 @goodside 原始推文</a></li>
+  <li><a href="https://x.com/goodside/status/2076361122328858829">查看 @goodside 原始推文</a></li>
+  <li><a href="https://x.com/goodside/status/2076446398791233661">查看 @goodside 原始推文</a></li>
+</ul>
+
+<h2 id="612-seedream-50-pro-展示生产型可控图像编辑工作流">6/12 Seedream 5.0 Pro 展示生产型可控图像编辑工作流</h2>
+<p>Linus Ekenstam 展示 Seedream 5.0 Pro：上传参考图后，通过详细 prompt 做街头广告海报、角色全身照、手绘标注编辑、角色 sheet、模型套件说明图和文字渲染。他强调企业和开发者可通过 BytePlus API 访问，也可在 Lumina 中使用。该线程的重点不是单次出图，而是 reference、annotation、layout、character consistency 和 art direction 是否能组成可重复的视觉生产流程。</p>
+<ul>
+  <li><a href="https://x.com/LinusEkenstam/status/2076273526852739219">查看 @LinusEkenstam 原始推文</a></li>
+  <li><a href="https://x.com/LinusEkenstam/status/2076273586130792905">查看 @LinusEkenstam 原始推文</a></li>
+  <li><a href="https://x.com/LinusEkenstam/status/2076273779698000264">查看 @LinusEkenstam 原始推文</a></li>
+  <li><a href="https://x.com/LinusEkenstam/status/2076273793656615259">查看 @LinusEkenstam 原始推文</a></li>
+</ul>
+
+<h2 id="712-自定义-coding-agent-从单模型选择转向多模型混编">7/12 自定义 coding agent 从单模型选择转向多模型混编</h2>
+<p>Bindu Reddy 发布自定义 coding agent 功能，允许用户混合 Fable 5、GPT-5.6 Sol、Grok 4.5、Opus 4.8 等模型，并按 hard coding、backend、frontend、easy coding 或低成本模式配置组合。她同时批评多数 AI benchmark 只测简单首轮回答，难以代表长上下文多轮真实工作。coding agent 产品正在从“默认用最强模型”进入任务路由、成本约束、长程稳定性和用户自定义策略竞争。</p>
+<ul>
+  <li><a href="https://x.com/bindureddy/status/2076165296977858836">查看 @bindureddy 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2076351078015418575">查看 @bindureddy 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2076368993183756721">查看 @bindureddy 原始推文</a></li>
+</ul>
+
+<h2 id="812-高技能程序员使用-ai-的讨论从补下限转为放大上限">8/12 高技能程序员使用 AI 的讨论从“补下限”转为“放大上限”</h2>
+<p>François Chollet 称，去年以前的弱 AI code gen 更像提高低技能程序员下限，对高技能程序员帮助有限；现在强代码生成反而最能放大高技能程序员，而低技能用户可能利用不足或被淹没。swyx 则从 Jevons paradox 角度说，agentic engineering 降低知识工作成本后，总需求可能上升。今天的就业讨论更像技能分化问题，而不是简单的岗位替代问题。</p>
+<ul>
+  <li><a href="https://x.com/fchollet/status/2076310779482317104">查看 @fchollet 原始推文</a></li>
+  <li><a href="https://x.com/swyx/status/2076155833428431012">查看 @swyx 原始推文</a></li>
+  <li><a href="https://x.com/swyx/status/2076223478232211944">查看 @swyx 原始推文</a></li>
+</ul>
+
+<h2 id="912-高质量数据继续被视为-frontier-model-的核心护城河">9/12 高质量数据继续被视为 frontier model 的核心护城河</h2>
+<p>Logan Kilpatrick 发文称，很多人低估了“超高质量 curated data”对 great models 的重要性，找到新的数据创造和获取方式本身就是巨大优势。这条短推与当日 benchmark 争论互补：如果公开测试越来越容易被优化，模型公司的真实差异可能更体现在数据管线、数据质量、任务分布、评估隐藏集和能否持续构造高价值训练信号上，而不只是模型规模或单次榜单排名。</p>
+<ul>
+  <li><a href="https://x.com/OfficialLoganK/status/2076393038843375810">查看 @OfficialLoganK 原始推文</a></li>
+</ul>
+
+<h2 id="1012-luma-与-characterai-把生成式内容继续推进到短视频和音频剧">10/12 Luma 与 Character.AI 把生成式内容继续推进到短视频和音频剧</h2>
+<p>Luma Labs 展示由 Eli Coleman 制作的 Luma Skill 视频：一个人读书的场景逐渐“比例失控”，强调用 Skill 做叙事式视觉变形。Character.AI 则发布 c.ai fm 新音频内容 Super Talent Inc.，定位为带超级英雄设定的 romantic dramedy，并引导用户在 app 或网页收听。这些产品线说明消费端 AI 内容正在从文本聊天扩展到可分发的短视频、音频剧和角色化 IP。</p>
+<ul>
+  <li><a href="https://x.com/LumaLabsAI/status/2076404818818527541">查看 @LumaLabsAI 原始推文</a></li>
+  <li><a href="https://x.com/character_ai/status/2076506207972634734">查看 @character_ai 原始推文</a></li>
+</ul>
+
+<h2 id="1112-us-china-ai-竞争讨论从模型排名扩大到推理产品和开放生态">11/12 U.S.-China AI 竞争讨论从模型排名扩大到推理产品和开放生态</h2>
+<p>Eric Schmidt 转发与 Selina 的文章，称需要理解 computer reasoning 的到来，并确保相关产品惠及广泛人群而不是少数人。短链指向关于 AI populism、China 和 open-source 的观点文章。与当天 Databricks 的企业治理、METR 的能力时间线、以及开源/闭源模型竞争放在一起看，AI geopolitics 的焦点正在从“谁有更强模型”扩展到产品分配、开放生态和国家级技术路线。</p>
+<ul>
+  <li><a href="https://x.com/ericschmidt/status/2076325269900771711">查看 @ericschmidt 原始推文</a></li>
+</ul>
+
+<h2 id="1212-openai-相关资本开支风险继续被外部评论放大">12/12 OpenAI 相关资本开支风险继续被外部评论放大</h2>
+<p>Gary Marcus 称 OpenAI 对 Oracle 是一种风险，并表示 S&amp;P 正式化了他自 2023 年以来的观点。推文信息有限，但它与近期围绕 frontier labs 算力采购、云厂商集中收入、推理成本和模型商业化周期的讨论一致：AI 基础设施不只是技术竞赛，也在变成信用、现金流、客户集中度和资本开支可持续性的金融问题。</p>
+<ul>
+  <li><a href="https://x.com/GaryMarcus/status/2076224873106420089">查看 @GaryMarcus 原始推文</a></li>
+</ul>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="databricks-data--ai-summit-2026">Databricks Data + AI Summit 2026</h3>
+<p>Databricks 的 Summit 回放页与 Unity AI Gateway 相关材料把企业 AI 重点放在治理与生产化上。Omnigent、Unity AI Gateway、Genie Ontology 等关键词共同指向一个趋势：企业需要的不只是模型调用，而是统一入口、权限控制、语义层、agent 编排和可审计运行。对 AI apps 和 agents 来说，catalog、gateway、ontology 和 governance 正成为从 prototype 走向 production 的关键层。
+<a href="https://www.databricks.com/dataaisummit?utm_source=twitter&amp;utm_medium=organic-social&amp;utm_scid=701Vp00000no9yLIAQ">查看原文</a></p>
+
+<h3 id="metr-task-completion-time-horizons">METR Task-Completion Time Horizons</h3>
+<p>METR 的 time horizons 页面追踪 public frontier language models 能独立完成多长时间尺度任务。Ethan Mollick 用它解释 AI 产品策略中可能存在的线性低估：如果模型可完成任务的时间窗口持续增长，企业需要的不只是当前能力清单，还需要关于更新节奏、边界条件和能力延展的明确沟通。该指标也把“模型更聪明”转化成更接近生产规划的问题。
+<a href="https://metr.org/time-horizons/">查看原文</a></p>
+
+<h3 id="seedream-50-pro-controllable-editing">Seedream 5.0 Pro controllable editing</h3>
+<p>Seedream 5.0 Pro 的线程展示了图像模型产品化的另一个方向：通过参考图、手绘标注和详细 prompt，让模型执行多步可控编辑。示例覆盖广告海报、角色 sheet、信息密集模型说明图、文字渲染和角色风格延展。它对企业与创作者的价值在于减少不可控出图，把视觉模型变成可迭代 art direction 工具。
+<a href="https://x.com/LinusEkenstam/status/2076273526852739219">查看原文</a></p>
+
+<h3 id="ai-engineer-and-jevons-paradox">AI Engineer and Jevons paradox</h3>
+<p>Latent Space 与 swyx 的讨论把 AI 工程师岗位放在 Jevons paradox 语境下：当 coding agents 提高单位劳动效率，并逐步扩展到其他知识工作时，总工作需求可能上升而不是下降。结合 François Chollet 对“强 code gen 更能放大高手”的判断，今天的核心问题是技能、系统设计、验证和人机协作方式如何重组，而不是简单预测程序员数量。
+<a href="https://www.latent.space/p/ainews-ai-engineer-will-be-the-last">查看原文</a></p>
+
+<h3 id="us-china-reasoning-race">U.S.-China reasoning race</h3>
+<p>Eric Schmidt 转发的文章把 U.S.-China AI race 与 computer reasoning、open-source 和产品分配联系起来。它提示 AI 竞争不只发生在模型榜单，也发生在谁能把推理能力产品化、谁能形成开放或闭源生态、以及这些能力是否只服务少数组织。该议题与当天企业治理、模型成本和开源基础设施讨论共同构成 frontier AI 的政策层背景。
+<a href="https://www.nytimes.com/2026/07/11/opinion/ai-populism-china-open-source.html?unlocked_article_code=1.w1A.jw3Z.TmRLJcS5WDMP&amp;smid=nytcore-ios-share">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/ai-daily/2026/07/12/">
+          <span>上一篇</span>
+          <strong>AI Frontier Daily | 2026.07.12</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/07/14/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.07.14</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2026  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
 
@@ -24,14 +24,14 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
 
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,99 +66,49 @@
 
 <body ontouchstart="">
 
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Freedom Hunter</a>
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/about/">About</a>
-                </li>
-                <li>
-                    <a href="/">Articles</a>
-                </li>
-                <li>
-                    <a href="/history/">History</a>
-                </li>
-                <li>
-                    <a href="/tags/">Tags</a>
-                </li>
-                
-                <!--                 
-                    <li>
-                        <a href="/Tool/">Tools</a>
-                    </li>
-                
-                    <li>
-                        <a href="/about/">About</a>
-                    </li>
-                
-                    <li>
-                        <a href="/history/">History</a>
-                    </li>
-                
-                    <li>
-                        <a href="/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/milestone/">milestone</a>
-                    </li>
-                
-                    <li>
-                        <a href="/tags/">Tags</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page2/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page3/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page4/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page5/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page6/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page7/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page8/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page9/">Articles</a>
-                    </li>
-                 -->
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
     </div>
-    <!-- /.container -->
 </nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
 
 
     <!-- Page Header -->
@@ -275,14 +225,13 @@
 
 
 <!-- Highlight.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.1/async.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
 <script>
-    async("https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+    if (window.hljs) {
         hljs.initHighlightingOnLoad();
-    })
+    }
 </script>
 <link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
-
 
 
     

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
 
@@ -24,14 +24,14 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
 
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,99 +66,49 @@
 
 <body ontouchstart="">
 
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Freedom Hunter</a>
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/about/">About</a>
-                </li>
-                <li>
-                    <a href="/">Articles</a>
-                </li>
-                <li>
-                    <a href="/history/">History</a>
-                </li>
-                <li>
-                    <a href="/tags/">Tags</a>
-                </li>
-                
-                <!--                 
-                    <li>
-                        <a href="/Tool/">Tools</a>
-                    </li>
-                
-                    <li>
-                        <a href="/about/">About</a>
-                    </li>
-                
-                    <li>
-                        <a href="/history/">History</a>
-                    </li>
-                
-                    <li>
-                        <a href="/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/milestone/">milestone</a>
-                    </li>
-                
-                    <li>
-                        <a href="/tags/">Tags</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page2/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page3/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page4/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page5/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page6/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page7/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page8/">Articles</a>
-                    </li>
-                
-                    <li>
-                        <a href="/page9/">Articles</a>
-                    </li>
-                 -->
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
     </div>
-    <!-- /.container -->
 </nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
 
 
     <!-- Page Header -->
@@ -188,6 +138,843 @@
 	<div class="row">
 		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
 			<ul class="listing">
+
+  
+  
+    
+<!--     <li class="listing-seperator" ><p style="color:#1EB2A6"><b>2026</b></p></li> -->
+    <h2 style="color:#1EB2A6">2026</h2>
+      <hr />
+  
+  <li class="listing-item">
+    <time datetime="2026-08-08">2026-08-08</time>
+    <a href="/blog/2026/08/08/spacex_2026q2_earnings_call/" title="SpaceX 2026Q2电话会——马斯克把万亿美元营收目标提前到2030，算力扩张成为新主线" style="color:#1EB2A6">SpaceX 2026Q2电话会——马斯克把万亿美元营收目标提前到2030，算力扩张成为新主线</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-08-07">2026-08-07</time>
+    <a href="/ai-daily/2026/08/07/" title="AI Frontier Daily | 2026.08.07" style="color:#1EB2A6">AI Frontier Daily | 2026.08.07</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-08-07">2026-08-07</time>
+    <a href="/blog/2026/08/07/spacex_2026q2_earnings/" title="SpaceX 2026Q2——上市后首份财报，营收78亿美元同比大增92%，火箭公司只剩12%是火箭" style="color:#1EB2A6">SpaceX 2026Q2——上市后首份财报，营收78亿美元同比大增92%，火箭公司只剩12%是火箭</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-08-07">2026-08-07</time>
+    &lt;a href="/blog/2026/08/07/apple_fy2026q3_earnings/" title="Apple 2026财年Q3——营收1094亿美元同比增长16%，库克交出任内最后一份"史上最强六月季度"" style="color:#1EB2A6"&gt;Apple 2026财年Q3——营收1094亿美元同比增长16%，库克交出任内最后一份"史上最强六月季度"&lt;/a&gt;
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-08-06">2026-08-06</time>
+    <a href="/ai-daily/2026/08/06/" title="AI Frontier Daily | 2026.08.06" style="color:#1EB2A6">AI Frontier Daily | 2026.08.06</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-08-05">2026-08-05</time>
+    <a href="/ai-daily/2026/08/05/" title="AI Frontier Daily | 2026.08.05" style="color:#1EB2A6">AI Frontier Daily | 2026.08.05</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-08-04">2026-08-04</time>
+    <a href="/ai-daily/2026/08/04/" title="AI Frontier Daily | 2026.08.04" style="color:#1EB2A6">AI Frontier Daily | 2026.08.04</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-31">2026-07-31</time>
+    <a href="/ai-daily/2026/07/31/" title="AI Frontier Daily | 2026.07.31" style="color:#1EB2A6">AI Frontier Daily | 2026.07.31</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-30">2026-07-30</time>
+    <a href="/ai-daily/2026/07/30/" title="AI Frontier Daily | 2026.07.30" style="color:#1EB2A6">AI Frontier Daily | 2026.07.30</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-29">2026-07-29</time>
+    <a href="/ai-daily/2026/07/29/" title="AI Frontier Daily | 2026.07.29" style="color:#1EB2A6">AI Frontier Daily | 2026.07.29</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-28">2026-07-28</time>
+    <a href="/ai-daily/2026/07/28/" title="AI Frontier Daily | 2026.07.28" style="color:#1EB2A6">AI Frontier Daily | 2026.07.28</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-27">2026-07-27</time>
+    <a href="/ai-daily/2026/07/27/" title="AI Frontier Daily | 2026.07.27" style="color:#1EB2A6">AI Frontier Daily | 2026.07.27</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-23">2026-07-23</time>
+    <a href="/ai-daily/2026/07/23/" title="AI Frontier Daily | 2026.07.23" style="color:#1EB2A6">AI Frontier Daily | 2026.07.23</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-17">2026-07-17</time>
+    <a href="/ai-daily/2026/07/17/" title="AI Frontier Daily | 2026.07.17" style="color:#1EB2A6">AI Frontier Daily | 2026.07.17</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-16">2026-07-16</time>
+    <a href="/ai-daily/2026/07/16/" title="AI Frontier Daily | 2026.07.16" style="color:#1EB2A6">AI Frontier Daily | 2026.07.16</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-15">2026-07-15</time>
+    <a href="/ai-daily/2026/07/15/" title="AI Frontier Daily | 2026.07.15" style="color:#1EB2A6">AI Frontier Daily | 2026.07.15</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-14">2026-07-14</time>
+    <a href="/ai-daily/2026/07/14/" title="AI Frontier Daily | 2026.07.14" style="color:#1EB2A6">AI Frontier Daily | 2026.07.14</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-13">2026-07-13</time>
+    <a href="/ai-daily/2026/07/13/" title="AI Frontier Daily | 2026.07.13" style="color:#1EB2A6">AI Frontier Daily | 2026.07.13</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-12">2026-07-12</time>
+    <a href="/ai-daily/2026/07/12/" title="AI Frontier Daily | 2026.07.12" style="color:#1EB2A6">AI Frontier Daily | 2026.07.12</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-10">2026-07-10</time>
+    <a href="/ai-daily/2026/07/10/" title="AI Frontier Daily | 2026.07.10" style="color:#1EB2A6">AI Frontier Daily | 2026.07.10</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-09">2026-07-09</time>
+    <a href="/ai-daily/2026/07/09/" title="AI Frontier Daily | 2026.07.09" style="color:#1EB2A6">AI Frontier Daily | 2026.07.09</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-08">2026-07-08</time>
+    <a href="/ai-daily/2026/07/08/" title="AI Frontier Daily | 2026.07.08" style="color:#1EB2A6">AI Frontier Daily | 2026.07.08</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-07">2026-07-07</time>
+    <a href="/ai-daily/2026/07/07/" title="AI Frontier Daily | 2026.07.07" style="color:#1EB2A6">AI Frontier Daily | 2026.07.07</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-06">2026-07-06</time>
+    <a href="/ai-daily/2026/07/06/" title="AI Frontier Daily | 2026.07.06" style="color:#1EB2A6">AI Frontier Daily | 2026.07.06</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-05">2026-07-05</time>
+    <a href="/ai-daily/2026/07/05/" title="AI Frontier Daily | 2026.07.05" style="color:#1EB2A6">AI Frontier Daily | 2026.07.05</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-03">2026-07-03</time>
+    <a href="/ai-daily/2026/07/03/" title="AI Frontier Daily | 2026.07.03" style="color:#1EB2A6">AI Frontier Daily | 2026.07.03</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-07-02">2026-07-02</time>
+    <a href="/ai-daily/2026/07/02/" title="AI Frontier Daily | 2026.07.02" style="color:#1EB2A6">AI Frontier Daily | 2026.07.02</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-30">2026-06-30</time>
+    <a href="/ai-daily/2026/06/30/" title="AI Frontier Daily | 2026.06.30" style="color:#1EB2A6">AI Frontier Daily | 2026.06.30</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-29">2026-06-29</time>
+    <a href="/ai-daily/2026/06/29/" title="AI Frontier Daily | 2026.06.29" style="color:#1EB2A6">AI Frontier Daily | 2026.06.29</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-27">2026-06-27</time>
+    <a href="/ai-daily/2026/06/27/" title="AI Frontier Daily | 2026.06.27" style="color:#1EB2A6">AI Frontier Daily | 2026.06.27</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-26">2026-06-26</time>
+    <a href="/ai-daily/2026/06/26/" title="AI Frontier Daily | 2026.06.26" style="color:#1EB2A6">AI Frontier Daily | 2026.06.26</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-25">2026-06-25</time>
+    <a href="/ai-daily/2026/06/25/" title="AI Frontier Daily | 2026.06.25" style="color:#1EB2A6">AI Frontier Daily | 2026.06.25</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-23">2026-06-23</time>
+    <a href="/ai-daily/2026/06/23/" title="AI Frontier Daily | 2026.06.23" style="color:#1EB2A6">AI Frontier Daily | 2026.06.23</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-22">2026-06-22</time>
+    <a href="/ai-daily/2026/06/22/" title="AI Frontier Daily | 2026.06.22" style="color:#1EB2A6">AI Frontier Daily | 2026.06.22</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-20">2026-06-20</time>
+    <a href="/ai-daily/2026/06/20/" title="AI Frontier Daily | 2026.06.20" style="color:#1EB2A6">AI Frontier Daily | 2026.06.20</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-19">2026-06-19</time>
+    <a href="/ai-daily/2026/06/19/" title="AI Frontier Daily | 2026.06.19" style="color:#1EB2A6">AI Frontier Daily | 2026.06.19</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-17">2026-06-17</time>
+    <a href="/ai-daily/2026/06/17/" title="AI Frontier Daily | 2026.06.17" style="color:#1EB2A6">AI Frontier Daily | 2026.06.17</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-15">2026-06-15</time>
+    <a href="/ai-daily/2026/06/15/" title="AI Frontier Daily | 2026.06.15" style="color:#1EB2A6">AI Frontier Daily | 2026.06.15</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-12">2026-06-12</time>
+    <a href="/ai-daily/2026/06/12/" title="AI Frontier Daily | 2026.06.12" style="color:#1EB2A6">AI Frontier Daily | 2026.06.12</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-10">2026-06-10</time>
+    <a href="/ai-daily/2026/06/10/" title="AI Frontier Daily | 2026.06.10" style="color:#1EB2A6">AI Frontier Daily | 2026.06.10</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-09">2026-06-09</time>
+    <a href="/ai-daily/2026/06/09/" title="AI Frontier Daily | 2026.06.09" style="color:#1EB2A6">AI Frontier Daily | 2026.06.09</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-08">2026-06-08</time>
+    <a href="/ai-daily/2026/06/08/" title="AI Frontier Daily | 2026.06.08" style="color:#1EB2A6">AI Frontier Daily | 2026.06.08</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-07">2026-06-07</time>
+    <a href="/ai-daily/2026/06/07/" title="AI Frontier Daily | 2026.06.07" style="color:#1EB2A6">AI Frontier Daily | 2026.06.07</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-06">2026-06-06</time>
+    <a href="/ai-daily/2026/06/06/" title="AI Frontier Daily | 2026.06.06" style="color:#1EB2A6">AI Frontier Daily | 2026.06.06</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-05">2026-06-05</time>
+    <a href="/ai-daily/2026/06/05/" title="AI Frontier Daily | 2026.06.05" style="color:#1EB2A6">AI Frontier Daily | 2026.06.05</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-04">2026-06-04</time>
+    <a href="/ai-daily/2026/06/04/" title="AI Frontier Daily | 2026.06.04" style="color:#1EB2A6">AI Frontier Daily | 2026.06.04</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-06-03">2026-06-03</time>
+    <a href="/ai-daily/2026/06/03/" title="AI Frontier Daily | 2026.06.03" style="color:#1EB2A6">AI Frontier Daily | 2026.06.03</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-31">2026-05-31</time>
+    <a href="/ai-daily/2026/05/31/" title="AI Frontier Daily | 2026.05.31" style="color:#1EB2A6">AI Frontier Daily | 2026.05.31</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-30">2026-05-30</time>
+    <a href="/ai-daily/2026/05/30/" title="AI Frontier Daily | 2026.05.30" style="color:#1EB2A6">AI Frontier Daily | 2026.05.30</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-28">2026-05-28</time>
+    <a href="/ai-daily/2026/05/28/" title="AI Frontier Daily | 2026.05.28" style="color:#1EB2A6">AI Frontier Daily | 2026.05.28</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-27">2026-05-27</time>
+    <a href="/ai-daily/2026/05/27/" title="AI Frontier Daily | 2026.05.27" style="color:#1EB2A6">AI Frontier Daily | 2026.05.27</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-23">2026-05-23</time>
+    <a href="/ai-daily/2026/05/23/" title="AI Frontier Daily | 2026.05.23" style="color:#1EB2A6">AI Frontier Daily | 2026.05.23</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-22">2026-05-22</time>
+    <a href="/ai-daily/2026/05/22/" title="AI Frontier Daily | 2026.05.22" style="color:#1EB2A6">AI Frontier Daily | 2026.05.22</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-20">2026-05-20</time>
+    <a href="/ai-daily/2026/05/20/" title="AI Frontier Daily | 2026.05.20" style="color:#1EB2A6">AI Frontier Daily | 2026.05.20</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-17">2026-05-17</time>
+    <a href="/ai-daily/2026/05/17/" title="AI Frontier Daily | 2026.05.17" style="color:#1EB2A6">AI Frontier Daily | 2026.05.17</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-16">2026-05-16</time>
+    <a href="/ai-daily/2026/05/16/" title="AI Frontier Daily | 2026.05.16" style="color:#1EB2A6">AI Frontier Daily | 2026.05.16</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-15">2026-05-15</time>
+    <a href="/ai-daily/2026/05/15/" title="AI Frontier Daily | 2026.05.15" style="color:#1EB2A6">AI Frontier Daily | 2026.05.15</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-14">2026-05-14</time>
+    <a href="/ai-daily/2026/05/14/" title="AI Frontier Daily | 2026.05.14" style="color:#1EB2A6">AI Frontier Daily | 2026.05.14</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-13">2026-05-13</time>
+    <a href="/ai-daily/2026/05/13/" title="AI Frontier Daily | 2026.05.13" style="color:#1EB2A6">AI Frontier Daily | 2026.05.13</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-12">2026-05-12</time>
+    <a href="/ai-daily/2026/05/12/" title="AI Frontier Daily | 2026.05.12" style="color:#1EB2A6">AI Frontier Daily | 2026.05.12</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-11">2026-05-11</time>
+    <a href="/ai-daily/2026/05/11/" title="AI Frontier Daily | 2026.05.11" style="color:#1EB2A6">AI Frontier Daily | 2026.05.11</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-10">2026-05-10</time>
+    <a href="/ai-daily/2026/05/10/" title="AI Frontier Daily | 2026.05.10" style="color:#1EB2A6">AI Frontier Daily | 2026.05.10</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-09">2026-05-09</time>
+    <a href="/ai-daily/2026/05/09/" title="AI Frontier Daily | 2026.05.09" style="color:#1EB2A6">AI Frontier Daily | 2026.05.09</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-08">2026-05-08</time>
+    <a href="/ai-daily/2026/05/08/" title="AI Frontier Daily | 2026.05.08" style="color:#1EB2A6">AI Frontier Daily | 2026.05.08</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-07">2026-05-07</time>
+    <a href="/ai-daily/2026/05/07/" title="AI Frontier Daily | 2026.05.07" style="color:#1EB2A6">AI Frontier Daily | 2026.05.07</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-06">2026-05-06</time>
+    <a href="/ai-daily/2026/05/06/" title="AI Frontier Daily | 2026.05.06" style="color:#1EB2A6">AI Frontier Daily | 2026.05.06</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-03">2026-05-03</time>
+    <a href="/ai-daily/2026/05/03/" title="AI Frontier Daily | 2026.05.03" style="color:#1EB2A6">AI Frontier Daily | 2026.05.03</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-05-02">2026-05-02</time>
+    <a href="/ai-daily/2026/05/02/" title="AI Frontier Daily | 2026.05.02" style="color:#1EB2A6">AI Frontier Daily | 2026.05.02</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-25">2026-04-25</time>
+    <a href="/ai-daily/2026/04/25/" title="AI Frontier Daily | 2026.04.25" style="color:#1EB2A6">AI Frontier Daily | 2026.04.25</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-24">2026-04-24</time>
+    <a href="/ai-daily/2026/04/24/" title="AI Frontier Daily | 2026.04.24" style="color:#1EB2A6">AI Frontier Daily | 2026.04.24</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-23">2026-04-23</time>
+    <a href="/ai-daily/2026/04/23/" title="AI Frontier Daily | 2026.04.23" style="color:#1EB2A6">AI Frontier Daily | 2026.04.23</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-22">2026-04-22</time>
+    <a href="/ai-daily/2026/04/22/" title="AI Frontier Daily | 2026.04.22" style="color:#1EB2A6">AI Frontier Daily | 2026.04.22</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-21">2026-04-21</time>
+    <a href="/ai-daily/2026/04/21/" title="AI Frontier Daily | 2026.04.21" style="color:#1EB2A6">AI Frontier Daily | 2026.04.21</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-20">2026-04-20</time>
+    <a href="/ai-daily/2026/04/20/" title="AI Frontier Daily | 2026.04.20" style="color:#1EB2A6">AI Frontier Daily | 2026.04.20</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-19">2026-04-19</time>
+    <a href="/ai-daily/2026/04/19/" title="AI Frontier Daily | 2026.04.19" style="color:#1EB2A6">AI Frontier Daily | 2026.04.19</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-18">2026-04-18</time>
+    <a href="/ai-daily/2026/04/18/" title="AI Frontier Daily | 2026.04.18" style="color:#1EB2A6">AI Frontier Daily | 2026.04.18</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-17">2026-04-17</time>
+    <a href="/ai-daily/2026/04/17/" title="AI Frontier Daily | 2026.04.17" style="color:#1EB2A6">AI Frontier Daily | 2026.04.17</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-16">2026-04-16</time>
+    <a href="/ai-daily/2026/04/16/" title="AI Frontier Daily | 2026.04.16" style="color:#1EB2A6">AI Frontier Daily | 2026.04.16</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-15">2026-04-15</time>
+    <a href="/ai-daily/2026/04/15/" title="AI Frontier Daily | 2026.04.15" style="color:#1EB2A6">AI Frontier Daily | 2026.04.15</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-14">2026-04-14</time>
+    <a href="/ai-daily/2026/04/14/" title="AI Frontier Daily | 2026.04.14" style="color:#1EB2A6">AI Frontier Daily | 2026.04.14</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-13">2026-04-13</time>
+    <a href="/ai-daily/2026/04/13/" title="AI Frontier Daily | 2026.04.13" style="color:#1EB2A6">AI Frontier Daily | 2026.04.13</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-12">2026-04-12</time>
+    <a href="/ai-daily/2026/04/12/" title="AI Frontier Daily | 2026.04.12" style="color:#1EB2A6">AI Frontier Daily | 2026.04.12</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-11">2026-04-11</time>
+    <a href="/ai-daily/2026/04/11/" title="AI Frontier Daily | 2026.04.11" style="color:#1EB2A6">AI Frontier Daily | 2026.04.11</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-10">2026-04-10</time>
+    <a href="/ai-daily/2026/04/10/" title="AI Frontier Daily | 2026.04.10" style="color:#1EB2A6">AI Frontier Daily | 2026.04.10</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-09">2026-04-09</time>
+    <a href="/ai-daily/2026/04/09/" title="AI Frontier Daily | 2026.04.09" style="color:#1EB2A6">AI Frontier Daily | 2026.04.09</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-08">2026-04-08</time>
+    <a href="/ai-daily/2026/04/08/" title="AI Frontier Daily | 2026.04.08" style="color:#1EB2A6">AI Frontier Daily | 2026.04.08</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-07">2026-04-07</time>
+    <a href="/ai-daily/2026/04/07/" title="AI Frontier Daily | 2026.04.07" style="color:#1EB2A6">AI Frontier Daily | 2026.04.07</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-06">2026-04-06</time>
+    <a href="/ai-daily/2026/04/06/" title="AI Frontier Daily | 2026.04.06" style="color:#1EB2A6">AI Frontier Daily | 2026.04.06</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-05">2026-04-05</time>
+    <a href="/ai-daily/2026/04/05/" title="AI Frontier Daily | 2026.04.05" style="color:#1EB2A6">AI Frontier Daily | 2026.04.05</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-04">2026-04-04</time>
+    <a href="/ai-daily/2026/04/04/" title="AI Frontier Daily | 2026.04.04" style="color:#1EB2A6">AI Frontier Daily | 2026.04.04</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-03">2026-04-03</time>
+    <a href="/ai-daily/2026/04/03/" title="AI Frontier Daily | 2026.04.03" style="color:#1EB2A6">AI Frontier Daily | 2026.04.03</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-02">2026-04-02</time>
+    <a href="/ai-daily/2026/04/02/" title="AI Frontier Daily | 2026.04.02" style="color:#1EB2A6">AI Frontier Daily | 2026.04.02</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-04-01">2026-04-01</time>
+    <a href="/ai-daily/2026/04/01/" title="AI Frontier Daily | 2026.04.01" style="color:#1EB2A6">AI Frontier Daily | 2026.04.01</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-03-31">2026-03-31</time>
+    <a href="/ai-daily/2026/03/31/" title="AI Frontier Daily | 2026.03.31" style="color:#1EB2A6">AI Frontier Daily | 2026.03.31</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-03-30">2026-03-30</time>
+    <a href="/ai-daily/2026/03/30/" title="AI Frontier Daily | 2026.03.30" style="color:#1EB2A6">AI Frontier Daily | 2026.03.30</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-03-29">2026-03-29</time>
+    <a href="/ai-daily/2026/03/29/" title="AI Frontier Daily | 2026.03.29" style="color:#1EB2A6">AI Frontier Daily | 2026.03.29</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-03-28">2026-03-28</time>
+    <a href="/ai-daily/2026/03/28/" title="AI Frontier Daily | 2026.03.28" style="color:#1EB2A6">AI Frontier Daily | 2026.03.28</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-03-27">2026-03-27</time>
+    <a href="/ai-daily/2026/03/27/" title="AI Frontier Daily | 2026.03.27" style="color:#1EB2A6">AI Frontier Daily | 2026.03.27</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-03-26">2026-03-26</time>
+    <a href="/ai-daily/2026/03/26/" title="AI Frontier Daily | 2026.03.26" style="color:#1EB2A6">AI Frontier Daily | 2026.03.26</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-03-25">2026-03-25</time>
+    <a href="/ai-daily/2026/03/25/" title="AI Frontier Daily | 2026.03.25" style="color:#1EB2A6">AI Frontier Daily | 2026.03.25</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-03-24">2026-03-24</time>
+    <a href="/ai-daily/2026/03/24/" title="AI Frontier Daily | 2026.03.24" style="color:#1EB2A6">AI Frontier Daily | 2026.03.24</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-03-23">2026-03-23</time>
+    <a href="/ai-daily/2026/03/23/" title="AI Frontier Daily | 2026.03.23" style="color:#1EB2A6">AI Frontier Daily | 2026.03.23</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-03-20">2026-03-20</time>
+    <a href="/ai-daily/2026/03/20/" title="AI Frontier Daily | 2026.03.20" style="color:#1EB2A6">AI Frontier Daily | 2026.03.20</a>
+  </li>
+
+
+  
+  
+  <li class="listing-item">
+    <time datetime="2026-03-18">2026-03-18</time>
+    <a href="/ai-daily/2026/03/18/" title="AI Frontier Daily | 2026.03.18" style="color:#1EB2A6">AI Frontier Daily | 2026.03.18</a>
+  </li>
+
 
   
   
@@ -819,14 +1606,13 @@
 
 
 <!-- Highlight.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.1/async.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
 <script>
-    async("https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+    if (window.hljs) {
         hljs.initHighlightingOnLoad();
-    })
+    }
 </script>
 <link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
-
 
 
     

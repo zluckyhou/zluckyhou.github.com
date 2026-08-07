@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AlphaSignalAI 转述 Google DeepMind 的 Vision Banana 论文：研究把 Nano Banana Pro 加入少量视觉任务数据做指令微调，将分割、深度估计、3D 理解等任务都参数化为 RGB 图像输出。论文称模型在多类 2D/3D 任务上达到或接近 SOTA，分割可击败或匹敌 Segment Anything Model 3，度量深度估计可匹敌 Depth Anything 系列，同时保留原图像生成能力。这个方向把生成式预训练从“会画图”推进到“可作为通用视觉表征”。">
+    <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.05.03 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/05/03/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
+        </div>
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.05.03</p>
+    <h1>Vision Banana 把视觉理解统一成图像生成</h1>
+    
+    <p class="article-deck">AlphaSignalAI 转述 Google DeepMind 的 Vision Banana 论文：研究把 Nano Banana Pro 加入少量视觉任务数据做指令微调，将分割、深度估计、3D 理解等任务都参数化为 RGB 图像输出。论文称模型在多类 2D/3D 任务上达到或接近 SOTA，分割可击败或匹敌 Segment Anything Model 3，度量深度估计可匹敌 Depth Anything 系列，同时保留原图像生成能力。这个方向把生成式预训练从“会画图”推进到“可作为通用视觉表征”。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-05-03T09:07:00+08:00">2026年5月3日</time>
+      <span>11 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>12</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>6</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>11</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="112-vision-banana-把视觉理解统一成图像生成">1/12 Vision Banana 把视觉理解统一成图像生成</h2>
+<p>AlphaSignalAI 转述 Google DeepMind 的 Vision Banana 论文：研究把 Nano Banana Pro 加入少量视觉任务数据做指令微调，将分割、深度估计、3D 理解等任务都参数化为 RGB 图像输出。论文称模型在多类 2D/3D 任务上达到或接近 SOTA，分割可击败或匹敌 Segment Anything Model 3，度量深度估计可匹敌 Depth Anything 系列，同时保留原图像生成能力。这个方向把生成式预训练从“会画图”推进到“可作为通用视觉表征”。</p>
+<ul>
+  <li><a href="https://x.com/AlphaSignalAI/status/2050591693498417405">查看 @AlphaSignalAI 原始推文</a></li>
+  <li><a href="https://x.com/AlphaSignalAI/status/2050591694387552386">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<h2 id="212-halo-用-trace-循环自动修复-agent-harness">2/12 HALO 用 trace 循环自动修复 agent harness</h2>
+<p>AlphaSignalAI 介绍 Context Labs 开源的 HALO：系统收集 agent 执行 trace，用专门的 RLM 分析 hallucinated tool calls、重复参数、refusal loops 等系统性失败，再把诊断交给 coding agent 修改 harness。HALO README 显示，在 AppWorld 多应用任务基准上，Gemini 3 Flash 的 dev SGC 从 36.8% 提升到 52.6%，Sonnet 4.6 从 73.7% 提升到 89.5%，test_normal 也同步提升，用于验证不是单纯对 dev 过拟合。</p>
+<ul>
+  <li><a href="https://x.com/AlphaSignalAI/status/2050908503951200418">查看 @AlphaSignalAI 原始推文</a></li>
+  <li><a href="https://x.com/AlphaSignalAI/status/2050908505666678864">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<h2 id="312-脑仿真路线图强调数据采集瓶颈">3/12 脑仿真路线图强调数据采集瓶颈</h2>
+<p>AlphaSignalAI 转述一篇从线虫到数字人脑的 emulation 路线图。论文把关键进展归为结构/连接成像、功能成像和神经元仿真三类：connectomics 已从 302 神经元线虫推进到约 14 万神经元果蝇全脑重建，斑马鱼幼体重建校对成本从约每神经元 16,500 美元降到约 100 美元。算力方面，论文估算实时人脑仿真约需 6e20 FLOP/s，但真正瓶颈仍是多年级别的显微成像和连接/受体数据采集。</p>
+<ul>
+  <li><a href="https://x.com/AlphaSignalAI/status/2050953970684739697">查看 @AlphaSignalAI 原始推文</a></li>
+  <li><a href="https://x.com/AlphaSignalAI/status/2050953972081377302">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<h2 id="412-kame-尝试兼顾实时语音和-llm-知识能力">4/12 KAME 尝试兼顾实时语音和 LLM 知识能力</h2>
+<p>Sakana AI 发布 KAME 论文链接，提出一种实时 speech-to-speech 混合架构。端到端 S2S 模型延迟低但知识能力弱，ASR-LLM-TTS 级联系统知识更强但延迟高；KAME 让 S2S transformer 先保持即时响应，同时并行调用后端文本 LLM，并把 LLM 文本结果实时注入语音生成过程。论文在语音版 MT-Bench 上报告，该系统正确性明显超过基线 S2S，接近级联系统，同时延迟接近低延迟基线。</p>
+<ul>
+  <li><a href="https://x.com/SakanaAILabs/status/2050809932447170573">查看 @SakanaAILabs 原始推文</a></li>
+</ul>
+
+<h2 id="512-医疗-llm-价值与证据缺口继续分化">5/12 医疗 LLM 价值与证据缺口继续分化</h2>
+<p>Gary Marcus 引用 Eric Topol 的医疗 AI 文章，强调当前 LLM 对医生和患者健康结局的真实证据仍有限。Topol 区分了影像 AI 已有较多随机试验和监管进展，而生成式 AI 在关键诊断、治疗决策上仍缺少前瞻性、大规模、独立结局裁定研究。文章同时承认 LLM 在病历摘要、实验室结果解释、文献检索、预授权和患者就诊准备等辅助场景有实际价值。</p>
+<ul>
+  <li><a href="https://x.com/GaryMarcus/status/2050952080563843253">查看 @GaryMarcus 原始推文</a></li>
+</ul>
+
+<h2 id="612-openai-侧重-codex-与-chatgpt-images-使用热度">6/12 OpenAI 侧重 Codex 与 ChatGPT Images 使用热度</h2>
+<p>Greg Brockman 连续转发和评论 ChatGPT Images 与 Codex 相关内容，称 ChatGPT Images 使用正在起量，并提到 Codex 对工程 ergonomics 的改善以及 Codex pet 分享活动。OpenAI 官方账号也转发 OpenAI Developers 的 Codex pet 活动，鼓励用户用 <code class="language-plaintext highlighter-rouge">/hatch</code> 创建并提交作品。这些推文不是新模型发布，但显示 OpenAI 在继续围绕 Codex 与图像生成做社区传播和使用场景扩散。</p>
+<ul>
+  <li><a href="https://x.com/gdb/status/2050731568742723899">查看 @gdb 原始推文</a></li>
+  <li><a href="https://x.com/gdb/status/2050667528741929316">查看 @gdb 原始推文</a></li>
+  <li><a href="https://x.com/gdb/status/2050637240603205827">查看 @gdb 原始推文</a></li>
+  <li><a href="https://x.com/OpenAI/status/2050622862424416689">查看 @OpenAI 原始推文</a></li>
+</ul>
+
+<h2 id="712-cursor-周末下调-composer-2-sdk-价格">7/12 Cursor 周末下调 Composer 2 SDK 价格</h2>
+<p>Cursor 官方宣布 Composer 2 在 SDK 中周末 50% off。推文信息很短，但指向一个明确的开发者采用策略：围绕 agentic coding 和代码生成能力，Cursor 继续通过 SDK 价格激励扩大调用和集成场景。当天抓取中，Cursor 是少数发布明确产品/价格信息的账号之一，因此单独列入。</p>
+<ul>
+  <li><a href="https://x.com/cursor_ai/status/2050663279962513659">查看 @cursor_ai 原始推文</a></li>
+</ul>
+
+<h2 id="812-replit-继续围绕-free-agent-day-拉动开发者活动">8/12 Replit 继续围绕 Free Agent Day 拉动开发者活动</h2>
+<p>Replit 发布 “Free Agent Day + Buildathon Office Hours”，延续其 10 周年期间把 Replit 免费开放 24 小时的活动传播。推文没有公布新模型或新功能，但从事件组织看，Replit 继续把 agent coding 与 buildathon 社区活动绑定，用限时免费和办公时间降低开发者试用门槛。</p>
+<ul>
+  <li><a href="https://x.com/Replit/status/2050697624462954694">查看 @Replit 原始推文</a></li>
+  <li><a href="https://x.com/Replit/status/2050597455558046093">查看 @Replit 原始推文</a></li>
+</ul>
+
+<h2 id="912-agent-harness-成为-langchain-生态讨论焦点">9/12 Agent harness 成为 LangChain 生态讨论焦点</h2>
+<p>LangChain 创始人 Harrison Chase 转发多条关于 agent harness engineering 的讨论，并补充称 memory、integrations 与 harness 仍高度耦合，开放 memory 标准还不成熟；harness 也不只是 ReAct loop，还包括管理上下文的工具、skills 和方法。结合 HALO 的 trace-driven harness 优化，当天多条推文共同指向一个趋势：模型本体之外，harness 正成为 agent 产品差异化的重要层。</p>
+<ul>
+  <li><a href="https://x.com/hwchase17/status/2050622771009585314">查看 @hwchase17 原始推文</a></li>
+  <li><a href="https://x.com/hwchase17/status/2050690868773007402">查看 @hwchase17 原始推文</a></li>
+  <li><a href="https://x.com/hwchase17/status/2050712094866387160">查看 @hwchase17 原始推文</a></li>
+</ul>
+
+<h2 id="1012-ai-就业替代叙事出现反讽式传播">10/12 AI 就业替代叙事出现反讽式传播</h2>
+<p>Riley Goodside 发布一条反讽推文：AI 会替代一些工作，也会创造人们无法想象的新工作；一年后那些新工作也会被 AI 完成，之后继续出现新工作并再次被替代。他随后补充说自己没有把玩笑标得足够明显。该 thread 本身不是产品新闻，但互动量较高，反映 AI 自动化对就业影响的讨论已经从“创造新岗位”进入对岗位生命周期缩短的二阶讨论。</p>
+<ul>
+  <li><a href="https://x.com/goodside/status/2050800739203608655">查看 @goodside 原始推文</a></li>
+  <li><a href="https://x.com/goodside/status/2050942135193489686">查看 @goodside 原始推文</a></li>
+</ul>
+
+<h2 id="1112-开放模型与闭源模型差距的评估争议升温">11/12 开放模型与闭源模型差距的评估争议升温</h2>
+<p>Ethan Mollick 评论一篇关于开放与闭源模型差距的解释，认为现有 benchmark 可能低估 frontier agent 的进展，尤其长任务重复评测昂贵，且“模型在 harness 中运行”和“通过 API 直接测模型”存在差异。他还指出当前开放模型在 out-of-distribution 问题和 emergent capabilities 上更脆弱。该观点与当天 harness 讨论呼应：评估对象正在从裸模型转向模型、工具、上下文管理和运行环境的组合。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2050904152511848871">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/emollick/status/2050892355331354850">查看 @emollick 原始推文</a></li>
+</ul>
+
+<h2 id="1212-vibe-kanban-关闭引发-agent-创业商业模式复盘">12/12 Vibe-kanban 关闭引发 agent 创业商业模式复盘</h2>
+<p>swyx 转述 AIE Europe 现场消息：Vibe-kanban 在仍有约 30,000 MAU 的情况下关闭，但项目会以开源形式继续存在。其创始人给出的商业复盘是，赚钱的公司通常在做两件事：卖给企业，或转售 token，而他们两者都没有做。这个案例为 agent/devtool 创业提供了一个反例：有用户和开源热度不必然等于可持续收入，商业化路径仍是核心约束。</p>
+<ul>
+  <li><a href="https://x.com/swyx/status/2050753293601935777">查看 @swyx 原始推文</a></li>
+</ul>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="image-generators-are-generalist-vision-learners--vision-banana">Image Generators are Generalist Vision Learners / Vision Banana</h3>
+<p>Google DeepMind 的论文提出 Vision Banana：在 Nano Banana Pro 基础上加入少量视觉任务数据进行指令微调，把分割、深度估计、2D/3D 理解等任务统一表示为 RGB 图像生成。论文摘要称，该模型在多类 2D 和 3D 视觉任务上达到或接近 SOTA，分割任务可击败或匹敌 Segment Anything Model 3，度量深度估计可匹敌 Depth Anything 系列，同时不牺牲基础图像生成能力。
+<a href="https://arxiv.org/abs/2604.20329">查看原文</a></p>
+
+<h3 id="halo-hierarchical-agent-loop-optimization">HALO: Hierarchical Agent Loop Optimization</h3>
+<p>HALO 是 Context Labs 开源的 agent harness 自动优化方法和 Python 包。它收集 agent 执行 trace，交给专门的 RLM 引擎分析系统性失败，再把诊断报告交给 Cursor 或 Claude Code 等 coding agent 修改 harness，之后重新部署并继续收集 trace。README 显示，AppWorld 上 Gemini 3 Flash 与 Sonnet 4.6 的 dev/test 指标均有明显提升。
+<a href="https://github.com/context-labs/halo">查看原文</a></p>
+
+<h3 id="scaling-emulations">Scaling Emulations</h3>
+<p>Isaak Freeman 的脑仿真论文讨论从模型生物到更大脑系统的高质量 emulation 路径。文中提到，connectomics 已从 302 个神经元的线虫脑图谱推进到约 14 万神经元的成年果蝇全脑重建；斑马鱼幼体重建和校对成本从约每神经元 16,500 美元降至约 100 美元。论文估算实时人脑仿真在悲观假设下约需 6e20 FLOP/s，并强调数据采集是核心瓶颈。
+<a href="https://pdf.isaak.net/scaling-emulations">查看原文</a></p>
+
+<h3 id="kame-tandem-architecture-for-enhancing-knowledge-in-real-time-speech-to-speech-conversational-ai">KAME: Tandem Architecture for Enhancing Knowledge in Real-Time Speech-to-Speech Conversational AI</h3>
+<p>KAME 是一种混合式实时语音到语音架构：S2S transformer 保持即时响应，后端文本 LLM 并行生成知识更强的回答，再实时注入引导语音生成。论文称其在语音合成版 MT-Bench 上正确性明显超过基线 S2S，接近 ASR-LLM-TTS 级联系统，同时延迟接近低延迟基线。
+<a href="https://arxiv.org/abs/2510.02327">查看原文</a></p>
+
+<h3 id="the-paradox-of-medical-ai-implementation">The Paradox of Medical AI Implementation</h3>
+<p>Eric Topol 区分了传统医学影像 AI 与当代医疗 LLM 的证据状态：前者已有多类随机试验和监管进展，后者在关键诊断、治疗决策、患者结局上仍缺乏足够真实世界证据。文章承认 LLM 在病历摘要、实验室结果解释、文献检索、预授权和患者就诊准备等辅助场景有价值，但要求进入关键医疗决策前做更严格的前瞻性研究。
+<a href="https://erictopol.substack.com/p/the-paradox-of-medical-ai-implementation">查看原文</a></p>
+
+<h3 id="sakana-ai--smbc-proposal-ai">Sakana AI × SMBC Proposal AI</h3>
+<p>Sakana AI 发布与三井住友银行集团相关的 Proposal AI 项目页面，展示其面向企业提案/业务文档场景的 AI 应用方向。该链接和 KAME 论文同日出现，显示 Sakana 当日同时覆盖企业应用落地与实时语音交互研究。
+<a href="https://sakana.ai/smbc-proposal-ai/">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/ai-daily/2026/05/02/">
+          <span>上一篇</span>
+          <strong>AI Frontier Daily | 2026.05.02</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/05/06/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.05.06</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2026  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

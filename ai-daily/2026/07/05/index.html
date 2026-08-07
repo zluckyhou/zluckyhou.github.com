@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sakana AI 公布 ICML 2026 Seoul 参会论文线索，覆盖多智能体协调、稀疏 LLM、长程记忆、测试时扩展、语料检索和 agent benchmark。最值得关注的是，这组工作没有只围绕更强单模型，而是把 frontier AI 的瓶颈拆成系统问题：agent 如何在局部视角下达成一致，模型如何重排上下文、写入长期记忆，训练语料如何被快速软匹配，以及稀疏激活如何真正跑在 GPU 上。它把“agent engineering”推进到算法、系统和硬件共同设计层。">
+    <meta name="keywords" content="互联网产品经理, 数据产品, AI产品, 数据分析, 产品设计, 项目管理, GPT-4o, NativeSpeaker, WhisperFlow, 播客, 英语学习, AI, ChatGPT, Whisper, AI音频转录">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.07.05 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/07/05/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+<!-- 添加Google添加优化工具代码段  -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-KLH868K"></script>
+    
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    
+
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于</a>
+        </div>
+
+        
+        <a class="editorial-nav__cta" href="/ai-daily/2026/08/07/">READ TODAY'S ISSUE ↗</a>
+        
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.07.05</p>
+    <h1>Sakana ICML 2026 论文包把 agent 系统问题拆到协调、记忆和效率层</h1>
+    
+    <p class="article-deck">Sakana AI 公布 ICML 2026 Seoul 参会论文线索，覆盖多智能体协调、稀疏 LLM、长程记忆、测试时扩展、语料检索和 agent benchmark。最值得关注的是，这组工作没有只围绕更强单模型，而是把 frontier AI 的瓶颈拆成系统问题：agent 如何在局部视角下达成一致，模型如何重排上下文、写入长期记忆，训练语料如何被快速软匹配，以及稀疏激活如何真正跑在 GPU 上。它把“agent engineering”推进到算法、系统和硬件共同设计层。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-07-05T09:07:00+08:00">2026年7月5日</time>
+      <span>15 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>12</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>3</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>15</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="112-sakana-icml-2026-论文包把-agent-系统问题拆到协调记忆和效率层">1/12 Sakana ICML 2026 论文包把 agent 系统问题拆到协调、记忆和效率层</h2>
+<p>Sakana AI 公布 ICML 2026 Seoul 参会论文线索，覆盖多智能体协调、稀疏 LLM、长程记忆、测试时扩展、语料检索和 agent benchmark。最值得关注的是，这组工作没有只围绕更强单模型，而是把 frontier AI 的瓶颈拆成系统问题：agent 如何在局部视角下达成一致，模型如何重排上下文、写入长期记忆，训练语料如何被快速软匹配，以及稀疏激活如何真正跑在 GPU 上。它把“agent engineering”推进到算法、系统和硬件共同设计层。</p>
+<ul>
+  <li><a href="https://x.com/SakanaAILabs/status/2073393327622516843">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/SakanaAILabs/status/2073393647563706699">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/SakanaAILabs/status/2073393424091484165">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/SakanaAILabs/status/2073393918704750942">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/SakanaAILabs/status/2073394995428753820">查看 @SakanaAILabs 原始推文</a></li>
+</ul>
+
+<h2 id="212-twell-与-softmatcha-2-分别指向-llm-成本和语料透明度">2/12 TwELL 与 SoftMatcha 2 分别指向 LLM 成本和语料透明度</h2>
+<p>Sakana 与 NVIDIA 合作的 TwELL 研究针对 feedforward 层稀疏性，设计 Tile-wise ELLPACK sparse packing format 和 CUDA kernels，让 unstructured sparsity 能在 H100 这类 GPU 上转化为训练、推理、内存和能耗收益。SoftMatcha 2 则面向 trillion-token corpus search，用软匹配在 1.4T token 语料中快速发现语义相近片段和 benchmark contamination。两条研究共同说明，frontier AI 成本竞争不只靠模型蒸馏，也靠底层 kernel、数据结构和训练语料可审计性。</p>
+<ul>
+  <li><a href="https://x.com/SakanaAILabs/status/2073393424091484165">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/SakanaAILabs/status/2073393918704750942">查看 @SakanaAILabs 原始推文</a></li>
+</ul>
+
+<h2 id="312-sheaf-admm-把多智能体协调从编排器推进到可学习网络结构">3/12 Sheaf-ADMM 把多智能体协调从编排器推进到可学习网络结构</h2>
+<p>Sakana 的 Sheaf-ADMM 论文和 JAX/Flax 实现把复杂任务拆成多个局部子问题，每个 agent 只看局部输入，先求解自己的 convex subproblem，再通过 sheaf-defined agreement 与邻居交换有限投影，并用 ADMM 迭代减少分歧。相较常见的中心化 orchestrator，这种方法研究的是没有全局控制器时，局部 agent 如何形成全局一致输出。它对多 agent 系统的意义在于，协调机制可以成为模型结构的一部分，而不是只靠 prompt、planner 或外部工作流脚本。</p>
+<ul>
+  <li><a href="https://x.com/SakanaAILabs/status/2073393647563706699">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/SakanaAILabs/status/2073240986898362812">查看 @SakanaAILabs 原始推文</a></li>
+</ul>
+
+<h2 id="412-databricks-omnigent-把多-coding-agent-编排放到企业控制面">4/12 Databricks Omnigent 把多 coding agent 编排放到企业控制面</h2>
+<p>Databricks 推广开源 meta-harness Omnigent，定位是在多个 coding agent 之上提供统一编排层，让开发者按任务选择合适模型，并共享 session、guardrails 和 human-in-the-loop workflows。这个信号与当天关于 harness、routing 和 agent reliability 的讨论一致：企业不会只接入一个 coding assistant，而会同时使用 Claude Code、Codex、Cursor、内部 agent 和模型网关。真正的生产问题变成如何统一上下文、权限、审计、回滚和人工确认，而不是单个模型能否写代码。</p>
+<ul>
+  <li><a href="https://x.com/databricks/status/2073435509204881524">查看 @databricks 原始推文</a></li>
+</ul>
+
+<h2 id="512-model-router-讨论从固定路由转向强模型自我委派">5/12 Model router 讨论从固定路由转向强模型自我委派</h2>
+<p>Ethan Mollick 提出“what if the model is the router”，认为未来复杂任务可能先交给强 planner，再由它自行委派给更便宜、更弱或更专长的模型。Bindu Reddy 同日把 Fable 5、Opus 4.8、GPT 5.5 和 GLM 5.2 分别放到复杂系统架构、前端、后端和简单代码的位置。两条推文共同指向一个产品方向：routing 不再只是外部规则根据 benchmark 或价格表分流，而是 planner 需要理解任务结构、风险、可验证性、上下文需求和模型特长。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2073248523215089825">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2073218331042341074">查看 @bindureddy 原始推文</a></li>
+</ul>
+
+<h2 id="612-fable-5-继续展示-long-horizon-agentic-creation-的形态">6/12 Fable 5 继续展示 long-horizon agentic creation 的形态</h2>
+<p>Fable 5 相关讨论延续升温。Ethan Mollick 展示模型把游戏做成“online AAA 想象中的 AAA”，包含 lootbox、EULA、成就、图形设置和启动画面；Bindu Reddy 强调 Fable 可在 always-on compute、database、auth 和 3D 资产上构建复杂系统；Karpathy 则从 3D world demos 中看到模型把知识、代码、空间坐标、mesh、animation 和小故事融合到可玩环境的能力。今天的重点不是单个 demo，而是 agentic creation 开始从短视频式展示走向完整产品结构和长期迭代。</p>
+<ul>
+  <li><a href="https://x.com/emollick/status/2073226212462215300">查看 @emollick 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2073300611504955565">查看 @bindureddy 原始推文</a></li>
+  <li><a href="https://x.com/karpathy/status/2073505440479293773">查看 @karpathy 原始推文</a></li>
+  <li><a href="https://x.com/karpathy/status/2073499112876761166">查看 @karpathy 原始推文</a></li>
+  <li><a href="https://x.com/mattshumer_/status/2073610782797931003">查看 @mattshumer_ 原始推文</a></li>
+</ul>
+
+<h2 id="712-hugging-face-用-250-个开放-ai-里程碑强化-open-source-ai-政策叙事">7/12 Hugging Face 用 250 个开放 AI 里程碑强化 open-source AI 政策叙事</h2>
+<p>Clement Delangue 发布“250 Years of America, 250 Open AI Milestones”集合，列出美国开放模型、数据集、论文和 Spaces，并把开放科学、开放竞争和开放生态定义为美国 AI 创新的基础。Hugging Face 官方转发后，这条叙事与 Together AI 关于 open-source models 带来数据控制、定制和 ownership 的 CNBC 片段相互呼应。开放模型讨论正在从“开发者是否喜欢开源”转向产业结构问题：训练成本能否 mutualize，企业数据能否留在自己手里，少数 closed labs 是否会集中 intelligence layer。</p>
+<ul>
+  <li><a href="https://x.com/ClementDelangue/status/2073373755632480517">查看 @ClementDelangue 原始推文</a></li>
+  <li><a href="https://x.com/ClementDelangue/status/2073387290856955955">查看 @ClementDelangue 原始推文</a></li>
+  <li><a href="https://x.com/togethercompute/status/2073471351613190330">查看 @togethercompute 原始推文</a></li>
+</ul>
+
+<h2 id="812-agent-harness-被重新定义为生产可靠性的核心">8/12 Agent harness 被重新定义为生产可靠性的核心</h2>
+<p>AlphaSignal 基于《The Hitchhiker’s Guide to Agentic AI》强调，agent reliability lives in the harness, not the model。它把 harness 描述为负责模型调用、工具分发、状态跟踪、失败重试和日志的运行时；没有 harness，单次工具调用失败就可能让工作流静默卡住。这个观点与 Databricks Omnigent、LangGraph、OpenAI Agents SDK 和多 agent 协调讨论同频：生产级 agent 的关键不只是推理能力，而是执行系统是否能授权、恢复、记录、评估和让人类介入。</p>
+<ul>
+  <li><a href="https://x.com/AlphaSignalAI/status/2073425930698023271">查看 @AlphaSignalAI 原始推文</a></li>
+  <li><a href="https://x.com/AlphaSignalAI/status/2073425934175060161">查看 @AlphaSignalAI 原始推文</a></li>
+  <li><a href="https://x.com/AlphaSignalAI/status/2073429354051195041">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<h2 id="912-bytedance-38000-小时-agent-实验把评估拉向长期真实任务">9/12 ByteDance 38,000 小时 agent 实验把评估拉向长期真实任务</h2>
+<p>AlphaSignal 摘要称，ByteDance 在 134 个真实任务上运行 AI agents 约 38,000 小时，任务从 gravitational-wave detection 到 CPU design，并观察到一条数学曲线能预测五个 frontier models 的进步；带 memory 的 agent 明显优于 fresh restart，学习速度约每三个月翻倍。即使当天推文只给出摘要，这个方向也很重要：agent 评估正在离开一次性问答和短 benchmark，转向长时间、多任务、可学习、有记忆和能复用经验的真实工作流。</p>
+<ul>
+  <li><a href="https://x.com/AlphaSignalAI/status/2073301281800872139">查看 @AlphaSignalAI 原始推文</a></li>
+</ul>
+
+<h2 id="1012-长期记忆和上下文重排成为-sakana-论文中的高频主题">10/12 长期记忆和上下文重排成为 Sakana 论文中的高频主题</h2>
+<p>Sakana 的 RePo、Doc-to-LoRA、Fast-weight Product Key Memory 和 CoffeeBench 都围绕一个共同问题：agent 和 LLM 如何在长上下文、长期任务和持续适应中保留有用信息。RePo 让模型按内容相关性重新分配位置，而不是固定线性 token index；Doc-to-LoRA 把文档内容转成可复用 LoRA adapter；FwPKM 结合 test-time training 与 sparse fast weights；CoffeeBench 用 90 天多 agent 经济模拟评估长期经营表现。这说明 memory 已经从产品功能变成模型结构、评估和部署成本问题。</p>
+<ul>
+  <li><a href="https://x.com/SakanaAILabs/status/2073393499056030050">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/SakanaAILabs/status/2073394035646177742">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/SakanaAILabs/status/2073394995428753820">查看 @SakanaAILabs 原始推文</a></li>
+  <li><a href="https://x.com/SakanaAILabs/status/2073393587522601272">查看 @SakanaAILabs 原始推文</a></li>
+</ul>
+
+<h2 id="1112-ai-成本治理和权力集中继续进入主流批评框架">11/12 AI 成本、治理和权力集中继续进入主流批评框架</h2>
+<p>Gary Marcus 转发“AI is now costing some companies more than the people it was supposed to replace”，并引用关于政府可能将最强 AI 用于压制性目的、同时限制市场和竞争者访问的警告。他还评论如果已经有 AGI，就不需要 forward deployed engineers。与开放模型、企业数据控制、harness 可靠性等主题放在一起看，今天的批评焦点不是单纯“AI 能不能做某项任务”，而是企业成本、部署边界、政治权力、市场集中和真实生产价值之间的关系。</p>
+<ul>
+  <li><a href="https://x.com/GaryMarcus/status/2073569156876628407">查看 @GaryMarcus 原始推文</a></li>
+  <li><a href="https://x.com/GaryMarcus/status/2073475829510676787">查看 @GaryMarcus 原始推文</a></li>
+  <li><a href="https://x.com/GaryMarcus/status/2073226191671271694">查看 @GaryMarcus 原始推文</a></li>
+</ul>
+
+<h2 id="1212-july-4-低新闻量下行业讨论仍集中在系统化-ai">12/12 July 4 低新闻量下，行业讨论仍集中在系统化 AI</h2>
+<p>今天 OpenAI、Anthropic、Google DeepMind 等头部实验室没有大型发布，多位高互动账号内容偏节日、体育或政治。Sam Altman、Sundar Pichai、Lisa Su、Scale AI 和 Bindu Reddy 都围绕美国 250 周年谈创新或国家能力。真正有信息密度的 AI 推文则集中在系统化方向：Sakana 讲协调、稀疏、记忆和 benchmark；Databricks 讲 meta-harness；AlphaSignal 讲 harness 与长期评估；Hugging Face 和 Together 讲开放生态与数据控制。frontier AI 竞争继续从单点模型发布转向可控、可审计、可复用的生产系统。</p>
+<ul>
+  <li><a href="https://x.com/sama/status/2073635910512726444">查看 @sama 原始推文</a></li>
+  <li><a href="https://x.com/sundarpichai/status/2073436433415614491">查看 @sundarpichai 原始推文</a></li>
+  <li><a href="https://x.com/LisaSu/status/2073469993837293629">查看 @LisaSu 原始推文</a></li>
+  <li><a href="https://x.com/scale_AI/status/2073407373646221414">查看 @scale_AI 原始推文</a></li>
+  <li><a href="https://x.com/bindureddy/status/2073462459680334219">查看 @bindureddy 原始推文</a></li>
+</ul>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="sakana-icml-2026-research-package">Sakana ICML 2026 research package</h3>
+<p>Sakana AI 今天集中公开 ICML 2026 相关论文线索，形成一个很清楚的系统研究包。Sheaf-ADMM 从 sheaf theory 和 ADMM distributed consensus 出发，让局部 agent 只在必要投影上达成一致；TwELL 与 NVIDIA 合作，把 unstructured sparsity 映射到 tiled GPU workloads 和 CUDA kernels；SoftMatcha 2 在 trillion-scale corpora 中做快速软匹配，用于发现 benchmark contamination；RePo、Doc-to-LoRA、FwPKM 和 CoffeeBench 则分别处理上下文重排、长期记忆、test-time 写入和长周期 agent 评估。整体信号是，frontier AI 的下一层竞争会同时发生在协调算法、记忆结构、语料审计、GPU kernel 和 agent benchmark 上。
+<a href="https://pub.sakana.ai/sheaf-admm/">查看原文</a>
+<a href="https://pub.sakana.ai/sparser-faster-llms/">查看原文</a>
+<a href="https://softmatcha.github.io/v2/">查看原文</a></p>
+
+<h3 id="250-years-of-america-250-open-ai-milestones">250 Years of America, 250 Open AI Milestones</h3>
+<p>Hugging Face 这个集合为美国 250 周年整理 250 个开放 AI 里程碑，覆盖 open models、datasets、papers 和 Spaces。列表从 Attention Is All You Need、PyTorch、BERT、GPT-2、word2vec、Transformers、ULMFiT、Llama 2、Whisper、gpt-oss、ImageNet、TensorFlow 等开始，用排序方式把开放生态写成一条产业史。Clement Delangue 的推文把它放进政策语境：开放科学、开放竞争和开放生态让研究者与 builder 能互相复用、挑战和 remix，而闭源 frontier labs 的集中训练与分发可能改变未来 AI 的权力结构。
+<a href="https://huggingface.co/collections/clem/250-years-of-america-250-open-ai-milestones">查看原文</a></p>
+
+<h3 id="the-hitchhikers-guide-to-agentic-ai">The Hitchhiker’s Guide to Agentic AI</h3>
+<p>Haggai Roitman 的《The Hitchhiker’s Guide to Agentic AI: From Foundations to Systems》是一份面向 practitioner 的 agentic AI 全栈参考。arXiv 摘要显示，它从 transformer、GPU systems、training、fine-tuning、compression 和 inference optimization 讲到 alignment、reasoning、RLHF、DPO、GRPO、test-time scaling，再进入 agentic training、RAG、memory systems、harness design、context management、MCP、skills、tools、A2A、多 agent 拓扑、UI、evaluation 和 production deployment。AlphaSignal 今天引用它强调 harness 是生产可靠性的核心，这与当前 agent 工具从 demo 进入真实工作流的趋势高度一致。
+<a href="https://arxiv.org/abs/2606.24937">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/ai-daily/2026/07/03/">
+          <span>上一篇</span>
+          <strong>AI Frontier Daily | 2026.07.03</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/07/06/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.07.06</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/John43497285">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/zluckyhou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    -->
+
+                    <!--
+                    
+                    -->
+
+                    
+                    <!--
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2026  zluckyH ❖ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+</html>

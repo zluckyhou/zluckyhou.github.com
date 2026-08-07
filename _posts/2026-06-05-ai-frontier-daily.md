@@ -19,89 +19,73 @@ header-img: img/dark_yellow_400.png
 
 ## 1/14 Anthropic 把 Claude 内部提效上升到 recursive self-improvement 议题
 Anthropic 发布 Institute 文章，称 Claude 正在显著加速公司内部 AI 开发，并把这视为 recursive self-improvement 可能路径的现实信号。文章称 Anthropic 工程师当前季度代码产出约为 2021-2025 年均值的 8 倍，截至 2026 年 5 月，超过 80% 合入代码由 Claude 编写。在小模型训练优化测试中，熟练人类 4-8 小时可做到约 4x speedup；Claude Opus 4 在 2025 年 5 月约 3x，Mythos Preview 在 2026 年 4 月达到约 52x。Anthropic 同时强调，这尚不能证明模型具备研究判断能力，但如果趋势延续，AI 辅助设计 successor model 将带来效率与控制风险的双重问题。
-- [查看 @AnthropicAI 原始推文](https://x.com/AnthropicAI/status/2062568862479208923)
-- [查看 @AnthropicAI 原始推文](https://x.com/AnthropicAI/status/2062568864240836995)
-- [查看 @AnthropicAI 原始推文](https://x.com/AnthropicAI/status/2062568869240476050)
-- [查看 @AnthropicAI 原始推文](https://x.com/AnthropicAI/status/2062568873321513443)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AnthropicAI<span class="source-chip__links"><a href="https://x.com/AnthropicAI/status/2062568862479208923" target="_blank" rel="noopener" aria-label="@AnthropicAI 原文 1">1</a><a href="https://x.com/AnthropicAI/status/2062568864240836995" target="_blank" rel="noopener" aria-label="@AnthropicAI 原文 2">2</a><a href="https://x.com/AnthropicAI/status/2062568869240476050" target="_blank" rel="noopener" aria-label="@AnthropicAI 原文 3">3</a><a href="https://x.com/AnthropicAI/status/2062568873321513443" target="_blank" rel="noopener" aria-label="@AnthropicAI 原文 4">4</a></span></span></div>
 
 ## 2/14 OpenAI 推出更强 ChatGPT memory，先向美国 Plus/Pro 用户开放
 OpenAI 宣布 ChatGPT memory 系统升级，目标是在多轮对话之间保留更有用的上下文，并随用户状态变化自动调整。新系统加入 memory summary，用户可查看和引导 ChatGPT 记住什么、如何使用上下文；OpenAI 举例称，如果用户说 7 月要旅行，memory 应理解这件事从“即将发生”变成“正在发生”再到“已结束”。该能力先向美国 Plus 和 Pro 用户推出，同时提供 2x 更多 memory；移动端需要更新到最新版 app，旧版 saved memories 体验仍可在设置中切回。Sam Altman 和 Greg Brockman 同步强调这是 ChatGPT 长期个性化的重要升级。
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2062567556524003631)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2062567558252007554)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2062567559673856346)
-- [查看 @sama 原始推文](https://x.com/sama/status/2062660086787613116)
-- [查看 @gdb 原始推文](https://x.com/gdb/status/2062608071411540196)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OpenAI<span class="source-chip__links"><a href="https://x.com/OpenAI/status/2062567556524003631" target="_blank" rel="noopener" aria-label="@OpenAI 原文 1">1</a><a href="https://x.com/OpenAI/status/2062567558252007554" target="_blank" rel="noopener" aria-label="@OpenAI 原文 2">2</a><a href="https://x.com/OpenAI/status/2062567559673856346" target="_blank" rel="noopener" aria-label="@OpenAI 原文 3">3</a></span></span><a class="source-chip" href="https://x.com/sama/status/2062660086787613116" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@sama</a><a class="source-chip" href="https://x.com/gdb/status/2062608071411540196" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@gdb</a></div>
 
 ## 3/14 NVIDIA 发布 Nemotron 3 Ultra，开放 550B MoE agent 模型
 NVIDIA 围绕 Nemotron 3 Ultra 进行大规模生态发布：该模型为 550B 参数、55B active 的 MoE，面向长时间运行的 agent planning、reasoning、tool use 和 1M-token 长上下文。Hugging Face、vLLM、LMSYS、LangChain、Ollama、Prime Intellect、GMI Cloud、Nous Research、Kilo Code 等同步提供 Day-0 支持或部署入口。公开信息强调其 agent 场景的能力/效率比、MTP speculative decoding、开放权重和更低推理成本。对企业而言，这使 NVIDIA 在闭源 frontier API 与小型本地模型之间提供一个可自管、长上下文、面向 agent 的开放模型选项。
-- [查看 @huggingface 原始推文](https://x.com/huggingface/status/2062544628285346174)
-- [查看 @NVIDIAAI 原始推文](https://x.com/NVIDIAAI/status/2062523657780334751)
-- [查看 @NVIDIAAI 原始推文](https://x.com/NVIDIAAI/status/2062566080313508299)
-- [查看 @ClementDelangue 原始推文](https://x.com/ClementDelangue/status/2062545729353028034)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/huggingface/status/2062544628285346174" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@huggingface</a><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@NVIDIAAI<span class="source-chip__links"><a href="https://x.com/NVIDIAAI/status/2062523657780334751" target="_blank" rel="noopener" aria-label="@NVIDIAAI 原文 1">1</a><a href="https://x.com/NVIDIAAI/status/2062566080313508299" target="_blank" rel="noopener" aria-label="@NVIDIAAI 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/ClementDelangue/status/2062545729353028034" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@ClementDelangue</a></div>
 
 ## 4/14 Microsoft 详解 MAI-Thinking-1，并扩展七模型自研路线
 Mustafa Suleyman 发布 109 页 MAI-Thinking-1 技术报告，强调 Microsoft AI 正在建设可持续改进 frontier model 的训练机器，而不只是发布单个模型。他称 MAI-Thinking-1 在 reasoning 和 SWE benchmark 上表现强，SWE-Bench Pro 达 53%，接近 Opus 4.6；MAI-Code-1-Flash 是面向 VS Code 与 GitHub Copilot CLI 的 5B active coding model，SWE-Bench Pro 达 51%。同一条更新还列出 MAI-Transcribe-1.5、MAI-Voice-2/Flash、MAI-Image-2.5/Flash 等模型，覆盖转录、语音、代码和图像编辑。微软的方向是把自研模型、Foundry 分发、Copilot 入口和企业调优串成统一路线。
-- [查看 @mustafasuleyman 原始推文](https://x.com/mustafasuleyman/status/2062609054405447785)
-- [查看 @AlphaSignalAI 原始推文](https://x.com/AlphaSignalAI/status/2062414046075482480)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/mustafasuleyman/status/2062609054405447785" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@mustafasuleyman</a><a class="source-chip" href="https://x.com/AlphaSignalAI/status/2062414046075482480" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AlphaSignalAI</a></div>
 
 ## 5/14 Cursor canvases 增加发布、Design Mode 和 context explorer
 Cursor 发布 canvases 更新，把 canvas 从生成结果预览进一步扩展为 team share、视觉编辑和 agent context inspection 的工作面。新功能允许 Cursor 在 canvas 中创建 dashboard、report、internal tool 等应用，并通过 URL 发布给团队；Design Mode 让用户直接选择和标注 UI 元素，引导 Cursor 更快迭代；context explorer 则把 agent 的上下文用量展示成交互式报告，拆解 system prompt、tool definitions、rules、skills 等 token 来源。在 coding agent 开始受 token 成本、上下文污染和可解释性约束时，这类可视化治理面板会成为开发工具竞争点。
-- [查看 @cursor_ai 原始推文](https://x.com/cursor_ai/status/2062611883249783083)
-- [查看 @cursor_ai 原始推文](https://x.com/cursor_ai/status/2062611884742980037)
-- [查看 @cursor_ai 原始推文](https://x.com/cursor_ai/status/2062611886370337103)
-- [查看 @cursor_ai 原始推文](https://x.com/cursor_ai/status/2062611887871988189)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cursor_ai<span class="source-chip__links"><a href="https://x.com/cursor_ai/status/2062611883249783083" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 1">1</a><a href="https://x.com/cursor_ai/status/2062611884742980037" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 2">2</a><a href="https://x.com/cursor_ai/status/2062611886370337103" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 3">3</a><a href="https://x.com/cursor_ai/status/2062611887871988189" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 4">4</a></span></span></div>
 
 ## 6/14 Replit 与 Shopify 合作，让 Agent 从想法生成可销售店铺
 Replit 宣布 Shopify 合作，用户只需告诉 Replit Agent 想卖什么，Agent 就会构建自定义 storefront、创建 Shopify store，并帮助添加商品；之后用户可在 Shopify 中认领店铺、设置支付并上线。Replit 同日继续强调其一体化路径：plain English 生成软件、UI、auth、database、deployment、团队协作和并行 agent 都在同一环境中完成。Shopify 集成的意义在于把“vibe coding app builder”推进到商业发布流程：生成应用之外，还要处理商品、支付、店铺归属和上线。对 agent 平台来说，垂直业务后端集成正在成为比单纯代码生成更具体的价值入口。
-- [查看 @Replit 原始推文](https://x.com/Replit/status/2062594881625940379)
-- [查看 @Replit 原始推文](https://x.com/Replit/status/2062594883349794907)
-- [查看 @Replit 原始推文](https://x.com/Replit/status/2062594884712927462)
-- [查看 @Replit 原始推文](https://x.com/Replit/status/2062625551567745103)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@Replit<span class="source-chip__links"><a href="https://x.com/Replit/status/2062594881625940379" target="_blank" rel="noopener" aria-label="@Replit 原文 1">1</a><a href="https://x.com/Replit/status/2062594883349794907" target="_blank" rel="noopener" aria-label="@Replit 原文 2">2</a><a href="https://x.com/Replit/status/2062594884712927462" target="_blank" rel="noopener" aria-label="@Replit 原文 3">3</a><a href="https://x.com/Replit/status/2062625551567745103" target="_blank" rel="noopener" aria-label="@Replit 原文 4">4</a></span></span></div>
 
 ## 7/14 Perplexity 与美国 SBA 推 Main Street AI Accelerator
 Perplexity 宣布与 U.S. Small Business Administration 合作推出 Main Street AI Accelerator，承诺提供 2500 万美元 Perplexity Computer credits：最多 10 万家 eligible companies 每家可获得 250 美元额度。Perplexity 将该计划与美国 250 周年相连，定位为帮助小企业获得 AI 操作工具的入口。此前 Perplexity Computer 更偏 Max、Enterprise Max 和 power user 场景；这次通过 SBA 与信用额度池进入 Main Street small business，说明 AI agent 公司正尝试把 adoption 从大企业席位销售扩展到低门槛、中小企业试用。
-- [查看 @perplexity_ai 原始推文](https://x.com/perplexity_ai/status/2062556000394379710)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/perplexity_ai/status/2062556000394379710" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@perplexity_ai</a></div>
 
 ## 8/14 AI21 称 agent pipeline 顺序可把 SWE-Rebench 推到 60.9%
 AI21 Labs 发布 Labs in Front 文章，主张 agent pipeline order 本身就是 hyperparameter。实验在 2025 年 12 月至 2026 年 3 月的 123 个 SWE-Rebench issue slice 上运行：classic ReAct agent baseline 为 53.8%，enrich-only 55.6%，scale-only 55.4%，enrich-then-scale 57.7%。AI21 反转常见顺序，先并行 rollout 再 enrichment，让 extractor 利用多次修复尝试定位高概率文件，得分提升到 59.7%；再加入轻量 Test Agent 编写 repo tests 并过滤失败 patch，最终达到 60.9%，同成本附近超过其引用的 Claude Code 56.2%。这表明 agent 工程策略可在不换底模的情况下显著改变质量与成本。
-- [查看 @AI21Labs 原始推文](https://x.com/AI21Labs/status/2062531170084995275)
-- [查看 @AI21Labs 原始推文](https://x.com/AI21Labs/status/2062537184364695563)
-- [查看 @AI21Labs 原始推文](https://x.com/AI21Labs/status/2062537281974513864)
-- [查看 @AI21Labs 原始推文](https://x.com/AI21Labs/status/2062537450040197264)
-- [查看 @AI21Labs 原始推文](https://x.com/AI21Labs/status/2062537644458836303)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AI21Labs<span class="source-chip__links"><a href="https://x.com/AI21Labs/status/2062531170084995275" target="_blank" rel="noopener" aria-label="@AI21Labs 原文 1">1</a><a href="https://x.com/AI21Labs/status/2062537184364695563" target="_blank" rel="noopener" aria-label="@AI21Labs 原文 2">2</a><a href="https://x.com/AI21Labs/status/2062537281974513864" target="_blank" rel="noopener" aria-label="@AI21Labs 原文 3">3</a><a href="https://x.com/AI21Labs/status/2062537450040197264" target="_blank" rel="noopener" aria-label="@AI21Labs 原文 4">4</a><a href="https://x.com/AI21Labs/status/2062537644458836303" target="_blank" rel="noopener" aria-label="@AI21Labs 原文 5">5</a></span></span></div>
 
 ## 9/14 LlamaIndex 推 ParseBench 与 Parse-Flow，聚焦 agent 文档理解
 LlamaIndex 在 CVPR 2026 展示 ParseBench，并发布 Parse-Flow 文档智能工作流。ParseBench 是面向 AI agents 的文档理解 benchmark，包含 2000+ human-verified pages、167K+ test rules，并覆盖 tables、charts、faithfulness、formatting、grounding 五个维度。LlamaIndex 同时推出 Parse-Flow，用 parse、classify、split、extract 四个 primitive 组成可视化 pipeline，用户可拖拽步骤、放入文档并观察事件流；底层由 LlamaAgents workflow 驱动，让 transition 与 failure 可观测。企业 AI pipeline 常从 PDF、合同、发票、报告开始，这类 benchmark 与可视化 pipeline 共同指向一个现实瓶颈：agent 不能可靠读文档，就无法可靠执行业务任务。
-- [查看 @llama_index 原始推文](https://x.com/llama_index/status/2062525204262236266)
-- [查看 @llama_index 原始推文](https://x.com/llama_index/status/2062567059402137722)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@llama_index<span class="source-chip__links"><a href="https://x.com/llama_index/status/2062525204262236266" target="_blank" rel="noopener" aria-label="@llama_index 原文 1">1</a><a href="https://x.com/llama_index/status/2062567059402137722" target="_blank" rel="noopener" aria-label="@llama_index 原文 2">2</a></span></span></div>
 
 ## 10/14 Runway 推 Aleph 2.0 Edit Studio，强调只改需要改的镜头区域
 Runway 发布 Aleph 2.0，并把它接入新的 Edit Studio。官方描述是“只改你想编辑的部分，保留镜头中其余内容不变”，面向视频创作中常见的局部修改、镜头保真和快速迭代需求。与纯生成视频不同，Edit Studio 的价值在于可控后期：创作者不一定要重生成整段内容，而是对已有 shot 做局部替换、修正或风格调整。随着视频模型质量提高，生产工作流的关键开始转向 editability、temporal consistency 和 asset preservation。Runway 这次更新延续其从生成模型供应商走向创意编辑平台的路线。
-- [查看 @runwayml 原始推文](https://x.com/runwayml/status/2062540015473721682)
-- [查看 @runwayml 原始推文](https://x.com/runwayml/status/2062540017021407348)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@runwayml<span class="source-chip__links"><a href="https://x.com/runwayml/status/2062540015473721682" target="_blank" rel="noopener" aria-label="@runwayml 原文 1">1</a><a href="https://x.com/runwayml/status/2062540017021407348" target="_blank" rel="noopener" aria-label="@runwayml 原文 2">2</a></span></span></div>
 
 ## 11/14 Cohere 获 NATO Agentic AI for Cognitive Warfare 挑战第一名
 Cohere 宣布在 NATO 的 Agentic AI for Cognitive Warfare Innovation Challenge 中获得第一名，OpenMinds 第二，Ipsos 与 Thoughtworks 并列第三。Cohere 将比赛定位为 agentic AI 帮助民主国家理解、预判并响应信息威胁的场景，称其技术可加强联盟内 decision-making 与 resilience。公司同日用“We're building in Canada”强化加拿大本土 AI 叙事。该消息把 enterprise LLM 公司与国防、认知战、信息安全场景更直接地连接起来：agent 不只是自动化办公或编码，也在进入舆情、情报和国家安全类高风险决策辅助。
-- [查看 @cohere 原始推文](https://x.com/cohere/status/2062488411877884117)
-- [查看 @cohere 原始推文](https://x.com/cohere/status/2062567903929540857)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cohere<span class="source-chip__links"><a href="https://x.com/cohere/status/2062488411877884117" target="_blank" rel="noopener" aria-label="@cohere 原文 1">1</a><a href="https://x.com/cohere/status/2062567903929540857" target="_blank" rel="noopener" aria-label="@cohere 原文 2">2</a></span></span></div>
 
 ## 12/14 Pika 推首个 in-app Group Chat with an agent
 Pika 宣布推出首个 in-app Group Chat with an agent，允许用户邀请其他人加入与 Pika Agent 的群聊。官方举例包括让 Pika Agent 帮父母理解 iPhone 更新、与朋友一起做 meme、或与团队协作 microdrama。该功能把视频/创意 agent 从一对一 prompt 工具转向多人协作空间：同一个 agent 可成为群聊中的创意参与者、解释者和素材生成器。对消费级 AI 创作产品而言，社交结构可能和模型能力同样关键；如果 agent 能进入群聊，产品粘性和创作场景会从个人工具扩展到 shared entertainment 与团队互动。
-- [查看 @pika_labs 原始推文](https://x.com/pika_labs/status/2062586258849980506)
-- [查看 @pika_labs 原始推文](https://x.com/pika_labs/status/2062586260338925756)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@pika_labs<span class="source-chip__links"><a href="https://x.com/pika_labs/status/2062586258849980506" target="_blank" rel="noopener" aria-label="@pika_labs 原文 1">1</a><a href="https://x.com/pika_labs/status/2062586260338925756" target="_blank" rel="noopener" aria-label="@pika_labs 原文 2">2</a></span></span></div>
 
 ## 13/14 Sakana AI 预告日本首个 1T 参数 agent-native model
 Sakana AI CEO David Ha 表示将在 TV Tokyo WBS 节目中讨论公司即将推出的 1T 参数模型项目，该项目获得日本经产省 GENIAC 支持。Ha 称 Sakana 正在 scaling up，目标是构建日本首个 1T parameter agent-native model，专门优化 long-horizon deep research 与 autonomous tool use。Sakana 官方也转发并称 CEO 与研究员将介绍公司战略及日本 AI 改变世界的可能性。该预告说明日本本土 frontier effort 正从研究模型与模型合并技术，进入国家产业支持、超大参数规模和 agent-native 训练目标结合的阶段。
-- [查看 @hardmaru 原始推文](https://x.com/hardmaru/status/2062450123121262624)
-- [查看 @SakanaAILabs 原始推文](https://x.com/SakanaAILabs/status/2062449455736205484)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/hardmaru/status/2062450123121262624" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@hardmaru</a><a class="source-chip" href="https://x.com/SakanaAILabs/status/2062449455736205484" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@SakanaAILabs</a></div>
 
 ## 14/14 Agent 真实评测、成本上限和 trace 训练成为基础设施焦点
 当天多条讨论集中在 agent 不再只比模型分数，而是比真实任务评测、成本和可复用轨迹。swyx 转述 Cognition 首个 eval ship：METR 任务约 16 小时，Cognition 私有 enterprise eval 覆盖到 100 小时，并基于 126 位企业用户的 258 个 Devin session 估算 human-equivalent time；Clement Delangue 推动把 agent traces 默认存到 Hugging Face，用于历史分析、共享和 post-training；Harrison Chase 转发 LangSmith Sandbox CLI、provider-agnostic harness 和 open model 成本优势；Bindu Reddy 则称 AI spend 正成为公司“overnight”的预算问题。行业焦点正在从“agent 能不能跑”转向能否被评测、限额、复用轨迹并控制单位经济。
-- [查看 @swyx 原始推文](https://x.com/swyx/status/2062611218196771017)
-- [查看 @ClementDelangue 原始推文](https://x.com/ClementDelangue/status/2062542713463980303)
-- [查看 @hwchase17 原始推文](https://x.com/hwchase17/status/2062532589714387092)
-- [查看 @bindureddy 原始推文](https://x.com/bindureddy/status/2062541106122793121)
-- [查看 @bindureddy 原始推文](https://x.com/bindureddy/status/2062701760746074363)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/swyx/status/2062611218196771017" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@swyx</a><a class="source-chip" href="https://x.com/ClementDelangue/status/2062542713463980303" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@ClementDelangue</a><a class="source-chip" href="https://x.com/hwchase17/status/2062532589714387092" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@hwchase17</a><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@bindureddy<span class="source-chip__links"><a href="https://x.com/bindureddy/status/2062541106122793121" target="_blank" rel="noopener" aria-label="@bindureddy 原文 1">1</a><a href="https://x.com/bindureddy/status/2062701760746074363" target="_blank" rel="noopener" aria-label="@bindureddy 原文 2">2</a></span></span></div>
 
 ---
 

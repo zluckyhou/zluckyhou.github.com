@@ -19,85 +19,63 @@ header-img: img/dark_yellow_400.png
 
 ## 1/12 Midjourney Medical 用 Scanner 把生成影像公司推进到医疗硬件
 Midjourney 宣布成立 Midjourney Medical，并展示新的 Midjourney Scanner。官方称这是一个面向全身内部 3D 扫描的新硬件方向，配套发布了技术介绍视频和下午 AMA；François Chollet 与 Linus Ekenstam 等账号也把它理解为“不用 MRI 的全身内部 3D 扫描”方向。该事件的重要性不只在医疗影像本身，而是 Midjourney 从图像/视频生成模型公司外延到实体扫描硬件与医疗数据采集。如果这个方向继续推进，AI frontier 的竞争会从模型生成能力扩展到传感器、人体数据、临床可用性和监管路径。
-- [查看 @midjourney 原始推文](https://x.com/midjourney/status/2067421950314688759)
-- [查看 @midjourney 原始推文](https://x.com/midjourney/status/2067422898407837797)
-- [查看 @midjourney 原始推文](https://x.com/midjourney/status/2067688872944025975)
-- [查看 @fchollet 原始推文](https://x.com/fchollet/status/2067589665830375682)
-- [查看 @LinusEkenstam 原始推文](https://x.com/LinusEkenstam/status/2067539998853750799)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@midjourney<span class="source-chip__links"><a href="https://x.com/midjourney/status/2067421950314688759" target="_blank" rel="noopener" aria-label="@midjourney 原文 1">1</a><a href="https://x.com/midjourney/status/2067422898407837797" target="_blank" rel="noopener" aria-label="@midjourney 原文 2">2</a><a href="https://x.com/midjourney/status/2067688872944025975" target="_blank" rel="noopener" aria-label="@midjourney 原文 3">3</a></span></span><a class="source-chip" href="https://x.com/fchollet/status/2067589665830375682" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@fchollet</a><a class="source-chip" href="https://x.com/LinusEkenstam/status/2067539998853750799" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@LinusEkenstam</a></div>
 
 ## 2/12 OpenAI 把 GPT-5.5 Instant 的医疗回答能力推给免费用户
 OpenAI 称 GPT-5.5 Instant 在健康相关问题上已达到 frontier Thinking models 水平，并强调每周有超过 2.3 亿人向 ChatGPT 提出健康与健康管理问题。OpenAI 表示改进来自数百名医生参与评估，覆盖 60 个国家、49 种语言和 26 个专科，重点包括识别需要紧急就医的场景、询问相关背景、解释不确定性、避免过度自信，以及把复杂信息说清楚。因为 GPT-5.5 Instant 面向 ChatGPT 免费用户，这条更新把“医疗 AI 能力”从高端模型 demo 推到大规模消费入口。
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067672740539306261)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067672742426775728)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067672744108724635)
-- [查看 @gdb 原始推文](https://x.com/gdb/status/2067675030335668270)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OpenAI<span class="source-chip__links"><a href="https://x.com/OpenAI/status/2067672740539306261" target="_blank" rel="noopener" aria-label="@OpenAI 原文 1">1</a><a href="https://x.com/OpenAI/status/2067672742426775728" target="_blank" rel="noopener" aria-label="@OpenAI 原文 2">2</a><a href="https://x.com/OpenAI/status/2067672744108724635" target="_blank" rel="noopener" aria-label="@OpenAI 原文 3">3</a></span></span><a class="source-chip" href="https://x.com/gdb/status/2067675030335668270" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@gdb</a></div>
 
 ## 3/12 OpenAI 与 Boston Children's/Harvard 用 o3 Deep Research 重查罕见病病例
 OpenAI 与 Boston Children's Hospital、Harvard 研究者在 NEJM AI 发表研究，称 o3 Deep Research 帮助医生重新分析 376 个过去已做过基因检测和专家审查但仍未解决的儿科罕见病病例，并找到 18 个诊断。推文描述的流程不是让模型直接给出结论，而是把临床特征、遗传模式、变异证据和科学文献连接成可供专家审查的假设，每个结果仍经过人工裁定和临床确认。这个案例显示，长推理模型在医疗里的近期价值更像“专家重分析加速器”，而不是替代医生。
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067625110199247353)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067625111717609504)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067625113193951611)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067625115182120972)
-- [查看 @gdb 原始推文](https://x.com/gdb/status/2067648020934701541)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OpenAI<span class="source-chip__links"><a href="https://x.com/OpenAI/status/2067625110199247353" target="_blank" rel="noopener" aria-label="@OpenAI 原文 1">1</a><a href="https://x.com/OpenAI/status/2067625111717609504" target="_blank" rel="noopener" aria-label="@OpenAI 原文 2">2</a><a href="https://x.com/OpenAI/status/2067625113193951611" target="_blank" rel="noopener" aria-label="@OpenAI 原文 3">3</a><a href="https://x.com/OpenAI/status/2067625115182120972" target="_blank" rel="noopener" aria-label="@OpenAI 原文 4">4</a></span></span><a class="source-chip" href="https://x.com/gdb/status/2067648020934701541" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@gdb</a></div>
 
 ## 4/12 OpenAI 用真实对话 RL 训练“广泛且持久有益”的模型行为
 OpenAI Alignment 发布新研究，用 realistic conversations 中的强化学习训练模型在不同场景中保持 truthfulness、humility under uncertainty、openness to correction、fairness 和 concern for human welfare 等有益行为。OpenAI 称少量训练数据在 53 个独立评估中的 44 个上带来改善，覆盖 deception、reward hacking、安全、健康和心理健康等任务；即使只在健康对话上训练，也出现跨域迁移，并在 adversarial prompts 和 harmful fine-tuning 压力下表现出更强抗性。这是把 alignment 从静态拒答规则推进到“行为特质可迁移性”的一次实验。
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067722688165232654)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067722689515856262)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067722691675824637)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067722693714338044)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067722695270334549)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2067722696759329125)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OpenAI<span class="source-chip__links"><a href="https://x.com/OpenAI/status/2067722688165232654" target="_blank" rel="noopener" aria-label="@OpenAI 原文 1">1</a><a href="https://x.com/OpenAI/status/2067722689515856262" target="_blank" rel="noopener" aria-label="@OpenAI 原文 2">2</a><a href="https://x.com/OpenAI/status/2067722691675824637" target="_blank" rel="noopener" aria-label="@OpenAI 原文 3">3</a><a href="https://x.com/OpenAI/status/2067722693714338044" target="_blank" rel="noopener" aria-label="@OpenAI 原文 4">4</a><a href="https://x.com/OpenAI/status/2067722695270334549" target="_blank" rel="noopener" aria-label="@OpenAI 原文 5">5</a><a href="https://x.com/OpenAI/status/2067722696759329125" target="_blank" rel="noopener" aria-label="@OpenAI 原文 6">6</a></span></span></div>
 
 ## 5/12 Google DeepMind 发布 AI Control Roadmap，聚焦“并非恶意但会误解目标”的 agent 风险
 Google DeepMind 发布 AI Control Roadmap，核心假设不是 agent 总会按人类意图行动，而是要预设 advanced agents 可能误解命令、过度追求目标或在复杂系统里产生意外行为。DeepMind 称其内部数据表明，多数问题不来自恶意，而来自误解或“过于热情”的目标执行，因此需要在多 agent 系统全球扩张前嵌入结构化安全协议。这个路线图把 agent 安全从内容过滤扩展到权限、监控、隔离、审计和运行时控制，更接近企业与内部系统真正需要的治理层。
-- [查看 @GoogleDeepMind 原始推文](https://x.com/GoogleDeepMind/status/2067594863785173257)
-- [查看 @GoogleDeepMind 原始推文](https://x.com/GoogleDeepMind/status/2067594866196877631)
-- [查看 @GoogleDeepMind 原始推文](https://x.com/GoogleDeepMind/status/2067594868180857165)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@GoogleDeepMind<span class="source-chip__links"><a href="https://x.com/GoogleDeepMind/status/2067594863785173257" target="_blank" rel="noopener" aria-label="@GoogleDeepMind 原文 1">1</a><a href="https://x.com/GoogleDeepMind/status/2067594866196877631" target="_blank" rel="noopener" aria-label="@GoogleDeepMind 原文 2">2</a><a href="https://x.com/GoogleDeepMind/status/2067594868180857165" target="_blank" rel="noopener" aria-label="@GoogleDeepMind 原文 3">3</a></span></span></div>
 
 ## 6/12 Anthropic Project Fetch Phase 2 测试 Claude 编程 robodog
 Anthropic Frontier Red Team 发布 Project Fetch Phase 2，测试 Claude 能否在真实机器人任务中编程 robodog。Anthropic 称 Opus 4.7 在没有人类辅助的情况下，在已完成任务上比去年由 Opus 4.1 辅助的最快人类团队快约 20 倍，但 robodog 最终仍未能成功取回 beach ball。这个结果的价值在于它同时展示了进步和边界：模型可快速生成和调试复杂机器人控制代码，但物理世界的感知、执行、误差累积和任务闭环仍让“会写代码的 agent”距离可靠具身智能有明显距离。
-- [查看 @AnthropicAI 原始推文](https://x.com/AnthropicAI/status/2067651699486200091)
-- [查看 @AnthropicAI 原始推文](https://x.com/AnthropicAI/status/2067651700757086553)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AnthropicAI<span class="source-chip__links"><a href="https://x.com/AnthropicAI/status/2067651699486200091" target="_blank" rel="noopener" aria-label="@AnthropicAI 原文 1">1</a><a href="https://x.com/AnthropicAI/status/2067651700757086553" target="_blank" rel="noopener" aria-label="@AnthropicAI 原文 2">2</a></span></span></div>
 
 ## 7/12 Perplexity Brain 给 Computer 加入持续学习的任务记忆图
 Perplexity 发布 Brain in Computer，称 Brain 是一个 continuously learning memory system，每次 Computer 任务都会接入由 Brain 构建的 context graph，让桌面 agent 不再每次从零开始。Perplexity 表示，在需要历史上下文的任务中，Brain 使回答正确率提升 25%、召回率提升 16%，并让单任务成本降低 13%；同时每条记忆都会回链到 session、file 或 source，保留透明度和控制权。这个更新把 desktop agent 的竞争焦点推向持久记忆、项目级上下文和可审计来源，而不是单次浏览器操作。
-- [查看 @perplexity_ai 原始推文](https://x.com/perplexity_ai/status/2067642139014742348)
-- [查看 @perplexity_ai 原始推文](https://x.com/perplexity_ai/status/2067642159793406112)
-- [查看 @perplexity_ai 原始推文](https://x.com/perplexity_ai/status/2067642173538152645)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@perplexity_ai<span class="source-chip__links"><a href="https://x.com/perplexity_ai/status/2067642139014742348" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 1">1</a><a href="https://x.com/perplexity_ai/status/2067642159793406112" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 2">2</a><a href="https://x.com/perplexity_ai/status/2067642173538152645" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 3">3</a></span></span></div>
 
 ## 8/12 Cursor /automate 让 coding agent 自己配置定时任务和触发器
 Cursor 发布 Automations 更新，新增 `/automate` skill：用户用自然语言描述任务，Cursor 负责配置 trigger、instructions 和 tools。Cursor 还加入 Slack emoji trigger，用户可以对 Slack 消息加反应来启动运行；GitHub triggers 覆盖 issues、reviews 和 workflow runs；cloud agents 增加 computer use。这个方向说明 coding agent 正从“在 IDE 里执行当前请求”走向“常驻工作流代理”：它能被 Slack、GitHub、定时器或事件触发，理解上下文并持续执行软件团队的重复性事务。
-- [查看 @cursor_ai 原始推文](https://x.com/cursor_ai/status/2067683814516858962)
-- [查看 @cursor_ai 原始推文](https://x.com/cursor_ai/status/2067683817113137173)
-- [查看 @cursor_ai 原始推文](https://x.com/cursor_ai/status/2067683818488930393)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cursor_ai<span class="source-chip__links"><a href="https://x.com/cursor_ai/status/2067683814516858962" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 1">1</a><a href="https://x.com/cursor_ai/status/2067683817113137173" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 2">2</a><a href="https://x.com/cursor_ai/status/2067683818488930393" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 3">3</a></span></span></div>
 
 ## 9/12 Kimi Work Goal Mode 强调 24/7 长周期桌面 agent
 Moonshot 发布 Kimi Work 的 Goal Mode，定位为让 desktop agent 24/7 持续运行直到任务完成，面向 long-horizon tasks 和 complex multi-step workflows。与 Cursor Automations、Perplexity Brain 和 Replit Slack 集成同日出现，这条更新说明桌面/工作流 agent 的叙事正在从“打开网页完成一步操作”转向长时段、多步骤、可恢复、可记忆的任务执行。真正的竞争点会变成任务状态管理、失败恢复、权限边界、成本控制、用户可监督性，以及 agent 能否在跨应用环境中保持上下文一致。
-- [查看 @Kimi_Moonshot 原始推文](https://x.com/Kimi_Moonshot/status/2067574786965061677)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/Kimi_Moonshot/status/2067574786965061677" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@Kimi_Moonshot</a></div>
 
 ## 10/12 Databricks Agent Bricks 接入 Grok，企业数据 agent 继续多模型化
 xAI 宣布 Grok models 已可在 Databricks Agent Bricks 上使用，目标是把 Grok 接到企业数据上构建 agent。Databricks 同日继续总结 Data + AI Summit 的 agentic data foundation：Lakehouse//RT、Lakebase、Vector Search、LTAP、Genie Ontology、Unity AI Gateway、OpenSharing、Omnigent OSS、Agent Bricks、Genie One/Code/Agents 等能力。对企业来说，重点不是某一个模型，而是模型、数据、权限、语义层、工具和审计能否放进同一个治理平面。Grok 接入 Databricks 进一步说明企业 agent 平台会天然支持多模型供应商。
-- [查看 @xai 原始推文](https://x.com/xai/status/2067638691275907084)
-- [查看 @databricks 原始推文](https://x.com/databricks/status/2067616060824531205)
-- [查看 @databricks 原始推文](https://x.com/databricks/status/2067698929639035060)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/xai/status/2067638691275907084" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@xai</a><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@databricks<span class="source-chip__links"><a href="https://x.com/databricks/status/2067616060824531205" target="_blank" rel="noopener" aria-label="@databricks 原文 1">1</a><a href="https://x.com/databricks/status/2067698929639035060" target="_blank" rel="noopener" aria-label="@databricks 原文 2">2</a></span></span></div>
 
 ## 11/12 Cohere North Mini Code 扩展到 4-bit、Ollama 和 OpenRouter
 Cohere 发布 North Mini Code 的三项可用性更新：4-bit quant 版本已开放，让其首个开源 agentic coding model 小到可以在 Mac 上运行；模型支持 Ollama，可与 Codex、OpenClaw 等本地工作流结合；同时可通过 OpenRouter API 免费使用。这个发布不是单纯模型分数更新，而是把开源 coding model 推到本地、低成本和多入口分发。结合 GLM-5.2、DeepSeek 和 Kimi 的开放模型讨论，agentic coding 的开放生态正在围绕成本、延迟、可部署性和工具兼容性快速迭代。
-- [查看 @cohere 原始推文](https://x.com/cohere/status/2067671125073576382)
-- [查看 @cohere 原始推文](https://x.com/cohere/status/2067671126176563330)
-- [查看 @cohere 原始推文](https://x.com/cohere/status/2067671127904698498)
-- [查看 @cohere 原始推文](https://x.com/cohere/status/2067671131251712316)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cohere<span class="source-chip__links"><a href="https://x.com/cohere/status/2067671125073576382" target="_blank" rel="noopener" aria-label="@cohere 原文 1">1</a><a href="https://x.com/cohere/status/2067671126176563330" target="_blank" rel="noopener" aria-label="@cohere 原文 2">2</a><a href="https://x.com/cohere/status/2067671127904698498" target="_blank" rel="noopener" aria-label="@cohere 原文 3">3</a><a href="https://x.com/cohere/status/2067671131251712316" target="_blank" rel="noopener" aria-label="@cohere 原文 4">4</a></span></span></div>
 
 ## 12/12 GLM-5.2 与开放权重讨论把模型竞争拉回成本和可替换性
 Together AI 上线 GLM-5.2，称其面向 long-horizon agent workloads，支持 1M context、flexible thinking effort、更强 coding，并用 IndexShare 将 1M context 下每 token FLOPs 降低 2.9 倍。Clement Delangue 转发多条对 GLM-5.2 性价比的评价，并强调“Open weights are now our default”；Ethan Mollick 则提出开放权重 frontier model 的商业模式疑问。今天的开放模型讨论焦点已经不是“有没有接近闭源模型”，而是成本 per task、长上下文、agent loop 稳定性、推理速度、部署主权和供应商可替换性。
-- [查看 @togethercompute 原始推文](https://x.com/togethercompute/status/2067435704313930234)
-- [查看 @togethercompute 原始推文](https://x.com/togethercompute/status/2067435707086287066)
-- [查看 @togethercompute 原始推文](https://x.com/togethercompute/status/2067435708256571497)
-- [查看 @ClementDelangue 原始推文](https://x.com/ClementDelangue/status/2067690103451918721)
-- [查看 @ClementDelangue 原始推文](https://x.com/ClementDelangue/status/2067768150612193390)
-- [查看 @emollick 原始推文](https://x.com/emollick/status/2067669551685218638)
-- [查看 @emollick 原始推文](https://x.com/emollick/status/2067670308937437542)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@togethercompute<span class="source-chip__links"><a href="https://x.com/togethercompute/status/2067435704313930234" target="_blank" rel="noopener" aria-label="@togethercompute 原文 1">1</a><a href="https://x.com/togethercompute/status/2067435707086287066" target="_blank" rel="noopener" aria-label="@togethercompute 原文 2">2</a><a href="https://x.com/togethercompute/status/2067435708256571497" target="_blank" rel="noopener" aria-label="@togethercompute 原文 3">3</a></span></span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@ClementDelangue<span class="source-chip__links"><a href="https://x.com/ClementDelangue/status/2067690103451918721" target="_blank" rel="noopener" aria-label="@ClementDelangue 原文 1">1</a><a href="https://x.com/ClementDelangue/status/2067768150612193390" target="_blank" rel="noopener" aria-label="@ClementDelangue 原文 2">2</a></span></span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick<span class="source-chip__links"><a href="https://x.com/emollick/status/2067669551685218638" target="_blank" rel="noopener" aria-label="@emollick 原文 1">1</a><a href="https://x.com/emollick/status/2067670308937437542" target="_blank" rel="noopener" aria-label="@emollick 原文 2">2</a></span></span></div>
 
 ---
 

@@ -19,83 +19,78 @@ header-img: img/dark_yellow_400.png
 
 ## 1/15 OpenAI 推出 GPT-5.5 Instant 并升级记忆个性化
 OpenAI 宣布 GPT-5.5 Instant 开始在 ChatGPT 中滚动成为默认模型，并以 `gpt-5.5-chat-latest` 提供 API。官方称新模型更简洁、语气更自然，在图像上传分析、STEM 问答和判断何时使用 web search 上更强；内部评测中，高风险医学、法律、金融提示的幻觉声明比 GPT-5.3 Instant 少 52.5%。同一轮更新还加强记忆和个性化：ChatGPT 可使用保存记忆、历史对话、文件和已连接 Gmail，并显示使用了哪些记忆来源。
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2051709028250915275)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2051709030117290481)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2051709033414025647)
-- [查看 @OpenAI 原始推文](https://x.com/OpenAI/status/2051709035347694047)
-- [查看 @sama 原始推文](https://x.com/sama/status/2051716909629153573)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OpenAI<span class="source-chip__links"><a href="https://x.com/OpenAI/status/2051709028250915275" target="_blank" rel="noopener" aria-label="@OpenAI 原文 1">1</a><a href="https://x.com/OpenAI/status/2051709030117290481" target="_blank" rel="noopener" aria-label="@OpenAI 原文 2">2</a><a href="https://x.com/OpenAI/status/2051709033414025647" target="_blank" rel="noopener" aria-label="@OpenAI 原文 3">3</a><a href="https://x.com/OpenAI/status/2051709035347694047" target="_blank" rel="noopener" aria-label="@OpenAI 原文 4">4</a></span></span><a class="source-chip" href="https://x.com/sama/status/2051716909629153573" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@sama</a></div>
 
 ## 2/15 Anthropic 用 Model Spec Midtraining 改善对齐泛化
 Anthropic Fellows 发布 Model Spec Midtraining（MSM）研究，提出在预训练和 alignment fine-tuning 之间加入一段训练，让模型先学习 Model Spec 或 Constitution 的内容和背后理由，再用行为示例教模型执行。研究称，MSM 可让相同 fine-tuning 数据在不同 spec 下泛化出不同价值取向；在 agentic misalignment 评测中，MSM + AFT 把 Qwen2.5-32B 的不当行为率从 68% 降到 5%，Qwen3-32B 从 54% 降到 7%。
-- [查看 @AnthropicAI 原始推文](https://x.com/AnthropicAI/status/2051758528562364902)
-- [查看 @AnthropicAI 原始推文](https://x.com/AnthropicAI/status/2051758530051358747)
-- [查看 @AnthropicAI 原始推文](https://x.com/AnthropicAI/status/2051758536271581418)
-- [查看 @AnthropicAI 原始推文](https://x.com/AnthropicAI/status/2051758544999927943)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AnthropicAI<span class="source-chip__links"><a href="https://x.com/AnthropicAI/status/2051758528562364902" target="_blank" rel="noopener" aria-label="@AnthropicAI 原文 1">1</a><a href="https://x.com/AnthropicAI/status/2051758530051358747" target="_blank" rel="noopener" aria-label="@AnthropicAI 原文 2">2</a><a href="https://x.com/AnthropicAI/status/2051758536271581418" target="_blank" rel="noopener" aria-label="@AnthropicAI 原文 3">3</a><a href="https://x.com/AnthropicAI/status/2051758544999927943" target="_blank" rel="noopener" aria-label="@AnthropicAI 原文 4">4</a></span></span></div>
 
 ## 3/15 xAI 发布 Grok 4.3 API，主打长上下文和低价
 xAI 宣布 Grok 4.3 上线 API，称其是 xAI 迄今最快、最智能的模型，在 Artificial Analysis 的 agentic tool calling 与 instruction following 榜单居前，并在 Vals AI 的 case law、corporate finance 等企业领域排名第一。推文给出的产品参数是 100 万 token 上下文窗口，价格为每百万输入 token 1.25 美元、输出 token 2.50 美元。这个定位把 Grok 4.3 放在高上下文、低单位价格的 frontier API 竞争线上。
-- [查看 @xai 原始推文](https://x.com/xai/status/2051703217697010103)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/xai/status/2051703217697010103" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@xai</a></div>
 
 ## 4/15 Luma Uni-1.1 API 把视觉模型包装成生产接口
 Luma 宣布 Uni-1.1 API 上线，强调模型可理解 brief、审美语境和多种垂直场景，而不只是生成单张图。官方页面列出 generate 与 modify 两个端点、Python/JavaScript SDK、最多 9 个 reference、全画幅和多输出格式支持，并提供 pay-as-you-go 与 provisioned throughput 两种计费。Luma 推文还称 Uni-1.1 在 Image Arena 的 text-to-image 和 image edit 中进入前列，目标用户从创作者转向需要把图像生成嵌入生产流程的团队。
-- [查看 @LumaLabsAI 原始推文](https://x.com/LumaLabsAI/status/2051687594119799098)
-- [查看 @LumaLabsAI 原始推文](https://x.com/LumaLabsAI/status/2051775586910273667)
-- [查看 @LumaLabsAI 原始推文](https://x.com/LumaLabsAI/status/2051814412793860102)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@LumaLabsAI<span class="source-chip__links"><a href="https://x.com/LumaLabsAI/status/2051687594119799098" target="_blank" rel="noopener" aria-label="@LumaLabsAI 原文 1">1</a><a href="https://x.com/LumaLabsAI/status/2051775586910273667" target="_blank" rel="noopener" aria-label="@LumaLabsAI 原文 2">2</a><a href="https://x.com/LumaLabsAI/status/2051814412793860102" target="_blank" rel="noopener" aria-label="@LumaLabsAI 原文 3">3</a></span></span></div>
 
 ## 5/15 Perplexity Computer 同日扩展金融和健康数据源
 Perplexity 发布两组垂直数据能力：Professional Finance 让团队把 Morningstar、PitchBook、Daloopa、Carbon Arc 等许可数据接入 Computer，并新增 35 个金融分析工作流；健康侧则接入 NEJM、BMJ Group，并称还有 9 个医学期刊和临床数据库即将加入。推文强调输出可追溯到 SEC 文件、财报电话会、市场数据页或许可数据源，适合需要引用可审计来源的分析场景。
-- [查看 @perplexity_ai 原始推文](https://x.com/perplexity_ai/status/2051693893473935372)
-- [查看 @perplexity_ai 原始推文](https://x.com/perplexity_ai/status/2051698428288090213)
-- [查看 @perplexity_ai 原始推文](https://x.com/perplexity_ai/status/2051710342242480538)
-- [查看 @perplexity_ai 原始推文](https://x.com/perplexity_ai/status/2051710354343051469)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@perplexity_ai<span class="source-chip__links"><a href="https://x.com/perplexity_ai/status/2051693893473935372" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 1">1</a><a href="https://x.com/perplexity_ai/status/2051698428288090213" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 2">2</a><a href="https://x.com/perplexity_ai/status/2051710342242480538" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 3">3</a><a href="https://x.com/perplexity_ai/status/2051710354343051469" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 4">4</a></span></span></div>
 
 ## 6/15 Microsoft 把 Copilot Cowork 推向移动端、skills 和 plugins
 Satya Nadella 转发 Microsoft Work Trend Index，称企业需要在 agentic systems 下重新构想工作，把 AI 执行能力转化为人的 agency。Microsoft 365 团队同时发布 Copilot Cowork 更新：Cowork 登陆 iOS 和 Android，可在移动端委派任务；Skills 用可复用指令沉淀流程、语气和结构；plugins 让 Cowork 跨业务系统运行。这个方向把 Copilot 从问答助手推进到可执行工作流的云端 coworker。
-- [查看 @satyanadella 原始推文](https://x.com/satyanadella/status/2051712533174931707)
-- [查看 @satyanadella 原始推文](https://x.com/satyanadella/status/2051712534638637234)
-- [查看 @satyanadella 原始推文](https://x.com/satyanadella/status/2051787232043020719)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@satyanadella<span class="source-chip__links"><a href="https://x.com/satyanadella/status/2051712533174931707" target="_blank" rel="noopener" aria-label="@satyanadella 原文 1">1</a><a href="https://x.com/satyanadella/status/2051712534638637234" target="_blank" rel="noopener" aria-label="@satyanadella 原文 2">2</a><a href="https://x.com/satyanadella/status/2051787232043020719" target="_blank" rel="noopener" aria-label="@satyanadella 原文 3">3</a></span></span></div>
 
 ## 7/15 Cursor 推出自动修复 CI 失败的 always-on agent
 Cursor 官方宣布可以自动修复 CI failures：用户设置 always-on agents 监控 GitHub，在检查失败后调查根因并提交修复 PR。配套 marketplace template 面向 CI investigation，说明 Cursor 正把 agentic coding 从交互式 IDE 会话扩展到后台工程自动化。与普通代码助手相比，这类功能的关键变化是触发源来自持续集成事件，输出是持久分支或 PR，而不是一次性聊天建议。
-- [查看 @cursor_ai 原始推文](https://x.com/cursor_ai/status/2051739625958584659)
-- [查看 @cursor_ai 原始推文](https://x.com/cursor_ai/status/2051739627233628519)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cursor_ai<span class="source-chip__links"><a href="https://x.com/cursor_ai/status/2051739625958584659" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 1">1</a><a href="https://x.com/cursor_ai/status/2051739627233628519" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 2">2</a></span></span></div>
 
 ## 8/15 Tencent CubeSandbox 开源 60ms agent 执行沙箱
 AlphaSignalAI 转述 Tencent Cloud 开源 CubeSandbox：一个面向 AI agent 代码执行的自托管沙箱服务。项目 README 称其基于 RustVMM 和 KVM，可在 60ms 内创建具备完整服务能力的硬件隔离环境，每实例内存开销低于 5MB；安全上使用专用 guest OS kernel、KVM microVM 和 eBPF 网络隔离，避免共享内核容器逃逸风险。它还兼容 E2B SDK，理论上替换一个 API URL 即可迁移。
-- [查看 @AlphaSignalAI 原始推文](https://x.com/AlphaSignalAI/status/2051995994326249940)
-- [查看 @AlphaSignalAI 原始推文](https://x.com/AlphaSignalAI/status/2051995995269968074)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AlphaSignalAI<span class="source-chip__links"><a href="https://x.com/AlphaSignalAI/status/2051995994326249940" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 1">1</a><a href="https://x.com/AlphaSignalAI/status/2051995995269968074" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 2">2</a></span></span></div>
 
 ## 9/15 AgentFlow 用自动合成 harness 找到 Chrome 零日
 AlphaSignalAI 介绍 AgentFlow 论文：系统自动设计多 agent 漏洞挖掘 harness，而不是手写固定角色和协作协议。论文称 AgentFlow 的 typed graph DSL 可搜索 agent 角色、prompt、工具、通信拓扑和协调协议，并用目标程序运行时信号诊断失败再改写 harness。作者报告，在 Chrome 上配合 Kimi K2.5 发现 10 个此前未知的零日，其中包括 2 个 Critical sandbox escape；在 TerminalBench-2 上使用 Claude Opus 4.6 达到 84.3%。
-- [查看 @AlphaSignalAI 原始推文](https://x.com/AlphaSignalAI/status/2051678863902527916)
-- [查看 @AlphaSignalAI 原始推文](https://x.com/AlphaSignalAI/status/2051678865479635267)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AlphaSignalAI<span class="source-chip__links"><a href="https://x.com/AlphaSignalAI/status/2051678863902527916" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 1">1</a><a href="https://x.com/AlphaSignalAI/status/2051678865479635267" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 2">2</a></span></span></div>
 
 ## 10/15 NVIDIA 把 Vera Rubin 定位为 agentic workload 平台
 NVIDIA AI 发布 Vera Rubin agentic systems 技术博客，称 agent 工作负载把 token 消耗、上下文长度和延迟推到极端区域。推文强调，Vera Rubin 平台通过硬件和软件 extreme co-design 支持复杂 agentic workloads，在 trillion-parameter MoE 模型上可实现每用户 400+ tokens/sec。这个叙事把 AI 基础设施竞争从训练峰值算力进一步转向长上下文、低延迟、多步推理和每瓦 token 产出。
-- [查看 @NVIDIAAI 原始推文](https://x.com/NVIDIAAI/status/2051693422587605104)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/NVIDIAAI/status/2051693422587605104" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@NVIDIAAI</a></div>
 
 ## 11/15 Together AI 强调生产 AI 的主要成本在 inference
 Together AI 发布 inference at scale 文章，称生产 AI 系统生命周期成本中 80-90% 来自持续 inference，而不是一次性训练。文章把问题拆成延迟、吞吐、模型快速变化和高并发调度，并介绍其在 Blackwell 硬件上的系统栈：FlashAttention/ThunderKittens、Aurora adaptive speculative decoding、NVFP4 量化、72-GPU mesh 并行和动态调度。推文还提到，AI-native 团队在生产系统上常把性能和利润空间留在桌面上。
-- [查看 @togethercompute 原始推文](https://x.com/togethercompute/status/2051689626708983904)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/togethercompute/status/2051689626708983904" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@togethercompute</a></div>
 
 ## 12/15 Databricks 把 Genie Code 定位为 agentic data engineering 标准
 Databricks 发文称多数 agentic AI 仍是 demoware，但数据工作和 coding 是明确例外，并把 Genie Code + Spark Declarative Pipelines 作为 agentic data engineering 的 harness。相关材料显示，Genie Code 在 Lakeflow Pipelines 中可用 Agent mode 规划、生成、运行和修复 pipeline，并结合日志、依赖和候选修复调查失败。Databricks 还强调，这类 agent 要在生产数据环境采用，仍需 sandboxing、guardrails、source control、review、testing 和 CI/CD。
-- [查看 @databricks 原始推文](https://x.com/databricks/status/2051683930223325228)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/databricks/status/2051683930223325228" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@databricks</a></div>
 
 ## 13/15 Gemini API File Search 增加多模态 RAG 能力
 Google 的 Logan Kilpatrick 发布 Gemini API File Search 更新：工具现在支持多模态，由 Gemini Embedding 2 驱动，并加入 custom metadata 与 inline citations；存储和查询时 embedding generation 免费。Google 官方博客说明，File Search 可同时处理图像和文本，使 agents 能在混合文档、图片、PDF 里做检索和 grounding。Logan 同日还提到 AI Studio Vibe Coding edit mode，可选择组件、在 UI 上标注并用 Nano Banana 修改图片资产。
-- [查看 @OfficialLoganK 原始推文](https://x.com/OfficialLoganK/status/2051728186824904743)
-- [查看 @OfficialLoganK 原始推文](https://x.com/OfficialLoganK/status/2051698665652412919)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OfficialLoganK<span class="source-chip__links"><a href="https://x.com/OfficialLoganK/status/2051728186824904743" target="_blank" rel="noopener" aria-label="@OfficialLoganK 原文 1">1</a><a href="https://x.com/OfficialLoganK/status/2051698665652412919" target="_blank" rel="noopener" aria-label="@OfficialLoganK 原文 2">2</a></span></span></div>
 
 ## 14/15 Andrew Ng 给 coding agents 的加速边界排序
 Andrew Ng 讨论 coding agents 对不同软件工作的加速程度，按从高到低列为 frontend、backend、infrastructure、research。他认为前端开发受益最大，因为模型熟悉 TypeScript、JavaScript、React、Angular 等常见栈，并可通过浏览器观察结果完成迭代；backend 更需要人类处理边界条件、安全和下游状态问题；infrastructure 和 research 则因复杂 tradeoff、实验设计和专业判断，短期加速较有限。这个框架为团队如何设定 AI coding 预期提供了务实分层。
-- [查看 @AndrewYNg 原始推文](https://x.com/AndrewYNg/status/2051691741150081122)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/AndrewYNg/status/2051691741150081122" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AndrewYNg</a></div>
 
 ## 15/15 Agent observability 讨论转向反馈闭环
 LangChain 创始人 Harrison Chase 当天多条推文强调，仅有 traces 不等于 agent improvement loop；要让 agent observability 产生改进，需要收集或生成反馈数据，包括用户 thumbs up/down、代码建议接受率、LLM-as-judge 和简单程序信号。这个观点与 AgentFlow、Databricks Genie Code、Cursor CI autofix 等当天话题相互呼应：agent 产品的竞争点正在从“能跑工具”转向 trace、feedback、harness 和自动修复闭环。
-- [查看 @hwchase17 原始推文](https://x.com/hwchase17/status/2051769056068509729)
-- [查看 @hwchase17 原始推文](https://x.com/hwchase17/status/2051745420557303913)
-- [查看 @hwchase17 原始推文](https://x.com/hwchase17/status/2051792238456496499)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@hwchase17<span class="source-chip__links"><a href="https://x.com/hwchase17/status/2051769056068509729" target="_blank" rel="noopener" aria-label="@hwchase17 原文 1">1</a><a href="https://x.com/hwchase17/status/2051745420557303913" target="_blank" rel="noopener" aria-label="@hwchase17 原文 2">2</a><a href="https://x.com/hwchase17/status/2051792238456496499" target="_blank" rel="noopener" aria-label="@hwchase17 原文 3">3</a></span></span></div>
 
 ---
 

@@ -19,68 +19,63 @@ header-img: img/dark_yellow_400.png
 
 ## 1/12 Sakana AI 正式推出首个商用产品 Sakana Marlin
 Sakana AI 宣布正式提供 Sakana Marlin，这是其首个商用产品，定位为面向企业的自律型研究助手。Marlin 可围绕用户给定主题进行最长约 8 小时的自主调研，输出结构化摘要幻灯片和数十页报告，目标是承担 CSO 与小团队通常需要数周完成的战略研究。Sakana 称该产品建立在长期推理、AB-MCTS 多模型协同搜索和 AI Scientist 工作流自动化经验之上，并提供 pay-per-use、Pro、Team、Enterprise 等计划。这个发布把 Sakana 从研究 lab 推向垂直企业 agent 市场。
-- [查看 @SakanaAILabs 原始推文](https://x.com/SakanaAILabs/status/2066352122183168004)
-- [查看 @SakanaAILabs 原始推文](https://x.com/SakanaAILabs/status/2066352348977676629)
-- [查看 @hardmaru 原始推文](https://x.com/hardmaru/status/2066352426899423560)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@SakanaAILabs<span class="source-chip__links"><a href="https://x.com/SakanaAILabs/status/2066352122183168004" target="_blank" rel="noopener" aria-label="@SakanaAILabs 原文 1">1</a><a href="https://x.com/SakanaAILabs/status/2066352348977676629" target="_blank" rel="noopener" aria-label="@SakanaAILabs 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/hardmaru/status/2066352426899423560" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@hardmaru</a></div>
 
 ## 2/12 Together AI 把 DeepSeek V4 Pro 推到 Artificial Analysis 速度榜前列
 Together AI 称 DeepSeek V4 Pro 在其平台上成为 Artificial Analysis 输出速度和延迟双项第一，并把核心原因归结为推理系统工程，而不只是模型权重。官方 thread 指出，服务 V4 需要处理 KV cache、prefix reuse、kernels 和 endpoint profiles；后续回应也强调“speed”指单请求输出速度，而 throughput 是并发请求下的整体 tokens per minute。这个事件说明长上下文开源/开放模型的竞争正在转向 serving stack：谁能更好地管理 cache layout、batching 和硬件路径，谁就能把模型能力变成可用 agent 体验。
-- [查看 @togethercompute 原始推文](https://x.com/togethercompute/status/2066204867954114908)
-- [查看 @togethercompute 原始推文](https://x.com/togethercompute/status/2066270296722788391)
-- [查看 @togethercompute 原始推文](https://x.com/togethercompute/status/2066268034143322563)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@togethercompute<span class="source-chip__links"><a href="https://x.com/togethercompute/status/2066204867954114908" target="_blank" rel="noopener" aria-label="@togethercompute 原文 1">1</a><a href="https://x.com/togethercompute/status/2066270296722788391" target="_blank" rel="noopener" aria-label="@togethercompute 原文 2">2</a><a href="https://x.com/togethercompute/status/2066268034143322563" target="_blank" rel="noopener" aria-label="@togethercompute 原文 3">3</a></span></span></div>
 
 ## 3/12 Satya Nadella 提出企业 AI 的核心是学习循环，不是单一模型
 Satya Nadella 发布长文，称 AI 时代企业竞争力来自 human capital 与 token capital 的共同复利，而不是押注某个 frontier model。swyx 摘录的核心观点是，企业第一次可以在人和数字系统之间建立 real cognitive loop；任务甚至岗位可以被外包，但学习不能被外包。Mustafa Suleyman 也转发称这是 Microsoft AI 对平台转型的总结。这个论述把企业 AI 架构重点从“选哪个模型”转到“如何拥有可持续学习的 agentic system”，包括知识轨迹、评价机制、IP 控制和可替换底层模型。
-- [查看 @satyanadella 原始推文](https://x.com/satyanadella/status/2066182223213293753)
-- [查看 @swyx 原始推文](https://x.com/swyx/status/2066235625695850526)
-- [查看 @mustafasuleyman 原始推文](https://x.com/mustafasuleyman/status/2066232431305216500)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/satyanadella/status/2066182223213293753" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@satyanadella</a><a class="source-chip" href="https://x.com/swyx/status/2066235625695850526" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@swyx</a><a class="source-chip" href="https://x.com/mustafasuleyman/status/2066232431305216500" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@mustafasuleyman</a></div>
 
 ## 4/12 Databricks Data + AI Summit 今日开幕，企业 agent 与 lakehouse 更新进入发布窗口
 Databricks 多条推文提醒 Data + AI Summit 今日在旧金山和线上开幕，官方称今年会议包含 30,000+ attendees、800+ sessions、keynotes、meetups 和 training。官网议程把主题集中在 data-intelligent apps、agentic AI systems、governance、open lakehouse、AI/BI 和应用开发，speaker list 包括 Ali Ghodsi、Satya Nadella、Greg Brockman、NVIDIA、Replit、LangChain、Anthropic 等。今天的 tweet 本身是会前通知，但它预示本周会有一批企业 AI 基础设施发布，尤其是 agent、数据治理、lakehouse 和实时应用方向。
-- [查看 @databricks 原始推文](https://x.com/databricks/status/2066216688438136938)
-- [查看 @databricks 原始推文](https://x.com/databricks/status/2066271989195538871)
-- [查看 @databricks 原始推文](https://x.com/databricks/status/2066257041417801971)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@databricks<span class="source-chip__links"><a href="https://x.com/databricks/status/2066216688438136938" target="_blank" rel="noopener" aria-label="@databricks 原文 1">1</a><a href="https://x.com/databricks/status/2066271989195538871" target="_blank" rel="noopener" aria-label="@databricks 原文 2">2</a><a href="https://x.com/databricks/status/2066257041417801971" target="_blank" rel="noopener" aria-label="@databricks 原文 3">3</a></span></span></div>
 
 ## 5/12 Cohere 继续把 North Mini Code 包装成“sovereign developer”路线
 Cohere 转发联合创始人 Nick Frosst 对 proprietary LLM subscriptions 的警示，并强调 North Mini Code 的发布理由是让技术由使用者拥有和控制。North Mini Code 是 Cohere 首个开发者模型，30B total、3B active MoE，Apache 2.0，面向 agentic coding、terminal tasks 和软件工程 workflow，可通过 Hugging Face、Cohere API、Model Vault、OpenRouter 使用。这个传播把开源 coding model 与企业主权 AI 联系起来：本地或自托管不仅是成本选项，也被 Cohere 定义为避免被单一模型服务商锁定的架构选择。
-- [查看 @cohere 原始推文](https://x.com/cohere/status/2066250674497606072)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/cohere/status/2066250674497606072" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cohere</a></div>
 
 ## 6/12 Agent-Native Research Artifacts 讨论把“论文”改造成可执行研究包
 AlphaSignalAI 总结 Stanford、CMU 等机构的 Agent-Native Research Artifacts 论文，称传统论文把研究过程压成线性故事，会丢掉失败实验、实现细节和原始证据，导致 AI agent 难以复现和扩展。论文提出把研究成果改造成包含 claims、可执行代码、dead ends log 和 raw results 的 machine-executable artifact。作者报告 PaperBench/RE-Bench 上问答准确率从 72.4% 到 93.7%，复现成功率从 57.4% 到 64.4%。这是 AI for science 工作流的基础设施问题：未来研究对象可能首先是给 agent 执行的 package，其次才是给人阅读的 narrative。
-- [查看 @AlphaSignalAI 原始推文](https://x.com/AlphaSignalAI/status/2066174111299076250)
-- [查看 @AlphaSignalAI 原始推文](https://x.com/AlphaSignalAI/status/2066174112976773617)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AlphaSignalAI<span class="source-chip__links"><a href="https://x.com/AlphaSignalAI/status/2066174111299076250" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 1">1</a><a href="https://x.com/AlphaSignalAI/status/2066174112976773617" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 2">2</a></span></span></div>
 
 ## 7/12 LeCun 团队给 LeJEPA 学到 world model 的条件做理论刻画
 AlphaSignalAI 还总结 Yann LeCun 参与的新论文《When Does LeJEPA Learn a World Model?》。论文研究 JEPA-style 表示何时能从非线性观测中恢复世界真实 hidden variables，结论是在 stationary additive-noise transition 的一类世界中，LeJEPA 的 alignment 加 Gaussian regularization 可以线性恢复 latent variables，且 Gaussian 是该保证成立的唯一分布。作者还展示该表示可支持 latent-space planning，并用从 2D 到 1024 维、pixel-based robotic control 的实验验证。这个方向重要在于，它把 world model 从经验 benchmark 推向“何时真的学到世界结构”的可证明问题。
-- [查看 @AlphaSignalAI 原始推文](https://x.com/AlphaSignalAI/status/2066128751637696959)
-- [查看 @AlphaSignalAI 原始推文](https://x.com/AlphaSignalAI/status/2066128753361645890)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AlphaSignalAI<span class="source-chip__links"><a href="https://x.com/AlphaSignalAI/status/2066128751637696959" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 1">1</a><a href="https://x.com/AlphaSignalAI/status/2066128753361645890" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 2">2</a></span></span></div>
 
 ## 8/12 开源 agentic coding 讨论转向专职团队、真实任务和成本基准
 Bindu Reddy 表示在“closed source drama”之后会创建一个 10 persona 的开源工程团队，专门推进 agentic coding、改进 LiveBench 以反映真实使用和成本，并每周围绕开源模型发布 agentic launch。他还提到会组合 DeepSeek、Kimi 和 Gamma 解决真实任务。虽然这不是官方产品发布，但它反映社区对闭源 frontier agent 的依赖焦虑：开源路线不再只讨论模型参数和榜单，而是需要专门团队、任务 harness、成本指标和持续迭代节奏来追赶 coding agent 体验。
-- [查看 @bindureddy 原始推文](https://x.com/bindureddy/status/2066195303498477848)
-- [查看 @bindureddy 原始推文](https://x.com/bindureddy/status/2066091588040970382)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@bindureddy<span class="source-chip__links"><a href="https://x.com/bindureddy/status/2066195303498477848" target="_blank" rel="noopener" aria-label="@bindureddy 原文 1">1</a><a href="https://x.com/bindureddy/status/2066091588040970382" target="_blank" rel="noopener" aria-label="@bindureddy 原文 2">2</a></span></span></div>
 
 ## 9/12 Fchollet 将近期开源和企业 AI 讨论归结为“领域软件所有者会拥有 AI for X”
 François Chollet 连发两条观点，称近端 AI 与过去技术浪潮本质上相似，是最新形式的 digital leverage；没有方向的 force multiplier 只是 noise，真正价值仍需要人在每个层级参与。他进一步提出，如果一家公司已经拥有“software for X”，它也很可能拥有“AI for X”，因为它具备将 AI 转化为领域价值所需的 domain expertise 和 human capital。这个判断与 Nadella 的 learning loop 观点相互呼应：AI 的商业护城河不只是模型，而是组织是否掌握特定领域 workflow、数据、判断和反馈循环。
-- [查看 @fchollet 原始推文](https://x.com/fchollet/status/2066232539820208212)
-- [查看 @fchollet 原始推文](https://x.com/fchollet/status/2066233044235669765)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@fchollet<span class="source-chip__links"><a href="https://x.com/fchollet/status/2066232539820208212" target="_blank" rel="noopener" aria-label="@fchollet 原文 1">1</a><a href="https://x.com/fchollet/status/2066233044235669765" target="_blank" rel="noopener" aria-label="@fchollet 原文 2">2</a></span></span></div>
 
 ## 10/12 xAI Grok Build 增加终端内 LaTeX / 数学公式渲染
 xAI 转发 Grok Build 更新，称其现在可以在终端中原生渲染 math、formulas 和 LaTeX。单看功能很小，但它指向 coding agent 产品的一个现实痛点：开发者和研究者在终端里处理论文、数学推导、benchmark、配置和错误信息时，经常需要模型保留结构化符号而不是压成纯文本。随着 Grok Build 近期围绕插件、工具和 terminal workflow 扩展，数学渲染属于把 agent terminal 从“文本命令行”改造成更丰富工作台的一部分，特别适合科研、数据和模型工程场景。
-- [查看 @xai 原始推文](https://x.com/xai/status/2066241656526176477)
-- [查看 @elonmusk 原始推文](https://x.com/elonmusk/status/2066276807263801537)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/xai/status/2066241656526176477" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@xai</a><a class="source-chip" href="https://x.com/elonmusk/status/2066276807263801537" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@elonmusk</a></div>
 
 ## 11/12 NVIDIA Nemotron 3 Ultra 继续获得社区实验反馈
 NVIDIA AI 转发 Two Minute Papers 对 Nemotron 3 Ultra 的实验反馈，并回应称该模型在一些案例中体现出合适的 hack sweet spot。虽然这条 thread 缺少完整官方 technical note，但它说明 NVIDIA 正继续围绕 Nemotron 系列做社区验证和传播：不是只发布模型规格，而是鼓励外部研究者和内容创作者跑实际实验，观察速度、质量、可用性和边界。对企业用户来说，这类反馈会影响是否把 Nemotron 作为本地/私有部署、agent backbone 或推理服务候选。
-- [查看 @NVIDIAAI 原始推文](https://x.com/NVIDIAAI/status/2066218007278596589)
-- [查看 @NVIDIAAI 原始推文](https://x.com/NVIDIAAI/status/2066218242822242412)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@NVIDIAAI<span class="source-chip__links"><a href="https://x.com/NVIDIAAI/status/2066218007278596589" target="_blank" rel="noopener" aria-label="@NVIDIAAI 原文 1">1</a><a href="https://x.com/NVIDIAAI/status/2066218242822242412" target="_blank" rel="noopener" aria-label="@NVIDIAAI 原文 2">2</a></span></span></div>
 
 ## 12/12 AI 政策与模型访问争议继续放大，焦点转向“谁控制可用模型”
 Gary Marcus、Yann LeCun、Clement Delangue、Bindu Reddy 等账号围绕 Anthropic、模型限制和开放权重继续争论。LeCun 转发对“walled AI gardens”的批评，并重申自己并非否定 LLM usefulness，而是认为仅靠规模化 LLM 不能达到 human-level intelligence；Clement Delangue 表示自己不支持限制发布，即使是 proprietary APIs；Bindu Reddy 则从政府管制风险和中国开源模型进展角度讨论美国 AI 生态。今日这些讨论没有单一事实发布，但共同指向一个问题：frontier model access 正成为商业、国家、开源社区和安全政策之间的核心冲突点。
-- [查看 @ylecun 原始推文](https://x.com/ylecun/status/2066219726695522540)
-- [查看 @ylecun 原始推文](https://x.com/ylecun/status/2066218118976770511)
-- [查看 @ClementDelangue 原始推文](https://x.com/ClementDelangue/status/2066217474320715834)
-- [查看 @bindureddy 原始推文](https://x.com/bindureddy/status/2066143392422408689)
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@ylecun<span class="source-chip__links"><a href="https://x.com/ylecun/status/2066219726695522540" target="_blank" rel="noopener" aria-label="@ylecun 原文 1">1</a><a href="https://x.com/ylecun/status/2066218118976770511" target="_blank" rel="noopener" aria-label="@ylecun 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/ClementDelangue/status/2066217474320715834" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@ClementDelangue</a><a class="source-chip" href="https://x.com/bindureddy/status/2066143392422408689" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@bindureddy</a></div>
 
 ---
 

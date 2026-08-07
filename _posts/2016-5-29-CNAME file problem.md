@@ -2,7 +2,7 @@
 layout: post
 title: CNAME file problem
 date: 2016-5-29
-categories: blog
+categories: [ideas]
 tags: [Github]
 description: Page build warning
 ---

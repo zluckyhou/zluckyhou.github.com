@@ -1,41 +1,55 @@
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="{{ site.baseurl }}/about/">About</a>
-                </li>
-                <li>
-                    <a href="{{ site.baseurl }}/">Articles</a>
-                </li>
-                <li>
-                    <a href="{{ site.baseurl }}/history/">History</a>
-                </li>
-                <li>
-                    <a href="{{ site.baseurl }}/tags/">Tags</a>
-                </li>
-                
-                <!--                 {% for page in site.pages %}{% if page.title %}
-                    <li>
-                        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                    </li>
-                {% endif %}{% endfor %} -->
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+{% assign latest_daily = site.categories['ai-daily'] | first %}
+{% if page.url == '/' and latest_daily %}
+<div class="site-ticker">
+    <div class="editorial-shell site-ticker__inner">
+        <a href="{{ latest_daily.url | prepend: site.baseurl }}">
+            <strong>Latest</strong>
+            AI Frontier Daily · {{ latest_daily.date | date: "%Y.%m.%d" }} 已更新
+        </a>
+        <span>Shanghai · UTC+8 · Independent Notes</span>
     </div>
-    <!-- /.container -->
+</div>
+{% endif %}
+
+<nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="{{ site.baseurl }}/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="{{ site.baseurl }}/"{% if page.url == '/' %} aria-current="page"{% endif %}>首页</a>
+            <a href="{{ site.baseurl }}/ai-daily/"{% if page.url contains '/ai-daily' or page.categories contains 'ai-daily' %} aria-current="page"{% endif %}>AI 日报</a>
+            <a href="{{ site.baseurl }}/reddit-daily/"{% if page.url contains '/reddit-daily' or page.categories contains 'reddit' %} aria-current="page"{% endif %}>Reddit 精选</a>
+            <a href="{{ site.baseurl }}/company-research/"{% if page.url contains '/company-research' or page.categories contains 'company-research' %} aria-current="page"{% endif %}>公司观察</a>
+            <a href="{{ site.baseurl }}/articles/"{% if page.url contains '/articles' or page.categories contains 'ideas' %} aria-current="page"{% endif %}>文章</a>
+            <a href="{{ site.baseurl }}/about/"{% if page.url contains '/about' %} aria-current="page"{% endif %}>关于</a>
+        </div>
+
+        {% if latest_daily %}
+        <a class="editorial-nav__cta" href="{{ latest_daily.url | prepend: site.baseurl }}">READ TODAY'S ISSUE ↗</a>
+        {% else %}
+        <a class="editorial-nav__cta" href="{{ site.baseurl }}/ai-daily/">AI FRONTIER DAILY ↗</a>
+        {% endif %}
+    </div>
 </nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>

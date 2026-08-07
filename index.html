@@ -1,47 +1,106 @@
 ---
-layout: page
-title: "Articles"
-description: "分享学习、AI、互联网，以及一切有趣的东西！"
+layout: default
+title: "首页"
+description: "每天筛选值得关注的 AI 信号；用财报、产品与数据，持续记录技术如何改变商业和人的选择。"
 ---
 
-<div style="max-width: 800px; margin: 0 auto; font-family: Arial, sans-serif;">
-    <!-- <h1 style="color: #1EB2A6; text-align: center;">文章列表</h1> -->
-    <!-- <p style="text-align: center; color: #666; margin-bottom: 30px;">{{ page.description }}</p> -->
+{% assign latest_daily = site.categories['ai-daily'] | first %}
+{% assign finance_posts = site.categories['company-research'] %}
+{% assign idea_posts = site.categories['ideas'] %}
 
-    {% for post in paginator.posts %}
-    <div class="post-preview" style="margin-bottom: 30px;">
-        <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: none; color: inherit;">
-            <h2 class="post-title" style="color: #1EB2A6; margin-bottom: 10px;">            
-                {{ post.title }}
-            </h2>
-            {% if post.subtitle %}
-            <h3 class="post-subtitle" style="color: #666; font-size: 18px; margin-top: 0;">
-                {{ post.subtitle }}
-            </h3>
-            {% endif %}
-            <div class="post-content-preview" style="color: #333; margin-top: 15px;">
-                {{ post.content | strip_html | truncate:150 }}
+<main class="editorial-home" id="top">
+    <section class="editorial-hero">
+        <div class="editorial-shell editorial-hero__grid">
+            <div class="editorial-hero__copy">
+                <p class="editorial-eyebrow">产品 · 数据 · AI</p>
+                <h1>读懂 AI 进展，<br>也看公司<em>真实增长</em></h1>
+                <p class="editorial-hero__note">每天筛选值得关注的 AI 信号；用财报、产品与数据，持续记录技术如何改变商业和人的选择。</p>
             </div>
-        </a>
-        <p class="post-meta" style="color: #999; font-size: 14px; margin-top: 10px;">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-    </div>
+            <aside class="editorial-manifesto">
+                <span>EDITOR'S NOTE / 001</span>
+                <p>这里不追逐所有热点。日报负责速度，公司观察负责深度，长期文章负责留下判断。</p>
+            </aside>
+        </div>
+    </section>
 
-    <hr style="border: none; height: 1px; background-color: #eee; margin: 30px 0;">
-    {% endfor %}
+    {% if latest_daily %}
+    <section class="editorial-shell daily-lead" aria-labelledby="daily-lead-title">
+        <aside class="daily-lead__rail">
+            <p class="editorial-section-label">Today's issue</p>
+            <div class="daily-lead__number" aria-hidden="true">{{ latest_daily.date | date: "%d" }}</div>
+            <div class="daily-lead__stats">
+                <div>
+                    <strong>{{ latest_daily.issue_count | default: "—" }}</strong>
+                    <span>今日主线</span>
+                </div>
+                <div>
+                    <strong>{{ latest_daily.deep_dive_count | default: "—" }}</strong>
+                    <span>Deep Dives</span>
+                </div>
+            </div>
+        </aside>
 
-    <!-- Pager -->
-    {% if paginator.total_pages > 1 %}
-    <ul class="pager" style="list-style-type: none; padding: 0; text-align: center;">
-        {% if paginator.previous_page %}
-        <li class="previous" style="display: inline-block; margin-right: 10px;">
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" style="color: #1EB2A6; text-decoration: none;">&larr; Newer Posts</a>
-        </li>
-        {% endif %}
-        {% if paginator.next_page %}
-        <li class="next" style="display: inline-block;">
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" style="color: #1EB2A6; text-decoration: none;">Older Posts &rarr;</a>
-        </li>
-        {% endif %}
-    </ul>
+        <article class="daily-lead__story">
+            <div class="editorial-meta">
+                <span class="editorial-pill">AI Frontier Daily</span>
+                <span>{{ latest_daily.date | date: "%Y.%m.%d" }}</span>
+                {% if latest_daily.reading_time %}<span>约 {{ latest_daily.reading_time }} 分钟</span>{% endif %}
+            </div>
+            <h2 id="daily-lead-title"><a href="{{ latest_daily.url | prepend: site.baseurl }}">{{ latest_daily.headline | default: latest_daily.title }}</a></h2>
+            <p>{{ latest_daily.summary | default: latest_daily.description | default: latest_daily.excerpt | strip_html | truncate: 260 }}</p>
+            <div class="daily-lead__footer">
+                <div class="daily-lead__signals">{{ latest_daily.signals | default: latest_daily.tags | join: " · " }}</div>
+                <a class="editorial-read-link" href="{{ latest_daily.url | prepend: site.baseurl }}">读今日完整日报</a>
+            </div>
+        </article>
+    </section>
     {% endif %}
-</div>
+
+    <section class="editorial-content-section editorial-shell" id="company-research">
+        <header class="editorial-section-head">
+            <div>
+                <p class="editorial-section-label">Company intelligence / 01</p>
+                <h2>公司观察</h2>
+            </div>
+            <a href="{{ site.baseurl }}/company-research/">浏览全部财报分析 ↗</a>
+        </header>
+
+        <div class="finance-grid">
+            {% for post in finance_posts limit: 3 %}
+            <article class="finance-card{% if forloop.first %} finance-card--featured{% endif %}">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <div class="finance-card__topic">
+                        <span>{{ post.company | default: post.tags.first }}{% if post.period %} · {{ post.period }}{% endif %}</span>
+                        <span>{{ post.date | date: "%Y.%m.%d" }}</span>
+                    </div>
+                    <h3>{{ post.title }}</h3>
+                    <p>{{ post.description | default: post.excerpt | strip_html | truncate: 115 }}</p>
+                    {% if post.metric %}<span class="finance-card__metric">{{ post.metric }}</span>{% endif %}
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="ideas-section" id="ideas">
+        <div class="editorial-shell">
+            <header class="editorial-section-head">
+                <div>
+                    <p class="editorial-section-label">Ideas & practice / 02</p>
+                    <h2>思考与实践</h2>
+                </div>
+                <a href="{{ site.baseurl }}/articles/">查看文章归档 ↗</a>
+            </header>
+
+            <div class="ideas-list">
+                {% for post in idea_posts limit: 4 %}
+                <a class="idea-row" href="{{ post.url | prepend: site.baseurl }}">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+                    <h3>{{ post.title }}</h3>
+                    <span>{{ post.tags | slice: 0, 2 | join: " · " }}</span>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</main>

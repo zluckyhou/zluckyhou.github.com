@@ -2,7 +2,7 @@
 layout: post
 title: Adobe CEO Shantanu - The world is your oyster, follow your passion.
 date: 2024-7-27
-categories: blog
+categories: [ideas]
 tags: [AI,Adobe,NBIM]
 description: 标题中这句话是Adobe CEO在与挪威主权财富基金CEO Nicolai Tangen的对话播客中提到的，他认为年轻人做事应该源于热情，而不是出于对职业生涯的考虑，做自己不喜欢的事。这篇播客还谈到了很多话题，包括Adobe的业务，对AI、deepfakes的看法，美国大公司中印度CEO的领导力，航海，对年轻人的建议，等等。很多对话都富有启发性。
 keywords: AI, Norges Bank Investment Management, In good company, Adobe

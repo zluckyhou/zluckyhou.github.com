@@ -2,7 +2,10 @@
 layout: post
 title: 携程集团2024年Q3财报 - 营收159亿元同比增16%，净利润达68亿元创新高
 date: 2024-11-21
-categories: blog
+categories: [company-research]
+company: Trip.com
+period: 2024 Q3
+metric: "Revenue · ¥15.9B · YoY +16%"
 tags: [Trip.com, 大公司数据观察,携程]
 description: 11月19日，携程集团发布的2024年第三季度财报显示，公司实现了强劲的财务表现，国际业务全面复苏，出境酒店和机票预订已恢复至疫情前的120%水平。期内，公司实现净营业收入159亿元人民币，净利润达68亿元人民币，展现出良好的增长势头和盈利能力。
 keywords:  Trip.com, 旅行,携程,携程财报,公司财报,旅游

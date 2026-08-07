@@ -2,7 +2,7 @@
 layout: post
 title: 股价暴涨22%，一文读懂特斯拉2024Q3财报
 date: 2024-10-25
-categories: blog
+categories: [company-research]
 tags: [特斯拉,tesla, 大公司数据观察]
 description: 深度解析特斯拉2024年第三季度财报，探讨导致股价暴涨22%的核心因素。文章全面覆盖收入、盈利、现金流等关键财务指标，并深入分析电动车、能源存储等业务线表现。同时，重点关注成本控制、AI技术进展、Cybertruck等战略重点，为投资者和行业观察者提供全面的特斯拉业务洞察。
 keywords: Tesla, Cybertruck, 特斯拉, 财报

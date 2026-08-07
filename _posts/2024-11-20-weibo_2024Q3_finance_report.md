@@ -2,7 +2,10 @@
 layout: post
 title: 微博2024年第三季度财报 - 净利润同比增长69%至1.31亿美元，增值服务收入大涨25%
 date: 2024-11-20
-categories: blog
+categories: [company-research]
+company: Weibo
+period: 2024 Q3
+metric: "Net income · YoY +69%"
 tags: [微博,大公司数据观察]
 description: 11月19日，微博公布的2024年第三季度财报显示，公司整体业务呈现稳健发展态势。得益于奥运会带动的广告需求以及会员服务的显著提升，公司实现总营收4.645亿美元，同比增长5%；净利润1.306亿美元，同比大幅增长69%。
 keywords: 微博,weibo,微博财报,新浪微博,财报,大公司数据观察

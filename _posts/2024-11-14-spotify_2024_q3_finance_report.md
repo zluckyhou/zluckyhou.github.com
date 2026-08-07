@@ -2,7 +2,7 @@
 layout: post
 title: Spotify 2024年Q3财报 - 营收同比增19%，运营利润创4.54亿欧元新高
 date: 2024-11-14
-categories: blog
+categories: [company-research]
 tags: [大公司数据观察,spotify]
 description: 11月12日，Spotify发布了2024年Q3财报，财报显示，Spotify在第三季度实现了强劲的业绩表现。收入和用户增长保持双位数增长，其中总收入同比增长19%达39.88亿欧元，月活用户增长11%达6.4亿，Premium订阅用户增长12%达2.52亿。公司运营效率显著提升，毛利率达31.1%创历史新高，运营利润达4.54亿欧元。
 keywords: spotify,spotify财报,spotify finance report, 流媒体流媒体, apple music，苹果音乐

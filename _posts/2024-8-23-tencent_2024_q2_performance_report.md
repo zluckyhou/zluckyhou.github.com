@@ -2,7 +2,7 @@
 layout: post
 title: 腾讯2024Q2业绩——视频号会是新的增长引擎吗?
 date: 2024-8-23
-categories: blog
+categories: [company-research]
 tags: [大公司数据观察,腾讯,视频号]
 description: 深入解析腾讯2024 Q2财报，揭示微信、视频号、腾讯视频、腾讯音乐、游戏、小程序等产品的最新表现，探索腾讯在多个领域的增长动能和未来趋势。
 keywords: 腾讯2024 Q2财报,腾讯业绩分析,视频号增长,腾讯小程序,庆余年第二季,与风行,腾讯音乐,王者荣耀,地下城与勇士：起源,火影忍者,PUBG MOBILE

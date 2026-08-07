@@ -2,7 +2,7 @@
 layout: post
 title: Python 操作MySql
 date: 2017-06-09
-categories: blog
+categories: [ideas]
 tags: [python]
 description: python 操作mysql
 ---

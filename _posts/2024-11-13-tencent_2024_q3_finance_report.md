@@ -2,7 +2,7 @@
 layout: post
 title: 腾讯控股2024年Q3财报 - 小程序季度交易额超2万亿元，同比增长十几个百分点
 date: 2024-11-13
-categories: blog
+categories: [company-research]
 tags: [大公司数据观察,腾讯]
 description: 今天（11月13日）腾讯发布了2024年第三季度业绩报告，报告显示，公司整体经营状况稳健向好。财务方面，总收入同比增长8%至1,672亿元，净利润同比增长47%，现金流持续改善。各业务板块中，增值服务和营销服务表现突出，分别同比增长9%和17%，而金融科技及企业服务维持小幅增长。
 keywords: 腾讯,腾讯 财报,tencent finance report, tencent,微信,微信小程序,QQ,视频号

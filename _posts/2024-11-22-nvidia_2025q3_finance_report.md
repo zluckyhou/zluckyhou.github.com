@@ -2,7 +2,10 @@
 layout: post
 title: 英伟达2025财年Q3财报：营收351亿美元创纪录，数据中心收入同比增长112%
 date: 2024-11-22
-categories: blog
+categories: [company-research]
+company: NVIDIA
+period: FY2025 Q3
+metric: "Revenue · $35.1B · YoY +94%"
 tags: [英伟达,大公司数据观察]
 description: 11月20日，当前全世界最亮眼的公司——英伟达发布[2025财年第三季度财报](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2025)，财报显示，公司实现创纪录季度营收351亿美元，其中数据中心业务收入达308亿美元，展现出强劲的增长势头。
 keywords: 英伟达,英伟达财报,Nvidia,nvidia 财报,nvidia finance report,财报,finance report,海外大公司,大公司数据观察

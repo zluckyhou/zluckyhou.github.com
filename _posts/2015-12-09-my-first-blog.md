@@ -2,7 +2,7 @@
 layout: post
 title: My First Blog
 date: 2015-12-09
-categories: blog
+categories: [ideas]
 tags: [随笔]
 description: 第一个博客 ，第一篇随笔 ，虽然很简单 ，却还是很激动 。 
 ---

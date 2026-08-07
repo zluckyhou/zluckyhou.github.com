@@ -2,7 +2,7 @@
 layout: post
 title: 皮克斯CEO - 建筑是用来交流的
 date: 2024-11-23
-categories: blog
+categories: [ideas]
 tags: [皮克斯,乔布斯]
 description: 最近在看Nicolai对皮克斯CEO Ed Catmull 的采访，其中提到了Ed Catmull写的一本书《Creativity, Inc.》，于是顺手翻了下，书的开头提到了皮克斯大楼的设计理念（出自乔布斯），它的核心是鼓励人们沟通，这一点让我觉得非常有趣。（本文最后附上了这一段原文，感兴趣的可以查看）
 keywords: 皮克斯,乔布斯,史蒂夫·乔布斯,steve jobs, pixar,pixar building, pixar steve jobs building 

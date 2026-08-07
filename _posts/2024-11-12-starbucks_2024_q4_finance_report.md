@@ -2,7 +2,7 @@
 layout: post
 title: 星巴克2024财年Q4财报 - 全球客流量下降8%，EPS同比降25%
 date: 2024-11-12
-categories: blog
+categories: [company-research]
 tags: [大公司数据观察,星巴克]
 description: 星巴克于10月30日发布了2024财年第四季度和全年业绩报告，报告显示公司面临重要转折期。财务表现方面，第四季度合并净收入同比下降3%至91亿美元，全年收入小幅增长1%至362亿美元。公司在全球主要市场均面临增长压力，北美和国际市场的可比店铺销售额分别下降6%和9%，其中中国市场下降尤为明显，达14%。
 keywords: 星巴克,星巴克 财报,starbucks finance report, starbucks

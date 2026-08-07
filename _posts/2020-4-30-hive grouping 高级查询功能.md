@@ -2,7 +2,7 @@
 layout: post
 title: hive grouping 高级查询功能
 date: 2020-4-30
-categories: blog
+categories: [ideas]
 tags: [SQL]
 description: hive grouping sets with cube
 ---

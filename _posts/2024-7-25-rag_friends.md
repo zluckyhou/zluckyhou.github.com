@@ -2,7 +2,7 @@
 layout: post
 title: RAG实践——老友记学英语
 date: 2024-7-25
-categories: blog
+categories: [ideas]
 tags: [AI,RAG,LLM,ChatGPT]
 description: 我用RAG构建了一个利用老友记学英语的应用，通过数据清洗和整理，对Document,question,document split, vector store等细节进行优化，实现了不错的效果。RAG还有很多方向的应用，例如AI客服、AI解读（很多电商详情页已经有了问AI这个功能）、AI搜索，但是底层逻辑都是类似的，核心都在于如何有效地检索相关信息并将其与大语言模型结合。无论是哪种应用场景，关键都在于构建高质量的知识库、设计合适的检索策略，以及优化提示工程以生成准确而有用的回答！
 keywords: NativeSpeaker,English,Friends,Learn English, AI,RAG,LLM,ChatGPT,Retrieval-Augmented Generation (RAG),llamaindex,langchain

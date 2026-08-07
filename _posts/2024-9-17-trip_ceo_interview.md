@@ -2,7 +2,7 @@
 layout: post
 title: Trip.com CEO 谈招聘——诚信、实干、好奇心与乐观精神
 date: 2024-9-17
-categories: blog
+categories: [ideas]
 tags: [Trip.com, 招聘, NBIM, In Good Company]
 description: 探索Trip.com CEO Jane Sun分享的招聘内幕，了解顶级互联网公司看重的4大员工特质：诚信、实干、好奇心和乐观精神。文章还揭示了一个巧妙的面试问题，帮助求职者在竞争激烈的职场中脱颖而出。无论你是正在求职还是想提升职场竞争力，这篇文章都将为你提供宝贵的洞察。
 keywords: NBIM, Trip.com, 招聘, 旅行,

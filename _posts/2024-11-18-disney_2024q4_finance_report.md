@@ -2,7 +2,7 @@
 layout: post
 title: 迪士尼2024财年Q4财报 - 流媒体实现3.21亿美元运营利润，娱乐板块收入增长14%
 date: 2024-11-18
-categories: blog
+categories: [company-research]
 tags: [互联网,大公司数据观察,迪士尼]
 description: 11月14日，迪士尼发布2024财年第四季度和全年业绩报告。公司整体财务表现稳健，Q4收入同比增长6%至226亿美元，全年收入增长3%至914亿美元。每股收益大幅提升，Q4同比增长79%，全年增长超过一倍。
 keywords: disney, disney finance report, 迪士尼,迪士尼财报,disney+, hulu,ESPN,disney+ hotstar, finance report,财报

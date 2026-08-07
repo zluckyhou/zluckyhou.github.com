@@ -2,7 +2,7 @@
 layout: post
 title: AI 时代的核心能力——正确提问
 date: 2024-9-10
-categories: blog
+categories: [ideas]
 tags: [AI,思考]
 description: 了解在AI时代提出好问题的重要性。探索如何通过Prompt engineering最大化AI效果，这一技能与产品经理的角色如出一辙，并学习OpenAI提出的六个优化AI输出的关键策略。
 keywords: AI时代, Prompt engineering, AI产品经理, 提出好问题, OpenAI策略, AI应用, AI思维, 编写清晰指令, AI辅助开发

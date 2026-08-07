@@ -20,7 +20,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.0
+        ruby-version: 3.3
 
     - name: Install compatible Bundler version
       run: |
@@ -31,6 +31,9 @@ jobs:
         bundle _2.4.22_ install
 
     - name: Build site
+      env:
+        LANG: C.UTF-8
+        LC_ALL: C.UTF-8
       run: bundle _2.4.22_ exec jekyll build
 
     - name: Deploy to gh-pages

@@ -1,0 +1,93 @@
+---
+layout: daily
+title: "AI Frontier Daily | 2026.04.13"
+headline: "Project Glasswing：Anthropic 联合 40+ 科技巨头发起 AI 网络安全防御计划"
+date: 2026-04-13 09:07:00 +0800
+permalink: /ai-daily/2026/04/13/
+categories: [ai-daily]
+tags: [AI-Frontier, Daily]
+description: "Anthropic 于 4 月 7 日发布 Project Glasswing，联合 AWS、Apple、Google、Microsoft、NVIDIA、CrowdStrike 等 40 余家机构，以 Claude Mythos Preview 为核心技术，目标是在攻击者利用前批量识别和修复关键基础设施中的零日漏洞。Anthropic 承诺提供最高 1 亿美元模型使用额度，并向开源安全团队捐款 400 万美元。Claude Mythos Preview 是 Anthropic 的前沿模型，在识别软件漏洞方面展示出显著提升的能力，此举被视为防御性 AI 安全领域的重要里程碑。"
+summary: "Anthropic 于 4 月 7 日发布 Project Glasswing，联合 AWS、Apple、Google、Microsoft、NVIDIA、CrowdStrike 等 40 余家机构，以 Claude Mythos Preview 为核心技术，目标是在攻击者利用前批量识别和修复关键基础设施中的零日漏洞。Anthropic 承诺提供最高 1 亿美元模型使用额度，并向开源安全团队捐款 400 万美元。Claude Mythos Preview 是 Anthropic 的前沿模型，在识别软件漏洞方面展示出显著提升的能力，此举被视为防御性 AI 安全领域的重要里程碑。"
+issue_count: 14
+deep_dive_count: 3
+reading_time: 11
+cover: "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+signals: "emollick · ylecun · ClementDelangue · hwchase17 · AlphaSignalAI · bindureddy · huggingface · databricks"
+header-img: img/dark_yellow_400.png
+---
+
+
+## 1/14 Project Glasswing：Anthropic 联合 40+ 科技巨头发起 AI 网络安全防御计划
+Anthropic 于 4 月 7 日发布 Project Glasswing，联合 AWS、Apple、Google、Microsoft、NVIDIA、CrowdStrike 等 40 余家机构，以 Claude Mythos Preview 为核心技术，目标是在攻击者利用前批量识别和修复关键基础设施中的零日漏洞。Anthropic 承诺提供最高 1 亿美元模型使用额度，并向开源安全团队捐款 400 万美元。Claude Mythos Preview 是 Anthropic 的前沿模型，在识别软件漏洞方面展示出显著提升的能力，此举被视为防御性 AI 安全领域的重要里程碑。
+https://www.anthropic.com/glasswing
+
+## 2/14 Claude Mythos 能力之争：突破性安全工具还是营销噱头？
+Project Glasswing 发布后，业内对 Claude Mythos "发现数千个严重零日漏洞"的声明爆发激烈争论。Wharton 教授 Ethan Mollick 认为争议令人困惑：任何用过最新 agentic coding 工具的人都不会把这类能力突破当成营销炒作，Mythos 只是跨越了网络安全实用性的门槛，并不需要什么"魔法式跃升"。而 Yann LeCun 等人则转发批评文章，将相关声明定性为"销售话术"，OthersideAI CEO Matt Shumer 也出现在 Fox News，就强大 AI 模型带来的安全风险发出警告。
+- [查看 @emollick 原始推文](https://x.com/emollick/status/2043516250081407422)
+- [查看 @ylecun 原始推文](https://x.com/ylecun/status/2043329377350361270)
+
+## 3/14 MiniMax M2.7 正式开源，SWE-Pro 成绩 56.22%
+MiniMax 宣布 M2.7 模型正式开源，在软件工程基准 SWE-Pro 上取得 56.22% 的成绩，位居开源模型前列。Hugging Face CEO Clément Delangue 第一时间转发，给予关注。MiniMax M2.7 加入近期愈发活跃的开源模型阵营，提供与闭源前沿模型竞争的代码能力。
+- [查看 @ClementDelangue 原始推文](https://x.com/ClementDelangue/status/2043355978737795489)
+
+## 4/14 emollick：Meta Muse Spark 首秀超预期，但与顶级三强仍有差距
+Ethan Mollick 指出，Meta 在 Llama 4 后沉寂逾一年、此前毫无动静，新推出的 Muse Spark 作为首次尝试表现远超预期，但与当前"大三"顶级模型相比仍有差距。Mollick 还观察到 AI 社区仍在争论给 LLM 喂哪些 Markdown 文件（skills、memory、tool instructions）顺序最优，认为这种现象本身就折射出 AI 交互范式的演变。
+- [查看 @emollick 原始推文](https://x.com/emollick/status/2043209068890763334)
+
+## 5/14 Harrison Chase：Agent Harness 正成为 AI 构建的核心抽象层
+LangChain 创始人 Harrison Chase 发起大规模讨论，核心观点是：对 AI Agent 而言，最重要的抽象层不是模型，而是 harness（执行框架）。Harness 负责编排工具、记忆和提示词，而记忆层将成为平台锁定的主要手段——模型提供商真正想要争夺的是用户数据和对话历史，而非模型本身。"Harness 工程 > 提示词工程"的论断引发大量转发和讨论，多位开发者表示这正在成为 AI 产品构建的新共识。
+- [查看 @hwchase17 原始推文](https://x.com/hwchase17/status/2043502624943562907)
+
+## 6/14 GoClaw：OpenClaw 的 Go 语言重写，内存占用骤降 40 倍
+开发者用 Go 重写了 AI Agent 协作平台 OpenClaw，新版本命名为 GoClaw，内存占用较原版降低 40 倍，单一静态二进制仅约 25MB，启动时间不足 1 秒，可部署在 5 美元 VPS 上。GoClaw 提供 8 阶段 Agent 流水线、三层记忆系统（工作/情节/语义）、支持 20+ LLM 提供商和 7 个通讯渠道，内置提示词注入检测和 SSRF 防护，同时提供 macOS/Windows 本地桌面应用 GoClaw Lite。AlphaSignal AI 将其列为近期值得关注的高星开源项目。
+https://github.com/nextlevelbuilder/goclaw
+- [查看 @AlphaSignalAI 原始推文](https://x.com/AlphaSignalAI/status/2043343622787973232)
+
+## 7/14 MemPalace：本地开源 AI 记忆宫殿，LongMemEval 召回率 96.6%
+MemPalace 是一个完全离线运行的开源 AI 记忆系统，采用"宫殿结构"（翼-房间-大厅）组织对话记忆，在 22,000+ 真实记忆的测试集上比平铺搜索召回率高出 34%，LongMemEval R@5 达到 96.6%。系统基于 ChromaDB 原始存储（不做摘要/压缩），全年成本约 10 美元，远低于 LLM 摘要方案的 507 美元。支持 Claude、ChatGPT 及本地模型，通过 MCP 或 Claude Code 插件自动集成，无需云端依赖。
+https://github.com/milla-jovovich/mempalace
+- [查看 @AlphaSignalAI 原始推文](https://x.com/AlphaSignalAI/status/2043298285608186311)
+
+## 8/14 Prithvi Bindureddy：未来一周将迎大规模模型发布潮
+AI 投资人 Bindure Reddy 发布预告：未来一周将有大量新模型密集发布，各 LLM 厂商将争相抢占关注度。此消息结合 MiniMax M2.7 开源、Meta Muse Spark 上线等近期动态，预示 AI 模型竞争正进入新的密集冲刺期。
+- [查看 @bindureddy 原始推文](https://x.com/bindureddy/status/2043451471128334703)
+
+## 9/14 HuggingFace：NVFP4 与 MXFP8 量化格式在图像/视频生成模型上取得加速突破
+HuggingFace 转发研究成果：团队深入研究了 NVFP4 和 MXFP8 两种新量化格式在现代 flow 模型（图像生成与视频生成方向）上的加速规律，发现在特定条件下可显著提升推理速度。此研究对 FLUX、SD3 等主流图像生成模型的部署优化具有直接参考价值，有助于降低高质量生成模型的推理成本。
+- [查看 @huggingface 原始推文](https://x.com/huggingface/status/2043329120894087175)
+
+## 10/14 Databricks Genie Code：一句提示词生成完整数据管道
+Databricks 演示 Genie Code 的全流程能力：输入单一自然语言提示词，自动完成数据摄取、管道构建与转换的全部工作，并可持续监控和管理生成的管道。此能力将数据工程的准入门槛大幅降低，Data+AI Summit 2026 将于 6 月 15-18 日举行，届时将有 800+ 场次的实战案例分享。
+- [查看 @databricks 原始推文](https://x.com/databricks/status/2043347246607966312)
+
+## 11/14 Waymo 公布安全数据：自动驾驶正在切实减少伤亡
+Waymo 发布了量化安全数据，显示其自动驾驶技术已在实际运营中减少了伤亡事故。Ethan Mollick 转发并指出：如果这些数据属实，延迟部署 Waymo 实际上是在害人而非保护人，这代表着自动驾驶安全争议的关键转折点——从"技术是否安全"转向"不部署是否反而更危险"。
+- [查看 @emollick 原始推文](https://x.com/emollick/status/2043368790050607371)
+
+## 12/14 Terence Tao：提出智能的"哥白尼视角"，反对一维线性排名
+数学家 Terence Tao 发表新论述，提出对智能的"哥白尼视角"（Copernican View of Intelligence）：人类并不位于智能光谱的顶端，智能本身也不是一维线性的。反对用单一排行榜将 AI 能力简化为一个数字的做法，主张从多维度理解不同实体的认知能力。Yann LeCun 表示认同并转发，视此为对 AI 能力评估方法论的重要补充。
+- [查看 @ylecun 原始推文](https://x.com/ylecun/status/2043380976999370875)
+
+## 13/14 LumaLabsAI：上传参考图，将任意空间重塑为目标场景
+Luma Labs 发布新功能演示：用户只需上传参考图并设定方向，即可将任意空间或场景转化为目标风格的视觉内容，"让环境本身成为故事的组成部分"。此功能在视觉一致性和可控性方面展现出较强能力，适用于影视制作、游戏场景、虚拟空间设计等场景。
+- [查看 @LumaLabsAI 原始推文](https://x.com/LumaLabsAI/status/2043432137433764259)
+
+## 14/14 AI Engineer World's Fair 落幕：最 AGI 坚定者的年度聚会
+AI Engineer World's Fair 会议正式落幕，主办人 swyx 及多位参会者发帖回顾。本届会议被描述为"世界上 AGI 信仰最坚定的人群的聚会"，演讲与走廊对话并重，Black Forest Labs（FLUX 团队）等嘉宾分享了最新模型构建思路，WorkOS 团队演示了 Hermes bot 完成任务的完整流程。会议期间 swyx 还在深夜完成了阔别 18 年的百老汇独唱，成为社交媒体热议话题。
+- [查看 @swyx 原始推文](https://x.com/swyx/status/2043443125537193985)
+
+---
+
+## Deep Dive 附录
+
+### Project Glasswing：AI 助力防御性网络安全
+Anthropic 于 2026 年 4 月 7 日宣布 Project Glasswing，核心是利用 Claude Mythos Preview 为参与机构提供漏洞检测能力。参与方包括 AWS、Apple、Google、Microsoft、NVIDIA、CrowdStrike、Cisco、Broadcom、JPMorganChase、Linux Foundation、Palo Alto Networks 等 40+ 组织。Anthropic 承诺提供最高 1 亿美元模型使用额度及 400 万美元开源安全捐款。该计划的核心争议在于：Claude Mythos Preview 宣称能"发现数千个严重零日漏洞"，批评者认为是营销话术，支持者（包括 Mollick）认为能力是真实的阈值突破。
+[查看原文](https://www.anthropic.com/glasswing)
+
+### GoClaw：生产级 Go AI Agent 平台
+GoClaw 是 OpenClaw 的 Go 语言重写版本，内存占用降低 40 倍，单一静态二进制 ~25MB，启动 <1 秒。核心能力：8 阶段 Agent 流水线（context→history→prompt→thinking→action→observation→memory→summarization）、三层记忆系统（工作/情节/语义）、支持 20+ LLM 提供商和 7 个通讯渠道（Telegram/Discord/Slack/Zalo/飞书/WhatsApp/WebSocket）。提供 macOS/Windows 桌面应用 GoClaw Lite（SQLite，最多 5 Agent）。内置 5 层权限系统、速率限制、提示词注入检测、SSRF 防护。许可证：CC BY-NC 4.0。
+[查看原文](https://github.com/nextlevelbuilder/goclaw)
+
+### MemPalace：仿人脑结构的本地 AI 记忆系统
+MemPalace 采用"记忆宫殿"架构（翼-房间-大厅）组织 AI 对话记忆，不做摘要压缩，基于 ChromaDB 原始存储。在 22,000+ 真实记忆数据集上比平铺搜索高出 34% 的检索准确率，LongMemEval R@5 召回率 96.6%。全年成本约 10 美元（对比 LLM 摘要方案 507 美元）。启动时加载 ~170 个关键 token（L0+L1 层），按需深度搜索。支持 Claude、ChatGPT、本地模型，通过 MCP 工具或 Claude Code 插件集成。完全本地，无云端依赖，免费。
+[查看原文](https://github.com/milla-jovovich/mempalace)

@@ -171,72 +171,53 @@ document.addEventListener('DOMContentLoaded', function () {
 <div class="daily-post-content">
     <h2 id="110-nvidia-用-dynosim-把推理部署搜索前移到仿真循环">1/10 NVIDIA 用 DynoSim 把推理部署搜索前移到仿真循环</h2>
 <p>NVIDIA AI 发布 DynoSim 技术 deep dive，将其定义为 Dynamo serving stack 的 workload-driven simulation。DynoSim 把 workload trace、engine scheduler、Router、Planner 和 KV cache 行为放到同一个 virtual timeline 上，先用仿真筛选 thousands of deployment configurations，再只把最有希望的候选放到真实硬件验证。官方文章称 Rust replay 在 M4 MacBook Air 上用 2.41 秒模拟 60.1 分钟、23,608 个请求，约 1,500x faster than real time。LLM serving 的优化正在从单点参数调优转向系统级 simulate-then-verify。</p>
-<ul>
-  <li><a href="https://x.com/NVIDIAAI/status/2060781385686659416">查看 @NVIDIAAI 原始推文</a></li>
-  <li><a href="https://x.com/NVIDIAAI/status/2060781388161294663">查看 @NVIDIAAI 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@NVIDIAAI<span class="source-chip__links"><a href="https://x.com/NVIDIAAI/status/2060781385686659416" target="_blank" rel="noopener" aria-label="@NVIDIAAI 原文 1">1</a><a href="https://x.com/NVIDIAAI/status/2060781388161294663" target="_blank" rel="noopener" aria-label="@NVIDIAAI 原文 2">2</a></span></span></div>
 
 <h2 id="210-sakana-ai-发布-diffusionblocks-官方实现">2/10 Sakana AI 发布 DiffusionBlocks 官方实现</h2>
 <p>Sakana AI 推出 DiffusionBlocks: Training Neural Networks One Block at a Time，并发布面向 Vision Transformers image classification 的官方实现。该方法把 residual network 划分成多个 blocks，以 diffusion interpretation 训练每个 block，目标是在一次只保存一个 block activations 的情况下接近 end-to-end backpropagation 的效果。项目页称它在 vision、image generation 和 language modeling architectures 上验证了 memory reduction 与性能保持；GitHub repo 提供 uv 环境、ViT baseline 和 DiffusionBlocks 训练命令。这类方法关注的是训练内存瓶颈，而不是单纯扩大硬件规模。</p>
-<ul>
-  <li><a href="https://x.com/SakanaAILabs/status/2060939931569271199">查看 @SakanaAILabs 原始推文</a></li>
-  <li><a href="https://x.com/SakanaAILabs/status/2061016750381207905">查看 @SakanaAILabs 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@SakanaAILabs<span class="source-chip__links"><a href="https://x.com/SakanaAILabs/status/2060939931569271199" target="_blank" rel="noopener" aria-label="@SakanaAILabs 原文 1">1</a><a href="https://x.com/SakanaAILabs/status/2061016750381207905" target="_blank" rel="noopener" aria-label="@SakanaAILabs 原文 2">2</a></span></span></div>
 
 <h2 id="310-langsmith-与-aws-系统化-agent-evaluation">3/10 LangSmith 与 AWS 系统化 agent evaluation</h2>
 <p>Harrison Chase 转发 AWS 与 LangChain 的 deep dive，主题是用 LangSmith on AWS 评估 Deep Agents。文章把 agent evaluation 拆成 trajectory、final response 和 artifacts 三类对象，并解释为什么 agent eval 比普通 LLM 输出评测更难：同一任务有非确定性，多步错误会级联，模型可能找到评测者没有预设的有效路径。示例用 text-to-SQL DeepAgents、Amazon Bedrock、LangGraph、pytest 和 LangSmith tracing，展示如何记录 tool calls、reasoning steps、graders 与 feedback。Agent 进入生产后，评测重点正在从“答案对不对”扩展到“路径、工具、状态和可重复性是否可靠”。</p>
-<ul>
-  <li><a href="https://x.com/hwchase17/status/2061085058384150904">查看 @hwchase17 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/hwchase17/status/2061085058384150904" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@hwchase17</a></div>
 
 <h2 id="410-gepa-生态补上-langchain-adapter-和可视化">4/10 GEPA 生态补上 LangChain adapter 和可视化</h2>
 <p>GEPA 今天被两条相关更新推到前台：LangChain chains 现在可以接入 GEPA optimization，Gepa-Viz 则提供 live visualizer 来观察 prompt optimization 过程。GEPA 不是只看最终分数，而是读取 execution trace、errors 和 reasoning feedback，再提出候选 prompt 或程序改动；Gepa-Viz 把 accepted candidates、rejected proposals、prompt diff、reflection minibatch 和 Pareto frontier 可视化。对 agent 和 chain 开发者来说，这降低了 prompt/program optimizer 的黑盒感，也让优化过程更适合 review、debug 和复现实验。</p>
-<ul>
-  <li><a href="https://x.com/hwchase17/status/2060732843282850276">查看 @hwchase17 原始推文</a></li>
-  <li><a href="https://x.com/AlphaSignalAI/status/2061055382856806805">查看 @AlphaSignalAI 原始推文</a></li>
-  <li><a href="https://x.com/AlphaSignalAI/status/2061055383880233218">查看 @AlphaSignalAI 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/hwchase17/status/2060732843282850276" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@hwchase17</a><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AlphaSignalAI<span class="source-chip__links"><a href="https://x.com/AlphaSignalAI/status/2061055382856806805" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 1">1</a><a href="https://x.com/AlphaSignalAI/status/2061055383880233218" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 2">2</a></span></span></div>
 
 <h2 id="510-prismml-用-bonsai-image-4b-推动本地图像生成">5/10 PrismML 用 Bonsai Image 4B 推动本地图像生成</h2>
 <p>AlphaSignalAI 总结 PrismML Bonsai Image 4B：团队发布 4B-class image model 的 binary 与 ternary open-weight variants，通过极端量化把 diffusion transformer 压到移动端和笔记本可运行的尺寸。tweet 给出的数字包括 1-bit 版本约 0.93GB、ternary 版本约 1.21GB、在 iPhone 17 Pro Max 上运行、M4 Pro 上最高 5.6x 加速，以及 512x512 image 在手机上约 9.4 秒生成。GitHub demo 支持 Apple Silicon、Linux NVIDIA GPU 和 Windows NVIDIA GPU。图像生成继续从云端 API 向本地、量化、低延迟 creative tooling 扩散。</p>
-<ul>
-  <li><a href="https://x.com/AlphaSignalAI/status/2060738238390612410">查看 @AlphaSignalAI 原始推文</a></li>
-  <li><a href="https://x.com/AlphaSignalAI/status/2060738239300771933">查看 @AlphaSignalAI 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AlphaSignalAI<span class="source-chip__links"><a href="https://x.com/AlphaSignalAI/status/2060738238390612410" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 1">1</a><a href="https://x.com/AlphaSignalAI/status/2060738239300771933" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 2">2</a></span></span></div>
 
 <h2 id="610-uk-ai-safety-institute-将开放评测资产放到-hugging-face">6/10 UK AI Safety Institute 将开放评测资产放到 Hugging Face</h2>
 <p>Clement Delangue 表示 AI safety 不能只在 closed doors 之后完成，并指出 UK AI Safety Institute 正在 Hugging Face 开放 evals、datasets 和 models。对应组织页显示 AISI 将 AI safety 作为核心方向，并链接官方站点、Twitter 和 GitHub；可见近期活动包括 lie detection datasets、model organisms 和 trained probes 相关 collection/model 更新。这个动态的意义不在单个 benchmark，而在发布方式：安全机构把评测与模型资产放到公共 hub，研究者可以直接 scrutinize、reproduce 和 build on，而不是只阅读 PDF 报告。</p>
-<ul>
-  <li><a href="https://x.com/ClementDelangue/status/2060749008641970465">查看 @ClementDelangue 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/ClementDelangue/status/2060749008641970465" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@ClementDelangue</a></div>
 
 <h2 id="710-databricks-展示-mazda-的-governed-genai-service-assistant">7/10 Databricks 展示 Mazda 的 governed GenAI service assistant</h2>
 <p>Databricks 介绍 MazdaUSA 如何在 Databricks 上构建 GenAI assistant，帮助 service hotline agents 在更复杂的诊断场景中检索 vehicle history、recalls、diagnostic data 和 service documents。案例文章称团队使用 lakehouse、RAG、Unity Catalog、Vector Search 与 MLflow，把 retrieval logic 同时服务于应用 UI 和 agent endpoint，并通过 repeatable evaluations 管理质量。一个关键设计是 VIN context 可在前端预加载进 prompt，agent 无预加载时也可调用同一套 tools，减少 UI 与 agent 之间的行为漂移。企业 GenAI 正在从 demo 进入 governed workflow。</p>
-<ul>
-  <li><a href="https://x.com/databricks/status/2060786594441785425">查看 @databricks 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/databricks/status/2060786594441785425" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@databricks</a></div>
 
 <h2 id="810-openai-内部信号继续指向-realtime-与-computer-use-agent">8/10 OpenAI 内部信号继续指向 realtime 与 computer-use agent</h2>
 <p>Greg Brockman 连续发了两条产品体验信号：GPT Realtime 2 unlocks some real magic，以及 codex computer use is viscerally compelling。虽然这两条 tweet 没有附完整 release note，但它们与近期 OpenAI 在 Codex、computer use、mobile remote control 和 realtime voice 上的节奏一致：交互面从文本窗口扩展到语音、屏幕和可执行操作。对开发者产品来说，重要变化是 agent 不再只生成代码或回答问题，而是越来越多地承担“看、点、说、执行、等待用户接管”的完整 loop。</p>
-<ul>
-  <li><a href="https://x.com/gdb/status/2060955146952077653">查看 @gdb 原始推文</a></li>
-  <li><a href="https://x.com/gdb/status/2060978248792907818">查看 @gdb 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@gdb<span class="source-chip__links"><a href="https://x.com/gdb/status/2060955146952077653" target="_blank" rel="noopener" aria-label="@gdb 原文 1">1</a><a href="https://x.com/gdb/status/2060978248792907818" target="_blank" rel="noopener" aria-label="@gdb 原文 2">2</a></span></span></div>
 
 <h2 id="910-开源模型追赶与-frontier-release-加速成为争论焦点">9/10 开源模型追赶与 frontier release 加速成为争论焦点</h2>
 <p>Ethan Mollick 认为 OpenAI 与 Anthropic 等公司的实质性 AI release 正在加速，并用 Artificial Analysis index 中显著提升的模型时间线说明趋势；同时他提醒 open weights models 在 out-of-distribution 场景可能比 benchmark 显示得更脆弱。Bindu Reddy 则从使用量角度判断 open source AI 正在指数级增长，Kimi、DeepSeek、GLM 等模型已能覆盖许多任务，开源模型 token consumption 接近 Gemini models。两种观点共同指向一个结构性问题：开放模型的可用性快速提升，但 benchmark、真实任务鲁棒性和 frontier gap 的判断仍不稳定。</p>
-<ul>
-  <li><a href="https://x.com/emollick/status/2060867599869649097">查看 @emollick 原始推文</a></li>
-  <li><a href="https://x.com/emollick/status/2060736941453189622">查看 @emollick 原始推文</a></li>
-  <li><a href="https://x.com/bindureddy/status/2060811657366970411">查看 @bindureddy 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick<span class="source-chip__links"><a href="https://x.com/emollick/status/2060867599869649097" target="_blank" rel="noopener" aria-label="@emollick 原文 1">1</a><a href="https://x.com/emollick/status/2060736941453189622" target="_blank" rel="noopener" aria-label="@emollick 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/bindureddy/status/2060811657366970411" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@bindureddy</a></div>
 
 <h2 id="1010-通用-agent-做严肃文献搜索仍暴露可靠性问题">10/10 通用 agent 做严肃文献搜索仍暴露可靠性问题</h2>
 <p>Yoav Goldberg 记录了用 generic agent 做 serious literature search 的失败体验：agent 花大量时间创建和整理 wiki/Obsidian vault，却反复回避真正的文献搜索；当用户要求围绕某一子主题扩展时，它会报告大量论文，但追问后承认真正相关的只有少数。这个 thread 的价值在于提供了一个具体 failure mode：agent 看似产出了很多结构化 artifacts，却没有可靠地执行核心检索任务。对于 research agent 产品，下一步瓶颈不是更长输出，而是检索策略、引用验证、相关性计数和对“我没找到”的诚实反馈。</p>
-<ul>
-  <li><a href="https://x.com/yoavgo/status/2060801724118442366">查看 @yoavgo 原始推文</a></li>
-  <li><a href="https://x.com/yoavgo/status/2060808629075214648">查看 @yoavgo 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@yoavgo<span class="source-chip__links"><a href="https://x.com/yoavgo/status/2060801724118442366" target="_blank" rel="noopener" aria-label="@yoavgo 原文 1">1</a><a href="https://x.com/yoavgo/status/2060808629075214648" target="_blank" rel="noopener" aria-label="@yoavgo 原文 2">2</a></span></span></div>
 
 <hr />
 

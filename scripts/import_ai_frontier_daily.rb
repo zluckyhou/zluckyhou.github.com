@@ -54,10 +54,45 @@ end
 summary = summary_lines.join(" ")
 reading_time = [(report.gsub(/\s+/, "").length / 500.0).ceil, 1].max
 
-body_lines = lines.map do |line|
+# Consecutive tweet URLs are baked into a compact "source chips" block at
+# build time so the rendered HTML never depends on client-side JS.
+def chips_html(tweets)
+  grouped = tweets.group_by(&:first)
+  chips = grouped.map do |handle, pairs|
+    icon = %(<span class="source-chip__icon" aria-hidden="true">𝕏</span>)
+    if pairs.size == 1
+      %(<a class="source-chip" href="#{pairs[0][1]}" target="_blank" rel="noopener">#{icon}@#{handle}</a>)
+    else
+      nums = pairs.each_with_index.map do |(_, url), i|
+        %(<a href="#{url}" target="_blank" rel="noopener" aria-label="@#{handle} 原文 #{i + 1}">#{i + 1}</a>)
+      end.join
+      %(<span class="source-chip source-chip--group">#{icon}@#{handle}<span class="source-chip__links">#{nums}</span></span>)
+    end
+  end.join
+  %(<div class="daily-sources"><span class="daily-sources__label">来源</span>#{chips}</div>)
+end
+
+body_lines = []
+tweet_buffer = []
+flush_tweets = lambda do
+  next if tweet_buffer.empty?
+
+  body_lines << "" unless body_lines.empty? || body_lines.last.empty?
+  body_lines << chips_html(tweet_buffer)
+  tweet_buffer.clear
+end
+
+lines.each do |line|
   next if line.match?(COVER_PATTERN) || line.match?(TITLE_PATTERN)
 
-  if (entry = line.match(ENTRY_PATTERN))
+  if (tweet = line.match(%r{\Ahttps?://x\.com/([A-Za-z0-9_]+)/\S+\z}))
+    tweet_buffer << [tweet[1], line]
+    next
+  end
+
+  flush_tweets.call
+
+  body_lines << if (entry = line.match(ENTRY_PATTERN))
     "## #{entry[1]}/#{entry[2]} #{entry[3]}"
   elsif line == "📎 **Deep Dive 附录**"
     "## Deep Dive 附录"
@@ -66,12 +101,13 @@ body_lines = lines.map do |line|
   elsif line.start_with?("→ http://", "→ https://")
     url = line.delete_prefix("→ ")
     "[查看原文](#{url})"
-  elsif (tweet = line.match(%r{\Ahttps?://x\.com/([^/]+)/}))
-    "- [查看 @#{tweet[1]} 原始推文](#{line})"
+  elsif (tweet_other = line.match(%r{\Ahttps?://x\.com/([^/]+)/}))
+    "- [查看 @#{tweet_other[1]} 原始推文](#{line})"
   else
     line
   end
-end.compact
+end
+flush_tweets.call
 
 front_matter = [
   "---",

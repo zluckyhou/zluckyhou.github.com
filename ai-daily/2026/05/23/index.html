@@ -171,125 +171,78 @@ document.addEventListener('DOMContentLoaded', function () {
 <div class="daily-post-content">
     <h2 id="115-anthropic-glasswing-用-claude-mythos-找到上万高危漏洞">1/15 Anthropic Glasswing 用 Claude Mythos 找到上万高危漏洞</h2>
 <p>Anthropic 发布 Project Glasswing 初步进展，称与约 50 个合作伙伴使用 Claude Mythos Preview，在关键软件中发现超过一万个 high 或 critical severity 漏洞。官方强调，AI 安全能力的瓶颈正在从“能否发现漏洞”转向“如何验证、披露和修补大量漏洞”。Anthropic 暂时不会公开过多技术细节，以避免补丁部署前扩大攻击面，但这已经显示前沿模型正在进入真实软件供应链防御工作流。</p>
-<ul>
-  <li><a href="https://x.com/AnthropicAI/status/2057909102542549503">查看 @AnthropicAI 原始推文</a></li>
-  <li><a href="https://x.com/AnthropicAI/status/2057909104090169464">查看 @AnthropicAI 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AnthropicAI<span class="source-chip__links"><a href="https://x.com/AnthropicAI/status/2057909102542549503" target="_blank" rel="noopener" aria-label="@AnthropicAI 原文 1">1</a><a href="https://x.com/AnthropicAI/status/2057909104090169464" target="_blank" rel="noopener" aria-label="@AnthropicAI 原文 2">2</a></span></span></div>
 
 <h2 id="215-google-把-synthid-和内容凭证推向搜索geminipixel-与云端">2/15 Google 把 SynthID 和内容凭证推向搜索、Gemini、Pixel 与云端</h2>
 <p>Google DeepMind 宣布 SynthID 扩展到更多合作伙伴，并新增判断内容是否由 AI 生成的入口，用户可在 Gemini App 或 Google Search 中询问媒体来源。Google 官方博客补充，SynthID 已为超过 1000 亿张图片和视频、6 万年音频加水印，同时 C2PA Content Credentials 将扩展到 Pixel 8、9、10 的视频拍摄。AI 生成媒体进入大规模分发后，来源验证正在变成平台级基础设施。</p>
-<ul>
-  <li><a href="https://x.com/GoogleDeepMind/status/2057898089621459434">查看 @GoogleDeepMind 原始推文</a></li>
-  <li><a href="https://x.com/GoogleDeepMind/status/2057898091479527633">查看 @GoogleDeepMind 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@GoogleDeepMind<span class="source-chip__links"><a href="https://x.com/GoogleDeepMind/status/2057898089621459434" target="_blank" rel="noopener" aria-label="@GoogleDeepMind 原文 1">1</a><a href="https://x.com/GoogleDeepMind/status/2057898091479527633" target="_blank" rel="noopener" aria-label="@GoogleDeepMind 原文 2">2</a></span></span></div>
 
 <h2 id="315-perplexity-开源-bumblebee扫描开发者机器上的供应链暴露面">3/15 Perplexity 开源 Bumblebee，扫描开发者机器上的供应链暴露面</h2>
 <p>Perplexity 开源 Bumblebee，这是一个面向 macOS 和 Linux 的 read-only 扫描器，用来盘点开发者机器上的包、浏览器扩展、编辑器扩展、MCP 配置和 AI 工具配置。它不是等代码进入生产后再做 SBOM 或 EDR，而是在开发端识别风险包和扩展。随着 coding agent 获得本地文件、终端、浏览器和 MCP 权限，开发者端点本身正在成为软件供应链安全的关键边界。</p>
-<ul>
-  <li><a href="https://x.com/perplexity_ai/status/2057869990536360334">查看 @perplexity_ai 原始推文</a></li>
-  <li><a href="https://x.com/perplexity_ai/status/2057870003060498612">查看 @perplexity_ai 原始推文</a></li>
-  <li><a href="https://x.com/AlphaSignalAI/status/2057875938180755757">查看 @AlphaSignalAI 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@perplexity_ai<span class="source-chip__links"><a href="https://x.com/perplexity_ai/status/2057869990536360334" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 1">1</a><a href="https://x.com/perplexity_ai/status/2057870003060498612" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/AlphaSignalAI/status/2057875938180755757" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AlphaSignalAI</a></div>
 
 <h2 id="415-cursor-sdk-让开发者用-composer-25-构建自己的-agent">4/15 Cursor SDK 让开发者用 Composer 2.5 构建自己的 agent</h2>
 <p>Cursor 宣布 Cursor SDK 支持用 Composer 2.5 构建自定义 agent，并提供 Python 与 TypeScript 版本。官方同时给出 <code class="language-plaintext highlighter-rouge">/sdk</code> skill 和文档入口，周末期间 SDK 内 Composer usage 90% off。这个发布说明 coding agent 的竞争正在从 IDE 内交互扩展到可编程 runtime：团队可以把 Cursor 的 agent 能力嵌进内部工具、自动化流程和 CI 辅助系统，而不只是让人坐在编辑器里对话。</p>
-<ul>
-  <li><a href="https://x.com/cursor_ai/status/2057913121558413770">查看 @cursor_ai 原始推文</a></li>
-  <li><a href="https://x.com/cursor_ai/status/2057913123194155070">查看 @cursor_ai 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cursor_ai<span class="source-chip__links"><a href="https://x.com/cursor_ai/status/2057913121558413770" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 1">1</a><a href="https://x.com/cursor_ai/status/2057913123194155070" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 2">2</a></span></span></div>
 
 <h2 id="515-databricks-把-genie-code-放进-lakeflow数据工程-agent-化">5/15 Databricks 把 Genie Code 放进 Lakeflow，数据工程 agent 化</h2>
 <p>Databricks 发布 Genie Code，将 autonomous AI partner 直接放进 Lakeflow，帮助数据工程师生成 pipeline、编排 job、追踪 lineage、诊断失败并审阅修复建议。另一条 Lakebase walkthrough 则展示 Backstage 使用 Lakebase 替代 Postgres 后，可在约 1 秒创建生产数据库分支、4 秒内完成 point-in-time recovery。Databricks 的重点是把 agent 从问答助手推进到有治理边界的数据工程操作面。</p>
-<ul>
-  <li><a href="https://x.com/databricks/status/2057831450443989433">查看 @databricks 原始推文</a></li>
-  <li><a href="https://x.com/databricks/status/2057918444868153832">查看 @databricks 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@databricks<span class="source-chip__links"><a href="https://x.com/databricks/status/2057831450443989433" target="_blank" rel="noopener" aria-label="@databricks 原文 1">1</a><a href="https://x.com/databricks/status/2057918444868153832" target="_blank" rel="noopener" aria-label="@databricks 原文 2">2</a></span></span></div>
 
 <h2 id="615-google-多模态产品线继续补-io-后续omnigenieantigravity-与-flash">6/15 Google 多模态产品线继续补 I/O 后续：Omni、Genie、Antigravity 与 Flash</h2>
 <p>Google DeepMind 推出 Project Genie 与 Google Maps Street View 联动，AI Ultra 用户可把美国真实地点转换为可探索的互动世界；Ethan Mollick 展示 Gemini Omni 对 1896 年火车影片做原生视频编辑；Logan Kilpatrick 则称 Gemini 3.5 Flash 在多个视觉用例上超过 3.1 Pro，平均约快 6 倍，并说明 Antigravity 2.0 IDE UI 更新和 weekly limits 重置。Google 的后续动作集中在“模型、媒体编辑、世界模型、开发工具”组合。</p>
-<ul>
-  <li><a href="https://x.com/GoogleDeepMind/status/2057842131142590512">查看 @GoogleDeepMind 原始推文</a></li>
-  <li><a href="https://x.com/GoogleDeepMind/status/2057842133046903086">查看 @GoogleDeepMind 原始推文</a></li>
-  <li><a href="https://x.com/emollick/status/2057874739817808223">查看 @emollick 原始推文</a></li>
-  <li><a href="https://x.com/OfficialLoganK/status/2057888362011463988">查看 @OfficialLoganK 原始推文</a></li>
-  <li><a href="https://x.com/OfficialLoganK/status/2057912550633947436">查看 @OfficialLoganK 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@GoogleDeepMind<span class="source-chip__links"><a href="https://x.com/GoogleDeepMind/status/2057842131142590512" target="_blank" rel="noopener" aria-label="@GoogleDeepMind 原文 1">1</a><a href="https://x.com/GoogleDeepMind/status/2057842133046903086" target="_blank" rel="noopener" aria-label="@GoogleDeepMind 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/emollick/status/2057874739817808223" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick</a><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OfficialLoganK<span class="source-chip__links"><a href="https://x.com/OfficialLoganK/status/2057888362011463988" target="_blank" rel="noopener" aria-label="@OfficialLoganK 原文 1">1</a><a href="https://x.com/OfficialLoganK/status/2057912550633947436" target="_blank" rel="noopener" aria-label="@OfficialLoganK 原文 2">2</a></span></span></div>
 
 <h2 id="715-deepseek-把-v4-pro-折扣永久化qwen37-max-继续进入生产推理入口">7/15 DeepSeek 把 V4-Pro 折扣永久化，Qwen3.7-Max 继续进入生产推理入口</h2>
 <p>DeepSeek 宣布 DeepSeek-V4-Pro 折扣永久化，强调开发者可以继续用低价构建应用。Together 继续推广 Qwen3.7-Max，称其具备 1M context、长程自主能力、agentic coding 和工具编排能力，已可在 Together Serverless Inference 上用于生产级 agent workflow。模型能力之外，价格、上下文长度、推理入口和 agent workload 成本正在成为开发者选择平台的直接因素。</p>
-<ul>
-  <li><a href="https://x.com/deepseek_ai/status/2057854261699195173">查看 @deepseek_ai 原始推文</a></li>
-  <li><a href="https://x.com/togethercompute/status/2057631706044141731">查看 @togethercompute 原始推文</a></li>
-  <li><a href="https://x.com/togethercompute/status/2057631709785726997">查看 @togethercompute 原始推文</a></li>
-  <li><a href="https://x.com/togethercompute/status/2057631711647641835">查看 @togethercompute 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/deepseek_ai/status/2057854261699195173" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@deepseek_ai</a><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@togethercompute<span class="source-chip__links"><a href="https://x.com/togethercompute/status/2057631706044141731" target="_blank" rel="noopener" aria-label="@togethercompute 原文 1">1</a><a href="https://x.com/togethercompute/status/2057631709785726997" target="_blank" rel="noopener" aria-label="@togethercompute 原文 2">2</a><a href="https://x.com/togethercompute/status/2057631711647641835" target="_blank" rel="noopener" aria-label="@togethercompute 原文 3">3</a></span></span></div>
 
 <h2 id="815-lumarunwaypika-继续把生成视频推向可控编辑和-agent-workflow">8/15 Luma、Runway、Pika 继续把生成视频推向可控编辑和 agent workflow</h2>
 <p>Luma 宣布 Seedance 2.0 已进入 Luma Agents，强调 portrait、landscape、sci-fi、fantasy 等镜头可即时生成；Runway 继续推广 Aleph 2.0，称可在 Edit Studio 中对最长 30 秒、1080p 的多镜头序列做精确改动；Pika 展示其 agent Curly Joe 生成的动画、游戏节目和 sitcom 风格片段。视频生成的重心正在从单次 prompt 出片，转向可控编辑、项目状态、品牌素材和 agent 批量生产。</p>
-<ul>
-  <li><a href="https://x.com/LumaLabsAI/status/2057864318910161036">查看 @LumaLabsAI 原始推文</a></li>
-  <li><a href="https://x.com/LumaLabsAI/status/2057945638352867549">查看 @LumaLabsAI 原始推文</a></li>
-  <li><a href="https://x.com/runwayml/status/2057826728769134599">查看 @runwayml 原始推文</a></li>
-  <li><a href="https://x.com/pika_labs/status/2057888501644071179">查看 @pika_labs 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@LumaLabsAI<span class="source-chip__links"><a href="https://x.com/LumaLabsAI/status/2057864318910161036" target="_blank" rel="noopener" aria-label="@LumaLabsAI 原文 1">1</a><a href="https://x.com/LumaLabsAI/status/2057945638352867549" target="_blank" rel="noopener" aria-label="@LumaLabsAI 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/runwayml/status/2057826728769134599" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@runwayml</a><a class="source-chip" href="https://x.com/pika_labs/status/2057888501644071179" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@pika_labs</a></div>
 
 <h2 id="915-greg-brockman-与-ethan-mollick-把模型是否还是产品推到台前">9/15 Greg Brockman 与 Ethan Mollick 把“模型是否还是产品”推到台前</h2>
 <p>Greg Brockman 写道“the model alone is no longer the product”，并继续展示 Codex Appshots、手机操作电脑 app 等 Codex 体验；Ethan Mollick 则回应说模型仍是 prime mover，正因为模型足够通用，labs 才能构建别人难以复制的 harness 和产品。两种观点并不矛盾：前沿模型的商业化正在从裸 API 变成模型、post-training、工具 harness、端侧上下文和产品权限的组合。</p>
-<ul>
-  <li><a href="https://x.com/gdb/status/2057670776803996110">查看 @gdb 原始推文</a></li>
-  <li><a href="https://x.com/gdb/status/2057650157358055625">查看 @gdb 原始推文</a></li>
-  <li><a href="https://x.com/gdb/status/2057802037757157838">查看 @gdb 原始推文</a></li>
-  <li><a href="https://x.com/emollick/status/2057681650633322939">查看 @emollick 原始推文</a></li>
-  <li><a href="https://x.com/emollick/status/2057682288238874859">查看 @emollick 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@gdb<span class="source-chip__links"><a href="https://x.com/gdb/status/2057670776803996110" target="_blank" rel="noopener" aria-label="@gdb 原文 1">1</a><a href="https://x.com/gdb/status/2057650157358055625" target="_blank" rel="noopener" aria-label="@gdb 原文 2">2</a><a href="https://x.com/gdb/status/2057802037757157838" target="_blank" rel="noopener" aria-label="@gdb 原文 3">3</a></span></span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick<span class="source-chip__links"><a href="https://x.com/emollick/status/2057681650633322939" target="_blank" rel="noopener" aria-label="@emollick 原文 1">1</a><a href="https://x.com/emollick/status/2057682288238874859" target="_blank" rel="noopener" aria-label="@emollick 原文 2">2</a></span></span></div>
 
 <h2 id="1015-ai-for-science-从论文自动化走向洞见预判基准">10/15 AI for Science 从论文自动化走向“洞见预判”基准</h2>
 <p>AlphaSignalAI 今天同时转发 AI academic research survey 与 GIANTS。前者把 AI 研究流程分成 Creation、Writing、Validation、Dissemination 四阶段，强调结构化任务可靠、判断任务脆弱；后者提出 insight anticipation：给模型两篇 parent papers，让它预测后续论文的核心洞见。GIANTS 项目称其 GiantsBench 含 17,839 个样本，GIANTS-4B 在 held-out 测试上相对 Gemini 3 Pro 有 35% 提升。AI 科研正在把“生成论文”拆成更可测的子任务。</p>
-<ul>
-  <li><a href="https://x.com/AlphaSignalAI/status/2057929493390495806">查看 @AlphaSignalAI 原始推文</a></li>
-  <li><a href="https://x.com/AlphaSignalAI/status/2057839517600542923">查看 @AlphaSignalAI 原始推文</a></li>
-  <li><a href="https://x.com/AlphaSignalAI/status/2057839519123054608">查看 @AlphaSignalAI 原始推文</a></li>
-  <li><a href="https://x.com/SakanaAILabs/status/2057632441540702687">查看 @SakanaAILabs 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AlphaSignalAI<span class="source-chip__links"><a href="https://x.com/AlphaSignalAI/status/2057929493390495806" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 1">1</a><a href="https://x.com/AlphaSignalAI/status/2057839517600542923" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 2">2</a><a href="https://x.com/AlphaSignalAI/status/2057839519123054608" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 3">3</a></span></span><a class="source-chip" href="https://x.com/SakanaAILabs/status/2057632441540702687" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@SakanaAILabs</a></div>
 
 <h2 id="1115-on-device-tts-与-webgpu-显示本地-ai-生态继续下沉">11/15 On-device TTS 与 WebGPU 显示本地 AI 生态继续下沉</h2>
 <p>AlphaSignalAI 总结 Supertonic 3，称 99M 参数 ONNX TTS 模型可离线运行，支持 31 种语言，在 laptop CPU 上达到 167x realtime，并可在 Raspberry Pi 和浏览器标签页中使用。Clement Delangue 也转发 llama.cpp/ggml WebGPU backend、Hugging Face Buckets 被 Common Crawl 用于大型持续变化数据集等消息。本地 AI 的价值不只是隐私，还包括低延迟、低边际成本和更容易嵌入端侧产品。</p>
-<ul>
-  <li><a href="https://x.com/AlphaSignalAI/status/2057794058181918748">查看 @AlphaSignalAI 原始推文</a></li>
-  <li><a href="https://x.com/AlphaSignalAI/status/2057794059112968624">查看 @AlphaSignalAI 原始推文</a></li>
-  <li><a href="https://x.com/ClementDelangue/status/2057841454408470945">查看 @ClementDelangue 原始推文</a></li>
-  <li><a href="https://x.com/ClementDelangue/status/2057801615168442755">查看 @ClementDelangue 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AlphaSignalAI<span class="source-chip__links"><a href="https://x.com/AlphaSignalAI/status/2057794058181918748" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 1">1</a><a href="https://x.com/AlphaSignalAI/status/2057794059112968624" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 2">2</a></span></span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@ClementDelangue<span class="source-chip__links"><a href="https://x.com/ClementDelangue/status/2057841454408470945" target="_blank" rel="noopener" aria-label="@ClementDelangue 原文 1">1</a><a href="https://x.com/ClementDelangue/status/2057801615168442755" target="_blank" rel="noopener" aria-label="@ClementDelangue 原文 2">2</a></span></span></div>
 
 <h2 id="1215-agent-codebase-hardening-开始从个人提示词沉淀为-checklist-和-skill">12/15 Agent codebase hardening 开始从个人提示词沉淀为 checklist 和 skill</h2>
 <p>swyx 发布 Kakuna，定位为用 checklist harden codebase 的技能套件：先 <code class="language-plaintext highlighter-rouge">/plan</code>，再让它 <code class="language-plaintext highlighter-rouge">/goal</code> 一天，目标是在不改变功能的前提下完成 boring production work，并审计自己的输出。AlphaSignalAI 同时提到 Karpathy-inspired CLAUDE.md 已进入 GitHub 历史 top 50 项目，且 spec-driven development 相关 repo 和论文正在聚集。agent 工程实践正在从一次性提示词转为可复用的技能、规范、检查清单和 repo 级工作流。</p>
-<ul>
-  <li><a href="https://x.com/swyx/status/2057876022553690327">查看 @swyx 原始推文</a></li>
-  <li><a href="https://x.com/swyx/status/2057876113934942507">查看 @swyx 原始推文</a></li>
-  <li><a href="https://x.com/AlphaSignalAI/status/2057822539737411845">查看 @AlphaSignalAI 原始推文</a></li>
-  <li><a href="https://x.com/AlphaSignalAI/status/2057778842681356338">查看 @AlphaSignalAI 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@swyx<span class="source-chip__links"><a href="https://x.com/swyx/status/2057876022553690327" target="_blank" rel="noopener" aria-label="@swyx 原文 1">1</a><a href="https://x.com/swyx/status/2057876113934942507" target="_blank" rel="noopener" aria-label="@swyx 原文 2">2</a></span></span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AlphaSignalAI<span class="source-chip__links"><a href="https://x.com/AlphaSignalAI/status/2057822539737411845" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 1">1</a><a href="https://x.com/AlphaSignalAI/status/2057778842681356338" target="_blank" rel="noopener" aria-label="@AlphaSignalAI 原文 2">2</a></span></span></div>
 
 <h2 id="1315-agent-文档解析评测进入生产化阶段">13/15 Agent 文档解析评测进入生产化阶段</h2>
 <p>LlamaIndex 宣布 ParseBench webinar，称现有文档解析 benchmark 没有按 agent 消费 parsed output 的方式设计，ParseBench 将围绕真实企业文档、五个预测 parser 生产表现的维度和 14 个 parser 的结果展开。随着 agent 读合同、财报、PDF、表格和扫描件，文档 OCR/解析不再是外围工具，而是决定 agent 是否能可靠执行企业 workflow 的基础层。</p>
-<ul>
-  <li><a href="https://x.com/llama_index/status/2057915081795485775">查看 @llama_index 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/llama_index/status/2057915081795485775" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@llama_index</a></div>
 
 <h2 id="1415-ai-人才与教育政策继续影响美国技术竞争讨论">14/15 AI 人才与教育政策继续影响美国技术竞争讨论</h2>
 <p>Andrew Ng 批评美国新绿卡政策要求申请人在境外办理，称这会伤害家庭、医生、教师、科学家供给和美国 AI 竞争力。他还反对 Harvard 将本科课程 A 等级比例限制到约 20%，认为教育机构应在保持高标准的同时支持 100% 学生成功，而不是主要扮演筛选者。AI 竞争不仅是模型和算力，也取决于人才流动、教育评价和科研劳动力供给。</p>
-<ul>
-  <li><a href="https://x.com/AndrewYNg/status/2057907324380217821">查看 @AndrewYNg 原始推文</a></li>
-  <li><a href="https://x.com/AndrewYNg/status/2057874024672469493">查看 @AndrewYNg 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AndrewYNg<span class="source-chip__links"><a href="https://x.com/AndrewYNg/status/2057907324380217821" target="_blank" rel="noopener" aria-label="@AndrewYNg 原文 1">1</a><a href="https://x.com/AndrewYNg/status/2057874024672469493" target="_blank" rel="noopener" aria-label="@AndrewYNg 原文 2">2</a></span></span></div>
 
 <h2 id="1515-agentic-web-商业模式从广告转向直接支付与算力分层">15/15 Agentic web 商业模式从广告转向直接支付与算力分层</h2>
 <p>Parag Agrawal 转发 Ben Thompson 访谈，讨论 agentic web 中内容商业模式：广告适合人类注意力市场，是因为人类处理支付有认知负担；当 agent 接管更多任务时，直接支付可能更有效。Ethan Mollick 昨日关于 compute shortage 的讨论继续相关：复杂 agent workflow 会更贵，最强 agent 可能优先服务高价值企业用例。未来 AI 产品分层会同时受模型能力、任务价值、内容授权和算力价格约束。</p>
-<ul>
-  <li><a href="https://x.com/paraga/status/2057886130377576936">查看 @paraga 原始推文</a></li>
-  <li><a href="https://x.com/emollick/status/2057565824341127432">查看 @emollick 原始推文</a></li>
-  <li><a href="https://x.com/emollick/status/2057566359072964799">查看 @emollick 原始推文</a></li>
-</ul>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/paraga/status/2057886130377576936" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@paraga</a><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick<span class="source-chip__links"><a href="https://x.com/emollick/status/2057565824341127432" target="_blank" rel="noopener" aria-label="@emollick 原文 1">1</a><a href="https://x.com/emollick/status/2057566359072964799" target="_blank" rel="noopener" aria-label="@emollick 原文 2">2</a></span></span></div>
 
 <hr />
 

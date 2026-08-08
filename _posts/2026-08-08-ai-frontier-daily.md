@@ -11,6 +11,7 @@ summary: "OpenAI 表示，对下一代模型 Astra 的最新内部评测显示�
 issue_count: 15
 deep_dive_count: 9
 reading_time: 19
+featured: true
 cover: "https://www.databricks.com/sites/default/files/2026-08/2026-08-blog-managing-coding-costs.png"
 signals: "OpenAI · gdb · sama · emollick · swyx · hwchase17 · Replit · runwayml"
 header-img: img/dark_yellow_400.png

@@ -4,7 +4,44 @@ title: "首页"
 description: "每天筛选值得关注的 AI 信号；用财报、产品与数据，持续记录技术如何改变商业和人的选择。"
 ---
 
-{% assign latest_daily = site.categories['ai-daily'] | first %}
+{% assign today_key = site.time | date: "%Y-%m-%d" %}
+{% assign today_posts = "" | split: "" %}
+{% for post in site.posts %}
+    {% assign post_key = post.date | date: "%Y-%m-%d" %}
+    {% if post_key == today_key %}
+        {% assign today_posts = today_posts | push: post %}
+    {% endif %}
+{% endfor %}
+
+{% assign primary_post = nil %}
+{% for post in today_posts %}
+    {% if post.featured and primary_post == nil %}
+        {% assign primary_post = post %}
+    {% endif %}
+{% endfor %}
+
+{% assign has_today_posts = true %}
+{% unless primary_post %}
+    {% assign primary_post = today_posts | first %}
+{% endunless %}
+{% unless primary_post %}
+    {% assign has_today_posts = false %}
+    {% assign primary_post = site.posts | first %}
+{% endunless %}
+
+{% assign primary_category_label = "Ideas & practice" %}
+{% assign primary_read_label = "阅读完整文章" %}
+{% if primary_post.categories contains 'ai-daily' %}
+    {% assign primary_category_label = "AI Frontier Daily" %}
+    {% assign primary_read_label = "读完整日报" %}
+{% elsif primary_post.categories contains 'company-research' %}
+    {% assign primary_category_label = "Company intelligence" %}
+    {% assign primary_read_label = "阅读公司观察" %}
+{% elsif primary_post.categories contains 'reddit' %}
+    {% assign primary_category_label = "Reddit 精选" %}
+    {% assign primary_read_label = "阅读完整精选" %}
+{% endif %}
+
 {% assign finance_posts = site.categories['company-research'] %}
 {% assign idea_posts = site.categories['ideas'] %}
 
@@ -23,36 +60,79 @@ description: "每天筛选值得关注的 AI 信号；用财报、产品与数�
         </div>
     </section>
 
-    {% if latest_daily %}
-    <section class="editorial-shell daily-lead" aria-labelledby="daily-lead-title">
-        <aside class="daily-lead__rail">
-            <p class="editorial-section-label">Today's issue</p>
-            <div class="daily-lead__number" aria-hidden="true">{{ latest_daily.date | date: "%d" }}</div>
-            <div class="daily-lead__stats">
-                <div>
-                    <strong>{{ latest_daily.issue_count | default: "—" }}</strong>
-                    <span>今日主线</span>
+    {% if primary_post %}
+    <section class="today-issue" aria-labelledby="daily-lead-title">
+        <div class="editorial-shell daily-lead">
+            <aside class="daily-lead__rail">
+                <p class="editorial-section-label">{% if has_today_posts %}Today's issue{% else %}Latest issue{% endif %}</p>
+                <div class="daily-lead__number" aria-hidden="true">{{ primary_post.date | date: "%d" }}</div>
+                <div class="daily-lead__stats">
+                    {% if primary_post.issue_count %}
+                    <div>
+                        <strong>{{ primary_post.issue_count }}</strong>
+                        <span>今日主线</span>
+                    </div>
+                    <div>
+                        <strong>{{ primary_post.deep_dive_count | default: "—" }}</strong>
+                        <span>Deep Dives</span>
+                    </div>
+                    {% else %}
+                    <div>
+                        <strong>{% if has_today_posts %}{{ today_posts | size }}{% else %}1{% endif %}</strong>
+                        <span>{% if has_today_posts %}今日更新{% else %}最新发布{% endif %}</span>
+                    </div>
+                    <div>
+                        <strong>{{ primary_post.digest_count | default: primary_post.tags.size | default: "—" }}</strong>
+                        <span>关注主题</span>
+                    </div>
+                    {% endif %}
                 </div>
-                <div>
-                    <strong>{{ latest_daily.deep_dive_count | default: "—" }}</strong>
-                    <span>Deep Dives</span>
-                </div>
-            </div>
-        </aside>
+            </aside>
 
-        <article class="daily-lead__story">
-            <div class="editorial-meta">
-                <span class="editorial-pill">AI Frontier Daily</span>
-                <span>{{ latest_daily.date | date: "%Y.%m.%d" }}</span>
-                {% if latest_daily.reading_time %}<span>约 {{ latest_daily.reading_time }} 分钟</span>{% endif %}
+            <article class="daily-lead__story">
+                <div class="editorial-meta">
+                    <span class="editorial-pill">{{ primary_category_label }}</span>
+                    <span>{{ primary_post.date | date: "%Y.%m.%d" }}</span>
+                    {% if primary_post.reading_time %}<span>约 {{ primary_post.reading_time }} 分钟</span>{% endif %}
+                </div>
+                <h2 id="daily-lead-title"><a href="{{ primary_post.url | prepend: site.baseurl }}">{{ primary_post.headline | default: primary_post.title }}</a></h2>
+                <p>{{ primary_post.summary | default: primary_post.description | default: primary_post.excerpt | strip_html | truncate: 260 }}</p>
+                <div class="daily-lead__footer">
+                    <div class="daily-lead__signals">{{ primary_post.signals | default: primary_post.tags | join: " · " }}</div>
+                    <a class="editorial-read-link" href="{{ primary_post.url | prepend: site.baseurl }}">{{ primary_read_label }}</a>
+                </div>
+            </article>
+        </div>
+
+        {% assign secondary_count = today_posts | size | minus: 1 %}
+        {% if has_today_posts and secondary_count > 0 %}
+        <div class="editorial-shell today-updates" aria-label="今日其他更新">
+            <header class="today-updates__rail">
+                <p class="editorial-section-label">Also published today</p>
+                <div><strong>{{ secondary_count }}</strong><span>篇新内容</span></div>
+            </header>
+            <div class="today-updates__list">
+                {% for post in today_posts %}
+                    {% unless post.url == primary_post.url %}
+                    {% assign update_category = "思考与实践" %}
+                    {% if post.categories contains 'ai-daily' %}
+                        {% assign update_category = "AI 日报" %}
+                    {% elsif post.categories contains 'company-research' %}
+                        {% assign update_category = "公司观察" %}
+                    {% elsif post.categories contains 'reddit' %}
+                        {% assign update_category = "Reddit 精选" %}
+                    {% endif %}
+                    {% assign update_time = post.date | date: "%H:%M" %}
+                    <a class="today-update-card" href="{{ post.url | prepend: site.baseurl }}">
+                        <div><span>{{ update_category }}</span><time datetime="{{ post.date | date_to_xmlschema }}">{% if update_time == "00:00" %}今日{% else %}{{ update_time }}{% endif %}</time></div>
+                        <h3>{{ post.headline | default: post.title }}</h3>
+                        <span aria-hidden="true">↗</span>
+                    </a>
+                    {% endunless %}
+                {% endfor %}
             </div>
-            <h2 id="daily-lead-title"><a href="{{ latest_daily.url | prepend: site.baseurl }}">{{ latest_daily.headline | default: latest_daily.title }}</a></h2>
-            <p>{{ latest_daily.summary | default: latest_daily.description | default: latest_daily.excerpt | strip_html | truncate: 260 }}</p>
-            <div class="daily-lead__footer">
-                <div class="daily-lead__signals">{{ latest_daily.signals | default: latest_daily.tags | join: " · " }}</div>
-                <a class="editorial-read-link" href="{{ latest_daily.url | prepend: site.baseurl }}">读今日完整日报</a>
-            </div>
-        </article>
+        </div>
+        {% endif %}
     </section>
     {% endif %}
 

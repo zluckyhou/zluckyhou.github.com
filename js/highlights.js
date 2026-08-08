@@ -183,6 +183,19 @@ function setupSelectionTool() {
         active = null;
     }
 
+    function selectionIsBackward(selection) {
+        if (!selection.anchorNode || !selection.focusNode) return false;
+
+        const directionProbe = document.createRange();
+        try {
+            directionProbe.setStart(selection.anchorNode, selection.anchorOffset);
+            directionProbe.setEnd(selection.focusNode, selection.focusOffset);
+            return directionProbe.collapsed;
+        } catch (error) {
+            return false;
+        }
+    }
+
     function selectionInsideSource(selection) {
         if (!selection || selection.isCollapsed || !selection.rangeCount) return null;
         const range = selection.getRangeAt(0);
@@ -190,17 +203,21 @@ function setupSelectionTool() {
 
         const quote = normalizedText(selection.toString());
         if (quote.length < 2) return null;
-        return { quote: quote.slice(0, MAX_QUOTE_LENGTH), range: range.cloneRange() };
+        return {
+            quote: quote.slice(0, MAX_QUOTE_LENGTH),
+            range: range.cloneRange(),
+            backward: selectionIsBackward(selection)
+        };
     }
 
-    function positionAction(range) {
+    function positionAction(range, backward) {
         const visibleRects = Array.from(range.getClientRects()).filter((candidate) =>
             candidate.bottom >= 0
             && candidate.top <= window.innerHeight
             && candidate.right >= 0
             && candidate.left <= window.innerWidth
         );
-        const rect = visibleRects[visibleRects.length - 1];
+        const rect = visibleRects[backward ? 0 : visibleRects.length - 1];
         if (!rect || (!rect.width && !rect.height)) {
             hideAction();
             return;
@@ -219,7 +236,8 @@ function setupSelectionTool() {
         action.style.top = Math.round(top) + 'px';
     }
 
-    function updateAction() {
+    function updateAction(event) {
+        if (event && action.contains(event.target)) return;
         window.clearTimeout(updateTimer);
         updateTimer = window.setTimeout(() => {
             const candidate = selectionInsideSource(window.getSelection());
@@ -228,13 +246,13 @@ function setupSelectionTool() {
                 return;
             }
             active = candidate;
-            positionAction(candidate.range);
+            positionAction(candidate.range, candidate.backward);
         }, 30);
     }
 
-    source.addEventListener('mouseup', updateAction);
     source.addEventListener('keyup', updateAction);
-    source.addEventListener('touchend', updateAction);
+    document.addEventListener('mouseup', updateAction);
+    document.addEventListener('touchend', updateAction);
     action.addEventListener('mousedown', (event) => event.preventDefault());
 
     action.addEventListener('click', async () => {

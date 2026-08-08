@@ -42,11 +42,18 @@ layout: default
         </div>
       </div>
       {% endif %}
-      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="{{ site.baseurl }}/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪当下，留下有趣且有价值的内容。</p>
     </aside>
 
     <div class="post-container article-copy">
-      {{ content }}
+      <div class="article-copy__content" data-highlight-source>
+        {{ content }}
+      </div>
 
       <nav class="article-pagination" aria-label="相邻文章">
         {% if page.previous.url %}

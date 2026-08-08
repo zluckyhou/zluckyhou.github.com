@@ -25,6 +25,7 @@
 
         <div class="editorial-nav__links" id="editorial-nav-links">
             <a href="{{ site.baseurl }}/"{% if page.url == '/' %} aria-current="page"{% endif %}>首页</a>
+            <a class="editorial-nav__highlight" href="{{ site.baseurl }}/highlights/"{% if page.url contains '/highlights' %} aria-current="page"{% endif %}>读者精选</a>
             <a href="{{ site.baseurl }}/ai-daily/"{% if page.url contains '/ai-daily' or page.categories contains 'ai-daily' %} aria-current="page"{% endif %}>AI 日报</a>
             <a href="{{ site.baseurl }}/reddit-daily/"{% if page.url contains '/reddit-daily' or page.categories contains 'reddit' %} aria-current="page"{% endif %}>Reddit 精选</a>
             <a href="{{ site.baseurl }}/company-research/"{% if page.url contains '/company-research' or page.categories contains 'company-research' %} aria-current="page"{% endif %}>公司观察</a>

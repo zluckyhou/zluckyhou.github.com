@@ -14,6 +14,10 @@
     {{ content }}
 
     {% include footer.html %}
+
+    {% if page.layout == 'post' or page.layout == 'daily' or page.url == '/highlights/' %}
+    <script type="module" src="{{ "/js/highlights.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
     
 <!--  添加firebase SDK    -->
  <script type="module">

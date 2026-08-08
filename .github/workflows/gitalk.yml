@@ -1,30 +1,26 @@
-name: Gitalk
+name: Initialize Gitalk comments
 
 on:
-  push:
-    branches:
-      - gh-pages
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   issues: write
 
 jobs:
   gitalk:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Checkout published site
+        uses: actions/checkout@v4
         with:
           ref: gh-pages
-          fetch-depth: 0
+          path: _published_site
 
-      - name: Run Gitalk Action
-        uses: Yikun/gitalk-actions@v0.0.1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repo: zluckyhou.github.com  # 请确认这是正确的仓库名
-          owner: zluckyhou
-          clientId: ${{ secrets.GITALK_CLIENT_ID }}
-          clientSecret: ${{ secrets.GITALK_CLIENT_SECRET }}
+      - name: Initialize missing comments
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/initialize_gitalk.mjs --site-dir _published_site

@@ -9,6 +9,14 @@ on:
     branches:
       - master
 
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: build-and-deploy
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -35,6 +43,11 @@ jobs:
         LANG: C.UTF-8
         LC_ALL: C.UTF-8
       run: bundle _2.4.22_ exec jekyll build
+
+    - name: Initialize Gitalk comments
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: node scripts/initialize_gitalk.mjs --site-dir _site
 
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3

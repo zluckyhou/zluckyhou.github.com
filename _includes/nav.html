@@ -33,11 +33,6 @@
             <a href="{{ site.baseurl }}/about/"{% if page.url contains '/about' %} aria-current="page"{% endif %}>关于</a>
         </div>
 
-        {% if latest_daily %}
-        <a class="editorial-nav__cta" href="{{ latest_daily.url | prepend: site.baseurl }}">READ TODAY'S ISSUE ↗</a>
-        {% else %}
-        <a class="editorial-nav__cta" href="{{ site.baseurl }}/ai-daily/">AI FRONTIER DAILY ↗</a>
-        {% endif %}
     </div>
 </nav>
 

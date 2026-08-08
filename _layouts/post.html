@@ -12,6 +12,10 @@ layout: default
   {% assign category_label = "Company intelligence" %}
   {% assign category_name = "公司观察" %}
   {% assign category_url = "/company-research/" %}
+{% elsif page.categories contains 'reddit' %}
+  {% assign category_label = "Reddit daily digest" %}
+  {% assign category_name = "Reddit 精选" %}
+  {% assign category_url = "/reddit-daily/" %}
 {% endif %}
 
 <header class="article-hero{% if page.categories contains 'ai-daily' %} article-hero--daily{% endif %}">

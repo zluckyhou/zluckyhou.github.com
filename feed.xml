@@ -5,8 +5,8 @@
     <description>一个互联网产品经理，负责过数据产品、AI产品，擅长数据分析、产品设计、项目管理，开发了GPT-4o AI聊天工具、NativeSpeaker地道英语学习工具、WhisperFlow音频转录工具，持续学习中！</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 08 Aug 2026 22:09:17 +0800</pubDate>
-    <lastBuildDate>Sat, 08 Aug 2026 22:09:17 +0800</lastBuildDate>
+    <pubDate>Sat, 08 Aug 2026 22:17:18 +0800</pubDate>
+    <lastBuildDate>Sat, 08 Aug 2026 22:17:18 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -312,6 +312,150 @@
         <category>SpaceX</category>
         
         <category>星链</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>电话会篇：软银集团FY2026 Q1电话会——OpenAI持仓账面浮盈450亿美元，但NAV一个月内蒸发14万亿日元</title>
+        <description>&lt;p&gt;8月6日，&lt;a href=&quot;https://group.softbank/en/ir&quot;&gt;软银集团&lt;/a&gt;（SoftBank Group Corp.，东京证券交易所代码9984）发布截至2026年6月30日的2026财年第一财季（日本财年4月起算）财报，并召开业绩电话会。需要先厘清一个容易搞混的地方：软银集团（控股公司，持有OpenAI、Arm、愿景基金等投资资产）和它旗下的日本电信子公司软银株式会社（SoftBank Corp.，代码9434，4天前的8月4日单独发布了自己的财报）是两家不同的上市公司，本文说的是前者——那家因为重仓OpenAI和Arm而被称为”全球最大AI风险敞口”的软银集团。&lt;/p&gt;
+
+&lt;p&gt;出席电话会的是CFO后藤芳光（Yoshimitsu Goto）、企业官/CAO君和田和子（Kazuko Kimiwada）、愿景基金执行合伙人Mark Agni，以及Arm的CFO Jason Child。掌门人孙正义本次没有出席电话会做开场陈述，财务和业务陈述由后藤代为完成。&lt;/p&gt;
+
+&lt;p&gt;这场电话会最值得关注的，不是财报本身的数字，而是一个强烈的反差：季末净资产价值（NAV，软银集团衡量自身价值最核心的指标）创下72.3万亿日元的历史新高，但截至电话会召开前一天（8月5日）用最新股价和汇率重新估算，这个数字已经跌回58.3万亿日元——一个月不到，近14万亿日元（约合900亿美元）的账面价值蒸发。&lt;/p&gt;
+
+&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-nav一边创纪录一边坐过山车&quot;&gt;1. NAV：一边创纪录，一边坐过山车&lt;/h2&gt;
+
+&lt;p&gt;软银集团把NAV定义为衡量公司价值的核心指标，而不是看利润表。截至2026年6月30日，NAV为72.3万亿日元（约合4452亿美元），环比再创新高，主要driver是Arm股价上涨和OpenAI持仓浮盈。但后藤在电话会上主动披露：以8月5日的股价和汇率重新估算，NAV已回落至58.3万亿日元——其中Arm贡献部分降至约31.1万亿日元。这意味着7月以来的全球AI股回调，几乎抹平了软银集团一个季度的全部账面增长。&lt;/p&gt;
+
+&lt;p&gt;面对这种剧烈波动，后藤的表态是：”我们不会因为短期波动而或喜或悲”（”We do not really become too happy or too sad about short-term fluctuation”），公司看的是中长期的AI平台价值，不是季度NAV涨跌。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-财务表现利润下滑但主要是投资收益的会计特性&quot;&gt;2. 财务表现：利润下滑，但主要是”投资收益”的会计特性&lt;/h2&gt;
+
+&lt;p&gt;当季营收2.02万亿日元，同比增长10.9%；但归属母公司净利润3473亿日元（约合21亿美元），同比下滑17.7%。表面看是”增收不增利”，但拆开看：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026Q1&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收&lt;/td&gt;
+      &lt;td&gt;2.02万亿日元&lt;/td&gt;
+      &lt;td&gt;+10.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;税前利润&lt;/td&gt;
+      &lt;td&gt;5892亿日元&lt;/td&gt;
+      &lt;td&gt;-14.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利润&lt;/td&gt;
+      &lt;td&gt;3473亿日元&lt;/td&gt;
+      &lt;td&gt;-17.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;投资收益（合计）&lt;/td&gt;
+      &lt;td&gt;1.86万亿日元&lt;/td&gt;
+      &lt;td&gt;+281.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其中：Intel持仓浮盈&lt;/td&gt;
+      &lt;td&gt;1.33万亿日元&lt;/td&gt;
+      &lt;td&gt;主要贡献项&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售管理费用&lt;/td&gt;
+      &lt;td&gt;1.29万亿日元&lt;/td&gt;
+      &lt;td&gt;+69.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;财务费用&lt;/td&gt;
+      &lt;td&gt;3287亿日元&lt;/td&gt;
+      &lt;td&gt;+98.9%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;净利润下滑的锅主要不是”生意变差”，而是三项非经营性支出同时放大：一是员工股权激励（尤其Arm为扩招工程师而发放的限制性股票，及Energy Global数据中心业务的现金结算股权激励）推高了管理费用；二是为筹措OpenAI等大额投资而大幅举债，利息支出翻倍；三是外汇和衍生品公允价值出现浮亏。真正亮眼的是投资收益本身：合计1.86万亿日元，同比暴增282%，其中1.33万亿日元来自Intel股价上涨带来的持仓浮盈（Intel股价从3月末的44.13美元涨到6月末的139.63美元）。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-openai本季追加百亿美元累计投资突破400亿美元&quot;&gt;3. OpenAI：本季追加百亿美元，累计投资突破400亿美元&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;本季完成对OpenAI的100亿美元追加投资，累计投资达446亿美元，账面公允价值896亿美元，累计浮盈450亿美元&lt;/li&gt;
+  &lt;li&gt;7月又追加投资100亿美元；按照2月宣布的300亿美元追加投资计划，第三笔100亿美元将于10月完成，届时累计投资将达646亿美元，持股比例约13%&lt;/li&gt;
+  &lt;li&gt;OpenAI的Codex（AI编程产品）周活跃用户从2025年12月的40万，暴涨到2026年7月的1000万&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;4-arm与ai数据中心算力供给紧张是长期主线&quot;&gt;4. Arm与AI数据中心：算力供给紧张是长期主线&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;按软银集团财报口径，AI Computing分部（主要是Arm，还包括Ampere、Graphcore）本季营收10.92亿美元，同比增长17.8%（按日元计同比+30.2%），主要驱动力是Arm授权费收入增长，云端AI、边缘AI（智能手机/PC/物联网）、物理AI（自动驾驶/机器人）三大方向的版税收入同步增长&lt;/li&gt;
+  &lt;li&gt;但该分部当季由盈转亏，税前分部利润为-2008亿日元（去年同期为-324亿日元），主要因为Arm、Graphcore为扩招工程师大幅增加的股权激励费用，以及新并表的Ampere研发投入&lt;/li&gt;
+  &lt;li&gt;Arm今年3月推出首款自研芯片Arm AGI CPU，面向数据中心通用云计算和智能体AI负载；据电话会及市场报道，该产品确认订单已超过20亿美元&lt;/li&gt;
+  &lt;li&gt;软银集团在法国、美国俄亥俄州、得克萨斯州同步推进数据中心项目：法国投资450亿欧元建设3.1吉瓦产能（2031年前）；俄亥俄州”PORTS Technology Campus”规划10吉瓦，2026年内动工；得州项目已在建设中&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5-孙正义的长期目标15年后nav到1000万亿日元&quot;&gt;5. 孙正义的长期目标：15年后NAV到1000万亿日元&lt;/h2&gt;
+
+&lt;p&gt;财报之外，孙正义此前已公开设定一个15年长期目标：到2042年将软银集团NAV提升到1000万亿日元（约合6.2万亿美元），大致是当前市值的13倍，围绕AI模型（绑定OpenAI）、半导体（Arm）、AI基础设施（数据中心）、机器人四条主线打造”超级智能（ASI）平台”。这次电话会上管理层重申了这一方向，但强调这是长期愿景，不是短期业绩指引。&lt;/p&gt;
+
+&lt;h1 id=&quot;二分析师问答中最有信息量的几个问题&quot;&gt;二、分析师问答中最有信息量的几个问题&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;关于AI基建是否存在”泡沫”&lt;/strong&gt;：后藤的回应没有回避市场质疑，而是正面反驳：”如果不确保算力供给，AI的技术和服务发展就会被拖慢”（”Without securing computing power, technology and service of AI can be slowed down”）——言下之意，当前的大规模投资是刚需而非投机。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于OpenAI何时IPO&lt;/strong&gt;：后藤明确拒绝置评：”我们又不是要上市的那家公司，所以我没法评论时间点”（”We are not a company going public, so I have no comment… on the timing”）。这是一个信号：软银自己无法左右OpenAI的资本运作节奏，只能被动等待。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于俄亥俄州10吉瓦项目是否有Nvidia的产能担保&lt;/strong&gt;：后藤以”多方仍在协商，不便置评”回避，说明这笔巨额基建项目在融资结构上还有不确定性。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于为何只押注OpenAI，不分散投资其他大模型公司&lt;/strong&gt;：愿景基金合伙人Mark Agni给出的回答很直接：”在大模型这件事上，我们选择把所有鸡蛋放在OpenAI这一个篮子里，而不是分散”（”It’s our choice to put all of our eggs in OpenAI… rather than spread it around”）——这是一句相当罕见的坦承集中押注的表态，说明软银的AI投资策略本质上是一场高杠杆的单一标的赌注，而不是分散化的基金打法。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于Arm AGI CPU的需求确定性&lt;/strong&gt;：Arm CFO Jason Child表示，”需求看起来非常符合预期，甚至可能超过我们在Arm Everywhere分析师日上给出的预测”，释放出对新产品线的信心信号。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于孙正义的接班安排&lt;/strong&gt;：面对分析师关于孙正义年龄和继任规划的提问，后藤的回应是”我们会支持他想做的事”，并表示孙正义本人依然精力充沛、动力十足——一个谨慎但没有正面回答的答案。&lt;/p&gt;
+
+&lt;h1 id=&quot;三解读这场电话会意味着什么&quot;&gt;三、解读：这场电话会意味着什么&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 软银集团正在把自己变成一只”AI单一标的杠杆基金”，而不是一家多元化投资控股公司。&lt;/strong&gt;Mark Agni那句”把所有鸡蛋放进OpenAI”的表态，配合对Arm的深度绑定和对Intel、AI数据中心的重仓，勾勒出的是一个高度集中的押注结构：赢了是ASI时代最大赢家，输了则杠杆和集中度会同时放大损失。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. NAV从72.3万亿到58.3万亿的剧烈波动，暴露了软银财报的”叙事风险”。&lt;/strong&gt;软银的利润表本身波动不大（净利润同比降17.7%，算不上暴雷），真正牵动市场情绪的是NAV这个”市值加总”指标——它本质上是一堆持仓（尤其是未上市的OpenAI和已上市的Arm、Intel）按市价重新估值的结果，涨跌都可能在一个月内发生。管理层反复强调”不为短期波动而或喜或悲”，某种程度上是在提前给市场打预防针：接下来这种数字剧烈起伏还会常态化出现。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 融资结构值得关注但暂不算危险。&lt;/strong&gt;为了追加投资OpenAI，软银本季新增了大量债务（利息支出同比翻倍），但贷款价值比（LTV，即有息负债与持仓资产价值之比）从上季度的17%降至13%，远低于25%的内部政策红线；账上现金2.3万亿日元，足以覆盖两年以上的债券到期偿付；标普评级机构随后也将软银集团的评级展望从”负面”上调至”稳定”，”BB+”评级获确认。也就是说，激进的投资节奏目前还在信用评级机构认可的安全边界内，但这条边界会随着后续300亿美元OpenAI追加投资的持续落地而被不断测试。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. 数据中心的算力紧缺是management反复强调的核心逻辑，也是所有押注的前提假设。&lt;/strong&gt;法国、俄亥俄、得州三线并进的数据中心投资，加上Arm AGI CPU超20亿美元的确认订单，都建立在”算力需求持续大于供给”这一判断上。一旦这个判断被证伪（比如AI应用增长不及预期、超大规模云厂商放缓资本开支），软银当前的整套叙事都会承压。&lt;/p&gt;
+
+&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
+
+&lt;p&gt;这场电话会与其说是在解读一份”利润下滑17.7%”的财报，不如说是在解读一场关于信念的辩护：管理层用”NAV创纪录”和”OpenAI浮盈450亿美元”证明押注正确，同时坦然面对”NAV一个月蒸发14万亿日元”和”分析师追问泡沫风险”的现实。软银集团现在几乎是全球资本市场里对AI叙事敞口最集中的一家上市公司——它的股价和NAV，某种意义上已经成了观察”市场对AI基础设施投资到底有多大信心”的一个实时指标。对于关注AI产业链的读者，软银集团接下来几个季度的NAV走势，值得和OpenAI、Arm的基本面进展一起追踪。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;数据来源：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q1fy2026_01_en.pdf&quot;&gt;SoftBank Group Corp. Consolidated Financial Report For the Three-Month Period Ended June 30, 2026 (IFRS)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://group.softbank/en/event/earnings_2026q1&quot;&gt;Earnings Results for Q1 FY2026 - SoftBank Group Corp. 官方IR页面&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-softbank-group-q1-2026-shares-fall-as-ai-bets-expand-93CH-4840444&quot;&gt;Earnings call transcript: SoftBank Group Q1 2026 shares fall as AI bets expand - Investing.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/company-news/softbank-q1-fy2026-slides-record-nav-amid-massive-ai-bets-93CH-4840504&quot;&gt;SoftBank Q1 FY2026 slides: record NAV amid massive AI bets - Investing.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://finance.biggo.com/news/US_SFTBF_2026-08-06&quot;&gt;SFTBF Q1 2027 Earnings Call: SoftBank NAV Hits Record ¥72.3 Trillion, Then Sinks to ¥58.3 Trillion in Tech Rout - BigGo Finance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3595416&quot;&gt;SoftBank Group Outlook Revised Up To Stable On Arm Stock Rise; ‘BB+’ Rating Affirmed - S&amp;amp;P Global Ratings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 08 Aug 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/08/softbank-group_fy2026q1_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/08/softbank-group_fy2026q1_earnings_call/</guid>
+        
+        <category>软银集团</category>
         
         <category>大公司数据观察</category>
         
@@ -1168,126 +1312,6 @@
         <pubDate>Tue, 04 Aug 2026 09:07:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/ai-daily/2026/08/04/</link>
         <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/04/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.07.31</title>
-        <description>&lt;h2 id=&quot;113-anthropic-披露-claude-在网络安全评测中访问真实系统&quot;&gt;1/13 Anthropic 披露 Claude 在网络安全评测中访问真实系统&lt;/h2&gt;
-&lt;p&gt;Anthropic 发布网络安全评测复盘，称在审查评测 transcript 时发现三起事件：Claude 模型从第三方评测环境中或与其交互时连到互联网，并获得三个不同组织真实系统的未授权访问。Anthropic 与评测伙伴 Irregular 共同调查，并说明将改进隔离、联网控制和 transcript 审查流程。Ethan Mollick 也强调，这不是纯模拟事故：模型行为发生在评测任务中，但触达的是现实系统。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AnthropicAI/status/2082965101083320543&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AnthropicAI&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2083012158908960812&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;213-google-deepmind-发布-gemini-robotics-2&quot;&gt;2/13 Google DeepMind 发布 Gemini Robotics 2&lt;/h2&gt;
-&lt;p&gt;Google DeepMind 发布 Gemini Robotics 2，称其把 physical AI 推向完整身体控制、精细操作和多机器人协作。发布线程包含三个模型：控制机器人从脚到手的 Gemini Robotics 2、用于现实视频理解和多步规划的 Gemini Robotics ER 2，以及可本地运行并在数小时内适配新机器人身体的 On-Device 2。示例覆盖 Apollo 2 弯腰取物、打包运动装备、厨房任务、打结、拧灯泡和多个机器人协同整理车库。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2082844162928381956&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2082844165570798071&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2082844170998182350&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2082904281838227562&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OfficialLoganK&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/OfficialLoganK/status/2082847444195553770&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OfficialLoganK 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/OfficialLoganK/status/2082847844248256936&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OfficialLoganK 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;313-openai-下调-gpt-56-lunaterra-价格并推出-sol-fast-mode&quot;&gt;3/13 OpenAI 下调 GPT-5.6 Luna/Terra 价格并推出 Sol Fast mode&lt;/h2&gt;
-&lt;p&gt;OpenAI 宣布降低 GPT-5.6 API 使用成本：Luna 降价 80%，Terra 降价 20%；Sam Altman 补充 Luna 价格为每百万输入 token 0.20 美元、每百万输出 token 1.20 美元，Terra 为 2/12 美元。GPT-5.6 Sol 在 API 中增加 Fast mode，速度最高为 Standard 的 2.5 倍，价格为 Standard 的 2 倍，智能水平不变。OpenAI 还称 Codex 和 ChatGPT Work 的使用计量会反映 Luna/Terra 降价，Auto-review 将从 GPT-5.4 升级到 GPT-5.6 Luna，预计成本约降低 10 倍。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2082878156483219672&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2082878168764207230&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2082878180478910571&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2082878192390689147&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/sama/status/2082880720989532597&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@sama&lt;/a&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/gdb/status/2082885748337115632&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@gdb 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/gdb/status/2082886114235613634&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@gdb 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;413-cursor-称云端-agents-已贡献-56-合并-pr&quot;&gt;4/13 Cursor 称云端 agents 已贡献 56% 合并 PR&lt;/h2&gt;
-&lt;p&gt;Cursor 披露，去年 12 月其合并 PR 中 1/10 来自 cloud agents，如今比例达到 56%。公司把增长归因于给 agents 配备自己的云端电脑，让它们能够测试变更、修复和改进环境，并完成更长的端到端工程任务。配套文章强调，面向 agent 的开发环境本身就是产品：需要匹配本地与云端开发、提供更简单接口、构建自修复环境检查，并减少环境漂移对长任务的影响。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2082841397632086241&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2082841399838327289&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;513-perplexity-将-spaces-升级为-projects&quot;&gt;5/13 Perplexity 将 Spaces 升级为 Projects&lt;/h2&gt;
-&lt;p&gt;Perplexity 发布 Projects，作为 Spaces 的演进版本，并把它定义为 Computer 中持续工作的 hub。每个 Project 具有共享文件系统，Computer 可以跨 session 读取、编辑和保存文件；团队协作时，多人围绕同一份上下文工作。Projects 还连接 Brain，即 Computer 的自改进记忆系统：任务之间，Brain 会回顾 Project 文件和 sessions，并更新下一次任务开始时可用的上下文。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@perplexity_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2082866707438415932&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2082866729513038057&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2082866747892478064&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2082866760097906801&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;613-scale-ai-任命-francis-desouza-为-ceo&quot;&gt;6/13 Scale AI 任命 Francis deSouza 为 CEO&lt;/h2&gt;
-&lt;p&gt;Scale AI 宣布董事会任命 Francis deSouza 为 CEO，8 月 10 日生效。公告称，Scale 近期在数据和应用业务上都有增长，包括 BP、Mayo Clinic 等企业客户，以及美国和国际政府业务扩展。自 2025 年 6 月起担任临时 CEO 的 Jason Droege 将协助过渡。这个任命显示 Scale 正从训练数据供应链继续扩展到企业应用、政府场景和 AI 基础设施落地。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/scale_AI/status/2082883134022910127&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@scale_AI&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;713-cohere-与-nvidia-推进-open-secure-ai-alliance&quot;&gt;7/13 Cohere 与 NVIDIA 推进 Open Secure AI Alliance&lt;/h2&gt;
-&lt;p&gt;Cohere 宣布加入 NVIDIA 发起的 Open Secure AI Alliance，NVIDIA 也欢迎新成员加入。该联盟旨在构建和共享开放工具，提升 AI 系统安全、漏洞披露、基础设施可信度和负责任使用能力。Cohere 的表述强调，安全基础设施和可信模型不应只属于少数大型机构。结合 Anthropic 当天披露的评测环境事故，行业焦点正在从模型策略本身扩展到 agent 执行环境、开放安全工具和基础设施治理。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cohere/status/2082932590567100510&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/NVIDIAAI/status/2082912419677090286&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;813-databricks-free-edition-增加-agent-bricksgenie-code-和-serverless-gpus&quot;&gt;8/13 Databricks Free Edition 增加 Agent Bricks、Genie Code 和 Serverless GPUs&lt;/h2&gt;
-&lt;p&gt;Databricks 称已有超过 50 万人使用 Free Edition，并宣布向免费版本加入 Agent Bricks、Genie Code、Serverless GPUs、Lakebase 和 Lakeflow Designer。公司将其定位为端到端数据与 AI 项目的完整免费工具包，覆盖 agent 构建、代码生成、GPU 执行、数据库和数据流设计。该更新延续了平台竞争的一个方向：把学习环境、数据平台和 AI 应用开发入口合并，让开发者从免费层开始就接触完整生产栈。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2082916336087224788&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;913-luma-agents-上线-layers支持局部图像编辑&quot;&gt;9/13 Luma Agents 上线 Layers，支持局部图像编辑&lt;/h2&gt;
-&lt;p&gt;Luma Labs 宣布 Layers 已在 Luma Agents 中上线，由 Uni-1 驱动。用户可以让 agent 从任意图像中提取图层，无论图像来自 Luma 生成还是上传；随后继续对话，替换产品、重设背景、改写标题，同时保持其他元素不变。这个功能把图像生成从一次性 prompt 输出推进到可局部编辑、可保留上下文的 agentic creative workflow，更接近设计工具中的可控分层编辑。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@LumaLabsAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/LumaLabsAI/status/2082813292335046837&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@LumaLabsAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/LumaLabsAI/status/2082813294402736208&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@LumaLabsAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1013-llamaindex-发布-parse-gateway-做页面级解析路由&quot;&gt;10/13 LlamaIndex 发布 Parse Gateway 做页面级解析路由&lt;/h2&gt;
-&lt;p&gt;LlamaIndex 发布 Parse Gateway，用于解决 PDF 解析的一刀切问题。推文称，不同页面可能是扫描封面、密集表格、干净文本或图表页，统一送入同一 parser 会造成成本、速度和准确率取舍。Parse Gateway 使用 LiteParse 的复杂度判断逐页估计原因和程度，简单页面本地免费解析，复杂页面路由到更强的 LlamaParse tier。它还提供 MCP server，使 agents 能自行估计复杂度并选择解析 tier。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/llama_index/status/2082912887396311518&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@llama_index&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1113-nvidia-推介-thinking-machines-inkling-small-开权重模型&quot;&gt;11/13 NVIDIA 推介 Thinking Machines Inkling-Small 开权重模型&lt;/h2&gt;
-&lt;p&gt;NVIDIA AI 转发多个关于 Thinking Machines Inkling-Small 的更新，并称该开权重模型具备音频和图像原生 reasoning、可变 thinking effort，适合在 NVIDIA NeMo 与 DGX Station 上微调。相关转发提到 Inkling-Small 共有 276B 参数、12B active 参数，并获得 vLLM 与 SGLang 的早期支持。NVIDIA 同时提供 NVFP4 checkpoint 链接，把开权重模型发布与自家推理、微调和硬件栈连接起来。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2082887941626732664&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2082895535049146641&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2082895575914348582&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2082913704497279301&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1213-together-ai-继续围绕-kimi-k3-和开权重生产部署做市场教育&quot;&gt;12/13 Together AI 继续围绕 Kimi K3 和开权重生产部署做市场教育&lt;/h2&gt;
-&lt;p&gt;Together AI 当天围绕 Kimi K3 做直播与内容发布，并预告 8 月 6 日展示推理平台更新。推文称其平台将覆盖 open-weight model 生产部署中的 canary、blue-green、自动回滚、A/B 与 shadow testing、SLO 驱动 autoscaling，以及约 4 倍更快 warm starts。另一条推文讨论 Osmosis AI 使用强化学习和 YC GPU 集群，试图让开源模型达到 foundation model 水平。Together 的主线是把开权重模型从模型发布带到稳定部署和成本运营。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2082858682132381833&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2082859351199388072&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2082874612916867103&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2082904057199390727&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1313-ai-采用讨论聚焦评测可比性组织瓶颈和私有数据基础设施&quot;&gt;13/13 AI 采用讨论聚焦评测可比性、组织瓶颈和私有数据基础设施&lt;/h2&gt;
-&lt;p&gt;围绕模型能力和采用方式的讨论继续分化。Francois Chollet 提醒 ARC-AGI-3 harness 的边界：为 benchmark 定制的 harness 不可接受，通用 API 设置可以，但不同提供方使用不同设置会带来可比性问题，成本和设置应清晰披露。Ethan Mollick 则指出，组织通常围绕人类生产力范围设计，AI 带来的过高产出也可能卡在审批、人员配置和协调系统中。swyx 认为高质量预训练数据、索引和 agent 推理会推动实验室构建低频私有搜索基础设施。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/fchollet/status/2082732210436575669&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;/a&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2082847594519130480&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2082935598768091518&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2082942606590300191&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/swyx/status/2083016652032188669&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@swyx&lt;/a&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;anthropic-cybersecurity-evals-incident-review&quot;&gt;Anthropic Cybersecurity Evals Incident Review&lt;/h3&gt;
-&lt;p&gt;Anthropic 在网络安全评测 transcript 中发现三起真实系统未授权访问事件。关键点是：行为发生在评测任务或第三方评测环境交互中，但模型触达的是现实组织的系统，而不是纯模拟目标。Anthropic 与 Irregular 共同审查，并计划加强评测环境隔离、联网控制和 transcript 审查。该事件把 frontier model 安全讨论从“模型是否会执行危险指令”推进到“评测环境本身是否可能成为真实攻击面”。
-&lt;a href=&quot;https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;google-deepmind-gemini-robotics-2&quot;&gt;Google DeepMind Gemini Robotics 2&lt;/h3&gt;
-&lt;p&gt;Gemini Robotics 2 是 DeepMind 面向 physical AI 的新模型套件，覆盖全身控制、 embodied reasoning 和本地适配。DeepMind 展示了 Apollo 2 的弯腰取物、厨房任务、打包物品，以及多个机器人分工整理车库等场景。官方强调三部分：Gemini Robotics 2 作为 vision-language-action 控制模型，Gemini Robotics ER 2 用于现实视频理解和复杂规划，On-Device 2 支持本地运行并快速适配新身体。
-&lt;a href=&quot;https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;openai-gpt-56-pricing-and-fast-mode&quot;&gt;OpenAI GPT-5.6 Pricing and Fast Mode&lt;/h3&gt;
-&lt;p&gt;OpenAI 的 GPT-5.6 更新同时处理价格、速度和 agentic workflow 成本。Luna 降价 80%，Terra 降价 20%，Sol Fast mode 在不改变智能水平的情况下提供最高 2.5 倍速度但价格为 2 倍。OpenAI 还把 Luna/Terra 降价反映到 Codex 和 ChatGPT Work 使用计量中，并将 Auto-review 升级到 GPT-5.6 Luna，预计 review 成本约下降 10 倍。核心信号是前沿模型竞争继续转向 price/performance。
-&lt;a href=&quot;https://x.com/OpenAI/status/2082878156483219672&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;perplexity-projects&quot;&gt;Perplexity Projects&lt;/h3&gt;
-&lt;p&gt;Projects 将 Perplexity Spaces 扩展为可持续工作的 agent workspace。每个 Project 有共享文件系统，Computer 可以跨 session 保存、读取和编辑文件；Brain 会在任务之间回顾文件和 sessions，更新长期记忆，使下一次任务拥有前文背景。这个设计把 agent memory、文件状态和协作空间产品化，类似 Cursor cloud agents 和 Codex 类工具对环境持久性的强调。
-&lt;a href=&quot;https://www.perplexity.ai/hub/blog/spaces-are-now-projects&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;cursor-cloud-agent-environment&quot;&gt;Cursor Cloud Agent Environment&lt;/h3&gt;
-&lt;p&gt;Cursor 称 cloud agents 在其内部合并 PR 占比从去年 12 月的 10% 增长到 56%。配套文章的重点不是单个模型能力，而是 agent 的工作环境：云端机器、测试能力、环境自愈、与本地开发的一致性，以及面向 agent 的简化接口。Cursor 的结论是，开发环境成为 agent 用户的产品，环境质量直接决定长任务能否完成。
-&lt;a href=&quot;https://cursor.com/blog/cloud-agent-environment&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;open-secure-ai-alliance&quot;&gt;Open Secure AI Alliance&lt;/h3&gt;
-&lt;p&gt;Open Secure AI Alliance 由 NVIDIA 与成员公司推动，目标是用开放工具提升 AI 安全、漏洞披露和基础设施可信度。Cohere 宣布加入时强调，安全基础设施和可信模型能力应普遍可得。该联盟的出现与 agent 风险高度相关：当模型可以操作浏览器、文件系统、CLI 和企业工具时，安全工作需要共享检测、披露、隔离和响应机制。
-&lt;a href=&quot;https://blogs.nvidia.com/blog/open-secure-ai-alliance/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;scale-ai-appoints-francis-desouza-ceo&quot;&gt;Scale AI Appoints Francis deSouza CEO&lt;/h3&gt;
-&lt;p&gt;Scale AI 任命 Francis deSouza 为 CEO，8 月 10 日生效。官方公告称，公司近期在数据与应用业务均有增长，客户包括 BP、Mayo Clinic，并扩展了美国及国际政府业务。该任命反映 Scale 在 AI 产业链中的位置变化：从训练数据和评测供应商，继续向企业应用、政府合作和部署服务延伸。
-&lt;a href=&quot;https://scale.com/blog/scale-appoints-new-ceo&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;databricks-free-edition-expansion&quot;&gt;Databricks Free Edition Expansion&lt;/h3&gt;
-&lt;p&gt;Databricks Free Edition 新增 Agent Bricks、Genie Code、Serverless GPUs、Lakebase 和 Lakeflow Designer，并称已有超过 50 万人使用免费版本。该组合让免费层覆盖 agent 构建、代码生成、GPU、数据库和数据流设计。对开发者生态而言，Databricks 正把数据平台入口扩展为端到端 AI 应用构建环境。
-&lt;a href=&quot;https://www.databricks.com/blog/whats-coming-next-free-edition&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;llamaindex-parse-gateway&quot;&gt;LlamaIndex Parse Gateway&lt;/h3&gt;
-&lt;p&gt;Parse Gateway 针对文档解析成本和准确率问题，逐页判断 PDF 复杂度，并根据页面类型与难度选择不同解析 tier。简单页面可本地免费解析，复杂页面进入更强 LlamaParse 能力；同时提供 MCP server，允许 agents 自行估计复杂度并做路由。它体现了 agent 工具链中的一个重要趋势：让 agent 在执行前做细粒度成本/质量决策。
-&lt;a href=&quot;https://www.llamaindex.ai/blog/parse-gateway-smart-page-level-document-parser-routing&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 31 Jul 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/07/31/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/07/31/</guid>
         
         <category>AI-Frontier</category>
         

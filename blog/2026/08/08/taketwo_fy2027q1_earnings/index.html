@@ -83,6 +83,7 @@
 
         <div class="editorial-nav__links" id="editorial-nav-links">
             <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
             <a href="/ai-daily/">AI 日报</a>
             <a href="/reddit-daily/">Reddit 精选</a>
             <a href="/company-research/" aria-current="page">公司观察</a>
@@ -147,11 +148,17 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
       </div>
       
-      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪当下，留下有趣且有价值的内容。</p>
     </aside>
 
     <div class="post-container article-copy">
-      <p>北京时间8月7日晚（美东时间盘前），游戏发行商<a href="https://ir.take2games.com/">Take-Two Interactive</a>公布截至2026年6月30日的2027财年第一季度业绩。净预订额（Net Bookings）13.9亿美元，同比下降3%，但略超公司此前给出的13.2亿至13.7亿美元指引区间上限；GAAP营收15.33亿美元，同比小幅增长；GAAP口径下净亏损3410万美元（每股亏损0.18美元），去年同期净亏损1190万美元（每股亏损0.07美元）。</p>
+      <div class="article-copy__content" data-highlight-source>
+        <p>北京时间8月7日晚（美东时间盘前），游戏发行商<a href="https://ir.take2games.com/">Take-Two Interactive</a>公布截至2026年6月30日的2027财年第一季度业绩。净预订额（Net Bookings）13.9亿美元，同比下降3%，但略超公司此前给出的13.2亿至13.7亿美元指引区间上限；GAAP营收15.33亿美元，同比小幅增长；GAAP口径下净亏损3410万美元（每股亏损0.18美元），去年同期净亏损1190万美元（每股亏损0.07美元）。</p>
 
 <p>财报当天最大的看点其实不是数字本身，而是11月19日即将发售的《侠盗猎车手VI》（GTA VI）——公司管理层用”前所未见”来形容其预购热度，但同时明确表示不会因为预购数据就上调全年指引。这种”热度拉满、指引克制”的反差，是理解这份财报的关键。</p>
 
@@ -296,6 +303,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <li><a href="https://www.stocktitan.net/news/TTWO/take-two-interactive-software-inc-reports-results-for-fiscal-first-j36hb8mf4k8c.html">Take-Two Q1 FY2027 Earnings: $1.39B Net Bookings - StockTitan</a></li>
 </ul>
 
+      </div>
 
       <nav class="article-pagination" aria-label="相邻文章">
         
@@ -447,6 +455,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
 
 
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
     
 <!--  添加firebase SDK    -->
  <script type="module">

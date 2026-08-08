@@ -83,6 +83,7 @@
 
         <div class="editorial-nav__links" id="editorial-nav-links">
             <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
             <a href="/ai-daily/">AI 日报</a>
             <a href="/reddit-daily/">Reddit 精选</a>
             <a href="/company-research/" aria-current="page">公司观察</a>
@@ -147,11 +148,17 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
       </div>
       
-      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪当下，留下有趣且有价值的内容。</p>
     </aside>
 
     <div class="post-container article-copy">
-      <p><a href="https://www.airbnb.com/">Airbnb</a>是一家全球领先的房屋短租共享平台，成立于2007年，其核心业务是通过在线平台连接房东和房客，为用户提供多样化的住宿选择和旅行体验服务。</p>
+      <div class="article-copy__content" data-highlight-source>
+        <p><a href="https://www.airbnb.com/">Airbnb</a>是一家全球领先的房屋短租共享平台，成立于2007年，其核心业务是通过在线平台连接房东和房客，为用户提供多样化的住宿选择和旅行体验服务。</p>
 
 <p>它于2015年8月进入中国，2022年7月30日正式退出中国，如今发展的怎么样？</p>
 
@@ -423,6 +430,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <p>数据来源：Airbnb 2024年<a href="https://s26.q4cdn.com/656283129/files/doc_financials/2024/q3/Airbnb_Q3-2024-Shareholder-Letter_Final.pdf">第三季度财报</a></p>
 
 
+      </div>
 
       <nav class="article-pagination" aria-label="相邻文章">
         
@@ -574,6 +582,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
 
 
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
     
 <!--  添加firebase SDK    -->
  <script type="module">

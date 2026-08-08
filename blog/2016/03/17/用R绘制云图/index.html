@@ -83,6 +83,7 @@
 
         <div class="editorial-nav__links" id="editorial-nav-links">
             <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
             <a href="/ai-daily/">AI 日报</a>
             <a href="/reddit-daily/">Reddit 精选</a>
             <a href="/company-research/">公司观察</a>
@@ -145,11 +146,17 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
       </div>
       
-      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪当下，留下有趣且有价值的内容。</p>
     </aside>
 
     <div class="post-container article-copy">
-      <p>构建云图分析主要包括以下三个步骤：</p>
+      <div class="article-copy__content" data-highlight-source>
+        <p>构建云图分析主要包括以下三个步骤：</p>
 
 <ul>
   <li>中文分词：jiebaR</li>
@@ -299,6 +306,7 @@ wordcloud(words,freq,scale=c(3,0.3),min.freq=-Inf,max.words=Inf,
 
 <p><img src="https://raw.githubusercontent.com/zluckyhou/zluckyhou.github.io/master/img/yuntu.PNG" alt="yuntu" /></p>
 
+      </div>
 
       <nav class="article-pagination" aria-label="相邻文章">
         
@@ -450,6 +458,10 @@ wordcloud(words,freq,scale=c(3,0.3),min.freq=-Inf,max.words=Inf,
 <link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
 
 
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
     
 <!--  添加firebase SDK    -->
  <script type="module">

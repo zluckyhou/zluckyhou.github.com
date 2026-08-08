@@ -83,6 +83,7 @@
 
         <div class="editorial-nav__links" id="editorial-nav-links">
             <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
             <a href="/ai-daily/">AI 日报</a>
             <a href="/reddit-daily/">Reddit 精选</a>
             <a href="/company-research/">公司观察</a>
@@ -145,11 +146,17 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
       </div>
       
-      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪当下，留下有趣且有价值的内容。</p>
     </aside>
 
     <div class="post-container article-copy">
-      <p>开发过程中会经常用到<code class="language-plaintext highlighter-rouge">cmd</code>命令，有时候需要在指定目录下进行操作，那么如何利用cmd命令更改目录呢？其实非常简单
+      <div class="article-copy__content" data-highlight-source>
+        <p>开发过程中会经常用到<code class="language-plaintext highlighter-rouge">cmd</code>命令，有时候需要在指定目录下进行操作，那么如何利用cmd命令更改目录呢？其实非常简单
 <a href="http://jingyan.baidu.com/article/425e69e6918df1be15fc1695.html">CMD如何切换目录</a></p>
 
 <ul>
@@ -166,6 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <p><code class="language-plaintext highlighter-rouge">cmd</code>还有一些简单操作，例如在命令提示符下输入<code class="language-plaintext highlighter-rouge">cd..</code>即可返回上一目录，输入<code class="language-plaintext highlighter-rouge">c:</code>返回C盘根目录。<a href="http://jingyan.baidu.com/article/f0e83a25f2659a22e59101b5.html">cmd命令大全</a>提供了一些有意思的命令，对于win10系统来说，其中的一些命令可能已经无法使用，<a href="http://www.ithome.com/html/win10/108551.htm">Win10命令提示符详细改进</a>提供了win10命令提示符的一些改进，有时间可以研究研究，感觉还挺有趣的。</p>
 
 
+      </div>
 
       <nav class="article-pagination" aria-label="相邻文章">
         
@@ -317,6 +325,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
 
 
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
     
 <!--  添加firebase SDK    -->
  <script type="module">

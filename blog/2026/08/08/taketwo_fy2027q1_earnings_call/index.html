@@ -83,6 +83,7 @@
 
         <div class="editorial-nav__links" id="editorial-nav-links">
             <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
             <a href="/ai-daily/">AI 日报</a>
             <a href="/reddit-daily/">Reddit 精选</a>
             <a href="/company-research/" aria-current="page">公司观察</a>
@@ -147,11 +148,17 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
       </div>
       
-      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪当下，留下有趣且有价值的内容。</p>
     </aside>
 
     <div class="post-container article-copy">
-      <p>Take-Two FY2027第一财季财报发布当天（美东时间8月7日上午8点），公司召开电话会，董事长兼CEO Strauss Zelnick携管理层出席。相比财报本身的数字，电话会的看点集中在一个绕不开的话题——GTA VI定价79.99美元是否合理，以及公司如何回应外界的争议。</p>
+      <div class="article-copy__content" data-highlight-source>
+        <p>Take-Two FY2027第一财季财报发布当天（美东时间8月7日上午8点），公司召开电话会，董事长兼CEO Strauss Zelnick携管理层出席。相比财报本身的数字，电话会的看点集中在一个绕不开的话题——GTA VI定价79.99美元是否合理，以及公司如何回应外界的争议。</p>
 
 <h1 id="一定价争议zelnick正面回应rockstar做对了">一、定价争议：Zelnick正面回应「Rockstar做对了」</h1>
 
@@ -215,6 +222,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <li><a href="https://www.tweaktown.com/news/113040/take-two-ceo-on-gta-6s-dollars100-price-i-think-rockstar-got-it-right-given-the-hype-we-could-have-made-other-pricing-choices/index.html">Take-Two CEO on GTA 6’s $100 price: I think Rockstar got it right - TweakTown</a></li>
 </ul>
 
+      </div>
 
       <nav class="article-pagination" aria-label="相邻文章">
         
@@ -366,6 +374,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
 
 
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
     
 <!--  添加firebase SDK    -->
  <script type="module">

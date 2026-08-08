@@ -83,6 +83,7 @@
 
         <div class="editorial-nav__links" id="editorial-nav-links">
             <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
             <a href="/ai-daily/">AI 日报</a>
             <a href="/reddit-daily/">Reddit 精选</a>
             <a href="/company-research/">公司观察</a>
@@ -145,11 +146,17 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
       </div>
       
-      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪当下，留下有趣且有价值的内容。</p>
     </aside>
 
     <div class="post-container article-copy">
-      <p>通过<a href="https://github.com/qiwsir/StarterLearningPython/blob/master/index.md">跟老齐学python</a>的学习，python基础已经基本过了一遍，突然发现，再过一遍并没有比第一遍学习《python基础教程》时有多大的长进，python的学习不是通过学习教程就可以掌握的，而需要不断的通过项目来练习，在项目中运用已学的知识，这样才能掌握的牢固。</p>
+      <div class="article-copy__content" data-highlight-source>
+        <p>通过<a href="https://github.com/qiwsir/StarterLearningPython/blob/master/index.md">跟老齐学python</a>的学习，python基础已经基本过了一遍，突然发现，再过一遍并没有比第一遍学习《python基础教程》时有多大的长进，python的学习不是通过学习教程就可以掌握的，而需要不断的通过项目来练习，在项目中运用已学的知识，这样才能掌握的牢固。</p>
 
 <p>因此，本文尝试学习很久以来一直想学的爬虫技术，我相信这一次不会再半途而废。</p>
 
@@ -188,6 +195,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <p>知乎上的一个问题彻底激起了我学习爬虫的激情，<a href="https://www.zhihu.com/question/27621722">能利用爬虫技术做到哪些很酷很有趣很有用的事情？</a>，看完之后你是不是也想爬一下呢！</p>
 
 
+      </div>
 
       <nav class="article-pagination" aria-label="相邻文章">
         
@@ -339,6 +347,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
 
 
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
     
 <!--  添加firebase SDK    -->
  <script type="module">

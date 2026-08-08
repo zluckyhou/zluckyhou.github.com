@@ -83,6 +83,7 @@
 
         <div class="editorial-nav__links" id="editorial-nav-links">
             <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
             <a href="/ai-daily/">AI 日报</a>
             <a href="/reddit-daily/">Reddit 精选</a>
             <a href="/company-research/" aria-current="page">公司观察</a>
@@ -149,11 +150,17 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
       </div>
       
-      <p class="article-rail__note">独立记录产品、数据与技术如何改变商业。</p>
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪当下，留下有趣且有价值的内容。</p>
     </aside>
 
     <div class="post-container article-copy">
-      <p>11月19日，携程集团发布的2024年第三季度财报显示，公司实现了强劲的财务表现，国际业务全面复苏，出境酒店和机票预订已恢复至疫情前的120%水平。期内，公司实现净营业收入159亿元人民币，净利润达68亿元人民币，展现出良好的增长势头和盈利能力。</p>
+      <div class="article-copy__content" data-highlight-source>
+        <p>11月19日，携程集团发布的2024年第三季度财报显示，公司实现了强劲的财务表现，国际业务全面复苏，出境酒店和机票预订已恢复至疫情前的120%水平。期内，公司实现净营业收入159亿元人民币，净利润达68亿元人民币，展现出良好的增长势头和盈利能力。</p>
 
 <p><strong>一、业务表现及收入结构</strong></p>
 
@@ -179,6 +186,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <p>需要关注的是，全球经济的不确定性以及市场竞争加剧可能对公司未来增长带来挑战。但凭借稳健的财务状况、领先的市场地位和持续的技术创新，携程集团有望继续保持良好的发展势头。</p>
 
+      </div>
 
       <nav class="article-pagination" aria-label="相邻文章">
         
@@ -330,6 +338,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
 
 
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
     
 <!--  添加firebase SDK    -->
  <script type="module">

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "首页"
-description: "每天筛选值得关注的 AI 信号；用财报、产品与数据，持续记录技术如何改变商业和人的选择。"
+description: "从 AI 前沿、公司变化到 Reddit 社区与个人思考，持续筛选当下值得理解、值得保存、也值得日后重读的内容。"
 ---
 
 {% assign today_key = site.time | date: "%Y-%m-%d" %}
@@ -49,13 +49,14 @@ description: "每天筛选值得关注的 AI 信号；用财报、产品与数�
     <section class="editorial-hero">
         <div class="editorial-shell editorial-hero__grid">
             <div class="editorial-hero__copy">
-                <p class="editorial-eyebrow">产品 · 数据 · AI</p>
-                <h1>读懂 AI 进展，<br>也看公司<em>真实增长</em></h1>
-                <p class="editorial-hero__note">每天筛选值得关注的 AI 信号；用财报、产品与数据，持续记录技术如何改变商业和人的选择。</p>
+                <p class="editorial-eyebrow">技术 · 商业 · 社区 · 思考</p>
+                <h1>追踪正在发生的，<br>留下<em>有趣且有价值</em>的内容</h1>
+                <p class="editorial-hero__note">从 AI 前沿、公司变化到 Reddit 社区与个人思考，持续筛选当下值得理解、值得保存，也值得日后重读的内容。</p>
             </div>
             <aside class="editorial-manifesto">
                 <span>EDITOR'S NOTE / 001</span>
-                <p>这里不追逐所有热点。日报负责速度，公司观察负责深度，长期文章负责留下判断。</p>
+                <p>信息每天都在过期，真正有价值的判断不会。这里追踪变化，也收藏那些让人停一下、想一想、值得反复回看的内容。</p>
+                <a class="editorial-manifesto__link" href="{{ site.baseurl }}/highlights/">打开读者精选流 ↗</a>
             </aside>
         </div>
     </section>
@@ -106,30 +107,41 @@ description: "每天筛选值得关注的 AI 信号；用财报、产品与数�
 
         {% assign secondary_count = today_posts | size | minus: 1 %}
         {% if has_today_posts and secondary_count > 0 %}
-        <div class="editorial-shell today-updates" aria-label="今日其他更新">
-            <header class="today-updates__rail">
-                <p class="editorial-section-label">Also published today</p>
-                <div><strong>{{ secondary_count }}</strong><span>篇新内容</span></div>
+        <div class="editorial-shell today-carousel" data-today-carousel aria-label="今日其他更新">
+            <header class="today-carousel__header">
+                <div>
+                    <p>Also today</p>
+                    <span>今天还更新了 {{ secondary_count }} 篇</span>
+                </div>
+                <div class="today-carousel__controls" aria-label="切换今日更新">
+                    <button type="button" data-carousel-previous aria-label="查看前面的更新">←</button>
+                    <button type="button" data-carousel-next aria-label="查看后面的更新">→</button>
+                </div>
             </header>
-            <div class="today-updates__list">
-                {% for post in today_posts %}
-                    {% unless post.url == primary_post.url %}
-                    {% assign update_category = "思考与实践" %}
-                    {% if post.categories contains 'ai-daily' %}
-                        {% assign update_category = "AI 日报" %}
-                    {% elsif post.categories contains 'company-research' %}
-                        {% assign update_category = "公司观察" %}
-                    {% elsif post.categories contains 'reddit' %}
-                        {% assign update_category = "Reddit 精选" %}
-                    {% endif %}
-                    {% assign update_time = post.date | date: "%H:%M" %}
-                    <a class="today-update-card" href="{{ post.url | prepend: site.baseurl }}">
-                        <div><span>{{ update_category }}</span><time datetime="{{ post.date | date_to_xmlschema }}">{% if update_time == "00:00" %}今日{% else %}{{ update_time }}{% endif %}</time></div>
-                        <h3>{{ post.headline | default: post.title }}</h3>
-                        <span aria-hidden="true">↗</span>
-                    </a>
-                    {% endunless %}
-                {% endfor %}
+            <div class="today-carousel__viewport" data-carousel-viewport tabindex="0">
+                <div class="today-carousel__track">
+                    {% for post in today_posts %}
+                        {% unless post.url == primary_post.url %}
+                        {% assign update_category = "思考与实践" %}
+                        {% if post.categories contains 'ai-daily' %}
+                            {% assign update_category = "AI 日报" %}
+                        {% elsif post.categories contains 'company-research' %}
+                            {% assign update_category = "公司观察" %}
+                        {% elsif post.categories contains 'reddit' %}
+                            {% assign update_category = "Reddit 精选" %}
+                        {% endif %}
+                        {% assign update_time = post.date | date: "%H:%M" %}
+                        <a class="today-carousel__card" href="{{ post.url | prepend: site.baseurl }}">
+                            <div>
+                                <span>{{ update_category }}</span>
+                                <time datetime="{{ post.date | date_to_xmlschema }}">{% if update_time == "00:00" %}今日{% else %}{{ update_time }}{% endif %}</time>
+                            </div>
+                            <h3>{{ post.headline | default: post.title }}</h3>
+                            <span aria-hidden="true">↗</span>
+                        </a>
+                        {% endunless %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
         {% endif %}
@@ -184,3 +196,33 @@ description: "每天筛选值得关注的 AI 信号；用财报、产品与数�
         </div>
     </section>
 </main>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-today-carousel]').forEach(function (carousel) {
+        var viewport = carousel.querySelector('[data-carousel-viewport]');
+        var previous = carousel.querySelector('[data-carousel-previous]');
+        var next = carousel.querySelector('[data-carousel-next]');
+        if (!viewport || !previous || !next) return;
+
+        function updateControls() {
+            var maxScroll = viewport.scrollWidth - viewport.clientWidth;
+            previous.disabled = viewport.scrollLeft <= 2;
+            next.disabled = viewport.scrollLeft >= maxScroll - 2;
+        }
+
+        function move(direction) {
+            viewport.scrollBy({
+                left: direction * Math.max(280, viewport.clientWidth * 0.72),
+                behavior: 'smooth'
+            });
+        }
+
+        previous.addEventListener('click', function () { move(-1); });
+        next.addEventListener('click', function () { move(1); });
+        viewport.addEventListener('scroll', updateControls, { passive: true });
+        window.addEventListener('resize', updateControls);
+        updateControls();
+    });
+});
+</script>

@@ -1,0 +1,25 @@
+name: Telegram notify
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "_posts/**"
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Notify Telegram about new posts
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: python3 .github/scripts/tg_notify.py

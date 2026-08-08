@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "关于"
-description: "现就职于鹰角网络，关注数据、AI 应用与产品设计，也持续记录当下有趣且有价值的变化。"
+title: "关于作者"
+description: "现就职于鹰角网络，关注数据、AI 应用与产品设计，长期记录关于产品与技术的观察和思考。"
 permalink: /about/
 ---
 

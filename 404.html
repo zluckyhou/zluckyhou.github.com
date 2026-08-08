@@ -1,16 +1,17 @@
 ---
-layout: page    
-header-img: "img/red.jpg"  
-description: "你来到了一片荒芜之地"
-permalink: 404.html  
+layout: default
+title: "页面不存在"
+permalink: 404.html
 ---
 
-<div class="text-center">
-  <h1>Whoops, this page doesn't exist.</h1>
-  <h1>You're Lost. </h1>
-  <h1>Quik,the way back is fading away...<h1>
-  <br/>
-
-  <img src="{{ site.baseurl }}/img/404-southpark.png" />
-</div>
-
+<main class="error-page">
+    <div class="editorial-shell">
+        <p class="editorial-eyebrow">404 / Not found</p>
+        <h1>这个页面不存在，<br>或者已经<em>搬走了</em>。</h1>
+        <p class="error-page__note">链接可能已过期，也可能是地址拼写有误。可以回首页看看最近的更新，或者去全部文章里找找。</p>
+        <div class="error-page__links">
+            <a href="{{ site.baseurl }}/">回首页 ↗</a>
+            <a href="{{ site.baseurl }}/archive/">全部文章 ↗</a>
+        </div>
+    </div>
+</main>

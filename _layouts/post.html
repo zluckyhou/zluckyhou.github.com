@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
-{% assign category_label = "Ideas & practice" %}
-{% assign category_name = "文章" %}
-{% assign category_url = "/articles/" %}
-{% if page.categories contains 'ai-daily' %}
+{% assign category_label = "Archive" %}
+{% assign category_name = "全部文章" %}
+{% assign category_url = "/archive/" %}
+{% if page.categories contains 'ideas' %}
+  {% assign category_label = "Ideas & practice" %}
+  {% assign category_name = "文章" %}
+  {% assign category_url = "/articles/" %}
+{% elsif page.categories contains 'ai-daily' %}
   {% assign category_label = "AI Frontier Daily" %}
   {% assign category_name = "AI 日报" %}
   {% assign category_url = "/ai-daily/" %}
@@ -21,7 +25,7 @@ layout: default
 <header class="article-hero{% if page.categories contains 'ai-daily' %} article-hero--daily{% endif %}">
   <div class="editorial-shell article-hero__inner">
     <p class="article-kicker">{{ category_label }} <span>/</span> {{ page.date | date: "%Y.%m.%d" }}</p>
-    <h1>{% if page.categories contains 'ai-daily' and page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+    <h1>{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
     {% if page.subtitle %}<p class="article-subtitle">{{ page.subtitle }}</p>{% endif %}
     {% if page.description %}<p class="article-deck">{{ page.description | markdownify | strip_html }}</p>{% endif %}
     <div class="article-byline">
@@ -51,7 +55,7 @@ layout: default
         <a href="{{ site.baseurl }}/highlights/">读者精选流 ↗</a>
         <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
       </div>
-      <p class="article-rail__note">追踪当下，留下有趣且有价值的内容。</p>
+      <p class="article-rail__note">追踪正在发生的，留下值得重读的。</p>
     </aside>
 
     <div class="post-container article-copy">

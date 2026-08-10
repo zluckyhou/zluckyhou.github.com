@@ -5,9 +5,140 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Aug 2026 09:23:42 +0800</pubDate>
-    <lastBuildDate>Mon, 10 Aug 2026 09:23:42 +0800</lastBuildDate>
+    <pubDate>Mon, 10 Aug 2026 11:48:33 +0800</pubDate>
+    <lastBuildDate>Mon, 10 Aug 2026 11:48:33 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.08.10</title>
+        <description>&lt;p&gt;今天这五个帖子里，有三个都在绕同一个问题打转：效率提升之后，那部分多出来的价值到底归谁。老板有老板的算法，分析师有分析师的焦虑，连买车的人都在算同一笔账。剩下两个则是纯粹的技术乐趣——一条要跑 62 秒的 CPU 指令，和一场关于文档格式的经典口水战。&lt;/p&gt;
+
+&lt;h2 id=&quot;meta-ctoai-让你效率翻倍那就把活也翻倍&quot;&gt;Meta CTO：AI 让你效率翻倍，那就把活也翻倍&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vjyd4m/meta_cto_says_employees_should_use_ai/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Meta 的 CTO 公开表示，员工借助 AI 获得的生产力提升，应该用来完成更多工作，而有人提议把省下的时间换成额外休假日，他直接评价为「非常蠢」。这话在 r/technology 上瞬间点燃了评论区。&lt;/p&gt;
+
+&lt;p&gt;最集中的反问只有一句：那薪酬涨不涨？有人算得很直白——如果 AI 让你效率翻倍，最后唯一真正翻倍的只有工作量。但评论区没有停留在情绪上，几条冷静的回复把逻辑讲透了：工资从来不是按你创造的价值定价，而是按「别人愿意用多少钱做同样的活」定价，一旦所有人都能靠 AI 干两倍的活，市场基准就是两倍产出配原来的薪水。也有人搬出股权论——RSU 会随公司估值一起涨，所以理论上员工是分到了红利的——这条被踩得很惨，但反驳它的人给出的证据更有说服力：计算机普及的时候也没见工资跟着生产力曲线走。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If AI makes you twice as productive, somehow the only thing that gets doubled is the workload.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/consumersguide，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vjyd4m/meta_cto_says_employees_should_use_ai/p2p8gf8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“how much employers pay is based on how much others are willing/capable of doing the work for. if all employees are capable of doing 2x the work magically, then the expected output is 2x with the same wages.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/charging_chinchilla，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vjyd4m/meta_cto_says_employees_should_use_ai/p2pg82l/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这套逻辑对国内读者应该并不陌生。真正值得警惕的不是「多干活」本身，而是 AI 把交付基准线整体抬高之后，原来那个「按时完成就算合格」的锚点会悄悄消失。有条评论说自己花了近二十年才遇到一位认同「早干完就多派活」终将导致 burnout 的老板——这句话之所以能获得高赞，恰恰说明它有多稀缺。&lt;/p&gt;
+
+&lt;h2 id=&quot;分析师第一次用上接进数仓的-ai然后开始怕自己废掉&quot;&gt;分析师第一次用上「接进数仓的 AI」，然后开始怕自己废掉&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1vjrype/just_used_ai_for_the_first_time_need_your_advice/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一位老派数据分析师换到大厂后，第一次用上和数据仓库、语义层深度打通的 AI 工具：描述需求，它自己找表找字段、推断 join、写并执行 SQL、检查空值和分布、还帮你校验结果。他形容体验「离谱地好用」，随即冒出两个问题——我会不会因此手废了？以及，这对数据岗意味着什么？&lt;/p&gt;
+
+&lt;p&gt;评论区的回答意外地统一而且清醒。第一条被顶起来的观点是：公司里把 AI 用得最好的那个人，恰恰是原本功底最扎实的人，因为只有他知道什么输出该接受、什么地方该纠偏。有人举了个特别典型的例子：同事每天把格式完全相同的 PDF 丢给 ChatGPT 转表格，结果时好时坏，却从没想过让 AI 直接写一个确定性的 Python 脚本——区别不在提示词，而在你脑子里有没有那前几步的方法论。另一派回答则直接重构了提问的前提：你是在把自己定义成「写 SQL 的人」，而不是「数据分析师」。也有人诚实承认真的会退化——不是分析能力，而是面试白板上手写查询的肌肉记忆，一段时间不练就明显生疏。最扎心的一条担忧来自一位非数据领域的资深从业者：AI 帮资深者跳过的那些「枯燥的开头部分」，恰恰是初级员工唯一能长出高级能力的地方。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Anecdotally, the person who uses AI the most efficiently at my company is the one who knew the most beforehand, so they better understand what outcomes to accept and how to steer AI since they’ve already done these things before.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Kawhi_Leonard_，&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1vjrype/just_used_ai_for_the_first_time_need_your_advice/p2nnyt7/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“You are framing your job as being a SQL programmer and not a data analyst. SQL is just a tool to extract and manipulate data.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/jejasin，&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1vjrype/just_used_ai_for_the_first_time_need_your_advice/p2nv3kw/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺带一提，评论里还有个容易被忽略的细节：好几个人羡慕的其实不是那个 AI，而是「有一个能用的语义层」。有人吐槽自己待过的公司每个指标都有四五个版本，谁也说不清区别——在这种数据底子上接 AI，只会让错误答案生成得更快。这大概是对国内很多团队最实际的提醒：AI 提效的前置条件是数据治理，顺序反了就是加速踩坑。&lt;/p&gt;
+
+&lt;h2 id=&quot;有人在给最慢的汇编指令排名冠军跑了-62-秒&quot;&gt;有人在给「最慢的汇编指令」排名，冠军跑了 62 秒&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1vjketg/assembly_hall_of_shame_racing_to_the_bottom_of/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一个叫 Assembly Hall of Shame 的项目在比谁能让单条 CPU 指令跑得最慢，榜首的成绩是一条指令耗时 62 秒。r/programming 的讨论迅速从「这也行」转向了「这到底算不算作弊」。&lt;/p&gt;
+
+&lt;p&gt;技术上的解释很有意思：这些极慢指令大多不是 CPU 本身算得慢，而是走了 MMIO——内存控制器把外设的寄存器映射进了 CPU 地址空间，于是一条普通的读写指令实际上在等最慢的那条总线。有人因此觉得这偏离了主题，充其量是在找慢 I/O；反驳的一方则说，人家并没有直接把核心关掉，只是让其他核心去疯狂挤占同一条通道，把它排到队尾——重点是全程都用「正常操作」堆出了这个结果。真正让这件事从趣闻变成正事的是另一条评论：SMM（系统管理模式）的安全性依赖「所有核心同时进入或同时退出」，实现上通常会加一个约 40 亿周期、也就是差不多一秒的超时保护，前提假设是「没有指令能跑那么久」——而这个榜单正好证明了这个假设不成立，攻击者可以把某个核心卡在一条超长指令里。榜单里还有更阴间的条目，比如 split lock：不仅自己奇慢，执行期间还会锁死整条内存总线，让所有其他核心一起陪跑；有人在 VFIO 虚拟化环境里就撞上过，Linux 默认的 split lock 检测反而把 Windows 客户机拖到蓝屏。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I would never have guessed that 62 seconds for a single instruction was possible without outright cheating like disabling the core it’s scheduled on. Incredible stuff.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/HighRelevancy，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1vjketg/assembly_hall_of_shame_racing_to_the_bottom_of/p2meum8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“So better add a 4,000,000,000 cycle (or ~1 wall second) timeout, right? No instruction could possible take that long, right? … Wrong!”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/KittensInc，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1vjketg/assembly_hall_of_shame_racing_to_the_bottom_of/p2qeuqk/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这类「无用之用」的项目常常比正经 benchmark 更有价值：它们专门去撞那些写在注释里的隐含假设。「一条指令不可能跑超过一秒」听起来天经地义，但只要写进了超时逻辑，它就是一个可以被攻击的边界条件。做工程久了会有种直觉——每一个你觉得「不可能发生所以不用处理」的分支，早晚都会有人专门造出那个场景给你看。&lt;/p&gt;
+
+&lt;h2 id=&quot;python-该不该像-rust-一样统一-docstring-格式&quot;&gt;Python 该不该像 Rust 一样统一 docstring 格式&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1vjweaj/should_we_standardize_docstring_formats/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人羡慕 Rust：文档注释统一用 Markdown，连 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;# Errors&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;# Panics&lt;/code&gt; 这样的小标题都是约定俗成的，所以 docs.rs 能给任何一个 crate 自动生成文档站，LSP 也只需要处理一种格式。反观 Python，NumPy 风格、Google 风格、若干种 reST 变体并存，他的提议是：定一个 Markdown 标准，让 PyPI 能自动建文档站。&lt;/p&gt;
+
+&lt;p&gt;评论区第一时间甩出了 PEP 287——2002 年就有的官方文档字符串规范，至今仍是 active 状态，「有标准」和「大家照着做」显然是两回事。紧接着是必然出现的 XKCD 927 梗（想统一 14 种标准的结果是产生第 15 种），但这次的反驳挺有说服力：pyproject.toml 和 PEP 751 都证明了 Python 是能收敛标准的。真正的分歧在落地路径上——有人质问「你打算去把全世界已有项目的 docstring 都改一遍吗」，发帖人的回应是这可以做成 opt-in，就像当年类型标注用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;py.typed&lt;/code&gt; 标记一样，没人被强制迁移。还有一条冷静的长期视角：Rust 现在格式统一只是因为它还年轻，Markdown 也不会是最后一种标准，语言要么停止演化，要么接受标准漂移。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“You gonna go and update all the docstrings in every Python project ever written to match your new standard? Good luck with that.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Exnixon，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1vjweaj/should_we_standardize_docstring_formats/p2ot95y/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There’s no reason to force everyone to update, just like the addition of type hints didn’t force everyone to update their signatures.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/denehoffman（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1vjweaj/should_we_standardize_docstring_formats/p2owbka/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这场争论现在多了一层新意义：docstring 已经不只是给人看的了。LLM 和各类代码 agent 读代码时，格式统一、结构可预测的文档字符串直接决定了它们能不能正确理解一个 API 的错误行为和边界条件。type hints 当年靠 opt-in 慢慢渗透，最后几乎成了现代 Python 的默认写法——docstring 标准化如果真要推，大概率也只能走这条路。&lt;/p&gt;
+
+&lt;h2 id=&quot;马力从没这么便宜过可大家想要的是便宜的车&quot;&gt;马力从没这么便宜过，可大家想要的是便宜的车&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vk25f8/oc_horsepower_has_never_been_cheaper/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一位网友用 EPA 燃油经济性数据库里近 7 万个车型版本做了个指标：用上市价除以马力。换算成 2026 年的币值后，1992 年的中位数是每马力 261 美元，2026 年是 176 美元——便宜了 32.6%，而汽车的其他一切成本都在往反方向走。&lt;/p&gt;
+
+&lt;p&gt;评论区几乎没人质疑数据，但所有人都在质疑这个指标本身衡量的是不是大家关心的东西。最高赞的一条说得很到位：现代车更强、更省油、科技配置更多，这些没人否认；问题是消费者宁愿把这些东西砍掉一部分，换一个整体更低的价格。围绕「那为什么车厂不造便宜车」的追问，一位自称在大车厂做高级工程师的网友给了产业侧的答案：利润率低的车型就没有研发投入，便宜车必然配置更差，而每次真有便宜车上市，嘴上喊着要的人总能找出五条理由不买它。还有人补充了一个容易被忽略的经济学细节——爱买便宜二手车的人根本不进新车市场，但二手车只能由新车变来，需求信号从一开始就传不到生产端；以及，砍掉一个中控屏也许能省 100 美元，但为此多开一条产线配置的固定成本，靠那点需求根本摊不平。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I think everyone can agree you get more tech, efficiency, and power out of modern vehicles. The complaint is that they’d rather take some of that out and pay less altogether”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/hawkeyes007，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vk25f8/oc_horsepower_has_never_been_cheaper/p2q086d/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Cars with less profit margin will have less development, cars that cost less will have less features.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Usedtissue_Gaming，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vk25f8/oc_horsepower_has_never_been_cheaper/p2r06du/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这是一个很好的「指标陷阱」样本：单位马力价格确实在下降，结论在数学上完全成立，但它默默假设了消费者买车是在买马力。做数据分析时最容易犯的错，往往不是算错，而是选了一个自己算得出来、却不是用户真正在意的分母。这条经验放在产品指标、KPI 设计上同样成立——很多「持续向好」的曲线，只是分母选得聪明而已。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;今天这几个帖子摆在一起，最耐人寻味的还是那条隐线：效率提升本身几乎从不自动惠及创造它的人，从打工人到分析师到买车的消费者，多出来的那部分价值最终流向哪里，取决于议价能力和衡量标准由谁定义。而这，恰恰是技术讨论里最少被讨论的部分。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Aug 2026 09:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/10/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/10/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.08.09</title>
@@ -1031,200 +1162,6 @@
         <pubDate>Sat, 08 Aug 2026 00:00:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/blog/2026/08/08/airbnb_2026q2_earnings_call/</link>
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/08/airbnb_2026q2_earnings_call/</guid>
-        
-        <category>爱彼迎</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>爱彼迎2026年Q2财报——营收36亿美元同比增17%，AI原生转型故事推动股价盘后暴涨11%</title>
-        <description>&lt;p&gt;8月6日美股盘后，&lt;a href=&quot;https://investors.airbnb.com/&quot;&gt;爱彼迎&lt;/a&gt;发布2026年第二季度财报。营收36.1亿美元，同比增长17%（剔除汇率影响为13%），超出市场预期的35.8亿美元；调整后每股收益1.37美元，同样超出市场预期的1.26美元。财报发布后，爱彼迎股价盘后一度暴涨近11%，冲上168美元，重回52周区间中位数以上。&lt;/p&gt;
-
-&lt;p&gt;这是一份”预期之上、指引之上”的双击财报，而串起整份财报的核心叙事，是CEO Brian Chesky反复强调的一句话——”AI是爱彼迎有史以来遇到的最好的事情”。下面拆开来看。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-业务概览&quot;&gt;1. 业务概览&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;主营业务：短租住宿预订平台，近年扩展至酒店、体验（Experiences）和各类旅行配套服务（用车、行李寄存、杂货配送等）&lt;/li&gt;
-  &lt;li&gt;行业地位：全球最大的短租住宿平台，正从”订房App”向”旅行一站式平台”转型&lt;/li&gt;
-  &lt;li&gt;核心竞争力：全球房源库存规模、品牌认知度，以及近两年集中投入的AI基础设施&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;可以把这个季度的爱彼迎理解为”两条线同时在跑”：一条是主业（住宿）继续稳健增长，另一条是管理层押注的”第二增长曲线”——用AI重构产品研发效率，同时把酒店、体验、旅行服务这些新业务当作新的收入入口。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-本季核心财务数据&quot;&gt;2. 本季核心财务数据&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;数值&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收&lt;/td&gt;
-      &lt;td&gt;36.1亿美元&lt;/td&gt;
-      &lt;td&gt;+17%（剔除汇率+13%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;8.16亿美元&lt;/td&gt;
-      &lt;td&gt;净利率23%（去年同期21%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;稀释每股收益&lt;/td&gt;
-      &lt;td&gt;1.27美元&lt;/td&gt;
-      &lt;td&gt;——&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后EBITDA&lt;/td&gt;
-      &lt;td&gt;13亿美元&lt;/td&gt;
-      &lt;td&gt;+21%，利润率35%（去年同期34%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;自由现金流&lt;/td&gt;
-      &lt;td&gt;13亿美元&lt;/td&gt;
-      &lt;td&gt;利润率35%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;过去12个月自由现金流&lt;/td&gt;
-      &lt;td&gt;48亿美元&lt;/td&gt;
-      &lt;td&gt;利润率37%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;三个数字值得划重点。&lt;strong&gt;一是利润增速快于营收增速&lt;/strong&gt;（净利润同比增速跑赢营收17%的增速），说明规模效应和AI带来的效率提升正在兑现为真实利润。&lt;strong&gt;二是自由现金流依然极其充沛&lt;/strong&gt;，过去12个月48亿美元的自由现金流，对应37%的利润率，这在互联网平台里属于顶级水平。&lt;strong&gt;三是本季度回购了11亿美元股票&lt;/strong&gt;，账上还有34亿美元回购额度，自2022年Q3以来公司总股本已经缩减约10%。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-交易量指标gbv与订单量双双加速&quot;&gt;3. 交易量指标：GBV与订单量双双加速&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;数值&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总预订金额（GBV）&lt;/td&gt;
-      &lt;td&gt;272亿美元&lt;/td&gt;
-      &lt;td&gt;+16%（剔除汇率+15%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;间夜与体验预订量（Nights and Seats Booked）&lt;/td&gt;
-      &lt;td&gt;1.483亿&lt;/td&gt;
-      &lt;td&gt;+10%，较Q1加速&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;平均每日房价（ADR）&lt;/td&gt;
-      &lt;td&gt;184美元&lt;/td&gt;
-      &lt;td&gt;+5%（剔除汇率+4%）&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;订单量增速从Q1到Q2出现加速，这一点比营收数字本身更值得关注——过去几个季度市场一直担心爱彼迎的预订增长在放缓，Q2的加速打消了这个疑虑。ADR（平均每日房价）同比涨了5%，说明涨价没有明显压制需求，供需两端都还健康。&lt;/p&gt;
-
-&lt;h1 id=&quot;二ai原生转型不只是噱头&quot;&gt;二、AI原生转型：不只是噱头&lt;/h1&gt;
-
-&lt;p&gt;Chesky在财报中把爱彼迎定位为”从底层重新构建的AI原生公司”，具体拿出了几个可验证的数字：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;产品从概念到上线的周期缩短了60%&lt;/li&gt;
-  &lt;li&gt;全年新功能/改进的上线数量同比增长近80%&lt;/li&gt;
-  &lt;li&gt;AI客服已经能在无人工介入的情况下解决约45%的问题咨询&lt;/li&gt;
-  &lt;li&gt;单次预订的客服成本同比下降16%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这不是一句空话式的”拥抱AI”，而是实实在在体现在成本结构里——客服成本下降直接抬升了利润率。AI搜索的测试已在本月启动，目前流量占比还很小，但管理层明确把”定价”称为”除了先享后付（Reserve Now, Pay Later）之外，最大的单一增长杠杆”，暗示AI驱动的动态定价能力会是下一阶段的重点。&lt;/p&gt;
-
-&lt;h1 id=&quot;三酒店业务增速是主业的三倍&quot;&gt;三、酒店业务：增速是主业的三倍&lt;/h1&gt;
-
-&lt;p&gt;酒店业务是本季财报的另一个亮点。爱彼迎在20多个目的地新增了数千家精品与独立酒店，酒店间夜的增速约为传统民宿（Homes）的三倍——虽然酒店在总预订量中占比仍是个位数百分比，但增长曲线陡峭。&lt;/p&gt;
-
-&lt;p&gt;更有意思的是一个交叉销售数据：约35%首次在爱彼迎预订酒店的用户，后续会回来预订民宿。管理层的解读是”酒店业务反而让主业变得更强”——酒店成了吸引新用户尝鲜的入口，而不是对民宿业务的替代或蚕食。&lt;/p&gt;
-
-&lt;p&gt;体验（Experiences）业务供给同比增长80%，虽然基数还小，但预订量增速在加快，管理层称之为”1到10再到多”（1 to 10 to many）的打法：先在单个城市验证产品市场匹配度，再复制扩张。&lt;/p&gt;
-
-&lt;h1 id=&quot;四地区表现&quot;&gt;四、地区表现&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;北美、欧洲：中高个位数间夜增长&lt;/li&gt;
-  &lt;li&gt;拉丁美洲：约20%增长&lt;/li&gt;
-  &lt;li&gt;亚太地区：高双位数增长&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;新兴市场和Z世代用户是首次预订用户增长的主要来源——本季度首次预订用户增速达到11%，是过去四年最高水平。&lt;/p&gt;
-
-&lt;h1 id=&quot;五指引全年上调&quot;&gt;五、指引：全年上调&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Q3 2026指引：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;营收：46.9亿-47.7亿美元（同比+15%至17%，含约3%汇率利好）&lt;/li&gt;
-  &lt;li&gt;GBV增速：中双位数&lt;/li&gt;
-  &lt;li&gt;调整后EBITDA利润率：因投资节奏原因，略低于去年同期&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;全年2026指引（上调）：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;营收增速：从此前的”低到中双位数”上调至”至少中双位数”&lt;/li&gt;
-  &lt;li&gt;调整后EBITDA利润率：从此前的35%上调至”至少35.5%”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这次上调指引是股价盘后暴涨的直接触发因素——市场原本担心的是”AI投入会不会侵蚀利润率”，而爱彼迎交出的答案是”营收和利润率指引双双上调”。&lt;/p&gt;
-
-&lt;h1 id=&quot;六亮点与隐忧&quot;&gt;六、亮点与隐忧&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;亮点：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;营收、EPS双双超预期，订单量增速环比加速&lt;/li&gt;
-  &lt;li&gt;全年营收增速与利润率指引同步上调&lt;/li&gt;
-  &lt;li&gt;AI落地到客服成本、研发效率等实打实的经营指标里&lt;/li&gt;
-  &lt;li&gt;酒店业务成为验证有效的第二增长曲线，且反哺主业&lt;/li&gt;
-  &lt;li&gt;自由现金流利润率高达37%，回购持续进行&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;隐忧：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;酒店业务占比依然是个位数百分比，短期内还撑不起营收大盘&lt;/li&gt;
-  &lt;li&gt;AI搜索仍处于小流量测试阶段，能否复制客服场景的效率提升尚待验证&lt;/li&gt;
-  &lt;li&gt;剔除汇率影响后的营收增速（13%）明显低于名义增速（17%），本季度有汇率的助攻成分&lt;/li&gt;
-  &lt;li&gt;管理层已经把”三阶段愿景”（旅行配套服务→旅行一站式平台→跳出旅行）摆上台面，长期故事变复杂，执行难度也在上升&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;七总结&quot;&gt;七、总结&lt;/h1&gt;
-
-&lt;p&gt;这是一份”数字全面向好+叙事被验证”的财报。爱彼迎用可量化的效率数据（周期缩短60%、客服成本降16%）证明了”AI原生”不只是公关话术，同时酒店业务和体验业务的增长曲线也说明其平台化战略正在落地。市场用近11%的盘后涨幅给出了正面反馈。&lt;/p&gt;
-
-&lt;p&gt;往后看，Q3和全年指引已经上调，压力也随之转移到执行端：AI搜索能否像AI客服一样兑现效率红利、酒店业务能否维持三倍于主业的增速、以及”旅行一站式平台”的故事能走多远，会是接下来几个季度的观察重点。电话会中的更多细节，见下一篇《爱彼迎2026Q2电话会解读》。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;数据来源：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investors.airbnb.com/press-releases/news-details/2026/Airbnb-Announces-Second-Quarter-2026-Results/default.aspx&quot;&gt;Airbnb Announces Second Quarter 2026 Results - Airbnb Investor Relations&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001559720/000119312526337928/d70413dex991.htm&quot;&gt;Airbnb, Inc. Form 8-K Exhibit 99.1 - SEC EDGAR&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.stocktitan.net/news/ABNB/airbnb-announces-second-quarter-2026-236qugsa79yg.html&quot;&gt;Airbnb Q2 2026 Earnings Posted - StockTitan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://m.uk.investing.com/news/transcripts/earnings-call-transcript-airbnb-tops-q2-2026-estimates-and-lifts-outlook-93CH-4818006&quot;&gt;Earnings call transcript: Airbnb tops Q2 2026 estimates and lifts outlook - Investing.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 08 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/08/airbnb_2026q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/08/airbnb_2026q2_earnings/</guid>
         
         <category>爱彼迎</category>
         

@@ -2,7 +2,7 @@
 layout: post
 title: "Reddit 每日精选 | 2026.08.10"
 headline: "AI 帮你省下的那些时间，老板已经想好拿去装什么了"
-date: 2026-08-10 09:30:00 +0800
+date: 2026-08-10 09:00:00 +0800
 categories: [reddit]
 tags: [Reddit, 每日精选]
 description: "Meta CTO 说员工用 AI 提效后就该多干活，想换几天假是「非常蠢」的念头——评论区把这句话拆成了一堂生产力经济学课。"

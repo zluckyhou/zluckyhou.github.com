@@ -36,6 +36,11 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","fireb
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai
 
+# Build posts whose date is still in the future. Defaults to false, which
+# silently skips a post if the deploy happens to run before its timestamp —
+# the build still reports success, so the post just never appears.
+future: true
+
 # Defaults for posts
 defaults:
   -

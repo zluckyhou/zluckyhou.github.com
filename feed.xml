@@ -5,9 +5,141 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 13 Aug 2026 09:03:42 +0800</pubDate>
-    <lastBuildDate>Thu, 13 Aug 2026 09:03:42 +0800</lastBuildDate>
+    <pubDate>Thu, 13 Aug 2026 12:26:51 +0800</pubDate>
+    <lastBuildDate>Thu, 13 Aug 2026 12:26:51 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>AI Frontier Daily | 2026.08.13</title>
+        <description>&lt;h2 id=&quot;116-grok-46-发布同价升级主攻知识工作与复杂任务&quot;&gt;1/16 Grok 4.6 发布：同价升级，主攻知识工作与复杂任务&lt;/h2&gt;
+&lt;p&gt;SpaceXAI 发布 Grok 4.6，称其相较 4.5 在复杂任务与知识工作上显著提升，同时保持原价。发布材料把 GDPVal-AA、AA-Briefcase、法律和编码代理任务列为重点；Elon Musk 随后开放一周双倍 token，并称模型登上 Databricks 对应榜单第一。多项领先结论目前主要来自发布方及其转述，仍需等待独立评测、稳定性和真实工作负载验证。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cursor_ai/status/2087562885962895665&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;/a&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@elonmusk&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2087601785833951705&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2087668743929487420&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;216-google-将手语转文本-sl2t-带入-pixel-11&quot;&gt;2/16 Google 将手语转文本 SL2T 带入 Pixel 11&lt;/h2&gt;
+&lt;p&gt;Google DeepMind 发布大规模多语言手语转文本模型 SL2T，率先为 Pixel 11 的 Gboard 与 Live Transcribe 提供 ASL 到英语输入。模型用超过 10 万小时、覆盖 50 多种手语的数据训练；设备端先提取身体姿态坐标，服务器只接收坐标序列完成翻译，以减少原始视频外传。Google 称其 FLEURS-ASL 零样本成绩达 70 BLEURT，产品设计由聋人社区与顾问委员会参与。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2087541213284946191&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2087541217965809850&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2087541220494938537&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/sundarpichai/status/2087594472008003850&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@sundarpichai&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;316-microsoft-首个自研推理模型-mai-thinking-1-上线-foundry&quot;&gt;3/16 Microsoft 首个自研推理模型 MAI-Thinking-1 上线 Foundry&lt;/h2&gt;
+&lt;p&gt;Microsoft AI CEO Mustafa Suleyman 宣布 MAI-Thinking-1 已在 Microsoft Foundry 提供，并称这是团队从头训练的首个推理模型；Satya Nadella 随后转发确认。当天公开材料没有给出参数规模、上下文长度、价格、基准分数或与外部模型的对照，因此目前可以确认的是模型来源与平台可用性，而非其能力排名。这一发布继续扩大微软在合作伙伴模型之外的自研模型组合。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/mustafasuleyman/status/2087570047967408396&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mustafasuleyman&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/satyanadella/status/2087590629094395925&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@satyanadella&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;416-cohere-开源-24b-视觉语言模型-north-micro-vision&quot;&gt;4/16 Cohere 开源 2.4B 视觉语言模型 North Micro Vision&lt;/h2&gt;
+&lt;p&gt;Cohere 发布 24 亿参数 North Micro Vision，采用 Apache 2.0 许可，定位于复杂文档理解和边缘设备部署。模型支持原生分辨率处理、多轮图文对话、空间推理、视觉定位及多语言图像理解；官方称其在多项测试中超过 Gemma 4 E2B 与 Ministral 3 3B。生态侧已接入 NVIDIA AutoModel、Axolotl 与 MLX，便于在 GPU 或 Apple 设备微调运行；横向成绩仍待独立复现。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cohere/status/2087571573947392419&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cohere/status/2087571576749240509&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/cohere/status/2087571579517489581&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/cohere/status/2087571582960984484&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;516-cerebras-云收入同比增-281签约-600-mw-容量&quot;&gt;5/16 Cerebras 云收入同比增 281%，签约 600 MW 容量&lt;/h2&gt;
+&lt;p&gt;Cerebras 披露 2026 年第二季度进展：GAAP 云收入同比增长 281%，核心云收入增长 287%，快速推理云业务接近四倍；公司已签约 600 MW 数据中心容量，并计划年内把制造能力扩大超过 10 倍。合作项目包括为 OpenAI 的 GPT-5.6 Sol 提供服务，以及与 AMD 推进分离式推理。公告未在推文中给出收入绝对值、利润率或实际上线容量。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cerebras&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cerebras/status/2087648835061391412&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cerebras 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cerebras/status/2087648836940361790&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cerebras 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;616-qwen38-max-以-24t-moe-和-256k-上下文接入-together-ai&quot;&gt;6/16 Qwen3.8-Max 以 2.4T MoE 和 256K 上下文接入 Together AI&lt;/h2&gt;
+&lt;p&gt;Together AI 上线 Qwen3.8-2.4T-A95B，披露模型总参数 2.4 万亿、激活参数 950 亿、上下文 256K，重点面向编码和长程代理任务，并支持任务状态、调度恢复、自测试、函数调用与结构化输出。阿里 Qwen 同日称 Qwen3.8-Max 在 Legal Research Bench 从第 22 升至第 4。Together 提供 day-zero serverless inference，但延迟、价格和独立评测仍需结合正式模型卡核对。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2087649685129318585&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2087649688270901508&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2087665914556944772&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Alibaba_Qwen/status/2087382811921854827&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;716-extractbench-揭示长文档抽取高精度低召回陷阱&quot;&gt;7/16 ExtractBench 揭示长文档抽取“高精度、低召回”陷阱&lt;/h2&gt;
+&lt;p&gt;LlamaIndex 发布 ExtractBench：370 份企业文档、4,869 页、8 个领域、67 种文档类型，共比较 14 个系统，并同时衡量准确率、长列表完整性、grounding 与成本。官方结果显示，短文档上多数系统接近，但超过 50 页后商用 VLM 召回率均低于 35%，容易返回少量正确行却漏掉大部分记录。发布推文称 Agentic Plus 长列表 F1 为 96.1%，当前网页榜单显示 94.4%，两者可能对应不同版本或口径。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@llama_index&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/llama_index/status/2087574976081617187&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@llama_index 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/llama_index/status/2087651952289071142&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@llama_index 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;816-suno-与-bmg-合作开发面向音乐行业的新模型&quot;&gt;8/16 Suno 与 BMG 合作开发面向音乐行业的新模型&lt;/h2&gt;
+&lt;p&gt;Suno 与大型音乐公司 BMG 宣布全球合作，并称这是即将发布的首个“与音乐行业共同开发”音乐模型的一部分。双方计划让自愿加入的艺术家与词曲作者参与新音乐体验，并探索新的经济机会；Suno 还将扩展面向独立音乐人的 In Session 与 Spark 项目。公告没有披露训练数据、授权范围、收入分配、模型发布时间或技术指标，当前重点是行业协作原则与 opt-in 机制。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/suno/status/2087570601485697356&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@suno&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;916-transformersjs-月下载量突破-1000-万&quot;&gt;9/16 Transformers.js 月下载量突破 1,000 万&lt;/h2&gt;
+&lt;p&gt;Hugging Face CEO Clément Delangue 表示，团队开发三年的 Transformers.js 月下载量已超过 1,000 万，约为六个月前的 10 倍，并称其已成为浏览器内运行 AI 模型最流行的开源库。该增长反映本地推理对隐私、零服务端调用和计算资源分散化的吸引力；不过推文没有公开 npm 统计链接、活跃应用数、去重用户或实际推理负载，因此数字应按下载量而非用户规模理解。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/ClementDelangue/status/2087518483718545533&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/huggingface/status/2087519311187620263&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@huggingface&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1016-databricks-用先检索再分类处理十万级标签&quot;&gt;10/16 Databricks 用“先检索再分类”处理十万级标签&lt;/h2&gt;
+&lt;p&gt;Databricks 针对生物医学实体链接、供应商归一化和公司去重，比较纯向量检索、检索后 AI Classify、以及带提示缓存的前沿模型直调。其方案先召回少量候选标签，再让模型选择，避免把十万级 taxonomy 全部塞入上下文。公司称该流程在三个基准上比最佳成本效率型前沿模型平均准确率高 5 个百分点，token 成本约为百分之一；可迁移性仍取决于数据、模型和计价口径。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2087612610329952630&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1116-groq-成为-nvidia-cloud-partner&quot;&gt;11/16 Groq 成为 NVIDIA Cloud Partner&lt;/h2&gt;
+&lt;p&gt;Groq 加入 NVIDIA Cloud Partner 计划，获认证可按 NVIDIA 参考架构和运营标准设计、部署及运行加速计算基础设施。双方此前已有非独家推理技术许可和投资关系；新认证为 Groq 在现有数据中心加入 NVIDIA 推理硬件铺路。Groq 称其在北美、欧洲、中东与亚太运营数据中心，服务超过 600 万开发者并扩展到 200 MW 以上；这些规模数据来自公司公告。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GroqInc/status/2087570841701847329&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GroqInc&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1216-sakana-chat-加入-fugunamazu-与完整代码执行&quot;&gt;12/16 Sakana Chat 加入 Fugu、Namazu 与完整代码执行&lt;/h2&gt;
+&lt;p&gt;Sakana AI 更新免登录、免费使用的 Sakana Chat，由新一代 Fugu 和日语模型 Namazu 驱动，并加入完整代码执行。用户可用日语描述需求，在浏览器内生成互动网页、游戏和工具；办公场景可上传 Excel，让系统用 Python 分析、制图并整理报告。官方把儿童汉字与数学练习、小游戏及日本企业表格工作作为示例，当前未披露模型规模、沙箱权限、安全边界或任务成功率。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@SakanaAILabs&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/SakanaAILabs/status/2087702297967243351&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@SakanaAILabs 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/SakanaAILabs/status/2087702426023514186&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@SakanaAILabs 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/SakanaAILabs/status/2087702546949521793&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@SakanaAILabs 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hardmaru/status/2087722799091847258&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hardmaru&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1316-runway-agent-接入-figmadropbox-与-notion&quot;&gt;13/16 Runway Agent 接入 Figma、Dropbox 与 Notion&lt;/h2&gt;
+&lt;p&gt;Runway 为 Agent 增加 Figma、Dropbox 和 Notion 连接器，使设计、文件与文档可以直接同步到创作代理中，减少跨工具手工搬运；该功能面向所有付费方案。公司同日还上线 Grok Imagine Image 2.0，此前已接入 LTX-2.5。连接器公告没有说明写入权限、版本冲突、审计日志、数据保留或各平台支持的对象范围，企业使用仍需核对授权与治理细节。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@runwayml&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/runwayml/status/2087552165703504056&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@runwayml 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/runwayml/status/2087664899493400926&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@runwayml 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/runwayml/status/2087374485154578692&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@runwayml 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1416-pangram-检测样本显示-claude-份额上升gemini-下降&quot;&gt;14/16 Pangram 检测样本显示 Claude 份额上升、Gemini 下降&lt;/h2&gt;
+&lt;p&gt;Pangram 用内部表示上的线性探针识别模型家族，再统计匿名聚合的检测提交。其样本中 OpenAI 每月份额一直高于 50%，Anthropic 从 2024 年的 4.3% 升至 14.9%，Google 则从约 12% 降至 2026 年 7 月的 1.9%。但该分类器单样本 top-1 准确率为 91%，且数据来自主动提交给检测器的内容，不能代表全市场；与 OpenRouter 的绝对份额也明显不同。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2087368598465745360&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1516-expedia-用-keras-3-将排序推理延迟降低-70&quot;&gt;15/16 Expedia 用 Keras 3 将排序推理延迟降低 70%&lt;/h2&gt;
+&lt;p&gt;François Chollet 转述 Expedia 住宿排序栈升级：迁移到 Keras 3 后，训练速度提高 30%，推理延迟降低 70%。改造使用后端无关的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;keras.ops&lt;/code&gt;，使现有层和模型未来可在 TensorFlow、PyTorch 或 JAX 间迁移，以利用不同优化内核。数据来自 Expedia 工程团队案例，未在推文中给出硬件、流量规模、模型结构、成本和端到端业务指标，因此不宜视为所有 Keras 迁移的通用收益。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/fchollet/status/2087519531547701335&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@fchollet 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/fchollet/status/2087519545967648808&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@fchollet 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/fchollet/status/2087557096736702699&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@fchollet 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1616-flux-3-进入-luma统一图像视频音频与动作预测&quot;&gt;16/16 FLUX 3 进入 Luma，统一图像、视频、音频与动作预测&lt;/h2&gt;
+&lt;p&gt;Luma 上线 Black Forest Labs 的 FLUX 3，称这是该系列首个覆盖图像、视频、音频和动作预测的通用模型，并已提供带原生音频的视频能力。当天公告只确认产品接入与能力范围，没有披露可用地区、分辨率、时长、价格、生成延迟、训练数据或跨模态评测。它体现视觉生成平台继续从单一图像或视频模型转向统一多模态创作入口，但实际一致性仍需使用验证。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/LumaLabsAI/status/2087554647586156897&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@LumaLabsAI&lt;/a&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
+
+&lt;h3 id=&quot;grok-46知识工作定位与发布口径&quot;&gt;Grok 4.6：知识工作定位与发布口径&lt;/h3&gt;
+&lt;p&gt;SpaceXAI 将 Grok 4.6 定位为 4.5 的同价升级，强调困难任务、知识工作、法律与编码代理表现。发布材料及外部转述称其在 GDPVal-AA、AA-Briefcase 和法律评测领先，并登上 Databricks 对应榜单第一；公司成员称它兼具高速度、低成本与高能力。当前公开信息主要是发布图、管理层推文和早期用户评价，尚缺完整模型卡、统一评测设置、价格表和第三方复现，因此“领先”应限定在披露的榜单与发布时点。
+&lt;a href=&quot;https://x.com/SpaceXAI/status/2087562800982077492&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;sl2t从-50-多种手语数据到手机端输入&quot;&gt;SL2T：从 50 多种手语数据到手机端输入&lt;/h3&gt;
+&lt;p&gt;SL2T 在超过 10 万小时、50 多种手语的数据上训练，约四分之一数据来自 ASL。设备端用 MediaPipe Holistic 把手、身体和面部动作转换为姿态坐标，只把坐标传到服务器；模型直接从坐标序列生成文本，不依赖会损失非手部标记和空间结构的 gloss。Google 报告其在 FLEURS-ASL sd-test 上达到 70 BLEURT，并针对单手持机、不同签署速度和背景做了产品优化。项目由 Deaf Googlers、聋人合作伙伴和 AISLAC 参与治理，但 rare signs、快速手指拼写和复杂时态仍会出错。
+&lt;a href=&quot;https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;north-micro-vision24b-文档视觉模型的本地生态&quot;&gt;North Micro Vision：2.4B 文档视觉模型的本地生态&lt;/h3&gt;
+&lt;p&gt;North Micro Vision 把原生分辨率图像、多轮图文、空间推理、视觉定位和多语言理解压进 2.4B 参数，并以 Apache 2.0 开放。Cohere 把复杂文档理解作为核心场景，称其在一组视觉理解、文档与 VQA 测试中超过 Gemma 4 E2B 和 Ministral 3 3B。模型已出现 NVIDIA AutoModel、Axolotl 与 MLX 路径，分别覆盖 NVIDIA GPU 适配、云端微调和 Apple 设备运行。公开权重降低了验证门槛，但不同量化、分辨率与文档长度下的准确率和内存占用仍需独立测量。
+&lt;a href=&quot;https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;cerebras近四倍云增长背后的容量扩张&quot;&gt;Cerebras：近四倍云增长背后的容量扩张&lt;/h3&gt;
+&lt;p&gt;Cerebras 的二季度公告给出 GAAP 云收入同比增长 281%、核心云收入增长 287%，并称已签约 600 MW 数据中心容量、2026 年制造能力将扩大超过 10 倍。业务侧包括为 OpenAI GPT-5.6 Sol 提供推理，以及与 AMD 合作分离式推理；这些安排显示公司正从专用晶圆级硬件向云服务和异构基础设施扩展。公告没有在摘要中提供收入绝对额、毛利、资本支出、已部署与签约容量拆分，因而更能说明增长方向，尚不足以独立判断业务规模和盈利质量。
+&lt;a href=&quot;https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-fast-inference-cloud-business-nearly-quadruples&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;extractbench为什么长文档会看起来没错却漏掉多数记录&quot;&gt;ExtractBench：为什么长文档会“看起来没错”却漏掉多数记录&lt;/h3&gt;
+&lt;p&gt;ExtractBench 把值准确率、记录完整性、词级/页级 grounding 与成本放在同一框架，覆盖 370 份文档、4,869 页、8 个领域和 67 种类型。最困难的 long-list 场景包含 26,725 行无人认领财产、8,624 条债权人记录和 3,063 项 13F 持仓。当前博客显示，50 页以上商用 VLM 的召回率均低于 35%，但精度仍高，因此抽样检查容易误判为完整；编码代理较能保持准确率，却通常付出更高成本。发布推文的 96.1% 与当前网页榜单 94.4% 不一致，使用结果时应记录版本与评测日期。
+&lt;a href=&quot;https://www.llamaindex.ai/blog/introducing-extractbench&quot;&gt;查看原文&lt;/a&gt;
+&lt;a href=&quot;https://arxiv.org/abs/2607.29677&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;suno--bmg把音乐行业参与写进模型发布前提&quot;&gt;Suno × BMG：把音乐行业参与写进模型发布前提&lt;/h3&gt;
+&lt;p&gt;Suno 称与 BMG 的合作属于其首个“与音乐行业共同开发”模型的发布计划，双方将围绕自愿加入的艺术家和词曲作者设计创作体验与经济机会。Suno 还计划扩展每周写作营，以及为独立音乐人提供资源、导师和营销支持的 In Session、Spark 项目。公告强调 human creativity、opt-in 和责任原则，但没有公布哪些作品会进入训练、怎样撤回授权、收益如何计算、是否提供来源追踪或模型何时上线；后续合同与产品机制才是检验承诺的关键。
+&lt;a href=&quot;https://suno.com/blog/suno-partnership-bmg&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;十万级标签分类检索先缩小候选模型再决策&quot;&gt;十万级标签分类：检索先缩小候选，模型再决策&lt;/h3&gt;
+&lt;p&gt;Databricks 的流程先从十万级 taxonomy 中用向量检索召回相关标签，再把候选集交给 AI Classify，避免完整标签集合超过上下文并降低调用成本。三个测试场景涵盖生物医学实体链接、供应商归一化和公司去重；公司报告其平均准确率比最佳成本效率型前沿模型高 5 个百分点，token 成本约为百分之一。方案把传统检索的高召回与模型语义判断结合，但结果受候选召回率、标签描述质量、长尾分布、缓存策略和供应商定价影响，部署时仍需用自身数据重跑。
+&lt;a href=&quot;https://www.databricks.com/blog/scaling-document-classification-100k-labels&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;pangram-的模型份额为何不能直接代表全市场&quot;&gt;Pangram 的模型份额为何不能直接代表全市场&lt;/h3&gt;
+&lt;p&gt;Pangram 用其检测器内部表示训练线性探针识别模型家族，单样本 top-1 准确率约 91%，再按月聚合用户提交的匿名文本。数据中 OpenAI 长期高于 50%，Anthropic 从 4.3% 增至 14.9%，Google 到 2026 年 7 月降至 1.9%；与 OpenRouter 对照时，两者都显示 Google 流量下降，但绝对份额不同。Pangram 样本偏向需要检测 AI 文本的用户，OpenRouter 偏向研究者和技术调用者，模型直连流量又可能缺失。因此这些曲线适合描述各自平台的趋势，不能当作消费者或 API 全市场份额。
+&lt;a href=&quot;https://www.pangram.com/blog/pangram-s-model-market-share&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Aug 2026 09:07:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/ai-daily/2026/08/13/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/13/</guid>
+        
+        <category>AI-Frontier</category>
+        
+        <category>Daily</category>
+        
+        
+        <category>ai-daily</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.08.11</title>
@@ -1080,130 +1212,6 @@
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/08/taketwo_fy2027q1_earnings/</guid>
         
         <category>Take-Two</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>SpaceX 2026Q2电话会——马斯克把万亿美元营收目标提前到2030，算力扩张成为新主线</title>
-        <description>&lt;p&gt;8月4日美东时间16:30，SpaceX（SPCX）在发布上市后首份财报（2026Q2营收78.1亿美元，同比+92%，详见&lt;a href=&quot;/blog/2026/08/07/spacex_2026q2_earnings/&quot;&gt;财报篇&lt;/a&gt;）后召开了业绩电话会。这也是SpaceX作为上市公司的第一次电话会，出席的是最核心的三人组：创始人兼CEO马斯克（Elon Musk）、总裁兼COO格温·肖特维尔（Gwynne Shotwell）、CFO布雷特·约翰森（Bret Johnsen）。&lt;/p&gt;
-
-&lt;p&gt;如果说财报回答的是”SpaceX现在赚多少钱”，这场电话会回答的是”马斯克打算把它带到哪去”——而他给出的答案比市场预期的还要激进。&lt;/p&gt;
-
-&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-马斯克万亿营收目标提前一年&quot;&gt;1. 马斯克：万亿营收目标提前一年&lt;/h2&gt;
-
-&lt;p&gt;整场电话会最重磅的一句话来自马斯克：公司内部对&lt;strong&gt;年营收达到1万亿美元&lt;/strong&gt;的预测时点，已经从2031年提前到2030年，甚至”有非零概率在2029年实现”（”a non-zero chance of that being in 2029”）。&lt;/p&gt;
-
-&lt;p&gt;做个对比：SpaceX 2025年全年营收187亿美元，2026Q2年化约312亿美元。万亿营收意味着4年再涨30倍——这个数字如果由任何其他公司说出来都近乎玩笑，马斯克敢说的底气在后面的算力扩张计划里。&lt;/p&gt;
-
-&lt;p&gt;其他关键宣布：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;全面押注Nvidia&lt;/strong&gt;：”我们决定完全独家基于Nvidia构建（算力基础设施）”，并预计明年将拿下Nvidia GPU产量中”非常可观的比例”&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Grok迭代&lt;/strong&gt;：Grok 4.6”大概下周发布”，Grok 5年底前发布，将纳入”SpaceX的全部数据语料”&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;天基算力&lt;/strong&gt;：搭载Nvidia Vera Rubin NVL72架构的”Starmind” AI卫星预计明年发射——把数据中心搬到天上的第一步&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-肖特维尔星链的运营成绩单&quot;&gt;2. 肖特维尔：星链的运营成绩单&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;上半年完成78次发射，向轨道运送1041吨载荷&lt;/li&gt;
-  &lt;li&gt;星链单季净增170万订阅用户，创历史最佳季度&lt;/li&gt;
-  &lt;li&gt;Q2新签超过60亿美元美国政府合同&lt;/li&gt;
-  &lt;li&gt;V3星链卫星带宽能力比V2”高一个数量级”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;3-约翰森家底与开支&quot;&gt;3. 约翰森：家底与开支&lt;/h2&gt;
-
-&lt;p&gt;CFO披露的几个关键数字，比财报本身更能说明这家公司的状态：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;项目&lt;/th&gt;
-      &lt;th&gt;数值&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;IPO募资净额&lt;/td&gt;
-      &lt;td&gt;857亿美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;首次投资级债券发行&lt;/td&gt;
-      &lt;td&gt;250亿美元（加权平均利率5.855%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;期末现金及等价物&lt;/td&gt;
-      &lt;td&gt;约1000亿美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;在手订单（backlog）&lt;/td&gt;
-      &lt;td&gt;475亿美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Q2资本开支&lt;/td&gt;
-      &lt;td&gt;184亿美元（其中AI算力158亿）&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;他重申了年底达到&lt;strong&gt;1000亿美元年化营收运行率&lt;/strong&gt;的指引，并给出一个让分析师印象深刻的数字：新增AI算力投资的&lt;strong&gt;回收期不到一年&lt;/strong&gt;——意思是砸下去的算力资本开支，靠出租一年内就能收回，这是管理层敢于狂飙开支的核心论据。AI板块本季营收26亿美元（同比+247%），已实现EBITDA转正。&lt;/p&gt;
-
-&lt;h1 id=&quot;二分析师问答八家投行都问了什么&quot;&gt;二、分析师问答：八家投行都问了什么&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;高盛（Eric Sheridan）问通信业务的订单转化&lt;/strong&gt;。肖特维尔的回答透露了星链企业与政府业务的空间：航空市场渗透率目前只有10%，海事市场的可服务规模还在扩大，政府侧Q2已签60亿美元合同。言下之意：星链的B端故事才刚开场。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;摩根士丹利（Adam Jonas）问算力容量目标&lt;/strong&gt;。马斯克的回答再次超出财报口径：”我们的目标是远超那个吉瓦数……明年底目标是20吉瓦”，并预计实际落地约15吉瓦。作为参照，管理层在开场陈述中给的口径是今年底超过2吉瓦、2027年”比5吉瓦更接近10吉瓦”——同一场会里目标数字就在上探，反映扩张规划仍在快速加码，这既是雄心，也是不确定性。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;花旗（John Godyn）问资本开支节奏&lt;/strong&gt;。CFO给出明确指引：&lt;strong&gt;未来两个季度的资本开支与Q2（184亿美元）水平相当&lt;/strong&gt;。简单折算，全年资本开支将达700亿美元量级——接近全年营收的两倍。支撑逻辑还是那句”算力投资回收期不到一年”。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;美银（Ronald Epstein）问Starship第13次试飞&lt;/strong&gt;。马斯克给出了技术上最重要的表态：”隔热盾表现非常稳健……我认为隔热盾问题在这个节点上已经解决了”，下次试飞将尝试用发射塔”接住”飞船。隔热盾是Starship完全复用的最后一道技术关卡，这个表态若兑现，意味着Starship离规模化商业发射实质性近了一步。马斯克还展望Starship未来每年运力将”超过100万吨，最终可能达到1000万吨”。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;摩根大通（Doug Anmuth）问火箭工程能力如何迁移到数据中心&lt;/strong&gt;。马斯克：”把造火箭的工程方法用到数据中心上，你会得到惊人的结果”，并给出Rubin芯片&lt;strong&gt;每瓦30-50美元&lt;/strong&gt;的变现估算——这是理解SpaceX”算力房东”生意毛利的关键参数。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;德银（Edison Yu）问1000亿年化营收的构成&lt;/strong&gt;。CFO确认AI云服务将是最大增量来源；马斯克补了一句很有他风格的话：这个目标”就算我们基本什么都不做”也能达到。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;瑞银（John Hodulik）问算力的内外分配&lt;/strong&gt;。马斯克：大约&lt;strong&gt;10%的算力用于Grok训练&lt;/strong&gt;，其余用于推理或出租给外部客户（目前主要是Anthropic和Google）。这个比例值得记住——它决定了SpaceX的算力到底是”自用成本中心”还是”对外收租资产”。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Evercore（Kutgun Maral）问星链手机直连业务&lt;/strong&gt;。肖特维尔确认了地面网络建设计划但拒绝披露具体开支，提到将采用创新的femtocell（微型基站）部署策略。此前公司已获批EchoStar频谱转让，管理层称移动能力有望提升”100倍”，并点出美国三大运营商合计约6000亿美元的年收入盘子——这是星链下一个想切的蛋糕。&lt;/p&gt;
-
-&lt;h1 id=&quot;三解读这场电话会意味着什么&quot;&gt;三、解读：这场电话会意味着什么&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;1. SpaceX的叙事重心已经从火箭切换到算力。&lt;/strong&gt;整场电话会分析师追问最多的不是Starship，而是吉瓦数、资本开支和回收期。马斯克把”造火箭的公司”重新定义为”用极致工程能力做基建的公司”，而当前最大的基建是AI算力。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. 开支指引是市场最大的心理负担。&lt;/strong&gt;全年700亿美元量级的资本开支、”20吉瓦”的口头目标，配上尚未扭正的GAAP亏损——这解释了为什么当天股价常规时段大涨9.4%（收于125.33美元）后，盘后反而下跌8.6%至114.60美元。市场买账星链的确定性，但对算力豪赌的规模感到眩晕。雪上加霜的是，8月6日约9.11亿股IPO限售股解禁，短期抛压实实在在。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. 几个值得持续跟踪的验证点：&lt;/strong&gt;10月开始兑现的67亿美元云服务合同、年底”1000亿年化营收”是否达成、下次Starship试飞能否接住飞船、明年Starmind天基算力卫星是否如期发射。马斯克的目标从来激进，SpaceX的看点在于它兑现激进目标的比例历来高于市场预期——但这次的赌注规模，也历来最大。&lt;/p&gt;
-
-&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
-
-&lt;p&gt;这是一场典型的”马斯克式”电话会：财报数字只是开胃菜，真正的主菜是把万亿营收目标提前一年、把算力目标翻倍上探、把数据中心送上天的三连宣言。对投资者来说，短期要消化的是巨额开支和解禁抛压，长期要判断的其实只有一个问题：SpaceX把火箭工程能力复制到算力基建上的这次”能力迁移”，能不能像星链一样再成功一次。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;数据来源：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://seekingalpha.com/article/4930329-space-exploration-technologies-corp-spcx-q2-2026-earnings-call-transcript&quot;&gt;SpaceX Q2 2026 Earnings Call Transcript - Seeking Alpha&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-spacex-beats-revenue-estimates-in-q2-2026-shares-swing-93CH-4836052&quot;&gt;Earnings call transcript: SpaceX beats revenue estimates in Q2 2026 - Investing.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.marketbeat.com/earnings/reports/2026-8-4-spacex-stock/&quot;&gt;SpaceX Q2 2026 Earnings Call Transcript - MarketBeat&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/08/04/spacex-spcx-earnings-live-updates-q2-2026.html&quot;&gt;SpaceX (SPCX) Q2 2026 Earnings Report: Live updates - CNBC&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 08 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/08/spacex_2026q2_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/08/spacex_2026q2_earnings_call/</guid>
-        
-        <category>SpaceX</category>
-        
-        <category>星链</category>
         
         <category>大公司数据观察</category>
         

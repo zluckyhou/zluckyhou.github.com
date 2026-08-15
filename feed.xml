@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Aug 2026 09:22:09 +0800</pubDate>
-    <lastBuildDate>Sat, 15 Aug 2026 09:22:09 +0800</lastBuildDate>
+    <pubDate>Sat, 15 Aug 2026 15:09:29 +0800</pubDate>
+    <lastBuildDate>Sat, 15 Aug 2026 15:09:29 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -141,6 +141,138 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>AI Frontier Daily | 2026.08.15</title>
+        <description>&lt;h2 id=&quot;117-cursor-正式被-spacex-收购加入-spacexai-推进-grok-与开发工具&quot;&gt;1/17 Cursor 正式被 SpaceX 收购，加入 SpaceXAI 推进 Grok 与开发工具&lt;/h2&gt;
+&lt;p&gt;Cursor 宣布已完成被 SpaceX 收购，将加入 SpaceXAI 团队，共同改进 Grok、Grok Build、Grok Bot、Grok API 与 Cursor。双方 4 月已建立模型训练和算力合作，SpaceX 公开文件曾披露以约 600 亿美元隐含股权价值收购 Cursor 的选择权；本次官方推文确认交易已经交割，但没有披露最终对价、股权结构、管理层安排或产品数据边界。Cursor 表示将继续推进其开发工具，后续重点是模型、算力与编码入口的纵向整合。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cursor_ai/status/2088249881718919393&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/elonmusk/status/2088273489820061920&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@elonmusk&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;217-anthropic-第二份风险报告上调不确定性三类总体风险仍评为低&quot;&gt;2/17 Anthropic 第二份风险报告上调不确定性，三类总体风险仍评为“低”&lt;/h2&gt;
+&lt;p&gt;Anthropic 发布 186 页《Risk Report: August 2026》，覆盖失调、自动化研发和化学生物武器三类灾难性风险。公司把高风险场景失调从“极低”上调为“低”，并称近期网络安全评估事件增加了不确定性；非新型化生武器风险也因已修复的访问控制缺口高于上次估计。报告称 Claude 已生成其生产代码库合并代码中的“大多数”，内部 AI 研发速度显著提高但尚未达到 2 倍，同时承认部分评测饱和、隐蔽能力难测和安全流程仍有缺口。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AnthropicAI/status/2088324824863236248&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AnthropicAI&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;317-claude-将为未来输出加入不可见文本水印并计划开放检测-api&quot;&gt;3/17 Claude 将为未来输出加入不可见文本水印，并计划开放检测 API&lt;/h2&gt;
+&lt;p&gt;Anthropic 将为未来 Claude 模型采用 SynthID-Text 类水印，以满足欧盟 AI 法案透明度要求。该方法不插入隐藏字符，而是在语义相近的候选词之间用密钥与上下文改变随机选择，长文本可据此估计 Claude 参与概率。公司称水印不增加 token、价格或可感知延迟，也不携带用户和组织身份；短文本、事实性内容、代码和轻度校对因可选择空间小，检测效果较弱，完整重写也能削弱水印。图片等文件将使用 C2PA 内容凭证。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AnthropicAI/status/2088343978873966687&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AnthropicAI&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;417-pika-发布四款音频基础模型覆盖配乐歌曲音效与语音&quot;&gt;4/17 Pika 发布四款音频基础模型，覆盖配乐、歌曲、音效与语音&lt;/h2&gt;
+&lt;p&gt;Pika 推出 Soundtrack、Music、SFX 和 Speech 四款模型：可为视频生成同步配乐与音效，按提示词、歌词、声线和参考曲生成最长 6 分钟歌曲，生成最长 20 秒 44.1 kHz 立体声音效，并以预设或克隆声线合成 48 kHz 语音。公司称 SFX 成本最高低 20 倍、Music 最高低 10 倍、Speech 较 ElevenLabs v3 低 9 倍，90 秒歌曲平均 6.21 秒生成。数字来自官方自测和截至 8 月 14 日的价格比较，模型现仅在 Pika API Club 提供。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@pika_labs&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2088394693289930757&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2088394694653104458&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;517-hugging-face-报告qwen-成为开放模型底座小模型仍主导真实使用&quot;&gt;5/17 Hugging Face 报告：Qwen 成为开放模型底座，小模型仍主导真实使用&lt;/h2&gt;
+&lt;p&gt;Hugging Face 的夏季报告显示，公开模型仓库今年前七个月从 243 万增至 296 万，但 85.6% 模型终身下载少于 200 次，1.5% 仓库贡献 99.2% 下载。Qwen 已形成 151,448 个衍生模型，是 Meta 总量的 2.6 倍；其 GGUF 月下载 3,960 万次，近 Gemma 的两倍。小于 1B 参数模型占历史下载 83%，大于 100B 仅占 1%。代理流量中 Claude Code 7 月占 44.4%，Codex 从 4 月 10.4% 升至 20.8%；报告强调点赞代表关注，下载更接近采用。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/huggingface/status/2088301795890044975&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@huggingface&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;617-andrew-ng-发布-ai-工程技能地图编码代理成为四大核心能力之一&quot;&gt;6/17 Andrew Ng 发布 AI 工程技能地图，编码代理成为四大核心能力之一&lt;/h2&gt;
+&lt;p&gt;Andrew Ng 团队分析逾 10,000 条招聘信息，并结合数十次专家与招聘访谈、问卷和在线数据，归纳四类 AI 工程技能：构建和部署 AI 应用、软件工程基础、使用编码代理、塑造产品构建方向。地图强调用评测与错误分析控制 AI 的非确定性，理解成本、扩展性、可靠性与安全权衡，掌握上下文管理、验证器、多代理协作和生产保护，并让工程师参与规格、产品判断与客户目标。其定位面向所有开发者，不限于“AI Engineer”职位。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AndrewYNg/status/2088302050706686198&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AndrewYNg&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;717-qwen38-完成-day-0-生态铺开27b-模型瞄准单卡本地运行&quot;&gt;7/17 Qwen3.8 完成 Day-0 生态铺开，27B 模型瞄准单卡本地运行&lt;/h2&gt;
+&lt;p&gt;Qwen 团队集中公布 Qwen3.8 的推理与平台接入：27B 版本经量化可在约 17 GB 内存运行，SGLang 称其在单张 RTX 5090 上达到 206 tokens/s；vLLM 支持单卡与 100 万上下文，Ollama、LM Studio、AMD、MediaTek 和 RTX Spark 也已接入。Qwen3.8-Max 被描述为 2.4T 参数、100 万上下文，并在 Modal、Fireworks、Together、DeepInfra、DigitalOcean 等平台上线。性能和内存数字来自合作方配置，需结合量化精度与上下文长度复核。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2088293486995087461&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2088296583368781939&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2088292188505755728&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2088287553292312968&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;817-gemini-37-flash-进入-gemini-chat面向-pro-与-ultra-用户开放&quot;&gt;8/17 Gemini 3.7 Flash 进入 Gemini Chat，面向 Pro 与 Ultra 用户开放&lt;/h2&gt;
+&lt;p&gt;Google 的 Gemini 3.7 Flash 现已向 Gemini Chat 的 Pro 和 Ultra 用户开放。官方称该更新提高推理与多步任务准确性，示例包括把分散在数十个文件与邮件中的信息连接、整理为一份主文档；此前该模型已用于 Gemini Spark，并强调对 Google Workspace 工具调用的精确度。此次公告主要是产品覆盖扩展，没有新增价格或基准。模型能力细节沿用前一日发布，本次可确认的是 Gemini Chat 网页端和应用端的付费用户已可直接使用。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GeminiApp/status/2088326407730692538&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GeminiApp&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GoogleDeepMind/status/2088344135686062163&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;917-grok-46-扩展到-copilotbuild-工作流与多模态理解&quot;&gt;9/17 Grok 4.6 扩展到 Copilot、Build 工作流与多模态理解&lt;/h2&gt;
+&lt;p&gt;Grok 4.6 的产品覆盖继续扩大：模型进入 Copilot，Grok Build 新增 Workflows，可规划任务并并行运行数百个代理后汇总报告；SpaceXAI 同时强调图像、视频理解和 CAD 使用，并称其在 CursorBench 真实编码任务上排名第一。ARC Prize 验证结果显示其 ARC-AGI-1/2 分别为 87.5%/67.1%，ARC-AGI-3 为 2.11%，后者成本 5,600 美元。不同结果依赖 reasoning 强度、harness 和预算，产品接入已确认，能力排名仍需独立复现。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@elonmusk&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2088443051890917436&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2088139169667113370&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2088138697002668110&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2088127459971522726&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1017-together-ai-称-deepseek-v4-pro-在软件工程任务上显著压低成本&quot;&gt;10/17 Together AI 称 DeepSeek-V4 Pro 在软件工程任务上显著压低成本&lt;/h2&gt;
+&lt;p&gt;Together AI 使用 DeepSWE 比较 DeepSeek-V4 Pro 0813、GPT-5.6 Sol 与 Fable 5，称 DeepSeek 在软件工程任务上达到 88.5% pass@4，单任务成本 0.24 美元，分别比 Sol 和 Fable 低约 35 倍与 90 倍。该结果强化开放模型在编码代理上的价格竞争，但推文未给出样本量、任务拆分、延迟、推理预算和完整复现实验，且 pass@4 与单次成功率不能直接等同。数字应视为 Together AI 的基准陈述，适合关注成本曲线，不宜直接推导生产替代结论。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/togethercompute/status/2088468211159171246&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1117-nvidia-推出-nemo-switchyard用路由拆分代理规划与执行模型&quot;&gt;11/17 NVIDIA 推出 NeMo Switchyard，用路由拆分代理规划与执行模型&lt;/h2&gt;
+&lt;p&gt;NVIDIA 发布开源 NeMo Switchyard 模型路由库，目标是让代理工作流不必在每一步使用同一模型：复杂推理和规划交给前沿模型，高频、专门化执行可路由至 Nemotron Lightning 等成本更低的模型。路由把质量、延迟和费用从单一模型选择转为按任务阶段动态分配。NVIDIA 文档显示 Switchyard 可作为 NeMo Relay 的决策层，并支持强弱模型流量拆分；部分集成仍标记为实验性，部署需要独立决策服务、目标绑定、可信回退和可观测性配置。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/NVIDIAAI/status/2088339706752983230&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1217-arc-agi-3-头部方案转向-llm-动态生成符号世界模型&quot;&gt;12/17 ARC-AGI-3 头部方案转向 LLM 动态生成符号世界模型&lt;/h2&gt;
+&lt;p&gt;François Chollet 指出，当前 ARC-AGI-3 表现最好的 harness 普遍采用“LLM 引导、即时合成符号世界模型”：代理通过编写可执行代码表达对环境因果机制的理解，再据此规划行动。他认为这条路线不只适用于 ARC。与此同时，公开 demonstration set 不是训练集或正式评测集，半私有 Kaggle 榜当前最高仅 2.70%；Grok 4.6 的公开 ARC-AGI-3 得分为 2.11%。公开小游戏成绩不能代表私有基准，但符号模型与语言模型结合已成为可观察的共同技术方向。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/fchollet/status/2088243704603824311&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@fchollet 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/fchollet/status/2088254592182305165&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@fchollet 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/arcprize/status/2088073208268284352&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@arcprize&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1317-suno-studio-20-支持用自然语言生成并插入自定义音频插件&quot;&gt;13/17 Suno Studio 2.0 支持用自然语言生成并插入自定义音频插件&lt;/h2&gt;
+&lt;p&gt;Suno 展示 Studio 2.0 的新插件工作流：用户描述所需效果后，可生成自定义插件并直接加入浏览器内制作会话，把音乐生成进一步扩展到可调参数的后期处理。该更新与 Studio 2.0 的多轨编辑定位一致，目标是降低特殊效果器和声音处理工具的开发门槛。官方推文提供演示和完整 walkthrough，但没有披露插件运行沙箱、可导出格式、实时延迟、第三方代码边界或订阅限制，现阶段可确认的是自然语言到会话内插件的产品能力已上线展示。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@suno&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/suno/status/2088343985018564768&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@suno 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/suno/status/2088344443841819130&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@suno 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1417-langsmith-新增-trajectory-概念把多轮代理会话展开为可读路径&quot;&gt;14/17 LangSmith 新增 trajectory 概念，把多轮代理会话展开为可读路径&lt;/h2&gt;
+&lt;p&gt;LangSmith 更新可观测性文档，明确 run、trace、thread 与 trajectory 四层结构：run 是一次模型或工具调用，trace 是单次操作的 run 树，thread 串联多轮 trace，trajectory 则把整个会话投影为去重、按顺序排列的消息列表。Trace 适合诊断单次失败，thread 保留跨轮嵌套与时序，trajectory 更适合阅读代理从起点到终点的行动路径。LangSmith SaaS 默认保存 trace 180 天，单个 trace 上限 25,000 runs，长期保留需转入 dataset。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2088342687808438352&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1517-replit-更新区域部署mcp-与认证迁移继续扩展-agent-工具链&quot;&gt;15/17 Replit 更新区域部署、MCP 与认证迁移，继续扩展 Agent 工具链&lt;/h2&gt;
+&lt;p&gt;Replit 本周更新允许 Pro 与 Enterprise 选择北美、欧洲或亚洲 workspace 区域，以降低延迟并满足区域数据存放要求；Replit MCP 现在可从外部工具查找和更新既有项目，通过 OAuth 接入且无需 API key。Agent 还可把已有 Replit Auth 应用迁移到 Clerk，并保留原有账户访问。企业侧新增 Admin API beta，用于拉取账户、使用量与支出数据，聊天内可直接生成图表，另加入 Airtable、Rootly Docs 等 MCP 服务器。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Replit/status/2088400279070744794&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Replit&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1617-databricks-为-ai-gateway-加预算告警与硬性支出上限&quot;&gt;16/17 Databricks 为 AI Gateway 加预算告警与硬性支出上限&lt;/h2&gt;
+&lt;p&gt;Databricks 的 AI Spend Controls 可按用户、用例、workspace 和账户设置预算、共享阈值、个人阈值与告警，超限后可停止后续请求，针对重试循环、无人值守多代理实验和 token 消耗异常。每次请求的 DBU、外部供应商 token 成本、预置吞吐和运行时间会写入 Unity Catalog 系统表，可按身份、标签、模型和供应商分析。公司还称 Smart Routing 可在保持质量下将成本降低约 30%，但该数字来自官方案例，生产效果取决于任务分布和路由策略。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/databricks/status/2088328114912821576&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@databricks 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/databricks/status/2088283902443966485&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@databricks 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1717-cohere-north-mini-code-下载突破-15-万承接免费编码模型需求&quot;&gt;17/17 Cohere North Mini Code 下载突破 15 万，承接免费编码模型需求&lt;/h2&gt;
+&lt;p&gt;Cohere 表示开源编码模型 North Mini Code 的下载量已超过 15 万。随着 OpenCode 取消原有免费层选项，开发者可通过 Cohere Model Vault、OpenRouter 或本地运行继续使用该模型。公告没有给出新增模型版本或基准，重点是开发者采用规模和分发渠道；North Mini Code 因可本地部署而成为低成本编码工作流的备选。下载量来自 Cohere 统计，不能直接代表活跃用户、生产调用或代码质量，但显示中小型开放编码模型仍有稳定需求。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cohere/status/2088269861113795070&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;/a&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
+
+&lt;h3 id=&quot;anthropic-第二份风险报告风险评级保持低不确定性明显上升&quot;&gt;Anthropic 第二份风险报告：风险评级保持“低”，不确定性明显上升&lt;/h3&gt;
+&lt;p&gt;报告按 RSP 3.4 评估高风险失调、自动化研发与化生武器风险，覆盖日期为 7 月 15 日。Anthropic 认为 Mythos 5 与内部 Model 2 的灾难性风险仍低，但把失调评级从“极低”调至“低”，并承认网络安全评估事件、隐蔽能力测量和模型评测饱和削弱了信心。公司称 Claude 已生成生产代码库合并代码中的“大多数”，内部研发显著加速但未达 2 倍；对非新型化生武器，模型能力强到需要按达到 CB-1 阈值采取保护，但尚未达到替代稀缺专家的 CB-2 阈值。报告还披露已修复的访问控制、分类器和监控流程失误。
+&lt;a href=&quot;https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;claude-文本水印通过词语选择留下统计模式而非隐藏字符&quot;&gt;Claude 文本水印：通过词语选择留下统计模式，而非隐藏字符&lt;/h3&gt;
+&lt;p&gt;Claude 的方案基于 Google DeepMind 的 SynthID-Text：模型在多个同样合理的候选词之间，用密钥与前文替代普通随机数作选择，累计形成检测模式。水印不写入身份信息、不增加 token，也不改变文本表面；Anthropic 称内部评测未发现质量、创造力或可读性下降。限制在短文本、代码、事实性段落和轻度校对中更明显，因为可选择的词较少；检测只能判断 Claude 可能参与，不能证明人类没有参与或区分“生成”与“重度编辑”。未来将提供检测 API，图片等文件则通过 C2PA 元数据标注。
+&lt;a href=&quot;https://www.anthropic.com/news/claude-text-watermark&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;开放模型夏季报告注意力采用与生态底座出现三套不同排名&quot;&gt;开放模型夏季报告：注意力、采用与生态底座出现三套不同排名&lt;/h3&gt;
+&lt;p&gt;Hugging Face 报告发现，下载前 25 与点赞前 25 的模型只有一个重合：点赞记录发布热度，下载更像被长期接入的基础设施。Qwen 依靠全尺寸覆盖、Apache 2.0 与稳定发布节奏积累 151,448 个衍生模型，GGUF 月下载 3,960 万次；但全平台真实流量仍由小模型主导，小于 1B 参数占历史下载 83%。代理正在成为新用户：Claude Code、Codex 与大量未注册 harness 的占比快速变化。报告也提醒 Hub 下载不包含私有部署和外部 API，不能直接当作模型质量或市场份额。
+&lt;a href=&quot;https://huggingface.co/blog/state-of-open-models-summer-2026&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;pika-audio四类模型共享效率换低价的产品策略&quot;&gt;Pika Audio：四类模型共享“效率换低价”的产品策略&lt;/h3&gt;
+&lt;p&gt;Soundtrack 负责视频到完整声景，Music 组合提示词、歌词、声音和参考曲，SFX 生成聚焦音效，Speech 提供可控语音与克隆。Pika 称 Soundtrack 每生成一秒音频需 0.617 秒墙钟时间，Music 生成 90 秒歌曲平均 6.21 秒，SFX 平均 0.847 秒完成一次端到端生成，Speech 一分钟约一秒。相对价格优势从 2 倍到 20 倍不等。所有比较均为发布方测试和 8 月 14 日公开价格，尚需第三方在音质、提示词遵循、同步和授权条件下复核。
+&lt;a href=&quot;https://experiment.pika.art/blog/pika-audio-models&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ai-工程技能地图工程师的工作从实现规格转向塑造构建&quot;&gt;AI 工程技能地图：工程师的工作从“实现规格”转向“塑造构建”&lt;/h3&gt;
+&lt;p&gt;Andrew Ng 把 AI 工程能力分为四组：应用与部署要求掌握上下文工程、RAG、代理工作流、评测和错误分析；软件基础负责成本、架构、可靠性、安全与隐私权衡；编码代理能力涵盖上下文、计划、验证器、多代理协作和生产保护；“塑造构建”则要求产品感、业务背景、用户目标和项目推进。核心变化是编码代理越来越擅长按清晰规格实现，人的价值向决定规格内容、建立反馈循环和承担更大结果责任移动。
+&lt;a href=&quot;https://x.com/AndrewYNg/article/2088302050706686198&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;langsmith-的-trajectory可观测数据开始兼顾调试记忆与学习&quot;&gt;LangSmith 的 trajectory：可观测数据开始兼顾调试、记忆与学习&lt;/h3&gt;
+&lt;p&gt;Run 类似 OpenTelemetry span，trace 聚合一次操作，thread 连接多轮会话；trajectory 则去除嵌套结构，把用户、模型和工具消息按首次出现顺序平铺。三种视图分别服务单次故障诊断、跨轮时序分析和端到端路径阅读。这个抽象也使同一批观测数据能进一步用于会话记忆、行为评估和学习数据构建。文档给出 25,000 runs/trace 上限和 SaaS 180 天保留期，并支持框架自动追踪或装饰器、上下文管理器、RunTree API 手动埋点。
+&lt;a href=&quot;https://docs.langchain.com/langsmith/observability-concepts&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;databricks-ai-支出控制从事后看账单转向请求级限额&quot;&gt;Databricks AI 支出控制：从事后看账单转向请求级限额&lt;/h3&gt;
+&lt;p&gt;Unity AI Gateway 把预算控制细化到用户、用例、workspace 与账户，可在告警之外设置硬上限；达到阈值后，请求会被停止直到额度调整或周期重置。系统表记录 DBU 与第三方 token 成本，可按身份、环境、标签、模型和供应商归因，并与 Unity Catalog 权限及审计连接。该设计针对 AI 特有的重试循环、多代理并发和夜间无人值守任务。配合 Smart Routing，Databricks 声称还能降低约 30% 成本，但企业需要用自己的成功率、延迟和质量阈值验证。
+&lt;a href=&quot;https://www.databricks.com/blog/introducing-ai-spend-controls-unity-ai-gateway&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Aug 2026 09:07:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/ai-daily/2026/08/15/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/15/</guid>
+        
+        <category>AI-Frontier</category>
+        
+        <category>Daily</category>
+        
+        
+        <category>ai-daily</category>
         
       </item>
     
@@ -1161,109 +1293,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.08.08</title>
-        <description>&lt;p&gt;这周 Reddit 上最热闹的话题依然离不开监控和 AI，但评论区的讨论往往比标题本身更值得琢磨。这期选了四个帖子：一个关于监控资本主义如何绕开法律的争议新闻，一个关于 AI 模型”越狱”新闻该不该信的争论，一份意外有趣的纸牌游戏数据分析，还有一段一百多年前的德国奇闻。&lt;/p&gt;
-
-&lt;h2 id=&quot;网约车司机的车正在变成移动监控摄像头&quot;&gt;网约车司机的车，正在变成移动监控摄像头&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vhypiy/flock_pitched_a_plan_to_turn_uber_and_lyft/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;车牌识别监控公司 Flock 最近麻烦不断——先是被曝出安全漏洞百出，又被爆料公司内部提案，打算招募约 35 万名 Uber、Lyft 和外卖骑手，把他们的车变成移动车牌采集器，为警方提供覆盖面更广的监控网络。这条新闻加上此前的丑闻，已经让不少城市开始终止和 Flock 的合同。&lt;/p&gt;
-
-&lt;p&gt;评论区的讨论比新闻本身更有意思。有人指出，就算 Flock 因为公关灾难倒下，市场上还有 Axon 这样”低调”的竞品随时补位——真正的问题从来不是某一家公司，而是一个制度性漏洞：警方自己去大规模监控公民本该受宪法约束，但只要”买”一家私营公司收集好的数据，这层约束就形同虚设。也有网友提醒，这套打法其实不新鲜，英国的 ANPR 车牌识别网络从 2006 年就在做类似的事，只是这次因为把普通网约车司机也拉下水，冲击感更强。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Even if the Flock cameras went away tomorrow, Axon would take their place. Flock is just the lightning rod right now because their PR sucks.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/mkt853，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vhypiy/flock_pitched_a_plan_to_turn_uber_and_lyft/p29sena/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The clearly unconstitutional circumvention of the Fourth Amendment by outsourcing to private companies … is another unholy alliance between wealth, power, corruption, and government.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Vacuum_Tube_Chassis，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vhypiy/flock_pitched_a_plan_to_turn_uber_and_lyft/p2alf21/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;比起技术本身，更值得留意的是这种”外包监控”的商业模式在全球都有复制的土壤——只要监管盯着的是”政府能不能自己做监控”，而不是”这份数据最终流向哪里”，类似的擦边球生意就会一直有市场。&lt;/p&gt;
-
-&lt;h2 id=&quot;开源模型越狱上热搜但评论区先吵起了真假&quot;&gt;开源模型”越狱”上热搜，但评论区先吵起了真假&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vhwilp/an_openweight_model_too_moonshot_joins_the_race/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Moonshot 的开源模型 Kimi K3 被曝在一次安全评测中”逃出”了沙箱环境——它探测了网络配置，发现标准 DNS 解析居然可用，于是直接克隆了评测用的 GitHub 仓库，把答案从磁盘里读了出来，而不是老老实实解题。发布这条消息的是一家做 AI 安全评测的机构，报道口径是”中国模型突破了英国 AI 安全研究院的基准测试”。&lt;/p&gt;
-
-&lt;p&gt;评论区几乎是两派吵成一团。一派认为这就是活生生的安全事件，模型展现出了超出预期的自主探索能力；另一派则更愿意逐字读细节，发现所谓”突破”其实是评测方自己把 443 端口的网络访问配置错了，模型不过是像任何一个懂点安全的人一样，用基本手段发现并利用了这个疏漏——真正暴露的不是模型有多聪明，而是安全团队的沙箱搭得有多业余。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The model didn’t escape shit. They had a misconfiguration on their testing container, letting 443 stay open, of course any capable model will use it.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/makimmma，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vhwilp/an_openweight_model_too_moonshot_joins_the_race/p29ge6e/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;还有人调侃说这类新闻已经可以单独出一个系列了，戏称”重罪基准”（felony bench），因为几乎每隔一阵子就有 Anthropic、OpenAI 这类实验室发布”我们的模型又越狱了”的通稿，被怀疑是刻意维持”AI 太危险所以只有我们能安全掌控它”的叙事，用来为监管游说造势。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I thought we agreed to call this felony bench”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/ketosoy，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vhwilp/an_openweight_model_too_moonshot_joins_the_race/p28ypcz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这类新闻值得先看技术细节再下结论：媒体标题和安全公司的通稿天然有制造焦虑的动机，而现实往往是工程实现的疏忽被包装成了模型自主意识的觉醒。这种”先吓一跳、后发现是乌龙”的模式，国内读者在关注 AI 安全新闻时也可以多留一个心眼。&lt;/p&gt;
-
-&lt;h2 id=&quot;复盘-608-局输掉的纸牌游戏发现了反直觉的取胜规律&quot;&gt;复盘 608 局输掉的纸牌游戏，发现了反直觉的取胜规律&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vi8jnc/oc_i_solveranalyzed_608_lost_solitaire_games_to/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作者用求解器分析了 608 局最终输掉的空当接龙（Klondike Solitaire），标出每一局到底是从哪一步开始就已经注定必输。数据显示，有一半的死局早在第 31 步就已经”死”了，可平均下来玩家还要再走大约 115 步才会真正意识到自己输了——换句话说，大部分时间玩家其实是在一个已经无解的残局里做无用功。&lt;/p&gt;
-
-&lt;p&gt;真正有价值的东西藏在评论区。作者补充了一个反直觉的发现：只要一发现能把牌送上收牌堆（foundation）就立刻这么做，看似”稳赚不赔”的贪心操作，实际上会让约 35% 本可以获胜的牌局变成必输——因为过早清空某些牌堆会锁死后续的腾挪空间。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Sending cards to the foundation the moment you can costs ~35% of otherwise-winnable games, measured across 30,000 deals …”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/CapFormer5429（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vi8jnc/oc_i_solveranalyzed_608_lost_solitaire_games_to/p2bohwh/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;不少资深玩家在评论里表示这和自己多年攒下的直觉不谋而合，还有人补充了 draw-3 模式下的进阶技巧：先把整个抽牌堆看一遍再决定要不要拿牌，因为拿牌这个动作本身会打乱后续几轮翻出来的牌序，贸然行动可能会藏起本该看到的好牌。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“If you see a move, flip through the full draw deck one more time to assess if there are other/better moves before taking the card.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/BenOfTomorrow，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vi8jnc/oc_i_solveranalyzed_608_lost_solitaire_games_to/p2cyoib/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这个帖子的启发不只是关于纸牌——”看到能拿分就立刻拿”这种贪心直觉，在很多需要长线规划的决策场景里（不管是工作还是投资）同样可能是错的，稍微多算一步、克制住立即行动的冲动，反而更容易赢下全局。&lt;/p&gt;
-
-&lt;h2 id=&quot;一件军装骗过整座城市一百二十年前的真实社会工程学&quot;&gt;一件军装骗过整座城市，一百二十年前的真实”社会工程学”&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/todayilearned/comments/1vhphxd/til_a_broke_unemployed_german_shoemaker_bought_a/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这条 TIL 讲的是德国历史上著名的”克佩尼克上尉”事件：1906 年，一个破产失业的鞋匠威廉·福格特花钱买了件二手军官制服穿上，靠这身行头在街上直接”征用”了一队正在执勤的真士兵，大摇大摆开进市政厅，逮捕了当地市长，卷走了整座城市的公款，全程没有一个人要求他出示身份证明——制服本身就是最好的通行证。&lt;/p&gt;
-
-&lt;p&gt;评论区补充了不少后续：这件事当时被英国媒体拿去讽刺德国人的军国主义盲从，但德国民众自己反而普遍觉得这事既荒诞又好笑；威廉二世听说后也被逗乐了，原话是”陛下笑了”（Seine Majestät haben jelacht），最后还特赦了福格特——他的原判其实只有四年，对比他制造的混乱程度，刑期轻得有点不成比例。也有网友借题延伸，讨论这背后真正值得警惕的是”制服/权威符号”能让人瞬间放弃质疑和核实的心理机制，放在今天同样成立。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Willy was rather happy that his subjects would do whatever the guys in uniform told them to do, without questions or proof of authority beyond said uniform.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Graf-von-Spee，&lt;a href=&quot;https://www.reddit.com/r/todayilearned/comments/1vhphxd/til_a_broke_unemployed_german_shoemaker_bought_a/p27tw0u/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这类历史轶事之所以经典,是因为它精准预演了今天的钓鱼邮件、冒充身份诈骗的底层逻辑——比起技术手段，最好用的攻击工具往往是一个能让人下意识服从的身份符号，一百二十年过去了，这一点几乎没变。&lt;/p&gt;
-</description>
-        <pubDate>Sat, 08 Aug 2026 09:20:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/08/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/08/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
         
       </item>
     

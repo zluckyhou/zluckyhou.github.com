@@ -5,9 +5,152 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 16 Aug 2026 08:39:54 +0800</pubDate>
-    <lastBuildDate>Sun, 16 Aug 2026 08:39:54 +0800</lastBuildDate>
+    <pubDate>Sun, 16 Aug 2026 09:25:46 +0800</pubDate>
+    <lastBuildDate>Sun, 16 Aug 2026 09:25:46 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.08.16</title>
+        <description>&lt;p&gt;今天这五帖放在一起看，能凑出一条挺完整的线：一件事一旦被拿来考核，被考核的往往就不是那件事本身了。安全演练测的是有没有点击，不是有没有被骗；AI 转型考核的是有没有交出 agent，不是有没有解决问题；职级考核的是头衔挂到哪一档，不是实际在干什么。而当研究真的把答案摆出来的时候，做决定的人又不看数据。&lt;/p&gt;
+
+&lt;h2 id=&quot;30-年工龄的系统管理员被自家公司的钓鱼演练逼到崩溃&quot;&gt;30 年工龄的系统管理员，被自家公司的钓鱼演练逼到崩溃&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/sysadmin/comments/1vpe2sb/about_to_ruin_a_30_year_it_career_because_i_cant/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人干了 30 多年网络和系统管理，连续 17 年每月按时打补丁，渗透测试成绩漂亮，公司甚至拿他的名字给服务器命名。但他今年已经两次没通过公司内部的钓鱼演练，三年内共三次——按员工手册的三振出局条款，他觉得自己要被开除了，本来打算过几年体面退休，现在心情跌到谷底。他自己也承认一个尴尬的细节：为了让演练邮件进得来，是他亲手在邮件安全网关上给这些模拟钓鱼开的口子。&lt;/p&gt;
+
+&lt;p&gt;评论区几乎没人嘲笑他，火力全冲着测试本身去了。争论最大的一点是：有些平台把「打开邮件」也算失败，可你不打开邮件怎么判断它是不是钓鱼？又怎么点到那个举报按钮？有人干脆管这叫薛定谔的钓鱼邮件。更荒诞的一例来自另一位用户：他拿不准一封邮件是真钓鱼还是演练，于是老老实实上报给安全运营团队，结果对方点开了链接，系统反手给他发了一封「你未通过钓鱼测试，请今后多加小心」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s Schrodinger’s phish. How the F are you supposed to know if it’s a phishing email by just the subject and first few words?”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/JasonDJ，&lt;a href=&quot;https://www.reddit.com/r/sysadmin/comments/1vpe2sb/about_to_ruin_a_30_year_it_career_because_i_cant/p3xgl5w/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The SOC team clicked the link. I got an email that I failed a phishing test, and that I should be more careful in the future.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/WideAwakeNotSleeping，&lt;a href=&quot;https://www.reddit.com/r/sysadmin/comments/1vpe2sb/about_to_ruin_a_30_year_it_career_because_i_cant/p3x2ron/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在管理端的人也出来解释了：正经配置下只有点链接、开附件、输凭据才算失败，光打开不该扣分；KnowBe4 之类的产品自带举报按钮，点了会立刻反馈「你识别对了」，如果同事们只能靠给 IT 提工单来报钓鱼，那是部署这套系统的人没配好。有意思的是这条帖子里 HR 在管钓鱼演练的公司还不少，好几个人的反应都是「这事凭什么归 HR」。至于对策，大伙儿给的招数一个比一个消极：按 KnowBe4 的邮件头写规则直接扔进垃圾箱、给所有链接做纯文本化处理、把没预期到的邮件一律当敌意处理，还有人索性把每一封公司群发邮件都举报成钓鱼——反正你要我这么警惕，那我就照做。最后有人送了个新时代万能借口：以前误了事说「这个任务从我雷达上掉下去了」显得懒散，现在说「我以为那是钓鱼测试」，既现代又无可反驳。&lt;/p&gt;
+
+&lt;p&gt;我自己的感受是，这条帖子真正扎心的地方不在于测试设计得糙，而在于它把一个安全工具改造成了绩效惩罚工具。发帖人从没被真钓鱼骗过——真钓鱼根本进不了他的收件箱，是他自己拦住的；被抓住的那次，是他一边打电话跟银行重置密码、一边点开验证邮件时撞上的。一个把「上报可疑邮件」当成正确答案的体系，和一个把「三次点击就滚蛋」当成正确答案的体系，长出来的员工行为是完全相反的。国内公司这两年也开始流行内部钓鱼演练，值得先想清楚：你是想让人更会识别，还是只想拿到一份好看的通过率报表。&lt;/p&gt;
+
+&lt;h2 id=&quot;平台工程团队被要求两周内人人交一个-ai-agent&quot;&gt;平台工程团队被要求两周内人人交一个 AI agent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1vp8y0c/does_your_org_do_this_sht_with_ai_agents_in/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一位平台工程师吐槽：管理层要求团队每个人从当前遇到的问题里挑一个，两周内做成 AI agent 交上来。他的判断很直接——这些场景用普通 shell 脚本就能搞定，效果一样。更拧巴的是，公司一边逼大家上 AI，一边在申请额外 token 额度时反复盘问理由。他特意补了一句自己不是反 AI 派，现在离了 AI 也干不了活，烦的是这种自上而下的强制。&lt;/p&gt;
+
+&lt;p&gt;评论区的老手们没在争 AI 好不好，而是熟练地给出了一套过关攻略：把你本来就该写的 shell 脚本写了，包一层 tool call，或者前面架个 MCP server，指标就算完成了；把 Grafana 的 MCP 接上一个只读账号，管它叫「根因分析 agent」，配个漂亮的汇报材料交上去。有人形容这是把 agent 做成了一根更贵的 unix 管道。也有人给管理层说了句公道话：现在一家公司的对外故事里如果一点 AI 都不提，就等于承认自己掉队了，老板们不是傻，是被叙事绑住了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Implement your shell script, call it a tool call, or put an MCP server in front of it, whatever. It’s stupid, but that ticks the box.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/jebuizy，&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1vp8y0c/does_your_org_do_this_sht_with_ai_agents_in/p3vn9ml/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;整条讨论里最好的一个比喻来自另一位用户：挖土的公司看见卡特彼勒挖掘机当然会有 FOMO，这情绪本身没错；但 token 更像是加进挖掘机的燃油，不是挖掘机本身。而 AI 公司眼下卖的是燃油，至于怎么造一台省油又高效的机器，留给用户自己琢磨——于是大家都在用自己拼装的怪东西烧着高价燃油。另一位工程师则给出了 agent 真正有用的样子：凌晨两点一个新服务变慢，他半睡半醒地扫堆栈，漏掉了埋在里面的一条 SQS 死信队列权限拒绝，是模型翻出来的；但他补充说这玩意儿也会一本正经地胡说八道，所以他把它的输出按初级工程师的水准对待。还有人提出了那个最实在的反问：用 AI 把你一直没空写的那堆脚本写了，为什么不算「用 AI 解决了问题」？&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“But the metaphor is nuanced, because AI inference, measured by Tokens, is more like the fuel you put into the Caterpillar, than it is like the Caterpillar itself.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/SailingToFenway，&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1vp8y0c/does_your_org_do_this_sht_with_ai_agents_in/p3w7cno/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这套「交作业式 AI 转型」国内同行应该不陌生。真正的问题不是要不要用 AI，而是 KPI 写成了「产出多少个 agent」而不是「省了多少人天、少了多少次事故」。前者一定会被满足，代价是团队学会了表演；后者难量化，但至少指向真实收益。要是你恰好在定这类指标，把交付物从 agent 数量换成一条可复现的时间或故障指标，团队的动作会立刻不一样。&lt;/p&gt;
+
+&lt;h2 id=&quot;5-年经验做到-staff一年后他回来复盘&quot;&gt;5 年经验做到 Staff，一年后他回来复盘&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1vpg59k/followup_what_this_year_has_been_like_as_a/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;八个月前一位机器学习工程师在 r/ExperiencedDevs 发帖，纠结要不要冲 senior 以上的职级，这次他回来交答卷。明年一月满 5 年工龄，现在带 8 个人的团队，能定技术栈、管技术预算、跟供应商谈判，手上的产品从一个膨胀到 5 个以上，团队今年重组了好几次。他自评这一年比预期好，但把难受的地方也一条条写了出来：厌倦了 AI 项目，因为大部分工作就是 LLM 套壳、agent 编排和 RAG 知识库；身边没有更资深的人可以撞想法，技术上的孤独感比想象中难扛；被要求在自己并不在行的领域当场给出笃定的判断；最大的产出变成了定标准和建流程，能亲手写代码的时间越来越少。&lt;/p&gt;
+
+&lt;p&gt;评论区第一波是对头衔的质疑：5 年就 Staff？职级通胀罢了，听描述更像一个没人带的 senior。发帖人自己也认，说标题里的引号就是这个意思，现实中他一般用 lead 自称。但有人替他挡了一句：如果责任真的给到了，那头衔就是名副其实的。另一条更值得看的分支是关于放权——发帖人说自己很难把活派出去，尤其明知别人做得不如自己好的时候。有位评论者不留情面地指出这个想法从两个方向上都是错的：不放权你就永远无法规模化，也永远培养不出能接替你的人，而找到接班人恰恰是你自己往上走的前提；同时你也剥夺了别人证明自己的机会，他们当然会失败，但当年上面的人也是这么给你机会的。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Firstly, if you don’t delegate you’re never going to scale and you’re never going to find someone that can replace yourself, which is the best way to move up in the company.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Slayergnome，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1vpg59k/followup_what_this_year_has_been_like_as_a/p3xj2mx/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;关于 AI 工作的乏味，有人把整个行业的活儿浓缩成一句：做向量嵌入、存进数据库、拿用户查询去匹配文档、把结果塞进 prompt 调个 API 返回一段话，然后把这套重复一千遍——可招聘要求写得跟造火箭一样。发帖人回了句「说到点子上了」。而他帖子里最让我在意的一条，是关于他手下的初级工程师：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Create vector embeddings, store them in DB, user queries to match with documents, and sending the data on a prompt to some LLM API to return some blurb to the user. Rinse and repeat a thousand times without any kind of interesting variation.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/PoopsCodeAllTheTime，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1vpg59k/followup_what_this_year_has_been_like_as_a/p3xj2pp/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“My juniors are completely addicted to Claude… it’s been a massive headache for the number of times a junior has told me they made a decision without understanding why.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/The_Ozynandias（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1vpg59k/followup_what_this_year_has_been_like_as_a/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;「做了这个决定但说不出为什么」，这句话大概是今年技术团队里最普遍的隐患。它不是代码质量问题——AI 写的代码往往还挺能跑——而是决策链条断了：没人能解释这个方案为什么成立，于是也没人知道它在什么条件下会不成立。对带团队的人来说，值得把 code review 的问法换一换，少问「这段代码对不对」，多问「你为什么选这个方案，另外两个方案坏在哪」。&lt;/p&gt;
+
+&lt;h2 id=&quot;7700-人的研究说远程办公者幸福感最高然后呢&quot;&gt;7700 人的研究说远程办公者幸福感最高，然后呢&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vp3h33/remote_workers_report_the_highest_wellbeing_in/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一项覆盖 7700 名员工的研究显示，完全远程办公的人幸福感最高。这种结论在 Reddit 上几乎注定会收获一片「这还用研究？」——不用堵在路上、能在家吃饭、不必忍受开放式办公室的噪音和糟糕空气，谁会不高兴。于是讨论很快分成了两拨：一拨嫌这是废话研究，一拨认真论证废话研究为什么必要。&lt;/p&gt;
+
+&lt;p&gt;后者给出的理由挺有说服力：常识也曾告诉我们地球是平的、番茄有毒、疾病靠气味传播，让科学去复核常识从来都是划算的；何况「远程办公已死」这种说法在媒体上照样零数据地流传，你不拿研究去顶，场子就是对方的。也有人补了一记冷嘲：疫情刚开始那一个月，正是这些公司拼命造数据向投资人证明远程办公提高了生产率，如今只不过换成了找相反的数据。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s always a good idea to have science check common sense. Common sense told us the world was flat, tomatoes were poisonous and disease was spread by smells.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/DanielPhermous，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vp3h33/remote_workers_report_the_highest_wellbeing_in/p3ug2f8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;真正有信息量的是关于混合办公的那几条。有人一针见血地指出混合制最滑稽的形态：一周两天在路上堵两小时通勤到公司，然后坐在工位上开线上会议。所以混合办公的关键变量根本不是「在家几天」，而是全队是不是同一天到岗——不同步的混合等于两头的坏处都占了。另一位则给远程办公提了个真实的代价：新人加入一个已经磨合好的团队时，老关系会自然延续，新关系却很难建立，因为大家都能靠已有的连接把活干完，新人于是被晾在外面。还有人现身说法，说自己全远程三年后主动换了份混合的工作，就是为了找回一点人和人的接触，而这跟他当时单身、住在偏远地区有很大关系。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“For example, it can be very difficult for employees who are new to an established team in an all-virtual environment, as existing bonds will carry over but new bonds will often fail to form…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Alaira314，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vp3h33/remote_workers_report_the_highest_wellbeing_in/p3wgjki/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;把这些拼起来，结论其实比标题细致：远程办公对已经融入团队的人几乎是纯收益，对刚进来的人则是实打实的门槛。所以更值得投入的不是争论几天到岗，而是给新人补上那条本来靠工位距离自动生成的关系链——固定的搭档、有人负责的入职期、以及至少一段时间的同步在场。至于「远程还是坐班」这个争论本身，这帖子里被点赞最多的那种无力感也很真实：数据摆了一堆，拍板的人依然按自己的偏好来。&lt;/p&gt;
+
+&lt;h2 id=&quot;英国旧书店的神秘批量订单可能是-ai-公司在囤未被污染的文本&quot;&gt;英国旧书店的神秘批量订单，可能是 AI 公司在囤「未被污染」的文本&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vp0821/secondhand_booksellers_in_uk_and_ireland_suspect/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;据《卫报》报道，英国和爱尔兰的二手书店最近陆续收到来自美国、加拿大和欧洲的神秘批量订单，同样的情况在美国、澳大利亚也在发生。英国最大的二手书店 Barter Books 的共同经营者说，这些订单三个月前开始出现，反常之处在于它们不像正常买家那样围绕体育、汽车之类的主题成组，而是杂乱无章。业界普遍怀疑买家是 AI 公司，目的是获取训练数据。&lt;/p&gt;
+
+&lt;p&gt;评论区提出了两条互不排斥的动机解释。第一条是法律层面的洗白：过去大量训练数据来自可疑来源，一旦哪天要清算，能拿出「这些书是我们买来的、扫描的是自己拥有的实体书」这套说法会非常有用——有人特意提到 Anthropic 因大规模盗版书籍吃了官司，法院认定有问题的正是盗版这一环，而买书恰好绕开了它。第二条更技术：2022 年之后的互联网文本已经被 AI 生成内容大面积污染，维基百科和互联网档案馆早被扒干净了，纸质书和旧杂志成了最后一批可信的非 LLM 语料。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It is because the internet is already filled with AI-driven texts and only printed books and magazines from before like 2022 are the last reliable source of non-LLM content.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/IRockIntoMordor，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vp0821/secondhand_booksellers_in_uk_and_ireland_suspect/p3u267m/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“However, Anthropic got in serious trouble for mass-pirating books to build that data, and the piracy was the part that judges ruled was inarguably a crime - so buying them is, obviously, the way around that.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ElaraValtor，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vp0821/secondhand_booksellers_in_uk_and_ireland_suspect/p3u3r4e/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区里最有分量的一条来自一位以卖二手书为生的人。有人认为 AI 公司买的都是两三英镑的便宜货，说明这些书没什么价值；他反驳说，在这行里「老」从来不等于「值钱」，1800 年代的皮面精装照样便宜得很，真正抬价的是稀有和独特——而稀有独特恰恰就是那些冷门非虚构，比如某个特定年代特定地区的农具志，信息准确、有出处，网上根本找不到。另一处让人不太舒服的细节是扫描方式：为了快，很多书是直接裁掉装订线拆开扫的，也就是说这些书在这个过程中被销毁了；有人担心的是万一数字副本也不公开，那些本就稀少的旧书就只剩下模型权重里的一个近似值。&lt;/p&gt;
+
+&lt;p&gt;这件事对中文读者的启发可能在另一个方向：真正稀缺的从来不是「大量文本」，而是有出处、成体系、且不是被别的模型生成出来的文本。中文互联网上高质量的专业资料本来就比英文世界更集中在少数几个封闭平台里，而 AI 生成内容的洪水来得只快不慢。谁手上握着 2022 年之前完整、干净、带出处的中文语料，几年后大概会发现自己坐在一座矿上——只希望到时候矿工进场的方式，不是拿裁刀把书脊切掉。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Aug 2026 09:20:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/16/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/16/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.08.15</title>
@@ -1188,111 +1331,6 @@
         
         
         <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.08.09</title>
-        <description>&lt;h2 id=&quot;113-marindna-以-1b-标准-transformer-逼近-40b-基因组模型&quot;&gt;1/13 MarinDNA 以 1B 标准 Transformer 逼近 40B 基因组模型&lt;/h2&gt;
-&lt;p&gt;MarinDNA 发布 Apache-2.0 许可的 11.2 亿参数 DNA 因果语言模型，架构直接兼容 Qwen3 decoder-only，训练时接触约 847.7 亿 nucleotide tokens。Open Athena 报告称，m5.1 在 Mendelian variant-effect prediction 的 zero-shot macro AUPRC 上略高于 Evo 2 40B，同时训练 FLOPs 约少 1,980 倍、变异评分吞吐约高 2,330 倍。提升主要来自功能区域数据筛选、均衡混合与超参数迁移；作者也明确指出 alignment-based 和 supervised 模型整体仍更强。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/huggingface/status/2086074168466907627&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@huggingface&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;213-nvidia-开放-nemo-gym-对话式工具调用运行资产&quot;&gt;2/13 NVIDIA 开放 NeMo Gym 对话式工具调用运行资产&lt;/h2&gt;
-&lt;p&gt;NVIDIA 在 Hugging Face 发布 NeMo Gym conversational tool-use asset bundle。它不是训练集或评测集，而是用于复现生成流水线的运行资料：包括 domain prompts 与历史版本、policy/tool/refinement/judge prompts、golden policy Markdown 与配对 tool JSONL，以及 scenario-generation prompts。当前数据页含 36 行、约 275 kB，采用 Apache-2.0；Gym 的准备命令会下载并校验这些资产，可执行 schema、示例与 simulation server 实现继续保留在 Git 仓库。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/huggingface/status/2086074019447439435&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@huggingface&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;313-liteparse-扩展表单批注与矢量图形提取&quot;&gt;3/13 LiteParse 扩展表单、批注与矢量图形提取&lt;/h2&gt;
-&lt;p&gt;LlamaIndex 的本地开源解析器 LiteParse 新增更完整的结构化 PDF 输出：可提取 annotations、AcroForm 字段和值、checkbox 状态、vector paths、合并后的水平与垂直线、rich text metadata、embedded images 和 tagged-PDF structure tree。工具以 Rust 与 PDFium 为核心，可选 Tesseract OCR，不依赖云端模型，并提供 Rust、Node、Python 和浏览器 WASM 接口。复杂度预检还能先识别需 OCR 或重型解析的页面，再把困难文档升级到 LlamaParse。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/llama_index/status/2086247588756402628&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@llama_index&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;413-recursive-language-models-再次成为长上下文-harness-焦点&quot;&gt;4/13 Recursive Language Models 再次成为长上下文 harness 焦点&lt;/h2&gt;
-&lt;p&gt;LangChain 社区转发讨论称，近期流行的 RLM 并非新概念，Alex Zhang 等人的 Recursive Language Models 工作已在此前提出：把超长 prompt 作为外部 REPL 中的变量，由根模型用代码检查、拆分并递归调用自身处理片段。论文报告 RLM 可处理比基础模型 context window 大两个数量级的输入，并在四类长上下文任务中以相当或更低成本超过基础模型与常见 scaffold。近期热度表明，context offloading 与动态递归工作流正在从论文进入 agent harness 设计。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2086446644623770083&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/sydneyrunkle/status/2086445681401835539&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@sydneyrunkle&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;513-hugging-face-storage-buckets-接入-vastai-gpu&quot;&gt;5/13 Hugging Face Storage Buckets 接入 Vast.ai GPU&lt;/h2&gt;
-&lt;p&gt;Hugging Face Storage Buckets 现可在 Vast.ai 中配置为 Cloud Connection，租用的 GPU instance 能直接拉取 bucket 内的数据集和 checkpoint，并把结果同步回去。Bucket 是基于 Xet 的可变、无版本对象存储，支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hf&lt;/code&gt; CLI、Python 与 S3-compatible 工具、增量 sync、server-side copy、chunk deduplication 和区域预热，适合 checkpoints、logs 与 agent scratch data。数据留在 Hugging Face、计算落在 Vast GPU，减少了跨平台人工下载与重复上传。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/huggingface/status/2086074264696824285&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@huggingface&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;613-stripe-内部代理-kai-展示按需加载-skills-的企业架构&quot;&gt;6/13 Stripe 内部代理 Kai 展示按需加载 skills 的企业架构&lt;/h2&gt;
-&lt;p&gt;一则由 LangChain 创始人转发的介绍称，Stripe 的 Kai 面向非工程员工生成报告、dashboard 与文档，首版由一名工程师用一周构建，目前每周覆盖约 83% 员工。其关键设计是面对 500 多个内部 tools 和 1,000 多个 skills 时默认不加载任何工具，先由模型选择相关 skill，再只注入该 skill 的 tools；代理本体位于 sandbox 外，把执行代码的 sandbox 当作隔离工具调用。介绍同时称，skills 超过约 150 个后质量仍会下降，规模化路由尚未解决。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2086444938749952237&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/undefinedKi/status/2086440382808600645&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@undefinedKi&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;713-端侧开放模型覆盖隐私语音文档与代理循环&quot;&gt;7/13 端侧开放模型覆盖隐私、语音、文档与代理循环&lt;/h2&gt;
-&lt;p&gt;Hugging Face 转发的一份近期开放模型清单显示，多类任务已可在本地或设备端完成：1.5B 的 OpenAI privacy-filter 在浏览器中脱敏 PII，0.6B Nemotron-3.5 ASR 做流式语音识别，0.9B OvisOCR2 解析文档，2.6B LFM2.5 运行 agent loops，3B Shieldstral 按自定义政策审核内容，Marlin-2B 理解视频。清单作者认为，下一阶段瓶颈不再只是单模型能力，而是如何根据任务、硬件、隐私和延迟在异构小模型之间可靠路由。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/huggingface/status/2086074586626421016&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@huggingface&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;813-grok-imagine-image-20-强化可控编辑与多模态-grounding&quot;&gt;8/13 Grok Imagine Image 2.0 强化可控编辑与多模态 grounding&lt;/h2&gt;
-&lt;p&gt;Elon Musk 连续转发用户对 Grok Imagine Image 2.0 的演示：一组案例展示在直观界面中逐项修改图像细节，另一组强调多模态 grounding 对编辑目标和场景关系的保持，并称该工具可快速生成图像、视频与 meme。当天相关演示获得数十万次浏览，显示 Imagine 正从一次性生成向迭代编辑工作流扩展。现有信息主要来自用户展示与 Musk 转发，尚没有 xAI 官方 benchmark、编辑精度指标或完整规格，因此应视为产品能力示例而非横向评测。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@elonmusk&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2086323569609318571&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2086283426127081809&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;913-kill-my-saas-用公开评测推动-agent-工作流迭代&quot;&gt;9/13 “Kill My SaaS” 用公开评测推动 agent 工作流迭代&lt;/h2&gt;
-&lt;p&gt;Swyx 的周末 coding-agent 竞赛收到 600 多份申请、录取 100 人，参赛者可选任意 agent 与模型，并使用最多 500 美元 token 预算。组织者提前发布首批 LLM-as-judge evals，让选手在提交前做基本质量检查；一名参赛者仅用三个 Anthropic Ultracode prompts 完成可用方案，并在规定时间的 25%–50% 内结束，促使评测提前开放。该活动不是标准 benchmark，但把长任务 agent、动态工作流、token 成本与可重复验收放进同一实战环境。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@swyx&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/swyx/status/2085995879966921177&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@swyx 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/swyx/status/2086348591518585026&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@swyx 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/swyx/status/2086324411385426346&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@swyx 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/swyx/status/2086363355607179647&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@swyx 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1013-codex-使用反馈暴露弱代理复核强代理的质量倒挂&quot;&gt;10/13 Codex 使用反馈暴露“弱代理复核强代理”的质量倒挂&lt;/h2&gt;
-&lt;p&gt;Ethan Mollick 分享一次 Codex 使用经验：当 lead model 把审查继续交给能力较弱的 agents 和复杂 test harness 时，仍遗漏了它直接浏览结果便能发现的问题；他随后明确要求主模型本人重新检查全部内容，结果得到改善。这个案例属于个人使用观察，不能替代系统评测，但指出多代理分解并不自动提高质量：delegation 需要按能力匹配任务，最终验收应保留给最强模型或确定性测试，不能把 subagent 报告等同于完成证据。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2086338988520927368&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1113-yann-lecun-区分产品竞赛与长期-ai-研究目标&quot;&gt;11/13 Yann LeCun 区分产品竞赛与长期 AI 研究目标&lt;/h2&gt;
-&lt;p&gt;Yann LeCun 表示，企业管理层若聚焦短期产品竞赛，可能把 world models 等长期方向视为资源浪费；若目标是 human-level AI，且认为 LLM scaling 之外仍需概念突破，研究者就会选择更少连接产品和管理、更多连接基础研究的角色。他同时称自己一直支持高质量 LLM 工作，也认可其作为技术和产品核心的价值，但从未认为 LLM 本身就是通往 AGI 的路线。这一表态把近期组织传闻转回到研究期限、治理方式与技术路线差异。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/ylecun/status/2086042924316242287&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ylecun&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1213-geoffrey-hinton-正撰写面向公众的-ai-风险读物&quot;&gt;12/13 Geoffrey Hinton 正撰写面向公众的 AI 风险读物&lt;/h2&gt;
-&lt;p&gt;Geoffrey Hinton 宣布正与科学作家 Patchen Barss 完成一本非技术读物，由 Viking Books 与 Viking Books UK 参与出版。书将解释 AI 如何工作、为何可能带来危险，以及社会可以采取哪些行动；目前推文未披露正式书名、出版日期或章节结构。Hinton 近年来持续讨论失控、滥用与治理风险，这本书把其面向研究和政策圈的论点转向普通读者，意味着前沿模型安全讨论将进一步进入大众出版与公共教育渠道。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/geoffreyhinton/status/2086105351967948994&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@geoffreyhinton&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1313-ai-芯片竞争的瓶颈从硅片延伸到软件生态&quot;&gt;13/13 AI 芯片竞争的瓶颈从硅片延伸到软件生态&lt;/h2&gt;
-&lt;p&gt;Yann LeCun 转发观点称，历史上已有大量突破性 silicon 因缺少软件支持而无法商业化，今天也存在性能优秀却难以进入主流工作流的芯片。该观点未给出具体厂商或份额数据，但指向 AI accelerator 竞争的系统约束：编译器、kernel、framework 适配、模型支持、调试工具、云资源与开发者迁移成本共同决定硬件能否被采用。对新架构而言，单点 benchmark 胜出不足以形成平台，软件栈成熟度与既有生态兼容性往往才是规模化门槛。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/ylecun/status/2086417565270646983&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ylecun&lt;/a&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;marindna用数据混合与标准架构缩小-40-倍参数差距&quot;&gt;MarinDNA：用数据混合与标准架构缩小 40 倍参数差距&lt;/h3&gt;
-&lt;p&gt;MarinDNA 用 Qwen3 兼容 causal Transformer 直接建模单核苷酸，1B checkpoint 的训练混合主要由 CDS、upstream 与 downstream 序列组成。项目发现按数据量比例采样会让 CDS 主导模型，而均衡混合能同时保持 coding 与 regulatory region 表现；加入 ncRNA 和 enhancer 后，对应变异类别继续改善。m5.1 在 zero-shot Mendelian VEP macro AUPRC 上略超 Evo 2 40B，却使用约 1/1,980 的训练 FLOPs并以约 2,330 倍吞吐评分。限制是 255-bp 上下文较短，alignment-based 与 supervised 模型整体仍更强。
-&lt;a href=&quot;https://openathena.ai/blog/marin-dna/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;nemo-gym把-promptpolicy-与-golden-tools-做成可校验资产包&quot;&gt;NeMo Gym：把 prompt、policy 与 golden tools 做成可校验资产包&lt;/h3&gt;
-&lt;p&gt;该 Hugging Face 仓库把 conversational tool-use pipeline 的 prompt 与参考资料从执行代码中拆出，包含 domain generation、policy/tool generation、refinement、judge 和 scenario generation 的 prompt 及历史版本，并提供 golden policy Markdown 与配对 tool JSONL。它只有 36 行、约 275 kB，明确不是训练或评测数据；simulation server、JSON schema 和 runnable examples 仍在 Git 中。Gym 的 preparation command 会下载并校验 checksum，使生成流程能够锁定运行资产版本并复现实验。
-&lt;a href=&quot;https://huggingface.co/datasets/nvidia/NeMo-Gym-Conversational-Tool-Use-Assets&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;liteparse本地快速解析作为文档流水线第一层&quot;&gt;LiteParse：本地快速解析作为文档流水线第一层&lt;/h3&gt;
-&lt;p&gt;LiteParse 以 PDFium 提取原生文本、用可选 OCR 补充扫描内容，再通过 grid projection 重建空间布局。结构化 JSON 可按需加入 vector graphics、annotations、form fields、checkbox values、images、text metadata 与 tagged structure tree；Markdown 输出可保留 headings、tables、lists、images 和 links。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;is-complex&lt;/code&gt; 先用低成本 text-layer signal 判定页面是否需要 OCR 或更强解析，因此常规文档可在本地快速处理，复杂表格、多栏和手写扫描件再升级到云端 LlamaParse。
-&lt;a href=&quot;https://github.com/run-llama/liteparse&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;rlm把超长上下文变成模型可编程访问的环境&quot;&gt;RLM：把超长上下文变成模型可编程访问的环境&lt;/h3&gt;
-&lt;p&gt;Recursive Language Models 不要求根模型一次读完 prompt，而是把输入存为 REPL 变量，让模型编写代码搜索、切片和聚合，并对局部内容递归发起 LM 或 RLM 调用。原论文在四类长上下文任务中报告，对比基础模型、context compaction 与其他 scaffold，RLM 能处理大两个数量级的输入且成本相当或更低；作者博客还报告 1,000 万以上 token 下未见明显衰减。生产化仍需限制递归深度、隔离 REPL、追踪子调用成本，并用 verifier 防止分解错误层层传播。
-&lt;a href=&quot;https://arxiv.org/abs/2512.24601&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;hf-storage-buckets为训练与代理提供可变工作存储&quot;&gt;HF Storage Buckets：为训练与代理提供可变工作存储&lt;/h3&gt;
-&lt;p&gt;Storage Buckets 与 Hugging Face 的 Git repositories 分工不同：前者无版本、可原地覆盖，适合 checkpoint、日志、中间产物和 agent working memory；后者保留历史，适合发布完成的模型与数据集。Bucket 支持 S3-compatible API、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hf://buckets/&lt;/code&gt; 路径、增量 sync、Xet chunk deduplication、server-side copy 和区域预热。Vast.ai 的 Cloud Connection 可让 GPU instance 直接同步同一 bucket，减少跨平台搬运，但 bucket 删除不可恢复，自动化需要 dry-run、plan/apply 和独立备份。
-&lt;a href=&quot;https://huggingface.co/docs/hub/storage-buckets&quot;&gt;查看原文&lt;/a&gt;
-&lt;a href=&quot;https://docs.vast.ai/guides/instances/storage/cloud-sync&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 09 Aug 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/08/09/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/09/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
         
       </item>
     

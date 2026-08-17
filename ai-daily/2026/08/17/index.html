@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Together AI 宣布 DeepSeek V4 Pro 0813 已可调用。该系列采用 1.6 万亿参数 MoE、每 token 激活 490 亿参数，并提供 Non-Think、Think High、Think Max 三档推理。模型层面支持 1M 上下文，但 Together 当前 Serverless 配置为 512K，完整 1M 需专用部署；官方所列代码与代理基准仍属于供应商报告，尚不能替代独立评测。">
+    <meta name="keywords" content="AI 日报, AI Frontier Daily, Reddit 精选, 公司观察, 财报分析, 产品经理, 数据产品, AI 应用, 产品设计, 科技博客">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.08.17 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/08/17/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于作者</a>
+        </div>
+
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.08.17</p>
+    <h1>Together AI 上线 DeepSeek V4 Pro 0813，长上下文与三档推理进入托管服务</h1>
+    
+    <p class="article-deck">Together AI 宣布 DeepSeek V4 Pro 0813 已可调用。该系列采用 1.6 万亿参数 MoE、每 token 激活 490 亿参数，并提供 Non-Think、Think High、Think Max 三档推理。模型层面支持 1M 上下文，但 Together 当前 Serverless 配置为 512K，完整 1M 需专用部署；官方所列代码与代理基准仍属于供应商报告，尚不能替代独立评测。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-08-17T09:07:00+08:00">2026年8月17日</time>
+      <span>11 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪正在发生的，留下值得重读的。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <div class="article-copy__content" data-highlight-source>
+        <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>12</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>6</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>11</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="112-together-ai-上线-deepseek-v4-pro-0813长上下文与三档推理进入托管服务">1/12 Together AI 上线 DeepSeek V4 Pro 0813，长上下文与三档推理进入托管服务</h2>
+<p>Together AI 宣布 DeepSeek V4 Pro 0813 已可调用。该系列采用 1.6 万亿参数 MoE、每 token 激活 490 亿参数，并提供 Non-Think、Think High、Think Max 三档推理。模型层面支持 1M 上下文，但 Together 当前 Serverless 配置为 512K，完整 1M 需专用部署；官方所列代码与代理基准仍属于供应商报告，尚不能替代独立评测。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@togethercompute<span class="source-chip__links"><a href="https://x.com/togethercompute/status/2089064162684993798" target="_blank" rel="noopener" aria-label="@togethercompute 原文 1">1</a><a href="https://x.com/togethercompute/status/2089064253768475115" target="_blank" rel="noopener" aria-label="@togethercompute 原文 2">2</a></span></span></div>
+
+<h2 id="212-gpt-56-sol-接管-chrome-导出-5302-条-x-书签浏览器会话补上-api-缺口">2/12 GPT-5.6 Sol 接管 Chrome 导出 5,302 条 X 书签，浏览器会话补上 API 缺口</h2>
+<p>Ethan Mollick 表示，他让 Codex 中的 GPT-5.6 Sol 操作 Chrome，导出了从 2014 年至今的 5,302 条 X 书签及相关数据，并进一步筛选其中内容；同一任务未能由 Grok Bot 完成，因为其 API 无法访问全部书签。案例展示了已登录浏览器会话对封闭数据的操作价值，但它是个人实测，不是通用性能基准。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick<span class="source-chip__links"><a href="https://x.com/emollick/status/2089100618648404216" target="_blank" rel="noopener" aria-label="@emollick 原文 1">1</a><a href="https://x.com/emollick/status/2089140341085553030" target="_blank" rel="noopener" aria-label="@emollick 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/gdb/status/2089181834580250870" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@gdb</a></div>
+
+<h2 id="312-minimax-h3-开放权重视频模型在本地三分钟生成带声短片">3/12 MiniMax H3 开放权重视频模型在本地三分钟生成带声短片</h2>
+<p>Mollick 展示了 MiniMax H3 在本地电脑运行的效果：一段“水獭在飞机上用笔记本”的带声视频约三分钟生成。MiniMax 官方将 H3 定位为统一处理文本、图像、视频与音频的生成模型，最高输出 15 秒、2K 分辨率与原生立体声。三分钟速度取决于未披露的硬件和配置，因此更适合作为可运行性案例，而非标准化速度结论。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/emollick/status/2089185499197911391" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick</a></div>
+
+<h2 id="412-rednote-团队用-arc-agi-3-演示测试时持续学习françois-chollet-提醒尚未验证">4/12 RedNote 团队用 ARC-AGI-3 演示测试时持续学习，François Chollet 提醒尚未验证</h2>
+<p>François Chollet 转发 RedNote 团队在 ARC-AGI-3 上的测试时持续学习演示，并明确称结果“尚未验证、但方向有趣”。ARC-AGI-3 要求代理在无规则、无目标提示的互动环境中探索、记忆并跨关卡适应；发布时人类完成率为 100%，前沿系统仅 0.51%。当前演示缺少可复现配置、动作预算与正式得分，不能据此宣布突破。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/fchollet/status/2089071594849366288" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@fchollet</a></div>
+
+<h2 id="512-langchain-详解-deep-agents大脑与手分离执行后端可在本地与云端切换">5/12 LangChain 详解 Deep Agents：“大脑”与“手”分离，执行后端可在本地与云端切换</h2>
+<p>Harrison Chase 说明 Deep Agents 将代理循环与后端分开：后端只需提供 read、write、edit 等类文件接口，需要执行代码时再增加 sandbox 的 execute 能力。相同代理可连接本地目录形成 TUI，也可部署到 LangSmith 并调用 Modal、Daytona、E2B 等远程沙箱；Web 与 Slack 前端还能共享同一状态。非编码代理则可使用数据库或对象存储模拟文件系统。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/hwchase17/status/2089029054611837324" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@hwchase17</a></div>
+
+<h2 id="612-gauntlet-loop-从一次生成转向构建者独立评审持续返工的游戏制作循环">6/12 Gauntlet Loop 从一次生成转向“构建者—独立评审—持续返工”的游戏制作循环</h2>
+<p>Matt Shumer 的 Gauntlet Loop 正被更多游戏实验采用：主代理先把目标拆成可独立改进的部件，构建者产出后，由新上下文中的评审代理对照真实质量标杆，指出最大差距并送回下一轮，直到达到标准或人工停止。当天讨论还出现了用于生成这类循环的工具与 AI 概念预告片，显示游戏构想从文字到可玩原型、视觉提案的成本继续下降。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@mattshumer_<span class="source-chip__links"><a href="https://x.com/mattshumer_/status/2089073976827838825" target="_blank" rel="noopener" aria-label="@mattshumer_ 原文 1">1</a><a href="https://x.com/mattshumer_/status/2089073412001980663" target="_blank" rel="noopener" aria-label="@mattshumer_ 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/LinusEkenstam/status/2089044408989557105" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@LinusEkenstam</a></div>
+
+<h2 id="712-非可验证任务的-ai-基准开始重新借用定性研究与人类评审方法">7/12 非可验证任务的 AI 基准，开始重新借用定性研究与人类评审方法</h2>
+<p>Mollick 指出，写作、创意或商业提案等任务不存在唯一可程序化核验的答案，现实中的评价本来就依赖人的判断；AI 评测可直接借鉴社会科学长期形成的定性研究、抽样、编码和一致性分析，而不是只追求自动评分。该主张把评测问题从“找一个万能裁判模型”转回研究设计：谁来评价、依据什么标准、不同人群是否稳定一致。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick<span class="source-chip__links"><a href="https://x.com/emollick/status/2089042815405686919" target="_blank" rel="noopener" aria-label="@emollick 原文 1">1</a><a href="https://x.com/emollick/status/2089043747514233026" target="_blank" rel="noopener" aria-label="@emollick 原文 2">2</a></span></span></div>
+
+<h2 id="812-google-ai-overview-被视为网页流量信息消费与电商分发的结构性变量">8/12 Google AI Overview 被视为网页流量、信息消费与电商分发的结构性变量</h2>
+<p>Mollick 认为，即使不考虑其他生成式 AI 产品，Google AI Overview 单独就可能长期改变网页内容如何被发现、消费和转化，并进一步影响数千亿美元规模的电商与广告链路。这是对产业影响的判断而非新统计结果，但它指出了明确机制：搜索答案直接在入口完成后，出版者获得点击、品牌争夺注意力以及商家购买流量的方式都会随之调整。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick<span class="source-chip__links"><a href="https://x.com/emollick/status/2089003775755190570" target="_blank" rel="noopener" aria-label="@emollick 原文 1">1</a><a href="https://x.com/emollick/status/2089006232816193621" target="_blank" rel="noopener" aria-label="@emollick 原文 2">2</a></span></span></div>
+
+<h2 id="912-每个人需要一台本地-ai-电脑成为端侧计算的新需求假说">9/12 “每个人需要一台本地 AI 电脑”成为端侧计算的新需求假说</h2>
+<p>Aravind Srinivas 预测，随着提示交互和本地模型普及，个人电脑的重要性反而会上升，能高效运行本地 AI 的设备厂商将受益；他把隐私工作、医疗与软件场景列为潜在需求。Qwen3.8-27B 在笔记本运行的社区案例为这一方向提供了产品信号，但设备成本、内存带宽、功耗和模型压缩仍决定其能否从爱好者部署走向大众市场。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@aravind<span class="source-chip__links"><a href="https://x.com/aravind/status/2089017544439107802" target="_blank" rel="noopener" aria-label="@aravind 原文 1">1</a><a href="https://x.com/aravind/status/2089020557249675267" target="_blank" rel="noopener" aria-label="@aravind 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/Alibaba_Qwen/status/2088891548507492646" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@Alibaba_Qwen</a></div>
+
+<h2 id="1012-开源模型讨论从是否追平前沿转向视觉能力延迟与总成本">10/12 开源模型讨论从“是否追平前沿”转向视觉能力、延迟与总成本</h2>
+<p>Bindu Reddy 对开源模型的营销提出批评：她认为 GLM 与 DeepSeek 仍需补齐视觉能力，部分模型推理冗长、响应慢，在中等复杂任务上甚至可能比前沿闭源模型更贵。这些判断未附统一基准，不能作为横向结论；但它把比较维度从单项榜单扩展到多模态覆盖、端到端时延与实际调用成本，反映生产部署更关注系统总效用。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/bindureddy/status/2089194292090917355" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@bindureddy</a></div>
+
+<h2 id="1112-ai-治愈疾病仍隔着实验临床试验与监管批准三道落地门槛">11/12 “AI 治愈疾病”仍隔着实验、临床试验与监管批准三道落地门槛</h2>
+<p>Mollick 要求对“AI 将治愈疾病”的说法给出更精确边界：即使数据中心中的高能力模型能提出理论上有效的分子、机制或治疗方案，距离真实患者获益仍需实验验证、分期临床试验、安全性与有效性证据，以及监管审批。当天围绕 Dario Amodei 生物医学预期的争论因此从模型能力转向转化链路，关键不只是发现速度，也包括可验证性与实施周期。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/emollick/status/2089156476568842516" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick</a><a class="source-chip" href="https://x.com/GaryMarcus/status/2089139059226718568" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@GaryMarcus</a></div>
+
+<h2 id="1212-模型还是系统争论回归代理能力可能同时来自模型harness-与环境">12/12 “模型还是系统”争论回归：代理能力可能同时来自模型、Harness 与环境</h2>
+<p>François Chollet 转发以“西蒙的蚂蚁”解释 Model vs. Harness 的讨论：复杂轨迹可能由简单行动者与复杂环境共同产生，不能把全部表现都归于模型。Yoav Goldberg 同日再谈“中文房间”，质疑把理解割裂到单个操作者的方式。两组讨论没有形成新的实验证据，但共同指向评测归因问题：模型、工具、记忆、反馈循环和环境需要分别消融。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/fchollet/status/2089037165414187505" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@fchollet</a><a class="source-chip" href="https://x.com/yoavgo/status/2089097686947414455" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@yoavgo</a></div>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="deepseek-v4-pro-0813模型-1m-上下文不等于每个托管端点都开放-1m">DeepSeek V4 Pro 0813：模型 1M 上下文不等于每个托管端点都开放 1M</h3>
+<p>Together AI 将 0813 构建带入托管服务。V4 Pro 为 1.6T 参数 MoE、每 token 激活 49B，混合稀疏注意力据称把百万上下文下的单 token FLOPs 降至 V3.2 的 27%、KV Cache 降至 10%。模型层面支持 1M，但 Together Serverless 当前为 512K；三档推理模式让应用按任务难度控制延迟与 token。SWE-bench 等数字来自供应商模型卡，仍需独立复核。
+<a href="https://www.together.ai/models/deepseek-v4-pro-0813">查看原文</a></p>
+
+<h3 id="chatgpt-浏览器独立浏览器状态与现有-chrome-会话是两种权限模型">ChatGPT 浏览器：独立浏览器状态与现有 Chrome 会话是两种权限模型</h3>
+<p>OpenAI 文档显示，桌面端内置浏览器可跨标签页、下载、登录并接受页面批注，但使用独立浏览器状态；当任务需要现有 Chrome 的 Cookie、登录态、标签页或扩展时，应使用 Codex Chrome 扩展。Mollick 的 5,302 条书签导出正属于后者：浏览器会话可执行站点 API 未开放的操作。相应风险也更高，用户需核对活动账号、逐站授权，并把网页内容视作不可信输入。
+<a href="https://help.openai.com/en/articles/20001277-using-the-built-in-browser-in-the-chatgpt-desktop-app">查看原文</a></p>
+
+<h3 id="minimax-h3用统一多模态上下文生成最高-2k15-秒原生立体声视频">MiniMax H3：用统一多模态上下文生成最高 2K、15 秒原生立体声视频</h3>
+<p>H3 将文本、图像、视频与音频引用放入同一上下文，通过自然语言描述素材关系；官方称 H3-VAE 带来 4 倍有效序列长度，理解与生成负载分离使训练吞吐提升近 30%，2K 输出由基础模型带原上下文再生成，而非独立超分模块。Mollick 的本地三分钟演示说明开放权重已能进入个人工作站，但缺少硬件、量化和分辨率信息，不能据此比较不同系统速度。
+<a href="https://www.minimax.io/blog/minimax-h3">查看原文</a></p>
+
+<h3 id="arc-agi-3测试时持续学习演示有方向价值验证仍需动作效率与完整配置">ARC-AGI-3：测试时持续学习演示有方向价值，验证仍需动作效率与完整配置</h3>
+<p>ARC-AGI-3 由数百个无说明的互动环境和数千关卡组成，代理必须探索规则、发现目标并跨关卡迁移；发布时人类为 100%，前沿系统为 0.51%。RedNote 演示若能稳定实现测试时持续学习，将直接触及该基准核心，但目前只有社交媒体展示。正式结论至少需要模型与 Harness 配置、每关动作预算、效率得分、失败案例以及按官方规则复测。
+<a href="https://arcprize.org/blog/arc-agi-3-launch">查看原文</a></p>
+
+<h3 id="deep-agents稳定的后端接口让代理循环跨本地云沙箱与多前端复用">Deep Agents：稳定的后端接口让代理循环跨本地、云沙箱与多前端复用</h3>
+<p>Deep Agents 把代理循环固定在类文件接口之上：数据库、对象存储、真实文件系统或远程沙箱都能成为后端，代码执行只是可选的 <code class="language-plaintext highlighter-rouge">execute</code> 能力。由此，本地 TUI、云端编码、Web 与 Slack 可以共享代理逻辑和状态。该思路与 Anthropic 的“脑—手分离”一致：Harness 会随模型能力变化而过时，系统应让执行实现可替换，同时保留审批、记忆、技能与可观测性等稳定边界。
+<a href="https://docs.langchain.com/oss/deepagents/code/overview">查看原文</a></p>
+
+<h3 id="gauntlet-loop真正的增量来自外部质量标杆与独立评审而非单次长提示词">Gauntlet Loop：真正的增量来自外部质量标杆与独立评审，而非单次长提示词</h3>
+<p>Gauntlet Loop 的结构是“目标与标杆—拆分—构建—独立评审—返工”：评审代理必须检查真实运行或渲染结果，与参考物直接比较，再把最大差距送回构建者。Shumer 称其游戏实验生成约 5.5 万行代码，并公开提示词与代码。它仍消耗大量模型调用和工具执行，结果也只是可玩原型而非 AAA 成品；方法的可迁移部分是可检查标杆、独立评分与持续循环。
+<a href="https://somethingbig.ai/gauntlet-loop">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+      </div>
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/blog/2026/08/16/reddit-daily-digest/">
+          <span>上一篇</span>
+          <strong>Reddit 每日精选 | 2026.08.16</strong>
+        </a>
+        
+        
+        <a href="/blog/2026/08/17/reddit-daily-digest/">
+          <span>下一篇</span>
+          <strong>Reddit 每日精选 | 2026.08.17</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer class="editorial-footer">
+    <div class="editorial-shell editorial-footer__inner">
+        <div class="editorial-footer__brand">
+            <a class="editorial-wordmark editorial-wordmark--footer" href="/" aria-label="Freedom Hunter 首页">
+                <span aria-hidden="true">FH</span>
+                Freedom Hunter
+            </a>
+            <p>追踪正在发生的，留下值得重读的。</p>
+        </div>
+
+        <nav class="editorial-footer__nav" aria-label="页脚导航">
+            <div>
+                <p>栏目</p>
+                <a href="/ai-daily/">AI 日报</a>
+                <a href="/reddit-daily/">Reddit 精选</a>
+                <a href="/company-research/">公司观察</a>
+                <a href="/articles/">文章</a>
+            </div>
+            <div>
+                <p>更多</p>
+                <a href="/archive/">全部文章</a>
+                <a href="/highlights/">读者精选</a>
+                <a href="/about/">关于作者</a>
+                <a href="/feed.xml">RSS 订阅</a>
+                <a href="https://github.com/zluckyhou" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="editorial-footer__meta">
+        <div class="editorial-shell editorial-footer__meta-inner">
+            <span>&copy; 2026 Freedom Hunter</span>
+            <span>Shanghai · UTC+8 · Powered by Jekyll</span>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+</html>

@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 17 Aug 2026 09:22:57 +0800</pubDate>
-    <lastBuildDate>Mon, 17 Aug 2026 09:22:57 +0800</lastBuildDate>
+    <pubDate>Mon, 17 Aug 2026 12:12:26 +0800</pubDate>
+    <lastBuildDate>Mon, 17 Aug 2026 12:12:26 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -147,6 +147,109 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>AI Frontier Daily | 2026.08.17</title>
+        <description>&lt;h2 id=&quot;112-together-ai-上线-deepseek-v4-pro-0813长上下文与三档推理进入托管服务&quot;&gt;1/12 Together AI 上线 DeepSeek V4 Pro 0813，长上下文与三档推理进入托管服务&lt;/h2&gt;
+&lt;p&gt;Together AI 宣布 DeepSeek V4 Pro 0813 已可调用。该系列采用 1.6 万亿参数 MoE、每 token 激活 490 亿参数，并提供 Non-Think、Think High、Think Max 三档推理。模型层面支持 1M 上下文，但 Together 当前 Serverless 配置为 512K，完整 1M 需专用部署；官方所列代码与代理基准仍属于供应商报告，尚不能替代独立评测。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2089064162684993798&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2089064253768475115&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;212-gpt-56-sol-接管-chrome-导出-5302-条-x-书签浏览器会话补上-api-缺口&quot;&gt;2/12 GPT-5.6 Sol 接管 Chrome 导出 5,302 条 X 书签，浏览器会话补上 API 缺口&lt;/h2&gt;
+&lt;p&gt;Ethan Mollick 表示，他让 Codex 中的 GPT-5.6 Sol 操作 Chrome，导出了从 2014 年至今的 5,302 条 X 书签及相关数据，并进一步筛选其中内容；同一任务未能由 Grok Bot 完成，因为其 API 无法访问全部书签。案例展示了已登录浏览器会话对封闭数据的操作价值，但它是个人实测，不是通用性能基准。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2089100618648404216&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2089140341085553030&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/gdb/status/2089181834580250870&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;312-minimax-h3-开放权重视频模型在本地三分钟生成带声短片&quot;&gt;3/12 MiniMax H3 开放权重视频模型在本地三分钟生成带声短片&lt;/h2&gt;
+&lt;p&gt;Mollick 展示了 MiniMax H3 在本地电脑运行的效果：一段“水獭在飞机上用笔记本”的带声视频约三分钟生成。MiniMax 官方将 H3 定位为统一处理文本、图像、视频与音频的生成模型，最高输出 15 秒、2K 分辨率与原生立体声。三分钟速度取决于未披露的硬件和配置，因此更适合作为可运行性案例，而非标准化速度结论。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2089185499197911391&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;412-rednote-团队用-arc-agi-3-演示测试时持续学习françois-chollet-提醒尚未验证&quot;&gt;4/12 RedNote 团队用 ARC-AGI-3 演示测试时持续学习，François Chollet 提醒尚未验证&lt;/h2&gt;
+&lt;p&gt;François Chollet 转发 RedNote 团队在 ARC-AGI-3 上的测试时持续学习演示，并明确称结果“尚未验证、但方向有趣”。ARC-AGI-3 要求代理在无规则、无目标提示的互动环境中探索、记忆并跨关卡适应；发布时人类完成率为 100%，前沿系统仅 0.51%。当前演示缺少可复现配置、动作预算与正式得分，不能据此宣布突破。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/fchollet/status/2089071594849366288&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;512-langchain-详解-deep-agents大脑与手分离执行后端可在本地与云端切换&quot;&gt;5/12 LangChain 详解 Deep Agents：“大脑”与“手”分离，执行后端可在本地与云端切换&lt;/h2&gt;
+&lt;p&gt;Harrison Chase 说明 Deep Agents 将代理循环与后端分开：后端只需提供 read、write、edit 等类文件接口，需要执行代码时再增加 sandbox 的 execute 能力。相同代理可连接本地目录形成 TUI，也可部署到 LangSmith 并调用 Modal、Daytona、E2B 等远程沙箱；Web 与 Slack 前端还能共享同一状态。非编码代理则可使用数据库或对象存储模拟文件系统。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2089029054611837324&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;612-gauntlet-loop-从一次生成转向构建者独立评审持续返工的游戏制作循环&quot;&gt;6/12 Gauntlet Loop 从一次生成转向“构建者—独立评审—持续返工”的游戏制作循环&lt;/h2&gt;
+&lt;p&gt;Matt Shumer 的 Gauntlet Loop 正被更多游戏实验采用：主代理先把目标拆成可独立改进的部件，构建者产出后，由新上下文中的评审代理对照真实质量标杆，指出最大差距并送回下一轮，直到达到标准或人工停止。当天讨论还出现了用于生成这类循环的工具与 AI 概念预告片，显示游戏构想从文字到可玩原型、视觉提案的成本继续下降。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mattshumer_&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/mattshumer_/status/2089073976827838825&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@mattshumer_ 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/mattshumer_/status/2089073412001980663&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@mattshumer_ 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/LinusEkenstam/status/2089044408989557105&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@LinusEkenstam&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;712-非可验证任务的-ai-基准开始重新借用定性研究与人类评审方法&quot;&gt;7/12 非可验证任务的 AI 基准，开始重新借用定性研究与人类评审方法&lt;/h2&gt;
+&lt;p&gt;Mollick 指出，写作、创意或商业提案等任务不存在唯一可程序化核验的答案，现实中的评价本来就依赖人的判断；AI 评测可直接借鉴社会科学长期形成的定性研究、抽样、编码和一致性分析，而不是只追求自动评分。该主张把评测问题从“找一个万能裁判模型”转回研究设计：谁来评价、依据什么标准、不同人群是否稳定一致。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2089042815405686919&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2089043747514233026&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;812-google-ai-overview-被视为网页流量信息消费与电商分发的结构性变量&quot;&gt;8/12 Google AI Overview 被视为网页流量、信息消费与电商分发的结构性变量&lt;/h2&gt;
+&lt;p&gt;Mollick 认为，即使不考虑其他生成式 AI 产品，Google AI Overview 单独就可能长期改变网页内容如何被发现、消费和转化，并进一步影响数千亿美元规模的电商与广告链路。这是对产业影响的判断而非新统计结果，但它指出了明确机制：搜索答案直接在入口完成后，出版者获得点击、品牌争夺注意力以及商家购买流量的方式都会随之调整。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2089003775755190570&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2089006232816193621&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;912-每个人需要一台本地-ai-电脑成为端侧计算的新需求假说&quot;&gt;9/12 “每个人需要一台本地 AI 电脑”成为端侧计算的新需求假说&lt;/h2&gt;
+&lt;p&gt;Aravind Srinivas 预测，随着提示交互和本地模型普及，个人电脑的重要性反而会上升，能高效运行本地 AI 的设备厂商将受益；他把隐私工作、医疗与软件场景列为潜在需求。Qwen3.8-27B 在笔记本运行的社区案例为这一方向提供了产品信号，但设备成本、内存带宽、功耗和模型压缩仍决定其能否从爱好者部署走向大众市场。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@aravind&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/aravind/status/2089017544439107802&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@aravind 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/aravind/status/2089020557249675267&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@aravind 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Alibaba_Qwen/status/2088891548507492646&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1012-开源模型讨论从是否追平前沿转向视觉能力延迟与总成本&quot;&gt;10/12 开源模型讨论从“是否追平前沿”转向视觉能力、延迟与总成本&lt;/h2&gt;
+&lt;p&gt;Bindu Reddy 对开源模型的营销提出批评：她认为 GLM 与 DeepSeek 仍需补齐视觉能力，部分模型推理冗长、响应慢，在中等复杂任务上甚至可能比前沿闭源模型更贵。这些判断未附统一基准，不能作为横向结论；但它把比较维度从单项榜单扩展到多模态覆盖、端到端时延与实际调用成本，反映生产部署更关注系统总效用。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/bindureddy/status/2089194292090917355&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@bindureddy&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1112-ai-治愈疾病仍隔着实验临床试验与监管批准三道落地门槛&quot;&gt;11/12 “AI 治愈疾病”仍隔着实验、临床试验与监管批准三道落地门槛&lt;/h2&gt;
+&lt;p&gt;Mollick 要求对“AI 将治愈疾病”的说法给出更精确边界：即使数据中心中的高能力模型能提出理论上有效的分子、机制或治疗方案，距离真实患者获益仍需实验验证、分期临床试验、安全性与有效性证据，以及监管审批。当天围绕 Dario Amodei 生物医学预期的争论因此从模型能力转向转化链路，关键不只是发现速度，也包括可验证性与实施周期。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2089156476568842516&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GaryMarcus/status/2089139059226718568&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GaryMarcus&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1212-模型还是系统争论回归代理能力可能同时来自模型harness-与环境&quot;&gt;12/12 “模型还是系统”争论回归：代理能力可能同时来自模型、Harness 与环境&lt;/h2&gt;
+&lt;p&gt;François Chollet 转发以“西蒙的蚂蚁”解释 Model vs. Harness 的讨论：复杂轨迹可能由简单行动者与复杂环境共同产生，不能把全部表现都归于模型。Yoav Goldberg 同日再谈“中文房间”，质疑把理解割裂到单个操作者的方式。两组讨论没有形成新的实验证据，但共同指向评测归因问题：模型、工具、记忆、反馈循环和环境需要分别消融。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/fchollet/status/2089037165414187505&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/yoavgo/status/2089097686947414455&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@yoavgo&lt;/a&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
+
+&lt;h3 id=&quot;deepseek-v4-pro-0813模型-1m-上下文不等于每个托管端点都开放-1m&quot;&gt;DeepSeek V4 Pro 0813：模型 1M 上下文不等于每个托管端点都开放 1M&lt;/h3&gt;
+&lt;p&gt;Together AI 将 0813 构建带入托管服务。V4 Pro 为 1.6T 参数 MoE、每 token 激活 49B，混合稀疏注意力据称把百万上下文下的单 token FLOPs 降至 V3.2 的 27%、KV Cache 降至 10%。模型层面支持 1M，但 Together Serverless 当前为 512K；三档推理模式让应用按任务难度控制延迟与 token。SWE-bench 等数字来自供应商模型卡，仍需独立复核。
+&lt;a href=&quot;https://www.together.ai/models/deepseek-v4-pro-0813&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;chatgpt-浏览器独立浏览器状态与现有-chrome-会话是两种权限模型&quot;&gt;ChatGPT 浏览器：独立浏览器状态与现有 Chrome 会话是两种权限模型&lt;/h3&gt;
+&lt;p&gt;OpenAI 文档显示，桌面端内置浏览器可跨标签页、下载、登录并接受页面批注，但使用独立浏览器状态；当任务需要现有 Chrome 的 Cookie、登录态、标签页或扩展时，应使用 Codex Chrome 扩展。Mollick 的 5,302 条书签导出正属于后者：浏览器会话可执行站点 API 未开放的操作。相应风险也更高，用户需核对活动账号、逐站授权，并把网页内容视作不可信输入。
+&lt;a href=&quot;https://help.openai.com/en/articles/20001277-using-the-built-in-browser-in-the-chatgpt-desktop-app&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;minimax-h3用统一多模态上下文生成最高-2k15-秒原生立体声视频&quot;&gt;MiniMax H3：用统一多模态上下文生成最高 2K、15 秒原生立体声视频&lt;/h3&gt;
+&lt;p&gt;H3 将文本、图像、视频与音频引用放入同一上下文，通过自然语言描述素材关系；官方称 H3-VAE 带来 4 倍有效序列长度，理解与生成负载分离使训练吞吐提升近 30%，2K 输出由基础模型带原上下文再生成，而非独立超分模块。Mollick 的本地三分钟演示说明开放权重已能进入个人工作站，但缺少硬件、量化和分辨率信息，不能据此比较不同系统速度。
+&lt;a href=&quot;https://www.minimax.io/blog/minimax-h3&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;arc-agi-3测试时持续学习演示有方向价值验证仍需动作效率与完整配置&quot;&gt;ARC-AGI-3：测试时持续学习演示有方向价值，验证仍需动作效率与完整配置&lt;/h3&gt;
+&lt;p&gt;ARC-AGI-3 由数百个无说明的互动环境和数千关卡组成，代理必须探索规则、发现目标并跨关卡迁移；发布时人类为 100%，前沿系统为 0.51%。RedNote 演示若能稳定实现测试时持续学习，将直接触及该基准核心，但目前只有社交媒体展示。正式结论至少需要模型与 Harness 配置、每关动作预算、效率得分、失败案例以及按官方规则复测。
+&lt;a href=&quot;https://arcprize.org/blog/arc-agi-3-launch&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;deep-agents稳定的后端接口让代理循环跨本地云沙箱与多前端复用&quot;&gt;Deep Agents：稳定的后端接口让代理循环跨本地、云沙箱与多前端复用&lt;/h3&gt;
+&lt;p&gt;Deep Agents 把代理循环固定在类文件接口之上：数据库、对象存储、真实文件系统或远程沙箱都能成为后端，代码执行只是可选的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;execute&lt;/code&gt; 能力。由此，本地 TUI、云端编码、Web 与 Slack 可以共享代理逻辑和状态。该思路与 Anthropic 的“脑—手分离”一致：Harness 会随模型能力变化而过时，系统应让执行实现可替换，同时保留审批、记忆、技能与可观测性等稳定边界。
+&lt;a href=&quot;https://docs.langchain.com/oss/deepagents/code/overview&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;gauntlet-loop真正的增量来自外部质量标杆与独立评审而非单次长提示词&quot;&gt;Gauntlet Loop：真正的增量来自外部质量标杆与独立评审，而非单次长提示词&lt;/h3&gt;
+&lt;p&gt;Gauntlet Loop 的结构是“目标与标杆—拆分—构建—独立评审—返工”：评审代理必须检查真实运行或渲染结果，与参考物直接比较，再把最大差距送回构建者。Shumer 称其游戏实验生成约 5.5 万行代码，并公开提示词与代码。它仍消耗大量模型调用和工具执行，结果也只是可玩原型而非 AAA 成品；方法的可迁移部分是可检查标杆、独立评分与持续循环。
+&lt;a href=&quot;https://somethingbig.ai/gauntlet-loop&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2026 09:07:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/ai-daily/2026/08/17/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/17/</guid>
+        
+        <category>AI-Frontier</category>
+        
+        <category>Daily</category>
+        
+        
+        <category>ai-daily</category>
         
       </item>
     
@@ -1220,135 +1323,6 @@
         
         
         <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.08.11</title>
-        <description>&lt;h2 id=&quot;115-claude-将黎曼假设相关零点比例下界从-416-推至-672&quot;&gt;1/15 Claude 将黎曼假设相关零点比例下界从 41.6% 推至 67.2%&lt;/h2&gt;
-&lt;p&gt;Anthropic 披露，一个未发布研究版 Claude 在尝试黎曼假设时没有解决原问题，却结合 Bombieri 与 Baluyot、Goldston 等人的既有结果，把已知落在临界线上的黎曼 ζ 函数零点比例下界由 41.6% 提高到 67.2%。两名 Anthropic 数学家审阅了论文，外部专家 Brian Conrey 与 Dan Goldston 也做了快速检查；Claude 还给出可由 Lean 工具链验证的形式化证明。Anthropic 明确表示，这套技术预计不能直接证明黎曼假设。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AnthropicAI/status/2086867246073401655&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AnthropicAI&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;215-openai-扩展-daybreak-并推出-gpt-56-cyber&quot;&gt;2/15 OpenAI 扩展 Daybreak 并推出 GPT-5.6-Cyber&lt;/h2&gt;
-&lt;p&gt;OpenAI 为网络安全工作扩展 Daybreak：Blue 路径面向大多数防守团队，提供包括 GPT-5.6 Sol 在内的前沿模型，用于漏洞发现、安全代码审查、恶意软件分析、事件响应和补丁验证；Red 路径面向获批的资深防守者，提供专门训练的 GPT-5.6-Cyber，用于授权漏洞研究、利用验证和安全测试。公司称该模型已参与真实漏洞研究，并发现 Chrome V8 等流行开源软件中的未知问题；高风险能力仍受身份验证、范围控制、日志和监测约束。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2086864365379010729&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2086864372500942906&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/gdb/status/2086866967479341305&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;315-meta-发布可在消费级设备运行的-muse-glimmer-30b&quot;&gt;3/15 Meta 发布可在消费级设备运行的 Muse Glimmer 30B&lt;/h2&gt;
-&lt;p&gt;Meta Superintelligence Labs 发布 Muse Glimmer：一款面向本地、常驻代理工作流的 300 亿参数开放权重模型，采用 Apache 2.0 许可。模型支持长程代理任务、工具调用、失败恢复、图文输入与百余种语言；约 4-bit 量化把语言模型压到 20GB 以下，并用基于 DFlash 的轻量 drafter 做推测解码。官方演示中，模型通过网络工具发现 Home Assistant、查询设备、生成仪表板并启动本地服务；NVIDIA 称其上下文超过 120K，可在单 GPU 上达到最高约 20K tokens/s。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AIatMeta&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2086757844544811485&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2086757846847263014&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2086757849217257760&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/NVIDIAAI/status/2086807146143076783&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;415-韩国-motif-3-以-314b-moe-和-mit-许可开放权重&quot;&gt;4/15 韩国 Motif 3 以 314B MoE 和 MIT 许可开放权重&lt;/h2&gt;
-&lt;p&gt;Motif Technologies 正式发布 Motif 3 及其 Base、NVFP4 版本。模型卡显示，它是从头设计的 3140 亿参数稀疏 MoE，每 token 激活约 132 亿参数，含 384 个路由专家、256K 原生上下文和自推测解码 MTP 头；预训练使用约 12.5 万亿 tokens，覆盖英语、韩语、代码、数学、法律与金融。权重无需申请即可下载并采用 MIT 许可。官方报告的 SWE-Bench Verified 为 76.2、Terminal-Bench 2.1 为 74.9，但这些横向结果仍需独立复现。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2086989686648795282&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2086992225993683305&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;515-qwen-mm-plugins-把多模态能力封装为-skills-与-mcp-工具&quot;&gt;5/15 Qwen-MM-Plugins 把多模态能力封装为 skills 与 MCP 工具&lt;/h2&gt;
-&lt;p&gt;阿里 Qwen 开源 Qwen-MM-Plugins，让现有 agent harness 按需增加图像、视频、文档、音频、3D 与 CAD 能力。每项能力由告知模型工具存在的 skill 与可选 MCP server 组成，覆盖 OCR、grounding、分割、ASR、长视频记忆、视频编辑与生成、Blender、FreeCAD 和教学视频。安装器已列出 Claude Code、Codex、OpenClaw、Qwen Code、Qoder 与 Gemini CLI 等入口；原生读取无需 API key，部分云端能力需要 DashScope 或搜索服务密钥，项目采用 Apache 2.0。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Alibaba_Qwen/status/2086664887560970531&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;615-sakana-ai-将递归自我改进研究扩展到-physical-ai&quot;&gt;6/15 Sakana AI 将递归自我改进研究扩展到 Physical AI&lt;/h2&gt;
-&lt;p&gt;Sakana AI 宣布扩展东京 RSI Lab，把递归自我改进从语言模型研发推进到 Physical AI。团队计划训练能够从真实交互数据学习物理世界动态的 world models，并让代理系统在模拟、规划和行动能力上形成自我改进闭环。公开职位覆盖全职、访问研究员和实习生；现阶段是研究组织与人才扩张，而不是已交付的机器人产品。该方向延续 Sakana 以 AI Scientist 自动化研究生命周期的路线，并把验证、可追踪性和现实世界安全带入更高风险环境。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/SakanaAILabs/status/2086829673699316179&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@SakanaAILabs&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hardmaru/status/2086942706249675208&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hardmaru&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;715-openai-承诺得州-ai-基础设施自行承担成本并披露资源使用&quot;&gt;7/15 OpenAI 承诺得州 AI 基础设施自行承担成本并披露资源使用&lt;/h2&gt;
-&lt;p&gt;OpenAI 致信得州州长 Greg Abbott，提出新数据中心项目不把项目驱动的基础设施成本转嫁给居民和小企业，并与公用事业、ERCOT 及合作方支持新增发电和电网韧性。水资源方面，公司承诺降低用量并优先采用闭环冷却；社区层面将处理噪声、灯光、交通、土地与应急影响。信中还承诺及时披露电力和用水、基础设施投资、公共激励与社区保护信息。文件给出治理原则，但没有公布单个项目的容量、耗水量或投资金额。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/gdb/status/2086868041451901009&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;815-databricks-用-lakebase-postgres-承担长任务代理编排&quot;&gt;8/15 Databricks 用 Lakebase Postgres 承担长任务代理编排&lt;/h2&gt;
-&lt;p&gt;Databricks 展示 CLA 的生产级文档处理架构：用 Lakebase Postgres 的两张核心表保存任务与每次执行尝试，配合 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FOR UPDATE SKIP LOCKED&lt;/code&gt;、租约回收、并发/TPM 双重限流和幂等 webhook，形成可并发、可恢复的任务队列。Databricks Apps、Lakeflow Jobs、MLflow 与 Unity Catalog Volumes 分别承载界面、执行、追踪和文件，LISTEN/NOTIFY 加 SSE 提供实时看板。该案例把抽取耗时从小时降到分钟，并省去 Kafka、Redis、Airflow 或 Temporal 等外部组件。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2086889093825212567&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;915-stagehand-v4-与-managed-deep-agents-组合浏览器代理工作流&quot;&gt;9/15 Stagehand v4 与 Managed Deep Agents 组合浏览器代理工作流&lt;/h2&gt;
-&lt;p&gt;LangChain 团队发布教程，把 Browserbase 的 Stagehand v4 接入 Managed Deep Agents，面向生产级网页浏览代理。Stagehand 提供自然语言驱动的 act、extract、observe 与多步 agent 能力，同时保留确定性浏览器操作；Deep Agents 负责长任务规划与验证循环。相关讨论把浏览器定位为自我改进代理的默认验证工具：代理先生成或修改结果，再通过真实网页交互检查。当天信息主要是 SDK 与教程发布，尚未给出统一成功率、延迟或成本评测。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/hwchase17/status/2086856570705678723&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@hwchase17 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/hwchase17/status/2086856589735268727&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@hwchase17 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/hwchase17/status/2086856606265028742&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@hwchase17 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1015-replit-提出由内部代理驱动的自驾驶公司&quot;&gt;10/15 Replit 提出由内部代理驱动的“自驾驶公司”&lt;/h2&gt;
-&lt;p&gt;Replit CEO Amjad Masad 在 Platformer 访谈中描述“self-driving company”设想：内部 bot 充当组织信息中枢，工程师借助 agents 提高交付量，员工逐步减少直接操作应用，由 agents 代表人使用现有软件。Replit 将这一方向视为企业从问答助手走向流程执行的下一步；它强调持续上下文、跨系统行动和组织级自动化。当前公开材料以管理愿景和内部实践描述为主，没有披露可复核的公司级产能、人员结构或财务对照数据。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Replit/status/2086890325608419625&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Replit&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1115-deep-agents-将基础提示与工具信息压缩-65&quot;&gt;11/15 Deep Agents 将基础提示与工具信息压缩 65%&lt;/h2&gt;
-&lt;p&gt;LangChain 团队称近期把 Deep Agents harness 的基础提示连同工具信息缩短约 65%，并在其比较中成为成本第二低的 harness。调整反映代理运行成本不仅取决于底层模型价格，也受每步重复注入的 system prompt、工具 schema 与历史上下文影响；对多步浏览、代码和研究任务，固定开销会随步骤数累计。团队当天没有公开完整测试集、模型版本和质量等价性数据，因此“第二便宜”应视为其内部比较结果，而非跨框架通用排名。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/hwchase17/status/2086998893779447943&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@hwchase17 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/hwchase17/status/2086921857006268656&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@hwchase17 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1215-runway-接入-p-image-ideogram-并提供四档生成质量&quot;&gt;12/15 Runway 接入 P-Image-Ideogram 并提供四档生成质量&lt;/h2&gt;
-&lt;p&gt;Runway 上线 P-Image-Ideogram，称从提示词到图像最快约 0.6 秒，并提供四种质量模式，让用户在速度与细节之间切换。该模型面向带文字和版式要求的视觉资产，可用于海报、包装、广告与社交图形；Runway 的接入把它纳入现有创作工作流。公开推文没有给出各档分辨率、单图价格、硬件条件或与其他模型的同提示评测，因此目前可确认的是产品可用性与厂商标注的最低延迟。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/runwayml/status/2086921725044817922&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@runwayml&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1315-microsoft-称-mai-image-26-升至-arena-文生图第二名&quot;&gt;13/15 Microsoft 称 MAI-Image-2.6 升至 Arena 文生图第二名&lt;/h2&gt;
-&lt;p&gt;Microsoft AI CEO Mustafa Suleyman 表示，MAI-Image-2.6 已在 Arena 文生图榜单升至第二，排名高于 Nano Banana、Meta 与 Grok 的参评模型；Satya Nadella 随后转发了这一进展。该模型目前可在 Arena 试用，说明微软自研图像路线正在快速迭代。推文未附具体榜单快照、投票样本量、置信区间、版本对应关系或 API 上线安排，因此排名应按发布时点的众包偏好结果理解，不能直接等同于所有画质、编辑或商业场景的总体性能。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/mustafasuleyman/status/2086944832258236781&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mustafasuleyman&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/satyanadella/status/2086951085118496977&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@satyanadella&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1415-seedance-25-演示强化短剧结构与镜面反射表现&quot;&gt;14/15 Seedance 2.5 演示强化短剧结构与镜面反射表现&lt;/h2&gt;
-&lt;p&gt;Pika 分享 Seedance 2.5 生成的短剧片段，强调模型对闪回、情绪和音乐结构的组织；Ethan Mollick 用同一提示测试后，特别指出场景中的镜面反射表现，并将整体风格类比为早期太空旅游畅想画册。两则内容都属于作品演示，未包含时长上限、分辨率、生成成本、失败样本或对照 benchmark。可以确认的是，新版本的产品表达从单镜头质感扩展到短篇叙事与复杂光学细节，但稳定性仍需更系统评测。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/pika_labs/status/2086879861378019600&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@pika_labs&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2086801016817697025&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1515-higgsfield-公开-ai-长片项目的生成资产与制作过程&quot;&gt;15/15 Higgsfield 公开 AI 长片项目的生成资产与制作过程&lt;/h2&gt;
-&lt;p&gt;Linus Ekenstam 在纽约看片后称，Higgsfield 的《Cully Hill Boys》是一部使用已授权名人肖像的全 AI 生成长片，并把 473,600 项制作资产公开供查看和学习。项目页面目前可公开浏览，延续 Higgsfield 让用户查看 prompts、assets 与生成过程的产品方向。关于“首部”全 AI 长片、授权范围和资产总量的说法主要来自现场观察者，项目页未提供独立审计或完整合同，因此更适合作为生成式影视生产透明度案例，而非已被行业统一认证的纪录。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@LinusEkenstam&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/LinusEkenstam/status/2086951066336448938&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@LinusEkenstam 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/LinusEkenstam/status/2086951087119249667&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@LinusEkenstam 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;claude-的-31m-token-数学研究循环&quot;&gt;Claude 的 31M-token 数学研究循环&lt;/h3&gt;
-&lt;p&gt;Anthropic 记录显示，Claude 在两次 Claude Code 会话中输出约 3,100 万 tokens。第一轮生成 650 个想法均未奏效；第二轮用约一天半协调 60 个 subagents，执行 2,400 次 shell 命令并编写数百个 Python 脚本。找到结果后，代理群对已知 ζ 零点做数千次数值检查、互相审稿、下载 54 篇 arXiv 论文查重，并从头独立重证。两名内部数学家随后审阅，Claude 另行完成通过 comparator 的 Lean 形式化。方法把 Weil 诱导的二次型、临界线上下零点对应的正负定子空间与一、二阶矩信息结合；Anthropic 强调它依赖数十年既有数学成果，且预计不能直接导向黎曼假设证明。
-&lt;a href=&quot;https://www.anthropic.com/research/riemann-zeta&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;gpt-56-的网络安全能力与分层访问&quot;&gt;GPT-5.6 的网络安全能力与分层访问&lt;/h3&gt;
-&lt;p&gt;OpenAI 的 GPT-5.6 技术页面报告，Sol 在 ExploitBench 上为 73.5%，高于 GPT-5.5 的 47.9%；ExploitGym 两小时上限下峰值通过率由 15.1% 升至 24.9%，六小时为 33.7%；SEC-Bench Pro 为 71.2%，对比 45.8%。Daybreak 将常规防守、获验证的高级防守与专门授权测试分层：Blue 面向广泛防守工作，Red 与 GPT-5.6-Cyber 面向更高风险、已授权的漏洞研究和利用验证。能力提升同时伴随身份验证、硬件 passkey、范围限制、日志、实时监测与账户级执行；这些 benchmark 在降低防护的评测环境中获得，不能直接推导现实攻击成功率。
-&lt;a href=&quot;https://openai.com/index/gpt-5-6/&quot;&gt;查看原文&lt;/a&gt;
-&lt;a href=&quot;https://openai.com/daybreak/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;muse-glimmer把长程代理压进-2432gb-内存预算&quot;&gt;Muse Glimmer：把长程代理压进 24–32GB 内存预算&lt;/h3&gt;
-&lt;p&gt;Muse Glimmer 的训练分三段：以 Muse Spark 输出做 logit distillation 的预训练；加入更长上下文、代理密集数据和推理轨迹的中期训练；再用监督微调、on-policy distillation 与强化学习覆盖通用、推理、代码和代理任务。完整 30B 权重需 55GB 以上，Meta 通过约 4-bit 量化把语言模型压到 20GB 以下，为 KV cache、图像 perception encoder 和 DFlash drafter 留出空间。模型针对端到端任务、精确工具 schema、故障恢复、多模态输入、不同推理强度和百余语言训练，并计划适配 llama.cpp、MLX、ExecuTorch、vLLM 与 SGLang。开放权重不等于能力已独立验证，实际速度仍取决于量化版本、设备和上下文长度。
-&lt;a href=&quot;https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;motif-3稀疏专家长上下文与韩国主权模型路线&quot;&gt;Motif 3：稀疏专家、长上下文与韩国主权模型路线&lt;/h3&gt;
-&lt;p&gt;Motif 3 采用 53 层 decoder-only MoE：前两层为 dense，后 51 层使用 384 个路由专家，每 token 选 8 个并加一个共享专家。Grouped Differential Latent Attention 压缩 KV 表示，Expert-Specific PolyNorm 让各专家学习独立多项式归一化，modified mHC 在四条残差流间混合，单层 MTP 同时作为训练目标和自推测解码器。模型在约 12.5T tokens 上训练，原生上下文 262,144；官方称在 τ³-Banking、ITBench 与 Terminal-Bench 2.1 等代理或终端任务上具有竞争力。权重以 MIT 许可开放并提供 NVFP4 版本，但部署说明以 H200/B200 为主，所谓 13.2B 激活参数并不意味着可在普通消费级 GPU 运行。
-&lt;a href=&quot;https://huggingface.co/Motif-Technologies/Motif-3&quot;&gt;查看原文&lt;/a&gt;
-&lt;a href=&quot;https://arxiv.org/abs/2608.09119&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;qwen-mm-plugins用-skill-发现用-mcp-执行&quot;&gt;Qwen-MM-Plugins：用 skill 发现、用 MCP 执行&lt;/h3&gt;
-&lt;p&gt;Qwen 把多模态能力拆为可独立安装的模块：core 负责动态图像/视频/文档/3D 读取、OCR、grounding、分割、ASR 与搜索；video-memory 建立长视频层级图记忆；omni-av 做带时间戳和说话人标签的音视频理解；video-edit 负责编辑与生成；Blender 与 FreeCAD 分别暴露 22 和 14 个薄客户端工具。每个模块由 skill 告诉模型何时可用，再按需启动 MCP server；依赖通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uvx&lt;/code&gt; 首次安装，配置由多个终端和 GUI harness 共用。架构降低了默认工具注入量，但仍需要针对外部 API key、系统程序、文件权限与可逆操作做独立安全控制。
-&lt;a href=&quot;https://github.com/QwenLM/Qwen-MM-Plugins&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;sakana-rsi-lab从自动研究走向物理世界闭环&quot;&gt;Sakana RSI Lab：从自动研究走向物理世界闭环&lt;/h3&gt;
-&lt;p&gt;Sakana 将 RSI Lab 定义为用 AI 重写 AI 研发过程的专门团队，目标从静态、人工主导的 R&amp;amp;D 转向能推动自身进步的 autonomous intelligence engines。新一阶段覆盖前沿语言模型、从真实交互数据学习物理动态的 world models，以及连接两者的递归改进循环；思想脉络追溯到 1990 年代预测环境模型与 David Ha、Jürgen Schmidhuber 的 World Models。与纯软件代理相比，Physical AI 的错误会进入真实环境，因此数据采集、模拟到现实迁移、规划验证、人工审批、可复现性和安全边界将成为核心约束。当前公告是研究与招聘计划，尚未发布具体训练系统或性能结果。
-&lt;a href=&quot;https://sakana.ai/careers/member-of-technical-staff-rsi-lab/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;lakebase-postgres两张表如何成为代理任务队列&quot;&gt;Lakebase Postgres：两张表如何成为代理任务队列&lt;/h3&gt;
-&lt;p&gt;CLA 的实现用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tasks&lt;/code&gt; 保存逻辑任务、状态、租约、优先级与最终结果，用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;task_attempts&lt;/code&gt; 保存每次执行的 Job run、MLflow trace 和成本。并发出队依赖 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FOR UPDATE SKIP LOCKED&lt;/code&gt;；worker 中断后由过期租约 sweeper 重新入队；限流同时支持最大并发数、预计 TPM 或两者取更严者；重复 webhook 对终态任务成为 no-op，避免重复计费。状态变化通过 Postgres LISTEN/NOTIFY 推送到 SSE，看板同时展示 tokens、LLM/compute 成本、中位延迟与置信度，并保留 10 秒轮询兜底。这种设计适合相互独立的长任务，不等于 Postgres 可替代所有复杂事件流、工作流 DAG 或跨区域消息系统。
-&lt;a href=&quot;https://www.databricks.com/blog/simplify-ai-agent-orchestration-lakebase-postgres&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;openai-得州信件把数据中心外部性写成五项承诺&quot;&gt;OpenAI 得州信件把数据中心外部性写成五项承诺&lt;/h3&gt;
-&lt;p&gt;OpenAI 的两页信件提出：项目新增的电力与基础设施成本由项目承担；与 ERCOT、公用事业和合作方支持新增发电及系统压力期的可靠运行；减少耗水并优先使用闭环冷却；在规划期处理噪声、灯光、交通、土地、退界和应急响应；向州与社区披露电力、用水、投资、公共激励和保护措施。它回应了 AI 数据中心不同于传统轻工业的地方经济问题——建设期投入高，但运营岗位较少，社区收益与资源负担可能不对称。承诺目前属于政策框架，后续仍需项目级容量、费率、用水、就业和审计数据检验执行效果。
-&lt;a href=&quot;https://openai.com/index/responsible-ai-infrastructure-texas/&quot;&gt;查看原文&lt;/a&gt;
-&lt;a href=&quot;https://cdn.openai.com/pdf/oai_abbot-texas-letter_8-7-26.pdf&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 11 Aug 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/08/11/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/11/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
         
       </item>
     

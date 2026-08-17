@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="当便宜的事情变得几乎免费，贵的那部分才真正露了出来。">
+    <meta name="keywords" content="AI 日报, AI Frontier Daily, Reddit 精选, 公司观察, 财报分析, 产品经理, 数据产品, AI 应用, 产品设计, 科技博客">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>Reddit 每日精选 | 2026.08.17 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/blog/2026/08/17/reddit-daily-digest/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
+            <a href="/ai-daily/">AI 日报</a>
+            <a href="/reddit-daily/" aria-current="page">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于作者</a>
+        </div>
+
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">Reddit daily digest <span>/</span> 2026.08.17</p>
+    <h1>一篇论文说强化学习只改动了 1~3% 的 token，而工程师们正在为剩下那 20% 的活重新学怎么估工期</h1>
+    
+    <p class="article-deck">当便宜的事情变得几乎免费，贵的那部分才真正露了出来。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-08-17T09:30:00+08:00">2026年8月17日</time>
+      
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/reddit-daily/">← 返回Reddit 精选</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#Reddit" title="Reddit">Reddit</a>
+          
+          <a href="/tags/#每日精选" title="每日精选">每日精选</a>
+          
+        </div>
+      </div>
+      
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪正在发生的，留下值得重读的。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <div class="article-copy__content" data-highlight-source>
+        <p>今天这几帖凑在一起，说的其实是同一件事的不同侧面：当一件事的成本掉到接近于零，真正的约束就换了个位置。RL 训练的收益集中在极少数几个岔路口，写代码的时间省下来了但估工期反而更难了，堆功能变得廉价之后堆功能就不再是护城河，查一次车牌几乎不要钱于是查询本身失控了。省下来的部分不会自己变成价值，它只是把账单挪到了别处。</p>
+
+<h2 id="论文称强化学习只改动了-13-的-token用-11000-的算力就能复现">论文称强化学习只改动了 1~3% 的 token，用 1/1000 的算力就能复现</h2>
+
+<p><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vpuhh1/paper_claims_rl_for_reasoning_only_changes_13_of/">原帖链接</a></p>
+
+<p>r/LocalLLaMA 上热度最高的是一篇 arXiv 论文（2605.06241）。作者在多个模型家族和多种 RL 算法上做 token 级别的对比，结论是：RL 带给推理能力的好处，是一种稀疏且可预测的修正，集中发生在模型不确定该往哪个分支走的高熵决策点上；只有 1~3% 的 token 位置真的被改动了，而且被抬上来的那个 token 几乎总在基座模型自己的 top-5 候选里。既然如此，他们干脆绕开 RL，用大约千分之一的算力复现了同等增益。</p>
+
+<p>评论区分成挑刺和补证据两派，而且两边都挺硬。挑刺最狠的一条直接冲着「总在 top-5 里」这句话去：高熵分布下 top-10 的概率经常几乎相等，跑足够多样本一定能找到反例，说「always」纯属吹牛。紧接着有人翻到论文后面的表格回了一句——Qwen2.5-7B 上是 99.99%，为一个词就掀桌子有点早。另一条更实在的质疑来自方法论：主要测的是那些本来就做过 RL、或者众所周知在 RL 上有毛病的模型，拿 Qwen 2.5 7B math 当主力被认为是「只在几个怪模型上成立」的信号，而且基准只有数学题，跟 RL 实际被用到的那些任务不是一回事。</p>
+
+<blockquote>
+  <p>“I find it completely impossible to believe that tokens promoted by RL always lie within the top-5 as claimed here. There’s absolutely no way this is true.”</p>
+
+  <p><cite>— u/-p-e-w-，<a href="https://www.reddit.com/r/LocalLLaMA/comments/1vpuhh1/paper_claims_rl_for_reasoning_only_changes_13_of/p40gkx3/" target="_blank" rel="noopener">原帖评论</a></cite></p>
+</blockquote>
+
+<blockquote>
+  <p>“According to a table further on in the paper 99.99% in the top-5 for Qwen2.5-7B. Falling over one word is always a little premature.”</p>
+
+  <p><cite>— u/PinkysBrein，<a href="https://www.reddit.com/r/LocalLLaMA/comments/1vpuhh1/paper_claims_rl_for_reasoning_only_changes_13_of/p41p43j/" target="_blank" rel="noopener">原帖评论</a></cite></p>
+</blockquote>
+
+<p>补证据的那一派把论文引言里的文献综述拎了出来：这个方向其实已经有一串工作在指向同一结论——RL 提升的是 pass@1，但基座模型在大 K 的 pass@k 上反而更高，说明正确解本来就在采样分布里，RL 只是把它提上来；也有人证明过二元奖励的那几种 RL 算法本质上都退化成对「答对概率」的某种单调变换做随机梯度上升，只有当基座模型已经能非平凡地答对时才划算。还有一条冷静的提醒被顶得很高：这里省下来的是训练算力，不是推理算力，别指望它让你手上的显卡跑得更快。串起这些之后，热闹里最有意思的一条其实是在谈别的——语言模型里 token 数量和难度几乎不相关，「我走到了一个岔路口，我应该往」这十几个 token 全是废话，真正承载整个决策的是下一个「左」或「右」，而算力在这两者上花得一样多。</p>
+
+<p>我觉得这条讨论比论文本身更值得读。如果 RL 的作用真的只是在为数不多的岔路口上把第二名换成第一名，那「推理能力」这件事在工程上就更像是一个采样与选择问题，而不是一个需要天量算力去重新雕刻权重的问题。对国内做后训练的团队来说，这至少提示了一个便宜的实验：先量一量你的 RL 到底动了多少个 token 位置、动的是不是都在高熵点上，再决定要不要继续烧那份算力。</p>
+
+<h2 id="ai-时代还怎么估工期一个-9-年老兵的困惑">AI 时代还怎么估工期：一个 9 年老兵的困惑</h2>
+
+<p><a href="https://www.reddit.com/r/ExperiencedDevs/comments/1vq7mly/how_do_you_handle_estimates_in_the_modern_era/">原帖链接</a></p>
+
+<p>发帖人在一家大厂做了九年，好不容易练出了估算的手感——初始估算乘 1.5、扣掉被杂事吃掉的比例、给测试留 buffer。现在这套全废了。团队接了个「半年期」项目，上面压着要一个半月交出核心。他没有硬顶回去，而是花了一天时间给 agent 写好设计、约束和调研，周五扔过去要一个跑得起来的 demo，中途只纠正了三次，周末就拿到了成品——而这块活团队原本估的是三个人两周。他自己也清楚这离上线还差得远：安全、性能、真实数据接入一样没做。问题是，当最耗时的那部分变成了近乎免费，另一部分却纹丝不动，这两块该怎么加权？</p>
+
+<p>评论区最漂亮的回答不是技巧，而是一句重新定义问题的话：AI 改变的不是你的均值，是你的方差。那些已知的、无聊的活变得基本免费，未知的活一点没变；于是原本均匀摊在整个任务上的风险，现在全都挤到了你还看不见的那几个点上——这正是「乘以 1.5」失效的原因，因为那个乘数成立的前提是不确定性被均匀涂抹在所有工作上。另一条高赞则更直接：代码生成从来就不是瓶颈，而 agent 干的恰好就是代码生成；理解问题、搞清楚它怎么塞进现有代码库、为将来的变化做架构，这些才是时间的去处。这位还给了套实战话术：不硬顶，改成「我们可以用 agent 加快编码，但前提是先有一份完整的 spec」，或者「可以更小步地迭代交付价值，但那部分就没法那么 AI 驱动」。</p>
+
+<blockquote>
+  <p>“The thing AI actually changed is not your average, it is your variance. It made all the known, boring work basically free and did nothing to the unknown work.”</p>
+
+  <p><cite>— u/kaushalrola，<a href="https://www.reddit.com/r/ExperiencedDevs/comments/1vq7mly/how_do_you_handle_estimates_in_the_modern_era/p442hxb/" target="_blank" rel="noopener">原帖评论</a></cite></p>
+</blockquote>
+
+<blockquote>
+  <p>“Code generation was never the bottleneck, and agents are doing code generation.”</p>
+
+  <p><cite>— u/TheTacoInquisition，<a href="https://www.reddit.com/r/ExperiencedDevs/comments/1vq7mly/how_do_you_handle_estimates_in_the_modern_era/p43h6d5/" target="_blank" rel="noopener">原帖评论</a></cite></p>
+</blockquote>
+
+<p>其余的建议五花八门但各有各的道理。有人主张彻底放弃估算，改用看板的 cycle time 和吞吐量来推算 epic 需要多久，前提是把故事拆到不能再拆、并且有一套完整的 feature toggle 体系；有人建议给每个估算附一个 1 到 10 的置信度，第一次报永远是 5，等把开放问题聊到 8 分再开工；还有人提议干脆给两个估算——一个正常质量可维护的，一个 AI 快糙猛的，让业务方自己选。发帖人对最后这条的回应很真实：他们一定会选第二个，然后在应用不稳定的时候来怪工程师。也有人当场质疑他那个 demo 的成色，他倒是坦率——那就是个用完即弃的东西，目的是消除歧义、把系统设计放到一个小样本上压一压，顺便让没有产品经理的团队早点看到真实交互，能跑的应用总比线框图强。</p>
+
+<p>对国内团队来说，最值得抄走的是那句「方差」。以前排期表里的缓冲是给整体不确定性留的，现在应该明确地留给集成、真实数据和安全这三块——它们不但没变快，还因为前面那 80% 来得太快而显得格外突兀。顺便说一句，用两周的预算换来一个三天就跑通、且明确准备扔掉的原型，本身就是笔划算的买卖，只要别把它当成生产系统的地基。</p>
+
+<h2 id="我们团队到底哪儿出了问题对手是一个不懂技术的-vibe-coder">「我们团队到底哪儿出了问题」：对手是一个不懂技术的 vibe coder</h2>
+
+<p><a href="https://www.reddit.com/r/ExperiencedDevs/comments/1vq8w8c/whats_wrong_with_our_team/">原帖链接</a></p>
+
+<p>一位 7 年经验的工程师在软件外包公司，7 个人的团队同时做 3 个客户的项目。他现在也重度用 AI，有自己的一套验证流程，仓库里有 gold standard 的那类功能能一次成型。让他难受的是竞争对手：一个甚至不在 IT 行业的人，靠 vibe coding 往自己的应用里猛塞功能，功能都很简单也很不完整，但市场就是买账。管理层震怒——你们一群工程师产出居然比不过那个人。他提议先把功能做成阉割版上线再慢慢补，得到的回复是：人家已经有了，所以我们要有更多。他真心在问：是不是我们哪里做错了，是不是干脆别看代码了。</p>
+
+<p>评论区几乎一边倒地告诉他：问题不在工程，在管理层把「能出功能」当成了价值本身。最狠的一条指出，如果你的护城河退化成「谁上功能快」，那你就没有护城河了——agent 把写软件的能力扩散到所有人手上之后，这条河已经被填平了。另一条更冷静：产品管理同时想要「功能全」和「每个功能都成熟」，这两件事不兼容，他们得自己选一个。也有人从历史里找参照：这场争论跟当年「找便宜外包快速堆功能」的争论是同一场，很多公司试过，然后发现几年后的技术债更贵；当然也有公司就这么凑合着活得挺好。还有人给了个略带幸灾乐祸的建议——等对手的意大利面代码把他自己缠住、几个客户就耗光他全部时间的时候，你的机会就来了。</p>
+
+<blockquote>
+  <p>“It turns out being able to produce features was never inherently valuable. Thinking it is will kill your business.”</p>
+
+  <p><cite>— u/TheOwlHypothesis，<a href="https://www.reddit.com/r/ExperiencedDevs/comments/1vq8w8c/whats_wrong_with_our_team/p43v2nq/" target="_blank" rel="noopener">原帖评论</a></cite></p>
+</blockquote>
+
+<p>最让人心里一沉的是另一条。一位同处类似环境、原本非常在意架构和整洁代码的工程师说，他已经放弃了：现在就是把管理层要的东西一路狂奔做完，扫一眼就点合并，反正最终一定会走到那个显而易见的结局——一堆没人看得懂的、动弹不得的软件。他说自己现在只是为了那份工资待在这儿，本来不想变成这样。</p>
+
+<blockquote>
+  <p>“I hate to say it but I’ve given up and am just speed running whatever management wants and just clicking merge with a cursory glance.”</p>
+
+  <p><cite>— u/Ok_Reaction_4340，<a href="https://www.reddit.com/r/ExperiencedDevs/comments/1vq8w8c/whats_wrong_with_our_team/p445lpt/" target="_blank" rel="noopener">原帖评论</a></cite></p>
+</blockquote>
+
+<p>这一帖和上一帖其实是同一枚硬币的两面：上一帖问的是「省下来的时间怎么算进排期」，这一帖问的是「省下来的时间被拿去干了什么」。答案往往是拿去堆更多功能，而不是拿去做更少但更对的事。真正可操作的部分在于把讨论从工程拉回业务：那些缺的功能到底跟收入有没有关系，老功能能不能下线，客户对质量的容忍度到底在哪一档。如果这些问题没人回答，加班堆出来的功能数量永远追不上一个不看代码的人。</p>
+
+<h2 id="美国车主现在能查到自己的车牌被警察搜过多少次">美国车主现在能查到自己的车牌被警察搜过多少次</h2>
+
+<p><a href="https://www.reddit.com/r/technology/comments/1vq3890/new_website_lets_drivers_check_whether_their/">原帖链接</a></p>
+
+<p>Flock 是美国铺得最广的车牌识别摄像头厂商，警方每查询一次都要在系统里填写「查询理由」。现在有人把 6,586 个执法机构的审计日志汇总成了一个网站，输入车牌就能看到自己被搜过几次、每次填的理由是什么。这条帖子在 r/technology 上炸开，很大程度上是因为大家真的去查了。</p>
+
+<p>评论区最有分量的内容是亲历者。一位用户说自己被两个警察搜过：一个在几分钟内查了他 14 次，理由填的是「犯罪」；另一个在几小时内查了 17 次，理由是「毒品」——两次都发生在他去上班的路上，下午一点。别人追问「犯罪」和「毒品」是什么意思，回答是：那个「查询理由」栏就是个自由填空，警察填的都是没有任何细节和指向的通用词。还有人补了一句更黑色幽默的观察：词云上占比最大的那个「理由」，是空白。</p>
+
+<blockquote>
+  <p>“I’ve been flocked by two cops. One used flock to look me up 14 times in the span of a few minutes…”</p>
+
+  <p><cite>— u/tanneruwu，<a href="https://www.reddit.com/r/technology/comments/1vq3890/new_website_lets_drivers_check_whether_their/p42h8su/" target="_blank" rel="noopener">原帖评论</a></cite></p>
+</blockquote>
+
+<blockquote>
+  <p>“There’s a “reason for request” field they have to fill when doing a search in the database. They’re using generic reasons without detail or specificity”</p>
+
+  <p><cite>— u/somuchbacon，<a href="https://www.reddit.com/r/technology/comments/1vq3890/new_website_lets_drivers_check_whether_their/p42zdyy/" target="_blank" rel="noopener">原帖评论</a></cite></p>
+</blockquote>
+
+<p>另一条讨论线是关于这个查询网站本身安不安全，吵得挺凶。反对的人认为你输入车牌这个动作本身就是在给自己贴标签，IP、设备、车牌一关联，将来「反对监控的人」名单现成就有了。支持的一方说这是典型的 Reddit 式被害妄想：车牌是全美最容易买到的个人信息之一，站点由非营利机构运营且声明不留存数据，真正该担心的是每一次 Flock 查询本身。也有人提出了那个绕不开的问题——你信任的是现在的运营者，那未来的所有者呢？此外还有一条提醒了误报的代价：曾有车辆被 Flock 判定为失窃，原因只是车牌号跟另一个州一辆失窃摩托车重号，结果一位母亲带着孩子被从车里拽了出来。</p>
+
+<blockquote>
+  <p>“There was a thing just recently where Flock flagged a vehicle as stolen, because the plate matched a stolen vehicle - but the stolen vehicle was a motorcycle from a different state, and the mom and her kids got dragged out of their car over it.”</p>
+
+  <p><cite>— u/demonfoo，<a href="https://www.reddit.com/r/technology/comments/1vq3890/new_website_lets_drivers_check_whether_their/p44fnzj/" target="_blank" rel="noopener">原帖评论</a></cite></p>
+</blockquote>
+
+<p>值得注意的是，Flock 这套系统在设计上其实是「有约束」的：每次查询都要填理由，全部动作都记审计日志。问题在于，只要理由栏是自由文本、没人事后核对，约束就退化成了摆设——直到有人把审计日志公开出来，才让摆设重新长出牙齿。这里对中文读者的启发倒不在于美国警察，而在于一个普遍的设计原则：任何权限系统里，「记录了什么」远不如「谁在事后看这些记录」重要。日志的价值不来自它被写下来，而来自它会被读。</p>
+
+<h2 id="一个小手艺先写-typingprotocol再写满足它的类">一个小手艺：先写 typing.Protocol，再写满足它的类</h2>
+
+<p><a href="https://www.reddit.com/r/Python/comments/1vq4svz/writing_the_typingprotocol_before_the_class_that/">原帖链接</a></p>
+
+<p>r/Python 上一位开发者分享了自己的习惯：当他要把一个实现从一堆调用点后面抽出来时，先写 <code class="language-plaintext highlighter-rouge">typing.Protocol</code>，再写满足它的类。先把接缝定义出来，用它去标注所有调用点，跑一遍 mypy，于是所有形状不对的地方在新代码写出来之前就全暴露了。他的理由挺 Python 特有：鸭子类型意味着隐式接口就是调用方碰巧用到的那些东西，散落在若干文件里，压根没东西可供评审；把它写下来，同事才有一个能读、能反对的对象。他也诚实地列了缺点——这一切在运行期毫无约束力，PEP 544 不施加任何运行时语义，即使加了 <code class="language-plaintext highlighter-rouge">runtime_checkable</code>，<code class="language-plaintext highlighter-rouge">isinstance</code> 也只检查属性名存在，不检查签名；而且没有任何机制强迫 Protocol 跟着实现一起改，两者会漂移。</p>
+
+<p>这帖回复不多但都在点子上。最直接的一条反问：如果满足协议的类是在协议之后才写的，这多半是在误用 Protocol——那种情况写个基类不就完了？Protocol 存在的意义是覆盖那些你改不了的类，比如标准库里的类型。另一条则从 Go 的实践给了答案（针对原帖最后那个问题：Protocol 该放在消费方还是实现方旁边）：放消费方，这是 Go 里 DDD 风格的通行做法，也意味着通常不该去继承这个 Protocol。还有人泼了盆冷水：这么搞很容易陷入「为了将来可能的扩展而不停造新 Protocol」的螺旋，一个 SettingsFetcher 引出一个 HTTPClient，再引出一个 SecretClient——底下立刻有人接了句「这听着像 Java」。</p>
+
+<blockquote>
+  <p>“If the class that satisfies the protocol is written after the protocol, then this is probably a misuse of protocols. Why not just write a base class instead?”</p>
+
+  <p><cite>— u/NeilGirdhar，<a href="https://www.reddit.com/r/Python/comments/1vq4svz/writing_the_typingprotocol_before_the_class_that/p43sy3o/" target="_blank" rel="noopener">原帖评论</a></cite></p>
+</blockquote>
+
+<blockquote>
+  <p>“Consumer, but that’s cause it’s the common practice in Go, DDD style. This also means you generally don’t inherit from the Protocol.”</p>
+
+  <p><cite>— u/flangust，<a href="https://www.reddit.com/r/Python/comments/1vq4svz/writing_the_typingprotocol_before_the_class_that/p43pdlr/" target="_blank" rel="noopener">原帖评论</a></cite></p>
+</blockquote>
+
+<p>顺带一提，原帖中间插了一句自家工具的软广，读起来有点营销味，不过这不影响那个手艺本身的价值。放在今天这组帖子里看，它反而是个有意思的对照：写代码这件事已经便宜到不值得省了，真正稀缺的是「把打算怎么做写成一段别人能反对的文字」。先写 Protocol 之所以有用，不是因为 mypy 能多抓几个错，而是因为它把一个原本只存在于你脑子里的接口，变成了一个可以被同事在动工前拍砖的东西——这跟上面那位工程师说的「用 agent 加速前先要有完整的 spec」，其实是同一个道理。</p>
+
+      </div>
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/blog/2026/08/16/reddit-daily-digest/">
+          <span>上一篇</span>
+          <strong>Reddit 每日精选 | 2026.08.16</strong>
+        </a>
+        
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer class="editorial-footer">
+    <div class="editorial-shell editorial-footer__inner">
+        <div class="editorial-footer__brand">
+            <a class="editorial-wordmark editorial-wordmark--footer" href="/" aria-label="Freedom Hunter 首页">
+                <span aria-hidden="true">FH</span>
+                Freedom Hunter
+            </a>
+            <p>追踪正在发生的，留下值得重读的。</p>
+        </div>
+
+        <nav class="editorial-footer__nav" aria-label="页脚导航">
+            <div>
+                <p>栏目</p>
+                <a href="/ai-daily/">AI 日报</a>
+                <a href="/reddit-daily/">Reddit 精选</a>
+                <a href="/company-research/">公司观察</a>
+                <a href="/articles/">文章</a>
+            </div>
+            <div>
+                <p>更多</p>
+                <a href="/archive/">全部文章</a>
+                <a href="/highlights/">读者精选</a>
+                <a href="/about/">关于作者</a>
+                <a href="/feed.xml">RSS 订阅</a>
+                <a href="https://github.com/zluckyhou" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="editorial-footer__meta">
+        <div class="editorial-shell editorial-footer__meta-inner">
+            <span>&copy; 2026 Freedom Hunter</span>
+            <span>Shanghai · UTC+8 · Powered by Jekyll</span>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+</html>

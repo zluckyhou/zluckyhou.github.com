@@ -5,9 +5,148 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 18 Aug 2026 08:37:34 +0800</pubDate>
-    <lastBuildDate>Tue, 18 Aug 2026 08:37:34 +0800</lastBuildDate>
+    <pubDate>Tue, 18 Aug 2026 09:22:36 +0800</pubDate>
+    <lastBuildDate>Tue, 18 Aug 2026 09:22:36 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.08.18</title>
+        <description>&lt;p&gt;这几天读 Reddit 有个挥之不去的感觉：关于 AI 的争论正在从「模型能不能」转向「谁来付账」。今天这五帖里，前三帖分别把账单寄给了纸质书、法庭的证据规则和电网调度，都是些看起来跟算力八竿子打不着的地方。后两帖算是喘口气——一张只用飞行轨迹画出来的洛杉矶地图，和一堆普通人为自己写的几十行 Python。&lt;/p&gt;
+
+&lt;h2 id=&quot;一批旧书被追到了亚马逊的-ai-扫描厂销毁是判例逼出来的动作&quot;&gt;一批旧书被追到了亚马逊的 AI 扫描厂，销毁是判例逼出来的动作&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vqs5hf/we_tracked_a_shipment_of_rare_books_it_ended_at/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;404 Media 追踪了一批被打包卖掉的旧书，终点是亚马逊一处专门用来扫描书籍、并在扫描后把实体书销毁的设施。报道里没有公布书单，理由是那会暴露卖家。这条在 r/technology 冲到高位，评论区却没有顺着「文化浩劫」的方向一路滑下去，反而分成了互相打架的两派，两边都有货。&lt;/p&gt;
+
+&lt;p&gt;第一派在拆「珍本」这个词。有人做过二手书生意，把整条食物链讲得很清楚：有价值的先被书商挑走，剩下的打包重组、再挑一轮，一路往下掉，掉到最底层的就是按立方米论价、慈善机构赚不到钱的垃圾，再往下就是填埋场。所以关键不是这些书稀不稀有，而是它们是从这条链的哪一段被截下来的。另有人补了个硬事实：亚马逊收的书都带 ISBN，也就是说不会早于 1960 年代末，能有多古老是有上限的。还有人提醒，传统出版社每年自己化浆掉的书比这多得多，只是没人写报道。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Without knowing where in the ecosystem the books came from, it’s very hard to know if they’re priceless relics or hamster bedding that’s had a last-minute reprieve-by-digitisation.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/PersistentBadger，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vqs5hf/we_tracked_a_shipment_of_rare_books_it_ended_at/p48tted/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;第二派则在解释亚马逊为什么要买这些「没人要的书」。主流猜测是：他们大概率是让 agent 去扫货，凡是没扫描过的 ISBN 就买，内容是什么根本不重要，要的是可验证由人类写出来的文本存量。有人拿低本底钢打了个比方——核试验之后冶炼的钢材都带上了额外的放射性，于是核前钢反而成了稀缺物资；现在的文本也一样，过了某个时间点的东西都可能被 AI 生成内容污染过，往前的纸质印刷品就成了干净的矿。也有人不同意，认为技术类旧书大多过时得厉害，喂进去只会让模型更糟。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“They just need volumes of text that is verifiably 100% human made. The topic doesn’t matter, they just want all of it.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/elmz，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vqs5hf/we_tracked_a_shipment_of_rare_books_it_ended_at/p494kjh/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;不过整条讨论里最值得记住的一点，是有人把文章后半段翻了出来：销毁不是顺手，而是必须。此前 Anthropic 那桩官司里，法官认定扫描书籍用于训练构成合理使用，理由之一恰恰是原书被销毁了——买家把实体媒介转成数字形式是自己的权利，毁掉原件意味着这一册不会被复制转卖，不会侵蚀出版社的生意。于是版权法在这里推导出一个非常反直觉的结论：想合法地把书变成训练数据，你就得把书毁掉。骂销毁野蛮的人和骂版权法僵化的人，其实在骂同一件事的两头。对国内读者来说，这条更像一个提醒：涉及 AI 训练数据的规则，最终会以这种非常物理、非常不可逆的方式落地，而不是停留在条款里。&lt;/p&gt;
+
+&lt;h2 id=&quot;3m-的专家证人让-chatgpt-写报告提示词进了取证材料&quot;&gt;3M 的专家证人让 ChatGPT 写报告，提示词进了取证材料&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vquq47/show_how_3m_is_0_at_fault_expert_witness_used/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2020 年休斯敦 Watson Grinding 工厂爆炸，三人死亡、约两百户民宅受损，后续诉讼里 3M 请了一位专家证人出具报告。404 Media 拿到的取证材料显示，这位专家用 ChatGPT 写了报告的相当一部分，而且把提示词也留了下来：他要求模型帮他写一份出色的专家证人报告来为 3M 的注意义务辩护，并且要「说明 3M 对这次爆炸负 0% 的责任」。这些提示词在诉讼中是可被对方调取的证据，于是全都摊在了法庭上。据评论区扒出的数字，这份报告收费九万美元。&lt;/p&gt;
+
+&lt;p&gt;评论区最有意思的不是骂声，而是一场关于「到底哪里错了」的正经拉锯。一派认为这没什么大不了：报告最终还是要由专家署名、上庭接受质证，重要的是结论本身对不对，而不是研究过程中用了什么工具，花一分钟写个提示词、再花五分钟看看有没有自己没想到的角度，不用白不用。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“You’d be silly not to do the same in that position. … It’s worth the 60 seconds it took to write that prompt and another 5 minutes to read the output to see if AI came up with any angles they hadn’t considered.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/949goingoff，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vquq47/show_how_3m_is_0_at_fault_expert_witness_used/p492hcf/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;反驳则相当专业，直接搬出了美国专家证词的准入门槛（Daubert 标准）：专家能上庭，前提是他的方法被证明科学可靠；陪审团之所以采信，靠的正是这层权威外观。如果一个人以自己的学历和经验取得专家资格，却没说明结论其实来自一个在「产出准确结论」上从未被科学验证过的模型，那问题就很大了。更要命的是提示词的写法——他不是让模型给出一个合理判断，而是先把结论定死再让它去凑论证。有人拿测谎仪和咬痕比对做类比：这些东西之所以后来不被采信，不是因为没有专家肯签字，而是方法本身不可靠，让陪审团听见就已经构成偏见。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The AI was not prompted to provide a reasonable take. It was prompted to write a report that gives a pre-determined conclusion…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/harpers25，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vquq47/show_how_3m_is_0_at_fault_expert_witness_used/p4afd08/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这场争论的分歧点其实很清晰：用 AI 做检索和查漏，和用 AI 给一个预设结论补论证，是两件不同的事，而在这个案子里，那句提示词把区别写得明明白白。我更在意的是另一层——提示词是可被调取的证据。以前的思维过程留不下痕迹，现在它成了带时间戳的文本，写在对话框里，将来会被对方律师逐条念出来。这大概是所有用 AI 干专业活儿的人今年最该记住的一件事。&lt;/p&gt;
+
+&lt;h2 id=&quot;美国最大电网提议缺电先切数据中心&quot;&gt;美国最大电网提议：缺电先切数据中心&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vqs0g9/americas_largest_grid_wants_to_cut_power_to_new/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;管着美国最大电力市场的 PJM 提了个方案：新接入的 50MW 以上数据中心要么自带发电能力，要么在电力紧张时被排在第一顺位断电。等于把过去默认由公共电网兜底的那部分风险，直接退回给了用电大户。&lt;/p&gt;
+
+&lt;p&gt;评论区一半是解气的段子，另一半意外地很懂行。最有信息量的一条来自显然在这行干活的人：现在燃气轮机订单已经排到五六年后，有公司光是为了在工厂排产队列里占个位置就要掏几百万美元；所以「那就自己发电吧」这句话说起来轻松，真要落地，除了核电就是联合循环燃气，两条路在几个月的尺度上都走不通。另一派的补充也在点上：必须同时限制自备电源的排放，否则最省事的选择一定是高污染的化石燃料，等于把公共电网的压力换成了本地的空气质量。还有人提醒，数据中心自身几乎不直接排污，它对环境的伤害基本上都是通过多耗的那几度电传导出去的——这句话反过来说就是，把它从电网上摘下去并不会让账单消失，只会让账单换个地方结算。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Currently we are on at least 5-6 year back log turbine orders. Companies are paying millions just hold a spot in line at these factories.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/I_Hate_，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vqs0g9/americas_largest_grid_wants_to_cut_power_to_new/p47yycu/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也有人用最直白的方式点破了这类提案的谈判属性：这与其说是规则，不如说是一则广告——嗨，我是你的供电方，来跟我谈条件吧。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This is a big advertisement saying “Hey… it’s me ur power supplier… bribe me to change my mind””&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Financial_Wind6229，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vqs0g9/americas_largest_grid_wants_to_cut_power_to_new/p47r9ag/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;从国内视角看，这条新闻的价值在于它暴露了 AI 基建真正的瓶颈位置。芯片是能加价买到的，轮机和变电站不是；前者的交付周期以季度计，后者以年计。当所有人都在比谁的集群大时，真正决定节奏的可能是那张排到 2031 年的产线排期表。&lt;/p&gt;
+
+&lt;h2 id=&quot;一年的-lapd-直升机航迹整张洛杉矶地图是被飞出来的&quot;&gt;一年的 LAPD 直升机航迹：整张洛杉矶地图是被飞出来的&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vr0bgs/oc_a_year_of_lapd_helicopter_flights_over_los/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;r/dataisbeautiful 上这张图的做法很聪明：把洛杉矶警局一年的直升机飞行轨迹按滞空时长累加着画出来，不加任何底图。结果街道、海岸线、机场的形状自己浮现了出来——你看到的每一条线，都是直升机自己飞出来的。作者说数据只覆盖 LAPD 自有的 17 架直升机，郡治安官的飞机没算在内，所以地图边缘那些漆黑的区域不是没人巡逻，只是换了个部门。&lt;/p&gt;
+
+&lt;p&gt;评论区把这张图读出了好几层。一层是规模：有人指出 LAPD 拥有全美城市里最大的航空部门，作者顺势剧透了自己的下一个项目——把洛杉矶市和郡持有的所有飞行器加在一起，机队规模超过匈牙利、斯洛伐克、爱尔兰这些国家的空军。马上有人来做尺度校正：洛杉矶郡的面积只有爱尔兰的十分之一左右，人口却是两倍多，跟匈牙利相当，所以这个对比更像是在说人口密度而不是军事力量。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“if you add all the aircraft owned by the City and County of LA it comprises a fleet larger than the national Air Force of countries like Hungary, Slovakia, Ireland”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Infamous_Echo_5683（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vr0bgs/oc_a_year_of_lapd_helicopter_flights_over_los/p4aw53g/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一层是「为什么图上全是圈和街道」。作者说 LAPD 管这些圆圈叫 orbit，通常出现在直升机需要留在某个区域搜索目标或给地面提供支援的时候。飞过的人补充了技术细节：盘旋比悬停省力也更安全，悬停要一直跟风较劲，还等于给自己当靶子；而且观察员坐在座舱左侧，所以他们习惯向左盘旋，让那一侧压低、视野更好。至于街道为什么这么清晰，答案朴素得可爱——跟车的时候当然沿街飞，而且对飞行员来说，顺着马路保持航向本来就非常顺手。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“In addition, the spotter sits on the left side of the cockpit and they orbit left, so that side is tilted downward, giving the spotter a clearer view toward the ground.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Riluke，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vr0bgs/oc_a_year_of_lapd_helicopter_flights_over_los/p4b4cnz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有一层是本地人的体感。洛杉矶人管这些直升机叫 ghetto bird，Ice Cube 有首同名歌；有人一眼认出图上密度最高的那一大片方块对应着少数族裔聚居区，也有人半开玩笑地说自己最喜欢住在图上全黑的地方，终于不用半夜被螺旋桨吵醒了。关于成本的讨论倒是很快收敛：光维护费大约每飞行小时一千二到一千八美元，还不含机组。一张纯粹由轨迹构成的图，最后被读成了一份关于「警力注意力落在谁头上」的分布图，这大概是数据可视化最好的时刻——它没有下任何结论，但每个人都在里面看见了自己那部分洛杉矶。&lt;/p&gt;
+
+&lt;h2 id=&quot;rpython那些真正被用起来的自动化脚本大多只有几十行&quot;&gt;r/Python：那些真正被用起来的自动化脚本，大多只有几十行&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1vqggbo/what_are_some_python_automations_you_built_for/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一个很老套但每次都好看的问题：你为自己的生活写过哪些 Python 脚本？楼主的动机很实在——「项目点子」那类帖子总在推荐造玩具，反而漏掉了这些真有用的小东西。几百条回复里，最打动人的几乎都不是技术含量高的那些。&lt;/p&gt;
+
+&lt;p&gt;有人每月自动抓一次自己的邮箱，把水电账单画成时间序列图，结果发现用水量没变但水费连涨了好几个月，拿着这张图去找物业，最后查出是水表坏了。这是整个帖子里我最喜欢的一条：写脚本的时候他大概只是想满足一点好奇心，几个月后它变成了证据。类似的还有一位在疫情期间拼了个小程序，每天从省卫生部门的网页上抓新增病例数、通过 Pushover 推到手机上——他说这东西几乎没花时间，却可能是他做过的所有东西里最有用的一个。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“My water bill recently got higher for several months in a row without any major change in usage and the graph was useful to prove to the leasing office that something was wrong (the water meter was malfunctioning).”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/floydmaseda，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1vqggbo/what_are_some_python_automations_you_built_for/p4633q7/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It was tiny and took almost no time at all, but out of all of the things I have developed… it was quite likely the most useful of them all.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Covfefe-Drinker，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1vqggbo/what_are_some_python_automations_you_built_for/p45k72k/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;其余的花样也很值得抄作业：用 Google Maps 的路径 API 算通勤时间，快要触发托儿所超时收费时给自己发警报（免费额度完全够用）；给不支持峰谷套利的旧储能电池外接智能插座，每 15 秒读一次电价时段和电量，自己写充放电策略；把公司排班网站的接口扒下来做工时统计，顺带发现返回的 JSON 里居然还带天气；爬市政网站查明天该扔哪种颜色的垃圾桶，提前一天给自己和伴侣发短信。当然也少不了那条被顶得很高的三行代码——每 30 秒发一次 F13 键位，作者称之为「我整个职业生涯写过的最有价值的代码」，底下立刻有人把间隔改成了 299 秒，正好卡在 Teams 五分钟的离线判定前面。&lt;/p&gt;
+
+&lt;p&gt;顺便一提，帖子里有条关于炒股脚本的支线吵得挺凶：有人写了每小时抓指数、异动就发短信的脚本，立刻被搬出有效市场假说泼冷水，说散户靠这个跑赢指数基金基本没戏；反驳的人给了个「剔除标普年内垫底五只」的策略，又被指出标普是市值加权、剔掉最小的五只几乎不影响结果。热闹归热闹，结论倒是很朴素：这类脚本的价值在于让你少盯盘，而不是让你多赚钱。&lt;/p&gt;
+
+&lt;p&gt;这一帖对我的启发是，个人自动化的门槛从来不在技术，而在「你有没有把某件小烦躁当回事」。上面这些脚本，任何一个都能在一个晚上写完，难的是意识到水费涨了值得画张图。国内的环境甚至更友好——账单、排班、垃圾分类、通勤时间大多都有现成的接口或小程序，缺的只是那点动手把它抓下来的念头。&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Aug 2026 09:40:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/18/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/18/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.08.17</title>
@@ -1186,143 +1325,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.08.11</title>
-        <description>&lt;p&gt;今天挑的五帖表面上八竿子打不着，但连起来看有条暗线：我们越来越习惯把判断外包出去——外包给一个自称 AI 的黑箱，外包给扫描器，外包给「代码即文档」这类听上去很对的口号。而这五个帖子的评论区，恰好都在做同一件事：把交出去的那部分判断力，一点点要回来。&lt;/p&gt;
-
-&lt;h2 id=&quot;每小时-5000-条请求的ai背后是一个人在手打&quot;&gt;每小时 5000 条请求的「AI」，背后是一个人在手打&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vkc9iu/san_francisco_ai_chatbot_revealed_to_be_one_man/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;旧金山一个挂着 AI 招牌的聊天机器人被扒出真相：所有回答都是真人手动敲的，高峰期号称每小时收到约 5000 条 prompt。消息一出，r/technology 的评论区先是笑成一片《底特律：变人》的梗，然后画风突然一转，认真起来了。&lt;/p&gt;
-
-&lt;p&gt;评论区最有意思的是一条自我发现式的推理链。有人半开玩笑地提议：既然人类集体已经知道这么多东西，何必烧掉半个电网让 AI 复述一遍？不如让多个人同时回答同一个问题，再投票选出最靠谱的答案——写到一半自己愣住了。接下来的几十条回复顺着这个思路，把 Reddit、Quora、Stack Overflow 乃至图书馆挨个「重新发明」了一遍，顺带把 Stack Overflow 因为审核过严而把自己管死的老账翻了出来。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“What a great concept! Humans already know so much collectively, why are we burning the world for AI to do it? And maybe they could make it so multiple people could answer the same question, and vote on which answer is the best…”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/&lt;em&gt;Aj&lt;/em&gt;，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vkc9iu/san_francisco_ai_chatbot_revealed_to_be_one_man/p2sdvza/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;冷静派也不少。有人翻了原文指出这其实是一件行为艺术作品，作者还把回答的活儿众包给了随机注册的网友；也有人纯靠算术拆台——一小时只有 3600 秒，一个人不可能每秒回答一条以上，「收到 5000 条」和「回答 5000 条」是两回事。而当话题滑向「Amazon Go 无人商店其实是印度人在后台看监控」这个流传甚广的段子时，一条高质量回复直接把它按住了：那 1000 名员工做的是标注和纠错，是机器学习流程里本来就该有的人类环节，不等于整套系统是骗局。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Heads up for anyone who believes this: this is a complete misrepresentation of what was actually happening. Anybody who knows how machine learning works knows that training models requires lots of human input into the learning process, especially for a new system…”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/mathers101，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vkc9iu/san_francisco_ai_chatbot_revealed_to_be_one_man/p2svyzk/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这件事真正好笑的地方在于，一个假 AI 反而让人重新意识到真人问答的价值密度有多高。中文互联网这几年也在经历同一场迁移：越来越多人遇到问题第一反应是问模型，而不是去翻别人踩过的坑。但反过来说，那条「人类标注本来就是流程一部分」的提醒同样重要——嘲笑「AI 背后是人」很爽，可如果因此就认定所有 AI 产品都是障眼法，那也只是换了个方向偷懒。&lt;/p&gt;
-
-&lt;h2 id=&quot;农户听-ai-的话打了除草剂二十五英亩芝麻苗一起没了&quot;&gt;农户听 AI 的话打了除草剂，二十五英亩芝麻苗一起没了&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vku8wv/farmer_trusted_ai_after_it_gave_good_advice_then/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一位芝麻种植户之前几次问 AI 都得到了不错的建议，于是这回也照单全收：AI 推荐了一种除草剂，他照做，结果连自家二十五英亩的芝麻苗一起打死了。评论区开头是长长一串《蠢蛋进化论》玩梗接龙，但往下翻，含金量陡增。&lt;/p&gt;
-
-&lt;p&gt;被顶得最高的一句只有短短一行，却说透了整件事的机制——正是前面那几次「答对了」，攒出了这一次的致命信任。顺着这条线，讨论迅速分成了几派。一派追责到提问方式：有人翻出原文说，AI 其实明确讲过那种除草剂应当定点喷洒而非全田漫撒，是农户自己扩大了施用范围；还有人较真到底，去找了英文报道所转述的原始报道对照，发现标题的机器翻译本身就有歧义，读起来几乎像是「要把芝麻当草除掉」，而当事人显然不是这个意思。另一派则把矛头指向工具本身：真正的农技专家在给方案之前一定会反问你种的是什么、需不需要选择性药剂，而模型不会反问，它只会给出一个答案。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“A few correct answers can build dangerous trust”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/lofty23_smart，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vku8wv/farmer_trusted_ai_after_it_gave_good_advice_then/p2w6jcp/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“A human expert would have asked questions, like what he’s growing and if he needs pesticides that kill the weed without poisoning the crop. AI won’t replace human experts until they at least learn to obtain all relevant information before making a recommendation.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/pnkxz，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vku8wv/farmer_trusted_ai_after_it_gave_good_advice_then/p2x5m0z/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;还有两条评论组合起来特别扎心。一位在科技公司干活的人说，同事丢过来的需求经常没头没尾，他的习惯是先退一步问「我们到底想达成什么」，再倒推出本该被问出来的那个问题；紧接着有人补刀：人们对 AI 也是这么提需求的，区别只在于 AI 不会退这一步，它照单全收然后照样给答案。另一位厨师出身的用户则给出了那条最实用的判断标准——他用模型改菜谱，准确率大概八成五，剩下那一成五他自己能兜住，因为那是他的专业。问题不在于 AI 会不会错，而在于你在这件事上是不是那个能兜底的人。&lt;/p&gt;
-
-&lt;p&gt;对国内读者最有用的一条实操建议其实来自一句反问：谁会拿一个没验证过的新方案，直接铺满整片地？先在一小块地上试，本来就是农业几千年的常识。AI 没有取消这条常识，只是让人跳过它跳得更快了。&lt;/p&gt;
-
-&lt;h2 id=&quot;linus-说内核更新体量暴涨是新常态真正的解释在评论区&quot;&gt;Linus 说内核更新体量暴涨是新常态，真正的解释在评论区&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vkjpxh/linus_torvalds_says_ai_has_made_huge_linux_kernel/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Linus Torvalds 说，AI 已经让「体量巨大的内核更新」变成了新常态。这个说法很容易被读成「AI 在往内核里塞代码」，但评论区第一时间纠正了方向：暴涨的主要不是新功能，而是补丁。&lt;/p&gt;
-
-&lt;p&gt;最被认可的解释是：新一代模型正在以极高的效率翻出陈年老代码里的安全漏洞，维护者被迫进入高强度打补丁模式。有人给出了相当具体的量级，说这不是「几十个老漏洞」的规模。也有人从工作性质上解释了为什么这件事特别适合交给机器——在几千万行代码里做枯燥、机械、需要极高耐心的排查，恰好是人类最容易疲劳、机器最不在乎的部分。Chrome、Windows、macOS、Firefox 近期安全修复数量的异常上涨，被拿来作为同一趋势的旁证。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“This is 400+ kernel CVEs spanning XFS, Btrfs, Netfilter, Bluetooth, KVM, NVMe, SMB, Wi-Fi, IOMMU, and RDMA in a 24-hour window.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Opening_One7713，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vkjpxh/linus_torvalds_says_ai_has_made_huge_linux_kernel/p2vwghy/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Debugging code and searching for vulnerabilities is a slow, methodical, and boring process, a perfect job for AI tbh”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/BoXLegend，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vkjpxh/linus_torvalds_says_ai_has_made_huge_linux_kernel/p2ubpny/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;接下来的讨论比新闻本身更值得看。有人问了个好问题：等扫描器把历史存量啃完，这波洪峰会不会自然回落？多数人认为会——漏洞不是无限的，尤其内核的职责边界相对清晰。另一条被反复引用的观点则提醒大家别把「找漏洞」和「写代码」混为一谈：即使禁止维护者用 AI 修漏洞，也拦不住第三方用 AI 去找漏洞，攻防两端的成本是同时下降的。还有一场很有代表性的小争论：有人说 LLM 让他更倾向于自己造轮子、减少依赖，因为他信不过别人产出的东西；立刻有人反驳——你不会自己写一个加密库或 JS 运行时，依赖的价值恰恰在于有人替你持续维护；与其绕开成熟库，不如用模型去审计它、把修复提交回上游。&lt;/p&gt;
-
-&lt;p&gt;从中文开发者的角度看，这一波最直接的影响可能不是「AI 帮我写代码」，而是升级节奏被迫加快。当上游的 CVE 以这个速率涌出来，那种「跑得好好的就先不动」的策略，风险成本正在悄悄变高。&lt;/p&gt;
-
-&lt;h2 id=&quot;代码注释到底该写什么rprogramming-吵翻了&quot;&gt;代码注释到底该写什么：r/programming 吵翻了&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1vkwqh0/on_comments/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;有人写了篇长文为代码注释正名，理由是这些年「注释大多没用、过时、重复代码本身」的观念太流行，导致大家读也不读、写也不写。帖子发到 r/programming，立刻炸出了一大批各执一词的老程序员。&lt;/p&gt;
-
-&lt;p&gt;第一个被挑战的居然是那句人人都会背的「写 why 不写 what」。有人直言这条建议一直都很糟糕：很多时候 what 本身就是 why，而且有些 what 重要到值得专门强调一句；这条口号之所以流行，是因为它在对抗的其实是「// 对 users 做循环」这种垃圾注释，把靶子设得太低，反而把注释这件事整体贬值了。也有人追溯到源头，搬出了《Clean Code》里那段「注释永远是失败」的著名论断——原书说每写一条注释都该龇牙咧嘴地为自己表达能力的失败而羞愧——认为正是这类布道，让一整代新人对注释产生了道德负担。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“This has always been terrible advice. The what is often the why.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/farsightfallen，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1vkwqh0/on_comments/p2xwedq/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;第二场争论更贴近日常：变更原因到底该写进 git 还是写进注释？主张写 git 的人理由很干脆——那本来就是版本控制的职责。反对者的反驳同样有力：git 适合放「改了什么」和一句话摘要，细节还是应该躺在代码旁边，否则你得跨系统上下文切换，去查一个可能十二年前就下线了的工单编号。折中派的方案是三层——commit 写 tl;dr，注释写完整的 why 和必要的 how，超长的背景丢给 issue。顺带一提，评论区还贡献了一大批「注释奇观」：为每个类和字段自动生成的废话注释、把 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i++&lt;/code&gt; 用五行文档解释一遍再改成 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i--&lt;/code&gt; 的恶作剧，以及那条永远的经典——雷神之锤里那句 evil floating point bit level hacking 后面跟着的 what the fuck。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I once had a teacher describe comments as messages you can send to yourself in the future”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/doctorlongghost，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1vkwqh0/on_comments/p2x23vp/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这场讨论放在 2026 年读有种额外的意味。当大量代码由模型生成、由另一个模型审阅，「代码即文档」这条假设正在变得更脆弱——模型能复述代码做了什么，却复述不出当年为什么绕开那个方案、为什么这个魔法数字不能改。TODO 该不该提交也是同理：有人的做法是绝不留 TODO，而是建一条 backlog 再在注释里链过去。说到底，注释的价值从来不在于解释语法，而在于把当时脑子里那些没能写进代码的约束保存下来。&lt;/p&gt;
-
-&lt;h2 id=&quot;统计学里最反直觉的那些悖论被翻了个底朝天&quot;&gt;统计学里最反直觉的那些悖论，被翻了个底朝天&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1vknfgv/q_i_am_looking_for_some_very_interesting_and/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;有人要做演讲，跑到 r/statistics 求推荐「非常有意思、越冷门越好」的统计学概念、悖论和理论。这类求助帖往往会变成一份高质量清单，这次也不例外。&lt;/p&gt;
-
-&lt;p&gt;辛普森悖论、伯克森悖论、蒙提霍尔、幸存者偏差这些常客当然都在，但更值得记下来的是几个不那么大众的。一条讲柯西分布的回复几乎可以直接拿去当演讲素材：它长得和正态分布很像，定义也简单，却没有均值、没有方差，一切矩都不存在——直接后果是，你采一万个样本求平均，对中心位置的估计并不比只采一个样本更准。大数定律在这里彻底失效。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It’s easy to define (it’s the ratio of two I.I.D. random variables with standard normal distributions) and looks a lot like a normal distribution, but its mean, variance, and other moments are undefined.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Mishtle，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1vknfgv/q_i_am_looking_for_some_very_interesting_and/p2vhdnt/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;另一条讲 Stein 悖论的回复同样精彩：估计一个均值，样本均值最优；估计两个，还是最优；可一旦你要同时估计三个互不相干的量——比如身高、体重、年龄——分别取样本均值就不再是最优的了，把三个估计一起往某个任意选定的点轻轻拉一下，整体误差反而更小。三个毫无关系的问题放在一起解，居然比分开解更准，这个结论至今读起来都很别扭。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Suppose you want to estimate THREE averages at the same time… Now all of a sudden taking the sample mean for each statistic is NOT the most efficient.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Sandjee12，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1vknfgv/q_i_am_looking_for_some_very_interesting_and/p2xnpk8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;清单里还有本福特定律与司法会计、回归均值与身高遗传、数据堆积效应（受访者习惯把年龄和收入报成整数，导致分布上出现一根根尖刺）等等。但最沉重的一条推荐是把几起真实冤案列了进去：护士被指控连环杀人的案子，控方所依据的正是被误用的条件概率——同一种统计误用在不同年代反复上演。这份清单最好的地方也在这里：它没有停留在智力游戏，而是提醒你，看错一个概率是要有人付出代价的。Stein 悖论的那个「拉一下」，其实就是今天所有正则化和收缩估计的思想源头，而这一切都始于一个反直觉到让人不适的结论。&lt;/p&gt;
-</description>
-        <pubDate>Tue, 11 Aug 2026 09:30:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/11/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/11/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
         
       </item>
     

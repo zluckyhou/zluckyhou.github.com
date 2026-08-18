@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 18 Aug 2026 09:22:36 +0800</pubDate>
-    <lastBuildDate>Tue, 18 Aug 2026 09:22:36 +0800</lastBuildDate>
+    <pubDate>Tue, 18 Aug 2026 10:12:07 +0800</pubDate>
+    <lastBuildDate>Tue, 18 Aug 2026 10:12:07 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -145,6 +145,136 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>AI Frontier Daily | 2026.08.18</title>
+        <description>&lt;h2 id=&quot;115-cursor-推出-origin-代码托管平台把仓库与-agent-工作流收进同一入口&quot;&gt;1/15 Cursor 推出 Origin 代码托管平台，把仓库与 Agent 工作流收进同一入口&lt;/h2&gt;
+&lt;p&gt;Cursor 宣布 Origin 进入早期测试，向付费计划逐步开放仓库、Pull Request、代码浏览与 GitHub 同步。由 GitHub 导入的仓库仍以 GitHub 为事实源，评论、回复与合并状态可双向同步；Cursor 原生仓库则可直接通过 CLI 推送。首批应用包括 Vercel、Depot 和 Buildkite，Agent-native 功能仍标注为后续推出。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2089399057659596847&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2089399059488350447&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2089399061040308603&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;215-groq-完成-35-亿美元-series-a近期两轮融资合计-10-亿美元&quot;&gt;2/15 Groq 完成 3.5 亿美元 Series A，近期两轮融资合计 10 亿美元&lt;/h2&gt;
+&lt;p&gt;Groq 宣布由 Disruptive 领投 3.5 亿美元 Series A，NVIDIA 计划参与，公司估值为 35 亿美元；加上 6 月的 6.5 亿美元，近期融资合计 10 亿美元。公司称目前运营 13 个数据中心、服务逾 600 万开发者，并计划把供电规模从 54MW 提升至 2027 年的 200MW 以上。该轮仍受常规交割条件约束。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GroqInc/status/2089362036774035513&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GroqInc&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;315-greg-brockman-发布防御者窗口要求企业立即用-ai-加速网络安全升级&quot;&gt;3/15 Greg Brockman 发布“防御者窗口”，要求企业立即用 AI 加速网络安全升级&lt;/h2&gt;
+&lt;p&gt;OpenAI 联合创始人 Greg Brockman 将近期 OpenAI—Hugging Face 事件视为攻击能力跃迁信号，称企业需要在未来数月内加速补齐安全基础设施。他列出四类内部做法：用 Codex 审查并修复代码、让模型持续分流安全告警、主动枚举攻击路径，以及强化最小权限、网络隔离与纵深防御；同时建议外部组织先从只读扫描和人工决策开始自动化。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/gdb/status/2089326994714763665&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/OpenAI/status/2089328616786248149&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenAI&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;415-replit-上线黑盒渗透测试并补齐企业审计与管理接口&quot;&gt;4/15 Replit 上线黑盒渗透测试，并补齐企业审计与管理接口&lt;/h2&gt;
+&lt;p&gt;Replit 现在可从 Security Center 发起 Level 3 扫描：白盒 Agent 阅读代码，黑盒 Agent 只拿应用 URL、从外部网络和浏览器视角模拟攻击；发现的问题可交给 Replit Agent 一键修复。公司同日还预告企业审计日志、工作区设置控制与 Admin API，把 Agent 建站后的安全验证和组织级治理放进同一平台。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Replit&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/Replit/status/2089427187162083785&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Replit 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/Replit/status/2089427188223250702&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Replit 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/Replit/status/2089383945171501213&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Replit 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;515-extractbench-用-4869-页企业文档评估抽取准确率完整性引用定位与成本&quot;&gt;5/15 ExtractBench 用 4,869 页企业文档评估抽取准确率、完整性、引用定位与成本&lt;/h2&gt;
+&lt;p&gt;LlamaIndex 介绍 ExtractBench：数据集含 370 份文档、4,869 页、8 个业务领域和 67 类文档，除字段值准确率外，还同时考察大规模记录完整性、页级与词级引用定位以及成本。官方结果显示，部分 VLM 在长文档中会截断记录，编码 Agent 准确率较高但成本更高；LlamaExtract Agentic Plus 的领先数字来自作者评测，仍需独立复现。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/llama_index/status/2089381635464556705&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@llama_index&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;615-seedance-25-的-1080p-版本同时进入-pika-与-luma生成平台争夺同一模型入口&quot;&gt;6/15 Seedance 2.5 的 1080p 版本同时进入 Pika 与 Luma，生成平台争夺同一模型入口&lt;/h2&gt;
+&lt;p&gt;Pika API Club 与 Luma 均宣布接入 Seedance 2.5 的 1080p 生成能力。Pika 称其价格最高可比竞品低 60%，并展示用 30 张视觉参考和一条音乐维持人物、造型与节奏一致，以及替换绿幕和延展特效的案例；Luma 则提供进一步放大至 4K 的工作流。价格与一致性结论均来自平台展示，尚非统一条件下的横向评测。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@pika_labs&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2089397500449034412&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2089446510849405275&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2089506234487685160&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/LumaLabsAI/status/2089382307182281025&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@LumaLabsAI&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;715-nvidia-团队提出-cmd让视频蒸馏的教师监督与因果生成上下文对齐&quot;&gt;7/15 NVIDIA 团队提出 CMD，让视频蒸馏的教师监督与因果生成上下文对齐&lt;/h2&gt;
+&lt;p&gt;NVIDIA 转发的新论文提出 Context-Matched Distillation：传统双向教师能看到完整视频，可能用未来帧监督只能依赖历史的自回归学生，造成信息边界错位。CMD 改用因果教师，并通过 Prefix Scoring 在学生实际生成的前缀上评分、用 Prefix Corruption 稳定早期训练。作者报告其在短、长视频和动态相机控制上取得同类自回归方法中的领先综合表现。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/NVIDIAAI/status/2089470635768725936&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;815-sakana-namazu-登陆-openrouter把日本语境推理与工具执行组合成业务模型&quot;&gt;8/15 Sakana Namazu 登陆 OpenRouter，把日本语境、推理与工具执行组合成业务模型&lt;/h2&gt;
+&lt;p&gt;Sakana AI 转发 OpenRouter 公告称，Sakana Namazu 已上线。该模型构建于 Kimi K2.6 之上，面向日本文化与商业语境，组合推理、网页搜索和代码执行，用于处理需要多步信息检索与操作的复杂任务。当前公告未给出独立基准、上下文限制或定价细节，因此更应视为区域化 Agent 模型的产品发布，而非性能排名结论。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/SakanaAILabs/status/2089523554798989377&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@SakanaAILabs&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/OpenRouter/status/2089442143010189812&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenRouter&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;915-databricks-用日预算拦截失控循环月预算治理长期高支出&quot;&gt;9/15 Databricks 用日预算拦截失控循环、月预算治理长期高支出&lt;/h2&gt;
+&lt;p&gt;Databricks 披露其数千名工程师每天使用 Claude Code、Codex、Cursor 等编码 Agent，相关支出已成为研发增长最快的项目之一。公司把所有请求路由到 Unity AI Gateway：日预算负责捕获短期失控循环，工程师确认后可自助加额；月预算只处理异常高支出，并要求项目与经理审批。单一网关同时提供跨工具计量、策略执行和团队可观测性。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2089418761728037094&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1015-grok-bot-的持久网页机器展示了不同-agent-运行环境的分化&quot;&gt;10/15 Grok Bot 的“持久网页机器”展示了不同 Agent 运行环境的分化&lt;/h2&gt;
+&lt;p&gt;Elon Musk 再次强调 Grok 4.6 的速度、价格与 Agent 任务能力，并转发 Grok Bot 工作流案例。Ethan Mollick 同日比较三类运行环境：Codex 与 Claude Code 操作本地机器，ChatGPT Work 等提供任务后重置的一次性云端机器，而 Grok Bot 为每个 Agent 保留持久网页机器。持久状态减少重复配置，但也扩大凭证、会话隔离与长期权限治理需求。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@elonmusk&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2089416747720061154&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2089501024557912315&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2089233231853785118&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1115-relace-用专用小模型做代码生成成本优化从路由延伸到训练与集群&quot;&gt;11/15 ReLaCe 用专用小模型做代码生成，成本优化从路由延伸到训练与集群&lt;/h2&gt;
+&lt;p&gt;Together AI 介绍 ReLaCe 的代码生成路线：针对特定代码任务训练小模型，并运行在 Together 为 Y Combinator 配置的专用 GPU 集群上。该案例反映生产 Agent 的另一种成本策略——不让通用前沿模型承担全部请求，而是把稳定、窄域任务下沉到专用模型，再由系统做路由和兜底。帖子未披露模型规模、质量基准或实际节省比例。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/togethercompute/status/2089429778164232282&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1215-trajectory-认为真实使用反馈要求重做强化学习而不只是继续堆-grpo&quot;&gt;12/15 Trajectory 认为真实使用反馈要求重做强化学习，而不只是继续堆 GRPO&lt;/h2&gt;
+&lt;p&gt;swyx 转发 Trajectory Labs 关于持续学习的说明：团队试图把真实世界的产品使用转成模型改进，因此采用 on-policy 数据，并处理由此带来的训练与分布问题，而不是只依赖 GRPO。该方向把后训练从静态题库扩展到长期运行数据，但公开信息仍以演讲概述为主，尚缺完整算法、消融实验与可复现训练配方。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@swyx&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/swyx/status/2089390578899583103&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@swyx 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/swyx/status/2089393073327653344&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@swyx 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1315-floating-companion把软体漂浮机器人从单一原型扩展为室内交互设计空间&quot;&gt;13/15 “Floating Companion”把软体漂浮机器人从单一原型扩展为室内交互设计空间&lt;/h2&gt;
+&lt;p&gt;庆应义塾大学、MIT Media Lab 等团队的 DIS 2026 最佳论文近日再次受到关注。研究以氦气软体、低频鳍翼、无高速旋翼的漂浮机器人为基础，访谈 12 名 HCI、设计与机器人专家，总结 10 个物理、交互与行为维度，并制作提醒、学习陪伴和休息提示等概念原型。贡献主要是交互设计框架，而非自主导航或具身智能性能突破。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@rowancheung&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/rowancheung/status/2089377724372762697&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@rowancheung 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/rowancheung/status/2089377777736962333&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@rowancheung 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1415-同一数据被不同-ai-分析员得出相反结论研究呼吁公开提示词与多宇宙结果&quot;&gt;14/15 同一数据被不同 AI 分析员得出相反结论，研究呼吁公开提示词与“多宇宙”结果&lt;/h2&gt;
+&lt;p&gt;一项多分析员研究让四类 LLM Agent 在三个数据集上独立检验同一假设，并用另一 Agent 审核方法合规性。即使过滤明显错误，不同模型、提示框架和分析选择仍会让效应量、P 值与“是否支持假设”的结论大幅分散。作者因此建议 AI 生成分析同时报告多种合理规格，并像公开代码和数据一样公开完整提示词。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2089351996016918825&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1515-agent--模型--harness--上下文正在成为评测与工程的共同归因框架&quot;&gt;15/15 “Agent = 模型 + Harness + 上下文”正在成为评测与工程的共同归因框架&lt;/h2&gt;
+&lt;p&gt;Harrison Chase 转发的框架把 Agent 能力拆成模型、Harness 与上下文三层：模型提供推理，Harness 定义循环、工具和执行边界，上下文承载记忆、技能与任务状态。swyx 补充一种实用做法：定期让大模型把高频操作编译成确定性的复合工具，再交给小模型调用。这样既能降低错误面，也提醒评测不能把系统级提升全部归因于底层模型。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2089520412267077818&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/swyx/status/2089499493083529476&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@swyx&lt;/a&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
+
+&lt;h3 id=&quot;cursor-origingithub-共存而非一次性迁移代码托管开始为-agent-规模重构&quot;&gt;Cursor Origin：GitHub 共存而非一次性迁移，代码托管开始为 Agent 规模重构&lt;/h3&gt;
+&lt;p&gt;Origin 早期测试先覆盖仓库、PR、代码浏览和 GitHub 同步。GitHub 导入仓库保持 GitHub 为事实源，推送仍回到 GitHub；Origin 保存实时副本，评论与 PR 状态双向同步，用户可在 Cursor 内审阅和合并。原生 Origin 仓库则通过 CLI 克隆、推送。Vercel 为 PR 生成预览部署，Depot 与 Buildkite 可复用 GitHub Actions 工作流。企业组织可由管理员选择退出，Agent-native 功能尚未正式发布。
+&lt;a href=&quot;https://cursor.com/changelog/origin-code-hosting&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;groq-series-a资本结构转向全球推理云2027-年供电目标超过-200mw&quot;&gt;Groq Series A：资本结构转向全球推理云，2027 年供电目标超过 200MW&lt;/h3&gt;
+&lt;p&gt;Groq 官方公告确认，本轮 3.5 亿美元由 Disruptive 领投，NVIDIA 计划参与，估值 35 亿美元；与 6 月的 6.5 亿美元合计为近期 10 亿美元融资。公司称运营 13 个数据中心，服务逾 600 万开发者和数千家 AI-native 企业，每周处理数万亿 token。新资金将支持 NVIDIA 加速计算的中大型训练与推理集群，并把规模从 54MW 提升至 2027 年 200MW 以上；Series A 仍受常规交割条件约束。
+&lt;a href=&quot;https://groq.com/newsroom/groq-closes-usd350-million-series-a-building-the-world-s-leading-ai-inference-cloud&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-defenders-window先修基本功再从只读扫描逐步走向受限自动响应&quot;&gt;The Defender’s Window：先修基本功，再从只读扫描逐步走向受限自动响应&lt;/h3&gt;
+&lt;p&gt;Brockman 称近期事件把未知漏洞、泄露账号凭证与 Agent 协同攻击串在一起，说明传统技术债正在被更快发现和利用。OpenAI 的内部路线包括：让 Codex 在合并前验证与修复代码；用模型分流初始告警、只把高影响决定交给人；持续枚举错误配置、过度权限和意外信任边界；强化最小权限、隔离与安全补丁。对外建议从只读仓库扫描、历史告警复核和人工处置开始，再逐步扩展到 PR 审查与窄范围自动化。
+&lt;a href=&quot;https://blog.gregbrockman.com/the-defenders-window&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;replit-黑盒渗透测试一个-agent-看源码另一个只拿-url-模拟外部攻击&quot;&gt;Replit 黑盒渗透测试：一个 Agent 看源码，另一个只拿 URL 模拟外部攻击&lt;/h3&gt;
+&lt;p&gt;Replit 的 Level 3 扫描同时启动白盒与黑盒任务。白盒 Agent 可读取代码并寻找危险模式；黑盒 Agent 没有源码，只通过网络与浏览器探测已部署应用，更适合发现认证、访问控制和真实运行配置中的问题。扫描结果进入同一 Security Center，用户可让 Replit Agent 修复发现。它降低了基础渗透测试门槛，但供应商没有把它描述为替代独立第三方审计，涉及高风险数据或合规范围的系统仍需外部验证。
+&lt;a href=&quot;https://replit.com/blog/black-box-pen-tests&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;extractbench长文档不只考字段值还要追踪每个值来自哪里&quot;&gt;ExtractBench：长文档不只考字段值，还要追踪每个值来自哪里&lt;/h3&gt;
+&lt;p&gt;ExtractBench 覆盖 370 份企业文档、4,869 页、8 个领域和 67 个文档类型，同时评估无序字段值 F1、记录完整性、页级与词级 grounding F1 及成本。作者指出，商用 VLM 在短文档表现较好，但长文档常截断列表；编码 Agent 保留更高准确率，却付出更高成本。LlamaExtract Agentic Plus 在作者测试的三类指标中居首，论文、数据集和评测代码均已公开，便于后续独立复现。
+&lt;a href=&quot;https://arxiv.org/abs/2607.29677&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;cmd让教师模型也遵守学生生成时的时间边界&quot;&gt;CMD：让教师模型也遵守学生生成时的时间边界&lt;/h3&gt;
+&lt;p&gt;视频 DMD 常用能看完整片段的双向教师，导致目标帧的评分依赖学生生成时尚不可见的未来信息。CMD 用因果教师替代完整片段评分，并让教师与少步学生共享一致的因果初始化；Prefix Scoring 在学生实际缓存的前缀上评价目标，Prefix Corruption 则扰动早期不可靠前缀以稳定训练。作者称方法可统一扩展到逐帧、分块、长视频与相机条件蒸馏，并在短长视频综合表现和动态相机控制遵循度上领先同类自回归方案。
+&lt;a href=&quot;https://arxiv.org/abs/2608.13391&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;floating-companion论文贡献是-10-维设计空间而不是又一台更快的无人机&quot;&gt;Floating Companion：论文贡献是 10 维设计空间，而不是又一台更快的无人机&lt;/h3&gt;
+&lt;p&gt;DIS 2026 论文从软体漂浮机器人的安全、可触摸和悬空共居特性出发，访谈 12 名 HCI、设计与机器人专家，整理物理形态、互动方式与行为表现等 10 个维度，并用多个概念原型展示陪伴、提醒、学习和休息提示等场景。氦气承担浮力、柔性鳍翼负责移动，使其避开高速旋翼与噪声；但研究重点是建立交互设计词汇和应用空间，不是证明自主感知、导航或通用具身智能能力。
+&lt;a href=&quot;https://recfro.github.io/floating/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ai-数据科学多宇宙自动化让合理分析更便宜也让选择性报告更危险&quot;&gt;AI 数据科学多宇宙：自动化让合理分析更便宜，也让选择性报告更危险&lt;/h3&gt;
+&lt;p&gt;研究让四种 LLM Agent 在三个数据集上独立选择变量、模型规格与推断方法，再由 AI 审核员过滤明显偏离研究设计的分析。合规结果之间仍出现广泛的效应量、P 值和二元结论分散，改变模型或提示角色还能系统性移动结果分布。作者因此建议把单点答案改为规格曲线或多宇宙报告，披露完整提示词，并保留人工对研究问题、合理规格与解释范围的最终判断。
+&lt;a href=&quot;https://pmc.ncbi.nlm.nih.gov/articles/PMC13393493/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;databricks-的-agent-预算把失控循环和合理但昂贵的项目分成两类治理&quot;&gt;Databricks 的 Agent 预算：把“失控循环”和“合理但昂贵的项目”分成两类治理&lt;/h3&gt;
+&lt;p&gt;Databricks 发现单一月度限额同时承担反事故与成本治理会制造大量工单。新方案用较低日限额捕获突然激增，达到约 90% 时通过 Slack 提醒，工程师确认是有意使用即可自助提高；月限额设得更高，只在显著偏离同伴支出时要求经理按项目批准，并让额度到期回落。所有 Agent 流量经 Unity AI Gateway 归因到用户，预算、跨模型计量和团队可观测性才得以在一个控制点执行。
+&lt;a href=&quot;https://www.databricks.com/blog/how-databricks-manages-its-own-coding-agent-spend-unity-ai-gateway-budgets&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Aug 2026 09:07:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/ai-daily/2026/08/18/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/18/</guid>
+        
+        <category>AI-Frontier</category>
+        
+        <category>Daily</category>
+        
+        
+        <category>ai-daily</category>
         
       </item>
     
@@ -1186,138 +1316,6 @@
         <pubDate>Fri, 14 Aug 2026 09:07:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/ai-daily/2026/08/14/</link>
         <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/14/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.08.13</title>
-        <description>&lt;h2 id=&quot;116-grok-46-发布同价升级主攻知识工作与复杂任务&quot;&gt;1/16 Grok 4.6 发布：同价升级，主攻知识工作与复杂任务&lt;/h2&gt;
-&lt;p&gt;SpaceXAI 发布 Grok 4.6，称其相较 4.5 在复杂任务与知识工作上显著提升，同时保持原价。发布材料把 GDPVal-AA、AA-Briefcase、法律和编码代理任务列为重点；Elon Musk 随后开放一周双倍 token，并称模型登上 Databricks 对应榜单第一。多项领先结论目前主要来自发布方及其转述，仍需等待独立评测、稳定性和真实工作负载验证。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cursor_ai/status/2087562885962895665&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;/a&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@elonmusk&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2087601785833951705&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2087668743929487420&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;216-google-将手语转文本-sl2t-带入-pixel-11&quot;&gt;2/16 Google 将手语转文本 SL2T 带入 Pixel 11&lt;/h2&gt;
-&lt;p&gt;Google DeepMind 发布大规模多语言手语转文本模型 SL2T，率先为 Pixel 11 的 Gboard 与 Live Transcribe 提供 ASL 到英语输入。模型用超过 10 万小时、覆盖 50 多种手语的数据训练；设备端先提取身体姿态坐标，服务器只接收坐标序列完成翻译，以减少原始视频外传。Google 称其 FLEURS-ASL 零样本成绩达 70 BLEURT，产品设计由聋人社区与顾问委员会参与。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2087541213284946191&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2087541217965809850&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2087541220494938537&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/sundarpichai/status/2087594472008003850&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@sundarpichai&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;316-microsoft-首个自研推理模型-mai-thinking-1-上线-foundry&quot;&gt;3/16 Microsoft 首个自研推理模型 MAI-Thinking-1 上线 Foundry&lt;/h2&gt;
-&lt;p&gt;Microsoft AI CEO Mustafa Suleyman 宣布 MAI-Thinking-1 已在 Microsoft Foundry 提供，并称这是团队从头训练的首个推理模型；Satya Nadella 随后转发确认。当天公开材料没有给出参数规模、上下文长度、价格、基准分数或与外部模型的对照，因此目前可以确认的是模型来源与平台可用性，而非其能力排名。这一发布继续扩大微软在合作伙伴模型之外的自研模型组合。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/mustafasuleyman/status/2087570047967408396&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mustafasuleyman&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/satyanadella/status/2087590629094395925&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@satyanadella&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;416-cohere-开源-24b-视觉语言模型-north-micro-vision&quot;&gt;4/16 Cohere 开源 2.4B 视觉语言模型 North Micro Vision&lt;/h2&gt;
-&lt;p&gt;Cohere 发布 24 亿参数 North Micro Vision，采用 Apache 2.0 许可，定位于复杂文档理解和边缘设备部署。模型支持原生分辨率处理、多轮图文对话、空间推理、视觉定位及多语言图像理解；官方称其在多项测试中超过 Gemma 4 E2B 与 Ministral 3 3B。生态侧已接入 NVIDIA AutoModel、Axolotl 与 MLX，便于在 GPU 或 Apple 设备微调运行；横向成绩仍待独立复现。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cohere/status/2087571573947392419&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cohere/status/2087571576749240509&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/cohere/status/2087571579517489581&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/cohere/status/2087571582960984484&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;516-cerebras-云收入同比增-281签约-600-mw-容量&quot;&gt;5/16 Cerebras 云收入同比增 281%，签约 600 MW 容量&lt;/h2&gt;
-&lt;p&gt;Cerebras 披露 2026 年第二季度进展：GAAP 云收入同比增长 281%，核心云收入增长 287%，快速推理云业务接近四倍；公司已签约 600 MW 数据中心容量，并计划年内把制造能力扩大超过 10 倍。合作项目包括为 OpenAI 的 GPT-5.6 Sol 提供服务，以及与 AMD 推进分离式推理。公告未在推文中给出收入绝对值、利润率或实际上线容量。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cerebras&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cerebras/status/2087648835061391412&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cerebras 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cerebras/status/2087648836940361790&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cerebras 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;616-qwen38-max-以-24t-moe-和-256k-上下文接入-together-ai&quot;&gt;6/16 Qwen3.8-Max 以 2.4T MoE 和 256K 上下文接入 Together AI&lt;/h2&gt;
-&lt;p&gt;Together AI 上线 Qwen3.8-2.4T-A95B，披露模型总参数 2.4 万亿、激活参数 950 亿、上下文 256K，重点面向编码和长程代理任务，并支持任务状态、调度恢复、自测试、函数调用与结构化输出。阿里 Qwen 同日称 Qwen3.8-Max 在 Legal Research Bench 从第 22 升至第 4。Together 提供 day-zero serverless inference，但延迟、价格和独立评测仍需结合正式模型卡核对。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2087649685129318585&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2087649688270901508&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2087665914556944772&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Alibaba_Qwen/status/2087382811921854827&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;716-extractbench-揭示长文档抽取高精度低召回陷阱&quot;&gt;7/16 ExtractBench 揭示长文档抽取“高精度、低召回”陷阱&lt;/h2&gt;
-&lt;p&gt;LlamaIndex 发布 ExtractBench：370 份企业文档、4,869 页、8 个领域、67 种文档类型，共比较 14 个系统，并同时衡量准确率、长列表完整性、grounding 与成本。官方结果显示，短文档上多数系统接近，但超过 50 页后商用 VLM 召回率均低于 35%，容易返回少量正确行却漏掉大部分记录。发布推文称 Agentic Plus 长列表 F1 为 96.1%，当前网页榜单显示 94.4%，两者可能对应不同版本或口径。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@llama_index&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/llama_index/status/2087574976081617187&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@llama_index 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/llama_index/status/2087651952289071142&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@llama_index 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;816-suno-与-bmg-合作开发面向音乐行业的新模型&quot;&gt;8/16 Suno 与 BMG 合作开发面向音乐行业的新模型&lt;/h2&gt;
-&lt;p&gt;Suno 与大型音乐公司 BMG 宣布全球合作，并称这是即将发布的首个“与音乐行业共同开发”音乐模型的一部分。双方计划让自愿加入的艺术家与词曲作者参与新音乐体验，并探索新的经济机会；Suno 还将扩展面向独立音乐人的 In Session 与 Spark 项目。公告没有披露训练数据、授权范围、收入分配、模型发布时间或技术指标，当前重点是行业协作原则与 opt-in 机制。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/suno/status/2087570601485697356&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@suno&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;916-transformersjs-月下载量突破-1000-万&quot;&gt;9/16 Transformers.js 月下载量突破 1,000 万&lt;/h2&gt;
-&lt;p&gt;Hugging Face CEO Clément Delangue 表示，团队开发三年的 Transformers.js 月下载量已超过 1,000 万，约为六个月前的 10 倍，并称其已成为浏览器内运行 AI 模型最流行的开源库。该增长反映本地推理对隐私、零服务端调用和计算资源分散化的吸引力；不过推文没有公开 npm 统计链接、活跃应用数、去重用户或实际推理负载，因此数字应按下载量而非用户规模理解。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/ClementDelangue/status/2087518483718545533&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/huggingface/status/2087519311187620263&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@huggingface&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1016-databricks-用先检索再分类处理十万级标签&quot;&gt;10/16 Databricks 用“先检索再分类”处理十万级标签&lt;/h2&gt;
-&lt;p&gt;Databricks 针对生物医学实体链接、供应商归一化和公司去重，比较纯向量检索、检索后 AI Classify、以及带提示缓存的前沿模型直调。其方案先召回少量候选标签，再让模型选择，避免把十万级 taxonomy 全部塞入上下文。公司称该流程在三个基准上比最佳成本效率型前沿模型平均准确率高 5 个百分点，token 成本约为百分之一；可迁移性仍取决于数据、模型和计价口径。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2087612610329952630&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1116-groq-成为-nvidia-cloud-partner&quot;&gt;11/16 Groq 成为 NVIDIA Cloud Partner&lt;/h2&gt;
-&lt;p&gt;Groq 加入 NVIDIA Cloud Partner 计划，获认证可按 NVIDIA 参考架构和运营标准设计、部署及运行加速计算基础设施。双方此前已有非独家推理技术许可和投资关系；新认证为 Groq 在现有数据中心加入 NVIDIA 推理硬件铺路。Groq 称其在北美、欧洲、中东与亚太运营数据中心，服务超过 600 万开发者并扩展到 200 MW 以上；这些规模数据来自公司公告。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GroqInc/status/2087570841701847329&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GroqInc&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1216-sakana-chat-加入-fugunamazu-与完整代码执行&quot;&gt;12/16 Sakana Chat 加入 Fugu、Namazu 与完整代码执行&lt;/h2&gt;
-&lt;p&gt;Sakana AI 更新免登录、免费使用的 Sakana Chat，由新一代 Fugu 和日语模型 Namazu 驱动，并加入完整代码执行。用户可用日语描述需求，在浏览器内生成互动网页、游戏和工具；办公场景可上传 Excel，让系统用 Python 分析、制图并整理报告。官方把儿童汉字与数学练习、小游戏及日本企业表格工作作为示例，当前未披露模型规模、沙箱权限、安全边界或任务成功率。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@SakanaAILabs&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/SakanaAILabs/status/2087702297967243351&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@SakanaAILabs 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/SakanaAILabs/status/2087702426023514186&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@SakanaAILabs 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/SakanaAILabs/status/2087702546949521793&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@SakanaAILabs 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hardmaru/status/2087722799091847258&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hardmaru&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1316-runway-agent-接入-figmadropbox-与-notion&quot;&gt;13/16 Runway Agent 接入 Figma、Dropbox 与 Notion&lt;/h2&gt;
-&lt;p&gt;Runway 为 Agent 增加 Figma、Dropbox 和 Notion 连接器，使设计、文件与文档可以直接同步到创作代理中，减少跨工具手工搬运；该功能面向所有付费方案。公司同日还上线 Grok Imagine Image 2.0，此前已接入 LTX-2.5。连接器公告没有说明写入权限、版本冲突、审计日志、数据保留或各平台支持的对象范围，企业使用仍需核对授权与治理细节。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@runwayml&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/runwayml/status/2087552165703504056&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@runwayml 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/runwayml/status/2087664899493400926&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@runwayml 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/runwayml/status/2087374485154578692&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@runwayml 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1416-pangram-检测样本显示-claude-份额上升gemini-下降&quot;&gt;14/16 Pangram 检测样本显示 Claude 份额上升、Gemini 下降&lt;/h2&gt;
-&lt;p&gt;Pangram 用内部表示上的线性探针识别模型家族，再统计匿名聚合的检测提交。其样本中 OpenAI 每月份额一直高于 50%，Anthropic 从 2024 年的 4.3% 升至 14.9%，Google 则从约 12% 降至 2026 年 7 月的 1.9%。但该分类器单样本 top-1 准确率为 91%，且数据来自主动提交给检测器的内容，不能代表全市场；与 OpenRouter 的绝对份额也明显不同。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2087368598465745360&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1516-expedia-用-keras-3-将排序推理延迟降低-70&quot;&gt;15/16 Expedia 用 Keras 3 将排序推理延迟降低 70%&lt;/h2&gt;
-&lt;p&gt;François Chollet 转述 Expedia 住宿排序栈升级：迁移到 Keras 3 后，训练速度提高 30%，推理延迟降低 70%。改造使用后端无关的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;keras.ops&lt;/code&gt;，使现有层和模型未来可在 TensorFlow、PyTorch 或 JAX 间迁移，以利用不同优化内核。数据来自 Expedia 工程团队案例，未在推文中给出硬件、流量规模、模型结构、成本和端到端业务指标，因此不宜视为所有 Keras 迁移的通用收益。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/fchollet/status/2087519531547701335&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@fchollet 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/fchollet/status/2087519545967648808&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@fchollet 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/fchollet/status/2087557096736702699&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@fchollet 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1616-flux-3-进入-luma统一图像视频音频与动作预测&quot;&gt;16/16 FLUX 3 进入 Luma，统一图像、视频、音频与动作预测&lt;/h2&gt;
-&lt;p&gt;Luma 上线 Black Forest Labs 的 FLUX 3，称这是该系列首个覆盖图像、视频、音频和动作预测的通用模型，并已提供带原生音频的视频能力。当天公告只确认产品接入与能力范围，没有披露可用地区、分辨率、时长、价格、生成延迟、训练数据或跨模态评测。它体现视觉生成平台继续从单一图像或视频模型转向统一多模态创作入口，但实际一致性仍需使用验证。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/LumaLabsAI/status/2087554647586156897&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@LumaLabsAI&lt;/a&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;grok-46知识工作定位与发布口径&quot;&gt;Grok 4.6：知识工作定位与发布口径&lt;/h3&gt;
-&lt;p&gt;SpaceXAI 将 Grok 4.6 定位为 4.5 的同价升级，强调困难任务、知识工作、法律与编码代理表现。发布材料及外部转述称其在 GDPVal-AA、AA-Briefcase 和法律评测领先，并登上 Databricks 对应榜单第一；公司成员称它兼具高速度、低成本与高能力。当前公开信息主要是发布图、管理层推文和早期用户评价，尚缺完整模型卡、统一评测设置、价格表和第三方复现，因此“领先”应限定在披露的榜单与发布时点。
-&lt;a href=&quot;https://x.com/SpaceXAI/status/2087562800982077492&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;sl2t从-50-多种手语数据到手机端输入&quot;&gt;SL2T：从 50 多种手语数据到手机端输入&lt;/h3&gt;
-&lt;p&gt;SL2T 在超过 10 万小时、50 多种手语的数据上训练，约四分之一数据来自 ASL。设备端用 MediaPipe Holistic 把手、身体和面部动作转换为姿态坐标，只把坐标传到服务器；模型直接从坐标序列生成文本，不依赖会损失非手部标记和空间结构的 gloss。Google 报告其在 FLEURS-ASL sd-test 上达到 70 BLEURT，并针对单手持机、不同签署速度和背景做了产品优化。项目由 Deaf Googlers、聋人合作伙伴和 AISLAC 参与治理，但 rare signs、快速手指拼写和复杂时态仍会出错。
-&lt;a href=&quot;https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;north-micro-vision24b-文档视觉模型的本地生态&quot;&gt;North Micro Vision：2.4B 文档视觉模型的本地生态&lt;/h3&gt;
-&lt;p&gt;North Micro Vision 把原生分辨率图像、多轮图文、空间推理、视觉定位和多语言理解压进 2.4B 参数，并以 Apache 2.0 开放。Cohere 把复杂文档理解作为核心场景，称其在一组视觉理解、文档与 VQA 测试中超过 Gemma 4 E2B 和 Ministral 3 3B。模型已出现 NVIDIA AutoModel、Axolotl 与 MLX 路径，分别覆盖 NVIDIA GPU 适配、云端微调和 Apple 设备运行。公开权重降低了验证门槛，但不同量化、分辨率与文档长度下的准确率和内存占用仍需独立测量。
-&lt;a href=&quot;https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;cerebras近四倍云增长背后的容量扩张&quot;&gt;Cerebras：近四倍云增长背后的容量扩张&lt;/h3&gt;
-&lt;p&gt;Cerebras 的二季度公告给出 GAAP 云收入同比增长 281%、核心云收入增长 287%，并称已签约 600 MW 数据中心容量、2026 年制造能力将扩大超过 10 倍。业务侧包括为 OpenAI GPT-5.6 Sol 提供推理，以及与 AMD 合作分离式推理；这些安排显示公司正从专用晶圆级硬件向云服务和异构基础设施扩展。公告没有在摘要中提供收入绝对额、毛利、资本支出、已部署与签约容量拆分，因而更能说明增长方向，尚不足以独立判断业务规模和盈利质量。
-&lt;a href=&quot;https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-fast-inference-cloud-business-nearly-quadruples&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;extractbench为什么长文档会看起来没错却漏掉多数记录&quot;&gt;ExtractBench：为什么长文档会“看起来没错”却漏掉多数记录&lt;/h3&gt;
-&lt;p&gt;ExtractBench 把值准确率、记录完整性、词级/页级 grounding 与成本放在同一框架，覆盖 370 份文档、4,869 页、8 个领域和 67 种类型。最困难的 long-list 场景包含 26,725 行无人认领财产、8,624 条债权人记录和 3,063 项 13F 持仓。当前博客显示，50 页以上商用 VLM 的召回率均低于 35%，但精度仍高，因此抽样检查容易误判为完整；编码代理较能保持准确率，却通常付出更高成本。发布推文的 96.1% 与当前网页榜单 94.4% 不一致，使用结果时应记录版本与评测日期。
-&lt;a href=&quot;https://www.llamaindex.ai/blog/introducing-extractbench&quot;&gt;查看原文&lt;/a&gt;
-&lt;a href=&quot;https://arxiv.org/abs/2607.29677&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;suno--bmg把音乐行业参与写进模型发布前提&quot;&gt;Suno × BMG：把音乐行业参与写进模型发布前提&lt;/h3&gt;
-&lt;p&gt;Suno 称与 BMG 的合作属于其首个“与音乐行业共同开发”模型的发布计划，双方将围绕自愿加入的艺术家和词曲作者设计创作体验与经济机会。Suno 还计划扩展每周写作营，以及为独立音乐人提供资源、导师和营销支持的 In Session、Spark 项目。公告强调 human creativity、opt-in 和责任原则，但没有公布哪些作品会进入训练、怎样撤回授权、收益如何计算、是否提供来源追踪或模型何时上线；后续合同与产品机制才是检验承诺的关键。
-&lt;a href=&quot;https://suno.com/blog/suno-partnership-bmg&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;十万级标签分类检索先缩小候选模型再决策&quot;&gt;十万级标签分类：检索先缩小候选，模型再决策&lt;/h3&gt;
-&lt;p&gt;Databricks 的流程先从十万级 taxonomy 中用向量检索召回相关标签，再把候选集交给 AI Classify，避免完整标签集合超过上下文并降低调用成本。三个测试场景涵盖生物医学实体链接、供应商归一化和公司去重；公司报告其平均准确率比最佳成本效率型前沿模型高 5 个百分点，token 成本约为百分之一。方案把传统检索的高召回与模型语义判断结合，但结果受候选召回率、标签描述质量、长尾分布、缓存策略和供应商定价影响，部署时仍需用自身数据重跑。
-&lt;a href=&quot;https://www.databricks.com/blog/scaling-document-classification-100k-labels&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;pangram-的模型份额为何不能直接代表全市场&quot;&gt;Pangram 的模型份额为何不能直接代表全市场&lt;/h3&gt;
-&lt;p&gt;Pangram 用其检测器内部表示训练线性探针识别模型家族，单样本 top-1 准确率约 91%，再按月聚合用户提交的匿名文本。数据中 OpenAI 长期高于 50%，Anthropic 从 4.3% 增至 14.9%，Google 到 2026 年 7 月降至 1.9%；与 OpenRouter 对照时，两者都显示 Google 流量下降，但绝对份额不同。Pangram 样本偏向需要检测 AI 文本的用户，OpenRouter 偏向研究者和技术调用者，模型直连流量又可能缺失。因此这些曲线适合描述各自平台的趋势，不能当作消费者或 API 全市场份额。
-&lt;a href=&quot;https://www.pangram.com/blog/pangram-s-model-market-share&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 13 Aug 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/08/13/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/13/</guid>
         
         <category>AI-Frontier</category>
         

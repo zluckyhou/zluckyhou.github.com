@@ -1,0 +1,123 @@
+---
+layout: post
+title: "Reddit 每日精选 | 2026.08.12"
+headline: "一篇痛骂 AI 文风的清单长帖，最后一行承认自己是 AI 写的"
+date: 2026-08-12 09:30:00 +0800
+categories: [reddit]
+tags: [Reddit, 每日精选]
+description: "有人列出 30 种被 AI 玩坏的写作套路，评论区第一时间用这些套路回复他，然后所有人一起追问：这套文风到底是谁先带坏的。"
+summary: "本期五帖围绕一条主线：我们越来越难分辨「机器写的」和「像机器写的」。一篇 30 条清单的 AI 文风批判帖在结尾自曝身份；Claude 开始给输出打隐形水印，评论区争的是润色算不算 AI 生成；一位安全研究员给汽车贴上对抗性花纹，让路边摄像头连「这里有个东西」都判断不出来；Windows 10 五年不死的真正原因藏在开始菜单的搜索延迟里；最后是一群科技从业者在讨论自己为什么这么丧。"
+digest_count: 5
+---
+
+今天这五帖凑在一起，意外地指向同一件事：识别。识别一段文字是不是机器写的，识别一辆车是不是一辆车，识别一次系统升级到底给了你什么，以及最难的那一种——识别自己每天在做的事情究竟算不算有意义。评论区在这四件事上给出的答案，比原帖本身有意思得多。
+
+## 30 条「被 AI 玩坏的写作套路」，作者在最后一行自曝
+
+[原帖链接](https://www.reddit.com/r/ChatGPT/comments/1vlddcq/writing_formats_i_can_no_longer_read_because_ai/)
+
+r/ChatGPT 上一位用户列了一张长长的清单，收录 30 种让他一眼就划走的网文句式：「不是 X，不是 Y，是 Z」「读一遍，再读一遍」「让这句话沉淀一下」「每个句子独享一个单间」「我花了十年学会的东西，七个要点讲完」。每一条底下他都附了戏仿范例和一句吐槽，比如那种把「多喝水」写成 Netflix 悬案纪录片节奏的开头。全帖读下来像一份互联网文体病历。真正的转折在最后一行：他说这篇帖子本身就是 AI 生成的。
+
+> "And yes, humans wrote like this before generative AI. Motivational speakers, copywriters, LinkedIn influencers and content marketers have been committing these crimes for years. But AI seems to have industrialized the style."
+>
+> <cite>— u/Draelach（原帖作者），<a href="https://www.reddit.com/r/ChatGPT/comments/1vlddcq/writing_formats_i_can_no_longer_read_because_ai/" target="_blank" rel="noopener">原帖</a></cite>
+
+评论区的反应堪称条件反射：第一批高赞回复全是用清单里的套路来回复这份清单本身。有人写「结尾的反转让我毫无准备。说实话？这很重要」，紧接着就被下一层指出「『这很重要』本身就是经典 AI 腔」，再下一层补刀「它是这条回复的承重结构」。整个楼层变成了一场自我指涉的即兴表演。
+
+但玩笑之外，最有价值的一条追溯了源头：这套文风不是 AI 发明的，是 SEO 逼出来的。Google 长期偏爱长文，博主们只好在菜谱前面加一段童年回忆，久而久之整个互联网学会了注水。还有人补充了一个更冷门的动机——菜谱本身在法律上不受版权保护，但配套的叙事和图片受保护，所以那段废话还兼具防抄袭功能。
+
+> "Blame Google and the bloggers who have been writing this bullshit for years for SEO because Google prioritizes long form results. It's why every recipe page has some garbage novelette before you get to the actual recipe."
+>
+> <cite>— u/WarryTheHizzard，<a href="https://www.reddit.com/r/ChatGPT/comments/1vlddcq/writing_formats_i_can_no_longer_read_because_ai/p30pumz/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+也有人指出了这场讨伐的副作用：现在的判决标准已经从「是不是 AI 写的」滑向了「读起来像不像 AI」，一位评论者用一行字概括为「AI 写的，差；不是 AI 写的但听起来像，也差」。有人则乐观地看待这件事——他说自己在 LLM 普及之前就讨厌这种腔调，如果这套文风从此被打上 AI 标记而让人主动回避，反倒是好事。
+
+这件事对中文写作者同样成立。公众号体、小红书体、短视频口播体，各自都有一套「三句一断、必设悬念、结尾升华」的模板，而且同样早于 AI 存在。AI 没有创造这些坏习惯，它只是把生产这些坏习惯的边际成本压到了零——于是原本靠稀缺性勉强维持的可读性，一夜之间被稀释干净了。真正该警惕的不是模型，而是那个奖励「注水」的分发机制：只要平台还按停留时长和字数派发流量，人和模型就会一起继续注水。
+
+## Claude 开始给输出打隐形水印，最难的问题是「润色算不算生成」
+
+[原帖链接](https://www.reddit.com/r/artificial/comments/1vlag0q/claude_now_embeds_an_invisible_watermark_into/)
+
+r/artificial 上有人整理了 Anthropic 新公布的水印机制：文本层面在模型生成时嵌入一层人眼不可见、机器可读的标记；图片和 SVG 等文件则走 C2PA 开放标准的签名溯源元数据。因为是在模型层面做的，所以无论从 API、客户端还是各家云平台调用，标记都在。第一条高赞回复的态度很干脆——想不出反对的理由，唯一不想要它的动机就是想骗人。然后第二条回复就把这个「唯一动机」戳破了。
+
+提出反例的正是原帖作者本人：如果我只是让 Claude 帮忙润色我自己写的文章，那这篇文章是不是就此变成「AI 生成」了？一段人类写的文字，会因为 AI 参与了校对而被打上机器标签，听上去很荒唐。
+
+顺着这个疑问，讨论意外地进入了技术细节，而且质量相当高。有人指出关键在于自由度：如果只让模型改拼写错误，输出几乎被输入和正字法完全约束死了，根本没有空间嵌入任何东西。另一位回复者把这个直觉说得更准确——水印不是一个可以打开或关掉的开关，它的效果完全取决于概率分布还剩多少可操作空间。
+
+> "If you ask Claude to list the letters in the alphabet, no probability-muddling technique is going to be able to tip it away from "A B C D E...": the watermarking logic will still run, but it won't cause any difference in the output."
+>
+> <cite>— u/nicolasap，<a href="https://www.reddit.com/r/artificial/comments/1vlag0q/claude_now_embeds_an_invisible_watermark_into/p304jet/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+伦理层面的交锋也很精彩。有人打了个比方：你把论文给朋友校对，改了几处小错，难道署名就要给他？马上有人把这个类比反转过来——朋友改了多少你并不知道，可能是标点，也可能是九成内容，你希望读者事先知道有这么个人经手过吗？如果那位朋友是爱因斯坦级别的专家，你恐怕更希望别人知道。
+
+> "Imagine I wrote an academic paper and gave it to my friend before it gets to you. He isn't an expert in the field, and he makes an undisclosed number of changes to it … would you rather know in advance that he had been given that access to the paper, or would you defend my right to keep that information secret?"
+>
+> <cite>— u/Tasty-Ad-3753，<a href="https://www.reddit.com/r/artificial/comments/1vlag0q/claude_now_embeds_an_invisible_watermark_into/p32dm4s/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+务实派给出的规避方案也很实在：让模型列出问题，自己动手改，水印就跟着 AI 输出留在了剪贴板之外。怀疑派则始终不买账，认为没有哪种水印是去不掉的。
+
+对国内读者来说，这场讨论最值得抄走的是那条区分：目前学校和平台普遍使用的 AI 检测器靠的是文风统计，误伤率高得离谱——写复杂长句、用分号和破折号都可能被判定为机器；而密码学水印是完全不同的一类东西，它检出的是「这段文字确实由某个模型生成」这一事实，而不是「这段文字读起来像机器」。两者被混为一谈，才是当前最大的隐患。至于润色算不算生成，那不是技术问题，是各行各业需要自己划的一条线。
+
+## 给汽车贴上对抗性花纹，让摄像头连「这里有个东西」都判断不出来
+
+[原帖链接](https://www.reddit.com/r/technology/comments/1vla39l/a_cybersecurity_researcher_covered_a_toyota_in_an/)
+
+一位安全研究员把一辆丰田整车贴上了 AI 生成的对抗性花纹，用来干扰美国遍地都是的 Flock 车牌识别摄像头。这类新闻通常只能停留在「看起来很酷」的层面，但这一帖不一样——研究员本人出现在了评论区，而且把方法论讲得比报道清楚得多。
+
+他强调了一个几乎所有人都会搞混的区分：人体检测、人脸检测和人脸识别是三个不同的问题，攻破其中一个不能说明另外两个。他的目标是最上游的那一环——让摄像头本地那个小模型压根检测不到目标，后续的整条流水线就不会被触发。Flock 的工作流是：先感知运动，再用小型目标检测器判断画面里有没有物体，有才开始录制并上传。检测不到，它就继续睡觉，什么都不会传回去。
+
+> "My goal is to prevent the small model running on the camera from even detecting you, so the downstream pipe-line never runs… If they never detect an object, it just goes back to sleep. Nothing uploaded to the mass surveillance state."
+>
+> <cite>— u/hevnsnt，<a href="https://www.reddit.com/r/technology/comments/1vla39l/a_cybersecurity_researcher_covered_a_toyota_in_an/p312fpv/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+有位当地居民正在给市议会准备材料，当场追问他 Flock 到底检测了什么。研究员的回答很具体：他分析的那台 Flock Falcon v2 跑的是 Android 8.1.0，设备上确实没有人脸识别模型，但它会检测人、轿车、卡车、巴士、拖车、摩托车、自行车和车牌，并且会把「PERSON」这个标签发回去——而厂商对外的说法一直是只做车牌。另一组人补充说，他们一年前逆向过合法购得的旧型号，跑的是 YoloV5，内部的检测类别标签甚至没做混淆，直接躺在生产环境的目标码里。同一位还讲了个荒诞的细节：设备启动失败时会用还原分区覆盖系统分区，但厂商压根忘了往还原分区里写东西，于是一次失败启动就能把分区表彻底搞坏。
+
+泼冷水的声音同样有价值。有人指出这类防御未必持久：厂商不需要认出「这是一辆车」，只要发现某块车身大小的运动区域始终无法被识别，就可以标记为「未知，待确认」并上传云端用更大的模型复核——很多监控系统本来就是这么设计的。还有人算了成本账：越复杂的花纹越贵，据说有一款要价一千美元，而且要想持续有效，每辆车、每件衣服都得是独一无二的图案，本质上无法规模化。
+
+对抗样本从论文插图走到了马路上，这本身就值得记一笔。但这一帖真正的价值在于那句「检测、检测人脸、识别人脸是三件事」——国内讨论人脸识别和智慧城市时，这三层同样经常被揉成一团，导致辩论双方各说各话。另外，逆向发现的那些工程细节也提醒我们：这些正在大规模部署、握着公共空间数据的设备，其软件质量未必配得上它们承担的权力。
+
+## Windows 10 五年不死，真正的原因藏在开始菜单里
+
+[原帖链接](https://www.reddit.com/r/technology/comments/1vlfjzt/5_years_later_windows_10_refuses_to_die_and/)
+
+Windows 11 发布五年了，Windows 10 依然赖着不走，微软怎么推都推不动。这条新闻本身不新鲜，但评论区把「为什么不升」的理由收得非常齐，而且几乎没人谈情怀，全是具体的体验退化。
+
+被提得最多的是开始菜单搜索。多位用户描述了同一个场景：Windows 10 上敲程序名，结果瞬间出现；换到 Windows 11，先是一片空白，然后等。有人分析这是因为系统在联网搜索之后才轮到本地结果，以至于装在本机的程序反而排在下面几行。还有人拿一台十二代 i7、32GB 内存的公司机器举例，右键桌面弹出菜单要等五秒。
+
+> "I have Win 10 at home on my 10 year old PC, and Win 11 at work on a 1 year old laptop… In windows 11 I get a blank screen and have to wait. How the fuck do they fuck something as simple as that up?"
+>
+> <cite>— u/not_right，<a href="https://www.reddit.com/r/technology/comments/1vlfjzt/5_years_later_windows_10_refuses_to_die_and/p316oca/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+最有历史纵深的一条，把过去每一次 Windows 升级的「对价」挨个列了出来：Win9x 换到 2000/XP，普通用户第一次用上 NT 内核；XP 换到 Vista/7，拿到了 DirectX 10 和合成式窗口管理器，装机和更新体验也变好了。换句话说，每一代都给出了一个明确的、技术上说得通的理由。而 Windows 11 除了安全支持到期这个威胁之外，几乎拿不出等价的东西。
+
+> "Also so far other than basic security support there's really no compelling reason to upgrade. Win9x to WIn2k/XP got you an NT-based consumer(ish in the case of Win2k, but close enough) OS for the first time."
+>
+> <cite>— u/Scoth42，<a href="https://www.reddit.com/r/technology/comments/1vlfjzt/5_years_later_windows_10_refuses_to_die_and/p31ge77/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+顺带一提，这条帖子的第二主线是 Linux 迁移，而且语气和几年前明显不同了。一位管了多年 Linux 服务器、却始终不肯在桌面上用它的人说，他过去每次尝试都会被某个别扭之处赶回 Windows，Proton 是一次巨大的飞跃，而这几周他终于觉得「东西是能用的」，没找到回去的理由。反复被提到的门槛只剩一个：内核级反作弊的几款游戏，逼得人保留双系统。也有人把 Steam Deck 视为观念转折点——很多人是从掌机上才第一次意识到 Linux 没那么可怕。
+
+这件事对中国用户的启发在于：当升级不再提供新能力，只提供新的收费点和新的默认开关时，用户的不动如山不是保守，而是一次相当理性的成本核算。同样的逻辑也适用于国内那些不断往系统里塞助手、往设置里加开关的操作系统和 App——用户愿意为「能做到以前做不到的事」付费，但不会为「同样的事做得更慢」付费。
+
+## 「为什么科技行业的人都这么丧」
+
+[原帖链接](https://www.reddit.com/r/technology/comments/1vlqlsn/why_is_everyone_in_tech_so_sad/)
+
+一篇讨论科技从业者集体低落情绪的文章被贴到 r/technology，评论区几乎成了行业心理门诊。被顶到最高的那条只有一句话，但把落差说得很准：这一行的自我叙事，已经从「我等不及要用这个去帮到别人」变成了「这东西并没有在帮谁」。紧跟着的回复接得更狠——干得差被裁，干得好也被裁。
+
+> "Because tech has been turned from "i cant wait to help people with this" to "this isn't helping people""
+>
+> <cite>— u/ottwebdev，<a href="https://www.reddit.com/r/technology/comments/1vlqlsn/why_is_everyone_in_tech_so_sad/p33i6q6/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+最真实的一段是一位在头部大厂干了十多年、刚跳到数据中心部门的人写的：薪水翻倍，工作有意思，团队也很好，但所有人心里都清楚，关于这份工作本身有些问题是应该被问出来的。这条评论下面立刻分成两派。有人直接指责他在参与毁掉人类，他的反驳同样有力——你正在用的这个网站就跑在某个数据中心里，我确实是供给的一环，但需求是你们创造的。原帖作者则给了一条更实际的建议：想问问题，先组织起来，像 DeepMind 那样成立工会，否则单枪匹马提问的结局就是被穿小鞋。
+
+另一位算了笔账，把这种纠结量化了：在他的经验里，「中性」的技术岗和「真正帮到人」的岗位年薪能差出三十万美元，而那些明确在伤害用户的岗位还要再高出十万。他自己选了中性的那个，理由是攒够钱早点退休，再去做真正想做的事——这个理由听上去合理，也听上去像很多人给自己写的免责声明。
+
+还有一条从完全不同角度切入的诊断值得记下来：这一行把流程堆得太厚了，站会、需求文档、MVP、评审、审批层层套叠，「做出一个东西」这件事被稀释到几乎没有实感。一位入行十五年的人回复说，从二十出头在创业公司到三十多岁困在层层官僚里，他已经彻底幻灭了。
+
+> "Tech has wrapped itself in such a big web of processes, red tape, efforts, standups, requirements, PRDs, MVPs, LGTMs and so on that the concept of "making something" is completely diluted and anticlimactic in the end."
+>
+> <cite>— u/QuimGracado9，<a href="https://www.reddit.com/r/technology/comments/1vlqlsn/why_is_everyone_in_tech_so_sad/p347d42/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+把这些拼起来会发现，这种「丧」有两个独立的来源，而它们恰好同时发作了：一个是道德账户空了——你不再相信自己做的东西对世界是净正向的；另一个是成就感账户空了——就算你相信，流程也不让你直接看到自己做出了什么。国内大厂的从业者对第二条大概会格外有共鸣，OKR、双月复盘、对齐会议构成的那层膜，功能上和评论区描述的 PRD 与站会没什么区别。
+
+真正值得琢磨的是那条关于工会的建议在中文语境下如何转译。集体行动这条路径未必适用，但它背后的判断是通用的：一个人反复自问「我做的事有没有意义」，往往只会消耗自己；而这个问题一旦被一群人同时、公开地问出来，才有可能变成对产品方向的实际约束。至于那位数据中心员工的供需之辩，其实也没有赢家——把责任推给需求侧和推给供给侧一样省事，而两边都省事的时候，就没人真的动手改了。

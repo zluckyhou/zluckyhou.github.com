@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Aug 2026 10:13:45 +0800</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2026 10:13:45 +0800</lastBuildDate>
+    <pubDate>Wed, 19 Aug 2026 15:31:23 +0800</pubDate>
+    <lastBuildDate>Wed, 19 Aug 2026 15:31:23 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -274,6 +274,1602 @@
         
         
         <category>ai-daily</category>
+        
+      </item>
+    
+      <item>
+        <title>家得宝2026财年Q2——营收479亿美元同比增5.7%超预期，但客流连续下滑、全年指引原地不动</title>
+        <description>&lt;p&gt;北京时间8月18日晚间（美东时间盘前），全球最大的家居建材零售商&lt;a href=&quot;https://ir.homedepot.com/&quot;&gt;家得宝&lt;/a&gt;（The Home Depot，NYSE: HD）发布了2026财年第二季度财报（截至2026年8月2日的三个月）。&lt;/p&gt;
+
+&lt;p&gt;数字看起来不错：营收478.61亿美元，同比增长5.7%；调整后每股收益4.92美元，超过市场一致预期的4.73美元。这是家得宝连续第四个季度营收超预期。&lt;/p&gt;
+
+&lt;p&gt;但股价的反应很冷淡——盘前仅微涨0.75%左右。市场看到的东西，和标题数字不太一样。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-家得宝是一家什么公司&quot;&gt;1. 家得宝是一家什么公司&lt;/h2&gt;
+
+&lt;p&gt;对不熟悉美股零售的读者，先做个定位：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;业务&lt;/strong&gt;：卖建材、工具、木材、油漆、家电、园艺用品的大卖场，可以理解为”美国版的超大号五金建材超市”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;规模&lt;/strong&gt;：季末在营2364家门店，另有1340多家SRS网点，员工超过47万人&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;地位&lt;/strong&gt;：全球最大的家居建材零售商，道琼斯工业平均指数和标普500成分股&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;它的生意本质上被两件事驱动：&lt;strong&gt;美国房地产交易活跃度&lt;/strong&gt;（换房的人才会大装修）和&lt;strong&gt;利率水平&lt;/strong&gt;（房贷利率高，人们不换房也不动大工程）。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-两个需要先知道的名词&quot;&gt;2. 两个需要先知道的名词&lt;/h2&gt;
+
+&lt;p&gt;这份财报里反复出现两个缩写，先解释清楚：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;SRS&lt;/strong&gt;：家得宝2024年收购的建材分销商SRS Distribution，主要服务专业承包商（屋顶、景观、泳池），是家得宝切入”专业客户（Pro）”市场的关键棋子&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GMS&lt;/strong&gt;：另一家建材分销商，家得宝近期收购。财报的前瞻性声明里明确提到了SRS和GMS的整合&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这两笔收购是理解本季”营收增5.7%但同店只增1.7%”这个差距的关键。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-损益表&quot;&gt;1. 损益表&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标（百万美元）&lt;/th&gt;
+      &lt;th&gt;2026Q2&lt;/th&gt;
+      &lt;th&gt;2025Q2&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净销售额&lt;/td&gt;
+      &lt;td&gt;47,861&lt;/td&gt;
+      &lt;td&gt;45,277&lt;/td&gt;
+      &lt;td&gt;+5.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售成本&lt;/td&gt;
+      &lt;td&gt;31,746&lt;/td&gt;
+      &lt;td&gt;30,152&lt;/td&gt;
+      &lt;td&gt;+5.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利润&lt;/td&gt;
+      &lt;td&gt;16,115&lt;/td&gt;
+      &lt;td&gt;15,125&lt;/td&gt;
+      &lt;td&gt;+6.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售及管理费用&lt;/td&gt;
+      &lt;td&gt;8,424&lt;/td&gt;
+      &lt;td&gt;7,764&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+8.5%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;折旧摊销&lt;/td&gt;
+      &lt;td&gt;852&lt;/td&gt;
+      &lt;td&gt;806&lt;/td&gt;
+      &lt;td&gt;+5.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业利润&lt;/td&gt;
+      &lt;td&gt;6,839&lt;/td&gt;
+      &lt;td&gt;6,555&lt;/td&gt;
+      &lt;td&gt;+4.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;利息净支出&lt;/td&gt;
+      &lt;td&gt;524&lt;/td&gt;
+      &lt;td&gt;550&lt;/td&gt;
+      &lt;td&gt;-4.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;所得税&lt;/td&gt;
+      &lt;td&gt;1,549&lt;/td&gt;
+      &lt;td&gt;1,454&lt;/td&gt;
+      &lt;td&gt;+6.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净利润&lt;/td&gt;
+      &lt;td&gt;4,766&lt;/td&gt;
+      &lt;td&gt;4,551&lt;/td&gt;
+      &lt;td&gt;+4.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;摊薄每股收益（美元）&lt;/td&gt;
+      &lt;td&gt;4.79&lt;/td&gt;
+      &lt;td&gt;4.58&lt;/td&gt;
+      &lt;td&gt;+4.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后每股收益（美元）&lt;/td&gt;
+      &lt;td&gt;4.92&lt;/td&gt;
+      &lt;td&gt;4.68&lt;/td&gt;
+      &lt;td&gt;+5.1%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;关键的利润率变化：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;利润率&lt;/th&gt;
+      &lt;th&gt;2026Q2&lt;/th&gt;
+      &lt;th&gt;2025Q2&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率&lt;/td&gt;
+      &lt;td&gt;33.7%&lt;/td&gt;
+      &lt;td&gt;33.4%&lt;/td&gt;
+      &lt;td&gt;+0.3pct&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业利润率&lt;/td&gt;
+      &lt;td&gt;14.3%&lt;/td&gt;
+      &lt;td&gt;14.5%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-0.2pct&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后营业利润率&lt;/td&gt;
+      &lt;td&gt;14.7%&lt;/td&gt;
+      &lt;td&gt;14.8%&lt;/td&gt;
+      &lt;td&gt;-0.1pct&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;这里有个值得留意的错配&lt;/strong&gt;：毛利率提升了0.3个百分点，但营业利润率反而降了0.2个百分点。原因在销售及管理费用——同比增长8.5%，明显快于营收的5.7%。&lt;/p&gt;
+
+&lt;p&gt;大白话说：&lt;strong&gt;家得宝卖出去的东西赚得更多了，但把东西卖出去的成本涨得更快。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-销售质量本季最需要注意的一张表&quot;&gt;2. 销售质量：本季最需要注意的一张表&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;销售指标&lt;/th&gt;
+      &lt;th&gt;2026Q2&lt;/th&gt;
+      &lt;th&gt;2025Q2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;同店销售增速&lt;/td&gt;
+      &lt;td&gt;+1.7%&lt;/td&gt;
+      &lt;td&gt;+1.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;美国同店销售增速&lt;/td&gt;
+      &lt;td&gt;+1.3%&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;同店客流量增速&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-1.0%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;-0.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;同店客单价增速&lt;/td&gt;
+      &lt;td&gt;+2.8%&lt;/td&gt;
+      &lt;td&gt;+1.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;客户交易笔数（百万）&lt;/td&gt;
+      &lt;td&gt;443.2&lt;/td&gt;
+      &lt;td&gt;446.8（-0.8%）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;平均客单价（美元）&lt;/td&gt;
+      &lt;td&gt;92.50&lt;/td&gt;
+      &lt;td&gt;90.01（+2.8%）&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;这张表是理解这份财报的钥匙。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;同店销售增长1.7%，听起来是复苏。但拆开看：&lt;strong&gt;客流量同比下降1.0%，客单价上涨2.8%&lt;/strong&gt;。也就是说，&lt;strong&gt;来店的人变少了，但每个人花的钱变多了&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;而且客流下滑不是新问题——去年同期是-0.4%，今年是-1.0%，&lt;strong&gt;降幅在扩大&lt;/strong&gt;。上半年累计客流下滑1.2%。&lt;/p&gt;
+
+&lt;p&gt;这是零售业里典型的”价增量减”结构。它可以是好事（客户在做更大的项目），也可以是坏事（只是通胀和商品涨价推高了单价）。CFO的说法偏向前者——他说看到的是”&lt;strong&gt;跨业务的广泛需求，客户持续参与更小的项目&lt;/strong&gt;“。&lt;/p&gt;
+
+&lt;p&gt;小项目多、大项目少，其实和宏观是自洽的：房贷利率高企下，美国人不换房、不做大装修，但会持续做修修补补的小工程。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-营收增长57和同店增长17之间的4个百分点去哪了&quot;&gt;3. 营收增长5.7%和同店增长1.7%之间的4个百分点，去哪了&lt;/h2&gt;
+
+&lt;p&gt;答案是收购并表。&lt;/p&gt;
+
+&lt;p&gt;上半年”收购业务的付款净额”为13.33亿美元（去年同期仅2.33亿）；商誉从去年同期的196.19亿美元增至228.99亿美元，无形资产从87.70亿增至104.82亿。这些都指向GMS等收购的并表贡献。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;结论：家得宝的内生增长（同店1.7%）远低于报表增长（5.7%），差额主要靠买来的。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-资产负债与现金流&quot;&gt;4. 资产负债与现金流&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标（百万美元）&lt;/th&gt;
+      &lt;th&gt;2026/8/2&lt;/th&gt;
+      &lt;th&gt;2025/8/3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;现金及等价物&lt;/td&gt;
+      &lt;td&gt;2,085&lt;/td&gt;
+      &lt;td&gt;2,804&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;存货&lt;/td&gt;
+      &lt;td&gt;26,847&lt;/td&gt;
+      &lt;td&gt;24,843&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总资产&lt;/td&gt;
+      &lt;td&gt;109,384&lt;/td&gt;
+      &lt;td&gt;100,049&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;长期债务&lt;/td&gt;
+      &lt;td&gt;43,951&lt;/td&gt;
+      &lt;td&gt;45,917&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;股东权益&lt;/td&gt;
+      &lt;td&gt;16,617&lt;/td&gt;
+      &lt;td&gt;10,665&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;上半年经营性现金流114.22亿美元，同比大增（去年同期89.68亿），主要来自营运资本改善（去年同期营运资本占用18.21亿，今年反而释放5.70亿）。上半年资本开支17.24亿美元，派息46.43亿美元。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一句话点评：现金流很健康，派息毫不手软（上半年派息规模是资本开支的2.7倍），但股东权益只有166亿而长期债务440亿——这是一家高杠杆运营的成熟零售商，典型的”用债务撬动股东回报”模式。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;三全年指引一字未改&quot;&gt;三、全年指引：一字未改&lt;/h1&gt;
+
+&lt;p&gt;家得宝重申（reaffirm）了2026财年指引，全部维持原样：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指引项&lt;/th&gt;
+      &lt;th&gt;2026财年目标&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总销售额增速&lt;/td&gt;
+      &lt;td&gt;约 +2.5% 至 +4.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;同店销售增速&lt;/td&gt;
+      &lt;td&gt;约 持平至 +2.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;新开门店&lt;/td&gt;
+      &lt;td&gt;约15家&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率&lt;/td&gt;
+      &lt;td&gt;约 33.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业利润率&lt;/td&gt;
+      &lt;td&gt;约 12.4% 至 12.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后营业利润率&lt;/td&gt;
+      &lt;td&gt;约 12.8% 至 13.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;有效税率&lt;/td&gt;
+      &lt;td&gt;约 24.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;利息净支出&lt;/td&gt;
+      &lt;td&gt;约 23亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;摊薄每股收益增速&lt;/td&gt;
+      &lt;td&gt;约 持平至 +4.0%（基数14.23美元）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后每股收益增速&lt;/td&gt;
+      &lt;td&gt;约 持平至 +4.0%（基数14.69美元）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资本开支&lt;/td&gt;
+      &lt;td&gt;约占总销售额2.5%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;这份指引里藏着两个信号。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;信号一：下半年会明显放缓。&lt;/strong&gt; 上半年同店销售已经做到+1.2%，而全年指引是”持平到+2.0%”。同时上半年营业利润率13.2%，全年指引只有12.4%—12.6%。这意味着&lt;strong&gt;公司自己预期下半年的利润率会显著低于上半年&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;信号二：关税成了一个变量。&lt;/strong&gt; 指引原文有一句值得注意的话——指引中已包含”&lt;strong&gt;IEEPA关税退款&lt;/strong&gt;“，预计将部分抵消燃料、能源和其他产品投入成本的意外上涨。&lt;/p&gt;
+
+&lt;p&gt;IEEPA是美国《国际紧急经济权力法》，是本届美国政府征收部分关税的法律依据。”关税退款”进入指引，说明相关关税在法律层面出现了变化，家得宝预期能拿回一部分已缴税款。对一家高度依赖进口商品的零售商来说，这是个不小的变量——但它是一次性的，且&lt;strong&gt;用途是填补成本上涨的窟窿，而不是增厚利润&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h1 id=&quot;四亮点与隐忧&quot;&gt;四、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;营收和调整后EPS双超预期&lt;/strong&gt;，且这是连续第四个季度营收超预期&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;毛利率同比提升0.3个百分点至33.7%&lt;/strong&gt;，在成本压力下守住了定价能力&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;上半年经营性现金流114亿美元，同比增长27%&lt;/strong&gt;，现金创造能力极强&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;同店销售+1.7%，是近几个季度里较好的一次&lt;/strong&gt;（去年同期+1.0%）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;管理层承认”结果超出我们自己的预期”&lt;/strong&gt;——CFO Richard McPhail原话是”我们第二季度的业绩超出了预期”&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;客流量连续下滑且降幅扩大&lt;/strong&gt;（-0.4% → -1.0%），增长全靠客单价，这个结构不可持续&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;营业利润率同比下滑&lt;/strong&gt;，SG&amp;amp;A增速（+8.5%）显著快于营收（+5.7%）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;内生增长弱&lt;/strong&gt;：5.7%的营收增长里，有相当一部分来自收购并表，同店只有1.7%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;维持而非上调全年指引&lt;/strong&gt;——在超预期的季度之后仍不上调，通常意味着管理层对下半年不乐观&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;全年指引隐含下半年利润率下滑&lt;/strong&gt;：上半年营业利润率13.2%，全年目标12.4%—12.6%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;高杠杆结构&lt;/strong&gt;：长期债务440亿美元 vs 股东权益166亿美元&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;五展望与总结&quot;&gt;五、展望与总结&lt;/h1&gt;
+
+&lt;p&gt;家得宝这份财报，是典型的”&lt;strong&gt;数字过关，质量存疑&lt;/strong&gt;“。&lt;/p&gt;
+
+&lt;p&gt;它超预期了，但超预期的方式让人不太踏实：&lt;strong&gt;客人少了，靠每人多花钱撑住；内生增长慢了，靠买公司补上；毛利率涨了，被费用吃掉了&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;背后的宏观逻辑其实很清楚——美国房地产市场仍未真正解冻。房贷利率高企，二手房交易低迷，人们不搬家、不做大装修。CFO说客户”持续参与更小的项目”，翻译过来就是：&lt;strong&gt;大生意还没回来，只有小修小补&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;对这家公司来说，真正的拐点信号只有一个：&lt;strong&gt;客流量什么时候由负转正&lt;/strong&gt;。在那之前，无论同店数据多好看，都是价格在扛，不是需求在涨。&lt;/p&gt;
+
+&lt;p&gt;值得肯定的是，家得宝在这样的环境下依然守住了33.7%的毛利率和14.3%的营业利润率，上半年创造了114亿美元经营性现金流——这是一家运营效率极高的公司。它只是暂时被困在一个不属于它的宏观周期里。&lt;/p&gt;
+
+&lt;p&gt;管理层给出的定调也很克制。高级执行副总裁Ann-Marie Campbell在财报中说：”&lt;strong&gt;本季度的业绩证明了我们在各业务上的投入以及员工对客户服务的专注。我们的团队在动荡的环境中执行得非常出色。&lt;/strong&gt;”&lt;/p&gt;
+
+&lt;p&gt;注意她用的词是”动荡的环境”（a dynamic environment）。这大概是这份财报最诚实的一句话。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料（财报原文）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/354950/000035495026000145/hd_exhibit991x08022026.htm&quot;&gt;The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance（SEC Form 8-K 附件99.1原文）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ir.homedepot.com/&quot;&gt;家得宝投资者关系官网&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.prnewswire.com/news-releases/the-home-depot-announces-second-quarter-fiscal-2026-results-reaffirms-fiscal-2026-guidance-302853312.html&quot;&gt;PR Newswire 官方新闻稿全文&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（仅用于补充分析师预期与股价反应）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/earnings/home-depot-earnings-beat-by-019-revenue-topped-estimates-4864734&quot;&gt;Home Depot earnings beat by $0.19, revenue topped estimates（Investing.com）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/08/18/home-depot-hd-q2-2026-earnings.html&quot;&gt;Home Depot (HD) Q2 2026 earnings（CNBC）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 19 Aug 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/19/homedepot_fy2026q2_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/19/homedepot_fy2026q2_earnings/</guid>
+        
+        <category>家得宝</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>必和必拓2026财年——铜首次超越铁矿石成第一利润来源，营收588亿美元创27%的EBITDA增幅</title>
+        <description>&lt;p&gt;8月18日，全球市值最大的矿业公司&lt;a href=&quot;https://www.bhp.com/investor-hub&quot;&gt;必和必拓&lt;/a&gt;（BHP Group）发布了2026财年业绩（财年截至2026年6月30日），并同日向美国SEC递交了20-F年报。&lt;/p&gt;
+
+&lt;p&gt;这份财报里有一个具备历史意义的转折：&lt;strong&gt;铜首次超过铁矿石，成为必和必拓最大的利润来源。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;对中国读者来说，这条新闻的分量可能比数字本身更大——必和必拓是中国钢铁行业最重要的铁矿石供应商之一，而它现在把重心明确地挪向了铜。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-必和必拓是做什么的&quot;&gt;1. 必和必拓是做什么的&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;业务&lt;/strong&gt;：全球最大的多元化矿业公司，主要产铜、铁矿石、炼焦煤（冶金煤）、动力煤，并在建设钾肥项目&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;地位&lt;/strong&gt;：全球最大的铜生产商；旗下西澳铁矿（WAIO）已连续七年是全球成本最低的大型铁矿石生产商&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;上市地&lt;/strong&gt;：澳交所、伦交所、纽交所（ADR）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;财年&lt;/strong&gt;：每年7月1日至次年6月30日，因此”2026财年”对应自然年2025年7月至2026年6月&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-一个必须先说明的领导层变动&quot;&gt;2. 一个必须先说明的领导层变动&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;2026年7月1日，Brandon Craig接任CEO&lt;/strong&gt;，接替执掌六年半的Mike Henry。Craig在必和必拓工作超过25年，1999年入职，此前担任美洲区总裁。&lt;/p&gt;
+
+&lt;p&gt;也就是说，这份FY2026财报统计的业绩其实是Mike Henry任内的最后一年，而对外发布和解读它的是新任CEO。Craig在年报中的CEO致辞是他上任后的第一次公开表态。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-一个必须先解释的名词&quot;&gt;3. 一个必须先解释的名词&lt;/h2&gt;
+
+&lt;p&gt;财报里通篇出现”&lt;strong&gt;Underlying EBITDA（基础EBITDA）&lt;/strong&gt;“和”&lt;strong&gt;Underlying attributable profit（基础归属利润）&lt;/strong&gt;“。&lt;/p&gt;
+
+&lt;p&gt;简单说：&lt;strong&gt;EBITDA是”息税折旧摊销前利润”，可以粗略理解为”这门生意本身一年赚多少现金”&lt;/strong&gt;；加上”Underlying（基础）”，是指剔除了减值、重组等一次性项目后的口径。&lt;/p&gt;
+
+&lt;p&gt;必和必拓的股息政策就挂钩在”基础归属利润”上——&lt;strong&gt;每期至少派发50%&lt;/strong&gt;。所以这个指标对股东回报有直接影响，也是本文重点看的口径。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-集团整体&quot;&gt;1. 集团整体&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标（百万美元）&lt;/th&gt;
+      &lt;th&gt;FY2026&lt;/th&gt;
+      &lt;th&gt;FY2025&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业收入&lt;/td&gt;
+      &lt;td&gt;58,760&lt;/td&gt;
+      &lt;td&gt;51,262&lt;/td&gt;
+      &lt;td&gt;+15%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润&lt;/td&gt;
+      &lt;td&gt;23,869&lt;/td&gt;
+      &lt;td&gt;19,464&lt;/td&gt;
+      &lt;td&gt;+23%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净财务成本&lt;/td&gt;
+      &lt;td&gt;(1,455)&lt;/td&gt;
+      &lt;td&gt;(1,111)&lt;/td&gt;
+      &lt;td&gt;+31%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;所得税费用&lt;/td&gt;
+      &lt;td&gt;(9,388)&lt;/td&gt;
+      &lt;td&gt;(7,210)&lt;/td&gt;
+      &lt;td&gt;+30%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;税后利润&lt;/td&gt;
+      &lt;td&gt;13,026&lt;/td&gt;
+      &lt;td&gt;11,143&lt;/td&gt;
+      &lt;td&gt;+17%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;归属股东净利润&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;9,833&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;9,019&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+9%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;基础归属利润&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;13,204&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;10,157&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+30%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;基础EBITDA&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;32,947&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;25,978&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+27%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基础EBITDA利润率&lt;/td&gt;
+      &lt;td&gt;59%&lt;/td&gt;
+      &lt;td&gt;54%&lt;/td&gt;
+      &lt;td&gt;+5pct&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基础每股收益（美分）&lt;/td&gt;
+      &lt;td&gt;260.0&lt;/td&gt;
+      &lt;td&gt;200.2&lt;/td&gt;
+      &lt;td&gt;+30%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基础投入资本回报率&lt;/td&gt;
+      &lt;td&gt;26.1%&lt;/td&gt;
+      &lt;td&gt;20.6%&lt;/td&gt;
+      &lt;td&gt;+5.5pct&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营性现金流&lt;/td&gt;
+      &lt;td&gt;21,778&lt;/td&gt;
+      &lt;td&gt;约18,700&lt;/td&gt;
+      &lt;td&gt;+约17%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;先解释会计净利润和基础利润之间那个巨大的落差。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;基础归属利润增长30%，但会计上的归属股东净利润只增长9%。差额来自”一次性损失”：FY2026计提了&lt;strong&gt;34亿美元的一次性损失&lt;/strong&gt;，其中最大的一笔是&lt;strong&gt;Jansen钾肥项目23亿美元的减值&lt;/strong&gt;。FY2025的同类损失只有11亿美元。&lt;/p&gt;
+
+&lt;p&gt;也就是说，&lt;strong&gt;必和必拓的主营生意这一年赚得非常好，但为一个还没投产的项目预先认了亏&lt;/strong&gt;。这个我们下面单独讲。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-利润是怎么涨出来的&quot;&gt;2. 利润是怎么涨出来的&lt;/h2&gt;
+
+&lt;p&gt;财报给了一张非常清晰的EBITDA变动桥（单位：百万美元）：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;变动项&lt;/th&gt;
+      &lt;th&gt;金额&lt;/th&gt;
+      &lt;th&gt;说明&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2025 基础EBITDA&lt;/td&gt;
+      &lt;td&gt;25,978&lt;/td&gt;
+      &lt;td&gt;起点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售价格上涨&lt;/td&gt;
+      &lt;td&gt;+7,710&lt;/td&gt;
+      &lt;td&gt;铜、铁矿石、炼焦煤均价均上升&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;价格挂钩成本&lt;/td&gt;
+      &lt;td&gt;-399&lt;/td&gt;
+      &lt;td&gt;权利金随价格上升&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销量变化&lt;/td&gt;
+      &lt;td&gt;-1,167&lt;/td&gt;
+      &lt;td&gt;Escondida等铜矿品位下降&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;可控现金成本改善&lt;/td&gt;
+      &lt;td&gt;+1,191&lt;/td&gt;
+      &lt;td&gt;库存时点、非经常性人工成本消失&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;汇率&lt;/td&gt;
+      &lt;td&gt;-798&lt;/td&gt;
+      &lt;td&gt;澳元、智利比索走强&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;通胀&lt;/td&gt;
+      &lt;td&gt;-675&lt;/td&gt;
+      &lt;td&gt;成本基数上升&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;燃料能源价格&lt;/td&gt;
+      &lt;td&gt;-209&lt;/td&gt;
+      &lt;td&gt;主要是柴油涨价&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非现金项&lt;/td&gt;
+      &lt;td&gt;+96&lt;/td&gt;
+      &lt;td&gt;Escondida剥离资本化&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资产出售&lt;/td&gt;
+      &lt;td&gt;+100&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;停产及已出售业务&lt;/td&gt;
+      &lt;td&gt;+476&lt;/td&gt;
+      &lt;td&gt;西澳镍业停产减亏&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其他&lt;/td&gt;
+      &lt;td&gt;+644&lt;/td&gt;
+      &lt;td&gt;Antamina铜矿盈利改善&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;FY2026 基础EBITDA&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;32,947&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;终点&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;一句话读懂这张表：这一年多赚的70亿美元，几乎全部来自价格（+77亿），产量、汇率和通胀都是拖累项。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这是理解本财报最重要的一点——&lt;strong&gt;必和必拓这一年的业绩是周期给的，不是效率给的&lt;/strong&gt;。当然，公司的成本控制确实不错（可控成本改善11.9亿美元，且年报称每个主要资产都达成了单位成本指引），但相比价格的77亿贡献，只是零头。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-资产负债与现金&quot;&gt;3. 资产负债与现金&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标（亿美元）&lt;/th&gt;
+      &lt;th&gt;FY2026&lt;/th&gt;
+      &lt;th&gt;FY2025&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;现金及等价物&lt;/td&gt;
+      &lt;td&gt;185&lt;/td&gt;
+      &lt;td&gt;119&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;有息负债&lt;/td&gt;
+      &lt;td&gt;271&lt;/td&gt;
+      &lt;td&gt;245&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;净负债&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;87&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;129&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;净负债从129亿美元降到87亿美元，减少42亿。除了218亿美元的经营性现金流，还有一笔特殊贡献：&lt;strong&gt;与Wheaton Precious Metals签订的Antamina白银流媒协议（silver streaming），带来43亿美元收益&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;“流媒协议”（streaming）是矿业里常见的融资方式——提前把未来某种副产品（这里是白银）的产出以折价卖给第三方，换取当下的一次性现金。这本质上是一种不增加负债的融资。年报称，FY2026通过西澳铁矿电力基础设施协议和这笔白银流媒协议，合计释放了&lt;strong&gt;63亿美元的资本&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h1 id=&quot;三分业务解读铜的历史性超越&quot;&gt;三、分业务解读：铜的历史性超越&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-铜贡献54的ebitda利润率70&quot;&gt;1. 铜：贡献54%的EBITDA，利润率70%&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;FY2026&lt;/th&gt;
+      &lt;th&gt;FY2025&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;收入（百万美元）&lt;/td&gt;
+      &lt;td&gt;29,031&lt;/td&gt;
+      &lt;td&gt;22,530&lt;/td&gt;
+      &lt;td&gt;+29%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基础EBITDA（百万美元）&lt;/td&gt;
+      &lt;td&gt;18,187&lt;/td&gt;
+      &lt;td&gt;12,326&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+48%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;EBITDA利润率&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;70%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;占集团EBITDA比重&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;54%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资本开支（百万美元）&lt;/td&gt;
+      &lt;td&gt;4,556&lt;/td&gt;
+      &lt;td&gt;4,392&lt;/td&gt;
+      &lt;td&gt;+4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基础ROCE&lt;/td&gt;
+      &lt;td&gt;26%&lt;/td&gt;
+      &lt;td&gt;17%&lt;/td&gt;
+      &lt;td&gt;+9pct&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;铜产量（千吨）&lt;/td&gt;
+      &lt;td&gt;1,953&lt;/td&gt;
+      &lt;td&gt;2,017&lt;/td&gt;
+      &lt;td&gt;-3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;实现铜价（美元/磅）&lt;/td&gt;
+      &lt;td&gt;5.74&lt;/td&gt;
+      &lt;td&gt;4.25&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+35%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;这是本财报的核心事件：铜业务的EBITDA首次超过集团的一半。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;新任CEO Brandon Craig在年报中的表述是：”铜首次贡献了我们一半以上的利润，EBITDA利润率高达70%，我们仍是全球最大的铜生产商。”&lt;/p&gt;
+
+&lt;p&gt;推动因素几乎完全是价格：FY2026现货铜价均值同比上涨26%，其中下半财年涨幅接近40%，&lt;strong&gt;铜价一度突破每吨13000美元（约每磅5.9美元）&lt;/strong&gt;。而必和必拓的实现价格从4.25美元/磅涨到5.74美元/磅。&lt;/p&gt;
+
+&lt;p&gt;有意思的是，&lt;strong&gt;产量其实是下降的&lt;/strong&gt;（-3%至195.3万吨）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Escondida（智利，全球最大铜矿）产量降3%至126.1万吨，因为选矿入选品位从1.02%计划性下降到0.90%&lt;/li&gt;
+  &lt;li&gt;Pampa Norte 降21%至21.3万吨&lt;/li&gt;
+  &lt;li&gt;南澳铜业升2%至32.1万吨，Olympic Dam创20年产量纪录&lt;/li&gt;
+  &lt;li&gt;Antamina 升27%至15.2万吨，创财年纪录&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;成本方面表现分化：Escondida单位成本从1.19降到1.07美元/磅，&lt;strong&gt;南澳铜业从1.18美元大幅降到0.32美元/磅&lt;/strong&gt;（这个降幅相当惊人），而Spence从2.07升到2.15美元。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-铁矿石产量创纪录但利润几乎没动&quot;&gt;2. 铁矿石：产量创纪录，但利润几乎没动&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;FY2026&lt;/th&gt;
+      &lt;th&gt;FY2025&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;收入（百万美元）&lt;/td&gt;
+      &lt;td&gt;23,883&lt;/td&gt;
+      &lt;td&gt;22,919&lt;/td&gt;
+      &lt;td&gt;+4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基础EBITDA（百万美元）&lt;/td&gt;
+      &lt;td&gt;14,529&lt;/td&gt;
+      &lt;td&gt;14,396&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+1%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;EBITDA利润率&lt;/td&gt;
+      &lt;td&gt;61%&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;占集团EBITDA比重&lt;/td&gt;
+      &lt;td&gt;43%&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资本开支（百万美元）&lt;/td&gt;
+      &lt;td&gt;3,048&lt;/td&gt;
+      &lt;td&gt;2,617&lt;/td&gt;
+      &lt;td&gt;+16%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基础ROCE&lt;/td&gt;
+      &lt;td&gt;55%&lt;/td&gt;
+      &lt;td&gt;64%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-9pct&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产量（百万吨）&lt;/td&gt;
+      &lt;td&gt;265&lt;/td&gt;
+      &lt;td&gt;263&lt;/td&gt;
+      &lt;td&gt;+1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;实现价格（美元/湿吨FOB）&lt;/td&gt;
+      &lt;td&gt;84.56&lt;/td&gt;
+      &lt;td&gt;82.13&lt;/td&gt;
+      &lt;td&gt;+3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;WAIO单位成本（美元/吨）&lt;/td&gt;
+      &lt;td&gt;19.66&lt;/td&gt;
+      &lt;td&gt;18.56&lt;/td&gt;
+      &lt;td&gt;+6%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;铁矿石这一年基本是原地踏步。&lt;/strong&gt; 产量创纪录265百万吨，价格微涨3%，但单位成本涨了6%，导致EBITDA只增长1%，ROCE从64%降到55%。&lt;/p&gt;
+
+&lt;p&gt;必和必拓对中国市场的判断值得中国读者认真读：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FY2026普氏62%铁矿石到岸价均值105美元/干吨，同比涨4%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;中国海运铁矿石净进口量增长6%&lt;/strong&gt;，下半财年年化约12亿吨&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;公司维持判断：中国实际粗钢产量在本十年剩余时间将稳定在10亿吨左右的平台&lt;/strong&gt;，中期看废钢的作用将上升&lt;/li&gt;
+  &lt;li&gt;印度从铁矿石出口国转为进口国，CY2025进口12百万吨且仍在增长&lt;/li&gt;
+  &lt;li&gt;供给端，几内亚&lt;strong&gt;Simandou&lt;/strong&gt;等新产能将上线&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;翻译成大白话：&lt;strong&gt;中国钢铁需求见顶但不会崩，而供给正在增加。&lt;/strong&gt; 这就是必和必拓要把重心挪向铜的根本原因——铁矿石是一门守成的生意，铜才是增长的生意。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-煤炭从谷底回升但仍近乎不赚钱&quot;&gt;3. 煤炭：从谷底回升，但仍近乎不赚钱&lt;/h2&gt;
+
+&lt;p&gt;收入55.90亿美元（FY2025：50.46亿），基础EBITDA 8.32亿美元（FY2025：5.73亿），同比涨45%。但&lt;strong&gt;EBITDA利润率只有15%，基础ROCE为0%——这门生意实质上不创造回报&lt;/strong&gt;，相比铜的70%、铁矿的61%差距悬殊。炼焦煤产量18.6百万吨（+3%），实现价210.21美元/吨；动力煤产量16.4百万吨（+9%），实现价104.28美元/吨。&lt;/p&gt;
+
+&lt;p&gt;财报提到一个中国相关的细节：&lt;strong&gt;2026年5月中国发生的一起矿难引发了大范围煤矿停产，造成国内优质主焦煤（PHCC）短缺，并形成了区域价差。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-钾肥jansen本财报最大的问号&quot;&gt;4. 钾肥Jansen：本财报最大的问号&lt;/h2&gt;
+
+&lt;p&gt;这是必和必拓最重要的长期赌注，也是本财报里唯一的大坏消息。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关键事实：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FY2026 钾肥业务基础EBITDA亏损3.26亿美元（FY2025亏损2.84亿）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;本财年对Jansen项目计提了23亿美元减值&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Jansen一期（JS1）&lt;strong&gt;已完成84%&lt;/strong&gt;，预计&lt;strong&gt;2027年年中&lt;/strong&gt;首次产出&lt;/li&gt;
+  &lt;li&gt;Jansen二期（JS2）完成16%，预计&lt;strong&gt;FY2031末&lt;/strong&gt;首次产出&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;减值23亿美元、同时说项目进展顺利，这看起来矛盾。实际情况是：今年早些时候公司已经向股东更新过Jansen的&lt;strong&gt;成本和进度&lt;/strong&gt;（都恶化了），减值就是对这次成本超支的会计确认。项目本身没有停，只是变贵了、变慢了。&lt;/p&gt;
+
+&lt;p&gt;Craig在CEO致辞中给Jansen做了一个很高的定位：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“我们相信Jansen是一个类似西澳铁矿（WAIO）的资产，最终可以生产约占全球10%的钾肥供应，预期盈利margin超过60%。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;用铁矿石那门生意来类比钾肥，这是一个非常大的承诺。&lt;strong&gt;但要检验它，最快也要等到2027年年中首次产出，再等几年爬产。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;5-西澳镍业可能被卖掉&quot;&gt;5. 西澳镍业：可能被卖掉&lt;/h2&gt;
+
+&lt;p&gt;西澳镍业（WAN）FY2026 EBITDA亏损2.55亿美元（FY2025亏损5.89亿），已于2024年12月进入临时停产。&lt;strong&gt;必和必拓表示将在2027年2月前重新审视停产决定，并正在评估潜在的出售可能。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;四股东回报四年来最高&quot;&gt;四、股东回报：四年来最高&lt;/h1&gt;
+
+&lt;p&gt;这是股东最关心的部分。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;FY2026&lt;/th&gt;
+      &lt;th&gt;FY2025&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;全年每股股息（美分）&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;172&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;110&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;同比增长&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+56%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;末期股息（美分）&lt;/td&gt;
+      &lt;td&gt;99&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;全年派息总额&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;87亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;细节值得一看：按50%的最低派息政策，下半财年的最低股息应为每股0.69美元，&lt;strong&gt;董事会额外加派了0.30美元&lt;/strong&gt;，把末期股息推到0.99美元（约50亿美元），将于&lt;strong&gt;2026年9月23日&lt;/strong&gt;支付。&lt;/p&gt;
+
+&lt;p&gt;年报称这是&lt;strong&gt;四年来最高的股东回报&lt;/strong&gt;，并提到过去十年必和必拓累计向股东返还超过1150亿美元。&lt;/p&gt;
+
+&lt;h1 id=&quot;五fy2027指引产量要降&quot;&gt;五、FY2027指引：产量要降&lt;/h1&gt;
+
+&lt;p&gt;这是投资者需要提前知道的坏消息——&lt;strong&gt;FY2027铜产量指引明显低于FY2026实际值&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;FY2027指引&lt;/th&gt;
+      &lt;th&gt;FY2026实际&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;铜总产量&lt;/td&gt;
+      &lt;td&gt;165万—180万吨&lt;/td&gt;
+      &lt;td&gt;195.3万吨&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Escondida&lt;/td&gt;
+      &lt;td&gt;100万—110万吨&lt;/td&gt;
+      &lt;td&gt;126.1万吨&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Escondida入选品位&lt;/td&gt;
+      &lt;td&gt;约0.70%&lt;/td&gt;
+      &lt;td&gt;0.90%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;WAIO铁矿石&lt;/td&gt;
+      &lt;td&gt;253—264百万吨&lt;/td&gt;
+      &lt;td&gt;257百万吨&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;WAIO单位成本&lt;/td&gt;
+      &lt;td&gt;20.25—21.75美元/吨&lt;/td&gt;
+      &lt;td&gt;19.66美元/吨&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;BMA炼焦煤&lt;/td&gt;
+      &lt;td&gt;18.5—20.5百万吨&lt;/td&gt;
+      &lt;td&gt;18.6百万吨&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;BMA单位成本&lt;/td&gt;
+      &lt;td&gt;126—137美元/吨&lt;/td&gt;
+      &lt;td&gt;134.05美元/吨&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NSWEC动力煤&lt;/td&gt;
+      &lt;td&gt;14—16百万吨&lt;/td&gt;
+      &lt;td&gt;16.4百万吨&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;铜产量指引中值比FY2026低约12%，主要原因是Escondida的品位从0.90%降到约0.70%。&lt;/strong&gt; 这是矿业的宿命——好矿先采，品位逐年下降。&lt;/p&gt;
+
+&lt;p&gt;也就是说，&lt;strong&gt;如果FY2027铜价不能继续大涨，必和必拓的利润大概率要回落。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;中长期增长目标与需求判断&quot;&gt;中长期增长目标与需求判断&lt;/h2&gt;
+
+&lt;p&gt;Craig给出的量化目标是：FY2027至FY2035，&lt;strong&gt;铜当量产量年复合增长约3%—4%&lt;/strong&gt;，其中&lt;strong&gt;铜业务年增约5%&lt;/strong&gt;，到FY2035权益铜产量约200万吨（铜当量约250万吨），较当前增长约40%；WAIO则要在&lt;strong&gt;FY2028第四季度把产量提升至3.05亿吨以上&lt;/strong&gt;（100%基准）。&lt;/p&gt;
+
+&lt;p&gt;年报里关于铜的长期需求判断，对理解AI基础设施投资的实物影响很有价值：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;铜需求预计将从目前约3400万吨/年增长到2050年的&lt;strong&gt;5000万吨/年以上&lt;/strong&gt;；其中&lt;strong&gt;数据中心投资相关的铜需求，预计从2024年到2050年增长约六倍，达到约300万吨/年&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一句话：&lt;strong&gt;AI数据中心的建设，正在成为铜的一个新的结构性需求来源。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;六亮点与隐忧&quot;&gt;六、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;铜首次贡献集团一半以上利润，利润率高达70%&lt;/strong&gt;，组合结构完成了历史性切换&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;基础EBITDA增长27%，利润率59%&lt;/strong&gt;，年报称EBITDA利润率已连续25年以上平均超过50%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;净负债从129亿降至87亿美元&lt;/strong&gt;，资产负债表非常干净&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;全年股息172美分，同比增长56%，为四年来最高&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;每个主要资产都达成了单位成本指引&lt;/strong&gt;，在通胀和柴油涨价的环境下守住了成本纪律；铁矿石产量创纪录265百万吨，WAIO连续七年保持全球最低成本，较皮尔巴拉最近竞争对手成本优势超过每吨10美元&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;利润增长几乎全部来自价格（+77亿美元）&lt;/strong&gt;，量、汇率、通胀都是负贡献——这是周期红利而非能力提升&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jansen减值23亿美元&lt;/strong&gt;，导致会计净利润只增长9%，且项目要到2027年年中才见产出&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;FY2027铜产量指引中值比FY2026低约12%&lt;/strong&gt;，品位下降是不可逆的物理约束&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;铁矿石ROCE从64%降到55%&lt;/strong&gt;、煤炭ROCE为0%，两块传统业务都在缓慢劣化&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;安全事故&lt;/strong&gt;：2026年7月BMA的Peak Downs矿有一名承包商员工遇难，Craig在CEO致辞开篇即致哀，并把安全列为第一优先级&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;西澳镍业仍在停产、可能出售&lt;/strong&gt;，是尚未处理完的历史包袱&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;七总结&quot;&gt;七、总结&lt;/h1&gt;
+
+&lt;p&gt;这份财报可以用三句话概括：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，必和必拓完成了一次教科书级的组合切换。&lt;/strong&gt; 从”靠中国钢铁吃饭”变成”靠全球电气化吃饭”，铜的EBITDA占比从不到一半升到54%，这个转折它准备了十年。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，FY2026的漂亮业绩是价格给的，不是效率给的。&lt;/strong&gt; 77亿美元的价格贡献 vs 12亿美元的成本改善，比例说明了一切。铜价一年涨26%这种事不会年年发生。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，FY2027大概率会比FY2026难看。&lt;/strong&gt; 铜产量指引下降12%，铁矿石成本指引上升，煤炭不赚钱，Jansen还要再烧一年钱。除非铜价继续大涨，否则利润会回落。&lt;/p&gt;
+
+&lt;p&gt;对中国读者来说，还有一层额外的信息值得留意：&lt;strong&gt;必和必拓明确判断中国粗钢产量将在10亿吨的平台上稳定到本十年末，同时Simandou等新供给正在上线。&lt;/strong&gt; 这意味着铁矿石的卖方市场正在缓慢转向。中国钢铁行业过去二十年最大的成本痛点，可能会在未来几年逐步缓解。&lt;/p&gt;
+
+&lt;p&gt;而必和必拓自己，早就把船头转向了铜。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料（公司年报与交易所文件）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/811809/000119312526354647/bhp-20260630.htm&quot;&gt;BHP Group Form 20-F for the fiscal year ended 30 June 2026（SEC 年报原文，本文全部财务数据来源）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bhp.com/news/media-centre/releases/2026/08/bhp-results-for-the-full-year-ended-30-june-2026&quot;&gt;BHP Results for the full year ended 30 June 2026（公司官方业绩公告）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bhp.com/investor-hub&quot;&gt;BHP 投资者中心&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（仅用于补充背景）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/company-news/bhp-fy-2026-slides-copper-drives-record-margins-growth-selffunded-93CH-4864100&quot;&gt;BHP FY2026 slides analysis（Investing.com）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 19 Aug 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/19/bhp_fy2026_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/19/bhp_fy2026_earnings/</guid>
+        
+        <category>必和必拓</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>百度2026Q2电话会——李彦宏说大模型胜负远未分出，管理层首次明确广告下半年继续承压</title>
+        <description>&lt;p&gt;北京时间8月18日晚8点（美东时间上午8点），百度召开2026年第二季度业绩电话会。&lt;/p&gt;
+
+&lt;p&gt;出席的管理层阵容比往常更完整：&lt;strong&gt;创始人兼CEO李彦宏、移动生态事业群（MEG）负责人罗戎、AI云事业群（ACG）负责人沈抖、CFO何海建&lt;/strong&gt;，以及IR负责人林娟。这个阵容本身就说明了问题——广告和云是本季财报最受质疑的两端，百度把两条线的一号位都推到了台前。&lt;/p&gt;
+
+&lt;p&gt;当天百度美股重挫约13%，所以这场电话会某种意义上是一场”解释会”。以下是最有信息量的部分。&lt;/p&gt;
+
+&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-李彦宏大模型的胜负远未分出&quot;&gt;1. 李彦宏：大模型的胜负远未分出&lt;/h2&gt;
+
+&lt;p&gt;李彦宏在开场把百度的定位重申了一遍：”&lt;strong&gt;百度一直是一家相信技术、并且愿意为之长期投入的公司。&lt;/strong&gt;”&lt;/p&gt;
+
+&lt;p&gt;在回答摩根大通分析师关于文心一言竞争力的问题时，他给出了本场电话会最值得记住的一句判断：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“基础模型仍然是一个高度动态、竞争格局远未确定的领域。”（foundation models remain a highly dynamic and competitive landscape far from settled）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“我们相信长期竞争力最终取决于三件事——持续的技术投入、以应用驱动的方法，以及耐心。”（sustained technology investment, application-driven approach and patience）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这段话的潜台词值得注意。在万亿参数模型军备竞赛的背景下，被问到”你还追得上吗”，李彦宏的回答不是”我们参数也很大”，而是把标准换成了”&lt;strong&gt;应用驱动&lt;/strong&gt;“——文心的能力优先服务于百度自己的AI搜索、数字人、智能体，而不是刷榜。&lt;/p&gt;
+
+&lt;p&gt;这是一个战略上的选择：&lt;strong&gt;放弃在通用模型能力上正面比拼，转而比拼模型在自家业务里的落地效率。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-芯片与生态昆仑芯m100与给对手模型做云&quot;&gt;2. 芯片与生态：昆仑芯M100与”给对手模型做云”&lt;/h2&gt;
+
+&lt;p&gt;李彦宏披露了昆仑芯的进展：M100已针对大规模推理场景做了优化，M300在路上。&lt;/p&gt;
+
+&lt;p&gt;更有意思的是软件生态部分——他提到百度云的软件栈已经兼容&lt;strong&gt;Kimi K3、GLM5.2、混元3&lt;/strong&gt;等主流国产大模型。&lt;/p&gt;
+
+&lt;p&gt;这一句信息量很大：&lt;strong&gt;百度在把自己的算力卖给用竞争对手模型的客户&lt;/strong&gt;。这意味着百度云的定位正在从”卖文心”转向”卖算力和工具链”，模型层的胜负不再是云业务的前提条件。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-萝卜快跑单季100万次全无人订单&quot;&gt;3. 萝卜快跑：单季100万次全无人订单&lt;/h2&gt;
+
+&lt;p&gt;李彦宏公布了几个运营数据：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;本季完成&lt;strong&gt;100万次全无人运营订单&lt;/strong&gt;，累计订单超&lt;strong&gt;2300万次&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;安全记录：&lt;strong&gt;平均每1440万公里才发生一次安全气囊弹出&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;关于国内外的取舍，李彦宏的表态很直接：百度不把国内和海外视为”二选一”，而是逐城评估监管框架、需求、定价和商业可行性。他补了一句关键判断：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“美国和中国之外的国际市场，比中国国内市场更大，所以可触达的机会相当可观。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;二分析师问答最有信息量的六个问题&quot;&gt;二、分析师问答：最有信息量的六个问题&lt;/h1&gt;
+
+&lt;h2 id=&quot;q1摩根大通-alex-yao万亿参数模型时代文心怎么定位&quot;&gt;Q1（摩根大通 Alex Yao）：万亿参数模型时代，文心怎么定位？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;李彦宏&lt;/strong&gt;：见上文。核心是”应用驱动 + 耐心”，不追求在通用榜单上争第一。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这是一次预期管理。百度实际上在告诉市场——别用OpenAI、DeepSeek的标准来给文心估值，用百度业务落地的效果来估值。&lt;/p&gt;
+
+&lt;h2 id=&quot;q2花旗-alicia-yapai云的增长驱动力和长期利润率&quot;&gt;Q2（花旗 Alicia Yap）：AI云的增长驱动力和长期利润率？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;沈抖&lt;/strong&gt;给了三条驱动力：AI算力需求旺盛、客户行业持续拓宽、以及&lt;strong&gt;从芯片到基础设施到模型到应用的全栈差异化架构&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;关键数据披露：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;MaaS平台的token调用量同比增长九倍&lt;/strong&gt;（MaaS即Model as a Service，模型即服务，可以理解为按调用量计费的模型API生意）&lt;/li&gt;
+  &lt;li&gt;引述原话：”GPU云在收入中的占比持续提升，且其利润率结构优于传统CPU云。”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这是对财报里”AI云基础设施环比-17%”的间接回应。沈抖没有正面解释环比下滑，而是把注意力引向结构——&lt;strong&gt;即使总量有波动，收入结构在朝更赚钱的方向变&lt;/strong&gt;。九倍的token调用量增长，也说明真实使用在放量，不是纯粹的算力囤积。&lt;/p&gt;
+
+&lt;h2 id=&quot;q3美银-miranda-zhuangai占了一半收入资本开支还在爬坡利润率往哪走&quot;&gt;Q3（美银 Miranda Zhuang）：AI占了一半收入、资本开支还在爬坡，利润率往哪走？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;何海建&lt;/strong&gt;的回答分成两层：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AI云基础设施保持高速增长，且&lt;strong&gt;利润和利润率同比都在改善&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;AI应用具有订阅制、粘性强的特点，”&lt;strong&gt;长期有潜力带来越来越有吸引力的利润率&lt;/strong&gt;”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;他的原话是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“我们投入时有信念，但花钱要精明，并始终紧盯ROI。”（invest with conviction, but spend wisely and stay closely focused on ROI）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“我们正处在投资的关键阶段，打算继续果断投入，同时保持对ROIC的纪律。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这是标准的”我们要花钱，但请相信我们花得值”。注意他反复强调ROI和ROIC（投入资本回报率）——这是说给担心资本开支失控的投资者听的。但他&lt;strong&gt;没有给出任何具体的利润率指引或资本开支数字&lt;/strong&gt;，这是本场电话会最明显的信息缺口。&lt;/p&gt;
+
+&lt;h2 id=&quot;q4高盛-lincoln-kong昆仑芯拟分拆上市进展如何&quot;&gt;Q4（高盛 Lincoln Kong）：昆仑芯拟分拆上市进展如何？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;沈抖&lt;/strong&gt;：上市流程仍在推进中。他强调昆仑芯在性能、软硬件一体化和大规模部署上能力扎实，”正获得客户越来越多的认可”。&lt;/p&gt;
+
+&lt;p&gt;关于昆仑芯在百度体系内的价值，他的原话是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“各层之间的紧密协同实现了端到端优化，从而带来更强的性能、可靠性和成本效率。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：昆仑芯的独立上市如果落地，会是百度AI叙事的一次重要价值释放——把一个原本埋在成本项里的自研芯片部门，变成一个可以被单独定价的资产。但”流程仍在推进中”这个措辞，说明短期内看不到时间表。&lt;/p&gt;
+
+&lt;h2 id=&quot;q5瑞银-wei-xiong港股双重主要上市的时间表和港股通预期&quot;&gt;Q5（瑞银 Wei Xiong）：港股双重主要上市的时间表和港股通预期？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;何海建&lt;/strong&gt;给了完整时间线：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;7月董事会批准&lt;/li&gt;
+  &lt;li&gt;已提交申请，并获港交所受理确认&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;8月26日召开股东特别大会&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;预计&lt;strong&gt;年内生效&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;关于战略意义，他的表态是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“双重主要上市将扩大我们的投资者基础、提升股票流动性，并提供更大的灵活性。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“纳入港股通将显著扩大中国内地投资者的参与度，支撑更多元化的股东结构。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这是本场电话会里&lt;strong&gt;确定性最高、也最可能被低估的一条&lt;/strong&gt;。百度目前在港股是”第二上市”，转为”双重主要上市”后才有资格被纳入港股通。对于一家美股持续承压的中概股来说，打开内地资金通道是实打实的估值支撑。&lt;/p&gt;
+
+&lt;h2 id=&quot;q6杰富瑞-thomas-chongai搜索进展如何广告为什么还在跌&quot;&gt;Q6（杰富瑞 Thomas Chong）：AI搜索进展如何？广告为什么还在跌？&lt;/h2&gt;
+
+&lt;p&gt;这是全场最关键的一问，由MEG负责人&lt;strong&gt;罗戎&lt;/strong&gt;回答。&lt;/p&gt;
+
+&lt;p&gt;产品层面，他讲了AI搜索在可靠性、权威性和降低幻觉上的改进，以及与文心助手（ERNIE Assistant）的打通，支持多轮对话追问。李彦宏此前也补充过一组数据：&lt;strong&gt;文心助手日活同比增长83%，对话轮次翻了三倍&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;而对于广告为什么继续跌，罗戎给了两个原因：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;行业竞争激烈&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;公司在AI搜索上刻意克制变现&lt;/strong&gt;（deliberate holding back on monetizing AI search）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;他的原话是当前优先级是”&lt;strong&gt;把产品和用户体验做对&lt;/strong&gt;“，而不是马上变现。&lt;/p&gt;
+
+&lt;p&gt;然后是本场最重要的一句指引：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“鉴于这些动态可能持续，我们预计广告业务在下半年仍将承压。”（we expect our advertising business to remain under pressure in second half）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这一句基本给百度2026年下半年的营收定了调。市场当天跌13%，这句话的贡献不小——它把”广告什么时候见底”的答案，至少推到了2027年。&lt;/p&gt;
+
+&lt;p&gt;同时也要看到硬币的另一面：&lt;strong&gt;“刻意克制变现”意味着这19%的降幅里，有一部分是主动放弃的，而不是被市场夺走的。&lt;/strong&gt; 如果AI搜索的用户体验真的建立起来，这部分收入理论上可以再拿回来。这是乐观和悲观解读的分水岭，而验证它需要时间。&lt;/p&gt;
+
+&lt;h1 id=&quot;三这些表态意味着什么&quot;&gt;三、这些表态意味着什么&lt;/h1&gt;
+
+&lt;p&gt;把这场电话会浓缩成三句话：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，百度承认短期会更难看。&lt;/strong&gt; 广告下半年继续承压的指引是公开的、明确的，管理层没有粉饰。这至少是诚实的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，百度把赌注押在了”结构”而不是”总量”。&lt;/strong&gt; 无论是沈抖说GPU云利润率更好、MaaS token涨九倍，还是何海建说AI应用长期利润率有吸引力，逻辑都是同一个——&lt;strong&gt;总收入可能还要跌一阵，但收入的质量在变好&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，最确定的短期利好来自资本市场动作，而不是业务。&lt;/strong&gt; 港股双重主要上市年内生效、昆仑芯分拆上市推进，这两件事的确定性都高于”广告什么时候见底”。&lt;/p&gt;
+
+&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
+
+&lt;p&gt;这是一场坦率但没有给出答案的电话会。&lt;/p&gt;
+
+&lt;p&gt;管理层把”是什么”讲得很清楚——广告在跌、AI在涨、结构在变好、下半年还会难受。但对于投资者最想知道的”什么时候”，几乎没有正面回答：AI云环比下滑的原因没解释，资本开支和利润率没有给数字，昆仑芯上市没有时间表，广告见底没有时点。&lt;/p&gt;
+
+&lt;p&gt;李彦宏在开场说百度是一家”愿意为技术长期投入”的公司。这句话在过去几年被反复说过，而这一次它有了更具体的代价标注：&lt;strong&gt;每季度约19%的广告收入降幅，以及市场当天13%的跌幅。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;百度选择了一条正确但漫长的路。问题在于，资本市场的耐心通常比技术周期短得多。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/08/18/baidu-bidu-q2-2026-earnings-call-transcript/&quot;&gt;Baidu (BIDU) Q2 2026 Earnings Call Transcript（电话会完整实录，The Motley Fool）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1329099/000119312526355431/d112854dex991.htm&quot;&gt;Baidu Announces Second Quarter 2026 Results（SEC Form 6-K 附件99.1财报原文）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results&quot;&gt;百度投资者关系官网&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（仅用于补充股价反应）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://seekingalpha.com/news/4634236-baidu-shares-tumble-as-quarterly-revenue-earnings-miss-estimates&quot;&gt;Baidu shares tumble as quarterly revenue, earnings miss estimates（Seeking Alpha）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 19 Aug 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/19/baidu_2026q2_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/19/baidu_2026q2_earnings_call/</guid>
+        
+        <category>百度</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>百度2026Q2——营收313亿同比下滑4%，广告大跌19%而GPU云暴涨283%，股价当日重挫13%</title>
+        <description>&lt;p&gt;北京时间8月18日美股开盘前，&lt;a href=&quot;https://ir.baidu.com/&quot;&gt;百度&lt;/a&gt;发布了2026年第二季度（4—6月）财报。这份财报可以用一句话概括——&lt;strong&gt;旧引擎熄火的速度，比新引擎点火的速度更快&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;总营收313.25亿元人民币（约46.2亿美元），同比下滑4%，环比下滑2%；归属于百度的净利润23.19亿元，同比大跌68%。财报发布后，百度美股当日一度重挫约13%，收在90美元附近。&lt;/p&gt;
+
+&lt;p&gt;但如果只看这两个数字，会错过这份财报里真正有意思的部分：百度的AI业务正在以极高的速度膨胀，其中GPU云收入同比增长283%——只是它撑起的体量，还不足以抵消广告业务塌陷的缺口。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-百度现在到底靠什么赚钱&quot;&gt;1. 百度现在到底靠什么赚钱&lt;/h2&gt;
+
+&lt;p&gt;百度的财报结构这两年改了好几次口径，读起来有点绕，先把它拆清楚。&lt;/p&gt;
+
+&lt;p&gt;百度整体收入分成两块：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;百度核心（Baidu General Business）&lt;/strong&gt;：搜索、广告、云、智能驾驶等自营业务，本季252亿元，占总营收约80%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;爱奇艺&lt;/strong&gt;：控股的长视频平台，本季63亿元&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;而”百度核心”内部，公司现在按新旧口径切成两半：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;分类&lt;/th&gt;
+      &lt;th&gt;含义&lt;/th&gt;
+      &lt;th&gt;2026Q2收入&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI-powered Business（AI业务）&lt;/td&gt;
+      &lt;td&gt;AI云基础设施、AI应用、AI原生营销&lt;/td&gt;
+      &lt;td&gt;125亿元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Legacy Business（传统业务）&lt;/td&gt;
+      &lt;td&gt;传统搜索广告等&lt;/td&gt;
+      &lt;td&gt;104亿元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Others（其他）&lt;/td&gt;
+      &lt;td&gt;智能驾驶等&lt;/td&gt;
+      &lt;td&gt;23亿元&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;关键节点在于：AI业务占核心业务的比重，已经从去年同期的38%升到本季的50%。&lt;/strong&gt; 这是百度这几年反复强调的”从互联网公司转向AI公司”叙事的量化证据。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-这份财报的市场背景&quot;&gt;2. 这份财报的市场背景&lt;/h2&gt;
+
+&lt;p&gt;百度所处的位置比较尴尬：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上游是中国互联网广告大盘的疲软——房地产长期低迷、消费需求偏弱，广告主在缩减预算&lt;/li&gt;
+  &lt;li&gt;中游是搜索本身被AI改写——百度自己在把搜索结果AI化，而AI答案框天然比传统”十条蓝链”更难插广告&lt;/li&gt;
+  &lt;li&gt;下游是AI算力这个高增长、但资本开支极重、且客户高度集中的新生意&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;三条线同时在动，所以这份财报读起来才格外分裂。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-损益表主线&quot;&gt;1. 损益表主线&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026Q2&lt;/th&gt;
+      &lt;th&gt;2026Q1&lt;/th&gt;
+      &lt;th&gt;2025Q2&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+      &lt;th&gt;环比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;313.25亿&lt;/td&gt;
+      &lt;td&gt;320.75亿&lt;/td&gt;
+      &lt;td&gt;327.13亿&lt;/td&gt;
+      &lt;td&gt;-4%&lt;/td&gt;
+      &lt;td&gt;-2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度核心营收&lt;/td&gt;
+      &lt;td&gt;252亿&lt;/td&gt;
+      &lt;td&gt;260亿&lt;/td&gt;
+      &lt;td&gt;263亿&lt;/td&gt;
+      &lt;td&gt;-4%&lt;/td&gt;
+      &lt;td&gt;-3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;爱奇艺营收&lt;/td&gt;
+      &lt;td&gt;63亿&lt;/td&gt;
+      &lt;td&gt;62亿&lt;/td&gt;
+      &lt;td&gt;66亿&lt;/td&gt;
+      &lt;td&gt;-5%&lt;/td&gt;
+      &lt;td&gt;+1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业成本&lt;/td&gt;
+      &lt;td&gt;191亿&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;+4%&lt;/td&gt;
+      &lt;td&gt;-3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售及管理费用&lt;/td&gt;
+      &lt;td&gt;46亿&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;-23%&lt;/td&gt;
+      &lt;td&gt;-6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;研发费用&lt;/td&gt;
+      &lt;td&gt;46亿&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;-10%&lt;/td&gt;
+      &lt;td&gt;+5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润&lt;/td&gt;
+      &lt;td&gt;30.24亿&lt;/td&gt;
+      &lt;td&gt;31.93亿&lt;/td&gt;
+      &lt;td&gt;32.77亿&lt;/td&gt;
+      &lt;td&gt;-8%&lt;/td&gt;
+      &lt;td&gt;-5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归属百度净利润&lt;/td&gt;
+      &lt;td&gt;23.19亿&lt;/td&gt;
+      &lt;td&gt;34.45亿&lt;/td&gt;
+      &lt;td&gt;73.22亿&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-68%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;-33%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP净利润&lt;/td&gt;
+      &lt;td&gt;26亿&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经调整EBITDA&lt;/td&gt;
+      &lt;td&gt;62亿&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;（单位：人民币；营业成本、费用项为财报披露的约数）&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;先解释一下那个吓人的-68%。&lt;/strong&gt; 净利润腰斩再腰斩，主因不在主营业务，而在一个叫”其他收入净额”的科目：本季只有1.84亿元，去年同期是49亿元。这一项主要反映长期投资的公允价值变动——通俗说就是百度持有的对外投资，去年这个季度大幅浮盈，今年没有了，还叠加了汇兑损失。这是账面上的波动，不是经营层面的崩塌。&lt;/p&gt;
+
+&lt;p&gt;看经营层面，经营利润30.24亿元，同比下滑8%，经营利润率10%；Non-GAAP经营利润38亿元，利润率12%。&lt;strong&gt;主营业务是在缓慢下行，而不是断崖&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;费用端有个值得注意的信号&lt;/strong&gt;：销售及管理费用同比大降23%，公司解释主要是预期信用损失和渠道支出减少。研发费用同比也降了10%。在一家宣称”全力投入AI”的公司身上看到研发费用同比下降，这多少有些反直觉——更合理的解读是，百度把钱从人力密集的地方挪向了资本开支密集的地方（服务器、芯片），而资本开支不进费用表、进折旧。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-现金与股东回报&quot;&gt;2. 现金与股东回报&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;截至6月30日，现金及投资合计2831亿元（约417亿美元）&lt;/li&gt;
+  &lt;li&gt;本季经营性现金流34亿元，CFO何海建强调这是&lt;strong&gt;连续第四个季度为正&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;自2026年Q1以来累计回购2.59亿美元&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一句话点评：百度手上有超过400亿美元的现金家底，短期没有生存压力；但2.59亿美元的回购规模，相对于其体量只能算象征性动作。&lt;/p&gt;
+
+&lt;h1 id=&quot;三分业务解读一半塌陷一半狂奔&quot;&gt;三、分业务解读：一半塌陷，一半狂奔&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-在线营销131亿元同比-19&quot;&gt;1. 在线营销：131亿元，同比-19%&lt;/h2&gt;
+
+&lt;p&gt;这是本季最刺眼的数字。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;2026Q2&lt;/th&gt;
+      &lt;th&gt;2026Q1&lt;/th&gt;
+      &lt;th&gt;2025Q2&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;在线营销收入&lt;/td&gt;
+      &lt;td&gt;131亿&lt;/td&gt;
+      &lt;td&gt;126亿&lt;/td&gt;
+      &lt;td&gt;162亿&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-19%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;占百度核心比重&lt;/td&gt;
+      &lt;td&gt;52%&lt;/td&gt;
+      &lt;td&gt;48%&lt;/td&gt;
+      &lt;td&gt;62%&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;一年之内，广告从占核心收入的62%掉到52%。环比倒是回升了4%，算是止跌迹象，但同比的坑挖得太深。&lt;/p&gt;
+
+&lt;p&gt;管理层在电话会上给了两个原因：&lt;strong&gt;行业竞争激烈&lt;/strong&gt;，以及&lt;strong&gt;百度在AI搜索上”刻意克制变现”&lt;/strong&gt;。后一条是关键——百度正在把搜索结果重做成AI形态，而AI回答挤占了原本放商业结果的位置。这是主动放弃短期收入换长期产品体验。&lt;/p&gt;
+
+&lt;p&gt;代价是实打实的：百度APP 6月月活6.44亿，用户盘子还在，但每个用户能榨出的广告钱在减少。管理层明确表示，预计广告业务&lt;strong&gt;下半年仍将承压&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-ai云73亿元同比50但环比-17&quot;&gt;2. AI云：73亿元，同比+50%，但环比-17%&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;2026Q2&lt;/th&gt;
+      &lt;th&gt;2026Q1&lt;/th&gt;
+      &lt;th&gt;2025Q2&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+      &lt;th&gt;环比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI云基础设施&lt;/td&gt;
+      &lt;td&gt;73亿&lt;/td&gt;
+      &lt;td&gt;88亿&lt;/td&gt;
+      &lt;td&gt;49亿&lt;/td&gt;
+      &lt;td&gt;+50%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-17%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI应用&lt;/td&gt;
+      &lt;td&gt;25亿&lt;/td&gt;
+      &lt;td&gt;25亿&lt;/td&gt;
+      &lt;td&gt;25亿&lt;/td&gt;
+      &lt;td&gt;+3%&lt;/td&gt;
+      &lt;td&gt;+3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI原生营销服务&lt;/td&gt;
+      &lt;td&gt;26亿&lt;/td&gt;
+      &lt;td&gt;23亿&lt;/td&gt;
+      &lt;td&gt;26亿&lt;/td&gt;
+      &lt;td&gt;0%&lt;/td&gt;
+      &lt;td&gt;+11%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;AI业务合计&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;125亿&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;136亿&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;100亿&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+25%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-8%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这张表需要仔细看，因为它同时藏着这份财报最亮和最需要警惕的两处。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;最亮的&lt;/strong&gt;：AI云基础设施里的GPU云收入，同比增长283%，而上一季度是184%——增速在极高基数上还在加速。这说明公有云形态的AI算力需求非常真实。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;最需要警惕的&lt;/strong&gt;：AI云基础设施收入环比下滑了17%（从88亿降到73亿），带动整个AI业务环比下滑8%。财报原文没有解释这一环比波动的具体原因。对于算力这类生意，单笔大合同的确认节奏就能造成季度间的大幅摆动，所以单季环比下滑未必代表趋势反转——但它确实提醒投资者，&lt;strong&gt;这条曲线不是平滑向上的&lt;/strong&gt;，把某一个季度的增速线性外推是危险的。&lt;/p&gt;
+
+&lt;p&gt;值得一提的是，百度的AI云差异化在于它自研芯片。管理层称昆仑芯M100已针对大规模推理优化，M300在路上；同时百度云的软件生态已兼容Kimi K3、GLM5.2、混元3等多家国产大模型——也就是说，百度在把自己的云卖给用竞争对手模型的客户。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-萝卜快跑全球化明显提速&quot;&gt;3. 萝卜快跑：全球化明显提速&lt;/h2&gt;
+
+&lt;p&gt;Apollo Go（萝卜快跑）本季的动作密度很高：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;伦敦&lt;/strong&gt;：与Uber、Lyft合作开始开放道路测试&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;迪拜&lt;/strong&gt;：启动全无人商业化运营，可通过Uber叫车&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;香港&lt;/strong&gt;：获得当地首个全无人测试许可，在机场岛开始测试——这是全球首个在右舵、左侧通行市场进行全无人测试的Robotaxi服务商&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;瑞士&lt;/strong&gt;：与PostBus合作开放道路测试&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;哈萨克斯坦&lt;/strong&gt;：签署合作备忘录&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;累计数据：覆盖28个城市，累计自动驾驶里程超3.5亿公里，其中全无人里程超2.4亿公里。&lt;/p&gt;
+
+&lt;p&gt;这块目前还没有单独披露收入，仍属于”讲故事”阶段，但故事的推进速度是可验证的。&lt;/p&gt;
+
+&lt;h2 id=&quot;4-爱奇艺63亿元同比-5&quot;&gt;4. 爱奇艺：63亿元，同比-5%&lt;/h2&gt;
+
+&lt;p&gt;长视频依旧疲软，同比下滑5%，环比微增1%。这块业务对百度整体的边际影响在持续减弱。&lt;/p&gt;
+
+&lt;h1 id=&quot;四亮点与隐忧&quot;&gt;四、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;AI业务占核心收入的一半，这个结构性转折点站稳了&lt;/strong&gt;。去年同期是38%，本季50%，转型不是PPT，是收入表上的事实。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GPU云同比+283%且增速环比加速&lt;/strong&gt;，说明百度在AI算力这条赛道上抓到了真实需求。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;自研芯片+云+模型+应用的全栈闭环&lt;/strong&gt;，在成本上有实打实的优势，这是纯租GPU的云厂商没有的。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;经营性现金流连续四个季度为正&lt;/strong&gt;，且账上有417亿美元现金，转型有充足的弹药。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;港股双重主要上市推进中&lt;/strong&gt;，8月26日召开股东特别大会，年内有望生效——这为纳入港股通打开了通道。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;广告的下滑速度快于AI的填补速度&lt;/strong&gt;。核心业务总收入同比仍是-4%，说明”新旧动能转换”目前在收入上仍是净负贡献。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AI云环比-17%&lt;/strong&gt;，提示这条增长曲线的波动性远高于广告业务。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;管理层明确指引广告下半年继续承压&lt;/strong&gt;，意味着营收拐点最早也要等到下半年之后。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;利润质量的问题&lt;/strong&gt;：Non-GAAP每股ADS收益7.22元（1.06美元），而市场一致预期约1.35美元，差了21%。市场用13%的跌幅表达了不满。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AI应用收入同比仅+3%&lt;/strong&gt;。百度在C端AI产品（文库、网盘、DuMate等）上投入不小，AI功能渗透率同比提升27.4%，但收入几乎没动——&lt;strong&gt;用户在用，钱还没收上来&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;五展望与总结&quot;&gt;五、展望与总结&lt;/h1&gt;
+
+&lt;p&gt;百度现在处在一个非常典型的转型阵痛期：&lt;strong&gt;旧业务是现金牛但在失血，新业务增速惊人但体量不够、且波动大&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;对这份财报，有三个数字值得记住：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;50%&lt;/strong&gt;：AI业务已占核心收入的一半，转型的定量证据&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;-19%&lt;/strong&gt;：广告的失血速度，短期无解&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;283%&lt;/strong&gt;：GPU云的增速，长期期权&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CEO李彦宏在财报中的说法是：”尽管在线营销业务仍然承压，核心AI业务的增长势头再次印证了百度从互联网公司向AI优先公司的转型。”CFO何海建则说：”我们将坚定不移地把AI作为百度长期增长的核心驱动力持续投入。”&lt;/p&gt;
+
+&lt;p&gt;翻译成大白话：&lt;strong&gt;百度知道自己在流血，也决定继续按住伤口往前跑&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;对投资者来说，接下来两个季度需要盯的其实只有两件事：一是AI云基础设施能不能重回环比正增长（证明本季环比下滑只是节奏问题），二是广告降幅能不能从-19%收窄。这两条曲线什么时候交叉，百度的营收才会真正掉头向上。&lt;/p&gt;
+
+&lt;p&gt;在那之前，市场大概率还会用”用未来换现在”的折扣来给百度定价。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料（财报原文）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1329099/000119312526355431/d112854dex991.htm&quot;&gt;Baidu Announces Second Quarter 2026 Results（SEC Form 6-K 附件99.1原文）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results&quot;&gt;百度投资者关系官网&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/08/18/baidu-bidu-q2-2026-earnings-call-transcript/&quot;&gt;Baidu (BIDU) Q2 2026 电话会实录（The Motley Fool）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（仅用于补充分析师预期与股价反应）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://seekingalpha.com/news/4634236-baidu-shares-tumble-as-quarterly-revenue-earnings-miss-estimates&quot;&gt;Baidu shares tumble as quarterly revenue, earnings miss estimates（Seeking Alpha）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qz.com/baidu-revenue-miss-advertising-decline-ai-cloud-growth-081826&quot;&gt;Baidu Q2 2026 earnings miss as ad revenue falls 19%（Quartz）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 19 Aug 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/19/baidu_2026q2_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/19/baidu_2026q2_earnings/</guid>
+        
+        <category>百度</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
         
       </item>
     
@@ -780,529 +2376,6 @@
         <pubDate>Mon, 17 Aug 2026 09:07:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/ai-daily/2026/08/17/</link>
         <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/17/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.08.16</title>
-        <description>&lt;p&gt;今天这五帖放在一起看，能凑出一条挺完整的线：一件事一旦被拿来考核，被考核的往往就不是那件事本身了。安全演练测的是有没有点击，不是有没有被骗；AI 转型考核的是有没有交出 agent，不是有没有解决问题；职级考核的是头衔挂到哪一档，不是实际在干什么。而当研究真的把答案摆出来的时候，做决定的人又不看数据。&lt;/p&gt;
-
-&lt;h2 id=&quot;30-年工龄的系统管理员被自家公司的钓鱼演练逼到崩溃&quot;&gt;30 年工龄的系统管理员，被自家公司的钓鱼演练逼到崩溃&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/sysadmin/comments/1vpe2sb/about_to_ruin_a_30_year_it_career_because_i_cant/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;发帖人干了 30 多年网络和系统管理，连续 17 年每月按时打补丁，渗透测试成绩漂亮，公司甚至拿他的名字给服务器命名。但他今年已经两次没通过公司内部的钓鱼演练，三年内共三次——按员工手册的三振出局条款，他觉得自己要被开除了，本来打算过几年体面退休，现在心情跌到谷底。他自己也承认一个尴尬的细节：为了让演练邮件进得来，是他亲手在邮件安全网关上给这些模拟钓鱼开的口子。&lt;/p&gt;
-
-&lt;p&gt;评论区几乎没人嘲笑他，火力全冲着测试本身去了。争论最大的一点是：有些平台把「打开邮件」也算失败，可你不打开邮件怎么判断它是不是钓鱼？又怎么点到那个举报按钮？有人干脆管这叫薛定谔的钓鱼邮件。更荒诞的一例来自另一位用户：他拿不准一封邮件是真钓鱼还是演练，于是老老实实上报给安全运营团队，结果对方点开了链接，系统反手给他发了一封「你未通过钓鱼测试，请今后多加小心」。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It’s Schrodinger’s phish. How the F are you supposed to know if it’s a phishing email by just the subject and first few words?”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/JasonDJ，&lt;a href=&quot;https://www.reddit.com/r/sysadmin/comments/1vpe2sb/about_to_ruin_a_30_year_it_career_because_i_cant/p3xgl5w/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The SOC team clicked the link. I got an email that I failed a phishing test, and that I should be more careful in the future.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/WideAwakeNotSleeping，&lt;a href=&quot;https://www.reddit.com/r/sysadmin/comments/1vpe2sb/about_to_ruin_a_30_year_it_career_because_i_cant/p3x2ron/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;在管理端的人也出来解释了：正经配置下只有点链接、开附件、输凭据才算失败，光打开不该扣分；KnowBe4 之类的产品自带举报按钮，点了会立刻反馈「你识别对了」，如果同事们只能靠给 IT 提工单来报钓鱼，那是部署这套系统的人没配好。有意思的是这条帖子里 HR 在管钓鱼演练的公司还不少，好几个人的反应都是「这事凭什么归 HR」。至于对策，大伙儿给的招数一个比一个消极：按 KnowBe4 的邮件头写规则直接扔进垃圾箱、给所有链接做纯文本化处理、把没预期到的邮件一律当敌意处理，还有人索性把每一封公司群发邮件都举报成钓鱼——反正你要我这么警惕，那我就照做。最后有人送了个新时代万能借口：以前误了事说「这个任务从我雷达上掉下去了」显得懒散，现在说「我以为那是钓鱼测试」，既现代又无可反驳。&lt;/p&gt;
-
-&lt;p&gt;我自己的感受是，这条帖子真正扎心的地方不在于测试设计得糙，而在于它把一个安全工具改造成了绩效惩罚工具。发帖人从没被真钓鱼骗过——真钓鱼根本进不了他的收件箱，是他自己拦住的；被抓住的那次，是他一边打电话跟银行重置密码、一边点开验证邮件时撞上的。一个把「上报可疑邮件」当成正确答案的体系，和一个把「三次点击就滚蛋」当成正确答案的体系，长出来的员工行为是完全相反的。国内公司这两年也开始流行内部钓鱼演练，值得先想清楚：你是想让人更会识别，还是只想拿到一份好看的通过率报表。&lt;/p&gt;
-
-&lt;h2 id=&quot;平台工程团队被要求两周内人人交一个-ai-agent&quot;&gt;平台工程团队被要求两周内人人交一个 AI agent&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1vp8y0c/does_your_org_do_this_sht_with_ai_agents_in/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一位平台工程师吐槽：管理层要求团队每个人从当前遇到的问题里挑一个，两周内做成 AI agent 交上来。他的判断很直接——这些场景用普通 shell 脚本就能搞定，效果一样。更拧巴的是，公司一边逼大家上 AI，一边在申请额外 token 额度时反复盘问理由。他特意补了一句自己不是反 AI 派，现在离了 AI 也干不了活，烦的是这种自上而下的强制。&lt;/p&gt;
-
-&lt;p&gt;评论区的老手们没在争 AI 好不好，而是熟练地给出了一套过关攻略：把你本来就该写的 shell 脚本写了，包一层 tool call，或者前面架个 MCP server，指标就算完成了；把 Grafana 的 MCP 接上一个只读账号，管它叫「根因分析 agent」，配个漂亮的汇报材料交上去。有人形容这是把 agent 做成了一根更贵的 unix 管道。也有人给管理层说了句公道话：现在一家公司的对外故事里如果一点 AI 都不提，就等于承认自己掉队了，老板们不是傻，是被叙事绑住了。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Implement your shell script, call it a tool call, or put an MCP server in front of it, whatever. It’s stupid, but that ticks the box.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/jebuizy，&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1vp8y0c/does_your_org_do_this_sht_with_ai_agents_in/p3vn9ml/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;整条讨论里最好的一个比喻来自另一位用户：挖土的公司看见卡特彼勒挖掘机当然会有 FOMO，这情绪本身没错；但 token 更像是加进挖掘机的燃油，不是挖掘机本身。而 AI 公司眼下卖的是燃油，至于怎么造一台省油又高效的机器，留给用户自己琢磨——于是大家都在用自己拼装的怪东西烧着高价燃油。另一位工程师则给出了 agent 真正有用的样子：凌晨两点一个新服务变慢，他半睡半醒地扫堆栈，漏掉了埋在里面的一条 SQS 死信队列权限拒绝，是模型翻出来的；但他补充说这玩意儿也会一本正经地胡说八道，所以他把它的输出按初级工程师的水准对待。还有人提出了那个最实在的反问：用 AI 把你一直没空写的那堆脚本写了，为什么不算「用 AI 解决了问题」？&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“But the metaphor is nuanced, because AI inference, measured by Tokens, is more like the fuel you put into the Caterpillar, than it is like the Caterpillar itself.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/SailingToFenway，&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1vp8y0c/does_your_org_do_this_sht_with_ai_agents_in/p3w7cno/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这套「交作业式 AI 转型」国内同行应该不陌生。真正的问题不是要不要用 AI，而是 KPI 写成了「产出多少个 agent」而不是「省了多少人天、少了多少次事故」。前者一定会被满足，代价是团队学会了表演；后者难量化，但至少指向真实收益。要是你恰好在定这类指标，把交付物从 agent 数量换成一条可复现的时间或故障指标，团队的动作会立刻不一样。&lt;/p&gt;
-
-&lt;h2 id=&quot;5-年经验做到-staff一年后他回来复盘&quot;&gt;5 年经验做到 Staff，一年后他回来复盘&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1vpg59k/followup_what_this_year_has_been_like_as_a/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;八个月前一位机器学习工程师在 r/ExperiencedDevs 发帖，纠结要不要冲 senior 以上的职级，这次他回来交答卷。明年一月满 5 年工龄，现在带 8 个人的团队，能定技术栈、管技术预算、跟供应商谈判，手上的产品从一个膨胀到 5 个以上，团队今年重组了好几次。他自评这一年比预期好，但把难受的地方也一条条写了出来：厌倦了 AI 项目，因为大部分工作就是 LLM 套壳、agent 编排和 RAG 知识库；身边没有更资深的人可以撞想法，技术上的孤独感比想象中难扛；被要求在自己并不在行的领域当场给出笃定的判断；最大的产出变成了定标准和建流程，能亲手写代码的时间越来越少。&lt;/p&gt;
-
-&lt;p&gt;评论区第一波是对头衔的质疑：5 年就 Staff？职级通胀罢了，听描述更像一个没人带的 senior。发帖人自己也认，说标题里的引号就是这个意思，现实中他一般用 lead 自称。但有人替他挡了一句：如果责任真的给到了，那头衔就是名副其实的。另一条更值得看的分支是关于放权——发帖人说自己很难把活派出去，尤其明知别人做得不如自己好的时候。有位评论者不留情面地指出这个想法从两个方向上都是错的：不放权你就永远无法规模化，也永远培养不出能接替你的人，而找到接班人恰恰是你自己往上走的前提；同时你也剥夺了别人证明自己的机会，他们当然会失败，但当年上面的人也是这么给你机会的。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Firstly, if you don’t delegate you’re never going to scale and you’re never going to find someone that can replace yourself, which is the best way to move up in the company.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Slayergnome，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1vpg59k/followup_what_this_year_has_been_like_as_a/p3xj2mx/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;关于 AI 工作的乏味，有人把整个行业的活儿浓缩成一句：做向量嵌入、存进数据库、拿用户查询去匹配文档、把结果塞进 prompt 调个 API 返回一段话，然后把这套重复一千遍——可招聘要求写得跟造火箭一样。发帖人回了句「说到点子上了」。而他帖子里最让我在意的一条，是关于他手下的初级工程师：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Create vector embeddings, store them in DB, user queries to match with documents, and sending the data on a prompt to some LLM API to return some blurb to the user. Rinse and repeat a thousand times without any kind of interesting variation.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/PoopsCodeAllTheTime，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1vpg59k/followup_what_this_year_has_been_like_as_a/p3xj2pp/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“My juniors are completely addicted to Claude… it’s been a massive headache for the number of times a junior has told me they made a decision without understanding why.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/The_Ozynandias（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1vpg59k/followup_what_this_year_has_been_like_as_a/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;「做了这个决定但说不出为什么」，这句话大概是今年技术团队里最普遍的隐患。它不是代码质量问题——AI 写的代码往往还挺能跑——而是决策链条断了：没人能解释这个方案为什么成立，于是也没人知道它在什么条件下会不成立。对带团队的人来说，值得把 code review 的问法换一换，少问「这段代码对不对」，多问「你为什么选这个方案，另外两个方案坏在哪」。&lt;/p&gt;
-
-&lt;h2 id=&quot;7700-人的研究说远程办公者幸福感最高然后呢&quot;&gt;7700 人的研究说远程办公者幸福感最高，然后呢&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vp3h33/remote_workers_report_the_highest_wellbeing_in/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一项覆盖 7700 名员工的研究显示，完全远程办公的人幸福感最高。这种结论在 Reddit 上几乎注定会收获一片「这还用研究？」——不用堵在路上、能在家吃饭、不必忍受开放式办公室的噪音和糟糕空气，谁会不高兴。于是讨论很快分成了两拨：一拨嫌这是废话研究，一拨认真论证废话研究为什么必要。&lt;/p&gt;
-
-&lt;p&gt;后者给出的理由挺有说服力：常识也曾告诉我们地球是平的、番茄有毒、疾病靠气味传播，让科学去复核常识从来都是划算的；何况「远程办公已死」这种说法在媒体上照样零数据地流传，你不拿研究去顶，场子就是对方的。也有人补了一记冷嘲：疫情刚开始那一个月，正是这些公司拼命造数据向投资人证明远程办公提高了生产率，如今只不过换成了找相反的数据。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It’s always a good idea to have science check common sense. Common sense told us the world was flat, tomatoes were poisonous and disease was spread by smells.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/DanielPhermous，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vp3h33/remote_workers_report_the_highest_wellbeing_in/p3ug2f8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;真正有信息量的是关于混合办公的那几条。有人一针见血地指出混合制最滑稽的形态：一周两天在路上堵两小时通勤到公司，然后坐在工位上开线上会议。所以混合办公的关键变量根本不是「在家几天」，而是全队是不是同一天到岗——不同步的混合等于两头的坏处都占了。另一位则给远程办公提了个真实的代价：新人加入一个已经磨合好的团队时，老关系会自然延续，新关系却很难建立，因为大家都能靠已有的连接把活干完，新人于是被晾在外面。还有人现身说法，说自己全远程三年后主动换了份混合的工作，就是为了找回一点人和人的接触，而这跟他当时单身、住在偏远地区有很大关系。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“For example, it can be very difficult for employees who are new to an established team in an all-virtual environment, as existing bonds will carry over but new bonds will often fail to form…”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Alaira314，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vp3h33/remote_workers_report_the_highest_wellbeing_in/p3wgjki/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;把这些拼起来，结论其实比标题细致：远程办公对已经融入团队的人几乎是纯收益，对刚进来的人则是实打实的门槛。所以更值得投入的不是争论几天到岗，而是给新人补上那条本来靠工位距离自动生成的关系链——固定的搭档、有人负责的入职期、以及至少一段时间的同步在场。至于「远程还是坐班」这个争论本身，这帖子里被点赞最多的那种无力感也很真实：数据摆了一堆，拍板的人依然按自己的偏好来。&lt;/p&gt;
-
-&lt;h2 id=&quot;英国旧书店的神秘批量订单可能是-ai-公司在囤未被污染的文本&quot;&gt;英国旧书店的神秘批量订单，可能是 AI 公司在囤「未被污染」的文本&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vp0821/secondhand_booksellers_in_uk_and_ireland_suspect/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;据《卫报》报道，英国和爱尔兰的二手书店最近陆续收到来自美国、加拿大和欧洲的神秘批量订单，同样的情况在美国、澳大利亚也在发生。英国最大的二手书店 Barter Books 的共同经营者说，这些订单三个月前开始出现，反常之处在于它们不像正常买家那样围绕体育、汽车之类的主题成组，而是杂乱无章。业界普遍怀疑买家是 AI 公司，目的是获取训练数据。&lt;/p&gt;
-
-&lt;p&gt;评论区提出了两条互不排斥的动机解释。第一条是法律层面的洗白：过去大量训练数据来自可疑来源，一旦哪天要清算，能拿出「这些书是我们买来的、扫描的是自己拥有的实体书」这套说法会非常有用——有人特意提到 Anthropic 因大规模盗版书籍吃了官司，法院认定有问题的正是盗版这一环，而买书恰好绕开了它。第二条更技术：2022 年之后的互联网文本已经被 AI 生成内容大面积污染，维基百科和互联网档案馆早被扒干净了，纸质书和旧杂志成了最后一批可信的非 LLM 语料。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It is because the internet is already filled with AI-driven texts and only printed books and magazines from before like 2022 are the last reliable source of non-LLM content.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/IRockIntoMordor，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vp0821/secondhand_booksellers_in_uk_and_ireland_suspect/p3u267m/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“However, Anthropic got in serious trouble for mass-pirating books to build that data, and the piracy was the part that judges ruled was inarguably a crime - so buying them is, obviously, the way around that.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/ElaraValtor，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vp0821/secondhand_booksellers_in_uk_and_ireland_suspect/p3u3r4e/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;评论区里最有分量的一条来自一位以卖二手书为生的人。有人认为 AI 公司买的都是两三英镑的便宜货，说明这些书没什么价值；他反驳说，在这行里「老」从来不等于「值钱」，1800 年代的皮面精装照样便宜得很，真正抬价的是稀有和独特——而稀有独特恰恰就是那些冷门非虚构，比如某个特定年代特定地区的农具志，信息准确、有出处，网上根本找不到。另一处让人不太舒服的细节是扫描方式：为了快，很多书是直接裁掉装订线拆开扫的，也就是说这些书在这个过程中被销毁了；有人担心的是万一数字副本也不公开，那些本就稀少的旧书就只剩下模型权重里的一个近似值。&lt;/p&gt;
-
-&lt;p&gt;这件事对中文读者的启发可能在另一个方向：真正稀缺的从来不是「大量文本」，而是有出处、成体系、且不是被别的模型生成出来的文本。中文互联网上高质量的专业资料本来就比英文世界更集中在少数几个封闭平台里，而 AI 生成内容的洪水来得只快不慢。谁手上握着 2022 年之前完整、干净、带出处的中文语料，几年后大概会发现自己坐在一座矿上——只希望到时候矿工进场的方式，不是拿裁刀把书脊切掉。&lt;/p&gt;
-</description>
-        <pubDate>Sun, 16 Aug 2026 09:20:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/16/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/16/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.08.16</title>
-        <description>&lt;h2 id=&quot;114-据-ft-报道openai-撤销集中式-preparedness-团队并分散职责&quot;&gt;1/14 据 FT 报道，OpenAI 撤销集中式 Preparedness 团队并分散职责&lt;/h2&gt;
-&lt;p&gt;Financial Times 经 Gary Marcus 转发的消息称，OpenAI 已在 7 月底撤销集中式 Preparedness 团队，把 Preparedness Framework 各风险领域的职责分配给其他团队。公开信息没有列出新的负责人、决策权限或问责链路，OpenAI 也尚未发布专门说明。其 5 月治理框架仍称 Preparedness Framework 是管理网络、CBRN、有害操纵和失控风险的基础，因此此次变化更像组织重组而非框架取消；集中协调和外部披露是否受影响仍待公司解释。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GaryMarcus/status/2088805389861318854&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GaryMarcus&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/theobearman/status/2088758426511757774&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@theobearman&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;214-dario-amodei-与-yann-lecun-正面交锋前沿监管还是开放权力制衡&quot;&gt;2/14 Dario Amodei 与 Yann LeCun 正面交锋：前沿监管还是开放权力制衡&lt;/h2&gt;
-&lt;p&gt;Dario Amodei 反对把监管等同于权力集中，称按能力分层测试、对低收入或低训练成本公司设豁免，可同时约束头部实验室并给追赶者留空间；开放权重也无法消除算力带来的集中。Yann LeCun 则主张像保护多元媒体一样保持 AI 的语言、价值观和专业多样性，认为只有开放基础模型能防止单一供应商决定“好”与“坏”。双方都承认集中风险，核心分歧是主要制衡应来自制度化监管还是开放竞争。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/DarioAmodei/status/2088758816376807762&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@DarioAmodei&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/ylecun/status/2088880284129210405&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ylecun&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;314-o3-mini-代理循环生成考题在-1700-人实地研究中达到可比心理测量质量&quot;&gt;3/14 o3-mini 代理循环生成考题，在 1,700 人实地研究中达到可比心理测量质量&lt;/h2&gt;
-&lt;p&gt;一项重新引发关注的大学实地研究用 o3-mini 在“生成—批评—修订”循环中制作选择题，覆盖 91 门课、约 1,700 名学生。AI 题平均正确率 60%，比 AP Statistics 人工题的 39% 更容易；平均区分度 1.3 对 1.2，峰值可靠性 0.79 对 0.72。结果说明旧模型配合可验证迭代也能产出有效题目，但人工对照只在 20 门统计课进行，研究仅覆盖选择题和 10 题短测验，不能外推到所有学科与考试形态。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2088864599701442925&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;414-qwen-全系累计下载突破-30-亿qwen38-27b-登顶-hugging-face-趋势榜&quot;&gt;4/14 Qwen 全系累计下载突破 30 亿，Qwen3.8-27B 登顶 Hugging Face 趋势榜&lt;/h2&gt;
-&lt;p&gt;Qwen 宣布其模型生态累计下载量达到 30 亿；同期 Qwen3.8-27B 成为 Hugging Face 趋势榜第一，并继续展示在笔记本、RTX Spark、手机和车载平台的部署。该 27B 开放权重模型已在前一日完成多平台 Day-0 铺开，今天的新信号主要是采用规模和社区热度，而不是新版本发布。下载次数包含重复拉取、自动化和镜像流量，不能直接等同活跃用户；趋势排名也反映短期关注，不代表统一基准下的模型质量。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2088881015855182122&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2088876951041941792&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2088891548507492646&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;514-yutori-披露浏览器代理生产栈navigator-推理提速-2-倍成本降至约五分之一&quot;&gt;5/14 Yutori 披露浏览器代理生产栈：Navigator 推理提速 2 倍、成本降至约五分之一&lt;/h2&gt;
-&lt;p&gt;Yutori 的 Navigator 以截图—动作循环驱动 Scouts、Delegate 和开发者 API，单任务可在 10–15 分钟内调用模型数十次，形成长输入、短工具输出与高前缀复用的特殊负载。Together AI 称其基于 vLLM prefix caching 的部署达到每步 2 倍速度、4–5 倍更低成本，并为持续运行任务提供 99.9% SLA。Navigator 用合成与真实网站进行 SFT 和强化学习；性能数字来自供应商客户案例，页面未公开基准、样本量与失败率，仍需独立复核。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/togethercompute/status/2088807960457699509&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;614-openai-暗示让模型路由取代手动选择产品控制权争议随之升温&quot;&gt;6/14 OpenAI 暗示让模型路由取代手动选择，产品控制权争议随之升温&lt;/h2&gt;
-&lt;p&gt;Greg Brockman 表示 OpenAI 正朝“不再需要手动选择模型”的方向推进，指向由系统按任务自动分配速度、成本和能力不同的模型。推文没有给出上线时间、适用产品、路由指标或是否保留强制选择，因而目前更接近产品方向声明。自动路由可降低普通用户的选择负担，也可能改变可复现性、成本预期和上下文连续性；回复中已有用户要求保留显式控制。是否提供锁定模型、路由解释和企业策略将决定这一设计的接受度。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/gdb/status/2088658133971509640&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;714-chatgpt-搜索加入餐厅可用时段与第三方预订入口&quot;&gt;7/14 ChatGPT 搜索加入餐厅可用时段与第三方预订入口&lt;/h2&gt;
-&lt;p&gt;Greg Brockman 提醒用户尝试 ChatGPT 的 reservation search。OpenAI 帮助文档显示，餐厅结果可展示受支持第三方平台的可用时间和 Reserve 按钮，并把提示词中的人数、日期与时间预填到外部流程；用户仍需检查并确认。该能力并不覆盖所有餐厅、地区和服务商，ChatGPT 也不保存已完成预订，取消或修改需回到第三方平台。产品由信息检索向低风险交易入口延伸，但当前仍是搜索、跳转和预填，而非独立闭环代理。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/gdb/status/2088489438297133066&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;814-runway-为-seedance-25-开放-1080p-早期访问&quot;&gt;8/14 Runway 为 Seedance 2.5 开放 1080p 早期访问&lt;/h2&gt;
-&lt;p&gt;Runway 宣布 Seedance 2.5 的 1080p 生成进入早期访问，强调更清晰的高分辨率细节。其产品页将 Seedance 2.5 描述为可组合最多 50 个文本、图像、视频和音频参考，原生生成最长 30 秒、多镜头且带声音的视频，并计划在正式发布时覆盖所有付费方案；但页面仍标注“coming soon”，说明本次 1080p 入口属于分阶段开放。官方尚未披露早期访问范围、积分消耗、生成速度和与 4K 版本的时间表。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/runwayml/status/2088510581120647272&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@runwayml&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;914-abacus-ai-推出一段提示词配置的企业-voice-agents&quot;&gt;9/14 Abacus AI 推出一段提示词配置的企业 Voice Agents&lt;/h2&gt;
-&lt;p&gt;Abacus AI 宣布 Voice Agents：用户用文本提示配置企业电话支持，可分配免费电话号码、连接内部系统、选择或定制类人声线，并把呼叫处理纳入现有 ChatLLM 订阅。公告把号码、系统集成、声音和业务流程压缩到一次配置，目标是降低呼叫中心代理的部署门槛。推文没有说明支持国家、并发上限、通话单价、转人工、录音合规、延迟或系统连接器清单，因此现阶段可确认的是产品入口和订阅捆绑，企业级服务指标仍待文档补充。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/bindureddy/status/2088829927751643402&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@bindureddy&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1014-arcee-开源-nac用中央编排器--threads--episodes守住长任务意图&quot;&gt;10/14 Arcee 开源 nac，用“中央编排器 + threads + episodes”守住长任务意图&lt;/h2&gt;
-&lt;p&gt;Arcee 开源 Apache-2.0 的 nac agent harness，面向实验、训练、基础设施与原型等长时间任务。中央 orchestrator 只做规划和拆分，不能执行命令或编辑文件；独立 threads 执行工作，再用结构化 episodes 汇报结果，以分离决策、执行和状态摘要。项目提供本地 Web 界面、MCP、可移植 onboarding skill，并支持 Arcee、ChatGPT Codex OAuth 及多种兼容 API。架构与代码已公开，但公告没有给出成功率、成本或对照基准。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/ClementDelangue/status/2088659946825228570&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1114-langchain-提出拥有自己的智能模型上下文与-harness-都要可迁移&quot;&gt;11/14 LangChain 提出“拥有自己的智能”：模型、上下文与 harness 都要可迁移&lt;/h2&gt;
-&lt;p&gt;Harrison Chase 在演讲中把代理概括为“模型 + harness + context”：模型权重可自有或可替换，记忆应可迁移，harness 需与模型解耦并按用例提供正确上下文。组织还应保留私有评测、trace、反馈、决策和机构知识，以“运行代理—收集轨迹—发现关键样本—改进系统”形成数据飞轮。LangChain 以 middleware、Deep Agents、LangGraph、Harbor 和 LangSmith Engine 对应这些层。该主张强调长期竞争力来自可配置执行层和反馈资产，而非单次选择最强模型。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2088653366335582629&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1214-grok-bot-扩展到本地-cli记忆系统与-unity-游戏构建&quot;&gt;12/14 Grok Bot 扩展到本地 CLI、记忆系统与 Unity 游戏构建&lt;/h2&gt;
-&lt;p&gt;Grok 4.6 发布后的下游实验继续扩散：用户称 Grok Bot 可调用本机 CLI，并连接自托管记忆系统；Matt Shumer 则在训练它通过 Unity 构建游戏，承诺后续公开进展。Elon Musk 转发这些案例，把 Grok Bot 定位从聊天入口推进到可操作本地工具链的执行代理。当前证据主要来自用户演示和开发者预告，尚未给出权限隔离、凭据管理、失败恢复、Unity 项目质量或可复现实验；这次更新是用例扩展，不是新的模型版本。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@elonmusk&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2088786101486182418&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2088786270424313955&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/mattshumer_/status/2088666207108948281&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mattshumer_&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1314-databricks-用-devhub-prompts-与-apps-模板缩短代理应用部署路径&quot;&gt;13/14 Databricks 用 DevHub prompts 与 Apps 模板缩短代理应用部署路径&lt;/h2&gt;
-&lt;p&gt;Databricks 展示用 DevHub prompts 驱动编码代理检查环境、安装依赖、搭建应用并部署到 workspace，再通过模板持续扩展而无需从零开始。Genie Analytics 模板可加入聊天界面，让用户用自然语言查询 workspace 数据；官方文档还提供 OpenAI Agents SDK 模板、MLflow tracing/evaluation、ResponsesAgent 接口和 Genie Agent 资源。该更新把“提示词 + 模板 + 托管运行时”组合成应用入口，但实际部署仍需配置服务主体、Unity Catalog 数据权限和底层 SQL/模型资源。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2088652565026050093&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1414-ai-采用的下一道门槛可能是消费者态度而非纯粹成本&quot;&gt;14/14 AI 采用的下一道门槛可能是消费者态度，而非纯粹成本&lt;/h2&gt;
-&lt;p&gt;Ethan Mollick 指出，独立游戏开发者资源最紧张、最有动力借助 AI，却常比大型工作室承受更严格的社区审查，导致部分团队选择使用但不披露。他进一步认为，消费者对 AI 的情感会决定哪些行业因自动化变得高效、哪些行业反而强调手工与“非 AI”价值；跨越两类受众的产品尤其难处理。该观点没有提供量化调查，但揭示了部署经济性之外的采用约束：标签、信任和审美规范可能改变技术扩散速度。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2088667047635169480&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2088667680282964460&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2088669291231260779&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;openai-preparedness-重组框架仍在集中问责结构变得不透明&quot;&gt;OpenAI Preparedness 重组：框架仍在，集中问责结构变得不透明&lt;/h3&gt;
-&lt;p&gt;FT 报道称集中式团队在 7 月底被撤销，各风险领域职责分散到其他团队；现有公开材料没有说明新负责人、跨领域升级机制、Safety Advisory Group 的接口或董事会如何获得统一判断。OpenAI 5 月仍把 Preparedness Framework 定义为严重风险治理基础，并在网络、CBRN、有害操纵、失控、事件响应和外部专家参与上保留流程。因此不能把组织撤销直接解读为停止风险工作，但在 Astra 网络能力触及“Critical”讨论、近期安全负责人流动的背景下，缺少主动说明会放大外界对协调和独立性的疑问。
-&lt;a href=&quot;https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;dario-amodei-与-yann-lecun双方都反集中但选择了不同的制衡器&quot;&gt;Dario Amodei 与 Yann LeCun：双方都反集中，但选择了不同的制衡器&lt;/h3&gt;
-&lt;p&gt;Amodei 认为前沿能力天然受 scaling laws 与算力约束而趋向集中，开放权重只能把部分控制转移给有芯片的人；他主张对前沿实验室实施更严格测试，同时以收入或训练成本阈值豁免小公司，让制度约束公司权力。LeCun 则认为 AI 像媒体和互联网，需要多语言、多价值观、多偏好的开放基础模型来对冲单一供应商，否则“安全”会成为定义合法智能的权力。两条路线都承认恶意使用与集中风险，争点不是要不要分权，而是规则、模型可得性和算力三者中哪一项应承担主要制衡。
-&lt;a href=&quot;https://darioamodei.com/post/policy-on-the-ai-exponential&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;ai-生成考题代理循环改善了质量但对照设计限制了结论边界&quot;&gt;AI 生成考题：代理循环改善了质量，但对照设计限制了结论边界&lt;/h3&gt;
-&lt;p&gt;研究先为每门课生成 40 道题，再反复让模型批评、修订和筛选为 10 题。71 门课程约 1,200 人接受 AI 题，20 门统计课约 500 人接受 AP Statistics 人工题。AI 题更容易，却具有相当或略高的区分度；36% AI 题达到“高/很高”区分度，人工题为 21%，试卷峰值可靠性为 0.79 对 0.72。不过人工对照仅限统计课、AP 题仍由 LLM 匹配到具体课程、学生并未随机在同一课程内接受两类题，且只测试选择题和短测验。结果支持“可规模化辅助命题”，尚不足以证明全面替代教师。
-&lt;a href=&quot;https://5harad.com/papers/ai-exams.pdf&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;yutori-navigator浏览器代理把推理优化变成产品可靠性问题&quot;&gt;Yutori Navigator：浏览器代理把推理优化变成产品可靠性问题&lt;/h3&gt;
-&lt;p&gt;Navigator 每一步都附加新截图和动作历史，单任务可能在 10–15 分钟内调用数十次模型，呈现长且不断增长的输入、短输出与高缓存复用。Together 使用 vLLM prefix caching 复用不变历史，并分别优化后台 Scouts 的吞吐与前台 Delegate 的延迟。官方案例称相对前沿模型达到 2 倍速度、4–5 倍成本优势和 99.9% SLA，还能短时间扩容 GPU。页面没有公开具体基准、比较模型版本、成功率或缓存命中率，数值更适合说明生产负载设计，而非作为通用浏览器代理排行榜。
-&lt;a href=&quot;https://www.together.ai/customers/yutori&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;arcee-nac让不能执行的编排器监督能执行的工作线程&quot;&gt;Arcee nac：让不能执行的编排器监督能执行的工作线程&lt;/h3&gt;
-&lt;p&gt;nac 把长任务状态拆成中央 orchestrator、执行 threads 与结构化 episodes。编排器只规划、启动线程和阅读摘要，不可直接改文件或运行命令，从权限上降低“边规划边执行”导致的漂移；线程在独立上下文工作，episode 将结果压缩回主状态。项目提供 Web UI、MCP、onboarding skill 与多供应商认证，适合实验、训练和基础设施任务。其有效性仍依赖 episode 是否忠实、停止条件是否稳健以及执行线程的验证质量，仓库暂未给出与其他 harness 的系统对照。
-&lt;a href=&quot;https://github.com/arcee-ai/nac&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;chatgpt-餐厅预订交易代理先从可撤回可核验的低风险步骤切入&quot;&gt;ChatGPT 餐厅预订：交易代理先从可撤回、可核验的低风险步骤切入&lt;/h3&gt;
-&lt;p&gt;ChatGPT 可在餐厅搜索结果中显示第三方平台的可用时段和 Reserve 按钮，并把用户提示里的人数、日期和时间预填入外部流程。用户必须再次核对并确认；ChatGPT 不保存预订，取消和修改也不在聊天内完成。这个边界把模型放在发现、匹配和表单预填层，把最终承诺与售后留给第三方，降低错误交易的影响。覆盖度取决于餐厅与服务商匹配，OpenAI 没有公布地区清单、转化率或错误率，现阶段应视为搜索产品的交易入口，而非完全自主代理。
-&lt;a href=&quot;https://help.openai.com/en/articles/9237897-conducting-your-searches-on-searchgpt&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 16 Aug 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/08/16/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/16/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.08.15</title>
-        <description>&lt;p&gt;今天这五帖凑在一起，问的其实是同一个问题：你凭什么相信眼前这个东西是对的。一篇顶会论文、一段 AI 写出来的代码、一个签名有效的系统文件、一个号称升级了的模型权重，甚至你每天用的浏览器——它们都自称没问题，而真去验证的人发现，验证这件事本身既昂贵又不受待见。&lt;/p&gt;
-
-&lt;h2 id=&quot;hugging-face-让-agent-复现了-2226-篇-icml-论文结果不太好看&quot;&gt;Hugging Face 让 agent 复现了 2226 篇 ICML 论文，结果不太好看&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1vobzd9/what_hugging_face_learned_from_reproducing_2200/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Hugging Face 办了一场超大规模的复现马拉松：1221 名参与者提交了 6816 份实验日志，覆盖 ICML 2026 已录用论文的三分之一强（2226 篇），一共审了 35908 条具体论断。结论是 51% 的论文至少有一条论断被独立验证成功，但 23% 的论文里出现了被证伪或存在争议的结论——其中 49 篇所有论断都没能通过验证，另有 242 篇是不同团队跑出了相反的结果。做这件事的主力是 Claude Code、Codex 这类编码 agent，人类负责纠偏和判断。&lt;/p&gt;
-
-&lt;p&gt;评论区第一反应很直接：这说明同行评审已经名存实亡了，现在的审稿状态大概是「我扫了一眼，行吧」和「我的模型觉得这篇没问题」的混合体。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Peer review is essentially dead”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/EverythingGoodWas，&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1vobzd9/what_hugging_face_learned_from_reproducing_2200/p3oeh15/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;但紧跟着的反驳更有意思：用 agent 复现恰恰是对同行评审的补课，而不是它的替代品失灵。传统审稿人做的是读文本、对着方法论给一个主观判断，几乎没人真去把代码跑一遍；而这次 agent 干的是把实验重跑一遍看数字对不对得上。也就是说，糟糕的不是「AI 参与了评审」，而是「以前根本没人做过这一步」。还有人注意到 23% 这个数字对应的是实打实的学术信用问题，却几乎没有任何后果——顺手吐槽了一句现在有人名下能挂二十五篇论文。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“An LLM is attempting to reproduce the results, not just read the text and assess subjective quality of the research finding…”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Majestic_Courage_535，&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1vobzd9/what_hugging_face_learned_from_reproducing_2200/p3ostpn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;报告本身给出的教训比这场吵架更务实：纯 agent 自动跑会撞墙，最可靠的结果来自人在旁边不断打断、追问前提、否掉走歪的思路。这对国内正在把 agent 塞进研发流程的团队是个挺具体的参照——agent 的价值不在于替你完成，而在于把「验证」的成本压到你终于愿意做的程度；真正决定结果的，还是有没有人愿意站在旁边说「这一步的假设不对」。&lt;/p&gt;
-
-&lt;h2 id=&quot;vibe-coding-的代码一年之后长什么样&quot;&gt;vibe coding 的代码一年之后长什么样&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/webdev/comments/1vnx44m/has_anyone_actually_maintained_a_vibe_coded/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一位开发者在 r/webdev 说自己跟踪了十二个月：vibe coding 项目的前三个月都挺好，功能上得飞快，客户满意；问题出在第一次要改动已有东西的时候——没人说得清某个决定当初为什么这么做，依赖是模型建议才加的而不是谁评估过，不同文件的风格因为提示词不同而彼此打架，测试也是生成的、未必测在点子上。他见过撑住的项目，也见过维护成本超过重写成本、正在被悄悄推倒重来的项目。&lt;/p&gt;
-
-&lt;p&gt;评论区最热闹的部分居然是在争定义：好几个人指出，Karpathy 造这个词的时候写的是「完全交给感觉，忘掉代码的存在」，所以只要你认真审过代码，那压根就不叫 vibe coding，而是 AI 辅助开发；对面则认为词义早就漂移了，现在大家说 vibe coding 就是指「大部分代码是 AI 写的」。这场拉锯打了几十层，中间冒出一个很值得记下的反驳：读代码和写代码带来的理解程度完全不同，「我读过一遍」很容易变成一种自我安慰——你以为自己看懂了，其实只是看过了。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The second half is just programming with a better autocomplete, the first is outsourcing your design memory. Once the reasoning leaves your head and only lives in the model’s output, maintenance turns into archaeology.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Routine-Post-6982，&lt;a href=&quot;https://www.reddit.com/r/webdev/comments/1vnx44m/has_anyone_actually_maintained_a_vibe_coded/p3l5deo/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;另一条把经济账算明白了：如果你每天的产出还是几百行，那用不用 AI 差别不大，不如省下 token 钱；可一旦涨到几千行，你名义上还在 review，实际上大脑已经跟不上了。这句话其实道破了 vibe coding 争论里最尴尬的一点——「我认真审」和「AI 让我快很多」这两件事，在同一个时间预算里很难同时成立。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Going from a few hundred lines every day to a few thousand means you review, but don’t have the cognitive bandwidth to keep up.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/theQuandary，&lt;a href=&quot;https://www.reddit.com/r/webdev/comments/1vnx44m/has_anyone_actually_maintained_a_vibe_coded/p3mtyte/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;抠字眼看着无聊，但这次争的其实是责任边界：项目出事的时候，「这是 AI 写的」不构成任何解释。真正会在一年后咬人的，不是代码丑，而是决策的理由没留在任何人脑子里，也没落到文档里——维护于是变成了考古。对国内团队来说，比起纠结用不用 AI，更值得立刻做的是把「为什么这么设计」重新写回代码库：ADR 也好、PR 描述也好，让理由和代码一起进版本库。&lt;/p&gt;
-
-&lt;h2 id=&quot;qwen38-27b-和上一代权重结构一模一样&quot;&gt;Qwen3.8-27B 和上一代权重结构一模一样&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1voblcs/qwen3827b_is_identical_to_qwen3627b/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;有人把 Qwen3.8-27B 和 Qwen3.6-27B 的配置拿去做 diff，结果是零改动：架构完全相同，也就是说这一代的能力提升全部来自训练侧——数据、后训练、RL 环境这些看不见的部分。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Interestingly, the 3.8 version has exactly the same architecture - meaning all the capability gains come from training improvements!”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Course_Latter（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1voblcs/qwen3827b_is_identical_to_qwen3627b/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;评论区有两条线索比这个发现本身更值得看。一条是把它归类：这更像是一次「更新」而不是重新训练，和 DeepSeek V3 那几个小版本是同一个套路——架构按住不动，只改后训练，等到大版本号才动结构；也有人给出更技术的猜测，说这种跃升多半来自 RL 环境加上策略内蒸馏。另一条线索是社区顺势聊起 LoRA 热插拔：既然底座不变，那把不同领域的适配器像 Stable Diffusion 那样挂上去就变得现实了。有人说这早在 2024 年 LoRax 就干过，也有人指出社区所谓的 finetune 其实大多就是 LoRA 合并回底座，不如干脆把 LoRA 本身放出来。最实用的是一条亲测数据：适配器不是白挂的，光是加载就吃吞吐。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“So if I get 200 t/s on my 5090 with no adapters it will drop to 120 t/s with one adapter loaded (whether you use the adapter or not). With 4 adapters loaded I was seeing like 50 t/s.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/stephen_holograf，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1voblcs/qwen3827b_is_identical_to_qwen3627b/p3ppxip/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这事对本地部署的人是个好消息：架构不变意味着推理框架、量化脚本、显存估算这些全都能直接复用，升级成本几乎为零。往大了说，模型迭代的竞争重心已经明显从「谁的结构更聪明」挪到了「谁的数据和后训练更狠」，而后者恰恰是外人最难验证的部分——你能 diff 出架构没变，却 diff 不出人家在训练上做了什么。&lt;/p&gt;
-
-&lt;h2 id=&quot;不装任何工具怎么查一个可疑的二进制文件&quot;&gt;不装任何工具，怎么查一个可疑的二进制文件&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/sysadmin/comments/1vo7sp0/verifying_a_suspicious_binary_on_a_lockeddown/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一位 sysadmin 写了篇很实在的清单：服务器上有个文件看着不对劲，但公司策略不让装 Sysinternals，Server Core 又没有图形界面，那就只用系统自带的 PowerShell 查。签名用 Get-AuthenticodeSignature（注意 Windows 很多系统文件是编目签名而非内嵌签名）；改名会露馅，因为二进制会保留编译时的 OriginalFilename；有没有 Zone.Identifier 数据流能看出它是下载来的还是随系统发的；再配合进程树、命令行、网络连接和哈希比对——他还推荐了 winbindex 和 CIRCL hashlookup 这类可以自己查的公开数据集，并提醒 SHA256 查不到 NSRL 的老记录，得用 SHA1。&lt;/p&gt;
-
-&lt;p&gt;评论区把这套方法的边界画得比原帖更清楚。最要紧的一条是：签名有效只回答了「有人拿证书签过它」，不回答「它该不该出现在这台机器的这个位置」；被盗用的签名证书、以及本身完全合法却被拿来当加载器用的微软自带程序（LOLBin），能干干净净地通过上面每一项检查。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“A legitimately signed tool sitting in a place it has no business being is the more common finding, and it looks completely green here.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/SecLens_ONE，&lt;a href=&quot;https://www.reddit.com/r/sysadmin/comments/1vo7sp0/verifying_a_suspicious_binary_on_a_lockeddown/p3ndmmw/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;另一位直接质疑：足够高明的恶意软件可以在运行中的系统上骗过所有这些检查。楼主的回应是全帖最清醒的一段——这些命令全都要经过操作系统，内核级的东西当然可以对它们撒谎，但你的 EDR 同样是跑在这台机器上的一个 agent，处境没好到哪去；真正意义上的外部观测，便宜版本是从机器之外看它的网络流量，而不是让嫌疑人自己做证。还有人补了取证纪律：动手之前先把路径、属主、ACL、哈希、进程树、命令行和连接记录下来，别执行也别上传那个未知文件（因为提交哈希本身就可能惊动对手）。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Everything I listed goes through the OS, so kernel-level malware can lie to all of it. Same goes for your EDR though, it’s an agent on the same box.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Haunting_Ganache_850（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/sysadmin/comments/1vo7sp0/verifying_a_suspicious_binary_on_a_lockeddown/p3o2ngf/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;值得学的其实不是这几条命令，而是那套判断力：每项检查各自能证明什么、不能证明什么，被作者标得清清楚楚——时间戳一致说明不了任何事，但不一致就很说明问题；OriginalFilename 是攻击者可控字段，只有和签名放在一起看才有意义。安全工作里最危险的从来不是没有工具，而是把一个绿色的对勾当成结论。&lt;/p&gt;
-
-&lt;h2 id=&quot;firefox-成了最后一个还支持-ublock-origin-的主流浏览器&quot;&gt;Firefox 成了最后一个还支持 uBlock Origin 的主流浏览器&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1voafjc/firefox_is_now_the_last_major_browser_that_still/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;随着 Chromium 阵营全面转向 Manifest V3，完整版 uBlock Origin 在主流浏览器里只剩 Firefox 还能用。评论区一半是迁移故事——不少人说自己是在 uBO 被 Chrome 下架那天卸载了用了十几年的浏览器，也有人反过来解释当年为什么离开 Firefox：内存泄漏、性能拉胯、直到最近才支持 HDR，还有公司 IT 根本不让装。有人给了个实用解法：遇到只认 Chrome 的网站，用 Chrome Mask 之类的扩展把 UA 伪装一下基本就能过，Mozilla 自己也维护着一份这样的兼容清单。&lt;/p&gt;
-
-&lt;p&gt;真正有意思的是关于钱的那段。有人指出 Google 每年付给 Mozilla 的搜索默认引擎费大约是五亿到十亿美元量级，占 Mozilla 收入的绝大部分，而且金额和市场份额挂钩；于是形成一个尴尬的循环：唯一还在保护你免受广告追踪的浏览器，钱是广告公司给的。顺着这个思路，有人怀疑 Google 其实乐见现状——留着一个份额只有百分之三四的 Firefox，正好当反垄断的挡箭牌，又不真的构成威胁。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“If anything, they likely prefer the status quo where Firefox exists to maintain a facade of competition, while Firefox market share is ~3-4% not seriously encroaching on Chrome’s majority share.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/xpxp2002，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1voafjc/firefox_is_now_the_last_major_browser_that_still/p3ov2do/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这条阴谋论式的判断被一位显然在 Mozilla 待过的人接住了，他的反驳角度完全不同：份额从来不是 Mozilla 的目标。他列了一长串 Mozilla 主导或参与推动的标准——WebAssembly、WebGL、WOFF、IndexedDB、WebRTC，以及 HTTP/2、HTTP/3、DNS over HTTPS、Opus、AV1——并举了个具体例子：Mozilla 和 Safari 团队联手顶住一个侵犯隐私的特性，Google 就会把它撤掉。另外他还澄清了「Google 会不会干脆买下 Mozilla」这个流传很广的猜测：开发 Firefox 的 Mozilla Corporation 是非营利的 Mozilla Foundation 全资子公司，没有公开股票也没有外部股东，谁也没法强买。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It’s there to ensure there’s a counterbalancing force on Web so that commercial interests aren’t the only interests being served.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/asadotzler，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1voafjc/firefox_is_now_the_last_major_browser_that_still/p3p8ydw/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这个视角挺提神：我们习惯用市场份额衡量一个东西还有没有价值，但在标准制定的桌子上，投票权和用户数不是一回事——只要还有第二个独立实现，某些提案就推不动。对中文互联网的用户来说，这件事的现实意义在于浏览器内核的多样性正在肉眼可见地变薄；等到某天只剩一种内核，网页能长什么样、能拦掉什么，就真的由一家公司说了算了。&lt;/p&gt;
-</description>
-        <pubDate>Sat, 15 Aug 2026 09:30:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/15/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/15/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.08.15</title>
-        <description>&lt;h2 id=&quot;117-cursor-正式被-spacex-收购加入-spacexai-推进-grok-与开发工具&quot;&gt;1/17 Cursor 正式被 SpaceX 收购，加入 SpaceXAI 推进 Grok 与开发工具&lt;/h2&gt;
-&lt;p&gt;Cursor 宣布已完成被 SpaceX 收购，将加入 SpaceXAI 团队，共同改进 Grok、Grok Build、Grok Bot、Grok API 与 Cursor。双方 4 月已建立模型训练和算力合作，SpaceX 公开文件曾披露以约 600 亿美元隐含股权价值收购 Cursor 的选择权；本次官方推文确认交易已经交割，但没有披露最终对价、股权结构、管理层安排或产品数据边界。Cursor 表示将继续推进其开发工具，后续重点是模型、算力与编码入口的纵向整合。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cursor_ai/status/2088249881718919393&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/elonmusk/status/2088273489820061920&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@elonmusk&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;217-anthropic-第二份风险报告上调不确定性三类总体风险仍评为低&quot;&gt;2/17 Anthropic 第二份风险报告上调不确定性，三类总体风险仍评为“低”&lt;/h2&gt;
-&lt;p&gt;Anthropic 发布 186 页《Risk Report: August 2026》，覆盖失调、自动化研发和化学生物武器三类灾难性风险。公司把高风险场景失调从“极低”上调为“低”，并称近期网络安全评估事件增加了不确定性；非新型化生武器风险也因已修复的访问控制缺口高于上次估计。报告称 Claude 已生成其生产代码库合并代码中的“大多数”，内部 AI 研发速度显著提高但尚未达到 2 倍，同时承认部分评测饱和、隐蔽能力难测和安全流程仍有缺口。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AnthropicAI/status/2088324824863236248&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AnthropicAI&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;317-claude-将为未来输出加入不可见文本水印并计划开放检测-api&quot;&gt;3/17 Claude 将为未来输出加入不可见文本水印，并计划开放检测 API&lt;/h2&gt;
-&lt;p&gt;Anthropic 将为未来 Claude 模型采用 SynthID-Text 类水印，以满足欧盟 AI 法案透明度要求。该方法不插入隐藏字符，而是在语义相近的候选词之间用密钥与上下文改变随机选择，长文本可据此估计 Claude 参与概率。公司称水印不增加 token、价格或可感知延迟，也不携带用户和组织身份；短文本、事实性内容、代码和轻度校对因可选择空间小，检测效果较弱，完整重写也能削弱水印。图片等文件将使用 C2PA 内容凭证。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AnthropicAI/status/2088343978873966687&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AnthropicAI&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;417-pika-发布四款音频基础模型覆盖配乐歌曲音效与语音&quot;&gt;4/17 Pika 发布四款音频基础模型，覆盖配乐、歌曲、音效与语音&lt;/h2&gt;
-&lt;p&gt;Pika 推出 Soundtrack、Music、SFX 和 Speech 四款模型：可为视频生成同步配乐与音效，按提示词、歌词、声线和参考曲生成最长 6 分钟歌曲，生成最长 20 秒 44.1 kHz 立体声音效，并以预设或克隆声线合成 48 kHz 语音。公司称 SFX 成本最高低 20 倍、Music 最高低 10 倍、Speech 较 ElevenLabs v3 低 9 倍，90 秒歌曲平均 6.21 秒生成。数字来自官方自测和截至 8 月 14 日的价格比较，模型现仅在 Pika API Club 提供。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@pika_labs&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2088394693289930757&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2088394694653104458&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;517-hugging-face-报告qwen-成为开放模型底座小模型仍主导真实使用&quot;&gt;5/17 Hugging Face 报告：Qwen 成为开放模型底座，小模型仍主导真实使用&lt;/h2&gt;
-&lt;p&gt;Hugging Face 的夏季报告显示，公开模型仓库今年前七个月从 243 万增至 296 万，但 85.6% 模型终身下载少于 200 次，1.5% 仓库贡献 99.2% 下载。Qwen 已形成 151,448 个衍生模型，是 Meta 总量的 2.6 倍；其 GGUF 月下载 3,960 万次，近 Gemma 的两倍。小于 1B 参数模型占历史下载 83%，大于 100B 仅占 1%。代理流量中 Claude Code 7 月占 44.4%，Codex 从 4 月 10.4% 升至 20.8%；报告强调点赞代表关注，下载更接近采用。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/huggingface/status/2088301795890044975&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@huggingface&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;617-andrew-ng-发布-ai-工程技能地图编码代理成为四大核心能力之一&quot;&gt;6/17 Andrew Ng 发布 AI 工程技能地图，编码代理成为四大核心能力之一&lt;/h2&gt;
-&lt;p&gt;Andrew Ng 团队分析逾 10,000 条招聘信息，并结合数十次专家与招聘访谈、问卷和在线数据，归纳四类 AI 工程技能：构建和部署 AI 应用、软件工程基础、使用编码代理、塑造产品构建方向。地图强调用评测与错误分析控制 AI 的非确定性，理解成本、扩展性、可靠性与安全权衡，掌握上下文管理、验证器、多代理协作和生产保护，并让工程师参与规格、产品判断与客户目标。其定位面向所有开发者，不限于“AI Engineer”职位。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AndrewYNg/status/2088302050706686198&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AndrewYNg&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;717-qwen38-完成-day-0-生态铺开27b-模型瞄准单卡本地运行&quot;&gt;7/17 Qwen3.8 完成 Day-0 生态铺开，27B 模型瞄准单卡本地运行&lt;/h2&gt;
-&lt;p&gt;Qwen 团队集中公布 Qwen3.8 的推理与平台接入：27B 版本经量化可在约 17 GB 内存运行，SGLang 称其在单张 RTX 5090 上达到 206 tokens/s；vLLM 支持单卡与 100 万上下文，Ollama、LM Studio、AMD、MediaTek 和 RTX Spark 也已接入。Qwen3.8-Max 被描述为 2.4T 参数、100 万上下文，并在 Modal、Fireworks、Together、DeepInfra、DigitalOcean 等平台上线。性能和内存数字来自合作方配置，需结合量化精度与上下文长度复核。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2088293486995087461&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2088296583368781939&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2088292188505755728&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2088287553292312968&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;817-gemini-37-flash-进入-gemini-chat面向-pro-与-ultra-用户开放&quot;&gt;8/17 Gemini 3.7 Flash 进入 Gemini Chat，面向 Pro 与 Ultra 用户开放&lt;/h2&gt;
-&lt;p&gt;Google 的 Gemini 3.7 Flash 现已向 Gemini Chat 的 Pro 和 Ultra 用户开放。官方称该更新提高推理与多步任务准确性，示例包括把分散在数十个文件与邮件中的信息连接、整理为一份主文档；此前该模型已用于 Gemini Spark，并强调对 Google Workspace 工具调用的精确度。此次公告主要是产品覆盖扩展，没有新增价格或基准。模型能力细节沿用前一日发布，本次可确认的是 Gemini Chat 网页端和应用端的付费用户已可直接使用。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GeminiApp/status/2088326407730692538&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GeminiApp&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GoogleDeepMind/status/2088344135686062163&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;917-grok-46-扩展到-copilotbuild-工作流与多模态理解&quot;&gt;9/17 Grok 4.6 扩展到 Copilot、Build 工作流与多模态理解&lt;/h2&gt;
-&lt;p&gt;Grok 4.6 的产品覆盖继续扩大：模型进入 Copilot，Grok Build 新增 Workflows，可规划任务并并行运行数百个代理后汇总报告；SpaceXAI 同时强调图像、视频理解和 CAD 使用，并称其在 CursorBench 真实编码任务上排名第一。ARC Prize 验证结果显示其 ARC-AGI-1/2 分别为 87.5%/67.1%，ARC-AGI-3 为 2.11%，后者成本 5,600 美元。不同结果依赖 reasoning 强度、harness 和预算，产品接入已确认，能力排名仍需独立复现。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@elonmusk&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2088443051890917436&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2088139169667113370&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2088138697002668110&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2088127459971522726&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1017-together-ai-称-deepseek-v4-pro-在软件工程任务上显著压低成本&quot;&gt;10/17 Together AI 称 DeepSeek-V4 Pro 在软件工程任务上显著压低成本&lt;/h2&gt;
-&lt;p&gt;Together AI 使用 DeepSWE 比较 DeepSeek-V4 Pro 0813、GPT-5.6 Sol 与 Fable 5，称 DeepSeek 在软件工程任务上达到 88.5% pass@4，单任务成本 0.24 美元，分别比 Sol 和 Fable 低约 35 倍与 90 倍。该结果强化开放模型在编码代理上的价格竞争，但推文未给出样本量、任务拆分、延迟、推理预算和完整复现实验，且 pass@4 与单次成功率不能直接等同。数字应视为 Together AI 的基准陈述，适合关注成本曲线，不宜直接推导生产替代结论。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/togethercompute/status/2088468211159171246&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1117-nvidia-推出-nemo-switchyard用路由拆分代理规划与执行模型&quot;&gt;11/17 NVIDIA 推出 NeMo Switchyard，用路由拆分代理规划与执行模型&lt;/h2&gt;
-&lt;p&gt;NVIDIA 发布开源 NeMo Switchyard 模型路由库，目标是让代理工作流不必在每一步使用同一模型：复杂推理和规划交给前沿模型，高频、专门化执行可路由至 Nemotron Lightning 等成本更低的模型。路由把质量、延迟和费用从单一模型选择转为按任务阶段动态分配。NVIDIA 文档显示 Switchyard 可作为 NeMo Relay 的决策层，并支持强弱模型流量拆分；部分集成仍标记为实验性，部署需要独立决策服务、目标绑定、可信回退和可观测性配置。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/NVIDIAAI/status/2088339706752983230&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1217-arc-agi-3-头部方案转向-llm-动态生成符号世界模型&quot;&gt;12/17 ARC-AGI-3 头部方案转向 LLM 动态生成符号世界模型&lt;/h2&gt;
-&lt;p&gt;François Chollet 指出，当前 ARC-AGI-3 表现最好的 harness 普遍采用“LLM 引导、即时合成符号世界模型”：代理通过编写可执行代码表达对环境因果机制的理解，再据此规划行动。他认为这条路线不只适用于 ARC。与此同时，公开 demonstration set 不是训练集或正式评测集，半私有 Kaggle 榜当前最高仅 2.70%；Grok 4.6 的公开 ARC-AGI-3 得分为 2.11%。公开小游戏成绩不能代表私有基准，但符号模型与语言模型结合已成为可观察的共同技术方向。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/fchollet/status/2088243704603824311&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@fchollet 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/fchollet/status/2088254592182305165&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@fchollet 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/arcprize/status/2088073208268284352&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@arcprize&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1317-suno-studio-20-支持用自然语言生成并插入自定义音频插件&quot;&gt;13/17 Suno Studio 2.0 支持用自然语言生成并插入自定义音频插件&lt;/h2&gt;
-&lt;p&gt;Suno 展示 Studio 2.0 的新插件工作流：用户描述所需效果后，可生成自定义插件并直接加入浏览器内制作会话，把音乐生成进一步扩展到可调参数的后期处理。该更新与 Studio 2.0 的多轨编辑定位一致，目标是降低特殊效果器和声音处理工具的开发门槛。官方推文提供演示和完整 walkthrough，但没有披露插件运行沙箱、可导出格式、实时延迟、第三方代码边界或订阅限制，现阶段可确认的是自然语言到会话内插件的产品能力已上线展示。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@suno&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/suno/status/2088343985018564768&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@suno 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/suno/status/2088344443841819130&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@suno 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1417-langsmith-新增-trajectory-概念把多轮代理会话展开为可读路径&quot;&gt;14/17 LangSmith 新增 trajectory 概念，把多轮代理会话展开为可读路径&lt;/h2&gt;
-&lt;p&gt;LangSmith 更新可观测性文档，明确 run、trace、thread 与 trajectory 四层结构：run 是一次模型或工具调用，trace 是单次操作的 run 树，thread 串联多轮 trace，trajectory 则把整个会话投影为去重、按顺序排列的消息列表。Trace 适合诊断单次失败，thread 保留跨轮嵌套与时序，trajectory 更适合阅读代理从起点到终点的行动路径。LangSmith SaaS 默认保存 trace 180 天，单个 trace 上限 25,000 runs，长期保留需转入 dataset。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2088342687808438352&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1517-replit-更新区域部署mcp-与认证迁移继续扩展-agent-工具链&quot;&gt;15/17 Replit 更新区域部署、MCP 与认证迁移，继续扩展 Agent 工具链&lt;/h2&gt;
-&lt;p&gt;Replit 本周更新允许 Pro 与 Enterprise 选择北美、欧洲或亚洲 workspace 区域，以降低延迟并满足区域数据存放要求；Replit MCP 现在可从外部工具查找和更新既有项目，通过 OAuth 接入且无需 API key。Agent 还可把已有 Replit Auth 应用迁移到 Clerk，并保留原有账户访问。企业侧新增 Admin API beta，用于拉取账户、使用量与支出数据，聊天内可直接生成图表，另加入 Airtable、Rootly Docs 等 MCP 服务器。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Replit/status/2088400279070744794&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Replit&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1617-databricks-为-ai-gateway-加预算告警与硬性支出上限&quot;&gt;16/17 Databricks 为 AI Gateway 加预算告警与硬性支出上限&lt;/h2&gt;
-&lt;p&gt;Databricks 的 AI Spend Controls 可按用户、用例、workspace 和账户设置预算、共享阈值、个人阈值与告警，超限后可停止后续请求，针对重试循环、无人值守多代理实验和 token 消耗异常。每次请求的 DBU、外部供应商 token 成本、预置吞吐和运行时间会写入 Unity Catalog 系统表，可按身份、标签、模型和供应商分析。公司还称 Smart Routing 可在保持质量下将成本降低约 30%，但该数字来自官方案例，生产效果取决于任务分布和路由策略。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/databricks/status/2088328114912821576&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@databricks 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/databricks/status/2088283902443966485&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@databricks 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1717-cohere-north-mini-code-下载突破-15-万承接免费编码模型需求&quot;&gt;17/17 Cohere North Mini Code 下载突破 15 万，承接免费编码模型需求&lt;/h2&gt;
-&lt;p&gt;Cohere 表示开源编码模型 North Mini Code 的下载量已超过 15 万。随着 OpenCode 取消原有免费层选项，开发者可通过 Cohere Model Vault、OpenRouter 或本地运行继续使用该模型。公告没有给出新增模型版本或基准，重点是开发者采用规模和分发渠道；North Mini Code 因可本地部署而成为低成本编码工作流的备选。下载量来自 Cohere 统计，不能直接代表活跃用户、生产调用或代码质量，但显示中小型开放编码模型仍有稳定需求。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cohere/status/2088269861113795070&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;/a&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;anthropic-第二份风险报告风险评级保持低不确定性明显上升&quot;&gt;Anthropic 第二份风险报告：风险评级保持“低”，不确定性明显上升&lt;/h3&gt;
-&lt;p&gt;报告按 RSP 3.4 评估高风险失调、自动化研发与化生武器风险，覆盖日期为 7 月 15 日。Anthropic 认为 Mythos 5 与内部 Model 2 的灾难性风险仍低，但把失调评级从“极低”调至“低”，并承认网络安全评估事件、隐蔽能力测量和模型评测饱和削弱了信心。公司称 Claude 已生成生产代码库合并代码中的“大多数”，内部研发显著加速但未达 2 倍；对非新型化生武器，模型能力强到需要按达到 CB-1 阈值采取保护，但尚未达到替代稀缺专家的 CB-2 阈值。报告还披露已修复的访问控制、分类器和监控流程失误。
-&lt;a href=&quot;https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;claude-文本水印通过词语选择留下统计模式而非隐藏字符&quot;&gt;Claude 文本水印：通过词语选择留下统计模式，而非隐藏字符&lt;/h3&gt;
-&lt;p&gt;Claude 的方案基于 Google DeepMind 的 SynthID-Text：模型在多个同样合理的候选词之间，用密钥与前文替代普通随机数作选择，累计形成检测模式。水印不写入身份信息、不增加 token，也不改变文本表面；Anthropic 称内部评测未发现质量、创造力或可读性下降。限制在短文本、代码、事实性段落和轻度校对中更明显，因为可选择的词较少；检测只能判断 Claude 可能参与，不能证明人类没有参与或区分“生成”与“重度编辑”。未来将提供检测 API，图片等文件则通过 C2PA 元数据标注。
-&lt;a href=&quot;https://www.anthropic.com/news/claude-text-watermark&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;开放模型夏季报告注意力采用与生态底座出现三套不同排名&quot;&gt;开放模型夏季报告：注意力、采用与生态底座出现三套不同排名&lt;/h3&gt;
-&lt;p&gt;Hugging Face 报告发现，下载前 25 与点赞前 25 的模型只有一个重合：点赞记录发布热度，下载更像被长期接入的基础设施。Qwen 依靠全尺寸覆盖、Apache 2.0 与稳定发布节奏积累 151,448 个衍生模型，GGUF 月下载 3,960 万次；但全平台真实流量仍由小模型主导，小于 1B 参数占历史下载 83%。代理正在成为新用户：Claude Code、Codex 与大量未注册 harness 的占比快速变化。报告也提醒 Hub 下载不包含私有部署和外部 API，不能直接当作模型质量或市场份额。
-&lt;a href=&quot;https://huggingface.co/blog/state-of-open-models-summer-2026&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;pika-audio四类模型共享效率换低价的产品策略&quot;&gt;Pika Audio：四类模型共享“效率换低价”的产品策略&lt;/h3&gt;
-&lt;p&gt;Soundtrack 负责视频到完整声景，Music 组合提示词、歌词、声音和参考曲，SFX 生成聚焦音效，Speech 提供可控语音与克隆。Pika 称 Soundtrack 每生成一秒音频需 0.617 秒墙钟时间，Music 生成 90 秒歌曲平均 6.21 秒，SFX 平均 0.847 秒完成一次端到端生成，Speech 一分钟约一秒。相对价格优势从 2 倍到 20 倍不等。所有比较均为发布方测试和 8 月 14 日公开价格，尚需第三方在音质、提示词遵循、同步和授权条件下复核。
-&lt;a href=&quot;https://experiment.pika.art/blog/pika-audio-models&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;ai-工程技能地图工程师的工作从实现规格转向塑造构建&quot;&gt;AI 工程技能地图：工程师的工作从“实现规格”转向“塑造构建”&lt;/h3&gt;
-&lt;p&gt;Andrew Ng 把 AI 工程能力分为四组：应用与部署要求掌握上下文工程、RAG、代理工作流、评测和错误分析；软件基础负责成本、架构、可靠性、安全与隐私权衡；编码代理能力涵盖上下文、计划、验证器、多代理协作和生产保护；“塑造构建”则要求产品感、业务背景、用户目标和项目推进。核心变化是编码代理越来越擅长按清晰规格实现，人的价值向决定规格内容、建立反馈循环和承担更大结果责任移动。
-&lt;a href=&quot;https://x.com/AndrewYNg/article/2088302050706686198&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;langsmith-的-trajectory可观测数据开始兼顾调试记忆与学习&quot;&gt;LangSmith 的 trajectory：可观测数据开始兼顾调试、记忆与学习&lt;/h3&gt;
-&lt;p&gt;Run 类似 OpenTelemetry span，trace 聚合一次操作，thread 连接多轮会话；trajectory 则去除嵌套结构，把用户、模型和工具消息按首次出现顺序平铺。三种视图分别服务单次故障诊断、跨轮时序分析和端到端路径阅读。这个抽象也使同一批观测数据能进一步用于会话记忆、行为评估和学习数据构建。文档给出 25,000 runs/trace 上限和 SaaS 180 天保留期，并支持框架自动追踪或装饰器、上下文管理器、RunTree API 手动埋点。
-&lt;a href=&quot;https://docs.langchain.com/langsmith/observability-concepts&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;databricks-ai-支出控制从事后看账单转向请求级限额&quot;&gt;Databricks AI 支出控制：从事后看账单转向请求级限额&lt;/h3&gt;
-&lt;p&gt;Unity AI Gateway 把预算控制细化到用户、用例、workspace 与账户，可在告警之外设置硬上限；达到阈值后，请求会被停止直到额度调整或周期重置。系统表记录 DBU 与第三方 token 成本，可按身份、环境、标签、模型和供应商归因，并与 Unity Catalog 权限及审计连接。该设计针对 AI 特有的重试循环、多代理并发和夜间无人值守任务。配合 Smart Routing，Databricks 声称还能降低约 30% 成本，但企业需要用自己的成功率、延迟和质量阈值验证。
-&lt;a href=&quot;https://www.databricks.com/blog/introducing-ai-spend-controls-unity-ai-gateway&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 15 Aug 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/08/15/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/15/</guid>
         
         <category>AI-Frontier</category>
         

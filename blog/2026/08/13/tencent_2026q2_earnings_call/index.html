@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="腾讯2026Q2电话会上，马化腾、刘炽平、James Mitchell、罗硕瀚集体回应了本季最大的争议——527.8亿元资本开支和转负的自由现金流。管理层给出三个关键表态：这轮投入「以一次性为主」不会年年重复；新增算力优先用于自研模型而非对外出租，因为长期回报更高；即使自研应用全部失败，单纯出租算力这门生意本身也能盈利，这是保底方案。此外还谈到混元Hy4的训练进展、微信AI助手小微的商业化路径，以及回购可能为资本开支让路。">
+    <meta name="keywords" content="腾讯, Tencent, 电话会, 业绩会实录, 刘炽平, 马化腾, 混元, 资本开支, 算力">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>腾讯2026Q2电话会——刘炽平谈500亿算力账单，称最坏情况下光出租GPU这门生意也能盈利 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/blog/2026/08/13/tencent_2026q2_earnings_call/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
+            <a href="/ai-daily/">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/" aria-current="page">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于作者</a>
+        </div>
+
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">Company intelligence <span>/</span> 2026.08.13</p>
+    <h1>腾讯2026Q2电话会——刘炽平谈500亿算力账单，称最坏情况下光出租GPU这门生意也能盈利</h1>
+    
+    <p class="article-deck">腾讯2026Q2电话会上，马化腾、刘炽平、James Mitchell、罗硕瀚集体回应了本季最大的争议——527.8亿元资本开支和转负的自由现金流。管理层给出三个关键表态：这轮投入「以一次性为主」不会年年重复；新增算力优先用于自研模型而非对外出租，因为长期回报更高；即使自研应用全部失败，单纯出租算力这门生意本身也能盈利，这是保底方案。此外还谈到混元Hy4的训练进展、微信AI助手小微的商业化路径，以及回购可能为资本开支让路。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-08-13T00:00:00+08:00">2026年8月13日</time>
+      
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/company-research/">← 返回公司观察</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#腾讯" title="腾讯">腾讯</a>
+          
+          <a href="/tags/#大公司数据观察" title="大公司数据观察">大公司数据观察</a>
+          
+        </div>
+      </div>
+      
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪正在发生的，留下值得重读的。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <div class="article-copy__content" data-highlight-source>
+        <p>8月12日腾讯发布2026年第二季度财报后，公司随即召开业绩电话会。出席的是腾讯最高规格的管理层阵容：董事会主席兼CEO马化腾（Pony Ma）、总裁刘炽平（Martin Lau）、首席战略官James Mitchell、首席财务官罗硕瀚（John Lo）。</p>
+
+<p>这场电话会的气氛和财报本身很不一样。财报的数字是好看的——营收2048亿元同比增长11%、毛利率升到58%、本土游戏增长17%、广告增长22%。但电话会上，七位分析师里有五位的问题都指向同一件事：</p>
+
+<p><strong>你们这个季度花掉的527.8亿元资本开支，什么时候能赚回来？</strong></p>
+
+<p>这是一份「主业很好，但市场只想问AI」的电话会。以下是其中信息量最大的部分。</p>
+
+<h1 id="一管理层开场马化腾定调全新的腾讯">一、管理层开场：马化腾定调「全新的腾讯」</h1>
+
+<p>马化腾在开场中把腾讯的AI战略拆成了三层——<strong>智能（模型）、应用、基础设施</strong>，并称公司正在这三个层面「向着建设一个全新的、AI赋能的腾讯取得实质性进展」。</p>
+
+<p>具体的进展有这些：</p>
+
+<ul>
+  <li><strong>模型层</strong>：7月推出的混元Hy3生产版本，是一个「性价比很强、被广泛使用」的模型。自发布以来，它在OpenRouter（一个聚合全球各家大模型API的第三方平台）上的token消耗量排进全球前三。更大参数量的Hy4正在训练，预计2026年内推出</li>
+  <li><strong>应用层</strong>：WorkBuddy（AI办公助手）和CodeBuddy（AI编程助手）「是各自领域在中国今天的明确领先者」。WorkBuddy被描述为「一个面向agentic AI的灵活工作台」，可以调度多个模型和7万多种技能，其token使用量相比预览版增长约6倍</li>
+  <li><strong>基础设施层</strong>：本季大幅增加了算力采购</li>
+</ul>
+
+<p>马化腾还提出了一个概念——<strong>模型与产品的「协同设计飞轮」</strong>（model-product co-design flywheel）。意思是模型和产品不是分开做的：产品里跑出的真实用户数据反哺模型训练，模型变强又让产品更好用，如此循环，从而实现「更快的模型迭代和持续的性能提升」。</p>
+
+<p>这个说法值得留意，因为它是腾讯给「为什么我们必须自己训模型，而不是买别人的」这个问题的答案。</p>
+
+<h1 id="二最尖锐的一问500亿花出去多久回本">二、最尖锐的一问：500亿花出去，多久回本？</h1>
+
+<p><strong>Robin Zhu（伯恩斯坦 Bernstein）</strong>开场就直击要害：这个季度527.8亿元的资本开支，投资者应该怎么看它的回本周期？还有随之而来的折旧摊销（D&amp;A）成本压力？</p>
+
+<p><strong>James Mitchell的回答暴露了腾讯的真实优先级</strong>。他说了一句关键的话：腾讯「本可以通过出租算力几乎立刻收回折旧」——也就是说，把GPU租出去，收到的租金马上就能覆盖掉这些卡的折旧成本，财务上立刻好看。</p>
+
+<p>但腾讯没有这么做。Mitchell表示，公司选择「把非常大比例的新增算力用于构建我们自己的模型」，因为更高的回报会「在更长期出现，比如通过WorkBuddy应用销售token」。</p>
+
+<p><strong>翻译成大白话</strong>：出租GPU是躺着赚快钱，但赚的是辛苦的租金差价；自己训模型做应用是慢活，但如果做成了，赚的是软件的钱。腾讯明确选了后者。</p>
+
+<p>这个回答同时也解释了财报上那个难看的数字——自由现金流为什么会转负。如果腾讯选择立刻出租，现金流会好看得多。是主动的战略选择，把短期财务表现让位给了长期卡位。</p>
+
+<h1 id="三刘炽平的保底方案最坏情况下也不会亏">三、刘炽平的「保底方案」：最坏情况下也不会亏</h1>
+
+<p>面对资本开支的持续追问，刘炽平给出了这场电话会上最让市场安心的一段表态。</p>
+
+<p>据业绩会实录，他表示：即使腾讯停止所有自研AI应用的努力，<strong>单纯把这些算力对外租赁，这块业务本身就是盈利的</strong>。</p>
+
+<p>这句话的分量在于，它给出了一个下限。投资者最怕的不是「AI投入很大」，而是「AI投入很大而且可能血本无归」。刘炽平的意思是：血本无归这个选项不存在，因为GPU本身是有租赁市场、有明确收益率的生产资料。腾讯的AI投入不是研发费用（花掉就没了），而更接近于买设备（有残值、有租金）。</p>
+
+<p>他同时描述了一条三段式的路径：<strong>先用算力自建模型 → 再基于模型开发应用 → 最后把剩余算力对外出租</strong>。按这个顺序，腾讯将「逐步建立起一个极具规模、高盈利且能产生现金流的腾讯专属AI原生业务」。</p>
+
+<p>关于时间节奏，管理层明确表示这轮投入<strong>「以一次性为主」</strong>——今年底到明年初还会持续，但未来不会长期维持这个强度。刘炽平还提到，AI投入会控制在集团利润的一个固定比例区间内，保持审慎和动态调整。</p>
+
+<p>一个具体的例子印证了这种「动态」：AI新业务的经营亏损，一季度是88亿元，二季度增至105亿元。刘炽平解释，增加的原因是腾讯发现WorkBuddy出现了爆发式增长，于是把资金大幅向它倾斜。也就是说，钱不是按预算平摊的，而是哪里跑出来了就往哪里加。</p>
+
+<h1 id="四分析师问答中最有信息量的五个问题">四、分析师问答中最有信息量的五个问题</h1>
+
+<h2 id="1-微信ai助手小微怎么赚钱">1. 微信AI助手「小微」怎么赚钱？</h2>
+
+<p><strong>Kenneth Fong（瑞银 UBS）</strong>问：小微（Xiaowei）目前有什么早期反馈？商业化模式是什么？</p>
+
+<p><strong>刘炽平</strong>没有直接给商业模式，而是打了一个类比。他说，当AI让微信生态变得更智能时，微信会对用户「更加有用」——就像移动互联网时代，微信把QQ的价值「放大了超过10倍」一样。</p>
+
+<p>这个回答的潜台词是：<strong>腾讯现在不急着给小微定价</strong>。先把它做成微信里的水电煤，用户离不开了，变现是后面的事。这和微信支付、小程序当年的路径完全一致——先做基础设施，再谈收费。</p>
+
+<p>管理层还提到了一个更远的愿景：在微信生态内建立<strong>「agent到agent的交易闭环」</strong>（agent-to-agent transaction loops）。结合微信的社交关系链、知识图谱和支付能力，让AI助手之间可以直接完成交易。这是一个野心很大的构想。</p>
+
+<h2 id="2-混元hy4凭什么在3万亿参数的红海里差异化">2. 混元Hy4凭什么在3万亿参数的红海里差异化？</h2>
+
+<p><strong>Ronald Keung（高盛 Goldman Sachs）</strong>的问题很直接：现在全球都在卷万亿参数级别的大模型，Hy4靠什么脱颖而出？</p>
+
+<p><strong>刘炽平</strong>的回答是：Hy4会是「一个更大的模型」，能够「击败比它规模更大的模型」，同时保持「极其有用」。配合协同设计的产品，会变得「更加强大」。</p>
+
+<p>这个回答坦白说比较务虚，没有给出具体的技术路线。但它透露了腾讯的模型哲学：<strong>不追求参数规模上的第一，追求同等规模下的性价比第一</strong>。Hy3在OpenRouter上token消耗量排全球前三，靠的正是性价比而不是绝对性能——便宜好用的模型才有人真正大规模调用。</p>
+
+<h2 id="3-广告22的增长能持续吗">3. 广告22%的增长能持续吗？</h2>
+
+<p><strong>Alicia Yap（花旗 Citigroup）</strong>问：中国广告市场大环境不好，腾讯营销服务22%的增长动能能延续吗？</p>
+
+<p><strong>James Mitchell</strong>承认中国市场「仍然起伏不定」（choppy），但表示腾讯持续「跑赢中国广告大盘整体」，靠的是两点：AI驱动的精准投放，以及微信视频号使用时长的持续提升（本季同比增长超过20%）。</p>
+
+<p>这是一个诚实的回答——它没有否认大环境的压力，而是把增长归因于份额提升而非行业景气。含义是：如果AI提效和视频号时长增长这两条还在，22%就还有支撑；但这是抢别人的蛋糕，而不是蛋糕在变大。</p>
+
+<h2 id="4-回购会不会为资本开支让路">4. 回购会不会为资本开支让路？</h2>
+
+<p><strong>Alex Liu（美银 Bank of America）</strong>问：未来12到24个月，资本配置的优先级会怎么排？</p>
+
+<p><strong>Mitchell的回答对持股者是个提醒</strong>：如果公司「识别出资本开支能带来更优的回报」，就会「把更多现金导向资本开支」，多于历史上的水平——这意味着回购的份额可能被压缩。</p>
+
+<p>不过管理层同时强调了另一面：腾讯已经<strong>连续22年派发股息</strong>，并且连续4年提高分红，即便在AI投入激进的当下也没有中断。</p>
+
+<p><strong>怎么读这个信号</strong>：分红是承诺，不会动；回购是弹性，可能让路。习惯了腾讯每天在港股市场稳定回购托底的投资者，需要为回购力度下降做好心理准备。</p>
+
+<h2 id="5-什么时候利润增速能重新反超">5. 什么时候利润增速能重新反超？</h2>
+
+<p><strong>Gary（摩根士丹利 Morgan Stanley）</strong>问了一个所有人都想知道的问题：什么时候「含AI投入的经营利润增速」能超过「不含AI投入的经营利润增速」？</p>
+
+<p>翻译一下：AI什么时候从拖累变成贡献？</p>
+
+<p><strong>刘炽平没有给出时间表</strong>。他只是重申管理层维持着「一个投入的信封」（an envelope of investment，即有上限的预算包），并且保有「一种安心感——如果我们把更多算力挪到算力出租业务上，我们可以非常快地产生收入、利润和回报」。</p>
+
+<p><strong>不给时间表本身就是答案</strong>：腾讯自己也不知道AI应用什么时候能大规模变现，所以它反复强调的是「下限有保障」而不是「上限有多高」。</p>
+
+<h1 id="五解读这场电话会到底说了什么">五、解读：这场电话会到底说了什么</h1>
+
+<p>把管理层的所有表态串起来，腾讯的逻辑其实相当清晰：</p>
+
+<p><strong>第一，这是一次主动的、有上限的、可逆的重注。</strong></p>
+
+<ul>
+  <li>主动：本可以出租算力立刻覆盖折旧，但选择自用</li>
+  <li>有上限：投入控制在集团利润的固定比例区间内</li>
+  <li>可逆：如果应用做不成，随时可以把算力转去出租，「非常快地产生收入、利润和回报」</li>
+</ul>
+
+<p><strong>第二，腾讯在赌「软件的钱比硬件的钱值钱」。</strong></p>
+
+<p>出租GPU赚的是资产租金，天花板由卡的数量决定，且随着全行业算力过剩会持续降价。做WorkBuddy这样的应用卖token和订阅，赚的是软件毛利，边际成本趋零。腾讯选择承受两三年的难看财报，去争后者。</p>
+
+<p><strong>第三，短期财务表现被明确排到了第二位。</strong></p>
+
+<p>自由现金流转负、IFRS净利润零增长、回购可能让路——管理层对这些都不否认，也不试图粉饰。他们给市场的交换条件是：忍受两三年的财报难看，换一个「极具规模、高盈利且能产生现金流的AI原生业务」。</p>
+
+<p><strong>第四，也是最需要警惕的一点：所有的承诺都没有时间表。</strong></p>
+
+<p>「一次性为主」但持续到「今年底至明年初」之后；「回报上行空间明显」但不说具体数字；「利润增速反超」不给时间点。这些模糊表述在AI投入周期的早期是可以理解的，但如果到2027年中还是这套说辞，市场的耐心就会成为问题。</p>
+
+<h1 id="六总结">六、总结</h1>
+
+<p>如果用一句话概括这场电话会：<strong>腾讯管理层在告诉市场，我们知道这份财报难看，但我们是故意的，而且我们有保底。</strong></p>
+
+<p>刘炽平那句「即使停止自研应用，单纯出租算力这门生意本身就能盈利」，是整场电话会最有价值的一句话。它把腾讯的AI投入从一个开放式风险（可能全部打水漂）转变成了一个有下限的选择题（最差也是个租赁生意）。</p>
+
+<p>对投资者来说，接下来该跟踪的不是季度利润，而是三个信号：</p>
+
+<ol>
+  <li><strong>WorkBuddy和CodeBuddy的用户与token增长是否延续</strong>——这是「软件的钱」能不能赚到的直接证据</li>
+  <li><strong>云业务增速能否继续加速</strong>——本季已从高个位数升到20%出头，这是算力变现的第一个正反馈</li>
+  <li><strong>资本开支是否真的在2027年上半年之后回落</strong>——这是验证「一次性投入」说法是否可信的唯一标准</li>
+</ol>
+
+<p>第三点尤其重要。如果明年这个时候，腾讯还在解释为什么资本开支又超预期了，那么「一次性」这个词就失去了意义，市场会重新按「持续性烧钱」来给腾讯定价。</p>
+
+<hr />
+
+<h1 id="数据来源">数据来源</h1>
+
+<p><strong>一手信息（电话会实录与财报原文）</strong></p>
+
+<ul>
+  <li>腾讯控股2026年第二季度业绩电话会完整实录（管理层发言与分析师问答）——<a href="https://www.investing.com/news/transcripts/earnings-call-transcript-tencent-posts-solid-q2-2026-growth-as-ai-spending-surges-93CH-4855197">Earnings call transcript - Tencent posts solid Q2 2026 growth as AI spending surges</a></li>
+  <li>腾讯控股2026年第二季度业绩公告（官方新闻稿全文）——<a href="https://finance.yahoo.com/technology/ai/articles/tencent-announces-2026-second-quarter-102900627.html">TENCENT ANNOUNCES 2026 SECOND QUARTER RESULTS</a></li>
+  <li>腾讯控股投资者关系官网——<a href="https://www.tencent.com/en-us/investors.html">Tencent Investor Relations</a></li>
+  <li>腾讯2026Q2业绩会中文实录——<a href="https://finance.sina.com.cn/tech/2026-08-12/doc-ininarrc3408590.shtml">新浪财经｜全文·腾讯Q2业绩会实录</a></li>
+</ul>
+
+<p><strong>媒体报道（用于交叉验证中文表述与补充背景）</strong></p>
+
+<ul>
+  <li><a href="https://www.cls.cn/detail/2452777">财联社——资本开支飙至527.8亿！从Q2财报看腾讯AI棋局</a></li>
+  <li><a href="https://www.163.com/dy/article/L45RE1IJ051180F7.html">网易——马化腾称腾讯大幅增加算力采购，刘炽平回应资本开支</a></li>
+  <li><a href="https://baijiahao.baidu.com/s?id=1873329317586616192">百度百家号——刘炽平回应二季度资本开支增加</a></li>
+</ul>
+
+<p><em>注：本文引述的管理层原话以电话会实录为准。中英文表述若有差异，以英文实录原意为准；无法从实录核实的内容未予采用。</em></p>
+
+      </div>
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/blog/2026/08/13/tencent_2026q2_earnings/">
+          <span>上一篇</span>
+          <strong>腾讯2026Q2——营收2048亿同比增长11%，资本开支狂飙176%把自由现金流打成负数</strong>
+        </a>
+        
+        
+        <a href="/ai-daily/2026/08/13/">
+          <span>下一篇</span>
+          <strong>AI Frontier Daily | 2026.08.13</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer class="editorial-footer">
+    <div class="editorial-shell editorial-footer__inner">
+        <div class="editorial-footer__brand">
+            <a class="editorial-wordmark editorial-wordmark--footer" href="/" aria-label="Freedom Hunter 首页">
+                <span aria-hidden="true">FH</span>
+                Freedom Hunter
+            </a>
+            <p>追踪正在发生的，留下值得重读的。</p>
+        </div>
+
+        <nav class="editorial-footer__nav" aria-label="页脚导航">
+            <div>
+                <p>栏目</p>
+                <a href="/ai-daily/">AI 日报</a>
+                <a href="/reddit-daily/">Reddit 精选</a>
+                <a href="/company-research/">公司观察</a>
+                <a href="/articles/">文章</a>
+            </div>
+            <div>
+                <p>更多</p>
+                <a href="/archive/">全部文章</a>
+                <a href="/highlights/">读者精选</a>
+                <a href="/about/">关于作者</a>
+                <a href="/feed.xml">RSS 订阅</a>
+                <a href="https://github.com/zluckyhou" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="editorial-footer__meta">
+        <div class="editorial-shell editorial-footer__meta-inner">
+            <span>&copy; 2026 Freedom Hunter</span>
+            <span>Shanghai · UTC+8 · Powered by Jekyll</span>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+</html>

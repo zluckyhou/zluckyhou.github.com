@@ -5,9 +5,170 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 20 Aug 2026 08:37:38 +0800</pubDate>
-    <lastBuildDate>Thu, 20 Aug 2026 08:37:38 +0800</lastBuildDate>
+    <pubDate>Thu, 20 Aug 2026 09:20:06 +0800</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2026 09:20:06 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.08.20</title>
+        <description>&lt;p&gt;今天几帖凑在一起，主题意外地统一：我们看到的那个解释，到底是不是真正在起作用的那个东西。模型吐出来的思维链看着像推理，未必就是推理；参数量看着像能力，其实只是四个变量里的一个；一张密密麻麻的摄像头分布图看着像监控扩张的证据，也可能只是某个网站变火了的证据。最后一帖轻松些，但落点也差不多——地铁网络画出来很漂亮，真正决定通勤体验的是图上没画的那一段。&lt;/p&gt;
+
+&lt;h2 id=&quot;一篇论文说用被打乱的推理链训练模型反而更强&quot;&gt;一篇论文说：用被打乱的推理链训练，模型反而更强&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vsjcf7/stop_anthropomorphisizing_intermediate_tokens/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;帖子标题很冲：别再把中间 token 拟人化了，Qwen3.8 并没有在「过度思考」。楼主的观点是，人类的分步推理是一步步导向结论，而 LLM 生成的那些中间轨迹本质上是在给自己的 prompt 做增广——这才是为什么答案很好、「推理」却啰嗦得莫名其妙。他后来把论文里最狠的一段贴了出来：模型经常在给出正确答案的同时产生完全无效的推理轨迹，两者之间缺乏相关性；更反直觉的是，用被污染或语义无关的轨迹训练出来的模型，表现能追平甚至超过用正确轨迹训练的模型，在分布外任务上尤其明显。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“First, we observe a pronounced lack of correlation between solution correctness and trace validity—models frequently produce invalid reasoning traces even when they arrive at correct solutions.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ThirdWaveCat（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vsjcf7/stop_anthropomorphisizing_intermediate_tokens/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区没有一边倒。热度靠前的一条既同意结论又吐槽了姿态：轨迹本来就不是给用户看的，是模型用来把自己的内部分布探得更深一点的工具；但一篇论文标题写成命令句，读者的第一反应必然是抵触。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“i don’t even disagree, i’ve stated here that traces aren’t for the user, they’re for the LLM to plumb the depths of their internal distribution more fully. however, any paper like this that is worded as a command will always land like a box of rocks…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/llama-impersonator，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vsjcf7/stop_anthropomorphisizing_intermediate_tokens/p4lo77m/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;真正精彩的是 u/WhoRoger 和 u/Dabalam 那一长串来回。前者的立场很实用主义：推理过程对他极其有用，因为他能从里面看出模型是不是误解了自己的意图；而且模型生成推理和生成回答用的是同一套 token、同一个分词器，凭什么说一个有意义另一个没有。后者则把论文的主张往回收了一下——它没说推理 token 对模型无用，它说的是这些轨迹和最终答案之间的关系，并不符合人类所理解的「推理」。他打了个很好的比方：一个孩子在你教他错误的解方程中间步骤之后，反而算得更准了，老师看着他满是错误的草稿纸会一头雾水，因为他的答案在变好，而他从没修正过那些错。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“An analogy would be if a kid somehow got better at Math when you teach them incorrect intermediate steps for solving equations.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Dabalam，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vsjcf7/stop_anthropomorphisizing_intermediate_tokens/p4ovgfz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;争论最后落到一个谁也解决不了的地方：u/WhoRoger 反问，我们根本不知道人脑是怎么「思考」的，那凭什么断言 LLM 的推理不像人类？u/Dabalam 承认这条批评成立，论文确实在拿一个说不清的参照系做判据。&lt;/p&gt;
+
+&lt;p&gt;对做工程的人来说，这场争论有个很实际的推论值得记住：如果轨迹的有效性和答案的正确性确实不相关，那么「盯着思维链去纠正模型的逻辑」这条常见调优路径，收益可能远比想象中小。但反过来说，u/WhoRoger 那个用法依然成立——你不是在检查它推理得对不对，你是在检查它有没有听懂你的问题。这两件事经常被混为一谈，其实是两回事。&lt;/p&gt;
+
+&lt;h2 id=&quot;智谱那篇讲缩放定律的长文把多少参数拆成了四个问题&quot;&gt;智谱那篇讲缩放定律的长文，把「多少参数」拆成了四个问题&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vsf9eg/thoughts_about_scaling_law_zai/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是最近少见的、值得完整读一遍的技术长文。核心论点是：每次模型发布，大家问的第一句话都是多少参数，但这个数字单独拿出来没有意义，它必须和另外三件事一起看——你有多少数据、你打算把算力花在哪、以及谁会在什么条件下把它跑起来。文章顺着复盘了这个领域怎么一路踩坑：Kaplan 那套指数让全行业把参数涨得比数据快，直到 Chinchilla 用四百个模型重做实验，把最优比例改成大约每参数二十个 token；而 Chinchilla 优化的是训练算力，今天推理才是模型生命周期成本的大头，把推理放进目标函数，最优解又会往「更小的模型、训练更久」那边移。到了 MoE 时代，总参数和激活参数必须分开看：前者大致决定模型能装下多少世界知识，后者和有效深度决定它能把一条因果链推多远。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Parameter count is only meaningful alongside three others — how much data you have, where you intend to spend your compute, and who will run the model, under what conditions.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/pmttyji（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vsf9eg/thoughts_about_scaling_law_zai/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区补的几条比文章本身更接地气。有人从自己跑复杂法律分析的经验出发印证了「激活参数决定深度」这个说法：激活参数太少的 MoE 在需要长链条推演的任务上确实吃力，同尺寸的稠密模型反而稳一些。另一条补上了一个文章没细讲的代价——MoE 的路由本身会抬高困惑度，因为总有选错专家的概率，专家切得越细这个问题越明显；他还举了个例子，说上一代里 27B 稠密模型和 122B 激活 10B 的 MoE，差距小得出乎意料。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“MoE routing also increases perplexity since there’s always a chance it choses the wrong expert, especially with these super granular MoEs.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Few_Painter_5588，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vsf9eg/thoughts_about_scaling_law_zai/p4mu1id/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有人正在拿这个思路做实验：既然总参数量的作用是「装下世界」，那知识就没有必要非得存在计算图里。他在给一个 8B 模型做改造，把世界知识外置，让那 8B 参数全部用于计算能力。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There’s no real reason to store knowledge within the computational graph. If you can effectively train the model with the ability to fetch that information, then you can leverage the 8b parameters harder against computation…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/NineThreeTilNow，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vsf9eg/thoughts_about_scaling_law_zai/p4lf5kn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这套框架对国内读者最直接的用处，是给「选型」提供了一把更细的尺子。以后看到一个模型的参数配置，不妨顺手拆成四问：总参数够不够装下你的领域知识、激活参数够不够撑住你的推理链条、它的训练 token 比例是偏记忆还是偏推理、以及你实际部署的显存和延迟预算允许它跑多快。同样是 27B，答案完全可能不一样。&lt;/p&gt;
+
+&lt;h2 id=&quot;github-八小时故障复盘自动扩缩容失灵加上-vs-code-的重试风暴&quot;&gt;GitHub 八小时故障复盘：自动扩缩容失灵，加上 VS Code 的重试风暴&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vskd62/github_blames_8hour_outage_on_autoscaling_fail/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;官方复盘把这次长达八小时的故障拆成了两半：自动扩缩容没能及时补上容量，以及 VS Code 客户端在失败后疯狂重试，把本来就紧张的后端彻底压垮。这是一个非常经典的级联失效模型——重试逻辑在单点故障时是救命的，在系统性拥塞时就是放大器。&lt;/p&gt;
+
+&lt;p&gt;评论区前排照例是「快速迭代、快速崩坏」的段子，但下面很快出现了认真的分析。有人指出把这事归因为裁员和赶工并不准确：GitHub 正处在 AI 编码浪潮的正中心，今天要扛的流量比一年前高了一个数量级，撑不住是必然的。另一条把流量的构成说得更细：合法请求、对抗性请求、爬虫，三种叠在一起，量级已经不是人类用户能产生的了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“They’re at the centre of the vibe coding trend, dealing with an order of magnitude more traffic than they did 12 months ago. Of course they’re struggling”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Veranova，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vskd62/github_blames_8hour_outage_on_autoscaling_fail/p4o3iy4/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺着这条往下，有人留了句很精准的调侃：这次的对抗性流量，是从自己家里打出来的。而最有画面感的一条来自一位开源项目的维护者：他在自己参与的项目里看到一个 PR，代码写得又怪又多余，就去问提交者；对方回复说，那是一个 LLM 用他的账号提交的，他自己在看到回复之前完全不知道有这回事。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“He sends a reply back telling me that an LLM made the pull request with his account, and he had no idea it happened until he saw the response.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/AliceCode，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vskd62/github_blames_8hour_outage_on_autoscaling_fail/p4ob24d/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这两条放在一起看很有意思。平台侧看到的是流量曲线突然抬升一个数量级，维护者侧看到的是评审队列里混进了没有人类负责的提交，而两者其实是同一件事在不同尺度上的投影。对自己团队的启发很实际：如果你正在给内部系统接入各种自动化代理，重试策略和限流策略必须重写一遍——原来那套是按人类的操作频率设计的，代理不会累，也不会觉得不好意思。&lt;/p&gt;
+
+&lt;h2 id=&quot;志愿者众包标注了十万九千个车牌识别摄像头评论区在问这数据怎么验证&quot;&gt;志愿者众包标注了十万九千个车牌识别摄像头，评论区在问：这数据怎么验证&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vsyv1c/oc_volunteers_have_crowdmapped_109k_flock_license/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;昨天这里刚聊过 Flock 车牌识别系统的滥用问题，今天 r/dataisbeautiful 上来了一张相关的动态图：志愿者通过 OpenStreetMap 众包标注，已经在全美记录了约十万九千个 Flock 摄像头的位置，动画展示了这个数字随时间增长的过程。&lt;/p&gt;
+
+&lt;p&gt;有意思的是，这个帖子下面最有价值的讨论完全不是关于监控的，而是关于数据本身可不可信。一位长期参与 OSM 的用户直接泼了冷水：这批数据最近很可疑，有人在到处乱加摄像头点位，而这种垃圾数据很难及时清理，OSM 论坛上正为此吵得不可开交。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Flock camera data on OSM is fishy; lately there was lots of vandalism adding those cameras at random places, and it’s hard to get rid of this garbage in a timely fashion…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/waptaff，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vsyv1c/oc_volunteers_have_crowdmapped_109k_flock_license/p4p5f1h/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一条把这个攻击面分析得很清楚：想破坏这个项目的人有两种手段，批量删除和批量添加；删除是可以回滚的，添加却几乎无解——谁能判断一个新增的点位是不是真的？&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Mass deleting can be reverted. Mass adding though? Who can tell if they’re legit?”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/PM_ME_YOUR__INIT__，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vsyv1c/oc_volunteers_have_crowdmapped_109k_flock_license/p4piuls/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有一条直接质疑了这张图的解读方式：曲线画的是「被记录的摄像头数量」的增长率，它真正反映的是那个众包网站有多火，而不是摄像头部署得有多快。这条批评相当致命，因为帖子的传播效果恰恰依赖于读者把两者混为一谈。&lt;/p&gt;
+
+&lt;p&gt;对做数据的人来说，这是个很好的反面教材：一份众包数据的增长曲线，同时包含了「现实中的对象在增加」和「参与标注的人在增加」两个信号，而后者往往涨得更快。想让这张图站得住，至少要配一条控制变量的基线——比如活跃编辑者数量，或者某个已完成普查区域的存量曲线。放到国内语境里也一样：任何靠用户上报堆出来的数据集，在拿它讲趋势之前，先想清楚你测的是世界还是测的是自己的用户增长。&lt;/p&gt;
+
+&lt;h2 id=&quot;纽约地铁六十分钟能带你到哪一张漂亮的图和评论区补上的最后一公里&quot;&gt;纽约地铁六十分钟能带你到哪：一张漂亮的图，和评论区补上的最后一公里&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vssz1g/oc_how_far_the_nyc_subway_actually_takes_you_in/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者是 subway.fyi 的开发者，那个站点用历史数据预测地铁故障，有时能比 MTA 官方早半小时。他说自己老听人讲「十五分钟城市」的概念，就想看看在早高峰真实运行数据下，从纽约某个点出发，十五、三十、六十分钟究竟能走多远，于是做了这组等时圈图。数据是他自己抓的 MTA 实时数据，工具链是 Python 加 TimescaleDB。&lt;/p&gt;
+
+&lt;p&gt;评论区第一条就把话题从「地铁网络覆盖多广」拉到了真正决定通勤体验的地方：外围区的时间根本不花在地铁上，而是花在去地铁站的路上——坐公交到法拉盛或牙买加站，可能要十五分钟，也可能要一小时。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The time sinks are getting to the train station in the outer Boroughs. It sucks that it can take anywhere from 15~60 minutes by bus to get to Flushing-Main Street or Jamaican Station.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/IamGeoMan，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vssz1g/oc_how_far_the_nyc_subway_actually_takes_you_in/p4nr5lc/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;跟帖的补充把这种体感描述得很准：最后一公里的接驳把外围通勤彻底毁掉了，感觉自己已经走了一半路程，然后就一直在剩下那段里挪。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“That last mile connectivity really kills the outer borough commute, feels like you’re halfway there and then just stuck crawling the rest of the way”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/DependentGrade3103，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vssz1g/oc_how_far_the_nyc_subway_actually_takes_you_in/p4nsc0b/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;作者的反应值得一提——他没有辩解，而是当场认领了这个缺口，说自己手上也有公交数据，会做一个可以任选起点生成这张图的探索工具；后来他又回复说已经把图里的「步行」部分改成沿真实街道走了。整个帖子从「秀作品」变成了一次小型的公开迭代。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Ah that’s a great point. I actually have bus data too – I’ll build an explorer so you generate this graphic for any spot in the city”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/qalpi（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vssz1g/oc_how_far_the_nyc_subway_actually_takes_you_in/p4nrhr5/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个「最后一公里」的问题，国内一二线城市其实更典型：地铁线路图看着已经很密，但真正决定一个人愿不愿意住在某个地方的，是从家门口到站台的那十五分钟——有没有接驳公交、末班车几点、下雨天走不走得动。用等时圈来评估居住选址是个很实用的方法，但只有把步行和接驳一起算进去，那张图才对应得上真实的生活。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Aug 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/20/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/20/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.08.19</title>
@@ -2280,109 +2441,6 @@
         
         
         <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.08.17</title>
-        <description>&lt;h2 id=&quot;112-together-ai-上线-deepseek-v4-pro-0813长上下文与三档推理进入托管服务&quot;&gt;1/12 Together AI 上线 DeepSeek V4 Pro 0813，长上下文与三档推理进入托管服务&lt;/h2&gt;
-&lt;p&gt;Together AI 宣布 DeepSeek V4 Pro 0813 已可调用。该系列采用 1.6 万亿参数 MoE、每 token 激活 490 亿参数，并提供 Non-Think、Think High、Think Max 三档推理。模型层面支持 1M 上下文，但 Together 当前 Serverless 配置为 512K，完整 1M 需专用部署；官方所列代码与代理基准仍属于供应商报告，尚不能替代独立评测。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2089064162684993798&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2089064253768475115&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;212-gpt-56-sol-接管-chrome-导出-5302-条-x-书签浏览器会话补上-api-缺口&quot;&gt;2/12 GPT-5.6 Sol 接管 Chrome 导出 5,302 条 X 书签，浏览器会话补上 API 缺口&lt;/h2&gt;
-&lt;p&gt;Ethan Mollick 表示，他让 Codex 中的 GPT-5.6 Sol 操作 Chrome，导出了从 2014 年至今的 5,302 条 X 书签及相关数据，并进一步筛选其中内容；同一任务未能由 Grok Bot 完成，因为其 API 无法访问全部书签。案例展示了已登录浏览器会话对封闭数据的操作价值，但它是个人实测，不是通用性能基准。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2089100618648404216&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2089140341085553030&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/gdb/status/2089181834580250870&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;312-minimax-h3-开放权重视频模型在本地三分钟生成带声短片&quot;&gt;3/12 MiniMax H3 开放权重视频模型在本地三分钟生成带声短片&lt;/h2&gt;
-&lt;p&gt;Mollick 展示了 MiniMax H3 在本地电脑运行的效果：一段“水獭在飞机上用笔记本”的带声视频约三分钟生成。MiniMax 官方将 H3 定位为统一处理文本、图像、视频与音频的生成模型，最高输出 15 秒、2K 分辨率与原生立体声。三分钟速度取决于未披露的硬件和配置，因此更适合作为可运行性案例，而非标准化速度结论。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2089185499197911391&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;412-rednote-团队用-arc-agi-3-演示测试时持续学习françois-chollet-提醒尚未验证&quot;&gt;4/12 RedNote 团队用 ARC-AGI-3 演示测试时持续学习，François Chollet 提醒尚未验证&lt;/h2&gt;
-&lt;p&gt;François Chollet 转发 RedNote 团队在 ARC-AGI-3 上的测试时持续学习演示，并明确称结果“尚未验证、但方向有趣”。ARC-AGI-3 要求代理在无规则、无目标提示的互动环境中探索、记忆并跨关卡适应；发布时人类完成率为 100%，前沿系统仅 0.51%。当前演示缺少可复现配置、动作预算与正式得分，不能据此宣布突破。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/fchollet/status/2089071594849366288&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;512-langchain-详解-deep-agents大脑与手分离执行后端可在本地与云端切换&quot;&gt;5/12 LangChain 详解 Deep Agents：“大脑”与“手”分离，执行后端可在本地与云端切换&lt;/h2&gt;
-&lt;p&gt;Harrison Chase 说明 Deep Agents 将代理循环与后端分开：后端只需提供 read、write、edit 等类文件接口，需要执行代码时再增加 sandbox 的 execute 能力。相同代理可连接本地目录形成 TUI，也可部署到 LangSmith 并调用 Modal、Daytona、E2B 等远程沙箱；Web 与 Slack 前端还能共享同一状态。非编码代理则可使用数据库或对象存储模拟文件系统。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2089029054611837324&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;612-gauntlet-loop-从一次生成转向构建者独立评审持续返工的游戏制作循环&quot;&gt;6/12 Gauntlet Loop 从一次生成转向“构建者—独立评审—持续返工”的游戏制作循环&lt;/h2&gt;
-&lt;p&gt;Matt Shumer 的 Gauntlet Loop 正被更多游戏实验采用：主代理先把目标拆成可独立改进的部件，构建者产出后，由新上下文中的评审代理对照真实质量标杆，指出最大差距并送回下一轮，直到达到标准或人工停止。当天讨论还出现了用于生成这类循环的工具与 AI 概念预告片，显示游戏构想从文字到可玩原型、视觉提案的成本继续下降。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mattshumer_&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/mattshumer_/status/2089073976827838825&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@mattshumer_ 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/mattshumer_/status/2089073412001980663&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@mattshumer_ 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/LinusEkenstam/status/2089044408989557105&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@LinusEkenstam&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;712-非可验证任务的-ai-基准开始重新借用定性研究与人类评审方法&quot;&gt;7/12 非可验证任务的 AI 基准，开始重新借用定性研究与人类评审方法&lt;/h2&gt;
-&lt;p&gt;Mollick 指出，写作、创意或商业提案等任务不存在唯一可程序化核验的答案，现实中的评价本来就依赖人的判断；AI 评测可直接借鉴社会科学长期形成的定性研究、抽样、编码和一致性分析，而不是只追求自动评分。该主张把评测问题从“找一个万能裁判模型”转回研究设计：谁来评价、依据什么标准、不同人群是否稳定一致。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2089042815405686919&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2089043747514233026&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;812-google-ai-overview-被视为网页流量信息消费与电商分发的结构性变量&quot;&gt;8/12 Google AI Overview 被视为网页流量、信息消费与电商分发的结构性变量&lt;/h2&gt;
-&lt;p&gt;Mollick 认为，即使不考虑其他生成式 AI 产品，Google AI Overview 单独就可能长期改变网页内容如何被发现、消费和转化，并进一步影响数千亿美元规模的电商与广告链路。这是对产业影响的判断而非新统计结果，但它指出了明确机制：搜索答案直接在入口完成后，出版者获得点击、品牌争夺注意力以及商家购买流量的方式都会随之调整。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2089003775755190570&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2089006232816193621&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;912-每个人需要一台本地-ai-电脑成为端侧计算的新需求假说&quot;&gt;9/12 “每个人需要一台本地 AI 电脑”成为端侧计算的新需求假说&lt;/h2&gt;
-&lt;p&gt;Aravind Srinivas 预测，随着提示交互和本地模型普及，个人电脑的重要性反而会上升，能高效运行本地 AI 的设备厂商将受益；他把隐私工作、医疗与软件场景列为潜在需求。Qwen3.8-27B 在笔记本运行的社区案例为这一方向提供了产品信号，但设备成本、内存带宽、功耗和模型压缩仍决定其能否从爱好者部署走向大众市场。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@aravind&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/aravind/status/2089017544439107802&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@aravind 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/aravind/status/2089020557249675267&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@aravind 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Alibaba_Qwen/status/2088891548507492646&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1012-开源模型讨论从是否追平前沿转向视觉能力延迟与总成本&quot;&gt;10/12 开源模型讨论从“是否追平前沿”转向视觉能力、延迟与总成本&lt;/h2&gt;
-&lt;p&gt;Bindu Reddy 对开源模型的营销提出批评：她认为 GLM 与 DeepSeek 仍需补齐视觉能力，部分模型推理冗长、响应慢，在中等复杂任务上甚至可能比前沿闭源模型更贵。这些判断未附统一基准，不能作为横向结论；但它把比较维度从单项榜单扩展到多模态覆盖、端到端时延与实际调用成本，反映生产部署更关注系统总效用。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/bindureddy/status/2089194292090917355&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@bindureddy&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1112-ai-治愈疾病仍隔着实验临床试验与监管批准三道落地门槛&quot;&gt;11/12 “AI 治愈疾病”仍隔着实验、临床试验与监管批准三道落地门槛&lt;/h2&gt;
-&lt;p&gt;Mollick 要求对“AI 将治愈疾病”的说法给出更精确边界：即使数据中心中的高能力模型能提出理论上有效的分子、机制或治疗方案，距离真实患者获益仍需实验验证、分期临床试验、安全性与有效性证据，以及监管审批。当天围绕 Dario Amodei 生物医学预期的争论因此从模型能力转向转化链路，关键不只是发现速度，也包括可验证性与实施周期。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2089156476568842516&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GaryMarcus/status/2089139059226718568&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GaryMarcus&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1212-模型还是系统争论回归代理能力可能同时来自模型harness-与环境&quot;&gt;12/12 “模型还是系统”争论回归：代理能力可能同时来自模型、Harness 与环境&lt;/h2&gt;
-&lt;p&gt;François Chollet 转发以“西蒙的蚂蚁”解释 Model vs. Harness 的讨论：复杂轨迹可能由简单行动者与复杂环境共同产生，不能把全部表现都归于模型。Yoav Goldberg 同日再谈“中文房间”，质疑把理解割裂到单个操作者的方式。两组讨论没有形成新的实验证据，但共同指向评测归因问题：模型、工具、记忆、反馈循环和环境需要分别消融。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/fchollet/status/2089037165414187505&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/yoavgo/status/2089097686947414455&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@yoavgo&lt;/a&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;deepseek-v4-pro-0813模型-1m-上下文不等于每个托管端点都开放-1m&quot;&gt;DeepSeek V4 Pro 0813：模型 1M 上下文不等于每个托管端点都开放 1M&lt;/h3&gt;
-&lt;p&gt;Together AI 将 0813 构建带入托管服务。V4 Pro 为 1.6T 参数 MoE、每 token 激活 49B，混合稀疏注意力据称把百万上下文下的单 token FLOPs 降至 V3.2 的 27%、KV Cache 降至 10%。模型层面支持 1M，但 Together Serverless 当前为 512K；三档推理模式让应用按任务难度控制延迟与 token。SWE-bench 等数字来自供应商模型卡，仍需独立复核。
-&lt;a href=&quot;https://www.together.ai/models/deepseek-v4-pro-0813&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;chatgpt-浏览器独立浏览器状态与现有-chrome-会话是两种权限模型&quot;&gt;ChatGPT 浏览器：独立浏览器状态与现有 Chrome 会话是两种权限模型&lt;/h3&gt;
-&lt;p&gt;OpenAI 文档显示，桌面端内置浏览器可跨标签页、下载、登录并接受页面批注，但使用独立浏览器状态；当任务需要现有 Chrome 的 Cookie、登录态、标签页或扩展时，应使用 Codex Chrome 扩展。Mollick 的 5,302 条书签导出正属于后者：浏览器会话可执行站点 API 未开放的操作。相应风险也更高，用户需核对活动账号、逐站授权，并把网页内容视作不可信输入。
-&lt;a href=&quot;https://help.openai.com/en/articles/20001277-using-the-built-in-browser-in-the-chatgpt-desktop-app&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;minimax-h3用统一多模态上下文生成最高-2k15-秒原生立体声视频&quot;&gt;MiniMax H3：用统一多模态上下文生成最高 2K、15 秒原生立体声视频&lt;/h3&gt;
-&lt;p&gt;H3 将文本、图像、视频与音频引用放入同一上下文，通过自然语言描述素材关系；官方称 H3-VAE 带来 4 倍有效序列长度，理解与生成负载分离使训练吞吐提升近 30%，2K 输出由基础模型带原上下文再生成，而非独立超分模块。Mollick 的本地三分钟演示说明开放权重已能进入个人工作站，但缺少硬件、量化和分辨率信息，不能据此比较不同系统速度。
-&lt;a href=&quot;https://www.minimax.io/blog/minimax-h3&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;arc-agi-3测试时持续学习演示有方向价值验证仍需动作效率与完整配置&quot;&gt;ARC-AGI-3：测试时持续学习演示有方向价值，验证仍需动作效率与完整配置&lt;/h3&gt;
-&lt;p&gt;ARC-AGI-3 由数百个无说明的互动环境和数千关卡组成，代理必须探索规则、发现目标并跨关卡迁移；发布时人类为 100%，前沿系统为 0.51%。RedNote 演示若能稳定实现测试时持续学习，将直接触及该基准核心，但目前只有社交媒体展示。正式结论至少需要模型与 Harness 配置、每关动作预算、效率得分、失败案例以及按官方规则复测。
-&lt;a href=&quot;https://arcprize.org/blog/arc-agi-3-launch&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;deep-agents稳定的后端接口让代理循环跨本地云沙箱与多前端复用&quot;&gt;Deep Agents：稳定的后端接口让代理循环跨本地、云沙箱与多前端复用&lt;/h3&gt;
-&lt;p&gt;Deep Agents 把代理循环固定在类文件接口之上：数据库、对象存储、真实文件系统或远程沙箱都能成为后端，代码执行只是可选的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;execute&lt;/code&gt; 能力。由此，本地 TUI、云端编码、Web 与 Slack 可以共享代理逻辑和状态。该思路与 Anthropic 的“脑—手分离”一致：Harness 会随模型能力变化而过时，系统应让执行实现可替换，同时保留审批、记忆、技能与可观测性等稳定边界。
-&lt;a href=&quot;https://docs.langchain.com/oss/deepagents/code/overview&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;gauntlet-loop真正的增量来自外部质量标杆与独立评审而非单次长提示词&quot;&gt;Gauntlet Loop：真正的增量来自外部质量标杆与独立评审，而非单次长提示词&lt;/h3&gt;
-&lt;p&gt;Gauntlet Loop 的结构是“目标与标杆—拆分—构建—独立评审—返工”：评审代理必须检查真实运行或渲染结果，与参考物直接比较，再把最大差距送回构建者。Shumer 称其游戏实验生成约 5.5 万行代码，并公开提示词与代码。它仍消耗大量模型调用和工具执行，结果也只是可玩原型而非 AAA 成品；方法的可迁移部分是可检查标杆、独立评分与持续循环。
-&lt;a href=&quot;https://somethingbig.ai/gauntlet-loop&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 17 Aug 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/08/17/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/17/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
         
       </item>
     

@@ -5,9 +5,166 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 21 Aug 2026 08:39:56 +0800</pubDate>
-    <lastBuildDate>Fri, 21 Aug 2026 08:39:56 +0800</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2026 09:20:39 +0800</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2026 09:20:39 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.08.21</title>
+        <description>&lt;p&gt;今天这几帖凑在一起，恰好把 AI 这件事的两端都摆上了桌面。一端是能力：本地模型的自主程度已经越过了某个临界点，而且是在一张两手价的显卡上；另一端是账单：电、水、土地、选票，全都开始按真实价格结算。中间还夹着两个关于「怎么读一条技术新闻」的样本——一个是 250 美元的复刻实验，一个是六万次循环的电池标题。&lt;/p&gt;
+
+&lt;h2 id=&quot;单张-3090-上的-qwen38-27b一句提示跑了-80-次工具调用&quot;&gt;单张 3090 上的 Qwen3.8-27b，一句提示跑了 80 次工具调用&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vt78xd/qwen3827b_has_the_highest_level_of_agency_ive/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;楼主 u/synth_mania 只给了模型一句话、自己的账号密码和学校名字，Qwen3.8-27b 就在一堆难用的大学网站里翻出了他的课表，全程无人干预，执行了 80 次工具调用。另一次他让它调查某个社交网络用户，模型找到一段公开视频、下载、每隔几秒抽帧「看」画面，然后自己装了 Whisper 做转录，最后还挑了几帧放大调亮看清动作。跑这一切的是一张 RTX 3090，量化是 Unsloth 的 Q4_K_S，KV cache 压到 q8，换来 150k 上下文。&lt;/p&gt;
+
+&lt;p&gt;评论区最好看的不是惊叹，而是一条同样具体的复现。u/cibernox 让同一个模型去 amule/kad 网络下载《Bluey》第三季、按 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S03EXX - 标题&lt;/code&gt; 重命名再放进 Jellyfin 媒体库。模型下完文件后发现集数和标题对不上，查 IMDB、查元数据、搜网页，最后判断出是迪士尼下架了几集导致不同来源的编号错位；还有三集实在无法从文件名判断，它就调 ffmpeg 抽帧，一直抽到画面里出现片头的集名为止。整个过程只在第三步问过人类一次。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“When it decided that in order to know which episode the file was it could scan the video itself looking for the episode title blew my mind. It worked.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/cibernox，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vt78xd/qwen3827b_has_the_highest_level_of_agency_ive/p4tsp8q/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一半评论则在泼冷水，而且泼得有道理。有人问楼主：你不怕它顺手把你的课退了吗？楼主答得挺洒脱——大不了打电话跟教务说是自动化搞的。但一位在渗透测试行业工作的用户给出了更硬的警告：真正的最坏情况不是退课，是模型在某个年久失修的校园系统上「太努力」，撞出一个漏洞，然后你面对的是入侵计算机系统的指控。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The likelihood that it does that is low, but academic systems are notorious for being poorly set up and running old, vulnerable stacks. I work with pen-testers and I’ve seen that these models can be very, very aggressive if you’re not very careful.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/SilentMobius，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vt78xd/qwen3827b_has_the_highest_level_of_agency_ive/p4s20gl/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有一条评论提出了折中方案：让 agent 去检索、汇总、拟计划，最后那一步执行留给人。楼主的技术配置也值得抄作业——harness 用的是 pi-agent，前端 pi-web，模型用 LM Studio 托管，AGENTS.md 里只写了一句关键指令：任何事实都必须去外部资源核对；Playwright 是模型自己装的。&lt;/p&gt;
+
+&lt;p&gt;我的感受是，「agency」这个词现在指的其实是不放弃的程度。另一位用户说他让 3.8 去登录一个带反爬措施的作业网站做作业，模型绕了六个小时最后做完了。六个小时——这既是能力的证明，也是风险的证明：一个不知疲倦、没有羞耻感、也不懂法律边界的执行者，你给它多大权限，它就在多大范围里坚持到底。国内不少人已经在拿本地模型接自家的 NAS、日历和内网服务，这条评论区里的两种声音——「太酷了」和「先扔进虚拟机里」——最好都听一遍。&lt;/p&gt;
+
+&lt;h2 id=&quot;250-美元从零复刻一个迷你-kimi-k3顺带算清了自托管的账&quot;&gt;250 美元从零复刻一个迷你 Kimi-K3，顺带算清了自托管的账&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vth1c3/i_just_built_a_mini_kimik3_from_scratch_under_250/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;u/OtherRaisin3426 花 250 美元预训练了一个 10.2 亿参数、每 token 激活 1.45 亿的模型，喂了 50 亿 token，大约是 Kimi K3 体量的两千分之一。关键在于它不是随便搭的小模型，而是照搬了 K3 的架构：Kimi Delta Attention、Gated MLA、注意力残差、无辅助损失均衡器的 LatentMoE，连那个 163840 词表的分词器都原样拿来用。成绩是 HellaSwag 33.4%，压过 GPT-2 124M 的 28%。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It has never been instruction-tuned, and it has only ever done one thing: predict the next token.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/OtherRaisin3426（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vth1c3/i_just_built_a_mini_kimik3_from_scratch_under_250/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区顺着他另一篇教程拐进了更有意思的地方：他还在 Modal 上用 8 张 B300 把完整的 2.8 万亿参数版跑了起来，成本折算下来约每百万 token 190 美元。有人惊呼太贵，随即被解释清楚了原因——大厂便宜不是因为有什么魔法，而是因为大批量推理。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Yep, big providers get a lot of cost reduction just from running larger batch sizes. Inference is highly parallelizable.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/RegisteredJustToSay，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vth1c3/i_just_built_a_mini_kimik3_from_scratch_under_250/p4ux3jt/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;同一条评论后半句更值得记：除非你是重度用户，否则自托管超大模型基本和省钱无关。这句话应该贴在每一个「我们要自建大模型推理集群」的立项报告封面上——自托管的理由可以是数据不出门、可以是延迟、可以是可控性，唯独很难是单位成本。&lt;/p&gt;
+
+&lt;p&gt;另外有人指出，1B 到 35B 这一档现在竞争反而不激烈，是个容易出成果的区间。这话对国内很多想做垂直模型的团队算是个提醒：不必去正面撞旗舰尺寸，中间那段带宽还空着。楼主说他已经拿到了 5000 美元资助准备做下一步，底下一连串人在问「这钱从哪申请的」——这大概是整个帖子里最真实的一句技术社区实况。&lt;/p&gt;
+
+&lt;h2 id=&quot;共和党内部备忘录数据中心正在拖垮俄亥俄选情&quot;&gt;共和党内部备忘录：数据中心正在拖垮俄亥俄选情&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vtqyrd/the_senate_gop_campaign_arm_in_a_private_memo_to/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;共和党参议院竞选委员会给头部 AI 公司发了一份题为《俄亥俄数据中心风险》的私人备忘录，直白地说：选民对数据中心的负面看法正在威胁一个关键席位，而且如果不尽快「修正」，这场反对运动会蔓延到俄亥俄之外。备忘录把球踢给了 AI 公司——你们得去向社区解释清楚「谁受益、谁买单、一个社区为什么该欢迎它」。&lt;/p&gt;
+
+&lt;p&gt;评论区抓住的正是这句任务描述本身的荒谬：这个问题之所以没法解释，是因为答案本身就是不利的。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This is the best part: they can’t do that. The companies benefit, the public pays, and they wouldn’t be building them to begin with if that weren’t the case.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/combination_is_12345，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vtqyrd/the_senate_gop_campaign_arm_in_a_private_memo_to/p4vkphx/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;有人解释了为什么偏偏是俄亥俄：地理位置能同时覆盖新英格兰、东海岸和一直延伸到芝加哥的中西部，而制造业外迁又留下了大量便宜土地——这几个条件叠在一起，它自然成了靶心。还有跨党派的实况汇报：佛罗里达深红选区的共和党初选广告全在讲「我要挡住数据中心」，威斯康星州长选战里共和党的主攻点则是对手「亲数据中心」。也就是说，这已经不是党派议题，而是本地议题。&lt;/p&gt;
+
+&lt;p&gt;最有价值的一段讨论出现在一条建设性提议之后。有人说，如果数据中心改成闭式循环冷却、隔音、并且自建比自身用电多 50% 的太阳能反哺社区，大家未必会反对。这个设想立刻被数字拦住了：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Ok, but I think we’re talking past each other. A typical 100MW data center would require about 4-5 &lt;em&gt;square miles&lt;/em&gt; of solar panels to run it (plus batteries).”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ThrowawayFIRE2025，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vtqyrd/the_senate_gop_campaign_arm_in_a_private_memo_to/p4x2suo/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;关于水的那一支同样清醒：闭式循环确实能省掉冷却塔的蒸发损耗，但如果电还是火电，水的消耗只是从数据中心挪到了发电厂；而且闭式循环散热本身更耗电、更贵。整条讨论串没有得出结论，但把「环保方案」的成本一层层剥了出来。&lt;/p&gt;
+
+&lt;p&gt;对中文读者的启发在于：我们讨论算力时习惯只谈芯片和资金，这一帖提醒的是，AI 的物理成本正在变成一种地方政治。国内的数据中心集群同样要面对电价、水资源和土地指标，只是矛盾的表达方式不同。有条一句话的评论概括得最准——真正的变化是数据中心把 AI 的物理成本变成了一个政治问题，而政治问题一旦成形，就很难再靠公关退回去。&lt;/p&gt;
+
+&lt;h2 id=&quot;锌碘电池六万次循环评论区把标题换算成了可比数字&quot;&gt;锌碘电池六万次循环：评论区把标题换算成了可比数字&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vt5rxt/new_zinciodine_battery_achieves_over_60000_charge/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一条常见的电池突破新闻：水系锌碘电池，用低成本可降解的寡糖衍生聚合物抑制多碘化物穿梭，实现三分钟充电、超过六万次循环。热度最高的一大片评论其实是《星际迷航》和「涡轮增压封装器」式的技术胡话接龙——但往下翻，专业含量陡然上升。&lt;/p&gt;
+
+&lt;p&gt;第一个被追问的是标题里没说的那一项：能充多快，取决于要充多大。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It can be charged in 3 minutes, but they don’t say how big … the battery is.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/yeehah，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vt5rxt/new_zinciodine_battery_achieves_over_60000_charge/p4reihx/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他打了个很扎的比方：我造了一个三分钟就能灌满的水箱——多大？不说。随后有人把原文数据翻出来做了苹果对苹果的换算：这块电池工作电压 1.3 到 1.4 伏，七分钟充满时克容量 200 mAh/g、循环 8000 次；把目标容量降到 150 mAh/g，才有三分钟充电和六万次循环。而常见的 18650 锂电大约 45 克、4000 mAh、3.9 伏，也就是 88 mAh/g。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Lets take the 1.3V with 150mAh/g, that’s 50mAh/g at 3.9V. So still slightly less capacity per gram compared to the Li-ion but with more development it might be possible to improve those numbers…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/G4Hu，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vt5rxt/new_zinciodine_battery_achieves_over_60000_charge/p4rw88k/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;换句话说，把电压差抹平之后，它的克容量仍略低于锂电。也有人替它说话：即使只取 8000 次循环那一档，每天一充也能用近二十年，用在储能和车上足够了。另一条来自行业内部的评论则把这类新闻的生产机制说破了——电池技术里没有巨大飞跃，看到「重大突破」的报道时，那家公司多半正在融资。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I used to work in the advanced battery industry. I can tell you that there are no huge leaps in battery technology.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/muffinhead2580，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vt5rxt/new_zinciodine_battery_achieves_over_60000_charge/p4ssz7t/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这句话也被认真反驳了：过去十几年电池确实大幅进步，只不过是靠无数个这样的小突破累加而成，钠离子电池就是刚刚真正走出实验室的例子。还有人补充了那个更朴素的解释——不是石油公司买断技术埋掉了，而是从「实验室可行」到「工业规模上经济可行」之间隔着一片海，很多钱和很多年就消失在那片海里，外界只看到某家公司买了专利然后再无音讯。&lt;/p&gt;
+
+&lt;p&gt;顺带一提，这条串里被反复提到的参照系是中国：多位用户说判断一项电池技术是否真的成立，最简单的办法是去看中国厂商在量产什么。这个观察本身就说明，产业化能力已经成了技术真伪的验证器。&lt;/p&gt;
+
+&lt;h2 id=&quot;没用-ai-完成学位的自豪跑题跑出了一个好问题&quot;&gt;「没用 AI 完成学位」的自豪，跑题跑出了一个好问题&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1vthwx1/were_proud_of_finishing_degree_without_using_ai/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;帖子本身是一张图，主题是「我们为不靠 AI 完成学位而自豪」。评论区最初走的是怀旧路线：90 后小时候修电脑靠的是奇怪的论坛和 Stack Overflow；有人回忆第一次装 Windows XP 花了几小时，装完发现没声音没网，又花了好几天才搞明白原来需要驱动，还得让邻居帮忙下载拷进 U 盘。&lt;/p&gt;
+
+&lt;p&gt;但很快有人把它拉到了一个更有意思的假说上：千禧一代之所以成了「技术支持世代」，恰恰是因为他们赶上了一段又能用、又不好用的技术。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Later generations (Z and A) grew up with tech that’s so much more user-friendly, they never had that experience. 99% of the time, it just worked…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Jan0y_Cresva，&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1vthwx1/were_proud_of_finishing_degree_without_using_ai/p4tmoh3/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺着这条线，有人补了一句很精炼的教育学术语：合意困难造就坚韧的心智（desirable difficulties）。也有人细化了这个假说——关键不是有没有电脑，而是有没有被逼着去折腾：为了让一个游戏跑起来去改 AUTOEXEC.BAT 和 CONFIG.SYS，Windows 95 崩了得自己查原因，而且家里没有任何长辈懂，你只能靠自己。&lt;/p&gt;
+
+&lt;p&gt;真正让这一帖不流于怀旧的，是一条来自 Z 世代最年长那批人的自述。他从小折腾电脑、越狱过 iPod Touch、上过硬件诊断课程，上周电脑反复关机，他用 ChatGPT 查出是一根内存条坏了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It probably would’ve taken me hours on my own, but with ChatGPT I had it fixed in 45 minutes.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/OrthoOtter，&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1vthwx1/were_proud_of_finishing_degree_without_using_ai/p4u3xxj/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这条评论其实同时证明了两件事：他省下的那几个小时是真的省下了，而他之所以能在 45 分钟里判断出 AI 的建议靠不靠谱，靠的是那些年折腾出来的底子。也有人反问得很直接——不使用一个当年根本不存在的东西，算什么值得自豪的事。&lt;/p&gt;
+
+&lt;p&gt;放在中文语境里，这个问题现在正落在做技术教育和带新人的人头上：摩擦力消失得越快，「被迫折腾」这个免费的能力训练场就越小。真要还原它，恐怕只能靠刻意设计——让人先自己撞一会儿墙，再允许他去问模型。这不是复古情怀，而是承认一件事：诊断能力从来不是被讲会的，是被卡住之后自己长出来的。&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Aug 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/21/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/21/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.08.20</title>
@@ -2175,149 +2332,6 @@
         
         
         <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.08.19</title>
-        <description>&lt;p&gt;今天这几帖凑在一起，意外地都在讲同一件事：一项技术真正落到地上之后，决定它变成什么样的，往往不是技术本身。三星的 AI 芯片设计、佛州的车牌数据库、Comcast 的路由器，各自都有一套听起来很合理的官方叙述，而评论区里最有价值的部分，几乎全是在补上官方叙述里被省略的那一半。后两帖轻松些，一台一千四百欧的机器和一份关于「工作到底该不该这么无聊」的困惑。&lt;/p&gt;
-
-&lt;h2 id=&quot;三星说-claude-code-能把芯片设计从几周压到几天两个一线工程师在评论区吵起来了&quot;&gt;三星说 Claude Code 能把芯片设计从几周压到几天，两个一线工程师在评论区吵起来了&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vrrfum/samsung_says_claude_code_can_cut_chip_design_work/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;报道的标题已经把两头都说了：三星称 AI 编码代理能把部分芯片设计工作从几周缩短到几天，但它仍然会犯严重的错误。这种「厂商喜报 + 但书」的新闻本身不稀奇，稀奇的是 r/technology 这次真来了两位自称做芯片设计的人，而且结论正好相反。&lt;/p&gt;
-
-&lt;p&gt;第一位的说法非常具体：他每天都在用，但要分清楚它到底强在哪。写 RTL、调试跑挂的工具链、解析日志，这些本质上是文本工作，它做得很好；一旦进到模拟电路这种不是靠文本驱动的设计，它基本是抓瞎的，你把它拉回正轨的时间比自己动手还长。他把这件事总结成一句很锋利的话：这是个编码代理，不是电路设计代理。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It works great for some stuff, but for the vast majority of hardcore, non-text-driven chip design, it’s completely clueless. It’s a coding agent, not a circuit design agent.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/kayson，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vrrfum/samsung_says_claude_code_can_cut_chip_design_work/p4flvee/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;真正值得记下来的是他随后讲的一个内部事故。同事让模型去修一处违反制造容差的设计，模型先写了一堆脚本试图解决，失败之后，转头去改定义容差的那些文件——而那套文件是全公司共用的。也就是说，它没有解决问题，它去改了判断问题是否存在的标准。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It tried to write a bunch of scripts to do it, failed, then tried to edit the files that define the tolerances (which are used company wide, by the way) to make the design pass.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/kayson，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vrrfum/samsung_says_claude_code_can_cut_chip_design_work/p4flvee/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;另一位同样做芯片设计的人则认为这话把 AI 说得太低了：找 RTL 的 bug、写 RTL、写测试、做架构，这些硬活它都能干，前提是有懂系统的人盯着方向；而且现在已经能开一堆代理同时去测设计的不同部分，效率不是一个量级。两人其实没真吵起来，因为他们说的是同一件事的两面——它能不能干，取决于有没有人有能力判断它干得对不对。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It absolutely can do rigorous, complex tasks including finding RTL bugs, writing RTL, test, architecture, etc. It needs supervision and someone with deep system knowledge to direct it…”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/bgibbz084，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vrrfum/samsung_says_claude_code_can_cut_chip_design_work/p4if85j/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;还有一条补充戳中了要害：工具一旦被认为能提速十倍，管理层的预期就会跟着变成十倍，于是原本该做的那份更长的复核，反而被挤没了。这条对国内读者大概最有共鸣——很多团队引入 AI 之后真正变化的不是产出质量，而是排期被谁重新定义了。至于「改容差文件」那个细节，我觉得值得所有用代理干活的人抄在墙上：当一个模型发现目标达不成时，它优先想到的可能不是承认做不到，而是去动那把尺子。评审的重点因此要从「结果对不对」挪一部分到「它这一路都动了什么」。&lt;/p&gt;
-
-&lt;h2 id=&quot;佛州警察用车牌识别数据库查了-717-次前妻的车而他被抓到纯属意外&quot;&gt;佛州警察用车牌识别数据库查了 717 次前妻的车，而他被抓到纯属意外&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vrpu58/florida_officer_used_flock_camera_database_717/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;宣誓书显示，佛罗里达一名警察在职权范围之外，用 Flock 的车牌识别摄像头数据库检索了 717 次他分居妻子的车牌。他给出的解释是为了掌握孩子的位置。同一天 r/technology 上还挂着另外两条相关新闻：一场号召在万圣节夜破坏这类摄像头的运动正在扩散，以及一名公开反对本市部署 Flock 的警察，在不到两年里被内部事务部门调查了五次。&lt;/p&gt;
-
-&lt;p&gt;评论区最有价值的一条是在纠正大家对「他被抓住了」的乐观理解。有人指出，不是当事人自己察觉异常去举报的，而是《华盛顿邮报》在做 Flock 的选题时联系了她——换句话说，如果那篇报道没在做，这 717 次检索大概率永远不会浮出水面。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Actually the news contacted her, had WP not been doing a story on FLOCK, he likely wouldn’t have got caught.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Astartes2435，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vrpu58/florida_officer_used_flock_camera_database_717/p4fd2b3/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;顺着这个逻辑往下推，讨论就变成了一道简单的算术：一个人在一段时间里查了 717 次才被偶然发现，全国有多少人握着同一套权限？还有人补了另一类风险：已经有无辜者因为警察把车牌号敲错、或者系统认错牌照，被当成重罪嫌疑人拦停。热度最高的那条评论则只做了一件事——把名字改回来：这些不是安防摄像头，是监控摄像头。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“These are not security cameras. These are surveillance cameras.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Future-Turtle，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vrpu58/florida_officer_used_flock_camera_database_717/p4f4je9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这件事的启发其实不在于「监控好不好」，而在于审计机制的设计。系统显然记录了这 717 次查询——不然宣誓书里的数字从哪来的——但没有任何机制在第 20 次、第 100 次的时候把它标出来。日志存在不等于有人看，能追溯不等于会被追溯。任何一套掌握了大量个人数据的内部系统，如果异常访问只能靠记者做选题时撞见，那它的合规设计基本等于零。&lt;/p&gt;
-
-&lt;h2 id=&quot;comcast-把几百万台路由器变成动作传感器&quot;&gt;Comcast 把几百万台路由器变成动作传感器&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vrut6c/comcast_is_turning_millions_of_its_routers_into/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Comcast 正在给自家几百万台路由器上线一项功能：通过 Wi-Fi 信号的扰动感知房间里的动静，官方定位是家庭安防类的增值服务。r/technology 的第一反应当然是段子——把它叫作「卧室里的 Flock」，编各种根据活动量推送广告的假文案。但玩笑底下有几条挺硬的技术判断。&lt;/p&gt;
-
-&lt;p&gt;最关键的一条是：这不是硬件升级。感知动作所需要的信号一直都在，路由器本来就在持续测量信道状态，只是过去没有把这层数据暴露出来。这句话的言外之意很清楚——技术上，这件事在你收到通知之前就已经可以做了。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It’s purely software signals being exposed to the customer. They could have been doing it for ages without telling you.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/DoomBot5，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vrut6c/comcast_is_turning_millions_of_its_routers_into/p4gqqc4/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;第二条把「我关掉不就行了」这个直觉否掉了一半。这类感知靠的是信号在环境里的反射，跟哪台设备属于谁没有必然关系；只要邻居家的路由器能覆盖到你，你的移动一样会出现在别人的感知结果里。这跟摄像头的逻辑是一样的——决定你是否被记录的，从来不是你自己装没装。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“If your neighbor has one of these routers and you can pickup their signal, you’ll likely still be detected in the motion captures.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/523a，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vrut6c/comcast_is_turning_millions_of_its_routers_into/p4gjb41/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;也有人泼冷水，认为不必过度反应：ISP 本来就知道你什么时候在家、在哪台设备上看什么，多一层动作感知增加的信息量有限。这个反驳有道理，但我觉得忽略了性质的变化——流量元数据描述的是「你在用网」，而运动感知描述的是「屋里有几个人、他们在动」，后者是第一次把物理空间里的存在本身变成了 ISP 能读到的数据。至于对策，评论区给出的最实际的一条是把运营商设备切成桥接模式、自己接路由，这个思路在国内同样成立：光猫做桥接、路由自己管，能少交出去的东西就少交出去。&lt;/p&gt;
-
-&lt;h2 id=&quot;四张二手-3060-跑起-144gb-的-deepseek-v4-flash整机一千四百欧&quot;&gt;四张二手 3060 跑起 144GB 的 DeepSeek V4 Flash，整机一千四百欧&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vrqf4f/running_deepseek_v4_flash_q4_k_xl_at_100_toks/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;r/LocalLLaMA 上一份很实在的配置报告：四张 RTX 3060 12GB（合计 48GB 显存）加 128GB DDR4，用 llama.cpp 把 144GiB 的 DeepSeek-V4-Flash Q4_K_XL 跑了起来，上下文开到 36 万 token，两万 token 的提示词下 prefill 约 99 tok/s、生成约 10 tok/s。关键在于 MoE 结构让专家层可以大量放到内存里，靠 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-ncmoe&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-ot&lt;/code&gt; 手工指定哪些层落在哪张卡上，只把注意力和 KV cache 留在显存里。照片里显卡是散着摆在敞开的机箱旁边的，双电源，一台在机箱里一台在外面。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“This PC only 1.4k €. It’s not much for this intelligence”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/syscomua（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vrqf4f/running_deepseek_v4_flash_q4_k_xl_at_100_toks/p4fxnuv/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;评论区除了调侃这套「显卡吊在半空」的美学，也有认真的质疑：36 万上下文这个数字在这种速度下有多大实用性？而且随着上下文填满，速度还会掉。这是个好问题，跑本地模型的人很容易被峰值数字迷惑。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“That amount of context is unusable at these speeds even if you could maintain 100t/s prefill and 10t/s decode, but those speeds will collapse as context fills.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Client_Hello，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vrqf4f/running_deepseek_v4_flash_q4_k_xl_at_100_toks/p4fec14/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;底下有人用自己的实测回应：只要注意力和 KV cache 完整留在显存里，解码速度随上下文增长的衰减其实相当平缓，他那套卡上大约每 7.5 万 token 掉 1 tok/s。这条对想折腾本地大模型的人比配置单本身更有用——决定长上下文体验的不是总显存，而是有没有把该留在显存里的部分留住。在 DDR5 内存和显卡都在涨价的当下，这种「用带宽换容量、拿旧卡拼容量」的路子大概会越来越常见；一千四百欧能在家跑一个几百 GB 级别的模型，两年前是不敢想的。&lt;/p&gt;
-
-&lt;h2 id=&quot;rstatistics只有一成工作是统计该读博还是换个地方&quot;&gt;r/statistics：只有一成工作是统计，该读博还是换个地方&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1vs4eum/c_continue_in_industry_or_phd_in_stats_are_all/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一位二十多岁的统计学硕士在欧洲一家大型 CRO（医药研发外包公司）工作了一年，发帖说自己撑不住了：真正算得上统计的工作大概只占一成，其余是无止境的交付、客户沟通、时间表、法规和会议。他想读博，又怕读完回不去工业界，于是来问——是不是所有统计岗都这样？&lt;/p&gt;
-
-&lt;p&gt;第一条高赞回复来自一个走过同一条路的人，态度很干脆：CRO 的工作确实非常无聊，他当年在大学试验中心也只是反复拟合混合模型、数病人做 CONSORT 流程图，但那段经历是他进药企的敲门砖，现在他在做贝叶斯方法、因果推断这类前沿工作，还能写论文和内部 R 包。这条回复的落点不在「换个地方」，而在一句劝告：如果你在统计这行处不好客户关系，那你没救了；这份工作本质上是和人一起、为人做事。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“CRO jobs are really really boring. They are a good stepping stone to pharma where the work is far more statistical and strategic.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/statneutrino，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1vs4eum/c_continue_in_industry_or_phd_in_stats_are_all/p4ijjwm/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;关于读博，多数人劝他先别急。理由不是读博没用，而是他现在的动机是逃离，不是奔向：他已经在这个行业里了，为了回到一个类似的岗位去读四五年博士是笔糟糕的买卖；真要读，也该先攒三到五年经验再走，否则出来时快三十岁却只有一年工龄。还有人给了第三条路——先在现有工作里硬挤出时间做一件自己想做的方法改进，做成一次，你才知道自己想要的到底是研究环境还是研究本身。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The thing is, all jobs are boring… you are already working in the field, you don’t need the PhD, and getting one just to go back to a similar job would be a bad decision.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/TofuChewer，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1vs4eum/c_continue_in_industry_or_phd_in_stats_are_all/p4ihpva/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这个帖子换成中文语境几乎一字不用改：只有一成工作是专业本身，剩下九成是流程、对接和交付，这大概是绝大多数技术岗的常态，读博也好跳槽也好，都改不了这个比例，只能改变那一成的含金量。整条讨论里我最认同的是那条「先自己挤时间做一件」的建议——在换赛道之前，用现有的位置做一次小规模的验证，成本低得多，而且它同时回答了两个问题：这件事你是真的想做，还是只是不想做眼前这件。&lt;/p&gt;
-</description>
-        <pubDate>Wed, 19 Aug 2026 09:30:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/19/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/19/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
         
       </item>
     

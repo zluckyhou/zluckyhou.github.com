@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 21 Aug 2026 09:26:19 +0800</pubDate>
-    <lastBuildDate>Fri, 21 Aug 2026 09:26:19 +0800</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2026 10:20:12 +0800</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2026 10:20:12 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -163,6 +163,136 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>AI Frontier Daily | 2026.08.21</title>
+        <description>&lt;h2 id=&quot;115-cerebras-发布-cs-4超-10-万亿参数模型推理突破千-tokens&quot;&gt;1/15 Cerebras 发布 CS-4，超 10 万亿参数模型推理突破千 token/s&lt;/h2&gt;
+&lt;p&gt;Cerebras 发布第四代整机 CS-4：单机由三颗 WSE-3 Turbo 与全新 Nexus 机架组成，官方称相较 CS-3 推理最高提速 2 倍、token 容量最高增至 10 倍，相较生产 GPU 系统最高快 30 倍；多机互连延迟最低 2 微秒，可让超过 10 万亿参数的模型维持每秒 1,000 token 以上。系统原生支持把 prefill 放在 AMD Helios、AWS Trainium 等平台、由 CS-4 执行 decode；首批设备本季度出货。上述数字来自厂商基准与部分预测。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cerebras/status/2090529246380753394&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cerebras&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;215-gemini-37-flash-在-arc-agi-2-验证集拿到-846单题成本-025-美元&quot;&gt;2/15 Gemini 3.7 Flash 在 ARC-AGI-2 验证集拿到 84.6%，单题成本 0.25 美元&lt;/h2&gt;
+&lt;p&gt;ARC Prize 公布经验证的 Gemini 3.7 Flash 成绩：ARC-AGI-2 为 84.6%、中位成本 0.25 美元/题，ARC-AGI-1 为 95.5%、0.12 美元/题。Google 同期称该模型在 Artificial Analysis 的 AA-AnalystAgent 复杂真实任务榜位列第一。成绩把 Flash 档模型推进到高准确率、低单题成本区间，但 ARC-AGI 验证使用公开评测集，不能直接等同于私有竞赛集或开放环境中的通用 Agent 能力。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/fchollet/status/2090548556138742203&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;/a&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@demishassabis&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/demishassabis/status/2090572780928438777&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@demishassabis 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/demishassabis/status/2090572766550405601&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@demishassabis 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;315-meta-用-muse-spark-12-打通视觉编码工具调用与机器人控制&quot;&gt;3/15 Meta 用 Muse Spark 1.2 打通视觉编码、工具调用与机器人控制&lt;/h2&gt;
+&lt;p&gt;Meta 展示 Muse Spark 1.2 的原生多模态 Agent 能力：模型可理解图像、音频、视频和文档，把视觉布局转为可运行网页或游戏代码，也能根据环境观察调用工具，引导机器人寻找物体或让双臂机器人整理桌面。Meta 同时预览 WildArtifactBench，以人工和 Agent 偏好评审的胜率、Elo 取代单一标准答案，覆盖音频分析、医学影像、3D 建模、材料计量和视频编辑等真实交付物；首批公开 10 个任务。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AIatMeta&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2090485743034716420&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2090485750076989595&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2090485751926706501&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2090505413817246050&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;415-openai-首批-vera-rubin-机架到位并已运行下一代预训练栈&quot;&gt;4/15 OpenAI 首批 Vera Rubin 机架到位，并已运行下一代预训练栈&lt;/h2&gt;
+&lt;p&gt;OpenAI 基础设施负责人宣布，公司首批 NVIDIA Vera Rubin 机架已经到位并运行训练栈，用于扩展下一代前沿模型的预训练算力；Sam Altman 转发确认这一里程碑。消息表明 Rubin 平台已从路线图进入 OpenAI 的实际训练环境，但公告没有披露机架数量、集群规模、功耗、网络拓扑、训练模型或正式投产时间，也没有提供与 Blackwell 系统的吞吐和成本对比。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/sama/status/2090512062149476489&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@sama&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;515-pika-music-用统一扩散模型组合提示词歌词声音与参考曲&quot;&gt;5/15 Pika Music 用统一扩散模型组合提示词、歌词、声音与参考曲&lt;/h2&gt;
+&lt;p&gt;Pika Music 接受文本提示、歌词、声音参考和音乐参考四种输入，可单独或组合使用，并在同一共享潜空间扩散解码器内同时处理曲式、演唱特征、文字指令和参考风格，而不是串联多个独立模型。官方称可生成最长 6 分钟歌曲，90 秒歌曲本地平均 6.21 秒完成，约为播放速度的 14.5 倍，成本最高比同类模型低 10 倍；固定歌词基准的内容愉悦度与制作质量接近 Suno。数据均为厂商测试。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@pika_labs&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2090484496764412255&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2090484498454749233&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2090484500644143451&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2090484502615519292&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;615-sakana-translate-换用新一代-namazu强化日语文化语境翻译&quot;&gt;6/15 Sakana Translate 换用新一代 Namazu，强化日语文化语境翻译&lt;/h2&gt;
+&lt;p&gt;Sakana AI 将翻译服务升级到新一代 Sakana Namazu，在保持日语、英语、中文双向翻译及免费使用不变的同时，刷新基础模型并改进后训练方法。厂商用自研 TransEvalnia 对 160 个内部日英任务做一对一比较，Sakana Translate 相对每个对照系统的胜率都超过 50%，尤其强调“お宮参り”等文化特定表达的自然翻译。后续计划加入 PDF 与 Office 文件翻译、术语表、行业模型、API、SSO、审计日志和本地部署。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@SakanaAILabs&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/SakanaAILabs/status/2090586947047895536&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@SakanaAILabs 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/SakanaAILabs/status/2090588201413120470&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@SakanaAILabs 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/SakanaAILabs/status/2090588329301659834&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@SakanaAILabs 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;715-codex-从编码工具扩展到税务代码迁移和浏览器工作流&quot;&gt;7/15 Codex 从编码工具扩展到税务、代码迁移和浏览器工作流&lt;/h2&gt;
+&lt;p&gt;OpenAI 展示 Codex harness 的三类非传统落地：税务 Agent 试点处理 7,000 份申报表，整体准备时间约减少三分之一，并用生产失败轨迹持续生成可验证修复；大型代码迁移案例把原本按年估算的工作压缩到数周；浏览器场景则把同一 Agent 循环用于网页操作。官方已开放 Codex harness 供团队构建自己的产品。案例说明通用执行框架正在跨领域复用，但行业合规、人工复核和失败回滚仍由应用方负责。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/gdb/status/2090246288478814281&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@gdb 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/gdb/status/2090327069985268049&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@gdb 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/gdb/status/2090449916456009972&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@gdb 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;815-chroma-foundation-从-agent-会话自动维护自改进知识库&quot;&gt;8/15 Chroma Foundation 从 Agent 会话自动维护“自改进知识库”&lt;/h2&gt;
+&lt;p&gt;Chroma 发布 Foundation 研究预览：系统跟随 Claude Code、Codex、Slack 等工作流，从 Agent 会话中提取显性与隐性组织知识，持续维护可查询、会自我更新的团队 wiki，并可通过 MCP 把上下文带到不同模型和 harness。底层基于 ChromaDB 与 Context-1，提供版本、并发、血缘和访问控制；公司称其在 BEAM memory benchmark 达到 SOTA，并具备 SOC 2 Type 2。当前产品已提供 macOS 入口，但官方也明确称技术仍不完美。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2090478630585745678&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;915-hiphi-公布-6175-小时高精度人类动作与物体交互数据&quot;&gt;9/15 HiPHI 公布 617.5 小时高精度人类动作与物体交互数据&lt;/h2&gt;
+&lt;p&gt;Noitom Robotics 将 HiPHI 数据集公开用于研究，包含 617.5 小时高精度人体动作和人—物交互，并公布覆盖率与逐帧质量指标；基于该数据训练的策略已部署到真实 Unitree G1 人形机器人。数据分类不从任务清单出发，而借助 FrameNet 构建 22 个 motion frames 和 214 个 motion units，以减少重叠并量化采集覆盖。公司称背后 ModalityNet 基础设施每年可生产超过 10 万小时人类中心数据，该产能仍属厂商披露。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/huggingface/status/2090372091409264646&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@huggingface&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1015-ai21-用独立验证器把-facts-search-从-833-提到-934&quot;&gt;10/15 AI21 用独立验证器把 FACTS-Search 从 83.3 提到 93.4&lt;/h2&gt;
+&lt;p&gt;AI21 发现 Agent 搜索的主要瓶颈常在候选选择：不同强弱、开闭源生成器的 pass@k 均高于 pass@1，正确答案已在候选池却被多数投票丢弃。其独立验证器只看问题与单个答案，重新检索后先否决错误候选，再对剩余结果投票；混合模型池在 FACTS-Search 从 83.3 提至 93.4，超过已发布 89.4。训练后的 8B 验证器达到 92.9、成本 1.34 美元，并能迁移到 BrowseComp-Plus，但召回率需少量 SFT 修复。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AI21Labs/status/2090424754377289837&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AI21Labs&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1115-open-bot-开源持久在线-ai-同事并兼容多种-agent-harness&quot;&gt;11/15 Open Bot 开源持久在线 AI 同事，并兼容多种 Agent harness&lt;/h2&gt;
+&lt;p&gt;CopilotKit 开源 Open Bot，目标是复现“持续在线、拥有自己电脑”的企业 Agent 形态，并通过 AG-UI 连接不同 harness。项目包含 AI Coworker、生成式 UI、聊天与线程、本地或远程 computer use、设备端工具调用、人类审批与交接、实时流式输出，以及由企业自行持有的完整运行数据；官方列出的兼容范围包括 LangChain、Mastra、CrewAI 和 OpenAI Agents SDK。当前发布更像参考实现，生产权限边界仍需部署方定义。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2090508534484189575&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1215-databricks-披露-openai-跨-azureaws-的十亿用户数据底座&quot;&gt;12/15 Databricks 披露 OpenAI 跨 Azure、AWS 的十亿用户数据底座&lt;/h2&gt;
+&lt;p&gt;Databricks 客户案例称，OpenAI 自 2024 年起在 Azure 与 AWS 上把使用数据写入由 Unity Catalog 治理的 Delta 表，服务产品分析、财务、安全、信任与安全等团队，并支撑面向每周 10 亿活跃用户的营销操作。统一数据架构据称每月减少 40 万美元存储成本；安全团队用流式管道汇集基础设施、云和供应商审计日志，Codex Agent 可经 SQL API 调查治理数据。双方还通过 Genie MCP 让 ChatGPT Work 用户访问企业数据。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2090427163124105543&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1315-agent-arena-显示头部模型单任务成本可相差五倍以上&quot;&gt;13/15 Agent Arena 显示头部模型单任务成本可相差五倍以上&lt;/h2&gt;
+&lt;p&gt;Agent Arena 将真实长时工具任务的净改进与单任务中位成本放在同一张 Pareto 图上：前五名中，Kimi K3 Max 以 10.5% 净改进排第四、成本 0.62 美元；GPT-5.6 Sol xHigh 以 9.8% 排第五、成本 1.39 美元；Claude Opus 5 Max 成本 3.37 美元且分数略低于 1.78 美元的 High 档。Grok 4.5 与 Qwen3.8 Max 分别以 0.22、0.33 美元提供约 6% 净改进。结果强调 Agent 路由需同时看任务收益和成本，而非只看总榜名次。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Kimi_Moonshot/status/2090303393311187130&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Kimi_Moonshot&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1415-superwhisper-开放-06b-本地转写后处理模型-s1-mini&quot;&gt;14/15 superwhisper 开放 0.6B 本地转写后处理模型 S1-mini&lt;/h2&gt;
+&lt;p&gt;superwhisper 发布首个开放权重语言模型 S1-mini，参数量 0.6B，可在设备端处理语音转写文本，并已集成进 macOS 应用。模型基于 Qwen3-0.6B 微调，定位不是通用聊天或复杂指令跟随，而是通过输入顶部控制行完成标点、格式、清理和风格等转写后处理。小模型把敏感转录内容留在本地，并降低持续云推理成本；公告没有给出跨语言、长文本、延迟、内存占用或与云端模型的系统基准。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/ClementDelangue/status/2090284278869352792&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1515-web-agent-的成本优化正在从换模型转向缓存解码与后训练协同&quot;&gt;15/15 Web Agent 的成本优化正在从换模型转向缓存、解码与后训练协同&lt;/h2&gt;
+&lt;p&gt;Together AI 与 Yutori 分享 Navigator 的 Web Agent 经济模型：简单字段提取、填表或站内导航通常需要 10–20 次推理，多站工作流可达数百次，因此单次模型价格会被循环长度放大。团队称通过约 80% prefix cache 命中、在更小模型上做 speculative decoding，以及对 Qwen 模型进行 SFT 与 RL 后训练，使 Web 任务比闭源模型方案快且便宜 2–5 倍。数据来自厂商演讲，没有披露统一任务集、成功率或端到端成本明细。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/togethercompute/status/2090555766747140364&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;/a&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
+
+&lt;h3 id=&quot;cerebras-cs-4把超低延迟-decode-做成异构机架组件&quot;&gt;Cerebras CS-4：把超低延迟 decode 做成异构机架组件&lt;/h3&gt;
+&lt;p&gt;CS-4 由三颗 WSE-3 Turbo、Nexus 模块化机架和新的 Wafer-Scale Backpack 组成。厂商称后者把电源转换靠近处理器、减少 50% 组件并提高 60% 自动化制造比例，使部署从数天缩短到数小时；可编程 I/O 带宽翻倍，并以 RoCE v2 或 Direct Wafer Links 扩展。系统可把 prefill 放在 GPU 或 ASIC，把低延迟 decode 留给 CS-4，在超过 10 万亿参数模型上宣称每秒 1,000 token 以上。30 倍 GPU 速度、10 倍每瓦吞吐等结论来自 Cerebras 内部基准与预测，首批本季度出货。
+&lt;a href=&quot;https://www.cerebras.ai/blog/introducing-cerebras-cs-4&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;muse-spark-12-与-wildartifactbench从答题评测转向可交付成果&quot;&gt;Muse Spark 1.2 与 WildArtifactBench：从答题评测转向可交付成果&lt;/h3&gt;
+&lt;p&gt;Muse Spark 1.2 把视觉理解、代码生成、工具调用与 computer use 放进同一 Agent 模型，演示覆盖从图像或视频生成可运行网页、让机器人在非结构环境寻找物体、双臂整理桌面，以及将媒体内容转换为训练标签和下游信号。WildArtifactBench 则公开 10 项预览任务，横跨鸟鸣分析、心脏超声、冠脉造影、3D 网格、厨房布局、材料计量、强化学习驾驶和视频编辑；每项都附输入文件、说明和 rubric。Meta 采用人类与 Agent 偏好评审的胜率和 Elo，扩大开放式交付物覆盖，但偏好裁判的一致性与可复现性仍需持续校准。
+&lt;a href=&quot;https://research.meta.ai/wild-artifact-bench&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;pika-music四种条件在同一潜空间内共同决定完整歌曲&quot;&gt;Pika Music：四种条件在同一潜空间内共同决定完整歌曲&lt;/h3&gt;
+&lt;p&gt;Pika Music 将文本、歌词、声音参考和音乐参考编码后送入共享 latent-diffusion decoder，让曲式、演唱角色、文字方向与参考“氛围”在一次生成中共同作用。官方博客称最长可生成 6 分钟，90 秒歌曲平均 6.21 秒完成，并把快速 few-step generation、训练与推理优化转化为最高 10 倍成本优势。固定歌词基准覆盖 15 种创作方向，推文报告 Audiobox Aesthetics 的 Content Enjoyment 7.403、Production Quality 8.064，与 Suno 的 7.412、8.151 接近；硬件、样本规模与独立复测信息未完整公开。
+&lt;a href=&quot;https://experiment.pika.art/blog/pika-music&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;sakana-translate以文化语境后训练挑战大模型必然翻得更好&quot;&gt;Sakana Translate：以文化语境后训练挑战“大模型必然翻得更好”&lt;/h3&gt;
+&lt;p&gt;升级后的服务采用新一代 Sakana Namazu，刷新基础模型并改进后训练，在日英中双向翻译范围不变的前提下提升自然度。Sakana 用 TransEvalnia 从译词、自然度等维度评判 160 个内部日英任务，称相对所有对照模型和服务的一对一胜率均超过 50%；“お宮参り”案例用于展示文化概念而非字面替换。服务继续免费提供翻译、添改与质疑，支持约 5,000 字长文；文件翻译、术语表、行业模型、API、SSO、审计日志和本地部署仍在路线图上。评测集由厂商自建，需外部数据复核泛化。
+&lt;a href=&quot;https://sakana.ai/translate-update/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;codex-税务-agent把生产错误转成可验证的自改进任务&quot;&gt;Codex 税务 Agent：把生产错误转成可验证的自改进任务&lt;/h3&gt;
+&lt;p&gt;Tax AI 在 Crete 参与试点的事务所处理 7,000 份税表；每次生产预测都与会计师最终结果比较，失败会生成包含生产 trace、源文档、预测、最终申报表与税务字段文档的只读调查上下文，让 Codex 定位问题、修改代码并运行评测，而不改动证据。官方称整体准备时间约减少三分之一，并给出一名资深会计从上一季 180 小时降到本季 15 小时的个案。流程的关键不是让模型直接承担税务责任，而是把真实失败闭环成测试、代码修复和人工可审查的发布候选。
+&lt;a href=&quot;https://openai.com/index/building-self-improving-tax-agents-with-codex/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;chroma-foundation从会话记录升级为带版本与权限的组织记忆&quot;&gt;Chroma Foundation：从会话记录升级为带版本与权限的组织记忆&lt;/h3&gt;
+&lt;p&gt;Foundation 跟随 Claude Code、Codex、Slack 等团队工作，抽取显性结论和“事情实际上怎么做”的隐性知识，维护可持续更新的 wiki，并通过 MCP 把同一上下文提供给不同模型与工具。产品基于 ChromaDB 和 Context-1，宣称在 BEAM memory benchmark 达到 SOTA，并把版本、并发、血缘、实时同步和访问控制做成一等能力。官方称系统具备 SOC 2 Type 2，编码 Agent 会话默认只对作者可见。当前属于研究预览；自动提炼仍可能把错误经验固化，因此来源追踪和人工修订与检索质量同样关键。
+&lt;a href=&quot;https://www.trychroma.com/foundation&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;hiphi先定义动作语义空间再采集-6175-小时具身数据&quot;&gt;HiPHI：先定义动作语义空间，再采集 617.5 小时具身数据&lt;/h3&gt;
+&lt;p&gt;HiPHI 不从容易重叠、漏掉边界情况的任务清单开始，而用 FrameNet 的人类动作语义建立 22 个 motion frames 和 214 个 motion units，在采集前量化覆盖。公开数据包含 617.5 小时人体动作和人—物交互，附覆盖对比与逐帧质量指标，并用真实 Unitree G1 部署验证训练策略。数据对研究免费；Noitom 还称其 ModalityNet 基础设施可每年生产超过 10 万小时动作、交互与野外行为数据。公开样本能否代表这一工业产能，以及许可对商业训练的边界，需要按数据卡单独核对。
+&lt;a href=&quot;https://huggingface.co/datasets/noitomrobotics/HiPHI&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ai21-独立验证器正确答案已生成系统却不会把它选出来&quot;&gt;AI21 独立验证器：正确答案已生成，系统却不会把它选出来&lt;/h3&gt;
+&lt;p&gt;在 FACTS-Search 上，混合 Claude Haiku、Sonnet、Opus 与 Qwen3-Coder 的固定候选池，多数投票为 83.3；独立 Opus 验证器重新检索每个候选并先否决错误答案，将结果提到 93.4，但总成本达 4.26 美元/题。AI21 用约 6,000 条可验证样本训练 8B 验证器后，固定同一候选池达到 92.9、成本 1.34 美元；纯开源生成池则从 60.1 提至 77.0，仅 0.017 美元/题。迁移到 BrowseComp-Plus 时精度提升仍在，但会把 27% 可解问题的正确候选全部拒绝，约 85 条样本的短 SFT 用来修复召回。
+&lt;a href=&quot;https://www.ai21.com/blog/you-need-a-verifier/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;databricks-成为-openai-的多云运营数据层&quot;&gt;Databricks 成为 OpenAI 的多云运营数据层&lt;/h3&gt;
+&lt;p&gt;OpenAI 自 2024 年起在 Azure 与 AWS 同时使用 Databricks，原始使用数据进入 Unity Catalog 治理的 Delta 表，再由 Jobs 与 Data Warehouses 形成分层管道，供产品、财务、营销、安全及信任与安全团队使用。案例称 Bronze-Silver-Gold 架构支撑每周 10 亿活跃用户的营销分析，并每月减少 40 万美元存储成本；安全侧统一基础设施、云与供应商审计日志，Codex 可经 SQL API 对治理数据做辅助调查。Genie MCP 则把这套企业数据连接到 ChatGPT Work。数字与收益来自供应商客户案例，未提供第三方审计。
+&lt;a href=&quot;https://www.databricks.com/customers/openai&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Aug 2026 09:07:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/ai-daily/2026/08/21/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/21/</guid>
+        
+        <category>AI-Frontier</category>
+        
+        <category>Daily</category>
+        
+        
+        <category>ai-daily</category>
         
       </item>
     
@@ -2308,170 +2438,6 @@ Off-price零售商是&lt;strong&gt;捡漏&lt;/strong&gt;——专门收购品牌
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/20/tjx_fy2027q2_earnings/</guid>
         
         <category>TJX</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>塔吉特2026Q2电话会——CEO说「两个好季度不是目标」，并承认服装和家居的转型要按年算</title>
-        <description>&lt;p&gt;北京时间8月19日晚（美东时间8月19日上午），塔吉特（Target，NYSE: TGT）召开2026年第二季度业绩电话会。&lt;/p&gt;
-
-&lt;p&gt;出席阵容比往常更完整：&lt;strong&gt;CEO Michael Fiddelke（迈克尔·菲德尔克）、CFO Jim Lee、首席商品官Cara Sylvester、首席运营官Lisa Roath&lt;/strong&gt;，以及即将退休的IR负责人John Hulbert（这是他的最后一场电话会）。&lt;/p&gt;
-
-&lt;p&gt;当天塔吉特交出了一份数字上”打爆预期”的财报——每股收益4.11美元对预期2.33美元，同店销售3.8%对预期2.4%——但股价盘前反而下跌约1.6%。所以这场电话会的看点，不是管理层怎么邀功，而是&lt;strong&gt;他们怎么给市场降温&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-ceo给出的第一句定调是自我克制&quot;&gt;1. CEO给出的第一句定调，是自我克制&lt;/h2&gt;
-
-&lt;p&gt;菲德尔克在开场把本季定位为”我们年初提出的开启增长新篇章计划的重要一步”，紧接着就补了一句：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“两个强劲的季度不是目标。我们追求的是长期可持续的、有韧性的收入和利润增长。”（two strong quarters is not the goal. Sustained, durable top and bottom line growth over time is what we’re after）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;在一份大幅超预期的财报后说这句话，是明确的预期管理动作。他还说”我们才刚刚开始，前面还有大量重要的工作”。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-最被强调的数字不是每股收益是客流&quot;&gt;2. 最被强调的数字不是每股收益，是客流&lt;/h2&gt;
-
-&lt;p&gt;菲德尔克把本季他”最受鼓舞”的指标点名为客流量：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“客流量同比增长3.6%，在两年维度上比一季度还有轻微加速。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;对零售业来说，客流量是最难造假、也最能反映品牌吸引力的指标。塔吉特过去两年最大的问题恰恰是”人变少了”，所以管理层把叙事的重心放在这里，而不是被关税退款抬高的每股收益。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-降价1万个sku但拒绝把自己定义为低价零售商&quot;&gt;3. 降价1万个SKU，但拒绝把自己定义为低价零售商&lt;/h2&gt;
-
-&lt;p&gt;被问到”激进降价如何与保持价格带并存”时，菲德尔克给了一个措辞讲究的回答：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“价值是一个’并且’。’期待更多，花费更少’才是品牌承诺。”（Value as an “and.” Expect more and pay less is the brand promise）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;翻译成大白话：塔吉特不打算在价格上和沃尔玛肉搏，而是要在”设计感 + 可接受的价格”这个组合上做文章。过去一年公司降价商品超过1万个SKU，但剔除关税退款后毛利率仍提升约1个百分点，说明这套打法暂时没有伤到利润结构。&lt;/p&gt;
-
-&lt;h2 id=&quot;4-cfo把关税退款的边界划得很清楚&quot;&gt;4. CFO把关税退款的边界划得很清楚&lt;/h2&gt;
-
-&lt;p&gt;CFO Jim Lee在被追问”后面还有多少退款、明年基数怎么办”时说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“我们在Q2确认的关税退款，占迄今为止我们已申请的IEEPA退款的绝大部分，我们确实预计后续还会有一些。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;同时他把市场的注意力主动往剔除退款的口径上引：本季&lt;strong&gt;剔除退款后每股收益同比增长约20%&lt;/strong&gt;，全年营业利润率剔除退款后约比去年调整后的4.6%高0.5个百分点。&lt;/p&gt;
-
-&lt;p&gt;这段回答的信息量在于：&lt;strong&gt;这笔一次性收益基本已经吃完了，明年会形成高基数&lt;/strong&gt;。这也是股价没涨的直接原因之一。&lt;/p&gt;
-
-&lt;h1 id=&quot;二分析师问答中最有信息量的部分&quot;&gt;二、分析师问答中最有信息量的部分&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-rupesh-parikhoppenheimer客流的可持续性以及家居服装为什么没跟上&quot;&gt;1. Rupesh Parikh（Oppenheimer）——客流的可持续性，以及家居服装为什么没跟上&lt;/h2&gt;
-
-&lt;p&gt;首席商品官Cara Sylvester的回答相当直白：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“我们对这两块业务的表现都不满意，前面还有更多工作要做。”（We are not satisfied with the performance in either of those businesses, and there’s more work ahead）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;她同时点出真正在增长的是&lt;strong&gt;母婴、健康和美妆&lt;/strong&gt;三块。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：一家公司的商品负责人在公开电话会上直接说”不满意”，通常意味着内部已经在做人事或货盘上的调整。这句话的可信度比任何乐观指引都高。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-christopher-horvers摩根大通为什么食品转得快家居服装转得慢&quot;&gt;2. Christopher Horvers（摩根大通）——为什么食品转得快、家居服装转得慢&lt;/h2&gt;
-
-&lt;p&gt;菲德尔克的解释很朴素但关键：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“那些是更长交货周期的生意，所以变化不会那么快到来。”（Those are longer lead time businesses, and so change doesn’t come as quickly there）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他把家居定义为”a multi-year journey”（一段以年为单位的旅程）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：服装和家居的商品开发周期是9到18个月，今天下的单要一年后才上架。这意味着&lt;strong&gt;新CEO团队的选品思路，最快也要到2027年才能在这两个品类的报表上体现&lt;/strong&gt;。投资者要有耐心，或者说，不要指望下个季度。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-kate-mcshane高盛消费分层情况&quot;&gt;3. Kate McShane（高盛）——消费分层情况&lt;/h2&gt;
-
-&lt;p&gt;CFO Jim Lee给出了一个容易被忽略但重要的信息：本季销售增长”在各个月份、各个收入阶层之间都是持续强劲的”。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这与市场普遍担心的”低收入人群消费降级”叙事不同。如果增长真的横跨所有收入带，说明拉动来自塔吉特自身的改善，而非宏观。&lt;/p&gt;
-
-&lt;h2 id=&quot;4-david-bellingermizuho门店改造进度&quot;&gt;4. David Bellinger（Mizuho）——门店改造进度&lt;/h2&gt;
-
-&lt;p&gt;首席运营官Lisa Roath披露：本季新开&lt;strong&gt;17家门店&lt;/strong&gt;，年内已开&lt;strong&gt;24家&lt;/strong&gt;，&lt;strong&gt;超过100家门店改造正在进行中&lt;/strong&gt;，全年计划约130家改造。她称门店对改造的”客户反馈可靠且强劲”。&lt;/p&gt;
-
-&lt;p&gt;Cara Sylvester补充，Q2完成了”公司历史上最大规模的一次货架布局调整”（the largest base move in our company’s history），推出了包含交易卡和收藏品的全新”粉丝文化”专区——这正对应财报里Fun 101品类的双位数增长。&lt;/p&gt;
-
-&lt;h2 id=&quot;5-corey-tarlowejefferies三到五年的盈利空间&quot;&gt;5. Corey Tarlowe（Jefferies）——三到五年的盈利空间&lt;/h2&gt;
-
-&lt;p&gt;菲德尔克再次拒绝给出具体数字：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“我们才做了两个季度的工作，前面还有很多。”（We are only two quarters into that work. There is a lot in front of us）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;6-simeon-gutman摩根士丹利转型完成了百分之多少&quot;&gt;6. Simeon Gutman（摩根士丹利）——转型完成了百分之多少&lt;/h2&gt;
-
-&lt;p&gt;菲德尔克同样没有量化，但给了一个时间锚点：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“我们的时间跨度远不止今年的计划。”（Our time horizon is way longer than just this year’s plans）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他表示2027、2028年还会在七个优先商品领域持续推新。&lt;/p&gt;
-
-&lt;h1 id=&quot;三被低估的一段ai渠道&quot;&gt;三、被低估的一段——AI渠道&lt;/h1&gt;
-
-&lt;p&gt;菲德尔克在准备发言里提到一件容易被淹没的事：塔吉特已与&lt;strong&gt;OpenAI和Google Gemini&lt;/strong&gt;合作接入智能体购物（agentic commerce），并披露：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“来自外部AI平台的数字流量，同比增速是行业的3.5倍以上。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么这句话重要&lt;/strong&gt;：如果消费者开始通过ChatGPT或Gemini这类助手直接下单，那么”谁被AI推荐”将取代”谁的搜索排名靠前”，成为新的流量入口之争。塔吉特是较早把自己接进去的大型零售商之一。基数当然还很小，但方向上，这是零售业未来三年最值得盯的变量之一。&lt;/p&gt;
-
-&lt;h1 id=&quot;四这场电话会到底说明了什么&quot;&gt;四、这场电话会到底说明了什么&lt;/h1&gt;
-
-&lt;p&gt;把六段问答放在一起看，管理层传递的是一个非常一致的信号：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;主动切割一次性收益&lt;/strong&gt;：反复引导市场看”剔除关税退款”的口径，不让好看的每股收益成为明年的负担&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;把叙事锚定在客流而非利润&lt;/strong&gt;：客流是转型见效的先行指标，利润会滞后&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;对困难业务不粉饰&lt;/strong&gt;：服装和家居直接承认”不满意”，并明确给出”多年”的时间预期&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;拒绝给中期数字指引&lt;/strong&gt;：反复说”才两个季度”，避免被套在一个短期目标上&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;这是一场&lt;strong&gt;低姿态的电话会&lt;/strong&gt;。对短线投资者，它给不了兴奋点；但对愿意看两三年的投资者，管理层的坦率反而降低了预期落空的风险。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;一句话总结&lt;/strong&gt;：塔吉特把一份超预期的财报，讲成了一个”转型才刚开始”的故事——这既是诚实，也是新CEO给自己争取时间的方式。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-target-beats-q2-2026-estimates-shares-slip-premarket-93CH-4867580&quot;&gt;Target Q2 2026 业绩电话会完整实录（Investing.com）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://corporate.target.com/press/release/2026/08/target-corporation-reports-second-quarter-earnings&quot;&gt;Target Corporation Reports Second Quarter Earnings（财报新闻稿原文）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://corporate.target.com/investors&quot;&gt;塔吉特投资者关系页面&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（用于股价反应与市场预期）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/08/19/target-tgt-q2-2026-earnings.html&quot;&gt;CNBC——Target (TGT) Q2 2026 earnings&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 20 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/20/target_2026q2_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/20/target_2026q2_earnings_call/</guid>
-        
-        <category>塔吉特</category>
         
         <category>大公司数据观察</category>
         

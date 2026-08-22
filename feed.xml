@@ -5,9 +5,172 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 22 Aug 2026 08:37:47 +0800</pubDate>
-    <lastBuildDate>Sat, 22 Aug 2026 08:37:47 +0800</lastBuildDate>
+    <pubDate>Sat, 22 Aug 2026 09:17:03 +0800</pubDate>
+    <lastBuildDate>Sat, 22 Aug 2026 09:17:03 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.08.22</title>
+        <description>&lt;p&gt;今天这几帖有个共同的暗线：都在算「省掉的那一步」的账。省掉自己写 150 行代码，换来的是一条你根本没写进 Cargo.toml 的传递依赖把你的构建投了毒；省掉理解和测试的时间，换来的是下一次故障；省掉把问题想清楚的过程，换来的是一个你看不懂也不敢改的实现。有意思的是，说这些话的人没一个是技术保守派——他们大多每天都在用 AI、每天都在装依赖，只是被账单教育过。&lt;/p&gt;
+
+&lt;h2 id=&quot;一个-150-行的-crate-掀翻了半个图形生态于是有人重提-ctrl-c-ctrl-v&quot;&gt;一个 150 行的 crate 掀翻了半个图形生态，于是有人重提 Ctrl-C Ctrl-V&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/rust/comments/1vu9dze/its_okay_to_copypaste_code_form_crates_instead_of/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;u/grg994 发了一条不算长的提醒：几十年前那种「把别人的代码抄进自己项目，附一行注释写明出处和许可证」的做法，其实一直有效，而且现在可能又该拿出来用了。触发他这么想的是最近被投毒的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arrayref&lt;/code&gt;——一个不含注释和测试只有约 150 行、提供 4 个宏、两年没有任何改进的包，却顺着依赖链把 winit 和 wgpu 一起拖下水。他强调这不适用于大型依赖，只是想让大家在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cargo add&lt;/code&gt; 之前多问自己一句：这段代码是不是几下 Ctrl-C Ctrl-V 就能解决？&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The recently compromised arrayref was a single file, (without comments and tests) 150 lines of code crate, containing 4 public macros, seeing no improvements since 2 years - and managed to indirectly subvert winit and wgpu.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/grg994（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/rust/comments/1vu9dze/its_okay_to_copypaste_code_form_crates_instead_of/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;第一条高赞回复很自然：那你锁版本不就行了，写成 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arrayref = &quot;=1.2.3&quot;&lt;/code&gt;。楼主的反驳是整个帖子里技术含量最高的一段——等号只锁住直接依赖，锁不住依赖的依赖。你的 crate 死锁 alpha 1.2.3，可 alpha 自己写的是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;beta = &quot;0.1.2&quot;&lt;/code&gt;，那么 beta 发布带毒的 0.1.3 之后，一次 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cargo update&lt;/code&gt; 照样把它拉进来。有人接着问：Cargo.lock 不是存了每个传递依赖的内容哈希吗？u/A1oso 解释了那个微妙之处：lock 文件只保护你已经解析出来的那份快照，下一次新增依赖重新求解时，看的仍然是 Cargo.toml 里的版本区间。&lt;/p&gt;
+
+&lt;p&gt;想把整棵树钉死当然可以，代价是所有依赖也得跟着钉死，而 Cargo 只允许同一个包的不同大版本共存、不允许两个不兼容的精确小版本共存——u/SkiFire13 补了一句大实话：真那么干，祝你有本事把任何一个非玩具项目编译出来。也有人指出，抄代码和锁版本在这件事上其实同构：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Either it’s a package without deps. Then using an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;=&lt;/code&gt; dep is equivalent to copying code, with the small caveat that you may end up with dep conflicts in the presence of other deps using the same crate.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Manishearth，&lt;a href=&quot;https://www.reddit.com/r/rust/comments/1vu9dze/its_okay_to_copypaste_code_form_crates_instead_of/p54sfy9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;反方的意见同样成立：依赖总要更新，更新时你凭什么判断它没被动手脚？抄进来的代码同样有这个问题，只是把责任从工具转移到了人。评论区最后收敛出的最优解不是抄也不是钉，而是一个更朴素的东西：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The better way is to use a minimum release age, which is coming to cargo soon.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/DrLuckyLuke，&lt;a href=&quot;https://www.reddit.com/r/rust/comments/1vu9dze/its_okay_to_copypaste_code_form_crates_instead_of/p53veff/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;最小发布年龄——只用发布满 N 天的版本。绝大多数投毒事件在几小时到几天内就会被发现并下架，靠时间差就能挡掉。这个思路值得国内团队直接抄：npm、pip、Maven 私服都能用镜像同步延迟实现类似效果，成本几乎为零，比让每个人去审计 diff 现实得多。另外楼主那句「先问自己能不能抄」也有个副作用是好的——它逼你真的看一眼那 150 行代码。很多依赖之所以危险，恰恰是因为从来没人看过里面写了什么。&lt;/p&gt;
+
+&lt;h2 id=&quot;上午-11-点半派活下午-5-点交付理由是你有-claude&quot;&gt;上午 11 点半派活，下午 5 点交付，理由是「你有 Claude」&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1vu7ejw/i_actually_enjoy_my_job_i_just_hate_the_way/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;u/throwaway-well 说自己是真心喜欢这份工作的，但排期的方式正在慢慢杀死这份喜欢。经理的原话大意是：这最多两小时的事，用 Claude 搞一下，五点前给我。而他实际要做的是理解需求、做方案、改代码、拉集群、部署、完整测试，最后还得写文档。他后来在评论里补了一句更具体的：任务是上午 11 点半才派下来的。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“But task is given at 11:30 PM, where I have to understand the task,plan everything, make code level changes, create cluster, deploy changes then test everything properly and make documention out of it. Everything by 5 PM.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/throwaway-well（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1vu7ejw/i_actually_enjoy_my_job_i_just_hate_the_way/p4z1z1k/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区给出的建议大致分三层。最实用的一层是「把估时拆开报」：AI 能压缩的只是写代码那一段，别让它替整条流程背书。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Claude can shorten part of implementation, but it doesn’t remove the time to understand the change, fit it into the system, test it, and have a rollback plan.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/UkrMalt，&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1vu7ejw/i_actually_enjoy_my_job_i_just_hate_the_way/p51por5/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;有人给了更细的话术模板：不要说「我尽量」，因为在层层上报的过程中「我尽量」只会被压缩成「行」，剩下的全是噪音；要说的是「可以，但请你确认接受以下风险」，把决定权连同责任一起推回去。还有人搬出了三点估算法（最好、最坏、现实三个数，加权平均 E=(best+4×realistic+worst)/6），主张跟不懂技术的管理者对话必须带着能摆上桌的数据，而不是感受。&lt;/p&gt;
+
+&lt;p&gt;最扎心的一条来自一位已经离职的同行，他描述的那种管理者现在恐怕不算罕见：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I had a manger who was like this too, clueless about the work and when we asked him for technical advice, he pasted our question into Claude and sent us the response.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/burntoutdev8291，&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1vu7ejw/i_actually_enjoy_my_job_i_just_hate_the_way/p4zsufc/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;更麻烦的是后半段：这位经理自己 vibe coding 出了错，下属指出问题时他还要争辩，因为「Claude 说这样是对的」。评论者的形容很准——这跟对着一个正在幻觉的模型讲道理是一回事，区别只是你不能冲它骂脏话。&lt;/p&gt;
+
+&lt;p&gt;楼主后来透露公司是家创业公司，口头禅是「今天必须做完，通宵也得做完」，团队里已经有三个人因此离职了。到这一步其实问题已经不是估时技巧了。我想说的是另一层：AI 真正改变的往往不是产出速度，而是老板对速度的想象力，而这两条曲线之间的差额，最后是由具体的人用睡眠时间垫上的。国内很多团队现在正在经历同一件事，只是关键词从 Claude 换成了别的名字。能拉住这个差额的只有一样东西——把「实现」和「交付」在排期表上拆成两行，白纸黑字写清楚后者包含什么。&lt;/p&gt;
+
+&lt;h2 id=&quot;八成开发者觉得-ai-编程上瘾多过有用而最好的一条评论是关于没发出去的-prompt&quot;&gt;八成开发者觉得 AI 编程上瘾多过有用，而最好的一条评论是关于没发出去的 prompt&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vuttwc/80_of_developers_find_ai_coding_more_addictive/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一份被搬到 r/technology 的调查说，约八成开发者认为 AI 编程带来的「上瘾感」超过了实际帮助；受访者担心的是习惯性依赖正在削弱自己的问题拆解能力、反而扩大了工作量，并且让人和工作的关系变得不健康。这类标题很容易滑向「AI 让人变蠢」的口水战，评论区前半段也确实吵了起来：一方说这就是智力上的懒惰，另一方回敬说「如果它不是问题，那它就不是问题」这种论证方式本身就是在回避现实。&lt;/p&gt;
+
+&lt;p&gt;真正有价值的是跑题的那一支。有人提到 AI 其实很适合当小黄鸭，然后话题就拐进了一个大家心照不宣但很少说出口的现象：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Many prompts, I stopped writing and never sent because it was a good rubber duck”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/mintmouse，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vuttwc/80_of_developers_find_ai_coding_more_addictive/p548x5l/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;底下立刻一片附和，其中一条把机制讲得更清楚，还顺手推到了写规格文档这件事上：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I feel like most of the time if I start writing a clear description of my problem, I’ll have an aha moment before I have a chance to finish the prompt.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/PlacidTurbulence，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vuttwc/80_of_developers_find_ai_coding_more_addictive/p54xmnw/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他接着说，有一半时间如果真把规格写到详尽且无歧义，反而会觉得不如一开始就直接写代码——代码本来就是（基本上）无歧义的。这句话其实同时解释了 AI 编程的爽点和坑点：把问题描述清楚这件事，一直是编程中最难也最有价值的部分；AI 的存在给了你一个必须描述清楚的理由，这是它的正面作用，而它随时能替你把话接完，则是它的负面作用。&lt;/p&gt;
+
+&lt;p&gt;顺带一提，这条线还引出一个小小的时代切片：有人贴出一段精心设计的「你是一位资深工程师，请用五个为什么引导我」的长提示词，马上被问「现在还有人这么写提示词吗，我一年前就不写了，模型自己会读上下文」。回答也很有意思——不是不写了，是搬家了，搬进了自定义指令文件、skill 文件和专职子 agent 的系统提示里。提示工程没有消失，它只是从聊天框沉降成了配置。&lt;/p&gt;
+
+&lt;h2 id=&quot;有人在植物大战僵尸里挖出梅森旋转评论区吵起了要不要劝新手别造轮子&quot;&gt;有人在《植物大战僵尸》里挖出梅森旋转，评论区吵起了要不要劝新手别造轮子&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1vuk4b5/finding_a_hidden_mersenne_twister_implementation/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;u/JizosKasa 写了篇逆向笔记：在一个十五年前的游戏二进制里，靠那几个标志性的魔数认出了梅森旋转算法的实现，并顺着追出了游戏里颜色生成的那套逻辑。作者自己对这件事的定位很清醒——查了几个常量、跟了一遍逻辑，好玩而已。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I never said it’s a giant achievement or whatever, I know I just looked up some constants and traced the logic of them.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/JizosKasa（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1vuk4b5/finding_a_hidden_mersenne_twister_implementation/p527kwe/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;第一批评论是玩梗的（「你没必要管《植物大战僵尸》叫十五年前的老游戏，我受到了攻击」，以及一句更狠的提醒：《上古卷轴 5》再过几个月也满十五年了）。但有两条泼冷水的评论把话题引向了更值得讨论的地方——有人开始反思技术社区那句默认口头禅「别重复造轮子」正在被滥用。u/Sloogs 的说法是：在工作上没时间重造整个世界，这没问题，但它不该成为你对一个想搞懂难题的爱好者的第一反应；想成长为好程序员，恰恰需要一种不设心理路障的好奇和玩心。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Yeah man if someone wanted to roll their own at work you’d tell them not to. Leave the students and hobbyists alone.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/gimpwiz，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1vuk4b5/finding_a_hidden_mersenne_twister_implementation/p5309pb/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一条把两种立场调和得最好，我觉得应该抄下来贴在每个技术群的公告栏上：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“But spending a few hours of your own time on a toy version of the things it does will make your use of said library 10 times more effective.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/LordoftheSynth，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1vuk4b5/finding_a_hidden_mersenne_twister_implementation/p547po3/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这话在今天格外应景。放回本期第一帖的语境里看，这场关于造轮子的争论其实和依赖投毒是同一个问题的两面：一个团队里如果没人手写过哈希、没人自己实现过一遍随机数生成器，那么当依赖出问题时，也就没人有能力判断那 150 行代码到底正不正常。玩心在这里不是消遣，是储备。&lt;/p&gt;
+
+&lt;h2 id=&quot;论文说-reddit-正在变得越来越负面评论区当场完成了复现&quot;&gt;论文说 Reddit 正在变得越来越负面，评论区当场完成了复现&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vui5ee/research_shows_that_the_entire_website_of_reddit/&quot;&gt;原帖链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一项研究的结论被搬上了 r/technology：整个 Reddit 的情绪随时间在整体变负，而且社区存在得越久越负面，一条评论串拖得越长也越负面。第一条高赞评论完美地示范了论文的第三点：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This article is awful and I hate everything about it.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/PLEASE_PUNCH_MY_FACE，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vui5ee/research_shows_that_the_entire_website_of_reddit/p518nm7/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“thats the spirit”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/BotOrNot_1337，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vui5ee/research_shows_that_the_entire_website_of_reddit/p519w1m/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;接下来这条串就非常自觉地一路滑下去：有人问「怎么能在这么负面的帖子下这么正能量」，有人宣布「我们已经走到该叫人滚蛋的那个阶段了」，有人自愿献身，还有人问需不需要他先管谁叫希特勒来把气氛彻底炒热。全程带着自嘲，反而是今天最好笑的一段。&lt;/p&gt;
+
+&lt;p&gt;另一支评论则提供了一个论文之外的解释变量：有人注意到这是个两个月新号发的转帖，怀疑是养号的机器人在刷 karma，养熟之后卖给做营销的。如果这个猜测成立，那么「社区越老越负面」里可能有相当一部分不是人的情绪衰减，而是内容生态的稀释——高互动的负面内容更容易被自动化账号复读，久而久之改变的是平台的分布，而不只是用户的心情。&lt;/p&gt;
+
+&lt;p&gt;这对中文互联网的启示是现成的。我们习惯把某个社区「变味」归咎于用户素质下降或者人多了，但在把锅扣给人之前，值得先问几个更机械的问题：推荐权重是不是在奖励冲突？转帖和搬运账号占了多大比例？评论区的排序是按赞数还是按争议度？平台情绪往往是被排序算法排出来的，不是被用户吵出来的。&lt;/p&gt;
+</description>
+        <pubDate>Sat, 22 Aug 2026 09:40:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/22/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/22/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.08.21</title>
@@ -2126,323 +2289,6 @@ Off-price零售商是&lt;strong&gt;捡漏&lt;/strong&gt;——专门收购品牌
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>TJX 2027财年Q2——同店销售增4%超计划，全年指引上调却仍跌，长期门店目标提到7500家</title>
-        <description>&lt;p&gt;北京时间8月19日晚（美东时间盘前），全球最大的折扣服饰与家居零售商&lt;a href=&quot;https://investor.tjx.com/&quot;&gt;TJX公司&lt;/a&gt;（The TJX Companies，NYSE: TJX）发布了2027财年第二季度财报（截至2026年8月1日的三个月）。&lt;/p&gt;
-
-&lt;p&gt;数字很扎实：净销售额152亿美元同比增5%，同店销售增4%（公司自己的计划之上），摊薄每股收益1.36美元同比增24%，全年指引上调。&lt;/p&gt;
-
-&lt;p&gt;但股价当天下跌了。原因在于&lt;strong&gt;第三季度的指引偏保守&lt;/strong&gt;——这是一个”业绩很好、但下季度不够好”的典型案例。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-tjx是一家什么公司&quot;&gt;1. TJX是一家什么公司&lt;/h2&gt;
-
-&lt;p&gt;对不熟悉美股零售的读者，TJX可能是最陌生但生意模式最有意思的一家大公司：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;旗下品牌&lt;/strong&gt;：T.J. Maxx、Marshalls、HomeGoods、HomeSense、Sierra、Winners、TK Maxx&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;规模&lt;/strong&gt;：季末全球5285家门店，本季净增23家&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;地位&lt;/strong&gt;：全球最大的off-price（折扣正品）零售商&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-它的生意模式为什么特别&quot;&gt;2. 它的生意模式为什么特别&lt;/h2&gt;
-
-&lt;p&gt;TJX卖的&lt;strong&gt;不是自有品牌，也不是廉价仿品，而是正牌商品的尾货&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;它的采购团队常年在全球扫货：某个品牌订多了、某家百货取消了订单、某个季节的款式卖不动了——TJX就以极低的价格整批吃下，然后放到自己的门店里，以远低于百货公司的价格卖出。&lt;/p&gt;
-
-&lt;p&gt;这个模式有三个关键特征：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;没有固定货盘&lt;/strong&gt;：每家店每周的商品都不一样，消费者是”来淘宝”而不是”来买某件东西”，这带来极高的到店频次&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;反周期属性强&lt;/strong&gt;：经济不好时，一方面消费者更愿意买折扣货，另一方面品牌方的尾货更多、TJX的进货成本更低——&lt;strong&gt;两头受益&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;电商威胁小&lt;/strong&gt;：”淘货”的体验很难被线上复制，这是TJX在亚马逊时代活得很好的根本原因&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;理解了这三点，就能理解为什么在同一周里，家得宝客流下滑、劳氏同店只增0.2%的环境下，TJX的同店能增4%。&lt;/p&gt;
-
-&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-关键指标&quot;&gt;1. 关键指标&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;FY2027Q2&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额&lt;/td&gt;
-      &lt;td&gt;152亿美元&lt;/td&gt;
-      &lt;td&gt;+5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;同店销售&lt;/td&gt;
-      &lt;td&gt;+4%&lt;/td&gt;
-      &lt;td&gt;超出公司计划&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率（GAAP）&lt;/td&gt;
-      &lt;td&gt;33.4%&lt;/td&gt;
-      &lt;td&gt;+2.7pct&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后毛利率&lt;/td&gt;
-      &lt;td&gt;31.4%&lt;/td&gt;
-      &lt;td&gt;+0.7pct&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售及管理费用率（GAAP）&lt;/td&gt;
-      &lt;td&gt;20.3%&lt;/td&gt;
-      &lt;td&gt;+0.8pct&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后费用率&lt;/td&gt;
-      &lt;td&gt;19.7%&lt;/td&gt;
-      &lt;td&gt;+0.2pct&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;税前利润率（GAAP）&lt;/td&gt;
-      &lt;td&gt;13.3%&lt;/td&gt;
-      &lt;td&gt;+1.9pct&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后税前利润率&lt;/td&gt;
-      &lt;td&gt;11.9%&lt;/td&gt;
-      &lt;td&gt;+0.5pct&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;15亿美元&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益（GAAP）&lt;/td&gt;
-      &lt;td&gt;1.36美元&lt;/td&gt;
-      &lt;td&gt;+24%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后每股收益&lt;/td&gt;
-      &lt;td&gt;1.22美元&lt;/td&gt;
-      &lt;td&gt;+11%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;上半年累计摊薄每股收益2.55美元（+26%），调整后2.41美元（+19%）。市场对本季调整后每股收益的预期是1.19美元，实际1.22美元，小幅超预期。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-gaap和调整后差了014美元这014是什么&quot;&gt;2. GAAP和调整后差了0.14美元，这0.14是什么&lt;/h2&gt;
-
-&lt;p&gt;这是本季财报必须先搞清楚的一件事，公司在新闻稿里交代得很清楚：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;收到此前已缴纳的&lt;strong&gt;IEEPA关税退款3.31亿美元&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;因这笔退款相应计提了&lt;strong&gt;1.12亿美元的额外年终激励与酌情奖金&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;两者相抵，&lt;strong&gt;净税前收益2.19亿美元&lt;/strong&gt;，折合每股&lt;strong&gt;0.14美元&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;所以GAAP的1.36美元里有0.14美元是一次性的。&lt;strong&gt;真实的经营性增长是11%，不是24%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;顺带一提，这个季度美国零售业出现了一批同类项目——塔吉特确认9.94亿美元关税退款（每股1.65美元），劳氏确认了每股0.11美元。看这一批财报时，把这个数字剔掉是第一步。&lt;/p&gt;
-
-&lt;p&gt;值得注意的是TJX的处理方式很有意思：&lt;strong&gt;它把退款的三分之一直接计提成了员工奖金&lt;/strong&gt;。这在同行里并不常见。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-剔除一次性因素后经营质量如何&quot;&gt;3. 剔除一次性因素后，经营质量如何&lt;/h2&gt;
-
-&lt;p&gt;调整后口径下：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;毛利率提升0.7个百分点&lt;/li&gt;
-  &lt;li&gt;费用率仅上升0.2个百分点&lt;/li&gt;
-  &lt;li&gt;税前利润率提升0.5个百分点&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;销售增5%、同店增4%的同时利润率还在扩张&lt;/strong&gt;，说明TJX的进货成本控制得很好，且没有靠打折冲量。对折扣零售商来说，这是最健康的组合。&lt;/p&gt;
-
-&lt;h1 id=&quot;三分部门解读&quot;&gt;三、分部门解读&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;部门&lt;/th&gt;
-      &lt;th&gt;同店销售&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Marmaxx（美国T.J. Maxx、Marshalls、Sierra）&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+1%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;HomeGoods（美国家居）&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+7%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;TJX加拿大&lt;/td&gt;
-      &lt;td&gt;+6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;TJX国际（欧洲、澳洲）&lt;/td&gt;
-      &lt;td&gt;+7%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;这张表信息量很大：&lt;/p&gt;
-
-&lt;h2 id=&quot;1-marmaxx只增1最大的板块最慢&quot;&gt;1. Marmaxx只增1%——最大的板块最慢&lt;/h2&gt;
-
-&lt;p&gt;Marmaxx是TJX规模最大的部门，占公司收入的大头。它只增长1%，意味着&lt;strong&gt;美国服饰折扣业务已经接近饱和&lt;/strong&gt;。这也是公司整体同店4%里最弱的一环。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-homegoods增7和家居建材行业形成反差&quot;&gt;2. HomeGoods增7%——和家居建材行业形成反差&lt;/h2&gt;
-
-&lt;p&gt;同一周，家得宝客流量同比下降1.0%，劳氏承认”可选性DIY支出持续承压”。而TJX的家居部门同店增长7%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这两件事并不矛盾，反而互相印证&lt;/strong&gt;：美国消费者不做大装修（不换厨房、不翻新屋顶），但仍然愿意花小钱买抱枕、餐具、装饰品来改善居住体验。&lt;strong&gt;消费降级不是不花钱，而是把大额支出换成小额支出&lt;/strong&gt;——而这正好是TJX的主场。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-国际业务增7欧洲和加拿大是增量&quot;&gt;3. 国际业务增7%——欧洲和加拿大是增量&lt;/h2&gt;
-
-&lt;p&gt;海外两块都跑赢美国本土，这为TJX的门店扩张计划提供了依据。&lt;/p&gt;
-
-&lt;h1 id=&quot;四股东回报与库存&quot;&gt;四、股东回报与库存&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;本季返还股东13亿美元&lt;/strong&gt;：回购7.98亿美元（510万股）+ 分红5.29亿美元&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;库存78.6亿美元&lt;/strong&gt;（约79亿），去年同期74亿美元&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;库存增长约7%，略高于5%的销售增速。对TJX来说，库存偏高不一定是坏事——它的模式就是”有便宜货就先吃下来”，季末库存往往对应下季度的毛利空间。但这个指标仍需继续观察。&lt;/p&gt;
-
-&lt;h1 id=&quot;五亮点与隐忧&quot;&gt;五、亮点与隐忧&lt;/h1&gt;
-
-&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;同店销售4%在当下的美国零售业属于第一梯队&lt;/strong&gt;，且是超出自己计划完成的&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;利润率在扩张&lt;/strong&gt;：剔除一次性因素后税前利润率仍提升0.5个百分点&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;门店扩张提速&lt;/strong&gt;：宣布从2028财年起，门店数量增速提高到&lt;strong&gt;每年4%&lt;/strong&gt;，长期全球门店目标上调至&lt;strong&gt;7500家&lt;/strong&gt;（当前5285家，意味着还有超过40%的开店空间）&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;模式的反脆弱性&lt;/strong&gt;：在家居建材、可选消费普遍承压时逆势增长，验证了off-price模式的防御性&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Marmaxx只增1%&lt;/strong&gt;：最大的板块几乎停滞，公司整体增速高度依赖HomeGoods和国际业务&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;第三季度指引保守&lt;/strong&gt;：同店只指引+2%至+3%，低于本季的+4%，这是股价下跌的直接原因&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;利润基数问题&lt;/strong&gt;：GAAP口径下全年每股收益里含关税退款贡献，2028财年会形成高基数&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;库存增速略快于销售&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;六指引与总结&quot;&gt;六、指引与总结&lt;/h1&gt;
-
-&lt;h2 id=&quot;2027财年第三季度指引&quot;&gt;2027财年第三季度指引&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;指引&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;同店销售&lt;/td&gt;
-      &lt;td&gt;+2%至+3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;税前利润率（GAAP）&lt;/td&gt;
-      &lt;td&gt;12.8%至12.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后税前利润率&lt;/td&gt;
-      &lt;td&gt;12.3%至12.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益（GAAP）&lt;/td&gt;
-      &lt;td&gt;1.36至1.38美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后每股收益&lt;/td&gt;
-      &lt;td&gt;1.30至1.32美元&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;2027财年全年指引上调&quot;&gt;2027财年全年指引（上调）&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;指引&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;同店销售&lt;/td&gt;
-      &lt;td&gt;+3%至+4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;税前利润率（GAAP）&lt;/td&gt;
-      &lt;td&gt;12.3%至12.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后税前利润率&lt;/td&gt;
-      &lt;td&gt;12.0%至12.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益（GAAP）&lt;/td&gt;
-      &lt;td&gt;5.31至5.36美元（此前5.08至5.15美元）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后每股收益&lt;/td&gt;
-      &lt;td&gt;5.15至5.20美元&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;一句话总结&lt;/strong&gt;：TJX交出了美国零售业本轮财报季里质量最高的一份成绩单之一——增长真实、利润率扩张、还敢在这个时点把长期门店目标从当前的5285家提到7500家。&lt;/p&gt;
-
-&lt;p&gt;股价下跌的原因不是业绩不好，而是&lt;strong&gt;下季度指引只有2%至3%的同店增长&lt;/strong&gt;，市场按最好的一个季度线性外推，然后失望了。&lt;/p&gt;
-
-&lt;p&gt;对这家公司，更值得记住的是那条被印证的规律：&lt;strong&gt;当消费者开始精打细算时，卖便宜正品的生意是变好而不是变坏。&lt;/strong&gt; TJX这份财报，和同一周家得宝、劳氏的疲软放在一起看，就是这条规律最清楚的一次演示。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0000109198/000010919826000045/tjxq2fy27earningspressrele.htm&quot;&gt;TJX Q2 FY2027 财报新闻稿原文（SEC 8-K Exhibit）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tjx.com/docs/default-source/investor-docs/quarterly-results/tjx-second-quarter-fiscal-year-2027-earnings-press-release.pdf&quot;&gt;TJX Second Quarter Fiscal Year 2027 Earnings Press Release（公司官网PDF）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investor.tjx.com/&quot;&gt;TJX投资者关系页面&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（用于市场预期与股价反应）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://qz.com/tjx-raises-full-year-profit-forecast-stock-falls-081926&quot;&gt;Quartz——TJX Q2 FY27 earnings, full-year profit forecast raised&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chainstoreage.com/tjx-cos-q2-earnings-sales-rise-accelerate-store-expansion-2027&quot;&gt;Chain Store Age——TJX Cos. Q2 earnings, sales rise; to accelerate store expansion in 2027&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 20 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/20/tjx_fy2027q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/20/tjx_fy2027q2_earnings/</guid>
-        
-        <category>TJX</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

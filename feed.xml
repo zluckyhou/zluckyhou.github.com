@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 Aug 2026 09:16:10 +0800</pubDate>
-    <lastBuildDate>Sun, 23 Aug 2026 09:16:10 +0800</lastBuildDate>
+    <pubDate>Sun, 23 Aug 2026 09:21:52 +0800</pubDate>
+    <lastBuildDate>Sun, 23 Aug 2026 09:21:52 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -189,6 +189,1398 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>中兴通讯2026年半年报——营收780.25亿同比增长9.05%，归母净利27.53亿却同比腰斩45.57%，AI算力生意换来了收入却换不来利润</title>
+        <description>&lt;p&gt;2026年8月22日，&lt;a href=&quot;https://www.zte.com.cn/&quot;&gt;中兴通讯&lt;/a&gt;（000063.SZ，00763.HK）披露2026年半年度报告。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;营业收入780.25亿元，同比增长9.05%；归属于上市公司股东的净利润27.53亿元，同比减少45.57%；扣除非经常性损益后的归母净利润22.21亿元，同比减少45.89%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;收入涨了9%，利润少了近一半。这份财报和上一篇写的中际旭创放在一起看特别有意思——&lt;strong&gt;同样是吃AI算力这碗饭，一个毛利率46.59%赚得盆满钵满，一个毛利率被拖到25.48%、利润腰斩。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;公司自己在半年报里给的定性是：「在行业周期切换叠加业务结构调整的背景下，公司归母净利润承压。」这句话说得很克制，但方向是对的。下面把它拆开。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;p&gt;中兴通讯成立于1985年，1997年在深交所上市、2004年在港交所上市，是国内最主要的通信设备供应商之一。&lt;/p&gt;
+
+&lt;p&gt;它的业务分成三块，这三块的商业属性差异极大，是理解这份财报的关键：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;运营商网络&lt;/strong&gt;——卖基站、光传输、路由器、交换机给中国移动、中国电信这类运营商。技术壁垒高、客户集中、&lt;strong&gt;毛利率高&lt;/strong&gt;；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;政企业务&lt;/strong&gt;——卖服务器、存储、数据中心给互联网公司、银行、电力企业。市场大、增长快、&lt;strong&gt;但竞争激烈、毛利率低&lt;/strong&gt;；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;消费者业务&lt;/strong&gt;——家庭路由器、FTTR、手机（努比亚、红魔）、云电脑等。毛利率中等。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;半年报里的一句自我描述概括了当前战略：「双轮驱动，构建端到端AI能力体系，形成网络、算力、家庭及个人终端多元发展格局。」&lt;/p&gt;
+
+&lt;p&gt;翻译成大白话：&lt;strong&gt;传统运营商的钱不好赚了，公司正在转向卖AI算力硬件。&lt;/strong&gt; 而这份财报，正是这次转型的第一份完整成绩单——收入侧的成绩很好，利润侧的代价很大。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业收入&lt;/td&gt;
+      &lt;td&gt;780.25亿元&lt;/td&gt;
+      &lt;td&gt;715.53亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+9.05%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业成本&lt;/td&gt;
+      &lt;td&gt;581.41亿元&lt;/td&gt;
+      &lt;td&gt;483.34亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+20.29%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;综合毛利率&lt;/td&gt;
+      &lt;td&gt;25.48%&lt;/td&gt;
+      &lt;td&gt;32.45%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-6.97个百分点&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利润&lt;/td&gt;
+      &lt;td&gt;27.53亿元&lt;/td&gt;
+      &lt;td&gt;50.58亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-45.57%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扣非归母净利润&lt;/td&gt;
+      &lt;td&gt;22.21亿元&lt;/td&gt;
+      &lt;td&gt;41.04亿元&lt;/td&gt;
+      &lt;td&gt;-45.89%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流净额&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-1.27亿元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;12.99亿元&lt;/td&gt;
+      &lt;td&gt;-109.74%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基本每股收益&lt;/td&gt;
+      &lt;td&gt;0.58元&lt;/td&gt;
+      &lt;td&gt;1.06元&lt;/td&gt;
+      &lt;td&gt;-45.28%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;加权平均ROE&lt;/td&gt;
+      &lt;td&gt;3.65%&lt;/td&gt;
+      &lt;td&gt;6.85%&lt;/td&gt;
+      &lt;td&gt;-3.20个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;资产负债表（较2025年末）：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026年6月末&lt;/th&gt;
+      &lt;th&gt;2025年末&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资产总额&lt;/td&gt;
+      &lt;td&gt;2,405.48亿元&lt;/td&gt;
+      &lt;td&gt;2,177.39亿元&lt;/td&gt;
+      &lt;td&gt;+10.47%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;负债总额&lt;/td&gt;
+      &lt;td&gt;1,634.24亿元&lt;/td&gt;
+      &lt;td&gt;1,420.98亿元&lt;/td&gt;
+      &lt;td&gt;+15.01%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母所有者权益&lt;/td&gt;
+      &lt;td&gt;769.76亿元&lt;/td&gt;
+      &lt;td&gt;754.26亿元&lt;/td&gt;
+      &lt;td&gt;+2.06%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资产负债率&lt;/td&gt;
+      &lt;td&gt;67.94%&lt;/td&gt;
+      &lt;td&gt;65.26%&lt;/td&gt;
+      &lt;td&gt;+2.68个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;这份财报的全部症结，浓缩在一行数字里：收入涨9.05%，成本涨20.29%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;成本涨幅是收入涨幅的两倍多，毛利率自然从32.45%塌到25.48%。780亿元的收入规模上，&lt;strong&gt;每损失1个百分点的毛利率就等于蒸发约7.8亿元的毛利&lt;/strong&gt;，6.97个百分点约等于54亿元——而公司上半年归母净利润才27.53亿元。&lt;/p&gt;
+
+&lt;p&gt;这就是为什么净利润会腰斩：&lt;strong&gt;不是生意没做成，而是做成的生意不赚钱。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;三分业务拆解一场用高毛利换低毛利的置换&quot;&gt;三、分业务拆解：一场「用高毛利换低毛利」的置换&lt;/h1&gt;
+
+&lt;p&gt;这张表是全篇最重要的内容：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;业务板块&lt;/th&gt;
+      &lt;th&gt;收入&lt;/th&gt;
+      &lt;th&gt;占比&lt;/th&gt;
+      &lt;th&gt;收入同比&lt;/th&gt;
+      &lt;th&gt;毛利率&lt;/th&gt;
+      &lt;th&gt;毛利率同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;运营商网络&lt;/td&gt;
+      &lt;td&gt;317.65亿元&lt;/td&gt;
+      &lt;td&gt;40.71%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-9.41%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;38.06%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-14.88个百分点&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;政企业务&lt;/td&gt;
+      &lt;td&gt;276.31亿元&lt;/td&gt;
+      &lt;td&gt;35.41%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+43.51%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;15.84%&lt;/td&gt;
+      &lt;td&gt;+7.57个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;消费者业务&lt;/td&gt;
+      &lt;td&gt;186.29亿元&lt;/td&gt;
+      &lt;td&gt;23.88%&lt;/td&gt;
+      &lt;td&gt;+8.09%&lt;/td&gt;
+      &lt;td&gt;18.35%&lt;/td&gt;
+      &lt;td&gt;+0.57个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;合计&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;780.25亿元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;100%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+9.05%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;25.48%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-6.97个百分点&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;看清楚发生了什么：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;收入结构在快速置换。&lt;/strong&gt; 毛利率38%的运营商网络业务收入下滑9.41%，毛利率不到16%的政企业务收入暴增43.51%。公司自己说得很直接——政企业务「是公司收入增长核心引擎」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;但引擎的燃油效率很低。&lt;/strong&gt; 政企业务276.31亿元收入，按15.84%毛利率算，贡献毛利约43.8亿元；而运营商网络317.65亿元收入，按38.06%毛利率算，贡献毛利约120.9亿元。同样量级的收入，赚钱能力差了近3倍。&lt;/p&gt;
+
+&lt;p&gt;更麻烦的是，&lt;strong&gt;运营商网络自己的毛利率也垮了14.88个百分点&lt;/strong&gt;。半年报的解释是「主要由于产品收入结构变动」——通俗地说，就是在运营商这条线里，高毛利的无线基站产品在减少，低毛利的服务器、存储、数据中心交换机在增加。也就是说，&lt;strong&gt;低毛利化不只发生在政企板块，它已经蔓延进运营商板块内部了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;运营商网络传统业务见顶算力接棒但不挣钱&quot;&gt;运营商网络：传统业务见顶，算力接棒但不挣钱&lt;/h2&gt;
+
+&lt;p&gt;半年报的原话：「国内5G网络建设处于成熟期，通信基础设施投资持续下降，公司国内运营商传统网络收入减少。」&lt;/p&gt;
+
+&lt;p&gt;这是整个行业的现实。5G建设高峰已过，运营商资本开支连年下滑，中兴的应对是两条腿走路——一是布局6G、T Bit光网、200G PON等前沿技术守住技术优势，二是拓展国际市场对冲国内下滑。&lt;/p&gt;
+
+&lt;p&gt;同时公司在积极「把握运营商智算资源池建设机会」：数据中心交换机中标中国移动RoCE交换机集采项目，核心路由器落地中国移动高端核心路由器（二档）中标项目，稳步提升国内东数西算节点份额。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;新业务确实拿到了单，但这些单的毛利率远不如当年卖5G基站。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;政企业务跑得最快也最像代工&quot;&gt;政企业务：跑得最快，也最像「代工」&lt;/h2&gt;
+
+&lt;p&gt;政企业务收入增长43.51%，半年报明确说「主要由于服务器及存储收入增长」。&lt;/p&gt;
+
+&lt;p&gt;客户名单很硬：持续规模中标与落地头部互联网企业项目，在国有银行及股份制银行实现智算产品突破、通算产品规模中标，在电力、交通、政务等市场实现重点客户突破；国际市场自研产品在印尼实现规模部署，并拓展马来西亚、泰国、日本、墨西哥等新增市场。&lt;/p&gt;
+
+&lt;p&gt;值得肯定的一点：&lt;strong&gt;政企业务毛利率其实是在改善的&lt;/strong&gt;，从8.27%提升到15.84%，涨了7.57个百分点，公司说是「服务器及存储毛利率提升」。&lt;/p&gt;
+
+&lt;p&gt;但15.84%依然是个偏低的数字。AI服务器这门生意的价值大头在GPU芯片手里，整机厂商赚的是组装、供应链和交付的钱。&lt;strong&gt;中兴用规模换取了增长，代价是整个公司的利润率被结构性稀释。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;消费者业务稳但体量还不够顶事&quot;&gt;消费者业务：稳，但体量还不够顶事&lt;/h2&gt;
+
+&lt;p&gt;收入186.29亿元，同比增长8.09%，毛利率18.35%微升0.57个百分点，增长主要来自家庭终端。&lt;/p&gt;
+
+&lt;p&gt;亮点是：国内FTTR、家庭路由器、家庭摄像头在运营商市场保持份额领先，智慧中屏成为运营商市场第一品牌；国际市场Wi-Fi 7产品规模发货。手机侧，努比亚NaviX Ultra在世界人工智能大会亮相，红魔巩固游戏手机优势；云电脑在运营商市场发货量继续保持第一。&lt;/p&gt;
+
+&lt;h1 id=&quot;四分地区国际在救场国内在失血&quot;&gt;四、分地区：国际在救场，国内在失血&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;地区&lt;/th&gt;
+      &lt;th&gt;收入&lt;/th&gt;
+      &lt;th&gt;占比&lt;/th&gt;
+      &lt;th&gt;收入同比&lt;/th&gt;
+      &lt;th&gt;毛利率&lt;/th&gt;
+      &lt;th&gt;毛利率同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;中国&lt;/td&gt;
+      &lt;td&gt;501.54亿元&lt;/td&gt;
+      &lt;td&gt;64.28%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-0.91%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;24.68%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-9.01个百分点&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;亚洲（不含中国）&lt;/td&gt;
+      &lt;td&gt;123.70亿元&lt;/td&gt;
+      &lt;td&gt;15.85%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+53.41%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;25.52%&lt;/td&gt;
+      &lt;td&gt;-2.31个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;欧美及大洋洲&lt;/td&gt;
+      &lt;td&gt;106.58亿元&lt;/td&gt;
+      &lt;td&gt;13.66%&lt;/td&gt;
+      &lt;td&gt;+10.87%&lt;/td&gt;
+      &lt;td&gt;24.61%&lt;/td&gt;
+      &lt;td&gt;-3.24个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非洲&lt;/td&gt;
+      &lt;td&gt;48.43亿元&lt;/td&gt;
+      &lt;td&gt;6.21%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+48.61%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;35.61%&lt;/td&gt;
+      &lt;td&gt;-2.53个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;国际市场合计收入278.72亿元，同比增长33.13%，占比升至35.72%，毛利率26.92%（同比下降2.53个百分点）——&lt;strong&gt;国际市场的毛利率如今已经高于国内市场（24.68%）。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;国内收入几乎零增长（-0.91%），毛利率却掉了9.01个百分点，这是拖累全局的主要来源。国际市场的53%（亚洲）、48%（非洲）高增长，是这份财报里最积极的部分：公司坚持「大国大T战略」深耕亚太、欧洲、拉美、中东非四大区域，同时「深化与互联网企业、制造业龙头、大型央国企等中资企业协同出海」——中国企业出海建数据中心，中兴跟着一起出去。&lt;/p&gt;
+
+&lt;h1 id=&quot;五费用与现金流两个不能忽视的信号&quot;&gt;五、费用与现金流：两个不能忽视的信号&lt;/h1&gt;
+
+&lt;h2 id=&quot;信号一研发费用在下降&quot;&gt;信号一：研发费用在下降&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;研发费用&lt;/td&gt;
+      &lt;td&gt;109.30亿元&lt;/td&gt;
+      &lt;td&gt;126.65亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-13.70%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;研发投入总额&lt;/td&gt;
+      &lt;td&gt;117.51亿元&lt;/td&gt;
+      &lt;td&gt;135.41亿元&lt;/td&gt;
+      &lt;td&gt;-13.22%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;研发投入占营收比例&lt;/td&gt;
+      &lt;td&gt;15.06%&lt;/td&gt;
+      &lt;td&gt;18.92%&lt;/td&gt;
+      &lt;td&gt;-3.86个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售费用&lt;/td&gt;
+      &lt;td&gt;39.99亿元&lt;/td&gt;
+      &lt;td&gt;43.84亿元&lt;/td&gt;
+      &lt;td&gt;-8.79%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;管理费用&lt;/td&gt;
+      &lt;td&gt;21.49亿元&lt;/td&gt;
+      &lt;td&gt;21.31亿元&lt;/td&gt;
+      &lt;td&gt;+0.88%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;公司对研发费用下降的解释是：「主要由于本期研发人员绩效费用进度较上年同期偏慢，及研发材料等支出节奏不均衡综合影响所致。」&lt;/p&gt;
+
+&lt;p&gt;这个解释指向的是节奏问题而非战略收缩，全年数据出来前不宜过度解读。但对一家把「6G预研」「T Bit光网」「端到端AI能力体系」写进战略的公司来说，&lt;strong&gt;研发投入占营收比例从18.92%降到15.06%，是一个需要在三季报里重点复核的指标。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;顺带说一句：正是因为三费同时压降（销售费用-8.79%、研发费用-13.70%），公司才把净利润守在了27.53亿元。&lt;strong&gt;如果费用不压，这份财报会更难看。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;信号二经营活动现金流转负&quot;&gt;信号二：经营活动现金流转负&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;经营活动现金流净额为-1.27亿元&lt;/strong&gt;，去年同期是+12.99亿元。每股经营活动现金流-0.03元。&lt;/p&gt;
+
+&lt;p&gt;服务器、存储这类生意的特点是：备货占用资金大、客户账期长。收入结构往政企算力倾斜，现金流承压是可以预期的结果。但净流出终究是个警示灯——&lt;strong&gt;它意味着上半年的收入增长，公司没有拿回对应的现金。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;配合看资产负债率从65.26%升至67.94%，负债总额增长15.01%（快于资产增长的10.47%），这条线需要持续跟踪。&lt;/p&gt;
+
+&lt;h2 id=&quot;其他损益项目&quot;&gt;其他损益项目&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;其他收益10.97亿元，同比减少38.80%（与日常经营活动相关的其他收益减少）；&lt;/li&gt;
+  &lt;li&gt;投资收益4.71亿元，同比增长212.32%（联合营企业盈利增加）；&lt;/li&gt;
+  &lt;li&gt;公允价值变动收益-1.59亿元，去年同期为+1.59亿元（衍生品合约重估产生损失）；&lt;/li&gt;
+  &lt;li&gt;信用减值损失4.05亿元，同比增长252.32%；&lt;/li&gt;
+  &lt;li&gt;所得税费用3.53亿元，同比减少41.95%（利润总额减少）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;六亮点与隐忧&quot;&gt;六、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1）收入还在增长，且增长来自新赛道。&lt;/strong&gt; 在国内运营商投资连续下滑的背景下，公司靠政企算力和国际市场把总收入拉出了9.05%的正增长，这本身不容易。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2）国际化成效实打实。&lt;/strong&gt; 国际收入占比35.72%、同比增长33.13%，亚洲（不含中国）+53.41%、非洲+48.61%，且国际毛利率已反超国内。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3）政企业务毛利率在修复。&lt;/strong&gt; 从8.27%到15.84%，说明公司在服务器这门苦生意里正在往上爬，而不是纯粹靠低价抢单。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4）客户结构在升级。&lt;/strong&gt; 头部互联网、国有银行、股份制银行、电力、交通、政务——这些是长期、高粘性的客户。今天的低毛利订单，可能是明天高毛利服务的入场券。&lt;/p&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1）毛利率的下滑是结构性的，不是周期性的。&lt;/strong&gt; 只要收入结构继续从「基站」向「服务器」迁移，毛利率的下行压力就不会消失。除非公司能在算力硬件里做出差异化（自研芯片、液冷、整柜方案等），否则很难指望毛利率回到30%以上。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2）运营商网络毛利率暴跌14.88个百分点，比政企低毛利更值得警惕。&lt;/strong&gt; 这说明公司最赚钱的基本盘也在被低毛利产品稀释。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3）经营现金流转负 + 资产负债率上升。&lt;/strong&gt; 两个指标同向恶化，是扩张型转型期的典型症状，需要三季报验证是否只是季节性波动。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4）研发投入强度下降。&lt;/strong&gt; 15.06%的研发投入占比在通信设备行业依然不低，但同比下降3.86个百分点的方向值得警惕，尤其是在6G周期启动前夜。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5）利润基数已经很低，但估值往往看的是未来。&lt;/strong&gt; 半年ROE只有3.65%，年化不到8%，对一家资产2,400亿元的公司来说，回报率并不亮眼。&lt;/p&gt;
+
+&lt;h1 id=&quot;七总结&quot;&gt;七、总结&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;中兴通讯正在做一件正确但痛苦的事：在旧引擎熄火之前，把新引擎点着。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;旧引擎是5G基站——毛利率高、但国内投资已经见顶，上半年运营商网络收入下滑9.41%。&lt;/p&gt;
+
+&lt;p&gt;新引擎是AI算力硬件——政企业务增长43.51%，是公司唯一的高速增长极，但毛利率只有15.84%。&lt;/p&gt;
+
+&lt;p&gt;这个置换在收入端是成功的（总收入仍增长9.05%），在利润端是昂贵的（净利润腰斩45.57%）。&lt;/p&gt;
+
+&lt;p&gt;真正的问题是：&lt;strong&gt;这是转型期的一次性阵痛，还是一门生意向另一门生意的永久性降级？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;判断的关键指标有三个，值得在三季报和年报里逐一核对：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;政企业务毛利率能否继续往上爬&lt;/strong&gt;（上半年已从8.27%提升到15.84%，如果能到20%以上，故事就成立）；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;运营商网络毛利率能否止住14.88个百分点的跌势&lt;/strong&gt;；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;经营现金流能否转正&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;在这三个问题有答案之前，这份财报最诚实的读法是：&lt;strong&gt;中兴买到了AI时代的入场券，但票价比预想的贵。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手原文：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-22/1225490139.PDF&quot;&gt;中兴通讯股份有限公司2026年半年度报告（巨潮资讯网 PDF 全文）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-22/1225490138.PDF&quot;&gt;中兴通讯股份有限公司2026年半年度报告摘要（巨潮资讯网 PDF）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zte.com.cn/china/about/investor_relations.html&quot;&gt;中兴通讯投资者关系页面&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本文所有财务数据、分业务与分地区收入及毛利率、费用明细、现金流数据、管理层表述及业务进展，均直接取自上述2026年半年度报告全文，未采用任何媒体转述数据。文中「2025H1综合毛利率32.45%」「2025H1政企业务毛利率8.27%」由半年报披露的本期毛利率与同比变动百分点推算得出。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 23 Aug 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/23/zte_2026h1_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/23/zte_2026h1_earnings/</guid>
+        
+        <category>中兴通讯</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>紫金矿业2026年半年报——营收1941.78亿同比增长15.78%，归母净利391.70亿同比大增68.17%，首次跻身全球金属矿企前三</title>
+        <description>&lt;p&gt;2026年8月22日，&lt;a href=&quot;https://www.zjky.cn/&quot;&gt;紫金矿业&lt;/a&gt;（601899.SH，02899.HK）披露2026年半年度报告。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;营业收入1,941.78亿元，同比增长15.78%；归属于上市公司股东的净利润391.70亿元，同比增长68.17%；扣除非经常性损益后的归母净利润380.35亿元，同比增长75.89%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;一句话概括这份财报：&lt;strong&gt;收入只涨了15.78%，利润却涨了68%，因为成本几乎没动，而金价铜价涨疯了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;先摆一组更夸张的对比——营业收入同比增长15.78%，但营业成本从1,278.78亿元&lt;strong&gt;下降&lt;/strong&gt;到1,208.81亿元，同比减少5.47%。收入涨、成本降，中间的差额直接变成利润。这是理解这份半年报的第一把钥匙，后面会详细拆。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;p&gt;紫金矿业成立于1993年，起家于福建上杭的紫金山金矿，2003年在港交所上市、2008年在上交所上市，总部设在福建厦门。&lt;/p&gt;
+
+&lt;p&gt;它做的生意很朴素：&lt;strong&gt;在全球找矿、买矿、挖矿、选矿、冶炼，然后把金属卖出去。&lt;/strong&gt; 主营金属是黄金、铜、锂三大品种，同时协同开发锌、银、钼、钨、钴、铁等。&lt;/p&gt;
+
+&lt;p&gt;体量上，公司在半年报中披露了两个排名：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2026年《福布斯》全球上市企业2000强第&lt;strong&gt;181位&lt;/strong&gt;，较上年跃升70位，&lt;strong&gt;首次跻身全球金属矿企前3位&lt;/strong&gt;，继续位居全球黄金企业第1位；&lt;/li&gt;
+  &lt;li&gt;2026年《财富》世界500强第&lt;strong&gt;325位&lt;/strong&gt;，较上年跃升40位，其中归母净利润指标居上榜金属矿企第3位、净资产收益率指标居上榜金属矿企第1位。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;理解矿业公司要抓住一个特点：&lt;strong&gt;它的利润高度依赖金属价格，而金属价格公司管不了。&lt;/strong&gt; 公司能管的只有两件事——多挖一点（产量）和少花一点（成本）。所以下面的分析会围绕「价格、产量、成本」这三个变量展开。&lt;/p&gt;
+
+&lt;h1 id=&quot;二最重要的背景上半年金属价格涨了多少&quot;&gt;二、最重要的背景：上半年金属价格涨了多少&lt;/h1&gt;
+
+&lt;p&gt;半年报里给出了一张主要矿种均价表，这是读懂全篇的前提：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;品种&lt;/th&gt;
+      &lt;th&gt;2026H1均价&lt;/th&gt;
+      &lt;th&gt;2025H1均价&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;黄金（伦金）&lt;/td&gt;
+      &lt;td&gt;4,693美元/盎司&lt;/td&gt;
+      &lt;td&gt;3,067美元/盎司&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+53.0%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;黄金（国内）&lt;/td&gt;
+      &lt;td&gt;1,033元/克&lt;/td&gt;
+      &lt;td&gt;722元/克&lt;/td&gt;
+      &lt;td&gt;+43.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;白银（伦银）&lt;/td&gt;
+      &lt;td&gt;79美元/盎司&lt;/td&gt;
+      &lt;td&gt;33美元/盎司&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+139.4%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;铜（伦铜）&lt;/td&gt;
+      &lt;td&gt;13,083美元/吨&lt;/td&gt;
+      &lt;td&gt;9,445美元/吨&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+38.5%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;铜（国内）&lt;/td&gt;
+      &lt;td&gt;101,984元/吨&lt;/td&gt;
+      &lt;td&gt;77,596元/吨&lt;/td&gt;
+      &lt;td&gt;+31.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;碳酸锂（国内）&lt;/td&gt;
+      &lt;td&gt;163,427元/吨&lt;/td&gt;
+      &lt;td&gt;70,399元/吨&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+132.1%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;锌（伦锌）&lt;/td&gt;
+      &lt;td&gt;3,351美元/吨&lt;/td&gt;
+      &lt;td&gt;2,770美元/吨&lt;/td&gt;
+      &lt;td&gt;+21.0%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;金价涨53%、铜价涨38.5%、锂价涨132%、银价涨139%。&lt;strong&gt;这就是紫金矿业利润暴增最直接、最主要的原因。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;公司自己也直言不讳地描述了上半年的价格波动：国际金价年初一度冲高至5,500美元/盎司，随后受通胀引发的加息担忧和美元走强影响，一度跌破4,000美元/盎司。也就是说，金价在半年里经历了超过25%的振幅——但均价仍然比去年高了一半以上。&lt;/p&gt;
+
+&lt;h1 id=&quot;三核心财务数据解读&quot;&gt;三、核心财务数据解读&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业收入&lt;/td&gt;
+      &lt;td&gt;1,941.78亿元&lt;/td&gt;
+      &lt;td&gt;1,677.11亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+15.78%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业成本&lt;/td&gt;
+      &lt;td&gt;1,208.81亿元&lt;/td&gt;
+      &lt;td&gt;1,278.78亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-5.47%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;利润总额&lt;/td&gt;
+      &lt;td&gt;634.89亿元&lt;/td&gt;
+      &lt;td&gt;344.97亿元&lt;/td&gt;
+      &lt;td&gt;+84.05%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净利润&lt;/td&gt;
+      &lt;td&gt;498.13亿元&lt;/td&gt;
+      &lt;td&gt;286.45亿元&lt;/td&gt;
+      &lt;td&gt;+73.90%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利润&lt;/td&gt;
+      &lt;td&gt;391.70亿元&lt;/td&gt;
+      &lt;td&gt;232.92亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+68.17%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扣非归母净利润&lt;/td&gt;
+      &lt;td&gt;380.35亿元&lt;/td&gt;
+      &lt;td&gt;216.24亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+75.89%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流净额&lt;/td&gt;
+      &lt;td&gt;554.72亿元&lt;/td&gt;
+      &lt;td&gt;288.30亿元&lt;/td&gt;
+      &lt;td&gt;+92.41%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基本每股收益&lt;/td&gt;
+      &lt;td&gt;1.473元&lt;/td&gt;
+      &lt;td&gt;0.877元&lt;/td&gt;
+      &lt;td&gt;+67.96%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;加权平均ROE&lt;/td&gt;
+      &lt;td&gt;19.60%&lt;/td&gt;
+      &lt;td&gt;16.11%&lt;/td&gt;
+      &lt;td&gt;+3.49个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;资产负债表（较2025年末）：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026年6月末&lt;/th&gt;
+      &lt;th&gt;2025年末&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总资产&lt;/td&gt;
+      &lt;td&gt;5,413.54亿元&lt;/td&gt;
+      &lt;td&gt;5,120.05亿元&lt;/td&gt;
+      &lt;td&gt;+5.73%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净资产&lt;/td&gt;
+      &lt;td&gt;2,058.67亿元&lt;/td&gt;
+      &lt;td&gt;1,855.42亿元&lt;/td&gt;
+      &lt;td&gt;+10.95%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;货币资金&lt;/td&gt;
+      &lt;td&gt;913.18亿元&lt;/td&gt;
+      &lt;td&gt;655.77亿元&lt;/td&gt;
+      &lt;td&gt;+39.25%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;几个必须点出来的细节：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1）毛利率跳升14个百分点。&lt;/strong&gt; 综合毛利率从23.75%升至&lt;strong&gt;37.75%&lt;/strong&gt;，其中矿山企业综合毛利率从60.23%升至&lt;strong&gt;69.34%&lt;/strong&gt;。半年报给出的解释是「金属销售价格同比上涨，以及吨矿付现成本得到有效管理」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2）为什么营收只涨15.78%，成本却在下降？&lt;/strong&gt; 关键在业务结构。公司把业务分成两类——自己挖矿产出的「矿山产品」（毛利率极高），以及外购原料再加工的「冶炼加工及贸易」（毛利率接近于零）。上半年冶炼加工及贸易金产量58,386千克，&lt;strong&gt;同比下降40.0%&lt;/strong&gt;；冶炼产铜34.48万吨，同比下降9.4%。这部分低毛利业务大幅缩量，直接把营业成本压了下去。&lt;/p&gt;
+
+&lt;p&gt;用一个通俗的说法：公司把「赚吆喝不赚钱」的搬运生意砍掉一部分，只留下真正赚钱的挖矿生意，于是收入涨得慢、利润涨得快。这是主动优化，不是意外。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3）现金流质量非常好。&lt;/strong&gt; 经营活动现金流净额554.72亿元，是归母净利润391.70亿元的1.42倍，同比增长92.41%。矿业公司的利润有多少是真金白银，看这个指标最准。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4）资产负债率49.55%，为2012年以来首次降至50%以下。&lt;/strong&gt; 对于一家长期靠加杠杆做海外并购的矿企来说，这是资产结构实质性改善的信号。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5）所得税费用136.77亿元，同比大增133.73%。&lt;/strong&gt; 涨幅远高于利润增速，原因是海外子公司盈利能力提升、计提的企业所得税增加。资源国「强化资源主权和利益诉求」的大背景下，税负上升是一个需要长期跟踪的变量。&lt;/p&gt;
+
+&lt;h1 id=&quot;四分品种拆解金铜锂三条腿&quot;&gt;四、分品种拆解：金、铜、锂三条腿&lt;/h1&gt;
+
+&lt;p&gt;半年报披露了各业务在收入和毛利中的占比（内部抵销后）：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;业务&lt;/th&gt;
+      &lt;th&gt;占营业收入比重&lt;/th&gt;
+      &lt;th&gt;占集团毛利比重&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;黄金&lt;/td&gt;
+      &lt;td&gt;41.2%&lt;/td&gt;
+      &lt;td&gt;41.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;铜&lt;/td&gt;
+      &lt;td&gt;32.6%&lt;/td&gt;
+      &lt;td&gt;33.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;钼钨铁钴硫等其他&lt;/td&gt;
+      &lt;td&gt;19.0%&lt;/td&gt;
+      &lt;td&gt;15.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;锌（铅）&lt;/td&gt;
+      &lt;td&gt;3.0%&lt;/td&gt;
+      &lt;td&gt;1.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;锂&lt;/td&gt;
+      &lt;td&gt;2.2%&lt;/td&gt;
+      &lt;td&gt;3.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;白银&lt;/td&gt;
+      &lt;td&gt;2.0%&lt;/td&gt;
+      &lt;td&gt;3.9%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;黄金产量涨134成本涨64毛利率飙到66&quot;&gt;黄金：产量涨13.4%，成本涨6.4%，毛利率飙到66%&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;矿山产金46,702千克（约46.7吨，1,501,514盎司），同比上升13.4%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;十大产金矿山中，哥伦比亚武里蒂卡（4,207千克）、加纳阿基姆（3,985千克）、陇南紫金（3,797千克）、苏里南罗斯贝尔（3,796千克）、澳大利亚诺顿金田（3,793千克）位居前列——一眼看去几乎全是海外矿山，这就是紫金的全球化底色。&lt;/p&gt;
+
+&lt;p&gt;成本端，金锭单位销售成本347.30元/克，同比上升6.43%；金精矿199.15元/克，同比上升9.47%。&lt;strong&gt;成本涨了不到10%，售价涨了40%以上&lt;/strong&gt;，于是金锭毛利率从54.39%升至&lt;strong&gt;66.42%&lt;/strong&gt;，金精矿毛利率从72.59%升至&lt;strong&gt;79.28%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;铜产量下滑57被卡莫阿拖了后腿&quot;&gt;铜：产量下滑5.7%，被卡莫阿拖了后腿&lt;/h2&gt;
+
+&lt;p&gt;铜是这份财报里唯一需要打问号的地方。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;矿山产铜534,407吨，同比下降5.7%。&lt;/strong&gt; 但如果剔除卡莫阿的权益产量，公司自有矿山产铜480,032吨，同比上升4.8%。&lt;/p&gt;
+
+&lt;p&gt;问题出在刚果（金）的卡莫阿-卡库拉铜矿。半年报明确写道：受淹井事件和复产爬坡影响，&lt;strong&gt;卡莫阿-卡库拉铜矿2026年产量计划从38万至42万吨下调至29万至33万吨&lt;/strong&gt;，对应公司矿产铜产量将相应减少2.2万至5.7万吨，「对公司2026年矿产铜产量计划目标的达成带来压力」。&lt;/p&gt;
+
+&lt;p&gt;这是公司自己在半年报里承认的风险，措辞相当直白。此外，公司还提到境内个别重点项目为配合区域性矿业安全生产大检查而停产检修，导致部分矿产品产量「相对滞后于全年计划的时序进度」。&lt;/p&gt;
+
+&lt;p&gt;铜的成本压力也比金更明显：铜精矿单位销售成本24,480元/吨，同比上升16.00%；电积铜36,620元/吨，同比上升17.70%。半年报列出了五条涨价原因，其中一条值得注意——「受美伊战争影响，柴油、药剂价格上涨导致成本上涨」。&lt;/p&gt;
+
+&lt;p&gt;不过铜价涨得更快，铜精矿毛利率仍从65.03%升至&lt;strong&gt;70.37%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;锂从零到规模第三增长极成型&quot;&gt;锂：从零到规模，「第三增长极」成型&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;矿山产当量碳酸锂43,596吨，同比上升496%&lt;/strong&gt;（去年同期仅7,315吨）；另有冶炼产碳酸锂5,328吨（去年同期为零）。&lt;/p&gt;
+
+&lt;p&gt;分矿山看：湘源硬岩锂矿14,516吨、3Q盐湖9,236吨、拉果措盐湖9,065吨、刚果（金）马诺诺锂矿5,379吨、藏格矿业5,400吨。&lt;/p&gt;
+
+&lt;p&gt;更关键的是盈利能力的逆转。锂盐单位销售成本49,912元/吨，同比上升41.31%，但售价从48,987元/吨涨到130,778元/吨，&lt;strong&gt;毛利率从27.90%直接跳到61.83%&lt;/strong&gt;。锂精矿毛利率更是高达78.82%。&lt;/p&gt;
+
+&lt;p&gt;这是紫金战略布局的兑现。公司把锂称为「第三增长极」，从2021年起密集收购锂资源，在锂价最低迷的2024至2025年顶着亏损建产能，如今锂价反弹，产能刚好释放。&lt;strong&gt;这种「逆周期建产、顺周期收获」的节奏感，是矿业公司最难的功课之一。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;其他金属小品种贡献不小&quot;&gt;其他金属：小品种贡献不小&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;白银：矿产银229,223千克，同比增长2.5%，但因银价翻倍，毛利率从65.15%升至&lt;strong&gt;83.64%&lt;/strong&gt;，贡献了3.9%的集团毛利；&lt;/li&gt;
+  &lt;li&gt;钼：6,302吨，同比上升7%。公司规划2028年矿产钼产量提升至2.5万至3.5万吨，沙坪沟钼矿选矿项目已于2026年6月开工，「未来将推动公司成为全球最大钼生产企业之一」；&lt;/li&gt;
+  &lt;li&gt;钨：2,567吨，同比上升20%。通过收购联瑞矿业（对价约9亿元），公司并表口径WO₃资源量提升至32万吨，跻身国内钨行业第一梯队；&lt;/li&gt;
+  &lt;li&gt;副产硫酸188万吨、硫精矿69.69万干吨——公司把这些副产品单独核算、不冲减主产品成本，「成为新的利润增长亮点」。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;五亮点与隐忧&quot;&gt;五、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1）分红大幅前置，自然年度累计首破200亿。&lt;/strong&gt; 公司在6月底刚实施完2025年度分红101亿元，紧接着在7月10日推出2026年中期分红方案——每10股派发现金红利4.20元（含税），合计已派发111.36亿元。&lt;strong&gt;中期分红时点大幅提前，自然年度内累计分红规模首次突破200亿元大关。&lt;/strong&gt; 同时公司发布2026至2028年度股东分红回报规划，把三年累计现金分红占累计可供分配利润的比例从30%提升至&lt;strong&gt;35%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2）并购与勘探双轮驱动持续加码。&lt;/strong&gt; 上半年推进赤峰黄金控制权收购（其老挝塞班金铜矿SND项目新增黄金当量金属量153吨）；完成甘肃西北黄金72%股权收购，对价约24亿元，其16宗探矿权累计查明总资源量金107.4吨；收购联瑞矿业间接取得柯可卡尔德钨锡矿55%权益。同时，因交割先决条件难以达成，紫金黄金国际已终止收购联合黄金。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3）资本运作有创新。&lt;/strong&gt; 完成15亿美元零息H股可转债发行，系亚太矿业首单负收益结构债券。加上已分拆上市的紫金黄金国际、正在收购的赤峰黄金，公司形成了「一主两翼」的黄金资产平台格局。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4）成本控制有真功夫。&lt;/strong&gt; 全集团新增电动矿卡近400台，境内露采矿山电动矿卡使用比例已超50%；巨龙铜矿实现无人矿卡与有人矿卡的混编作业。公司的说法是「以阶段性资本开支的增加换取长期成本优化空间」。&lt;/p&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1）利润的可持续性完全绑定在金属价格上。&lt;/strong&gt; 这是最大的问题，也无法回避。如果金价回到3,000美元、铜价回到9,000美元，以当前的成本结构，利润会以同样的斜率往下走。公司自己在「可能面对的风险」中把「金属价格波动风险」列为第二条。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2）产量进度落后于计划。&lt;/strong&gt; 铜产量同比下滑、卡莫阿全年指引下调、境内项目停产检修——半年报承认「部分矿产品产量仍相对滞后于全年计划的时序进度」。全年产量目标能否完成，需要看下半年的补产能力。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3）地缘政治风险在实质性上升。&lt;/strong&gt; 公司把「地缘政治风险」列为风险第一条，用词很重：「资源民族主义全球兴起，矿业税负显著增加，全球矿业投资环境恶化」。紫金的矿山分布在哥伦比亚、刚果（金）、苏里南、圭亚那、塞尔维亚、塔吉克斯坦、厄立特里亚、加纳、秘鲁等地，其中不少是高风险区域。所得税费用同比翻倍，某种程度上已经是这一趋势的财务体现。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4）成本正在抬头。&lt;/strong&gt; 铜、锂、银、铁精矿的单位成本同比涨幅分别为16.00%、41.31%、14.45%、100.68%。今天有高金价高铜价掩盖，但成本一旦形成刚性，价格回落时的杀伤力会被放大。&lt;/p&gt;
+
+&lt;h1 id=&quot;六公司怎么看下半年&quot;&gt;六、公司怎么看下半年&lt;/h1&gt;
+
+&lt;p&gt;半年报给出的判断可以概括为「继续看多，但承认波动」：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;金&lt;/strong&gt;：地缘政治风险、美元债务压力及储备资产多元化等核心趋势未发生结构性转变，央行购金和长期配置需求继续支撑黄金价值中枢。经历上半年大幅波动后，短期金价对美元、实际利率和市场风险偏好更加敏感，&lt;strong&gt;预计维持高位宽幅震荡&lt;/strong&gt;；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;铜&lt;/strong&gt;：AI算力与全球能源基建正成为铜消费增长的关键引擎。下半年美国关税政策预期引发全球库存跨市场再配置，铜价或维持高位宽幅震荡，但「牛市根基持续巩固，未来供需紧平衡将持续驱动价格中枢上移」；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;锂&lt;/strong&gt;：需求仍将保持高速增长，储能增长引擎持续发力，「短期价格仍有上行空间」；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;锌&lt;/strong&gt;：矿端供应紧张与冶炼产能扩张的结构性矛盾持续，预计高位宽幅震荡，呈「外强内弱」格局。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;公司还在报告期内审议通过了《三年（2026—2028年）主要矿产品产量规划和2035年远景目标纲要》，提出力争到2035年主要指标较2025年实现跨越式增长、部分指标达到全球首位。&lt;/p&gt;
+
+&lt;h1 id=&quot;七总结&quot;&gt;七、总结&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;这是一份「天时」占主导、但「人和」也确实到位的半年报。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;天时是金价涨53%、铜价涨38.5%、锂价涨132%——这部分紫金没有任何功劳。&lt;/p&gt;
+
+&lt;p&gt;人和体现在三处：一是主动砍掉低毛利的冶炼贸易业务，让成本不升反降；二是锂板块在低谷期建的产能恰好在高价期释放，从7,315吨干到43,596吨；三是资产负债率十四年来首次回到50%以下，同时把分红比例上调、时点前置。&lt;/p&gt;
+
+&lt;p&gt;真正需要盯的隐忧只有两条：&lt;strong&gt;铜产量能不能追上全年计划&lt;/strong&gt;，以及&lt;strong&gt;海外矿山的地缘与税负风险会走到哪一步&lt;/strong&gt;。前者影响今年，后者影响未来十年。&lt;/p&gt;
+
+&lt;p&gt;至于金属价格——那是老天爷的事，任何一家矿业公司的财报都只能是价格的放大器。紫金的价值在于，它把这个放大器的倍数做得比同行更高一些。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手原文：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-22/1225493590.PDF&quot;&gt;紫金矿业集团股份有限公司2026年半年度报告（巨潮资讯网 PDF 全文）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-22/1225493321.PDF&quot;&gt;紫金矿业集团股份有限公司2026年半年度报告摘要（巨潮资讯网 PDF）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zjky.cn/&quot;&gt;紫金矿业投资者关系页面&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本文所有财务数据、产量数据、金属均价、成本与毛利率、分红方案、风险提示及管理层展望，均直接取自上述2026年半年度报告全文，未采用任何媒体转述数据。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 23 Aug 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/23/zijinmining_2026h1_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/23/zijinmining_2026h1_earnings/</guid>
+        
+        <category>紫金矿业</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>中际旭创2026年半年报——营收417.78亿同比暴增182%，归母净利136.51亿同比大增242%，海外收入涨了三倍多</title>
+        <description>&lt;p&gt;2026年8月22日，&lt;a href=&quot;http://www.zj-innolight.com/&quot;&gt;中际旭创&lt;/a&gt;（300308.SZ，03308.HK）披露2026年半年度报告。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;营业收入417.78亿元，同比增长182.49%；归属于上市公司股东的净利润136.51亿元，同比增长241.70%；扣除非经常性损益后的归母净利润130.92亿元，同比增长229.32%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这几个数字放在一起是什么概念？&lt;strong&gt;公司半年就赚了136.51亿元，而去年同期只有39.95亿元——一年时间，利润变成了3.4倍。&lt;/strong&gt; 加权平均净资产收益率37.62%，注意这是半年的数字，不是全年。&lt;/p&gt;
+
+&lt;p&gt;如果你想找一个最直观的例子来理解「AI基建投资到底流向了哪里」，这份财报就是答案之一。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;p&gt;先用一句话讲清楚中际旭创是干什么的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;它做光模块。&lt;/strong&gt; 光模块的作用是「光电转换」——发送端把电信号变成光信号，通过光纤传出去，接收端再把光信号变回电信号。&lt;/p&gt;
+
+&lt;p&gt;为什么AI需要它？因为训练一个大模型需要成千上万张GPU协同工作，这些GPU分布在不同的服务器、不同的机柜里，它们之间必须以极高的速度、极低的延迟交换数据。用铜线传不了那么远那么快，只能用光。&lt;strong&gt;每一张GPU的背后，都对应着若干个光模块。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;所以光模块是AI数据中心里一个数量巨大、消耗巨大、且必须跟着GPU一起升级的部件。GPU从上一代升到下一代，光模块也要从400G升到800G，再升到1.6T。&lt;/p&gt;
+
+&lt;p&gt;公司的产品线覆盖100G、200G、400G、800G及1.6T，其中1.6T OSFP采用8×200G光口设计，公司在半年报中称「在业界率先出货1.6T DR8 OSFP224产品」。&lt;/p&gt;
+
+&lt;p&gt;需要补充一个背景：公司原名「中际装备」，通过收购苏州旭创转型为光模块龙头；2026年7月30日，公司在&lt;strong&gt;香港联交所主板挂牌上市&lt;/strong&gt;，H股代号3308，成为A+H两地上市公司。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业收入&lt;/td&gt;
+      &lt;td&gt;417.78亿元&lt;/td&gt;
+      &lt;td&gt;147.89亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+182.49%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业利润&lt;/td&gt;
+      &lt;td&gt;172.31亿元&lt;/td&gt;
+      &lt;td&gt;48.77亿元&lt;/td&gt;
+      &lt;td&gt;+253.30%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利润&lt;/td&gt;
+      &lt;td&gt;136.51亿元&lt;/td&gt;
+      &lt;td&gt;39.95亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+241.70%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扣非归母净利润&lt;/td&gt;
+      &lt;td&gt;130.92亿元&lt;/td&gt;
+      &lt;td&gt;39.75亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+229.32%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流净额&lt;/td&gt;
+      &lt;td&gt;18.00亿元&lt;/td&gt;
+      &lt;td&gt;32.18亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-44.08%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基本每股收益&lt;/td&gt;
+      &lt;td&gt;12.31元&lt;/td&gt;
+      &lt;td&gt;3.64元&lt;/td&gt;
+      &lt;td&gt;+238.19%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;加权平均ROE&lt;/td&gt;
+      &lt;td&gt;37.62%&lt;/td&gt;
+      &lt;td&gt;18.84%&lt;/td&gt;
+      &lt;td&gt;+18.78个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;资产负债表（较2025年末）：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026年6月末&lt;/th&gt;
+      &lt;th&gt;2025年末&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总资产&lt;/td&gt;
+      &lt;td&gt;689.42亿元&lt;/td&gt;
+      &lt;td&gt;452.89亿元&lt;/td&gt;
+      &lt;td&gt;+52.23%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净资产&lt;/td&gt;
+      &lt;td&gt;398.59亿元&lt;/td&gt;
+      &lt;td&gt;297.65亿元&lt;/td&gt;
+      &lt;td&gt;+33.91%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;应收账款&lt;/td&gt;
+      &lt;td&gt;150.01亿元&lt;/td&gt;
+      &lt;td&gt;62.77亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+139.0%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;存货&lt;/td&gt;
+      &lt;td&gt;198.26亿元&lt;/td&gt;
+      &lt;td&gt;126.81亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+56.3%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;在建工程&lt;/td&gt;
+      &lt;td&gt;37.07亿元&lt;/td&gt;
+      &lt;td&gt;14.22亿元&lt;/td&gt;
+      &lt;td&gt;+160.7%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;资产负债率36.08%，总负债248.75亿元较上年末增长82.00%。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;几个必须点出来的细节：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1）利润增速远超收入增速，说明是「量价齐升＋结构改善」。&lt;/strong&gt; 收入涨182%，利润涨242%，中间的差额来自毛利率提升——光通信收发模块毛利率从39.96%升至&lt;strong&gt;46.59%&lt;/strong&gt;，提高6.63个百分点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2）单价在涨，不只是卖得多。&lt;/strong&gt; 半年报披露光模块销量1,899万只，去年同期905万只，销量翻了一倍多（+110%）。而收入涨了186%。&lt;strong&gt;销量涨110%、收入涨186%，说明平均单价涨了约36%。&lt;/strong&gt; 原因就是产品结构上移——从400G为主转向800G、1.6T为主，单价台阶完全不同。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3）产能扩张同步跟上。&lt;/strong&gt; 产能从1,161万只提升至2,215万只（+90.8%），产量从940万只提升至1,886万只（+100.6%）。产量1,886万只、销量1,899万只，&lt;strong&gt;销量略高于产量，等于把库存也卖掉了一部分，说明订单确实吃紧。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4）研发投入12.34亿元，同比增长110.62%，占营收2.95%。&lt;/strong&gt; 绝对额翻倍，但因为收入涨得更快，研发费用率反而从4.0%左右降到2.95%。这是高增长期的正常现象，不代表投入减弱。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5）财务费用5.62亿元，去年同期是-0.39亿元（净收益）。&lt;/strong&gt; 原因是汇兑损失增加。公司95%的收入来自海外、以美元结算，人民币汇率的任何波动都会直接打在利润表上。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6）所得税费用24.97亿元，同比增长290.99%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;三收入结构这是一门几乎全靠海外的生意&quot;&gt;三、收入结构：这是一门几乎全靠海外的生意&lt;/h1&gt;
+
+&lt;p&gt;这是这份财报里最需要看清楚的一张表。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;光通信收发模块收入&lt;/td&gt;
+      &lt;td&gt;413.55亿元&lt;/td&gt;
+      &lt;td&gt;144.32亿元&lt;/td&gt;
+      &lt;td&gt;+186.56%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其中：海外业务收入&lt;/td&gt;
+      &lt;td&gt;396.15亿元&lt;/td&gt;
+      &lt;td&gt;127.81亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+209.9%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;海外销量&lt;/td&gt;
+      &lt;td&gt;1,685万只&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;海外收入396.15亿元，占公司光模块收入的约96%。&lt;/strong&gt; 换句话说，中际旭创本质上是一家「中国制造、卖给北美云厂商」的公司。&lt;/p&gt;
+
+&lt;p&gt;半年报把海外收入增长209.9%的原因拆成三条：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;海外云服务厂商持续进行算力投资，高端光模块需求量快速增长；&lt;/li&gt;
+  &lt;li&gt;凭借高质量和高效的交付能力，公司在重点客户中保持较高的份额；&lt;/li&gt;
+  &lt;li&gt;公司下游客户覆盖面进一步扩展。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;第2条里的「重点客户」，公司在报告中的表述是「继续为全球大多数头部云服务厂商及AI计算解决方案提供商批量交付高速光模块产品，并在多家重点客户保持&lt;strong&gt;主力供应商&lt;/strong&gt;地位」。&lt;/p&gt;
+
+&lt;p&gt;国内市场方面，公司称国内互联网厂商「加快AI应用与自身业务整合，并持续加码AI算力基础设施建设」，400G、800G等高速产品交付规模稳步提升，依托成都智禾的量产能力实现「稳步增长」——注意措辞，海外用的是「持续放量」，国内用的是「稳步增长」，量级差异一目了然。&lt;/p&gt;
+
+&lt;h1 id=&quot;四技术进展16t已经规模放量下一代在路上&quot;&gt;四、技术进展：1.6T已经规模放量，下一代在路上&lt;/h1&gt;
+
+&lt;p&gt;对光模块公司来说，技术代际的领先直接等于订单。半年报里的几个关键进展：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1.6T硅光模块进入规模放量阶段，出货量逐季攀升，成为拉动收入增长的核心产品。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这句话信息量很大。硅光（silicon photonics）是把光学器件用半导体工艺集成到硅片上的技术路线，相比传统的EML方案，成本更低、更适合大规模量产。1.6T硅光能规模出货，意味着公司在成本和产能两端同时拿到了优势。&lt;/p&gt;
+
+&lt;p&gt;面向下一代，公司在OFC 2026（全球光通信最重要的行业展会）现场演示了：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;12.8T 8×DR8 &lt;strong&gt;XPO&lt;/strong&gt;模块&lt;/li&gt;
+  &lt;li&gt;6.4T 4×DR8 &lt;strong&gt;NPO&lt;/strong&gt;模块&lt;/li&gt;
+  &lt;li&gt;基于TFLN MZM的1.6T OSFP 2×LR4模块&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;半年报还提到，公司正在布局NPO、XPO、CPO、OCS等下一代光互连产品。这几个缩写解释一下：CPO（共封装光学）、NPO（近封装光学）是把光引擎从可插拔模块挪到离交换芯片更近的位置，以降低功耗；OCS是光电路交换。这些是行业公认的下一代方向，也是可插拔光模块厂商必须提前卡位的赛道——&lt;strong&gt;如果CPO最终大规模替代可插拔模块，今天的商业模式会被重构。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;五亮点与隐忧&quot;&gt;五、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1）赚钱效率极高。&lt;/strong&gt; 半年ROE 37.62%，毛利率46.59%，净利率约32.7%。一家制造业公司做到这个水平，说明它在产业链中的位置足够稀缺。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2）产能与订单同步扩张，且供不应求。&lt;/strong&gt; 产能翻倍、产量翻倍、销量略超产量，在建工程从14.22亿元增至37.07亿元（+160.7%），扩产还在继续。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3）A+H双平台落地。&lt;/strong&gt; 2026年7月30日H股在港交所主板挂牌，为后续的全球化融资和海外产能布局打开了通道。公司已在新加坡（TeraHop Pte）、中国台湾（InnoLight Taiwan）、泰国（Terahop Thailand）设立境外经营实体。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4）股权激励持续推进。&lt;/strong&gt; 报告期内完成第三期、第四期限制性股票的多个归属期归属，并以53.10元/股向62名第四期预留部分激励对象授予110万股。&lt;/p&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1）经营现金流是这份财报最大的反差。&lt;/strong&gt; 净利润136.51亿元，经营活动现金流净额只有&lt;strong&gt;18.00亿元&lt;/strong&gt;，同比还下降了44.08%。公司给的解释是「本期采购商品支付的现金增加」。&lt;/p&gt;
+
+&lt;p&gt;拆开看更清楚：应收账款从62.77亿元增至150.01亿元（+139.0%），存货从126.81亿元增至198.26亿元（+56.3%）。两项合计占用了约159亿元的增量资金。&lt;/p&gt;
+
+&lt;p&gt;这在高速扩张期不算异常——为了抢产能必须囤原材料，为了抢份额必须给客户账期。但它意味着&lt;strong&gt;账面利润和现金进账之间存在明显时间差&lt;/strong&gt;。如果下游需求出现哪怕短暂的踩刹车，198亿元的存货和150亿元的应收账款会立刻变成风险敞口。这是需要在后续季度持续跟踪的第一条线。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2）客户高度集中，且集中在海外。&lt;/strong&gt; 海外收入占比约96%，客户是少数几家北美超大规模云厂商。这些客户的资本开支节奏、供应商切换决策、自研光模块的进展，任何一项变化都会被直接放大到中际旭创的报表上。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3）汇率和贸易政策是明牌风险。&lt;/strong&gt; 财务费用从净收益0.39亿元变成净支出5.62亿元，全部拜汇兑所赐。公司自己也提示：产品主要面向北美、欧洲，部分关键原材料亦源自海外采购，若汇率或贸易政策发生重大变化，可能导致需求减少、关键原材料采购难度增加。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4）技术路线的长期不确定性。&lt;/strong&gt; 前面提到的CPO/NPO，如果最终路线走向「光引擎与交换芯片共封装」，可插拔光模块的市场空间和产业链话语权都会变化。公司已经在布局，但布局不等于一定能赢。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5）投资活动现金流净流出68.16亿元，同比扩大879.74%。&lt;/strong&gt; 扩产是好事，但在一个周期性极强的行业里，产能一旦建成就是刚性成本。今天的紧俏产能，未必是三年后的紧俏产能。&lt;/p&gt;
+
+&lt;h1 id=&quot;六总结&quot;&gt;六、总结&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;这是一份几乎无可挑剔的利润表，配上一份需要提高警惕的资产负债表。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;利润表这边：营收+182%、净利+242%、毛利率+6.63个百分点、ROE 37.62%。AI算力投资的浪潮，实实在在地变成了中际旭创的现金流水。它证明了一件事——在这一轮AI基建里，&lt;strong&gt;中国供应链拿到的不只是低毛利的组装环节，也有46%毛利率的核心部件。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;资产负债表这边：存货198亿、应收150亿、经营现金流只有净利润的13%。这不是财务造假的信号，而是超高速增长的自然代价。判断它是不是问题，取决于一个变量——&lt;strong&gt;下游云厂商的资本开支能不能继续这个节奏。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;一句话：这家公司的下限取决于自己的技术和产能，上限和风险都写在别人的资本开支计划里。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手原文：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-22/1225491753.PDF&quot;&gt;中际旭创股份有限公司2026年半年度报告（巨潮资讯网 PDF 全文）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-22/1225491752.PDF&quot;&gt;中际旭创股份有限公司2026年半年度报告摘要（巨潮资讯网 PDF）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.zj-innolight.com/&quot;&gt;中际旭创官方网站&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本文所有财务数据、产销量数据、毛利率、分地区收入、研发投入、技术进展及风险提示，均直接取自上述2026年半年度报告全文，未采用任何媒体转述数据。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 23 Aug 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/23/innolight_2026h1_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/23/innolight_2026h1_earnings/</guid>
+        
+        <category>中际旭创</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>东方财富2026年半年报——营业总收入105.05亿同比增长53.22%，归母净利80.64亿同比增长44.85%，经纪业务股基交易额26.45万亿</title>
+        <description>&lt;p&gt;2026年8月22日，&lt;a href=&quot;https://www.eastmoney.com/&quot;&gt;东方财富&lt;/a&gt;（300059.SZ）披露2026年半年度报告。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;营业总收入105.05亿元，同比增长53.22%；归属于上市公司股东的净利润80.64亿元，同比增长44.85%；扣除非经常性损益后的归母净利润77.27亿元，同比增长47.13%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;先讲一个能说明这门生意有多好的数字：&lt;strong&gt;营业总收入105.05亿元，归母净利润80.64亿元。&lt;/strong&gt; 也就是说，公司每收进100块钱，有76块变成了股东的净利润。&lt;/p&gt;
+
+&lt;p&gt;（一个必须先解释的口径问题：东方财富的「营业总收入」&lt;strong&gt;不包括证券业务产生的投资收益及公允价值变动损益&lt;/strong&gt;，这两项在利润表里单独列示。所以严格算，上半年的总收入盘子应该再加上投资收益10.32亿元和公允价值变动收益2.89亿元。即便按这个更宽口径算，净利率也超过了68%。）&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;p&gt;东方财富的起点是一个财经网站——东方财富网，2010年在创业板上市。今天它是一家横跨三块业务的互联网金融平台：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;东方财富证券&lt;/strong&gt;——全牌照券商，做经纪（散户炒股的通道）、两融（借钱给股民炒股赚利息）、自营、资管、投行；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;天天基金&lt;/strong&gt;——基金销售平台，靠代销公募基金收申购费和尾随佣金；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;金融数据服务与广告&lt;/strong&gt;——Choice数据终端、财经资讯和广告业务。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这三块的共同点：&lt;strong&gt;都是「靠市场吃饭」的生意。&lt;/strong&gt; 股市成交量大，经纪佣金就多；股民加杠杆，两融利息就多；基民买基金，销售收入就多。&lt;/p&gt;
+
+&lt;p&gt;所以看懂这份财报只需要一个前提——&lt;strong&gt;2026年上半年，A股很热闹。&lt;/strong&gt; 公司自己的描述是「资本市场稳健活跃，深化投融资综合改革取得新突破」。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业总收入&lt;/td&gt;
+      &lt;td&gt;105.05亿元&lt;/td&gt;
+      &lt;td&gt;68.56亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+53.22%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利润&lt;/td&gt;
+      &lt;td&gt;80.64亿元&lt;/td&gt;
+      &lt;td&gt;55.67亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+44.85%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扣非归母净利润&lt;/td&gt;
+      &lt;td&gt;77.27亿元&lt;/td&gt;
+      &lt;td&gt;52.52亿元&lt;/td&gt;
+      &lt;td&gt;+47.13%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流净额&lt;/td&gt;
+      &lt;td&gt;303.14亿元&lt;/td&gt;
+      &lt;td&gt;46.28亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+555.06%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基本每股收益&lt;/td&gt;
+      &lt;td&gt;0.5102元&lt;/td&gt;
+      &lt;td&gt;0.3526元&lt;/td&gt;
+      &lt;td&gt;+44.70%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;加权平均ROE&lt;/td&gt;
+      &lt;td&gt;8.46%&lt;/td&gt;
+      &lt;td&gt;6.69%&lt;/td&gt;
+      &lt;td&gt;+1.77个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;资产负债表（较2025年末）：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026年6月末&lt;/th&gt;
+      &lt;th&gt;2025年末&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总资产&lt;/td&gt;
+      &lt;td&gt;5,057.41亿元&lt;/td&gt;
+      &lt;td&gt;3,929.34亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+28.71%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净资产&lt;/td&gt;
+      &lt;td&gt;984.06亿元&lt;/td&gt;
+      &lt;td&gt;918.75亿元&lt;/td&gt;
+      &lt;td&gt;+7.11%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;几个必须点出来的细节：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1）总资产半年增长28.71%，增加了1,128亿元。&lt;/strong&gt; 对券商而言，资产表膨胀通常来自两件事——客户保证金流入（负债端）和融出资金增加（资产端）。这两项都直接对应「股民更活跃、更愿意加杠杆」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2）经营活动现金流净额303.14亿元，同比增长555.06%。&lt;/strong&gt; 半年报给的原因是「代理买卖证券收到的现金净额同比增加」。翻译成大白话：&lt;strong&gt;大量新钱通过东方财富的APP进了股市。&lt;/strong&gt; 这是全篇最能反映市场热度的一个指标。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3）净利增速（44.85%）略低于收入增速（53.22%）。&lt;/strong&gt; 主要拖累项是自营——投资收益10.32亿元，同比下降34.81%。后面细讲。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4）所得税费用14.11亿元，同比增长60.15%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5）ROE只有8.46%。&lt;/strong&gt; 净利率高达76%，ROE却只有8.46%，原因是公司账上净资产984亿元、总资产5,057亿元，资本非常厚实。这既是安全垫，也说明公司的资本效率还有提升空间。&lt;/p&gt;
+
+&lt;h1 id=&quot;三收入拆解三条线全线爆发&quot;&gt;三、收入拆解：三条线全线爆发&lt;/h1&gt;
+
+&lt;p&gt;东方财富的利润表结构和普通公司不一样，收入按券商口径分成三段：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;收入项目&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+      &lt;th&gt;半年报给的原因&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;手续费及佣金净收入&lt;/td&gt;
+      &lt;td&gt;59.55亿元&lt;/td&gt;
+      &lt;td&gt;38.47亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+54.78%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;证券经纪业务收入同比增加&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;利息净收入&lt;/td&gt;
+      &lt;td&gt;22.71亿元&lt;/td&gt;
+      &lt;td&gt;14.31亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+58.65%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;融出资金规模同比增加&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业收入（金融电商等）&lt;/td&gt;
+      &lt;td&gt;22.80亿元&lt;/td&gt;
+      &lt;td&gt;15.78亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+44.48%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;金融电子商务服务业务同比增加&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;营业总收入&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;105.05亿元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;68.56亿元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+53.22%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;按业务口径再看一遍：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;分服务&lt;/th&gt;
+      &lt;th&gt;营业总收入&lt;/th&gt;
+      &lt;th&gt;毛利率&lt;/th&gt;
+      &lt;th&gt;收入同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;证券服务&lt;/td&gt;
+      &lt;td&gt;82.26亿元&lt;/td&gt;
+      &lt;td&gt;55.83%&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;金融电子商务服务&lt;/td&gt;
+      &lt;td&gt;20.85亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;93.28%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;+47.22%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;金融电子商务服务的毛利率高达93.28%&lt;/strong&gt;——这就是互联网平台生意的威力，卖基金几乎没有边际成本。&lt;/p&gt;
+
+&lt;h2 id=&quot;经纪业务股基交易额2645万亿元&quot;&gt;经纪业务：股基交易额26.45万亿元&lt;/h2&gt;
+
+&lt;p&gt;半年报披露：东方财富证券&lt;strong&gt;经纪业务股基交易额26.45万亿元，同比实现大幅增长&lt;/strong&gt;，经纪业务保持行业领先地位。&lt;/p&gt;
+
+&lt;p&gt;同时，东方财富证券在2026年证券公司分类评价中&lt;strong&gt;连续第五年获评A类AA级&lt;/strong&gt;——这是监管给券商的最高评级档位之一，直接影响业务资格和风险资本计提。&lt;/p&gt;
+
+&lt;h2 id=&quot;两融业务利息净收入增长5865&quot;&gt;两融业务：利息净收入增长58.65%&lt;/h2&gt;
+
+&lt;p&gt;利息净收入22.71亿元，同比增长58.65%，原因是「融出资金规模同比增加」。&lt;/p&gt;
+
+&lt;p&gt;两融（融资融券）是券商借钱给投资者买股票、收取利息的业务。它的规模变化是市场情绪最灵敏的温度计之一——&lt;strong&gt;融出资金大幅增加，意味着投资者的风险偏好在明显抬升。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这也解释了总资产为什么半年膨胀28.71%。&lt;/p&gt;
+
+&lt;h2 id=&quot;天天基金非货保有规模10120亿元&quot;&gt;天天基金：非货保有规模10,120亿元&lt;/h2&gt;
+
+&lt;p&gt;天天基金的关键运营数据：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026H1数据&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;上线公募基金管理人&lt;/td&gt;
+      &lt;td&gt;164家&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;上线基金产品&lt;/td&gt;
+      &lt;td&gt;24,264只&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非货币市场公募基金保有规模&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;10,120亿元&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;权益类基金保有规模&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;5,260亿元&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基金认申购（含定投）交易笔数&lt;/td&gt;
+      &lt;td&gt;2.11亿笔&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基金销售额&lt;/td&gt;
+      &lt;td&gt;18,902亿元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其中非货币型基金销售额&lt;/td&gt;
+      &lt;td&gt;12,554亿元&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;非货保有规模超过一万亿元，权益类超过五千亿元——&lt;strong&gt;天天基金是国内最大的第三方基金销售平台之一，这个位置在半年报里没有被撼动。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;半年报还提到，天天基金正在「加快AI应用创新，探索构建更具个性化和持续性的AI账户级服务体系」，推动财富管理服务「从单点工具向全流程、智能化、账户化服务升级」。&lt;/p&gt;
+
+&lt;h1 id=&quot;四ai妙想大模型开始往产品里渗透&quot;&gt;四、AI：妙想大模型开始往产品里渗透&lt;/h1&gt;
+
+&lt;p&gt;这份半年报里，AI的篇幅明显比往年多。&lt;/p&gt;
+
+&lt;p&gt;公司以自研的&lt;strong&gt;妙想AI&lt;/strong&gt;能力为「底层智能基座」，推动各产品线与业务条线智能化转型。报告期内的具体进展：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;进一步完善大模型应用体系，推出&lt;strong&gt;「妙想 Claw」&lt;/strong&gt;、&lt;strong&gt;「Skill 广场」&lt;/strong&gt; 等核心功能；&lt;/li&gt;
+  &lt;li&gt;持续推进「数据AI化」建设；&lt;/li&gt;
+  &lt;li&gt;妙想AI能力已面向广大用户开放，应用于&lt;strong&gt;资讯、行情、自选、客服&lt;/strong&gt;等多个业务场景；&lt;/li&gt;
+  &lt;li&gt;积极拓展外部生态合作，扩大专业金融AI服务范围。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对东方财富来说，AI的价值路径其实很清晰：&lt;strong&gt;它手里有海量的金融数据（Choice）、有巨大的散户流量（东方财富APP、股吧）、还有承接交易的券商牌照。&lt;/strong&gt; 如果AI能把「看资讯—做决策—下单交易」这条链路的转化率提高哪怕几个百分点，都会直接反映在佣金收入上。&lt;/p&gt;
+
+&lt;p&gt;研发投入5.40亿元，同比增长8.25%——相对于53%的收入增速，这个增幅算克制。&lt;/p&gt;
+
+&lt;h1 id=&quot;五亮点与隐忧&quot;&gt;五、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1）赚钱效率极高。&lt;/strong&gt; 归母净利率76%（按营业总收入口径），金融电商业务毛利率93.28%。这是牌照＋流量＋平台三重优势叠加的结果。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2）三条业务线同步爆发，没有短板。&lt;/strong&gt; 经纪+54.78%、两融+58.65%、基金电商+44.48%，增长质量比单点突破更扎实。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3）现金流状况极好。&lt;/strong&gt; 经营活动现金流净额303.14亿元，同比增长555.06%，现金及现金等价物净增加368.40亿元（+194.77%）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4）资本补充在推进。&lt;/strong&gt; 筹资活动现金流净额112.52亿元，同比增长536.74%，原因是「发行债券收到的现金同比增加」——为两融等资本消耗型业务储备弹药。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5）分红与激励并行。&lt;/strong&gt; 报告期内完成2025年度权益分派，分派现金总额15.80亿元；完成2024年限制性股票激励计划首次授予部分的第二个归属期归属工作，覆盖近800名骨干员工。&lt;/p&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1）自营是唯一逆行的业务。&lt;/strong&gt; 投资收益10.32亿元，同比&lt;strong&gt;下降34.81%&lt;/strong&gt;，半年报的解释是「自营业务投资收益下降」。虽然公允价值变动收益从-1.85亿元转为+2.89亿元（同比+255.78%）部分对冲了这一影响，但在一个成交额大幅放大的半年里，自营录得负增长，说明公司的自营投资能力或风格与市场并不合拍。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2）业绩的周期性无法回避——这是最根本的问题。&lt;/strong&gt; 经纪、两融、基金销售三块收入全部与市场活跃度线性挂钩。这份财报有多亮眼，反过来说明它对市场的依赖有多深。&lt;strong&gt;如果下半年成交额萎缩、两融余额下降、基民赎回，这三条线会同时向下，而不是彼此对冲。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3）销售费用同比增长82.13%。&lt;/strong&gt; 从1.40亿元增至2.56亿元，原因是「职工薪酬及市场推广投放同比增加」。绝对额不大，但增速远超收入增速——获客成本在上升是一个需要跟踪的方向。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4）ROE只有8.46%。&lt;/strong&gt; 净利率76%却只换来8.46%的半年ROE，说明984亿元的净资产没有被充分使用。对股东而言，资本效率是一个长期的估值折价因素。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5）研发投入增速（+8.25%）远低于收入增速（+53.22%）。&lt;/strong&gt; 在把AI写进战略核心的当口，5.40亿元的半年研发投入相对于105亿元的收入规模，力度并不算大。&lt;/p&gt;
+
+&lt;h1 id=&quot;六总结&quot;&gt;六、总结&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;东方财富交出了一份典型的「牛市财报」——所有指标都好，好到几乎不需要解读。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;收入+53.22%、净利+44.85%、经纪股基交易额26.45万亿元、经营现金流+555.06%、非货基金保有量破万亿。三条业务线同步起飞，一条也没掉队。&lt;/p&gt;
+
+&lt;p&gt;但也正因为太顺，这份财报里能提取的「公司自身能力」的信息反而有限。&lt;strong&gt;它更像是一张记录2026年上半年A股热度的温度计，而不是一份反映公司经营改善的成绩单。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;真正值得长期跟踪的，是两件与市场无关的事：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;妙想AI能不能从「功能」变成「壁垒」。&lt;/strong&gt; 「妙想 Claw」「Skill 广场」这些新功能，如果只是提升体验，它就是成本；如果能提高用户的交易频次和留存，它就是护城河；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;自营投资能力能否修复。&lt;/strong&gt; 在一个成交额放大的半年里自营收益反而下滑34.81%，这是唯一一处需要公司自己给出解释的地方。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;至于经纪佣金和两融利息——那是A股的事，不是东方财富的事。它做的只是在浪来的时候，把船造得比别人更大一点。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手原文：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-22/1225491769.PDF&quot;&gt;东方财富信息股份有限公司2026年半年度报告（巨潮资讯网 PDF 全文）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-22/1225491768.PDF&quot;&gt;东方财富信息股份有限公司2026年半年度报告摘要（巨潮资讯网 PDF）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.eastmoney.com/&quot;&gt;东方财富官方网站&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本文所有财务数据、分业务收入与毛利率、天天基金运营数据、AI产品进展、费用明细及现金流数据，均直接取自上述2026年半年度报告全文，未采用任何媒体转述数据。文中提示的营业总收入口径差异（不含证券业务投资收益及公允价值变动损益）为半年报原文注释。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 23 Aug 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/23/eastmoney_2026h1_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/23/eastmoney_2026h1_earnings/</guid>
+        
+        <category>东方财富</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
         
       </item>
     
@@ -1289,1075 +2681,6 @@
         
         
         <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.08.21</title>
-        <description>&lt;h2 id=&quot;115-cerebras-发布-cs-4超-10-万亿参数模型推理突破千-tokens&quot;&gt;1/15 Cerebras 发布 CS-4，超 10 万亿参数模型推理突破千 token/s&lt;/h2&gt;
-&lt;p&gt;Cerebras 发布第四代整机 CS-4：单机由三颗 WSE-3 Turbo 与全新 Nexus 机架组成，官方称相较 CS-3 推理最高提速 2 倍、token 容量最高增至 10 倍，相较生产 GPU 系统最高快 30 倍；多机互连延迟最低 2 微秒，可让超过 10 万亿参数的模型维持每秒 1,000 token 以上。系统原生支持把 prefill 放在 AMD Helios、AWS Trainium 等平台、由 CS-4 执行 decode；首批设备本季度出货。上述数字来自厂商基准与部分预测。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cerebras/status/2090529246380753394&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cerebras&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;215-gemini-37-flash-在-arc-agi-2-验证集拿到-846单题成本-025-美元&quot;&gt;2/15 Gemini 3.7 Flash 在 ARC-AGI-2 验证集拿到 84.6%，单题成本 0.25 美元&lt;/h2&gt;
-&lt;p&gt;ARC Prize 公布经验证的 Gemini 3.7 Flash 成绩：ARC-AGI-2 为 84.6%、中位成本 0.25 美元/题，ARC-AGI-1 为 95.5%、0.12 美元/题。Google 同期称该模型在 Artificial Analysis 的 AA-AnalystAgent 复杂真实任务榜位列第一。成绩把 Flash 档模型推进到高准确率、低单题成本区间，但 ARC-AGI 验证使用公开评测集，不能直接等同于私有竞赛集或开放环境中的通用 Agent 能力。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/fchollet/status/2090548556138742203&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;/a&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@demishassabis&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/demishassabis/status/2090572780928438777&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@demishassabis 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/demishassabis/status/2090572766550405601&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@demishassabis 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;315-meta-用-muse-spark-12-打通视觉编码工具调用与机器人控制&quot;&gt;3/15 Meta 用 Muse Spark 1.2 打通视觉编码、工具调用与机器人控制&lt;/h2&gt;
-&lt;p&gt;Meta 展示 Muse Spark 1.2 的原生多模态 Agent 能力：模型可理解图像、音频、视频和文档，把视觉布局转为可运行网页或游戏代码，也能根据环境观察调用工具，引导机器人寻找物体或让双臂机器人整理桌面。Meta 同时预览 WildArtifactBench，以人工和 Agent 偏好评审的胜率、Elo 取代单一标准答案，覆盖音频分析、医学影像、3D 建模、材料计量和视频编辑等真实交付物；首批公开 10 个任务。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AIatMeta&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2090485743034716420&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2090485750076989595&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2090485751926706501&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2090505413817246050&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;415-openai-首批-vera-rubin-机架到位并已运行下一代预训练栈&quot;&gt;4/15 OpenAI 首批 Vera Rubin 机架到位，并已运行下一代预训练栈&lt;/h2&gt;
-&lt;p&gt;OpenAI 基础设施负责人宣布，公司首批 NVIDIA Vera Rubin 机架已经到位并运行训练栈，用于扩展下一代前沿模型的预训练算力；Sam Altman 转发确认这一里程碑。消息表明 Rubin 平台已从路线图进入 OpenAI 的实际训练环境，但公告没有披露机架数量、集群规模、功耗、网络拓扑、训练模型或正式投产时间，也没有提供与 Blackwell 系统的吞吐和成本对比。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/sama/status/2090512062149476489&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@sama&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;515-pika-music-用统一扩散模型组合提示词歌词声音与参考曲&quot;&gt;5/15 Pika Music 用统一扩散模型组合提示词、歌词、声音与参考曲&lt;/h2&gt;
-&lt;p&gt;Pika Music 接受文本提示、歌词、声音参考和音乐参考四种输入，可单独或组合使用，并在同一共享潜空间扩散解码器内同时处理曲式、演唱特征、文字指令和参考风格，而不是串联多个独立模型。官方称可生成最长 6 分钟歌曲，90 秒歌曲本地平均 6.21 秒完成，约为播放速度的 14.5 倍，成本最高比同类模型低 10 倍；固定歌词基准的内容愉悦度与制作质量接近 Suno。数据均为厂商测试。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@pika_labs&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2090484496764412255&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2090484498454749233&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2090484500644143451&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/pika_labs/status/2090484502615519292&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@pika_labs 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;615-sakana-translate-换用新一代-namazu强化日语文化语境翻译&quot;&gt;6/15 Sakana Translate 换用新一代 Namazu，强化日语文化语境翻译&lt;/h2&gt;
-&lt;p&gt;Sakana AI 将翻译服务升级到新一代 Sakana Namazu，在保持日语、英语、中文双向翻译及免费使用不变的同时，刷新基础模型并改进后训练方法。厂商用自研 TransEvalnia 对 160 个内部日英任务做一对一比较，Sakana Translate 相对每个对照系统的胜率都超过 50%，尤其强调“お宮参り”等文化特定表达的自然翻译。后续计划加入 PDF 与 Office 文件翻译、术语表、行业模型、API、SSO、审计日志和本地部署。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@SakanaAILabs&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/SakanaAILabs/status/2090586947047895536&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@SakanaAILabs 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/SakanaAILabs/status/2090588201413120470&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@SakanaAILabs 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/SakanaAILabs/status/2090588329301659834&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@SakanaAILabs 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;715-codex-从编码工具扩展到税务代码迁移和浏览器工作流&quot;&gt;7/15 Codex 从编码工具扩展到税务、代码迁移和浏览器工作流&lt;/h2&gt;
-&lt;p&gt;OpenAI 展示 Codex harness 的三类非传统落地：税务 Agent 试点处理 7,000 份申报表，整体准备时间约减少三分之一，并用生产失败轨迹持续生成可验证修复；大型代码迁移案例把原本按年估算的工作压缩到数周；浏览器场景则把同一 Agent 循环用于网页操作。官方已开放 Codex harness 供团队构建自己的产品。案例说明通用执行框架正在跨领域复用，但行业合规、人工复核和失败回滚仍由应用方负责。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/gdb/status/2090246288478814281&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@gdb 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/gdb/status/2090327069985268049&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@gdb 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/gdb/status/2090449916456009972&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@gdb 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;815-chroma-foundation-从-agent-会话自动维护自改进知识库&quot;&gt;8/15 Chroma Foundation 从 Agent 会话自动维护“自改进知识库”&lt;/h2&gt;
-&lt;p&gt;Chroma 发布 Foundation 研究预览：系统跟随 Claude Code、Codex、Slack 等工作流，从 Agent 会话中提取显性与隐性组织知识，持续维护可查询、会自我更新的团队 wiki，并可通过 MCP 把上下文带到不同模型和 harness。底层基于 ChromaDB 与 Context-1，提供版本、并发、血缘和访问控制；公司称其在 BEAM memory benchmark 达到 SOTA，并具备 SOC 2 Type 2。当前产品已提供 macOS 入口，但官方也明确称技术仍不完美。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2090478630585745678&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;915-hiphi-公布-6175-小时高精度人类动作与物体交互数据&quot;&gt;9/15 HiPHI 公布 617.5 小时高精度人类动作与物体交互数据&lt;/h2&gt;
-&lt;p&gt;Noitom Robotics 将 HiPHI 数据集公开用于研究，包含 617.5 小时高精度人体动作和人—物交互，并公布覆盖率与逐帧质量指标；基于该数据训练的策略已部署到真实 Unitree G1 人形机器人。数据分类不从任务清单出发，而借助 FrameNet 构建 22 个 motion frames 和 214 个 motion units，以减少重叠并量化采集覆盖。公司称背后 ModalityNet 基础设施每年可生产超过 10 万小时人类中心数据，该产能仍属厂商披露。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/huggingface/status/2090372091409264646&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@huggingface&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1015-ai21-用独立验证器把-facts-search-从-833-提到-934&quot;&gt;10/15 AI21 用独立验证器把 FACTS-Search 从 83.3 提到 93.4&lt;/h2&gt;
-&lt;p&gt;AI21 发现 Agent 搜索的主要瓶颈常在候选选择：不同强弱、开闭源生成器的 pass@k 均高于 pass@1，正确答案已在候选池却被多数投票丢弃。其独立验证器只看问题与单个答案，重新检索后先否决错误候选，再对剩余结果投票；混合模型池在 FACTS-Search 从 83.3 提至 93.4，超过已发布 89.4。训练后的 8B 验证器达到 92.9、成本 1.34 美元，并能迁移到 BrowseComp-Plus，但召回率需少量 SFT 修复。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AI21Labs/status/2090424754377289837&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AI21Labs&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1115-open-bot-开源持久在线-ai-同事并兼容多种-agent-harness&quot;&gt;11/15 Open Bot 开源持久在线 AI 同事，并兼容多种 Agent harness&lt;/h2&gt;
-&lt;p&gt;CopilotKit 开源 Open Bot，目标是复现“持续在线、拥有自己电脑”的企业 Agent 形态，并通过 AG-UI 连接不同 harness。项目包含 AI Coworker、生成式 UI、聊天与线程、本地或远程 computer use、设备端工具调用、人类审批与交接、实时流式输出，以及由企业自行持有的完整运行数据；官方列出的兼容范围包括 LangChain、Mastra、CrewAI 和 OpenAI Agents SDK。当前发布更像参考实现，生产权限边界仍需部署方定义。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2090508534484189575&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1215-databricks-披露-openai-跨-azureaws-的十亿用户数据底座&quot;&gt;12/15 Databricks 披露 OpenAI 跨 Azure、AWS 的十亿用户数据底座&lt;/h2&gt;
-&lt;p&gt;Databricks 客户案例称，OpenAI 自 2024 年起在 Azure 与 AWS 上把使用数据写入由 Unity Catalog 治理的 Delta 表，服务产品分析、财务、安全、信任与安全等团队，并支撑面向每周 10 亿活跃用户的营销操作。统一数据架构据称每月减少 40 万美元存储成本；安全团队用流式管道汇集基础设施、云和供应商审计日志，Codex Agent 可经 SQL API 调查治理数据。双方还通过 Genie MCP 让 ChatGPT Work 用户访问企业数据。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2090427163124105543&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1315-agent-arena-显示头部模型单任务成本可相差五倍以上&quot;&gt;13/15 Agent Arena 显示头部模型单任务成本可相差五倍以上&lt;/h2&gt;
-&lt;p&gt;Agent Arena 将真实长时工具任务的净改进与单任务中位成本放在同一张 Pareto 图上：前五名中，Kimi K3 Max 以 10.5% 净改进排第四、成本 0.62 美元；GPT-5.6 Sol xHigh 以 9.8% 排第五、成本 1.39 美元；Claude Opus 5 Max 成本 3.37 美元且分数略低于 1.78 美元的 High 档。Grok 4.5 与 Qwen3.8 Max 分别以 0.22、0.33 美元提供约 6% 净改进。结果强调 Agent 路由需同时看任务收益和成本，而非只看总榜名次。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Kimi_Moonshot/status/2090303393311187130&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Kimi_Moonshot&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1415-superwhisper-开放-06b-本地转写后处理模型-s1-mini&quot;&gt;14/15 superwhisper 开放 0.6B 本地转写后处理模型 S1-mini&lt;/h2&gt;
-&lt;p&gt;superwhisper 发布首个开放权重语言模型 S1-mini，参数量 0.6B，可在设备端处理语音转写文本，并已集成进 macOS 应用。模型基于 Qwen3-0.6B 微调，定位不是通用聊天或复杂指令跟随，而是通过输入顶部控制行完成标点、格式、清理和风格等转写后处理。小模型把敏感转录内容留在本地，并降低持续云推理成本；公告没有给出跨语言、长文本、延迟、内存占用或与云端模型的系统基准。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/ClementDelangue/status/2090284278869352792&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1515-web-agent-的成本优化正在从换模型转向缓存解码与后训练协同&quot;&gt;15/15 Web Agent 的成本优化正在从换模型转向缓存、解码与后训练协同&lt;/h2&gt;
-&lt;p&gt;Together AI 与 Yutori 分享 Navigator 的 Web Agent 经济模型：简单字段提取、填表或站内导航通常需要 10–20 次推理，多站工作流可达数百次，因此单次模型价格会被循环长度放大。团队称通过约 80% prefix cache 命中、在更小模型上做 speculative decoding，以及对 Qwen 模型进行 SFT 与 RL 后训练，使 Web 任务比闭源模型方案快且便宜 2–5 倍。数据来自厂商演讲，没有披露统一任务集、成功率或端到端成本明细。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/togethercompute/status/2090555766747140364&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;/a&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;cerebras-cs-4把超低延迟-decode-做成异构机架组件&quot;&gt;Cerebras CS-4：把超低延迟 decode 做成异构机架组件&lt;/h3&gt;
-&lt;p&gt;CS-4 由三颗 WSE-3 Turbo、Nexus 模块化机架和新的 Wafer-Scale Backpack 组成。厂商称后者把电源转换靠近处理器、减少 50% 组件并提高 60% 自动化制造比例，使部署从数天缩短到数小时；可编程 I/O 带宽翻倍，并以 RoCE v2 或 Direct Wafer Links 扩展。系统可把 prefill 放在 GPU 或 ASIC，把低延迟 decode 留给 CS-4，在超过 10 万亿参数模型上宣称每秒 1,000 token 以上。30 倍 GPU 速度、10 倍每瓦吞吐等结论来自 Cerebras 内部基准与预测，首批本季度出货。
-&lt;a href=&quot;https://www.cerebras.ai/blog/introducing-cerebras-cs-4&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;muse-spark-12-与-wildartifactbench从答题评测转向可交付成果&quot;&gt;Muse Spark 1.2 与 WildArtifactBench：从答题评测转向可交付成果&lt;/h3&gt;
-&lt;p&gt;Muse Spark 1.2 把视觉理解、代码生成、工具调用与 computer use 放进同一 Agent 模型，演示覆盖从图像或视频生成可运行网页、让机器人在非结构环境寻找物体、双臂整理桌面，以及将媒体内容转换为训练标签和下游信号。WildArtifactBench 则公开 10 项预览任务，横跨鸟鸣分析、心脏超声、冠脉造影、3D 网格、厨房布局、材料计量、强化学习驾驶和视频编辑；每项都附输入文件、说明和 rubric。Meta 采用人类与 Agent 偏好评审的胜率和 Elo，扩大开放式交付物覆盖，但偏好裁判的一致性与可复现性仍需持续校准。
-&lt;a href=&quot;https://research.meta.ai/wild-artifact-bench&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;pika-music四种条件在同一潜空间内共同决定完整歌曲&quot;&gt;Pika Music：四种条件在同一潜空间内共同决定完整歌曲&lt;/h3&gt;
-&lt;p&gt;Pika Music 将文本、歌词、声音参考和音乐参考编码后送入共享 latent-diffusion decoder，让曲式、演唱角色、文字方向与参考“氛围”在一次生成中共同作用。官方博客称最长可生成 6 分钟，90 秒歌曲平均 6.21 秒完成，并把快速 few-step generation、训练与推理优化转化为最高 10 倍成本优势。固定歌词基准覆盖 15 种创作方向，推文报告 Audiobox Aesthetics 的 Content Enjoyment 7.403、Production Quality 8.064，与 Suno 的 7.412、8.151 接近；硬件、样本规模与独立复测信息未完整公开。
-&lt;a href=&quot;https://experiment.pika.art/blog/pika-music&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;sakana-translate以文化语境后训练挑战大模型必然翻得更好&quot;&gt;Sakana Translate：以文化语境后训练挑战“大模型必然翻得更好”&lt;/h3&gt;
-&lt;p&gt;升级后的服务采用新一代 Sakana Namazu，刷新基础模型并改进后训练，在日英中双向翻译范围不变的前提下提升自然度。Sakana 用 TransEvalnia 从译词、自然度等维度评判 160 个内部日英任务，称相对所有对照模型和服务的一对一胜率均超过 50%；“お宮参り”案例用于展示文化概念而非字面替换。服务继续免费提供翻译、添改与质疑，支持约 5,000 字长文；文件翻译、术语表、行业模型、API、SSO、审计日志和本地部署仍在路线图上。评测集由厂商自建，需外部数据复核泛化。
-&lt;a href=&quot;https://sakana.ai/translate-update/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;codex-税务-agent把生产错误转成可验证的自改进任务&quot;&gt;Codex 税务 Agent：把生产错误转成可验证的自改进任务&lt;/h3&gt;
-&lt;p&gt;Tax AI 在 Crete 参与试点的事务所处理 7,000 份税表；每次生产预测都与会计师最终结果比较，失败会生成包含生产 trace、源文档、预测、最终申报表与税务字段文档的只读调查上下文，让 Codex 定位问题、修改代码并运行评测，而不改动证据。官方称整体准备时间约减少三分之一，并给出一名资深会计从上一季 180 小时降到本季 15 小时的个案。流程的关键不是让模型直接承担税务责任，而是把真实失败闭环成测试、代码修复和人工可审查的发布候选。
-&lt;a href=&quot;https://openai.com/index/building-self-improving-tax-agents-with-codex/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;chroma-foundation从会话记录升级为带版本与权限的组织记忆&quot;&gt;Chroma Foundation：从会话记录升级为带版本与权限的组织记忆&lt;/h3&gt;
-&lt;p&gt;Foundation 跟随 Claude Code、Codex、Slack 等团队工作，抽取显性结论和“事情实际上怎么做”的隐性知识，维护可持续更新的 wiki，并通过 MCP 把同一上下文提供给不同模型与工具。产品基于 ChromaDB 和 Context-1，宣称在 BEAM memory benchmark 达到 SOTA，并把版本、并发、血缘、实时同步和访问控制做成一等能力。官方称系统具备 SOC 2 Type 2，编码 Agent 会话默认只对作者可见。当前属于研究预览；自动提炼仍可能把错误经验固化，因此来源追踪和人工修订与检索质量同样关键。
-&lt;a href=&quot;https://www.trychroma.com/foundation&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;hiphi先定义动作语义空间再采集-6175-小时具身数据&quot;&gt;HiPHI：先定义动作语义空间，再采集 617.5 小时具身数据&lt;/h3&gt;
-&lt;p&gt;HiPHI 不从容易重叠、漏掉边界情况的任务清单开始，而用 FrameNet 的人类动作语义建立 22 个 motion frames 和 214 个 motion units，在采集前量化覆盖。公开数据包含 617.5 小时人体动作和人—物交互，附覆盖对比与逐帧质量指标，并用真实 Unitree G1 部署验证训练策略。数据对研究免费；Noitom 还称其 ModalityNet 基础设施可每年生产超过 10 万小时动作、交互与野外行为数据。公开样本能否代表这一工业产能，以及许可对商业训练的边界，需要按数据卡单独核对。
-&lt;a href=&quot;https://huggingface.co/datasets/noitomrobotics/HiPHI&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;ai21-独立验证器正确答案已生成系统却不会把它选出来&quot;&gt;AI21 独立验证器：正确答案已生成，系统却不会把它选出来&lt;/h3&gt;
-&lt;p&gt;在 FACTS-Search 上，混合 Claude Haiku、Sonnet、Opus 与 Qwen3-Coder 的固定候选池，多数投票为 83.3；独立 Opus 验证器重新检索每个候选并先否决错误答案，将结果提到 93.4，但总成本达 4.26 美元/题。AI21 用约 6,000 条可验证样本训练 8B 验证器后，固定同一候选池达到 92.9、成本 1.34 美元；纯开源生成池则从 60.1 提至 77.0，仅 0.017 美元/题。迁移到 BrowseComp-Plus 时精度提升仍在，但会把 27% 可解问题的正确候选全部拒绝，约 85 条样本的短 SFT 用来修复召回。
-&lt;a href=&quot;https://www.ai21.com/blog/you-need-a-verifier/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;databricks-成为-openai-的多云运营数据层&quot;&gt;Databricks 成为 OpenAI 的多云运营数据层&lt;/h3&gt;
-&lt;p&gt;OpenAI 自 2024 年起在 Azure 与 AWS 同时使用 Databricks，原始使用数据进入 Unity Catalog 治理的 Delta 表，再由 Jobs 与 Data Warehouses 形成分层管道，供产品、财务、营销、安全及信任与安全团队使用。案例称 Bronze-Silver-Gold 架构支撑每周 10 亿活跃用户的营销分析，并每月减少 40 万美元存储成本；安全侧统一基础设施、云与供应商审计日志，Codex 可经 SQL API 对治理数据做辅助调查。Genie MCP 则把这套企业数据连接到 ChatGPT Work。数字与收益来自供应商客户案例，未提供第三方审计。
-&lt;a href=&quot;https://www.databricks.com/customers/openai&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 21 Aug 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/08/21/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/21/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>沃尔玛2027财年Q2电话会——CFO说2.6%的同店换来10%的利润增长，「二十年没做到过」</title>
-        <description>&lt;p&gt;美东时间2026年8月20日上午（北京时间8月20日晚），沃尔玛（Walmart，NASDAQ: WMT）召开2027财年第二财季业绩电话会。&lt;/p&gt;
-
-&lt;p&gt;出席阵容：&lt;strong&gt;CEO John Furner（约翰·弗纳）、CFO John David Rainey（约翰·大卫·雷尼）、美国区CEO David Guggina（大卫·古吉纳）&lt;/strong&gt;，另有首席增长官Seth Dallaire、国际区CEO Chris Nicholas、山姆会员店美国CEO Latriece Watkins参与问答环节。IR负责人Steph Wissink主持，并明确要求每位分析师”只问一个问题”——最终仍有13家机构提问。&lt;/p&gt;
-
-&lt;p&gt;这场电话会的背景很特殊：财报数字全线超预期（调整后每股收益0.81美元对预期0.74美元，营收1879亿美元对预期1868亿美元），公司还上调了全年指引，&lt;strong&gt;但股价当天暴跌约8.9%&lt;/strong&gt;。所以整场电话会的核心张力，是管理层如何解释”为什么好数字不代表好趋势，而坏数字也不代表坏生意”。&lt;/p&gt;
-
-&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-最重要的一句话26的同店10的利润增长&quot;&gt;1. 最重要的一句话：2.6%的同店，10%的利润增长&lt;/h2&gt;
-
-&lt;p&gt;CFO Rainey在回答Evercore分析师Greg Melich关于”经营利润能否继续以两倍于营收的速度增长”时，给出了全场信息量最大的一段：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“我们退一步看美国同店。同店是2.5%（编者注：财报口径为2.6%）。我认为正确的看法是，剔除健康与保健后其实更接近3.5%。但就算按面值看，在2.5%的美国同店下，&lt;strong&gt;剔除关税影响我们的经营利润增长了10%，是营收增速的4倍。我们已经二十年没有在这个同店水平上做到这种利润增长了。&lt;/strong&gt;我们的生意在发生根本性的改变。看利润驱动因素，几乎一半的增长来自会员、广告、第三方平台这些领域，而我们预计这会持续下去。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这句话是整场电话会的”论点句”。管理层想传达的是：&lt;strong&gt;别再用同店增速这个二十年前的尺子量今天的沃尔玛。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-反复强调的操作要求把q2和q3合起来看&quot;&gt;2. 反复强调的操作要求：把Q2和Q3合起来看&lt;/h2&gt;
-
-&lt;p&gt;CFO在开场白、指引部分、以及至少三次问答中重复了同一句话：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“我鼓励各位把第二季度和第三季度放在一起考量，来评估这项业务的底层增长。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;原因是关税退款的时间错配。公司此前披露有资格获得约29亿美元的IEEPA关税退款（约相当于美国年净销售额的0.5%），本季已收到绝大部分。这笔钱在Q2一次性计入利润（&lt;strong&gt;对经营利润增速的净贡献约750个基点&lt;/strong&gt;），但对应的降价动作是在7月底才集中落地的——所以成本冲击会主要压在Q3。&lt;/p&gt;
-
-&lt;p&gt;CFO给了一个换算：&lt;strong&gt;如果把Q2和Q3的报告口径经营利润合起来看，平均每季度增长约10%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-上调指引但刻意只上调一点点&quot;&gt;3. 上调指引，但刻意”只上调一点点”&lt;/h2&gt;
-
-&lt;p&gt;CFO对上调幅度偏小做了主动辩护：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“我想把这一点说得非常清楚。我们处在年度中点，上调全年指引反映了我们对持续增长和份额获取能力的信心。重要的是，&lt;strong&gt;我们是在燃油成本比预期多出超过20亿美元、消费环境可以说比2月发布初始指引时更疲软的背景下上调的。&lt;/strong&gt;因此，我们认为保持谨慎、只做小幅上调是审慎的。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;具体调整：全年净销售额（固定汇率）从+3.5%~4.5%上调至+4.0%~5.0%；调整后经营利润（固定汇率）从+6.0%~8.0%上调至+7.0%~8.5%；调整后每股收益从2.75~2.85美元上调至2.80~2.87美元；资本开支从约占净销售额3.5%上调至约4.0%。&lt;/p&gt;
-
-&lt;p&gt;Q3指引：净销售额（固定汇率）+3.0%~3.75%，经营利润（固定汇率）+2.0%~4.0%，每股收益0.62~0.64美元——&lt;strong&gt;低于市场预期的0.68美元，这是当天股价大跌的直接导火索。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;4-首次系统披露药价管制的量化影响&quot;&gt;4. 首次系统披露药价管制的量化影响&lt;/h2&gt;
-
-&lt;p&gt;CFO用一整段拆解了健康与保健品类对同店的影响，并指向补充材料第14页新增的披露：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;FY2025和FY2026两年，GLP-1品牌减肥药各贡献约100个基点的同店顺风&lt;/li&gt;
-  &lt;li&gt;FY2027预计GLP-1贡献减半（处方量还在增长，但被价格和品类结构变化抵消）&lt;/li&gt;
-  &lt;li&gt;FY2027新增”最高公平价格”（Maximum Fair Price，MFP）药价管制的逆风，Q2实际影响约125个基点，全年估计也调高到125个基点&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“把这些放在一起，核心商品品类的销售一直很稳定，但在美国总同店层面，&lt;strong&gt;我们从过去两年的趋势到今年，出现了接近200个基点的净摆动，完全与健康与保健品类有关。&lt;/strong&gt;需要指出的是，这个不利影响只作用于顶线。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;大白话&lt;/strong&gt;：药还是那么多人买，甚至买得更多了，但政府把药价打下来了，所以营业额少了——&lt;strong&gt;这是”价”的问题，不是”量”的问题，而且完全不影响利润&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;5-ai与门店角色&quot;&gt;5. AI与门店角色&lt;/h2&gt;
-
-&lt;p&gt;CEO Furner在开场白中花了一段讲AI购物助手Sparky：使用Sparky的顾客数量同比增长70%，且&lt;strong&gt;用Sparky购物的顾客单笔订单金额比不用的高40%&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;关于门店，CEO在回答Bernstein分析师关于”门店同店下滑是不是结构性问题”时说了一段值得记住的话：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“门店是一项资产。它们把库存和员工布置在覆盖全美95%人口的10英里半径内。你们今天早上听到的关于快速配送、准确率、灵活性的一切，&lt;strong&gt;没有门店就不可能实现。&lt;/strong&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;CFO补充了具体数字：门店是&lt;strong&gt;80%电商订单和100%快速配送订单&lt;/strong&gt;的最后一公里履约节点；美国电商占比已超过23%，是五年前的两倍；”我们越是全渠道，门店就越重要，不是更不重要，是更重要”。&lt;/p&gt;
-
-&lt;h1 id=&quot;二分析师问答中最有信息量的5个问题&quot;&gt;二、分析师问答中最有信息量的5个问题&lt;/h1&gt;
-
-&lt;h2 id=&quot;q1高盛-kate-mcshane关税退款投入降价后是否已经看到销量加速供应商分担了多少&quot;&gt;Q1（高盛 Kate McShane）：关税退款投入降价后，是否已经看到销量加速？供应商分担了多少？&lt;/h2&gt;
-
-&lt;p&gt;CEO Furner的回答避开了”供应商分担比例”这个敏感问题，转而给了一组量化：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“我们在第一季度末大约有7000个降价商品，正常情况约5000个。&lt;strong&gt;到本季度末我们有11000个。&lt;/strong&gt;当你在食品这类消耗品品类做降价，你通常先看到件数增长——本季我们的交易笔数和件数都在增长。这会造成暂时的通缩效应。但随着件数随时间增长，尤其在食品品类，份额就会体现出来，&lt;strong&gt;我们对最近这份份额报告非常满意，食品是我们近年来最强的报告之一。&lt;/strong&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他还给了一句关键的政策口径：”我们的希望和意图始终是，&lt;strong&gt;降价能在可能的情况下变成永久性价格&lt;/strong&gt;。对于任何我们看不到回报的降价，我们会审慎管理。”&lt;/p&gt;
-
-&lt;h2 id=&quot;q2摩根士丹利-simeon-gutman低收入消费者是不是更难了降价的弹性有多快&quot;&gt;Q2（摩根士丹利 Simeon Gutman）：低收入消费者是不是更难了？降价的弹性有多快？&lt;/h2&gt;
-
-&lt;p&gt;CFO Rainey罕见地直接承认了消费压力：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“毫无疑问，相比年初，消费者确实承受了增量压力，燃油价格更高。你逐月看上个季度，&lt;strong&gt;能明显看出油价上涨、涨过4美元之后的变化，也许存在一种心理效应&lt;/strong&gt;，消费者在做选择。所以6月在这个季度里更明显一些，顾客在做取舍。这就是我们如此重仓低价的原因。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;关于弹性的滞后：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“很重要的一点是，&lt;strong&gt;这里有滞后&lt;/strong&gt;。降价的好处是累积的。你不应该指望在当期就把降价的成本对冲掉。我们不是按一个季度管理生意的，我们是按多年的维度管理的。而且我们看到的市场份额是&lt;strong&gt;持久的&lt;/strong&gt;——我们保住了那些份额，这也是我们敢于如此大胆继续投入的原因。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;q3evercore-greg-melich关税税率往哪走2027年经营利润还能两倍于营收增长吗&quot;&gt;Q3（Evercore Greg Melich）：关税税率往哪走？2027年经营利润还能两倍于营收增长吗？&lt;/h2&gt;
-
-&lt;p&gt;CFO的回答分两层。关于关税：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“我们对关税税率的假设基本就是今天所经历的水平。燃油价格也一样。所以&lt;strong&gt;如果燃油价格有所改善，那对我们的预测是利好。&lt;/strong&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;关于利润，就是前面引述的”4倍利润增长、二十年未有”那段。他补充：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“现在我们的增量利润率大致在低两位数。但我们业务的增长驱动力和以往一样完好。事实上，我认为&lt;strong&gt;往前看，增量利润率还有改善的空间。&lt;/strong&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;q4美银-chris-nardone数字业务的增量利润率还能提升吗明年怎么对标今年的降价&quot;&gt;Q4（美银 Chris Nardone）：数字业务的增量利润率还能提升吗？明年怎么对标今年的降价？&lt;/h2&gt;
-
-&lt;p&gt;CFO先给了一句很坦白的话：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“&lt;strong&gt;对标明年19%的每股收益增长会是个挑战。&lt;/strong&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;然后解释了增量利润率的逻辑：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“过去大概六个季度，美国电商的增量利润率大体在高个位数到低两位数区间。几个季度前有人问过我这个能否改善，当时我可能更谨慎一些。但当我们看到广告业务&lt;strong&gt;在高得多的基数上继续以40%的速度增长&lt;/strong&gt;，这实际上给了我们信心，增量利润率甚至可能更高。要相信增量利润率能上升，你需要相信什么？你需要相信广告增速跑赢电商增速——&lt;strong&gt;而这正是我们看到的，而且不是小幅跑赢，是在更大的基数上大幅跑赢。&lt;/strong&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他还点出Vibe收购的意义：”这给了我们一个此前没有的新可增量市场——中小商家。”&lt;/p&gt;
-
-&lt;p&gt;最后一句带情绪的补充值得注意：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“不只是我们的增量利润率在增长，&lt;strong&gt;它们的增长速度是整体利润率的两倍。&lt;/strong&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;q5花旗-paul-lejuez美国经营费用增长7是时点因素还是理赔超预期&quot;&gt;Q5（花旗 Paul Lejuez）：美国经营费用增长7%，是时点因素还是理赔超预期？&lt;/h2&gt;
-
-&lt;p&gt;CFO拆成三块解释：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;折旧&lt;/strong&gt;——来自供应链自动化和提速的资本开支。他给了个成绩单：”仅本季度，我们30分钟内送达的件数就比一年前翻了一倍。70%的电商订单实现当日达或更快。”&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;自保成本&lt;/strong&gt;——理赔和团体医保。”如果看上半年，其中约三分之二的增加来自团体医保。原因是&lt;strong&gt;我们的员工流失率在一些情况下明显下降了&lt;/strong&gt;。顺便说，这对我们的生意是好事，我们希望有更资深、更有经验的员工服务顾客和会员。但流失率下降意味着参保人数增加。”&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;主动加码投入&lt;/strong&gt;——”从一个季度到下一个季度，有时候你会在生意上多投入一些。虽然我在开场白里没有点出来，但我认为本季度属于这种情况。”&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;三其他值得记录的细节&quot;&gt;三、其他值得记录的细节&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;美国区CEO David Guggina 谈健康与保健客群价值：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“当一个人成为健康与保健顾客，他的消费平均是普通沃尔玛顾客的&lt;strong&gt;3倍&lt;/strong&gt;。而当他开始使用药品配送服务时，这个数字&lt;strong&gt;几乎又翻了一倍。&lt;/strong&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;关于会员的增量价值（CFO）：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“人们在讨论我们的会员计划时有时会忽略的一点，是我们在GMV上看到的增量。&lt;strong&gt;我们的会员消费大约是非会员的4倍。&lt;/strong&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;关于返校季（美国区CEO）：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“沃尔玛在整个返校季销售了全行业约50%的学习用品（按件数计）……我们有一份14个关键商品的清单，价格低于2019年的水平。比如Pen+Gear蜡笔0.25美元，或者Pen+Gear 2号铅笔0.92美元。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他还提到自有品牌服饰Scoop和Free Assembly出现三位数同店增长，返校居家品类中蜡烛、毛毯、地毯、台灯录得双位数到三位数同店增长。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;关于库存（CEO）：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“我在公司待了33年多……当你退一步看品类，美国区大多数品类库存增长在1%到4%之间。唯一在高端的是消耗品，那是快周转的。&lt;strong&gt;坐在这里，我对库存没有大的担忧。如果说有什么，6月和7月有几个品类我们的库存反而偏少了。&lt;/strong&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;通胀水平（CEO）：&lt;/strong&gt; “整体在1%到2%之间。”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;新披露的业务动作：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;数据服务平台Scintilla将于明年扩展到山姆会员店美国&lt;/li&gt;
-  &lt;li&gt;美国的第三方卖家平台能力已扩展到墨西哥和加拿大，Walmart+在加拿大上线&lt;/li&gt;
-  &lt;li&gt;收购广告技术公司Vibe，面向中小商家的自助广告工具&lt;/li&gt;
-  &lt;li&gt;30分钟内送达已扩展到美国38个市场，美国快速配送增长48%&lt;/li&gt;
-  &lt;li&gt;付费快速配送占门店发货配送的37%，创历史新高&lt;/li&gt;
-  &lt;li&gt;3100家美国门店实现不同程度的货运自动化，超过50%的电商履约量通过自动化设施处理&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;四解读这场电话会到底说了什么&quot;&gt;四、解读：这场电话会到底说了什么&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-管理层在做一次估值框架的切换尝试&quot;&gt;1. 管理层在做一次”估值框架的切换”尝试&lt;/h2&gt;
-
-&lt;p&gt;整场电话会，管理层反复用一个动作对抗市场：&lt;strong&gt;把注意力从”美国同店销售”移开，转向”利润结构”。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;CFO那句”2.5%的同店对应10%的利润增长，二十年没做到过”是精心准备的。它想说的是：过去大家用同店销售给沃尔玛估值，因为沃尔玛的利润几乎完全由零售规模决定；但现在会员、广告、平台、数据这些业务贡献了近一半的利润增长，&lt;strong&gt;同店销售和利润之间的传导系数已经变了&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;问题在于，市场这次没接受。股价当天跌了约9%。&lt;strong&gt;结构故事需要时间验证，而Q3每股收益指引低于预期6分钱是眼前的事实。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-关税退款被处理成了一次战略性花钱&quot;&gt;2. 关税退款被处理成了一次”战略性花钱”&lt;/h2&gt;
-
-&lt;p&gt;29亿美元退款，沃尔玛几乎没留利润，全投进了11000个降价商品。这是一个典型的沃尔玛式选择——&lt;strong&gt;用一次性的钱买持久的份额&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;CEO把验收标准说得很清楚：”份额增长最终是我们衡量自己相对于市场上其他企业表现的方式。”CFO则把时间尺度说清楚了：”我们不是按一个季度管理生意的。”&lt;/p&gt;
-
-&lt;p&gt;这个赌注的风险也很明确：&lt;strong&gt;降价的成本是确定的、当期的；降价的收益是不确定的、滞后的。&lt;/strong&gt;如果Q3、Q4的同店没有如管理层预期那样加速，这笔钱就等于白花了。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-最值得警惕的信号是客单价&quot;&gt;3. 最值得警惕的信号，是客单价&lt;/h2&gt;
-
-&lt;p&gt;财报里三个客单价数字：美国+1.1%、山姆-2.5%、通胀水平1%~2%。&lt;/p&gt;
-
-&lt;p&gt;美国客单价（+1.1%）低于通胀（1%~2%），山姆客单价直接负增长2.5%而客流大涨7%。这两个组合都指向同一件事：&lt;strong&gt;顾客来得更勤了，但每次买得更少了。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;管理层用降价解释了一部分（降价必然压低客单价），但结合CFO主动承认的”消费环境比2月更疲软”、”油价过4美元有心理效应”、”6月消费者做取舍更明显”，这更像是一个真实的宏观信号，而不只是会计效应。&lt;/p&gt;
-
-&lt;h2 id=&quot;4-药价管制这件事一年后会变成顺风&quot;&gt;4. 药价管制这件事，一年后会变成顺风&lt;/h2&gt;
-
-&lt;p&gt;MFP新规从2026年1月1日生效，FY2027是第一个完整承压年。价格一次性下台阶后，&lt;strong&gt;从FY2028开始，基数就走平了&lt;/strong&gt;。也就是说，今年这125个基点的逆风，明年大概率会消失。&lt;/p&gt;
-
-&lt;p&gt;管理层显然知道这一点，所以CEO特别强调：”我们绝不想传递出我们对健康与保健业务不满意的信号。”配上美国区CEO给的”药房客群消费是普通客群3倍、用配送后再翻倍”，这其实是在给市场埋一个明年的伏笔。&lt;/p&gt;
-
-&lt;h1 id=&quot;五总结&quot;&gt;五、总结&lt;/h1&gt;
-
-&lt;p&gt;一句话概括这场电话会：&lt;strong&gt;管理层交出了一份利润结构显著改善的答卷，但市场只看到了一个疲软的顶线和一份保守的指引。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;三个最该记住的数字：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;750个基点&lt;/strong&gt;——关税退款对本季经营利润增速的净贡献，也是为什么必须”Q2+Q3合起来看”&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;4倍&lt;/strong&gt;——剔除关税后，底层经营利润增速相对于美国同店增速的倍数，CFO称二十年未见&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11000个&lt;/strong&gt;——季末降价商品数量，从Q1末的7000个跳升，正常水平约5000个&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;接下来三个季度，验证清单只有一条：&lt;strong&gt;这11000个降价，能不能在Q3和Q4换回加速的同店和持续的份额。&lt;/strong&gt;如果能，管理层的”结构故事”就成立；如果不能，市场会认为沃尔玛只是在用一次性退款买短期销量。&lt;/p&gt;
-
-&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;沃尔玛IR官方业绩电话会实录PDF（FactSet CallStreet Corrected Transcript，2026年8月20日）：&lt;a href=&quot;https://stock.walmart.com/_assets/_921ff28c537145729fbc2553b7f43fac/walmart/db/938/9996/transcript_management_call/Earnings+Transcript+%28FY27+Q2%29.pdf&quot;&gt;Earnings Transcript (FY27 Q2)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;沃尔玛官方财报新闻稿：&lt;a href=&quot;https://corporate.walmart.com/news/2026/08/20/walmart-releases-q2-fy27-earnings&quot;&gt;Walmart Releases Q2 FY27 Earnings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;SEC EDGAR 8-K附件99.1（财报全文）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm&quot;&gt;Earnings Release FY27 Q2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;媒体报道（用于分析师预期与股价反应的补充）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CNBC：&lt;a href=&quot;https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html&quot;&gt;Walmart (WMT) Q2 2027 earnings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Yahoo Finance：&lt;a href=&quot;https://finance.yahoo.com/markets/stocks/articles/walmart-shares-tumble-weakest-us-144400613.html&quot;&gt;Walmart shares tumble on weakest US sales growth in six years, soft profit outlook&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&amp;lt;/content&amp;gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 21 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/21/walmart_fy2027q2_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/21/walmart_fy2027q2_earnings_call/</guid>
-        
-        <category>沃尔玛</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>沃尔玛2027财年Q2——营收1879亿美元同比增长5.9%，经营利润大涨28.8%，股价却暴跌约9%</title>
-        <description>&lt;p&gt;美东时间2026年8月20日盘前（北京时间8月20日晚），&lt;a href=&quot;https://stock.walmart.com/&quot;&gt;沃尔玛&lt;/a&gt;（Walmart，NASDAQ: WMT）发布2027财年第二财季财报，对应自然年2026年5月1日至7月31日。&lt;/p&gt;
-
-&lt;p&gt;这份财报的”分裂感”很强：几乎所有利润指标都大幅超预期——经营利润同比大涨28.8%，调整后每股收益同比增长19.1%，公司还上调了全年指引——但股价当天暴跌约8.9%，收于104.12美元，是2022年5月以来最差的单日表现。&lt;/p&gt;
-
-&lt;p&gt;为什么”报喜”换来”重挫”？答案藏在一个数字里：&lt;strong&gt;美国同店销售只增长了2.6%&lt;/strong&gt;，而市场原本预期约3.7%。下面拆开来看。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-业务概览&quot;&gt;1. 业务概览&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;主营业务：三大板块——沃尔玛美国（Walmart U.S.）、沃尔玛国际（Walmart International）、山姆会员店美国（Sam’s Club U.S.）&lt;/li&gt;
-  &lt;li&gt;行业地位：全球营收规模最大的零售商，2026财年全年营收7130亿美元&lt;/li&gt;
-  &lt;li&gt;覆盖规模：19个国家超过10900家门店，每周约2.8亿名顾客和会员到店或线上购物，全球员工约210万人&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;理解今天的沃尔玛，关键是别再把它只当成”卖东西的超市”。它现在有两条腿：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一条腿是传统零售&lt;/strong&gt;，卖食品杂货和日用百货，毛利很薄，靠规模赚钱。
-&lt;strong&gt;第二条腿是”平台型业务”&lt;/strong&gt;——第三方卖家平台（Marketplace）、零售广告（Walmart Connect）、会员服务（Walmart+和山姆会员）、数据服务（Data Ventures）。这些业务毛利率高得多，且增长快得多。&lt;/p&gt;
-
-&lt;p&gt;CFO在电话会上给了一个很能说明问题的对比：本季美国同店销售只有2.6%，但剔除关税退款影响后经营利润仍增长约10%，&lt;strong&gt;是营收增速的4倍&lt;/strong&gt;——”我们已经有二十年没有在这么低的美国同店增速下实现这个水平的利润增长了”。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-本季核心财务数据&quot;&gt;2. 本季核心财务数据&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;本季（FY27Q2）&lt;/th&gt;
-      &lt;th&gt;去年同期&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收&lt;/td&gt;
-      &lt;td&gt;1879.37亿美元&lt;/td&gt;
-      &lt;td&gt;1774.02亿美元&lt;/td&gt;
-      &lt;td&gt;+5.9%（固定汇率+5.1%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其中净销售额&lt;/td&gt;
-      &lt;td&gt;1861.00亿美元&lt;/td&gt;
-      &lt;td&gt;1757.50亿美元&lt;/td&gt;
-      &lt;td&gt;+5.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其中会员费及其他收入&lt;/td&gt;
-      &lt;td&gt;18.37亿美元&lt;/td&gt;
-      &lt;td&gt;16.52亿美元&lt;/td&gt;
-      &lt;td&gt;+11.2%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售成本&lt;/td&gt;
-      &lt;td&gt;1388.04亿美元&lt;/td&gt;
-      &lt;td&gt;1327.71亿美元&lt;/td&gt;
-      &lt;td&gt;+4.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营费用（SG&amp;amp;A）&lt;/td&gt;
-      &lt;td&gt;397.50亿美元&lt;/td&gt;
-      &lt;td&gt;373.45亿美元&lt;/td&gt;
-      &lt;td&gt;+6.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润&lt;/td&gt;
-      &lt;td&gt;93.83亿美元&lt;/td&gt;
-      &lt;td&gt;72.86亿美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+28.8%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归属沃尔玛净利润&lt;/td&gt;
-      &lt;td&gt;63.66亿美元&lt;/td&gt;
-      &lt;td&gt;70.26亿美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-9.4%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;0.80美元&lt;/td&gt;
-      &lt;td&gt;0.88美元&lt;/td&gt;
-      &lt;td&gt;-9.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后每股收益&lt;/td&gt;
-      &lt;td&gt;0.81美元&lt;/td&gt;
-      &lt;td&gt;0.68美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+19.1%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;这里有一个必须解释的怪现象：&lt;strong&gt;经营利润涨了28.8%，净利润却跌了9.4%&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;原因不在主业，而在投资。沃尔玛持有一批股权类投资（比如京东、蚂蚁集团等历史持仓，以及各类少数股权），这些资产的公允价值波动要直接计入利润表。本季这部分录得净亏损，影响每股0.12美元；同时一项税务事项带来每股0.11美元的净收益。两项一加一减，GAAP每股收益0.80美元 = 调整后0.81 - 0.12 + 0.11。去年同期则是投资端大幅浮盈，把GAAP利润垫高了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;大白话&lt;/strong&gt;：主业赚的钱涨了近三成，但”炒股账户”今年亏了、去年赚了，所以账面净利润看着倒退。看沃尔玛的真实经营，应该看调整后每股收益的+19.1%。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-现金流与资产负债&quot;&gt;3. 现金流与资产负债&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;上半年经营性现金流197亿美元，同比增加14亿美元&lt;/li&gt;
-  &lt;li&gt;上半年自由现金流55亿美元，同比减少14亿美元（因为资本开支加大）&lt;/li&gt;
-  &lt;li&gt;现金及等价物115亿美元，总债务572亿美元&lt;/li&gt;
-  &lt;li&gt;存货616亿美元，同比增长6.7%（固定汇率+6.0%），略高于销售增速&lt;/li&gt;
-  &lt;li&gt;年初至今回购4230万股、金额51亿美元；2026年2月批准的300亿美元回购授权还剩251亿美元&lt;/li&gt;
-  &lt;li&gt;资产回报率（ROA）8.0%，投资回报率（ROI，过去12个月）15.4%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;自由现金流下滑的原因是资本开支加码——公司把全年资本开支指引从”约占净销售额3.5%”上调到”约4.0%”，钱主要花在供应链自动化和配送提速上。&lt;/p&gt;
-
-&lt;h1 id=&quot;二分业务解读&quot;&gt;二、分业务解读&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-沃尔玛美国数字最难看也最被市场盯住&quot;&gt;1. 沃尔玛美国——数字最难看，也最被市场盯住&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;FY27Q2&lt;/th&gt;
-      &lt;th&gt;FY26Q2&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额&lt;/td&gt;
-      &lt;td&gt;1251.9亿美元&lt;/td&gt;
-      &lt;td&gt;1209.1亿美元（+3.5%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;同店销售（除燃油）&lt;/td&gt;
-      &lt;td&gt;+2.6%&lt;/td&gt;
-      &lt;td&gt;+4.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;客流（交易笔数）&lt;/td&gt;
-      &lt;td&gt;+1.5%&lt;/td&gt;
-      &lt;td&gt;+1.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;客单价&lt;/td&gt;
-      &lt;td&gt;+1.1%&lt;/td&gt;
-      &lt;td&gt;+3.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;电商对同店的拉动&lt;/td&gt;
-      &lt;td&gt;约510个基点&lt;/td&gt;
-      &lt;td&gt;约420个基点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润&lt;/td&gt;
-      &lt;td&gt;81亿美元&lt;/td&gt;
-      &lt;td&gt;67亿美元（+20.6%）&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;2.6%的同店增速是全场最刺眼的数字。但沃尔玛给了一个重要的解释：&lt;strong&gt;其中125个基点的拖累来自药房&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;具体来说，美国从2026年1月1日起实施”最高公平价格”（Maximum Fair Price，MFP）药价管制新规，部分处方药被强制降价，同时品牌药向仿制药转移。这两件事都直接压低药房的销售额——&lt;strong&gt;卖的药片数量没少，甚至还在涨，但每片的售价被砍了&lt;/strong&gt;。药房销售绝大部分发生在实体店内，所以这也拖累了门店同店销售（本季门店同店为低个位数负增长）。&lt;/p&gt;
-
-&lt;p&gt;管理层强调，剔除药房品类后，核心品类同店销售过去两年半一直稳定在3%到4%这个区间。&lt;/p&gt;
-
-&lt;p&gt;其余亮点：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;电商销售增长24%，其中门店发货的到家配送增长超过40%，周均下单顾客数增长20%&lt;/li&gt;
-  &lt;li&gt;第三方卖家平台（Marketplace）销售增长52%，其中近50%的订单走沃尔玛自有履约服务（WFS），同比提升近400个基点&lt;/li&gt;
-  &lt;li&gt;广告收入整体增长38%，其中Walmart Connect（剔除VIZIO）增长43%&lt;/li&gt;
-  &lt;li&gt;毛利率提升158个基点，主因关税退款和业务结构改善&lt;/li&gt;
-  &lt;li&gt;经营费用率恶化72个基点，主因理赔支出、折旧和员工医保成本上升&lt;/li&gt;
-  &lt;li&gt;Walmart+净新增会员数创下第二财季历史新高&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-沃尔玛国际增长最快的板块&quot;&gt;2. 沃尔玛国际——增长最快的板块&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;FY27Q2&lt;/th&gt;
-      &lt;th&gt;FY26Q2&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额&lt;/td&gt;
-      &lt;td&gt;352亿美元&lt;/td&gt;
-      &lt;td&gt;312亿美元（+12.8%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额（固定汇率）&lt;/td&gt;
-      &lt;td&gt;337亿美元&lt;/td&gt;
-      &lt;td&gt;312亿美元（+7.9%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润&lt;/td&gt;
-      &lt;td&gt;14亿美元&lt;/td&gt;
-      &lt;td&gt;12亿美元（+16.6%，固定汇率+5.7%）&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;固定汇率下增长7.9%，由中国和印度领跑（管理层在电话会披露中国增长9.7%）。电商增长19%，国际板块的电商占比已达30%。广告业务增长20%，由印度Flipkart Ads带动。汇率波动为销售额贡献了15亿美元、为经营利润贡献1亿美元——&lt;strong&gt;也就是说，12.8%的报告增速里有近5个百分点是汇率的功劳，不是真实的量增&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-山姆会员店美国客流最猛客单价在跌&quot;&gt;3. 山姆会员店美国——客流最猛，客单价在跌&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;FY27Q2&lt;/th&gt;
-      &lt;th&gt;FY26Q2&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额&lt;/td&gt;
-      &lt;td&gt;257亿美元&lt;/td&gt;
-      &lt;td&gt;236亿美元（+8.8%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额（除燃油）&lt;/td&gt;
-      &lt;td&gt;221亿美元&lt;/td&gt;
-      &lt;td&gt;212亿美元（+4.5%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;同店销售（除燃油）&lt;/td&gt;
-      &lt;td&gt;+4.4%&lt;/td&gt;
-      &lt;td&gt;+5.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;客流&lt;/td&gt;
-      &lt;td&gt;+7.0%&lt;/td&gt;
-      &lt;td&gt;+3.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;客单价&lt;/td&gt;
-      &lt;td&gt;-2.5%&lt;/td&gt;
-      &lt;td&gt;+2.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润&lt;/td&gt;
-      &lt;td&gt;7亿美元&lt;/td&gt;
-      &lt;td&gt;5亿美元（+44.3%）&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;这里的组合很有意思：&lt;strong&gt;客流大涨7%，但客单价跌了2.5%&lt;/strong&gt;。说明来的人明显变多，但每次买得更少、更精打细算——这是消费者压力的直接体现。4月推出的”1小时达”让山姆的Club发货到家业务实现三位数增长，电商整体增长26%，会员费收入增长6%。&lt;/p&gt;
-
-&lt;h1 id=&quot;三三个关键变量关税退款燃油药价&quot;&gt;三、三个关键变量：关税退款、燃油、药价&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-关税退款本季利润的最大一次性变量&quot;&gt;1. 关税退款——本季利润的最大”一次性变量”&lt;/h2&gt;
-
-&lt;p&gt;沃尔玛此前披露，因美国IEEPA关税相关裁决，公司有资格获得约29亿美元的关税退款，相当于美国年度净销售额的约0.5%。本季公司已收到其中绝大部分。&lt;/p&gt;
-
-&lt;p&gt;CFO明确说明：&lt;strong&gt;关税退款对本季经营利润增速的净贡献约为750个基点&lt;/strong&gt;。也就是说，28.8%的经营利润增长里，约7.5个百分点来自这笔一次性退款。剔除后，底层经营利润增长在7%到10%指引区间的上端。&lt;/p&gt;
-
-&lt;p&gt;而且这笔钱沃尔玛没有留在自己口袋里，而是投进了降价。第二财季末公司的”降价商品”（rollback）数量从第一财季末的7200个增加到超过11000个（正常水平约5000个）。这也是为什么公司提醒投资者”&lt;strong&gt;把Q2和Q3放在一起看&lt;/strong&gt;“——钱是在7月底集中投出去的，成本冲击会主要落在Q3。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-燃油今年新增的20亿美元成本&quot;&gt;2. 燃油——今年新增的20亿美元成本&lt;/h2&gt;
-
-&lt;p&gt;管理层指引中新增了一条：预计全年燃油相关成本比年初假设&lt;strong&gt;多出超过20亿美元&lt;/strong&gt;。这既是公司自己的运输成本，也影响消费者——CFO提到，当油价涨过每加仑4美元时”可能存在一种心理效应”，6月消费者做取舍的迹象更明显。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-药价管制从顺风变逆风&quot;&gt;3. 药价管制——从顺风变逆风&lt;/h2&gt;
-
-&lt;p&gt;CFO给出了一组很清晰的账：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;FY2025和FY2026这两年，GLP-1减肥药品牌药为美国同店销售各贡献约100个基点的顺风&lt;/li&gt;
-  &lt;li&gt;FY2027预计GLP-1的贡献减半（处方量还在涨，但被价格和结构变化抵消）&lt;/li&gt;
-  &lt;li&gt;FY2027新增MFP药价管制的逆风，全年预计压低美国同店销售约125个基点（原估计100个基点）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;一进一出，光是健康与保健这一个品类，就造成美国总同店增速比过去两年平均水平低了近200个基点&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h1 id=&quot;四指引上调了但还是低于市场预期&quot;&gt;四、指引：上调了，但还是低于市场预期&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;年初（2026.2.19）&lt;/th&gt;
-      &lt;th&gt;5月21日&lt;/th&gt;
-      &lt;th&gt;本次（2026.8.20）&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额（固定汇率）&lt;/td&gt;
-      &lt;td&gt;+3.5%~4.5%&lt;/td&gt;
-      &lt;td&gt;不变&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+4.0%~5.0%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后经营利润（固定汇率）&lt;/td&gt;
-      &lt;td&gt;+6.0%~8.0%&lt;/td&gt;
-      &lt;td&gt;不变&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+7.0%~8.5%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后每股收益&lt;/td&gt;
-      &lt;td&gt;2.75~2.85美元&lt;/td&gt;
-      &lt;td&gt;不变&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;2.80~2.87美元&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;资本开支&lt;/td&gt;
-      &lt;td&gt;约占净销售额3.5%&lt;/td&gt;
-      &lt;td&gt;不变&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;约4.0%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;有效税率&lt;/td&gt;
-      &lt;td&gt;约23.5%~24.5%&lt;/td&gt;
-      &lt;td&gt;不变&lt;/td&gt;
-      &lt;td&gt;不变&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;第三财季指引：净销售额（固定汇率）增长3.0%~3.75%，经营利润（固定汇率）增长2.0%~4.0%，调整后每股收益0.62~0.64美元。&lt;/p&gt;
-
-&lt;p&gt;问题就出在这里。&lt;strong&gt;市场预期Q3每股收益0.68美元，公司只给到0.62~0.64美元。&lt;/strong&gt; 尽管管理层解释了三重原因——关税退款要在Q3继续投入降价、印度Flipkart”大十亿日”促销时点在Q3和Q4之间挪动带来超过100个基点的逆风、Vibe收购整合带来约20个基点的拖累——但市场在盘前直接用脚投票。&lt;/p&gt;
-
-&lt;p&gt;CFO的原话是：”我们在年中上调全年指引，而且是在&lt;strong&gt;燃油成本多出20亿美元、消费环境可以说比2月更疲软&lt;/strong&gt;的背景下上调的。因此我们认为，保持谨慎、只小幅上调是审慎的。”&lt;/p&gt;
-
-&lt;h1 id=&quot;五亮点与隐忧&quot;&gt;五、亮点与隐忧&lt;/h1&gt;
-
-&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;利润结构在真实地变好。&lt;/strong&gt; 会员、广告、第三方平台、数据服务这些高毛利业务，贡献了本季利润增长的近一半。美国电商业务上半年首次实现两位数的增量利润率（incremental margin），且这类业务的增量利润率增速是整体利润率的两倍。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;电商还在高速增长，且已经不烧钱了。&lt;/strong&gt; 全球电商增长23%，美国电商已连续10个季度增长超过20%，占美国销售比重超过23%（五年前只有一半）。同时超过50%的电商履约量已通过自动化设施处理，3100家美国门店实现了不同程度的货运自动化。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;客流在涨，不是靠涨价。&lt;/strong&gt; 美国、山姆、国际三个板块的交易笔数全部正增长，说明份额是真实拿到的。管理层称本季食品品类的份额报告”是近年来最强的之一”。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;会员业务创纪录。&lt;/strong&gt; 全球会员费收入增长17%创历史新高，Walmart+上半年会员增长是历史最好的上半年；会员消费额约为非会员的4倍。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;门店同店在负增长。&lt;/strong&gt; 尽管管理层解释主因是药房，但实体店同店从去年第四财季末就开始低个位数下滑，这是一个需要持续观察的趋势。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;消费者确实变弱了。&lt;/strong&gt; 山姆客单价-2.5%、美国客单价只有+1.1%（低于1%~2%的通胀水平），叠加油价压力，都指向消费者在降级和取舍。管理层自己也承认”消费环境比2月更疲软”。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;降价的回报有滞后性。&lt;/strong&gt; 沃尔玛把关税退款几乎全部投进了降价，管理层反复说”降价效果有累积和滞后”，但这也意味着Q3的利润会被压，而销售能否如期加速仍需验证。CFO自己说，”明年要对标今年19%的每股收益增长会是个挑战”。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;成本端有几处硬压力。&lt;/strong&gt; 折旧（资本开支后遗症）、理赔支出、员工团体医保（因为离职率下降、参保人数增加）都在推高费用率，短期难以逆转。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;六总结&quot;&gt;六、总结&lt;/h1&gt;
-
-&lt;p&gt;这份财报的本质是：&lt;strong&gt;沃尔玛的商业模式确实变好了，但2026年的消费者确实变弱了。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;利润结构的转型是真的——广告增长38%、第三方平台增长52%、会员费增长17%，这些业务正在把沃尔玛从一家”薄利多销的超市”改造成”一家有零售流量入口的平台公司”，而且这种转型带来的利润弹性已经能被量化（2.6%的同店对应约10%的底层利润增长）。&lt;/p&gt;
-
-&lt;p&gt;但资本市场这次买的不是”结构故事”，而是”当下的顶线”。2.6%对3.7%的同店预期差，加上Q3每股收益指引低于预期6分钱，共同触发了约9%的单日跌幅。&lt;/p&gt;
-
-&lt;p&gt;接下来最值得跟踪的三件事：&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;7月底那11000个降价商品能否在Q3、Q4真的换回销量和份额（管理层承诺按”Q2+Q3合并看”来验收）；&lt;/li&gt;
-  &lt;li&gt;药价管制的125个基点逆风在明年是否会转为中性甚至顺风（价格基数走平后）；&lt;/li&gt;
-  &lt;li&gt;增量利润率能否继续爬升——CFO已经明确暗示”看得到进一步改善的路径”，前提是广告增速持续跑赢电商增速。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;沃尔玛官方财报新闻稿：&lt;a href=&quot;https://corporate.walmart.com/news/2026/08/20/walmart-releases-q2-fy27-earnings&quot;&gt;Walmart Releases Q2 FY27 Earnings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;SEC EDGAR 8-K附件99.1（财报全文，2026年8月20日）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm&quot;&gt;Earnings Release FY27 Q2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;沃尔玛IR官方业绩电话会实录PDF：&lt;a href=&quot;https://stock.walmart.com/_assets/_921ff28c537145729fbc2553b7f43fac/walmart/db/938/9996/transcript_management_call/Earnings+Transcript+%28FY27+Q2%29.pdf&quot;&gt;Earnings Transcript (FY27 Q2)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;沃尔玛FY2027 Q2业绩发布页：&lt;a href=&quot;https://corporate.walmart.com/news/events/fy2027-q2-earnings-release&quot;&gt;FY2027 Q2 Earnings Release&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;媒体报道（用于分析师预期与股价反应的补充）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CNBC：&lt;a href=&quot;https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html&quot;&gt;Walmart (WMT) Q2 2027 earnings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Yahoo Finance：&lt;a href=&quot;https://finance.yahoo.com/markets/stocks/articles/walmart-shares-slide-slower-u-122658450.html&quot;&gt;Walmart shares slide as slower U.S. comparable sales overshadow earnings beat&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&amp;lt;/content&amp;gt;
-&amp;lt;/invoke&amp;gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 21 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/21/walmart_fy2027q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/21/walmart_fy2027q2_earnings/</guid>
-        
-        <category>沃尔玛</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Ross Stores 2026财年Q2——同店销售暴涨10%，每股收益2.66美元把自家指引甩开近四成</title>
-        <description>&lt;p&gt;美东时间2026年8月20日盘后，美国折扣零售商 &lt;a href=&quot;https://www.rossstores.com/&quot;&gt;Ross Stores&lt;/a&gt;（罗斯百货，NASDAQ: ROST）发布2026财年第二季度财报，对应截至2026年8月1日的13周。&lt;/p&gt;
-
-&lt;p&gt;这份财报的关键词只有一个字：&lt;strong&gt;炸&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;同店销售增长10%（去年同期只有2%），每股收益2.66美元——而公司自己三个月前给出的指引是1.85到1.93美元，市场预期约1.92美元。&lt;strong&gt;这不是”超预期”，这是把指引直接甩开了近四成。&lt;/strong&gt; 财报盘后公布后，股价在盘后交易中大幅上涨。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-这家公司是做什么的&quot;&gt;1. 这家公司是做什么的？&lt;/h2&gt;
-
-&lt;p&gt;Ross Stores是美国最大的折扣服饰与家居零售商之一，旗下两个品牌：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ross Dress for Less&lt;/strong&gt;——主品牌，截至季末1952家门店&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;dd’s DISCOUNTS&lt;/strong&gt;——面向更低价格带的客群，376家门店&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;合计门店数2328家（去年同期2233家）。&lt;/p&gt;
-
-&lt;p&gt;它的商业模式叫”&lt;strong&gt;off-price&lt;/strong&gt;“（折价零售），和沃尔玛、塔吉特这类常规零售商有本质区别：&lt;/p&gt;
-
-&lt;p&gt;常规零售商是&lt;strong&gt;提前订货&lt;/strong&gt;——春天下单，秋天上架，卖不掉就打折清仓。
-Off-price零售商是&lt;strong&gt;捡漏&lt;/strong&gt;——专门收购品牌商和其他零售商的过季库存、取消订单、超产商品，然后以远低于原价的价格卖出。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;大白话&lt;/strong&gt;：别人卖不掉的好牌子货，Ross用白菜价收过来，再用一个仍然很便宜但有得赚的价格卖给你。所以Ross的门店永远是”寻宝”式的——你不知道今天会有什么，但你知道一定便宜。&lt;/p&gt;
-
-&lt;p&gt;这个模式有一个反直觉的特性：&lt;strong&gt;经济越差，它可能越好过&lt;/strong&gt;。因为一方面消费者降级来找便宜货，另一方面品牌商库存积压更多、Ross的进货成本更低。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-本季核心财务数据&quot;&gt;2. 本季核心财务数据&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;FY2026Q2&lt;/th&gt;
-      &lt;th&gt;FY2025Q2&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售额&lt;/td&gt;
-      &lt;td&gt;62.65亿美元&lt;/td&gt;
-      &lt;td&gt;55.29亿美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+13.3%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;同店销售&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+10%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;+2%&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售成本&lt;/td&gt;
-      &lt;td&gt;41.45亿美元&lt;/td&gt;
-      &lt;td&gt;40.02亿美元&lt;/td&gt;
-      &lt;td&gt;+3.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售、一般及管理费用&lt;/td&gt;
-      &lt;td&gt;10.16亿美元&lt;/td&gt;
-      &lt;td&gt;8.89亿美元&lt;/td&gt;
-      &lt;td&gt;+14.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润&lt;/td&gt;
-      &lt;td&gt;11.04亿美元&lt;/td&gt;
-      &lt;td&gt;6.38亿美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+72.9%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润率&lt;/td&gt;
-      &lt;td&gt;17.6%&lt;/td&gt;
-      &lt;td&gt;11.5%&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+610个基点&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;8.51亿美元&lt;/td&gt;
-      &lt;td&gt;5.08亿美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+67.6%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;2.66美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;1.56美元&lt;/td&gt;
-      &lt;td&gt;+70.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;期末门店数&lt;/td&gt;
-      &lt;td&gt;2328家&lt;/td&gt;
-      &lt;td&gt;2233家&lt;/td&gt;
-      &lt;td&gt;+95家&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;上半年（26周）：销售额122.75亿美元，同比增长16.8%；同店销售+13%；净利润15.01亿美元（去年同期9.87亿美元）；摊薄每股收益4.69美元（去年同期3.03美元）。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-必须拆开看的一件事关税退款&quot;&gt;3. 必须拆开看的一件事：关税退款&lt;/h2&gt;
-
-&lt;p&gt;本季财报里有一笔一次性收益：&lt;strong&gt;约2.53亿美元的IEEPA关税退款&lt;/strong&gt;，直接计入经营利润，贡献每股收益约0.60美元。&lt;/p&gt;
-
-&lt;p&gt;这是美国相关关税裁决后的退税，本季在多家美国零售商的财报中同时出现（沃尔玛本季确认了约29亿美元、塔吉特也在同期确认了类似性质的退款）。&lt;/p&gt;
-
-&lt;p&gt;所以610个基点的经营利润率提升要拆成两半：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;来源&lt;/th&gt;
-      &lt;th&gt;贡献&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;IEEPA关税退款&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;405个基点&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;底层经营改善&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;205个基点&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;合计&lt;/td&gt;
-      &lt;td&gt;610个基点&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;关键在于：&lt;strong&gt;即便完全剔除关税退款，205个基点的利润率提升也显著高于公司原计划的130到150个基点。&lt;/strong&gt; 同样，剔除0.60美元的退款贡献后，每股收益约2.06美元，仍然远高于1.85~1.93美元的指引上限。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这份财报的成色，不是靠一次性退款撑起来的。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;二增长质量分析为什么10的同店含金量很高&quot;&gt;二、增长质量分析：为什么10%的同店含金量很高&lt;/h1&gt;
-
-&lt;p&gt;零售业看同店销售，要拆成”客流”和”客单价”两部分。&lt;strong&gt;客单价涨可能只是涨价或通胀，客流涨才是真正抢到了人。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;公司在新闻稿的第一条要点里就明确写了：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“第二季度总销售额同比增长13%，同店销售大涨10%，&lt;strong&gt;主要由客流驱动&lt;/strong&gt;。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;CEO Jim Conroy的表述进一步补充：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“我们很高兴看到整个季度的强势表现，同店销售增长再次主要由客流驱动。重要的是，&lt;strong&gt;这个增长同时得到了新顾客增加和老顾客参与度提升的支撑。&lt;/strong&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这是两个方向的验证：&lt;strong&gt;新客在进来，老客在多买&lt;/strong&gt;。对零售商来说，这是最健康的同店增长结构。&lt;/p&gt;
-
-&lt;p&gt;Conroy把业绩归因于三件事：有吸引力的商品组合（compelling merchandise offerings）、有效的营销投放（engaging marketing initiatives）、以及门店内购物体验的持续改善。&lt;/p&gt;
-
-&lt;h2 id=&quot;费用与库存&quot;&gt;费用与库存&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;SG&amp;amp;A 10.16亿美元，同比增长14.3%，略高于13.3%的销售增速；占销售额比重16.2%，与去年同期的16.1%基本持平——&lt;strong&gt;费用率控制住了&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;存货30.87亿美元，同比增长18.4%，高于销售增速。对off-price模式来说，库存增长快于销售通常不一定是坏事（意味着抓到了更多好货源），但需要在下季度关注周转&lt;/li&gt;
-  &lt;li&gt;现金及等价物42.88亿美元，长期债务7.77亿美元（另有2.41亿美元一年内到期），&lt;strong&gt;净现金状态非常健康&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;有效税率25.0%，去年同期24.2%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;股东回报&quot;&gt;股东回报&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;本季回购140万股，金额3.19亿美元&lt;/li&gt;
-  &lt;li&gt;依据2026年3月董事会批准的&lt;strong&gt;两年期25.5亿美元&lt;/strong&gt;回购授权&lt;/li&gt;
-  &lt;li&gt;2026财年全年回购目标仍为12.75亿美元&lt;/li&gt;
-  &lt;li&gt;摊薄股本从3.248亿股降至3.195亿股，同比减少约1.6%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;三指引上调而且是在高基数上上调&quot;&gt;三、指引：上调，而且是在高基数上上调&lt;/h1&gt;
-
-&lt;p&gt;CEO Conroy在新闻稿中给出了完整的下半年展望：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“展望未来，我们带着不断增强的势头走出第二季度，对秋季的计划感到兴奋。&lt;strong&gt;尽管下半年面临明显更具挑战性的同比基数&lt;/strong&gt;，我们仍在上调第三和第四季度的展望。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;新指引&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Q3同店销售&lt;/td&gt;
-      &lt;td&gt;+6% ~ +7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Q3每股收益&lt;/td&gt;
-      &lt;td&gt;1.75 ~ 1.83美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Q4同店销售&lt;/td&gt;
-      &lt;td&gt;+4% ~ +5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Q4每股收益&lt;/td&gt;
-      &lt;td&gt;2.17 ~ 2.26美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;FY2026全年每股收益&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;8.61 ~ 8.77美元&lt;/strong&gt;（含Q2约0.60美元关税退款收益）&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;门店扩张也在加速：本季新开47家（35家Ross + 12家dd’s），全年开店计划从原先水平上调到&lt;strong&gt;115家&lt;/strong&gt;（约90家Ross + 25家dd’s）。&lt;/p&gt;
-
-&lt;p&gt;注意指引的形状：Q3的+6%~7%和Q4的+4%~5%，都明显低于本季的+10%。这不是管理层看空，而是基数问题——&lt;strong&gt;去年下半年Ross的同比基数比上半年高得多&lt;/strong&gt;。在这种情况下还能上调，说明管理层对当前的经营势头有相当把握。&lt;/p&gt;
-
-&lt;h1 id=&quot;四亮点与隐忧&quot;&gt;四、亮点与隐忧&lt;/h1&gt;
-
-&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;底层经营改善是真实的。&lt;/strong&gt; 剔除关税退款后，经营利润率仍提升205个基点，超过公司自己130~150个基点的计划。也就是说，”惊喜”里至少有一半来自经营本身。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;客流驱动 + 新老客双增。&lt;/strong&gt; 这是最难做到、也最难被竞争对手复制的增长结构。相比之下，靠涨价或靠单一爆款品类拉动的同店增长脆弱得多。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;上半年同店+13%，是一个跨越两个季度的趋势，不是一次性波动。&lt;/strong&gt; Q1的表现同样强劲（上半年同店+13%，本季+10%，反推Q1更高）。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;扩张加速且资产负债表干净。&lt;/strong&gt; 42.9亿美元现金、10亿美元出头的总债务，同时把开店计划上调到115家——&lt;strong&gt;这是一家有底气进攻的公司&lt;/strong&gt;。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;宏观环境对它有利。&lt;/strong&gt; 从沃尔玛本季的财报可以看到，美国消费者正在因为油价和整体物价压力做取舍、往下降级。这正是off-price模式的顺风。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;0.60美元的关税退款是一次性的，明年要”裸奔”对标。&lt;/strong&gt; FY2026全年8.61~8.77美元的每股收益里包含了这0.60美元。明年同期没有这笔钱，就意味着约7%的每股收益基数需要靠经营增长来填。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;下半年基数陡增。&lt;/strong&gt; 管理层自己承认”明显更具挑战性的同比比较”。Q3指引+6%~7%、Q4指引+4%~5%，同店增速会逐季回落——这是数学问题，但市场往往只记得10%这个数字。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;库存增速18.4%高于销售增速13.3%。&lt;/strong&gt; off-price模式对库存质量极其敏感——买错货就要打折清仓，直接吃掉毛利。需要在下个季度确认周转是否跟得上。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;SG&amp;amp;A增速14.3%略快于销售。&lt;/strong&gt; 营销投入和门店体验升级都要花钱，本季费用率基本持平，但如果同店增速按指引回落到4%~5%，费用率就可能开始恶化。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;模式本身的天花板。&lt;/strong&gt; off-price依赖上游品牌商的库存过剩。如果整个服饰行业的供给端变得更纪律化（订单更精准、清库存渠道更多元），Ross的货源成本优势会被侵蚀。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;五总结&quot;&gt;五、总结&lt;/h1&gt;
-
-&lt;p&gt;一句话概括：&lt;strong&gt;Ross Stores交出了一份”一次性收益锦上添花、底层经营才是主角”的财报。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;在美国消费者明显承压的2026年——沃尔玛同季客单价只涨1.1%、山姆会员店客单价甚至下跌2.5%——Ross却做到了同店+10%、且主要靠客流。这个反差本身就说明了折价零售在当下环境中的位置：&lt;strong&gt;当所有人都在找便宜，卖便宜货的人生意最好。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;三个值得记住的数字：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;10%&lt;/strong&gt;——同店销售增速，主要由客流驱动，去年同期只有2%&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;205个基点&lt;/strong&gt;——剔除关税退款后的经营利润率提升，高于公司原计划的130~150个基点&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;115家&lt;/strong&gt;——上调后的2026年新开店计划&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;接下来最值得跟踪的两件事：&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Q3能否兑现6%~7%的同店指引&lt;/strong&gt;。基数变高后，才能看出这轮增长到底是趋势还是补偿性反弹。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;库存周转&lt;/strong&gt;。18.4%的库存增速需要在下个季度看到对应的销售转化，否则会以打折的形式回吐毛利。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;SEC EDGAR 8-K附件99.1（财报全文，2026年8月20日）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/745732/000074573226000038/q226exhibit991.htm&quot;&gt;Ross Stores Reports Strong Second Quarter Sales and Earnings Results&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Ross Stores官方新闻稿（PR Newswire）：&lt;a href=&quot;https://www.prnewswire.com/news-releases/ross-stores-reports-strong-second-quarter-sales-and-earnings-results-302856807.html&quot;&gt;Ross Stores Reports Strong Second Quarter Sales and Earnings Results&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Ross Stores投资者关系官网：&lt;a href=&quot;https://www.rossstores.com/&quot;&gt;www.rossstores.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;媒体报道（用于分析师预期与股价反应的补充）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;StockStory / FinancialContent：&lt;a href=&quot;https://markets.financialcontent.com/stocks/article/stockstory-2026-8-20-ross-stores-nasdaqrost-posts-better-than-expected-sales-in-q2-cy2026&quot;&gt;Ross Stores (NASDAQ:ROST) Posts Better-Than-Expected Sales In Q2 CY2026&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Alphastreet：&lt;a href=&quot;https://news.alphastreet.com/ross-stores-releases-q2-2026-financial-results/&quot;&gt;Ross Stores Releases Q2 2026 Financial Results&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&amp;lt;/content&amp;gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 21 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/21/rossstores_fy2026q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/21/rossstores_fy2026q2_earnings/</guid>
-        
-        <category>罗斯百货</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

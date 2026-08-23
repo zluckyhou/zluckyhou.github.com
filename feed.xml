@@ -5,9 +5,192 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 Aug 2026 08:40:32 +0800</pubDate>
-    <lastBuildDate>Sun, 23 Aug 2026 08:40:32 +0800</lastBuildDate>
+    <pubDate>Sun, 23 Aug 2026 09:16:10 +0800</pubDate>
+    <lastBuildDate>Sun, 23 Aug 2026 09:16:10 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.08.23</title>
+        <description>&lt;p&gt;今天翻 Reddit 的时候有个挺明显的感觉：好几个热帖表面上讲的是不同的事 —— 搜索引擎、内存涨价、代码托管、汽车安全 —— 但底下的评论区在反复绕回同一个问题：当自动化的东西开始大规模替人做判断，人该怎么办？有人在搜索结果里发现了 AI 引用 AI 的死循环，有人因为爱用破折号被系统判定成机器人，还有人干脆把车上的辅助驾驶关了，因为它比自己更容易把车开到护栏上。&lt;/p&gt;
+
+&lt;p&gt;下面是今天挑出来的五个帖子。&lt;/p&gt;
+
+&lt;h2 id=&quot;一reddit-正在从-chatgpt-的引用里消失&quot;&gt;一、Reddit 正在从 ChatGPT 的引用里消失&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vv7itl/reddit_fades_from_chatgpt_citations/&quot;&gt;原帖：Reddit fades from ChatGPT citations&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;帖子本身说的是一个统计现象：Reddit 曾经是 ChatGPT 回答时最常引用的来源之一，但这个占比正在下滑。有意思的是，评论区并没有为 Reddit 惋惜，反而顺着聊起了一件更让人不安的事 —— 现在搜索到的东西，越来越多是 AI 生成的，而 AI 又在引用这些 AI 生成的东西。&lt;/p&gt;
+
+&lt;p&gt;一位做研究引用校验工具的用户描述了他亲眼看到的过程：模型在查一款游戏的资料时怎么也找不到可核实的来源，最后交出的报告有四分之一是错的，追问下去才发现它引的那些游戏站本身就是 AI 批量产出的内容农场。他的结论是这将变成一场军备竞赛：你得自己一点点学会哪些站能信，然后把剩下的拉黑。&lt;/p&gt;
+
+&lt;p&gt;另一条评论提供了更具体的技术解释，说明为什么 Google 的搜索 AI 给出的来源经常和答案对不上：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“What it does is answer your question pretty much instantly, THEN search the internet for sources similar to what it said. That’s why the sources are rarely word for word and sometimes say basically nothing related to what Google said.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/j48u，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vv7itl/reddit_fades_from_chatgpt_citations/p5ays5r/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也就是说，引用不是推理的依据，而是事后补上的装饰。还有人贴出了一个近乎行为艺术的闭环体验：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I posted a question on Reddit the other day and then about an hour later googled my question and Google confidently told me the answer that I had proposed on my Reddit post”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/BlackPresident，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vv7itl/reddit_fades_from_chatgpt_citations/p56y8gm/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;自己一小时前随口写的猜测，绕了一圈变成了搜索引擎斩钉截铁告诉他的「答案」。&lt;/p&gt;
+
+&lt;p&gt;评论区里我觉得最值得记下来的是这条对未来格局的判断：正经媒体因为 AI 抓取带不来点击、带不来收入，纷纷拒绝被抓取，转向直接面向读者收费。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We’re seeing the creation of an informational elite who pays money for a direct relationship to real information sources, and the remaining 99% who are fed slop by AI.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/-The_Blazer-，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vv7itl/reddit_fades_from_chatgpt_citations/p58x3z9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个说法对中文读者其实更有代入感。我们这边的公众号、小红书、知乎早就经历过一轮「内容农场化」，现在只是换成了 AI 在批量生产。真正的分化可能不在于谁会用 AI，而在于谁还愿意花钱和精力去建立跟一手信源的直接关系 —— 订阅几份靠谱的行业媒体、进几个真人聚集的小圈子、看财报原文而不是看解读的解读。搜索框越来越不可靠的时候，这些笨办法反而成了护城河。&lt;/p&gt;
+
+&lt;h2 id=&quot;二一张ai-降价-1000-倍的图被评论区从方法论上拆了&quot;&gt;二、一张「AI 降价 1000 倍」的图，被评论区从方法论上拆了&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vvidbd/oc_ai_got_1000_cheaper_just_not_the_ai_you_want/&quot;&gt;原帖：AI got 1,000× cheaper — just not the AI you want&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;r/dataisbeautiful 上的一张信息图，核心论点是：达到 GPT-3 水平的推理成本这几年降了约 1000 倍，但前沿模型的价格基本没怎么降 —— 便宜的是你几年前想要的那个 AI，不是你现在想要的那个。作者在评论里给了完整的数据出处（a16z 的 LLMflation、Epoch AI 的推理价格研究、斯坦福 HAI 的 AI Index）。&lt;/p&gt;
+
+&lt;p&gt;按理说这是一张态度诚恳的图，但评论区照样毫不客气。最扎实的一条质疑一口气提了三个问题：拿正在烧钱补贴的 API 价格当降价的锚点本身就不牢靠；固定能力这个口径意义有限，因为开源模型早就追上来了；更关键的是横向对比时口径不一致。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“using API pricing from an industry actively subsidizing its prices doesn’t feel like a good anchor to prove the point that its getting cheaper while these companies burn billions every year, even the ones that claim they are profitable on inference.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/dekacube，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vvidbd/oc_ai_got_1000_cheaper_just_not_the_ai_you_want/p59eocr/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他还指出，早期 GPT-3-Davinci 的报价没有区分输入和输出 token，拿它和今天只算输入价的模型比，本身就不是同一把尺子；如果换成输出 token 来算，前沿模型的降幅会缩水到一点几倍。另一条评论则挑了个更细的毛病：图上标着 2026 年 8 月，但大部分数据点来自两年前，对一个号称快过摩尔定律的领域来说，这个时间差有点尴尬。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“with most of the visualizations themselves coming from data from 2 years ago, for a space in tech that the linked article itself describes as … feels mildly weird”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/malayis，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vvidbd/oc_ai_got_1000_cheaper_just_not_the_ai_you_want/p599d2f/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这一帖对国内做 AI 成本测算的人挺有参考价值。我们现在满屏都是「大模型价格战」「token 成本降到百万分之几」的说法，但同样绕不开评论区提出的这几个陷阱：补贴价不等于成本价，固定能力降价不等于你实际需要的那档在降价，输入输出不分开算就会把降幅放大好几倍。下次看到某家宣布降价 90% 的通稿，值得先问一句：降的是哪个口径、哪一档、算不算输出。&lt;/p&gt;
+
+&lt;h2 id=&quot;三ddr5-被抢购机器人淹没顺带误伤了一批爱用破折号的人&quot;&gt;三、DDR5 被抢购机器人淹没，顺带误伤了一批爱用破折号的人&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vvb43k/ddr5_scalper_bots_now_outnumber_shoppers_10_to_1/&quot;&gt;原帖：DDR5 scalper bots now outnumber shoppers 10 to 1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;新闻本身够刺激：安全公司 DataDome 的研究者称，DDR5 内存的电商页面上，自动抓取脚本的访问量已经是真人购物者的十倍，平均每 6.5 秒就被扫一次，32GB 套装的价格从 72 美元一路涨到 392 美元。评论区里 DIY 玩家的怨气很直接，有人算了笔账说这个涨幅在中端配置里几乎是决定性的：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s about a $200 difference for 32 GB. For midrange builds that’s huge. It’s the difference between a 60 and 70 class gpu, which is larger than the difference between Zen 4 and Zen 5.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/nathris，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vvb43k/ddr5_scalper_bots_now_outnumber_shoppers_10_to_1/p588c6q/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;不少人的应对办法是干脆退回 DDR4 甚至更老的平台，还有人跑去线下门店排队，理由很朴素：机器人抢不到实体货架上的东西。&lt;/p&gt;
+
+&lt;p&gt;不过这一帖最热闹的地方在标题本身。原标题里的破折号在转帖时变成了没渲染的 HTML 实体 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;amp;mdash;&lt;/code&gt;，于是一大群人跑来断言这是 AI 写的标题，接着整个楼歪成了一场关于破折号的辩论 —— 讨论机器人抢货的帖子，顶楼在争论作者是不是机器人。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The irony of an AI generated headline complaining about bots buying ram. This wasn’t the future I planned for but probably should have expected.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ExceptionEX，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vvb43k/ddr5_scalper_bots_now_outnumber_shoppers_10_to_1/p58sbjk/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这场混战里最有分量的是一位老作者的亲身经历：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“One day I submitted a review, and it was rejected, because they assumed my em dashes were AI. The thing is, I’d used them in nearly all of my reviews for years.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/IsReadingIt，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vvb43k/ddr5_scalper_bots_now_outnumber_shoppers_10_to_1/p5adupa/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他给同一家科技公司写了三四年、十几篇评测，一直用破折号，某天忽然因为这个被判定成 AI 退稿。还有人补了一句挺准的：AI 之所以爱用破折号，恰恰是因为它是在人类写的好文章上训练出来的 —— 用「像 AI」来判断，逻辑上从一开始就是反的。&lt;/p&gt;
+
+&lt;p&gt;国内这两年也有类似的荒诞感：学生因为写得太规整被查重系统判 AI，编辑靠「有没有那种腔调」来判断投稿。破折号这个例子的价值在于，它把这类检测的本质暴露得特别清楚 —— 所谓 AI 特征，往往只是「受过训练的人的写作习惯」，检测器抓的从来不是机器，而是写得比较像样的人。&lt;/p&gt;
+
+&lt;h2 id=&quot;四github-罕见认错我们让你们失望了&quot;&gt;四、GitHub 罕见认错：「我们让你们失望了」&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vv932k/we_let_you_down_github_pledges_to_scale_up_before/&quot;&gt;原帖：’We let you down’: GitHub pledges to scale up before developers give up&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;GitHub 高层公开承认近期一连串的可用性问题，承诺扩容。评论区第一反应当然是阴阳怪气，有条高赞用反话把开发者的日常吐了个干净：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I remeber a terrible morning around two weeks agos. Github was fully working. Ci/cd. Auth, pr, merges. Everything was green. I had to actually do something at my job …”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/RadzimierzWozniak，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vv932k/we_let_you_down_github_pledges_to_scale_up_before/p57i34v/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;玩笑之外，真正有价值的是关于「大家到底会不会跑」的争论。一派认为不会，因为网络效应太强，几乎所有依赖库、所有有意思的 issue 讨论都在 GitHub 上，走了等于自我流放；有人拿这些年的迁移潮举例说明这有多难：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There was mass migration from X to Mastodon. Later X to Bluesky Github to Codeberg Reddit to Lemmy And it was super small minority who did it at first and even then most of those people got back.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ComeOnIWantUsername，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vv932k/we_let_you_down_github_pledges_to_scale_up_before/p5780vy/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一派的反驳很实在：个人开发者确实不会走，但企业不一样。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Im sure your average hobbyist will stay, but if downtime starts costing companies real dollars they will switch.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Scutty__，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vv932k/we_let_you_down_github_pledges_to_scale_up_before/p5akpof/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;底下也确实有人现身说法：公司在用 Bitbucket，功能差点意思但可用性明显更好；也有人说自己只用最基础的 Actions，真要迁走一两个小时就够。&lt;/p&gt;
+
+&lt;p&gt;对国内团队来说，这场讨论提醒的其实是一件老生常谈但很少真做的事：把「代码托管在哪」和「CI/CD 跑在哪」解耦。代码本身在 Git 里天然是分布式的，迁移成本很低；真正锁死你的是那些绑得很深的 Actions 工作流、Secrets 管理和第三方集成。GitHub 挂一天你损失多少，取决于你把多少不可替代的东西堆在了它一家身上 —— 这个账，趁没出事的时候算一次比较划算。&lt;/p&gt;
+
+&lt;h2 id=&quot;五五分之一的司机主动关掉了号称能救命的辅助驾驶&quot;&gt;五、五分之一的司机，主动关掉了号称能救命的辅助驾驶&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vvpeik/one_in_five_drivers_switches_off_the_safety_tech/&quot;&gt;原帖：One In Five Drivers Switches Off The Safety Tech Meant To Save Their Lives&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一份调查显示约 20% 的司机会关掉车道保持这类主动安全功能。新闻的语气偏向责怪司机不懂事，但评论区几百条亲历几乎一边倒地在说：不是我们不要安全，是有些系统的实现真的很差。&lt;/p&gt;
+
+&lt;p&gt;抱怨最集中的是车道保持把路面上一切线状物都当成车道线：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Crack in the asphalt? Veer off.. Tyre marks from burnouts? Veer off? Car drive through a puddle and left a trail on a dry road? Jerk wildly…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Arblechnuble，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vvpeik/one_in_five_drivers_switches_off_the_safety_tech/p5b81xo/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;施工路段是重灾区，好几个人说旧标线没铲干净、新标线又歪，车会坚定地往水泥隔离墩上带。更让人恼火的是有些系统被违逆之后会升级对抗：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If you fight it long enough it will activate emergency brake chime at full volume and turn off the music too. But God forbid you drop under 40mph and it will let you fly off the interstate into a tree no questions asked.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Afloatcactus5，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vvpeik/one_in_five_drivers_switches_off_the_safety_tech/p5boxua/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;但评论区并不是简单地否定这类功能。斯巴鲁的实现被反复点名表扬，理由很具体，也基本点出了好系统和坏系统的分界线：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“it keeps you right in the middle of the lane, but it won’t over power the driver turning the wheel it just gives a small amount of resistance first.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ImJustAverage，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vvpeik/one_in_five_drivers_switches_off_the_safety_tech/p5b8z8g/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;同一个人对自家另一台车的评价则是「在两条线之间来回弹，或者看见根本不存在的线」，开第一次就关了。有人形容理想状态是把车道当成一堵有弹性的墙：你想穿过去，用点力气就能穿过去，但不会毫无察觉地飘出去。&lt;/p&gt;
+
+&lt;p&gt;这一帖对国内正在猛推高阶辅助驾驶的车企来说，其实是一份免费的用户研究。中文互联网上关于「智驾」的讨论多半停留在能不能脱手、算力多少 TOPS、有没有激光雷达，但评论区反复强调的是另一件事：交互的手感比能力的上限更能决定用户会不会打开它。一个再厉害的系统，只要在施工路段和司机抢方向盘、在误报时用刺耳的警报惩罚驾驶者，用户就会在第一次不愉快之后永久关掉它 —— 那时候标称的安全收益就是零。「不夺权、只给阻尼」这种听上去很土的设计原则，可能比多堆一颗芯片更能救命。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;今天这五帖凑在一起，有种意外的连贯感：AI 在引用 AI，检测器在误伤真人，图表在用补贴价论证降价，汽车在跟司机抢方向盘。共同点是自动化系统在越来越多的环节上替人做了判断，而做判断的依据往往比我们以为的要粗糙。评论区里最有价值的东西，恰恰是那些没法被自动生成的部分 —— 有人写了三四年评测才碰上那次退稿，有人开着车在施工路段跟方向盘较劲，有人一小时前的猜测被搜索引擎当成了事实。这些具体的、带毛边的经验，暂时还是人类的专利。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 23 Aug 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/23/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/23/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.08.22</title>
@@ -2170,281 +2353,6 @@ Off-price零售商是&lt;strong&gt;捡漏&lt;/strong&gt;——专门收购品牌
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/21/rossstores_fy2026q2_earnings/</guid>
         
         <category>罗斯百货</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>网易2026Q2电话会——丁磊承认《沧海遗珠》上手门槛没降下来，并给出AI造游戏的判断</title>
-        <description>&lt;p&gt;北京时间2026年8月20日晚8点（美东时间8月20日上午8点），网易（NetEase，NASDAQ: NTES，HKEX: 9999）召开2026年第二季度业绩电话会。&lt;/p&gt;
-
-&lt;p&gt;出席管理层：&lt;strong&gt;CEO兼董事丁磊（William Ding）、执行副总裁胡志鹏（Hu Zhipeng）、财务副总裁Aileen Mo、企业发展副总裁Bill Pang&lt;/strong&gt;。丁磊的回答由Bill Pang现场翻译转述。&lt;/p&gt;
-
-&lt;p&gt;这场电话会只有四家机构获得提问机会——花旗、中金、高盛、汇丰。但四个问题几乎全部指向同一件事：&lt;strong&gt;在《漫威争锋》的红利过去、新品储备看起来偏薄的情况下，网易接下来靠什么增长？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;当天财报数字是”经营端漂亮、利润端难看”：净收入301亿元同比增长7.9%，毛利率创70.5%的历史新高，但非GAAP每ADS收益1.78美元，明显低于分析师预期（据媒体统计约2.28美元），股价当天收跌4.53%。&lt;/p&gt;
-
-&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-财务副总裁给出的毛利率拆解&quot;&gt;1. 财务副总裁给出的毛利率拆解&lt;/h2&gt;
-
-&lt;p&gt;Aileen Mo在开场的财务回顾中给了一份完整的分部毛利率对照，这是本季最值得记录的数据：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;板块&lt;/th&gt;
-      &lt;th&gt;2026Q2毛利率&lt;/th&gt;
-      &lt;th&gt;2025Q2毛利率&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;整体&lt;/td&gt;
-      &lt;td&gt;70.5%&lt;/td&gt;
-      &lt;td&gt;64.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;游戏及相关增值服务&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;76.1%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;70.2%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;有道&lt;/td&gt;
-      &lt;td&gt;48.9%&lt;/td&gt;
-      &lt;td&gt;43.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;云音乐&lt;/td&gt;
-      &lt;td&gt;37.4%&lt;/td&gt;
-      &lt;td&gt;36.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;创新业务及其他&lt;/td&gt;
-      &lt;td&gt;43.4%&lt;/td&gt;
-      &lt;td&gt;42.3%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;四个板块的毛利率全部同比提升&lt;/strong&gt;，这在过去几个季度并不常见。&lt;/p&gt;
-
-&lt;p&gt;关于游戏板块近6个百分点的提升，Aileen Mo给出的解释很简短但很关键：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“改善主要由与平台相关的渠道分成成本下降驱动。”（improvement was primarily driven by lower revenue sharing costs related to platforms）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;大白话&lt;/strong&gt;：网易越来越多的收入来自自研游戏和自有渠道（官网、PC端），要分给应用商店的抽成越来越少，所以同样一块钱收入，留下的毛利更多了。这是结构性的改善，不是省出来的。&lt;/p&gt;
-
-&lt;p&gt;费用端同样克制：本季营业费用合计91亿元，占收入约30%。其中销售与市场费用占收入12.2%（去年同期12.8%），管理费用占2.7%（去年同期3.8%），研发费用占15.4%（去年同期15.6%）。&lt;strong&gt;三项全部同比下降，其中管理费用率降幅最大。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-股东回报本季股息与回购进度&quot;&gt;2. 股东回报——本季股息与回购进度&lt;/h2&gt;
-
-&lt;p&gt;Aileen Mo在电话会上宣布：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“第二季度派发每股0.096美元、即每ADS 0.48美元的股息。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;以及回购进度：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“已回购约2480万份ADS……总成本约23亿美元。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这是在50亿美元回购授权框架下的累计数字。截至6月30日，网易净现金1675亿元人民币（约247亿美元），较2025年末的1635亿元继续增加——&lt;strong&gt;这家公司的现金还在变多，即便同时在派息和回购。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-丁磊对新品少的正面回应ai&quot;&gt;3. 丁磊对”新品少”的正面回应：AI&lt;/h2&gt;
-
-&lt;p&gt;这是本场最重要的战略表态。当高盛分析师直接问”在新品发布减少、存量组合基数抬高的情况下，未来的增长驱动是什么”时，丁磊的答案分两层：&lt;/p&gt;
-
-&lt;p&gt;第一层是老话——继续投入高品质精品。第二层则是新的：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“&lt;strong&gt;借助AI工具，我们能比行业内大多数同行做出更多高质量产品。&lt;/strong&gt;“（with the help of AI tools, we can build more high-quality products than most of our peers in the industry）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;管理层进一步表示，AI的作用是”加速开发速度”并提升玩家体验，把AI定位为开发者生产力的&lt;strong&gt;放大器&lt;/strong&gt;（amplifier），而不是替代品。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这句话的含义值得展开&lt;/strong&gt;：游戏行业过去十年的困境是，3A级内容的制作成本和周期都在指数级上升，导致大厂只敢做续作、不敢做新IP。丁磊的判断是，AI能把这条成本曲线压下来——如果成立，那么”网易新品少”这个问题就不是产能问题，而是时间问题。当然，这个判断目前还没有可验证的产出。&lt;/p&gt;
-
-&lt;h1 id=&quot;二分析师问答四个问题&quot;&gt;二、分析师问答：四个问题&lt;/h1&gt;
-
-&lt;h2 id=&quot;q1花旗-alicia-yap沧海遗珠上线后的表现和玩家反馈如何后续怎么优化&quot;&gt;Q1（花旗 Alicia Yap）：《沧海遗珠》上线后的表现和玩家反馈如何？后续怎么优化？&lt;/h2&gt;
-
-&lt;p&gt;这是当天最尖锐的问题——《沧海遗珠》（Sea of Remnants）7月刚在中国上线，市场反馈不及预期。&lt;/p&gt;
-
-&lt;p&gt;丁磊的回答罕见地直接认错：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“&lt;strong&gt;我们没有在早期阶段充分降低玩家的学习曲线，这在一定程度上影响了初期的玩家体验。&lt;/strong&gt;“（we did not sufficiently lower the learning curve for players in the early stages, which, to some extent, affected the initial player experience）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;管理层同时承认，游戏大胆的美术风格和Rogue类玩法的复杂度引来了”批评”（critics），但强调团队已经为长线运营准备了大量内容，上线后通过内容更新和体验优化，玩家情绪正在改善，未来会在保持创新的同时简化早期内容。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：一款新游上线一个月，CEO在电话会上公开归因于”上手门槛太高”，这是一个诚实但也很被动的说法。对Rogue类品类来说，学习曲线陡峭往往是设计取舍而非失误，事后”简化”能挽回多少留存存疑。&lt;/p&gt;
-
-&lt;h2 id=&quot;q2中金-xueqing-zhang无限大的开发进度如何在都市开放世界这个赛道上它和竞品的差异化在哪&quot;&gt;Q2（中金 Xueqing Zhang）：《无限大》的开发进度如何？在都市开放世界这个赛道上，它和竞品的差异化在哪？&lt;/h2&gt;
-
-&lt;p&gt;《无限大》（Ananta）是网易目前最受关注的储备产品。Bill Pang转述的回答是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“《无限大》的开发进展顺利，团队正在持续打磨游戏体验。”（Ananta is well on track with its development as the team is now keep polishing the game experience）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;关于差异化：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“《无限大》作为一款都市开放世界作品有它自己独特的优势……为玩家提供一种区别于其他都市开放世界游戏的全新体验。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;管理层提到最新进展已在&lt;strong&gt;科隆游戏展（Gamescom）&lt;/strong&gt;上亮相，并强调其”独特的主题与玩法设计”和内容品质是差异化来源。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这个回答信息量偏低——没有档期、没有测试计划、没有具体玩法披露。对一款已经预热两年多的产品来说，”well on track”这样的措辞更像是安抚而非承诺。&lt;/p&gt;
-
-&lt;h2 id=&quot;q3高盛-lincoln-kong新品发布节奏放缓存量组合基数抬高未来的增长从哪来&quot;&gt;Q3（高盛 Lincoln Kong）：新品发布节奏放缓、存量组合基数抬高，未来的增长从哪来？&lt;/h2&gt;
-
-&lt;p&gt;这就是前面提到的”AI答案”。丁磊的回答结构是：坚持做精品 + 用AI提高产出效率。&lt;/p&gt;
-
-&lt;p&gt;除了那句”比同行做出更多高质量产品”，管理层还强调AI用于”提升用户体验”和”加快开发速度”两个方向。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这是一个战略层面的回答，而不是一个业务层面的回答。分析师问的是”未来四到八个季度的收入从哪来”，管理层答的是”我们相信AI能让我们长期做出更多好游戏”。这个错位本身，可能就是当天股价下跌的一部分原因。&lt;/p&gt;
-
-&lt;h2 id=&quot;q4汇丰-ritchie-sunbeneath-the-mist-和-tamas-shadowveil-这两款新品的变现潜力如何什么时候上线&quot;&gt;Q4（汇丰 Ritchie Sun）：Beneath The Mist 和 Tamas: Shadowveil 这两款新品的变现潜力如何？什么时候上线？&lt;/h2&gt;
-
-&lt;p&gt;Bill Pang的回答给出了网易的产品哲学：&lt;/p&gt;
-
-&lt;p&gt;两款产品仍在”密集打磨”（intensive refinement）阶段，公司会在玩家体验的要求被满足之后才发布。管理层强调&lt;strong&gt;“玩家体验是一切的关键”&lt;/strong&gt;（player experience is the key of everything），言下之意是商业化设计要排在体验之后。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这实际上是拒绝给档期。对投资者而言，”做好了才发”是负责任的态度，但也意味着未来12个月的收入能见度很低。&lt;/p&gt;
-
-&lt;h1 id=&quot;三prepared-remarks-中值得记录的运营数据&quot;&gt;三、prepared remarks 中值得记录的运营数据&lt;/h1&gt;
-
-&lt;p&gt;管理层在开场白中逐一点评了主要产品，其中有几个数字值得留存：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;《燕云十六声》（Where Winds Meet）&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;全球日活跃用户持续上升&lt;/li&gt;
-  &lt;li&gt;Steam好评率维持在&lt;strong&gt;87%以上&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;6月成功登陆Xbox平台&lt;/li&gt;
-  &lt;li&gt;一度进入Steam全球畅销榜&lt;strong&gt;前三&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;国内因”清川”“杭州”等新地图内容推动，iOS畅销榜最高冲到&lt;strong&gt;第三&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;《漫威争锋》（Marvel Rivals）&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Steam全球畅销榜&lt;strong&gt;第二&lt;/strong&gt;，在包括美国在内的多个地区排名&lt;strong&gt;第一&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;在圣地亚哥漫展（Comic-Con）做了粉丝社区活动，赛季总决赛在洛杉矶举办&lt;/li&gt;
-  &lt;li&gt;推出18v18的”昆仑竞技场”新模式&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;《梦幻西游》系列&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;手游版本上线新的装备成长体系和”搜打撤”（extraction）玩法模式&lt;/li&gt;
-  &lt;li&gt;端游”新大陆”周年更新在6月上线，&lt;strong&gt;首日活跃玩家超过1000万&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;《蛋仔派对》&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;注册用户达到&lt;strong&gt;7亿&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;月活跃用户稳定在&lt;strong&gt;1亿以上&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;暑期一度冲到中国区畅销榜&lt;strong&gt;第三&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;《逆水寒》&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;同时在线人数创下&lt;strong&gt;两年新高&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;《第五人格》&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;新增PVE模式”神秘笔记”（Cryptic Notes）&lt;/li&gt;
-  &lt;li&gt;第44赛季推出”纸嫁衣”联动&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;《永劫无间》（NARAKA: BLADEPOINT）&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;PC与手游生态打通&lt;/li&gt;
-  &lt;li&gt;五周年更新加入水下战场和新战斗系统&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;有道&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;大模型”子曰4”（Confucius 4）发布，推理速度提升约&lt;strong&gt;80%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;词典笔X8在6月发布，618期间在京东、天猫同类目&lt;strong&gt;连续第七年销量第一&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;云音乐&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;2026年上半年DAU/MAU比值维持在&lt;strong&gt;30%以上&lt;/strong&gt;，同比与环比均有提升&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;四解读这场电话会到底传递了什么&quot;&gt;四、解读：这场电话会到底传递了什么&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-财务质量的改善是确定的增长的来源是不确定的&quot;&gt;1. 财务质量的改善是确定的，增长的来源是不确定的&lt;/h2&gt;
-
-&lt;p&gt;四个板块毛利率全线提升、三项费用率全线下降、经营利润同比增长约33%——本季网易在”把生意做得更赚钱”这件事上做得非常好。&lt;/p&gt;
-
-&lt;p&gt;但四个分析师问题里有三个直接指向同一个焦虑：&lt;strong&gt;收入增长从哪来？&lt;/strong&gt; 本季收入环比是下滑的（306亿元→301亿元），游戏板块也从257亿元降到250亿元。存量产品自然衰减，新品《沧海遗珠》表现不佳，而真正的重磅《无限大》和《血色信笺》都没有档期。&lt;/p&gt;
-
-&lt;p&gt;管理层给出的答案是”AI能让我们做出更多好游戏”。这是一个&lt;strong&gt;长期正确、短期无法验证&lt;/strong&gt;的答案。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-对沧海遗珠的坦承比表现本身更值得注意&quot;&gt;2. 对《沧海遗珠》的坦承，比表现本身更值得注意&lt;/h2&gt;
-
-&lt;p&gt;CEO在公开电话会上说”我们没有充分降低学习曲线”，这在中国互联网公司的电话会中不算常见。这种坦诚有两面：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;正面看，它说明管理层对产品问题有清晰认知，而不是把责任推给市场环境&lt;/li&gt;
-  &lt;li&gt;反面看，它也确认了这款新品短期内难以成为收入增量&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;结合Q4关于 Beneath The Mist 的回答——”体验达标才发布”——网易的产品策略正在从”多线并进、快速上线”转向”少而精、宁慢勿错”。&lt;strong&gt;这是《沧海遗珠》教训的直接后果。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-股东回报正在成为估值的重要支撑&quot;&gt;3. 股东回报正在成为估值的重要支撑&lt;/h2&gt;
-
-&lt;p&gt;1675亿元净现金、每ADS 0.48美元的季度股息、50亿美元回购计划下已执行23亿美元——在新品增长故事暂时讲不圆的阶段，现金回报是管理层能给市场的最确定的东西。&lt;/p&gt;
-
-&lt;p&gt;值得注意的是，本季净利润因为投资端约4.35亿美元的损失和25.5%的高税率而同比下滑约19%，但&lt;strong&gt;经营性现金流仍有100亿元，净现金还在增加&lt;/strong&gt;。也就是说，利润表的难看并没有影响真实的现金创造能力。&lt;/p&gt;
-
-&lt;h1 id=&quot;五总结&quot;&gt;五、总结&lt;/h1&gt;
-
-&lt;p&gt;一句话概括：&lt;strong&gt;网易交出了一份”经营质量最好、增长能见度最差”的季度。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;三个最该记住的点：&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;76.1%&lt;/strong&gt;——游戏板块毛利率，创历史新高，由渠道分成成本下降驱动，是结构性改善&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;“我们没有充分降低学习曲线”&lt;/strong&gt;——丁磊对《沧海遗珠》的公开归因，确认了这款新品短期难有贡献&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;AI是管理层给出的增长答案&lt;/strong&gt;——”借助AI工具，我们能比行业内大多数同行做出更多高质量产品”，这个判断需要用未来两三年的产品来验证&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;接下来最值得跟踪的，仍然是《无限大》——它什么时候有测试、什么时候有档期、以及科隆展之后的口碑走向。在这张牌打出来之前，网易大概率会维持”高毛利、低增长、高分红”的状态。&lt;/p&gt;
-
-&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;网易2026年第二季度业绩电话会实录：&lt;a href=&quot;https://finance.yahoo.com/markets/stocks/articles/netease-ntes-q2-2026-earnings-002901165.html&quot;&gt;NetEase (NTES) Q2 2026 Earnings Call Transcript&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;网易官方财报新闻稿（2026年8月20日，含电话会安排）：&lt;a href=&quot;http://www.prnewswire.com/news-releases/netease-announces-second-quarter-and-interim-2026-unaudited-financial-results-302856259.html&quot;&gt;NetEase Announces Second Quarter and Interim 2026 Unaudited Financial Results&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;网易投资者关系官网（webcast回放与投资者演示）：&lt;a href=&quot;http://ir.netease.com/&quot;&gt;ir.netease.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;媒体报道（用于分析师预期与股价反应的补充）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Benzinga：&lt;a href=&quot;https://www.benzinga.com/markets/earnings/26/08/61331125/netease-investment-losses-dent-profit&quot;&gt;Why Is NetEase Stock Falling Thursday?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;凤凰网科技：&lt;a href=&quot;https://tech.ifeng.com/c/8vkKzVrOId2&quot;&gt;网易发布2026年Q2及上半年财报——上半年净收入607亿元，同比增长7.0%&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&amp;lt;/content&amp;gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 21 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/21/netease_2026q2_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/21/netease_2026q2_earnings_call/</guid>
-        
-        <category>网易</category>
         
         <category>大公司数据观察</category>
         

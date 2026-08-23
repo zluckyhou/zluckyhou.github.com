@@ -1,0 +1,151 @@
+---
+layout: post
+title: "Reddit 每日精选 | 2026.08.23"
+headline: "当 AI 开始引用 AI，人类的经验反而成了最稀缺的东西"
+date: 2026-08-23 09:30:00 +0800
+categories: [reddit]
+tags: [Reddit, 每日精选]
+description: "AI 引用 AI 的闭环、被评论区拆穿的降价图表，以及一群被辅助驾驶逼疯的司机。"
+summary: "本期从「Reddit 在 ChatGPT 引用里消失」聊起，串起了一条完整的线索：搜索结果里越来越多是 AI 写给 AI 看的内容，一张宣称 AI 降价 1000 倍的图被评论区从方法论上逐条拆解，破折号成了误伤真人作者的「AI 检测器」，DDR5 内存被抢购机器人推到天价。最后落到最接地气的一帖 —— 五分之一的司机主动关掉了号称能救命的辅助驾驶，评论区里几百条亲身经历比任何测评都真实。"
+digest_count: 5
+---
+
+今天翻 Reddit 的时候有个挺明显的感觉：好几个热帖表面上讲的是不同的事 —— 搜索引擎、内存涨价、代码托管、汽车安全 —— 但底下的评论区在反复绕回同一个问题：当自动化的东西开始大规模替人做判断，人该怎么办？有人在搜索结果里发现了 AI 引用 AI 的死循环，有人因为爱用破折号被系统判定成机器人，还有人干脆把车上的辅助驾驶关了，因为它比自己更容易把车开到护栏上。
+
+下面是今天挑出来的五个帖子。
+
+## 一、Reddit 正在从 ChatGPT 的引用里消失
+
+[原帖：Reddit fades from ChatGPT citations](https://www.reddit.com/r/technology/comments/1vv7itl/reddit_fades_from_chatgpt_citations/)
+
+帖子本身说的是一个统计现象：Reddit 曾经是 ChatGPT 回答时最常引用的来源之一，但这个占比正在下滑。有意思的是，评论区并没有为 Reddit 惋惜，反而顺着聊起了一件更让人不安的事 —— 现在搜索到的东西，越来越多是 AI 生成的，而 AI 又在引用这些 AI 生成的东西。
+
+一位做研究引用校验工具的用户描述了他亲眼看到的过程：模型在查一款游戏的资料时怎么也找不到可核实的来源，最后交出的报告有四分之一是错的，追问下去才发现它引的那些游戏站本身就是 AI 批量产出的内容农场。他的结论是这将变成一场军备竞赛：你得自己一点点学会哪些站能信，然后把剩下的拉黑。
+
+另一条评论提供了更具体的技术解释，说明为什么 Google 的搜索 AI 给出的来源经常和答案对不上：
+
+> "What it does is answer your question pretty much instantly, THEN search the internet for sources similar to what it said. That's why the sources are rarely word for word and sometimes say basically nothing related to what Google said."
+>
+> <cite>— u/j48u，<a href="https://www.reddit.com/r/technology/comments/1vv7itl/reddit_fades_from_chatgpt_citations/p5ays5r/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+也就是说，引用不是推理的依据，而是事后补上的装饰。还有人贴出了一个近乎行为艺术的闭环体验：
+
+> "I posted a question on Reddit the other day and then about an hour later googled my question and Google confidently told me the answer that I had proposed on my Reddit post"
+>
+> <cite>— u/BlackPresident，<a href="https://www.reddit.com/r/technology/comments/1vv7itl/reddit_fades_from_chatgpt_citations/p56y8gm/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+自己一小时前随口写的猜测，绕了一圈变成了搜索引擎斩钉截铁告诉他的「答案」。
+
+评论区里我觉得最值得记下来的是这条对未来格局的判断：正经媒体因为 AI 抓取带不来点击、带不来收入，纷纷拒绝被抓取，转向直接面向读者收费。
+
+> "We're seeing the creation of an informational elite who pays money for a direct relationship to real information sources, and the remaining 99% who are fed slop by AI."
+>
+> <cite>— u/-The_Blazer-，<a href="https://www.reddit.com/r/technology/comments/1vv7itl/reddit_fades_from_chatgpt_citations/p58x3z9/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+这个说法对中文读者其实更有代入感。我们这边的公众号、小红书、知乎早就经历过一轮「内容农场化」，现在只是换成了 AI 在批量生产。真正的分化可能不在于谁会用 AI，而在于谁还愿意花钱和精力去建立跟一手信源的直接关系 —— 订阅几份靠谱的行业媒体、进几个真人聚集的小圈子、看财报原文而不是看解读的解读。搜索框越来越不可靠的时候，这些笨办法反而成了护城河。
+
+## 二、一张「AI 降价 1000 倍」的图，被评论区从方法论上拆了
+
+[原帖：AI got 1,000× cheaper — just not the AI you want](https://www.reddit.com/r/dataisbeautiful/comments/1vvidbd/oc_ai_got_1000_cheaper_just_not_the_ai_you_want/)
+
+r/dataisbeautiful 上的一张信息图，核心论点是：达到 GPT-3 水平的推理成本这几年降了约 1000 倍，但前沿模型的价格基本没怎么降 —— 便宜的是你几年前想要的那个 AI，不是你现在想要的那个。作者在评论里给了完整的数据出处（a16z 的 LLMflation、Epoch AI 的推理价格研究、斯坦福 HAI 的 AI Index）。
+
+按理说这是一张态度诚恳的图，但评论区照样毫不客气。最扎实的一条质疑一口气提了三个问题：拿正在烧钱补贴的 API 价格当降价的锚点本身就不牢靠；固定能力这个口径意义有限，因为开源模型早就追上来了；更关键的是横向对比时口径不一致。
+
+> "using API pricing from an industry actively subsidizing its prices doesn't feel like a good anchor to prove the point that its getting cheaper while these companies burn billions every year, even the ones that claim they are profitable on inference."
+>
+> <cite>— u/dekacube，<a href="https://www.reddit.com/r/dataisbeautiful/comments/1vvidbd/oc_ai_got_1000_cheaper_just_not_the_ai_you_want/p59eocr/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+他还指出，早期 GPT-3-Davinci 的报价没有区分输入和输出 token，拿它和今天只算输入价的模型比，本身就不是同一把尺子；如果换成输出 token 来算，前沿模型的降幅会缩水到一点几倍。另一条评论则挑了个更细的毛病：图上标着 2026 年 8 月，但大部分数据点来自两年前，对一个号称快过摩尔定律的领域来说，这个时间差有点尴尬。
+
+> "with most of the visualizations themselves coming from data from 2 years ago, for a space in tech that the linked article itself describes as … feels mildly weird"
+>
+> <cite>— u/malayis，<a href="https://www.reddit.com/r/dataisbeautiful/comments/1vvidbd/oc_ai_got_1000_cheaper_just_not_the_ai_you_want/p599d2f/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+这一帖对国内做 AI 成本测算的人挺有参考价值。我们现在满屏都是「大模型价格战」「token 成本降到百万分之几」的说法，但同样绕不开评论区提出的这几个陷阱：补贴价不等于成本价，固定能力降价不等于你实际需要的那档在降价，输入输出不分开算就会把降幅放大好几倍。下次看到某家宣布降价 90% 的通稿，值得先问一句：降的是哪个口径、哪一档、算不算输出。
+
+## 三、DDR5 被抢购机器人淹没，顺带误伤了一批爱用破折号的人
+
+[原帖：DDR5 scalper bots now outnumber shoppers 10 to 1](https://www.reddit.com/r/technology/comments/1vvb43k/ddr5_scalper_bots_now_outnumber_shoppers_10_to_1/)
+
+新闻本身够刺激：安全公司 DataDome 的研究者称，DDR5 内存的电商页面上，自动抓取脚本的访问量已经是真人购物者的十倍，平均每 6.5 秒就被扫一次，32GB 套装的价格从 72 美元一路涨到 392 美元。评论区里 DIY 玩家的怨气很直接，有人算了笔账说这个涨幅在中端配置里几乎是决定性的：
+
+> "It's about a $200 difference for 32 GB. For midrange builds that's huge. It's the difference between a 60 and 70 class gpu, which is larger than the difference between Zen 4 and Zen 5."
+>
+> <cite>— u/nathris，<a href="https://www.reddit.com/r/technology/comments/1vvb43k/ddr5_scalper_bots_now_outnumber_shoppers_10_to_1/p588c6q/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+不少人的应对办法是干脆退回 DDR4 甚至更老的平台，还有人跑去线下门店排队，理由很朴素：机器人抢不到实体货架上的东西。
+
+不过这一帖最热闹的地方在标题本身。原标题里的破折号在转帖时变成了没渲染的 HTML 实体 `&mdash;`，于是一大群人跑来断言这是 AI 写的标题，接着整个楼歪成了一场关于破折号的辩论 —— 讨论机器人抢货的帖子，顶楼在争论作者是不是机器人。
+
+> "The irony of an AI generated headline complaining about bots buying ram. This wasn't the future I planned for but probably should have expected."
+>
+> <cite>— u/ExceptionEX，<a href="https://www.reddit.com/r/technology/comments/1vvb43k/ddr5_scalper_bots_now_outnumber_shoppers_10_to_1/p58sbjk/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+这场混战里最有分量的是一位老作者的亲身经历：
+
+> "One day I submitted a review, and it was rejected, because they assumed my em dashes were AI. The thing is, I'd used them in nearly all of my reviews for years."
+>
+> <cite>— u/IsReadingIt，<a href="https://www.reddit.com/r/technology/comments/1vvb43k/ddr5_scalper_bots_now_outnumber_shoppers_10_to_1/p5adupa/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+他给同一家科技公司写了三四年、十几篇评测，一直用破折号，某天忽然因为这个被判定成 AI 退稿。还有人补了一句挺准的：AI 之所以爱用破折号，恰恰是因为它是在人类写的好文章上训练出来的 —— 用「像 AI」来判断，逻辑上从一开始就是反的。
+
+国内这两年也有类似的荒诞感：学生因为写得太规整被查重系统判 AI，编辑靠「有没有那种腔调」来判断投稿。破折号这个例子的价值在于，它把这类检测的本质暴露得特别清楚 —— 所谓 AI 特征，往往只是「受过训练的人的写作习惯」，检测器抓的从来不是机器，而是写得比较像样的人。
+
+## 四、GitHub 罕见认错：「我们让你们失望了」
+
+[原帖：'We let you down': GitHub pledges to scale up before developers give up](https://www.reddit.com/r/technology/comments/1vv932k/we_let_you_down_github_pledges_to_scale_up_before/)
+
+GitHub 高层公开承认近期一连串的可用性问题，承诺扩容。评论区第一反应当然是阴阳怪气，有条高赞用反话把开发者的日常吐了个干净：
+
+> "I remeber a terrible morning around two weeks agos. Github was fully working. Ci/cd. Auth, pr, merges. Everything was green. I had to actually do something at my job …"
+>
+> <cite>— u/RadzimierzWozniak，<a href="https://www.reddit.com/r/technology/comments/1vv932k/we_let_you_down_github_pledges_to_scale_up_before/p57i34v/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+玩笑之外，真正有价值的是关于「大家到底会不会跑」的争论。一派认为不会，因为网络效应太强，几乎所有依赖库、所有有意思的 issue 讨论都在 GitHub 上，走了等于自我流放；有人拿这些年的迁移潮举例说明这有多难：
+
+> "There was mass migration from X to Mastodon. Later X to Bluesky Github to Codeberg Reddit to Lemmy And it was super small minority who did it at first and even then most of those people got back."
+>
+> <cite>— u/ComeOnIWantUsername，<a href="https://www.reddit.com/r/technology/comments/1vv932k/we_let_you_down_github_pledges_to_scale_up_before/p5780vy/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+另一派的反驳很实在：个人开发者确实不会走，但企业不一样。
+
+> "Im sure your average hobbyist will stay, but if downtime starts costing companies real dollars they will switch."
+>
+> <cite>— u/Scutty__，<a href="https://www.reddit.com/r/technology/comments/1vv932k/we_let_you_down_github_pledges_to_scale_up_before/p5akpof/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+底下也确实有人现身说法：公司在用 Bitbucket，功能差点意思但可用性明显更好；也有人说自己只用最基础的 Actions，真要迁走一两个小时就够。
+
+对国内团队来说，这场讨论提醒的其实是一件老生常谈但很少真做的事：把「代码托管在哪」和「CI/CD 跑在哪」解耦。代码本身在 Git 里天然是分布式的，迁移成本很低；真正锁死你的是那些绑得很深的 Actions 工作流、Secrets 管理和第三方集成。GitHub 挂一天你损失多少，取决于你把多少不可替代的东西堆在了它一家身上 —— 这个账，趁没出事的时候算一次比较划算。
+
+## 五、五分之一的司机，主动关掉了号称能救命的辅助驾驶
+
+[原帖：One In Five Drivers Switches Off The Safety Tech Meant To Save Their Lives](https://www.reddit.com/r/technology/comments/1vvpeik/one_in_five_drivers_switches_off_the_safety_tech/)
+
+一份调查显示约 20% 的司机会关掉车道保持这类主动安全功能。新闻的语气偏向责怪司机不懂事，但评论区几百条亲历几乎一边倒地在说：不是我们不要安全，是有些系统的实现真的很差。
+
+抱怨最集中的是车道保持把路面上一切线状物都当成车道线：
+
+> "Crack in the asphalt? Veer off.. Tyre marks from burnouts? Veer off? Car drive through a puddle and left a trail on a dry road? Jerk wildly…"
+>
+> <cite>— u/Arblechnuble，<a href="https://www.reddit.com/r/technology/comments/1vvpeik/one_in_five_drivers_switches_off_the_safety_tech/p5b81xo/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+施工路段是重灾区，好几个人说旧标线没铲干净、新标线又歪，车会坚定地往水泥隔离墩上带。更让人恼火的是有些系统被违逆之后会升级对抗：
+
+> "If you fight it long enough it will activate emergency brake chime at full volume and turn off the music too. But God forbid you drop under 40mph and it will let you fly off the interstate into a tree no questions asked."
+>
+> <cite>— u/Afloatcactus5，<a href="https://www.reddit.com/r/technology/comments/1vvpeik/one_in_five_drivers_switches_off_the_safety_tech/p5boxua/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+但评论区并不是简单地否定这类功能。斯巴鲁的实现被反复点名表扬，理由很具体，也基本点出了好系统和坏系统的分界线：
+
+> "it keeps you right in the middle of the lane, but it won't over power the driver turning the wheel it just gives a small amount of resistance first."
+>
+> <cite>— u/ImJustAverage，<a href="https://www.reddit.com/r/technology/comments/1vvpeik/one_in_five_drivers_switches_off_the_safety_tech/p5b8z8g/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+同一个人对自家另一台车的评价则是「在两条线之间来回弹，或者看见根本不存在的线」，开第一次就关了。有人形容理想状态是把车道当成一堵有弹性的墙：你想穿过去，用点力气就能穿过去，但不会毫无察觉地飘出去。
+
+这一帖对国内正在猛推高阶辅助驾驶的车企来说，其实是一份免费的用户研究。中文互联网上关于「智驾」的讨论多半停留在能不能脱手、算力多少 TOPS、有没有激光雷达，但评论区反复强调的是另一件事：交互的手感比能力的上限更能决定用户会不会打开它。一个再厉害的系统，只要在施工路段和司机抢方向盘、在误报时用刺耳的警报惩罚驾驶者，用户就会在第一次不愉快之后永久关掉它 —— 那时候标称的安全收益就是零。「不夺权、只给阻尼」这种听上去很土的设计原则，可能比多堆一颗芯片更能救命。
+
+---
+
+今天这五帖凑在一起，有种意外的连贯感：AI 在引用 AI，检测器在误伤真人，图表在用补贴价论证降价，汽车在跟司机抢方向盘。共同点是自动化系统在越来越多的环节上替人做了判断，而做判断的依据往往比我们以为的要粗糙。评论区里最有价值的东西，恰恰是那些没法被自动生成的部分 —— 有人写了三四年评测才碰上那次退稿，有人开着车在施工路段跟方向盘较劲，有人一小时前的猜测被搜索引擎当成了事实。这些具体的、带毛边的经验，暂时还是人类的专利。

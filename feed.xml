@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 24 Aug 2026 09:18:00 +0800</pubDate>
-    <lastBuildDate>Mon, 24 Aug 2026 09:18:00 +0800</lastBuildDate>
+    <pubDate>Mon, 24 Aug 2026 09:24:15 +0800</pubDate>
+    <lastBuildDate>Mon, 24 Aug 2026 09:24:15 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -155,6 +155,1091 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>中国石化2026年半年报——营收14365.61亿同比增长2.0%，归母净利256.27亿同比增长19.3%，炼油板块经营收益暴增381.5%</title>
+        <description>&lt;p&gt;2026年8月23日，&lt;a href=&quot;http://www.sinopec.com/&quot;&gt;中国石油化工股份有限公司&lt;/a&gt;（600028.SH，00386.HK，下称「中国石化」）披露2026年半年度报告。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;按中国企业会计准则，上半年实现营业收入14,365.61亿元，同比增长2.0%；利润总额366.44亿元，同比增长27.4%；归属于母公司股东净利润256.27亿元，同比增长19.3%；扣非归母净利润252.73亿元，同比增长19.1%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;董事会同时建议派发2026年半年度现金股息每股人民币0.105元（含税）。按公司1,209.26亿股总股本估算，这笔中期分红规模约127亿元。&lt;/p&gt;
+
+&lt;p&gt;如果只用一句话概括这份半年报：&lt;strong&gt;油价涨了29%，把上游和炼油的利润推上去了，也把下游的销量打下来了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一份典型的「一体化公司在高油价里的成绩单」——赚钱的板块和亏钱的板块，被同一个变量推向了相反的方向。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;p&gt;中国石化成立于2000年，控股股东是中国石化集团（持股68.79%），实际控制人是国务院国资委。截至2026年6月30日，公司股东总数69.08万户，其中A股68.58万户、H股4,968户。&lt;/p&gt;
+
+&lt;p&gt;它是中国最大的一体化能源化工公司。所谓「一体化」，指的是它把石油产业链从头到尾都做了一遍，公司自己把业务分成四个事业部：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;事业部&lt;/th&gt;
+      &lt;th&gt;干什么&lt;/th&gt;
+      &lt;th&gt;通俗解释&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;勘探及开发&lt;/td&gt;
+      &lt;td&gt;找油、找气、把油气采出来&lt;/td&gt;
+      &lt;td&gt;上游，卖的是原料&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;炼油&lt;/td&gt;
+      &lt;td&gt;把原油加工成汽油、柴油、航煤等&lt;/td&gt;
+      &lt;td&gt;中游，赚的是加工差价&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营销及分销&lt;/td&gt;
+      &lt;td&gt;通过加油站等渠道把成品油卖给终端&lt;/td&gt;
+      &lt;td&gt;下游，赚的是零售价差&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;化工&lt;/td&gt;
+      &lt;td&gt;把石油原料做成塑料、化纤、橡胶等&lt;/td&gt;
+      &lt;td&gt;另一条中下游，看化工景气度&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这个结构有个重要含义：&lt;strong&gt;油价上涨时，上游赚得更多，下游成本变高、需求被抑制；油价下跌时反过来。&lt;/strong&gt; 一体化的意义就是让这两头互相对冲，整体业绩比纯上游或纯下游公司平稳。&lt;/p&gt;
+
+&lt;p&gt;上半年，公司拥有31,278座自营加油站（较2025年末净增83座），是中国最大的成品油零售网络。&lt;/p&gt;
+
+&lt;h1 id=&quot;二最重要的背景油价涨了29油却卖不动了&quot;&gt;二、最重要的背景：油价涨了29%，油却卖不动了&lt;/h1&gt;
+
+&lt;p&gt;读懂这份财报，必须先看半年报里给出的两组市场数据。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一组是油价。&lt;/strong&gt; 公司披露：受中东地缘冲突影响，国际原油价格剧烈波动，一季度末快速冲高，二季度高位震荡后大幅回落，&lt;strong&gt;普氏布伦特原油现货均价为92.6美元/桶，同比上涨29.1%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二组是需求。&lt;/strong&gt; 公司统计的境内消费数据是这样的：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;品种&lt;/th&gt;
+      &lt;th&gt;2026H1境内消费量同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;天然气&lt;/td&gt;
+      &lt;td&gt;+1.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;成品油合计&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-8.6%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;——汽油&lt;/td&gt;
+      &lt;td&gt;-7.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;——柴油&lt;/td&gt;
+      &lt;td&gt;-11.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;——航空煤油&lt;/td&gt;
+      &lt;td&gt;+1.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;乙烯当量消费&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-9.9%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;半年报把原因写得很直接：成品油「受高油价抑制需求及新能源替代加速影响」，化工产品「需求疲弱」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这两组数据合在一起，就是全篇财报的主线：涨价的收益归上游和炼油，跌量的代价归下游和化工。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;三核心财务数据解读&quot;&gt;三、核心财务数据解读&lt;/h1&gt;
+
+&lt;p&gt;中国石化同时按两套会计准则披露业绩，两套数字都要看一眼，因为它们讲的故事略有不同。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;按中国企业会计准则：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业收入&lt;/td&gt;
+      &lt;td&gt;14,365.61亿元&lt;/td&gt;
+      &lt;td&gt;14,090.52亿元&lt;/td&gt;
+      &lt;td&gt;+2.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;利润总额&lt;/td&gt;
+      &lt;td&gt;366.44亿元&lt;/td&gt;
+      &lt;td&gt;287.67亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+27.4%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利润&lt;/td&gt;
+      &lt;td&gt;256.27亿元&lt;/td&gt;
+      &lt;td&gt;214.83亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+19.3%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扣非归母净利润&lt;/td&gt;
+      &lt;td&gt;252.73亿元&lt;/td&gt;
+      &lt;td&gt;212.15亿元&lt;/td&gt;
+      &lt;td&gt;+19.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流净额&lt;/td&gt;
+      &lt;td&gt;624.99亿元&lt;/td&gt;
+      &lt;td&gt;610.16亿元&lt;/td&gt;
+      &lt;td&gt;+2.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基本每股收益&lt;/td&gt;
+      &lt;td&gt;0.212元&lt;/td&gt;
+      &lt;td&gt;0.177元&lt;/td&gt;
+      &lt;td&gt;+19.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;加权平均净资产收益率&lt;/td&gt;
+      &lt;td&gt;3.06%&lt;/td&gt;
+      &lt;td&gt;2.61%&lt;/td&gt;
+      &lt;td&gt;+0.45个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;按国际财务报告会计准则：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营收益&lt;/td&gt;
+      &lt;td&gt;372.10亿元&lt;/td&gt;
+      &lt;td&gt;334.23亿元&lt;/td&gt;
+      &lt;td&gt;+11.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;股东应占利润&lt;/td&gt;
+      &lt;td&gt;265.67亿元&lt;/td&gt;
+      &lt;td&gt;237.52亿元&lt;/td&gt;
+      &lt;td&gt;+11.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基本每股收益&lt;/td&gt;
+      &lt;td&gt;0.220元&lt;/td&gt;
+      &lt;td&gt;0.196元&lt;/td&gt;
+      &lt;td&gt;+12.2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;已占用资本回报率&lt;/td&gt;
+      &lt;td&gt;3.02%&lt;/td&gt;
+      &lt;td&gt;2.82%&lt;/td&gt;
+      &lt;td&gt;+0.20个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;两套准则下利润增速差了7个百分点（19.3% vs 11.9%），主要是两套准则对部分项目的确认口径不同，不必过度解读；关注趋势即可——&lt;strong&gt;利润是实打实增长的，而且利润增速远高于收入增速。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;再看几笔关键的费用变化，它们解释了「利润为什么涨」和「本可以涨得更多」：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目（IFRS，人民币亿元）&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;采购原油、产品及经营供应品及费用&lt;/td&gt;
+      &lt;td&gt;10,969.36&lt;/td&gt;
+      &lt;td&gt;11,184.40&lt;/td&gt;
+      &lt;td&gt;-1.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;折旧、折耗及摊销&lt;/td&gt;
+      &lt;td&gt;634.69&lt;/td&gt;
+      &lt;td&gt;611.55&lt;/td&gt;
+      &lt;td&gt;+3.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;勘探费用（含干井成本）&lt;/td&gt;
+      &lt;td&gt;51.51&lt;/td&gt;
+      &lt;td&gt;56.46&lt;/td&gt;
+      &lt;td&gt;-8.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;职工费用&lt;/td&gt;
+      &lt;td&gt;523.85&lt;/td&gt;
+      &lt;td&gt;494.42&lt;/td&gt;
+      &lt;td&gt;+6.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;所得税以外的税金&lt;/td&gt;
+      &lt;td&gt;1,344.18&lt;/td&gt;
+      &lt;td&gt;1,233.51&lt;/td&gt;
+      &lt;td&gt;+9.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其他（费用）/收入净额&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-208.89&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;+81.36&lt;/td&gt;
+      &lt;td&gt;由正转负&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;融资成本净额&lt;/td&gt;
+      &lt;td&gt;-66.52&lt;/td&gt;
+      &lt;td&gt;-84.26&lt;/td&gt;
+      &lt;td&gt;-21.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非控股股东应占利润&lt;/td&gt;
+      &lt;td&gt;44.63&lt;/td&gt;
+      &lt;td&gt;21.58&lt;/td&gt;
+      &lt;td&gt;+106.8%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;有两项值得单独说：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一是「所得税以外的税金」增加了110.67亿元。&lt;/strong&gt; 半年报解释：油价上升导致石油特别收益金和资源税增加。这是高油价的「代价」——上游多赚的钱，有相当一部分要以特别收益金的形式交出去。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;二是「其他费用净额」从上年同期的净收入81.36亿元变成净支出208.89亿元，前后摆动了290亿元。&lt;/strong&gt; 半年报只列了数字，没有说明具体构成。这一项如果没有恶化，公司的经营收益本可以更好看。这是这份财报里信息最不透明、也最值得后续跟踪的一处。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;三是非控股股东应占利润翻倍&lt;/strong&gt;（+106.8%），意味着盈利改善的相当一部分发生在中国石化并表但未全资持有的子公司里，最终没能全部归到上市公司股东名下。&lt;/p&gt;
+
+&lt;h1 id=&quot;四四大事业部拆解一半火焰一半海水&quot;&gt;四、四大事业部拆解：一半火焰，一半海水&lt;/h1&gt;
+
+&lt;p&gt;这是本篇最核心的表。以下是各事业部抵销内部交易前的经营收益：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;事业部&lt;/th&gt;
+      &lt;th&gt;2026H1经营收益&lt;/th&gt;
+      &lt;th&gt;2025H1经营收益&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;勘探及开发&lt;/td&gt;
+      &lt;td&gt;287.29亿元&lt;/td&gt;
+      &lt;td&gt;236.38亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+21.5%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;炼油&lt;/td&gt;
+      &lt;td&gt;170.21亿元&lt;/td&gt;
+      &lt;td&gt;35.35亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+381.5%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营销及分销&lt;/td&gt;
+      &lt;td&gt;56.82亿元&lt;/td&gt;
+      &lt;td&gt;79.59亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-28.6%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;化工&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-2.47亿元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;-42.24亿元&lt;/td&gt;
+      &lt;td&gt;减亏39.77亿元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;本部及其他&lt;/td&gt;
+      &lt;td&gt;3.65亿元&lt;/td&gt;
+      &lt;td&gt;16.45亿元&lt;/td&gt;
+      &lt;td&gt;-77.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;抵销&lt;/td&gt;
+      &lt;td&gt;-143.40亿元&lt;/td&gt;
+      &lt;td&gt;+8.70亿元&lt;/td&gt;
+      &lt;td&gt;——&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;合计（经营收益）&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;372.10亿元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;334.23亿元&lt;/td&gt;
+      &lt;td&gt;+11.3%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;1-勘探及开发产量创同期新高但涨的主要是价&quot;&gt;1. 勘探及开发：产量创同期新高，但涨的主要是价&lt;/h2&gt;
+
+&lt;p&gt;上半年油气当量产量263.47百万桶，同比增长0.3%，公司称国内油气当量产量创历史同期新高。拆开看：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;油气当量产量（百万桶）&lt;/td&gt;
+      &lt;td&gt;263.47&lt;/td&gt;
+      &lt;td&gt;262.81&lt;/td&gt;
+      &lt;td&gt;+0.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;原油产量（百万桶）&lt;/td&gt;
+      &lt;td&gt;139.88&lt;/td&gt;
+      &lt;td&gt;140.04&lt;/td&gt;
+      &lt;td&gt;-0.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;——中国&lt;/td&gt;
+      &lt;td&gt;127.68&lt;/td&gt;
+      &lt;td&gt;126.73&lt;/td&gt;
+      &lt;td&gt;+0.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;——海外&lt;/td&gt;
+      &lt;td&gt;12.20&lt;/td&gt;
+      &lt;td&gt;13.31&lt;/td&gt;
+      &lt;td&gt;-8.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;天然气产量（十亿立方英尺）&lt;/td&gt;
+      &lt;td&gt;741.57&lt;/td&gt;
+      &lt;td&gt;736.28&lt;/td&gt;
+      &lt;td&gt;+0.7%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;产量几乎没动，收益却增长21.5%，靠的是价格：原油平均实现售价4,001元/吨，同比涨17.2%。天然气售价反而微降0.7%（2,205元/千立方米）。&lt;/p&gt;
+
+&lt;p&gt;值得注意的是成本端：&lt;strong&gt;油气现金操作成本725.7元/吨，同比只涨1.1%&lt;/strong&gt;，公司解释是高油价时期加大了增产措施。在油价涨29%的背景下把单位成本控制在1%出头的涨幅，这是上游板块的真实功力。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-炼油全篇最大的亮点靠的是航煤&quot;&gt;2. 炼油：全篇最大的亮点，靠的是航煤&lt;/h2&gt;
+
+&lt;p&gt;炼油板块经营收益从35.35亿元跳到170.21亿元，增长381.5%，是这份财报最抓眼球的数字。&lt;/p&gt;
+
+&lt;p&gt;有意思的是，&lt;strong&gt;炼油的产量是下降的&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;原油加工量（百万吨）&lt;/td&gt;
+      &lt;td&gt;113.31&lt;/td&gt;
+      &lt;td&gt;119.97&lt;/td&gt;
+      &lt;td&gt;-5.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;汽柴煤油产量（百万吨）&lt;/td&gt;
+      &lt;td&gt;69.16&lt;/td&gt;
+      &lt;td&gt;71.40&lt;/td&gt;
+      &lt;td&gt;-3.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;化工轻油产量（百万吨）&lt;/td&gt;
+      &lt;td&gt;18.71&lt;/td&gt;
+      &lt;td&gt;22.06&lt;/td&gt;
+      &lt;td&gt;-15.2%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;加工量减了5.6%，利润却涨了近4倍，答案在&lt;strong&gt;炼油毛利&lt;/strong&gt;上：&lt;strong&gt;2026年上半年炼油毛利453元/吨，同比增加139元/吨，增幅44.1%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;毛利改善的来源，半年报点名了三个：航煤、石脑油、炼油副产品毛利大幅好转，抵消了进口原油采购贴水和运费上涨的影响。&lt;/p&gt;
+
+&lt;p&gt;其中航煤（煤油）的价格变化最惊人——炼油事业部煤油平均实现价格6,851元/吨，同比上涨38.0%，而同期汽油只涨5.0%、柴油涨5.1%。中东地缘冲突推高了航油价格，而中国石化恰好是国内最大的航煤生产商，这一涨直接兑现成了利润。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;用大白话说：这个季度炼油厂不是靠多炼油赚钱，是靠炼出来的东西突然更值钱了。&lt;/strong&gt; 这也意味着这部分增长的持续性取决于航煤价差能不能维持——它本质上是地缘事件的产物，而不是公司经营效率的结构性提升。&lt;/p&gt;
+
+&lt;p&gt;不过公司确实也做了努力：拓宽非中东原油采购、根据产品盈利能力优化产品结构、推进「油转化」「油转特」。另一个隐忧是&lt;strong&gt;炼油单位现金操作成本219.6元/吨，同比上升6.3%&lt;/strong&gt;，原因是加工量下降导致单位固定成本被摊高——这是需求下滑传导到成本端的直接体现。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-营销及分销加油站生意正在被慢慢侵蚀&quot;&gt;3. 营销及分销：加油站生意正在被慢慢侵蚀&lt;/h2&gt;
+
+&lt;p&gt;这是唯一一个「量价齐跌」的板块。经营收益56.82亿元，同比减少22.77亿元，下滑28.6%。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;成品油总销量（百万吨）&lt;/td&gt;
+      &lt;td&gt;100.99&lt;/td&gt;
+      &lt;td&gt;112.14&lt;/td&gt;
+      &lt;td&gt;-9.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;境内成品油销量（百万吨）&lt;/td&gt;
+      &lt;td&gt;79.00&lt;/td&gt;
+      &lt;td&gt;87.05&lt;/td&gt;
+      &lt;td&gt;-9.2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;——零售量（百万吨）&lt;/td&gt;
+      &lt;td&gt;49.71&lt;/td&gt;
+      &lt;td&gt;54.53&lt;/td&gt;
+      &lt;td&gt;-8.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;——直销及分销量（百万吨）&lt;/td&gt;
+      &lt;td&gt;29.29&lt;/td&gt;
+      &lt;td&gt;32.52&lt;/td&gt;
+      &lt;td&gt;-9.9%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;分品种看更清楚：汽油销量下降6.6%，柴油下降12.2%。&lt;strong&gt;柴油的跌幅是汽油的近两倍&lt;/strong&gt;，这背后是货运电动化和LNG重卡替代的加速。&lt;/p&gt;
+
+&lt;p&gt;一个直接的佐证藏在同一张表里：&lt;strong&gt;车用天然气销量485.4万吨，同比增长19.5%，销售收入235亿元，同比增长34.4%。&lt;/strong&gt; 中国石化自己也在卖替代品，只是替代品的体量还远远填不上油品的窟窿。&lt;/p&gt;
+
+&lt;p&gt;另外两个信号：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;吨油现金销售费用190.7元/吨，同比上涨2.4%&lt;/strong&gt;，原因同样是销量下滑、单位固定成本上升；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;非油业务利润26.8亿元，同比减少4.1亿元，下滑13.1%&lt;/strong&gt;，其中便利店商品及服务利润25.5亿元（同比减少3.8亿元）。加油站便利店这门被寄予厚望的「第二曲线」，上半年也没能扛住。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;4-化工从大亏到基本打平&quot;&gt;4. 化工：从大亏到基本打平&lt;/h2&gt;
+
+&lt;p&gt;化工事业部经营亏损2.47亿元，比上年同期的42.24亿元亏损收窄了39.77亿元，基本回到盈亏平衡线。&lt;/p&gt;
+
+&lt;p&gt;但这个改善的方式值得注意——&lt;strong&gt;是靠「少生产」实现的&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;产品&lt;/th&gt;
+      &lt;th&gt;2026H1产量（千吨）&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;乙烯&lt;/td&gt;
+      &lt;td&gt;6,394&lt;/td&gt;
+      &lt;td&gt;-15.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;合成树脂&lt;/td&gt;
+      &lt;td&gt;9,205&lt;/td&gt;
+      &lt;td&gt;-16.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;合成纤维单体及聚合物&lt;/td&gt;
+      &lt;td&gt;5,579&lt;/td&gt;
+      &lt;td&gt;+2.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;合成纤维&lt;/td&gt;
+      &lt;td&gt;582&lt;/td&gt;
+      &lt;td&gt;-3.2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;合成橡胶&lt;/td&gt;
+      &lt;td&gt;667&lt;/td&gt;
+      &lt;td&gt;-17.0%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;乙烯产量砍掉15.5%，合成树脂砍掉16.6%。在化工产品毛利持续收窄的环境下，减产、优化装置负荷、降低原料成本，比硬扛着满负荷生产更划算。&lt;/p&gt;
+
+&lt;p&gt;一个亮点是出口：上半年化工产品销售总量3,786万吨，&lt;strong&gt;其中出口同比增长70%，创历史新高&lt;/strong&gt;。国内需求不行，就把产品卖到海外去，这是化工板块减亏的另一条路径。&lt;/p&gt;
+
+&lt;h1 id=&quot;五资产现金流与资本支出&quot;&gt;五、资产、现金流与资本支出&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026年6月30日&lt;/th&gt;
+      &lt;th&gt;2025年12月31日&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总资产（IFRS）&lt;/td&gt;
+      &lt;td&gt;21,972.34亿元&lt;/td&gt;
+      &lt;td&gt;21,534.85亿元&lt;/td&gt;
+      &lt;td&gt;+437.49亿元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总负债&lt;/td&gt;
+      &lt;td&gt;11,943.27亿元&lt;/td&gt;
+      &lt;td&gt;11,666.09亿元&lt;/td&gt;
+      &lt;td&gt;+277.18亿元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;股东应占权益&lt;/td&gt;
+      &lt;td&gt;8,409.01亿元&lt;/td&gt;
+      &lt;td&gt;8,274.63亿元&lt;/td&gt;
+      &lt;td&gt;+134.38亿元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资产负债率&lt;/td&gt;
+      &lt;td&gt;54.27%&lt;/td&gt;
+      &lt;td&gt;54.08%&lt;/td&gt;
+      &lt;td&gt;+0.19个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;流动比率&lt;/td&gt;
+      &lt;td&gt;0.86&lt;/td&gt;
+      &lt;td&gt;0.75&lt;/td&gt;
+      &lt;td&gt;+0.11&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;现金流方面：经营活动净流入624.99亿元（+2.4%），投资活动净流出484.92亿元（上年同期净流出599.68亿元），融资活动净流入84.02亿元，&lt;strong&gt;现金及现金等价物净增加224.09亿元&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;资本支出上半年487亿元&lt;/strong&gt;，其中勘探及开发284亿元（占58%）、化工98亿元、炼油69亿元、营销及分销24亿元、总部及其他12亿元。&lt;/p&gt;
+
+&lt;p&gt;钱花在哪里，就是公司押注在哪里——&lt;strong&gt;近六成资本开支投向上游油气增储上产&lt;/strong&gt;，而正在萎缩的营销及分销板块只分到24亿元，占比不到5%。&lt;/p&gt;
+
+&lt;h1 id=&quot;六亮点与隐忧&quot;&gt;六、亮点与隐忧&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;三个亮点：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;炼油板块的利润弹性被验证了。&lt;/strong&gt; 在加工量下降5.6%的情况下，靠产品结构（航煤、石脑油、副产品）把毛利做到453元/吨，经营收益接近翻两番。这说明公司的产品结构调整能力是真实的。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;化工止血成功。&lt;/strong&gt; 从亏42亿到基本打平，靠的是减产保价、降低原料成本、出口增长70%——三条路径都有实质动作，不是靠会计处理。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;上游成本控制扎实。&lt;/strong&gt; 油价涨29%，油气现金操作成本只涨1.1%。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;三个隐忧：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;成品油需求下滑是结构性的，不是周期性的。&lt;/strong&gt; 境内成品油消费量同比下降8.6%，柴油下降11.5%。这背后是新能源汽车替代和货运电动化，油价回落也救不回来。中国石化31,278座加油站构成的最大资产，正在从现金牛缓慢变成需要转型的负担。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;炼油的高利润依赖地缘事件。&lt;/strong&gt; 航煤价格上涨38%源于中东地缘冲突，一旦局势缓和、航煤价差回归，炼油板块170亿元的经营收益很难维持。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;「其他费用净额」290亿元的负向摆动缺乏解释。&lt;/strong&gt; 这一项吞掉了本可以更亮眼的业绩，半年报未披露具体构成，需要在后续披露中跟踪。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;七展望&quot;&gt;七、展望&lt;/h1&gt;
+
+&lt;p&gt;公司在半年报里给出了下半年的量化计划，这是判断后续业绩的重要参照：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;2026年下半年计划&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;原油产量&lt;/td&gt;
+      &lt;td&gt;141.83百万桶&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;天然气产量&lt;/td&gt;
+      &lt;td&gt;7,462.57亿立方英尺&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;原油加工量&lt;/td&gt;
+      &lt;td&gt;1.13亿吨&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;境内成品油经销量&lt;/td&gt;
+      &lt;td&gt;7,768万吨&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;乙烯产量&lt;/td&gt;
+      &lt;td&gt;680万吨&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资本支出&lt;/td&gt;
+      &lt;td&gt;829亿至999亿元&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;几点解读：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;原油加工量计划1.13亿吨，与上半年持平&lt;/strong&gt;，说明公司预期下半年炼油需求不会进一步恶化，但也不指望反弹；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;境内成品油经销量计划7,768万吨，低于上半年的7,900万吨&lt;/strong&gt;，公司自己就没打算把销量做回去；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;乙烯计划680万吨，高于上半年的639.4万吨&lt;/strong&gt;，化工负荷会有所回升；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;下半年资本支出829亿至999亿元，是上半年487亿元的1.7至2倍&lt;/strong&gt;，其中勘探及开发439亿元仍是大头。全年资本支出可能落在1,316亿至1,486亿元区间。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对市场环境，公司的判断是：境内天然气需求保持增长，化工产品需求疲弱，成品油需求持续受可替代能源影响；综合考虑地缘政治、全球供需和库存变化，&lt;strong&gt;预计国际原油价格仍面临较大不确定性&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;总结：&lt;/strong&gt; 这份半年报交出了19.3%的归母净利增长，质量不差——上游成本可控、炼油结构优化、化工止血、经营现金流624.99亿元覆盖了487亿元的资本开支。但真正的挑战不在这半年的数字里：&lt;strong&gt;当汽油卖不动、柴油跌两位数、加油站便利店也开始下滑时，中国石化最坚固的那块下游资产正在被时代慢慢改写。&lt;/strong&gt; 上半年靠航煤和地缘溢价赚到的钱，是不是能买来足够的转型时间，这才是接下来几年真正的看点。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;一手信息（官方原文）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;中国石化《2026年半年度报告》全文（上海证券交易所/巨潮资讯网披露，2026年8月23日）：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-24/1225493867.PDF&quot;&gt;http://static.cninfo.com.cn/finalpage/2026-08-24/1225493867.PDF&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;中国石化《2026年半年度报告摘要》：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-24/1225493838.PDF&quot;&gt;http://static.cninfo.com.cn/finalpage/2026-08-24/1225493838.PDF&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;中国石化投资者关系页面：&lt;a href=&quot;http://www.sinopec.com/listco/&quot;&gt;http://www.sinopec.com/listco/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;巨潮资讯网中国石化公告检索：&lt;a href=&quot;http://www.cninfo.com.cn/&quot;&gt;http://www.cninfo.com.cn/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（仅用于交叉验证发布时间与市场背景）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;新浪财经《中国石化上半年归母净利润同比增长19.3%》：&lt;a href=&quot;https://cj.sina.com.cn/articles/view/2311077472/89c03e6002002n6lm&quot;&gt;https://cj.sina.com.cn/articles/view/2311077472/89c03e6002002n6lm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;TradingView 转载 Sinopec FY2026 Interim Results 新闻稿：&lt;a href=&quot;https://www.tradingview.com/news/eqs:03ac8c05e094b:0-en-press-release-sinopec-fy2026-interim-results/&quot;&gt;https://www.tradingview.com/news/eqs:03ac8c05e094b:0-en-press-release-sinopec-fy2026-interim-results/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本文所有财务数据与经营数据均以中国石化2026年半年度报告原文为准。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Aug 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/24/sinopec_2026h1_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/24/sinopec_2026h1_earnings/</guid>
+        
+        <category>中国石化</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>中航成飞2026年半年报——营收151.67亿同比下滑26.74%，归母净利7.09亿同比下滑22.32%，但毛利率逆势提升2.34个百分点、存货增至292亿</title>
+        <description>&lt;p&gt;2026年8月23日，&lt;a href=&quot;http://www.avicac.com/&quot;&gt;中航成飞股份有限公司&lt;/a&gt;（302132.SZ）披露2026年半年度报告。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;上半年实现营业收入151.67亿元，同比下降26.74%；归属于上市公司股东的净利润7.09亿元，同比下降22.32%；扣除非经常性损益后的归母净利润6.51亿元，同比下降23.85%；基本每股收益0.2654元，同比下降22.31%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一份乍看很难看、细看却另有故事的半年报。&lt;/p&gt;
+
+&lt;p&gt;营收砍掉四分之一，利润跌两成——如果只看这两个数字，可以直接归类为「业绩暴雷」。但同一份报告里还有另外三个数字：&lt;strong&gt;综合毛利率从8.90%提升到11.04%，存货从243.59亿元涨到292.33亿元，研发投入同比增长29.63%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;一个正在缩量的生意，通常不会同时提毛利、加库存、加研发。所以这份财报的真问题不是「需求塌了吗」，而是「交付节奏出了什么变化」。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;p&gt;中航成飞是中国航空工业集团旗下的上市平台，注册地在陕西省，法定代表人隋少春，总股本26.72亿股。&lt;/p&gt;
+
+&lt;p&gt;半年报披露，公司变更前的股票简称是「中航电测」，2023年启动收购成都飞机工业（集团）有限责任公司100%股权的重大资产重组项目，重组完成后更名为中航成飞；原中航电测的仪器业务，如今是公司的全资子公司。&lt;strong&gt;简单说，这是一家做航空电测仪器的上市公司，把中国最重要的战斗机总装厂装进了自己的报表。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;半年报里公司这样描述自己（原文引述）：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;中航成飞隶属于中国航空工业集团，是我国航空装备研制生产「国家队」，航空整机研制生产和出口主要基地，民机大部件重要制造商，专业化航空维修保障基地，智能测控产品及系统解决方案提供商。先后研制出歼-10，歼-20等主战装备，以及多系列无人机和「文鳐」无人智慧管控系统，配套多型军、民用大飞机机头研制、生产，具备航空装备「研、产、试、修、服」全链条核心能力。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;翻译成大白话：&lt;strong&gt;这是歼-20和歼-10的总装厂上市了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;公司把业务分成六大产业：武器装备、民用航空、军品贸易（军贸）、维修服务、空天网信、现代制造服务。从收入结构看高度集中——上半年「航空产品」一项就贡献了143.77亿元收入，占总营收的94.8%。&lt;/p&gt;
+
+&lt;p&gt;理解这类公司要抓住一个特点：&lt;strong&gt;它的收入不由市场需求决定，而由交付节点决定。&lt;/strong&gt; 军品采取直销模式，「依据客户采购计划和审定的价格制订相应的产品交付计划并进行销售」。这意味着单个季度、甚至单个半年的收入，取决于这期间验收交付了多少架飞机，而不取决于这半年市场想买多少架。&lt;/p&gt;
+
+&lt;p&gt;这一点是读懂后面所有数字的前提。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业收入&lt;/td&gt;
+      &lt;td&gt;151.67亿元&lt;/td&gt;
+      &lt;td&gt;207.02亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-26.74%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业成本&lt;/td&gt;
+      &lt;td&gt;134.92亿元&lt;/td&gt;
+      &lt;td&gt;188.59亿元&lt;/td&gt;
+      &lt;td&gt;-28.46%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;综合毛利率（测算）&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;11.04%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;8.90%&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+2.14个百分点&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利润&lt;/td&gt;
+      &lt;td&gt;7.09亿元&lt;/td&gt;
+      &lt;td&gt;9.13亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-22.32%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扣非归母净利润&lt;/td&gt;
+      &lt;td&gt;6.51亿元&lt;/td&gt;
+      &lt;td&gt;8.55亿元&lt;/td&gt;
+      &lt;td&gt;-23.85%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利率（测算）&lt;/td&gt;
+      &lt;td&gt;4.67%&lt;/td&gt;
+      &lt;td&gt;4.41%&lt;/td&gt;
+      &lt;td&gt;+0.26个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基本每股收益&lt;/td&gt;
+      &lt;td&gt;0.2654元&lt;/td&gt;
+      &lt;td&gt;0.3416元&lt;/td&gt;
+      &lt;td&gt;-22.31%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流净额&lt;/td&gt;
+      &lt;td&gt;-72.44亿元&lt;/td&gt;
+      &lt;td&gt;-76.64亿元&lt;/td&gt;
+      &lt;td&gt;净流出收窄5.47%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;注：综合毛利率与净利率为根据半年报披露的营业收入、营业成本、归母净利润测算，非公司直接披露口径。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这张表里最重要的一行是毛利率。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;收入降了26.74%，成本降了28.46%，成本降得比收入更快。&lt;/strong&gt; 公司在半年报中给出的解释是：「毛利率同比增加，主要系公司持续推进提质增效，提升运营效率，盈利水平有所改善。」&lt;/p&gt;
+
+&lt;p&gt;分产品口径也印证了同一件事：&lt;strong&gt;航空产品收入143.77亿元、同比下降27.91%，营业成本下降29.74%，毛利率10.11%、同比提升2.34个百分点。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;对军工整机厂而言，毛利率的绝对数字（10%出头）并不高——这是定价机制决定的，成本加成的定价模式天然把毛利率压在低位。所以这类公司的毛利率&lt;strong&gt;变动方向&lt;/strong&gt;比绝对水平更有信息量：&lt;strong&gt;能在收入大幅下滑、单位固定成本必然被摊高的情况下把毛利率做上去2个多点，说明成本端确实做出了实质改善。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;再看几笔费用：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+      &lt;th&gt;2025H1&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售费用&lt;/td&gt;
+      &lt;td&gt;0.49亿元&lt;/td&gt;
+      &lt;td&gt;0.46亿元&lt;/td&gt;
+      &lt;td&gt;+6.82%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;管理费用&lt;/td&gt;
+      &lt;td&gt;5.38亿元&lt;/td&gt;
+      &lt;td&gt;5.62亿元&lt;/td&gt;
+      &lt;td&gt;-4.31%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;财务费用&lt;/td&gt;
+      &lt;td&gt;0.18亿元&lt;/td&gt;
+      &lt;td&gt;-0.73亿元&lt;/td&gt;
+      &lt;td&gt;由收益转为支出&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;研发投入&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;2.76亿元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;2.13亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+29.63%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;所得税费用&lt;/td&gt;
+      &lt;td&gt;1.80亿元&lt;/td&gt;
+      &lt;td&gt;2.00亿元&lt;/td&gt;
+      &lt;td&gt;-10.10%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;两点值得注意：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;研发投入逆势增长29.63%&lt;/strong&gt;，公司解释是「本期研发项目同比增加」。收入下滑时还在加码研发，是典型的向上周期蓄力动作，而不是收缩动作。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;财务费用由上年同期的净收益0.73亿元变成净支出0.18亿元&lt;/strong&gt;，公司解释是利息收入同比减少——这直接对应了货币资金从217.91亿元降到131.75亿元。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;三把半年拆成两个季度问题才看得清&quot;&gt;三、把半年拆成两个季度，问题才看得清&lt;/h1&gt;
+
+&lt;p&gt;单看半年报很容易误判。把一季报的数据接上，画面会完全不同。&lt;/p&gt;
+
+&lt;p&gt;公司2026年一季报披露：一季度营业收入59.46亿元，&lt;strong&gt;同比增长79.71%&lt;/strong&gt;；归属于母公司所有者的净利润1.93亿元（上年同期1.56亿元）。当时公司给出的解释是「本期产品交付增加，销售规模提升」。&lt;/p&gt;
+
+&lt;p&gt;用半年数据减去一季度数据，可以倒推出二季度单季情况：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026Q1&lt;/th&gt;
+      &lt;th&gt;2026Q2（测算）&lt;/th&gt;
+      &lt;th&gt;2026H1&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业收入&lt;/td&gt;
+      &lt;td&gt;59.46亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;92.21亿元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;151.67亿元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;上年同期营收&lt;/td&gt;
+      &lt;td&gt;33.09亿元&lt;/td&gt;
+      &lt;td&gt;173.93亿元&lt;/td&gt;
+      &lt;td&gt;207.02亿元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收同比&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+79.71%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;约-47.0%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;-26.74%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利润&lt;/td&gt;
+      &lt;td&gt;1.93亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;5.16亿元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;7.09亿元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;上年同期归母净利&lt;/td&gt;
+      &lt;td&gt;1.56亿元&lt;/td&gt;
+      &lt;td&gt;7.56亿元&lt;/td&gt;
+      &lt;td&gt;9.13亿元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利同比&lt;/td&gt;
+      &lt;td&gt;+23.16%&lt;/td&gt;
+      &lt;td&gt;约-31.7%&lt;/td&gt;
+      &lt;td&gt;-22.32%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;注：2026Q2数据为用半年报数据减去一季报数据测算，公司未单独披露单季数据。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这张表说明了两件事：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，问题出在二季度。&lt;/strong&gt; 一季度还在同比大涨80%，二季度单季营收同比就掉了约47%。全半年-26.74%的降幅，完全是二季度造成的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，2025年二季度是个高基数。&lt;/strong&gt; 去年二季度单季营收173.93亿元，是去年一季度的5.3倍，全年节奏严重后置。今年一季度提前放量（+79.71%），二季度自然显得很难看。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;所以更合理的解读是：交付节奏在两年之间发生了错位，而不是需求突然消失。&lt;/strong&gt; 军工整机的验收交付本来就集中在特定节点，季度间波动极大，用同比看单季往往会得出错误结论。&lt;/p&gt;
+
+&lt;p&gt;当然，也不能因此说降幅完全没有意义——即便把两个季度合起来看，上半年整体仍然少交付了四分之一的产品，这个缺口需要下半年补回来。而它能不能补回来，答案藏在资产负债表里。&lt;/p&gt;
+
+&lt;h1 id=&quot;四资产负债表里的信号存货在涨应收在收&quot;&gt;四、资产负债表里的信号：存货在涨，应收在收&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;2026年6月30日&lt;/th&gt;
+      &lt;th&gt;2025年12月31日&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;货币资金&lt;/td&gt;
+      &lt;td&gt;131.75亿元&lt;/td&gt;
+      &lt;td&gt;217.91亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-39.5%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;应收账款&lt;/td&gt;
+      &lt;td&gt;163.49亿元&lt;/td&gt;
+      &lt;td&gt;222.46亿元&lt;/td&gt;
+      &lt;td&gt;-26.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;合同资产&lt;/td&gt;
+      &lt;td&gt;146.73亿元&lt;/td&gt;
+      &lt;td&gt;126.48亿元&lt;/td&gt;
+      &lt;td&gt;+16.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;存货&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;292.33亿元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;243.59亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+20.0%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;固定资产&lt;/td&gt;
+      &lt;td&gt;109.34亿元&lt;/td&gt;
+      &lt;td&gt;111.01亿元&lt;/td&gt;
+      &lt;td&gt;-1.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;在建工程&lt;/td&gt;
+      &lt;td&gt;10.04亿元&lt;/td&gt;
+      &lt;td&gt;7.58亿元&lt;/td&gt;
+      &lt;td&gt;+32.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;短期借款&lt;/td&gt;
+      &lt;td&gt;48.27亿元&lt;/td&gt;
+      &lt;td&gt;36.33亿元&lt;/td&gt;
+      &lt;td&gt;+32.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;合同负债&lt;/td&gt;
+      &lt;td&gt;30.00亿元&lt;/td&gt;
+      &lt;td&gt;27.96亿元&lt;/td&gt;
+      &lt;td&gt;+7.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总资产&lt;/td&gt;
+      &lt;td&gt;1,075.13亿元&lt;/td&gt;
+      &lt;td&gt;1,145.48亿元&lt;/td&gt;
+      &lt;td&gt;-6.14%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净资产&lt;/td&gt;
+      &lt;td&gt;208.92亿元&lt;/td&gt;
+      &lt;td&gt;212.09亿元&lt;/td&gt;
+      &lt;td&gt;-1.49%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这张表里有三条线索：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;线索一：存货增加48.74亿元，公司明确说明是「生产备货增加」。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;存货占总资产的比重从21.27%升到27.19%。对制造业来说，存货大增通常是危险信号（卖不动、积压）；但对按订单生产、交付节点固定的军工整机厂来说，含义正好相反——&lt;strong&gt;产线在往前跑，只是产品还没到验收交付的时点。&lt;/strong&gt; 292亿元的存货，相当于把未来的收入先攒在了库房里。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;线索二：货币资金减少86.16亿元，应收账款减少58.97亿元。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;货币资金大幅下降，公司解释是「本期支付供应商货款较多」。这和存货增加是同一件事的两面：&lt;strong&gt;公司把现金花出去买了原材料和零部件，变成了在制品。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;同时，应收账款从222.46亿元降到163.49亿元，降幅26.5%——回款在改善。上半年经营活动现金流净流出72.44亿元，虽然仍是大额净流出，但比上年同期的净流出76.64亿元有所收窄。&lt;/p&gt;
+
+&lt;p&gt;军工企业上半年经营现金流为负是常态：全年的回款集中在下半年尤其是四季度，而采购付款和生产投入是全年均匀发生的。所以这个负数本身不值得惊慌，值得关注的是它同比是收窄还是扩大——今年是收窄。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;线索三：在建工程增加32.4%，短期借款增加32.9%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;在建工程增长意味着产能建设在推进；短期借款上升则是因为现金消耗在生产备货上，需要补充流动性。两者合起来，指向的仍是「扩产备货」而不是「收缩」。&lt;/p&gt;
+
+&lt;h1 id=&quot;五业务进展军贸无人机与商业空天&quot;&gt;五、业务进展：军贸、无人机与商业空天&lt;/h1&gt;
+
+&lt;p&gt;半年报的核心竞争力章节披露了几个具体的业务动作，这些是判断中长期空间的线索：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;军贸方面：&lt;/strong&gt; 公司表示「深挖歼-10CE、枭龙等明星产品潜力，持续推进市场推广及客户需求对接」。歼-10CE是歼-10C的出口型号。半年报同时判断行业环境为「我国航空装备综合实力获得国际认可，军贸产品市场需求持续攀升」。军贸是这家公司区别于纯内需军工标的的关键变量——它的定价和毛利结构与国内军品采购完全不同。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;无人机方面：&lt;/strong&gt; 公司披露「文鳐」无人智慧管控系统携「云影-25V」无人机亮相2026年央视春晚，可利用氢能、锂电、太阳能的「三能一体」无人机完成首飞，同时在民用领域拓展智慧交通、巡线巡检等公共服务场景。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;商业空天方面：&lt;/strong&gt; 公司表示「有序推进昊龙货运航天飞机研制任务」。半年报对行业的判断是，可回收航天器正从技术验证阶段转向「航天器交付与商业化运营服务阶段」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;民用航空方面：&lt;/strong&gt; 公司是「民机大部件重要制造商」，配套多型军、民用大飞机机头研制生产。半年报判断，随着波音、空客加快主力机型产能爬坡，全球航空供应链迎来结构性重构，「航空零部件转包业务需求维持稳健增长」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;技术方面：&lt;/strong&gt; 报告期内新增授权发明专利200余项，新增发布国家标准9项、行业标准3项，工业母机两型产品入选工信部2026年度创新产品典型案例，并筹建国家高端航空装备技术创新中心粤港澳大湾区分中心。&lt;/p&gt;
+
+&lt;h1 id=&quot;六亮点与隐忧&quot;&gt;六、亮点与隐忧&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;三个亮点：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;盈利质量在改善。&lt;/strong&gt; 收入下滑26.74%的同时，毛利率提升2.14个百分点、净利率提升0.26个百分点。这是「降本增效」四个字真正落到报表上的样子。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;存货292.33亿元、同比增长20%，是最重要的前瞻指标。&lt;/strong&gt; 生产备货在增加，说明产线负荷没有下降，未来的交付有物质基础。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;回款改善、现金流净流出收窄、研发投入增长29.63%。&lt;/strong&gt; 三个信号方向一致，都不支持「经营恶化」的解读。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;三个隐忧：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;二季度单季营收同比下滑约47%，降幅不小。&lt;/strong&gt; 即使解释为交付节奏错位，上半年少确认的55.35亿元收入缺口也需要下半年真实补回来。「节奏后移」和「交付减少」在半年报上长得一模一样，只有下半年的数字能把两者区分开。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;货币资金半年减少86.16亿元、降幅39.5%，同时短期借款增加32.9%。&lt;/strong&gt; 现金消耗速度较快，虽然对应的是存货增加（属于「花在生产上」），但若下半年交付回款不及预期，资金压力会显现。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;收入高度依赖单一客户和单一品类。&lt;/strong&gt; 航空产品占营收94.8%，采取直销模式、按客户采购计划交付。这决定了公司的短期业绩基本不受自身控制，波动只能被动接受。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;七展望与总结&quot;&gt;七、展望与总结&lt;/h1&gt;
+
+&lt;p&gt;半年报没有给出下半年的量化经营指引（这是军工企业的普遍做法，涉及涉密信息）。可以依据的判断线索有三条：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;存货292.33亿元 + 合同资产146.73亿元&lt;/strong&gt;，合计439亿元，构成下半年收入确认的物质基础；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;合同负债30.00亿元，环比增长7.3%&lt;/strong&gt;，说明预收款仍在小幅增加；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;历史节奏上，公司收入和回款高度集中在下半年&lt;/strong&gt;（2025年二季度单季营收就是一季度的5.3倍）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;总结：&lt;/strong&gt; 这份半年报的表象是「营收利润双降」，实质是「交付节奏后移 + 经营效率提升」。真正需要盯住的不是上半年少了多少收入，而是&lt;strong&gt;292亿元的存货能不能在下半年顺利转成交付和回款&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;对普通读者来说，理解这类公司最有用的一句话是：&lt;strong&gt;看军工整机厂的半年报，营收是节奏，毛利率是能力，存货是未来。&lt;/strong&gt; 这三项里，中航成飞上半年输掉了节奏，赢下了能力，攒住了未来。三季报会给出更明确的答案。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;一手信息（官方原文）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;中航成飞《2026年半年度报告》全文（深圳证券交易所/巨潮资讯网披露，2026年8月23日）：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-24/1225492489.PDF&quot;&gt;http://static.cninfo.com.cn/finalpage/2026-08-24/1225492489.PDF&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;中航成飞《2026年半年度报告摘要》：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-24/1225492488.PDF&quot;&gt;http://static.cninfo.com.cn/finalpage/2026-08-24/1225492488.PDF&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;中航成飞《2026年一季度报告》（用于测算二季度单季数据）：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-04-29/1225250593.PDF&quot;&gt;http://static.cninfo.com.cn/finalpage/2026-04-29/1225250593.PDF&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;巨潮资讯网公告检索：&lt;a href=&quot;http://www.cninfo.com.cn/&quot;&gt;http://www.cninfo.com.cn/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（仅用于交叉验证公开背景）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;证券时报《中航成飞2025年营收净利双增，经营质量与回报能力同步提升》：&lt;a href=&quot;https://www.stcn.com/article/detail/3854381.html&quot;&gt;https://www.stcn.com/article/detail/3854381.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本文所有财务数据均以中航成飞2026年半年度报告及2026年一季度报告原文为准；文中标注「测算」的指标为根据原文披露数据推算，非公司直接披露口径。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Aug 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/24/avicchengfei_2026h1_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/24/avicchengfei_2026h1_earnings/</guid>
+        
+        <category>中航成飞</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
         
       </item>
     
@@ -2241,433 +3326,6 @@
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/22/citicsecurities_2026h1_earnings/</guid>
         
         <category>中信证券</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>贝壳2026Q2电话会——彭永东谈AI不是装上去的，CFO说下半年经营「不依赖市场事件」</title>
-        <description>&lt;p&gt;美东时间2026年8月21日上午8点（北京时间8月21日晚8点），贝壳（KE Holdings，NYSE: BEKE，HKEX: 2423）召开2026年第二季度业绩电话会。&lt;/p&gt;
-
-&lt;p&gt;出席管理层：&lt;strong&gt;董事长兼CEO彭永东、执行董事兼CFO徐涛&lt;/strong&gt;。提问机构包括高盛、瑞银、中金、里昂证券、中信证券。&lt;/p&gt;
-
-&lt;p&gt;这场电话会的背景是一份”收入下滑、利润翻倍”的财报（详见同日发布的财报解读）。所以整场会的核心问题只有一个：&lt;strong&gt;这种利润改善，是真本事还是一次性的？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;一cfo徐涛的开场把利润拆成三块&quot;&gt;一、CFO徐涛的开场：把利润拆成三块&lt;/h1&gt;
-
-&lt;p&gt;徐涛开场就点破了这个季度的特征：&lt;strong&gt;“我们的总GTV恢复增长。尽管收入同比小幅下滑，利润却大幅增长。”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;他给的关键数字：非GAAP净利润同比增长74.9%至31.85亿元，非GAAP净利率13%、同比提升600个基点，毛利率提升670个基点至28.6%，GAAP经营费用同比下降14.1%，&lt;strong&gt;经营性现金流净额66.1亿元&lt;/strong&gt;——这个数字是净利润（26.24亿元）的2.5倍，是整场电话会里被忽略但含金量最高的一个。&lt;/p&gt;
-
-&lt;p&gt;分业务上他补充了两个财报正文没有的数字：省心租管理房源量同比增长34%至79万套以上；家装的贡献利润率提升到39.6%。&lt;/p&gt;
-
-&lt;h1 id=&quot;二ceo彭永东五个自问自答&quot;&gt;二、CEO彭永东：五个自问自答&lt;/h1&gt;
-
-&lt;p&gt;彭永东没有按常规讲业务，而是抛了五个问题自己回答，本质上是在回应市场对贝壳最深的疑虑。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;问题一：什么叫精细化运营？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;他举了租赁业务的例子：过去靠增加人手扩规模，现在改成按经纪人对片区的熟悉度重新分配任务，结果&lt;strong&gt;单个经纪人的季度成交从2单提升到5.6单&lt;/strong&gt;。他把这概括为”从一刀切的打法，转向分区域、分项目的策略”（from the one-size-fits-all approach to the district-specific and project-specific strategies）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;问题二：以客户为中心，是不是要牺牲经纪人？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这是行业里最敏感的问题——平台强调客户体验，通常意味着压佣金。彭永东明确否认了这种零和逻辑，说平台要做的是”创造更多高价值任务”，方法是把一笔交易拆解成不同的任务模块。他举了新设的&lt;strong&gt;“客户经理”（client manager）&lt;/strong&gt;角色：这个岗位的收入不与成交挂钩，专门负责前端服务，结果&lt;strong&gt;从线索到带看的转化率做到7.4%，而市场平均水平是5%&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;问题三：AI会不会让经纪人变得多余？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;彭永东的回答很有意思：AI贬值的是”静态信息”，抬高的是”稀缺的专业判断”。&lt;strong&gt;“行业的价值来自于消除不确定性”&lt;/strong&gt;——当专业人士”敢于做判断、敢于承担责任”时，他们反而更值钱。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;问题四：AI到底怎么用？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;他强调AI”是一个直接变量”，需要组织重新生长，而不是把AI”装上去”就行（requiring organizational regrowing, not installation）。具体的变化是管理颗粒度：&lt;strong&gt;“从管理平均值，转向管理每一套房、每一个客户、每一个经纪人。”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;问题五：怎么算成功？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;彭永东列了三个重投入方向：深度服务、深度数据、平台生态。同时他主动提醒——&lt;strong&gt;不要把二季度的结果线性外推，这”只是一个开始”&lt;/strong&gt;，还需要在消费者体验、经纪人成长、运营效率、单位经济模型、跨城市可复制性这几个维度上持续验证。&lt;/p&gt;
-
-&lt;p&gt;这句提醒值得投资者认真对待：管理层自己都不认为这个利润率可以直接年化。&lt;/p&gt;
-
-&lt;h1 id=&quot;三分析师问答五个最有信息量的问题&quot;&gt;三、分析师问答：五个最有信息量的问题&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Q1（高盛 Timothy Zhao）：市场量价分化明显，三季度公司有哪些可控的抓手？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;徐涛答：一线城市恢复更快，房价累计上涨3.6%。可控的有三件事——一是按业绩表现分配资源，抓高线城市的结构性机会；二是保持财务纪律，用”更精简的成本结构”对冲市场波动；三是通过应收账款管理保护现金流和资产负债表。&lt;/p&gt;
-
-&lt;p&gt;他的收尾是全场最关键的一句：&lt;strong&gt;“我们下半年的经营不会依赖市场事件。”&lt;/strong&gt;（Our second half operations will not rely on market events.）意思很直白：别指望政策刺激，我们靠自己。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Q2（瑞银 John Lam）：利润为什么能大幅跑赢收入？这种改善可持续吗？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这是所有人最想问的。徐涛拆成三个来源：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;此前结构性优化留下的&lt;strong&gt;更低的成本基线&lt;/strong&gt;，降低了固定人力成本和盈亏平衡点；&lt;/li&gt;
-  &lt;li&gt;房产交易主业的&lt;strong&gt;运营效率提升&lt;/strong&gt;（优质房源优先展示、门店支持精细化）；&lt;/li&gt;
-  &lt;li&gt;新业务的&lt;strong&gt;单位经济模型改善&lt;/strong&gt;（集中采购、产品结构调整）。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;关于可持续性，他的措辞很谨慎：”更低的成本基线会继续支撑利润”，但营销和渠道成本会有季节性波动，公司关注的是”收入和利润的平衡增长”，不建议根据单季度外推。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Q3（中金 张晓丹）：二手房增长，到底是市场回暖还是公司自己的能力？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;彭永东把内外因分得很清楚：市场回暖”提供了基础”，但超额部分来自内部——&lt;strong&gt;不是靠扩网络，而是靠稳定网络里的单位产能提升&lt;/strong&gt;。数据支撑：经纪人数量基本稳定的情况下，交易量同比增长近25%；单个连接门店的平均成交量提升26%；非链家的平台服务收入增长27.8%，跑赢GTV增速。&lt;/p&gt;
-
-&lt;p&gt;他的总结是：&lt;strong&gt;“网络正在从扩张转向高质量运营。”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Q4（里昂 Alvin）：新房业务的驱动力是什么？如何平衡增长、利润、回款和信用风险？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;徐涛说新房正在从”交易渠道”转向”以客户为中心的项目全周期服务”，具体建了三种能力：用二手房数据和搜索行为更早捕捉需求；把楼盘属性转化为可比较的指标（3D呈现、户型分析）；以及带客户反馈闭环的端到端项目运营。&lt;/p&gt;
-
-&lt;p&gt;但他强调这些还”处于早期验证阶段”，需要”可持续的验证”才能规模化。关于风险，他的表态是：&lt;strong&gt;公司不会”为了扩大GTV而承担不合理的风险”&lt;/strong&gt;，优先级是”高质量的收入、健康的盈利能力和强劲的现金回款”。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Q5（中信证券 Griffin）：家装收入为什么大跌？什么时候恢复？省心租的盈利能持续吗？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;家装部分，徐涛给了两个原因：一是主动退出低效渠道和城市（调整”目前已基本完成”），二是新房交付量减少带来的需求压力，同时同行价格战加剧。他的态度很硬：&lt;strong&gt;“我们不会用盈利去换规模。”&lt;/strong&gt;（We will not trade profitably for scale.）收入恢复要看前端指标向施工周期的转化——他提到7月的到店量环比已有改善。&lt;/p&gt;
-
-&lt;p&gt;省心租部分，可持续性取决于三件事：管理房源量稳定下来以降低空置再出租成本；效率提升摊薄单套人力（二季度单个资产管理师管理房源数同比增长40%至170套）；提高轻资产产品占比。续约数据也很关键：&lt;strong&gt;业主续约率74%（同比+4个百分点），租客续约率56%（同比+1个百分点）&lt;/strong&gt;。他的结论是：”只有当服务体验、续约和效率形成正向循环时，盈利才是可持续的。”&lt;/p&gt;
-
-&lt;h1 id=&quot;四回购h1花了46亿美元&quot;&gt;四、回购：H1花了4.6亿美元&lt;/h1&gt;
-
-&lt;p&gt;管理层专门披露了回购进度：二季度回购2.5亿美元，上半年合计4.6亿美元、同比增长14%，相当于2025年末总股本的2.4%。自2022年启动回购计划以来累计回购29.9亿美元，相当于计划启动前总股本的14.8%。&lt;/p&gt;
-
-&lt;p&gt;这是贝壳第一次在港股市场执行回购，某种程度上是对港股流动性的一次表态。&lt;/p&gt;
-
-&lt;h1 id=&quot;五解读这场电话会真正说了什么&quot;&gt;五、解读：这场电话会真正说了什么&lt;/h1&gt;
-
-&lt;p&gt;把五个自问自答和五个提问串起来，管理层传递的其实是三条信息：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，利润改善是结构性的，但幅度不可外推。&lt;/strong&gt; 成本基线下降是永久性的，但二季度的同比基数特别低（去年同期净利润只有13.07亿元）。管理层两次主动提醒不要线性外推，态度相当克制。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，贝壳把自己重新定义成一家”效率公司”。&lt;/strong&gt; 从”开更多店、招更多人”到”同样的人做更多单”，从管理平均值到管理每一套房。所有披露的运营指标——人均成交2单到5.6单、单店成交+26%、单资产管理师170套、转化率7.4%——都指向同一件事。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，新业务的故事换了讲法。&lt;/strong&gt; 家装和租赁不再是”第二增长曲线”，而是”要先证明单位经济模型成立的业务”。”不会用盈利换规模”这句话，等于把过去三年的扩张逻辑正式翻篇。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;留下的问题&lt;/strong&gt;也很清楚：当成本已经压到位、基数效应用完之后，2027年的利润增长靠什么？管理层给的答案是AI和新角色带来的效率再提升，但正如彭永东自己说的，这”只是一个开始”，需要跨城市、跨场景的可复制性来验证。&lt;/p&gt;
-
-&lt;p&gt;财报和电话会后，贝壳美股盘前一度上涨约5%至17.88美元——市场显然更看重利润率的扩张和现金生成能力，而暂时接受了收入的下滑。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;电话会实录（一手）：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-ke-holdings-posts-profit-surge-in-q2-2026-as-stock-rises-93CH-4871723&quot;&gt;Earnings call transcript — KE Holdings posts profit surge in Q2 2026 as stock rises（Investing.com 完整电话会实录）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investors.ke.com/&quot;&gt;贝壳投资者关系官网（含电话会音频回放）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;财报原文：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.globenewswire.com/news-release/2026/08/21/3348955/0/en/ke-holdings-inc-announces-second-quarter-2026-unaudited-financial-results.html&quot;&gt;KE Holdings Inc. Announces Second Quarter 2026 Unaudited Financial Results（业绩新闻稿全文）&lt;/a&gt; — 2026年8月21日&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（仅用于股价反应等背景补充）：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://finance.yahoo.com/real-estate/articles/ke-holdings-inc-beke-q2-190207399.html&quot;&gt;KE Holdings Inc (BEKE) Q2 2026 Earnings Call Highlights — Yahoo Finance&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;注：本文中管理层引述的中文为译文，括号内附英文原句；财务数字以贝壳官方业绩新闻稿为准。&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 22 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/22/beike_2026q2_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/22/beike_2026q2_earnings_call/</guid>
-        
-        <category>贝壳</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>贝壳2026Q2——营收245亿同比下滑5.7%，净利润却翻倍到26.2亿，毛利率暴涨6.7个百分点</title>
-        <description>&lt;p&gt;美东时间2026年8月21日盘前（北京时间8月21日晚），&lt;a href=&quot;https://investors.ke.com/&quot;&gt;贝壳&lt;/a&gt;（KE Holdings，NYSE: BEKE，HKEX: 2423）发布2026年第二季度未经审计财报。&lt;/p&gt;
-
-&lt;p&gt;这是一份读起来有点”分裂”的财报：&lt;strong&gt;平台上成交的房子更多了（GTV同比增长6.3%），公司收到的钱却更少了（营收同比下滑5.7%），但赚到手的利润翻了一倍还多（净利润同比增长100.8%）。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;三个方向不一致的数字放在一起，恰恰是理解今天这家公司的钥匙。下面拆开来看。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;p&gt;贝壳的前身是链家，2001年成立，2018年推出”贝壳找房”平台，2020年在纽交所上市，2022年在港交所双重主要上市。&lt;/p&gt;
-
-&lt;p&gt;它的商业模式可以这样理解：&lt;strong&gt;链家是贝壳自己开的”直营店”，而贝壳是所有中介品牌都能加盟的”商场”。&lt;/strong&gt; 加盟进来的品牌叫”连接门店”（connected stores），它们的经纪人叫”连接经纪人”。贝壳一边从链家的成交中收全额佣金，一边从连接门店的成交中抽平台服务费和加盟费。&lt;/p&gt;
-
-&lt;p&gt;截至2026年6月30日，贝壳全平台有门店60,274家（其中活跃门店57,803家），经纪人540,634名（活跃经纪人454,571名），移动端月活用户平均4570万。&lt;/p&gt;
-
-&lt;p&gt;除了买卖二手房（存量房）和新房这两块基本盘，贝壳这几年还开了三条新赛道：&lt;strong&gt;家装家居&lt;/strong&gt;（被窝家装）、&lt;strong&gt;房屋租赁&lt;/strong&gt;（省心租）、以及&lt;strong&gt;新兴业务&lt;/strong&gt;（主要是金融服务）。这三条线曾经是贝壳的”第二增长曲线”故事，但今年的主题词变了——从”扩张”变成了”提质”。&lt;/p&gt;
-
-&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
-
-&lt;p&gt;先看这个季度最核心的一组数字（人民币，同比为对比2025年同期）：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026Q2&lt;/th&gt;
-      &lt;th&gt;2025Q2&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总交易额GTV&lt;/td&gt;
-      &lt;td&gt;9,338亿元&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-      &lt;td&gt;+6.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净收入&lt;/td&gt;
-      &lt;td&gt;245.4亿元&lt;/td&gt;
-      &lt;td&gt;260.1亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-5.7%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利润&lt;/td&gt;
-      &lt;td&gt;70.14亿元&lt;/td&gt;
-      &lt;td&gt;56.998亿元&lt;/td&gt;
-      &lt;td&gt;+23.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率&lt;/td&gt;
-      &lt;td&gt;28.6%&lt;/td&gt;
-      &lt;td&gt;21.9%&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+6.7个百分点&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营费用&lt;/td&gt;
-      &lt;td&gt;39.88亿元&lt;/td&gt;
-      &lt;td&gt;46.40亿元&lt;/td&gt;
-      &lt;td&gt;-14.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润&lt;/td&gt;
-      &lt;td&gt;30.26亿元&lt;/td&gt;
-      &lt;td&gt;10.59亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+185.6%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润率&lt;/td&gt;
-      &lt;td&gt;12.3%&lt;/td&gt;
-      &lt;td&gt;4.1%&lt;/td&gt;
-      &lt;td&gt;+8.2个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;26.24亿元&lt;/td&gt;
-      &lt;td&gt;13.07亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+100.8%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经调整净利润&lt;/td&gt;
-      &lt;td&gt;31.85亿元&lt;/td&gt;
-      &lt;td&gt;18.21亿元&lt;/td&gt;
-      &lt;td&gt;+74.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经调整EBITDA&lt;/td&gt;
-      &lt;td&gt;41.75亿元&lt;/td&gt;
-      &lt;td&gt;22.03亿元&lt;/td&gt;
-      &lt;td&gt;+89.5%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么GTV涨了、收入反而跌了？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这是全篇最需要解释的一件事。GTV是平台上房子的成交总金额，收入是贝壳自己收到的服务费。两者背离，原因有两个：&lt;/p&gt;
-
-&lt;p&gt;第一，&lt;strong&gt;收入结构在变&lt;/strong&gt;。二手房这块，链家自营（收全额佣金）的GTV同比下降3.1%至2066亿元，而连接经纪人（只收平台费）的GTV同比大涨14.3%至4233亿元。同样一套房成交，从”自己卖”变成”别人卖、我抽成”，GTV照记，收入自然变小——但利润率反而更高。&lt;/p&gt;
-
-&lt;p&gt;第二，&lt;strong&gt;新业务在主动缩表&lt;/strong&gt;。家装收入同比大跌30.1%，租赁收入同比跌14.8%。这不是被市场打的，是公司自己踩的刹车（下一节详说）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;利润为什么能翻倍？&lt;/strong&gt; 三件事叠加：毛利率提升6.7个百分点带来约13亿元的毛利增量；经营费用同比省下6.5亿元；再加上去年同期有2819万元的资产减值、今年没有。三项相加，经营利润多出近20亿元。&lt;/p&gt;
-
-&lt;h1 id=&quot;三分业务解读四条线的贡献利润率全部改善&quot;&gt;三、分业务解读：四条线的贡献利润率全部改善&lt;/h1&gt;
-
-&lt;p&gt;贝壳自己用”贡献利润率”（contribution margin，收入扣掉这条业务线的直接成本后的比例）衡量各业务的赚钱能力。这个季度四条线全部同比、环比双升，是CFO徐涛口中”最值得说的一件事”。&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;业务线&lt;/th&gt;
-      &lt;th&gt;Q2收入&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-      &lt;th&gt;贡献利润率&lt;/th&gt;
-      &lt;th&gt;去年同期&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;存量房（二手房）&lt;/td&gt;
-      &lt;td&gt;70.23亿元&lt;/td&gt;
-      &lt;td&gt;+4.5%&lt;/td&gt;
-      &lt;td&gt;46.1%&lt;/td&gt;
-      &lt;td&gt;39.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;新房&lt;/td&gt;
-      &lt;td&gt;89.47亿元&lt;/td&gt;
-      &lt;td&gt;+3.8%&lt;/td&gt;
-      &lt;td&gt;28.8%&lt;/td&gt;
-      &lt;td&gt;24.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;家装家居&lt;/td&gt;
-      &lt;td&gt;31.91亿元&lt;/td&gt;
-      &lt;td&gt;-30.1%&lt;/td&gt;
-      &lt;td&gt;39.6%&lt;/td&gt;
-      &lt;td&gt;32.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;房屋租赁&lt;/td&gt;
-      &lt;td&gt;48.33亿元&lt;/td&gt;
-      &lt;td&gt;-14.8%&lt;/td&gt;
-      &lt;td&gt;15.3%&lt;/td&gt;
-      &lt;td&gt;8.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;新兴及其他&lt;/td&gt;
-      &lt;td&gt;5.46亿元&lt;/td&gt;
-      &lt;td&gt;+26.4%&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;存量房&lt;/strong&gt;是最亮的一块。GTV同比增长8.0%至6299亿元，其中平台服务费、加盟费等收入同比大涨27.8%至17亿元——增速远超GTV。贡献利润率从39.9%升到46.1%，公司给的解释是链家经纪人的固定薪酬占收入比例下降，加上高毛利的平台服务收入占比提升。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;新房&lt;/strong&gt;GTV同比只增长1.2%至2584亿元，但收入增长3.8%、贡献利润率提升4.4个百分点，说明贝壳在新房上不再靠”多接项目”冲量，而是靠精细化运营压成本。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;家装&lt;/strong&gt;收入腰斩式下滑30.1%，是拖累总收入的最大单项。管理层的说法是”主动优化获客渠道组合、放缓部分非中介渠道的节奏”——翻译过来就是：过去为了做大规模，从外部买了很多贵的流量，现在不买了，宁可收入掉三成，也要把贡献利润率从32.1%拉到39.6%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;租赁&lt;/strong&gt;收入下滑14.8%，原因更技术性一些：省心租的新产品模式下，收入从”全额租金”改为只确认”净服务费”（撮合佣金＋租期管理费）。这是会计口径变化，不是生意变小了——实际管理房源量还在增长（电话会上披露同比增长34%至79万套以上），贡献利润率从8.4%升到15.3%。&lt;/p&gt;
-
-&lt;h1 id=&quot;四成本端一场彻底的减法&quot;&gt;四、成本端：一场彻底的”减法”&lt;/h1&gt;
-
-&lt;p&gt;成本项几乎全线下降：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;总营业成本175.26亿元，同比降13.7%&lt;/li&gt;
-  &lt;li&gt;门店相关成本5.64亿元，同比降25.9%（链家门店优化）&lt;/li&gt;
-  &lt;li&gt;销售及市场费用14.02亿元，同比降26.1%（广告投放和人员成本双降）&lt;/li&gt;
-  &lt;li&gt;研发费用5.49亿元，同比降13.4%（研发人员减少）&lt;/li&gt;
-  &lt;li&gt;管理费用20.37亿元，同比降2.1%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;对应到人身上：经纪人总数同比减少3.1%，活跃经纪人减少7.5%，活跃门店减少1.5%。&lt;strong&gt;贝壳是在人更少、店更少的情况下，做出了更多的GTV。&lt;/strong&gt; 电话会上CEO彭永东给了个更直观的数字：二手房交易量同比增长近25%，单个连接门店的平均成交量提升26%。&lt;/p&gt;
-
-&lt;h1 id=&quot;五上半年全景与资产负债表&quot;&gt;五、上半年全景与资产负债表&lt;/h1&gt;
-
-&lt;p&gt;把两个季度合起来看，画面更清楚：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026H1&lt;/th&gt;
-      &lt;th&gt;2025H1&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净收入&lt;/td&gt;
-      &lt;td&gt;434.31亿元&lt;/td&gt;
-      &lt;td&gt;493.39亿元&lt;/td&gt;
-      &lt;td&gt;-12.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利润&lt;/td&gt;
-      &lt;td&gt;115.74亿元&lt;/td&gt;
-      &lt;td&gt;105.21亿元&lt;/td&gt;
-      &lt;td&gt;+10.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润&lt;/td&gt;
-      &lt;td&gt;42.99亿元&lt;/td&gt;
-      &lt;td&gt;16.50亿元&lt;/td&gt;
-      &lt;td&gt;+160.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;38.79亿元&lt;/td&gt;
-      &lt;td&gt;21.62亿元&lt;/td&gt;
-      &lt;td&gt;+79.4%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;上半年收入少了59亿元，净利润却多了17亿元。这就是”减法”的完整效果。&lt;/p&gt;
-
-&lt;p&gt;现金方面，截至6月30日，现金、现金等价物、受限资金及短期投资合计560.0亿元（约82.6亿美元）；总资产1123.77亿元，较年初的1166.68亿元有所下降，主要是使用权资产从191.44亿元降至132.68亿元——租赁负债在收缩，同样是”减法”的体现。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;回购&lt;/strong&gt;是另一个看点。二季度贝壳回购了约2.5亿美元股份，并首次在港股市场执行回购。回购计划总额上限50亿美元、有效期到2028年8月31日；自2022年8月启动以来，累计在纽交所回购约1.854亿份ADS（合5.563亿股A类普通股）耗资约29.677亿美元，另在港交所回购约490万股A类普通股耗资约2.015亿港元。&lt;/p&gt;
-
-&lt;p&gt;每股数据：基本每股ADS收益2.43元（去年同期1.16元），摊薄2.35元（去年1.11元）；经调整基本每股ADS收益2.95元（去年1.62元）。&lt;/p&gt;
-
-&lt;h1 id=&quot;六亮点与隐忧&quot;&gt;六、亮点与隐忧&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;三个亮点：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;利润率修复的质量很高。&lt;/strong&gt; 不是靠一次性收益，而是四条业务线的贡献利润率同时改善，加上费用绝对额下降。经调整经营利润率14.6%、经调整净利率13.0%，管理层称是三年来最高水平。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;平台模式的杠杆开始显现。&lt;/strong&gt; 连接经纪人GTV增长14.3%、平台服务类收入增长27.8%，这部分几乎不需要贝壳承担人力成本，是纯增量利润。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;现金流很扎实。&lt;/strong&gt; 电话会披露二季度经营性现金流净额66.1亿元，远超26.2亿元的净利润。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;三个隐忧：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;收入还在下滑，且看不到明确拐点。&lt;/strong&gt; 家装-30.1%、租赁-14.8%，两条曾被寄予厚望的第二曲线合计收入从102.4亿元降到80.2亿元。管理层说家装的渠道调整”基本完成”，但也承认收入恢复要等装修施工周期的传导，且行业价格战在加剧。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;月活在掉。&lt;/strong&gt; MAU从4870万降到4570万，同比减少约6%。对一个流量入口型平台来说，用户规模缩水不是好信号。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;新房的资金风险仍在。&lt;/strong&gt; CFO在电话会上强调”不会为了扩大GTV承担不合理的风险”，说明开发商回款问题依然是悬着的一把刀。财报中”计提信用损失准备”也被列为管理费用未能同步下降的原因之一。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;七展望&quot;&gt;七、展望&lt;/h1&gt;
-
-&lt;p&gt;管理层对下半年的判断是”消费者仍谨慎、住房市场仍在调整”，没有给出具体的收入或利润指引。CFO徐涛在电话会上的原话是：&lt;strong&gt;“我们下半年的经营不会依赖市场事件。”&lt;/strong&gt;（Our second half operations will not rely on market events.）&lt;/p&gt;
-
-&lt;p&gt;这句话其实概括了贝壳当前的整个战略：既然大盘不确定，那就把能自己控制的部分——成本结构、单店效率、单位经济模型——做到最好。二季度的财报证明这条路走得通，但也留下一个尚未回答的问题：&lt;strong&gt;当”减法”做完之后，增长从哪里来？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;管理层给的答案是AI和”客户经理”这类新角色（详见同日发布的电话会解读）。彭永东在电话会上特意提醒不要把二季度的结果线性外推，称这”只是一个开始”。对投资者来说，这既是谦虚，也是提示：利润的爆发式修复大概率是一次性的基数效应，接下来要看的是收入端能否重新站起来。&lt;/p&gt;
-
-&lt;p&gt;财报发布后，贝壳美股盘前一度上涨约5%。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手信息（原文）：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.globenewswire.com/news-release/2026/08/21/3348955/0/en/ke-holdings-inc-announces-second-quarter-2026-unaudited-financial-results.html&quot;&gt;KE Holdings Inc. Announces Second Quarter 2026 Unaudited Financial Results（贝壳2026年第二季度未经审计业绩新闻稿全文）&lt;/a&gt; — 2026年8月21日&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investors.ke.com/&quot;&gt;贝壳投资者关系官网&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;电话会实录：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-ke-holdings-posts-profit-surge-in-q2-2026-as-stock-rises-93CH-4871723&quot;&gt;Earnings call transcript — KE Holdings posts profit surge in Q2 2026（Investing.com 电话会实录）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（仅用于股价反应等背景补充）：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://finance.yahoo.com/real-estate/articles/ke-holdings-inc-beke-q2-190207399.html&quot;&gt;KE Holdings Inc (BEKE) Q2 2026 Earnings Call Highlights — Yahoo Finance&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;注：本文所有财务数字均来自贝壳官方业绩新闻稿，美元金额按新闻稿披露的1美元兑6.7851元人民币折算。&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 22 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/22/beike_2026q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/22/beike_2026q2_earnings/</guid>
-        
-        <category>贝壳</category>
         
         <category>大公司数据观察</category>
         

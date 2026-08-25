@@ -5,9 +5,158 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Aug 2026 08:38:36 +0800</pubDate>
-    <lastBuildDate>Tue, 25 Aug 2026 08:38:36 +0800</lastBuildDate>
+    <pubDate>Tue, 25 Aug 2026 09:22:03 +0800</pubDate>
+    <lastBuildDate>Tue, 25 Aug 2026 09:22:03 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.08.25</title>
+        <description>&lt;p&gt;今天这五个帖子有个隐隐的共同点：都在追问「你怎么知道它真的是它看起来的那样」。网站说它只是在加载页面，其实在给你的设备做指纹；Uber 说封号有人工复核，监管机构说没有；一份漂亮的可视化说自己分析了一百个项目，评论区说图表全是花架子；一段数值代码测试全绿，但它实现的公式压根不是论文里那条。凑在一起读挺有意思的。&lt;/p&gt;
+
+&lt;p&gt;下面是今天挑出来的五个帖子。&lt;/p&gt;
+
+&lt;h2 id=&quot;一速卖通用一段你听不见的声音认出了你的设备&quot;&gt;一、速卖通用一段你听不见的声音，认出了你的设备&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vwqknk/aliexpress_was_silently_running_audio_in_your/&quot;&gt;原帖：AliExpress was silently running audio in your browser to fingerprint and track your device&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;事情是一位开发者发现自己的耳机在打开某个购物网站时会莫名其妙静音，顺藤摸瓜查下去，发现页面在后台悄悄播放了一段听不见的音频。这不是要偷听你，而是反过来 —— 让浏览器去处理一段固定的音频信号，再看它算出来的结果。不同的操作系统、声卡驱动、浏览器版本，在浮点运算的末位上会有微小差异，这个差异足够稳定，就成了一枚设备指纹。&lt;/p&gt;
+
+&lt;p&gt;评论区里最有价值的一条来自一位早就注意到这个现象的人，他不仅解释了原理，还给出了自己当初是怎么撞上它的：几个月前 Windows 的蓝牙混音有 bug，每次打开这个网站，正在放的音乐就会被打断。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“not mic/audio but they play sound and see how the browser handles it. It’s rare, but known fingerprinting technique.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/KontoOficjalneMR，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vwqknk/aliexpress_was_silently_running_audio_in_your/p5j4udp/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;接下来讨论拐进了一个反直觉的地方。很多人晒自己的防护配置 —— Pi-hole、严格追踪保护、uBlock Origin 全开，然后互相汇报「我这儿完全没事」「我这儿还是被拦下两个指纹脚本」。有人搬出 amiunique 和 EFF 的 coveryourtracks 让大家自测，结果发现把浏览器加固到极致的人，反而在唯一性测试里格外扎眼。有人用了一个很形象的比方来说明这个悖论。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Worth to keep in mind that having a browser that is too hardened makes you easier to identify. Like how having gear to prevent cameras from face-tracking you is good, but…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/HeKis4，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vwqknk/aliexpress_was_silently_running_audio_in_your/p5k96hl/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有人补了一刀：就算你不把字体列表交出去，脚本也可以挨个尝试渲染，再量一下文字块的尺寸对不对，照样能推断出你装了哪些字体。真想彻底断掉，只能关掉 JavaScript —— 但那样的网还能不能用，是另一个问题。&lt;/p&gt;
+
+&lt;p&gt;这帖对中文读者的启发可能不在「哪家电商在追踪你」，而在于隐私对抗的形状：它不是一道能一次性关上的开关，而是一场关于「你和多少人长得一样」的概率游戏。加固到只剩自己一个人的配置，等于给自己发了张身份证。真正有效的路径反而是往人群里躲 —— 用大众化的浏览器默认配置，或者用那些主动把参数抹平、让所有用户长得一模一样的方案。&lt;/p&gt;
+
+&lt;h2 id=&quot;二算法直接封停了-170-多个司机账号代价是近十亿美元&quot;&gt;二、算法直接封停了 170 多个司机账号，代价是近十亿美元&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vx1a0d/uber_hit_with_nearly_1_billion_fine_after/&quot;&gt;原帖：Uber hit with nearly $1 billion fine after algorithms suspended drivers without human review&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;荷兰监管机构开出了接近十亿美元的罚单，理由不是「封错了人」，而是「封人的过程里没有真正的人」。GDPR 里有一条常被忽略的规定：涉及重大影响的决定，当事人有权要求人工介入、有权知道理由、有权申辩。Uber 主张自己是有人工复核的，监管机构认定那个复核形同虚设。&lt;/p&gt;
+
+&lt;p&gt;评论区最热闹的不是骂 Uber，而是一场立场鲜明的对撞。有人认为监管抓错了重点 —— 被封的那些司机确实在坑乘客，为了程序瑕疵罚十亿，是捡了芝麻丢了西瓜。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“They suspended drivers who were scamming customers… and are in the wrong? I get the GDPR issue, but this is the EU losing the forest (protecting customers) for the trees (a technical violation of the GDPR).”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/rickg，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vx1a0d/uber_hit_with_nearly_1_billion_fine_after/p5mmp3i/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;反驳来得很快，而且很欧洲：司机有没有作弊是另一件事，公司不能自己当法官。走合法程序解雇这些人，本来一点障碍都没有，选择让算法一键处理，那就是自行其是。另一条支线更有意思 —— 一群人主张「罚款没用，该吊销牌照、该抓人」，然后被泼了冷水：如果监管的目的是保护劳动者，那把公司关掉、让几万人失业，是一种什么样的保护？&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If a law exists to protect workers’ jobs, you don’t enforce that law by destroying the jobs. The cure shouldn’t be worse than the disease.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/CherryLongjump1989，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vx1a0d/uber_hit_with_nearly_1_billion_fine_after/p5mf6o7/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有人做了一道很冷静的算术：Uber 一年接近 140 亿单，十亿罚款摊下来，每单涨八分钱就抹平了。这个数字大概比任何义愤都更能说明「罚款作为威慑」的实际重量。&lt;/p&gt;
+
+&lt;p&gt;值得中文读者留意的是罚的到底是什么。这不是一起「算法判断错误」的事故 —— 监管机构没有去审算法准不准，而是认定「重大决定必须有人负责、必须能被申辩」本身就是一条硬要求。国内平台的封号、降权、限流，同样是影响生计的自动化决定，而申诉入口能不能真的通到一个活人那里，往往才是最关键的那一环。这个判罚提供了一个可对照的坐标。&lt;/p&gt;
+
+&lt;h2 id=&quot;三小米那台-12tbs-的-ai-cube到底是给谁用的&quot;&gt;三、小米那台 1.2TB/s 的 AI Cube，到底是给谁用的&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vwvghi/xiaomi_ai_cube_announced_with_12tbs_memory/&quot;&gt;原帖：Xiaomi AI Cube announced with 1.2TB/s memory bandwidth&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;小米公布了一台代号 AI Cube 的原型机，三颗自研芯片搭在一起：O3 是手机 SoC，D100 原本是给电动车用的、最高支持 160GB 内存，O100 则挂着 1.22TB/s 内存带宽的招牌。发帖人自己都拿不准这个带宽数字指的是什么，猜测可能是 SRAM 的口径。演示里它能本地跑一个 120B 和一个 3B 的模型，在快慢两套系统之间切换。&lt;/p&gt;
+
+&lt;p&gt;评论区第一时间做了祛魅：这三颗芯片不是同一个东西，O3 马上要进折叠屏手机，D100 是车规产品，真正值得关心的 O100 还要等到明年。但把参数摊开之后，本地部署圈很快意识到它的定位在哪 —— 目前这个价位段的一体机，最大的痛点恰恰就是内存带宽。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“That looks like they brute forced their way to a brilliant competitor to DGX Spark boxes. Shortly after release, that was the number one complaint- memory bandwidth.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/tiffanytrashcan，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vwvghi/xiaomi_ai_cube_announced_with_12tbs_memory/p5lfn4e/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;关于「这东西卖给谁」，讨论出了两条像样的答案。一条是家庭中枢：小米卖了太多扫地机、摄像头、音箱，这些设备要么自己扛算力要么依赖云端，不如在家里放一个盒子统一处理 —— 但也有人指出，让用户先掏三千美元买盒子再买别的产品，商业上不好讲。另一条是边缘推理和小微企业的数据不出门。还有一条评论跳出了产品本身，谈的是一种做事方式上的差异。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I think this is what’s interesting about Chinese tech- they’re wiling to see what sticks. It’s confusing because it doesn’t neatly fit into a box where we are but it seems like China is more optimistic about embracing AI in everyday home use.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/coffeesippingbastard，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vwvghi/xiaomi_ai_cube_announced_with_12tbs_memory/p5mrlfy/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺带一提，帖子里有人问「中国没有 3nm 产能，芯片哪来的」，很快被纠正：台积电代工，小米并不在受限名单上。也有人担心这类产品一旦成气候就会招来实体清单。抛开这些不谈，我觉得这台机器真正的看点是它把「带宽」而不是「显存容量」当成了卖点 —— 对于跑本地模型的人来说，160GB 配 1TB/s 的组合，确实比更大容量却只有两三百 GB/s 的方案更实用。国内做端侧和家庭 AI 的团队，大概会比海外更早遇到「买不买得到、值不值得买」的现实问题。&lt;/p&gt;
+
+&lt;h2 id=&quot;四他分析了-github-百大项目的-ai-指令文件然后被评论区教做人&quot;&gt;四、他分析了 GitHub 百大项目的 AI 指令文件，然后被评论区教做人&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vx5atl/oc_i_analysed_the_ai_instructions_of_githubs_100/&quot;&gt;原帖：I analysed the AI instructions of GitHub’s 100 most-starred repositories&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者枚举了 GitHub 上星标最多的一千个仓库，逐个检查根目录有没有 AGENTS.md 这个文件 —— 也就是给 AI 编程助手看的项目须知 —— 再从中挑出星标最高的一百个做内容分析。这个数字本身就挺说明问题的。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I enumerated GitHub’s 1,000 most-starred public repositories via the gh cli and checked each for a root AGENTS.md. 273 have one (27%).”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ohansemmanuel（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vx5atl/oc_i_analysed_the_ai_instructions_of_githubs_100/p5m2kb6/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;有意思的是评论区几乎没人讨论数据，全在批评呈现方式：一个不能暂停的 GIF，每张图只闪几帧；结论写得像 PPT，看完不知道学到了什么。批评者的身份让这话更有分量。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Your analysis could’ve been very interesting (I’m a SWE, I’d like to know what could be distilled from this), but your presentation is all flash, no substance…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/gredr，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vx5atl/oc_i_analysed_the_ai_instructions_of_githubs_100/p5m3kiv/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也有人替这份工作说了句公道话：图表是干扰项，底下的分析是有用的，他打算把其中几条抄进自己的仓库，并且希望作者往深里挖 —— 比如那些强制要求标注 AI 参与的项目，AI 贡献的代码在交付速度和缺陷率上到底表现如何。作者本人在回帖里给出的观察反而比图表有信息量：各家的路线差异极大，有的项目明令禁止在提交里标注 AI 作者身份，有的偏偏强制要求；有的只写了寥寥几行，有的写得极其详尽。还有人直接建议：结论别让模型写，自己写，你会学到更多。&lt;/p&gt;
+
+&lt;p&gt;这一幕本身有点黑色幽默 —— 用 AI 分析别人怎么写给 AI 看的文件，最后因为「AI 味太重」被挑剔。但抛开这个不谈，27% 这个比例值得记一下：星标最高的那批项目里，已经有超过四分之一在正式维护一份写给机器看的贡献指南。这类文件正在从个人技巧变成项目基础设施，如果你的仓库开始接受 AI 辅助的 PR，早点把「这个项目怎么跑测试、什么风格、什么绝对不许改」写下来，收益是很直接的。&lt;/p&gt;
+
+&lt;h2 id=&quot;五测试全绿但代码实现的公式是错的&quot;&gt;五、测试全绿，但代码实现的公式是错的&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1vxavkm/software_how_to_test_if_your_numerical_code_is/&quot;&gt;原帖：How to test if your numerical code is mathematically correct?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一位 SciPy 贡献者提出了一类让他很不爽的 bug：输出看着合理，测试全部通过，但代码实现的那条方程本身是错的。于是他做了个工具 —— 跑一遍你的 Python/NumPy 代码，把它实际计算的那个数学表达式以 SymPy 符号的形式还给你，然后你可以化简它、对它求导，像对待任何一个数学对象那样审视它。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I contribute to SciPy and kept running into a class of bug that annoys me: the outputs look plausible, the tests pass, but the equation the code implements is subtly wrong.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Lost-Dragonfruit-663（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1vxavkm/software_how_to_test_if_your_numerical_code_is/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;帖子人不多但含金量很高。有人提了最朴素的方案：用已知答案的合成数据，或者 NIST 那种带认证参考值的标准数据集。作者的回应说清了这条路的边界 —— SciPy 内部确实就是这么测的，但大多数函数根本没有认证数据集可用；他自己那个样条惩罚矩阵的 PR，唯一能对照的只有一份 GPL 实现，只能跑不能读。更要命的是「输出对得上」这件事本身没有想象中那么强的保证力。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“And matching outputs on some inputs is weaker than it feels, precision and recall return the same number on balanced data while computing different things.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Lost-Dragonfruit-663，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1vxavkm/software_how_to_test_if_your_numerical_code_is/p5nkv8n/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一位写过 R 包的人分享了自己的土办法：教科书上有算好的例题就照抄，然后想尽办法折磨这个函数 —— 缺失值、全部相同的值、传进去一个字符向量。作者认可这是黄金标准，但补了一句戳心窝的话：能不能想出好的边界情况，取决于你那天状态好不好。他举了皮尔逊相关系数的例子 —— 所有值都相同时它应该是未定义的，因为分母趋于零；可你只有在那天恰好想起分母，才会去测这一条。而当你把方程从代码里提出来摊在面前，这个条件就明晃晃地写在那儿，边界情况清单等于自己写好了。&lt;/p&gt;
+
+&lt;p&gt;作者还点出了一整类参考数据集根本看不见的问题：你传给 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;solveh_banded&lt;/code&gt; 的真的是带状埃尔米特矩阵吗？你要做 Cholesky 分解的那个东西真的半正定吗？你调用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;eigh&lt;/code&gt; 的矩阵真的对称吗？这些是对输入的要求而不是对输出的要求，搞错了照样能算出一串看起来很像样的数字。&lt;/p&gt;
+
+&lt;p&gt;这一段我很喜欢，因为它把「测试」这件事的层次讲清楚了：单元测试验证的是「这个输入得到这个输出」，而不是「这段代码在算什么」。这两者之间的缝隙，正是科学计算、量化、风控这类领域最容易出静默错误的地方 —— 不崩溃、不报警、结果一直在合理区间里，只是它一直在算另一个东西。把公式从实现里反解出来做交叉验证，思路上有点像给数值代码做「符号版的 code review」，值得借鉴。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;今天就到这里。明天见。&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Aug 2026 09:40:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/25/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/25/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.08.24</title>
@@ -2978,359 +3127,6 @@
         
         
         <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>中信证券2026年半年报——营收496.9亿同比增长50%，归母净利233.4亿同比大增69.6%，创同期历史新高</title>
-        <description>&lt;p&gt;2026年8月20日晚间至8月21日，&lt;a href=&quot;https://www.cs.ecitic.com/&quot;&gt;中信证券&lt;/a&gt;（600030.SH，06030.HK）先后在港交所和上交所披露2026年半年度报告。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;营业收入496.92亿元，同比增长50.00%；归属于母公司股东的净利润233.43亿元，同比增长69.60%。&lt;/strong&gt; 这是中信证券历史上最好的一份中报。&lt;/p&gt;
-
-&lt;p&gt;同时公司抛出中期分红方案：每10股派发现金红利4.27元（含税），合计派现66.72亿元，占中期归母净利润的29.39%。&lt;/p&gt;
-
-&lt;p&gt;先说一句大白话：这份财报好，但&lt;strong&gt;好的原因有相当大一部分不在公司自己身上&lt;/strong&gt;。下面拆开看。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;p&gt;中信证券成立于1995年，是国内规模最大的综合性证券公司，2003年在上交所上市，2011年在港交所上市。业务覆盖投资银行、财富管理、机构股票、金融市场（自营投资、衍生品、FICC、两融）、资产管理五大板块。&lt;/p&gt;
-
-&lt;p&gt;几个体现体量的数字：&lt;strong&gt;国内首家总资产突破万亿元的券商&lt;/strong&gt;，营业收入和净利润连续多年行业第一；境内分支机构400多家，分支机构遍布全球13个国家；个人客户超1800万户，企业与机构客户超15万家。&lt;/p&gt;
-
-&lt;p&gt;券商是一门典型的”靠天吃饭”生意——市场成交量大、指数涨，几乎所有业务线都赚钱。所以理解这份财报，必须先看市场。&lt;/p&gt;
-
-&lt;h1 id=&quot;二最重要的背景a股上半年成交3175万亿元&quot;&gt;二、最重要的背景：A股上半年成交317.5万亿元&lt;/h1&gt;
-
-&lt;p&gt;半年报里有一句话是理解全篇的钥匙：&lt;strong&gt;2026年上半年A股总成交额人民币317.5万亿元，较2025年同期增长近一倍，创下A股半年度成交额历史之最&lt;/strong&gt;，全市场总市值攀升至119万亿元。&lt;/p&gt;
-
-&lt;p&gt;对应到经纪业务，上半年&lt;strong&gt;股票基金交易量日均规模3.24万亿元，同比提升100.97%&lt;/strong&gt;——日均成交翻倍。&lt;/p&gt;
-
-&lt;p&gt;指数方面：上证综指涨3.16%、创业板综指涨24.15%、科创50指数涨64%、沪深300涨8%、中证500涨21%。港股则相反，恒生指数下跌10.73%、恒生科技指数下跌18.92%。&lt;/p&gt;
-
-&lt;p&gt;一句话总结：&lt;strong&gt;A股上半年是”科技牛＋成交量爆炸”，这是中信证券利润大增的最大外因。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;三核心财务数据解读&quot;&gt;三、核心财务数据解读&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026H1&lt;/th&gt;
-      &lt;th&gt;2025H1（调整后）&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业收入&lt;/td&gt;
-      &lt;td&gt;496.92亿元&lt;/td&gt;
-      &lt;td&gt;331.27亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+50.00%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;利润总额&lt;/td&gt;
-      &lt;td&gt;304.34亿元&lt;/td&gt;
-      &lt;td&gt;178.05亿元&lt;/td&gt;
-      &lt;td&gt;+70.93%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母净利润&lt;/td&gt;
-      &lt;td&gt;233.43亿元&lt;/td&gt;
-      &lt;td&gt;137.64亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+69.60%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;扣非归母净利润&lt;/td&gt;
-      &lt;td&gt;236.10亿元&lt;/td&gt;
-      &lt;td&gt;136.16亿元&lt;/td&gt;
-      &lt;td&gt;+73.40%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;基本每股收益&lt;/td&gt;
-      &lt;td&gt;1.53元&lt;/td&gt;
-      &lt;td&gt;0.89元&lt;/td&gt;
-      &lt;td&gt;+71.91%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;加权平均ROE&lt;/td&gt;
-      &lt;td&gt;7.81%&lt;/td&gt;
-      &lt;td&gt;4.93%&lt;/td&gt;
-      &lt;td&gt;+2.88个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营活动现金流净额&lt;/td&gt;
-      &lt;td&gt;1,056.20亿元&lt;/td&gt;
-      &lt;td&gt;303.47亿元&lt;/td&gt;
-      &lt;td&gt;+248.04%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;资产负债表（较2025年末）：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026年6月末&lt;/th&gt;
-      &lt;th&gt;2025年末&lt;/th&gt;
-      &lt;th&gt;变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;资产总额&lt;/td&gt;
-      &lt;td&gt;24,699.29亿元&lt;/td&gt;
-      &lt;td&gt;20,819.03亿元&lt;/td&gt;
-      &lt;td&gt;+18.64%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;负债总额&lt;/td&gt;
-      &lt;td&gt;21,129.16亿元&lt;/td&gt;
-      &lt;td&gt;17,560.80亿元&lt;/td&gt;
-      &lt;td&gt;+20.32%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母股东权益&lt;/td&gt;
-      &lt;td&gt;3,510.36亿元&lt;/td&gt;
-      &lt;td&gt;3,199.30亿元&lt;/td&gt;
-      &lt;td&gt;+9.72%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;几个值得注意的细节：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;利润增速（69.6%）明显快于收入增速（50.0%）&lt;/strong&gt;，原因是营业支出只增长了23.23%至189.61亿元。券商的成本主要是人力和管理费，在成交量翻倍时不会同比例增长，这就是典型的经营杠杆——收入涨一倍，成本涨两三成，利润弹性极大。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;扣非净利润（236.10亿元）比归母净利润（233.43亿元）还高&lt;/strong&gt;，说明非经常性损益是负的。半年报中有一项很扎眼：&lt;strong&gt;营业外支出3.13亿元，同比暴增1872.42%&lt;/strong&gt;，公司解释为”融券业务减值损失、未决诉讼及商业纠纷等事项增加导致”。这是这份漂亮财报里最刺眼的一处。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;经营活动现金流净流入1056.20亿元&lt;/strong&gt;，同比多流入752.73亿元，主因是代理买卖证券款和拆入资金的现金流入增加——本质上是客户往账户里搬钱的结果，是交易活跃的直接体现。&lt;/p&gt;
-
-&lt;h1 id=&quot;四收入结构五大业务全线增长&quot;&gt;四、收入结构：五大业务全线增长&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;业务板块&lt;/th&gt;
-      &lt;th&gt;营业收入&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-      &lt;th&gt;毛利率&lt;/th&gt;
-      &lt;th&gt;毛利率变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;证券投资业务&lt;/td&gt;
-      &lt;td&gt;198.54亿元&lt;/td&gt;
-      &lt;td&gt;+36.96%&lt;/td&gt;
-      &lt;td&gt;80.07%&lt;/td&gt;
-      &lt;td&gt;+5.81个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经纪业务&lt;/td&gt;
-      &lt;td&gt;131.42亿元&lt;/td&gt;
-      &lt;td&gt;+41.02%&lt;/td&gt;
-      &lt;td&gt;42.03%&lt;/td&gt;
-      &lt;td&gt;+4.36个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;资产管理业务&lt;/td&gt;
-      &lt;td&gt;80.03亿元&lt;/td&gt;
-      &lt;td&gt;+33.00%&lt;/td&gt;
-      &lt;td&gt;42.60%&lt;/td&gt;
-      &lt;td&gt;+2.96个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其他业务&lt;/td&gt;
-      &lt;td&gt;57.79亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+365.83%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;84.82%&lt;/td&gt;
-      &lt;td&gt;+34.10个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;证券承销业务&lt;/td&gt;
-      &lt;td&gt;29.14亿元&lt;/td&gt;
-      &lt;td&gt;+41.92%&lt;/td&gt;
-      &lt;td&gt;34.27%&lt;/td&gt;
-      &lt;td&gt;+12.33个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;合计&lt;/td&gt;
-      &lt;td&gt;496.92亿元&lt;/td&gt;
-      &lt;td&gt;+50.00%&lt;/td&gt;
-      &lt;td&gt;61.84%&lt;/td&gt;
-      &lt;td&gt;+8.29个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;证券投资业务（自营）依然是第一大收入来源&lt;/strong&gt;，贡献了近四成收入、毛利率高达80%。但这块的构成变化很大：投资收益142.23亿元同比下降31.94%（处置金融工具的收益减少），而公允价值变动收益131.70亿元——去年同期是亏损14.33亿元。翻译成大白话：&lt;strong&gt;去年靠卖出兑现收益，今年靠持仓浮盈&lt;/strong&gt;。这意味着这部分利润的”含金量”依赖市场继续走强，一旦回调会直接反噬。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;其他业务收入暴增365.83%&lt;/strong&gt;是收入表里最异常的一项，半年报未在分行业表中展开细节，需要在后续披露中留意。&lt;/p&gt;
-
-&lt;p&gt;从会计科目看：手续费及佣金净收入214.28亿元，同比增长44.59%；&lt;strong&gt;利息净收入17.56亿元，同比暴增687.74%&lt;/strong&gt;，原因是融资融券利息收入增加、卖出回购利息支出减少——两融规模和市场份额双双创新高。&lt;/p&gt;
-
-&lt;h1 id=&quot;五分地区境外收入增速跑赢境内&quot;&gt;五、分地区：境外收入增速跑赢境内&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;地区&lt;/th&gt;
-      &lt;th&gt;营业收入&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-      &lt;th&gt;毛利率&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;境内合计&lt;/td&gt;
-      &lt;td&gt;379.04亿元&lt;/td&gt;
-      &lt;td&gt;+44.59%&lt;/td&gt;
-      &lt;td&gt;57.92%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;境外合计&lt;/td&gt;
-      &lt;td&gt;117.88亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+70.54%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;74.46%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;境外收入占比已经接近24%，且毛利率（74.46%）远高于境内（57.92%）。在恒生指数上半年下跌10.73%的背景下，境外业务还能增长七成，说明增长主要来自跨境投行和机构业务，而不是自营。&lt;/p&gt;
-
-&lt;h1 id=&quot;六四大业务的经营亮点&quot;&gt;六、四大业务的经营亮点&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;投资银行：境内三项全市场第一&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A股主承销40单，承销规模1,467.54亿元，&lt;strong&gt;市场份额30.56%，排名第一&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;承销境内债券3,004只，规模11,737.13亿元，占全市场7.22%、券商总量的13.92%，金融债、公司债、科技创新债、绿色债、熊猫债承销规模均为同业第一&lt;/li&gt;
-  &lt;li&gt;完成中国市场并购24单，交易规模2,662.38亿元，排名第一；其中A股重大资产重组7单、规模2,158.22亿元，&lt;strong&gt;市场份额54.80%&lt;/strong&gt;——超过一半的A股重大重组是中信做的&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;国际化方面：港股IPO保荐单数排名市场第二，港股再融资和中资离岸债承销规模排名中资券商第一；完成96单中资离岸债项目，涉及腾讯控股、快手科技、京东集团等发行人。&lt;/p&gt;
-
-&lt;p&gt;需要注意的是市场背景：上半年A股股权融资规模4,802.33亿元，同比下降37.97%，但&lt;strong&gt;剔除国有大行定增的高基数影响后同比增长88.97%&lt;/strong&gt;；IPO发行规模705.74亿元，同比增长88.93%。投行的回暖是真实的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;财富管理：客户资产17万亿元&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;截至6月末，客户数量累计&lt;strong&gt;超1,800万户&lt;/strong&gt;（较年初增长7%），托管客户资产规模&lt;strong&gt;超17万亿元&lt;/strong&gt;（较年初增长14%），金融产品保有规模迈入万亿级。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;资产管理：总规模4.88万亿元&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;公司资产管理规模合计48,832.54亿元（含公司资管业务、中信证券资管及华夏基金）。其中公司及中信证券资管合计19,752.56亿元（集合5,482.37亿元、单一10,688.88亿元、专项3,581.31亿元），华夏基金管理规模21,246.89亿元，机构及国际业务7,833.09亿元。私募资产管理业务市场份额14.37%，排名行业第一。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;机构股票：QFI交易量同比增长165%&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;公募基金A+H股交易量市场份额6.96%，合格境外投资者（QFI）交易量同比增长165%——外资通过中信通道加仓A股的迹象明显。&lt;/p&gt;
-
-&lt;h1 id=&quot;七风控指标安全垫更厚了&quot;&gt;七、风控指标：安全垫更厚了&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026年6月末&lt;/th&gt;
-      &lt;th&gt;2025年末&lt;/th&gt;
-      &lt;th&gt;监管要求&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净资本&lt;/td&gt;
-      &lt;td&gt;1,810.39亿元&lt;/td&gt;
-      &lt;td&gt;1,571.46亿元&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;风险覆盖率&lt;/td&gt;
-      &lt;td&gt;225.31%&lt;/td&gt;
-      &lt;td&gt;210.46%&lt;/td&gt;
-      &lt;td&gt;≥100%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;流动性覆盖率&lt;/td&gt;
-      &lt;td&gt;144.06%&lt;/td&gt;
-      &lt;td&gt;137.80%&lt;/td&gt;
-      &lt;td&gt;≥100%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净稳定资金率&lt;/td&gt;
-      &lt;td&gt;136.87%&lt;/td&gt;
-      &lt;td&gt;125.27%&lt;/td&gt;
-      &lt;td&gt;≥100%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;资本杠杆率&lt;/td&gt;
-      &lt;td&gt;12.70%&lt;/td&gt;
-      &lt;td&gt;13.83%&lt;/td&gt;
-      &lt;td&gt;≥8%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;净资本半年增加239亿元，各项风控指标均远高于监管红线，且多数较年初改善。自营非权益类证券及其衍生品占净资本的比例从343.11%降至303.70%，说明债券类持仓相对收缩。&lt;/p&gt;
-
-&lt;h1 id=&quot;八亮点与隐忧&quot;&gt;八、亮点与隐忧&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;三个亮点：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;业绩弹性充分兑现。&lt;/strong&gt; 收入增长50%、利润增长69.6%、ROE提升2.88个百分点，经营杠杆在牛市中的威力体现得淋漓尽致。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;投行的市场地位进一步固化。&lt;/strong&gt; A股主承销市占30.56%、重大重组市占54.80%，”强者恒强”在投行业务上是真实存在的。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;中期分红是加分项。&lt;/strong&gt; 66.72亿元现金分红、分红率29.39%，对以险资和指数基金为主要股东的大盘蓝筹来说，是实打实的股东回报。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;三个隐忧：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;利润质量对市场的依赖度很高。&lt;/strong&gt; 公允价值变动收益131.70亿元（去年同期为负）占了利润总额的43%，这部分是浮盈，不落袋。如果下半年A股回调，这块会直接从利润表里减出去。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;营业外支出同比暴增18倍。&lt;/strong&gt; 融券业务减值损失、未决诉讼和商业纠纷，是这份财报里唯一明确的负面信号，规模虽只有3.13亿元，但增速异常。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;高基数的下半年。&lt;/strong&gt; 上半年A股成交317.5万亿元、日均股基成交3.24万亿元是历史极值。2026年下半年只要成交量回到”正常水平”，经纪和自营业务的同比增速就会迅速回落。&lt;strong&gt;这份财报越好，明年的同比压力越大。&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;九总结&quot;&gt;九、总结&lt;/h1&gt;
-
-&lt;p&gt;中信证券这份中报，可以概括为一句话：&lt;strong&gt;行业贝塔（市场普涨）贡献了大头，公司阿尔法（份额提升）锦上添花。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;贝塔的部分很清楚——A股成交额翻倍、科创50涨64%，任何一家头部券商在这种环境下都会交出漂亮数字。阿尔法的部分也真实存在——A股重大重组超过一半的市场份额、境外收入增长70.54%、私募资管份额行业第一，这些是靠牌照、网络和人才积累出来的护城河，不会因为市场回调而消失。&lt;/p&gt;
-
-&lt;p&gt;对普通投资者而言，看券商股要记住两件事：&lt;strong&gt;第一，券商的利润是市场情绪的放大器，上行时弹性巨大，下行时同样剧烈；第二，在同样的贝塔里，份额还在提升的公司，穿越周期的能力更强。&lt;/strong&gt; 中信证券显然属于后者，但这并不改变它依然是一只强周期股的事实。&lt;/p&gt;
-
-&lt;p&gt;公司已于8月21日上午召开2026年半年度业绩说明会，以网络互动形式与投资者交流。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手信息（原文）：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cs.ecitic.com/newsite/tzzgx/ggyth/gg/aggg/202608/P020260820666074408658.pdf&quot;&gt;中信证券股份有限公司2026年半年度报告（全文PDF，280页）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cs.ecitic.com/&quot;&gt;中信证券投资者关系官网（公告与临时报告）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cs.ecitic.com/newsite/tzzgx/ggyth/gg/aggg/202608/P020260812606037104035.pdf&quot;&gt;中信证券股份有限公司关于召开2026年半年度业绩说明会的公告（公告编号 临2026-069）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sse.com.cn/disclosure/listedinfo/periodic/&quot;&gt;上海证券交易所信息披露平台&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（仅用于背景补充）：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cj.sina.com.cn/articles/view/5953740931/162dee08306703vm2y&quot;&gt;中信证券2026年上半年归母净利润达233.43亿元同比增长69.6% — 新浪财经&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://finance.sina.cn/2026-08-21/detail-ininzayz6539720.d.html&quot;&gt;中信证券股份有限公司2026年半年度报告摘要 — 新浪财经&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;注：本文所有财务数字与经营指标均取自中信证券2026年半年度报告原文；2025年同期数据为报告中的调整后口径（因标准仓单会计处理规定变更而追溯调整，公司说明该调整对资产负债表及利润表结果均无重大影响）。&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 22 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/22/citicsecurities_2026h1_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/22/citicsecurities_2026h1_earnings/</guid>
-        
-        <category>中信证券</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

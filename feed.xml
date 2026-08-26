@@ -5,9 +5,160 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Aug 2026 08:39:18 +0800</pubDate>
-    <lastBuildDate>Wed, 26 Aug 2026 08:39:18 +0800</lastBuildDate>
+    <pubDate>Wed, 26 Aug 2026 09:18:55 +0800</pubDate>
+    <lastBuildDate>Wed, 26 Aug 2026 09:18:55 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.08.26</title>
+        <description>&lt;p&gt;今天这几个帖子拼在一起，能看出一条挺清楚的线：AI 这轮资本开支的账单，正在以两种方式落到普通人头上。一种很直接 —— 你想给电脑加根内存条，发现价格是两年前的三倍；另一种绕一点 —— 公司高管自己都承认 AI 没让效率变好，但裁员照旧。评论区对第二件事的解读比新闻本身更狠。&lt;/p&gt;
+
+&lt;p&gt;后半段轻松些：一场关于 Python 文档里一个 O(n) 到底算不算 bug 的辩论，索尼又一次提醒大家「买」到的游戏其实是租的，以及一万五千局井字棋数据里那个反直觉的结论。&lt;/p&gt;
+
+&lt;h2 id=&quot;一二十年的内存降价被这一年抹平了&quot;&gt;一、二十年的内存降价，被这一年抹平了&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vyazp6/two_decades_of_cheaper_memory_vanished_in_one/&quot;&gt;原帖：Two Decades of Cheaper Memory Vanished in One Brutal Year&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这条新闻讲的是存储行业的一次剧烈反转：过去二十多年，DRAM 和闪存的单位容量价格几乎是稳定往下走的，装机的人默认「等等就更便宜」。AI 数据中心把 HBM 和高端 DRAM 产能吃掉之后，这条曲线在一年之内被推回到了二十年前的水平。同一天热榜上还有一条亚马逊把硬件价格上调 60% 的新闻，理由也是内存短缺。&lt;/p&gt;
+
+&lt;p&gt;真正有意思的是评论区 —— 它自发变成了一面价格墙。几百号人各自报出自己某年某月买某块盘、某套内存花了多少钱，然后贴上今天的价格。这种自下而上的数据比任何行业报告都直观：DDR4 32GB 从 47 美元涨到 190，DDR5 64GB 从 250 涨到 800，2TB 的 990 PRO 从 210 涨到 440，20TB 机械盘从 300 涨到 600 以上。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I bought 32GB DDR4 ram in for $47 in late 2024. That same ram was $230 a couple months ago and is now $190.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/TreasuryGregory，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vyazp6/two_decades_of_cheaper_memory_vanished_in_one/p5we6lv/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…When i got the 4tb, I got 64gb of DDR5 RAM for $250, which is an $800 kit today. The prices today are depressing.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/misterpiggies，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vyazp6/two_decades_of_cheaper_memory_vanished_in_one/p5wm81g/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论里还有两个容易被忽略的细节。一是波及范围超出了很多人的预期 —— 有人以为「我这台五年前的老机器，配件总不至于涨吧」，结果一查同样涨；老平台的 DDR4 因为产线被砍，反而涨得比新品还凶。二是机械硬盘也没能幸免，家庭 NAS 玩家是这轮里最难受的一群人，好几条评论都是「刚收到礼金准备装个 NAS，一看盘价傻了」。&lt;/p&gt;
+
+&lt;p&gt;对国内读者来说，这件事的启发大概是：AI 的成本从来不只出现在算力账单上，它会沿着供应链传导到每一个和存储沾边的品类 —— 手机、笔记本、监控设备、云盘定价，甚至你公司的服务器采购预算。如果手上有近期要扩容的计划，「再等等会更便宜」这个持续了二十年的默认假设，眼下大概率不成立。&lt;/p&gt;
+
+&lt;h2 id=&quot;二九成高管说-ai-没提高生产率但裁员照旧&quot;&gt;二、九成高管说 AI 没提高生产率，但裁员照旧&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vxst1m/90_of_executives_say_ai_hasnt_boosted/&quot;&gt;原帖：90% of executives say AI hasn’t boosted productivity. Some are still cutting jobs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一份调查显示，九成受访高管承认公司引入 AI 之后并没有看到可量化的生产率提升，但其中相当一部分公司仍在继续裁员。表面上这是一条自相矛盾的新闻，评论区却给出了好几种自洽的解释，而且一种比一种冷。&lt;/p&gt;
+
+&lt;p&gt;最尖锐的一条是：裁员和 AI 的因果关系被搞反了。不是 AI 顶替了这些岗位所以裁人，而是为了付得起 AI 的账单所以先裁人，然后押注未来某天 AI 真能顶上。有人接着补了一句，这本质上是拿别人的饭碗做的赌注 —— 赌输了下注的人未必要承担全部代价。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“They are not cutting jobs because AI is taking over the jobs, they are cutting jobs just to pay for the AI, and hope that one day the AI will be good enough to actually take over the jobs.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Worldly-Ingenuity843，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vxst1m/90_of_executives_say_ai_hasnt_boosted/p5rpphz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;第二条线索是关于议价权的。有人指出企业一边防着工会，一边却在把整个生产环节的依赖集中到两三家 AI 供应商手里 —— 一旦哪天真的九成业务跑在别人的模型上，对方涨价时你连谈判的资格都没有，因为已经没有可以退回去的人了。有位从业者补充说，这不是假想，涨价和限额已经开始了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The hyperscalers already started jacking their prices up and capping token usage a few months ago and it caught a ton of companies off guard.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/NOODL3，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vxst1m/90_of_executives_say_ai_hasnt_boosted/p5sgnq4/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有两个补充视角值得一提。一是有人认为裁员真正的原因是经济不景气，AI 只是一个不会惊动投资人的体面借口；二是有人纠正了一个常见的偷换概念 —— 裁员之后人均利润上升，说明的是盈利能力，不是生产率，产出本身可能压根没变。&lt;/p&gt;
+
+&lt;p&gt;我的感受是，这条新闻最有价值的地方不在「AI 是不是泡沫」这种大而无当的判断，而在于它把一个具体的风险摆到了台面上：把关键能力外包给一个还在亏损运营、迟早要涨价的供应商，同时又主动拆掉了自己的替代方案。个人层面其实也一样 —— 如果你的工作方式已经完全依赖某个订阅制工具，那它涨价那天，你的选择空间有多大，值得提前想一想。&lt;/p&gt;
+
+&lt;h2 id=&quot;三python-316-的复杂度文档和一个-on-引发的辩论&quot;&gt;三、Python 3.16 的复杂度文档，和一个 O(n) 引发的辩论&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1vy0ywg/the_python_316_docs_now_have_a_page_detailing_the/&quot;&gt;原帖：The Python (3.16) docs now have a page detailing the time complexity of operations on built-in types&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Python 3.16 的官方文档新增了一页，系统列出了内置类型各种操作的时间复杂度 —— list 的 append、insert，dict 和 set 的查找，等等。这类信息以前散落在 wiki 和各种博客里，现在进了正式文档。有人立刻感慨说 Java 和 C++ STL 的文档几十年前就带着复杂度标注，Python 这一步来得实在有点晚。&lt;/p&gt;
+
+&lt;p&gt;然后有人在表里揪出了一行：对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;range&lt;/code&gt; 对象求 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;min&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max&lt;/code&gt; 是 O(n)。这看着像笔误 —— range 由起点、终点、步长三个数定义，最大最小值明明可以直接算出来。实测下来确实是 O(n)，于是讨论转向了「这到底是疏忽还是设计」。&lt;/p&gt;
+
+&lt;p&gt;一派认为这就是该修的疏忽：解释器明明能看出参数是个 range，标准库容器理应有特化路径。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It does see that it’s dealing with a range object though. This is an oversight, there should be special cases implemented for standard lib containers.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Schmittfried，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1vy0ywg/the_python_316_docs_now_have_a_page_detailing_the/p5tnaul/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一派的反驳很到位：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;min&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max&lt;/code&gt; 的契约是「接受任意可迭代对象」，它看到的只是一个迭代器。要认出 range 就得在每次调用时做类型判断，这个开销会摊到所有调用 min/max 的地方 —— 包括那些完全用不上这个优化的场景。真想通用地解决，得引入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__min__&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__max__&lt;/code&gt; 这样的协议，就像 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__abs__&lt;/code&gt; 那样。有人顺着这条思路点破了一个类比：对已排序的 list 求 min 同样是 O(n)，因为它也不知道自己是有序的。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The interface for min/max is just an iterable. Anything beyond that you’d need to check for explicitly, with a corresponding cost for everything you call min/max on.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Brian，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1vy0ywg/the_python_316_docs_now_have_a_page_detailing_the/p5tp3p0/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺带一提，还有人指出即使真要算，也没法简单地拿 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stop&lt;/code&gt; 当最大值 —— &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;range(1, 3, 2)&lt;/code&gt; 的最大值是 1，得考虑步长做取整。当然也有务实派表示自己完全不在乎，O(n) 求 min 对他写的 99.9% 的代码都是可接受的代价。&lt;/p&gt;
+
+&lt;p&gt;这场辩论比那页文档本身更有教育意义：它是一个关于「抽象的代价该由谁承担」的标准案例。为少数场景加特化，成本会被摊到所有人身上；不加，则少数场景吃亏。Python 在这类取舍上历来偏向前者的反面，理解这个倾向，比背下复杂度表更有用。&lt;/p&gt;
+
+&lt;h2 id=&quot;四索尼再次提醒你买的-ps-游戏不属于你&quot;&gt;四、索尼再次提醒：你买的 PS 游戏不属于你&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vxzt65/sony_reminds_players_they_dont_actually_own_the/&quot;&gt;原帖：Sony reminds players they don’t actually own the PlayStation games they purchased&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;索尼更新条款，再次明确数字商店里「购买」的游戏是授权而非所有权，账号或授权终止时内容可能失效。这个说法本身不新鲜，但每次被摆到台面上都会重新点燃关于数字所有权的争论。&lt;/p&gt;
+
+&lt;p&gt;评论区第一时间把索尼的历史翻了出来 —— 二十年前那场在音乐 CD 里植入 rootkit 的丑闻，被拿来说明这家公司在版权保护上的态度一以贯之。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Anyone that was around in the Napster days and when Sony included a rootkit on music CDs should not be surprised by their attitude on this.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/baw3000，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vxzt65/sony_reminds_players_they_dont_actually_own_the/p5ssmk7/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;更有信息量的是接下来那段公司史。索尼同时拥有硬件部门和唱片公司，硬件那边希望用户把 CD 抓轨随身带着听，音乐那边死守 DRM，两边内耗多年。结果是索尼错过了推出自己那款 iPod 的时间窗口 —— 一家在便携音乐播放器上有 Walkman 这种统治级产品的公司，把 MP3 时代拱手让人，原因是自己左手不让右手做事。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“They basically lost the timing to release their own Ipod because Sony Music were crazy about DRM and kept fighting their eletronics division.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Efficient-Session644，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vxzt65/sony_reminds_players_they_dont_actually_own_the/p5sxoxr/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;讨论后半段扩展到了更普遍的规律：先低价换用户，规模起来后收紧、涨价、降质。有人用 Netflix 从鼓励共享账号到严打共享的转向作类比，也有人反驳说流媒体的紧缩是资本环境变了 —— 便宜钱没了，投资人开始要回报。&lt;/p&gt;
+
+&lt;p&gt;对中文读者，这里可以引申的一点是：数字内容的「所有权」在法律上早就不是我们直觉里的那种所有权，而这件事在国内其实更值得警惕，因为音乐、影视、电子书、游戏的下架和授权到期发生得更频繁。真正在意的东西，本地留一份能离线打开的副本，仍然是最朴素也最有效的办法。&lt;/p&gt;
+
+&lt;h2 id=&quot;五一万五千局井字棋先手占中间反而最难赢&quot;&gt;五、一万五千局井字棋：先手占中间，反而最难赢&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vy7yhb/oc_win_rate_by_opening_square_in_15655_online_tic/&quot;&gt;原帖：Win rate by opening square in 15,655 online tic tac toe games&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;有人统计了某个在线井字棋平台上一万五千多局对局的数据，按先手第一步落子位置分组算胜率。结论是：中间格是最热门的开局，胜率却是最低的。&lt;/p&gt;
+
+&lt;p&gt;评论区把这个反常识的结果拆得很干净。井字棋是已解游戏，双方都下最优解必然平局，所以胜率高低反映的根本不是棋力，而是「对手犯错的概率」。占中间是理论上最稳的一步，但破解方法也最广为人知 —— 对手大概率知道该怎么应对，于是稳稳走成平局。占角则相反：应对角开局只有一步不会立刻输，不知道的人很容易随手走错。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…Against someone who hasn’t solved the game, corner is best cause there is only one move that isn’t an instant loss. If your opponent doesn’t know it, they might randomly lose.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Inane_newt，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vy7yhb/oc_win_rate_by_opening_square_in_15655_online_tic/p5uz8ho/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有一个更妙的观察：井字棋有旋转对称性，四个角在数学上完全等价，但数据里左上角和右下角的胜率差了两成。既然棋盘对称，差异只能来自人 —— 有人猜测习惯从左上开始扫视的新手更容易随手点左上角，于是左上角这一组里堆积了更多菜鸟，把胜率拉了下去。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The upper left and bottom right corners are exactly equal to each other but bottom right players win about 20% more often than upper left players.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/WanderingFlumph，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vy7yhb/oc_win_rate_by_opening_square_in_15655_online_tic/p5uqyvc/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个小数据集其实是一堂很好的统计课。当理论上完全等价的两个选项在数据上出现系统性差异，答案几乎一定在「选择这个选项的是什么人」里，而不在选项本身 —— 这正是选择偏差最干净的一个演示。放到工作里，A/B 测试、渠道转化率、功能使用率的对比，栽在同一个坑里的次数比想象中多得多。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;今天就到这里。如果只挑一条带走，我会选内存那条 —— 它是这一整轮 AI 叙事里，少数已经能在你自己的购物车里看到的东西。&lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Aug 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/26/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/26/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.08.25</title>
@@ -3069,422 +3220,6 @@
         
         
         <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>中兴通讯2026年半年报——营收780.25亿同比增长9.05%，归母净利27.53亿却同比腰斩45.57%，AI算力生意换来了收入却换不来利润</title>
-        <description>&lt;p&gt;2026年8月22日，&lt;a href=&quot;https://www.zte.com.cn/&quot;&gt;中兴通讯&lt;/a&gt;（000063.SZ，00763.HK）披露2026年半年度报告。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;营业收入780.25亿元，同比增长9.05%；归属于上市公司股东的净利润27.53亿元，同比减少45.57%；扣除非经常性损益后的归母净利润22.21亿元，同比减少45.89%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;收入涨了9%，利润少了近一半。这份财报和上一篇写的中际旭创放在一起看特别有意思——&lt;strong&gt;同样是吃AI算力这碗饭，一个毛利率46.59%赚得盆满钵满，一个毛利率被拖到25.48%、利润腰斩。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;公司自己在半年报里给的定性是：「在行业周期切换叠加业务结构调整的背景下，公司归母净利润承压。」这句话说得很克制，但方向是对的。下面把它拆开。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;p&gt;中兴通讯成立于1985年，1997年在深交所上市、2004年在港交所上市，是国内最主要的通信设备供应商之一。&lt;/p&gt;
-
-&lt;p&gt;它的业务分成三块，这三块的商业属性差异极大，是理解这份财报的关键：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;运营商网络&lt;/strong&gt;——卖基站、光传输、路由器、交换机给中国移动、中国电信这类运营商。技术壁垒高、客户集中、&lt;strong&gt;毛利率高&lt;/strong&gt;；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;政企业务&lt;/strong&gt;——卖服务器、存储、数据中心给互联网公司、银行、电力企业。市场大、增长快、&lt;strong&gt;但竞争激烈、毛利率低&lt;/strong&gt;；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;消费者业务&lt;/strong&gt;——家庭路由器、FTTR、手机（努比亚、红魔）、云电脑等。毛利率中等。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;半年报里的一句自我描述概括了当前战略：「双轮驱动，构建端到端AI能力体系，形成网络、算力、家庭及个人终端多元发展格局。」&lt;/p&gt;
-
-&lt;p&gt;翻译成大白话：&lt;strong&gt;传统运营商的钱不好赚了，公司正在转向卖AI算力硬件。&lt;/strong&gt; 而这份财报，正是这次转型的第一份完整成绩单——收入侧的成绩很好，利润侧的代价很大。&lt;/p&gt;
-
-&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026H1&lt;/th&gt;
-      &lt;th&gt;2025H1&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业收入&lt;/td&gt;
-      &lt;td&gt;780.25亿元&lt;/td&gt;
-      &lt;td&gt;715.53亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+9.05%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业成本&lt;/td&gt;
-      &lt;td&gt;581.41亿元&lt;/td&gt;
-      &lt;td&gt;483.34亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+20.29%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;综合毛利率&lt;/td&gt;
-      &lt;td&gt;25.48%&lt;/td&gt;
-      &lt;td&gt;32.45%&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-6.97个百分点&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母净利润&lt;/td&gt;
-      &lt;td&gt;27.53亿元&lt;/td&gt;
-      &lt;td&gt;50.58亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-45.57%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;扣非归母净利润&lt;/td&gt;
-      &lt;td&gt;22.21亿元&lt;/td&gt;
-      &lt;td&gt;41.04亿元&lt;/td&gt;
-      &lt;td&gt;-45.89%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营活动现金流净额&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-1.27亿元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;12.99亿元&lt;/td&gt;
-      &lt;td&gt;-109.74%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;基本每股收益&lt;/td&gt;
-      &lt;td&gt;0.58元&lt;/td&gt;
-      &lt;td&gt;1.06元&lt;/td&gt;
-      &lt;td&gt;-45.28%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;加权平均ROE&lt;/td&gt;
-      &lt;td&gt;3.65%&lt;/td&gt;
-      &lt;td&gt;6.85%&lt;/td&gt;
-      &lt;td&gt;-3.20个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;资产负债表（较2025年末）：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026年6月末&lt;/th&gt;
-      &lt;th&gt;2025年末&lt;/th&gt;
-      &lt;th&gt;变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;资产总额&lt;/td&gt;
-      &lt;td&gt;2,405.48亿元&lt;/td&gt;
-      &lt;td&gt;2,177.39亿元&lt;/td&gt;
-      &lt;td&gt;+10.47%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;负债总额&lt;/td&gt;
-      &lt;td&gt;1,634.24亿元&lt;/td&gt;
-      &lt;td&gt;1,420.98亿元&lt;/td&gt;
-      &lt;td&gt;+15.01%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母所有者权益&lt;/td&gt;
-      &lt;td&gt;769.76亿元&lt;/td&gt;
-      &lt;td&gt;754.26亿元&lt;/td&gt;
-      &lt;td&gt;+2.06%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;资产负债率&lt;/td&gt;
-      &lt;td&gt;67.94%&lt;/td&gt;
-      &lt;td&gt;65.26%&lt;/td&gt;
-      &lt;td&gt;+2.68个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;这份财报的全部症结，浓缩在一行数字里：收入涨9.05%，成本涨20.29%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;成本涨幅是收入涨幅的两倍多，毛利率自然从32.45%塌到25.48%。780亿元的收入规模上，&lt;strong&gt;每损失1个百分点的毛利率就等于蒸发约7.8亿元的毛利&lt;/strong&gt;，6.97个百分点约等于54亿元——而公司上半年归母净利润才27.53亿元。&lt;/p&gt;
-
-&lt;p&gt;这就是为什么净利润会腰斩：&lt;strong&gt;不是生意没做成，而是做成的生意不赚钱。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;三分业务拆解一场用高毛利换低毛利的置换&quot;&gt;三、分业务拆解：一场「用高毛利换低毛利」的置换&lt;/h1&gt;
-
-&lt;p&gt;这张表是全篇最重要的内容：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;业务板块&lt;/th&gt;
-      &lt;th&gt;收入&lt;/th&gt;
-      &lt;th&gt;占比&lt;/th&gt;
-      &lt;th&gt;收入同比&lt;/th&gt;
-      &lt;th&gt;毛利率&lt;/th&gt;
-      &lt;th&gt;毛利率同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;运营商网络&lt;/td&gt;
-      &lt;td&gt;317.65亿元&lt;/td&gt;
-      &lt;td&gt;40.71%&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-9.41%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;38.06%&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-14.88个百分点&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;政企业务&lt;/td&gt;
-      &lt;td&gt;276.31亿元&lt;/td&gt;
-      &lt;td&gt;35.41%&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+43.51%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;15.84%&lt;/td&gt;
-      &lt;td&gt;+7.57个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;消费者业务&lt;/td&gt;
-      &lt;td&gt;186.29亿元&lt;/td&gt;
-      &lt;td&gt;23.88%&lt;/td&gt;
-      &lt;td&gt;+8.09%&lt;/td&gt;
-      &lt;td&gt;18.35%&lt;/td&gt;
-      &lt;td&gt;+0.57个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;合计&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;780.25亿元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;100%&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+9.05%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;25.48%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-6.97个百分点&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;看清楚发生了什么：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;收入结构在快速置换。&lt;/strong&gt; 毛利率38%的运营商网络业务收入下滑9.41%，毛利率不到16%的政企业务收入暴增43.51%。公司自己说得很直接——政企业务「是公司收入增长核心引擎」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;但引擎的燃油效率很低。&lt;/strong&gt; 政企业务276.31亿元收入，按15.84%毛利率算，贡献毛利约43.8亿元；而运营商网络317.65亿元收入，按38.06%毛利率算，贡献毛利约120.9亿元。同样量级的收入，赚钱能力差了近3倍。&lt;/p&gt;
-
-&lt;p&gt;更麻烦的是，&lt;strong&gt;运营商网络自己的毛利率也垮了14.88个百分点&lt;/strong&gt;。半年报的解释是「主要由于产品收入结构变动」——通俗地说，就是在运营商这条线里，高毛利的无线基站产品在减少，低毛利的服务器、存储、数据中心交换机在增加。也就是说，&lt;strong&gt;低毛利化不只发生在政企板块，它已经蔓延进运营商板块内部了。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;运营商网络传统业务见顶算力接棒但不挣钱&quot;&gt;运营商网络：传统业务见顶，算力接棒但不挣钱&lt;/h2&gt;
-
-&lt;p&gt;半年报的原话：「国内5G网络建设处于成熟期，通信基础设施投资持续下降，公司国内运营商传统网络收入减少。」&lt;/p&gt;
-
-&lt;p&gt;这是整个行业的现实。5G建设高峰已过，运营商资本开支连年下滑，中兴的应对是两条腿走路——一是布局6G、T Bit光网、200G PON等前沿技术守住技术优势，二是拓展国际市场对冲国内下滑。&lt;/p&gt;
-
-&lt;p&gt;同时公司在积极「把握运营商智算资源池建设机会」：数据中心交换机中标中国移动RoCE交换机集采项目，核心路由器落地中国移动高端核心路由器（二档）中标项目，稳步提升国内东数西算节点份额。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;新业务确实拿到了单，但这些单的毛利率远不如当年卖5G基站。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;政企业务跑得最快也最像代工&quot;&gt;政企业务：跑得最快，也最像「代工」&lt;/h2&gt;
-
-&lt;p&gt;政企业务收入增长43.51%，半年报明确说「主要由于服务器及存储收入增长」。&lt;/p&gt;
-
-&lt;p&gt;客户名单很硬：持续规模中标与落地头部互联网企业项目，在国有银行及股份制银行实现智算产品突破、通算产品规模中标，在电力、交通、政务等市场实现重点客户突破；国际市场自研产品在印尼实现规模部署，并拓展马来西亚、泰国、日本、墨西哥等新增市场。&lt;/p&gt;
-
-&lt;p&gt;值得肯定的一点：&lt;strong&gt;政企业务毛利率其实是在改善的&lt;/strong&gt;，从8.27%提升到15.84%，涨了7.57个百分点，公司说是「服务器及存储毛利率提升」。&lt;/p&gt;
-
-&lt;p&gt;但15.84%依然是个偏低的数字。AI服务器这门生意的价值大头在GPU芯片手里，整机厂商赚的是组装、供应链和交付的钱。&lt;strong&gt;中兴用规模换取了增长，代价是整个公司的利润率被结构性稀释。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;消费者业务稳但体量还不够顶事&quot;&gt;消费者业务：稳，但体量还不够顶事&lt;/h2&gt;
-
-&lt;p&gt;收入186.29亿元，同比增长8.09%，毛利率18.35%微升0.57个百分点，增长主要来自家庭终端。&lt;/p&gt;
-
-&lt;p&gt;亮点是：国内FTTR、家庭路由器、家庭摄像头在运营商市场保持份额领先，智慧中屏成为运营商市场第一品牌；国际市场Wi-Fi 7产品规模发货。手机侧，努比亚NaviX Ultra在世界人工智能大会亮相，红魔巩固游戏手机优势；云电脑在运营商市场发货量继续保持第一。&lt;/p&gt;
-
-&lt;h1 id=&quot;四分地区国际在救场国内在失血&quot;&gt;四、分地区：国际在救场，国内在失血&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;地区&lt;/th&gt;
-      &lt;th&gt;收入&lt;/th&gt;
-      &lt;th&gt;占比&lt;/th&gt;
-      &lt;th&gt;收入同比&lt;/th&gt;
-      &lt;th&gt;毛利率&lt;/th&gt;
-      &lt;th&gt;毛利率同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;中国&lt;/td&gt;
-      &lt;td&gt;501.54亿元&lt;/td&gt;
-      &lt;td&gt;64.28%&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-0.91%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;24.68%&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-9.01个百分点&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;亚洲（不含中国）&lt;/td&gt;
-      &lt;td&gt;123.70亿元&lt;/td&gt;
-      &lt;td&gt;15.85%&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+53.41%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;25.52%&lt;/td&gt;
-      &lt;td&gt;-2.31个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;欧美及大洋洲&lt;/td&gt;
-      &lt;td&gt;106.58亿元&lt;/td&gt;
-      &lt;td&gt;13.66%&lt;/td&gt;
-      &lt;td&gt;+10.87%&lt;/td&gt;
-      &lt;td&gt;24.61%&lt;/td&gt;
-      &lt;td&gt;-3.24个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非洲&lt;/td&gt;
-      &lt;td&gt;48.43亿元&lt;/td&gt;
-      &lt;td&gt;6.21%&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+48.61%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;35.61%&lt;/td&gt;
-      &lt;td&gt;-2.53个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;国际市场合计收入278.72亿元，同比增长33.13%，占比升至35.72%，毛利率26.92%（同比下降2.53个百分点）——&lt;strong&gt;国际市场的毛利率如今已经高于国内市场（24.68%）。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;国内收入几乎零增长（-0.91%），毛利率却掉了9.01个百分点，这是拖累全局的主要来源。国际市场的53%（亚洲）、48%（非洲）高增长，是这份财报里最积极的部分：公司坚持「大国大T战略」深耕亚太、欧洲、拉美、中东非四大区域，同时「深化与互联网企业、制造业龙头、大型央国企等中资企业协同出海」——中国企业出海建数据中心，中兴跟着一起出去。&lt;/p&gt;
-
-&lt;h1 id=&quot;五费用与现金流两个不能忽视的信号&quot;&gt;五、费用与现金流：两个不能忽视的信号&lt;/h1&gt;
-
-&lt;h2 id=&quot;信号一研发费用在下降&quot;&gt;信号一：研发费用在下降&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;项目&lt;/th&gt;
-      &lt;th&gt;2026H1&lt;/th&gt;
-      &lt;th&gt;2025H1&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;研发费用&lt;/td&gt;
-      &lt;td&gt;109.30亿元&lt;/td&gt;
-      &lt;td&gt;126.65亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-13.70%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;研发投入总额&lt;/td&gt;
-      &lt;td&gt;117.51亿元&lt;/td&gt;
-      &lt;td&gt;135.41亿元&lt;/td&gt;
-      &lt;td&gt;-13.22%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;研发投入占营收比例&lt;/td&gt;
-      &lt;td&gt;15.06%&lt;/td&gt;
-      &lt;td&gt;18.92%&lt;/td&gt;
-      &lt;td&gt;-3.86个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售费用&lt;/td&gt;
-      &lt;td&gt;39.99亿元&lt;/td&gt;
-      &lt;td&gt;43.84亿元&lt;/td&gt;
-      &lt;td&gt;-8.79%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;管理费用&lt;/td&gt;
-      &lt;td&gt;21.49亿元&lt;/td&gt;
-      &lt;td&gt;21.31亿元&lt;/td&gt;
-      &lt;td&gt;+0.88%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;公司对研发费用下降的解释是：「主要由于本期研发人员绩效费用进度较上年同期偏慢，及研发材料等支出节奏不均衡综合影响所致。」&lt;/p&gt;
-
-&lt;p&gt;这个解释指向的是节奏问题而非战略收缩，全年数据出来前不宜过度解读。但对一家把「6G预研」「T Bit光网」「端到端AI能力体系」写进战略的公司来说，&lt;strong&gt;研发投入占营收比例从18.92%降到15.06%，是一个需要在三季报里重点复核的指标。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;顺带说一句：正是因为三费同时压降（销售费用-8.79%、研发费用-13.70%），公司才把净利润守在了27.53亿元。&lt;strong&gt;如果费用不压，这份财报会更难看。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;信号二经营活动现金流转负&quot;&gt;信号二：经营活动现金流转负&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;经营活动现金流净额为-1.27亿元&lt;/strong&gt;，去年同期是+12.99亿元。每股经营活动现金流-0.03元。&lt;/p&gt;
-
-&lt;p&gt;服务器、存储这类生意的特点是：备货占用资金大、客户账期长。收入结构往政企算力倾斜，现金流承压是可以预期的结果。但净流出终究是个警示灯——&lt;strong&gt;它意味着上半年的收入增长，公司没有拿回对应的现金。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;配合看资产负债率从65.26%升至67.94%，负债总额增长15.01%（快于资产增长的10.47%），这条线需要持续跟踪。&lt;/p&gt;
-
-&lt;h2 id=&quot;其他损益项目&quot;&gt;其他损益项目&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;其他收益10.97亿元，同比减少38.80%（与日常经营活动相关的其他收益减少）；&lt;/li&gt;
-  &lt;li&gt;投资收益4.71亿元，同比增长212.32%（联合营企业盈利增加）；&lt;/li&gt;
-  &lt;li&gt;公允价值变动收益-1.59亿元，去年同期为+1.59亿元（衍生品合约重估产生损失）；&lt;/li&gt;
-  &lt;li&gt;信用减值损失4.05亿元，同比增长252.32%；&lt;/li&gt;
-  &lt;li&gt;所得税费用3.53亿元，同比减少41.95%（利润总额减少）。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;六亮点与隐忧&quot;&gt;六、亮点与隐忧&lt;/h1&gt;
-
-&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;1）收入还在增长，且增长来自新赛道。&lt;/strong&gt; 在国内运营商投资连续下滑的背景下，公司靠政企算力和国际市场把总收入拉出了9.05%的正增长，这本身不容易。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2）国际化成效实打实。&lt;/strong&gt; 国际收入占比35.72%、同比增长33.13%，亚洲（不含中国）+53.41%、非洲+48.61%，且国际毛利率已反超国内。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3）政企业务毛利率在修复。&lt;/strong&gt; 从8.27%到15.84%，说明公司在服务器这门苦生意里正在往上爬，而不是纯粹靠低价抢单。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4）客户结构在升级。&lt;/strong&gt; 头部互联网、国有银行、股份制银行、电力、交通、政务——这些是长期、高粘性的客户。今天的低毛利订单，可能是明天高毛利服务的入场券。&lt;/p&gt;
-
-&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;1）毛利率的下滑是结构性的，不是周期性的。&lt;/strong&gt; 只要收入结构继续从「基站」向「服务器」迁移，毛利率的下行压力就不会消失。除非公司能在算力硬件里做出差异化（自研芯片、液冷、整柜方案等），否则很难指望毛利率回到30%以上。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2）运营商网络毛利率暴跌14.88个百分点，比政企低毛利更值得警惕。&lt;/strong&gt; 这说明公司最赚钱的基本盘也在被低毛利产品稀释。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3）经营现金流转负 + 资产负债率上升。&lt;/strong&gt; 两个指标同向恶化，是扩张型转型期的典型症状，需要三季报验证是否只是季节性波动。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4）研发投入强度下降。&lt;/strong&gt; 15.06%的研发投入占比在通信设备行业依然不低，但同比下降3.86个百分点的方向值得警惕，尤其是在6G周期启动前夜。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5）利润基数已经很低，但估值往往看的是未来。&lt;/strong&gt; 半年ROE只有3.65%，年化不到8%，对一家资产2,400亿元的公司来说，回报率并不亮眼。&lt;/p&gt;
-
-&lt;h1 id=&quot;七总结&quot;&gt;七、总结&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;中兴通讯正在做一件正确但痛苦的事：在旧引擎熄火之前，把新引擎点着。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;旧引擎是5G基站——毛利率高、但国内投资已经见顶，上半年运营商网络收入下滑9.41%。&lt;/p&gt;
-
-&lt;p&gt;新引擎是AI算力硬件——政企业务增长43.51%，是公司唯一的高速增长极，但毛利率只有15.84%。&lt;/p&gt;
-
-&lt;p&gt;这个置换在收入端是成功的（总收入仍增长9.05%），在利润端是昂贵的（净利润腰斩45.57%）。&lt;/p&gt;
-
-&lt;p&gt;真正的问题是：&lt;strong&gt;这是转型期的一次性阵痛，还是一门生意向另一门生意的永久性降级？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;判断的关键指标有三个，值得在三季报和年报里逐一核对：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;政企业务毛利率能否继续往上爬&lt;/strong&gt;（上半年已从8.27%提升到15.84%，如果能到20%以上，故事就成立）；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;运营商网络毛利率能否止住14.88个百分点的跌势&lt;/strong&gt;；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;经营现金流能否转正&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;在这三个问题有答案之前，这份财报最诚实的读法是：&lt;strong&gt;中兴买到了AI时代的入场券，但票价比预想的贵。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手原文：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-22/1225490139.PDF&quot;&gt;中兴通讯股份有限公司2026年半年度报告（巨潮资讯网 PDF 全文）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-22/1225490138.PDF&quot;&gt;中兴通讯股份有限公司2026年半年度报告摘要（巨潮资讯网 PDF）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.zte.com.cn/china/about/investor_relations.html&quot;&gt;中兴通讯投资者关系页面&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;本文所有财务数据、分业务与分地区收入及毛利率、费用明细、现金流数据、管理层表述及业务进展，均直接取自上述2026年半年度报告全文，未采用任何媒体转述数据。文中「2025H1综合毛利率32.45%」「2025H1政企业务毛利率8.27%」由半年报披露的本期毛利率与同比变动百分点推算得出。&lt;/p&gt;
-</description>
-        <pubDate>Sun, 23 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/23/zte_2026h1_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/23/zte_2026h1_earnings/</guid>
-        
-        <category>中兴通讯</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

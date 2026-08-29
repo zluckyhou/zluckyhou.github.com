@@ -5,9 +5,200 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 28 Aug 2026 15:49:14 +0800</pubDate>
-    <lastBuildDate>Fri, 28 Aug 2026 15:49:14 +0800</lastBuildDate>
+    <pubDate>Sat, 29 Aug 2026 09:17:37 +0800</pubDate>
+    <lastBuildDate>Sat, 29 Aug 2026 09:17:37 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.08.29</title>
+        <description>&lt;p&gt;今天挑的五个帖子有点巧合地串成了一条线：都在讲「相信谁」这件事。相信公司值得你连续五年不休假，相信自己的鉴权中间件真的在跑，相信一家公司开源大模型是出于善意，相信 AI 给你的第二个答案比第一个更真诚，相信一个从业二十年的医生还是相信手机里那五分钟的对话。&lt;/p&gt;
+
+&lt;p&gt;排在最前面的那个帖子，我读完之后坐了一会儿才开始写。&lt;/p&gt;
+
+&lt;h2 id=&quot;一从-2021-年起没休过一天假然后他撞上了墙&quot;&gt;一、从 2021 年起没休过一天假，然后他撞上了墙&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w12o1d/burnout_recovery_advice_request_any_tips_for_not/&quot;&gt;Burnout recovery advice request: any tips for not hating yourself?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人在现在这家公司干了六年，绩效一路优秀，三次晋升，同事评价是「全公司最好的人」，公司三次生死关头他都是顶上去的那个。代价是从 2021 年到现在一天假没休过。他说前两年自己已经是个「还能运转的倦怠病例」，没人看出来，KPI 也照样完成。真正崩掉是在最近一次晋升之后：认知能力下降、半夜冷汗惊醒、以前几分钟能干完的活现在要一整天，还在邮件里发过几次完全不像他的脾气。医生给他开了一周病假。他最难受的不是这些，而是开始厌恶自己 —— 他躲着自己的女儿，因为觉得自己让她失望了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’ve been a functioning burnout case for the last two years, even though nobody really noticed.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/biggamax（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w12o1d/burnout_recovery_advice_request_any_tips_for_not/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区几乎是一边倒的，而且方向和很多人预想的不一样：没有一个人给他出「怎么更高效地扛过去」的主意。反复被说的是同一件事 —— 倦怠不是靠意志力能穿过去的东西。有位在业内很久、自己重度倦怠过的人说，他当年硬撑了几个月，最后花了将近半年才真正恢复，回去上班的第一个月每天只能写一小时代码，剩下时间在 Slack 上帮别人。他特别点出一周病假不解决问题的原因：休完你还是会回到同一套习惯里去。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A week off isn’t going to fix it. A month off wouldn’t, either, because you’d just go back to the same habits at the end.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/mq2thez，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w12o1d/burnout_recovery_advice_request_any_tips_for_not/p6hvegz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我觉得整个楼里最有洞见的是另一条。有人说，倦怠常被描述成「你干得太多所以电用光了」，但这个说法不对 —— 干自己真正认同的活，就算累得半死，精神层面反而是充电的。倦怠是另一回事：你一路相信这份付出会有回报、相信这是对的事，直到某一天你身上那个更清醒的部分跳出来做了个现实核对，告诉你这件事本来就是错位的。所以它更接近一种哀悼。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’ve come to believe that burnout is a particular flavor of grief.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/typeof_goodidea，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w12o1d/burnout_recovery_advice_request_any_tips_for_not/p6i1vmj/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有一条很短的评论，我看完有点被击中：孩子不在乎你是 CEO 还是扫地的，他们只在乎你在不在乎他们；就算按你自己最苛刻的那套标准来读你这篇帖子，你女儿也压根不关心你在公司是不是掉链子了。&lt;/p&gt;
+
+&lt;p&gt;这个帖子对国内读者的意义可能更直接一点。它的主人公不是被压榨的，是自愿的 —— 他从头到尾都在说「值得」「我心甘情愿为团队和家庭牺牲」。这种自愿性才是最难拆的部分：当一个人把「不休假」当成美德而不是问题时，任何劝他休息的话都会被翻译成「你不够努力」。评论区里那句「没人会在你墓碑上写：多好的同事啊，从来不休假」听着刻薄，但它戳的正是这个自我叙事。&lt;/p&gt;
+
+&lt;h2 id=&quot;二他给自己的-ai-安全工具写了个鉴权绕过然后把复盘发了出来&quot;&gt;二、他给自己的 AI 安全工具写了个鉴权绕过，然后把复盘发了出来&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1w0mc05/i_shipped_an_auth_bypass_into_my_own_ai_security/&quot;&gt;I shipped an auth bypass into my own AI security tool. Writeup of how it happened.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者做的工具是给 LLM 调用做代理、埋 canary token、检测提示注入和数据泄漏的 —— 就是那种本职工作是搞安全的东西。上周他发现自己产品里的 API key 权限校验，从来就没生效过。&lt;/p&gt;
+
+&lt;p&gt;根因是两条独立的坑叠在一起。权限范围存在 Postgres 的 jsonb 列里，而 asyncpg 不注册 codec 的话不会自动解码 jsonb，取出来是一个原始字符串而不是列表；他的解析函数看不懂这个字符串，走了兜底分支，返回 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[&quot;*&quot;]&lt;/code&gt; —— 全部权限。另一条是路由解析器只匹配 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/api&lt;/code&gt; 下的路径，而他五个业务路由都挂在别处，于是返回 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;None&lt;/code&gt;，下游把它理解成「这条路由不需要任何权限」。两个 bug 的形状是同一个：把失败当成了放行。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A parse failure was being treated as permission… A missing rule was also being treated as permission.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ferb_is_fine（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1w0mc05/i_shipped_an_auth_bypass_into_my_own_ai_security/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这事之所以没被人利用，理由很荒诞：创建 API key 的接口本身一直在报 500（一个 Python list 直接绑给了 jsonb 参数），所以根本没人能签发出一把 key 来。用他自己的话说，一个坏掉的功能替一道访问控制站了岗。&lt;/p&gt;
+
+&lt;p&gt;他给出的三条建议里，我觉得第三条最值钱：从 jsonb 读出来的东西要断言解码后的类型，别靠推断；解析失败和规则缺失都必须是拒绝，绝不能是放行；至少写一个用故意越权的 key 去请求、期望返回 403 的测试 —— 如果一条这样的测试都没有，你就没有任何证据能说明那道校验真的在跑。他还点出了这类代码为什么特别容易漏：大家只测「有权限的调用能成功」，没人去测「没权限的调用会失败」。&lt;/p&gt;
+
+&lt;p&gt;评论区人不多但有一条挺实在的追问，作者的回答值得抄下来：asyncpg 这个行为其实是有文档的，但文档的说法是「如果你想拿到 dict，就注册一个 codec」，而不是「在你注册之前，你的 jsonb 读出来都是字符串」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Easy to never notice, because everything works right up until you branch on the value’s type”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ferb_is_fine（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1w0mc05/i_shipped_an_auth_bypass_into_my_own_ai_security/p6e2mw4/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这句话可以贴在很多团队的墙上。它描述的是一类最难发现的 bug：不是不工作，是一直工作，直到你第一次对这个值的类型做分支判断为止。顺带说一句，帖子里也有人质疑这篇复盘是 AI 写的、作者没自己校对 —— 这个质疑放在今天这期的第五个帖子里看，会显得格外有意思。&lt;/p&gt;
+
+&lt;h2 id=&quot;三glm-53-发布评论区一半在算显卡账一半在逐条读许可证&quot;&gt;三、GLM-5.3 发布，评论区一半在算显卡账，一半在逐条读许可证&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w0tgzl/zaiorgglm53_hugging_face/&quot;&gt;zai-org/GLM-5.3 · Hugging Face&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;智谱放出了 GLM-5.3。这次发布最值得注意的技术点是：它和 GLM-5.2 用的是同一个基座模型，所有提升全部来自后训练 —— 官方说法是在自家 Code Bench 上比 5.2 提升了 50%，Terminal Bench 3.0 和 Agents’ Last Exam 上拿到开源 SOTA。另一个被单独拎出来讲的是安全能力：在漏洞发现的 CyberGym 上做到了 SOTA，而且越往利用链下游走提升越大，在 exploitation 类基准上是 5.2 的两倍多。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“As we scaled post-training, cyber capability developed faster than we expected.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/jacek2023（原帖作者，引自官方模型卡），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w0tgzl/zaiorgglm53_hugging_face/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区第一层全是喊穷的段子，几十楼在互相开玩笑说愿意用什么换 GPU。往下翻才是干货：一堆人在讨论四台以上 DGX Spark 要不要上 Mellanox 交换机、能不能环形直连（三台三根线官方支持环形，四台以上大家的共识是老老实实买交换机，环形的延迟惩罚不值），也有人抱怨 GLM-5.3-Flash 塞不进 128GB 的机器，盼着下一代能再出个 Air 尺寸。&lt;/p&gt;
+
+&lt;p&gt;真正吵起来的是许可证。有人贴出了那条被反复引用的条款：如果被许可方及其关联方经营模型即服务业务，且连续 12 个月总收入超过 100 亿美元，就必须先通过 Z.AI 的安全审查才能商用。有人读完直呼这是诗，意思是明摆着把大厂挡在门外、其他人随便用。也有人给出了更冷静的解读：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It also just stops AWS and Google from hosting it and offering it as SaaS, thereby more likely driving SaaS customers to z.ai. It’s just protectionism by license terms.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/MightyTribble，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w0tgzl/zaiorgglm53_hugging_face/p6hkrdk/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;由此延伸出一场关于「中国公司为什么开源前沿模型」的争论。一方的态度是：我非常喜欢他们这么干，但你得明白他们不是出于善心，这是一盘长线棋，而且他们下得很好；另一方的回应我觉得更站得住脚 —— 动机是什么不重要，重要的是他们是极少数愿意把前沿模型拿出来分享的公司，而且已经到了很多公司宁愿在 GLM / 混元 / Qwen 上换层皮也不自己练的程度。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“it has reached a level where a lot of companies would rather reskin GLM/hy4/qwen than develop their own”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/PartlyProfessional，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w0tgzl/zaiorgglm53_hugging_face/p6h7q0n/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;对中文读者来说，这条帖子的看点不在跑分，而在于国外开发者对国产开源模型的态度已经完成了一次相当彻底的转变：从「能用吗」到「我的工作流依赖它了，希望这波别停」。「同一个基座、纯靠后训练提升 50%」这句话本身也值得琢磨 —— 它说明现在这个阶段的收益，越来越多来自训练之后而不是训练之中。&lt;/p&gt;
+
+&lt;h2 id=&quot;四抱怨-chatgpt-太会顺着你说结果吵出了一堂对齐课&quot;&gt;四、抱怨 ChatGPT 太会顺着你说，结果吵出了一堂对齐课&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1w0fy92/the_worst_thing_about_chatgpt/&quot;&gt;The worst thing about ChatGPT&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人的抱怨只有两句话：它的观点和推理会随着我的立场变，什么话题都这样，感觉它就是在说我爱听的话。他配的图是让 ChatGPT 在两种黄色的保时捷之间选一个，模型选了一个，他说「大家都觉得另一个更好」，模型立刻倒戈。&lt;/p&gt;
+
+&lt;p&gt;评论区分成了三派，三派说的都对，但对的不是同一件事。&lt;/p&gt;
+
+&lt;p&gt;第一派解释机制。有人把它拆得很清楚：RLHF 里人类标注者会奖励「有帮助」「有礼貌」的输出，而附和用户几乎总比争辩得分更高，模型学到的规则很简单 —— 同意等于奖励；同时，「大家都觉得第一个更好」这句话一旦进入上下文，统计前提就变了，一个「乐于助人的助手」最可能吐出的下一个 token 也就跟着变了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The AI isn’t manipulating you—it’s just blindly optimizing its reward function.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/golonealone，&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1w0fy92/the_worst_thing_about_chatgpt/p6daqvc/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“LLMs are trained and selected to be sycophants. The companies that run them want you to use them, which means like and trust them.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Trollygag，&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1w0fy92/the_worst_thing_about_chatgpt/p6csvqe/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;第二派替模型说话，角度还挺刁：人不也这样吗？有人搬出了阿希从众实验，说人在多数意见面前立刻改口是普遍心理现象，跟人格缺陷没关系；还有人举了个特别生活化的例子 —— 我说想吃海鲜，老婆说想吃烤肉，我想了三十秒觉得烤肉也不错，那我是不是也是个见风使舵的人。也有人指出，用户明明说了「大家都觉得另一个好」，你还要模型不信你说的话，那反过来才更让人抓狂。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Look up Asch’s Conformity Experiment. It’s a psychological factor that has nothing to do with pathology.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Laucy，&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1w0fy92/the_worst_thing_about_chatgpt/p6dkqhu/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;第三派我觉得最有价值，因为他们说清楚了发帖人真正想要的到底是什么 —— 不是模型顽固地坚持己见，而是它在听完你的反驳之后，能有选择地保留一部分判断。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Sticking to its guns, after considering the counterpoints offered by the user, would lend more confidence to its feedback.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/explodingtuna，&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1w0fy92/the_worst_thing_about_chatgpt/p6d9h0d/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这一派也给了最可操作的建议：与其在对话里抱怨，不如把评判标准写进提示词，然后写一个 eval —— 把两种颜色左右调换再问一遍，看模型会不会跟着位置变答案，一直改提示词改到这个测试稳定为止。这其实是把「谄媚」这个模糊的抱怨，变成了一个可以回归测试的指标。&lt;/p&gt;
+
+&lt;p&gt;顺便一提，还有人提到一个变化：以前显式写进记忆的「请直接、别附和我」这类指令效果不错，现在似乎不再被逐条引用，而是被揉进了一个模糊的用户画像里，得时不时提醒一次。这个观察如果属实，对所有靠系统提示词约束模型行为的产品来说都值得警惕。&lt;/p&gt;
+
+&lt;h2 id=&quot;五ai-正在制造一场专业性衰退而评论区自己就是那篇报道&quot;&gt;五、AI 正在制造一场「专业性衰退」，而评论区自己就是那篇报道&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w0n32l/ai_is_driving_an_expertise_recession_as_people/&quot;&gt;AI is driving an “expertise recession” as people increasingly question professional credentials and expert advice&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;报道的论点是：当任何人都能在五分钟内拿到一个听起来很专业的答案时，人们对职业资格和专家意见的信任正在系统性下滑。&lt;/p&gt;
+
+&lt;p&gt;有意思的是评论区自己就演了一遍。最高的那条评论提到英国脱欧前那句著名的「这个国家的人受够专家了」，认为这个过程早就开始，AI 只是加速器，并给了一句很漂亮的总结：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If knowledge is power, then undermining expertise facilitates weakness.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/kadfr，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w0n32l/ai_is_driving_an_expertise_recession_as_people/p6eb39n/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;然后这条评论因为顺口提了一句邓宁-克鲁格效应，立刻被人用一篇论文拍了回来 —— 说该效应可能主要是统计假象。接着又有人反驳这个反驳（你就引了两个人写的一篇论文），再有人反驳这个反驳的反驳（轶事证据不算证据，大脑最擅长选择性地忽略反例）。一场关于「人们是不是过度自信」的讨论，用过度自信的方式吵了三十楼，这个套娃本身比原报道更能说明问题。&lt;/p&gt;
+
+&lt;p&gt;真正让我停下来的是几条一线的观察。一位 IT 管理员说，他的同事用 AI 生成回复发给客户和外部供应商，而对方也在用 AI 生成回复；一位软件工程师说他现在打开 PR，看到的是两个人各自粘贴模型原话在「对话」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…that are also using AI to send their responses (copy and paste)… At this point, we might as well just let the AI chat to itself.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/kyoumei，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w0n32l/ai_is_driving_an_expertise_recession_as_people/p6fi2l6/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一位说妻子在医疗行业，现在拒绝必要治疗的人多到成了流行病，理由是 AI 或者某个 Facebook 群说这东西不好；一个从业近二十年、需要学位才能入行的人站在你面前，被一次五分钟的对话推翻。&lt;/p&gt;
+
+&lt;p&gt;但这个帖子最不该被跳过的是它的反面。有人接得很稳：说句公道话，大多数人都不止一次被医疗行业的坏建议伤害过；医生群体那种傲慢、以及在犯错之后缺乏谦逊，是把自己的坟挖出来的一部分原因，再叠加美国的医疗费用和保险，人们被逼着去找更便宜也更糟的选项。还有人举了修车的例子：我不懂车，但我不会仅仅因为对方比我懂就照单全收。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“To be fair, experts also sometimes abuse their position of authority and assymetic access to information to take advantage of people.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/I_Ski_Freely，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w0n32l/ai_is_driving_an_expertise_recession_as_people/p6hgegy/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;原贴主后来也把话说圆了：讨论当然是好事，我不是说人们不该自己去了解；但现在发生的很多情况不是讨论，是彻底拒绝 —— 不管对面是医生还是护士。&lt;/p&gt;
+
+&lt;p&gt;这个区分很关键，也是我觉得中文语境里最容易被和稀泥掉的那一段：AI 给了普通人一件好东西 —— 一个可以低成本地对专家意见提问、复核、要求解释的工具，这在信息高度不对称的领域（医疗、法律、装修、买车）本来是纠偏的力量。它同时也给了另一件坏东西 —— 一个能把「我不想听」包装成「我做过研究」的话术生成器。这两件事用的是同一个产品、同一次对话，区别只在于你是拿它去提问，还是拿它去找一个已经想好的答案。&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Aug 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/29/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/29/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.08.28</title>
@@ -2371,252 +2562,6 @@
         <pubDate>Thu, 27 Aug 2026 00:00:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/blog/2026/08/27/nvidia_fy2027q2_earnings_call/</link>
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/27/nvidia_fy2027q2_earnings_call/</guid>
-        
-        <category>英伟达</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>英伟达2027财年Q2——单季营收962亿美元同比翻倍，数据中心890亿暴涨117%，但毛利率见顶信号出现</title>
-        <description>&lt;p&gt;北京时间8月27日凌晨（美东时间8月26日盘后），&lt;a href=&quot;https://investor.nvidia.com/&quot;&gt;英伟达&lt;/a&gt;发布2027财年第二财季财报（对应自然年2026年4月28日至7月26日）。&lt;/p&gt;
-
-&lt;p&gt;营收962.21亿美元，同比增长106%，环比增长18%；GAAP每股收益2.46美元，同比增长128%。市场此前预期营收约921亿美元、每股收益约2.10美元，实际结果全面超出。更关键的是下季度指引——1080亿美元，而分析师预期只有1042亿。&lt;/p&gt;
-
-&lt;p&gt;财报公布后英伟达股价先跌约1.3%，随后在电话会上管理层给出「2028财年营收增长约70%」的超预期展望后转涨约4%，报218.77美元。&lt;/p&gt;
-
-&lt;p&gt;这份财报里最值得读的其实不是那些破纪录的数字，而是三条藏在细节里的线索：钱去哪儿了、毛利率为什么要往下走、以及英伟达自己怎么定义「供不应求」。下面拆开看。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-业务概览&quot;&gt;1. 业务概览&lt;/h2&gt;
-
-&lt;p&gt;英伟达的商业模式今天已经很难再用「显卡公司」概括。它现在卖的是&lt;strong&gt;整套AI数据中心&lt;/strong&gt;——GPU芯片、CPU、网络交换机、机柜系统、软件栈打包成一个叫「AI工厂」（AI Factory）的东西卖给客户。&lt;/p&gt;
-
-&lt;p&gt;从这个季度开始，英伟达把财报口径简化成了两个业务板块：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;数据中心&lt;/strong&gt;（Data Center）：面向云厂商、AI实验室、企业和各国政府的AI算力基础设施，本季占总营收的92.5%&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;边缘计算&lt;/strong&gt;（Edge Computing）：游戏显卡、专业图形工作站、汽车智能驾驶、机器人等所有「不在数据中心里」的业务，本季占7.5%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;一句话理解：英伟达现在92%的收入来自「建AI工厂」这一件事。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-本季核心财务数据&quot;&gt;2. 本季核心财务数据&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;FY27Q2&lt;/th&gt;
-      &lt;th&gt;环比（vs FY27Q1）&lt;/th&gt;
-      &lt;th&gt;同比（vs FY26Q2）&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营收&lt;/td&gt;
-      &lt;td&gt;962.21亿美元&lt;/td&gt;
-      &lt;td&gt;+18%&lt;/td&gt;
-      &lt;td&gt;+106%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率（GAAP）&lt;/td&gt;
-      &lt;td&gt;75.0%&lt;/td&gt;
-      &lt;td&gt;+0.1个百分点&lt;/td&gt;
-      &lt;td&gt;+2.6个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业费用&lt;/td&gt;
-      &lt;td&gt;84.08亿美元&lt;/td&gt;
-      &lt;td&gt;+10%&lt;/td&gt;
-      &lt;td&gt;+55%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业利润&lt;/td&gt;
-      &lt;td&gt;637.34亿美元&lt;/td&gt;
-      &lt;td&gt;+19%&lt;/td&gt;
-      &lt;td&gt;+124%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润（GAAP）&lt;/td&gt;
-      &lt;td&gt;596.88亿美元&lt;/td&gt;
-      &lt;td&gt;+2%&lt;/td&gt;
-      &lt;td&gt;+126%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;稀释每股收益（GAAP）&lt;/td&gt;
-      &lt;td&gt;2.46美元&lt;/td&gt;
-      &lt;td&gt;+3%&lt;/td&gt;
-      &lt;td&gt;+128%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;稀释每股收益（非GAAP）&lt;/td&gt;
-      &lt;td&gt;2.22美元&lt;/td&gt;
-      &lt;td&gt;+19%&lt;/td&gt;
-      &lt;td&gt;+120%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;几个需要解释的地方：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;营业利润率66.2%，净利率62.0%。&lt;/strong&gt; 这个数字在超大市值公司里几乎没有对手——每收进100美元，有62美元变成净利润。作为对照，苹果的净利率大约27%，微软大约36%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;GAAP净利润（596.88亿）比非GAAP净利润（539.54亿）还高&lt;/strong&gt;，这在美股财报里是反常的。原因是本季「其他收入净额」有77.73亿美元，主要来自英伟达持有的股权投资升值。这部分收益在非GAAP口径里被剔除了。换句话说，&lt;strong&gt;英伟达的净利润里有一块是「投资赚的钱」，不是卖芯片赚的&lt;/strong&gt;，看利润时要把这块单独拎出来。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;净利润环比只增长2%，远低于营收18%的增速。&lt;/strong&gt; 这不是经营恶化，而是上一季度（FY27Q1）的投资收益基数太高——上季「其他收入」高达163.67亿美元（半年合计241.40亿减去本季77.73亿）。剔除投资波动后的非GAAP净利润环比增长18%，与营收增速匹配。&lt;/p&gt;
-
-&lt;h1 id=&quot;二分业务解读&quot;&gt;二、分业务解读&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-数据中心890亿美元同比117&quot;&gt;1. 数据中心：890亿美元，同比+117%&lt;/h2&gt;
-
-&lt;p&gt;数据中心营收890.2亿美元，环比增长18%，同比增长117%——&lt;strong&gt;一年时间翻了一倍多&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;本季这块业务的关键进展：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Vera Rubin平台进入全面量产&lt;/strong&gt;，机柜已经在CoreWeave、谷歌云、微软Azure、甲骨文云和Nebius等合作伙伴处运行。这是继Blackwell之后的新一代平台。&lt;/li&gt;
-  &lt;li&gt;发布 &lt;strong&gt;Spectrum-6 交换机系统&lt;/strong&gt;，同时支持可插拔光模块和共封装光学（CPO），已开始进入全球超大规模AI工厂。&lt;/li&gt;
-  &lt;li&gt;推出 &lt;strong&gt;NVIDIA Vera&lt;/strong&gt;，公司称之为「第一颗为AI智能体打造的CPU」。SpaceXAI已宣布将部署Vera CPU。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Groq 3 LPX&lt;/strong&gt; 推理加速器进入全面量产，定位是「交互式AI推理」。&lt;/li&gt;
-  &lt;li&gt;与阿波罗、贝莱德、黑石、博枫、高盛和KKR六家机构达成战略合作，计划设立独立的算力融资平台，&lt;strong&gt;撬动超过5000亿美元第三方资本&lt;/strong&gt;投入AI基础设施建设（仍需签署正式协议）。&lt;/li&gt;
-  &lt;li&gt;与韩国SK电讯、NAVER，与日本政府，与SK海力士（下一代存储）分别达成合作，推进主权AI基础设施。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最后这两条值得单独说一句。英伟达正在做一件超出「芯片公司」范畴的事：&lt;strong&gt;帮客户凑钱买自己的芯片&lt;/strong&gt;。5000亿美元融资平台和大量股权投资（本季末非上市股权投资达511.57亿美元，年初只有222.51亿）意味着英伟达深度参与了整个AI基建的资金循环。这是巨大的生态优势，也是市场关心的风险点——如果需求转弱，英伟达的资产负债表会同时承受订单和投资两头的压力。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-边缘计算72亿美元同比27&quot;&gt;2. 边缘计算：72亿美元，同比+27%&lt;/h2&gt;
-
-&lt;p&gt;边缘计算营收72亿美元，环比+13%，同比+27%。这块业务体量只有数据中心的1/12，但布局面很广：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;与微软合作推出 &lt;strong&gt;NVIDIA RTX Spark&lt;/strong&gt;，一颗算力达1 PFLOPS的超级芯片，目标是「重新定义Windows PC」&lt;/li&gt;
-  &lt;li&gt;推出 &lt;strong&gt;DGX Station for Windows&lt;/strong&gt; 桌边AI超级计算机&lt;/li&gt;
-  &lt;li&gt;针对DeepSeek v4 Flash、Diffusion Gemma、Nemotron 3.5 Lightning、Qwen 3.8等开源模型做本地优化&lt;/li&gt;
-  &lt;li&gt;扩展 &lt;strong&gt;DRIVE Hyperion&lt;/strong&gt; 无人出租车（robotaxi）平台生态，合作方包括富士康、VinFast、Uber和HUMAIN&lt;/li&gt;
-  &lt;li&gt;发布 &lt;strong&gt;Isaac GR00T 参考人形机器人&lt;/strong&gt;，以及物理AI全开源模型 &lt;strong&gt;Cosmos 3&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;翻译成大白话：英伟达在数据中心之外押注三件事——&lt;strong&gt;AI PC、自动驾驶、机器人&lt;/strong&gt;。这三块目前贡献的收入很少，但都是十年尺度的赌注。&lt;/p&gt;
-
-&lt;h1 id=&quot;三下季度指引1080亿美元但毛利率要往下走&quot;&gt;三、下季度指引：1080亿美元，但毛利率要往下走&lt;/h1&gt;
-
-&lt;p&gt;2027财年第三财季指引：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指引项&lt;/th&gt;
-      &lt;th&gt;数值&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营收&lt;/td&gt;
-      &lt;td&gt;1080亿美元（正负2%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率（GAAP及非GAAP）&lt;/td&gt;
-      &lt;td&gt;74.0%（正负50个基点）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业费用（GAAP／非GAAP）&lt;/td&gt;
-      &lt;td&gt;约92亿／90亿美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;全年税率&lt;/td&gt;
-      &lt;td&gt;16%到18%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;1080亿美元意味着环比再增12%、同比增长约100%。这个数字比市场预期的1042亿高出约3.6%，是本次财报最强的一击。&lt;/p&gt;
-
-&lt;p&gt;而且这个指引里有一句重要前提：&lt;strong&gt;英伟达在展望中没有计入任何来自中国的数据中心算力收入&lt;/strong&gt;。也就是说，1080亿美元是在「中国市场归零」的假设下给出的。&lt;/p&gt;
-
-&lt;p&gt;需要警惕的是毛利率。75.0%到74.0%，看似只降1个百分点，但管理层在电话会上进一步说明：毛利率将在第四财季触底至&lt;strong&gt;71%到72%&lt;/strong&gt;，2028财年稳定在&lt;strong&gt;72%到73%&lt;/strong&gt;。原因是&lt;strong&gt;存储（内存）价格上涨幅度显著超出此前预期，且明年还会更高&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;对英伟达这种体量的公司，毛利率从75%掉到71.5%意味着什么？以1080亿美元的季度收入计算，每下降1个百分点相当于减少约10.8亿美元毛利。这是AI芯片景气周期里第一次出现&lt;strong&gt;成本端明确的、被管理层承认的逆风&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h1 id=&quot;四亮点与隐忧&quot;&gt;四、亮点与隐忧&lt;/h1&gt;
-
-&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;1. 增长没有减速。&lt;/strong&gt; 本季环比增18%，下季指引仍有约12%的环比增长，同比口径维持在100%上下。上半财年累计营收1778.37亿美元，去年同期只有908.05亿，接近翻倍。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. 需求结构在扩散。&lt;/strong&gt; 电话会披露，超大规模云厂商（hyperscaler）本季贡献490亿美元、环比增13%；而云厂商之外的客户群（企业、新兴云服务商neocloud、主权AI）合计贡献约400亿美元，环比增25%、同比增138%。&lt;strong&gt;客户不再只有几家巨头&lt;/strong&gt;，这直接降低了英伟达的集中度风险。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. 股东回报继续。&lt;/strong&gt; 本季回购加分红共返还股东约260亿美元，回购授权还剩约990亿美元。下一次季度股息每股0.25美元，10月1日派发。&lt;/p&gt;
-
-&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;1. 现金流质量在下滑。&lt;/strong&gt; 这是本次财报最容易被忽略的问题：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;现金流指标&lt;/th&gt;
-      &lt;th&gt;FY27Q2&lt;/th&gt;
-      &lt;th&gt;FY27Q1&lt;/th&gt;
-      &lt;th&gt;FY26Q2&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营活动现金流&lt;/td&gt;
-      &lt;td&gt;240.77亿美元&lt;/td&gt;
-      &lt;td&gt;503.44亿美元&lt;/td&gt;
-      &lt;td&gt;153.65亿美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;自由现金流&lt;/td&gt;
-      &lt;td&gt;213.41亿美元&lt;/td&gt;
-      &lt;td&gt;485.54亿美元&lt;/td&gt;
-      &lt;td&gt;134.50亿美元&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;本季经营现金流240.77亿美元，只有净利润596.88亿的40%。自由现金流环比几乎腰斩。原因写在资产负债表上：&lt;strong&gt;应收账款从年初的384.66亿涨到630.59亿（+64%），存货从214.03亿涨到315.75亿（+47%）&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这两个数字可以有两种解读：乐观的解读是英伟达在为Vera Rubin大规模爬坡备货、客户账期正常；谨慎的解读是收入确认速度快于收款速度。&lt;strong&gt;这是接下来两个季度最应该盯的指标&lt;/strong&gt;——如果应收账款继续跑赢营收增速，就需要认真追问客户的付款能力。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. 资产负债表被显著加杠杆。&lt;/strong&gt; 长期债务从年初的74.69亿美元增至323.66亿美元，四倍多。总资产从2068.03亿增至3202.72亿。英伟达正在用债务和股权投资去支撑整个AI基建生态，这在上行周期是杠杆，在下行周期是负担。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. 中国市场事实上已归零。&lt;/strong&gt; 本季来自中国的数据中心收入占比不到1%（且仅为H200产品），指引中直接按零计算。一个曾经占其数据中心收入两成以上的市场，现在已经从模型里消失了。好消息是这意味着后续任何中国相关的政策松动都是纯粹的上行期权；坏消息是这块市场很可能已被本土厂商实质性接管。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. 毛利率见顶。&lt;/strong&gt; 如前所述，存储成本上行是真实且已被管理层量化的压力。&lt;/p&gt;
-
-&lt;h1 id=&quot;五总结&quot;&gt;五、总结&lt;/h1&gt;
-
-&lt;p&gt;这是一份「数字上无可挑剔、细节上开始出现摩擦」的财报。&lt;/p&gt;
-
-&lt;p&gt;无可挑剔的部分：962亿营收、117%的数据中心增速、1080亿的下季指引、62%的净利率，任何一项拿出来都足以支撑一次上涨。而且在完全不计中国收入的前提下，公司仍然给出了2028财年增长约70%的展望（市场此前预期仅44%）。&lt;/p&gt;
-
-&lt;p&gt;开始出现摩擦的部分：毛利率触顶回落、自由现金流环比腰斩、应收与存货同步膨胀、资产负债表大幅加杠杆。这些都不是「业绩变差」的信号，而是&lt;strong&gt;高速扩张进入重资产阶段&lt;/strong&gt;的典型特征——公司在用现金流和资产负债表换增长速度。&lt;/p&gt;
-
-&lt;p&gt;对普通投资者而言，接下来三个季度真正需要跟踪的是三条线：&lt;strong&gt;毛利率是否如期在71%到72%触底、应收账款增速是否回落到营收增速以下、以及云厂商之外那400亿美元的客户群能否延续三位数增长&lt;/strong&gt;。前两条决定利润质量，第三条决定这轮周期还能走多远。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027&quot;&gt;NVIDIA Announces Financial Results for Second Quarter Fiscal 2027（英伟达官方新闻稿，2026年8月26日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investor.nvidia.com/&quot;&gt;NVIDIA 投资者关系官网&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stockanalysis.com/stocks/nvda/transcripts/676136-q2-2027/&quot;&gt;NVIDIA Q2 FY2027 财报电话会实录（stockanalysis.com）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/08/26/nvidia-nvda-earnings-report-q2-2027-live-updates.html&quot;&gt;Nvidia earnings takeaways（CNBC，2026年8月26日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://fortune.com/2026/08/26/nvidia-results-q2-earnings/&quot;&gt;Nvidia doubles Q2 revenue to $96 billion（Fortune，2026年8月26日）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 27 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/27/nvidia_fy2027q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/27/nvidia_fy2027q2_earnings/</guid>
         
         <category>英伟达</category>
         

@@ -5,9 +5,168 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 30 Aug 2026 09:28:25 +0800</pubDate>
-    <lastBuildDate>Sun, 30 Aug 2026 09:28:25 +0800</lastBuildDate>
+    <pubDate>Sun, 30 Aug 2026 09:31:42 +0800</pubDate>
+    <lastBuildDate>Sun, 30 Aug 2026 09:31:42 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.08.30</title>
+        <description>&lt;p&gt;今天翻下来，五个帖子意外地咬在同一个问题上：我们手里这些越来越强的工具，边界到底在哪儿，又是谁该负责把这个边界画出来。&lt;/p&gt;
+
+&lt;p&gt;有意思的是，四个帖子的评论区都没有停留在「AI 好还是不好」这种层面。删库那个帖子底下在认真讨论 Linux 的 landlock 和 namespace；争论 LLM 确定性的那个帖子，几个人一路吵到 GPU 并行执行顺序带来的浮点误差，中间还有人痛快认错；就连一个「我 16GB 显卡跑通了 27B」的炫技帖，最靠前的回复也是冷冰冰的实测反驳。这种「不谈立场只谈机制」的讨论密度，是我今天挑帖子时最看重的东西。&lt;/p&gt;
+
+&lt;h2 id=&quot;一agent-删掉了-700gb-的家目录评论区先掏出了-landlock&quot;&gt;一、agent 删掉了 700GB 的家目录，评论区先掏出了 landlock&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w1hb27/claude_nukes_a_developers_700_gb_home_directory/&quot;&gt;Claude nukes a developer’s 700 GB home directory while testing deletion safeguards&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;事情本身很有黑色幽默的味道：一位开发者正在测试删除操作的安全护栏，结果 agent 把他 700GB 的家目录清空了。按帖子标题的说法，过程中还牵扯到一次自动的模型降级，随后撞上了一个变量冲突。开头几层楼是意料之中的段子 —— 有人重提那句老话，计算机最大的本事就是让你以极快的速度犯错。&lt;/p&gt;
+
+&lt;p&gt;但往下翻，讨论很快变得具体。有人直接开了张清单：如果你在 Linux 上跑 AI agent，去读一下 landlock、unshare、overlay 文件系统这几样东西。他的意思很清楚 —— 这类事故根本不该靠模型的自觉来防。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Inside a (properly configured) container, AI can do ‘rm -rf /’ and it will not matter.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/preddit1234，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w1hb27/claude_nukes_a_developers_700_gb_home_directory/p6kx8h8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这条底下岔出了今天我读到的最有营养的一段技术拉扯。有人说用 docker 就行，有人接「那你得用 rootless，加 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--user $(id -u):$(id -g)&lt;/code&gt;」，然后被反驳：只要你（或者 agent 自己）能执行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker run -it -v /:/host-root ubuntu bash&lt;/code&gt;，把宿主机根目录挂进容器，前面那些都白搭。争到最后大家的共识落在几个更硬的方案上：podman 的 rootless 模式、bubblewrap（有人提到 Codex 就用它做沙箱）、Linux 5.13 之后的 landlock LSM，以及最朴素的 btrfs 定时快照。还有人翻出了官方文档，指出 agent 本身其实带沙箱能力，只是这位开发者没配。&lt;/p&gt;
+
+&lt;p&gt;另一派的火力则完全对着人。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Who the hell lets an agent play around in an unbacked up, bare metal drive filled with 700gb of personal data? This is 100% on the developer, not the agent.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ak_sys，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w1hb27/claude_nukes_a_developers_700_gb_home_directory/p6m21un/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我的看法：这两派其实说的是同一件事，只是站在了责任链的两端。值得中文读者留意的是那个被反复强调的原则 —— &lt;strong&gt;不要把「不做危险操作」当成一项由模型承担的能力&lt;/strong&gt;。它是概率性的，你把家目录直接暴露给它，就等于把一个没有回滚机制的生产环境交给了一个不保证幂等的执行器。真正该做的是把权限收到文件系统层面：单独的工作目录、只读挂载、rootless 容器、定时快照。这几样东西的配置成本，加起来大概不超过一个下午。&lt;/p&gt;
+
+&lt;h2 id=&quot;二隔壁论坛的人说自己一年没写过代码了而我这边-ai-还在拖慢进度&quot;&gt;二、隔壁论坛的人说自己一年没写过代码了，而我这边 AI 还在拖慢进度&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w1q7gt/why_does_it_feel_like_some_people_live_in_a/&quot;&gt;Why does it feel like some people live in a parallel universe?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人逛到 r/singularity，看到一堆自称二十年经验的人说自己从 2025 年起就没手写过一行代码，感觉像活在平行宇宙 —— 因为在他公司，各种被推荐的用法都试过了，AI 产出的代码还是需要大量人工干预，算上 review 合并请求的时间，速度并没有变快，甚至更慢。&lt;/p&gt;
+
+&lt;p&gt;最高赞的回答短得像一记闷棍：很多人做的就是基础的增删改查 Web 应用，编程和编程不是一回事，不同的作坊对质量的胃口也天差地别。顺着这条往下，讨论分裂成了两个阵营，而且两边都不是嘴炮。&lt;/p&gt;
+
+&lt;p&gt;一边是「不如以前好，但够发版了」。有人说产品导向的公司正在死命压着他们跑快点、别管债；有人补一句债是下任 CTO 的问题。反对的声音里有一条我觉得说到了根上：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The velocity you are experiencing is due to lowering the bar of quality, not typing speed”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ResidentWeevil1，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w1q7gt/why_does_it_feel_like_some_people_live_in_a/p6nrica/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一边则更细致地拆了「我不写代码了」这句话到底是什么意思。有位说自己确实很久不手动改文件了，但全程都在指挥模型：改哪些文件、用什么模式、写什么测试，时间未必省，可认知负担轻多了，下班时不再被榨干。紧接着有人给出了完全相反的亲历：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Now I can feel drained from writing code because I am context switching like crazy between 5 terminals spanning 2 bug investigations and 3 features across 3 repositories for example.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/mavenHawk，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w1q7gt/why_does_it_feel_like_some_people_live_in_a/p6nej7w/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有一条被埋得比较深但很扎实的观察：AI 能带来的收益不是开箱即得的，可能要花上几个月才能稳定拿到好结果，它更像一个速度乘数 —— 本来工程做得好的人会做得更好，本来一团糟的人只会更快地一团糟。另有人吐槽公司为了抢市场狂烧 token，一周就把配额用光，开发成本反而在膨胀。&lt;/p&gt;
+
+&lt;p&gt;我的延伸想法：这个帖子最有价值的地方，是它顺手证伪了「AI 提效」这个说法的粗糙。同一句「我不写代码了」，在有人那里是把手写换成了严格 review 的高强度指挥，在另一些人那里是根本不看输出。这两件事被同一个词概括，于是各说各话。下次听到有人报一个惊人的提效倍数，值得先问一句：你的质量门槛动了没有？以及，你把省下来的时间花到哪儿去了？&lt;/p&gt;
+
+&lt;h2 id=&quot;三用了几年生成式-ai还是像在拉老虎机&quot;&gt;三、用了几年生成式 AI，还是像在拉老虎机&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w1l8v4/have_been_using_genai_for_a_few_years_now_and_it/&quot;&gt;Have been using genAI for a few years now and it still feels like a slot machine&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人说自己跟不上每两周就冒出来的「这个才是你该用的 AI 工具」，他一直老老实实用 CLI agent，写 skill、写 plan、写 spec，可结果依然飘忽不定，搞得他开始怀疑是不是自己的问题。第一条高赞回复直接把这种体感翻译成了机制：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“That’s because it is a slot machine. Put in the prompt, pull the lever, and see if your prize is good enough.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/SnugglyCoderGuy，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w1l8v4/have_been_using_genai_for_a_few_years_now_and_it/p6lley9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;然后这个楼跑向了一个我完全没料到的方向 —— 一群人认认真真论证起「LLM 到底是不是确定性系统」。最初有人说温度调成 0 就确定了，马上被纠正：温度只是在缩放候选 token 的概率分布，采样过程本身还是随机的。接着有人指出更微妙的一点，即便温度为 0，遇到两个概率完全相同的 token 时也没有确定的选法。理论上设 seed 应该能复现，但 OpenAI 的 API 给了 seed 参数，实际却复现不了，几个人对着这个现象猜了半天。有人补充，早期模型基本是确定的，混合专家（MoE）架构进一步破坏了这一点；也有人从数值角度指出温度出现在 softmax 的分母上，技术上不能真取零，用 argmax 才合理。&lt;/p&gt;
+
+&lt;p&gt;而我认为最有洞见的是这条 —— 它把不确定性的来源从「模型设计」推到了「硬件执行」：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Even the order of execution for GPU cores in parallel matters, because floating point errors can throw a wrench in your otherwise deterministic model.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/walkingjogging，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w1l8v4/have_been_using_genai_for_a_few_years_now_and_it/p6m816q/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺着这条，讨论落到了「混沌」这个词的准确用法上 —— 混沌系统按定义就是确定性的，双摆是最经典的例子，规则简单到可以精确模拟，但初始角度差一点点，轨迹很快就面目全非。中间有人搞错了概念，被解释之后回了一句「谢谢，是我错得离谱」，这种转身在中文技术社区其实不太常见。&lt;/p&gt;
+
+&lt;p&gt;我的点评：这段讨论最实用的一个结论是，&lt;strong&gt;LLM 的不可复现和它的不可预测不是同一件事&lt;/strong&gt;。前者可以靠工程手段收窄（固定采样参数、固定后端、限制并发），后者是本质属性 —— 你没法在跑之前知道这一次会输出什么。这也解释了为什么各种 prompt 技巧、skill、spec 都只能改善分布，改善不了性质。所以工程上真正该做的，不是追求「让它每次都对」，而是给它套上事后可验证的闭环：类型检查、测试、CI、code review。老虎机的比喻其实不算贬义 —— 老虎机也能玩，前提是你别把身家押上去，且知道自己在算概率。&lt;/p&gt;
+
+&lt;h2 id=&quot;四16gb-显卡跑-27b-模型50-toks第一条实测回复是什么问题也没解决&quot;&gt;四、16GB 显卡跑 27B 模型、50 tok/s，第一条实测回复是「什么问题也没解决」&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w1lq7u/qwen_38_27b_at_50_toks_with_100k_context_on_a/&quot;&gt;Qwen 3.8 27B at 50 tok/s with 100k Context on a 16GB GPU!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人分享了一套本地部署配置：在一块 16GB 的 RTX 4070 Ti SUPER 上跑 27B 模型，10 万上下文，全部塞进显存，用的是社区做的混合量化 GGUF 加上定制的 chat 模板。这类帖子在 r/LocalLLaMA 一向很受欢迎，因为它把「消费级显卡的上限」往前推了一格。&lt;/p&gt;
+
+&lt;p&gt;有意思的是评论区的反应。楼下有人贴出了自己在 5080 上跑同一个量化的完整 llama-server 启动参数，包括逐步下调 GPU 卸载层数来给上下文腾显存的调参过程 —— 结果被眼尖的人抓到一个漏洞：模型总共只有 65 层，参数写 67 和写「全部」是一个意思，这个所谓的「甜点值」其实什么也没做。原作者的回复相当坦率：我知道，但不知为什么这样对我有效。&lt;/p&gt;
+
+&lt;p&gt;真正泼冷水的是这条：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I tested it and, although it fits, it just keeps going and going and doesn’t solve any problem”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Morailson，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w1lq7u/qwen_38_27b_at_50_toks_with_100k_context_on_a/p6mam9a/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他后来补了细节：模型看起来干得挺欢，但等他检查项目时，发现一个基础的 PHP 和 JS 项目里被塞了一堆莫名其妙的 Python 脚本。另一条则质疑量化本身的可信度：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“still a custom gguf, totally depends on the quality of the builder. Most seem to be garbage.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/zepfan，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w1lq7u/qwen_38_27b_at_50_toks_with_100k_context_on_a/p6nleax/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;主楼里还有一句更早的追问，就一个词：quality？ 而这个帖子从头到尾没给出任何质量层面的数据。&lt;/p&gt;
+
+&lt;p&gt;我的点评：本地部署圈子里有一种很顽固的指标错位 —— &lt;strong&gt;能装下、跑得快、上下文长，这三件事全都不等于能用&lt;/strong&gt;。显存占用和 tok/s 好测，写在标题里也好看；模型在真实任务上是否会跑偏、是否会往你的项目里乱塞文件，得花几天才试得出来，也没法压缩成一个数字。如果你也在折腾本地模型，这个帖子的正确读法是：把它当成一份可复现的显存调优配方（这部分含金量是实打实的），而不是一份选型建议。选型请自己跑一遍你手上真实的活。&lt;/p&gt;
+
+&lt;h2 id=&quot;五美国城市正在创纪录地解约监控摄像头但这不叫监控变少了&quot;&gt;五、美国城市正在创纪录地解约监控摄像头，但这不叫监控变少了&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w1uzn7/cities_terminate_flock_contracts_at_record_pace/&quot;&gt;Cities terminate Flock contracts at record pace in August&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Flock 是一家做车牌自动识别摄像头（ALPR）的美国公司，这两年因为数据被滥用的丑闻不断而处在风口浪尖 —— 同期热榜上还有一条是佐治亚州一名警察用 Flock 系统追踪自己的前任和她的朋友，两人也都是警察。这个帖子的消息是：八月份地方政府终止 Flock 合同的数量创下了纪录。&lt;/p&gt;
+
+&lt;p&gt;如果只看标题，很容易读成一个「公众赢了」的故事。评论区里几位明显是业内人士的回复，把这个乐观情绪按了下去 —— 城市并没有拆掉摄像头，只是换了供应商，摩托罗拉（Motorola Solutions，早已不是做手机那家）的地盘正在因此扩大，而且它本来就是收费公路 ALPR 和警车车载扫描系统的主要制造商之一。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Their marketing materials have bragged about their mobile vehicle-mounted scanners tagging thousands of vehicles per hour and all that data feeds right into the same GIS.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Paizzu，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w1uzn7/cities_terminate_flock_contracts_at_record_pace/p6ojv96/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;那为什么还要换？有人给出了我觉得整个帖子里最关键的一条区分 —— 它跟摄像头本身没关系，跟数据归谁有关系：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The difference between Motorola and Flock is that Motorola doesn’t own the data, the agencies that own the cameras do, whereas Flock owns all the data captured by their cameras.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/CaptZ，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w1uzn7/cities_terminate_flock_contracts_at_record_pace/p6olb3p/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也有人不买账，说这至少算往前走了一步，但真正需要的是一套明确规定各级机构之间能怎么共享这些数据、以及哪些情况绝对不能共享的法规。还有人提醒别把 Flock 简单叫作 ALPR，识别车牌只是它最基础的功能。楼里最后飘过一句挺凉的调侃：你难道真会奇怪为什么一家公司既在卖问题、又在卖问题的解决方案吗。&lt;/p&gt;
+
+&lt;p&gt;我的延伸思考：这个帖子的价值在于它示范了一种识别「假胜利」的方法。舆论压力最容易改变的是&lt;strong&gt;采购关系&lt;/strong&gt;，最难改变的是&lt;strong&gt;能力本身&lt;/strong&gt; —— 摄像头还在路口，扫描频率没降，数据还是流进同一套地理信息系统，变的只是数据库的所有权栏写谁的名字。这个结构在很多领域都成立：换掉一个被骂的供应商，往往比立法限制这项能力容易得多，也因此更容易被当成结果来交差。判断一件事有没有真的变好，看的不该是谁被换掉了，而是那条约束线本身有没有往回挪。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;今天这五个帖子摆在一起，我最后想说的其实是同一句话的五个版本：工具的边界不会自己长出来。agent 不会因为你叮嘱过就不删文件，LLM 不会因为你写了更长的 spec 就变成确定性系统，量化模型不会因为塞进了显存就变得可用，监控能力也不会因为换了个供应商就自动缩回去。这些边界只能由外部结构来定 —— 文件系统权限、CI、真实任务的验证、法规。&lt;/p&gt;
+
+&lt;p&gt;写在最后：把希望寄托在「它应该不会那么干吧」上面的，今天在评论区都被摆出来了。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Aug 2026 09:40:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/30/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/30/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>五粮液2026年半年报——营收284亿增20.9%、净利87.5亿增89.3%，但经营现金流转为负21.5亿</title>
@@ -2281,167 +2440,6 @@
         
         
         <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.08.28</title>
-        <description>&lt;p&gt;今天的头条只有一个：英伟达花 129 亿美元把 Hugging Face 买了下来。这条消息在 r/technology 和 r/LocalLLaMA 同时炸开，但两个板块关心的完全不是一回事 —— 前者在聊估值，后者在算自己明年还能不能在 Mac 上跑模型。&lt;/p&gt;
-
-&lt;p&gt;除此之外还有四个帖子值得一读：一篇把 Qwen 新架构讲清楚同时泼了冷水的长文、Python 3.15 的变更清单、一次针对「数据可视化到底有多少是准的」的自我审计，以及一场关于监控摄像头的、几乎没有人真的高兴的胜利。&lt;/p&gt;
-
-&lt;h2 id=&quot;一英伟达买下-hugging-face顺手把-llamacpp-团队也打包了&quot;&gt;一、英伟达买下 Hugging Face，顺手把 llama.cpp 团队也打包了&lt;/h2&gt;
-
-&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vzmqrk/nvidia_buying_hf_isnt_a_good_thing_for_open_source/&quot;&gt;NVIDIA buying HF isn’t a good thing for open source&lt;/a&gt; / &lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w01y1f/with_huggingface_nvidia_is_also_acquiring/&quot;&gt;With HuggingFace, Nvidia is also acquiring llama.cpp and the team behind it&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Business Insider 先报出英伟达正在洽谈，随后 The Information 称交易已经敲定，金额 129 亿美元。r/LocalLLaMA 有两个高热帖在讨论同一件事的两个侧面：一个问「这对开源是好事吗」，另一个提醒大家，2026 年 2 月 Hugging Face 把 Georgi Gerganov 和 llama.cpp / ggml 的核心团队整体招了进去，所以这笔收购实际上也把 llama.cpp 的著作权和团队一并转手了。&lt;/p&gt;
-
-&lt;p&gt;关于「Hugging Face 到底值不值这个价」，评论区吵得很有意思。一派认为它几乎没有护城河：库是开源的（transformers、diffusers 都是 Apache 2.0），托管栈可以复制，模型本身还大多是别人家的。有人一句话就把商业模式说穿了 —— 免费扛着 PB 级存储烧钱，等的就是这一天：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The moat is that they were hosting petabytes of data for free, burning money waiting to be bought.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/is-this-a-nick，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vzmqrk/nvidia_buying_hf_isnt_a_good_thing_for_open_source/p666oco/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;跟帖里有人算过账：免费账户能往公开仓库传 8.7TB，同样的量放 S3 上一个月光存储加出网就是两百多美元。但另一条反驳更值得琢磨 —— 技术护城河弱不等于护城河窄，难的从来不是把服务做出来，而是让创作者、用户、工具链和文档在同一时间默认认你这个平台：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The hard part is not reproducing the service. It is getting creators, users, tools and documentation to all treat your platform as the default at the same time.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Character-Apple-8471，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vzmqrk/nvidia_buying_hf_isnt_a_good_thing_for_open_source/p668jln/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他后面补了一句我觉得是全场最准的判断：习惯和分发构成的护城河比技术护城河更强，但也更脆 —— 一旦信任没了，它崩得比专利快得多。至于替代品，ModelScope（魔搭）在讨论里被反复提起，有人认为它证明了「大规模的替代方案是可能存在的」，也有人直言体验差距还很大，以及内容尺度上的限制。还有一条评论提到 Hugging Face 上的开放模型早已被中国团队主导，顺带反问了一句：你以为给 Qwen、GLM 提交 llama.cpp 适配代码的都是谁？&lt;/p&gt;
-
-&lt;p&gt;llama.cpp 那个帖子下面，最热的回应是「大不了 fork」，理由也很硬：许可证的变更不能追溯，已经发出去的 MIT 代码谁也收不回。但真正的风险点被一条冷静的评论指了出来 —— 不是明着改许可，而是英伟达有了影响力之后，非 CUDA 平台的补丁会不会慢慢没人 review：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“…the main concern that llama.cpp may become the same if Nvidia actually will have enough influence (like for example getting in the way of accepting patches for other platforms, even if indirectly by not giving core devs enough free time to review them).”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Lissanro，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w01y1f/with_huggingface_nvidia_is_also_acquiring/p69s7gg/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;顺着这条往下，AMD 用户和 Mac 用户的担心具体多了：llama.cpp 一直把 Metal 后端当一等公民对待，这在整个本地推理生态里是相当罕见的。也有人给「fork 就完事了」泼冷水：fork 出来容易，等到要适配一个全新模型架构的时候你才知道，好的贡献者有多难找、多难留。&lt;/p&gt;
-
-&lt;p&gt;我的看法是，这件事最该学的不是「大公司收购开源必然变坏」这种情绪结论 —— 微软买 GitHub 之后天也没塌。真正的观察指标是很具体的三条：非 NVIDIA 后端的 PR 合并速度、Mac/AMD 相关 issue 的响应时间、以及核心维护者半年后还在不在。这三条任何一条变差，都比许可证条款更早、更真实地反映出方向的变化。&lt;/p&gt;
-
-&lt;h2 id=&quot;二engram-不会让你在家跑-1t-模型但它做的事情可能更重要&quot;&gt;二、Engram 不会让你在家跑 1T 模型，但它做的事情可能更重要&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w0198r/no_engrams_wont_let_you_run_1t_models_locally_it/&quot;&gt;原帖：No, Engrams won’t let you run 1T models locally. It does something even better.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Qwen 3.8 Flash Next 发布之后，社区里流传一种说法：靠 N-gram 表就能把 980B 参数扔到 SSD 上，单机跑 1T+ 模型。这篇长文的作者上来就说别做梦了，然后把 Engram 讲得相当清楚：本质上它就是一张键更长的嵌入表 —— 不再用单个 token ID 去索引一个静态向量，而是用最后两三个 token 组成的 N-gram 去索引。「New York」有自己的向量，「the United」有自己的向量，哈希一下取出来喂进网络，O(1)，不消耗 FLOPs。&lt;/p&gt;
-
-&lt;p&gt;为什么值得这么做？因为 Transformer 前几层有相当一部分算力，花在了从零重建那些本来就是静态的东西上：实体名怎么拼、固定搭配是什么、常见词组合起来指向什么。这本质上是一次数据库查询，却被硬生生用注意力和 FFN 重新推导了一遍。Engram 把这活儿还给查表，神经层的深度就能省下来做真正的推理 —— 这也是为什么 Qwen 3.8 Next 能带着 51B 的 N-gram 嵌入，每 token 却只激活 6B 左右。&lt;/p&gt;
-
-&lt;p&gt;但作者紧接着点出了大家没注意的地方：这个查表是「笨」的。键就是最后那两三个 token，你那 20 万 token 的上下文对取回什么向量毫无影响 —— 上下文只能事后接受或否决它，不能改变它取了什么。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Your 200k tokens of context have zero influence on what gets retrieved. … The table memorizes, the transformer reasons.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/chocolateUI（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w0198r/no_engrams_wont_let_you_run_1t_models_locally_it/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;而且把 N 调大也救不了：N 越大，那个特定的 N-gram 在训练数据里就越稀有，每个条目拿到的训练信号越少。论文自己的消融实验就发现 4-gram 会稀释掉更高频的 2/3-gram 模式的容量。所以真正的意义不在于「让大模型变小」，而在于让小模型变聪明 —— 一个 27B 模型过去要同时干两份活，现在可以把记忆那份外包出去。&lt;/p&gt;
-
-&lt;p&gt;评论区里最有意思的是一条来自实际使用的观察：这类模型数字母的能力变强了，而且对否定词的处理明显改善，因为「do not」很可能已经是一个 engram 了，不再需要模型自己把否定关系推导出来：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“…it can count letters in words with minimal reasoning, and it has improved handling of negatives eg not, because do not is probably a single engram now…”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/gh0stwriter1234，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w0198r/no_engrams_wont_let_you_run_1t_models_locally_it/p69gvj5/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;如果这个观察站得住，那它顺带解释了一个长期存在的怪现象：为什么你越是叮嘱模型「不要做 X」，它越容易做 X。另外有人已经在 64GB 的 Orin 上跑起了 Qwen3.8-Next 的 2bit 量化，把 N-gram 表从 SSD 流式读入，8k 上下文下 prompt 处理约 150 tok/s，解码 15 tok/s，128k 时掉到 70 和 8 —— 慢，但确实跑起来了。&lt;/p&gt;
-
-&lt;p&gt;值得一提的是，帖子下面还有一场小争论：有人用检测工具指出这篇长文是 LLM 写的。回应也很干脆 —— slop 之所以叫 slop，重点在「没营养」而不在「AI 写的」，这篇信息密度足够高。这个标准我觉得挺对。对国内读者更实际的启发是：Engram 这条路线如果成立，受益最大的是显存受限的本地部署场景，一张消费级卡装 20~30B 的活跃参数，再把上百 GB 的记忆表甩给内存和 NVMe —— 这个组合在国内的硬件条件下反而比堆卡更现实。&lt;/p&gt;
-
-&lt;h2 id=&quot;三python-315-rc1真正会影响你日常的其实就两条&quot;&gt;三、Python 3.15 RC1：真正会影响你日常的其实就两条&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1vzr2eg/python_315_release_highlights/&quot;&gt;原帖：Python 3.15 Release Highlights&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Python 3.15 已经到 RC1，正式版预计 10 月 1 日发布。作者不按 PEP 编号罗列，而是挑了对日常开发真正有感的部分：惰性导入（模块用到时才加载，CLI 工具启动时间会明显受益）、UTF-8 成为默认编码、内置不可变字典 frozendict、JIT 继续改进（Linux 上早期基准约 8~9%，Apple Silicon 上部分测试更高）、新的低开销采样分析器 Tachyon（可以挂到已经在跑的进程上）、交互式解释器的彩色报错，以及 —— free-threaded 依然是可选项，没有成为默认。&lt;/p&gt;
-
-&lt;p&gt;评论区里被讨论最多的是 UTF-8 那条，因为它比听上去更实在。有人问「默认不一直就是 UTF-8 吗」，得到的回答把问题说清楚了：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;open()&lt;/code&gt; 不写 encoding 时用的是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;locale.getencoding()&lt;/code&gt;，在 Linux 上通常是 UTF-8，在 Windows 上通常不是。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“For open it’s locale.getencoding() which is (usually) UTF-8 on Linux but (usually) something else on Windows.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/didntplaymysummercar，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1vzr2eg/python_315_release_highlights/p67k0s3/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这正是无数「我这儿好好的，到你那儿就乱码」的根源。不过下面这条回复更像是老江湖的态度：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I learned Python on Windows, and my first lessons became “Always explicitly set the encoding to ‘utf-8’.” I suspect I shall continue to do so, 3.15 or no.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/sue_dee，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1vzr2eg/python_315_release_highlights/p67f2t8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;另外两个技术细节值得记一下。一是 frozendict 和已有的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MappingProxyType&lt;/code&gt; 到底差在哪 —— 作者答得很清楚：后者是动态只读视图，底层字典改了它跟着变；frozendict 本身就是不可变映射，且在键值都可哈希时它自己可哈希，因此能当字典的键或集合元素用。二是 3.15 还带来了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sentinel()&lt;/code&gt;（PEP 661），解决的是「参数没传」和「参数传了 None」这两件事一直没法干净区分的老问题 —— 以前大家用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_SENTINEL = object()&lt;/code&gt; 加身份比较凑合，缺点是 repr 难看、类型检查器也没法收窄类型。&lt;/p&gt;
-
-&lt;p&gt;对中文开发者来说，UTF-8 默认这条的价值可能被低估了。国内 Windows 环境默认 GBK/CP936 的比例仍然不低，「本地跑得好好的，CI 上一读文件就崩」这类问题基本都出在这儿。3.15 之后新写的代码会安全很多，但存量代码该显式写 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;encoding=&apos;utf-8&apos;&lt;/code&gt; 还是得写 —— 楼上那位的习惯是对的。&lt;/p&gt;
-
-&lt;h2 id=&quot;四有人把-rdataisbeautiful-最火的-80-张图审了一遍然后被第一条评论将了一军&quot;&gt;四、有人把 r/dataisbeautiful 最火的 80 张图审了一遍，然后被第一条评论将了一军&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vzyyku/oc_how_accurate_were_the_10_highest_scored/&quot;&gt;原帖：How accurate were the 10 highest scored monthly posts on dataisbeautiful (2026)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这个帖子做了件很少有人做的事：把今年 1 月到 8 月 24 日、每月得分最高的 10 个帖子共 80 个，逐一核查数据来源和结论是否站得住。结果是 50% 没发现实质问题，15% 有小问题，13.8% 有大问题，18.8% 用的是私有或无法复现的数据，2.5% 属于非事实性的视觉作品。剔除掉不可核查的那 17 个之后，剩下 63 个可核查帖子里，82.5% 没有重大问题，但只有 63.5% 是完全干净的。&lt;/p&gt;
-
-&lt;p&gt;作者给出的实用结论相当克制 —— 一张爆火的图，大方向通常可以信，但任何真正影响你判断的具体数字都值得自己复核一遍：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“About one in six checkable posts had a defect large enough to change the headline, denominator, comparison, or interpretation.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/HeHate_me（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vzyyku/oc_how_accurate_were_the_10_highest_scored/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;然后就发生了这个帖子最妙的一幕。第一条评论用他自己定义的标准，反手把他自己归了类 —— 你没有公开哪些帖子被判为有问题、依据是什么，那按你的分类法，这个帖子本身不就属于那 18.8% 的「不可复现」吗：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“This post would fall under the 18.8% of posts that use private/unreproducible data, correct? Since I have no way of independently verifying your assessment of minor and major issues … I don’t have enough information to decide whether or not I can trust your assessment.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/QuotidianQuell，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1vzyyku/oc_how_accurate_were_the_10_highest_scored/p69io07/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;作者的回应也挺实在：不完全是，他只是不想公开点名说别人的帖子有错，但复核方法已经写清楚了，任何人都可以自己拉每月前十来对一遍，想要完整清单也可以私信他。另一条评论则把问题推得更远：数据可视化和底层数据一致、结论也和数据一致，不代表数据本身是对的 —— 这种事在学术期刊里同样天天发生。&lt;/p&gt;
-
-&lt;p&gt;这一节我最想说的是，那个「你的审计本身可复现吗」的追问，比审计结果更有价值。它提醒的是一件很容易被忽略的事：出于礼貌（不想点名）而牺牲可核查性，在做事实核查这件事上是一笔亏本买卖。中文互联网上大量「我统计了 XX 条数据发现」的内容，缺的往往不是统计，而是那份可以让别人复现的原始清单。&lt;/p&gt;
-
-&lt;h2 id=&quot;五100-多个城市关掉了-flock-摄像头但评论区几乎没人当成胜利&quot;&gt;五、100 多个城市关掉了 Flock 摄像头，但评论区几乎没人当成胜利&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vzz3hj/more_than_100_cities_across_the_nation_have/&quot;&gt;原帖：More than 100 cities across the nation have turned off their Flock cameras after outcry from locals&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Flock 是一家做车牌识别摄像头的公司，把设备卖给美国大量地方警局，形成了一张覆盖面很广的车辆行踪网络。过去几周民意反弹迅速扩大，超过 100 个城市关停了系统，Tempe 等地明确以隐私和「可能被滥用」为由终止合同，取消合同的名单还在变长。同一天 r/technology 上还有另一条相关新闻：佛罗里达一位拿过「年度警官」的副警长，被查出用 Flock 系统跟踪前伴侣。&lt;/p&gt;
-
-&lt;p&gt;但评论区几乎没有欢呼。出现频率最高的一类回应是「换汤不换药」—— 关掉 Flock 只是换上 Axon 或别的同类供应商，问题从来不是哪一家公司：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“turning off Flock to turn on Axon. We need to stop focusing on one company and focus on ALL SURVEILLANCE being the problem.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/fuji311，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vzz3hj/more_than_100_cities_across_the_nation_have/p68sr4a/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;第二类质疑是「关掉」这个词本身太软：摄像头没拆、数据没销毁，所谓关闭随时可以再打开，真正需要的是地方立法和数据删除。还有人做了个很扫兴但必要的除法：全美有将近 19500 个建制市，100 个只是零头；更何况 Flock 最大的客户群其实是私营企业和业主协会，市政合同流失对它的营收影响有限。而那位被 Flock 跟踪的前伴侣的遭遇，恰好印证了下面这条：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Its not the tool I don’t trust, its the people with access to it.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/RipErRiley，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1vzz3hj/more_than_100_cities_across_the_nation_have/p68v1te/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这一节对中文读者的启发，我觉得不在于监控本身，而在于评论区展现出的那种拒绝被安慰的判断力：一条听上去像好消息的新闻，先问三件事 —— 分母是多少、是关停还是拆除、谁才是真正的付费方。这套追问方式换到任何一个领域都成立。而「我不信任的不是工具，是能接触到工具的人」这句话，几乎可以直接拿去评估任何一套权限系统的设计 —— 技术上能不能做到，和有没有人会滥用，从来是两个独立的问题。&lt;/p&gt;
-</description>
-        <pubDate>Fri, 28 Aug 2026 09:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/28/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/28/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
         
       </item>
     

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Google 团队把基于 Gemini 的 Co-Scientist 扩展为“构思—实验—论文”闭环：它为 CVD 设备设计材料生长路线，按实验室约束单次生长出 MoS2、MoSe2 与 WS2 单层；从稀疏图像预测工程化大肠杆菌群体形态；还自主发现 Agent_H 推理架构。论文称后者在 HealthBench 两项难集上超过六个前沿模型；30 名专家完成 450 次双盲评审后，核验模块显著减少编造与抄袭。MXene 原子结构、跨实验室复现和有害计划零风险仍未解决。">
+    <meta name="keywords" content="AI 日报, AI Frontier Daily, Reddit 精选, 公司观察, 财报分析, 产品经理, 数据产品, AI 应用, 产品设计, 科技博客">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.08.30 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/08/30/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于作者</a>
+        </div>
+
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.08.30</p>
+    <h1>Gemini Co-Scientist 从提出假设推进到实验执行与整篇论文生成</h1>
+    
+    <p class="article-deck">Google 团队把基于 Gemini 的 Co-Scientist 扩展为“构思—实验—论文”闭环：它为 CVD 设备设计材料生长路线，按实验室约束单次生长出 MoS2、MoSe2 与 WS2 单层；从稀疏图像预测工程化大肠杆菌群体形态；还自主发现 Agent_H 推理架构。论文称后者在 HealthBench 两项难集上超过六个前沿模型；30 名专家完成 450 次双盲评审后，核验模块显著减少编造与抄袭。MXene 原子结构、跨实验室复现和有害计划零风险仍未解决。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-08-30T09:07:00+08:00">2026年8月30日</time>
+      <span>10 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪正在发生的，留下值得重读的。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <div class="article-copy__content" data-highlight-source>
+        <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>11</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>3</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>10</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="111-gemini-co-scientist-从提出假设推进到实验执行与整篇论文生成">1/11 Gemini Co-Scientist 从提出假设推进到实验执行与整篇论文生成</h2>
+<p>Google 团队把基于 Gemini 的 Co-Scientist 扩展为“构思—实验—论文”闭环：它为 CVD 设备设计材料生长路线，按实验室约束单次生长出 MoS2、MoSe2 与 WS2 单层；从稀疏图像预测工程化大肠杆菌群体形态；还自主发现 Agent_H 推理架构。论文称后者在 HealthBench 两项难集上超过六个前沿模型；30 名专家完成 450 次双盲评审后，核验模块显著减少编造与抄袭。MXene 原子结构、跨实验室复现和有害计划零风险仍未解决。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/demishassabis/status/2093790764203409875" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@demishassabis</a><a class="source-chip" href="https://x.com/emollick/status/2093747487433478296" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick</a></div>
+
+<h2 id="211-microduck-首日订单超-250-万美元把-sim-to-real-强化学习带到-399-美元机器人">2/11 Microduck 首日订单超 250 万美元，把 sim-to-real 强化学习带到 399 美元机器人</h2>
+<p>Hugging Face 旗下 Pollen Robotics 的 Microduck 高 25 厘米、重约 800 克，配 15 个电机、相机、LiDAR、双 IMU 与可抓取物体的活动喙，预售价 399 美元。SDK、MuJoCo 仿真、强化学习和 sim-to-real 工具链全部开放，内置行走、抓取、轮滑与跌倒起身等策略。Clement Delangue 转发的信息称首日订单金额超过 250 万美元；社区随后展示后空翻、自定义恢复、寻物和 1.6 米/秒步态，显示开放硬件开始形成可分享的“动作模型”生态。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@ClementDelangue<span class="source-chip__links"><a href="https://x.com/ClementDelangue/status/2093590509449015439" target="_blank" rel="noopener" aria-label="@ClementDelangue 原文 1">1</a><a href="https://x.com/ClementDelangue/status/2093875712042082335" target="_blank" rel="noopener" aria-label="@ClementDelangue 原文 2">2</a><a href="https://x.com/ClementDelangue/status/2093692819454021716" target="_blank" rel="noopener" aria-label="@ClementDelangue 原文 3">3</a></span></span></div>
+
+<h2 id="311-glm-53-flash-便宜-17-倍四次尝试后与完整模型仅差-26-个点">3/11 GLM-5.3 Flash 便宜 17 倍，四次尝试后与完整模型仅差 2.6 个点</h2>
+<p>Together AI 在 113 个 DeepSWE 任务上完成 900 次 rollout：GLM-5.3 与 Flash 的 pass@1 分别为 69.0% 和 63.4%，pass@4 收敛到 87.6% 和 85.0%；单次平均成本则为 3.99 美元与 0.24 美元。先跑 Flash、测试失败再升级完整模型的级联方案达到 80.9%、每任务 1.70 美元。不过 Flash 打破既有通过测试的比例为 6.9%，高于完整模型的 4.4%。结果支持“便宜模型先跑+验证器路由”，但仍是厂商在单一基准上的运行。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@togethercompute<span class="source-chip__links"><a href="https://x.com/togethercompute/status/2093904558405586996" target="_blank" rel="noopener" aria-label="@togethercompute 原文 1">1</a><a href="https://x.com/togethercompute/status/2093549698615234719" target="_blank" rel="noopener" aria-label="@togethercompute 原文 2">2</a></span></span></div>
+
+<h2 id="411-kimi-k3-进入-cursor由三家美国推理伙伴托管并支持零数据保留">4/11 Kimi K3 进入 Cursor，由三家美国推理伙伴托管并支持零数据保留</h2>
+<p>Moonshot 转发 Cursor 公告称 Kimi K3 已进入 Cursor，推理由 Fireworks、Together 和 Baseten 的美国基础设施提供，并支持 Zero Data Retention。Cursor 称其在内部 CursorBench 上接近前沿水平；该基准来自真实编码会话，覆盖正确性、代码质量、效率与交互行为，并会定期刷新。公告没有在推文中公开 K3 的具体分数、延迟或价格，因此“接近前沿”仍是平台内部评测结论，实际表现需按仓库、语言与长任务独立验证。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/Kimi_Moonshot/status/2093851949892518010" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@Kimi_Moonshot</a><a class="source-chip" href="https://x.com/cursor_ai/status/2093537201296683300" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cursor_ai</a></div>
+
+<h2 id="511-openaicursor-争议继续推动-agent-产品拆分模型与执行框架">5/11 OpenAI–Cursor 争议继续推动 Agent 产品拆分模型与执行框架</h2>
+<p>在 Cursor 失去 OpenAI 前沿模型直连的讨论后，LangChain 联合创始人 Harrison Chase 把“模型与 harness 分离”列为构建 Agent 的首要原则之一，David Ha 则强调模型韧性：底层模型离线时，产品应通过多模型路由继续工作。两条观点都把竞争焦点从单一模型能力转向独立工具层、状态管理、评测、可观测性和降级路径。它们是工程主张而非新产品发布，但直接反映供应合同变化如何转化为 Agent 架构要求。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/hwchase17/status/2093823406873756060" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@hwchase17</a><a class="source-chip" href="https://x.com/hardmaru/status/2093645701192544514" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@hardmaru</a></div>
+
+<h2 id="611-ai-视频从单模型演示转向多模型制作与同提示横评">6/11 AI 视频从单模型演示转向多模型制作与同提示横评</h2>
+<p>一段由 Runway 多种模型组合制作的视频在 X 抓取时获得超过 430 万次观看，发布者随后明确它不是单一模型直出；Pika 同时用相同输入并排展示 Gemini Omni 1.1 Flash、Seedance 2.5 与 Wan 3.0 的商品开箱结果。两组内容说明视频工作流正把生成、编辑、镜头连续性和风格选择拆给不同模型，并通过同提示横评选片。社交观看量与单个样例不能替代系统画质、成本和失败率评测。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@LinusEkenstam<span class="source-chip__links"><a href="https://x.com/LinusEkenstam/status/2093718358503969254" target="_blank" rel="noopener" aria-label="@LinusEkenstam 原文 1">1</a><a href="https://x.com/LinusEkenstam/status/2093679060354261438" target="_blank" rel="noopener" aria-label="@LinusEkenstam 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/pika_labs/status/2093538706036834614" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@pika_labs</a></div>
+
+<h2 id="711-vibe-coding-的目标从大众软件转向只服务一个人的长尾工具">7/11 Vibe coding 的目标从“大众软件”转向只服务一个人的长尾工具</h2>
+<p>Linus Ekenstam 提出，vibe coding 的核心并非为大规模受众复制传统 SaaS，而是让用户为自己或极小群体构建有价值的软件。当生成成本持续下降，过去因市场太小而不会立项的日程、数据整理、个人知识与小型自动化工具也可能被生产出来。这个判断描述的是供给侧变化，尚未回答维护、权限、安全、数据迁移和长期可用性由谁承担；个人软件是否形成稳定生态仍取决于这些非生成成本。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/LinusEkenstam/status/2094058295275246012" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@LinusEkenstam</a></div>
+
+<h2 id="811-ai-让日本式系统集成重新成为软件交付的稀缺环节">8/11 AI 让日本式系统集成重新成为软件交付的稀缺环节</h2>
+<p>David Ha 认为，硅谷过去把日本 System Integration 文化视为难扩展的顾问模式，但在代码生成越来越充裕后，稀缺工作正从“写出系统”转向把模型、数据、身份、旧系统和业务流程整合为可运行服务。这个观点把 Agent 时代的软件公司描述为“AI 增强的 SIer”：自动化代码生产，同时保留需求澄清、接口治理、部署与责任归属。它是行业判断而非量化研究，但与当天关于模型—harness 分离的讨论形成同一方向。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/hardmaru/status/2094036158766571596" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@hardmaru</a></div>
+
+<h2 id="911-通用智能争论转向面对新问题时能否生成并验证新推理">9/11 “通用智能”争论转向面对新问题时能否生成并验证新推理</h2>
+<p>François Chollet 把通用智能定义为：无论面对什么新问题，都能现场理解并适应，而不是预先掌握所有任务。Yoav Goldberg 进一步追问，模型是在上下文中选择并复述见过的推理模式，还是能产生并验证真正新颖的推理；他也承认“新颖推理”的边界难以定义。两人的讨论把评测重点从知识覆盖率转向分布外适应、反例搜索与可验证性，但当前推文没有给出可操作的新基准。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/fchollet/status/2093873781374923090" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@fchollet</a><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@yoavgo<span class="source-chip__links"><a href="https://x.com/yoavgo/status/2093929327519789387" target="_blank" rel="noopener" aria-label="@yoavgo 原文 1">1</a><a href="https://x.com/yoavgo/status/2093937174987014563" target="_blank" rel="noopener" aria-label="@yoavgo 原文 2">2</a></span></span></div>
+
+<h2 id="1011-面向用户的低价模型选择开始被视为内容质量与时间成本问题">10/11 面向用户的低价模型选择开始被视为内容质量与时间成本问题</h2>
+<p>Ethan Mollick 认为，若企业为节省几美分而用较弱模型生成面向人的错误、冗长内容，用户可能把它理解为对阅读时间的不尊重。这个观点把模型路由从纯 API 成本问题扩展到接收者成本：便宜输出若需要更多核查、重写和沟通，系统总成本可能反而上升。当天 GLM-5.3/Flash 数据也显示，低价模型适合有自动测试与重试的管线；无法验证的人类沟通场景则更依赖首轮质量。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/emollick/status/2093823173619769806" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick</a></div>
+
+<h2 id="1111-硬科幻作者对-llm-的反感集中在能力判断版权与生存风险三类理由">11/11 硬科幻作者对 LLM 的反感集中在能力判断、版权与生存风险三类理由</h2>
+<p>Ethan Mollick 浏览多位自己喜爱的硬科幻作者网页后称，多数作者对 LLM 持负面态度：最常见理由是把模型视作无用的“随机鹦鹉”，其次是知识产权问题，少数关注存在性风险。这个观察不是系统抽样，不能代表整个作家群体，但它展示了技术圈与创作者社群的分歧并非只有训练数据版权，还包括对模型是否具有实际能力的根本判断；生成内容质量、署名与补偿机制仍是争议交点。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/emollick/status/2093819069552021740" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick</a></div>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="gemini-co-scientist执行落地提升可信度但没有取消人类与物理验证">Gemini Co-Scientist：执行落地提升可信度，但没有取消人类与物理验证</h3>
+<p>系统以进化式多 Agent 流程完成假设生成、代码实验和论文写作，并把日志核验、引用交叉检查与安全过滤嵌入闭环。材料实验仍由人类操作与优化，生物任务由专家反复定义问题，只有计算机科学部分实现较完整自治；这说明“自治程度”取决于实验表面，而不是单一模型标签。论文中严重编造从无约束基线的 74% 降至 2%，高严重度衍生内容从 60% 降至 16%，但跨实验室复现尚未完成，幻觉与危险计划通过率也未降为零。结果支持执行日志和外部实验反馈是 AI 科研可信度的关键边界。
+<a href="https://arxiv.org/abs/2608.26701">查看原文</a></p>
+
+<h3 id="microduck把动作策略变成可下载训练与分享的开放对象">Microduck：把动作策略变成可下载、训练与分享的开放对象</h3>
+<p>Microduck 的差异不只在 399 美元价格，而在开放的 SDK、MuJoCo 数字孪生、强化学习训练与 sim-to-real 部署链。用户可修改内置的七类动作策略，在仿真中训练后部署到同一实体硬件，并把行为、环境和训练配方共享给社区。25 厘米、约 800 克的体型降低失败试验的安全与设备成本，自恢复又减少人工复位。首日订单与集中出现的自定义步态、后空翻和恢复演示说明开发者需求存在，但预售金额不等于长期活跃开发者，真正的生态指标将是可复现策略数量、硬件交付质量和社区维护速度。
+<a href="https://pollen-robotics.com/microduck/blog/introducing-microduck/">查看原文</a></p>
+
+<h3 id="glm-53-路由蒸馏主要损失一致性测试与重试可把成本优势兑现">GLM-5.3 路由：蒸馏主要损失一致性，测试与重试可把成本优势兑现</h3>
+<p>在 Together 的 900 次 DeepSWE rollout 中，Flash 单次成功率低 5.6 个点，但四次尝试后的差距只剩 2.6 个点；完整模型至少解决过的 99 个任务里，Flash 仍覆盖 93 个。于是“先 Flash、验证失败再升级”的级联达到 80.9%、每任务 1.70 美元，相比完整模型单次的 69.0%、3.99 美元更高也更便宜。代价是 Flash 更容易破坏原本通过的测试，比例为 6.9% 对 4.4%。因此路由收益依赖可靠验证器：有测试的编码任务可以用重试买回一致性，没有客观验收标准的任务不能照搬这一结论。
+<a href="https://www.together.ai/blog/glm-5-3-vs-glm-5-3-flash-on-deepswe-cost-coding-and-routing">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+      </div>
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/blog/2026/08/30/wuliangye_2026h1_earnings/">
+          <span>上一篇</span>
+          <strong>五粮液2026年半年报——营收284亿增20.9%、净利87.5亿增89.3%，但经营现金流转为负21.5亿</strong>
+        </a>
+        
+        
+        <a href="/blog/2026/08/30/reddit-daily-digest/">
+          <span>下一篇</span>
+          <strong>Reddit 每日精选 | 2026.08.30</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer class="editorial-footer">
+    <div class="editorial-shell editorial-footer__inner">
+        <div class="editorial-footer__brand">
+            <a class="editorial-wordmark editorial-wordmark--footer" href="/" aria-label="Freedom Hunter 首页">
+                <span aria-hidden="true">FH</span>
+                Freedom Hunter
+            </a>
+            <p>追踪正在发生的，留下值得重读的。</p>
+        </div>
+
+        <nav class="editorial-footer__nav" aria-label="页脚导航">
+            <div>
+                <p>栏目</p>
+                <a href="/ai-daily/">AI 日报</a>
+                <a href="/reddit-daily/">Reddit 精选</a>
+                <a href="/company-research/">公司观察</a>
+                <a href="/articles/">文章</a>
+            </div>
+            <div>
+                <p>更多</p>
+                <a href="/archive/">全部文章</a>
+                <a href="/highlights/">读者精选</a>
+                <a href="/about/">关于作者</a>
+                <a href="/feed.xml">RSS 订阅</a>
+                <a href="https://github.com/zluckyhou" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="editorial-footer__meta">
+        <div class="editorial-shell editorial-footer__meta-inner">
+            <span>&copy; 2026 Freedom Hunter</span>
+            <span>Shanghai · UTC+8 · Powered by Jekyll</span>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+</html>

@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 30 Aug 2026 10:19:19 +0800</pubDate>
-    <lastBuildDate>Sun, 30 Aug 2026 10:19:19 +0800</lastBuildDate>
+    <pubDate>Sun, 30 Aug 2026 23:00:00 +0800</pubDate>
+    <lastBuildDate>Sun, 30 Aug 2026 23:00:00 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -165,6 +165,92 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>AI Frontier Daily | 2026.08.30</title>
+        <description>&lt;h2 id=&quot;111-gemini-co-scientist-从提出假设推进到实验执行与整篇论文生成&quot;&gt;1/11 Gemini Co-Scientist 从提出假设推进到实验执行与整篇论文生成&lt;/h2&gt;
+&lt;p&gt;Google 团队把基于 Gemini 的 Co-Scientist 扩展为“构思—实验—论文”闭环：它为 CVD 设备设计材料生长路线，按实验室约束单次生长出 MoS2、MoSe2 与 WS2 单层；从稀疏图像预测工程化大肠杆菌群体形态；还自主发现 Agent_H 推理架构。论文称后者在 HealthBench 两项难集上超过六个前沿模型；30 名专家完成 450 次双盲评审后，核验模块显著减少编造与抄袭。MXene 原子结构、跨实验室复现和有害计划零风险仍未解决。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/demishassabis/status/2093790764203409875&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@demishassabis&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2093747487433478296&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;211-microduck-首日订单超-250-万美元把-sim-to-real-强化学习带到-399-美元机器人&quot;&gt;2/11 Microduck 首日订单超 250 万美元，把 sim-to-real 强化学习带到 399 美元机器人&lt;/h2&gt;
+&lt;p&gt;Hugging Face 旗下 Pollen Robotics 的 Microduck 高 25 厘米、重约 800 克，配 15 个电机、相机、LiDAR、双 IMU 与可抓取物体的活动喙，预售价 399 美元。SDK、MuJoCo 仿真、强化学习和 sim-to-real 工具链全部开放，内置行走、抓取、轮滑与跌倒起身等策略。Clement Delangue 转发的信息称首日订单金额超过 250 万美元；社区随后展示后空翻、自定义恢复、寻物和 1.6 米/秒步态，显示开放硬件开始形成可分享的“动作模型”生态。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/ClementDelangue/status/2093590509449015439&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@ClementDelangue 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/ClementDelangue/status/2093875712042082335&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@ClementDelangue 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/ClementDelangue/status/2093692819454021716&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@ClementDelangue 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;311-glm-53-flash-便宜-17-倍四次尝试后与完整模型仅差-26-个点&quot;&gt;3/11 GLM-5.3 Flash 便宜 17 倍，四次尝试后与完整模型仅差 2.6 个点&lt;/h2&gt;
+&lt;p&gt;Together AI 在 113 个 DeepSWE 任务上完成 900 次 rollout：GLM-5.3 与 Flash 的 pass@1 分别为 69.0% 和 63.4%，pass@4 收敛到 87.6% 和 85.0%；单次平均成本则为 3.99 美元与 0.24 美元。先跑 Flash、测试失败再升级完整模型的级联方案达到 80.9%、每任务 1.70 美元。不过 Flash 打破既有通过测试的比例为 6.9%，高于完整模型的 4.4%。结果支持“便宜模型先跑+验证器路由”，但仍是厂商在单一基准上的运行。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2093904558405586996&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2093549698615234719&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;411-kimi-k3-进入-cursor由三家美国推理伙伴托管并支持零数据保留&quot;&gt;4/11 Kimi K3 进入 Cursor，由三家美国推理伙伴托管并支持零数据保留&lt;/h2&gt;
+&lt;p&gt;Moonshot 转发 Cursor 公告称 Kimi K3 已进入 Cursor，推理由 Fireworks、Together 和 Baseten 的美国基础设施提供，并支持 Zero Data Retention。Cursor 称其在内部 CursorBench 上接近前沿水平；该基准来自真实编码会话，覆盖正确性、代码质量、效率与交互行为，并会定期刷新。公告没有在推文中公开 K3 的具体分数、延迟或价格，因此“接近前沿”仍是平台内部评测结论，实际表现需按仓库、语言与长任务独立验证。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Kimi_Moonshot/status/2093851949892518010&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Kimi_Moonshot&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cursor_ai/status/2093537201296683300&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;511-openaicursor-争议继续推动-agent-产品拆分模型与执行框架&quot;&gt;5/11 OpenAI–Cursor 争议继续推动 Agent 产品拆分模型与执行框架&lt;/h2&gt;
+&lt;p&gt;在 Cursor 失去 OpenAI 前沿模型直连的讨论后，LangChain 联合创始人 Harrison Chase 把“模型与 harness 分离”列为构建 Agent 的首要原则之一，David Ha 则强调模型韧性：底层模型离线时，产品应通过多模型路由继续工作。两条观点都把竞争焦点从单一模型能力转向独立工具层、状态管理、评测、可观测性和降级路径。它们是工程主张而非新产品发布，但直接反映供应合同变化如何转化为 Agent 架构要求。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2093823406873756060&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hardmaru/status/2093645701192544514&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hardmaru&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;611-ai-视频从单模型演示转向多模型制作与同提示横评&quot;&gt;6/11 AI 视频从单模型演示转向多模型制作与同提示横评&lt;/h2&gt;
+&lt;p&gt;一段由 Runway 多种模型组合制作的视频在 X 抓取时获得超过 430 万次观看，发布者随后明确它不是单一模型直出；Pika 同时用相同输入并排展示 Gemini Omni 1.1 Flash、Seedance 2.5 与 Wan 3.0 的商品开箱结果。两组内容说明视频工作流正把生成、编辑、镜头连续性和风格选择拆给不同模型，并通过同提示横评选片。社交观看量与单个样例不能替代系统画质、成本和失败率评测。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@LinusEkenstam&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/LinusEkenstam/status/2093718358503969254&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@LinusEkenstam 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/LinusEkenstam/status/2093679060354261438&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@LinusEkenstam 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/pika_labs/status/2093538706036834614&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@pika_labs&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;711-vibe-coding-的目标从大众软件转向只服务一个人的长尾工具&quot;&gt;7/11 Vibe coding 的目标从“大众软件”转向只服务一个人的长尾工具&lt;/h2&gt;
+&lt;p&gt;Linus Ekenstam 提出，vibe coding 的核心并非为大规模受众复制传统 SaaS，而是让用户为自己或极小群体构建有价值的软件。当生成成本持续下降，过去因市场太小而不会立项的日程、数据整理、个人知识与小型自动化工具也可能被生产出来。这个判断描述的是供给侧变化，尚未回答维护、权限、安全、数据迁移和长期可用性由谁承担；个人软件是否形成稳定生态仍取决于这些非生成成本。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/LinusEkenstam/status/2094058295275246012&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@LinusEkenstam&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;811-ai-让日本式系统集成重新成为软件交付的稀缺环节&quot;&gt;8/11 AI 让日本式系统集成重新成为软件交付的稀缺环节&lt;/h2&gt;
+&lt;p&gt;David Ha 认为，硅谷过去把日本 System Integration 文化视为难扩展的顾问模式，但在代码生成越来越充裕后，稀缺工作正从“写出系统”转向把模型、数据、身份、旧系统和业务流程整合为可运行服务。这个观点把 Agent 时代的软件公司描述为“AI 增强的 SIer”：自动化代码生产，同时保留需求澄清、接口治理、部署与责任归属。它是行业判断而非量化研究，但与当天关于模型—harness 分离的讨论形成同一方向。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hardmaru/status/2094036158766571596&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hardmaru&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;911-通用智能争论转向面对新问题时能否生成并验证新推理&quot;&gt;9/11 “通用智能”争论转向面对新问题时能否生成并验证新推理&lt;/h2&gt;
+&lt;p&gt;François Chollet 把通用智能定义为：无论面对什么新问题，都能现场理解并适应，而不是预先掌握所有任务。Yoav Goldberg 进一步追问，模型是在上下文中选择并复述见过的推理模式，还是能产生并验证真正新颖的推理；他也承认“新颖推理”的边界难以定义。两人的讨论把评测重点从知识覆盖率转向分布外适应、反例搜索与可验证性，但当前推文没有给出可操作的新基准。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/fchollet/status/2093873781374923090&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;/a&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@yoavgo&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/yoavgo/status/2093929327519789387&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@yoavgo 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/yoavgo/status/2093937174987014563&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@yoavgo 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1011-面向用户的低价模型选择开始被视为内容质量与时间成本问题&quot;&gt;10/11 面向用户的低价模型选择开始被视为内容质量与时间成本问题&lt;/h2&gt;
+&lt;p&gt;Ethan Mollick 认为，若企业为节省几美分而用较弱模型生成面向人的错误、冗长内容，用户可能把它理解为对阅读时间的不尊重。这个观点把模型路由从纯 API 成本问题扩展到接收者成本：便宜输出若需要更多核查、重写和沟通，系统总成本可能反而上升。当天 GLM-5.3/Flash 数据也显示，低价模型适合有自动测试与重试的管线；无法验证的人类沟通场景则更依赖首轮质量。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2093823173619769806&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1111-硬科幻作者对-llm-的反感集中在能力判断版权与生存风险三类理由&quot;&gt;11/11 硬科幻作者对 LLM 的反感集中在能力判断、版权与生存风险三类理由&lt;/h2&gt;
+&lt;p&gt;Ethan Mollick 浏览多位自己喜爱的硬科幻作者网页后称，多数作者对 LLM 持负面态度：最常见理由是把模型视作无用的“随机鹦鹉”，其次是知识产权问题，少数关注存在性风险。这个观察不是系统抽样，不能代表整个作家群体，但它展示了技术圈与创作者社群的分歧并非只有训练数据版权，还包括对模型是否具有实际能力的根本判断；生成内容质量、署名与补偿机制仍是争议交点。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2093819069552021740&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
+
+&lt;h3 id=&quot;gemini-co-scientist执行落地提升可信度但没有取消人类与物理验证&quot;&gt;Gemini Co-Scientist：执行落地提升可信度，但没有取消人类与物理验证&lt;/h3&gt;
+&lt;p&gt;系统以进化式多 Agent 流程完成假设生成、代码实验和论文写作，并把日志核验、引用交叉检查与安全过滤嵌入闭环。材料实验仍由人类操作与优化，生物任务由专家反复定义问题，只有计算机科学部分实现较完整自治；这说明“自治程度”取决于实验表面，而不是单一模型标签。论文中严重编造从无约束基线的 74% 降至 2%，高严重度衍生内容从 60% 降至 16%，但跨实验室复现尚未完成，幻觉与危险计划通过率也未降为零。结果支持执行日志和外部实验反馈是 AI 科研可信度的关键边界。
+&lt;a href=&quot;https://arxiv.org/abs/2608.26701&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;microduck把动作策略变成可下载训练与分享的开放对象&quot;&gt;Microduck：把动作策略变成可下载、训练与分享的开放对象&lt;/h3&gt;
+&lt;p&gt;Microduck 的差异不只在 399 美元价格，而在开放的 SDK、MuJoCo 数字孪生、强化学习训练与 sim-to-real 部署链。用户可修改内置的七类动作策略，在仿真中训练后部署到同一实体硬件，并把行为、环境和训练配方共享给社区。25 厘米、约 800 克的体型降低失败试验的安全与设备成本，自恢复又减少人工复位。首日订单与集中出现的自定义步态、后空翻和恢复演示说明开发者需求存在，但预售金额不等于长期活跃开发者，真正的生态指标将是可复现策略数量、硬件交付质量和社区维护速度。
+&lt;a href=&quot;https://pollen-robotics.com/microduck/blog/introducing-microduck/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;glm-53-路由蒸馏主要损失一致性测试与重试可把成本优势兑现&quot;&gt;GLM-5.3 路由：蒸馏主要损失一致性，测试与重试可把成本优势兑现&lt;/h3&gt;
+&lt;p&gt;在 Together 的 900 次 DeepSWE rollout 中，Flash 单次成功率低 5.6 个点，但四次尝试后的差距只剩 2.6 个点；完整模型至少解决过的 99 个任务里，Flash 仍覆盖 93 个。于是“先 Flash、验证失败再升级”的级联达到 80.9%、每任务 1.70 美元，相比完整模型单次的 69.0%、3.99 美元更高也更便宜。代价是 Flash 更容易破坏原本通过的测试，比例为 6.9% 对 4.4%。因此路由收益依赖可靠验证器：有测试的编码任务可以用重试买回一致性，没有客观验收标准的任务不能照搬这一结论。
+&lt;a href=&quot;https://www.together.ai/blog/glm-5-3-vs-glm-5-3-flash-on-deepswe-cost-coding-and-routing&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Aug 2026 09:07:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/ai-daily/2026/08/30/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/30/</guid>
+        
+        <category>AI-Frontier</category>
+        
+        <category>Daily</category>
+        
+        
+        <category>ai-daily</category>
         
       </item>
     
@@ -2095,346 +2181,6 @@
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/29/meituan_2026q2_earnings/</guid>
         
         <category>美团</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>比亚迪2026年半年报——营收3448亿同比降7.1%、净利123亿降20.5%，但境外收入1813亿反超国内，占比过半</title>
-        <description>&lt;p&gt;北京时间2026年8月28日，&lt;a href=&quot;https://www.bydglobal.com/&quot;&gt;比亚迪&lt;/a&gt;（A股 002594、H股 01211）董事会批准并披露了2026年半年度报告。&lt;/p&gt;
-
-&lt;p&gt;标题数字看上去很难看：&lt;strong&gt;上半年营业收入3448.15亿元，同比下降7.13%；归属于上市公司股东的净利润123.25亿元，同比下降20.54%。&lt;/strong&gt; 对一家过去几年习惯了「营收翻倍、利润翻倍」的公司来说，这是一份罕见的双降半年报。&lt;/p&gt;
-
-&lt;p&gt;但如果只看这两个数字就下结论，会错过这份报告里真正发生的事——&lt;strong&gt;比亚迪的收入结构在半年之内被彻底重排了一次&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;先看一组更有信息量的数字&quot;&gt;先看一组更有信息量的数字&lt;/h2&gt;
-
-&lt;p&gt;报告开篇的「业绩概览」页给出了这几个指标：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标（2026H1）&lt;/th&gt;
-      &lt;th&gt;数值&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;新能源汽车销量（快报口径）&lt;/td&gt;
-      &lt;td&gt;181万辆&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业额&lt;/td&gt;
-      &lt;td&gt;3448亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;境外营业额&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;1813亿元&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母净利润&lt;/td&gt;
-      &lt;td&gt;123.3亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;研发投入&lt;/td&gt;
-      &lt;td&gt;289亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;国内纳税总额&lt;/td&gt;
-      &lt;td&gt;223亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;现金储备&lt;/td&gt;
-      &lt;td&gt;1674亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营现金流净额&lt;/td&gt;
-      &lt;td&gt;373亿元&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;境外营业额1813亿元，占总营收的52.6%。&lt;/strong&gt; 财报附注里的分地区收入更精确：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;分地区收入&lt;/th&gt;
-      &lt;th&gt;2026H1&lt;/th&gt;
-      &lt;th&gt;2025H1&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;中国（含港澳台）&lt;/td&gt;
-      &lt;td&gt;1635.47亿元&lt;/td&gt;
-      &lt;td&gt;2359.23亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-30.7%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;境外&lt;/td&gt;
-      &lt;td&gt;1812.68亿元&lt;/td&gt;
-      &lt;td&gt;1353.58亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+33.9%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;合计&lt;/td&gt;
-      &lt;td&gt;3448.15亿元&lt;/td&gt;
-      &lt;td&gt;3712.81亿元&lt;/td&gt;
-      &lt;td&gt;-7.13%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;一年之内，比亚迪的境外收入占比从36.5%跳到52.6%，境外收入已经超过中国境内。&lt;strong&gt;这就是这份财报的全部故事：国内掉了三成，海外涨了三成多，两者对冲之后总收入只跌了7%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;配套的销量数据同样说明问题：根据中汽协数据，上半年比亚迪出口达&lt;strong&gt;79.2万辆，同比增加67.8%&lt;/strong&gt;，持续领跑中国新能源汽车出口。&lt;/p&gt;
-
-&lt;h2 id=&quot;公司基础比亚迪现在有几门生意&quot;&gt;公司基础：比亚迪现在有几门生意&lt;/h2&gt;
-
-&lt;p&gt;比亚迪的报告分部在这次半年报里改了个名字，从「手机部件、组装及其他产品」更新为「电子及其他产品」，但划分口径没变。两大分部：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;分部（对外交易收入）&lt;/th&gt;
-      &lt;th&gt;2026H1&lt;/th&gt;
-      &lt;th&gt;占比&lt;/th&gt;
-      &lt;th&gt;2025H1&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;汽车、汽车相关产品及其他&lt;/td&gt;
-      &lt;td&gt;2753.41亿元&lt;/td&gt;
-      &lt;td&gt;79.85%&lt;/td&gt;
-      &lt;td&gt;3025.06亿元&lt;/td&gt;
-      &lt;td&gt;-8.98%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;电子及其他产品&lt;/td&gt;
-      &lt;td&gt;694.05亿元&lt;/td&gt;
-      &lt;td&gt;20.13%&lt;/td&gt;
-      &lt;td&gt;687.44亿元&lt;/td&gt;
-      &lt;td&gt;+0.96%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;汽车业务&lt;/strong&gt;是绝对主体，包括整车、动力电池、以及日益重要的储能系统。报告称比亚迪上半年斩获&lt;strong&gt;新能源汽车销量、储能系统出货量「双冠」&lt;/strong&gt;——储能系统累计出货量全球第一，产品远销110多个国家和地区。4月，比亚迪第1600万辆新能源汽车下线，成为全球首家达成这一里程碑的车企。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;电子及其他产品&lt;/strong&gt;主要是比亚迪电子的业务（消费电子零部件、整机组装等），上半年基本持平。&lt;/p&gt;
-
-&lt;h2 id=&quot;核心财务数据解读&quot;&gt;核心财务数据解读&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;利润表主要科目&lt;/th&gt;
-      &lt;th&gt;2026H1&lt;/th&gt;
-      &lt;th&gt;2025H1&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业收入&lt;/td&gt;
-      &lt;td&gt;3448.15亿元&lt;/td&gt;
-      &lt;td&gt;3712.81亿元&lt;/td&gt;
-      &lt;td&gt;-7.13%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业成本&lt;/td&gt;
-      &lt;td&gt;2798.27亿元&lt;/td&gt;
-      &lt;td&gt;3044.15亿元&lt;/td&gt;
-      &lt;td&gt;-8.08%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利&lt;/td&gt;
-      &lt;td&gt;649.89亿元&lt;/td&gt;
-      &lt;td&gt;668.66亿元&lt;/td&gt;
-      &lt;td&gt;-2.81%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;毛利率&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;18.85%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;18.01%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+0.84pct&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售费用&lt;/td&gt;
-      &lt;td&gt;125.23亿元&lt;/td&gt;
-      &lt;td&gt;124.11亿元&lt;/td&gt;
-      &lt;td&gt;+0.90%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;管理费用&lt;/td&gt;
-      &lt;td&gt;103.65亿元&lt;/td&gt;
-      &lt;td&gt;103.86亿元&lt;/td&gt;
-      &lt;td&gt;-0.20%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;研发费用&lt;/td&gt;
-      &lt;td&gt;233.07亿元&lt;/td&gt;
-      &lt;td&gt;295.96亿元&lt;/td&gt;
-      &lt;td&gt;-21.25%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;财务费用&lt;/td&gt;
-      &lt;td&gt;50.96亿元&lt;/td&gt;
-      &lt;td&gt;-32.47亿元&lt;/td&gt;
-      &lt;td&gt;由收益转支出&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母净利润&lt;/td&gt;
-      &lt;td&gt;123.25亿元&lt;/td&gt;
-      &lt;td&gt;155.11亿元&lt;/td&gt;
-      &lt;td&gt;-20.54%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;扣非归母净利润&lt;/td&gt;
-      &lt;td&gt;123.73亿元&lt;/td&gt;
-      &lt;td&gt;136.00亿元&lt;/td&gt;
-      &lt;td&gt;-9.02%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;基本每股收益&lt;/td&gt;
-      &lt;td&gt;1.35元&lt;/td&gt;
-      &lt;td&gt;1.71元&lt;/td&gt;
-      &lt;td&gt;-21.05%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;加权平均净资产收益率&lt;/td&gt;
-      &lt;td&gt;4.86%&lt;/td&gt;
-      &lt;td&gt;7.43%&lt;/td&gt;
-      &lt;td&gt;-2.57pct&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;这张表里有四件事必须单独讲。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，毛利率不降反升。&lt;/strong&gt; 在营收下滑7%的情况下，毛利率从18.01%升到18.85%。报告给出的原因很直接：「主要受海外新能源汽车业务增加影响」。海外单车的售价和毛利显著高于国内价格战中的同款车型——&lt;strong&gt;这就是为什么营收跌了7%，毛利只跌了2.8%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，财务费用是最大的意外拖累。&lt;/strong&gt; 上半年财务费用为&lt;strong&gt;支出50.96亿元&lt;/strong&gt;，而去年同期是&lt;strong&gt;收益32.47亿元&lt;/strong&gt;，一进一出摆动了83亿元。这不是经营性的问题：一季报里公司已经解释过，「主要是本期为汇兑损失，去年同期为汇兑收益所致」。&lt;strong&gt;如果剔除这一项的同比波动，比亚迪上半年的利润下滑幅度会小得多&lt;/strong&gt;——这也解释了为什么扣非净利润只跌9.02%，比归母净利润的-20.54%好看很多。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，研发费用同比减少21.25%。&lt;/strong&gt; 这里要小心口径差异：利润表上的「研发费用」是当期费用化的部分，为233.07亿元；报告业绩概览页里的「研发投入」289亿元则包含了资本化的部分。一季报也提到，公司「开发支出」科目较年初增长38.75%，原因是「内部研发投入增加所致」——也就是说，更多的研发投入被资本化进了资产负债表，而不是立刻打进利润表。&lt;strong&gt;这在会计上是合规的，但它意味着报表利润里含有一部分「递延出去的成本」，值得持续跟踪。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第四，经营现金流反而变好了。&lt;/strong&gt; 上半年经营活动现金流净额373.35亿元，同比增长17.28%（去年同期318.33亿元），远高于123亿元的净利润。报告解释是「购买商品、接受劳务支付的现金减少所致」。一家利润下滑的公司现金流却在改善，说明它对上游的议价能力依然很强。&lt;/p&gt;
-
-&lt;h2 id=&quot;二季度单季真正的转折点&quot;&gt;二季度单季：真正的转折点&lt;/h2&gt;
-
-&lt;p&gt;半年报只披露半年数据，但用半年报减去一季报，可以算出二季度单季的表现（以下为笔者根据两份公告推算）：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;单季指标&lt;/th&gt;
-      &lt;th&gt;2026Q2&lt;/th&gt;
-      &lt;th&gt;2025Q2&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业收入&lt;/td&gt;
-      &lt;td&gt;1945.90亿元&lt;/td&gt;
-      &lt;td&gt;2009.21亿元&lt;/td&gt;
-      &lt;td&gt;-3.15%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母净利润&lt;/td&gt;
-      &lt;td&gt;82.41亿元&lt;/td&gt;
-      &lt;td&gt;63.56亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+29.7%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率&lt;/td&gt;
-      &lt;td&gt;18.88%&lt;/td&gt;
-      &lt;td&gt;16.27%&lt;/td&gt;
-      &lt;td&gt;+2.61pct&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;对比一季度（营收1502.25亿元同比-11.82%，归母净利润40.85亿元同比&lt;strong&gt;-55.38%&lt;/strong&gt;），二季度的改善非常明显：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;营收降幅从11.8%收窄到3.2%&lt;/li&gt;
-  &lt;li&gt;净利润从同比腰斩变成同比增长约30%&lt;/li&gt;
-  &lt;li&gt;单季净利润从40.85亿元环比翻倍到82.41亿元&lt;/li&gt;
-  &lt;li&gt;毛利率同比提升2.61个百分点&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;换句话说，比亚迪的至暗时刻大概率是2026年一季度，二季度已经在爬坡。&lt;/strong&gt; 报告里的说法是，凭借产品竞争力「驱动订单持续增长，助力销量实现逐月回升态势」。&lt;/p&gt;
-
-&lt;h2 id=&quot;结构上还发生了什么&quot;&gt;结构上还发生了什么&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;高端化在推进。&lt;/strong&gt; 报告披露，方程豹、腾势、仰望三个高端品牌上半年合计销量同比增长&lt;strong&gt;61.0%&lt;/strong&gt;，占集团乘用车总销量的比重升至&lt;strong&gt;12.8%&lt;/strong&gt;。在整体销量承压的背景下，高端品牌逆势大涨，是毛利率能顶住的另一个原因。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;新品的市场反馈不错。&lt;/strong&gt; 报告点名了几款车的订单表现——「宋Ultra EV」上市首月累计订单突破6万辆；全尺寸SUV「大唐EV」预售14天订单突破10万辆；第三代「元PLUS」上市首周订单突破3万辆。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;储能是被低估的第二增长曲线。&lt;/strong&gt; 比亚迪位列全球储能系统出货厂家第一，报告提到新一代大容量储能系统搭载全球最大的2710Ah储能专用刀片电池，并与阿联酋Masdar签署了11.275GWh的储能供货协议。在AI数据中心带动全球储能需求的背景下，这块业务的重要性会继续上升。&lt;/p&gt;
-
-&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一、存货周转天数从79天升到109天。&lt;/strong&gt; 报告的解释是「海外业务增加，海运周期长，导致存货平均余额的同期增幅比营业成本的同期增幅大」。这个解释合理——货在船上确实要算存货——但30天的跳升幅度不小，出海规模越大，这个数字的管理难度就越高。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;二、负债和借款在上升。&lt;/strong&gt; 截至6月30日总借贷（含全部银行贷款及债券）约1200.55亿元，较2025年末的1134.35亿元继续增加；资产负债率70.96%，较年末的70.74%微升。流动比率0.87、速动比率0.41，短期偿债指标偏紧。不过公司现金储备1674亿元，且经营现金流强劲，短期风险不大。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;三、国内市场收入下滑三成。&lt;/strong&gt; 这是最需要盯住的数字。海外的高增长目前完美对冲了国内的下滑，但海外市场的扩张速度不可能永远维持在68%。如果国内市场无法企稳，海外增速一旦放缓，总收入的压力会立刻显现。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;四、不派中期股息。&lt;/strong&gt; 公司明确「计划半年度不派发现金红利，不送红股，不以公积金转增股本」。考虑到今年7月刚完成2025年度每10股派3.58元的分红，这个安排属于常规节奏，但在利润下滑的年份也难免让部分投资者失望。&lt;/p&gt;
-
-&lt;h2 id=&quot;展望与总结&quot;&gt;展望与总结&lt;/h2&gt;
-
-&lt;p&gt;把这份半年报浓缩成三句话：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;国内价格战让比亚迪付出了代价&lt;/strong&gt;——境内收入半年掉了三成，一季度净利润腰斩。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;出海几乎完美地接住了这一击&lt;/strong&gt;——境外收入涨34%、出口涨68%、占比过半，还把毛利率往上顶了0.84个百分点。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;二季度已经开始回升&lt;/strong&gt;——单季净利润同比增约30%、环比翻倍，毛利率18.88%是近一年高点。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;比亚迪现在正在从「一家中国的新能源车企」变成「一家把一半以上收入做在海外的全球制造企业」。报告里说，未来将「持续以本土化制造为核心，加速扩展海外」产能布局。这个转型如果成立，报表上那个-7.13%的营收降幅，回头看可能只是一次结构切换的成本。&lt;/p&gt;
-
-&lt;p&gt;真正要观察的下一个问题是：&lt;strong&gt;当海外的高增长基数变大之后，国内市场能不能同步止跌。&lt;/strong&gt; 这个答案要等三季报。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;数据来源&quot;&gt;数据来源&lt;/h3&gt;
-
-&lt;p&gt;一手信息：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;比亚迪股份有限公司《2026年半年度报告摘要》（公告编号2026-028），2026年8月28日经董事会批准报送，巨潮资讯网：&lt;a href=&quot;https://static.cninfo.com.cn/finalpage/2026-08-29/1225531834.PDF&quot;&gt;https://static.cninfo.com.cn/finalpage/2026-08-29/1225531834.PDF&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;比亚迪股份有限公司《H股公告（二零二六年中期业绩公告）》全文：&lt;a href=&quot;https://static.cninfo.com.cn/finalpage/2026-08-29/1225531848.PDF&quot;&gt;https://static.cninfo.com.cn/finalpage/2026-08-29/1225531848.PDF&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;比亚迪股份有限公司《2026年第一季度报告》（用于推算二季度单季数据）：&lt;a href=&quot;https://static.cninfo.com.cn/finalpage/2026-04-29/1225233071.PDF&quot;&gt;https://static.cninfo.com.cn/finalpage/2026-04-29/1225233071.PDF&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;比亚迪官网：&lt;a href=&quot;https://www.bydglobal.com/&quot;&gt;https://www.bydglobal.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;补充参考（背景与市场反应）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;新浪财经《比亚迪半年报出炉——二季度核心指标逆势创新高》：&lt;a href=&quot;https://finance.sina.com.cn/stock/bxjj/2026-08-28/doc-inipwnxp4463548.shtml&quot;&gt;https://finance.sina.com.cn/stock/bxjj/2026-08-28/doc-inipwnxp4463548.shtml&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;IT之家《比亚迪2026上半年归母净利润123.25亿元，同比下降20.54%》：&lt;a href=&quot;https://www.ithome.com/0/995/779.htm&quot;&gt;https://www.ithome.com/0/995/779.htm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;文中所有财务数字均取自上述公告原文；二季度单季数据由半年报与一季报相减推算，已在表格中注明。本文观点仅为个人解读，不构成任何投资建议。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/29/byd_2026h1_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/29/byd_2026h1_earnings/</guid>
-        
-        <category>比亚迪</category>
         
         <category>大公司数据观察</category>
         

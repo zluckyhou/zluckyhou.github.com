@@ -5,9 +5,305 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 30 Aug 2026 23:00:00 +0800</pubDate>
-    <lastBuildDate>Sun, 30 Aug 2026 23:00:00 +0800</lastBuildDate>
+    <pubDate>Mon, 31 Aug 2026 09:16:21 +0800</pubDate>
+    <lastBuildDate>Mon, 31 Aug 2026 09:16:21 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>中国石油2026年半年报——营收1.53万亿增5.3%、归母净利1039亿增22%，半年利润首破千亿并派现476亿</title>
+        <description>&lt;p&gt;2026年8月30日，&lt;a href=&quot;https://www.petrochina.com.cn&quot;&gt;中国石油&lt;/a&gt;（上交所 601857、港交所 00857）披露2026年半年度报告。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;上半年营业收入15274.91亿元，同比增长5.3%；归属于母公司股东的净利润1039.36亿元（国际财务报告准则口径，中国企业会计准则口径为1039.34亿元），同比增长22.0%。这是中国石油半年度归母净利润首次站上千亿元台阶，相当于每天净赚约5.7亿元。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;公司同时宣布派发2026年中期股息每股人民币0.26元（含税），按期末总股本1830.21亿股计算，合计派现475.85亿元，其中A股部分421.00亿元，股权登记日为2026年9月15日。这笔分红相当于半年归母净利润的45.8%。&lt;/p&gt;
+
+&lt;p&gt;一份看上去非常漂亮的成绩单。但把它拆开看，会发现这份利润的来源和公司自己讲的故事，其实是两回事。&lt;/p&gt;
+
+&lt;h2 id=&quot;先说清楚一件事这1039亿元是怎么来的&quot;&gt;先说清楚一件事：这1039亿元是怎么来的&lt;/h2&gt;
+
+&lt;p&gt;最直接的答案是油价。&lt;/p&gt;
+
+&lt;p&gt;财报里写得很明白：2026年上半年，中东局势推动国际油价大幅上涨，&lt;strong&gt;布伦特原油期货平均价格87.60美元/桶，比上年同期的70.81美元/桶上涨23.7%&lt;/strong&gt;；美国WTI原油期货均价82.77美元/桶，同比上涨22.6%。&lt;/p&gt;
+
+&lt;p&gt;中国石油自己实现的原油平均销售价格是&lt;strong&gt;76.53美元/桶&lt;/strong&gt;，比上年同期的66.21美元/桶上涨15.6%。（实现价格低于布伦特是正常的，因为公司卖的原油品质、地域结构和布伦特基准油不同。）&lt;/p&gt;
+
+&lt;p&gt;而产量这边几乎没动：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;油气和新能源分部主要生产数据&lt;/th&gt;
+      &lt;th&gt;2026上半年&lt;/th&gt;
+      &lt;th&gt;2025上半年&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;原油产量（百万桶）&lt;/td&gt;
+      &lt;td&gt;462.9&lt;/td&gt;
+      &lt;td&gt;476.4&lt;/td&gt;
+      &lt;td&gt;-2.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　其中国内&lt;/td&gt;
+      &lt;td&gt;393.2&lt;/td&gt;
+      &lt;td&gt;395.2&lt;/td&gt;
+      &lt;td&gt;-0.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　其中海外&lt;/td&gt;
+      &lt;td&gt;69.7&lt;/td&gt;
+      &lt;td&gt;81.2&lt;/td&gt;
+      &lt;td&gt;-14.2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;可销售天然气产量（十亿立方英尺）&lt;/td&gt;
+      &lt;td&gt;2,746.1&lt;/td&gt;
+      &lt;td&gt;2,683.6&lt;/td&gt;
+      &lt;td&gt;+2.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;油气当量产量（百万桶）&lt;/td&gt;
+      &lt;td&gt;920.6&lt;/td&gt;
+      &lt;td&gt;923.6&lt;/td&gt;
+      &lt;td&gt;-0.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;风光发电量（亿千瓦时）&lt;/td&gt;
+      &lt;td&gt;50.7&lt;/td&gt;
+      &lt;td&gt;36.9&lt;/td&gt;
+      &lt;td&gt;+37.3%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;产量同比下降0.3%，利润同比增长22%——这中间的差额，基本全部来自涨价。&lt;/strong&gt; 海外原油产量下滑14.2%，公司解释是「中东项目产量下降」，这是地缘冲突在生产端留下的直接痕迹：同一场冲突推高了油价，也打断了公司在中东的开采。&lt;/p&gt;
+
+&lt;p&gt;有一个数字很能说明油价的传导：&lt;strong&gt;石油特别收益金上半年缴纳110.85亿元，而上年同期只有19.98亿元，一口气多缴了90.87亿元。&lt;/strong&gt; 这是一项俗称「暴利税」的税种——当国内原油销售价格超过每桶65美元时，超出部分要按比例上缴国家。这项税从不到20亿元跳到110亿元，等于给「这轮利润是油价给的」盖了个章。&lt;/p&gt;
+
+&lt;h2 id=&quot;主要财务数据一览&quot;&gt;主要财务数据一览&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;主要财务数据（人民币百万元）&lt;/th&gt;
+      &lt;th&gt;2026上半年&lt;/th&gt;
+      &lt;th&gt;2025上半年（追溯后）&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业收入&lt;/td&gt;
+      &lt;td&gt;1,527,491&lt;/td&gt;
+      &lt;td&gt;1,450,021&lt;/td&gt;
+      &lt;td&gt;+5.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润&lt;/td&gt;
+      &lt;td&gt;139,383&lt;/td&gt;
+      &lt;td&gt;118,498&lt;/td&gt;
+      &lt;td&gt;+17.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;税前利润&lt;/td&gt;
+      &lt;td&gt;145,865&lt;/td&gt;
+      &lt;td&gt;122,555&lt;/td&gt;
+      &lt;td&gt;+19.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净利润&lt;/td&gt;
+      &lt;td&gt;115,113&lt;/td&gt;
+      &lt;td&gt;94,858&lt;/td&gt;
+      &lt;td&gt;+21.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利润&lt;/td&gt;
+      &lt;td&gt;103,936&lt;/td&gt;
+      &lt;td&gt;85,185&lt;/td&gt;
+      &lt;td&gt;+22.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扣非归母净利润（中国准则）&lt;/td&gt;
+      &lt;td&gt;105,533&lt;/td&gt;
+      &lt;td&gt;85,292&lt;/td&gt;
+      &lt;td&gt;+23.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流净额&lt;/td&gt;
+      &lt;td&gt;251,281&lt;/td&gt;
+      &lt;td&gt;227,240&lt;/td&gt;
+      &lt;td&gt;+10.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基本每股收益（元）&lt;/td&gt;
+      &lt;td&gt;0.57&lt;/td&gt;
+      &lt;td&gt;0.47&lt;/td&gt;
+      &lt;td&gt;+22.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净资产收益率&lt;/td&gt;
+      &lt;td&gt;6.3%&lt;/td&gt;
+      &lt;td&gt;5.4%&lt;/td&gt;
+      &lt;td&gt;+0.9个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;两点需要注意：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，去年同期数字被追溯调整过。&lt;/strong&gt; 公司自2026年1月起合并新疆油田储气库、重庆相国寺储气库、辽河油田（盘锦）储气库三家公司的报表，按「同一控制下企业合并」的会计规则，把去年的数字也一并重述了——2025年上半年归母净利润从原来披露的840.07亿元调整为851.85亿元。&lt;strong&gt;看同比时必须用851.85亿元这个重述后的口径&lt;/strong&gt;，否则会算出一个虚高的增速。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，扣非净利润（1055.33亿元）反而比归母净利润（1039.34亿元）高出约16亿元。&lt;/strong&gt; 这说明上半年的非经常性损益是净亏损的，主营业务的盈利质量比表观利润还要好一点。&lt;/p&gt;
+
+&lt;h2 id=&quot;四个业务板块上游赚钱下游改善&quot;&gt;四个业务板块：上游赚钱，下游改善&lt;/h2&gt;
+
+&lt;p&gt;中国石油是全产业链公司：自己勘探开采（上游）、自己炼油做化工（中游）、自己开加油站卖油（下游），外加一个天然气销售板块。四个板块上半年全部盈利。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;分部经营利润（亿元）&lt;/th&gt;
+      &lt;th&gt;2026上半年&lt;/th&gt;
+      &lt;th&gt;2025上半年&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;油气和新能源&lt;/td&gt;
+      &lt;td&gt;1,004.48&lt;/td&gt;
+      &lt;td&gt;871.51&lt;/td&gt;
+      &lt;td&gt;+15.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;炼油化工和新材料&lt;/td&gt;
+      &lt;td&gt;145.25&lt;/td&gt;
+      &lt;td&gt;110.56&lt;/td&gt;
+      &lt;td&gt;+31.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　其中炼油&lt;/td&gt;
+      &lt;td&gt;117.33&lt;/td&gt;
+      &lt;td&gt;96.64&lt;/td&gt;
+      &lt;td&gt;+21.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　其中化工&lt;/td&gt;
+      &lt;td&gt;27.92&lt;/td&gt;
+      &lt;td&gt;13.92&lt;/td&gt;
+      &lt;td&gt;+100.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售&lt;/td&gt;
+      &lt;td&gt;113.63&lt;/td&gt;
+      &lt;td&gt;75.62&lt;/td&gt;
+      &lt;td&gt;+50.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;天然气销售&lt;/td&gt;
+      &lt;td&gt;240.87&lt;/td&gt;
+      &lt;td&gt;186.26&lt;/td&gt;
+      &lt;td&gt;+29.3%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;上游仍然是绝对的利润主力，约占四个板块经营利润合计的三分之二。&lt;/strong&gt; 但它的增速（15.3%）明显低于油价涨幅（23.7%），原因就是前面说的：产量微降、暴利税上缴大增，还有单位油气操作成本从10.14美元/桶升到10.68美元/桶（+5.3%）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;真正值得注意的是另外三个板块的增速都跑赢了上游。&lt;/strong&gt; 尤其是天然气销售板块，240.87亿元的经营利润已经是公司的第二大利润来源，同比增长29.3%——而同期全国天然气表观消费量是同比下降2.4%的。行业在缩，它在涨，靠的是抢份额：公司称国内天然气市场份额比上年同期提高1个百分点，在高端市场的销售增量占比超过50%。上半年销售天然气1612.20亿立方米，同比增长3.9%。&lt;/p&gt;
+
+&lt;h2 id=&quot;隐忧卖油这门生意正在结构性萎缩&quot;&gt;隐忧：卖油这门生意正在结构性萎缩&lt;/h2&gt;
+
+&lt;p&gt;这份财报里最需要认真看的，其实是成品油。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;国内规模以上工业原油加工量同比下降4.9%&lt;/li&gt;
+  &lt;li&gt;公司自己加工原油655.3百万桶，同比下降5.6%&lt;/li&gt;
+  &lt;li&gt;生产汽油、煤油、柴油5434.6万吨，同比下降&lt;strong&gt;8.8%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;国内销售汽油、煤油、柴油5434.2万吨，同比下降&lt;strong&gt;7.3%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;加油站数量从年初的22,127座降至21,932座，减少195座&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;公司在财报里对下降原因的表述是「受油价上升、新能源替代等影响，成品油市场需求下降」。&lt;strong&gt;油价高只是短期扰动，新能源替代才是长期变量。&lt;/strong&gt; 中国的汽油需求正在被电动车真实地、持续地拿走，这一点在中国石油的报表上已经写得非常清楚了。&lt;/p&gt;
+
+&lt;p&gt;公司的应对是两条腿：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一是「减油增化」——少炼油，多做化工品和新材料。&lt;/strong&gt; 上半年化工产品商品量2131.8万吨，同比增长6.7%，其中乙烯产量增长20.8%、合成橡胶增长21.4%，均创历史同期新高；&lt;strong&gt;新材料产量268.8万吨，同比大增61.4%&lt;/strong&gt;。碳纤维、高端聚烯烃、生物航空煤油等项目在建。这条路的经济性也开始显现：化工业务经营利润从13.92亿元翻倍到27.92亿元。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;二是把加油站改造成「油气氢电非」综合能源站。&lt;/strong&gt; 上半年新增综合能源站592座、新投运LNG加注站208座、新建充电枪1.85万把；&lt;strong&gt;车用LNG零售量同比增长78.7%，充电量增长1.5倍&lt;/strong&gt;。销售板块经营利润增长50.3%，靠的正是这些新业务加上国际贸易毛利的改善，而不是卖油本身。&lt;/p&gt;
+
+&lt;p&gt;换句话说：&lt;strong&gt;加油站在减少，但每个站在被重新定义。&lt;/strong&gt; 这个转型能不能跑赢燃油车退坡的速度，是未来几年中国石油最重要的看点。&lt;/p&gt;
+
+&lt;h2 id=&quot;财务状况几乎没有净负债了&quot;&gt;财务状况：几乎没有净负债了&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;总资产30240.34亿元，比年初增长5.6%&lt;/li&gt;
+  &lt;li&gt;经营活动现金流净额2512.81亿元，同比增长10.6%&lt;/li&gt;
+  &lt;li&gt;债务总额2333.80亿元，减去现金及现金等价物2272.05亿元，&lt;strong&gt;净债务仅61.75亿元&lt;/strong&gt;，比年初的240.02亿元继续下降&lt;/li&gt;
+  &lt;li&gt;资本负债率11.2%，与年初持平&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对一家总资产3万亿元的公司来说，净负债只有61.75亿元，基本可以理解为「零负债经营」。这也是它敢把接近一半的半年利润拿去分红的底气。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;资本开支上半年750.15亿元，同比增长16.6%（去年同期643.25亿元），公司预计全年2794.00亿元&lt;/strong&gt;，其中油气和新能源分部占79.03%（2208亿元）。上半年只花了全年计划的26.8%，意味着下半年投资节奏会明显加快——这也是这类公司的常态。&lt;/p&gt;
+
+&lt;h2 id=&quot;一个容易被忽略的数字海外收入占比接近四成&quot;&gt;一个容易被忽略的数字：海外收入占比接近四成&lt;/h2&gt;
+
+&lt;p&gt;分地区看，上半年中国大陆对外交易收入9241.78亿元，同比&lt;strong&gt;下降&lt;/strong&gt;3.1%；其他地区（海外）收入6033.13亿元，同比&lt;strong&gt;增长&lt;/strong&gt;21.5%，占总营收的39.5%。&lt;/p&gt;
+
+&lt;p&gt;但海外业务的税前利润只有292.94亿元，占公司税前利润的20.1%。&lt;strong&gt;收入贡献四成、利润贡献两成&lt;/strong&gt;——海外主要是国际贸易这类低毛利业务在做大规模，真正的利润仍然主要来自国内。&lt;/p&gt;
+
+&lt;h2 id=&quot;展望下半年最大的不确定性还是油价&quot;&gt;展望：下半年最大的不确定性还是油价&lt;/h2&gt;
+
+&lt;p&gt;公司在半年报中对下半年的判断相当克制：预计世界经济延续低速增长；&lt;strong&gt;国际原油市场仍面临较强的地缘政治扰动，国际油价波动风险较大&lt;/strong&gt;；国内成品油市场需求继续受到替代能源和高油价影响；天然气市场需求预计将稳步恢复。&lt;/p&gt;
+
+&lt;p&gt;这段话翻译过来就是：&lt;strong&gt;这轮利润高点是油价给的，而油价随时可能收回去。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;对投资者来说，判断中国石油的逻辑大致可以分成两层：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;短期（周期层）&lt;/strong&gt;：利润跟着布伦特走。上半年87.60美元/桶的均价是个相当高的位置，如果下半年地缘局势缓和、油价回落，上游那1004亿元的经营利润会同步回吐，全年利润未必能按上半年的节奏线性外推。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;长期（结构层）&lt;/strong&gt;：真正决定这家公司十年后是什么样的，是天然气、化工新材料和综合能源站这三条线能不能持续做大——上半年它们的利润增速（29.3%、100.6%、50.3%）确实都跑赢了上游，这是财报里最积极的信号。而成品油需求的下滑（-7.3%）也确实是真实的、结构性的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;至于给股东的回报，这次的态度是明确的：&lt;strong&gt;半年赚1039亿元，拿出475.85亿元分掉。&lt;/strong&gt; 在净债务几乎归零、经营现金流2513亿元的背景下，这个分红水平有很强的可持续性——只要油价不出现深度下跌。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料（公司公告原文）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;中国石油天然气股份有限公司《二零二六年中期业绩公告（半年度报告摘要）》，2026年8月30日：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-31/1225534441.PDF&quot;&gt;巨潮资讯网公告原文 PDF&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;中国石油天然气股份有限公司《2026年半年度A股利润分配方案的公告》（公告编号 临2026-019）：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-31/1225534226.PDF&quot;&gt;巨潮资讯网公告原文 PDF&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;中国石油官方新闻稿《PetroChina Achieves a Strong Start for the 15th Five-Year Plan》，2026年8月30日：&lt;a href=&quot;https://www.prnewswire.com/news-releases/petrochina-achieves-a-strong-start-for-the-15th-five-year-plan-interim-operating-results-for-the-first-half-of-2026-hit-new-record-highs-302864393.html&quot;&gt;PR Newswire&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;公司投资者关系网站：&lt;a href=&quot;https://www.petrochina.com.cn&quot;&gt;中国石油官网&lt;/a&gt;、&lt;a href=&quot;https://www.sse.com.cn&quot;&gt;上海证券交易所&lt;/a&gt;、&lt;a href=&quot;https://www.hkexnews.hk&quot;&gt;香港交易所披露易&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（仅用于背景与同业对照）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;新浪财经《「三桶油」合计日赚逾11亿元，分红共计近千亿元》：&lt;a href=&quot;https://finance.sina.com.cn/stock/bxjj/2026-08-30/doc-iniqazcm2637651.shtml&quot;&gt;链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;每日经济新闻《中国石油2026年上半年净利润超千亿元，创历史同期新高》：&lt;a href=&quot;https://www.mrjjxw.com/articles/2026-08-30/4566411.html&quot;&gt;链接&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;注：本文所有财务与经营数据均取自公司半年度业绩公告原文，与媒体报道口径不一致时以公告为准。文中2025年上半年比较数据均为公司追溯调整后的口径。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 31 Aug 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/31/petrochina_2026h1_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/31/petrochina_2026h1_earnings/</guid>
+        
+        <category>中国石油</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.08.30</title>
@@ -1924,261 +2220,6 @@
         <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/blog/2026/08/29/meituan_2026q2_earnings_call/</link>
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/29/meituan_2026q2_earnings_call/</guid>
-        
-        <category>美团</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>美团2026Q2——营收1046亿同比增14.4%，净利润22亿扭亏为盈，外卖大战之后第一份喘息的成绩单</title>
-        <description>&lt;p&gt;北京时间8月28日16点30分，&lt;a href=&quot;https://www.meituan.com/investor-relations&quot;&gt;美团&lt;/a&gt;（港股 3690）在港交所披露了截至2026年6月30日止三个月及六个月的业绩公告。&lt;/p&gt;
-
-&lt;p&gt;先说最重要的一句话：&lt;strong&gt;美团回血了，但只是刚刚开始回血。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;二季度美团收入1046.43亿元人民币，同比增长14.4%；期内溢利（也就是净利润）22亿元，而去年同期只有3.65亿元。更有说服力的对比是环比——今年一季度美团还在亏68.27亿元，二季度就转正到赚22亿元，一个季度之间摆动了90亿元。&lt;/p&gt;
-
-&lt;p&gt;但把上半年合起来看，美团仍然是亏的：上半年收入1956.82亿元同比增10.1%，期内亏损46.72亿元，而去年同期是盈利104.22亿元。&lt;strong&gt;一年之间，从半年赚一百亿到半年亏近五十亿&lt;/strong&gt;——这就是过去一年那场外卖补贴战在报表上留下的坑。二季度只是把坑填回了一小块。&lt;/p&gt;
-
-&lt;h2 id=&quot;先搞清楚美团现在靠什么赚钱&quot;&gt;先搞清楚：美团现在靠什么赚钱&lt;/h2&gt;
-
-&lt;p&gt;美团把自己的生意拆成两大块，这个划分方式最近几年没变过：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;核心本地商业&lt;/strong&gt;，包括外卖、美团闪购（即时零售）、到店餐饮、酒店旅游、民宿、门票等。这是美团的现金牛，二季度贡献了68%的收入和全部的利润。它的收入又分三类——向骑手配送收的&lt;strong&gt;配送服务&lt;/strong&gt;费、向商家收的佣金和广告费（&lt;strong&gt;商家服务&lt;/strong&gt;）、以及美团自营卖货的&lt;strong&gt;商品销售&lt;/strong&gt;（比如自营药品、酒水）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;新业务&lt;/strong&gt;，包括小象超市（前置仓生鲜电商）、快乐猴（线下折扣店）、Keeta（海外外卖，目前在香港、沙特、巴西等地）、以及一些较小的业务线。这块是纯投入期，一直在亏钱，但亏损在收窄。&lt;/p&gt;
-
-&lt;p&gt;理解这个结构很重要：美团这份财报的故事，本质上就是「核心本地商业能不能把利润赚回来」和「新业务的窟窿能不能越补越小」这两条线。&lt;/p&gt;
-
-&lt;h2 id=&quot;核心财务数据一览&quot;&gt;核心财务数据一览&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标（2026Q2）&lt;/th&gt;
-      &lt;th&gt;金额&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;收入&lt;/td&gt;
-      &lt;td&gt;1046.43亿元&lt;/td&gt;
-      &lt;td&gt;+14.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售成本&lt;/td&gt;
-      &lt;td&gt;695.48亿元&lt;/td&gt;
-      &lt;td&gt;+13.2%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利&lt;/td&gt;
-      &lt;td&gt;350.95亿元&lt;/td&gt;
-      &lt;td&gt;+16.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售及营销开支&lt;/td&gt;
-      &lt;td&gt;247.23亿元&lt;/td&gt;
-      &lt;td&gt;+11.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;研发开支&lt;/td&gt;
-      &lt;td&gt;76.70亿元&lt;/td&gt;
-      &lt;td&gt;+22.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;一般及行政开支&lt;/td&gt;
-      &lt;td&gt;32.38亿元&lt;/td&gt;
-      &lt;td&gt;+20.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营溢利&lt;/td&gt;
-      &lt;td&gt;26.91亿元&lt;/td&gt;
-      &lt;td&gt;去年同期2.26亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;期内溢利&lt;/td&gt;
-      &lt;td&gt;21.55亿元&lt;/td&gt;
-      &lt;td&gt;+490.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经调整EBITDA&lt;/td&gt;
-      &lt;td&gt;40.98亿元&lt;/td&gt;
-      &lt;td&gt;+47.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经调整溢利净额&lt;/td&gt;
-      &lt;td&gt;25.24亿元&lt;/td&gt;
-      &lt;td&gt;+69.0%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;几个值得停下来看的点：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;销售及营销开支的增速（11.5%）第一次低于收入增速（14.4%）。&lt;/strong&gt; 这一项就是补贴、红包、地推、广告的总和，占收入比重从去年同期的24.2%降到23.6%。公告里的原话是「主要由于营销支出更为审慎」。翻译成大白话：不打了，或者说，不那么往死里打了。这是整份财报里最关键的一条线索——外卖行业的补贴战确实在降温。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;研发开支逆势增长22.5%，占收入比重从6.8%升到7.3%。&lt;/strong&gt; 公告写明原因是「公司层面对AI的投入增加」。在一个刚从亏损里爬出来的季度里，管理层选择省营销的钱、加AI的钱，这个取舍本身就是一种表态。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;其他收益净额34.94亿元，去年同期只有8.08亿元。&lt;/strong&gt; 这一项不是主营业务赚的，而是「若干投资的收益净额」加上去年同期有一笔美团优选战略转型的开支形成的低基数。&lt;strong&gt;26.91亿元的经营溢利里，有相当一部分靠的是这笔非经营性收益&lt;/strong&gt;——这是读这份财报时必须打的折扣。剔掉这块，主业的真实修复程度要更温和一些。&lt;/p&gt;
-
-&lt;p&gt;另外有一笔没进利润表但值得一提的账：美团持有的、分类为「以公允价值计量且其变动计入其他全面收益」的投资（公告点名了&lt;strong&gt;智谱&lt;/strong&gt;），在二季度确认了&lt;strong&gt;222亿元&lt;/strong&gt;的公允价值变动收益。这笔钱计入其他全面收益，不影响净利润，但确实是账面上实实在在的浮盈。&lt;/p&gt;
-
-&lt;h2 id=&quot;分业务看外卖回来了海外和零售在收窄亏损&quot;&gt;分业务看：外卖回来了，海外和零售在收窄亏损&lt;/h2&gt;
-
-&lt;h3 id=&quot;核心本地商业利润率回到79&quot;&gt;核心本地商业：利润率回到7.9%&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;核心本地商业（2026Q2）&lt;/th&gt;
-      &lt;th&gt;金额&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;分部收入&lt;/td&gt;
-      &lt;td&gt;715.31亿元&lt;/td&gt;
-      &lt;td&gt;+10.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;配送服务&lt;/td&gt;
-      &lt;td&gt;267.81亿元&lt;/td&gt;
-      &lt;td&gt;+13.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;商家服务&lt;/td&gt;
-      &lt;td&gt;396.30亿元&lt;/td&gt;
-      &lt;td&gt;+4.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;商品销售&lt;/td&gt;
-      &lt;td&gt;35.93亿元&lt;/td&gt;
-      &lt;td&gt;+78.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其他（含利息收入）&lt;/td&gt;
-      &lt;td&gt;15.26亿元&lt;/td&gt;
-      &lt;td&gt;+28.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营溢利&lt;/td&gt;
-      &lt;td&gt;56.68亿元&lt;/td&gt;
-      &lt;td&gt;+52.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润率&lt;/td&gt;
-      &lt;td&gt;7.9%&lt;/td&gt;
-      &lt;td&gt;去年同期5.7%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;配送服务收入恢复正增长&lt;/strong&gt;，是这个季度最实质的好消息。公告解释增长「主要是由于我们在激励措施方面的审慎投入」——少发一点补贴，同样的单量就能多留下一点收入。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;商品销售同比增78.9%&lt;/strong&gt;，来自药品、酒水这类美团自营的品类。这是美团在外卖之外做「万物到家」的抓手，增速快但基数还小（35.93亿元，只占核心本地商业收入的5%）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;商家服务只增4.0%&lt;/strong&gt;，是这一块里最慢的。商家服务主要是佣金和广告，增速慢意味着商户端的变现还在承压——到店、酒旅的高质量增长没能完全对冲外卖佣金端的让利。&lt;/p&gt;
-
-&lt;p&gt;经营利润率从5.7%回到7.9%，但要提醒的是：美团核心本地商业在补贴战之前的稳态利润率是显著高于这个数的，7.9%是修复途中的一个中间站，不是终点。&lt;/p&gt;
-
-&lt;h3 id=&quot;新业务亏损率降到53&quot;&gt;新业务：亏损率降到5.3%&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;新业务（2026Q2）&lt;/th&gt;
-      &lt;th&gt;金额&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;分部收入&lt;/td&gt;
-      &lt;td&gt;331.12亿元&lt;/td&gt;
-      &lt;td&gt;+25.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其中商品销售&lt;/td&gt;
-      &lt;td&gt;230.74亿元&lt;/td&gt;
-      &lt;td&gt;+45.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营亏损&lt;/td&gt;
-      &lt;td&gt;17.39亿元&lt;/td&gt;
-      &lt;td&gt;去年同期18.81亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营亏损率&lt;/td&gt;
-      &lt;td&gt;5.3%&lt;/td&gt;
-      &lt;td&gt;去年同期7.1%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;新业务用25%的收入增长换来了亏损的绝对额下降，这是效率改善的标准形态——&lt;strong&gt;收入涨了，亏损却没涨&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;具体到业务：&lt;strong&gt;小象超市&lt;/strong&gt;二季度继续加速扩城，在营城市数达到68个，自有品牌商品对交易金额的贡献占比进一步提升；7月在杭州开出第三家线下店。&lt;strong&gt;快乐猴&lt;/strong&gt;门店数达到40家。&lt;strong&gt;Keeta&lt;/strong&gt; 方面，公告确认香港市场「已经实现稳定盈利」，中东市场经营效率环比继续改善，巴西仍在圣保罗做探索。&lt;/p&gt;
-
-&lt;h2 id=&quot;现金和造血能力&quot;&gt;现金和造血能力&lt;/h2&gt;
-
-&lt;p&gt;二季度经营现金流入净额97亿元。截至6月30日，美团持有现金及现金等价物1047亿元、短期理财投资636亿元，合计&lt;strong&gt;1683亿元&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这个数字的意义在于：即便上半年整体亏损47亿元，美团的弹药储备依然厚实。上半年公司回购了292.48万股B类股份，总代价约1.998亿港元——规模相对温和，说明管理层在竞争尚未完全平息时，仍把现金优先留在了业务里。&lt;/p&gt;
-
-&lt;h2 id=&quot;亮点与隐忧&quot;&gt;亮点与隐忧&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;三个亮点：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;补贴战确实在退潮。&lt;/strong&gt; 营销费用增速低于收入增速，配送服务收入恢复正增长，这两条线互相印证。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;新业务的模型跑通了一部分。&lt;/strong&gt; 香港Keeta稳定盈利、小象超市自有品牌占比提升，说明这不是靠烧钱堆出来的规模。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;AI投入是真金白银。&lt;/strong&gt; 研发开支同比增22.5%，在一个刚扭亏的季度里保持加码。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;三个隐忧：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;利润质量有水分。&lt;/strong&gt; 26.91亿元经营溢利里，34.94亿元的「其他收益净额」是关键支撑，剔除后主业修复幅度要打折。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;商家服务只增4%。&lt;/strong&gt; 佣金和广告是美团利润率最高的收入，它增长乏力，说明商户端的付费意愿还没恢复。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;上半年整体仍亏46.72亿元。&lt;/strong&gt; 一个季度的扭亏不等于一年的扭亏，全年能否回正取决于下半年竞争是否继续降温。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;展望&quot;&gt;展望&lt;/h2&gt;
-
-&lt;p&gt;公告在业务回顾的结尾写道，美团将「继续以长期视角进行投入，聚焦产品创新、生态赋能，以及AI技术与实际场景的深度融合」，并强调要「通过高效执行实现高质量增长」。&lt;/p&gt;
-
-&lt;p&gt;用更直白的话概括这份财报：&lt;strong&gt;美团在二季度证明了一件事——只要不打价格战，它的核心生意依然能赚钱。&lt;/strong&gt; 问题在于，价格战会不会真的结束、以及在下半年旺季里美团自己愿不愿意再投一轮。这些问题的答案不在财报里，而在同一天晚上的业绩电话会上——管理层在那里给了相当明确的口径，我们在&lt;a href=&quot;/blog/2026/08/29/meituan_2026q2_earnings_call/&quot;&gt;另一篇文章&lt;/a&gt;里单独拆解。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;数据来源&quot;&gt;数据来源&lt;/h3&gt;
-
-&lt;p&gt;一手信息：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;美团《截至2026年6月30日止三个月及六个月业绩公告》，2026年8月28日于香港交易所披露易发布：&lt;a href=&quot;https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800436_c.pdf&quot;&gt;https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800436_c.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;美团投资者关系页面：&lt;a href=&quot;https://www.meituan.com/investor-relations&quot;&gt;https://www.meituan.com/investor-relations&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;补充参考（背景与市场反应）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;新浪财经《美团2026年Q2财报——收入1046亿元 同比增长14.4%》：&lt;a href=&quot;https://finance.sina.com.cn/tech/roll/2026-08-28/doc-inipwhrr8999174.shtml&quot;&gt;https://finance.sina.com.cn/tech/roll/2026-08-28/doc-inipwhrr8999174.shtml&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;本文所有财务数字均取自上述业绩公告原文，环比数据由公告中披露的二季度与一季度对比表直接读取。文中观点仅为个人解读，不构成任何投资建议。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/29/meituan_2026q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/29/meituan_2026q2_earnings/</guid>
         
         <category>美团</category>
         

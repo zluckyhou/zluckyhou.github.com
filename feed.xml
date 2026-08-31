@@ -5,9 +5,190 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 31 Aug 2026 09:16:21 +0800</pubDate>
-    <lastBuildDate>Mon, 31 Aug 2026 09:16:21 +0800</lastBuildDate>
+    <pubDate>Mon, 31 Aug 2026 09:27:38 +0800</pubDate>
+    <lastBuildDate>Mon, 31 Aug 2026 09:27:38 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.08.31</title>
+        <description>&lt;p&gt;今天这五个帖子放在一起看，有条隐隐的线：AI 的账单正在从云端渗回地面。它先是变成你装机时那根买不起的内存条，然后变成社区里刷不完的同质化图表，最后变成一场关于「什么才算真本事」的争论 —— 无论是评价一个 27B 的模型，还是评价一个来面试的工程师。&lt;/p&gt;
+
+&lt;p&gt;中间夹着两个和 AI 无关的帖子，一个讲面试被拒，一个讲容器选型。它们提醒我，工程师世界里那些最日常的困惑，其实一点没变。&lt;/p&gt;
+
+&lt;h2 id=&quot;一个人电脑便宜了四十年然后-ai-来了&quot;&gt;一、个人电脑便宜了四十年，然后 AI 来了&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w2qzyx/the_cost_of_personal_computers_declined_steadily/&quot;&gt;The cost of personal computers declined steadily for 40 years — until AI came along&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一篇报道指出，个人电脑价格连续下降了四十年的趋势，在 AI 时代被打断了。帖子本身是新闻转载，但评论区几百层，几乎变成了一个众包的硬件涨价实录。&lt;/p&gt;
+
+&lt;p&gt;最有说服力的是一位做数字影像的从业者。他们团队一年产出约 10TB 数据，2025 年 10 月他就警告过存储会在 2026 年年中见底，当时一台 90TB 的新服务器报价三四千美元；结果各部门为了谁掏钱扯皮了半年多，等到 2026 年 5 月，同样的机器报价变成了一万五。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The cost of a new 90TB server at that time was $3k-$4k… By May 2026 that same server cost $15k.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/heekma，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w2qzyx/the_cost_of_personal_computers_declined_steadily/p6unnsn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他还补了一句更直观的：2025 年 32GB 内存大概 100 美元，现在接近 400。楼下一片附和 —— 有人说一年前 100 美元买的 2TB 移动硬盘现在卖到 200 多，后悔没多囤两块；有人说自己 2025 年想着「等内存降价再升级」，结果一路等到今天还卡在 Windows 10，因为升级内存的钱拿不出来。&lt;/p&gt;
+
+&lt;p&gt;有意思的是，评论区自己完成了一次纠偏。前排一度冒出「厂商是故意制造短缺逼你上云」的阴谋论，随后被两拨人按住了：一位自称在行业里干活的人明说自己讨厌 AI，但这真不是阴谋，就是 AI 把产能吃光了导致的供需问题；另一位讲得更直白 —— 没有什么暗中不让你拥有 PC 的组织，只是内存和 GPU 产能有限，而亚马逊、微软、谷歌的钱包比你深，他们出价买去建数据中心而已。&lt;/p&gt;
+
+&lt;p&gt;而全场我觉得最妙的一句，是一个顺手点出的闭环：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…their insane rat race is starving the world of RAM, making it prohibitively expensive to invest in computing power capable of running open source LLM locally. The bubble lives on.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Defiant-Traffic5801，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w2qzyx/the_cost_of_personal_computers_declined_steadily/p6uv9gy/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我的看法：这个反讽值得国内想搞本地部署的朋友认真对待。开源模型这两年最大的叙事是「你终于可以不依赖 API 了」，但实现这个自由的前提是买得起显存和内存 —— 而恰恰是大厂的军备竞赛把这两样东西的价格顶了上去。换句话说，「摆脱云」的成本正在被「云」本身推高。如果你手上还有台配置尚可的老机器，今年大概不是把它卖掉换新的好时机；反过来，如果确实规划了本地推理，现在也不该继续等一个未必会来的降价窗口。&lt;/p&gt;
+
+&lt;h2 id=&quot;二27b-的本地模型手搓了个-minecraft评论区吵的是什么才配叫厉害&quot;&gt;二、27B 的本地模型手搓了个 Minecraft，评论区吵的是「什么才配叫厉害」&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w2cxcw/some_people_said_the_minecraft_clone_i_fully/&quot;&gt;Some people said the Minecraft clone I fully vibecoded with Qwen3.8-27B Q4 is not that impressive because Minecraft is in the training data&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一个「回应质疑」的续集帖。楼主之前用一块 4090 上跑的 27B 本地模型，从零 vibecode 出了一个 Minecraft 克隆，被人质疑说 Minecraft 本来就在训练数据里、不算本事。于是他这回让模型往游戏里加了四样训练数据里大概率没有的东西：一套火箭炮系统、一块能做花式动作的滑板、一架第一人称视角的无人机，还有一台游戏内的电脑（里面还跑着一个小游戏）。&lt;/p&gt;
+
+&lt;p&gt;楼主自己给的数据比结论更值得看：整个游戏主体大约花了 3 小时生成，而这四个「非常规」功能反倒花了大约 5 小时，中间还得让模型返工修了三次问题。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…so the less common things not in the training data do take a lot longer, but honestly I’m still super impressed at just how capable this model is, you give it a task and it can finish it on its own and 90% of the time it works perfectly.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/liright（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w2cxcw/some_people_said_the_minecraft_clone_i_fully/p6rkyay/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;反方并没有被说服，而且理由挺硬：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There’s a bunch of minecraft clones on github, which is why for an llm trained on open source repos, it’s one of the less impressive tasks. LLMs are impressive when they can do novel things.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/DesperateAdvantage76，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w2cxcw/some_people_said_the_minecraft_clone_i_fully/p6saln6/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;支持方则换了个坐标系：拿两年前的旗舰模型来比，那些演示大多是在 Unity 这类现成引擎里搭，而这次是从地基开始把渲染、贴图、模型全生成出来，跑在一块消费级显卡上；有人干脆说，重点根本不是它做了什么，而是「本地」「27B」这两个前缀。楼主自己也补了一条对照：不到两年前他让当时最好的云端模型做同一件事，结果一团糟，勉强能跑，完成度不到今天的十分之一。&lt;/p&gt;
+
+&lt;p&gt;还有一条泼冷水的实测很值得留意：有人日常把本地 Qwen 和云端强模型混着用来省 token，结论是本地模型能干活，但需要一个更聪明的模型在前面拆任务、指方向，让它自己做主就不行。&lt;/p&gt;
+
+&lt;p&gt;我的看法：这场争论其实卡在一个没人明说的问题上 —— 我们到底在测「生成能力」还是在测「泛化能力」。楼主的加料实验设计得不错，但那句「非常规功能耗时是主体的 1.6 倍还要返工三次」，恰恰是反方观点的证据而不是反证。对国内做本地部署的人来说，更实用的结论藏在最后那条实测里：把一个中等尺寸的本地模型当执行器、让强模型当规划者，这套分工目前性价比最高，而指望 27B 端到端自主完成开放任务，还早。&lt;/p&gt;
+
+&lt;h2 id=&quot;三面试挂了理由是不够-senior&quot;&gt;三、面试挂了，理由是「不够 senior」&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w2wfxo/how_to_deal_with_being_called_not_senior_enough/&quot;&gt;How to deal with being called “not senior enough” after an interview?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一位求职者被拒，收到的反馈是「不够 senior」，他很困惑：面试的编程题不难，是给一段个人隐私数据做脱敏，返回一个新字典。基础实现对方满意，追问「不同角色适用不同规则怎么办」，他答了类继承；对方再追问「那怎么做到改规则不动代码」，他讲了上家公司用的中心化配置仓库加一个界面。他把思路讲清楚了，但还是挂了。&lt;/p&gt;
+
+&lt;p&gt;追问到后面，真正的分歧点浮出水面：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I did explain the idea of of it, but they wanted to know if I know the name of the pattern. My background is more devops and in my last role no one actually referred to pattern names or anything.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/friendlytotbot（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w2wfxo/how_to_deal_with_being_called_not_senior_enough/p6w451u/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也就是说，他做过这件事、也能描述这件事，只是叫不出那个模式的英文学名。评论区对此分成了几派，而且几派都有道理。&lt;/p&gt;
+
+&lt;p&gt;最主流的是「别往心里去」派：senior 这个头衔根本没有统一标准，这家的 senior 在那家可能只是 mid。有位现任面试官现身说法，说自己也拒过「不够 senior」的候选人，但那不代表对方在别处当不了 senior —— 他们要找的是特定类型的资深，比如敢跟性格强势的 CTO 正面表达、做过草莽阶段的产品。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I rejected someone for not being senior enough, but that doesn’t mean they can’t be senior-level elsewhere.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/verzac05，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w2wfxo/how_to_deal_with_being_called_not_senior_enough/p6w8kav/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有人提醒，多数公司出于法律风险根本不给拒绝理由，能给你一句已经算客气，而这句大概率只是「我们挑了个更喜欢的人」的模板话术。也有人认为面试官本身水平就可能不行 —— 面好一场面试其实很难，而且面试官几乎不受任何校准和问责，把自己的无知投射成候选人的错误是常事。&lt;/p&gt;
+
+&lt;p&gt;不过评论区最不留情、也最值得琢磨的是这一条：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…your lack of curiosity about or investigation into your previous work’s architecture is what soured them on the idea of your seniority.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/chrisrrawr，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w2wfxo/how_to_deal_with_being_called_not_senior_enough/p6vxcdt/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他的意思不是「你该背下模式名」，而是「你在上家用了好几年这套架构，却从没好奇过它叫什么、属于哪一类做法」——这种不追究的态度才是减分项。他还顺手给了一句更好的标准答案：我不确定它正式叫什么，但我会从外部配置模式这个方向去找。&lt;/p&gt;
+
+&lt;p&gt;我的看法：这一条戳中了很多中文环境下工程师的软肋。我们做过的事往往不比人少，但缺少把经验「命名」和「归类」的习惯 —— 不知道自己踩过的坑在文献里叫什么，也就没法在面试或跨团队沟通里快速对齐。补救办法不难：每次做完一个有点结构的东西，花十分钟查一下这类做法业界怎么称呼。另外，那句「我不确定正式叫法，但我会往某某方向找」是个通用的高分回答模板 —— 承认边界，同时展示检索路径，比硬答或沉默都强得多。&lt;/p&gt;
+
+&lt;h2 id=&quot;四podman-用了几年之后大家的真心话&quot;&gt;四、Podman 用了几年之后，大家的真心话&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/selfhosted/comments/1w27tjf/opinions_on_using_podman_long_term/&quot;&gt;Opinions on using Podman long term&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;楼主问了个很朴素的问题：到处都在说 Docker，但 Podman 看起来能做差不多的事，大家实际在用哪个、为什么。评论区难得没有站队打架，而是交出了一堆分场景的真实经验。&lt;/p&gt;
+
+&lt;p&gt;出现频率最高的组合是「家里 Docker Compose、公司 Podman」。理由也统一：Podman 的无守护进程和 rootless 是实打实的优点，但生态的顺手程度还是 Docker 占上风。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I use docker compose at home because it’s what I’ve been using for years. I use podman quadlets at work because they are convenient. If I had to pick one, it would be podman.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/emptypotato77，&lt;a href=&quot;https://www.reddit.com/r/selfhosted/comments/1w27tjf/opinions_on_using_podman_long_term/p6qmh2a/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;技术细节上有几条挺实用的：Podman 现在主推的是 quadlet（用 systemd unit 的方式声明容器），多位用户说 podman-compose 的可靠性明显不如原生 docker-compose，但换成 quadlet 之后就很稳；有人提到可以用 podlet 工具把 compose 文件转成 quadlet，大约九成情况能无缝转换。也有人指出 Podman 其实尽量兼容 Docker API，所以照样能用 Dockhand 这类工具和 compose 文件，只是底层跑的是 Podman。&lt;/p&gt;
+
+&lt;p&gt;反面经验同样具体。一位试过用 Podman 跑五个容器的家庭实验室，结论相当扎心：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It worked, until it didn’t. I kept hitting corner cases and crashes due to different things.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/haxney，&lt;a href=&quot;https://www.reddit.com/r/selfhosted/comments/1w27tjf/opinions_on_using_podman_long_term/p6qpcho/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他说每个坑都有解法，但切回 Docker 后这些问题统统消失了；他也强调这是一年多前的经历，现在可能好转了。而在企业环境用 Podman 的那位，则给出了本帖最该被记住的一句提醒：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…podman doesn’t magically provide protection, dockerfiles and deployment configurations have to follow certain rules or you will poke holes.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/stevecrox0914，&lt;a href=&quot;https://www.reddit.com/r/selfhosted/comments/1w27tjf/opinions_on_using_podman_long_term/p6qxurb/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我的看法：这句话可以推广到所有「更安全的替代品」。换个运行时不等于换来了安全，Podman 提供的是可以缩小爆炸半径的能力，前提是你的 Dockerfile 和部署配置确实按规矩写。对个人玩家来说，本帖给出的路径其实很清晰：如果你只是想让自建服务跑起来，继续用 Docker Compose 没什么可羞耻的；如果你决定迁移，别走 podman-compose，直接上 quadlet，先用 podlet 转一遍再手动收尾。&lt;/p&gt;
+
+&lt;h2 id=&quot;五rdataisbeautiful-的老用户已经能一眼认出-ai-做的图&quot;&gt;五、r/dataisbeautiful 的老用户，已经能一眼认出 AI 做的图&lt;/h2&gt;
+
+&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w2an02/oc_the_top_1_of_us_households_now_hold_316_of_all/&quot;&gt;The top 1% of U.S. households now hold 31.6% of all household wealth, and the bottom 90% hold 32.1%&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这个帖子本身讲的是美国财富分布：最富的 1% 家庭持有全国 31.6% 的家庭财富，而后 90% 加起来是 32.1%。数据够劲爆了，但评论区第一条压根没聊数据 —— 而是问：我们现在是不是已经不会自己做图了？&lt;/p&gt;
+
+&lt;p&gt;顺着这条，一场「AI 生成内容识别」的讨论展开了。有人说这类帖子是同一个用户在刷版，版主装睡；也有人吐槽做得还挺糙。真正有意思的是，当有人认真问「你怎么判断一张图是 AI 做的、有什么办法吗」时，得到的回答非常具体：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Claude loves to use two colors for a title. If you ask it to make a webpage or a chart, it ALWAYS defaults to white font followed by another color font for emphasis.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/hereditydrift，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w2an02/oc_the_top_1_of_us_households_now_hold_316_of_all/p6utj7z/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;同一个人在另一层给了更狠的总结，顺带提议给版块改名：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Should rename the sub Claudeisbeautiful. Every post has the Claude tell – the headline in two different colors, which is usually white font then whatever accent color was used.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/hereditydrift，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w2an02/oc_the_top_1_of_us_households_now_hold_316_of_all/p6up6rh/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;而紧接着有人指出了这类「破绽学」的根本困境：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The problem is, if its revealed publicly then users who are spamming it will tell claude how to adapt and not do it.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Low-Car-6331，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w2an02/oc_the_top_1_of_us_households_now_hold_316_of_all/p6u7laa/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我的看法：这是我今天读到最有元味道的一段。一个以「把数据做好看」为宗旨的社区，正在被一批默认审美高度一致的图表淹没，于是老用户练出了一套指纹识别术 —— 而这套识别术一旦公开，就会立刻失效，因为刷版的人会拿它当提示词去规避。这基本就是内容平台未来几年的缩影：识别方法的半衰期极短，靠特征去打标签注定跑输。&lt;/p&gt;
+
+&lt;p&gt;对中文读者的启发在另一个方向。那条「标题用两种颜色」的观察，本质上说的是默认输出的同质化 —— 模型有它的审美惯性，你不指定，它就给你那一套。所以如果你用 AI 做图表、做网页、写文案，最省事的差异化手段就是明确指定风格约束：字体、配色、标题处理方式。这不只是为了不被人一眼认出来，更是因为默认值往往不是最适合你数据的那个选择。真正的问题从来不是「用了 AI」，而是「连默认值都没改」。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 31 Aug 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/08/31/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/31/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>中国石油2026年半年报——营收1.53万亿增5.3%、归母净利1039亿增22%，半年利润首破千亿并派现476亿</title>
@@ -2013,220 +2194,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>美团2026Q2电话会——王兴说不做「token工厂」，管理层承诺三季度外卖单位经济效益仍为正，并首次松口愿变现700亿投资组合</title>
-        <description>&lt;p&gt;北京时间2026年8月28日晚7点（香港时间），&lt;a href=&quot;https://www.meituan.com/investor-relations&quot;&gt;美团&lt;/a&gt;在披露二季度业绩后召开业绩电话会。出席的管理层是两位——&lt;strong&gt;董事长兼CEO 王兴&lt;/strong&gt;、&lt;strong&gt;首席财务官 陈少晖&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这场电话会的背景不用多解释：过去一年，中国即时零售行业打了一场规模空前的补贴战，美团上半年从去年同期盈利104亿变成亏损47亿。二季度净利润刚刚转正到22亿元，市场最想知道的只有一件事——&lt;strong&gt;这是拐点，还是喘息？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;管理层的回答比想象中直接。&lt;/p&gt;
-
-&lt;h2 id=&quot;管理层核心表态&quot;&gt;管理层核心表态&lt;/h2&gt;
-
-&lt;h3 id=&quot;一行业正在从补贴战转向效率战&quot;&gt;一、行业正在从「补贴战」转向「效率战」&lt;/h3&gt;
-
-&lt;p&gt;王兴在开场把二季度定义为一个转向：总收入同比增长14.4%、净利润转正，背后是整个行业「从依赖补贴的竞争转向对质量和运营卓越的追求」。&lt;/p&gt;
-
-&lt;p&gt;陈少晖在回答第一个提问时给出了更具体的判断：竞争正在「逐步正常化」，美团在&lt;strong&gt;订单量和交易额（GTV）上的领先优势在环比扩大&lt;/strong&gt;，尤其在中高客单价区间，高价值用户的「更深参与度和更强心智占有」在继续加强。&lt;/p&gt;
-
-&lt;h3 id=&quot;二三季度指引ue保持为正但利润率会从二季度回落&quot;&gt;二、三季度指引——UE保持为正，但利润率会从二季度回落&lt;/h3&gt;
-
-&lt;p&gt;这是全场最硬的两个数字性表态。&lt;/p&gt;
-
-&lt;p&gt;关于外卖单位经济效益（UE，即平均每一单赚多少钱），陈少晖说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们预计外卖的单位经济效益将同比显著改善，但环比仍会受季节性影响。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他同时点了三项三季度会增加的成本——&lt;strong&gt;营销投入增加、骑手补贴增加、以及新增的职业伤害保障保险费用&lt;/strong&gt;。但结论是明确的：「我们预计三季度UE将保持为正。」&lt;/p&gt;
-
-&lt;p&gt;关于整体利润率，他的口径是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「由于三季度和四季度的投入增加，经营利润率将从二季度的水平回落。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;中长期则「随着竞争正常化，预计利润率会逐步改善」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;翻译成大白话：二季度7.9%的核心本地商业经营利润率，不要当成新常态，下半年还要往下走。&lt;/strong&gt; 这条表态对预期管理很重要——美团主动把三、四季度的利润率预期压低了。&lt;/p&gt;
-
-&lt;h3 id=&quot;三新业务2026年亏损不会超过2025年&quot;&gt;三、新业务2026年亏损不会超过2025年&lt;/h3&gt;
-
-&lt;p&gt;王兴在回答海外扩张的提问时，给了一句可以直接写进模型的话：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「考虑到我们在Keeta和食杂零售业务上的投入，我们预计新业务分部2026年的亏损不会超过2025年。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这是一条硬承诺——即便同时在巴西开城、在国内扩小象超市和快乐猴，新业务的全年亏损上限已经被管理层自己框住了。&lt;/p&gt;
-
-&lt;h2 id=&quot;分析师问答里最有信息量的部分&quot;&gt;分析师问答里最有信息量的部分&lt;/h2&gt;
-
-&lt;h3 id=&quot;q1杰富瑞-thomas-chong竞争格局和三季度单位经济效益&quot;&gt;Q1（杰富瑞 Thomas Chong）：竞争格局和三季度单位经济效益&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;问：&lt;/strong&gt; 如何看待外卖和即时零售的竞争定位，特别是中高客单价区间？三季度的单位经济效益投资者应该有什么预期？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;答（陈少晖）：&lt;/strong&gt; 行业正在「转向更关注营销和运营效率」，竞争逐步正常化。美团在订单量和GTV上的领先优势环比扩大，中高客单价区间尤其明显。三季度UE同比会显著改善，但环比受季节性影响，成本端会有营销、骑手补贴、职业伤害保障保险三项增量，但「预计UE将保持为正」。&lt;/p&gt;
-
-&lt;h3 id=&quot;q2高盛-ronald-keungai战略和商业化路径&quot;&gt;Q2（高盛 Ronald Keung）：AI战略和商业化路径&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;问：&lt;/strong&gt; 怎么理解 LongCat 2.0 在美团整体AI战略中的角色？商业化路径是什么？短期和中期的财务影响？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;答（王兴）：&lt;/strong&gt; 这是全场最值得引用的一段：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们不会去竞争做一个 token 工厂。我们的重点是用我们的模型和AI产品来强化核心业务。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「AI 与其说是在模型上竞争，不如说是在重塑我们的组织。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;王兴介绍 LongCat 2.0 是「首批完全基于中国本土基础设施训练的万亿参数模型之一」，目前已在软件开发、运营和客服三个方向铺开。美团的AI打法分三层——&lt;strong&gt;做大模型（Building LLMs）、AI用于内部工作（AI at work）、AI进入产品（AI in products）&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;财务上，他强调：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们会以ROI为导向来评估AI战略，在资本配置上保持纪律。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;这段话的信息量在于它划清了边界&lt;/strong&gt;：美团不做通用模型的军备竞赛，AI预算是要算投产比的。对照财报里研发开支同比增22.5%这个数，可以理解为——加钱可以，但要花在业务里。&lt;/p&gt;
-
-&lt;h3 id=&quot;q3瑞银-kenneth-fong到店业务和下半年的增长与利润取舍&quot;&gt;Q3（瑞银 Kenneth Fong）：到店业务和下半年的增长与利润取舍&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;问：&lt;/strong&gt; 本地服务的竞争发生了什么变化？宏观疲软有没有冲击到业务？下半年管理层在增长和利润之间怎么取舍？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;答（陈少晖）：&lt;/strong&gt; 他说今天的竞争格局「和几年前非常不同」，玩家们在「用户群体、消费场景和商户分层」上各自分化。美团的选择是「巩固在核心品类的竞争地位」，而不是去追「补贴驱动的低质量订单」。&lt;/p&gt;
-
-&lt;p&gt;关于宏观和竞争冲击，他的原话是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们没有看到对核心用户或核心商户的实质性影响。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;并补充说，美团的「到店GTV质量和核销率持续显著领先主要竞争对手」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;核销率&lt;/strong&gt;这个词值得解释一下：用户买了到店团购券之后真正去店里核销掉的比例。这个比例高，说明卖出去的券是真需求；比例低，说明券是靠补贴硬塞出去的。管理层特意点这个指标，是在暗示竞争对手的GTV含金量不如自己。&lt;/p&gt;
-
-&lt;h3 id=&quot;q4汇丰-charlene-liu小象超市和快乐猴的进展&quot;&gt;Q4（汇丰 Charlene Liu）：小象超市和快乐猴的进展&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;问：&lt;/strong&gt; 小象超市和快乐猴现在到哪一步了？全渠道战略处于什么阶段？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;答（王兴）：&lt;/strong&gt; 王兴把食杂零售定位为「未来十年长期发展中非常重要的一部分」，两种业态都是「战略优先级」。&lt;/p&gt;
-
-&lt;p&gt;具体进展：小象超市已在68个城市运营，二季度到三季度初共开出&lt;strong&gt;5家线下旗舰店&lt;/strong&gt;——「第一家去年12月在北京，第五家就在今天于深圳开业」。快乐猴二季度末40家门店，是一个「差异化的互补模式」，特点是「更小、更灵活的店型」，聚焦社区。&lt;/p&gt;
-
-&lt;p&gt;关于线上线下的关系，他说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「线上前置仓让我们能够快速跨城市扩张规模，而少数几家线下旗舰店也将发挥非常重要的作用。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;理由是线下的感官体验能建立信任——这实际上是在解释为什么一个前置仓公司要去开实体店。&lt;/p&gt;
-
-&lt;h3 id=&quot;q5摩根士丹利-gary-yukeeta-的扩张节奏和巴西投入&quot;&gt;Q5（摩根士丹利 Gary Yu）：Keeta 的扩张节奏和巴西投入&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;问：&lt;/strong&gt; Keeta 的扩张速度和巴西的投入怎么规划？下半年整体的海外战略？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;答（王兴）：&lt;/strong&gt; 他先给了两个里程碑数字：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;香港&lt;/strong&gt;：2025年10月实现盈利，距离上线&lt;strong&gt;29个月&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;沙特&lt;/strong&gt;：2026年7月实现盈利，距离进入&lt;strong&gt;22个月&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;后一个数字比前一个快了7个月，王兴用这个对比说明模式「能在不同海外市场很好地复制」。&lt;/p&gt;
-
-&lt;p&gt;关于巴西：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们会保持灵活，随着在当地积累更多经验来迭代策略。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;短期内「继续聚焦圣保罗」，因为这个市场「与我们进入过的其他市场相当不同」。&lt;/p&gt;
-
-&lt;h3 id=&quot;q6中信-ya-jiang资本配置与股东回报&quot;&gt;Q6（中信 Ya Jiang）：资本配置与股东回报&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;问：&lt;/strong&gt; 在核心业务、新业务、AI资本开支和股东回报之间，资本配置的优先级是什么？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;答（王兴）：&lt;/strong&gt; 三句话概括：「以ROI驱动、锚定长期价值创造」、「核心业务优先」、以及一句对行业的评价：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们不认为非理性竞争是可持续的。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;关于股东回报：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「股份回购一直是我们返还资本的主要方式。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;但真正的新信息在最后一段。&lt;/strong&gt; 王兴说美团持有的投资组合价值「超过700亿元人民币」，并且：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们非常愿意在市场条件合适时退出或变现部分头寸，以释放资本。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;目的是获得「更大的灵活性去再投资于自身业务并向股东返还价值」。&lt;/p&gt;
-
-&lt;p&gt;这是一个新表态。财报里刚披露了美团持有的智谱等FVOCI投资在二季度确认了222亿元的公允价值变动收益（计入其他全面收益，不进利润表）；同时上半年美团的回购规模只有292.48万股B类股、约1.998亿港元，相当克制。&lt;strong&gt;把「700亿投资组合可以变现」和「回购是主要回报方式」两句话放在一起，指向的是一个可能被显著放大的回购计划。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;解读这场电话会到底说了什么&quot;&gt;解读：这场电话会到底说了什么&lt;/h2&gt;
-
-&lt;p&gt;把六个问答串起来，管理层其实在讲一个完整的故事：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，竞争的最坏阶段过去了，但没结束。&lt;/strong&gt; 「竞争正常化」「不认为非理性竞争可持续」这类措辞，比一个季度的利润数字更能说明管理层对行业的判断。但三季度还要加营销、加骑手补贴，说明战场没有完全熄火。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，管理层主动把下半年预期压低了。&lt;/strong&gt; 明确说利润率会从二季度回落、明确说三季度成本有三项增量，这是典型的「先把丑话说在前面」。对投资者而言，这反而降低了后续暴雷的概率。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，AI的定位被讲清楚了。&lt;/strong&gt; 「不做token工厂」是一句非常克制的话——美团不打算在基础模型上和大厂正面消耗，而是把AI当成降本增效和产品体验的工具。财报里研发费用率从6.8%升到7.3%，就是这个策略的成本。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第四，700亿投资组合是一张暂时没打出去的牌。&lt;/strong&gt; 这是全场最容易被忽略但可能最重要的信息。在核心业务刚刚扭亏、新业务亏损有上限、账上还有1683亿现金及短期理财的情况下，如果美团真的开始变现投资组合并加大回购，估值层面的弹性会比业绩层面更大。&lt;/p&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;p&gt;用一句话概括这场电话会：&lt;strong&gt;管理层承认二季度的好转是真的，但拒绝把它包装成拐点。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;他们给出的下半年路线图是——利润率主动回落、继续在Keeta和食杂零售上投入、新业务全年亏损不超过去年、AI按ROI来算账、以及一个尚未兑现但已经明说的资本回报选项。&lt;/p&gt;
-
-&lt;p&gt;对于一家刚从半年亏损47亿元里爬出来的公司来说，这份「不急着庆祝」的姿态，可能比数字本身更值得记录。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;数据来源&quot;&gt;数据来源&lt;/h3&gt;
-
-&lt;p&gt;一手信息：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;美团《截至2026年6月30日止三个月及六个月业绩公告》，2026年8月28日于香港交易所披露易发布：&lt;a href=&quot;https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800436_c.pdf&quot;&gt;https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800436_c.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;美团2026年二季度业绩电话会实录（Investing.com transcript）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-meituan-posts-q2-2026-profit-as-revenue-growth-accelerates-93CH-4881117&quot;&gt;https://www.investing.com/news/transcripts/earnings-call-transcript-meituan-posts-q2-2026-profit-as-revenue-growth-accelerates-93CH-4881117&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;美团投资者关系页面：&lt;a href=&quot;https://www.meituan.com/investor-relations&quot;&gt;https://www.meituan.com/investor-relations&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;补充参考（背景）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;新浪财经《王兴最新发声》：&lt;a href=&quot;https://finance.sina.com.cn/chanjing/gsnews/2026-08-28/doc-inipwhrw0021641.shtml&quot;&gt;https://finance.sina.com.cn/chanjing/gsnews/2026-08-28/doc-inipwhrw0021641.shtml&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;电话会为英文进行，文中引述均为对英文实录的中文翻译，财务数字以业绩公告原文为准。本文观点仅为个人解读，不构成任何投资建议。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/29/meituan_2026q2_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/29/meituan_2026q2_earnings_call/</guid>
-        
-        <category>美团</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

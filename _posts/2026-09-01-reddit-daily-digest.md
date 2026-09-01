@@ -1,0 +1,121 @@
+---
+layout: post
+title: "Reddit 每日精选 | 2026.09.01"
+headline: "索尼在法庭上说：没人真以为自己买下了数字游戏"
+date: 2026-09-01 09:30:00 +0800
+categories: [reddit]
+tags: [Reddit, 每日精选]
+description: "从数字游戏的所有权官司，到一个 4chan 匿名帖十四年后被数学论文收录"
+summary: "本期五帖：索尼想在法庭上论证你其实并不拥有你买的数字游戏；LocalLLaMA 用一份清单记录了模型发布密集到失控的八月；数据科学从业者聊没进大厂到底后不后悔；一张人均创收图被评论区带偏到 Valve；以及一个 2011 年的匿名 4chan 帖，如何变成了正式发表的数学结论。"
+digest_count: 5
+---
+
+今天这几帖凑在一起，居然有一条隐隐的线：所有权、雇佣关系、署名权——都是「这东西到底算谁的」。从索尼的法庭辩词，到 Valve 的人均产出，再到一个署名为「匿名 4chan 用户」的数学证明，评论区吵出来的东西比标题有意思得多。
+
+## 一、索尼想在法庭上证明：你并不拥有你买的数字游戏
+
+[PlayStation Wants To Prove In Court That You Don't Own Your Digital Games](https://www.reddit.com/r/technology/comments/1w2zjrj/playstation_wants_to_prove_in_court_that_you_dont/)
+
+这是一起关于数字商品所有权的集体诉讼。索尼一方的辩护逻辑大致是：商店里那个「购买」按钮，买到的只是一份可撤销的授权许可，消费者理应明白这一点。同一天热榜上还有另一帖引用了索尼律师更直白的说法——如果「购买」真意味着拥有，那 GTA 6 岂不是只能卖出一份。
+
+评论区最集中的火力不在「许可证合不合法」，而在「你为什么不把按钮改成租」。这个区分很关键：没人真的指望买断一款联网游戏的服务器，大家不满的是厂商一边收着买断价，一边在法庭上主张这不是买断。
+
+> "If PlayStation or Xbox were to have a "Rent" button instead of "Buy" button then I'd understand. Messed up of them to change the definition of buy to their liking."
+>
+> <cite>— u/marcosis82，<a href="https://www.reddit.com/r/technology/comments/1w2zjrj/playstation_wants_to_prove_in_court_that_you_dont/p6wkcbz/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+紧接着有人补了一刀，说厂商大概早就做过调研，知道换成「租」这个词会直接压低定价空间：
+
+> "Makes absolute sense but I bet they did some study and found people weren’t willing to pay what they charge to “buy” compaired to “rent”"
+>
+> <cite>— u/SucksTryAgain，<a href="https://www.reddit.com/r/technology/comments/1w2zjrj/playstation_wants_to_prove_in_court_that_you_dont/p6wnt9i/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+这句话大概是整个帖子里最扎实的一条洞见：「买」这个词本身就是定价的一部分。厂商既不肯放弃这个词带来的溢价，又不愿承担它在法律上的含义。往下走还有一堆人把话题延伸到房子、汽车订阅制，情绪上头但方向不算跑偏。
+
+对国内读者来说，这事其实很熟悉：数字专辑、网课、会员期内下架的影视剧，本质是同一个结构。Steam 前两年在结算页加了一行「您购买的是许可」，当时被骂，现在回头看反倒是唯一诚实的做法——把定价和用词对齐，比事后在法庭上辩论「购买」的语义要体面得多。
+
+## 二、AI 的八月：DeepSeek 又发了一个模型，评论区在数这个月一共发了多少个
+
+[deepseek-ai/DeepSeek-V4-Flash-Vision-Exp · Hugging Face](https://www.reddit.com/r/LocalLLaMA/comments/1w39i6r/deepseekaideepseekv4flashvisionexp_hugging_face/)
+
+帖子本身只有一个 Hugging Face 链接，DeepSeek 放出了 V4 Flash 的视觉实验版。真正有意思的是最高赞评论——有人干脆把这个月能想起来的开源模型发布列了一张清单。
+
+那张清单里从 DS4 Pro、Qwen3.8 的三个尺寸、GLM5.3、到 Motif 3、Ling 3.0 Tiny、LFM2.5 VL 3B 等等，十几项挤在一个月里。底下一串人把 August 拼成了 AIgust、Ayygust，玩梗之外表达的是同一种疲惫：跟不上了。
+
+> "August keeps giving."
+>
+> <cite>— u/Beamsters，<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w39i6r/deepseekaideepseekv4flashvisionexp_hugging_face/p6ye0bl/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+清单之外，也有人趁机替冷门模型说话，这类「被淹没的好东西」在发布潮里其实是常态：
+
+> "Most underrated and under-popular model right here. Surprised it even got a mention."
+>
+> <cite>— u/kr_tech，<a href="https://www.reddit.com/r/LocalLLaMA/comments/1w39i6r/deepseekaideepseekv4flashvisionexp_hugging_face/p6zeq34/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+值得注意的是那张清单里中国团队占了相当大的比重——DeepSeek、Qwen、GLM、Ling，几乎撑起半张表。但发布密度高到这个程度，副作用也很明显：单个模型的注意力窗口被压缩到几天，评测还没跑完下一个就来了。对使用者的启发大概是，别再追着榜单换模型，选一个够用的把工作流固化下来，收益比每周迁移一次高得多。
+
+## 三、没进大厂，后悔吗？——一场挺坦诚的行业自白
+
+[Anyone who's never worked at FAANG or big tech, do you have regrets about it?](https://www.reddit.com/r/datascience/comments/1w3klb5/anyone_whos_never_worked_at_faang_or_big_tech_do/)
+
+发帖人三十出头，在一家节奏轻松、稳定、但薪水明显低于市场价的公司做数据科学。社交圈子扩大之后，他发现自己和大厂同行的收入差了一大截，于是来问：不去追这条路，后悔吗？
+
+评论区没有出现预期中的「快去卷」，反而相当克制。一位在 Meta 做过产品数据科学的人给了很具体的账：熬过两轮裁员、被重组进一个高度优化因而无聊透顶的领域、遇上糟糕的经理。他的结论是钱在别处也能挣到，真正稀缺的是 RSU；但为了它每周搭进 60 小时不划算。
+
+> "The good paycheck exists in other places. It’s the RSUs that are nice."
+>
+> <cite>— u/MattDamonsTaco，<a href="https://www.reddit.com/r/datascience/comments/1w3klb5/anyone_whos_never_worked_at_faang_or_big_tech_do/p70pc4k/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+他末尾那句「不后悔，这段经历塑造了我」立刻被人接住反问：这不正是所有金笼子里的人都会说的话吗——既然不后悔，为什么又不推荐别人去经历同样的痛苦？这个追问相当锋利，几乎是所有「苦尽甘来叙事」的通用解药。
+
+另一条被顶起来的回复算了一笔更冷酷的账，说明高薪 offer 的期望值必须按在职时长打折：
+
+> "I know someone who left our company for Meta, and made ridiculous money and got laid off 6 months later. Its now been 4 months and they can't find a job."
+>
+> <cite>— u/LebrawnJames416，<a href="https://www.reddit.com/r/datascience/comments/1w3klb5/anyone_whos_never_worked_at_faang_or_big_tech_do/p70p03i/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+线程后半段更值得玩味：有人问「那到底哪里没有裁员恐惧」，答案一路从「AI 上没那么激进的中大型公司」滑到「我就在这种公司，去年被裁了」，再滑到金融保险业，最后被人指出某大行正在大规模裁员外包。也就是说，问题的正确形式可能不是「去哪里能稳定」，而是「稳定这件事已经不能靠选雇主来获得」。那么剩下能优化的，就只有个人的现金缓冲和技能可迁移性——这个结论对国内读者同样成立。
+
+## 四、一张人均创收图，被评论区一句话带去了 Valve
+
+[Grindr generates more revenue per employee than almost all Big Tech stocks](https://www.reddit.com/r/dataisbeautiful/comments/1w3b4za/oc_grindr_generates_more_revenue_per_employee/)
+
+发帖人做了一张对比图：交友应用 Grindr 全职员工不到 200 人，人均创收约 300 万美元，超过了「七巨头」里的绝大多数。数据来自估值平台 Multiples.vc，截至 2026 年 8 月底的最近一个完整财年。
+
+第一条高赞评论直接把话题掀了：等这位老哥听说 Valve 的人均创收再说吧——大约 5000 万美元一人，350 名员工。接下来的讨论才是真正有价值的部分：为什么 Valve 能维持这种结构？主流答案是「因为它没上市」，但有人不同意这个因果关系。
+
+> "Its not actually because of privately owned, it's because people running it recognise that the consumer's long term trust is an asset, that need not be spent for padding up next quarter results."
+>
+> <cite>— u/The_Last_Spoonbender，<a href="https://www.reddit.com/r/dataisbeautiful/comments/1w3b4za/oc_grindr_generates_more_revenue_per_employee/p71bbcx/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+有人给出了一个折中说法，我觉得更准确：不上市不是原因，而是前提——它不保证你会珍惜用户信任，但上市几乎保证了你会被迫消耗它。另一条评论顺手勾勒了这种模式的代价：
+
+> "The avg valve employee has a seven figure salary and their company culture is against micromanagement and layoffs. … The con is they barely ever hire people."
+>
+> <cite>— u/Raddish_，<a href="https://www.reddit.com/r/dataisbeautiful/comments/1w3b4za/oc_grindr_generates_more_revenue_per_employee/p6yu9m2/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+顺着这条往下，有人说这种公司只有靠提前退休才空出坑位。这其实点破了「人均创收」这个指标的另一面：它高，往往不是因为人效神话，而是因为分母被刻意锁死了。看这类图表时值得多问一句——高人均产出到底来自组织效率，还是来自平台的网络效应加上极端克制的招聘？对 Grindr 和 Valve 而言，答案恐怕都更偏后者。
+
+## 五、2011 年的一个 4chan 匿名帖，成了正式发表的数学结论
+
+[In 2011, an anonymous 4chan user solved a decades-old math problem while arguing about the optimal way to binge-watch an anime](https://www.reddit.com/r/interestingasfuck/comments/1w35wix/in_2011_an_anonymous_4chan_user_solved_a/)
+
+故事的起点很荒诞：2011 年有人在 4chan 讨论《凉宫春日的忧郁》——这部动画因为播出顺序被打乱而出名——于是产生了一个问题：如果想把 14 集按所有可能的顺序都看一遍，且允许序列首尾重叠，最短需要看多少集？发帖人在自己的长评里把三集的例子讲得很清楚：A-B-C-A-B-A-C-B-A 这 9 集就涵盖了全部 6 种排列。而任意 n 的最小长度，是组合数学里超排列问题的一个公开难题。那个匿名帖给出了一个下界证明，七年后被数学界注意到，如今论文的第一作者署名就是「Anonymous 4chan Poster」。
+
+评论区最精彩的转折是：那篇论文的第二作者本人出现了，而且是来澄清的。
+
+> "I'm the second-named author. I don't think any of us were on 4chan! Nathaniel originally found the proof on a wiki where someone had copied it, and it took me a while to work out that it was from 4chan originally."
+>
+> <cite>— u/robinhouston，<a href="https://www.reddit.com/r/interestingasfuck/comments/1w35wix/in_2011_an_anonymous_4chan_user_solved_a/p6zaan0/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+也就是说，广为流传的版本——「有人多年后突然想起那个 4chan 帖」——并不准确：证明是从别人转抄的 wiki 上被发现的，作者们花了不少功夫才反查到 4chan 这个源头。有意思的是，底下并没有多少人接受这个更正，反而在起哄说「Houston 博士，说辞挺像样啊」。而在作者现身之前，已经有人凭直觉提出了同样的疑点：
+
+> "Also who casually recalls a 4chan post from years earlier unless you understood its significance at the time"
+>
+> <cite>— u/Rustywolf，<a href="https://www.reddit.com/r/interestingasfuck/comments/1w35wix/in_2011_an_anonymous_4chan_user_solved_a/p6xvd0q/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+这一段本身就是一个小型的传播学样本：一个更精彩的版本会自动挤掉更准确的版本，哪怕当事人就站在评论区里澄清。另一个值得记下的点是关于署名——匿名者的贡献没有被抹掉，而是以「Anonymous 4chan Poster」的形式进了正式文献。在越来越多知识产出发生在论坛、issue 区和聊天群的今天，这种把署名让渡给来源本身的做法，比归功于「转述者」要健康得多。
+
+---
+
+今天这五帖里，索尼那条的启发最直接：语言是有价格的。当一家公司同时想要某个词的溢价和另一个词的责任边界，通常就是纠纷的开始。

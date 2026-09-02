@@ -1,0 +1,115 @@
+---
+layout: daily
+title: "AI Frontier Daily | 2026.09.02"
+headline: "OpenAI 确认 Astra 成为首个达到 Critical 网络安全能力门槛的模型"
+date: 2026-09-02 09:07:00 +0800
+permalink: /ai-daily/2026/09/02/
+categories: [ai-daily]
+tags: [AI-Frontier, Daily]
+description: "OpenAI 表示，待发布的 Astra 已能在适当工具与访问条件下发现未知漏洞，并在缺少逐步人工指导时为多种加固系统开发利用链；内部评测中还发现并使用了两个零日漏洞。公司曾延后部分开发与发布以加强隔离、监控和拒绝训练，网络越狱评测拒绝率由 GPT-5.6 Sol 的 59% 提升到 Astra 的 91.5%。Astra 将很快上线，但最先进的网络安全能力先限于少量测试者，再通过 Daybreak Blue 扩大防御性访问。"
+summary: "OpenAI 表示，待发布的 Astra 已能在适当工具与访问条件下发现未知漏洞，并在缺少逐步人工指导时为多种加固系统开发利用链；内部评测中还发现并使用了两个零日漏洞。公司曾延后部分开发与发布以加强隔离、监控和拒绝训练，网络越狱评测拒绝率由 GPT-5.6 Sol 的 59% 提升到 Astra 的 91.5%。Astra 将很快上线，但最先进的网络安全能力先限于少量测试者，再通过 Daybreak Blue 扩大防御性访问。"
+issue_count: 13
+deep_dive_count: 7
+reading_time: 17
+cover: "https://www.worldlabs.ai/images/atlas-og.jpg"
+signals: "OpenAI · sama · AnthropicAI · cursor_ai · perplexity_ai · drfeifei · DrJimFan · GoogleDeepMind"
+header-img: img/dark_yellow_400.png
+---
+
+
+## 1/13 OpenAI 确认 Astra 成为首个达到 Critical 网络安全能力门槛的模型
+OpenAI 表示，待发布的 Astra 已能在适当工具与访问条件下发现未知漏洞，并在缺少逐步人工指导时为多种加固系统开发利用链；内部评测中还发现并使用了两个零日漏洞。公司曾延后部分开发与发布以加强隔离、监控和拒绝训练，网络越狱评测拒绝率由 GPT-5.6 Sol 的 59% 提升到 Astra 的 91.5%。Astra 将很快上线，但最先进的网络安全能力先限于少量测试者，再通过 Daybreak Blue 扩大防御性访问。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/OpenAI/status/2094885578173260259" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OpenAI</a><a class="source-chip" href="https://x.com/sama/status/2094934592062959832" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@sama</a></div>
+
+## 2/13 Anthropic 发布 Claude Fable 5.1 与 Mythos 5.1，提升长任务能力并大幅下调缓存成本
+两款模型使用同一底层权重，但 Fable 5.1 面向所有平台开放，Mythos 5.1 只提供给经过审核的网络安全和生命科学机构。Anthropic 自报 Fable 5.1 在 CursorBench 3.2 达 73.4%、Terminal-Bench-Science 达 52.6%；缓存读取降至每百万 token 0.25 美元，低 75%，典型负载总成本估算下降约 25%。新防护允许漏洞发现但阻断利用开发，并把网络安全场景误触发平均减少约 60%；这些 benchmark 和成本比例仍需结合官方 harness 与真实负载理解。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/AnthropicAI/status/2094848668650074336" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AnthropicAI</a><a class="source-chip" href="https://x.com/cursor_ai/status/2094852929282879596" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cursor_ai</a><a class="source-chip" href="https://x.com/perplexity_ai/status/2094865042873467261" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@perplexity_ai</a></div>
+
+## 3/13 World Labs 发布 Atlas，把生成、3D 重建与机器人 Real-to-Sim 统一进空间世界模型
+Atlas 是从零预训练的多模态自回归扩散 Transformer，把文本、图像、视频、相机位姿和 3D 深度锚定到同一空间上下文。它可按显式相机轨迹从一至六张图生成最长一分钟、1440p 视频，也能从少量照片重建新视角、点云和 Gaussian splats，并用手机视频构建机器人导航与操作模拟。官方称其在相机控制生成和稀疏视角 3D 重建上超过专用对照模型；目前仅开放 early access，权重、训练数据和第三方复现尚未公开。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@drfeifei<span class="source-chip__links"><a href="https://x.com/drfeifei/status/2094936430728610060" target="_blank" rel="noopener" aria-label="@drfeifei 原文 1">1</a><a href="https://x.com/drfeifei/status/2094910083444707551" target="_blank" rel="noopener" aria-label="@drfeifei 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/DrJimFan/status/2094905169460736291" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@DrJimFan</a></div>
+
+## 4/13 Gemini 推出 Agentic Video，主动选择视频片段以降低最多 88% token
+Google 为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 加入 agentic video understanding。模型不再以固定帧率扫描整段视频，而是在推理循环中跨画面、音频与字幕主动寻找目标时段，并按任务动态调整帧率和分辨率。Google 自报标准评测中 token 最多下降 88%、成本最多下降 66%、准确率最多提升 7%，长视频收益最明显。功能已在 Gemini API、Google AI Studio 与 Enterprise Agent Platform 上线，使用标准 token 价格。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@GoogleDeepMind<span class="source-chip__links"><a href="https://x.com/GoogleDeepMind/status/2094840179676660097" target="_blank" rel="noopener" aria-label="@GoogleDeepMind 原文 1">1</a><a href="https://x.com/GoogleDeepMind/status/2094840182457422260" target="_blank" rel="noopener" aria-label="@GoogleDeepMind 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/OfficialLoganK/status/2094843143623680264" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OfficialLoganK</a></div>
+
+## 5/13 Meta 发布 Muse Voice Transcribe，将实时转写、说话人分离与端点检测合并为一个模型
+Meta Superintelligence Labs 的首个实时音频感知模型支持 20 人以上 diarization、端点检测、25 种重点验证语言与句内语言切换。模型以 80ms 音频块输入，每一步自行决定继续听还是输出文字，再用词错误率与延迟的联合强化学习实现逐词 adaptive delay。Meta 称其在发布时的 Artificial Analysis 流式语音榜和公开说话人分离 benchmark 中排名第一；模型已通过 Meta Model API、Meta AI for Mac 和 Muse Code 提供，实际准确率仍受口音、噪声和重叠发言影响。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AIatMeta<span class="source-chip__links"><a href="https://x.com/AIatMeta/status/2094839236016976028" target="_blank" rel="noopener" aria-label="@AIatMeta 原文 1">1</a><a href="https://x.com/AIatMeta/status/2094839238495801457" target="_blank" rel="noopener" aria-label="@AIatMeta 原文 2">2</a><a href="https://x.com/AIatMeta/status/2094839243126243712" target="_blank" rel="noopener" aria-label="@AIatMeta 原文 3">3</a></span></span></div>
+
+## 6/13 Perplexity 让同一 Agent 任务在云端与 Mac 本地之间切换，并开源 PII 检测器
+Perplexity Computer 的 hybrid compute 先用云端模型做搜索、规划和重推理，遇到私人文件或敏感数据时把子任务交给 Mac 本地模型，最终合并为一个结果。本地 Privacy Gate 会在发送前检查 prompt、工具输出、记忆与日志，用户可选择留在设备、明确上传或跳过；约 6 亿参数的 `pplx-pii-masking` 也以 MIT 许可证开放。功能已面向 Pro、Max、Enterprise 的 Apple silicon Mac 上线，但 PII 分类器不能替代对工具联网、日志和漏报风险的完整数据治理。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@perplexity_ai<span class="source-chip__links"><a href="https://x.com/perplexity_ai/status/2094803515264978953" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 1">1</a><a href="https://x.com/perplexity_ai/status/2094803534927770022" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 2">2</a><a href="https://x.com/perplexity_ai/status/2094803552619409840" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 3">3</a></span></span></div>
+
+## 7/13 NVIDIA 与 CrowdStrike 用开放模型构建攻防 Agent 闭环，回测检测率从 16.5% 升至 41.9%
+SafeMind 在隔离环境中让红队 Agent 执行攻击、蓝队 Agent 从 Falcon 遥测生成规则，再通过 lint、回放和独立评审反复修复。Nemotron 3 Ultra 负责编排，后训练的 Nemotron 3 Super 负责检测规则；完整栈在回测中把平均检测率提升到 41.9%。对八次未见攻击，三条开放模型规则通过 gold 门槛并覆盖全部攻击。官方同时限定：测试仅涉及一个场景族、样本小且正常流量有限，因此这是系统级方向性案例，不是通用模型排名。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@NVIDIAAI<span class="source-chip__links"><a href="https://x.com/NVIDIAAI/status/2094842432475304374" target="_blank" rel="noopener" aria-label="@NVIDIAAI 原文 1">1</a><a href="https://x.com/NVIDIAAI/status/2094842434949874116" target="_blank" rel="noopener" aria-label="@NVIDIAAI 原文 2">2</a><a href="https://x.com/NVIDIAAI/status/2094842437068026262" target="_blank" rel="noopener" aria-label="@NVIDIAAI 原文 3">3</a></span></span></div>
+
+## 8/13 Cerebras 在芬兰建设 165MW AI 数据中心，首期 50MW 已开工
+Cerebras 与 Compute Nordic Finland 宣布在 Mikkeli 分阶段建设 165MW 合同 IT 容量，首期 50MW 已施工，后续扩至 80MW 与 165MW；各服务订单采用七年合同。园区设计采用闭环水冷与废热回收，官方引用第三方影响评估估算满载投资约 10亿至17亿欧元，并创造 80—250 个永久岗位。项目为 Cerebras 的晶圆级 AI 云锁定长期欧洲算力，但容量交付、客户负载和投资数字仍含前瞻性假设。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/cerebras/status/2094836322988859539" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cerebras</a></div>
+
+## 9/13 AMD、Cisco 与 HUMAIN 首批沙特 AI 集群上线，规划 2027 年扩至 250MW
+首批生产系统采用 AMD Instinct MI355X GPU、EPYC CPU、Cisco Silicon One 与 800G 光互联，已在沙特向 HUMAIN 客户提供训练和推理 GPU-as-a-service。三方计划从 2027 年起以 MI400、ROCm 和 Cisco 网络扩建至 250MW，并维持 2030 年前最高 1GW 的联合目标。当前上线规模、利用率和客户结构未披露，因此 250MW 与 1GW 应视为后续规划，而非已交付容量。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/LisaSu/status/2094753303305318690" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@LisaSu</a></div>
+
+## 10/13 Databricks 推出 FILE 原生列类型，让多模态文件与结构化数据共用治理规则
+FILE 类型在 Unity Catalog 表内保存文档、图像、音频或视频的受治理引用及 URI、大小、MIME 类型和校验和，可把值直接传给 AI 函数或 UDF。`FILE MANAGED` 让文件生命周期随表行变化，`FILE EXTERNAL` 保留原有位置，避免把大文件以 BINARY 内联。功能目前为 Beta；Databricks 同时推动 Parquet、Delta Lake、Iceberg 与 Spark 支持，目标是让多模态数据沿用表级访问控制、审计和处理管线。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/databricks/status/2094801513512047061" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@databricks</a></div>
+
+## 11/13 Replit MCP 正式开放，可从 ChatGPT、Claude、Slack 等客户端管理与发布应用
+Replit 把 beta 期间的 MCP 服务扩展为公开能力，允许兼容客户端创建、查找、检查、更新和发布 Replit Apps。官方列举的早期工作流包括从对话管理物业应用、一次审计 50 多个应用，以及批量检查数据库健康状态；MCP 文档同时明确工具按 Replit 身份和权限执行。Replit 另称 Auto Mode 的智能模型路由可自动节省最多 65% 成本，但未公开跨模型质量与任务分布，企业使用仍需关注第三方客户端授权、危险操作确认和审计日志。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@Replit<span class="source-chip__links"><a href="https://x.com/Replit/status/2094878808717644084" target="_blank" rel="noopener" aria-label="@Replit 原文 1">1</a><a href="https://x.com/Replit/status/2094879204341166493" target="_blank" rel="noopener" aria-label="@Replit 原文 2">2</a><a href="https://x.com/Replit/status/2094879407362236717" target="_blank" rel="noopener" aria-label="@Replit 原文 3">3</a></span></span></div>
+
+## 12/13 Luma 为 FLUX 推出视频放大，可将生成内容提升到 2K 或 4K
+Luma Labs 宣布 FLUX Video Upscale，可在 Luma 工作流中把视频输出提升到 2K 或 4K，面向面部、纹理和后期交付等需要更高分辨率的场景。官方推文只展示功能与入口，没有公布对比基准、处理时长、源分辨率限制或价格；Luma 既有 API 文档则已支持其他视频模型的 4K upscale。因而本次更新的关键信息是 FLUX 工作流补齐高分辨率后处理，而画面细节是否属于真实恢复、不同运动镜头下的稳定性仍需样片验证。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@LumaLabsAI<span class="source-chip__links"><a href="https://x.com/LumaLabsAI/status/2094802207119909059" target="_blank" rel="noopener" aria-label="@LumaLabsAI 原文 1">1</a><a href="https://x.com/LumaLabsAI/status/2094802207476465718" target="_blank" rel="noopener" aria-label="@LumaLabsAI 原文 2">2</a></span></span></div>
+
+## 13/13 Qwen3.8-Max 在 CommerceAgentBench 被列为最强开源权重模型，结果仍待完整方法披露
+阿里 Qwen 表示，CommerceAgentBench 从真实商业需求构造工作流评测，Qwen3.8-Max 在其中取得开源权重模型的最高综合表现。公开推文没有给出任务数量、评分细则、完整对照表、模型成本或可复现实验入口，因此无法判断优势来自推理、工具调用、商品数据覆盖还是 harness。该信号说明商业 Agent 评测正从通用问答转向交易与运营流程，但当前结果应视为厂商发布口径，待 benchmark 数据、代码和第三方复现后再作横向结论。
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/Alibaba_Qwen/status/2094641743056732205" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@Alibaba_Qwen</a></div>
+
+---
+
+## Deep Dive 附录
+
+### Astra：首次跨入 Critical 网络安全门槛后，发布逻辑从“默认开放”转向分层能力与持续控制
+OpenAI 的判断来自公开/私有自动基准与专家评测：Astra 在 ExploitBench 得到 100%，又在 20 个近期 V8 高危漏洞组成的内部集上，以远少于 GPT-5.6 Sol 的 token 取得更高代码执行率，并在测试中发现两个零日漏洞。专家还让模型完成浏览器沙箱逃逸与本地提权链。对应防护不只依赖拒绝训练，还包含更保守的高风险用户边界、跨会话滥用检测、对模型推理与动作的未授权行为监控，以及任务暂停/人工复核。值得注意的是，官方数字对应 Daybreak Blue 权限或特定测试条件，并非普通用户默认配置；蜜罐评测和 91.5% 拒绝率也不能证明不存在新型越狱。真正的变化是产品发布被拆为能力层级：普通用途尽量开放，最高风险网络能力先在小范围受控环境中验证，再逐步扩大防御性访问。
+[查看原文](https://openai.com/index/path-to-astra/)
+
+### Claude Fable 5.1：模型升级同时重写价格、企业隐私与风险能力的交付边界
+Fable 5.1 与 Mythos 5.1 是同一底层模型，差别主要在能力访问与安全限制。Fable 的缓存读取价格降至每百万 token 0.25 美元，Anthropic 依据 8 月实际使用估算典型负载总成本降约 25%，上下文重用密集的 Agent 任务最多约 45%；这比单看输入输出单价更直接影响长任务经济性。Enterprise Frontier Safeguards 则把客户数据放入客户自控云环境，在不把内容交给 Anthropic 的前提下保留反滥用检测。网络防护平均减少约 60% 的误触发，并允许漏洞发现但阻断利用开发；更宽松的 Mythos 仅供经审核的安全与生命科学项目。官方同时披露模型仍可能绕过审批或自动模式分类器，且超长上下文、多 Agent 行为审计覆盖不足，说明长时自治能力提升本身也扩大了评测盲区。
+[查看原文](https://www.anthropic.com/claude-fable-and-mythos-5-1)
+
+### Atlas：用三维空间上下文把视频生成、重建和机器人模拟变成同一序列问题
+Atlas 不把相机运动当文字提示，而把图像、深度和显式相机位姿放进共享空间上下文，再用自回归扩散 Transformer 逐个生成后续元素。相同模型因此既能从一张图按指定轨迹生成新视角，也能从两三张图逐步减少“想象”并提高重建忠实度；输入更多视角后，可输出点云与 Gaussian splats。时空部分又把三至五台普通相机拍摄的事件转成可重设视角的画面，或把手机录像转成机器人 RGB/深度传感器模拟并改变物体、光照和动作。World Labs 报告它在相机控制与稀疏 3D 重建上领先专用对照，但尚未开放权重、训练数据和完整外部复现。短期价值更可能落在电影预演、场景扫描和合成机器人数据，而不是已经具备通用物理预测。
+[查看原文](https://www.worldlabs.ai/blog/atlas)
+
+### Gemini Agentic Video：视频理解的优化对象从固定采样率变为“观察策略”
+传统方案在整段视频上固定 1 FPS 或人工切片，长视频要么消耗大量 token，要么在降采样时漏掉瞬时事件。Agentic Video 让 Gemini 根据问题先检索字幕和音频，再调用内部工具加载目标时段，必要时提高帧率或分辨率复看；观察动作本身进入推理循环。Google 在标准评测中报告 token 最多下降 88%、成本最多下降 66%、准确率最多提高 7%，尤其适合多小时内容搜索、异常检测和快速动作计数。幅度是“最多”而非所有任务的平均值，也依赖模型与视频类型。功能已在 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 的 API 中提供，开发者只需把处理模式设为 `agentic`，这让视频 RAG 的切片策略开始由模型动态决定。
+[查看原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/)
+
+### Muse Voice Transcribe：让延迟成为每个词都可学习的决策变量
+Muse Voice Transcribe 每 80ms 把音频编码为一个 soft token，并在每一步选择继续听或输出文字；输入结束后再补全剩余 token。强化学习把词错误率和等待时间组合为奖励，使困难词可积累更多上下文、简单词更早提交，而不是让整段语音使用固定延迟。说话人切换、说话人身份、语音开始和结束也都表示为特殊 token，于是 ASR、diarization、endpointing 能在同一自回归序列中联合训练。模型训练覆盖 70 多种语言，首发重点验证 25 种，并展示一小时以上、20 多人和中英混说。官方榜单领先是发布时快照，真实会议中的远场麦克风、重叠发言、方言与隐私同意仍需单独评估。
+[查看原文](https://research.meta.ai/blog/introducing-muse-voice-transcribe)
+
+### Perplexity Hybrid Compute：把敏感度检测直接接入 Agent 的执行路由
+Computer 在云端完成搜索、规划和高难推理，再把涉及本地文件或敏感数据的子任务下发给 Mac 模型；Privacy Gate 在数据出设备前扫描 prompt、工具结果、记忆与日志，用户可决定本地处理或明确上传。开源的 `pplx-pii-masking` 采用约 6 亿参数的双向 Qwen3 encoder，一个头输出九类 PII 的 37 个 BIOES 标签，另一个头给出会话级敏感度，最大上下文 4096 token。其产品创新不是“本地模型更强”，而是把隐私分类结果变成 orchestration 的路由条件，让同一任务跨云端和设备连续执行。限制同样明确：分类器可能漏报，工具和日志有独立外传路径，企业仍需统一策略、审计和端点控制。
+[查看原文](https://huggingface.co/perplexity-ai/pplx-pii-masking)
+
+### SafeMind：开放模型优势来自领域后训练、确定性验证和闭环 harness 的组合
+NVIDIA 与 CrowdStrike 的实验把防御工作拆成编排与规则编写：Nemotron 3 Ultra 重建攻击链并调用工具，经过 9,349 个生成/修复样例和可验证奖励训练的 Nemotron 3 Super 负责 Falcon LogScale 检测规则。规则必须依次通过 schema 检查、遥测 grounding、语法 lint、攻击回放和独立评审，失败结果再结构化返回修复。完整栈把回测检测率从 16.5% 提到 41.9%；对八次未见攻击，三条 gold 规则覆盖全部攻击。由于模型、harness、领域数据和验证器同时变化，不能把 2.5 倍增益归因于单个模型；场景族、样本和正常流量也有限。更可靠的结论是：垂直 Agent 的可用性来自把生成输出压进可执行、可回放、可否决的工程闭环。
+[查看原文](https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron)

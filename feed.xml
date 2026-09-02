@@ -5,9 +5,154 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 02 Sep 2026 09:21:07 +0800</pubDate>
-    <lastBuildDate>Wed, 02 Sep 2026 09:21:07 +0800</lastBuildDate>
+    <pubDate>Wed, 02 Sep 2026 09:22:40 +0800</pubDate>
+    <lastBuildDate>Wed, 02 Sep 2026 09:22:40 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.09.02</title>
+        <description>&lt;p&gt;今天翻热榜，有两帖凑在一起像是同一个故事的两个版本：AI 把「产出」这件事的成本压到很低，于是所有压力都堆到了下游那个必须逐条看完的人身上——一边是 Linux 内核维护者面对每版近两千条 CVE，一边是 DevOps 团队面对开发同事用 AI 生成的 Terraform PR。剩下三帖分别聊了一次 Rust 重写、一张关于阅读的分布图，和一次挺具体的 AI 使用体验。&lt;/p&gt;
+
+&lt;h2 id=&quot;一内核维护者被-ai-挖出来的漏洞淹了&quot;&gt;一、内核维护者被 AI 挖出来的漏洞淹了&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w4dj6h/linux_kernel_nears_record_2000_vulnerabilities/&quot;&gt;Linux kernel nears record 2,000 vulnerabilities per release as AI bug hunters scour 40 million lines of code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;报道说，AI 驱动的漏洞挖掘工具正在把四千万行内核代码翻个底朝天，结果是每个发布版本关联的 CVE 数量逼近两千条的历史高位，而维护者的原话是自己被彻底压垮了。数字很吓人，但热榜上真正值得看的是评论区对这个数字的拆解。&lt;/p&gt;
+
+&lt;p&gt;一位自称做安全的用户给出了关键的限定条件：这些漏洞里相当一部分要求系统已经被攻陷才谈得上利用，所以「内核是个筛子」的结论并不成立——但他也补了一句，前提条件苛刻不等于没用，攻击者照样可以拿它把已有的入侵往前推一步。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Most of these vulnerabilities are only vulnerabilities when the system is already compromised. They still need to be addressed, but it isn’t Swiss cheese.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/TOGFIAVDF，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w4dj6h/linux_kernel_nears_record_2000_vulnerabilities/p76zzni/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺着这条往下，有人点出了「压垮」二字的真实来源——不是修，是分诊。在一条报告被判定成低危之前，它在流程上和高危没有区别：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“They have to classify, assess the amount of work and prioritize thousands of CVE notices. And until it has been classified, everything is urgent.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/silversurger，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w4dj6h/linux_kernel_nears_record_2000_vulnerabilities/p77qty3/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也有人不同意「大多是纸老虎」的判断，理由是模型不光会单点找洞，还擅长把几个不痛不痒的小问题串成一条像样的利用链——这是过去人工挖洞时最费时间的部分。另有人回忆起前几年 xz 后门事件，那次差点得手靠的正是一个长期独自扛库的维护者累到需要帮手。&lt;/p&gt;
+
+&lt;p&gt;我的看法是：发现漏洞的边际成本被 AI 打到接近零，但确认、定级、修复、回归的成本一点没降，中间那道人工闸门就成了唯一的瓶颈。这对国内团队的直接启示是，别再拿「本季度扫出多少条问题」当安全 KPI——扫描器一升级这个数字就能翻倍，真正该衡量的是从报告到关闭的周转时间，以及有多少条最终被判定为真问题。&lt;/p&gt;
+
+&lt;h2 id=&quot;二ai-提速了开发瓶颈整个搬到了-devops-身上&quot;&gt;二、AI 提速了开发，瓶颈整个搬到了 DevOps 身上&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1w42bxs/anyone_else_seeing_ai_make_devopsinfra_the/&quot;&gt;Anyone else seeing AI make DevOps/infra the bottleneck?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人所在的公司环境是 EKS 加百分之百 Terraform 管理，还同时服务多个业务实体。过去一年公司大力推进 AI 辅助开发、缩减了研发人数，同时要求开发者「借助 AI 成为全栈」，自己动手改基础设施。他说理论上他举双手赞成，实际结果却是灾难：团队被开发者用 AI 生成的基础设施 PR 淹没，那些 Terraform 乍看合理，放进整个系统里看往往问题严重，于是 DevOps 的时间全花在审查、找茬、解释 IAM 和网络怎么串起来，然后等下一版 AI 生成的 PR。&lt;/p&gt;
+
+&lt;p&gt;他观察到的那个不对称，是全帖最扎实的一句话——AI 极擅长让本来就懂软件的人写出更多软件，却没法让一个没有基础设施经验的人突然读懂一套大型生产环境：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“AI seems extremely good at helping someone who understands software write more software. It seems much less capable of allowing someone without infrastructure experience to suddenly understand a large production environment.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/FaithlessnessEqual44（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1w42bxs/anyone_else_seeing_ai_make_devopsinfra_the/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区最高赞的回应没有安慰他，而是直接指出「百分之百 Terraform」本身可能就是病因。有人说他们这几年一直在缩小 Terraform 的暴露面，把开发者需要碰 TF 的地方逐个换成 Kubernetes CRD，最后开发者能自助完成的事，基础设施团队连 PR 都收不到：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We’ve wrapped the infra in such a way that there’s only a few knobs to turn. This allows things to be a lot more self-service. Infra doesn’t even get PRs for a lot of this…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/SuperQue，&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1w42bxs/anyone_else_seeing_ai_make_devopsinfra_the/p74hrev/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一位说他们在 LLM 出现之前就用「有主见的自助式 IaC」解决了这个问题：把所有基础设施能力包成一套接口严格的东西交给开发者，平台团队只在出故障时介入，而且大多是用户操作失误。这条底下追问细节的人排成了队，他自己都被问得有点招架不住，说要专门写篇文章讲。也有人泼冷水：有些资源（比如受七年留存和合规锁约束的对象存储）天然要比使用它的工作负载活得久，这类东西塞不进自助模型里。&lt;/p&gt;
+
+&lt;p&gt;我觉得这帖比很多「AI 会不会取代程序员」的讨论有价值得多，因为它把问题落到了一个可操作的位置：AI 提高的是「生成变更」的速度，而组织能安全吸收变更的速度是另一条独立的曲线，两条线一旦拉开差距，中间就会长出一个人肉队列。缓解办法不是招更多人去审 PR，而是把审查转移到设计期——用只暴露几个旋钮的自助接口，让错误的写法根本表达不出来。这个思路对国内正在推「AI 提效」的团队同样成立：先问自己下游有没有一道靠人扛的闸门，再谈提效比例。&lt;/p&gt;
+
+&lt;h2 id=&quot;三mold-要用-rust-重写评论区在追问是不是-ai-写的&quot;&gt;三、mold 要用 Rust 重写，评论区在追问是不是 AI 写的&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1w45ety/rui_ueyama_we_are_rewriting_the_mold_linker_in/&quot;&gt;Rui Ueyama: 「We are rewriting the mold linker in Rust」&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;mold 是近年最快的链接器之一，作者 Rui Ueyama 宣布正在用 Rust 重写并补上 linker script 支持，目标是让 mold 能链接 GNU ld 能链接的几乎一切，包括内核和嵌入式程序，这将是 mold 3.0。动机很明确：推动 Linux 发行版把默认链接器换成 mold。有位用户把作者在推特上的一串问答整理进了评论区，其中一条澄清很关键——这不是推倒重来，而是把现有实现翻译过去：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s not a rewrite from scratch. We’re translating the existing implementation into Rust.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Newfoldergames（转录原作者推文），&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1w45ety/rui_ueyama_we_are_rewriting_the_mold_linker_in/p759nki/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;真正引爆讨论的是作者顺口说的另一句：如今重写已经不算太难了。评论区立刻有人接话说这其实就是一次 AI 重写，只是说得比较含蓄。围绕「LLM 到底适不适合干这活」立刻分成两派，支持方的论据挺具体——Rust 编译器足够啰嗦挑剔、设计范式又足够固定，反倒特别适合模型：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Rust having an incredibly pedantic and verbose compiler and very opinionated design patterns means that LLMs work very well in it.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/SharkBaitDLS，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1w45ety/rui_ueyama_we_are_rewriting_the_mold_linker_in/p75j67g/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;反方的经验也不含糊，有人说自己用模型写 Rust 一路踩坑，尤其是 async Rust，模型张嘴就编。还有人把话题拉回工程常识：这种规模的翻译式重写，真正的护城河是单元测试覆盖率——紧接着就被人调侃，「测试覆盖得足够全的代码库，此刻在场吗？」另有几位在争论可移植性，认为 Rust 在冷门架构上的支持还不足以承担系统默认链接器；反驳则是发行版早就在发 Rust 写的工具，受影响的只剩下停止维护十几年的非官方移植。&lt;/p&gt;
+
+&lt;p&gt;值得一说的是「翻译」和「重写」的区别：逐段翻译有现成的行为作参照物，可以拿旧实现当 oracle 做差分测试，这正是 LLM 最能发挥又最容易被验证的场景；而白纸重写没有这层保险。国内不少团队现在也在琢磨用模型做 C++ 转 Rust、Java 转 Kotlin 之类的迁移，能不能建立起「旧实现即测试基准」的闭环，大概是这类项目成败的分水岭。&lt;/p&gt;
+
+&lt;h2 id=&quot;四四成美国人一年没读完一本书一成人读掉了全国一半&quot;&gt;四、四成美国人一年没读完一本书，一成人读掉了全国一半&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w4ckm2/oc_40_of_americans_read_zero_books_last_year_the/&quot;&gt;[OC] 40% of Americans read zero books last year. The top 10% account for half of all the books read in the country.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人做的这张图说：去年每十个美国成年人里有四个没读完一本书，而大约一成人读了二十五本以上，这一小撮人贡献了全国大约一半的阅读量。作者补充说统计口径包含有声书，问卷问的是「读过或听过」，另外读书的人里最多的是悬疑犯罪类。&lt;/p&gt;
+
+&lt;p&gt;评论区没有停留在「现代人不读书了」的感慨上，反而先质疑起自己的直觉。有人说自己一年读六到九本就觉得像个异类，周围几乎没人读书；马上有人指出这里有观察偏差——大多数人根本不聊阅读，你身边的读者可能只是没露面：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…the reality is that most people don’t talk about reading, so a lot of readers in your circle might just be flying under the radar :)”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Baraga91，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w4ckm2/oc_40_of_americans_read_zero_books_last_year_the/p76i3cf/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;有人反驳说读书的人明明很爱互相推荐，底下的回应把这个偏差描述得更精确：你确实爱推荐，但你几乎只会跟已知读书的人聊书，于是永远统计不到那些沉默的读者。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s true that readers love to share recommendations, but I’m willing to bet you rarely talk about books with people unless you already know they read.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/agb2022，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w4ckm2/oc_40_of_americans_read_zero_books_last_year_the/p78xa5o/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一条被顶起来的质疑冲着数据本身去：这份调查来自 YouGov，样本是自选加入的在线面板，本身就偏政治与流行文化人群，用它推全国阅读量得打折扣。还有人指出统计窗口的问题——不少人是「一年不碰书，然后一个月读完一整个系列」的脉冲式读者，抽样落在哪个月，结论能差出好几倍。&lt;/p&gt;
+
+&lt;p&gt;这几条加起来其实是一堂很好的数据素养课：一个看着刺眼的分布，可能同时受到样本自选、时间窗口、口径（含不含有声书）三重影响，而围观者的「我身边没人读书」又是另一重幸存者偏差。中文互联网上每年也会流传各种「人均阅读量」的数字，下次看到不妨先问一句问卷原题是怎么问的。至于那个二八分布本身，倒不算意外——它和视频、游戏、播客的消费结构长得几乎一样，重度用户撑起大盘从来是常态。&lt;/p&gt;
+
+&lt;h2 id=&quot;五一条-1800-美元的修车报价和一个只是帮你问对问题的-ai&quot;&gt;五、一条 1800 美元的修车报价，和一个只是「帮你问对问题」的 AI&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1w4867a/chatgpt_saved_me_1800/&quot;&gt;ChatGPT saved me $1800.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人的车亮了故障灯，4S 店报价 1800 美元换排气歧管。他把报价截图丢给 ChatGPT，得到的建议不是「你被坑了」，而是一套具体动作：先问清楚到底坏在哪，然后请店里给丰田总部发邮件申请 Goodwill Warranty Assistance，理由是这个部件才超保三千英里。最后厂家全额承担了费用。他自己说，全程只花了十分钟。&lt;/p&gt;
+
+&lt;p&gt;最高赞的评论精准地指出了这次「AI 胜利」的性质——它没有诊断汽车，它帮你问对了问题：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This is the kind of AI win I like: it didn’t diagnose the car, it helped you ask the right question. Ten minutes to avoid an $1,800 anxiety tax is huge.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/eggyboy577，&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1w4867a/chatgpt_saved_me_1800/p75jr23/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;原帖作者自己那段自白，其实比省下的钱更有信息量：他说自己是个社恐，习惯把麻烦事压下去或者花钱快速了结，而不是老老实实去问一句。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’m a bundle of social anxiety and tend to push things under the rug or pay to make them go away quickly instead of doing the work and simply asking.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/thechadwicked（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1w4867a/chatgpt_saved_me_1800/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区顺着这条线滚出了一大串类似经历：有人在亲人遭遇车祸去世后的混乱里，靠 AI 列出了接下来几天要做的事——联系警方、通知保险、找殡仪馆、对接法医、取回遗物，事后又用它把法医报告里的医学术语翻译成家人能听懂的话；有人在处理遗产时靠它发现了年金合同里「可能需要退回多付款项」的小字条款；也有癌症患者说 AI 提示的血栓风险让她坚持要求做超声，结果确有其事。当然反对的声音也在：有人用荷兰语连发两条，说这些不过是常识，殡葬从业者早就能告诉你，为此浪费电和水去问 AI 不值，而且这种依赖会磨钝你自己的思考。&lt;/p&gt;
+
+&lt;p&gt;我更认同最高赞那条的定性。这些故事里 AI 扮演的都不是专家，而是一个在你慌乱、悲伤或者不好意思开口的时刻，替你把流程拆成下一步该做什么的角色——真正的价值不在知识，而在于降低了「开口去问」的心理门槛。这个用法对中文场景一样适用：医保报销、保修条款、租房押金、劳动仲裁，很多钱不是省不下来，只是没人告诉你还有一句可以问。但同样要记住那条荷兰语评论的提醒——模型给的是流程建议，不是结论，最后按下确认键的还得是你自己，尤其在医疗和法律上。&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Sep 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/02/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/02/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Palo Alto Networks 2026财年Q4——营收34.1亿美元同比增34%，全部指标超预期，股价却连跌两场</title>
@@ -2284,302 +2429,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>中国石油2026年半年报——营收1.53万亿增5.3%、归母净利1039亿增22%，半年利润首破千亿并派现476亿</title>
-        <description>&lt;p&gt;2026年8月30日，&lt;a href=&quot;https://www.petrochina.com.cn&quot;&gt;中国石油&lt;/a&gt;（上交所 601857、港交所 00857）披露2026年半年度报告。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;上半年营业收入15274.91亿元，同比增长5.3%；归属于母公司股东的净利润1039.36亿元（国际财务报告准则口径，中国企业会计准则口径为1039.34亿元），同比增长22.0%。这是中国石油半年度归母净利润首次站上千亿元台阶，相当于每天净赚约5.7亿元。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;公司同时宣布派发2026年中期股息每股人民币0.26元（含税），按期末总股本1830.21亿股计算，合计派现475.85亿元，其中A股部分421.00亿元，股权登记日为2026年9月15日。这笔分红相当于半年归母净利润的45.8%。&lt;/p&gt;
-
-&lt;p&gt;一份看上去非常漂亮的成绩单。但把它拆开看，会发现这份利润的来源和公司自己讲的故事，其实是两回事。&lt;/p&gt;
-
-&lt;h2 id=&quot;先说清楚一件事这1039亿元是怎么来的&quot;&gt;先说清楚一件事：这1039亿元是怎么来的&lt;/h2&gt;
-
-&lt;p&gt;最直接的答案是油价。&lt;/p&gt;
-
-&lt;p&gt;财报里写得很明白：2026年上半年，中东局势推动国际油价大幅上涨，&lt;strong&gt;布伦特原油期货平均价格87.60美元/桶，比上年同期的70.81美元/桶上涨23.7%&lt;/strong&gt;；美国WTI原油期货均价82.77美元/桶，同比上涨22.6%。&lt;/p&gt;
-
-&lt;p&gt;中国石油自己实现的原油平均销售价格是&lt;strong&gt;76.53美元/桶&lt;/strong&gt;，比上年同期的66.21美元/桶上涨15.6%。（实现价格低于布伦特是正常的，因为公司卖的原油品质、地域结构和布伦特基准油不同。）&lt;/p&gt;
-
-&lt;p&gt;而产量这边几乎没动：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;油气和新能源分部主要生产数据&lt;/th&gt;
-      &lt;th&gt;2026上半年&lt;/th&gt;
-      &lt;th&gt;2025上半年&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;原油产量（百万桶）&lt;/td&gt;
-      &lt;td&gt;462.9&lt;/td&gt;
-      &lt;td&gt;476.4&lt;/td&gt;
-      &lt;td&gt;-2.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;　其中国内&lt;/td&gt;
-      &lt;td&gt;393.2&lt;/td&gt;
-      &lt;td&gt;395.2&lt;/td&gt;
-      &lt;td&gt;-0.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;　其中海外&lt;/td&gt;
-      &lt;td&gt;69.7&lt;/td&gt;
-      &lt;td&gt;81.2&lt;/td&gt;
-      &lt;td&gt;-14.2%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;可销售天然气产量（十亿立方英尺）&lt;/td&gt;
-      &lt;td&gt;2,746.1&lt;/td&gt;
-      &lt;td&gt;2,683.6&lt;/td&gt;
-      &lt;td&gt;+2.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;油气当量产量（百万桶）&lt;/td&gt;
-      &lt;td&gt;920.6&lt;/td&gt;
-      &lt;td&gt;923.6&lt;/td&gt;
-      &lt;td&gt;-0.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;风光发电量（亿千瓦时）&lt;/td&gt;
-      &lt;td&gt;50.7&lt;/td&gt;
-      &lt;td&gt;36.9&lt;/td&gt;
-      &lt;td&gt;+37.3%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;产量同比下降0.3%，利润同比增长22%——这中间的差额，基本全部来自涨价。&lt;/strong&gt; 海外原油产量下滑14.2%，公司解释是「中东项目产量下降」，这是地缘冲突在生产端留下的直接痕迹：同一场冲突推高了油价，也打断了公司在中东的开采。&lt;/p&gt;
-
-&lt;p&gt;有一个数字很能说明油价的传导：&lt;strong&gt;石油特别收益金上半年缴纳110.85亿元，而上年同期只有19.98亿元，一口气多缴了90.87亿元。&lt;/strong&gt; 这是一项俗称「暴利税」的税种——当国内原油销售价格超过每桶65美元时，超出部分要按比例上缴国家。这项税从不到20亿元跳到110亿元，等于给「这轮利润是油价给的」盖了个章。&lt;/p&gt;
-
-&lt;h2 id=&quot;主要财务数据一览&quot;&gt;主要财务数据一览&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;主要财务数据（人民币百万元）&lt;/th&gt;
-      &lt;th&gt;2026上半年&lt;/th&gt;
-      &lt;th&gt;2025上半年（追溯后）&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业收入&lt;/td&gt;
-      &lt;td&gt;1,527,491&lt;/td&gt;
-      &lt;td&gt;1,450,021&lt;/td&gt;
-      &lt;td&gt;+5.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润&lt;/td&gt;
-      &lt;td&gt;139,383&lt;/td&gt;
-      &lt;td&gt;118,498&lt;/td&gt;
-      &lt;td&gt;+17.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;税前利润&lt;/td&gt;
-      &lt;td&gt;145,865&lt;/td&gt;
-      &lt;td&gt;122,555&lt;/td&gt;
-      &lt;td&gt;+19.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;115,113&lt;/td&gt;
-      &lt;td&gt;94,858&lt;/td&gt;
-      &lt;td&gt;+21.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母净利润&lt;/td&gt;
-      &lt;td&gt;103,936&lt;/td&gt;
-      &lt;td&gt;85,185&lt;/td&gt;
-      &lt;td&gt;+22.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;扣非归母净利润（中国准则）&lt;/td&gt;
-      &lt;td&gt;105,533&lt;/td&gt;
-      &lt;td&gt;85,292&lt;/td&gt;
-      &lt;td&gt;+23.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营活动现金流净额&lt;/td&gt;
-      &lt;td&gt;251,281&lt;/td&gt;
-      &lt;td&gt;227,240&lt;/td&gt;
-      &lt;td&gt;+10.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;基本每股收益（元）&lt;/td&gt;
-      &lt;td&gt;0.57&lt;/td&gt;
-      &lt;td&gt;0.47&lt;/td&gt;
-      &lt;td&gt;+22.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净资产收益率&lt;/td&gt;
-      &lt;td&gt;6.3%&lt;/td&gt;
-      &lt;td&gt;5.4%&lt;/td&gt;
-      &lt;td&gt;+0.9个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;两点需要注意：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，去年同期数字被追溯调整过。&lt;/strong&gt; 公司自2026年1月起合并新疆油田储气库、重庆相国寺储气库、辽河油田（盘锦）储气库三家公司的报表，按「同一控制下企业合并」的会计规则，把去年的数字也一并重述了——2025年上半年归母净利润从原来披露的840.07亿元调整为851.85亿元。&lt;strong&gt;看同比时必须用851.85亿元这个重述后的口径&lt;/strong&gt;，否则会算出一个虚高的增速。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，扣非净利润（1055.33亿元）反而比归母净利润（1039.34亿元）高出约16亿元。&lt;/strong&gt; 这说明上半年的非经常性损益是净亏损的，主营业务的盈利质量比表观利润还要好一点。&lt;/p&gt;
-
-&lt;h2 id=&quot;四个业务板块上游赚钱下游改善&quot;&gt;四个业务板块：上游赚钱，下游改善&lt;/h2&gt;
-
-&lt;p&gt;中国石油是全产业链公司：自己勘探开采（上游）、自己炼油做化工（中游）、自己开加油站卖油（下游），外加一个天然气销售板块。四个板块上半年全部盈利。&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;分部经营利润（亿元）&lt;/th&gt;
-      &lt;th&gt;2026上半年&lt;/th&gt;
-      &lt;th&gt;2025上半年&lt;/th&gt;
-      &lt;th&gt;变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;油气和新能源&lt;/td&gt;
-      &lt;td&gt;1,004.48&lt;/td&gt;
-      &lt;td&gt;871.51&lt;/td&gt;
-      &lt;td&gt;+15.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;炼油化工和新材料&lt;/td&gt;
-      &lt;td&gt;145.25&lt;/td&gt;
-      &lt;td&gt;110.56&lt;/td&gt;
-      &lt;td&gt;+31.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;　其中炼油&lt;/td&gt;
-      &lt;td&gt;117.33&lt;/td&gt;
-      &lt;td&gt;96.64&lt;/td&gt;
-      &lt;td&gt;+21.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;　其中化工&lt;/td&gt;
-      &lt;td&gt;27.92&lt;/td&gt;
-      &lt;td&gt;13.92&lt;/td&gt;
-      &lt;td&gt;+100.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售&lt;/td&gt;
-      &lt;td&gt;113.63&lt;/td&gt;
-      &lt;td&gt;75.62&lt;/td&gt;
-      &lt;td&gt;+50.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;天然气销售&lt;/td&gt;
-      &lt;td&gt;240.87&lt;/td&gt;
-      &lt;td&gt;186.26&lt;/td&gt;
-      &lt;td&gt;+29.3%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;上游仍然是绝对的利润主力，约占四个板块经营利润合计的三分之二。&lt;/strong&gt; 但它的增速（15.3%）明显低于油价涨幅（23.7%），原因就是前面说的：产量微降、暴利税上缴大增，还有单位油气操作成本从10.14美元/桶升到10.68美元/桶（+5.3%）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;真正值得注意的是另外三个板块的增速都跑赢了上游。&lt;/strong&gt; 尤其是天然气销售板块，240.87亿元的经营利润已经是公司的第二大利润来源，同比增长29.3%——而同期全国天然气表观消费量是同比下降2.4%的。行业在缩，它在涨，靠的是抢份额：公司称国内天然气市场份额比上年同期提高1个百分点，在高端市场的销售增量占比超过50%。上半年销售天然气1612.20亿立方米，同比增长3.9%。&lt;/p&gt;
-
-&lt;h2 id=&quot;隐忧卖油这门生意正在结构性萎缩&quot;&gt;隐忧：卖油这门生意正在结构性萎缩&lt;/h2&gt;
-
-&lt;p&gt;这份财报里最需要认真看的，其实是成品油。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;国内规模以上工业原油加工量同比下降4.9%&lt;/li&gt;
-  &lt;li&gt;公司自己加工原油655.3百万桶，同比下降5.6%&lt;/li&gt;
-  &lt;li&gt;生产汽油、煤油、柴油5434.6万吨，同比下降&lt;strong&gt;8.8%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;国内销售汽油、煤油、柴油5434.2万吨，同比下降&lt;strong&gt;7.3%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;加油站数量从年初的22,127座降至21,932座，减少195座&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;公司在财报里对下降原因的表述是「受油价上升、新能源替代等影响，成品油市场需求下降」。&lt;strong&gt;油价高只是短期扰动，新能源替代才是长期变量。&lt;/strong&gt; 中国的汽油需求正在被电动车真实地、持续地拿走，这一点在中国石油的报表上已经写得非常清楚了。&lt;/p&gt;
-
-&lt;p&gt;公司的应对是两条腿：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;一是「减油增化」——少炼油，多做化工品和新材料。&lt;/strong&gt; 上半年化工产品商品量2131.8万吨，同比增长6.7%，其中乙烯产量增长20.8%、合成橡胶增长21.4%，均创历史同期新高；&lt;strong&gt;新材料产量268.8万吨，同比大增61.4%&lt;/strong&gt;。碳纤维、高端聚烯烃、生物航空煤油等项目在建。这条路的经济性也开始显现：化工业务经营利润从13.92亿元翻倍到27.92亿元。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;二是把加油站改造成「油气氢电非」综合能源站。&lt;/strong&gt; 上半年新增综合能源站592座、新投运LNG加注站208座、新建充电枪1.85万把；&lt;strong&gt;车用LNG零售量同比增长78.7%，充电量增长1.5倍&lt;/strong&gt;。销售板块经营利润增长50.3%，靠的正是这些新业务加上国际贸易毛利的改善，而不是卖油本身。&lt;/p&gt;
-
-&lt;p&gt;换句话说：&lt;strong&gt;加油站在减少，但每个站在被重新定义。&lt;/strong&gt; 这个转型能不能跑赢燃油车退坡的速度，是未来几年中国石油最重要的看点。&lt;/p&gt;
-
-&lt;h2 id=&quot;财务状况几乎没有净负债了&quot;&gt;财务状况：几乎没有净负债了&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;总资产30240.34亿元，比年初增长5.6%&lt;/li&gt;
-  &lt;li&gt;经营活动现金流净额2512.81亿元，同比增长10.6%&lt;/li&gt;
-  &lt;li&gt;债务总额2333.80亿元，减去现金及现金等价物2272.05亿元，&lt;strong&gt;净债务仅61.75亿元&lt;/strong&gt;，比年初的240.02亿元继续下降&lt;/li&gt;
-  &lt;li&gt;资本负债率11.2%，与年初持平&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;对一家总资产3万亿元的公司来说，净负债只有61.75亿元，基本可以理解为「零负债经营」。这也是它敢把接近一半的半年利润拿去分红的底气。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;资本开支上半年750.15亿元，同比增长16.6%（去年同期643.25亿元），公司预计全年2794.00亿元&lt;/strong&gt;，其中油气和新能源分部占79.03%（2208亿元）。上半年只花了全年计划的26.8%，意味着下半年投资节奏会明显加快——这也是这类公司的常态。&lt;/p&gt;
-
-&lt;h2 id=&quot;一个容易被忽略的数字海外收入占比接近四成&quot;&gt;一个容易被忽略的数字：海外收入占比接近四成&lt;/h2&gt;
-
-&lt;p&gt;分地区看，上半年中国大陆对外交易收入9241.78亿元，同比&lt;strong&gt;下降&lt;/strong&gt;3.1%；其他地区（海外）收入6033.13亿元，同比&lt;strong&gt;增长&lt;/strong&gt;21.5%，占总营收的39.5%。&lt;/p&gt;
-
-&lt;p&gt;但海外业务的税前利润只有292.94亿元，占公司税前利润的20.1%。&lt;strong&gt;收入贡献四成、利润贡献两成&lt;/strong&gt;——海外主要是国际贸易这类低毛利业务在做大规模，真正的利润仍然主要来自国内。&lt;/p&gt;
-
-&lt;h2 id=&quot;展望下半年最大的不确定性还是油价&quot;&gt;展望：下半年最大的不确定性还是油价&lt;/h2&gt;
-
-&lt;p&gt;公司在半年报中对下半年的判断相当克制：预计世界经济延续低速增长；&lt;strong&gt;国际原油市场仍面临较强的地缘政治扰动，国际油价波动风险较大&lt;/strong&gt;；国内成品油市场需求继续受到替代能源和高油价影响；天然气市场需求预计将稳步恢复。&lt;/p&gt;
-
-&lt;p&gt;这段话翻译过来就是：&lt;strong&gt;这轮利润高点是油价给的，而油价随时可能收回去。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;对投资者来说，判断中国石油的逻辑大致可以分成两层：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;短期（周期层）&lt;/strong&gt;：利润跟着布伦特走。上半年87.60美元/桶的均价是个相当高的位置，如果下半年地缘局势缓和、油价回落，上游那1004亿元的经营利润会同步回吐，全年利润未必能按上半年的节奏线性外推。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;长期（结构层）&lt;/strong&gt;：真正决定这家公司十年后是什么样的，是天然气、化工新材料和综合能源站这三条线能不能持续做大——上半年它们的利润增速（29.3%、100.6%、50.3%）确实都跑赢了上游，这是财报里最积极的信号。而成品油需求的下滑（-7.3%）也确实是真实的、结构性的。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;至于给股东的回报，这次的态度是明确的：&lt;strong&gt;半年赚1039亿元，拿出475.85亿元分掉。&lt;/strong&gt; 在净债务几乎归零、经营现金流2513亿元的背景下，这个分红水平有很强的可持续性——只要油价不出现深度下跌。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料（公司公告原文）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;中国石油天然气股份有限公司《二零二六年中期业绩公告（半年度报告摘要）》，2026年8月30日：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-31/1225534441.PDF&quot;&gt;巨潮资讯网公告原文 PDF&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;中国石油天然气股份有限公司《2026年半年度A股利润分配方案的公告》（公告编号 临2026-019）：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-31/1225534226.PDF&quot;&gt;巨潮资讯网公告原文 PDF&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;中国石油官方新闻稿《PetroChina Achieves a Strong Start for the 15th Five-Year Plan》，2026年8月30日：&lt;a href=&quot;https://www.prnewswire.com/news-releases/petrochina-achieves-a-strong-start-for-the-15th-five-year-plan-interim-operating-results-for-the-first-half-of-2026-hit-new-record-highs-302864393.html&quot;&gt;PR Newswire&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;公司投资者关系网站：&lt;a href=&quot;https://www.petrochina.com.cn&quot;&gt;中国石油官网&lt;/a&gt;、&lt;a href=&quot;https://www.sse.com.cn&quot;&gt;上海证券交易所&lt;/a&gt;、&lt;a href=&quot;https://www.hkexnews.hk&quot;&gt;香港交易所披露易&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（仅用于背景与同业对照）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;新浪财经《「三桶油」合计日赚逾11亿元，分红共计近千亿元》：&lt;a href=&quot;https://finance.sina.com.cn/stock/bxjj/2026-08-30/doc-iniqazcm2637651.shtml&quot;&gt;链接&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;每日经济新闻《中国石油2026年上半年净利润超千亿元，创历史同期新高》：&lt;a href=&quot;https://www.mrjjxw.com/articles/2026-08-30/4566411.html&quot;&gt;链接&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;注：本文所有财务与经营数据均取自公司半年度业绩公告原文，与媒体报道口径不一致时以公告为准。文中2025年上半年比较数据均为公司追溯调整后的口径。&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 31 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/31/petrochina_2026h1_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/31/petrochina_2026h1_earnings/</guid>
-        
-        <category>中国石油</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

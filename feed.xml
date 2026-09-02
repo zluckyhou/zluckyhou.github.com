@@ -5,9 +5,1325 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 01 Sep 2026 11:30:13 +0800</pubDate>
-    <lastBuildDate>Tue, 01 Sep 2026 11:30:13 +0800</lastBuildDate>
+    <pubDate>Wed, 02 Sep 2026 09:21:07 +0800</pubDate>
+    <lastBuildDate>Wed, 02 Sep 2026 09:21:07 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Palo Alto Networks 2026财年Q4——营收34.1亿美元同比增34%，全部指标超预期，股价却连跌两场</title>
+        <description>&lt;p&gt;美东时间2026年9月1日盘后（北京时间9月2日凌晨），&lt;a href=&quot;https://investors.paloaltonetworks.com/&quot;&gt;Palo Alto Networks&lt;/a&gt;（NASDAQ: PANW，中文常称「派拓网络」）发布了2026财年第四财季（截至2026年7月31日）及全财年财报。&lt;/p&gt;
+
+&lt;p&gt;这份财报的核心矛盾很典型：&lt;strong&gt;几乎所有的增长指标都超预期，但会计利润转成了亏损，股价还是跌。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Q4营收34.10亿美元，同比增长34%，超过市场预期的33.5亿美元；非GAAP每股收益1.02美元，超过预期的0.98美元；下一个季度的营收指引33.00亿-33.10亿美元，也高于分析师预期的32.2亿美元。CEO Nikesh Arora在财报中说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们以一个强劲的Q4为这一年收尾，单季度新增下一代安全业务ARR接近10亿美元。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;但同一份财报里，Q4的GAAP净亏损是2.82亿美元，而去年同期是盈利2.54亿美元。财报当日，PANW股价在正常交易时段已经下跌5.25%至362.08美元，盘后又跌1.78%至355.64美元附近。&lt;/p&gt;
+
+&lt;p&gt;下面拆开看这份财报到底发生了什么。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-palo-alto-networks是做什么的&quot;&gt;1. Palo Alto Networks是做什么的&lt;/h2&gt;
+
+&lt;p&gt;它是全球规模最大的网络安全公司，客户超过7万家。业务可以简单理解成三层：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;网络安全&lt;/strong&gt;——传统的防火墙业务（硬件+软件），保护企业网络边界&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;云安全&lt;/strong&gt;——保护企业部署在云上的应用和数据&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;安全运营（SecOps）&lt;/strong&gt;——用AI自动检测和响应攻击&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;近年公司主推的战略叫「平台化（Platformization）」，意思是不再让客户零散地买单点产品，而是打包成统一平台一次性签下多年合同。这个策略直接体现在下面这个最重要的指标上。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-必须理解的一个指标ngs-arr&quot;&gt;2. 必须理解的一个指标——NGS ARR&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;NGS ARR = Next-Generation Security Annual Recurring Revenue，下一代安全业务的年度经常性收入。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;用大白话解释：这是公司订阅制业务（云安全、AI安全、安全运营等新业务）按当前签约规模折算出的「一年能收多少订阅费」。它不同于当期确认的营收，而是反映&lt;strong&gt;已经锁定的、会持续流入的收入体量&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;对Palo Alto这类正在从「卖硬件盒子」转向「卖订阅服务」的公司来说，NGS ARR比营收更能说明业务的真实健康度。&lt;/p&gt;
+
+&lt;p&gt;本季度这个数字是 &lt;strong&gt;91.0亿美元，同比增长63%&lt;/strong&gt;，单季度净新增接近10亿美元。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-绕不开的一笔收购cyberark&quot;&gt;3. 绕不开的一笔收购——CyberArk&lt;/h2&gt;
+
+&lt;p&gt;2026年2月11日，Palo Alto以 &lt;strong&gt;23亿美元现金 + 1.12亿股股票&lt;/strong&gt; 完成了对身份安全公司CyberArk的收购。&lt;/p&gt;
+
+&lt;p&gt;CyberArk是「特权访问管理」领域的龙头——简单说，就是管理企业里那些拥有最高权限的账号（管理员账号、机器人账号、AI代理的凭证），防止这些「万能钥匙」被盗用。在AI代理开始大量自动执行任务的2026年，这块业务的战略价值急剧上升。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这笔收购是理解整份财报的钥匙：它同时解释了63%的ARR增速，和2.82亿美元的GAAP净亏损。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;h2 id=&quot;第四财季2026年5-7月&quot;&gt;第四财季（2026年5-7月）&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;FY2026 Q4&lt;/th&gt;
+      &lt;th&gt;FY2025 Q4&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品收入&lt;/td&gt;
+      &lt;td&gt;7.38亿美元&lt;/td&gt;
+      &lt;td&gt;5.74亿美元&lt;/td&gt;
+      &lt;td&gt;+28.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;订阅与支持收入&lt;/td&gt;
+      &lt;td&gt;26.72亿美元&lt;/td&gt;
+      &lt;td&gt;19.62亿美元&lt;/td&gt;
+      &lt;td&gt;+36.2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;总营收&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;34.10亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;25.36亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+34%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业成本&lt;/td&gt;
+      &lt;td&gt;11.06亿美元&lt;/td&gt;
+      &lt;td&gt;6.79亿美元&lt;/td&gt;
+      &lt;td&gt;+62.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利润&lt;/td&gt;
+      &lt;td&gt;23.04亿美元&lt;/td&gt;
+      &lt;td&gt;18.57亿美元&lt;/td&gt;
+      &lt;td&gt;+24.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP毛利率&lt;/td&gt;
+      &lt;td&gt;67.6%&lt;/td&gt;
+      &lt;td&gt;73.2%&lt;/td&gt;
+      &lt;td&gt;-5.6个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;研发费用&lt;/td&gt;
+      &lt;td&gt;7.79亿美元&lt;/td&gt;
+      &lt;td&gt;5.04亿美元&lt;/td&gt;
+      &lt;td&gt;+54.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售与市场费用&lt;/td&gt;
+      &lt;td&gt;11.27亿美元&lt;/td&gt;
+      &lt;td&gt;8.29亿美元&lt;/td&gt;
+      &lt;td&gt;+35.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总运营费用&lt;/td&gt;
+      &lt;td&gt;21.32亿美元&lt;/td&gt;
+      &lt;td&gt;13.60亿美元&lt;/td&gt;
+      &lt;td&gt;+56.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;GAAP经营利润&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;1.72亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;4.97亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-65.4%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP经营利润&lt;/td&gt;
+      &lt;td&gt;10.11亿美元&lt;/td&gt;
+      &lt;td&gt;7.68亿美元&lt;/td&gt;
+      &lt;td&gt;+31.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;GAAP净利润&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-2.82亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;2.54亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;由盈转亏&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;-0.35美元&lt;/td&gt;
+      &lt;td&gt;0.36美元&lt;/td&gt;
+      &lt;td&gt;由盈转亏&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP净利润&lt;/td&gt;
+      &lt;td&gt;8.53亿美元&lt;/td&gt;
+      &lt;td&gt;6.73亿美元&lt;/td&gt;
+      &lt;td&gt;+26.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;1.02美元&lt;/td&gt;
+      &lt;td&gt;0.95美元&lt;/td&gt;
+      &lt;td&gt;+7.4%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;（数据来源：Palo Alto Networks 2026财年Q4财报新闻稿，SEC Form 8-K Exhibit 99.1）&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这张表里有三处值得停下来看：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，GAAP毛利率从73.2%掉到67.6%，掉了5.6个百分点。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;营业成本同比增长62.9%，几乎是营收增速（34%）的两倍。主要原因是收购CyberArk产生的&lt;strong&gt;无形资产摊销&lt;/strong&gt;——Q4单季度摊销2.81亿美元，全财年6.38亿美元。收购一家公司时，付出的价格中超过净资产的部分要被拆成「客户关系」「技术」等无形资产，然后在若干年内逐年摊销计入成本。这是纯粹的会计处理，不消耗现金，但会实实在在地压低GAAP利润率。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，GAAP从盈利2.54亿变成亏损2.82亿，绝大部分是收购的账面成本。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;除了上面的2.81亿摊销，Q4还有 &lt;strong&gt;6800万美元的收购相关费用&lt;/strong&gt;（全财年2.95亿美元）。把这两项加回去，GAAP经营利润1.72亿 + 2.81亿 + 0.68亿 ≈ 5.21亿美元，就和去年同期的4.97亿在一个量级了。&lt;strong&gt;换句话说，剔除收购的一次性和摊销影响，公司的经营质量并没有恶化。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这也是为什么非GAAP口径下，经营利润10.11亿美元同比增长31.6%、净利润8.53亿美元同比增长26.7%。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，非GAAP每股收益只增长7.4%，远低于净利润26.7%的增速。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;原因是收购CyberArk时增发了 &lt;strong&gt;1.12亿股&lt;/strong&gt; 股票。股本被稀释了，每股赚的钱自然就被摊薄了。这是「用股票买公司」必然的代价，也是这份财报里一个容易被忽略的负面因素。&lt;/p&gt;
+
+&lt;h2 id=&quot;全财年2025年8月-2026年7月&quot;&gt;全财年（2025年8月-2026年7月）&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;FY2026&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;114.8亿美元&lt;/td&gt;
+      &lt;td&gt;+24%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP净利润&lt;/td&gt;
+      &lt;td&gt;3.07亿美元&lt;/td&gt;
+      &lt;td&gt;——&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;0.40美元&lt;/td&gt;
+      &lt;td&gt;——&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP净利润&lt;/td&gt;
+      &lt;td&gt;29.31亿美元&lt;/td&gt;
+      &lt;td&gt;——&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;3.84美元&lt;/td&gt;
+      &lt;td&gt;——&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流&lt;/td&gt;
+      &lt;td&gt;45.53亿美元&lt;/td&gt;
+      &lt;td&gt;——&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后自由现金流&lt;/td&gt;
+      &lt;td&gt;44.14亿美元&lt;/td&gt;
+      &lt;td&gt;——&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后自由现金流率&lt;/td&gt;
+      &lt;td&gt;38.4%&lt;/td&gt;
+      &lt;td&gt;——&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;全年44.14亿美元的调整后自由现金流，是这份财报里最扎实的数字。&lt;/strong&gt; 相对于114.8亿美元的营收，自由现金流率达到38.4%——这个水平在软件行业属于第一梯队。&lt;/p&gt;
+
+&lt;p&gt;现金层面：截至财年末，现金及等价物25.14亿美元，短期投资5.57亿美元，长期投资48.35亿美元。&lt;/p&gt;
+
+&lt;h1 id=&quot;三关键经营指标&quot;&gt;三、关键经营指标&lt;/h1&gt;
+
+&lt;p&gt;除了营收，Palo Alto的财报里有两个「先行指标」更值得关注：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;FY2026 Q4&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+      &lt;th&gt;含义&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NGS ARR&lt;/td&gt;
+      &lt;td&gt;91.0亿美元&lt;/td&gt;
+      &lt;td&gt;+63%&lt;/td&gt;
+      &lt;td&gt;已锁定的年化订阅收入&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;剩余履约义务（RPO）&lt;/td&gt;
+      &lt;td&gt;212亿美元&lt;/td&gt;
+      &lt;td&gt;+34%&lt;/td&gt;
+      &lt;td&gt;已签约但尚未确认为收入的合同总额&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;RPO（Remaining Performance Obligations）&lt;/strong&gt; 可以理解为「合同在手金额」——客户已经签了字、承诺要付的钱，但服务还没提供完、收入还没确认。212亿美元的RPO相当于FY2026全年营收（114.8亿）的1.85倍，意味着公司未来近两年的收入基础已经相当稳固。&lt;/p&gt;
+
+&lt;p&gt;递延收入方面，短期递延收入77.47亿美元，长期递延收入70.09亿美元。&lt;/p&gt;
+
+&lt;h2 id=&quot;cyberark整合进展&quot;&gt;CyberArk整合进展&lt;/h2&gt;
+
+&lt;p&gt;根据管理层在业绩沟通中披露的信息，CyberArk的整合「快于计划」：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;与Palo Alto销售体系产生了 &lt;strong&gt;400多条共享销售线索&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;从存量客户中新签下 &lt;strong&gt;200多个净新增客户&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;CyberArk的年度合同价值（ACV）增速从FY2026 Q2的20%加速到Q4的27%&lt;/li&gt;
+  &lt;li&gt;秘钥管理（secrets）与AI相关业务的订单在FY2026增长约40%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;这组数字如果属实，是这次收购最重要的正面证据&lt;/strong&gt;——它说明CyberArk被装进Palo Alto的销售渠道后，销售效率是提升的，而不是被拖累的。&lt;/p&gt;
+
+&lt;h1 id=&quot;四指引这才是市场纠结的地方&quot;&gt;四、指引：这才是市场纠结的地方&lt;/h1&gt;
+
+&lt;h2 id=&quot;2027财年第一财季指引&quot;&gt;2027财年第一财季指引&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;指引&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NGS ARR&lt;/td&gt;
+      &lt;td&gt;95.4亿-95.6亿美元&lt;/td&gt;
+      &lt;td&gt;+63%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RPO&lt;/td&gt;
+      &lt;td&gt;208亿-209亿美元&lt;/td&gt;
+      &lt;td&gt;+34%~35%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;33.00亿-33.10亿美元&lt;/td&gt;
+      &lt;td&gt;+33%~34%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;0.96-0.98美元&lt;/td&gt;
+      &lt;td&gt;——（按8.37亿-8.44亿股计）&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;2027财年全年指引&quot;&gt;2027财年全年指引&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;指引&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NGS ARR&lt;/td&gt;
+      &lt;td&gt;110.75亿-111.75亿美元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+22%~23%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RPO&lt;/td&gt;
+      &lt;td&gt;252亿-254亿美元&lt;/td&gt;
+      &lt;td&gt;+19%~20%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;141.0亿-142.0亿美元&lt;/td&gt;
+      &lt;td&gt;+23%~24%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;29.5%&lt;/td&gt;
+      &lt;td&gt;——&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;4.16-4.19美元&lt;/td&gt;
+      &lt;td&gt;——（按8.44亿-8.47亿股计）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后自由现金流率&lt;/td&gt;
+      &lt;td&gt;38.0%&lt;/td&gt;
+      &lt;td&gt;——&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;这里藏着一个必须看懂的落差：Q1的NGS ARR指引同比增长63%，但全年只有22%-23%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;为什么差这么多？因为CyberArk是2026年2月11日并表的。FY2027第一财季（2026年8-10月）对比的是FY2026同期，那时CyberArk还没进来，所以增速看起来是63%；但到FY2027第三财季（2027年2月起），去年同期的基数里已经包含了CyberArk，增速就会断崖式回落。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;说白了：63%这个数字里有很大一块是收购带来的「一次性台阶」，不是可持续的内生增速。市场看到的全年22%-23%，才是剔除并表效应后的真实增长中枢。&lt;/strong&gt; 这也是为什么财报「全面超预期」，股价却不涨的核心原因之一。&lt;/p&gt;
+
+&lt;p&gt;另一个原因是毛利率。据媒体和业绩沟通中的信息，Q4非GAAP毛利率降至约74.8%，同比下降约100个基点，管理层提到云成本和硬件成本在上升。对一家以高毛利著称的软件公司来说，毛利率的方向比绝对值更敏感。&lt;/p&gt;
+
+&lt;p&gt;CFO Dipak Golechha的表态则更侧重现金流：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们的盈利性增长框架持续有效扩展，强化了我们对在2028财年实现40%调整后自由现金流率的信心。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;五亮点与隐忧&quot;&gt;五、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;单季度净新增NGS ARR接近10亿美元&lt;/strong&gt;——这是历史纪录，说明平台化战略的签约动能仍在。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;RPO 212亿美元，是全年营收的1.85倍&lt;/strong&gt;——未来收入的可见度很高。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;全年自由现金流44.14亿美元、现金流率38.4%&lt;/strong&gt;——真金白银的赚钱能力没有问题，且管理层给出了FY2028达到40%的路线图。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CyberArk整合快于预期&lt;/strong&gt;——ACV增速从20%加速到27%，交叉销售出现实际成果。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;GAAP连续承压。&lt;/strong&gt; Q4净亏损2.82亿美元，全财年GAAP每股收益仅0.40美元，而非GAAP是3.84美元——两者相差近10倍。这个巨大的口径差距会持续存在数年（无形资产摊销周期），对看重GAAP利润的投资者不友好。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;增速的「台阶效应」即将消退。&lt;/strong&gt; 全年NGS ARR增速指引22%-23%，营收增速23%-24%，相比Q4的63%和34%是明显的降速。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1.12亿股的股本稀释是永久性的。&lt;/strong&gt; 非GAAP净利润增长26.7%，但每股收益只增长7.4%，差额全被稀释吃掉了。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;毛利率在下行。&lt;/strong&gt; 云成本和硬件成本上升，这在2026年全行业算力和存储涨价的背景下不是Palo Alto独有的问题，但会持续压制利润率的扩张空间。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;六总结&quot;&gt;六、总结&lt;/h1&gt;
+
+&lt;p&gt;Palo Alto Networks这份财报是一个很好的案例，说明&lt;strong&gt;为什么「超预期」和「股价上涨」不是一回事&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;超预期的部分是真实的：营收、每股收益、下季度指引，全部高于市场预期；91亿美元的NGS ARR和212亿美元的RPO，把未来两年的收入基本盘锁住了；44亿美元的自由现金流证明这门生意本身极其健康。&lt;/p&gt;
+
+&lt;p&gt;但市场担心的也是真实的：63%的ARR增速里有大半来自CyberArk并表，全年指引已经把真实增速交了底——22%-23%；股本被永久稀释了1.12亿股；毛利率在往下走；GAAP口径下这个季度是亏损的。&lt;/p&gt;
+
+&lt;p&gt;对于关注AI安全这条赛道的人，这份财报里最有价值的信息其实是CyberArk的表现——&lt;strong&gt;当AI代理开始大规模自动执行任务时，「谁在管理AI的权限和凭证」会成为一个新的巨大市场。&lt;/strong&gt; Palo Alto花了超过200亿美元的对价（现金+股票）押的就是这件事，而Q4「秘钥与AI相关订单增长约40%」是第一个可量化的验证信号。&lt;/p&gt;
+
+&lt;p&gt;这笔押注划不划算，要等到FY2028——也就是管理层承诺实现40%自由现金流率的那一年——才能真正给出答案。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm&quot;&gt;Palo Alto Networks Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results（SEC Form 8-K, Exhibit 99.1，2026年9月1日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-10&quot;&gt;Palo Alto Networks 投资者关系官网 - 该季度新闻稿&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道与业绩沟通整理（用于补充市场预期、股价反应与CyberArk整合细节）：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html&quot;&gt;Palo Alto Networks (PANW) Q4 2026 earnings（CNBC）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://uk.investing.com/news/stock-market-news/earnings-call-transcript-palo-alto-networks-beats-q4-2026-estimates-shares-fall-93CH-4854504&quot;&gt;Earnings call transcript - Palo Alto Networks beats Q4 2026 estimates, shares fall（Investing.com）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 02 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/02/paloaltonetworks_fy2026q4_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/02/paloaltonetworks_fy2026q4_earnings/</guid>
+        
+        <category>PaloAltoNetworks</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>蔚来2026Q2电话会——李斌说单车成本已涨1.4万元，下半年还要再涨2000到3000元，但毛利率不会降</title>
+        <description>&lt;p&gt;北京时间2026年9月1日晚8点（美东时间当日上午8点），&lt;a href=&quot;https://ir.nio.com/news-events/events&quot;&gt;蔚来&lt;/a&gt;在发布二季度财报后召开了业绩电话会。出席的管理层是创始人、董事长兼CEO &lt;strong&gt;李斌&lt;/strong&gt;，以及首席财务官 &lt;strong&gt;曲玉&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这场电话会的背景很清楚：财报本身是漂亮的——毛利率18.4%、非GAAP经营利润连续两个季度为正、亏损同比收窄89%。但市场当天用脚投票，股价跌了4.4%。原因是营收321亿元低于预期的334亿元，而且8月交付量同比只增长14.5%，三季度指引的同比增速也从二季度的49.4%掉到了24%-27.5%。&lt;/p&gt;
+
+&lt;p&gt;所以这场电话会真正要回答的问题只有两个：&lt;strong&gt;增速为什么慢下来？毛利率还守得住吗？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;管理层给出的答案，比财报里含糊的「成本压力上升」四个字要具体得多。&lt;/p&gt;
+
+&lt;h2 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-上半年的成绩单李斌自己是这么总结的&quot;&gt;1. 上半年的成绩单，李斌自己是这么总结的&lt;/h3&gt;
+
+&lt;p&gt;李斌在开场时给了一组半年度口径的数字，比单季度更能说明问题：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「今年上半年，我们的销量同比增长67%，总营收同比增长86%。毛利润方面，同比增长282%，远快于营收的增长。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这句话的重点在最后半句——&lt;strong&gt;毛利润增速（282%）是营收增速（86%）的三倍多。&lt;/strong&gt; 意思是蔚来不只是卖得更多，而且每卖一台车赚到的钱在结构性地变多。&lt;/p&gt;
+
+&lt;p&gt;他还特意强调了蔚来品牌的定价能力：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「蔚来品牌的平均售价是40.6万元，远高于奔驰、宝马和奥迪。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这是一句有分量的话。中国市场上能把均价做到40万以上并且月销破2万的品牌，此前只有BBA。&lt;/p&gt;
+
+&lt;h3 id=&quot;2-成本端的坏消息单车成本已经涨了14万元&quot;&gt;2. 成本端的坏消息——单车成本已经涨了1.4万元&lt;/h3&gt;
+
+&lt;p&gt;CFO曲玉披露了这场电话会里最硬的一个数字：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;相比2025年底的水平，公司的平均单车成本已经上涨了约1.4万元人民币。&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;并且，下半年还存在&lt;strong&gt;每台车再增加2000到3000元&lt;/strong&gt;成本的风险，主要来自电池、芯片和原材料涨价。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个数字需要放在背景里理解。蔚来二季度的汽车毛利率是18.5%，按平均单车售价约27万元估算（290.58亿元汽车收入除以107658台），单车毛利大约5万元。&lt;strong&gt;1.4万元的成本上涨，相当于吃掉了单车毛利的近三成。&lt;/strong&gt; 而蔚来居然还把毛利率从一季度的18.8%只降到18.5%，这背后是产品结构上移（高价车占比提升）在硬扛。&lt;/p&gt;
+
+&lt;p&gt;2026年全球电池级碳酸锂和存储芯片价格上行是行业共识，蔚来不是唯一受害者，但它是净利率最薄的那一个——二季度非GAAP净利率只有0.08%。&lt;/p&gt;
+
+&lt;h3 id=&quot;3-但管理层承诺毛利率不降&quot;&gt;3. 但管理层承诺毛利率不降&lt;/h3&gt;
+
+&lt;p&gt;面对成本压力，管理层给出的承诺相当明确：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;三季度和四季度的汽车毛利率，维持在二季度18.5%附近的水平&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;实现路径：稳住价格（不打价格战）+ 供应链持续优化 + 产品结构继续上移&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-四季度目标月均交付超过4万台&quot;&gt;4. 四季度目标——月均交付超过4万台&lt;/h3&gt;
+
+&lt;p&gt;这是财报里没有、只在电话会上给出的关键指引：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;四季度目标是月均交付超过4万台。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;对比一下：8月交付35836台，三季度指引10.8万-11.1万台（月均3.6万-3.7万台）。四季度月均4万台意味着单季度12万台以上，与2025Q4的124807台大致持平或略高。考虑到2025Q4是历史峰值（有补贴退坡抢装因素），这个目标不算激进，但也不轻松。&lt;/p&gt;
+
+&lt;h3 id=&quot;5-费用与现金流的三条硬承诺&quot;&gt;5. 费用与现金流的三条硬承诺&lt;/h3&gt;
+
+&lt;p&gt;曲玉给了三条可量化的下半年目标：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;承诺&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP销售管理费用（SG&amp;amp;A）&lt;/td&gt;
+      &lt;td&gt;从上半年约13%降到营收的&lt;strong&gt;10%-11%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP研发费用&lt;/td&gt;
+      &lt;td&gt;维持在&lt;strong&gt;每季度约25亿元&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;全年资本开支（CapEx）&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;60亿-70亿元&lt;/strong&gt;，与2025年基本持平&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;三、四季度现金流&lt;/td&gt;
+      &lt;td&gt;经营性现金流和自由现金流均&lt;strong&gt;为正&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这里有个值得注意的细节：&lt;strong&gt;二季度非GAAP研发费用只有19.83亿元，而下半年指引是每季度25亿元——意味着研发投入要重新往上走约26%。&lt;/strong&gt; 上半年靠压缩研发换来的利润改善，下半年要还回去一部分。这解释了为什么管理层只承诺现金流为正，而没有承诺利润转正。&lt;/p&gt;
+
+&lt;h2 id=&quot;二分析师问答中最有信息量的几个问题&quot;&gt;二、分析师问答中最有信息量的几个问题&lt;/h2&gt;
+
+&lt;h3 id=&quot;q1es8的高销量能持续吗&quot;&gt;Q1：ES8的高销量能持续吗？&lt;/h3&gt;
+
+&lt;p&gt;李斌的回答用数据说话：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「8月我们交付了大约10099台（ES8）。11个月里，我们已经交付了超过14万台ES8。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;并且他透露，第三代ES8本月即将逼近&lt;strong&gt;第15万台&lt;/strong&gt;交付。财报里的口径是「335天内交付14万台」，两个数据可以互相印证。&lt;/p&gt;
+
+&lt;p&gt;关于新推的旗舰ES9，李斌给了一个更有意思的指标：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;超过75%的ES9客户来自蔚来社区之外。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这句话的价值在于：它说明ES9不是在老用户里做「换购内循环」，而是真的在从传统燃油豪华SUV手里抢客户。财报里也提到ES9在6月和7月的中国50万元以上乘用车销量中排名第一。&lt;/p&gt;
+
+&lt;h3 id=&quot;q2乐道onvo为什么增长不如预期&quot;&gt;Q2：乐道（ONVO）为什么增长不如预期？&lt;/h3&gt;
+
+&lt;p&gt;这是本场最被追问的问题。李斌的回答比较坦诚：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「乐道所处的市场，其实比蔚来和萤火虫的竞争都更激烈。」&lt;/p&gt;
+
+  &lt;p&gt;「当用户真正了解这个品牌和产品之后，他们下单的可能性会更大。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他给出的量化判断是：&lt;strong&gt;乐道目前的品牌认知度，大概相当于蔚来五六年前的水平。&lt;/strong&gt; 换句话说，管理层认为乐道的问题不是产品力，而是品牌认知的时间差。&lt;/p&gt;
+
+&lt;p&gt;另外一个数字值得记下来：&lt;strong&gt;乐道的平均成交价已经超过24万元&lt;/strong&gt;。对一个定位20-30万元家庭市场的品牌来说，能把均价做到24万以上，说明高配版本卖得不错，这也是本季度综合毛利率能维持的原因之一。&lt;/p&gt;
+
+&lt;h3 id=&quot;q3明年有什么新产品&quot;&gt;Q3：明年有什么新产品？&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;蔚来品牌&lt;/strong&gt;：来自 &lt;strong&gt;5系和6系&lt;/strong&gt; 产品线的新车&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;乐道品牌&lt;/strong&gt;：明年将推出「一款重要的战略性新产品」&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;萤火虫品牌&lt;/strong&gt;：继续维持&lt;strong&gt;单一车型 + 特别版&lt;/strong&gt;的策略&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;萤火虫「只做一款车」的策略值得注意。在中国车市普遍靠车海战术的环境下，蔚来选择让萤火虫保持单品聚焦，说明它更看重这个品牌的单车利润率而非规模。&lt;/p&gt;
+
+&lt;h3 id=&quot;q4智驾业务怎么变现&quot;&gt;Q4：智驾业务怎么变现？&lt;/h3&gt;
+
+&lt;p&gt;李斌给的数据：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;超过 &lt;strong&gt;70万&lt;/strong&gt; 用户已升级到最新版本软件&lt;/li&gt;
+  &lt;li&gt;升级后，蔚来品牌的城市领航辅助（Urban NOP+）里程增长 &lt;strong&gt;92.8%&lt;/strong&gt;，乐道品牌增长 &lt;strong&gt;127.8%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;智驾订阅服务的&lt;strong&gt;付费渗透率约20%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;商业模式：新车主&lt;strong&gt;免费5年&lt;/strong&gt;，二手车主 &lt;strong&gt;380元/月&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;目前订阅收入规模是「几千万元」量级&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;李斌承认目前订阅收入还只是「几千万元」的体量，但强调它「有长期意义」。&lt;strong&gt;说白了，这块现在不赚钱，但是在为未来的软件收入模式做用户习惯的铺垫。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;q5换电网络的经济账现在算得过来了吗&quot;&gt;Q5：换电网络的经济账现在算得过来了吗？&lt;/h3&gt;
+
+&lt;p&gt;这是蔚来长期最受质疑的一块。这次给出的数字有实质进展：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;全球累计换电站 &lt;strong&gt;4123座&lt;/strong&gt;，充电桩及目的地充电设施 &lt;strong&gt;30294根&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;2026年计划新增 &lt;strong&gt;1000座&lt;/strong&gt;换电站，&lt;strong&gt;由合作伙伴出资建设&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;第五代换电站单站成本约140万元，比第四代低约10万元&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;「由合作伙伴出资」这六个字是关键。它意味着蔚来在把换电网络从「自建重资产」转向「轻资产扩张」——这也是全年资本开支能压在60亿-70亿元、与去年持平的原因。&lt;/p&gt;
+
+&lt;p&gt;李斌还透露，蔚来正在与外部方洽谈换电合作，并规划将换电网络用于 &lt;strong&gt;Robotaxi（自动驾驶出租车）&lt;/strong&gt; 场景。&lt;/p&gt;
+
+&lt;h3 id=&quot;q6智驾负责人任少卿要出去创业&quot;&gt;Q6：智驾负责人任少卿要出去创业？&lt;/h3&gt;
+
+&lt;p&gt;这是电话会上最出人意料的一条人事消息：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;智能驾驶研发负责人任少卿将创办一家具身智能（physical AI）创业公司，蔚来作为战略股东；同时，任少卿继续负责蔚来的智驾部门。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个安排和前面提到的「神玑（GeniTech）芯片子公司引入外部融资、投后估值125亿元」是同一套逻辑：&lt;strong&gt;把高投入、长周期的前沿技术板块拆出去独立融资，蔚来保留股权和技术协同，但不再全额承担研发开支。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;对短期财务报表，这是明确的利好——研发费用从表内挪到表外。对长期，则是一个开放式问题：核心技术负责人一人分饰两角，蔚来能拿到多少注意力？&lt;/p&gt;
+
+&lt;h2 id=&quot;三这些表态意味着什么&quot;&gt;三、这些表态意味着什么&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，蔚来的经营逻辑已经从「抢份额」切换到「保毛利」。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;过去几年蔚来的关键词是交付量。这场电话会上，管理层反复承诺的是毛利率18.5%、SG&amp;amp;A降到10%-11%、现金流为正、资本开支持平——&lt;strong&gt;全是效率指标，没有一个是规模指标。&lt;/strong&gt; 唯一的规模承诺（四季度月均4万台）也相当保守。这是一家公司从「生存期」进入「精算期」的信号。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，成本压力是真实且量化的，管理层没有回避。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1.4万元的单车成本上涨已经发生，2000-3000元的进一步上涨是预期。承认这一点，同时承诺毛利率不降，等价于承诺&lt;strong&gt;产品结构会继续上移&lt;/strong&gt;——高价车型占比要继续提升，才能对冲成本。这也是为什么三季度营收指引增速（52.7%-56.2%）远高于交付量指引增速（24.0%-27.5%）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，「拆分融资」正在成为蔚来的系统性策略。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;神玑芯片子公司引入4.93亿元外部融资、任少卿的具身智能公司由蔚来战略入股、换电站由合作伙伴出资——这三件事发生在同一个季度，不是巧合。蔚来在系统性地把重资产和重研发从主体资产负债表上剥离。&lt;/p&gt;
+
+&lt;p&gt;这个打法的好处是显而易见的：财报变好看了，现金流压力小了。风险也同样明显：&lt;strong&gt;当核心技术不再完全由自己承担和控制时，长期的技术护城河会不会被稀释？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，市场为什么还是不满意？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;因为电话会没有回答一个问题：&lt;strong&gt;增速下台阶之后，蔚来的天花板在哪里。&lt;/strong&gt; 管理层提到长期看销量年增速目标是40%-50%，但三季度指引只有24%-27.5%。这个落差没有被解释清楚。当一家公司的估值逻辑建立在增长上，而增长在放缓、利润又还没真正转正时，市场的谨慎是合理的。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;这是一场信息量很足、也很坦诚的电话会。管理层没有粉饰成本压力，给出了可验证的量化承诺（毛利率18.5%、SG&amp;amp;A 10%-11%、CapEx 60亿-70亿元、四季度月均4万台、现金流为正），并且披露了两个重要的结构性动作（神玑融资、任少卿创业）。&lt;/p&gt;
+
+&lt;p&gt;对投资者来说，接下来三个月要盯的检查点很清楚：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;10月、11月、12月的月度交付量能否达到4万台&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;三季度财报的汽车毛利率是否守住18.5%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;三季度经营性现金流是否为正&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这三条只要有一条落空，管理层这场电话会建立起来的信用就要打折扣。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1736541/000110465926104110/tm2624535d3_ex99-1.htm&quot;&gt;NIO Inc. Reports Unaudited Second Quarter 2026 Financial Results（SEC Form 6-K, Exhibit 99.1，2026年9月1日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ir.nio.com/news-events/events&quot;&gt;蔚来投资者关系 - 业绩电话会回放与活动页&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;电话会实录与整理（关键引述已在两个来源间交叉验证）：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-nio-posts-smaller-loss-in-q2-2026-shares-fall-44-93CH-4884205&quot;&gt;Earnings call transcript - NIO posts smaller loss in Q2 2026, shares fall 4.4%（Investing.com）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cnevpost.com/2026/09/01/nio-q2-2026-earnings-call-live/&quot;&gt;Nio Q2 2026 earnings call live（CnEVPost 现场实录）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.marketbeat.com/instant-alerts/transcript-nio-q2-earnings-call-highlights-2026-09-01/&quot;&gt;NIO Q2 Earnings Call Highlights（MarketBeat）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 02 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/02/nio_2026q2_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/02/nio_2026q2_earnings_call/</guid>
+        
+        <category>蔚来</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>蔚来2026Q2——营收321亿同比增长69%，毛利率飙到18.4%，离真正盈利只差5.3亿</title>
+        <description>&lt;p&gt;北京时间2026年9月1日晚，&lt;a href=&quot;https://ir.nio.com/&quot;&gt;蔚来&lt;/a&gt;（NYSE: NIO；港交所: 9866；新交所: NIO）发布了2026年第二季度（4-6月）未经审计的财务报告。&lt;/p&gt;
+
+&lt;p&gt;一句话总结这份财报：&lt;strong&gt;规模上来了，毛利上来了，亏损基本堵住了，但「真正赚钱」这一步还差最后一口气。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;季度总营收321.37亿元人民币（约47.36亿美元），同比增长69.1%；毛利润59.07亿元，同比增长211.3%——毛利润的增速是营收增速的三倍多，这是这份财报里最重要的一个信号。按美国通用会计准则（GAAP）计算，公司二季度仍净亏损5.28亿元，但相比去年同期的49.95亿元，亏损收窄了89.4%。&lt;/p&gt;
+
+&lt;p&gt;不过资本市场并不买账。财报发布当天蔚来美股下跌约4.4%，收于4.045美元附近，逼近52周低点。原因很简单：&lt;strong&gt;营收321亿元低于市场普遍预期的约334亿元。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-业务概览&quot;&gt;1. 业务概览&lt;/h2&gt;
+
+&lt;p&gt;蔚来是中国智能电动车企业，2014年11月成立，目前在纽约、香港、新加坡三地上市。它的产品线现在是清晰的「三品牌三价位」结构：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;蔚来（NIO）品牌&lt;/strong&gt;——高端市场，ES8、ES9等，平均成交价40万元以上&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;乐道（ONVO）品牌&lt;/strong&gt;——面向家庭的中端市场，L90、L80等，主打20-30万元大型SUV&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;萤火虫（FIREFLY）品牌&lt;/strong&gt;——高端小车，切的是精品小型车市场&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;除了卖车，蔚来还有一块很独特的资产：&lt;strong&gt;换电网络&lt;/strong&gt;。截至本季度，全球累计建成换电站4123座，充电桩及目的地充电设施30294根。换电是蔚来区别于所有竞争对手的基础设施，也长期是它最大的成本负担之一。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-这个季度到底发生了什么&quot;&gt;2. 这个季度到底发生了什么&lt;/h2&gt;
+
+&lt;p&gt;先看交付量的时间序列，这比任何一句评论都直观：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;季度&lt;/th&gt;
+      &lt;th&gt;交付量（台）&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2024Q3&lt;/td&gt;
+      &lt;td&gt;61,855&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2024Q4&lt;/td&gt;
+      &lt;td&gt;72,689&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2025Q1&lt;/td&gt;
+      &lt;td&gt;42,094&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2025Q2&lt;/td&gt;
+      &lt;td&gt;72,056&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2025Q3&lt;/td&gt;
+      &lt;td&gt;87,071&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2025Q4&lt;/td&gt;
+      &lt;td&gt;124,807&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2026Q1&lt;/td&gt;
+      &lt;td&gt;83,465&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;2026Q2&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;107,658&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;（数据来源：蔚来2026Q2财报「Key Operating Results」表）&lt;/p&gt;
+
+&lt;p&gt;可以看出两件事。第一，蔚来存在明显的季节性——每年一季度都是低谷（春节+补贴政策切换），四季度是高峰。第二，把同比口径拉出来看，2026Q2的107658台对比2025Q2的72056台，增长49.4%，趋势是实打实向上的。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标（人民币百万元）&lt;/th&gt;
+      &lt;th&gt;2026Q2&lt;/th&gt;
+      &lt;th&gt;2026Q1&lt;/th&gt;
+      &lt;th&gt;2025Q2&lt;/th&gt;
+      &lt;th&gt;环比&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;汽车销售收入&lt;/td&gt;
+      &lt;td&gt;29,058.2&lt;/td&gt;
+      &lt;td&gt;22,783.7&lt;/td&gt;
+      &lt;td&gt;16,136.1&lt;/td&gt;
+      &lt;td&gt;+27.5%&lt;/td&gt;
+      &lt;td&gt;+80.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;汽车毛利率&lt;/td&gt;
+      &lt;td&gt;18.5%&lt;/td&gt;
+      &lt;td&gt;18.8%&lt;/td&gt;
+      &lt;td&gt;10.3%&lt;/td&gt;
+      &lt;td&gt;-30个基点&lt;/td&gt;
+      &lt;td&gt;+820个基点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;32,136.9&lt;/td&gt;
+      &lt;td&gt;25,532.7&lt;/td&gt;
+      &lt;td&gt;19,008.7&lt;/td&gt;
+      &lt;td&gt;+25.9%&lt;/td&gt;
+      &lt;td&gt;+69.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利润&lt;/td&gt;
+      &lt;td&gt;5,906.5&lt;/td&gt;
+      &lt;td&gt;4,859.1&lt;/td&gt;
+      &lt;td&gt;1,897.5&lt;/td&gt;
+      &lt;td&gt;+21.6%&lt;/td&gt;
+      &lt;td&gt;+211.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;综合毛利率&lt;/td&gt;
+      &lt;td&gt;18.4%&lt;/td&gt;
+      &lt;td&gt;19.0%&lt;/td&gt;
+      &lt;td&gt;10.0%&lt;/td&gt;
+      &lt;td&gt;-60个基点&lt;/td&gt;
+      &lt;td&gt;+840个基点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营亏损&lt;/td&gt;
+      &lt;td&gt;-347.2&lt;/td&gt;
+      &lt;td&gt;-308.8&lt;/td&gt;
+      &lt;td&gt;-4,908.9&lt;/td&gt;
+      &lt;td&gt;亏损扩大12.4%&lt;/td&gt;
+      &lt;td&gt;亏损收窄92.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经调整经营利润（非GAAP）&lt;/td&gt;
+      &lt;td&gt;206.9&lt;/td&gt;
+      &lt;td&gt;66.8&lt;/td&gt;
+      &lt;td&gt;-4,040.8&lt;/td&gt;
+      &lt;td&gt;+209.7%&lt;/td&gt;
+      &lt;td&gt;扭亏&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净亏损&lt;/td&gt;
+      &lt;td&gt;-528.0&lt;/td&gt;
+      &lt;td&gt;-332.1&lt;/td&gt;
+      &lt;td&gt;-4,994.8&lt;/td&gt;
+      &lt;td&gt;亏损扩大59.0%&lt;/td&gt;
+      &lt;td&gt;亏损收窄89.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经调整净利润（非GAAP）&lt;/td&gt;
+      &lt;td&gt;26.1&lt;/td&gt;
+      &lt;td&gt;43.5&lt;/td&gt;
+      &lt;td&gt;-4,126.7&lt;/td&gt;
+      &lt;td&gt;-40.0%&lt;/td&gt;
+      &lt;td&gt;扭亏&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;（数据来源：蔚来2026Q2财报「Key Financial Results」表）&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这张表里最值得说的三件事：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，毛利率的跃升是真实的，而且是靠产品结构撑起来的。&lt;/strong&gt; 汽车毛利率从去年同期的10.3%提升到18.5%，提升了8.2个百分点。什么意思？简单讲，去年蔚来每卖出100元的车，只能剩下10.3元覆盖研发、销售和管理开支；今年同样卖100元的车，能剩18.5元。财报里给出的原因是「更有利的产品组合（more favorable product mix）」——也就是高价车卖得更好了。蔚来品牌本季度交付60945台，占总量的57%，而蔚来品牌的平均成交价在40万元以上。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，研发费用同比降了28.7%，这是个需要辩证看的信号。&lt;/strong&gt; 二季度研发投入21.45亿元，比去年同期少了8.6亿元。财报解释是「组织优化带来的研发人员成本下降」和「不同开发阶段导致的设计开发成本下降」。翻译成大白话：&lt;strong&gt;裁员和项目节奏调整省下来的钱。&lt;/strong&gt; 对短期利润是好事，但对一家还在打技术战的车企来说，研发连续压缩不是能长期持续的策略。值得注意的是，环比一季度研发费用其实增长了13.8%，说明这轮压缩已经见底、开始重新爬升。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，销售管理费用（SG&amp;amp;A）环比涨了26.5%，是拖累环比毛利的主要因素。&lt;/strong&gt; 二季度SG&amp;amp;A为44.25亿元，同比增11.6%，环比增26.5%。财报说主要是「新产品上市带来的销售和市场活动增加」——ES8五座版、乐道L80这些新车都需要花钱推。这也解释了为什么营收环比涨了25.9%，经营亏损反而从3.09亿扩大到3.47亿。&lt;/p&gt;
+
+&lt;h2 id=&quot;关于非gaap净利润转正怎么理解&quot;&gt;关于「非GAAP净利润转正」怎么理解&lt;/h2&gt;
+
+&lt;p&gt;财报里有两个净利润口径，容易看晕，这里解释一下：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;GAAP净亏损5.28亿元&lt;/strong&gt;——这是按美国通用会计准则算的真实亏损&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;非GAAP经调整净利润0.26亿元&lt;/strong&gt;——这是把「股权激励费用」（share-based compensation）剔除后的数字&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;股权激励是公司发给员工的期权和限制性股票，它不花现金，但按会计准则要计入费用。蔚来二季度的股权激励费用大约5.5亿元。剔除后，公司「勉强」录得0.26亿元的正利润，这已经是连续第二个季度非GAAP净利为正（一季度为0.44亿元）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;客观地说：非GAAP转正是一个真实的里程碑，说明业务本身的造血能力接近了盈亏平衡点；但0.26亿元的利润对应321亿元的营收，净利率只有0.08%，这个安全边际薄得几乎不存在。&lt;/strong&gt; 一个季度的成本波动就能把它抹掉。&lt;/p&gt;
+
+&lt;h1 id=&quot;三分业务解读&quot;&gt;三、分业务解读&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-三个品牌都在涨但含金量不同&quot;&gt;1. 三个品牌都在涨，但含金量不同&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;蔚来品牌 60,945台&lt;/strong&gt;：主力仍是它。ES8自上市以来335天内交付突破14万台，在40万元级乘用车和大型SUV市场排名第一；ES9作为行政旗舰SUV，在6月和7月的50万元以上乘用车销量中排名第一。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;乐道品牌 29,124台&lt;/strong&gt;：靠L90和L80两款车，成为中国20-30万元大型SUV细分市场的销量第一。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;萤火虫品牌 17,589台&lt;/strong&gt;：连续15个月在中国高端小车市场份额排名第一。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-其他销售增长乏力&quot;&gt;2. 其他销售增长乏力&lt;/h2&gt;
+
+&lt;p&gt;除了卖车，蔚来的「其他销售」（配件、售后、二手车、能源服务等）二季度收入30.79亿元，同比只增长7.2%，环比增长12.0%。在整车交付同比增长49.4%的背景下，其他业务只增7.2%，说明&lt;strong&gt;用户规模扩大带来的服务变现效率还不高&lt;/strong&gt;。财报解释里也提到，零部件和售后服务收入的增长被二手车和技术研发服务收入的下降抵消了一部分。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-一个容易被忽略的动作神玑shenji融资&quot;&gt;3. 一个容易被忽略的动作——神玑（Shenji）融资&lt;/h2&gt;
+
+&lt;p&gt;财报「近期进展」里提到：2026年6月和8月，蔚来子公司神玑科技（GeniTech Co., Ltd.）分两轮引入中国投资者，合计融资4.93亿元人民币，投后估值125亿元。交易完成后，蔚来子公司持有神玑59.95%的控股权益。&lt;/p&gt;
+
+&lt;p&gt;神玑是蔚来的自研芯片业务。这个动作的含义是：&lt;strong&gt;蔚来正在把重资产、重研发的板块拆分出去独立融资，既能引入外部资金分摊研发压力，又能保住控股权。&lt;/strong&gt; 这和前面「研发费用同比下降28.7%」是同一个逻辑链条上的事——把成本从表内挪到表外。&lt;/p&gt;
+
+&lt;h1 id=&quot;四亮点与隐忧&quot;&gt;四、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;毛利率结构性改善&lt;/strong&gt;：从10.0%到18.4%，且已连续两个季度稳定在18%以上，这不是一次性的。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;经营层面接近自我造血&lt;/strong&gt;：非GAAP经营利润2.07亿元，连续两个季度为正，且财报明确提到本季度经营现金流为正。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;现金储备厚实&lt;/strong&gt;：截至6月30日，现金及等价物、受限资金、短期投资和长期定期存款合计567亿元人民币（约84亿美元）。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;销量惯性延续&lt;/strong&gt;：7月交付35934台，8月交付35836台，2026年前八个月累计交付262893台，同比增长57.9%，累计交付达1260485台。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;营收不及预期&lt;/strong&gt;：321亿元 vs 市场预期约334亿元，差了约13亿元。这是股价下跌的直接原因。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;环比毛利率在退&lt;/strong&gt;：综合毛利率从一季度的19.0%降到18.4%，汽车毛利率从18.8%降到18.5%。财报承认「成本压力上升」。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;8月交付同比只增14.5%&lt;/strong&gt;：对比二季度49.4%的同比增速，8月的14.5%是明显的降速。三季度指引10.8万-11.1万台，同比增速24.0%-27.5%，也远低于二季度水平。这意味着&lt;strong&gt;高增长阶段可能正在过去&lt;/strong&gt;。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;研发压缩不可持续&lt;/strong&gt;：靠削减研发换来的利润改善，本质上是在透支未来的产品竞争力。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;五展望&quot;&gt;五、展望&lt;/h1&gt;
+
+&lt;p&gt;管理层给出的三季度指引：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;交付量 108,000 - 111,000台&lt;/strong&gt;，同比增长24.0% - 27.5%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;总营收 332.85亿 - 340.51亿元人民币&lt;/strong&gt;（约49.06亿 - 50.19亿美元），同比增长52.7% - 56.2%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;注意这里一个有意思的细节：&lt;strong&gt;营收增速（52.7%-56.2%）显著高于交付量增速（24.0%-27.5%）&lt;/strong&gt;，说明管理层预期平均单车售价还会继续上行。这与二季度「三个品牌的销量和平均成交价均同比、环比双增」的表述是一致的。&lt;/p&gt;
+
+&lt;p&gt;CEO李斌在财报中说：「第二季度公司交付了107658台智能电动汽车，同比增长49.4%。蔚来、乐道、萤火虫三个品牌在销量和平均成交价上均实现增长。」&lt;/p&gt;
+
+&lt;p&gt;CFO曲玉的表述则更谨慎：「在成本压力上升的情况下，得益于高毛利车型的强劲销售和成本结构的持续优化，我们维持了健康的毛利率和汽车毛利率……公司在本季度维持了正的非GAAP经营利润，进一步增加了现金储备。」&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;「成本压力上升」这五个字是这份财报里最值得警惕的信号。&lt;/strong&gt; 2026年全球动力电池和存储芯片价格上行是行业共识，对一家净利率只有0.08%的公司来说，成本端的任何风吹草动都会直接体现在盈亏线上。&lt;/p&gt;
+
+&lt;p&gt;总结一下：蔚来这份财报证明了它有能力把毛利率做到接近行业健康水平，也证明了它能在不烧钱的前提下运转。但它同时也暴露了下一个问题——&lt;strong&gt;当增长从「49%」降到「25%」时，靠规模摊薄成本这条路会变窄，蔚来必须找到第二条盈利曲线。&lt;/strong&gt; 换电、芯片、服务，哪一条能撑起来，会决定它2027年的位置。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1736541/000110465926104110/tm2624535d3_ex99-1.htm&quot;&gt;NIO Inc. Reports Unaudited Second Quarter 2026 Financial Results（SEC Form 6-K, Exhibit 99.1，2026年9月1日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1736541/000110465926104027/tm2624535d1_ex99-1.htm&quot;&gt;NIO Inc. Provides August 2026 Delivery Update（SEC Form 6-K, Exhibit 99.1，2026年9月1日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ir.nio.com/&quot;&gt;蔚来投资者关系官网&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（用于补充市场预期与股价反应）：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-nio-posts-smaller-loss-in-q2-2026-shares-fall-44-93CH-4884205&quot;&gt;Earnings call transcript - NIO posts smaller loss in Q2 2026, shares fall 4.4%（Investing.com）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cnevpost.com/2026/09/01/nio-q2-2026-earnings-call-live/&quot;&gt;Nio Q2 2026 earnings call live updates（CnEVPost）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 02 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/02/nio_2026q2_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/02/nio_2026q2_earnings/</guid>
+        
+        <category>蔚来</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>戴尔2027财年Q2——单季营收470亿美元同比增58%，AI服务器在手订单堆到950亿美元，全年指引一次性上调250亿</title>
+        <description>&lt;p&gt;美东时间2026年9月1日盘后（北京时间9月2日凌晨），&lt;a href=&quot;https://investors.delltechnologies.com/&quot;&gt;戴尔科技&lt;/a&gt;（NYSE: DELL）发布了2027财年第二财季财报（对应自然年2026年5-7月）。&lt;/p&gt;
+
+&lt;p&gt;这份财报可以用一句话概括：&lt;strong&gt;戴尔已经不再是一家PC公司了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;季度营收470亿美元，同比增长58%，创下公司历史纪录。GAAP每股收益6.34美元，同比增长273%；非GAAP每股收益7.04美元，同比增长203%。而驱动这一切的，是一个数字——&lt;strong&gt;季末AI服务器在手订单积压（backlog）达到950亿美元。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;公司随即把2027财年全年营收指引从此前的1670亿美元&lt;strong&gt;一次性上调到1920亿美元&lt;/strong&gt;，上调幅度250亿美元，相当于凭空多出一个中型上市公司的年营收。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-戴尔现在靠什么赚钱&quot;&gt;1. 戴尔现在靠什么赚钱&lt;/h2&gt;
+
+&lt;p&gt;戴尔的业务分两大块，理解了这两块就理解了这份财报：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ISG（基础设施解决方案集团）&lt;/strong&gt;——卖给企业和数据中心的服务器、网络设备、存储设备。这是现在的绝对主力。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CSG（客户端解决方案集团）&lt;/strong&gt;——卖PC、笔记本、显示器，分商用和消费两条线。这是戴尔的传统基本盘。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本季度ISG营收318亿美元，CSG营收150亿美元。&lt;strong&gt;ISG已经占到总营收的68%。&lt;/strong&gt; 五年前，这个比例是反过来的。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-什么是ai优化服务器&quot;&gt;2. 什么是「AI优化服务器」&lt;/h2&gt;
+
+&lt;p&gt;这个词在财报里反复出现，需要解释一下。&lt;/p&gt;
+
+&lt;p&gt;普通服务器是给传统企业应用（数据库、网站、办公系统）用的，核心是CPU。&lt;strong&gt;AI优化服务器&lt;/strong&gt;则是专门为训练和运行大模型设计的机器，核心是GPU（主要是英伟达的芯片），一台的价格可能是普通服务器的十几倍甚至几十倍。&lt;/p&gt;
+
+&lt;p&gt;戴尔在这块的角色，本质上是&lt;strong&gt;「英伟达芯片的系统集成商和交付商」&lt;/strong&gt;——买入GPU，配上机箱、散热、网络、电源、软件栈，整机柜交付给客户，并负责部署和售后。客户是OpenAI、xAI这类AI实验室，以及大型云厂商和主权AI项目。&lt;/p&gt;
+
+&lt;p&gt;理解了这一点，就能理解为什么戴尔的营收能一年涨58%，而利润率却是市场最担心的地方——&lt;strong&gt;这是一门规模巨大但毛利偏薄的生意。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2027财年Q2&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;470亿美元&lt;/td&gt;
+      &lt;td&gt;+58%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP经营利润&lt;/td&gt;
+      &lt;td&gt;54亿美元&lt;/td&gt;
+      &lt;td&gt;+204%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP经营利润&lt;/td&gt;
+      &lt;td&gt;59亿美元&lt;/td&gt;
+      &lt;td&gt;+160%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP净利润&lt;/td&gt;
+      &lt;td&gt;41亿美元&lt;/td&gt;
+      &lt;td&gt;+255%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP净利润&lt;/td&gt;
+      &lt;td&gt;46亿美元&lt;/td&gt;
+      &lt;td&gt;+189%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;6.34美元&lt;/td&gt;
+      &lt;td&gt;+273%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;7.04美元&lt;/td&gt;
+      &lt;td&gt;+203%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流&lt;/td&gt;
+      &lt;td&gt;22亿美元&lt;/td&gt;
+      &lt;td&gt;——&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;（数据来源：戴尔2027财年Q2财报新闻稿，SEC Form 8-K Exhibit 99.1）&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这张表里有两个数字需要重点说明。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，利润增速远快于营收增速，这打破了市场的一个担忧。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;营收+58%，但经营利润+204%，净利润+255%。此前市场普遍担心：AI服务器是「赔本赚吆喝」的生意，卖得越多、毛利率越被稀释，尤其是2026年内存价格大涨的背景下。这份财报暂时否定了这个担忧——&lt;strong&gt;ISG经营利润48亿美元，同比增长225%，增速甚至快于该分部89%的营收增速。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，经营现金流只有22亿美元，远低于41亿美元的净利润。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这是这份财报里最需要注意的一个反差。净利润41亿，经营现金流只有22亿，意味着大量利润被压在了存货和应收账款上。对一家订单积压950亿美元的公司来说，这是可以理解的——&lt;strong&gt;为了交付未来的订单，必须先大量囤积GPU和内存等零部件，现金先流出去了。&lt;/strong&gt; 但如果这个缺口持续扩大，就会变成风险信号。&lt;/p&gt;
+
+&lt;h2 id=&quot;上半年累计&quot;&gt;上半年累计&lt;/h2&gt;
+
+&lt;p&gt;2027财年上半年（2-7月）累计营收908亿美元，同比增长71%。&lt;/p&gt;
+
+&lt;h1 id=&quot;三分业务解读&quot;&gt;三、分业务解读&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-isgai服务器是唯一的主角&quot;&gt;1. ISG：AI服务器是唯一的主角&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ISG细分&lt;/th&gt;
+      &lt;th&gt;营收&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI优化服务器&lt;/td&gt;
+      &lt;td&gt;164亿美元&lt;/td&gt;
+      &lt;td&gt;+100%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;服务器与网络（含AI优化服务器）合计&lt;/td&gt;
+      &lt;td&gt;约269亿美元&lt;/td&gt;
+      &lt;td&gt;——&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;存储&lt;/td&gt;
+      &lt;td&gt;49亿美元&lt;/td&gt;
+      &lt;td&gt;+26%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;ISG合计&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;318亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+89%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ISG经营利润&lt;/td&gt;
+      &lt;td&gt;48亿美元&lt;/td&gt;
+      &lt;td&gt;+225%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;AI优化服务器单季收入164亿美元，同比翻倍。这一个细分业务的季度营收，已经超过了整个CSG（PC业务）的规模。&lt;/p&gt;
+
+&lt;p&gt;存储业务49亿美元、同比增长26%，是一个容易被忽略但很重要的信号——&lt;strong&gt;AI训练需要海量数据，数据需要存储。&lt;/strong&gt; 存储业务从过去几年的个位数增长跳到26%，说明AI的溢出效应已经传导到了戴尔的高毛利业务上。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-ai订单的三个数字必须放在一起看&quot;&gt;2. AI订单的三个数字，必须放在一起看&lt;/h2&gt;
+
+&lt;p&gt;这是本份财报的核心，值得单独拎出来：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;金额&lt;/th&gt;
+      &lt;th&gt;含义&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;本季新签AI服务器订单&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;609亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;客户这个季度下了多少单&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;本季AI服务器确认收入&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;164亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;实际交付并确认收入的部分&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;季末在手订单积压&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;950亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;已签约但还没交付的部分&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;用大白话解释这三个数字的关系：&lt;strong&gt;这个季度戴尔接了609亿美元的新单，交付了164亿美元，剩下的堆进了积压订单里，最终积压达到950亿美元。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;950亿美元是什么概念？&lt;strong&gt;接近戴尔2026财年（上一个完整财年）全年营收的85%。&lt;/strong&gt; 也就是说，戴尔手上握着相当于将近一年营收的、已经签约的AI订单还没交付。&lt;/p&gt;
+
+&lt;p&gt;但这里有两个需要冷静的地方：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;订单不等于收入。&lt;/strong&gt; 积压订单能否全部转化为收入，取决于GPU供应、客户资金状况和项目落地情况。AI行业的订单取消或延期并非没有先例。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;609亿的新签订单里有多少是「大单集中」？&lt;/strong&gt; 财报没有披露客户集中度。如果订单高度集中在少数几家AI实验室手里，风险敞口会很大。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;3-csgpc业务在悄悄复苏&quot;&gt;3. CSG：PC业务在悄悄复苏&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;CSG细分&lt;/th&gt;
+      &lt;th&gt;营收&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;商用PC&lt;/td&gt;
+      &lt;td&gt;132亿美元&lt;/td&gt;
+      &lt;td&gt;+22%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;消费级PC&lt;/td&gt;
+      &lt;td&gt;18亿美元&lt;/td&gt;
+      &lt;td&gt;+7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;CSG合计&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;150亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+20%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CSG经营利润&lt;/td&gt;
+      &lt;td&gt;11亿美元&lt;/td&gt;
+      &lt;td&gt;+42%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;在AI服务器的光环下，很少有人注意到PC业务同比增长了20%，经营利润增长42%。商用PC增长22%，主要驱动是企业换机周期（Windows 10停止支持后的换机潮）和AI PC的渗透。&lt;/p&gt;
+
+&lt;h1 id=&quot;四股东回报&quot;&gt;四、股东回报&lt;/h1&gt;
+
+&lt;p&gt;本季度戴尔通过股票回购和分红向股东返还了 &lt;strong&gt;43亿美元&lt;/strong&gt;。董事会宣布季度股息 &lt;strong&gt;每股0.63美元&lt;/strong&gt;，10月30日支付。&lt;/p&gt;
+
+&lt;h1 id=&quot;五指引这才是股价的真正推手&quot;&gt;五、指引——这才是股价的真正推手&lt;/h1&gt;
+
+&lt;h2 id=&quot;2027财年第三季度指引&quot;&gt;2027财年第三季度指引&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;指引&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收&lt;/td&gt;
+      &lt;td&gt;490亿美元&lt;/td&gt;
+      &lt;td&gt;+81%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;6.10美元&lt;/td&gt;
+      &lt;td&gt;+168%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;6.50美元&lt;/td&gt;
+      &lt;td&gt;+151%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;2027财年全年指引上调后&quot;&gt;2027财年全年指引（上调后）&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;新指引&lt;/th&gt;
+      &lt;th&gt;原指引&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;1920亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;1670亿美元&lt;/td&gt;
+      &lt;td&gt;+69%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AI优化服务器营收&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;740亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;600亿美元&lt;/td&gt;
+      &lt;td&gt;+200%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;24.37美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;17.31美元&lt;/td&gt;
+      &lt;td&gt;+181%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;25.50美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;17.90美元&lt;/td&gt;
+      &lt;td&gt;+148%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;CFO David Kennedy在财报中说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们的各项优势相互强化，本季度我们利用这些优势推动了增长、份额提升、盈利能力和现金创造。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;副董事长兼COO Jeff Clarke的表述则更宏观：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「IT环境已经从成本中心转变为驱动增长和竞争优势的价值创造者，客户正在据此进行投资——这为我们的整个产品组合创造了机会。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;全年指引上调250亿美元，这是这份财报里冲击力最大的一件事。&lt;/strong&gt; 一家年营收近2000亿美元的公司，在财年过半时把全年目标上调15%，通常只发生在需求出现结构性跃迁的时候。&lt;/p&gt;
+
+&lt;h1 id=&quot;六市场反应与隐忧&quot;&gt;六、市场反应与隐忧&lt;/h1&gt;
+
+&lt;p&gt;财报发布前，戴尔股价在当天正常交易时段下跌6.8%收于425美元——市场提前担心的是内存涨价对服务器毛利的冲击。财报发布后，盘后股价一度反弹约6%至451美元附近，部分媒体统计的涨幅接近10%。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这份财报的隐忧在哪里：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;现金流与利润的缺口。&lt;/strong&gt; 净利润41亿、经营现金流22亿，这个差距需要在后续季度收敛。囤货是为了交付，但囤货过度就是风险。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AI服务器的毛利率天花板。&lt;/strong&gt; 尽管本季ISG利润增速跑赢了营收增速，但AI服务器本质上是低毛利的组装生意，且上游GPU和内存的定价权不在戴尔手里。2026年内存价格的上涨还在继续，下一个季度是不是同样的故事，需要观察。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;950亿积压订单的兑现风险。&lt;/strong&gt; 订单越大，客户集中度和取消风险的重要性就越高。财报没有披露这方面的细节。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;对英伟达的高度依赖。&lt;/strong&gt; 戴尔的AI业务本质上是英伟达GPU的交付渠道之一，而它的竞争对手（超微、慧与、鸿海、广达）也在做同样的事。这门生意的护城河更多来自供应链能力和企业客户关系，而不是技术壁垒。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;七总结&quot;&gt;七、总结&lt;/h1&gt;
+
+&lt;p&gt;戴尔这份财报最值得记住的，不是470亿美元的季度营收，也不是203%的每股收益增速，而是 &lt;strong&gt;950亿美元的AI服务器在手订单&lt;/strong&gt;——这个数字把戴尔未来四到六个季度的收入基本锁定了。&lt;/p&gt;
+
+&lt;p&gt;对于观察AI产业链的人来说，这份财报还提供了一个非常有价值的旁证：&lt;strong&gt;当英伟达的芯片订单最终传导到系统集成商这一层时，需求依然是真实且加速的。&lt;/strong&gt; 戴尔609亿美元的单季新签订单，是AI资本开支周期还在上行的一个硬证据。&lt;/p&gt;
+
+&lt;p&gt;但同样值得记住的是那22亿美元的经营现金流。在AI这场军备竞赛里，赚到的是利润表上的数字，先垫出去的是真金白银。这条线，比营收增速更值得盯。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000039/exhibit991earnings8kq2fy27.htm&quot;&gt;Dell Technologies Delivers Second Quarter Fiscal 2027 Financial Results（SEC Form 8-K, Exhibit 99.1，2026年9月1日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://investors.delltechnologies.com/news-releases/news-release-details/dell-technologies-delivers-second-quarter-fiscal-2027-financial&quot;&gt;戴尔科技投资者关系官网 - 该季度新闻稿&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（用于补充市场预期与股价反应）：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html&quot;&gt;Dell surges 10% after lifting fiscal 2027 forecast on AI server strength（CNBC）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/company-news/dell-q2-fy27-slides-ai-server-backlog-hits-95b-revenue-up-58-93CH-4884718&quot;&gt;Dell Q2 FY27 slides - AI server backlog hits $95B, revenue up 58%（Investing.com）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 02 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/02/dell_fy2027q2_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/02/dell_fy2027q2_earnings/</guid>
+        
+        <category>戴尔</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.01</title>
@@ -1259,788 +2575,6 @@
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/31/petrochina_2026h1_earnings/</guid>
         
         <category>中国石油</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.08.30</title>
-        <description>&lt;p&gt;今天翻下来，五个帖子意外地咬在同一个问题上：我们手里这些越来越强的工具，边界到底在哪儿，又是谁该负责把这个边界画出来。&lt;/p&gt;
-
-&lt;p&gt;有意思的是，四个帖子的评论区都没有停留在「AI 好还是不好」这种层面。删库那个帖子底下在认真讨论 Linux 的 landlock 和 namespace；争论 LLM 确定性的那个帖子，几个人一路吵到 GPU 并行执行顺序带来的浮点误差，中间还有人痛快认错；就连一个「我 16GB 显卡跑通了 27B」的炫技帖，最靠前的回复也是冷冰冰的实测反驳。这种「不谈立场只谈机制」的讨论密度，是我今天挑帖子时最看重的东西。&lt;/p&gt;
-
-&lt;h2 id=&quot;一agent-删掉了-700gb-的家目录评论区先掏出了-landlock&quot;&gt;一、agent 删掉了 700GB 的家目录，评论区先掏出了 landlock&lt;/h2&gt;
-
-&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w1hb27/claude_nukes_a_developers_700_gb_home_directory/&quot;&gt;Claude nukes a developer’s 700 GB home directory while testing deletion safeguards&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;事情本身很有黑色幽默的味道：一位开发者正在测试删除操作的安全护栏，结果 agent 把他 700GB 的家目录清空了。按帖子标题的说法，过程中还牵扯到一次自动的模型降级，随后撞上了一个变量冲突。开头几层楼是意料之中的段子 —— 有人重提那句老话，计算机最大的本事就是让你以极快的速度犯错。&lt;/p&gt;
-
-&lt;p&gt;但往下翻，讨论很快变得具体。有人直接开了张清单：如果你在 Linux 上跑 AI agent，去读一下 landlock、unshare、overlay 文件系统这几样东西。他的意思很清楚 —— 这类事故根本不该靠模型的自觉来防。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Inside a (properly configured) container, AI can do ‘rm -rf /’ and it will not matter.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/preddit1234，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w1hb27/claude_nukes_a_developers_700_gb_home_directory/p6kx8h8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这条底下岔出了今天我读到的最有营养的一段技术拉扯。有人说用 docker 就行，有人接「那你得用 rootless，加 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--user $(id -u):$(id -g)&lt;/code&gt;」，然后被反驳：只要你（或者 agent 自己）能执行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker run -it -v /:/host-root ubuntu bash&lt;/code&gt;，把宿主机根目录挂进容器，前面那些都白搭。争到最后大家的共识落在几个更硬的方案上：podman 的 rootless 模式、bubblewrap（有人提到 Codex 就用它做沙箱）、Linux 5.13 之后的 landlock LSM，以及最朴素的 btrfs 定时快照。还有人翻出了官方文档，指出 agent 本身其实带沙箱能力，只是这位开发者没配。&lt;/p&gt;
-
-&lt;p&gt;另一派的火力则完全对着人。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Who the hell lets an agent play around in an unbacked up, bare metal drive filled with 700gb of personal data? This is 100% on the developer, not the agent.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/ak_sys，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w1hb27/claude_nukes_a_developers_700_gb_home_directory/p6m21un/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我的看法：这两派其实说的是同一件事，只是站在了责任链的两端。值得中文读者留意的是那个被反复强调的原则 —— &lt;strong&gt;不要把「不做危险操作」当成一项由模型承担的能力&lt;/strong&gt;。它是概率性的，你把家目录直接暴露给它，就等于把一个没有回滚机制的生产环境交给了一个不保证幂等的执行器。真正该做的是把权限收到文件系统层面：单独的工作目录、只读挂载、rootless 容器、定时快照。这几样东西的配置成本，加起来大概不超过一个下午。&lt;/p&gt;
-
-&lt;h2 id=&quot;二隔壁论坛的人说自己一年没写过代码了而我这边-ai-还在拖慢进度&quot;&gt;二、隔壁论坛的人说自己一年没写过代码了，而我这边 AI 还在拖慢进度&lt;/h2&gt;
-
-&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w1q7gt/why_does_it_feel_like_some_people_live_in_a/&quot;&gt;Why does it feel like some people live in a parallel universe?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;发帖人逛到 r/singularity，看到一堆自称二十年经验的人说自己从 2025 年起就没手写过一行代码，感觉像活在平行宇宙 —— 因为在他公司，各种被推荐的用法都试过了，AI 产出的代码还是需要大量人工干预，算上 review 合并请求的时间，速度并没有变快，甚至更慢。&lt;/p&gt;
-
-&lt;p&gt;最高赞的回答短得像一记闷棍：很多人做的就是基础的增删改查 Web 应用，编程和编程不是一回事，不同的作坊对质量的胃口也天差地别。顺着这条往下，讨论分裂成了两个阵营，而且两边都不是嘴炮。&lt;/p&gt;
-
-&lt;p&gt;一边是「不如以前好，但够发版了」。有人说产品导向的公司正在死命压着他们跑快点、别管债；有人补一句债是下任 CTO 的问题。反对的声音里有一条我觉得说到了根上：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The velocity you are experiencing is due to lowering the bar of quality, not typing speed”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/ResidentWeevil1，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w1q7gt/why_does_it_feel_like_some_people_live_in_a/p6nrica/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;另一边则更细致地拆了「我不写代码了」这句话到底是什么意思。有位说自己确实很久不手动改文件了，但全程都在指挥模型：改哪些文件、用什么模式、写什么测试，时间未必省，可认知负担轻多了，下班时不再被榨干。紧接着有人给出了完全相反的亲历：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Now I can feel drained from writing code because I am context switching like crazy between 5 terminals spanning 2 bug investigations and 3 features across 3 repositories for example.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/mavenHawk，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w1q7gt/why_does_it_feel_like_some_people_live_in_a/p6nej7w/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;还有一条被埋得比较深但很扎实的观察：AI 能带来的收益不是开箱即得的，可能要花上几个月才能稳定拿到好结果，它更像一个速度乘数 —— 本来工程做得好的人会做得更好，本来一团糟的人只会更快地一团糟。另有人吐槽公司为了抢市场狂烧 token，一周就把配额用光，开发成本反而在膨胀。&lt;/p&gt;
-
-&lt;p&gt;我的延伸想法：这个帖子最有价值的地方，是它顺手证伪了「AI 提效」这个说法的粗糙。同一句「我不写代码了」，在有人那里是把手写换成了严格 review 的高强度指挥，在另一些人那里是根本不看输出。这两件事被同一个词概括，于是各说各话。下次听到有人报一个惊人的提效倍数，值得先问一句：你的质量门槛动了没有？以及，你把省下来的时间花到哪儿去了？&lt;/p&gt;
-
-&lt;h2 id=&quot;三用了几年生成式-ai还是像在拉老虎机&quot;&gt;三、用了几年生成式 AI，还是像在拉老虎机&lt;/h2&gt;
-
-&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w1l8v4/have_been_using_genai_for_a_few_years_now_and_it/&quot;&gt;Have been using genAI for a few years now and it still feels like a slot machine&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;发帖人说自己跟不上每两周就冒出来的「这个才是你该用的 AI 工具」，他一直老老实实用 CLI agent，写 skill、写 plan、写 spec，可结果依然飘忽不定，搞得他开始怀疑是不是自己的问题。第一条高赞回复直接把这种体感翻译成了机制：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“That’s because it is a slot machine. Put in the prompt, pull the lever, and see if your prize is good enough.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/SnugglyCoderGuy，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w1l8v4/have_been_using_genai_for_a_few_years_now_and_it/p6lley9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;然后这个楼跑向了一个我完全没料到的方向 —— 一群人认认真真论证起「LLM 到底是不是确定性系统」。最初有人说温度调成 0 就确定了，马上被纠正：温度只是在缩放候选 token 的概率分布，采样过程本身还是随机的。接着有人指出更微妙的一点，即便温度为 0，遇到两个概率完全相同的 token 时也没有确定的选法。理论上设 seed 应该能复现，但 OpenAI 的 API 给了 seed 参数，实际却复现不了，几个人对着这个现象猜了半天。有人补充，早期模型基本是确定的，混合专家（MoE）架构进一步破坏了这一点；也有人从数值角度指出温度出现在 softmax 的分母上，技术上不能真取零，用 argmax 才合理。&lt;/p&gt;
-
-&lt;p&gt;而我认为最有洞见的是这条 —— 它把不确定性的来源从「模型设计」推到了「硬件执行」：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Even the order of execution for GPU cores in parallel matters, because floating point errors can throw a wrench in your otherwise deterministic model.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/walkingjogging，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w1l8v4/have_been_using_genai_for_a_few_years_now_and_it/p6m816q/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;顺着这条，讨论落到了「混沌」这个词的准确用法上 —— 混沌系统按定义就是确定性的，双摆是最经典的例子，规则简单到可以精确模拟，但初始角度差一点点，轨迹很快就面目全非。中间有人搞错了概念，被解释之后回了一句「谢谢，是我错得离谱」，这种转身在中文技术社区其实不太常见。&lt;/p&gt;
-
-&lt;p&gt;我的点评：这段讨论最实用的一个结论是，&lt;strong&gt;LLM 的不可复现和它的不可预测不是同一件事&lt;/strong&gt;。前者可以靠工程手段收窄（固定采样参数、固定后端、限制并发），后者是本质属性 —— 你没法在跑之前知道这一次会输出什么。这也解释了为什么各种 prompt 技巧、skill、spec 都只能改善分布，改善不了性质。所以工程上真正该做的，不是追求「让它每次都对」，而是给它套上事后可验证的闭环：类型检查、测试、CI、code review。老虎机的比喻其实不算贬义 —— 老虎机也能玩，前提是你别把身家押上去，且知道自己在算概率。&lt;/p&gt;
-
-&lt;h2 id=&quot;四16gb-显卡跑-27b-模型50-toks第一条实测回复是什么问题也没解决&quot;&gt;四、16GB 显卡跑 27B 模型、50 tok/s，第一条实测回复是「什么问题也没解决」&lt;/h2&gt;
-
-&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w1lq7u/qwen_38_27b_at_50_toks_with_100k_context_on_a/&quot;&gt;Qwen 3.8 27B at 50 tok/s with 100k Context on a 16GB GPU!&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;发帖人分享了一套本地部署配置：在一块 16GB 的 RTX 4070 Ti SUPER 上跑 27B 模型，10 万上下文，全部塞进显存，用的是社区做的混合量化 GGUF 加上定制的 chat 模板。这类帖子在 r/LocalLLaMA 一向很受欢迎，因为它把「消费级显卡的上限」往前推了一格。&lt;/p&gt;
-
-&lt;p&gt;有意思的是评论区的反应。楼下有人贴出了自己在 5080 上跑同一个量化的完整 llama-server 启动参数，包括逐步下调 GPU 卸载层数来给上下文腾显存的调参过程 —— 结果被眼尖的人抓到一个漏洞：模型总共只有 65 层，参数写 67 和写「全部」是一个意思，这个所谓的「甜点值」其实什么也没做。原作者的回复相当坦率：我知道，但不知为什么这样对我有效。&lt;/p&gt;
-
-&lt;p&gt;真正泼冷水的是这条：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I tested it and, although it fits, it just keeps going and going and doesn’t solve any problem”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Morailson，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w1lq7u/qwen_38_27b_at_50_toks_with_100k_context_on_a/p6mam9a/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他后来补了细节：模型看起来干得挺欢，但等他检查项目时，发现一个基础的 PHP 和 JS 项目里被塞了一堆莫名其妙的 Python 脚本。另一条则质疑量化本身的可信度：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“still a custom gguf, totally depends on the quality of the builder. Most seem to be garbage.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/zepfan，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w1lq7u/qwen_38_27b_at_50_toks_with_100k_context_on_a/p6nleax/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;主楼里还有一句更早的追问，就一个词：quality？ 而这个帖子从头到尾没给出任何质量层面的数据。&lt;/p&gt;
-
-&lt;p&gt;我的点评：本地部署圈子里有一种很顽固的指标错位 —— &lt;strong&gt;能装下、跑得快、上下文长，这三件事全都不等于能用&lt;/strong&gt;。显存占用和 tok/s 好测，写在标题里也好看；模型在真实任务上是否会跑偏、是否会往你的项目里乱塞文件，得花几天才试得出来，也没法压缩成一个数字。如果你也在折腾本地模型，这个帖子的正确读法是：把它当成一份可复现的显存调优配方（这部分含金量是实打实的），而不是一份选型建议。选型请自己跑一遍你手上真实的活。&lt;/p&gt;
-
-&lt;h2 id=&quot;五美国城市正在创纪录地解约监控摄像头但这不叫监控变少了&quot;&gt;五、美国城市正在创纪录地解约监控摄像头，但这不叫监控变少了&lt;/h2&gt;
-
-&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w1uzn7/cities_terminate_flock_contracts_at_record_pace/&quot;&gt;Cities terminate Flock contracts at record pace in August&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Flock 是一家做车牌自动识别摄像头（ALPR）的美国公司，这两年因为数据被滥用的丑闻不断而处在风口浪尖 —— 同期热榜上还有一条是佐治亚州一名警察用 Flock 系统追踪自己的前任和她的朋友，两人也都是警察。这个帖子的消息是：八月份地方政府终止 Flock 合同的数量创下了纪录。&lt;/p&gt;
-
-&lt;p&gt;如果只看标题，很容易读成一个「公众赢了」的故事。评论区里几位明显是业内人士的回复，把这个乐观情绪按了下去 —— 城市并没有拆掉摄像头，只是换了供应商，摩托罗拉（Motorola Solutions，早已不是做手机那家）的地盘正在因此扩大，而且它本来就是收费公路 ALPR 和警车车载扫描系统的主要制造商之一。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Their marketing materials have bragged about their mobile vehicle-mounted scanners tagging thousands of vehicles per hour and all that data feeds right into the same GIS.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Paizzu，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w1uzn7/cities_terminate_flock_contracts_at_record_pace/p6ojv96/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;那为什么还要换？有人给出了我觉得整个帖子里最关键的一条区分 —— 它跟摄像头本身没关系，跟数据归谁有关系：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The difference between Motorola and Flock is that Motorola doesn’t own the data, the agencies that own the cameras do, whereas Flock owns all the data captured by their cameras.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/CaptZ，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w1uzn7/cities_terminate_flock_contracts_at_record_pace/p6olb3p/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;也有人不买账，说这至少算往前走了一步，但真正需要的是一套明确规定各级机构之间能怎么共享这些数据、以及哪些情况绝对不能共享的法规。还有人提醒别把 Flock 简单叫作 ALPR，识别车牌只是它最基础的功能。楼里最后飘过一句挺凉的调侃：你难道真会奇怪为什么一家公司既在卖问题、又在卖问题的解决方案吗。&lt;/p&gt;
-
-&lt;p&gt;我的延伸思考：这个帖子的价值在于它示范了一种识别「假胜利」的方法。舆论压力最容易改变的是&lt;strong&gt;采购关系&lt;/strong&gt;，最难改变的是&lt;strong&gt;能力本身&lt;/strong&gt; —— 摄像头还在路口，扫描频率没降，数据还是流进同一套地理信息系统，变的只是数据库的所有权栏写谁的名字。这个结构在很多领域都成立：换掉一个被骂的供应商，往往比立法限制这项能力容易得多，也因此更容易被当成结果来交差。判断一件事有没有真的变好，看的不该是谁被换掉了，而是那条约束线本身有没有往回挪。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;今天这五个帖子摆在一起，我最后想说的其实是同一句话的五个版本：工具的边界不会自己长出来。agent 不会因为你叮嘱过就不删文件，LLM 不会因为你写了更长的 spec 就变成确定性系统，量化模型不会因为塞进了显存就变得可用，监控能力也不会因为换了个供应商就自动缩回去。这些边界只能由外部结构来定 —— 文件系统权限、CI、真实任务的验证、法规。&lt;/p&gt;
-
-&lt;p&gt;写在最后：把希望寄托在「它应该不会那么干吧」上面的，今天在评论区都被摆出来了。&lt;/p&gt;
-</description>
-        <pubDate>Sun, 30 Aug 2026 09:40:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/30/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/30/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.08.30</title>
-        <description>&lt;h2 id=&quot;111-gemini-co-scientist-从提出假设推进到实验执行与整篇论文生成&quot;&gt;1/11 Gemini Co-Scientist 从提出假设推进到实验执行与整篇论文生成&lt;/h2&gt;
-&lt;p&gt;Google 团队把基于 Gemini 的 Co-Scientist 扩展为“构思—实验—论文”闭环：它为 CVD 设备设计材料生长路线，按实验室约束单次生长出 MoS2、MoSe2 与 WS2 单层；从稀疏图像预测工程化大肠杆菌群体形态；还自主发现 Agent_H 推理架构。论文称后者在 HealthBench 两项难集上超过六个前沿模型；30 名专家完成 450 次双盲评审后，核验模块显著减少编造与抄袭。MXene 原子结构、跨实验室复现和有害计划零风险仍未解决。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/demishassabis/status/2093790764203409875&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@demishassabis&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2093747487433478296&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;211-microduck-首日订单超-250-万美元把-sim-to-real-强化学习带到-399-美元机器人&quot;&gt;2/11 Microduck 首日订单超 250 万美元，把 sim-to-real 强化学习带到 399 美元机器人&lt;/h2&gt;
-&lt;p&gt;Hugging Face 旗下 Pollen Robotics 的 Microduck 高 25 厘米、重约 800 克，配 15 个电机、相机、LiDAR、双 IMU 与可抓取物体的活动喙，预售价 399 美元。SDK、MuJoCo 仿真、强化学习和 sim-to-real 工具链全部开放，内置行走、抓取、轮滑与跌倒起身等策略。Clement Delangue 转发的信息称首日订单金额超过 250 万美元；社区随后展示后空翻、自定义恢复、寻物和 1.6 米/秒步态，显示开放硬件开始形成可分享的“动作模型”生态。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/ClementDelangue/status/2093590509449015439&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@ClementDelangue 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/ClementDelangue/status/2093875712042082335&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@ClementDelangue 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/ClementDelangue/status/2093692819454021716&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@ClementDelangue 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;311-glm-53-flash-便宜-17-倍四次尝试后与完整模型仅差-26-个点&quot;&gt;3/11 GLM-5.3 Flash 便宜 17 倍，四次尝试后与完整模型仅差 2.6 个点&lt;/h2&gt;
-&lt;p&gt;Together AI 在 113 个 DeepSWE 任务上完成 900 次 rollout：GLM-5.3 与 Flash 的 pass@1 分别为 69.0% 和 63.4%，pass@4 收敛到 87.6% 和 85.0%；单次平均成本则为 3.99 美元与 0.24 美元。先跑 Flash、测试失败再升级完整模型的级联方案达到 80.9%、每任务 1.70 美元。不过 Flash 打破既有通过测试的比例为 6.9%，高于完整模型的 4.4%。结果支持“便宜模型先跑+验证器路由”，但仍是厂商在单一基准上的运行。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2093904558405586996&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2093549698615234719&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;411-kimi-k3-进入-cursor由三家美国推理伙伴托管并支持零数据保留&quot;&gt;4/11 Kimi K3 进入 Cursor，由三家美国推理伙伴托管并支持零数据保留&lt;/h2&gt;
-&lt;p&gt;Moonshot 转发 Cursor 公告称 Kimi K3 已进入 Cursor，推理由 Fireworks、Together 和 Baseten 的美国基础设施提供，并支持 Zero Data Retention。Cursor 称其在内部 CursorBench 上接近前沿水平；该基准来自真实编码会话，覆盖正确性、代码质量、效率与交互行为，并会定期刷新。公告没有在推文中公开 K3 的具体分数、延迟或价格，因此“接近前沿”仍是平台内部评测结论，实际表现需按仓库、语言与长任务独立验证。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Kimi_Moonshot/status/2093851949892518010&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Kimi_Moonshot&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cursor_ai/status/2093537201296683300&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;511-openaicursor-争议继续推动-agent-产品拆分模型与执行框架&quot;&gt;5/11 OpenAI–Cursor 争议继续推动 Agent 产品拆分模型与执行框架&lt;/h2&gt;
-&lt;p&gt;在 Cursor 失去 OpenAI 前沿模型直连的讨论后，LangChain 联合创始人 Harrison Chase 把“模型与 harness 分离”列为构建 Agent 的首要原则之一，David Ha 则强调模型韧性：底层模型离线时，产品应通过多模型路由继续工作。两条观点都把竞争焦点从单一模型能力转向独立工具层、状态管理、评测、可观测性和降级路径。它们是工程主张而非新产品发布，但直接反映供应合同变化如何转化为 Agent 架构要求。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2093823406873756060&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hardmaru/status/2093645701192544514&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hardmaru&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;611-ai-视频从单模型演示转向多模型制作与同提示横评&quot;&gt;6/11 AI 视频从单模型演示转向多模型制作与同提示横评&lt;/h2&gt;
-&lt;p&gt;一段由 Runway 多种模型组合制作的视频在 X 抓取时获得超过 430 万次观看，发布者随后明确它不是单一模型直出；Pika 同时用相同输入并排展示 Gemini Omni 1.1 Flash、Seedance 2.5 与 Wan 3.0 的商品开箱结果。两组内容说明视频工作流正把生成、编辑、镜头连续性和风格选择拆给不同模型，并通过同提示横评选片。社交观看量与单个样例不能替代系统画质、成本和失败率评测。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@LinusEkenstam&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/LinusEkenstam/status/2093718358503969254&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@LinusEkenstam 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/LinusEkenstam/status/2093679060354261438&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@LinusEkenstam 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/pika_labs/status/2093538706036834614&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@pika_labs&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;711-vibe-coding-的目标从大众软件转向只服务一个人的长尾工具&quot;&gt;7/11 Vibe coding 的目标从“大众软件”转向只服务一个人的长尾工具&lt;/h2&gt;
-&lt;p&gt;Linus Ekenstam 提出，vibe coding 的核心并非为大规模受众复制传统 SaaS，而是让用户为自己或极小群体构建有价值的软件。当生成成本持续下降，过去因市场太小而不会立项的日程、数据整理、个人知识与小型自动化工具也可能被生产出来。这个判断描述的是供给侧变化，尚未回答维护、权限、安全、数据迁移和长期可用性由谁承担；个人软件是否形成稳定生态仍取决于这些非生成成本。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/LinusEkenstam/status/2094058295275246012&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@LinusEkenstam&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;811-ai-让日本式系统集成重新成为软件交付的稀缺环节&quot;&gt;8/11 AI 让日本式系统集成重新成为软件交付的稀缺环节&lt;/h2&gt;
-&lt;p&gt;David Ha 认为，硅谷过去把日本 System Integration 文化视为难扩展的顾问模式，但在代码生成越来越充裕后，稀缺工作正从“写出系统”转向把模型、数据、身份、旧系统和业务流程整合为可运行服务。这个观点把 Agent 时代的软件公司描述为“AI 增强的 SIer”：自动化代码生产，同时保留需求澄清、接口治理、部署与责任归属。它是行业判断而非量化研究，但与当天关于模型—harness 分离的讨论形成同一方向。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hardmaru/status/2094036158766571596&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hardmaru&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;911-通用智能争论转向面对新问题时能否生成并验证新推理&quot;&gt;9/11 “通用智能”争论转向面对新问题时能否生成并验证新推理&lt;/h2&gt;
-&lt;p&gt;François Chollet 把通用智能定义为：无论面对什么新问题，都能现场理解并适应，而不是预先掌握所有任务。Yoav Goldberg 进一步追问，模型是在上下文中选择并复述见过的推理模式，还是能产生并验证真正新颖的推理；他也承认“新颖推理”的边界难以定义。两人的讨论把评测重点从知识覆盖率转向分布外适应、反例搜索与可验证性，但当前推文没有给出可操作的新基准。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/fchollet/status/2093873781374923090&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;/a&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@yoavgo&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/yoavgo/status/2093929327519789387&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@yoavgo 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/yoavgo/status/2093937174987014563&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@yoavgo 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1011-面向用户的低价模型选择开始被视为内容质量与时间成本问题&quot;&gt;10/11 面向用户的低价模型选择开始被视为内容质量与时间成本问题&lt;/h2&gt;
-&lt;p&gt;Ethan Mollick 认为，若企业为节省几美分而用较弱模型生成面向人的错误、冗长内容，用户可能把它理解为对阅读时间的不尊重。这个观点把模型路由从纯 API 成本问题扩展到接收者成本：便宜输出若需要更多核查、重写和沟通，系统总成本可能反而上升。当天 GLM-5.3/Flash 数据也显示，低价模型适合有自动测试与重试的管线；无法验证的人类沟通场景则更依赖首轮质量。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2093823173619769806&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1111-硬科幻作者对-llm-的反感集中在能力判断版权与生存风险三类理由&quot;&gt;11/11 硬科幻作者对 LLM 的反感集中在能力判断、版权与生存风险三类理由&lt;/h2&gt;
-&lt;p&gt;Ethan Mollick 浏览多位自己喜爱的硬科幻作者网页后称，多数作者对 LLM 持负面态度：最常见理由是把模型视作无用的“随机鹦鹉”，其次是知识产权问题，少数关注存在性风险。这个观察不是系统抽样，不能代表整个作家群体，但它展示了技术圈与创作者社群的分歧并非只有训练数据版权，还包括对模型是否具有实际能力的根本判断；生成内容质量、署名与补偿机制仍是争议交点。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2093819069552021740&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;gemini-co-scientist执行落地提升可信度但没有取消人类与物理验证&quot;&gt;Gemini Co-Scientist：执行落地提升可信度，但没有取消人类与物理验证&lt;/h3&gt;
-&lt;p&gt;系统以进化式多 Agent 流程完成假设生成、代码实验和论文写作，并把日志核验、引用交叉检查与安全过滤嵌入闭环。材料实验仍由人类操作与优化，生物任务由专家反复定义问题，只有计算机科学部分实现较完整自治；这说明“自治程度”取决于实验表面，而不是单一模型标签。论文中严重编造从无约束基线的 74% 降至 2%，高严重度衍生内容从 60% 降至 16%，但跨实验室复现尚未完成，幻觉与危险计划通过率也未降为零。结果支持执行日志和外部实验反馈是 AI 科研可信度的关键边界。
-&lt;a href=&quot;https://arxiv.org/abs/2608.26701&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;microduck把动作策略变成可下载训练与分享的开放对象&quot;&gt;Microduck：把动作策略变成可下载、训练与分享的开放对象&lt;/h3&gt;
-&lt;p&gt;Microduck 的差异不只在 399 美元价格，而在开放的 SDK、MuJoCo 数字孪生、强化学习训练与 sim-to-real 部署链。用户可修改内置的七类动作策略，在仿真中训练后部署到同一实体硬件，并把行为、环境和训练配方共享给社区。25 厘米、约 800 克的体型降低失败试验的安全与设备成本，自恢复又减少人工复位。首日订单与集中出现的自定义步态、后空翻和恢复演示说明开发者需求存在，但预售金额不等于长期活跃开发者，真正的生态指标将是可复现策略数量、硬件交付质量和社区维护速度。
-&lt;a href=&quot;https://pollen-robotics.com/microduck/blog/introducing-microduck/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;glm-53-路由蒸馏主要损失一致性测试与重试可把成本优势兑现&quot;&gt;GLM-5.3 路由：蒸馏主要损失一致性，测试与重试可把成本优势兑现&lt;/h3&gt;
-&lt;p&gt;在 Together 的 900 次 DeepSWE rollout 中，Flash 单次成功率低 5.6 个点，但四次尝试后的差距只剩 2.6 个点；完整模型至少解决过的 99 个任务里，Flash 仍覆盖 93 个。于是“先 Flash、验证失败再升级”的级联达到 80.9%、每任务 1.70 美元，相比完整模型单次的 69.0%、3.99 美元更高也更便宜。代价是 Flash 更容易破坏原本通过的测试，比例为 6.9% 对 4.4%。因此路由收益依赖可靠验证器：有测试的编码任务可以用重试买回一致性，没有客观验收标准的任务不能照搬这一结论。
-&lt;a href=&quot;https://www.together.ai/blog/glm-5-3-vs-glm-5-3-flash-on-deepswe-cost-coding-and-routing&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 30 Aug 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/08/30/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/08/30/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>五粮液2026年半年报——营收284亿增20.9%、净利87.5亿增89.3%，但经营现金流转为负21.5亿</title>
-        <description>&lt;p&gt;2026年8月29日，&lt;a href=&quot;http://www.wuliangye.com.cn/&quot;&gt;五粮液&lt;/a&gt;（深交所 000858）披露了2026年半年度报告。&lt;/p&gt;
-
-&lt;p&gt;先看两个最抓眼球的数字：&lt;strong&gt;上半年营业收入284.17亿元，同比增长20.87%；归属于上市公司股东的净利润87.53亿元，同比增长89.30%。&lt;/strong&gt; 在白酒行业连续调整之后，一家头部酒企半年利润接近翻倍，看上去像是拐点到了。&lt;/p&gt;
-
-&lt;p&gt;但报告里还有另一个数字：&lt;strong&gt;经营活动产生的现金流量净额为负21.54亿元&lt;/strong&gt;，而上年同期是正311.37亿元，同比下降106.92%。&lt;/p&gt;
-
-&lt;p&gt;一边是利润翻倍，一边是现金流转负。这份财报真正值得读的地方，就在这两个数字的落差里。&lt;/p&gt;
-
-&lt;h2 id=&quot;公司基础五粮液到底在卖什么&quot;&gt;公司基础：五粮液到底在卖什么&lt;/h2&gt;
-
-&lt;p&gt;五粮液是浓香型白酒的代表企业，主业只有一件事——酿酒和卖酒。产品分成两大块：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;五粮液产品&lt;/strong&gt;：以第八代五粮液为核心大单品，加上经典五粮液、五粮液1618、39度五粮液、紫气东来等，属于高端和次高端价格带；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;其他酒产品&lt;/strong&gt;（公司内部叫「五粮浓香」）：五粮春、五粮醇、五粮特头曲、绵柔尖庄等，覆盖中低价位带。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;销售上以经销为主、直销为辅，经销采用「先款后货」结算——&lt;strong&gt;这一点很重要：经销商愿不愿意提前打款，直接决定了报表上的现金流和预收款&lt;/strong&gt;，也是观察渠道信心最灵敏的指标。&lt;/p&gt;
-
-&lt;p&gt;截至报告期末，公司酒类设计年产能21.03万吨，上半年实际产能9.44万吨，另有4.4万吨在建产能；库存成品酒4.93万吨，半成品酒（含陶坛基酒）26.54万吨。&lt;/p&gt;
-
-&lt;h2 id=&quot;核心财务数据利润是怎么涨起来的&quot;&gt;核心财务数据：利润是怎么涨起来的&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标（2026H1）&lt;/th&gt;
-      &lt;th&gt;金额&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业收入&lt;/td&gt;
-      &lt;td&gt;284.17亿元&lt;/td&gt;
-      &lt;td&gt;+20.87%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母净利润&lt;/td&gt;
-      &lt;td&gt;87.53亿元&lt;/td&gt;
-      &lt;td&gt;+89.30%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;扣非归母净利润&lt;/td&gt;
-      &lt;td&gt;84.83亿元&lt;/td&gt;
-      &lt;td&gt;+83.96%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营活动现金流净额&lt;/td&gt;
-      &lt;td&gt;-21.54亿元&lt;/td&gt;
-      &lt;td&gt;-106.92%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;基本每股收益&lt;/td&gt;
-      &lt;td&gt;2.2551元&lt;/td&gt;
-      &lt;td&gt;+89.31%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;加权平均净资产收益率&lt;/td&gt;
-      &lt;td&gt;7.14%&lt;/td&gt;
-      &lt;td&gt;增加3.73个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总资产（期末）&lt;/td&gt;
-      &lt;td&gt;1850.00亿元&lt;/td&gt;
-      &lt;td&gt;较年初 -2.62%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母净资产（期末）&lt;/td&gt;
-      &lt;td&gt;1184.80亿元&lt;/td&gt;
-      &lt;td&gt;较年初 -1.21%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;利润增速（89%）远高于收入增速（21%），差额从哪来？把利润表拆开看，答案相当清楚：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;利润表项目&lt;/th&gt;
-      &lt;th&gt;2026H1&lt;/th&gt;
-      &lt;th&gt;2025H1&lt;/th&gt;
-      &lt;th&gt;变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业收入&lt;/td&gt;
-      &lt;td&gt;284.17亿元&lt;/td&gt;
-      &lt;td&gt;235.10亿元&lt;/td&gt;
-      &lt;td&gt;+49.07亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业成本&lt;/td&gt;
-      &lt;td&gt;55.99亿元&lt;/td&gt;
-      &lt;td&gt;52.04亿元&lt;/td&gt;
-      &lt;td&gt;+3.96亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;税金及附加&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;42.07亿元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;78.52亿元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-36.45亿元&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;销售费用&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;63.22亿元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;34.99亿元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+28.23亿元&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;管理费用&lt;/td&gt;
-      &lt;td&gt;15.03亿元&lt;/td&gt;
-      &lt;td&gt;17.12亿元&lt;/td&gt;
-      &lt;td&gt;-2.09亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;利润总额&lt;/td&gt;
-      &lt;td&gt;119.97亿元&lt;/td&gt;
-      &lt;td&gt;63.79亿元&lt;/td&gt;
-      &lt;td&gt;+56.18亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;所得税费用&lt;/td&gt;
-      &lt;td&gt;30.01亿元&lt;/td&gt;
-      &lt;td&gt;14.99亿元&lt;/td&gt;
-      &lt;td&gt;+15.02亿元&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;「税金及附加」一项就少交了36.45亿元。&lt;/strong&gt; 白酒的税金及附加主要是消费税及附加，跟生产量、销售结构和缴纳节奏都有关系——上年同期这一项占收入高达33.4%，今年降到14.8%。也就是说，如果这一项保持去年的比例，今年的利润总额会少掉三十多亿。这是理解「利润接近翻倍」时必须打上的一个折扣。&lt;/p&gt;
-
-&lt;p&gt;公司自己在报告里对利润大增的解释也很直白：&lt;strong&gt;「主要系上年同期利润基数较低，及元春期间采取了有效的动销举措」&lt;/strong&gt;。换句话说，这是低基数上的修复，不是新高。&lt;/p&gt;
-
-&lt;p&gt;多低的基数？报告披露的口径调整表给出了参照：2025年上半年酒类产品收入217.94亿元，同比下降53.74%。据此倒推，2024年上半年酒类收入约471亿元——今年上半年的268.67亿元，还不到两年前同期的六成。&lt;/p&gt;
-
-&lt;h2 id=&quot;分产品高端在恢复中低端在塌方&quot;&gt;分产品：高端在恢复，中低端在塌方&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;酒类产品（2026H1）&lt;/th&gt;
-      &lt;th&gt;收入&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-      &lt;th&gt;毛利率&lt;/th&gt;
-      &lt;th&gt;毛利率变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;五粮液产品&lt;/td&gt;
-      &lt;td&gt;236.32亿元&lt;/td&gt;
-      &lt;td&gt;+72.84%&lt;/td&gt;
-      &lt;td&gt;87.91%&lt;/td&gt;
-      &lt;td&gt;-4.06个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其他酒产品&lt;/td&gt;
-      &lt;td&gt;32.35亿元&lt;/td&gt;
-      &lt;td&gt;-60.17%&lt;/td&gt;
-      &lt;td&gt;60.47%&lt;/td&gt;
-      &lt;td&gt;-8.03个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;酒类合计&lt;/td&gt;
-      &lt;td&gt;268.67亿元&lt;/td&gt;
-      &lt;td&gt;+23.27%&lt;/td&gt;
-      &lt;td&gt;84.61%&lt;/td&gt;
-      &lt;td&gt;+1.39个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;销量数据把这个分化说得更透：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;销量（吨）&lt;/th&gt;
-      &lt;th&gt;2026H1&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;五粮液产品&lt;/td&gt;
-      &lt;td&gt;16,292&lt;/td&gt;
-      &lt;td&gt;+88.26%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其他酒产品&lt;/td&gt;
-      &lt;td&gt;31,181&lt;/td&gt;
-      &lt;td&gt;-63.75%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;期末库存合计&lt;/td&gt;
-      &lt;td&gt;49,291&lt;/td&gt;
-      &lt;td&gt;+22.16%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;核心大单品在放量恢复，中低价位酒几乎腰斩再腰斩。&lt;/strong&gt; 公司对其他酒产品下滑的解释是「中低价位酒存量竞争加剧」——大白话就是，中低端白酒市场卷得太厉害，价格战之下公司主动收缩了。&lt;/p&gt;
-
-&lt;p&gt;值得注意的是，五粮液产品收入涨72.84%的同时，&lt;strong&gt;营业成本涨了160.15%&lt;/strong&gt;，毛利率因此掉了4.06个百分点。成本涨得比收入快，通常意味着两种情况：产品结构下移（卖得更多的是价格更低的型号），或者出厂端的实际让利增加了。&lt;/p&gt;
-
-&lt;p&gt;按销售模式看，&lt;strong&gt;经销模式收入184.76亿元、同比增长36.33%，直销模式83.91亿元、只增长1.81%&lt;/strong&gt;。直销（团购、专卖店、电商）几乎没动，增量基本靠经销渠道压货和动销拉动。&lt;/p&gt;
-
-&lt;h2 id=&quot;三个需要盯住的隐忧&quot;&gt;三个需要盯住的隐忧&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，促销费翻了近两倍。&lt;/strong&gt; 销售费用63.22亿元、同比增长80.65%，其中促销费44.92亿元、同比增长169.85%，占销售费用的71%。公司解释是「根据市场变化加大了市场投入」。相当于每收到100元营业收入，就有约22.2元花在销售费用上，上年同期这个比例是14.9元。&lt;strong&gt;收入增长有相当一部分是花钱买来的。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，渠道在收缩，预收款在减少。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;渠道指标&lt;/th&gt;
-      &lt;th&gt;期末&lt;/th&gt;
-      &lt;th&gt;变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;五粮液经销商&lt;/td&gt;
-      &lt;td&gt;2,340家&lt;/td&gt;
-      &lt;td&gt;同比减少170家&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;五粮浓香经销商&lt;/td&gt;
-      &lt;td&gt;1,137家&lt;/td&gt;
-      &lt;td&gt;同比增加60家&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;专卖店&lt;/td&gt;
-      &lt;td&gt;1,699家&lt;/td&gt;
-      &lt;td&gt;较期初减少64家&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;合同负债（预收款）&lt;/td&gt;
-      &lt;td&gt;104.41亿元&lt;/td&gt;
-      &lt;td&gt;较年初的134.60亿元减少30.19亿元&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;合同负债就是经销商提前打进来、公司还没发货确认收入的钱，是白酒行业公认的「蓄水池」和景气度先行指标。&lt;strong&gt;半年少了30亿元，说明渠道打款意愿在下降。&lt;/strong&gt; 与此同时，前五大经销商贡献销售收入101.95亿元，占销售总额的35.87%——渠道集中度不低。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，现金流的质量。&lt;/strong&gt; 公司对经营现金流转负的解释是「上年同期基数较高，本报告期根据市场变化调整了收款政策收取的现金减少、银行承兑汇票到期额度同比减少」。「调整收款政策」是关键——&lt;strong&gt;过去必须先款后货，现在为了帮经销商减压，实际收款条件放松了&lt;/strong&gt;。利润表上的收入照记，钱却没同步进账。&lt;/p&gt;
-
-&lt;p&gt;另外，公司在利润接近翻倍的这个半年，&lt;strong&gt;明确不派发中期现金红利、不送红股、不转增股本&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;展望这是复苏还是低基数上的一次反弹&quot;&gt;展望：这是复苏，还是低基数上的一次反弹&lt;/h2&gt;
-
-&lt;p&gt;把这份财报的正反面摆在一起：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;正面&lt;/strong&gt;：核心大单品五粮液产品销量增长88%，收入增长73%，说明第八代五粮液、经典五粮液、低度产品这条线的动销确实在恢复；毛利率84.61%仍处于行业极高水平；账上利息收入10.57亿元、财务费用为-10.34亿元，公司完全没有偿债压力；新增专卖店59家、终端扩容至75万余家，渠道在做结构调整而不是单纯萎缩。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;反面&lt;/strong&gt;：利润增速里有很大一块来自税金及附加的减少和上年低基数，可持续性存疑；促销费同比接近三倍，增长的成本在抬升；预收款和经销商数量同步下滑，渠道端并没有跟着报表一起变热；经营现金流转负，是这份财报里最刺眼的一处。&lt;/p&gt;
-
-&lt;p&gt;参照行业龙头的情况会更清楚：据新华网报道，贵州茅台2026年上半年总营收922.78亿元、同比增长1.3%，归母净利润445.17亿元、同比下降1.95%，出现近十年来首次中期净利下滑。&lt;strong&gt;行业老大在微降，老二在低基数上大涨——这说明白酒的调整还没结束，只是不同公司处在周期的不同位置上。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;对普通读者来说，这份财报最值得记住的一句话是：&lt;strong&gt;看白酒公司别只看利润，要看现金流和合同负债。&lt;/strong&gt; 利润可以由税费节奏和低基数推高，但经销商愿不愿意提前把钱打过来，骗不了人。&lt;/p&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;五粮液《2026年半年度报告》全文（巨潮资讯网）：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-29/1225531252.PDF&quot;&gt;http://static.cninfo.com.cn/finalpage/2026-08-29/1225531252.PDF&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;五粮液《2026年半年度报告摘要》（巨潮资讯网，公告编号2026/第041号）：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-29/1225531251.PDF&quot;&gt;http://static.cninfo.com.cn/finalpage/2026-08-29/1225531251.PDF&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;巨潮资讯网信息披露平台：&lt;a href=&quot;http://www.cninfo.com.cn/&quot;&gt;http://www.cninfo.com.cn/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;背景补充：新华网《贵州茅台发布半年报：总营收约922.78亿元》 &lt;a href=&quot;https://www.news.cn/enterprise/20260814/7685c37162e94be69135af12ac59aaf6/c.html&quot;&gt;https://www.news.cn/enterprise/20260814/7685c37162e94be69135af12ac59aaf6/c.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 30 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/30/wuliangye_2026h1_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/30/wuliangye_2026h1_earnings/</guid>
-        
-        <category>五粮液</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>美的集团2026年半年报——营收2600亿增3.55%、净利264亿增1.66%，扣非净利却大降25.3%</title>
-        <description>&lt;p&gt;2026年8月29日，&lt;a href=&quot;https://www.midea.com.cn/&quot;&gt;美的集团&lt;/a&gt;（深交所 000333、港交所 00300）披露2026年半年度报告。&lt;/p&gt;
-
-&lt;p&gt;标题数字很平淡：&lt;strong&gt;上半年营业收入2600.42亿元，同比增长3.55%；归属于上市公司股东的净利润264.46亿元，同比增长1.66%。&lt;/strong&gt; 一家半年收入就有2600亿元的制造业巨头，收入和利润都是个位数增长，看起来只是「稳」。&lt;/p&gt;
-
-&lt;p&gt;但报告里紧跟着的第三个数字不太一样：&lt;strong&gt;扣除非经常性损益后的归母净利润195.95亿元，同比下降25.31%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;净利润涨1.66%，扣非净利润跌25.31%——两个数字差了近70亿元。这是这份财报里最需要解释清楚的地方。&lt;/p&gt;
-
-&lt;h2 id=&quot;先把扣非这件事讲明白&quot;&gt;先把「扣非」这件事讲明白&lt;/h2&gt;
-
-&lt;p&gt;「扣非净利润」是指剔除掉那些不属于日常经营、偶发性的损益之后的利润，通常被认为更能反映一家公司的真实经营能力。正常情况下，两者不会差这么多。&lt;/p&gt;
-
-&lt;p&gt;美的在报告里给出了明确解释：&lt;strong&gt;2026年上半年人民币汇率持续走高，公司外币货币性项目产生的汇率损失被归属于经常性损益，而用于管理这些外汇风险所持有的衍生金融工具产生的收益被归属于非经常性损益。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;翻译成大白话：美的海外收入占比超过四成，账上有大量美元等外币资产。人民币升值时，这些外币资产换算成人民币会缩水，产生汇兑损失——这笔损失算在「经常性」里。为了对冲这个风险，公司买了外汇衍生品，人民币升值时衍生品赚钱——但这笔收益按会计规则算在「非经常性」里。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;一亏一赚本是同一件事的两面，会计上却被拆到了两个口袋里。&lt;/strong&gt; 结果就是扣非净利润被单方面压低。所以这次的扣非大降，更多是会计分类造成的，而不是主业塌了25%。但反过来说，这也提醒投资者：&lt;strong&gt;美的的利润表现在对汇率相当敏感&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;核心财务数据&quot;&gt;核心财务数据&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标（2026H1）&lt;/th&gt;
-      &lt;th&gt;金额&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业收入&lt;/td&gt;
-      &lt;td&gt;2600.42亿元&lt;/td&gt;
-      &lt;td&gt;+3.55%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母净利润&lt;/td&gt;
-      &lt;td&gt;264.46亿元&lt;/td&gt;
-      &lt;td&gt;+1.66%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;扣非归母净利润&lt;/td&gt;
-      &lt;td&gt;195.95亿元&lt;/td&gt;
-      &lt;td&gt;-25.31%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营活动现金流净额&lt;/td&gt;
-      &lt;td&gt;375.52亿元&lt;/td&gt;
-      &lt;td&gt;+0.73%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;基本每股收益&lt;/td&gt;
-      &lt;td&gt;3.52元&lt;/td&gt;
-      &lt;td&gt;+3.23%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;加权平均净资产收益率&lt;/td&gt;
-      &lt;td&gt;11.33%&lt;/td&gt;
-      &lt;td&gt;+0.04个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总资产（期末）&lt;/td&gt;
-      &lt;td&gt;6431.02亿元&lt;/td&gt;
-      &lt;td&gt;较年初 +5.64%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母净资产（期末）&lt;/td&gt;
-      &lt;td&gt;2128.61亿元&lt;/td&gt;
-      &lt;td&gt;较年初 -4.64%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;两个值得留意的细节：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;一是资产负债率上升。&lt;/strong&gt; 期末资产负债率64.89%，较上年末的61.17%上升3.72个百分点；归母净资产反而比年初减少了4.64%。报告期内公司持续实施股份回购（截至公告披露日，回购专户上已回购1.802亿股），叠加利润分配，是净资产不增反降的主要原因。同时公司的偿债指标依然扎实——利息保障倍数37.91倍，现金利息保障倍数91.32倍，都比去年更高。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;二是应收账款大幅增长。&lt;/strong&gt; 期末应收账款619.55亿元，占总资产9.63%；而上年末是404.50亿元、占比6.64%。半年增加了215亿元、增幅超过五成，明显快于3.55%的收入增速。存货则从646.29亿元降到554.41亿元。&lt;strong&gt;收入增长的一部分是先记账、后收钱的&lt;/strong&gt;，这是接下来几个季度需要跟踪的点。&lt;/p&gt;
-
-&lt;p&gt;分红方案：以扣除回购股份后的74.49亿股为基数，&lt;strong&gt;每10股派发现金5元（含税），合计派现37.24亿元&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;分业务家电稳住了工业技术在掉&quot;&gt;分业务：家电稳住了，工业技术在掉&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;分产品收入（2026H1）&lt;/th&gt;
-      &lt;th&gt;收入&lt;/th&gt;
-      &lt;th&gt;占比&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-      &lt;th&gt;毛利率&lt;/th&gt;
-      &lt;th&gt;毛利率变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;智能家居业务&lt;/td&gt;
-      &lt;td&gt;1743.41亿元&lt;/td&gt;
-      &lt;td&gt;67.04%&lt;/td&gt;
-      &lt;td&gt;+4.27%&lt;/td&gt;
-      &lt;td&gt;27.95%&lt;/td&gt;
-      &lt;td&gt;-0.57个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;商业及工业解决方案&lt;/td&gt;
-      &lt;td&gt;666.66亿元&lt;/td&gt;
-      &lt;td&gt;25.64%&lt;/td&gt;
-      &lt;td&gt;+3.30%&lt;/td&gt;
-      &lt;td&gt;20.84%&lt;/td&gt;
-      &lt;td&gt;-0.41个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;　楼宇科技&lt;/td&gt;
-      &lt;td&gt;216.25亿元&lt;/td&gt;
-      &lt;td&gt;8.32%&lt;/td&gt;
-      &lt;td&gt;+10.84%&lt;/td&gt;
-      &lt;td&gt;29.61%&lt;/td&gt;
-      &lt;td&gt;+0.28个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;　机器人与自动化&lt;/td&gt;
-      &lt;td&gt;166.21亿元&lt;/td&gt;
-      &lt;td&gt;6.39%&lt;/td&gt;
-      &lt;td&gt;+10.27%&lt;/td&gt;
-      &lt;td&gt;20.90%&lt;/td&gt;
-      &lt;td&gt;-1.86个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;　工业技术&lt;/td&gt;
-      &lt;td&gt;131.38亿元&lt;/td&gt;
-      &lt;td&gt;5.05%&lt;/td&gt;
-      &lt;td&gt;-12.72%&lt;/td&gt;
-      &lt;td&gt;14.75%&lt;/td&gt;
-      &lt;td&gt;-2.13个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其他业务&lt;/td&gt;
-      &lt;td&gt;152.82亿元&lt;/td&gt;
-      &lt;td&gt;5.88%&lt;/td&gt;
-      &lt;td&gt;+2.55%&lt;/td&gt;
-      &lt;td&gt;13.58%&lt;/td&gt;
-      &lt;td&gt;+0.03个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其他&lt;/td&gt;
-      &lt;td&gt;190.36亿元&lt;/td&gt;
-      &lt;td&gt;7.32%&lt;/td&gt;
-      &lt;td&gt;-1.80%&lt;/td&gt;
-      &lt;td&gt;16.07%&lt;/td&gt;
-      &lt;td&gt;+0.88个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;智能家居&lt;/strong&gt;（空调、冰洗、厨电、小家电等）依然是绝对基本盘，占收入超过三分之二，增长4.27%，毛利率小幅下滑。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;楼宇科技&lt;/strong&gt;（暖通空调、电梯、楼控、综合能源管理）增长10.84%，是增速最快且毛利率唯一改善的板块，数据中心等场景是重要拉动力。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;机器人与自动化&lt;/strong&gt;（主体是库卡）增长10.27%。报告披露，据MIR睿工业统计，&lt;strong&gt;库卡工业机器人上半年在中国市场出货量超过18,000台，国内市场销量份额9.7%，升至行业第二位；300kg以上重载机器人国内份额突破50%。&lt;/strong&gt; 但这块业务毛利率下滑1.86个百分点，是所有板块中降幅最大的——份额是靠价格换来的一部分。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;工业技术&lt;/strong&gt;（压缩机、电机、芯片、新能源车部件等核心零部件）收入下滑12.72%、毛利率下滑2.13个百分点，是唯一收入负增长的板块。&lt;/p&gt;
-
-&lt;h2 id=&quot;分地区海外贡献了主要增量&quot;&gt;分地区：海外贡献了主要增量&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;分地区收入&lt;/th&gt;
-      &lt;th&gt;2026H1&lt;/th&gt;
-      &lt;th&gt;占比&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-      &lt;th&gt;毛利率&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;国内&lt;/td&gt;
-      &lt;td&gt;1469.15亿元&lt;/td&gt;
-      &lt;td&gt;56.50%&lt;/td&gt;
-      &lt;td&gt;+2.07%&lt;/td&gt;
-      &lt;td&gt;24.46%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;海外&lt;/td&gt;
-      &lt;td&gt;1131.27亿元&lt;/td&gt;
-      &lt;td&gt;43.50%&lt;/td&gt;
-      &lt;td&gt;+5.54%&lt;/td&gt;
-      &lt;td&gt;26.28%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;海外增速是国内的2.7倍，占比从42.69%升至43.50%，&lt;strong&gt;而且海外毛利率（26.28%）比国内（24.46%）还高1.8个百分点&lt;/strong&gt;——这在中国制造业出海的故事里并不常见，通常出海意味着以价换量。&lt;/p&gt;
-
-&lt;p&gt;报告给出的解释是自有品牌（OBM）转型：&lt;strong&gt;2026年上半年OBM业务收入已达到智能家居业务海外收入的50%以上&lt;/strong&gt;，主力品牌为东芝、美的和Comfee。做自己的品牌，而不是给别人代工，毛利率自然更高。&lt;/p&gt;
-
-&lt;p&gt;配套的全球化数据：68个主要生产基地中45个位于海外，在11个国家设有29个海外研发中心，海外员工近5万人，约5,500个售后服务网点，产品出口至200多个国家和地区。&lt;/p&gt;
-
-&lt;p&gt;资本运作上也在为出海铺路：&lt;strong&gt;2026年5月，公司通过全资境外子公司发行了两笔各86.24亿港元的零息有担保可转换债券&lt;/strong&gt;（分别于2027年、2033年到期，可转换为公司H股），募集资金净额的约60%将用于国际扩张及提升海外流动性。&lt;/p&gt;
-
-&lt;h2 id=&quot;一个容易被忽略的看点ai用在了自己身上&quot;&gt;一个容易被忽略的看点：AI用在了自己身上&lt;/h2&gt;
-
-&lt;p&gt;家电公司谈AI，通常是在说产品智能化。美的这份报告里更值得注意的是内部效率：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;员工自主搭建的智能体累计突破2万个，上半年&lt;strong&gt;提效超过900万小时，降本超过4.5亿元&lt;/strong&gt;；&lt;/li&gt;
-  &lt;li&gt;发布基于OpenClaw自研的「小美」员工AI助手，超过13,000人完成智能体认证；&lt;/li&gt;
-  &lt;li&gt;基于云仓数据本体与Data Agent的共享决策闭环，&lt;strong&gt;库存周转效率提升4.4%&lt;/strong&gt;；&lt;/li&gt;
-  &lt;li&gt;外销端自研AI装载规划智能体，综合提效60%以上；海外仓储作业效率提升35%，物流综合成本同比下降8%。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;对一家员工超过19万人的制造企业来说，把AI落到订单、排产、补货、报关、装载这些具体环节上，比在发布会上讲「AI家电」更能影响财报。&lt;/p&gt;
-
-&lt;h2 id=&quot;亮点与隐忧&quot;&gt;亮点与隐忧&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;亮点&lt;/strong&gt;：海外收入增长快于国内且毛利率更高，OBM占比过半，说明全球化质量在提升；楼宇科技和机器人与自动化双双两位数增长，库卡在中国市场升至第二；经营现金流375.52亿元，仍高于净利润，造血能力扎实；ROE维持在11.33%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;隐忧&lt;/strong&gt;：整体收入增速只有3.55%，家电主业已进入低增长状态；工业技术板块收入两位数下滑；应收账款半年增加215亿元、增速远超收入；毛利率在多数板块小幅下滑；利润对汇率的敏感度在这个半年被暴露得非常充分。&lt;/p&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;p&gt;这是一份「稳中带压」的财报。&lt;strong&gt;美的的经营基本盘没有问题——现金流、ROE、偿债指标都健康&lt;/strong&gt;；真正的变化在结构上：增长引擎正从国内家电切换到海外自有品牌和楼宇、机器人这些To B业务，而核心零部件业务在承压。&lt;/p&gt;
-
-&lt;p&gt;至于那个吓人的「扣非净利润下降25.31%」，读懂了汇率与衍生品的会计分类之后，它更像一个提醒而不是警报：&lt;strong&gt;当一家公司四成以上收入来自海外时，汇率就不再是财务附注里的小字，而是利润表上的主角之一。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;美的集团《2026年半年度报告》全文（巨潮资讯网）：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-29/1225531404.PDF&quot;&gt;http://static.cninfo.com.cn/finalpage/2026-08-29/1225531404.PDF&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;美的集团《2026年半年度报告摘要》（巨潮资讯网，公告编号2026-063）：&lt;a href=&quot;http://static.cninfo.com.cn/finalpage/2026-08-29/1225531403.PDF&quot;&gt;http://static.cninfo.com.cn/finalpage/2026-08-29/1225531403.PDF&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;巨潮资讯网信息披露平台：&lt;a href=&quot;http://www.cninfo.com.cn/&quot;&gt;http://www.cninfo.com.cn/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 30 Aug 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/30/midea_2026h1_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/30/midea_2026h1_earnings/</guid>
-        
-        <category>美的集团</category>
         
         <category>大公司数据观察</category>
         

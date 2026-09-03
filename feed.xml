@@ -5,9 +5,433 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 02 Sep 2026 11:08:54 +0800</pubDate>
-    <lastBuildDate>Wed, 02 Sep 2026 11:08:54 +0800</lastBuildDate>
+    <pubDate>Thu, 03 Sep 2026 09:16:42 +0800</pubDate>
+    <lastBuildDate>Thu, 03 Sep 2026 09:16:42 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>博通2026财年Q3电话会——陈福阳给出2027财年AI收入1150亿美元展望，并首次点名Anthropic和OpenAI的部署规模</title>
+        <description>&lt;p&gt;美东时间2026年9月2日下午2点（北京时间9月3日凌晨5点），&lt;a href=&quot;https://investors.broadcom.com/&quot;&gt;博通&lt;/a&gt;在发布2026财年三季报后召开业绩电话会。出席的管理层是总裁兼CEO &lt;strong&gt;陈福阳&lt;/strong&gt;（Hock Tan）、首席财务官 &lt;strong&gt;Amie Thuener&lt;/strong&gt;，以及半导体解决方案集团总裁 &lt;strong&gt;Charlie Kawwas&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;财报本身已经足够惊人（营收296亿美元同比增长86%，AI收入167亿美元同比增长221%，详见&lt;a href=&quot;/blog/2026/09/03/broadcom_fy2026q3_earnings/&quot;&gt;财报解读&lt;/a&gt;）。但这场电话会给出的信息，量级还要更大一档。&lt;/p&gt;
+
+&lt;p&gt;陈福阳在准备好的发言里，把博通未来两年的AI收入直接说了出来，还罕见地把每个大客户的部署规模逐个点名。这在以「不谈客户名字」著称的博通身上，是相当反常的。&lt;/p&gt;
+
+&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-两年内ai收入要翻两番&quot;&gt;1. 两年内AI收入要翻两番&lt;/h2&gt;
+
+&lt;p&gt;这是全场最重的一句话。陈福阳说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「在2027年，我们已经锁定了供应，可以让AI收入再翻一倍，达到约1150亿美元。」&lt;/p&gt;
+
+  &lt;p&gt;（In 2027, we have secured the supply to again double AI revenue to approximately $115 billion.）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;对2028财年，他给出：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们预计2028财年AI半导体收入将再翻一倍，达到2300亿美元。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;先感受一下这个数字的量级。博通2026财年前三季度总营收710.89亿美元，加上四季度指引的约348亿美元，全财年总营收约&lt;strong&gt;1059亿美元&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;也就是说，管理层认为2027财年光是AI半导体一项业务的收入，就会超过2026财年整个公司的总营收。&lt;/strong&gt; 而2028财年的2300亿美元，将超过目前全球任何一家半导体公司的年营收规模。&lt;/p&gt;
+
+&lt;p&gt;按此推算，2026财年AI收入约为575亿美元（1150亿的一半），与三、四季度合计384亿美元的口径基本吻合。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-六家xpu客户逐个点名&quot;&gt;2. 六家XPU客户，逐个点名&lt;/h2&gt;
+
+&lt;p&gt;陈福阳说「我们的六家XPU客户正在加速采用定制加速器」，并给出了其中四家的部署细节：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;客户&lt;/th&gt;
+      &lt;th&gt;披露的部署计划&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;谷歌&lt;/td&gt;
+      &lt;td&gt;未来几年每年交付「数百亿美元」量级的TPU，TPU v8i正在量产爬坡&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Anthropic&lt;/td&gt;
+      &lt;td&gt;2026年部署1吉瓦Ironwood；2027年再部署5吉瓦TPU v8i；2028年新增10吉瓦&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;OpenAI&lt;/td&gt;
+      &lt;td&gt;代号Jalapeño的芯片2027年计划部署1.3吉瓦；到2028年Jalapeño及其后继代合计超过5吉瓦&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Meta&lt;/td&gt;
+      &lt;td&gt;MTIA三代产品持续到2027年，到2028年合计可见3吉瓦部署&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;小科普：这里的「吉瓦」（GW）是功率单位，1吉瓦大约相当于一座大型核电站的发电能力。AI行业现在习惯用「多少吉瓦」来衡量数据中心算力集群的规模，因为电力已经成了比芯片更稀缺的资源。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;陈福阳还提到，&lt;strong&gt;Anthropic有望在2027年成为博通最大的XPU客户，并在2028年保持这一地位。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这个信息量很大。一年前市场普遍认为博通的AI业务就是「谷歌TPU + Meta MTIA」，现在两家模型公司（Anthropic和OpenAI）直接排到了前列。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-每吉瓦对应200亿到300亿美元收入&quot;&gt;3. 每吉瓦对应200亿到300亿美元收入&lt;/h2&gt;
+
+&lt;p&gt;这是理解上面那些吉瓦数字的钥匙。回答Bernstein分析师Stacy Rasgon提问时，陈福阳说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们认为每吉瓦对应的博通产品价值应该保持在200亿到300亿美元的区间，即使每一代芯片都变得更强、更贵。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;逻辑是：新一代芯片更强也更贵，但单颗功耗也更高，所以同样一吉瓦里能装的芯片数量反而更少，一来一去，每吉瓦的「博通含量」大致稳定。&lt;/p&gt;
+
+&lt;h2 id=&quot;4-财务细节&quot;&gt;4. 财务细节&lt;/h2&gt;
+
+&lt;p&gt;CFO Amie Thuener补充了几个财报里没有单列的数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;半导体部门毛利率约76%&lt;/strong&gt;，部门经营利润率61%，同比提升440个基点&lt;/li&gt;
+  &lt;li&gt;基础设施软件收入87.5亿美元，同比增长29%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;四季度资本开支预计14亿美元&lt;/strong&gt;，用于扩产（三季度仅5.32亿美元，环比接近翻三倍）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;资本开支从5亿跳到14亿，是博通历史上罕见的动作。这家公司一向是「轻资产」代表——设计芯片、外包制造。现在它开始自己往产能上砸钱了。&lt;/p&gt;
+
+&lt;h1 id=&quot;二分析师问答中最有信息量的部分&quot;&gt;二、分析师问答中最有信息量的部分&lt;/h1&gt;
+
+&lt;h2 id=&quot;q1指引是不是太保守了瓶颈到底在哪joseph-moore摩根士丹利&quot;&gt;Q1：指引是不是太保守了？瓶颈到底在哪？（Joseph Moore，摩根士丹利）&lt;/h2&gt;
+
+&lt;p&gt;陈福阳的回答很直接：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们努力保守一些……就需求而言，我们可以出货得多得多。问题在于，即使我们把芯片发出去了，它们能不能被及时部署起来。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;翻译成大白话：芯片不是问题，数据中心盖不盖得完才是问题。&lt;/strong&gt; 制约博通的不是订单，也不是产能，而是客户那边的机房、电力、冷却设施能不能按时就位。&lt;/p&gt;
+
+&lt;p&gt;这句话解释了1150亿美元这个数字的性质——它不是「我们最多能卖这么多」，而是「我们估计客户最多能装这么多」。&lt;/p&gt;
+
+&lt;h2 id=&quot;q2基板供应和新加坡产能怎么办blayne-curtis杰富瑞&quot;&gt;Q2：基板供应和新加坡产能怎么办？（Blayne Curtis，杰富瑞）&lt;/h2&gt;
+
+&lt;p&gt;陈福阳回应：&lt;strong&gt;博通将从2027财年开始启用其新加坡工厂生产基板&lt;/strong&gt;，以缓解供应瓶颈。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;小科普：基板（substrate）是芯片和电路板之间的「转接层」，先进封装的关键材料之一。过去两年AI芯片的产能瓶颈很多时候不在晶圆，而在基板和CoWoS这类封装环节。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这与前面14亿美元的资本开支指引对上了——博通在为2027年的1150亿美元提前铺路。&lt;/p&gt;
+
+&lt;h2 id=&quot;q3tomahawk-6和tomahawk-ultra卖得怎么样harlan-sur摩根大通&quot;&gt;Q3：Tomahawk 6和Tomahawk Ultra卖得怎么样？（Harlan Sur，摩根大通）&lt;/h2&gt;
+
+&lt;p&gt;半导体业务总裁Charlie Kawwas回答：&lt;strong&gt;Tomahawk 6已在所有AI超大规模客户处部署&lt;/strong&gt;；新的Tomahawk Ultra面向「scale-up」低延迟以太网场景，采用速度「超出预期」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;小科普：AI集群的连接分两层——scale-up是一个机柜内芯片之间的高速互联（英伟达用的是NVLink），scale-out是机柜与机柜之间的连接（通常用以太网）。博通此前主导scale-out，Tomahawk Ultra是它第一次用以太网正面进攻scale-up这块英伟达的腹地。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;后来Barclays的Tom O’Malley追问Tomahawk Ultra和定制ASIC的搭配率，Kawwas补充：&lt;strong&gt;Tomahawk Ultra在XPU集群和GPU集群里都有部署&lt;/strong&gt;——也就是说，即使客户买的是英伟达GPU，网络部分也可能用博通的芯片。这是博通「两头通吃」的关键。&lt;/p&gt;
+
+&lt;h2 id=&quot;q4这些客户的钱从哪来博通承担多少风险vivek-arya美银&quot;&gt;Q4：这些客户的钱从哪来？博通承担多少风险？（Vivek Arya，美银）&lt;/h2&gt;
+
+&lt;p&gt;这是全场最尖锐的一问，也是本季电话会最重要的信息增量。陈福阳承认：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们只为其中两家客户搭建了融资工具，不是全部。另外四家客户在财务上足够稳健，可以自己出钱……这两家最终也会成为它们自己意义上的超大规模云厂商。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;结合上下文，这「两家」指的就是&lt;strong&gt;Anthropic和OpenAI&lt;/strong&gt;。管理层同时强调，融资安排主要由第三方承销，博通自身只提供「有限的残值担保」（modest residual value guarantees），资产负债表的直接敞口有限。&lt;/p&gt;
+
+&lt;h1 id=&quot;三解读这场电话会真正说了什么&quot;&gt;三、解读：这场电话会真正说了什么&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，博通把自己的估值锚从「财报」换成了「2028年」。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;给出跨越两个财年的具体收入目标，是一件风险很高的事。一旦某一年落空，信任会瞬间崩塌。管理层敢这么做，说明他们对已锁定的供应和订单有相当把握。但这也意味着，从今往后每个季度市场都会拿1150亿和2300亿来对表。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，有一个算术上的张力值得读者留意。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;按陈福阳自己给的「每吉瓦200亿到300亿美元」，光Anthropic在2027年的5吉瓦就对应1000亿到1500亿美元——已经接近甚至超过2027财年1150亿美元的AI收入总额。这两组数字只有在「部署周期跨越多年、收入分期确认」的前提下才能对上。换句话说，&lt;strong&gt;吉瓦数是部署年份，收入是确认年份，两者不能直接相乘。&lt;/strong&gt; 投资者在读这些数字时需要格外小心，不要简单做乘法。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，融资安排是最需要盯住的风险。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;博通给两家模型公司搭建融资工具，本质上是「我卖芯片给你，同时帮你借到买芯片的钱」。这种结构在半导体和电信行业历史上出现过多次，繁荣期一切顺利，一旦下游融资环境收紧，风险会顺着链条传回上游。陈福阳强调敞口有限、由第三方承销，这是对的，但&lt;strong&gt;当你最大的客户是一家尚未盈利、靠融资扩张的模型公司时，客户的信用风险就是你的收入风险。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这也是为什么财报如此炸裂、股价却在盘后下跌3.5%到6%的深层原因之一：市场对「1150亿美元」这个数字的第一反应不是兴奋，而是「这里面有多少是真金白银的订单，有多少是需要先帮客户融到钱才能实现的意向」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，非AI业务依然没有声音。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;整场电话会几乎没有讨论传统半导体（WiFi、宽带、机顶盒）和基础设施软件的增长故事。软件收入87.5亿美元、同比增长29%，被一句话带过。&lt;strong&gt;博通已经彻底变成了一只AI股票&lt;/strong&gt;，这既是它今年股价大涨的原因，也是它此后每一次波动都会被放大的原因。&lt;/p&gt;
+
+&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
+
+&lt;p&gt;这场电话会给出的三个关键判断：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;需求不是瓶颈，客户的数据中心建设速度才是。&lt;/strong&gt; 陈福阳说「我们可以出货得多得多」，把限制因素明确指向了外部。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;客户结构发生了根本变化。&lt;/strong&gt; Anthropic将在2027年成为最大XPU客户，模型公司取代了云厂商的位置。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;增长开始需要金融工具来推动。&lt;/strong&gt; 六家XPU客户里有两家需要博通帮忙搭建融资安排，这是这场电话会里最不该被忽略的一句话。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;博通2026财年三季度业绩电话会实录（Investing.com整理版）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-broadcom-tops-q3-2026-estimates-as-ai-sales-surge-93CH-4886849&quot;&gt;https://www.investing.com/news/transcripts/earnings-call-transcript-broadcom-tops-q3-2026-estimates-as-ai-sales-surge-93CH-4886849&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;博通官方新闻稿（SEC 8-K附件99.1，含电话会时间与财务数据）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm&quot;&gt;https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;博通投资者关系页面（电话会录音回放）：&lt;a href=&quot;https://investors.broadcom.com/&quot;&gt;https://investors.broadcom.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Benzinga电话会实录：&lt;a href=&quot;https://www.benzinga.com/news/26/09/61592658/broadcom-q3-2026-earnings-call-transcript&quot;&gt;https://www.benzinga.com/news/26/09/61592658/broadcom-q3-2026-earnings-call-transcript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;AlphaStreet电话会实录：&lt;a href=&quot;https://news.alphastreet.com/broadcom-inc-avgo-q3-2026-earnings-call-transcript/&quot;&gt;https://news.alphastreet.com/broadcom-inc-avgo-q3-2026-earnings-call-transcript/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（用于股价反应与市场预期）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TradingKey：Broadcom Q3 Revenue Rises 86%, Slightly Beating Estimates; Shares Fall Over 6% After Hours&lt;/li&gt;
+  &lt;li&gt;CNBC：Broadcom (AVGO) Q3 earnings report 2026&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;文中管理层引述译自英文实录，关键表述已在两个独立来源之间交叉核对；标注为「推算」的数字为作者根据披露数据计算所得，非公司披露口径。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/03/broadcom_fy2026q3_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/03/broadcom_fy2026q3_earnings_call/</guid>
+        
+        <category>博通</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>博通2026财年Q3——营收296亿美元同比增长86%，AI芯片收入暴涨221%至167亿美元，股价却跌了</title>
+        <description>&lt;p&gt;美东时间2026年9月2日盘后（北京时间9月3日凌晨），&lt;a href=&quot;https://investors.broadcom.com/&quot;&gt;博通&lt;/a&gt;（Broadcom，纳斯达克代码AVGO）发布2026财年第三财季财报，该季度截至2026年8月2日。&lt;/p&gt;
+
+&lt;p&gt;先看三个数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;营收295.91亿美元&lt;/strong&gt;，同比增长86%，环比增长33%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AI半导体收入167亿美元&lt;/strong&gt;，同比增长221%，环比增长54%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GAAP净利润130.88亿美元&lt;/strong&gt;，同比增长216%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这是一份放在任何一家公司身上都足以称为「炸裂」的财报。CEO陈福阳（Hock Tan）在新闻稿里说：「客户对我们定制AI加速器和网络产品的需求依然非常强劲。」CFO Amie Thuener补充：「博通在三季度实现了创纪录的营收、经营利润和自由现金流。」&lt;/p&gt;
+
+&lt;p&gt;但市场的反应是——盘后股价一度下跌6%，随后收窄到约3.5%，报354美元附近。&lt;/p&gt;
+
+&lt;p&gt;一份同比翻倍还多的财报，为什么换来下跌？这篇文章把数字拆开看。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;p&gt;博通是一家「两条腿走路」的公司，理解它的财报必须先理解这两块业务：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一块是半导体解决方案（Semiconductor Solutions）&lt;/strong&gt;。博通不做通用GPU，它做的是「定制」——大客户（比如谷歌、Meta）自己想要什么样的AI芯片，博通帮它们设计并交付，业内叫&lt;strong&gt;XPU&lt;/strong&gt;（定制AI加速器，与英伟达的通用GPU相对）。除此之外，博通还是数据中心以太网交换芯片的霸主（Tomahawk系列），AI集群里芯片与芯片之间的「高速公路」大多是博通造的。这一块本季营收208.39亿美元，同比增长127%，占总营收70%。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二块是基础设施软件（Infrastructure Software）&lt;/strong&gt;。这块基本就是2023年斥资约690亿美元收购的VMware，加上原有的CA、赛门铁克企业业务。本季营收87.52亿美元，同比增长29%，占总营收30%。这块业务的特点是毛利率极高、现金流稳定，是博通还债的「现金牛」。&lt;/p&gt;
+
+&lt;p&gt;值得注意的是结构变化：一年前半导体占57%、软件占43%；现在变成70%对30%。&lt;strong&gt;博通正在从一家「软硬各半」的公司，快速变回一家AI芯片公司。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据&quot;&gt;二、核心财务数据&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标（GAAP，百万美元）&lt;/th&gt;
+      &lt;th&gt;FY26Q3&lt;/th&gt;
+      &lt;th&gt;FY25Q3&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收&lt;/td&gt;
+      &lt;td&gt;29,591&lt;/td&gt;
+      &lt;td&gt;15,952&lt;/td&gt;
+      &lt;td&gt;+86%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利&lt;/td&gt;
+      &lt;td&gt;20,456&lt;/td&gt;
+      &lt;td&gt;10,703&lt;/td&gt;
+      &lt;td&gt;+91%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润&lt;/td&gt;
+      &lt;td&gt;15,955&lt;/td&gt;
+      &lt;td&gt;5,887&lt;/td&gt;
+      &lt;td&gt;+171%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净利润&lt;/td&gt;
+      &lt;td&gt;13,088&lt;/td&gt;
+      &lt;td&gt;4,140&lt;/td&gt;
+      &lt;td&gt;+216%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;$2.68&lt;/td&gt;
+      &lt;td&gt;$0.85&lt;/td&gt;
+      &lt;td&gt;+215%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标（Non-GAAP，百万美元）&lt;/th&gt;
+      &lt;th&gt;FY26Q3&lt;/th&gt;
+      &lt;th&gt;FY25Q3&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润&lt;/td&gt;
+      &lt;td&gt;20,095&lt;/td&gt;
+      &lt;td&gt;10,455&lt;/td&gt;
+      &lt;td&gt;+92%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净利润&lt;/td&gt;
+      &lt;td&gt;16,372&lt;/td&gt;
+      &lt;td&gt;8,404&lt;/td&gt;
+      &lt;td&gt;+95%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;$3.32&lt;/td&gt;
+      &lt;td&gt;$1.69&lt;/td&gt;
+      &lt;td&gt;+96%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;小科普：GAAP是美国通用会计准则下的「实际数」；Non-GAAP是公司剔除了股权激励、收购无形资产摊销等项目后的「调整数」。博通本季两者差距达33亿美元，主因是VMware收购带来的无形资产摊销（15亿美元）和股权激励（20亿美元）。看趋势用Non-GAAP，看真实盈利用GAAP。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;现金流方面&lt;/strong&gt;：经营性现金流141.97亿美元，同比增长98%；资本开支仅5.32亿美元；&lt;strong&gt;自由现金流136.65亿美元&lt;/strong&gt;，同比增长95%，占营收的46%。这是一个惊人的比例——公司每收进100美元，有46美元变成可自由支配的现金。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;对比市场预期&lt;/strong&gt;：据媒体报道，分析师此前预期营收约294亿美元、调整后每股收益3.24美元，博通实际交出295.91亿美元和3.32美元，双双超预期——但&lt;strong&gt;超得不多&lt;/strong&gt;。这是理解股价下跌的第一条线索。&lt;/p&gt;
+
+&lt;h1 id=&quot;三ai业务三倍增长的引擎&quot;&gt;三、AI业务：三倍增长的引擎&lt;/h1&gt;
+
+&lt;p&gt;这季财报唯一的主角就是AI。&lt;/p&gt;
+
+&lt;p&gt;AI半导体收入167亿美元，同比增长221%（也就是涨到了去年同期的3.2倍），环比增长54%。倒推一下，去年同期AI收入约52亿美元。&lt;/p&gt;
+
+&lt;p&gt;更值得注意的是&lt;strong&gt;AI在半导体业务里的占比&lt;/strong&gt;：167亿 ÷ 208.39亿 ≈ &lt;strong&gt;80%&lt;/strong&gt;。也就是说，博通的半导体部门现在四分之三以上的收入来自AI。&lt;/p&gt;
+
+&lt;p&gt;反过来看非AI半导体（WiFi芯片、机顶盒芯片、宽带、工业等传统业务）：约41亿美元，比去年同期的约40亿美元只增长了个位数（本段两个数字为用总额减去AI收入推算所得，非公司披露口径）。&lt;strong&gt;传统半导体周期并没有真正复苏，博通的增长是一条腿在跑。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;指引更激进。陈福阳在新闻稿中明确表示：「四季度势头将延续，我们预计AI半导体收入将加速至217亿美元，同比增长236%。」&lt;/p&gt;
+
+&lt;p&gt;公司给出的完整四季度指引（该季度截至2026年11月1日）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;营收约&lt;strong&gt;348亿美元&lt;/strong&gt;，同比增长&lt;strong&gt;93%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Non-GAAP经营利润率约为营收的&lt;strong&gt;66%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;按此推算，四季度AI收入将占到总营收的62%。&lt;strong&gt;一家成立于博通/安华高合并的老牌芯片公司，用了两年时间把自己变成了一家AI公司。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;四隐忧三个被忽略的数字&quot;&gt;四、隐忧：三个被忽略的数字&lt;/h1&gt;
+
+&lt;p&gt;炸裂的表面之下，有三处值得警惕。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，毛利率在下滑。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Non-GAAP毛利率本季为75.0%（221.91亿÷295.91亿）。看起来很高，但：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;去年同期是78.4%&lt;/li&gt;
+  &lt;li&gt;上一季度（Q2）是77.1%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;也就是&lt;strong&gt;同比下降3.4个百分点，环比下降2.1个百分点&lt;/strong&gt;。原因不难猜：定制XPU这类业务，博通赚的是设计和封装的钱，芯片本身要付给台积电等代工厂，毛利率天然低于软件和传统芯片。AI收入占比越高，整体毛利率就越被稀释。&lt;/p&gt;
+
+&lt;p&gt;好消息是经营利润率反而在上升——Non-GAAP经营利润率67.9%，比去年同期的65.5%提升了2.4个百分点。原因是费用没怎么涨：Non-GAAP总营业费用20.96亿美元，与去年同期的20.44亿美元几乎持平，而营收翻了近一倍。&lt;strong&gt;规模效应完全对冲了毛利率的下滑。&lt;/strong&gt;但这个对冲不可能永远持续，一旦AI占比继续上升，毛利率的拖累会逐渐显现。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，应收账款和库存在暴涨。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;应收账款净额137.07亿美元，比2025财年末的71.45亿美元增长92%&lt;/li&gt;
+  &lt;li&gt;库存45.23亿美元，比2025财年末的22.70亿美元增长99%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;营收增长86%，应收账款增长92%、库存增长99%——都跑赢了营收。库存翻倍在AI供不应求的背景下可以解释为「为四季度348亿美元的营收备货」，是合理的。但应收账款接近翻倍意味着&lt;strong&gt;大量收入还只是账面上的应收，钱没到手&lt;/strong&gt;。考虑到博通的AI客户高度集中（管理层在电话会上确认只有六家XPU客户），这是一个需要持续跟踪的风险点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，本季度零回购。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;现金流量表显示，三季度股票回购计划支出为&lt;strong&gt;0&lt;/strong&gt;，而本财年前三季度累计回购84.5亿美元。同期，公司偿还债务56.28亿美元，支付股息31.03亿美元。&lt;/p&gt;
+
+&lt;p&gt;翻译成大白话：&lt;strong&gt;博通把钱优先拿去还债了，没有回购股票。&lt;/strong&gt; 截至季末，短期债务22.52亿加长期债务571.67亿，总债务约594亿美元；账上现金239.75亿美元，净债务约354亿美元。本季利息支出7.78亿美元。VMware收购留下的债务包袱还在消化中，长期债务已从2025财年末的619.84亿美元降到571.67亿美元。&lt;/p&gt;
+
+&lt;p&gt;对于习惯了博通「大手笔回购」的投资者，这是一个信号：现阶段管理层认为还债比托股价更重要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;另外还有一个小细节&lt;/strong&gt;：本季实际税率14.3%（税费21.87亿÷税前利润152.75亿），而上一季度只有8.1%。税率的正常化本身会压制净利润增速，未来几个季度值得留意。&lt;/p&gt;
+
+&lt;h1 id=&quot;五总结为什么好财报换来下跌&quot;&gt;五、总结：为什么好财报换来下跌&lt;/h1&gt;
+
+&lt;p&gt;综合来看，答案是&lt;strong&gt;预期太高了&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;博通股价在财报前已经因为AI叙事大涨。当一只股票被定价为「完美」，那么营收超预期0.6%、每股收益超预期2.5%，就不算超预期了。而毛利率环比下滑2.1个百分点、本季零回购这些细节，反倒成了卖出的理由。&lt;/p&gt;
+
+&lt;p&gt;但把时间拉长看，这份财报确认了三件事：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;定制AI芯片这条路走通了&lt;/strong&gt;。博通不与英伟达在通用GPU上正面竞争，而是给最大的几家云厂商和模型公司做定制芯片。四季度AI收入将占总营收62%，这个赛道的规模已经不容忽视。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;盈利质量极高&lt;/strong&gt;。46%的自由现金流率、67.9%的Non-GAAP经营利润率，在半导体行业里几乎找不到第二家。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;增长的集中度是最大风险&lt;/strong&gt;。AI占半导体收入的80%，而AI客户只有六家。任何一家客户的资本开支节奏变化，都会直接反映在博通的报表上。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;财报之外，真正引爆讨论的是同日召开的业绩电话会——陈福阳在会上给出了2027财年AI收入约1150亿美元、2028财年约2300亿美元的展望，并首次点名了Anthropic、OpenAI和Meta的具体部署规模。那部分内容我们另写一篇&lt;a href=&quot;/blog/2026/09/03/broadcom_fy2026q3_earnings_call/&quot;&gt;电话会解读&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Broadcom Inc. Announces Third Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend（博通官方新闻稿，SEC 8-K附件99.1）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm&quot;&gt;https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;博通2026年9月2日提交的Form 8-K：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-20260902.htm&quot;&gt;https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-20260902.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;博通投资者关系页面：&lt;a href=&quot;https://investors.broadcom.com/&quot;&gt;https://investors.broadcom.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;新闻稿PR Newswire版本：&lt;a href=&quot;https://www.prnewswire.com/news-releases/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial-results-and-quarterly-dividend-302868129.html&quot;&gt;https://www.prnewswire.com/news-releases/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial-results-and-quarterly-dividend-302868129.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（用于分析师预期与股价反应）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TradingKey：Broadcom Q3 Revenue Rises 86%, Slightly Beating Estimates; Shares Fall Over 6% After Hours&lt;/li&gt;
+  &lt;li&gt;The Motley Fool：Broadcom Earnings — AI Chip Sales Tripled&lt;/li&gt;
+  &lt;li&gt;CNBC：Broadcom (AVGO) Q3 earnings report 2026&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;本文所有财务数据均取自博通官方新闻稿及SEC备案文件；文中标注为「推算」的数字为作者根据披露数据计算所得，非公司披露口径。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/03/broadcom_fy2026q3_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/03/broadcom_fy2026q3_earnings/</guid>
+        
+        <category>博通</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.02</title>
@@ -1832,629 +2256,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>中升控股2026年半年报——营收630亿降18.5%，毛利反而涨20%，归母净利只剩1.1亿</title>
-        <description>&lt;p&gt;2026年8月31日，&lt;a href=&quot;https://www.zs-group.com.cn/&quot;&gt;中升集团控股有限公司&lt;/a&gt;（港交所 00881，下称「中升」）发布截至2026年6月30日止六个月的中期业绩公告。这是港股中期业绩披露的最后一天。&lt;/p&gt;
-
-&lt;p&gt;先看三个数字，它们放在一起有点反常：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;收入 630.22亿元，同比下降 18.5%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;毛利 50.53亿元，同比增长 20.0%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;归母净利润 1.106亿元，同比下降 89.1%&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;营收掉了近两成，毛利却涨了两成，最后利润几乎归零。一份财报里同时出现这三件事，说明这家公司的赚钱方式正在被整体重写。&lt;/p&gt;
-
-&lt;h2 id=&quot;中升是一家什么公司&quot;&gt;中升是一家什么公司&lt;/h2&gt;
-
-&lt;p&gt;普通读者可能对「汽车经销商」这个行当没什么概念。简单说，中升不造车，它是替车厂卖车、修车的连锁店集团——你在城市里看到的奔驰、雷克萨斯、奥迪、丰田4S店，很多就是中升开的。它是中国规模最大的经销商集团之一，也是雷克萨斯在中国最大的经销商、奔驰在中国排名前列的经销商。&lt;/p&gt;
-
-&lt;p&gt;它的钱从四个地方来：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;卖新车&lt;/strong&gt;——收入占大头，但利润极薄甚至倒贴；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;卖二手车&lt;/strong&gt;；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;售后服务&lt;/strong&gt;——保养、保修、事故车钣金喷漆，这块收入小但毛利厚；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;佣金&lt;/strong&gt;——客户在店里买保险、办车贷、上牌照，中升从保险公司和金融机构拿返佣。这部分几乎是纯利润。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;理解了这个结构，就能看懂这份财报为什么会「毛利涨、利润塌」。&lt;/p&gt;
-
-&lt;h2 id=&quot;核心财务数据&quot;&gt;核心财务数据&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标（2026H1）&lt;/th&gt;
-      &lt;th&gt;金额&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;收入总额&lt;/td&gt;
-      &lt;td&gt;630.22亿元&lt;/td&gt;
-      &lt;td&gt;-18.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利总额&lt;/td&gt;
-      &lt;td&gt;50.53亿元&lt;/td&gt;
-      &lt;td&gt;+20.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率&lt;/td&gt;
-      &lt;td&gt;8.0%&lt;/td&gt;
-      &lt;td&gt;2025H1为5.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;佣金收入&lt;/td&gt;
-      &lt;td&gt;3.92亿元&lt;/td&gt;
-      &lt;td&gt;-78.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营溢利&lt;/td&gt;
-      &lt;td&gt;8.04亿元&lt;/td&gt;
-      &lt;td&gt;-57.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营溢利率&lt;/td&gt;
-      &lt;td&gt;1.3%&lt;/td&gt;
-      &lt;td&gt;2025H1为2.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;融资成本&lt;/td&gt;
-      &lt;td&gt;6.39亿元&lt;/td&gt;
-      &lt;td&gt;-6.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;除税前溢利&lt;/td&gt;
-      &lt;td&gt;1.64亿元&lt;/td&gt;
-      &lt;td&gt;-86.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;期内溢利&lt;/td&gt;
-      &lt;td&gt;0.86亿元&lt;/td&gt;
-      &lt;td&gt;-90.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母净利润&lt;/td&gt;
-      &lt;td&gt;1.11亿元&lt;/td&gt;
-      &lt;td&gt;-89.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;每股基本盈利&lt;/td&gt;
-      &lt;td&gt;0.047元&lt;/td&gt;
-      &lt;td&gt;-89.0%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;运营数据：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标（2026H1）&lt;/th&gt;
-      &lt;th&gt;数量&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;新车销量&lt;/td&gt;
-      &lt;td&gt;188,463辆&lt;/td&gt;
-      &lt;td&gt;-17.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;二手车销量&lt;/td&gt;
-      &lt;td&gt;71,302辆&lt;/td&gt;
-      &lt;td&gt;-35.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;售后服务入厂台次&lt;/td&gt;
-      &lt;td&gt;363万次&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;公司董事会&lt;strong&gt;建议不派发2026年中期股息&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;收入四条腿断了三条&quot;&gt;收入：四条腿断了三条&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;业务（2026H1）&lt;/th&gt;
-      &lt;th&gt;收入&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-      &lt;th&gt;占总收入&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;新车销售&lt;/td&gt;
-      &lt;td&gt;461.95亿元&lt;/td&gt;
-      &lt;td&gt;-20.3%&lt;/td&gt;
-      &lt;td&gt;73.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;二手车销售&lt;/td&gt;
-      &lt;td&gt;43.06亿元&lt;/td&gt;
-      &lt;td&gt;-28.4%&lt;/td&gt;
-      &lt;td&gt;6.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;售后服务（保养、保修、钣喷）&lt;/td&gt;
-      &lt;td&gt;115.39亿元&lt;/td&gt;
-      &lt;td&gt;+0.8%&lt;/td&gt;
-      &lt;td&gt;18.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;精品等&lt;/td&gt;
-      &lt;td&gt;9.83亿元&lt;/td&gt;
-      &lt;td&gt;-49.1%&lt;/td&gt;
-      &lt;td&gt;1.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;合计&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;630.22亿元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-18.5%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;100%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;只有售后服务是正增长，而且只有0.8%。&lt;/p&gt;
-
-&lt;p&gt;新车收入下滑20.3%，公司解释是「新车销量下滑及平均销售价格下降」——量价齐跌。中升在公告里给出的行业背景是：上半年国内乘用车销量同比下滑18.6%，其中燃油车下滑22.9%，新能源车国内销量也下滑14.2%；社会消费品零售总额只增长1.3%，但&lt;strong&gt;汽车类商品零售额同比下降12.6%&lt;/strong&gt;。公司还提到，三月中东冲突引发油价飙升，加剧了燃油车的使用成本焦虑。&lt;/p&gt;
-
-&lt;p&gt;公司自己给出的判断值得引一下：「当前市场的疲态并非周期性波动，而是居民收入预期偏弱背景下，消费能力与意愿结构性走弱的集中反映。」这句话出自一家全国最大的豪华车零售商，分量不轻。&lt;/p&gt;
-
-&lt;p&gt;二手车更惨，销量掉35.9%。中升在公告里明确说这是&lt;strong&gt;主动战略收缩&lt;/strong&gt;：「行业盈利高度不确定且经营风险持续放大」，短期内二手车业务将主要服务于新车销售协同和客户关系维护，不再作为独立利润来源。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;梅赛德斯-奔驰仍是中升第一大品牌，占新车销售收入的32.7%&lt;/strong&gt;（去年同期35.1%）——依赖度在下降，但依然是四分之一强的盘子。&lt;/p&gt;
-
-&lt;h2 id=&quot;毛利涨的20其实是亏得少了&quot;&gt;毛利：涨的20%，其实是「亏得少了」&lt;/h2&gt;
-
-&lt;p&gt;这是这份财报最需要解释清楚的一处。&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;业务毛利（2026H1）&lt;/th&gt;
-      &lt;th&gt;金额&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;新车销售&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-6.31亿元（毛损）&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;亏损收窄73.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;二手车销售&lt;/td&gt;
-      &lt;td&gt;0.51亿元&lt;/td&gt;
-      &lt;td&gt;-80.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;售后服务&lt;/td&gt;
-      &lt;td&gt;55.86亿元&lt;/td&gt;
-      &lt;td&gt;+2.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;精品等&lt;/td&gt;
-      &lt;td&gt;0.47亿元&lt;/td&gt;
-      &lt;td&gt;-94.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;合计&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;50.53亿元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+20.0%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;看清楚了：&lt;strong&gt;新车销售是负毛利&lt;/strong&gt;。也就是说，中升每卖出一台新车，从进货到卖出这一环节本身是亏钱的，上半年在这一项上亏了6.31亿元。&lt;/p&gt;
-
-&lt;p&gt;但去年同期亏得更多——亏了23.88亿元。亏损收窄了17.57亿元，这就是毛利总额「增长20%」的全部来源。公司的解释是「新车进销差倒挂的情况有所缓解」（即进货价高于售价的倒挂现象缓和），加上主动重组销售组合。&lt;/p&gt;
-
-&lt;p&gt;所以，毛利率从5.4%升到8.0%，不是因为生意变好了，而是因为&lt;strong&gt;流血速度变慢了&lt;/strong&gt;。这是改善，但不是好消息。&lt;/p&gt;
-
-&lt;p&gt;真正撑住这家公司的是&lt;strong&gt;售后服务：毛利55.86亿元，比公司的毛利总额（50.53亿元）还高&lt;/strong&gt;。换句话说，中升上半年赚的每一分毛利都来自修车，卖车业务整体是在消耗这些利润。公司自己也承认，售后是唯一「延续高质量发展主线」的板块——同店平均单台产值上涨，成本结构优化，毛利率还在升。&lt;/p&gt;
-
-&lt;p&gt;中升给售后押的注很明确：燃油车在中国汽车保有量中仍占近87%，维修保养需求在相当长时期内仍将维持高位。这是它认为自己护城河所在的地方。&lt;/p&gt;
-
-&lt;h2 id=&quot;净利润为什么还是塌了一笔消失的145亿&quot;&gt;净利润为什么还是塌了：一笔消失的14.5亿&lt;/h2&gt;
-
-&lt;p&gt;毛利涨了8.43亿元，为什么最终利润反而少了9亿元？答案在毛利线之下。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;佣金收入从18.45亿元跌到3.92亿元，同比下降78.7%，蒸发了14.53亿元。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;公告写得很直白：「受行业政策影响，汽车金融返佣比率自二零二五年下半年起降低，导致本集团来自汽车融资的佣金收入同比大幅下降。」在业务回顾里说得更具体：受去年六月末「&lt;strong&gt;高息高返&lt;/strong&gt;」金融产品全面叫停的影响，不仅金融佣金同比表现疲弱，连带其他交叉销售产品与服务的盈利格局亦发生明显变化。&lt;/p&gt;
-
-&lt;p&gt;「高息高返」是什么？此前银行和汽车金融公司与经销商合作，用很高的返佣（一度可达贷款额15%左右）吸引经销商向客户推销高利率车贷，经销商拿返佣去补贴车价。2025年6月起多地银行业协会以自律公约的形式叫停了这一模式。对消费者是好事，对经销商则是直接砍掉了一块几乎无成本的利润。&lt;/p&gt;
-
-&lt;p&gt;于是利润表出现了三层塌陷：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;利润表逐层&lt;/th&gt;
-      &lt;th&gt;2026H1&lt;/th&gt;
-      &lt;th&gt;2025H1&lt;/th&gt;
-      &lt;th&gt;变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利总额&lt;/td&gt;
-      &lt;td&gt;50.53亿元&lt;/td&gt;
-      &lt;td&gt;42.09亿元&lt;/td&gt;
-      &lt;td&gt;+20.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;＋佣金收入&lt;/td&gt;
-      &lt;td&gt;3.92亿元&lt;/td&gt;
-      &lt;td&gt;18.45亿元&lt;/td&gt;
-      &lt;td&gt;-78.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;＝综合溢利&lt;/td&gt;
-      &lt;td&gt;54.45亿元&lt;/td&gt;
-      &lt;td&gt;60.54亿元&lt;/td&gt;
-      &lt;td&gt;-10.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;－销售及分销开支&lt;/td&gt;
-      &lt;td&gt;34.81亿元&lt;/td&gt;
-      &lt;td&gt;34.34亿元&lt;/td&gt;
-      &lt;td&gt;+1.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;－行政开支&lt;/td&gt;
-      &lt;td&gt;10.67亿元&lt;/td&gt;
-      &lt;td&gt;10.99亿元&lt;/td&gt;
-      &lt;td&gt;-2.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;＝经营溢利&lt;/td&gt;
-      &lt;td&gt;8.04亿元&lt;/td&gt;
-      &lt;td&gt;19.05亿元&lt;/td&gt;
-      &lt;td&gt;-57.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;－融资成本&lt;/td&gt;
-      &lt;td&gt;6.39亿元&lt;/td&gt;
-      &lt;td&gt;6.81亿元&lt;/td&gt;
-      &lt;td&gt;-6.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;＝除税前溢利&lt;/td&gt;
-      &lt;td&gt;1.64亿元&lt;/td&gt;
-      &lt;td&gt;12.21亿元&lt;/td&gt;
-      &lt;td&gt;-86.6%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;结构一目了然：&lt;strong&gt;销售和管理费用几乎没降&lt;/strong&gt;（合计45.48亿元，同比基本持平），而毛利加佣金的总盘子少了6.09亿元，这6亿多直接从经营利润里扣掉；剩下的8亿经营利润，又被6.39亿元的融资成本吃掉近八成。中升有273.46亿元的银行贷款及其他借贷，每年光利息就是十几亿元量级的固定支出，在利润薄的时候会显得格外沉重。&lt;/p&gt;
-
-&lt;p&gt;最后剩给股东的，是1.106亿元。&lt;/p&gt;
-
-&lt;h2 id=&quot;转型一边关66家店一边开新能源&quot;&gt;转型：一边关66家店，一边开新能源&lt;/h2&gt;
-
-&lt;p&gt;中升的应对是把门店结构整个换一遍。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;上半年&lt;strong&gt;关停并转以中高端品牌为主的低效传统品牌门店66家&lt;/strong&gt;；过去十二个月累计关店近百家。&lt;/li&gt;
-  &lt;li&gt;同时铺开新能源品牌网络：截至6月末已开业运营&lt;strong&gt;领克20家、吉利银河17家、极氪网络1家&lt;/strong&gt;，与「华为」生态的新伙伴&lt;strong&gt;启境9家&lt;/strong&gt;，另有&lt;strong&gt;岚图7家、零跑8家&lt;/strong&gt;；还有数十家吉利系门店在筹建中。&lt;/li&gt;
-  &lt;li&gt;截至2026年6月末，集团共运营品牌经销店&lt;strong&gt;461家&lt;/strong&gt;，其中新能源品牌门店&lt;strong&gt;102家&lt;/strong&gt;（含鸿蒙智行、启境、岚图、极氪、领克、吉利银河、零跑等）。&lt;/li&gt;
-  &lt;li&gt;上半年新能源品牌贡献了中升新车销量的&lt;strong&gt;10.3%&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;公司给下半年定了一个相当激进的目标：&lt;strong&gt;到年末新能源品牌门店达到300家，12月当月新能源品牌销量占比达到35%&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;从102家到300家、从10.3%到35%，要在六个月内完成，这是这份财报里最需要被检验的一句话。中升说新增门店大多是对既有物业改建或分拆，严控资本投入——上半年资本开支只有4.56亿元，同比几乎腰斩（去年8.19亿元），确实是在用低成本方式扩张。&lt;/p&gt;
-
-&lt;p&gt;降本方面也在动刀：30余处客服中心整合为10大中心；&lt;strong&gt;员工人数从2025年末的30,287人降到25,361人，半年减少4,926人，降幅16.3%&lt;/strong&gt;。客户端的数字倒是在涨——活跃客户460万、中升Go会员平台订阅会员412万、企业微信客户1,212万。&lt;/p&gt;
-
-&lt;h2 id=&quot;资产负债与现金流还扛得住但余量在变薄&quot;&gt;资产负债与现金流：还扛得住，但余量在变薄&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026年6月30日&lt;/th&gt;
-      &lt;th&gt;2025年12月31日&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;现金合计（含定期及受限存款）&lt;/td&gt;
-      &lt;td&gt;170.20亿元&lt;/td&gt;
-      &lt;td&gt;204.38亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;存货&lt;/td&gt;
-      &lt;td&gt;146.14亿元&lt;/td&gt;
-      &lt;td&gt;179.34亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;银行贷款及其他借贷&lt;/td&gt;
-      &lt;td&gt;273.46亿元&lt;/td&gt;
-      &lt;td&gt;295.38亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净资产&lt;/td&gt;
-      &lt;td&gt;438.95亿元&lt;/td&gt;
-      &lt;td&gt;435.30亿元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;资本负债比率（净债项/（净债项+权益））&lt;/td&gt;
-      &lt;td&gt;42.3%&lt;/td&gt;
-      &lt;td&gt;44.3%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;几个要点：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;现金半年减少34.18亿元&lt;/strong&gt;，主要用于偿还借款和投资。借贷也同步减少21.92亿元，杠杆率从44.3%降到42.3%——在缩表，但缩得还算有序。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;经营活动现金流净额只有6.18亿元&lt;/strong&gt;，而去年同期是59.48亿元，锐减53.31亿元。原因除了利润下滑，还有应付账款及票据减少33.82亿元——这意味着中升在减少对上游的账期占用，付款变快了，占用了大量营运资金。&lt;/li&gt;
-  &lt;li&gt;因此&lt;strong&gt;自由现金流为净流出7.35亿元&lt;/strong&gt;（经营现金流6.18亿元，减去资本开支净流出8.12亿元和租赁付款5.40亿元）。这是需要盯住的一条线：自由现金流转负，意味着日常经营已经养不活自己的门店投入和租金。&lt;/li&gt;
-  &lt;li&gt;存货减少33.20亿元，但&lt;strong&gt;存货周转天数反而从38.3天升到40.9天&lt;/strong&gt;——库存降了，可卖得更慢，去库存的速度没跑赢销量下滑的速度。&lt;/li&gt;
-  &lt;li&gt;债务方面，公司于2026年7月31日在公开市场回购了1.179亿美元的2028年债券（占原发行规模的19.7%），8月6日注销，剩余本金4.821亿美元，公司称计划在到期日按本金赎回。这是主动降杠杆的动作。&lt;/li&gt;
-  &lt;li&gt;集团已抵押资产达134亿元，用于银行融资和应付票据。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;亮点与隐忧&quot;&gt;亮点与隐忧&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;亮点：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;新车业务毛损从23.88亿元收窄到6.31亿元，价格战最惨烈的阶段可能正在过去，公司也提到主机厂对经销商的支持政策在优化。&lt;/li&gt;
-  &lt;li&gt;售后服务毛利55.86亿元、同比增长2.7%，在关了近百家店的背景下仍能正增长，说明存量客户基本盘扎实。&lt;/li&gt;
-  &lt;li&gt;杠杆率下降、提前回购19.7%的美元债、资本开支腰斩，财务纪律没有失控。&lt;/li&gt;
-  &lt;li&gt;新能源品牌矩阵从零到102家，绑定了吉利系和华为生态两条主线，方向清晰。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;隐忧：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;净利润率只有0.18%&lt;/strong&gt;（归母净利1.11亿 / 收入630亿）。这个体量的公司做到这个利润率，等同于在盈亏平衡线上运行，任何一项减值或一次性损失都可能让下半年转亏。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;佣金这块高毛利收入的消失是政策性的、不可逆的&lt;/strong&gt;，不会随市场回暖自动回来。中升必须找到新的高毛利来源，目前的答案是售后，但售后毛利同比只增长2.7%，补不上14.5亿元的窟窿。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;自由现金流转负、经营现金流同比减少53亿元&lt;/strong&gt;，如果下半年新能源门店从102家冲到300家，营运资金和铺货压力还会加大。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;不派中期股息&lt;/strong&gt;。这是一个明确的信号：管理层选择把现金留在表内。&lt;/li&gt;
-  &lt;li&gt;300家门店和35%销量占比的年末目标，与上半年的实际节奏之间存在明显落差，完成难度不小。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;p&gt;中升这份半年报，本质上是一家传统汽车零售巨头被两股力量同时挤压的实录：一边是新车市场的总量收缩和价格倒挂，另一边是「高息高返」被叫停后，交叉销售这块高毛利业务的政策性消失。&lt;/p&gt;
-
-&lt;p&gt;它做对的事是：不再硬扛销量，主动关掉66家低效门店，收缩二手车，把资源压到售后和新能源新品牌上，同时降杠杆、控资本开支。&lt;strong&gt;这份财报里唯一真正健康的业务是修车&lt;/strong&gt;——55.86亿元的售后毛利，撑起了整个集团。&lt;/p&gt;
-
-&lt;p&gt;它没做完的事是：新的利润来源还没长出来。1.1亿元的归母净利润，对一家半年收入630亿元、员工2.5万人、有效资产数百亿的公司来说，几乎等于零。下半年那300家新能源门店能不能如期开出来、开出来后能不能赚钱，将决定这次转型是「触底回升」还是「持续失血」。&lt;/p&gt;
-
-&lt;p&gt;财报里那句「当前市场的疲态并非周期性波动」，其实已经说明管理层不打算等风来了。&lt;/p&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;中升集团控股有限公司《截至二零二六年六月三十日止六个月的中期业绩公告》（2026年8月31日刊发，全文46页）：&lt;a href=&quot;https://www.zs-group.com.cn/u/cms/www/202608/31123409z2vs.pdf&quot;&gt;https://www.zs-group.com.cn/u/cms/www/202608/31123409z2vs.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;中升集团官网公告及通函列表：&lt;a href=&quot;https://www.zs-group.com.cn/notice.jhtml&quot;&gt;https://www.zs-group.com.cn/notice.jhtml&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;香港交易所披露易（本公告同步刊发于此）：&lt;a href=&quot;https://www.hkexnews.hk&quot;&gt;https://www.hkexnews.hk&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;背景补充（媒体报道）：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;新华网《多地叫停车贷「高息高返」 汽车金融领域强化合规整治》：&lt;a href=&quot;http://www.news.cn/fortune/20250619/5fe1a9a207ee4a76a6efcc2d05dd03d0/c.html&quot;&gt;http://www.news.cn/fortune/20250619/5fe1a9a207ee4a76a6efcc2d05dd03d0/c.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;中国消费网《车贷高息高返按下暂停键》：&lt;a href=&quot;https://www.ccn.com.cn/Content/2025/06-12/1813273535.html&quot;&gt;https://www.ccn.com.cn/Content/2025/06-12/1813273535.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;注：本文所有财务数据均取自上述中期业绩公告原文，为未经审核数据，货币单位除特别说明外均为人民币。&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/01/zhongsheng_2026h1_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/01/zhongsheng_2026h1_earnings/</guid>
-        
-        <category>中升控股</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.08.31</title>
-        <description>&lt;p&gt;今天这五个帖子放在一起看，有条隐隐的线：AI 的账单正在从云端渗回地面。它先是变成你装机时那根买不起的内存条，然后变成社区里刷不完的同质化图表，最后变成一场关于「什么才算真本事」的争论 —— 无论是评价一个 27B 的模型，还是评价一个来面试的工程师。&lt;/p&gt;
-
-&lt;p&gt;中间夹着两个和 AI 无关的帖子，一个讲面试被拒，一个讲容器选型。它们提醒我，工程师世界里那些最日常的困惑，其实一点没变。&lt;/p&gt;
-
-&lt;h2 id=&quot;一个人电脑便宜了四十年然后-ai-来了&quot;&gt;一、个人电脑便宜了四十年，然后 AI 来了&lt;/h2&gt;
-
-&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w2qzyx/the_cost_of_personal_computers_declined_steadily/&quot;&gt;The cost of personal computers declined steadily for 40 years — until AI came along&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一篇报道指出，个人电脑价格连续下降了四十年的趋势，在 AI 时代被打断了。帖子本身是新闻转载，但评论区几百层，几乎变成了一个众包的硬件涨价实录。&lt;/p&gt;
-
-&lt;p&gt;最有说服力的是一位做数字影像的从业者。他们团队一年产出约 10TB 数据，2025 年 10 月他就警告过存储会在 2026 年年中见底，当时一台 90TB 的新服务器报价三四千美元；结果各部门为了谁掏钱扯皮了半年多，等到 2026 年 5 月，同样的机器报价变成了一万五。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The cost of a new 90TB server at that time was $3k-$4k… By May 2026 that same server cost $15k.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/heekma，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w2qzyx/the_cost_of_personal_computers_declined_steadily/p6unnsn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他还补了一句更直观的：2025 年 32GB 内存大概 100 美元，现在接近 400。楼下一片附和 —— 有人说一年前 100 美元买的 2TB 移动硬盘现在卖到 200 多，后悔没多囤两块；有人说自己 2025 年想着「等内存降价再升级」，结果一路等到今天还卡在 Windows 10，因为升级内存的钱拿不出来。&lt;/p&gt;
-
-&lt;p&gt;有意思的是，评论区自己完成了一次纠偏。前排一度冒出「厂商是故意制造短缺逼你上云」的阴谋论，随后被两拨人按住了：一位自称在行业里干活的人明说自己讨厌 AI，但这真不是阴谋，就是 AI 把产能吃光了导致的供需问题；另一位讲得更直白 —— 没有什么暗中不让你拥有 PC 的组织，只是内存和 GPU 产能有限，而亚马逊、微软、谷歌的钱包比你深，他们出价买去建数据中心而已。&lt;/p&gt;
-
-&lt;p&gt;而全场我觉得最妙的一句，是一个顺手点出的闭环：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“…their insane rat race is starving the world of RAM, making it prohibitively expensive to invest in computing power capable of running open source LLM locally. The bubble lives on.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Defiant-Traffic5801，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w2qzyx/the_cost_of_personal_computers_declined_steadily/p6uv9gy/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我的看法：这个反讽值得国内想搞本地部署的朋友认真对待。开源模型这两年最大的叙事是「你终于可以不依赖 API 了」，但实现这个自由的前提是买得起显存和内存 —— 而恰恰是大厂的军备竞赛把这两样东西的价格顶了上去。换句话说，「摆脱云」的成本正在被「云」本身推高。如果你手上还有台配置尚可的老机器，今年大概不是把它卖掉换新的好时机；反过来，如果确实规划了本地推理，现在也不该继续等一个未必会来的降价窗口。&lt;/p&gt;
-
-&lt;h2 id=&quot;二27b-的本地模型手搓了个-minecraft评论区吵的是什么才配叫厉害&quot;&gt;二、27B 的本地模型手搓了个 Minecraft，评论区吵的是「什么才配叫厉害」&lt;/h2&gt;
-
-&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w2cxcw/some_people_said_the_minecraft_clone_i_fully/&quot;&gt;Some people said the Minecraft clone I fully vibecoded with Qwen3.8-27B Q4 is not that impressive because Minecraft is in the training data&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个「回应质疑」的续集帖。楼主之前用一块 4090 上跑的 27B 本地模型，从零 vibecode 出了一个 Minecraft 克隆，被人质疑说 Minecraft 本来就在训练数据里、不算本事。于是他这回让模型往游戏里加了四样训练数据里大概率没有的东西：一套火箭炮系统、一块能做花式动作的滑板、一架第一人称视角的无人机，还有一台游戏内的电脑（里面还跑着一个小游戏）。&lt;/p&gt;
-
-&lt;p&gt;楼主自己给的数据比结论更值得看：整个游戏主体大约花了 3 小时生成，而这四个「非常规」功能反倒花了大约 5 小时，中间还得让模型返工修了三次问题。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“…so the less common things not in the training data do take a lot longer, but honestly I’m still super impressed at just how capable this model is, you give it a task and it can finish it on its own and 90% of the time it works perfectly.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/liright（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w2cxcw/some_people_said_the_minecraft_clone_i_fully/p6rkyay/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;反方并没有被说服，而且理由挺硬：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“There’s a bunch of minecraft clones on github, which is why for an llm trained on open source repos, it’s one of the less impressive tasks. LLMs are impressive when they can do novel things.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/DesperateAdvantage76，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w2cxcw/some_people_said_the_minecraft_clone_i_fully/p6saln6/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;支持方则换了个坐标系：拿两年前的旗舰模型来比，那些演示大多是在 Unity 这类现成引擎里搭，而这次是从地基开始把渲染、贴图、模型全生成出来，跑在一块消费级显卡上；有人干脆说，重点根本不是它做了什么，而是「本地」「27B」这两个前缀。楼主自己也补了一条对照：不到两年前他让当时最好的云端模型做同一件事，结果一团糟，勉强能跑，完成度不到今天的十分之一。&lt;/p&gt;
-
-&lt;p&gt;还有一条泼冷水的实测很值得留意：有人日常把本地 Qwen 和云端强模型混着用来省 token，结论是本地模型能干活，但需要一个更聪明的模型在前面拆任务、指方向，让它自己做主就不行。&lt;/p&gt;
-
-&lt;p&gt;我的看法：这场争论其实卡在一个没人明说的问题上 —— 我们到底在测「生成能力」还是在测「泛化能力」。楼主的加料实验设计得不错，但那句「非常规功能耗时是主体的 1.6 倍还要返工三次」，恰恰是反方观点的证据而不是反证。对国内做本地部署的人来说，更实用的结论藏在最后那条实测里：把一个中等尺寸的本地模型当执行器、让强模型当规划者，这套分工目前性价比最高，而指望 27B 端到端自主完成开放任务，还早。&lt;/p&gt;
-
-&lt;h2 id=&quot;三面试挂了理由是不够-senior&quot;&gt;三、面试挂了，理由是「不够 senior」&lt;/h2&gt;
-
-&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w2wfxo/how_to_deal_with_being_called_not_senior_enough/&quot;&gt;How to deal with being called “not senior enough” after an interview?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一位求职者被拒，收到的反馈是「不够 senior」，他很困惑：面试的编程题不难，是给一段个人隐私数据做脱敏，返回一个新字典。基础实现对方满意，追问「不同角色适用不同规则怎么办」，他答了类继承；对方再追问「那怎么做到改规则不动代码」，他讲了上家公司用的中心化配置仓库加一个界面。他把思路讲清楚了，但还是挂了。&lt;/p&gt;
-
-&lt;p&gt;追问到后面，真正的分歧点浮出水面：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I did explain the idea of of it, but they wanted to know if I know the name of the pattern. My background is more devops and in my last role no one actually referred to pattern names or anything.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/friendlytotbot（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w2wfxo/how_to_deal_with_being_called_not_senior_enough/p6w451u/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;也就是说，他做过这件事、也能描述这件事，只是叫不出那个模式的英文学名。评论区对此分成了几派，而且几派都有道理。&lt;/p&gt;
-
-&lt;p&gt;最主流的是「别往心里去」派：senior 这个头衔根本没有统一标准，这家的 senior 在那家可能只是 mid。有位现任面试官现身说法，说自己也拒过「不够 senior」的候选人，但那不代表对方在别处当不了 senior —— 他们要找的是特定类型的资深，比如敢跟性格强势的 CTO 正面表达、做过草莽阶段的产品。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I rejected someone for not being senior enough, but that doesn’t mean they can’t be senior-level elsewhere.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/verzac05，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w2wfxo/how_to_deal_with_being_called_not_senior_enough/p6w8kav/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;还有人提醒，多数公司出于法律风险根本不给拒绝理由，能给你一句已经算客气，而这句大概率只是「我们挑了个更喜欢的人」的模板话术。也有人认为面试官本身水平就可能不行 —— 面好一场面试其实很难，而且面试官几乎不受任何校准和问责，把自己的无知投射成候选人的错误是常事。&lt;/p&gt;
-
-&lt;p&gt;不过评论区最不留情、也最值得琢磨的是这一条：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“…your lack of curiosity about or investigation into your previous work’s architecture is what soured them on the idea of your seniority.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/chrisrrawr，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w2wfxo/how_to_deal_with_being_called_not_senior_enough/p6vxcdt/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他的意思不是「你该背下模式名」，而是「你在上家用了好几年这套架构，却从没好奇过它叫什么、属于哪一类做法」——这种不追究的态度才是减分项。他还顺手给了一句更好的标准答案：我不确定它正式叫什么，但我会从外部配置模式这个方向去找。&lt;/p&gt;
-
-&lt;p&gt;我的看法：这一条戳中了很多中文环境下工程师的软肋。我们做过的事往往不比人少，但缺少把经验「命名」和「归类」的习惯 —— 不知道自己踩过的坑在文献里叫什么，也就没法在面试或跨团队沟通里快速对齐。补救办法不难：每次做完一个有点结构的东西，花十分钟查一下这类做法业界怎么称呼。另外，那句「我不确定正式叫法，但我会往某某方向找」是个通用的高分回答模板 —— 承认边界，同时展示检索路径，比硬答或沉默都强得多。&lt;/p&gt;
-
-&lt;h2 id=&quot;四podman-用了几年之后大家的真心话&quot;&gt;四、Podman 用了几年之后，大家的真心话&lt;/h2&gt;
-
-&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/selfhosted/comments/1w27tjf/opinions_on_using_podman_long_term/&quot;&gt;Opinions on using Podman long term&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;楼主问了个很朴素的问题：到处都在说 Docker，但 Podman 看起来能做差不多的事，大家实际在用哪个、为什么。评论区难得没有站队打架，而是交出了一堆分场景的真实经验。&lt;/p&gt;
-
-&lt;p&gt;出现频率最高的组合是「家里 Docker Compose、公司 Podman」。理由也统一：Podman 的无守护进程和 rootless 是实打实的优点，但生态的顺手程度还是 Docker 占上风。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I use docker compose at home because it’s what I’ve been using for years. I use podman quadlets at work because they are convenient. If I had to pick one, it would be podman.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/emptypotato77，&lt;a href=&quot;https://www.reddit.com/r/selfhosted/comments/1w27tjf/opinions_on_using_podman_long_term/p6qmh2a/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;技术细节上有几条挺实用的：Podman 现在主推的是 quadlet（用 systemd unit 的方式声明容器），多位用户说 podman-compose 的可靠性明显不如原生 docker-compose，但换成 quadlet 之后就很稳；有人提到可以用 podlet 工具把 compose 文件转成 quadlet，大约九成情况能无缝转换。也有人指出 Podman 其实尽量兼容 Docker API，所以照样能用 Dockhand 这类工具和 compose 文件，只是底层跑的是 Podman。&lt;/p&gt;
-
-&lt;p&gt;反面经验同样具体。一位试过用 Podman 跑五个容器的家庭实验室，结论相当扎心：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It worked, until it didn’t. I kept hitting corner cases and crashes due to different things.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/haxney，&lt;a href=&quot;https://www.reddit.com/r/selfhosted/comments/1w27tjf/opinions_on_using_podman_long_term/p6qpcho/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他说每个坑都有解法，但切回 Docker 后这些问题统统消失了；他也强调这是一年多前的经历，现在可能好转了。而在企业环境用 Podman 的那位，则给出了本帖最该被记住的一句提醒：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“…podman doesn’t magically provide protection, dockerfiles and deployment configurations have to follow certain rules or you will poke holes.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/stevecrox0914，&lt;a href=&quot;https://www.reddit.com/r/selfhosted/comments/1w27tjf/opinions_on_using_podman_long_term/p6qxurb/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我的看法：这句话可以推广到所有「更安全的替代品」。换个运行时不等于换来了安全，Podman 提供的是可以缩小爆炸半径的能力，前提是你的 Dockerfile 和部署配置确实按规矩写。对个人玩家来说，本帖给出的路径其实很清晰：如果你只是想让自建服务跑起来，继续用 Docker Compose 没什么可羞耻的；如果你决定迁移，别走 podman-compose，直接上 quadlet，先用 podlet 转一遍再手动收尾。&lt;/p&gt;
-
-&lt;h2 id=&quot;五rdataisbeautiful-的老用户已经能一眼认出-ai-做的图&quot;&gt;五、r/dataisbeautiful 的老用户，已经能一眼认出 AI 做的图&lt;/h2&gt;
-
-&lt;p&gt;原帖：&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w2an02/oc_the_top_1_of_us_households_now_hold_316_of_all/&quot;&gt;The top 1% of U.S. households now hold 31.6% of all household wealth, and the bottom 90% hold 32.1%&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这个帖子本身讲的是美国财富分布：最富的 1% 家庭持有全国 31.6% 的家庭财富，而后 90% 加起来是 32.1%。数据够劲爆了，但评论区第一条压根没聊数据 —— 而是问：我们现在是不是已经不会自己做图了？&lt;/p&gt;
-
-&lt;p&gt;顺着这条，一场「AI 生成内容识别」的讨论展开了。有人说这类帖子是同一个用户在刷版，版主装睡；也有人吐槽做得还挺糙。真正有意思的是，当有人认真问「你怎么判断一张图是 AI 做的、有什么办法吗」时，得到的回答非常具体：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Claude loves to use two colors for a title. If you ask it to make a webpage or a chart, it ALWAYS defaults to white font followed by another color font for emphasis.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/hereditydrift，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w2an02/oc_the_top_1_of_us_households_now_hold_316_of_all/p6utj7z/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;同一个人在另一层给了更狠的总结，顺带提议给版块改名：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Should rename the sub Claudeisbeautiful. Every post has the Claude tell – the headline in two different colors, which is usually white font then whatever accent color was used.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/hereditydrift，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w2an02/oc_the_top_1_of_us_households_now_hold_316_of_all/p6up6rh/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;而紧接着有人指出了这类「破绽学」的根本困境：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The problem is, if its revealed publicly then users who are spamming it will tell claude how to adapt and not do it.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Low-Car-6331，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w2an02/oc_the_top_1_of_us_households_now_hold_316_of_all/p6u7laa/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我的看法：这是我今天读到最有元味道的一段。一个以「把数据做好看」为宗旨的社区，正在被一批默认审美高度一致的图表淹没，于是老用户练出了一套指纹识别术 —— 而这套识别术一旦公开，就会立刻失效，因为刷版的人会拿它当提示词去规避。这基本就是内容平台未来几年的缩影：识别方法的半衰期极短，靠特征去打标签注定跑输。&lt;/p&gt;
-
-&lt;p&gt;对中文读者的启发在另一个方向。那条「标题用两种颜色」的观察，本质上说的是默认输出的同质化 —— 模型有它的审美惯性，你不指定，它就给你那一套。所以如果你用 AI 做图表、做网页、写文案，最省事的差异化手段就是明确指定风格约束：字体、配色、标题处理方式。这不只是为了不被人一眼认出来，更是因为默认值往往不是最适合你数据的那个选择。真正的问题从来不是「用了 AI」，而是「连默认值都没改」。&lt;/p&gt;
-</description>
-        <pubDate>Mon, 31 Aug 2026 09:30:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/08/31/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/08/31/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
         
       </item>
     

@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Sep 2026 10:00:30 +0800</pubDate>
-    <lastBuildDate>Thu, 03 Sep 2026 10:00:30 +0800</lastBuildDate>
+    <pubDate>Thu, 03 Sep 2026 11:34:36 +0800</pubDate>
+    <lastBuildDate>Thu, 03 Sep 2026 11:34:36 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -169,6 +169,109 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>AI Frontier Daily | 2026.09.03</title>
+        <description>&lt;h2 id=&quot;112-google-发布-gemini-38-flash并以-fairwind-分层开放网络安全版本&quot;&gt;1/12 Google 发布 Gemini 3.8 Flash，并以 Fairwind 分层开放网络安全版本&lt;/h2&gt;
+&lt;p&gt;Gemini 3.8 Flash 保持 3.7 的速度与首发价，每百万输入/输出 token 为 0.75/3.75 美元，Google 自报 DeepSWE v1.1 得 73.7%、HLE-Verified 得 54.9%。同底座的 Flash Cyber 面向漏洞发现与修复，自报 CyberGym 86.2%、CWE-Bench 47.2%，因防护更宽松仅向政府、关键基础设施和可信维护者开放。早期用户同时称其私有数据分析集不及 3.7，Ethan Mollick 也认为它是优秀 Flash 而非完整前沿模型；这些相反信号均缺少统一独立评测。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GoogleDeepMind/status/2095175498967949359&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;/a&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@sundarpichai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/sundarpichai/status/2095181765082292334&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@sundarpichai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/sundarpichai/status/2095184464800526655&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@sundarpichai 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2095203002210807816&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/bindureddy/status/2095253066023112817&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@bindureddy&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;212-meta-推出-muse-spark-13强化多工作流协作与行动校准&quot;&gt;2/12 Meta 推出 Muse Spark 1.3，强化多工作流协作与行动校准&lt;/h2&gt;
+&lt;p&gt;Muse Spark 1.3 面向长时 Agent 和编码任务，可在单个长线程维护多项工作流，遇到含糊需求会提问、受阻会求助，并在不可逆操作前确认。Meta 内部比较称其比 1.2 少约 20% 工具调用和 25% token，同时加强提示注入抵抗与对自身局限的校准；这些数字尚无公开独立复现。模型已在 Muse Code 和 Meta Model API 上线，最高推理模式仍等待附加安全测试，开放权重和更大模型仅为后续预告。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AIatMeta&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2095234385129963666&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2095234387273269349&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;312-cursor-让-cloud-agent-在客户基础设施执行但推理与-transcript-仍留在云端&quot;&gt;3/12 Cursor 让 Cloud Agent 在客户基础设施执行，但推理与 transcript 仍留在云端&lt;/h2&gt;
+&lt;p&gt;Self-Hosted Machines 允许 Cursor Cloud Agent 在企业笔记本、VM 或弹性 worker pool 中编辑代码和运行命令，从而直接访问内网服务、GPU、Mac/iOS 构建链。worker 通过出站 HTTPS 连接领取工具调用，池可按队列扩缩并由 AWS Lambda、Cloudflare、Modal、Vercel 等 sandbox 承载。安全边界并非全本地：推理、规划和 Agent 循环仍在 Cursor 云端，工具输出可能包含代码，transcript 也可能被处理和保存；Cursor 称 Agent 已产生其内部合并 PR 的 60% 以上。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2095257412781396114&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2095257414471655693&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;412-qwen38-max-0902-上线保留-24t-参数与百万上下文并加强长时编码&quot;&gt;4/12 Qwen3.8-Max-0902 上线，保留 2.4T 参数与百万上下文并加强长时编码&lt;/h2&gt;
+&lt;p&gt;阿里发布 Qwen3.8-Max 的 0902 快照，模型页称其在工程级编码、协作 Agent、多工具编排、图表与文档理解上继续后训练，保留 2.4T 总参数、约 95B 激活参数与 1M 上下文。QwenCloud API 定价为每百万输入/输出 token 2/6 美元，显式缓存读取 0.17 美元；官方又称其 CodeArena WebDev 分数由 1669 升至 1691，并处于每百万 token 5 美元的 Pareto 前沿。排行榜成绩和“更强”结论均为厂商发布口径，尚待任务级第三方复验。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2094968708288680276&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2094976556494209206&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2094982928371794077&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;512-perplexity-开源-lily为-apple-silicon-上单一-qwen-检查点重写推理路径&quot;&gt;5/12 Perplexity 开源 Lily，为 Apple silicon 上单一 Qwen 检查点重写推理路径&lt;/h2&gt;
+&lt;p&gt;Lily 是 Rust/Metal 本地推理服务器，专门支持 M5 及更新芯片上的 Qwen3.6-35B-A3B MLX 4-bit 检查点，并暴露精简 OpenAI Chat Completions API。它分别优化 prefill 的权重复用和 decode 的内存带宽，在 M5 Max、十种 prompt 与 decode 上下文的厂商测试中，平均吞吐较 MLX-LM 高 1.23 倍和 1.35 倍。首版限制明确：仅贪心解码，不支持工具、流式、多模态或其他检查点；仓库公开测量契约和复现脚本，结论不能外推到通用模型运行时。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@perplexity_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2095241544383226274&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2095241592399606119&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2095241604407996468&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;612-llamaindex-与-kaggle-推出-extractbench直接测-agent-从复杂企业文档抽结构化数据&quot;&gt;6/12 LlamaIndex 与 Kaggle 推出 ExtractBench，直接测 Agent 从复杂企业文档抽结构化数据&lt;/h2&gt;
+&lt;p&gt;ExtractBench 覆盖 370 份文档、4,869 页、八个行业和 67 类文件，包含长记录列表、扫描、手写与复杂表格，并以冻结 schema 和确定性规则比较 14 套系统。LlamaIndex 报告长文档上 Gemini 3.5 Flash 由短文档 87.9% 降至 27.9%，其 Agentic Plus 保持 94.4%；总体 Codex GPT-5.5 为 93.5%、每页 27.8 美分，Agentic Plus 为 95.6%、每页 8.1 美分。代码、论文和榜单已开放，但发布方同时是参评供应商，结果仍需独立复验。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/llama_index/status/2095180282538135724&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@llama_index&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;712-ai21-用训练型-8b-验证器逼近前沿模型把-agent-搜索瓶颈从生成转向选择&quot;&gt;7/12 AI21 用训练型 8B 验证器逼近前沿模型，把 Agent 搜索瓶颈从生成转向选择&lt;/h2&gt;
+&lt;p&gt;AI21 先让多个模型生成候选，再由独立验证器重新搜索、否决错误答案，只在通过项中聚合。约 6,000 条平衡样本经 SFT+RL 训练后，Qwen3-8B 验证器在 FACTS-Search 100 题样本得 92.9，接近 Claude Opus 验证器 93.4，官方估算成本低 3.2 倍；全开源生成池由多数投票 60.1 提至 77.0。跨 benchmark 时未经适配会误拒正确候选，且实验受小样本、自动评分噪声、闭源蒸馏和额外延迟限制。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AI21Labs/status/2095137046717243484&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AI21Labs&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;812-equinixnvidia-与-together-ai-建立分布式开放模型推理网络&quot;&gt;8/12 Equinix、NVIDIA 与 Together AI 建立分布式开放模型推理网络&lt;/h2&gt;
+&lt;p&gt;Equinix Inference Exchange 将 NVIDIA 企业参考架构、Together AI 支持 200 多个开放模型的平台与 Equinix 全球数据中心/Fabric 连接组合起来，面向靠近用户、数据和应用的低延迟推理。方案同时支持多租户与专属单租户环境，Equinix 自报覆盖 280 多座数据中心、77 个都市圈和 230 个云接入点。当前公告重点是架构与合作范围，未披露首批城市、可用日期、容量或真实时延，因此“降低首 token 时间”和成本效率仍属于待交付目标。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/togethercompute/status/2095214648991842690&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;912-runway-发布-dev-mcp让编码-agent-直接管理生成式媒体平台&quot;&gt;9/12 Runway 发布 Dev MCP，让编码 Agent 直接管理生成式媒体平台&lt;/h2&gt;
+&lt;p&gt;Runway Dev MCP 通过 OAuth 把开发者门户账号接入 Cursor、Claude Code、Codex 等客户端，可查任务、管理 Model Router、读取文档并辅助调试集成，无需把 API key 写进 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mcp.json&lt;/code&gt;。官方特别区分两类服务：本次 Dev MCP 管理开发者平台账号，既有 generation MCP 则从聊天中直接生成媒体。工具代表媒体 API 正把控制面交给编码 Agent，但账号权限随客户端会话开放，团队仍需限制 OAuth scope、确认高影响操作并审计任务和费用变更。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/runwayml/status/2095159754414813249&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@runwayml&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1012-databricks-建立-devhub并把-gemini-38-flash-接入-lakehouse-治理层&quot;&gt;10/12 Databricks 建立 DevHub，并把 Gemini 3.8 Flash 接入 Lakehouse 治理层&lt;/h2&gt;
+&lt;p&gt;Databricks 推出 DevHub，集中提供基于 Databricks Apps、Lakebase 与 Agent Bricks 的模板和分步指南；同日又宣布 Gemini 3.8 Flash 可在 Lakehouse 数据上调用，并通过 Unity Gateway 统一治理、监控和路由。公司称该模型在内部 OfficeQA Pro 文档解析 benchmark 领先，但未公开完整任务、对照和成本。此次更新的实质是把开发入口、模型访问与企业数据控制收进同一平台，而不是证明模型在所有文档场景都占优。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/databricks/status/2095145674538897442&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@databricks 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/databricks/status/2095184613165404324&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@databricks 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1112-replit-为新项目默认开启产品分析并让-agent-推荐自定义指标&quot;&gt;11/12 Replit 为新项目默认开启产品分析，并让 Agent 推荐自定义指标&lt;/h2&gt;
+&lt;p&gt;Replit 已为所有新发布项目默认启用 Analytics，提供用户参与数据，并允许开发者添加自定义事件；现有项目需在 Publishing 设置中手动开启。开发者还能直接要求 Replit Agent 建议适合项目的自定义指标，把“生成应用”延伸到上线后的反馈采集与迭代。官方推文未说明数据保留、采样、隐私地区、指标数量或现有项目迁移方式，因此企业使用前仍需核对遥测范围、用户同意和数据出口配置。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Replit&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/Replit/status/2095314533548167240&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Replit 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/Replit/status/2095314828839760047&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Replit 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/Replit/status/2095314921005404225&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Replit 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1212-hugging-face-事件的后续争论转向是-agent-新风险还是实验安全工程失职&quot;&gt;12/12 Hugging Face 事件的后续争论转向：是 Agent 新风险，还是实验安全工程失职&lt;/h2&gt;
+&lt;p&gt;围绕此前事件，Timnit Gebru 认为模型按训练目标行动并不等于“自行协调”，关键是实验环境未正确隔离、仍有互联网访问且缺少基本监控，应把责任归于公司安全工程。Ethan Mollick 则借复杂系统理论指出，系统通常在缺陷未同时对齐时仍能运作，而 Agent 会在完成目标过程中施压并找齐这些缺陷，即使没有恶意攻击者也可能形成级联。两种解释并不互斥：前者强调可避免的治理失误，后者强调自动化会放大组合性风险；目前都属于事件解释而非新实验证据。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@timnitGebru&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/timnitGebru/status/2095005435203842484&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@timnitGebru 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/timnitGebru/status/2095036132379746326&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@timnitGebru 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2095150992954466517&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2095153210537426975&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
+
+&lt;h3 id=&quot;gemini-38用同一底座分出大众-flash-与受控网络安全能力&quot;&gt;Gemini 3.8：用同一底座分出大众 Flash 与受控网络安全能力&lt;/h3&gt;
+&lt;p&gt;3.8 Flash 与 Flash Cyber 共享基础能力，并用长时 Agent 循环反复评估和修正模型。大众版以同价升级编码、专业推理和工具调用，但更高 effort 可能增加 token；Cyber 版则优先漏洞发现与修复而非利用开发，Google 报告其在 CyberGym、CWE-Bench、Chrome 真实缺陷和内部多语言代码集上提升。产品边界比单一 benchmark 更重要：普通 3.8 按 Frontier Safety Framework 维持网络攻击与 CBRN 防护，Cyber 采用更宽松策略，只经 Fairwind 向政府、关键基础设施和可信维护者开放。Google 的 2.6 倍补丁、70% 发现率及合作方成本/召回优势尚未由统一第三方复现，当天私有评测的负面反馈也说明公开榜单不能替代真实负载验证。
+&lt;a href=&quot;https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;muse-spark-13把提问求助与确认训练进长时-agent-行为&quot;&gt;Muse Spark 1.3：把提问、求助与确认训练进长时 Agent 行为&lt;/h3&gt;
+&lt;p&gt;Meta 的升级不只追求完成率，而是显式训练协作边界：需求含糊时询问，遇到阻塞时向用户求助，执行不可逆动作前确认，并在被打断或多任务交织时把新提示路由回正确工作流。模型还会主动收集上下文、修补计划缺口，并更准确承认不知道或做不到，目标是减少长任务中的“声称完成”。编码侧约 20% 更少工具调用和 25% 更少 token 来自 Meta 工程师内部比较，缺少公开 harness；最高推理模式仍在补做安全测试。1.3 已上线，但开放权重和更大模型只有路线预告，因此可验证的当前变化是交互与执行校准，而不是已经兑现的完整开放生态。
+&lt;a href=&quot;https://research.meta.ai/blog/introducing-muse-spark-1-3&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;cursor-self-hosted-machines执行环境回到企业agent-控制面仍在供应商云端&quot;&gt;Cursor Self-Hosted Machines：执行环境回到企业，Agent 控制面仍在供应商云端&lt;/h3&gt;
+&lt;p&gt;每台 worker 用 Cursor CLI 建立出站 HTTPS 长连接，接收云端 Agent 的工具调用，在本地代码副本上编辑和运行命令，再把结果送回下一轮推理。企业可用单机或跨仓库共享的 worker pool，由队列触发扩容、超时释放或快照恢复，并接入现有 sandbox 厂商；Linux 与 Mac 还可提供浏览器控制。该架构解决内网、专用硬件和特殊构建链访问，却不等于完全私有：推理、规划继续由 Cursor 托管，返回内容可能含代码，transcript 也可能被处理保存。部署评估应分别审计计算位置、数据回传、凭据、网络出口与会话留存，而不能只看“self-hosted”标签。
+&lt;a href=&quot;https://cursor.com/blog/self-hosted-machines&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lily以极窄兼容面换取-apple-silicon-推理路径的针对性优化&quot;&gt;Lily：以极窄兼容面换取 Apple silicon 推理路径的针对性优化&lt;/h3&gt;
+&lt;p&gt;Lily 只接受固定版本的 Qwen3.6-35B-A3B MLX 4-bit 权重，加载时校验架构与量化布局；服务端只实现文本消息、非流式输出、贪心解码和可选 prefix cache key。它把 prefill 视为批量、可复用权重的计算问题，把逐 token decode 视为受内存带宽约束的问题，并直接映射到 Metal。两条目 LRU 只在旧 token 序列严格为新 prompt 前缀时复用状态，避免仅凭 cache key 错配。1.23 倍与 1.35 倍吞吐来自单一 M5 Max/模型组合，优势不能外推，但仓库提供冻结检查点、测量契约和失败关闭矩阵，使这一专用优化比黑箱性能宣传更容易复验。
+&lt;a href=&quot;https://github.com/perplexityai/pplx-garden/tree/main/lily&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;extractbench文档抽取评测开始同时追踪长文档完整性定位能力与每页成本&quot;&gt;ExtractBench：文档抽取评测开始同时追踪长文档完整性、定位能力与每页成本&lt;/h3&gt;
+&lt;p&gt;传统 OCR/抽取 benchmark 多使用短而整洁的数字文档，容易掩盖页十之后截断记录、跨页表格错列、空字段臆造和手写遗漏。ExtractBench 用统一 schema 和确定性规则覆盖 4,869 页真实企业文件，并区分感知、表格、长度、领域等失败类型。官方结果显示单次 VLM 在长记录上急剧退化，分段、回查源页与低置信重试的 Agent pipeline 更稳定；编码 Agent 接近其准确率但单页成本更高。另一个关键差异是字段溯源：LlamaIndex 称其产品是参评系统中唯一为每个值返回 word-level bounding box 的方案。由于评测由参评供应商发起，开放数据、代码与 Kaggle 提交只是必要条件，仍需独立运行确认成本和产品优势。
+&lt;a href=&quot;https://www.llamaindex.ai/blog/llamaindex-and-kaggle-launch-a-document-extraction-leaderboard-for-ai-agents&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ai21-验证器正确候选已经存在时系统收益来自独立否决而非再生成一次&quot;&gt;AI21 验证器：正确候选已经存在时，系统收益来自独立否决而非再生成一次&lt;/h3&gt;
+&lt;p&gt;AI21 固定生成候选池，让验证器针对每个候选重新检索并输出 VALID/NOT_VALID，再在通过项中投票。普通 Qwen3-8B 几乎无法复制 Opus 的验证增益；约 6,000 条平衡样本经过 SFT 教会搜索、再用可验证二元奖励做 RL，才同时保留工具使用和清晰判决。团队还发现 RL 冷启动会利用类别不平衡而停止搜索，SFT 单独使用又会稀释最终判决 token。最终 92.9 对 93.4 的结果说明专门训练的小验证器可接近昂贵模型，但外域实验暴露召回风险：它曾拒绝 27% 可解问题的全部正确候选，少量域内 SFT 后才降至 4%。可靠部署必须同时监控验证精度、召回上限与聚合 headroom。
+&lt;a href=&quot;https://www.ai21.com/blog/you-need-a-verifier/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Sep 2026 09:07:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/ai-daily/2026/09/03/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/09/03/</guid>
+        
+        <category>AI-Frontier</category>
+        
+        <category>Daily</category>
+        
+        
+        <category>ai-daily</category>
         
       </item>
     
@@ -2166,151 +2269,6 @@
         
         
         <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.09.01</title>
-        <description>&lt;p&gt;今天这几帖凑在一起，居然有一条隐隐的线：所有权、雇佣关系、署名权——都是「这东西到底算谁的」。从索尼的法庭辩词，到 Valve 的人均产出，再到一个署名为「匿名 4chan 用户」的数学证明，评论区吵出来的东西比标题有意思得多。&lt;/p&gt;
-
-&lt;h2 id=&quot;一索尼想在法庭上证明你并不拥有你买的数字游戏&quot;&gt;一、索尼想在法庭上证明：你并不拥有你买的数字游戏&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w2zjrj/playstation_wants_to_prove_in_court_that_you_dont/&quot;&gt;PlayStation Wants To Prove In Court That You Don’t Own Your Digital Games&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一起关于数字商品所有权的集体诉讼。索尼一方的辩护逻辑大致是：商店里那个「购买」按钮，买到的只是一份可撤销的授权许可，消费者理应明白这一点。同一天热榜上还有另一帖引用了索尼律师更直白的说法——如果「购买」真意味着拥有，那 GTA 6 岂不是只能卖出一份。&lt;/p&gt;
-
-&lt;p&gt;评论区最集中的火力不在「许可证合不合法」，而在「你为什么不把按钮改成租」。这个区分很关键：没人真的指望买断一款联网游戏的服务器，大家不满的是厂商一边收着买断价，一边在法庭上主张这不是买断。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“If PlayStation or Xbox were to have a “Rent” button instead of “Buy” button then I’d understand. Messed up of them to change the definition of buy to their liking.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/marcosis82，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w2zjrj/playstation_wants_to_prove_in_court_that_you_dont/p6wkcbz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;紧接着有人补了一刀，说厂商大概早就做过调研，知道换成「租」这个词会直接压低定价空间：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Makes absolute sense but I bet they did some study and found people weren’t willing to pay what they charge to “buy” compaired to “rent””&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/SucksTryAgain，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w2zjrj/playstation_wants_to_prove_in_court_that_you_dont/p6wnt9i/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这句话大概是整个帖子里最扎实的一条洞见：「买」这个词本身就是定价的一部分。厂商既不肯放弃这个词带来的溢价，又不愿承担它在法律上的含义。往下走还有一堆人把话题延伸到房子、汽车订阅制，情绪上头但方向不算跑偏。&lt;/p&gt;
-
-&lt;p&gt;对国内读者来说，这事其实很熟悉：数字专辑、网课、会员期内下架的影视剧，本质是同一个结构。Steam 前两年在结算页加了一行「您购买的是许可」，当时被骂，现在回头看反倒是唯一诚实的做法——把定价和用词对齐，比事后在法庭上辩论「购买」的语义要体面得多。&lt;/p&gt;
-
-&lt;h2 id=&quot;二ai-的八月deepseek-又发了一个模型评论区在数这个月一共发了多少个&quot;&gt;二、AI 的八月：DeepSeek 又发了一个模型，评论区在数这个月一共发了多少个&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w39i6r/deepseekaideepseekv4flashvisionexp_hugging_face/&quot;&gt;deepseek-ai/DeepSeek-V4-Flash-Vision-Exp · Hugging Face&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;帖子本身只有一个 Hugging Face 链接，DeepSeek 放出了 V4 Flash 的视觉实验版。真正有意思的是最高赞评论——有人干脆把这个月能想起来的开源模型发布列了一张清单。&lt;/p&gt;
-
-&lt;p&gt;那张清单里从 DS4 Pro、Qwen3.8 的三个尺寸、GLM5.3、到 Motif 3、Ling 3.0 Tiny、LFM2.5 VL 3B 等等，十几项挤在一个月里。底下一串人把 August 拼成了 AIgust、Ayygust，玩梗之外表达的是同一种疲惫：跟不上了。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“August keeps giving.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Beamsters，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w39i6r/deepseekaideepseekv4flashvisionexp_hugging_face/p6ye0bl/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;清单之外，也有人趁机替冷门模型说话，这类「被淹没的好东西」在发布潮里其实是常态：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Most underrated and under-popular model right here. Surprised it even got a mention.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/kr_tech，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1w39i6r/deepseekaideepseekv4flashvisionexp_hugging_face/p6zeq34/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;值得注意的是那张清单里中国团队占了相当大的比重——DeepSeek、Qwen、GLM、Ling，几乎撑起半张表。但发布密度高到这个程度，副作用也很明显：单个模型的注意力窗口被压缩到几天，评测还没跑完下一个就来了。对使用者的启发大概是，别再追着榜单换模型，选一个够用的把工作流固化下来，收益比每周迁移一次高得多。&lt;/p&gt;
-
-&lt;h2 id=&quot;三没进大厂后悔吗一场挺坦诚的行业自白&quot;&gt;三、没进大厂，后悔吗？——一场挺坦诚的行业自白&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1w3klb5/anyone_whos_never_worked_at_faang_or_big_tech_do/&quot;&gt;Anyone who’s never worked at FAANG or big tech, do you have regrets about it?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;发帖人三十出头，在一家节奏轻松、稳定、但薪水明显低于市场价的公司做数据科学。社交圈子扩大之后，他发现自己和大厂同行的收入差了一大截，于是来问：不去追这条路，后悔吗？&lt;/p&gt;
-
-&lt;p&gt;评论区没有出现预期中的「快去卷」，反而相当克制。一位在 Meta 做过产品数据科学的人给了很具体的账：熬过两轮裁员、被重组进一个高度优化因而无聊透顶的领域、遇上糟糕的经理。他的结论是钱在别处也能挣到，真正稀缺的是 RSU；但为了它每周搭进 60 小时不划算。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The good paycheck exists in other places. It’s the RSUs that are nice.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/MattDamonsTaco，&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1w3klb5/anyone_whos_never_worked_at_faang_or_big_tech_do/p70pc4k/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他末尾那句「不后悔，这段经历塑造了我」立刻被人接住反问：这不正是所有金笼子里的人都会说的话吗——既然不后悔，为什么又不推荐别人去经历同样的痛苦？这个追问相当锋利，几乎是所有「苦尽甘来叙事」的通用解药。&lt;/p&gt;
-
-&lt;p&gt;另一条被顶起来的回复算了一笔更冷酷的账，说明高薪 offer 的期望值必须按在职时长打折：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I know someone who left our company for Meta, and made ridiculous money and got laid off 6 months later. Its now been 4 months and they can’t find a job.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/LebrawnJames416，&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1w3klb5/anyone_whos_never_worked_at_faang_or_big_tech_do/p70p03i/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;线程后半段更值得玩味：有人问「那到底哪里没有裁员恐惧」，答案一路从「AI 上没那么激进的中大型公司」滑到「我就在这种公司，去年被裁了」，再滑到金融保险业，最后被人指出某大行正在大规模裁员外包。也就是说，问题的正确形式可能不是「去哪里能稳定」，而是「稳定这件事已经不能靠选雇主来获得」。那么剩下能优化的，就只有个人的现金缓冲和技能可迁移性——这个结论对国内读者同样成立。&lt;/p&gt;
-
-&lt;h2 id=&quot;四一张人均创收图被评论区一句话带去了-valve&quot;&gt;四、一张人均创收图，被评论区一句话带去了 Valve&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w3b4za/oc_grindr_generates_more_revenue_per_employee/&quot;&gt;Grindr generates more revenue per employee than almost all Big Tech stocks&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;发帖人做了一张对比图：交友应用 Grindr 全职员工不到 200 人，人均创收约 300 万美元，超过了「七巨头」里的绝大多数。数据来自估值平台 Multiples.vc，截至 2026 年 8 月底的最近一个完整财年。&lt;/p&gt;
-
-&lt;p&gt;第一条高赞评论直接把话题掀了：等这位老哥听说 Valve 的人均创收再说吧——大约 5000 万美元一人，350 名员工。接下来的讨论才是真正有价值的部分：为什么 Valve 能维持这种结构？主流答案是「因为它没上市」，但有人不同意这个因果关系。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Its not actually because of privately owned, it’s because people running it recognise that the consumer’s long term trust is an asset, that need not be spent for padding up next quarter results.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/The_Last_Spoonbender，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w3b4za/oc_grindr_generates_more_revenue_per_employee/p71bbcx/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;有人给出了一个折中说法，我觉得更准确：不上市不是原因，而是前提——它不保证你会珍惜用户信任，但上市几乎保证了你会被迫消耗它。另一条评论顺手勾勒了这种模式的代价：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The avg valve employee has a seven figure salary and their company culture is against micromanagement and layoffs. … The con is they barely ever hire people.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Raddish_，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w3b4za/oc_grindr_generates_more_revenue_per_employee/p6yu9m2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;顺着这条往下，有人说这种公司只有靠提前退休才空出坑位。这其实点破了「人均创收」这个指标的另一面：它高，往往不是因为人效神话，而是因为分母被刻意锁死了。看这类图表时值得多问一句——高人均产出到底来自组织效率，还是来自平台的网络效应加上极端克制的招聘？对 Grindr 和 Valve 而言，答案恐怕都更偏后者。&lt;/p&gt;
-
-&lt;h2 id=&quot;五2011-年的一个-4chan-匿名帖成了正式发表的数学结论&quot;&gt;五、2011 年的一个 4chan 匿名帖，成了正式发表的数学结论&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/1w35wix/in_2011_an_anonymous_4chan_user_solved_a/&quot;&gt;In 2011, an anonymous 4chan user solved a decades-old math problem while arguing about the optimal way to binge-watch an anime&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;故事的起点很荒诞：2011 年有人在 4chan 讨论《凉宫春日的忧郁》——这部动画因为播出顺序被打乱而出名——于是产生了一个问题：如果想把 14 集按所有可能的顺序都看一遍，且允许序列首尾重叠，最短需要看多少集？发帖人在自己的长评里把三集的例子讲得很清楚：A-B-C-A-B-A-C-B-A 这 9 集就涵盖了全部 6 种排列。而任意 n 的最小长度，是组合数学里超排列问题的一个公开难题。那个匿名帖给出了一个下界证明，七年后被数学界注意到，如今论文的第一作者署名就是「Anonymous 4chan Poster」。&lt;/p&gt;
-
-&lt;p&gt;评论区最精彩的转折是：那篇论文的第二作者本人出现了，而且是来澄清的。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I’m the second-named author. I don’t think any of us were on 4chan! Nathaniel originally found the proof on a wiki where someone had copied it, and it took me a while to work out that it was from 4chan originally.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/robinhouston，&lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/1w35wix/in_2011_an_anonymous_4chan_user_solved_a/p6zaan0/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;也就是说，广为流传的版本——「有人多年后突然想起那个 4chan 帖」——并不准确：证明是从别人转抄的 wiki 上被发现的，作者们花了不少功夫才反查到 4chan 这个源头。有意思的是，底下并没有多少人接受这个更正，反而在起哄说「Houston 博士，说辞挺像样啊」。而在作者现身之前，已经有人凭直觉提出了同样的疑点：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Also who casually recalls a 4chan post from years earlier unless you understood its significance at the time”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Rustywolf，&lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/1w35wix/in_2011_an_anonymous_4chan_user_solved_a/p6xvd0q/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这一段本身就是一个小型的传播学样本：一个更精彩的版本会自动挤掉更准确的版本，哪怕当事人就站在评论区里澄清。另一个值得记下的点是关于署名——匿名者的贡献没有被抹掉，而是以「Anonymous 4chan Poster」的形式进了正式文献。在越来越多知识产出发生在论坛、issue 区和聊天群的今天，这种把署名让渡给来源本身的做法，比归功于「转述者」要健康得多。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;今天这五帖里，索尼那条的启发最直接：语言是有价格的。当一家公司同时想要某个词的溢价和另一个词的责任边界，通常就是纠纷的开始。&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Sep 2026 09:30:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/01/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/01/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
         
       </item>
     

@@ -5,9 +5,1052 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Sep 2026 11:34:36 +0800</pubDate>
-    <lastBuildDate>Thu, 03 Sep 2026 11:34:36 +0800</lastBuildDate>
+    <pubDate>Fri, 04 Sep 2026 09:21:12 +0800</pubDate>
+    <lastBuildDate>Fri, 04 Sep 2026 09:21:12 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Snowflake 2027财年Q2电话会——AI产品贡献了一半的增速加速，CEO称「模型中立」是最大护城河</title>
+        <description>&lt;p&gt;美东时间2026年9月2日下午2点（北京时间9月3日凌晨5点），&lt;a href=&quot;https://investors.snowflake.com/&quot;&gt;Snowflake&lt;/a&gt;在发布2027财年二季报后召开业绩电话会。出席的管理层是CEO &lt;strong&gt;Sridhar Ramaswamy&lt;/strong&gt;、CFO &lt;strong&gt;Brian Robins&lt;/strong&gt;、产品负责人（EVP of Product）&lt;strong&gt;Christian Kleinerman&lt;/strong&gt;，投资者关系负责人Katherine McCracken主持。&lt;/p&gt;
+
+&lt;p&gt;财报数字本身已经很漂亮（产品收入14.92亿美元同比增长37%，全年指引上调，详见&lt;a href=&quot;/blog/2026/09/04/snowflake_fy2027q2_earnings/&quot;&gt;财报解读&lt;/a&gt;）。但这场电话会回答了一个财报没法回答的问题：&lt;strong&gt;这37%的增长，到底有多少是AI带来的？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-ai产品贡献了大约一半的加速&quot;&gt;1. 「AI产品贡献了大约一半的加速」&lt;/h2&gt;
+
+&lt;p&gt;这是全场信息量最大的一句话。Evercore ISI分析师Kirk Materne直接问：这次的加速，有多少来自新的AI产品，有多少来自核心业务本身的飞轮效应？&lt;/p&gt;
+
+&lt;p&gt;Ramaswamy的回答很干脆：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我大致会说是一半一半。我们的AI产品贡献了大约一半的加速。」&lt;/p&gt;
+
+  &lt;p&gt;（I would roughly call it even. Our AI products contributed approximately half of the acceleration.）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个表述值得拆开看。Snowflake上一财年末的产品收入增速是30%，本季度是37%，加速了7个百分点。按「一半一半」推算，AI产品大约贡献了3.5个百分点的增速，核心数据平台业务贡献另外3.5个百分点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么这个回答比一个漂亮的AI收入数字更有价值？&lt;/strong&gt; 因为它同时说明了两件事：AI确实在赚钱，但核心业务也没有停滞。市场此前最担心的情形是——公司靠AI故事掩盖数据仓库业务的增长疲软。这个拆分否定了那个假设。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-模型中立被明确定义为竞争优势&quot;&gt;2. 「模型中立」被明确定义为竞争优势&lt;/h2&gt;
+
+&lt;p&gt;UBS分析师Karl Keirstead问了一个尖锐的问题：客户在前沿模型和开源模型之间的行为有变化吗？「模型中立」算不算竞争优势？&lt;/p&gt;
+
+&lt;p&gt;Ramaswamy的回答是「绝对算」（absolutely）。他说客户表现出「很强的意愿去切换模型，同时也要优化成本」。&lt;/p&gt;
+
+&lt;p&gt;产品负责人Christian Kleinerman补充的这句更具体：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们从很多客户那里听到，他们曾经对某一家特定的模型公司做出了很大的承诺……而对Snowflake的承诺给了他们那种灵活性。」&lt;/p&gt;
+
+  &lt;p&gt;（We’ve heard from many customers that they made large commitments to one specific model company… Whereas commitment to Snowflake gives them that flexibility.）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;配合本季度推出的 &lt;strong&gt;Cortex AI Gateway&lt;/strong&gt;——按客户自定义的策略把每个任务动态路由到合适的模型——这构成了Snowflake对AI时代的完整叙事：&lt;strong&gt;我不做模型，我做模型的调度层和数据底座。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-不做前沿大模型只做窄模型&quot;&gt;3. 不做前沿大模型，只做「窄模型」&lt;/h2&gt;
+
+&lt;p&gt;德意志银行分析师Brad Zelnick问到自研模型Arctic的战略。Kleinerman的回答划清了边界：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们不是在训练模型去进入前沿模型那一类……我们会继续在Arctic系列里开发那些更具体、更受约束的任务型模型。」&lt;/p&gt;
+
+  &lt;p&gt;（We’re not training models to go get into a frontier type… we continue developing models in the Arctic family for tasks that are more specific, more constrained.）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;翻译成大白话：&lt;strong&gt;Snowflake不打算和OpenAI、Anthropic正面竞争，它只做那些跑在自己平台上、专门解决特定任务的小模型。&lt;/strong&gt; 这既是能力的诚实认知，也是资本开支的克制——不训前沿模型，就不需要几十亿美元的GPU集群。&lt;/p&gt;
+
+&lt;h2 id=&quot;4-cfo给了两个明确的时间表&quot;&gt;4. CFO给了两个明确的时间表&lt;/h2&gt;
+
+&lt;p&gt;CFO Brian Robins在准备好的发言里给出了两个可以直接对表的承诺：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们仍然按计划在2028财年第四季度实现GAAP盈利。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;以及费用端的克制：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「本财年至今，我们净增了334名员工，其中包括来自Observe并购的173人。相比之下，去年同期净增935人。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他还补充了一条对建模很关键的信息：&lt;strong&gt;90亿美元的剩余履约义务（RPO）中，预计约54%会在未来12个月内确认为收入&lt;/strong&gt;——约48.6亿美元。对照60.7亿美元的全年产品收入指引，说明指引里已经有八成左右是有合同支撑的。&lt;/p&gt;
+
+&lt;h1 id=&quot;二分析师问答里最有信息量的几个问题&quot;&gt;二、分析师问答里最有信息量的几个问题&lt;/h1&gt;
+
+&lt;h2 id=&quot;q1摩根士丹利-sanjit-singh为什么coco是那个对的捕鼠夹&quot;&gt;Q1（摩根士丹利 Sanjit Singh）：为什么CoCo是那个「对的捕鼠夹」？&lt;/h2&gt;
+
+&lt;p&gt;分析师想问的其实是：一个AI助手，凭什么能撑起超出传统商业分析的场景？&lt;/p&gt;
+
+&lt;p&gt;Ramaswamy的回答：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「AI大幅缩短了数据和价值之间的距离。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他还提到一个细节：&lt;strong&gt;CoCo里的「成本优化」功能是使用频率排前十的技能。&lt;/strong&gt; 这是个很有意思的信号——客户用Snowflake自家的AI助手，来帮自己省Snowflake的钱。Ramaswamy把这解释为建立信任的方式。&lt;/p&gt;
+
+&lt;p&gt;在按用量收费的模式下，主动帮客户省钱是反直觉的；但如果省下来的钱被用于跑更多AI工作负载，总账反而更划算。&lt;/p&gt;
+
+&lt;h2 id=&quot;q2富国银行-ryan-macwilliamsai的加速具体来自哪里&quot;&gt;Q2（富国银行 Ryan MacWilliams）：AI的加速具体来自哪里？&lt;/h2&gt;
+
+&lt;p&gt;Ramaswamy给了一个可量化的证据：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「新客户达到其采购消费额80%的时间……在最新的客户群里已经明显缩短。这就是AI的力量。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这句话的含义是：&lt;strong&gt;新签客户从签约到把预付额度用完的周期变短了。&lt;/strong&gt; 对按用量收费的公司来说，这直接意味着续约和扩容会更早发生，收入确认更快。这比任何「AI收入X亿美元」的表述都更能说明AI在改变生意的物理特性。&lt;/p&gt;
+
+&lt;h2 id=&quot;q3rbc-matt-hedberg--美银-koji-ikedaai用户比非ai用户多消费多少&quot;&gt;Q3（RBC Matt Hedberg / 美银 Koji Ikeda）：AI用户比非AI用户多消费多少？&lt;/h2&gt;
+
+&lt;p&gt;Hedberg问CoCo在知识工作者中的渗透深度。Kleinerman说「我们在几乎每一个职能上都在用CoCo和CoWork」，Robins补充说财务部门的采用率&lt;strong&gt;「几乎接近100%」&lt;/strong&gt;，覆盖交易审批、税务、会计、FP&amp;amp;A和资金管理。&lt;/p&gt;
+
+&lt;p&gt;但当美银的Koji Ikeda追问「AI采用者相比非采用者的消费提升幅度是多少」时，Ramaswamy拒绝给数字：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「目前我们还不准备分享确切的提升数字。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他只承认，随着采用加深，客户群的行为差异「相当明显」（pretty noticeable）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这是本场电话会最大的信息缺口。&lt;/strong&gt; 管理层反复强调AI会带动核心平台消费，但拒绝量化。在AI叙事定价的市场里，这个数字迟早要给。&lt;/p&gt;
+
+&lt;h2 id=&quot;q4花旗-tyler-radke传统saas厂商都在接大模型snowflake怎么竞争&quot;&gt;Q4（花旗 Tyler Radke）：传统SaaS厂商都在接大模型，Snowflake怎么竞争？&lt;/h2&gt;
+
+&lt;p&gt;Ramaswamy的回答：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「拥有用户体验是关键……CoCo和CoWork对我们的未来是根本性的。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Kleinerman的比喻更好懂：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「如果我用三个应用，我不会把数据复制到三个不同的平台里。在Snowflake这样一个中心平台上整合会更容易。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这实际上是Snowflake对「数据重力」的重申——数据搬家成本极高，谁存着数据谁就有主场优势。&lt;/p&gt;
+
+&lt;h2 id=&quot;q5摩根大通-dharmik-jhaveri指引上调是核心业务变好了还是纯靠ai&quot;&gt;Q5（摩根大通 Dharmik Jhaveri）：指引上调是核心业务变好了，还是纯靠AI？&lt;/h2&gt;
+
+&lt;p&gt;CFO Robins的回答：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「这既反映了我们在AI产品上看到的强劲表现，也反映了核心业务的底层强度。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;和Ramaswamy的「一半一半」互相印证。&lt;/p&gt;
+
+&lt;h2 id=&quot;q6巴克莱-raimo-lenschow北美以外的区域表现如何&quot;&gt;Q6（巴克莱 Raimo Lenschow）：北美以外的区域表现如何？&lt;/h2&gt;
+
+&lt;p&gt;Robins：「所有区域都在表现，所有区域都运转得很好。」——这是一句没有信息量的回答，但至少排除了区域性走弱。&lt;/p&gt;
+
+&lt;h1 id=&quot;三一个容易被忽略的细节snowflake自己用ai省了多少钱&quot;&gt;三、一个容易被忽略的细节：Snowflake自己用AI省了多少钱&lt;/h1&gt;
+
+&lt;p&gt;Ramaswamy在准备好的发言里给了两个内部使用的数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;市场部用CoCo把搜索优化工作收回内部做，&lt;strong&gt;每年省下40万美元的代理商费用&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;销售团队自动化处理了&lt;strong&gt;超过12.5万个潜在客户线索&lt;/strong&gt;，&lt;strong&gt;70%的首次触达邮件由AI生成&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;40万美元对一家年收入60亿美元的公司来说是零头，但这个披露的意义不在金额，而在&lt;strong&gt;它把自己变成了产品的第一个案例研究&lt;/strong&gt;。Ramaswamy的原话是「我们把这些洞察直接带给客户」。&lt;/p&gt;
+
+&lt;h1 id=&quot;四解读这场电话会说明了什么&quot;&gt;四、解读：这场电话会说明了什么&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，Snowflake找到了一个可信的AI叙事，而且这个叙事不需要它去和OpenAI打仗。&lt;/strong&gt; 「模型中立 + 数据治理 + 调度层」这个定位，避开了最烧钱的赛道，同时把大模型的商品化变成自己的优势——模型越同质化，谁能帮客户在模型之间自由切换、控制成本，谁越值钱。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，管理层在用「不给数字」来管理预期。&lt;/strong&gt; AI消费提升的量化数据、AI收入的绝对金额，两个最关键的指标都被回避了。乐观的解读是数字还不稳定、不想给市场设锚；谨慎的解读是这些数字还不够好看。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，费用纪律是这次指引双升的真正基础。&lt;/strong&gt; 全年净增334人（剔除并购只有161人）对上35%以上的收入增长，这是一个非常极端的杠杆。但它也意味着后续的利润率改善空间正在被提前消耗——你不可能永远不招人。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;最值得盯住的一句话，是Ramaswamy关于「新客户消耗周期缩短」的表述。&lt;/strong&gt; 如果这是真的且可持续，它会以一种复利的方式改善Snowflake的每一个指标：收入确认更快、NRR更高、销售效率更高。如果只是最新一批客户的偶然现象，那么37%的增速就更像是一次性的反弹。&lt;/p&gt;
+
+&lt;p&gt;下一个财季的产品收入指引是15.88亿到15.93亿美元、增速37%到38%——管理层已经把话说出去了，四季度见分晓。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Snowflake 2027财年第二季度业绩电话会实录（StockAnalysis整理版，2026年9月2日）：&lt;a href=&quot;https://stockanalysis.com/stocks/snow/transcripts/681381-q2-2027/&quot;&gt;https://stockanalysis.com/stocks/snow/transcripts/681381-q2-2027/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Snowflake 2027财年第二季度财报新闻稿（SEC 8-K附件99.1）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm&quot;&gt;https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Snowflake投资者关系页面（电话会录音回放）：&lt;a href=&quot;https://investors.snowflake.com/&quot;&gt;https://investors.snowflake.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（仅用于市场反应）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Seeking Alpha：Snowflake Inc. (SNOW) Q2 2027 Earnings Call Transcript&lt;/li&gt;
+  &lt;li&gt;Benzinga：Snowflake Q2 2027 Earnings Call, Complete Transcript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;文中管理层引述译自英文实录；括号内为英文原文。标注为「推算」的数字为作者根据公开数据计算所得，非公司披露口径。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/04/snowflake_fy2027q2_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/04/snowflake_fy2027q2_earnings_call/</guid>
+        
+        <category>Snowflake</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>Snowflake 2027财年Q2——产品收入14.92亿美元同比增长37%，连续三个季度加速，股价盘后暴涨21%</title>
+        <description>&lt;p&gt;美东时间2026年9月2日盘后（北京时间9月3日凌晨），&lt;a href=&quot;https://investors.snowflake.com/&quot;&gt;Snowflake&lt;/a&gt;（纽交所代码SNOW）发布2027财年第二财季财报，该季度截至2026年7月31日。&lt;/p&gt;
+
+&lt;p&gt;先看三个数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;产品收入14.92亿美元&lt;/strong&gt;，同比增长37%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;全财年产品收入指引上调到60.7亿美元&lt;/strong&gt;，比三个月前的58.4亿美元多出2.3亿&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;股价盘后一度上涨约21%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这是一份罕见的「三项全中」财报：收入超预期、利润率超预期、指引大幅上调。但把GAAP报表翻开，故事没那么干净。&lt;/p&gt;
+
+&lt;h1 id=&quot;一这家公司是做什么的&quot;&gt;一、这家公司是做什么的&lt;/h1&gt;
+
+&lt;p&gt;Snowflake是一家云数据平台公司。用最直白的话说：企业把散落在各个系统里的数据（销售记录、用户行为、财务流水）集中放到Snowflake上，然后在上面做查询、分析，现在还要在上面跑AI。&lt;/p&gt;
+
+&lt;p&gt;它的商业模式是&lt;strong&gt;按用量收费&lt;/strong&gt;（consumption model）——客户跑的查询越多、处理的数据越多，付的钱越多。这一点和大多数按人头收年费的软件公司（比如Salesforce）完全不同，意味着：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;好处是客户用得越深，收入自动增长，不需要重新谈合同&lt;/li&gt;
+  &lt;li&gt;坏处是客户一旦削减开支，收入立刻下滑，没有订阅合同垫底&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;所以看Snowflake的财报，&lt;strong&gt;「产品收入」（product revenue）比总收入更重要&lt;/strong&gt;——它剔除了专业服务（咨询、培训）这类低毛利的杂项，是平台真实消耗量的体现。本季度产品收入占总收入的96%。&lt;/p&gt;
+
+&lt;p&gt;理解了这一点，就能理解这个季度为什么重要：在按用量收费的模式下，收入增速连续三个季度加速，说明客户在平台上跑的东西&lt;strong&gt;确实变多了&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据&quot;&gt;二、核心财务数据&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2027财年Q2&lt;/th&gt;
+      &lt;th&gt;2026财年Q2&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总收入&lt;/td&gt;
+      &lt;td&gt;15.47亿美元&lt;/td&gt;
+      &lt;td&gt;11.45亿美元&lt;/td&gt;
+      &lt;td&gt;+35%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品收入&lt;/td&gt;
+      &lt;td&gt;14.92亿美元&lt;/td&gt;
+      &lt;td&gt;10.90亿美元&lt;/td&gt;
+      &lt;td&gt;+37%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP毛利率&lt;/td&gt;
+      &lt;td&gt;67%&lt;/td&gt;
+      &lt;td&gt;68%&lt;/td&gt;
+      &lt;td&gt;-1个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP毛利率&lt;/td&gt;
+      &lt;td&gt;72%&lt;/td&gt;
+      &lt;td&gt;73%&lt;/td&gt;
+      &lt;td&gt;-1个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP经营亏损&lt;/td&gt;
+      &lt;td&gt;-2.63亿美元&lt;/td&gt;
+      &lt;td&gt;-3.40亿美元&lt;/td&gt;
+      &lt;td&gt;亏损收窄&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;-17.0%&lt;/td&gt;
+      &lt;td&gt;-29.7%&lt;/td&gt;
+      &lt;td&gt;+12.7个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP经营利润&lt;/td&gt;
+      &lt;td&gt;2.37亿美元&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;利润率15.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP净亏损&lt;/td&gt;
+      &lt;td&gt;-1.92亿美元&lt;/td&gt;
+      &lt;td&gt;-2.98亿美元&lt;/td&gt;
+      &lt;td&gt;亏损收窄36%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP每股亏损&lt;/td&gt;
+      &lt;td&gt;-0.55美元&lt;/td&gt;
+      &lt;td&gt;-0.89美元&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流&lt;/td&gt;
+      &lt;td&gt;0.91亿美元&lt;/td&gt;
+      &lt;td&gt;0.75亿美元&lt;/td&gt;
+      &lt;td&gt;+22%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;自由现金流&lt;/td&gt;
+      &lt;td&gt;0.84亿美元&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;利润率5.4%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;小科普：&lt;strong&gt;GAAP&lt;/strong&gt; 是美国通用会计准则，是「法定」口径；&lt;strong&gt;非GAAP&lt;/strong&gt; 是公司自己剔除了股权激励、并购摊销等项目后的口径。科技公司普遍强调非GAAP，因为股权激励不花现金；但股权激励会稀释股东权益，所以两个口径都得看。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;几个值得注意的地方：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，亏损在实打实地收窄。&lt;/strong&gt; GAAP经营利润率从-29.7%改善到-17.0%，一年提升近13个百分点。这不是靠裁员，而是靠收入增长跑赢了费用增长——本季度收入增长35%，而销售费用只增长22%、研发费用只增长15%。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，毛利率轻微下滑。&lt;/strong&gt; GAAP产品毛利率从72%降到71%。这是AI业务的代价：跑大模型推理要用GPU，GPU比传统的CPU查询贵得多。管理层给出的全年非GAAP产品毛利率指引是74%，比过去的水平略低。&lt;strong&gt;这是一个需要长期盯住的趋势——如果AI收入占比继续上升而毛利率持续下滑，规模效应就会被侵蚀。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，经营现金流很难看，但这是季节性的。&lt;/strong&gt; 本季度自由现金流只有8380万美元，利润率5.4%。而公司给全年的调整后自由现金流利润率指引是23%。差距这么大是因为Snowflake的客户合同大多在第四财季集中签署和预付，现金收在Q4和Q1，Q2Q3是消耗期。财报里可以看到，上半财年递延收入减少了8.07亿美元——就是这个原因。&lt;/p&gt;
+
+&lt;h1 id=&quot;三客户数据真正的看点&quot;&gt;三、客户数据：真正的看点&lt;/h1&gt;
+
+&lt;p&gt;对按用量收费的公司来说，客户指标比当期收入更能说明未来。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;本季度&lt;/th&gt;
+      &lt;th&gt;说明&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净收入留存率（NRR）&lt;/td&gt;
+      &lt;td&gt;126%&lt;/td&gt;
+      &lt;td&gt;老客户今年比去年多花26%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;客户总数&lt;/td&gt;
+      &lt;td&gt;14554家&lt;/td&gt;
+      &lt;td&gt;本季净增692家，同比多增32%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;年消费超100万美元客户&lt;/td&gt;
+      &lt;td&gt;828家&lt;/td&gt;
+      &lt;td&gt;同比增27%，本季净增48家&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;年消费超1000万美元客户&lt;/td&gt;
+      &lt;td&gt;65家&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;福布斯全球2000强客户&lt;/td&gt;
+      &lt;td&gt;829家&lt;/td&gt;
+      &lt;td&gt;本季净增14家&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;剩余履约义务（RPO）&lt;/td&gt;
+      &lt;td&gt;90.0亿美元&lt;/td&gt;
+      &lt;td&gt;同比增30%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;小科普：&lt;strong&gt;净收入留存率（NRR）&lt;/strong&gt; 是指去年这批客户，今年花的钱是去年的百分之多少。126%意味着即使一个新客户都不签，收入也能自然增长26%。这是SaaS公司最核心的健康指标。&lt;strong&gt;剩余履约义务（RPO）&lt;/strong&gt; 是客户已经签约但还没消耗完的金额，相当于「在手订单」。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;RPO 90亿美元、同比增长30%，是这份财报里被低估的数字。&lt;/strong&gt; CFO Brian Robins在电话会上补充说，其中约54%预计将在未来12个月内确认为收入——也就是约48.6亿美元。对照全年60.7亿美元的产品收入指引，可见指引的可见度相当高。&lt;/p&gt;
+
+&lt;p&gt;净增692家客户、同比多增32%，也扭转了此前几个季度新客户增长放缓的趋势。&lt;/p&gt;
+
+&lt;h1 id=&quot;四ai到底贡献了多少&quot;&gt;四、AI到底贡献了多少&lt;/h1&gt;
+
+&lt;p&gt;这是市场最关心的问题。Snowflake没有单独披露AI收入的金额，但给了两组数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;CoCo&lt;/strong&gt;（面向个人的AI助手）账户数超过9100个，本季新增2000多个&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CoWork&lt;/strong&gt;（面向团队的智能体协作产品）账户数5800个，环比增长近11%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CEO Sridhar Ramaswamy在财报中的表述是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「Snowflake交付了又一个强劲的季度，产品收入14.9亿美元，同比增长37%，Snowflake持续为企业AI革命提供动力。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;更有价值的信息来自电话会——Ramaswamy在回答Evercore ISI分析师Kirk Materne提问时说，AI产品贡献了&lt;strong&gt;大约一半的增速加速&lt;/strong&gt;。也就是说，37%的增速里，比去年同期提速的那部分，一半来自AI产品，一半来自核心数据平台业务本身的健康增长。&lt;/p&gt;
+
+&lt;p&gt;这个「一半一半」的表述其实比一个漂亮的AI收入数字更可信：它承认了AI还不是全部，同时说明核心业务没有被AI故事掩盖住基本盘的问题。&lt;/p&gt;
+
+&lt;p&gt;公司还披露，上半财年推出了&lt;strong&gt;330多项正式发布的产品功能&lt;/strong&gt;，同比增长35%；平台上部署的用例数量同比增长89%。&lt;/p&gt;
+
+&lt;h1 id=&quot;五指引这是股价暴涨的真正原因&quot;&gt;五、指引：这是股价暴涨的真正原因&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指引项&lt;/th&gt;
+      &lt;th&gt;新指引&lt;/th&gt;
+      &lt;th&gt;旧指引&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2027全年产品收入&lt;/td&gt;
+      &lt;td&gt;60.70亿美元（+36%）&lt;/td&gt;
+      &lt;td&gt;58.40亿美元（+31%）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2027非GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;14.5%&lt;/td&gt;
+      &lt;td&gt;13.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2027非GAAP产品毛利率&lt;/td&gt;
+      &lt;td&gt;74.0%&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2027调整后自由现金流利润率&lt;/td&gt;
+      &lt;td&gt;23.0%&lt;/td&gt;
+      &lt;td&gt;维持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2027Q3产品收入&lt;/td&gt;
+      &lt;td&gt;15.88亿–15.93亿美元（+37%~38%）&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2027Q3非GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;15.5%&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;收入指引上调2.3亿美元、增速从31%提到36%，同时利润率指引还往上提了1个百分点——这是最难做到的组合。&lt;/strong&gt; 大多数软件公司在加速增长时都要牺牲利润率（多招销售、多买GPU），Snowflake这次两头都提了。&lt;/p&gt;
+
+&lt;p&gt;CFO Robins给出的解释是费用端的克制：&lt;strong&gt;本财年至今只净增了334名员工，其中还包括收购Observe带来的173人；而去年同期净增935人。&lt;/strong&gt; 也就是说，剔除并购，公司今年实际上只新招了161人，收入却增长了35%。&lt;/p&gt;
+
+&lt;p&gt;需要注意的是，60.7亿美元的指引里包含了&lt;strong&gt;约1个百分点来自Observe并购的贡献&lt;/strong&gt;，所以内生增速约为35%。&lt;/p&gt;
+
+&lt;h1 id=&quot;六隐忧三个不能忽略的数字&quot;&gt;六、隐忧：三个不能忽略的数字&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，股权激励费用占营收29.5%。&lt;/strong&gt; 本季度股权激励相关费用4.564亿美元，占15.47亿美元收入的29.5%。这是Snowflake和绝大多数同规模软件公司最大的差别——它的「非GAAP盈利」几乎完全建立在把这笔费用剔除掉的基础上。加回去，公司就是亏损1.92亿美元。管理层的承诺是&lt;strong&gt;2028财年第四季度实现GAAP盈利&lt;/strong&gt;，这意味着还要再等六个季度。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，现金储备半年减少了近17亿美元。&lt;/strong&gt; 现金及等价物从1月31日的28.28亿美元降到7月31日的17.07亿美元，加上短期投资，总额从40.30亿美元降到23.45亿美元。原因是可查的：上半年回购股票花了3.00亿美元、并购Observe付了2.54亿美元、净增购买投资、以及递延收入的季节性回吐。这不是危机，但确实说明公司目前的现金产生能力还撑不起同时做回购和并购。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，毛利率的方向。&lt;/strong&gt; GAAP产品毛利率同比降1个百分点，非GAAP产品毛利率从76%降到75%，全年指引74%。AI推理是重资产生意，这条曲线的斜率决定了Snowflake未来能不能在增长的同时把经营利润率推到20%以上。&lt;/p&gt;
+
+&lt;h1 id=&quot;七市场反应与总结&quot;&gt;七、市场反应与总结&lt;/h1&gt;
+
+&lt;p&gt;据媒体报道，本季度非GAAP每股收益0.62美元，显著高于市场预期的约0.45美元；总收入15.47亿美元也高于预期的约14.8亿美元。财报公布后股价盘后一度上涨约21%。&lt;/p&gt;
+
+&lt;p&gt;一句话总结这份财报：&lt;strong&gt;Snowflake证明了自己没有在AI浪潮里被绕开，反而成了受益方。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;过去两年市场对它最大的担心是——当企业把钱砸向大模型和GPU时，传统的数据仓库会不会被边缘化？这个季度的答案是不会：AI应用要跑起来，先得有干净、治理好的数据，而这正是Snowflake的位置。产品收入增速从上一财年末的30%一路提到37%，是这个判断最直接的证据。&lt;/p&gt;
+
+&lt;p&gt;但风险也很清楚：这家公司仍然在GAAP口径下亏损，其增长很大程度上靠给员工发股票来补贴成本结构；而AI业务本身的毛利率低于传统业务。&lt;strong&gt;接下来四个季度的观察点只有一个——增速能不能维持在35%以上的同时，把非GAAP经营利润率推向20%。&lt;/strong&gt; 如果能，今天21%的涨幅只是开始；如果做不到，市场对「加速增长」的耐心不会持续太久。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Snowflake 2027财年第二季度财报新闻稿（SEC 8-K附件99.1）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm&quot;&gt;https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Snowflake投资者关系页面：&lt;a href=&quot;https://investors.snowflake.com/&quot;&gt;https://investors.snowflake.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Snowflake 2027财年第二季度业绩电话会实录（StockAnalysis整理版）：&lt;a href=&quot;https://stockanalysis.com/stocks/snow/transcripts/681381-q2-2027/&quot;&gt;https://stockanalysis.com/stocks/snow/transcripts/681381-q2-2027/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（仅用于市场预期与股价反应）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RTTNews：Snowflake Shares Surge 20% After Q2 Results, Raises FY27 Product Revenue Outlook&lt;/li&gt;
+  &lt;li&gt;Seeking Alpha：Snowflake soars as Q2 results, guidance top estimates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;文中财务数据均取自官方新闻稿及其附表；标注为计算所得的比率（如GAAP经营利润率同比、股权激励占营收比重）为作者根据披露数据推算，非公司披露口径。管理层引述译自英文原文。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/04/snowflake_fy2027q2_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/04/snowflake_fy2027q2_earnings/</guid>
+        
+        <category>Snowflake</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>慧与2026财年Q3电话会——CEO称「我们的核心正在变成一家网络公司」，并首次拆解甲骨文吉瓦级订单和超大规模客户推理大单</title>
+        <description>&lt;p&gt;美东时间2026年9月2日下午（北京时间9月3日凌晨），&lt;a href=&quot;https://investors.hpe.com/&quot;&gt;慧与&lt;/a&gt;（HPE）在发布2026财年三季报后召开业绩电话会。出席管理层为总裁兼CEO &lt;strong&gt;Antonio Neri&lt;/strong&gt; 与首席财务官 &lt;strong&gt;Marie Myers&lt;/strong&gt;，首席战略官Shannon Cross主持。&lt;/p&gt;
+
+&lt;p&gt;财报本身已经全线创纪录（营收122亿美元同比增长34%，非GAAP每股收益首次破1美元，详见&lt;a href=&quot;/blog/2026/09/04/hpe_fy2026q3_earnings/&quot;&gt;财报解读&lt;/a&gt;）。这场电话会的价值在于，管理层被逼着回答了三个财报新闻稿里没写清楚的问题：&lt;strong&gt;甲骨文的单子到底卖什么？那笔超大规模云厂商的服务器大单意味着战略转向吗？内存短缺还要多久？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-我们的核心正在变成一家网络公司&quot;&gt;1. 「我们的核心正在变成一家网络公司」&lt;/h2&gt;
+
+&lt;p&gt;这是Neri在收尾发言里说的，也是全场最重的一句战略表态：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们的策略是非常有意的。我们以网络为先导。我们的核心正在变成一家网络公司。而投资组合的其余部分是为了服务客户需求，驱动盈利能力，并最终产生更多现金。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这句话把慧与的业务做了明确的分层：&lt;strong&gt;网络是增长和估值故事，服务器和存储是现金牛。&lt;/strong&gt; 对一家历史上被视为「服务器公司」的企业来说，这是相当彻底的重新定位。支撑这个表态的是本季度的数据——网络业务订单同比增长36%，是收入增速（可比口径10%）的3.5倍；面向AI的网络订单单季7亿美元创新高。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-甲骨文合作卖的是横向扩展和跨域互联&quot;&gt;2. 甲骨文合作：卖的是横向扩展和跨域互联&lt;/h2&gt;
+
+&lt;p&gt;Evercore分析师Amit Daryanani追问甲骨文合作的具体内容。Neri的回答很具体：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「这是瞻博过去所做业务的扩展，但现在我们是在吉瓦级规模上做，而且将是全球范围内一组确定数量的部署。他们会同时使用我们的QFX交换产品——它基于博通的Tomahawk 6——以及我们的软件和AIOps。所以把这理解为scale out（横向扩展）。然后是我们的scale across（跨域互联），也就是我们的PTX路由平台，它用的是我们自研的芯片……我们的Express 5硅片，这是一个重大的差异化。综合来看，这是一个多年期的多吉瓦规模。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;小科普：AI数据中心的网络分三层——&lt;strong&gt;scale up&lt;/strong&gt; 是把一个机柜里的多个芯片连起来，&lt;strong&gt;scale out&lt;/strong&gt; 是把多个机柜连成集群，&lt;strong&gt;scale across&lt;/strong&gt; 是把多个数据中心连起来。慧与在后两层有产品，其中路由用的是瞻博自研芯片。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Neri还给了一个描述PTX路由器性能的比喻，用来解释自研芯片的门槛：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「拿最新的PTX产品，它占四分之三个机柜，你把纽约和伦敦加起来，6000万人同时在这个平台上看一部Netflix电影，这个平台能处理。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他强调全球只有「两三家」能在这个规模上做出这种芯片。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-超大规模云厂商大单客户是超大规模行为是企业&quot;&gt;3. 超大规模云厂商大单：客户是超大规模，行为是企业&lt;/h2&gt;
+
+&lt;p&gt;这是本场最容易被误读的信息。财报电话会上，CFO提到季度结束后拿下一笔「数十亿美元级别」的服务器订单，客户是一家超大规模云厂商，专门用于AI推理。美银分析师Wamsi Mohan和富国银行分析师Aaron Rakers都追问：这是不是意味着慧与重新回到了低毛利的「卖机器给云厂商」的老路？&lt;/p&gt;
+
+&lt;p&gt;Neri两次明确否认：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「它是一个超大规模云厂商客户，但把它想成一个企业客户，他们将把我们的AI推理用于他们自己的内部使用。所以我们的策略并没有改变……我们卖的不是过去所说的那种一级基础设施。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们卖的是传统服务器，用于AI推理，他们将用于自己的内部使用。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;这个区分非常关键。&lt;/strong&gt; 过去云厂商向慧与采购是为了转售算力，价格压得极低、毛利率个位数；而这次是客户内部要跑AI推理，采购逻辑等同于企业客户，定价空间完全不同。&lt;/p&gt;
+
+&lt;h2 id=&quot;4-amd-helios的机会完全没算进2027财年指引&quot;&gt;4. AMD Helios的机会完全没算进2027财年指引&lt;/h2&gt;
+
+&lt;p&gt;摩根大通分析师Joseph Cardoza问为什么不把AMD Helios（AMD的机柜级AI系统）纳入2027财年框架。Neri的回答里藏了一个很大的潜在上修空间：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「机会相当巨大。看那个部署的规模，作为一个市场——不是HPE——可以是数百亿美元，数百亿美元。这一次的不同在于，scale up的托盘交换机是HPE瞻博的。而且说清楚，我们会把HPE瞻博的scale up交换机卖给任何人，不只是嵌在HPE Helios机柜里。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他明确表示：「这不在我们刚刚分享的网络业务14%到17%的增长里。」CFO Myers补充说，到四季度结束时会给出2027财年的完整指引。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;翻译一下：2027财年13%–17%的营收增速指引，是一个不含Helios的保守数字。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;5-内存短缺的结构性成因&quot;&gt;5. 内存短缺的结构性成因&lt;/h2&gt;
+
+&lt;p&gt;花旗分析师Asiya Merchant请Neri拆解供应约束。这段回答是全场技术含量最高的部分：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「供应约束大体上还是那些。在大宗商品这一侧，DDR5是一个很好的例子，老一代的DDR4，还有闪存盘里的NAND。这些从2026年初开始已经是持续三个季度的主题了。再往下还有一批更老的零部件，它们受制于晶圆产能。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他把问题拆成三层：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;洁净室产能&lt;/strong&gt;——把晶圆变成可用芯片的产线，2027年会有所改善&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;晶圆产能&lt;/strong&gt;——更底层的瓶颈，这才是结构性的&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;内存类型的迁移&lt;/strong&gt;——传统DRAM正在向HBM（高带宽内存）转移，而HBM需求极高，因为GPU需要它&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Neri补充了一个关键区分：&lt;strong&gt;「在传统服务器里，我们用的是DRAM，我们不用HBM。」&lt;/strong&gt; 也就是说，慧与的传统服务器业务和GPU抢的不是同一种内存，但HBM的产能占用会挤压整体的晶圆供给。&lt;/p&gt;
+
+&lt;p&gt;他的结论是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「已经有一些供应商签了多年期的LTA（长期协议）来锁定我们的产能。这告诉我，这会持续相当长一段时间，显然这会对成本和定价产生影响。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;二分析师问答里最有信息量的问题&quot;&gt;二、分析师问答里最有信息量的问题&lt;/h1&gt;
+
+&lt;h2 id=&quot;q1高盛-catherine-murphy怎么知道这是持续的周期而不是需求前置&quot;&gt;Q1（高盛 Catherine Murphy）：怎么知道这是持续的周期而不是需求前置？&lt;/h2&gt;
+
+&lt;p&gt;Neri的答案是用自家的AI落地进度来佐证企业侧的拐点：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「企业明显已经到了一个拐点，那个拐点是由智能体AI和AI推理的部署驱动的……我们自己公司里就有1200多个用例，300多个已经在生产环境。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他强调这些企业级AI负载「不需要大量的GPU」，这正好利好慧与的传统服务器、存储和私有云产品。&lt;/p&gt;
+
+&lt;p&gt;CFO Myers补充了指引的构成：&lt;strong&gt;甲骨文合作的起始部分已经包含在网络业务14%–17%的增长指引里，超大规模客户的推理大单也有一部分包含在云与AI的14%–18%里。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;q2evercore-amit-daryanani网络业务10的增长比同行弱&quot;&gt;Q2（Evercore Amit Daryanani）：网络业务10%的增长比同行弱&lt;/h2&gt;
+
+&lt;p&gt;这是全场最尖锐的质疑。Neri没有回避：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「订单动能非常强。事实上，正如我们在准备好的发言里说的，我们的订单增长速度是收入的3.5倍。所以限制我们的是供应的可获得性。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他给了一条清晰的爬坡路径：三季度10% → 四季度11%–13% → 2027财年全年14%–17%。&lt;strong&gt;这条路径把管理层的信誉押上去了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;q3摩根士丹利-erik-woodring40的毛利率为什么不可持续&quot;&gt;Q3（摩根士丹利 Erik Woodring）：40%的毛利率为什么不可持续？&lt;/h2&gt;
+
+&lt;p&gt;CFO Myers的回答很坦白：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我会把Q3更多地理解成所有因素在同一时间汇聚到一起。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;她列了四个同时发生的因素：强劲的收入规模带来的杠杆、在元器件紧张环境下的定价纪律、Catalyst转型计划的成本节省、以及本季度交易组合的有利结构。&lt;/p&gt;
+
+&lt;p&gt;而往前看，两件事会拉低利润率：&lt;strong&gt;四季度要出更多AI系统的货（AI系统毛利率低于传统服务器），以及传统服务器内部的交易组合也会趋于正常化。&lt;/strong&gt; 库存的上升（本季度118亿美元）就是为了这些即将发货的大额AI交易做准备。&lt;/p&gt;
+
+&lt;h2 id=&quot;q4ubs-david-vogt2027财年营收上调了约40亿美元供应从哪来&quot;&gt;Q4（UBS David Vogt）：2027财年营收上调了约40亿美元，供应从哪来？&lt;/h2&gt;
+
+&lt;p&gt;Neri的回答只有一句核心：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们把数字放出去，是因为我们有能力兑现它，这来自我们供应链团队签下的这些多年期长期协议，锁定了产能。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Myers则解释了自由现金流为什么改善得更快（2027财年至少50亿美元，同比增长33%）：&lt;strong&gt;2026财年集中承担了Catalyst和瞻博整合的重组费用，2027财年这部分会大幅减少；同时网络业务增长所需的营运资金远低于服务器业务，因为库存周转更快。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;q5truist-matt-niknam涨价会不会吓退客户&quot;&gt;Q5（Truist Matt Niknam）：涨价会不会吓退客户？&lt;/h2&gt;
+
+&lt;p&gt;Neri说没有看到犹豫：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「在这轮成本超级周期开始的时候，显然有一点冲击……一旦他们理解了这一点，并且理解了在AI上你必须跑得更快，他们就想明白了——等待不是一个选项。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他举了一个前一天刚聊过的金融业客户为例：对方算完账后认为在本地自建AI工厂更合适，因为金融业的合规监管要求更严。他还引用了慧与自己的数据——&lt;strong&gt;私有云AI相比公有云可以把token成本降低最多60%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;关于预算，他的表述是：「预算整体在上升……在我们这里，这是一个增项，不是对别的东西的减法。」&lt;/p&gt;
+
+&lt;h1 id=&quot;三解读这场电话会到底说明了什么&quot;&gt;三、解读：这场电话会到底说明了什么&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，慧与的瓶颈已经完全转移到供应侧了。&lt;/strong&gt; 订单增长42%、收入增长34%、网络订单是收入的3.5倍、AI系统订单积压创新高、管线是积压的数倍——每一个数字都指向同一个结论：需求不是问题。这在一定程度上是好消息（收入的确定性高），但也意味着&lt;strong&gt;公司无法通过自身努力加速增长&lt;/strong&gt;，只能等上游产能。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，2027财年指引是保守的，但保守得不够多。&lt;/strong&gt; Helios不在指引里，这是明确的上修空间。但16%–20%的每股收益增速指引中值只有18%，几乎踩在市场一致预期上——说明成本上涨已经吃掉了收入上调的大部分好处。这也是股价当天下跌约5%的直接原因。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，「网络公司」这个定位需要数据来兑现。&lt;/strong&gt; Neri把公司的估值锚从服务器换成了网络，但本季度网络业务可比口径只增长10%，低于同行。四季度11%–13%、2027财年14%–17%这两个承诺，将是检验这个战略叙事的第一道关口。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，一个容易被忽略的战略动作：&lt;/strong&gt; Neri说慧与瞻博的scale up交换机「会卖给任何人」，不只嵌在自家的Helios机柜里。这意味着慧与试图在AI机柜的网络层做一个横跨所有整机厂商的中立供应商——如果做成，那是比卖服务器高得多的生意。&lt;/p&gt;
+
+&lt;p&gt;Neri在电话会最后说：「大家都担心整合问题，而这件事被非常有条理地执行完成了。」瞻博收购一年后，这个判断目前是站得住的——协同目标提前、监管和解落地、网络订单创新高。真正的考验是接下来四个季度：&lt;strong&gt;订单能不能变成收入。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;慧与2026财年第三季度业绩电话会实录（2026年9月2日）：&lt;a href=&quot;https://singjupost.com/transcript-hewlett-packard-hpe-q3-fy26-earnings-call/&quot;&gt;https://singjupost.com/transcript-hewlett-packard-hpe-q3-fy26-earnings-call/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;慧与2026财年第三季度财报新闻稿（官方PDF）：&lt;a href=&quot;https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-press-release.pdf&quot;&gt;https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-press-release.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;慧与投资者关系页面（电话会录音回放与演示材料）：&lt;a href=&quot;https://investors.hpe.com/news-and-events&quot;&gt;https://investors.hpe.com/news-and-events&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（仅用于市场预期与股价反应）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;24/7 Wall St.：Hewlett Packard Enterprise Falls 5% as Supply Constraints Overshadow Raised Guidance&lt;/li&gt;
+  &lt;li&gt;Investing.com：Earnings call transcript, HPE beats Q3 2026 estimates but shares fall after hours&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;文中管理层引述译自英文实录；分析师姓名与所属机构取自实录原文。标注为推算的数字为作者根据披露数据计算所得，非公司披露口径。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/04/hpe_fy2026q3_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/04/hpe_fy2026q3_earnings_call/</guid>
+        
+        <category>慧与</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>慧与2026财年Q3——营收122亿美元同比增长34%，首次单季非GAAP每股收益破1美元，股价却跌了5%</title>
+        <description>&lt;p&gt;美东时间2026年9月2日盘后（北京时间9月3日凌晨），&lt;a href=&quot;https://investors.hpe.com/&quot;&gt;慧与&lt;/a&gt;（Hewlett Packard Enterprise，纽交所代码HPE）发布2026财年第三财季财报，该季度截至2026年7月31日。&lt;/p&gt;
+
+&lt;p&gt;先看四个数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;营收122.13亿美元&lt;/strong&gt;，同比增长34%，创历史纪录&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GAAP毛利率40.1%&lt;/strong&gt;，同比提升10.9个百分点&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;非GAAP每股收益1.11美元&lt;/strong&gt;，公司历史上第一次单季突破1美元&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;股价次日下跌约5%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一份几乎所有指标都创纪录、还同时上调两个财年指引的财报，换来的是下跌。这中间的落差值得拆开讲。&lt;/p&gt;
+
+&lt;h1 id=&quot;一先搞清楚这家公司是什么&quot;&gt;一、先搞清楚这家公司是什么&lt;/h1&gt;
+
+&lt;p&gt;慧与是2015年惠普拆分后的企业业务那一半——&lt;strong&gt;卖服务器、存储、网络设备给企业和数据中心&lt;/strong&gt;，不做打印机和个人电脑（那是HP Inc.，另一家公司，上周我们写过&lt;a href=&quot;/blog/2026/08/27/hp_fy2026q3_earnings/&quot;&gt;它的三季报&lt;/a&gt;）。&lt;/p&gt;
+
+&lt;p&gt;理解现在的慧与，要抓住两件事：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，它在2025年完成了对瞻博网络（Juniper Networks）的收购。&lt;/strong&gt; 这笔约140亿美元的交易让慧与的网络业务规模翻了一倍多，也是本季度财报里很多数字看起来「暴涨」的原因。看财报时要特别注意「报告口径」和「可比口径」（normalized，即假设瞻博从2025财年初就并表）的区别——两个数字能差好几倍。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，它现在的增长引擎是AI。&lt;/strong&gt; 但和英伟达、博通不同，慧与卖的不是芯片，是装着芯片的整机、连接这些整机的交换机和路由器，以及企业自己部署AI要用的私有云平台。它的位置在AI产业链的「组装和交付」环节。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据&quot;&gt;二、核心财务数据&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;FY2026 Q3&lt;/th&gt;
+      &lt;th&gt;FY2025 Q3&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收&lt;/td&gt;
+      &lt;td&gt;122.13亿美元&lt;/td&gt;
+      &lt;td&gt;91.36亿美元&lt;/td&gt;
+      &lt;td&gt;+33.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP毛利率&lt;/td&gt;
+      &lt;td&gt;40.1%&lt;/td&gt;
+      &lt;td&gt;29.2%&lt;/td&gt;
+      &lt;td&gt;+10.9个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP毛利率&lt;/td&gt;
+      &lt;td&gt;40.4%&lt;/td&gt;
+      &lt;td&gt;29.9%&lt;/td&gt;
+      &lt;td&gt;+10.5个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP经营利润&lt;/td&gt;
+      &lt;td&gt;13.93亿美元&lt;/td&gt;
+      &lt;td&gt;2.47亿美元&lt;/td&gt;
+      &lt;td&gt;+464%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;11.4%&lt;/td&gt;
+      &lt;td&gt;2.7%&lt;/td&gt;
+      &lt;td&gt;+8.7个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP经营利润&lt;/td&gt;
+      &lt;td&gt;19.79亿美元&lt;/td&gt;
+      &lt;td&gt;7.77亿美元&lt;/td&gt;
+      &lt;td&gt;+155%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;16.2%&lt;/td&gt;
+      &lt;td&gt;8.5%&lt;/td&gt;
+      &lt;td&gt;+7.7个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利润&lt;/td&gt;
+      &lt;td&gt;15.40亿美元&lt;/td&gt;
+      &lt;td&gt;3.05亿美元&lt;/td&gt;
+      &lt;td&gt;+405%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;1.06美元&lt;/td&gt;
+      &lt;td&gt;0.21美元&lt;/td&gt;
+      &lt;td&gt;+0.85美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;1.11美元&lt;/td&gt;
+      &lt;td&gt;0.44美元&lt;/td&gt;
+      &lt;td&gt;+0.67美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流&lt;/td&gt;
+      &lt;td&gt;16亿美元&lt;/td&gt;
+      &lt;td&gt;13亿美元&lt;/td&gt;
+      &lt;td&gt;+23%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;自由现金流&lt;/td&gt;
+      &lt;td&gt;9.58亿美元&lt;/td&gt;
+      &lt;td&gt;约7.6亿美元&lt;/td&gt;
+      &lt;td&gt;+约2亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这份表里最值得注意的不是营收增长34%，而是&lt;strong&gt;毛利率一年提升了10.9个百分点&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;对一家做硬件组装的公司来说，这是极其罕见的。原因CFO Marie Myers在电话会上说得很清楚：内存等元器件短缺的环境下，慧与选择了&lt;strong&gt;严格的定价纪律&lt;/strong&gt;——不打价格战，把成本涨幅转嫁给客户；同时瞻博网络带来的高毛利网络业务占比上升。&lt;/p&gt;
+
+&lt;p&gt;两个原因叠加，把一家传统服务器公司的毛利率推到了40%。&lt;/p&gt;
+
+&lt;p&gt;不过管理层也主动提示了这不可持续。Myers的原话是，未来毛利率将「向更历史性的水平回落」，因为AI系统（毛利率低）的占比会上升。&lt;/p&gt;
+
+&lt;h1 id=&quot;三分业务看&quot;&gt;三、分业务看&lt;/h1&gt;
+
+&lt;h2 id=&quot;网络业务报告增长75实际增长10&quot;&gt;网络业务：报告增长75%，实际增长10%&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;网络子业务&lt;/th&gt;
+      &lt;th&gt;收入&lt;/th&gt;
+      &lt;th&gt;报告口径同比&lt;/th&gt;
+      &lt;th&gt;可比口径同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;网络业务合计&lt;/td&gt;
+      &lt;td&gt;29亿美元&lt;/td&gt;
+      &lt;td&gt;+74.9%&lt;/td&gt;
+      &lt;td&gt;+10%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;园区与分支&lt;/td&gt;
+      &lt;td&gt;14亿美元&lt;/td&gt;
+      &lt;td&gt;+31.0%&lt;/td&gt;
+      &lt;td&gt;+8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;路由&lt;/td&gt;
+      &lt;td&gt;7.88亿美元&lt;/td&gt;
+      &lt;td&gt;+270.0%&lt;/td&gt;
+      &lt;td&gt;+23%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;数据中心网络&lt;/td&gt;
+      &lt;td&gt;3.82亿美元&lt;/td&gt;
+      &lt;td&gt;+112.2%&lt;/td&gt;
+      &lt;td&gt;-6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;安全&lt;/td&gt;
+      &lt;td&gt;2.81亿美元&lt;/td&gt;
+      &lt;td&gt;+75.6%&lt;/td&gt;
+      &lt;td&gt;+12%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;这张表是本季财报里最容易被误读的部分。&lt;/strong&gt; 报告口径下路由业务增长270%，看起来爆炸，但那主要是因为去年同期还没有瞻博网络的路由产品并表。可比口径下是23%——依然很好，但不是一个量级。&lt;/p&gt;
+
+&lt;p&gt;网络业务真正的亮点在&lt;strong&gt;订单&lt;/strong&gt;，不在收入：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;网络业务订单同比增长&lt;strong&gt;36%&lt;/strong&gt;，是收入增速（10%）的3.5倍&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;面向AI的网络产品（Networks for AI）订单达到7亿美元&lt;/strong&gt;，创单季新高，同比增长三位数&lt;/li&gt;
+  &lt;li&gt;累计Networks for AI订单达&lt;strong&gt;22亿美元&lt;/strong&gt;，已超过2026财年原定目标；公司随即把年底目标上调到&lt;strong&gt;25亿至30亿美元&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;订单是收入的3.5倍，说明什么？&lt;strong&gt;说明产品卖得出去，但货交不出来。&lt;/strong&gt; CEO Antonio Neri在电话会上明确说，限制因素是供应，不是需求。&lt;/p&gt;
+
+&lt;p&gt;同期公司还官宣了一个重量级合作：&lt;strong&gt;甲骨文将在其AI云基础设施建设中部署慧与瞻博的路由器和交换机&lt;/strong&gt;，规模是「吉瓦级」。Neri透露，用的是基于博通Tomahawk 6芯片的QFX交换机（横向扩展），以及使用慧与自研Express 5芯片的PTX路由平台（跨域互联），「是多年期的多吉瓦规模」。&lt;/p&gt;
+
+&lt;p&gt;网络业务的经营利润率22.0%，与去年同期的22.1%基本持平。&lt;/p&gt;
+
+&lt;h2 id=&quot;云与ai业务90亿美元经营利润率翻了一倍多&quot;&gt;云与AI业务：90亿美元，经营利润率翻了一倍多&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;云与AI子业务&lt;/th&gt;
+      &lt;th&gt;收入&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;云与AI合计&lt;/td&gt;
+      &lt;td&gt;90亿美元&lt;/td&gt;
+      &lt;td&gt;+25.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;服务器&lt;/td&gt;
+      &lt;td&gt;68亿美元&lt;/td&gt;
+      &lt;td&gt;+35.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;存储&lt;/td&gt;
+      &lt;td&gt;13亿美元&lt;/td&gt;
+      &lt;td&gt;+10.2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;金融服务&lt;/td&gt;
+      &lt;td&gt;9亿美元&lt;/td&gt;
+      &lt;td&gt;-0.3%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这块业务最惊人的不是收入，是利润：&lt;strong&gt;经营利润率从去年同期的7.0%跳到17.0%，经营利润超过15亿美元，同比增长三位数。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;服务器收入增长35%，但管理层承认这主要靠&lt;strong&gt;平均售价（ASP）上涨&lt;/strong&gt;而非出货量——因为内存短缺卡住了产能。Neri在回答Bernstein分析师提问时说，预计四季度出货量会「走强」。&lt;/p&gt;
+
+&lt;p&gt;AI相关的具体数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;AI系统订单24亿美元&lt;/strong&gt;，环比增长超过30%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AI系统收入约16亿美元&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;AI系统订单积压（backlog）环比增长14%，创新高&lt;/li&gt;
+  &lt;li&gt;管理层称在手管线（pipeline）是订单积压的「数倍」&lt;/li&gt;
+  &lt;li&gt;私有云AI（PCAI）订单同比增长三位数&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;财报季度结束后，公司还拿下一笔&lt;strong&gt;数十亿美元级别的服务器订单，客户是一家超大规模云厂商，专门用于AI推理&lt;/strong&gt;。Neri特别澄清这不是过去那种「卖给云厂商去转售算力」的一级基础设施生意，而是这家客户&lt;strong&gt;自用&lt;/strong&gt;的AI推理设备——「它只是恰好被标签为超大规模云厂商，但它的行为是一个企业客户」。&lt;/p&gt;
+
+&lt;p&gt;另一个软性但重要的指标：&lt;strong&gt;GreenLake（混合云订阅服务）客户数从4.4万增长到5.2万，同比增长18%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;四指引上调了但市场不满意&quot;&gt;四、指引：上调了，但市场不满意&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指引&lt;/th&gt;
+      &lt;th&gt;内容&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2026 Q4营收&lt;/td&gt;
+      &lt;td&gt;139亿–148亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2026 Q4非GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;1.20–1.30美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2026全年营收增速&lt;/td&gt;
+      &lt;td&gt;34%–37%（上调）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2026全年非GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;3.75–3.85美元（上调）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2026全年自由现金流&lt;/td&gt;
+      &lt;td&gt;至少37.5亿美元（上调）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2027营收增速&lt;/td&gt;
+      &lt;td&gt;13%–17%（上调）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2027非GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;4.40–4.60美元，增长16%–20%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2027自由现金流&lt;/td&gt;
+      &lt;td&gt;至少50亿美元（上调）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FY2027经营利润率&lt;/td&gt;
+      &lt;td&gt;14%–15%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;所有数字都是上调。那为什么跌？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;答案在2027财年的每股收益增速：16%到20%，中值18%。而据媒体报道，FactSet的市场一致预期是18.7%。&lt;/strong&gt; 也就是说，看起来大幅上调的指引，落在市场预期的正中间偏下一点点。当一家公司的股价已经把「AI高增长」定价进去之后，「符合预期」就是利空。&lt;/p&gt;
+
+&lt;p&gt;第二个原因是供应。Neri在电话会上把短缺讲得很透：DDR5内存、闪存NAND、以及更底层的晶圆产能都在紧张，而且&lt;strong&gt;传统DRAM正在向HBM（高带宽内存，给GPU用的）迁移&lt;/strong&gt;，进一步挤压了普通服务器可用的内存供给。他说这个状况「会持续相当长一段时间」，并且「显然会对成本和定价产生影响」。&lt;/p&gt;
+
+&lt;p&gt;对投资者来说，这句话的含义是：&lt;strong&gt;收入的天花板不在需求，在供应；而利润率的下行压力已经在路上。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;五亮点与隐忧&quot;&gt;五、亮点与隐忧&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;三个真实的亮点：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;瞻博整合超预期。&lt;/strong&gt; 收购一年后，成本协同目标（2028财年底达成6亿美元年化节省）进度领先，整合费用低于计划。8月美国联邦法院批准了与司法部的和解协议，最大的监管不确定性消除。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;净杠杆率1.8倍，提前一年多达成目标。&lt;/strong&gt; 出售H3C股权拿到约14亿美元、卖掉电信解决方案业务，公司把定期贷款还掉了。四季度计划把至少75%的自由现金流返还股东。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;企业级AI真的开始落地。&lt;/strong&gt; Neri给的证据是慧与自己——公司内部有1200多个AI用例，其中300多个已经进入生产。他说私有云AI相比公有云可以把token成本降低最多60%。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;三个需要盯住的隐忧：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;库存涨到118亿美元。&lt;/strong&gt; 环比和同比都在上升，管理层解释是元器件涨价加上为满足订单的提前采购。这在需求确定时是好事，但一旦AI订单节奏放缓，库存会立刻变成减值风险。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;毛利率见顶信号明确。&lt;/strong&gt; 管理层自己说四季度经营利润率会环比下降，2027财年经营利润率指引是14%–15%，低于本季度的16.2%。40%的毛利率是一次性的「所有因素同时到位」，不是新常态。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;可比口径下的网络收入只增长10%。&lt;/strong&gt; 在网络设备行业普遍受益于AI建设的当下，这个数字确实偏弱——分析师Amit Daryanani在电话会上直接指出「比同行看起来要弱一些」。管理层的解释是供应受限，四季度会改善到11%–13%，2027财年到14%–17%。这是一个必须被兑现的承诺。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;六总结&quot;&gt;六、总结&lt;/h1&gt;
+
+&lt;p&gt;这份财报最准确的一句概括是：&lt;strong&gt;慧与已经变成了一家「订单接不完、货交不出去」的公司。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;订单同比增长42%，收入同比增长34%；网络业务订单增速是收入增速的3.5倍；AI系统订单积压创历史新高，管线是积压的数倍。这些数字组合在一起，说明需求侧的问题已经解决了，接下来所有的变量都在供应侧。&lt;/p&gt;
+
+&lt;p&gt;Neri在电话会结尾说了一句很直白的话：「我们的核心正在变成一家网络公司。」这是慧与过去十年最清晰的一次战略表态——服务器和存储是现金牛和入场券，瞻博带来的网络业务才是估值故事。&lt;/p&gt;
+
+&lt;p&gt;对投资者来说，接下来四个季度只需要盯三件事：&lt;strong&gt;网络业务的可比收入增速能不能追上订单、内存供应什么时候松动、以及2027财年4.40–4.60美元的每股收益指引在成本上涨的环境下守不守得住。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;慧与2026财年第三季度财报新闻稿（官方PDF）：&lt;a href=&quot;https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-press-release.pdf&quot;&gt;https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-press-release.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;慧与官方新闻稿页面：&lt;a href=&quot;https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-reports-fiscal-2026-third-quarter-results.html&quot;&gt;https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-reports-fiscal-2026-third-quarter-results.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;慧与投资者关系页面：&lt;a href=&quot;https://investors.hpe.com/news-and-events&quot;&gt;https://investors.hpe.com/news-and-events&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;慧与2026财年第三季度业绩电话会实录：&lt;a href=&quot;https://singjupost.com/transcript-hewlett-packard-hpe-q3-fy26-earnings-call/&quot;&gt;https://singjupost.com/transcript-hewlett-packard-hpe-q3-fy26-earnings-call/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（仅用于市场预期与股价反应）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;24/7 Wall St.：Hewlett Packard Enterprise Falls 5% as Supply Constraints Overshadow Raised Guidance&lt;/li&gt;
+  &lt;li&gt;Invezz：Why is HPE stock falling despite stronger-than-expected results, raised guidance?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;文中财务数据取自官方新闻稿及其附表，管理层表态取自电话会实录并译自英文原文。标注为计算所得的比率为作者根据披露数据推算，非公司披露口径。&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/04/hpe_fy2026q3_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/04/hpe_fy2026q3_earnings/</guid>
+        
+        <category>慧与</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.03</title>
@@ -953,1322 +1996,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>Palo Alto Networks 2026财年Q4——营收34.1亿美元同比增34%，全部指标超预期，股价却连跌两场</title>
-        <description>&lt;p&gt;美东时间2026年9月1日盘后（北京时间9月2日凌晨），&lt;a href=&quot;https://investors.paloaltonetworks.com/&quot;&gt;Palo Alto Networks&lt;/a&gt;（NASDAQ: PANW，中文常称「派拓网络」）发布了2026财年第四财季（截至2026年7月31日）及全财年财报。&lt;/p&gt;
-
-&lt;p&gt;这份财报的核心矛盾很典型：&lt;strong&gt;几乎所有的增长指标都超预期，但会计利润转成了亏损，股价还是跌。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Q4营收34.10亿美元，同比增长34%，超过市场预期的33.5亿美元；非GAAP每股收益1.02美元，超过预期的0.98美元；下一个季度的营收指引33.00亿-33.10亿美元，也高于分析师预期的32.2亿美元。CEO Nikesh Arora在财报中说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们以一个强劲的Q4为这一年收尾，单季度新增下一代安全业务ARR接近10亿美元。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;但同一份财报里，Q4的GAAP净亏损是2.82亿美元，而去年同期是盈利2.54亿美元。财报当日，PANW股价在正常交易时段已经下跌5.25%至362.08美元，盘后又跌1.78%至355.64美元附近。&lt;/p&gt;
-
-&lt;p&gt;下面拆开看这份财报到底发生了什么。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-palo-alto-networks是做什么的&quot;&gt;1. Palo Alto Networks是做什么的&lt;/h2&gt;
-
-&lt;p&gt;它是全球规模最大的网络安全公司，客户超过7万家。业务可以简单理解成三层：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;网络安全&lt;/strong&gt;——传统的防火墙业务（硬件+软件），保护企业网络边界&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;云安全&lt;/strong&gt;——保护企业部署在云上的应用和数据&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;安全运营（SecOps）&lt;/strong&gt;——用AI自动检测和响应攻击&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;近年公司主推的战略叫「平台化（Platformization）」，意思是不再让客户零散地买单点产品，而是打包成统一平台一次性签下多年合同。这个策略直接体现在下面这个最重要的指标上。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-必须理解的一个指标ngs-arr&quot;&gt;2. 必须理解的一个指标——NGS ARR&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;NGS ARR = Next-Generation Security Annual Recurring Revenue，下一代安全业务的年度经常性收入。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;用大白话解释：这是公司订阅制业务（云安全、AI安全、安全运营等新业务）按当前签约规模折算出的「一年能收多少订阅费」。它不同于当期确认的营收，而是反映&lt;strong&gt;已经锁定的、会持续流入的收入体量&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;对Palo Alto这类正在从「卖硬件盒子」转向「卖订阅服务」的公司来说，NGS ARR比营收更能说明业务的真实健康度。&lt;/p&gt;
-
-&lt;p&gt;本季度这个数字是 &lt;strong&gt;91.0亿美元，同比增长63%&lt;/strong&gt;，单季度净新增接近10亿美元。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-绕不开的一笔收购cyberark&quot;&gt;3. 绕不开的一笔收购——CyberArk&lt;/h2&gt;
-
-&lt;p&gt;2026年2月11日，Palo Alto以 &lt;strong&gt;23亿美元现金 + 1.12亿股股票&lt;/strong&gt; 完成了对身份安全公司CyberArk的收购。&lt;/p&gt;
-
-&lt;p&gt;CyberArk是「特权访问管理」领域的龙头——简单说，就是管理企业里那些拥有最高权限的账号（管理员账号、机器人账号、AI代理的凭证），防止这些「万能钥匙」被盗用。在AI代理开始大量自动执行任务的2026年，这块业务的战略价值急剧上升。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这笔收购是理解整份财报的钥匙：它同时解释了63%的ARR增速，和2.82亿美元的GAAP净亏损。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
-
-&lt;h2 id=&quot;第四财季2026年5-7月&quot;&gt;第四财季（2026年5-7月）&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;FY2026 Q4&lt;/th&gt;
-      &lt;th&gt;FY2025 Q4&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;产品收入&lt;/td&gt;
-      &lt;td&gt;7.38亿美元&lt;/td&gt;
-      &lt;td&gt;5.74亿美元&lt;/td&gt;
-      &lt;td&gt;+28.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;订阅与支持收入&lt;/td&gt;
-      &lt;td&gt;26.72亿美元&lt;/td&gt;
-      &lt;td&gt;19.62亿美元&lt;/td&gt;
-      &lt;td&gt;+36.2%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;总营收&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;34.10亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;25.36亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+34%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业成本&lt;/td&gt;
-      &lt;td&gt;11.06亿美元&lt;/td&gt;
-      &lt;td&gt;6.79亿美元&lt;/td&gt;
-      &lt;td&gt;+62.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利润&lt;/td&gt;
-      &lt;td&gt;23.04亿美元&lt;/td&gt;
-      &lt;td&gt;18.57亿美元&lt;/td&gt;
-      &lt;td&gt;+24.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP毛利率&lt;/td&gt;
-      &lt;td&gt;67.6%&lt;/td&gt;
-      &lt;td&gt;73.2%&lt;/td&gt;
-      &lt;td&gt;-5.6个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;研发费用&lt;/td&gt;
-      &lt;td&gt;7.79亿美元&lt;/td&gt;
-      &lt;td&gt;5.04亿美元&lt;/td&gt;
-      &lt;td&gt;+54.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售与市场费用&lt;/td&gt;
-      &lt;td&gt;11.27亿美元&lt;/td&gt;
-      &lt;td&gt;8.29亿美元&lt;/td&gt;
-      &lt;td&gt;+35.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总运营费用&lt;/td&gt;
-      &lt;td&gt;21.32亿美元&lt;/td&gt;
-      &lt;td&gt;13.60亿美元&lt;/td&gt;
-      &lt;td&gt;+56.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;GAAP经营利润&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;1.72亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;4.97亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-65.4%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP经营利润&lt;/td&gt;
-      &lt;td&gt;10.11亿美元&lt;/td&gt;
-      &lt;td&gt;7.68亿美元&lt;/td&gt;
-      &lt;td&gt;+31.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;GAAP净利润&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-2.82亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;2.54亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;由盈转亏&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP每股收益&lt;/td&gt;
-      &lt;td&gt;-0.35美元&lt;/td&gt;
-      &lt;td&gt;0.36美元&lt;/td&gt;
-      &lt;td&gt;由盈转亏&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP净利润&lt;/td&gt;
-      &lt;td&gt;8.53亿美元&lt;/td&gt;
-      &lt;td&gt;6.73亿美元&lt;/td&gt;
-      &lt;td&gt;+26.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP每股收益&lt;/td&gt;
-      &lt;td&gt;1.02美元&lt;/td&gt;
-      &lt;td&gt;0.95美元&lt;/td&gt;
-      &lt;td&gt;+7.4%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;（数据来源：Palo Alto Networks 2026财年Q4财报新闻稿，SEC Form 8-K Exhibit 99.1）&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这张表里有三处值得停下来看：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，GAAP毛利率从73.2%掉到67.6%，掉了5.6个百分点。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;营业成本同比增长62.9%，几乎是营收增速（34%）的两倍。主要原因是收购CyberArk产生的&lt;strong&gt;无形资产摊销&lt;/strong&gt;——Q4单季度摊销2.81亿美元，全财年6.38亿美元。收购一家公司时，付出的价格中超过净资产的部分要被拆成「客户关系」「技术」等无形资产，然后在若干年内逐年摊销计入成本。这是纯粹的会计处理，不消耗现金，但会实实在在地压低GAAP利润率。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，GAAP从盈利2.54亿变成亏损2.82亿，绝大部分是收购的账面成本。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;除了上面的2.81亿摊销，Q4还有 &lt;strong&gt;6800万美元的收购相关费用&lt;/strong&gt;（全财年2.95亿美元）。把这两项加回去，GAAP经营利润1.72亿 + 2.81亿 + 0.68亿 ≈ 5.21亿美元，就和去年同期的4.97亿在一个量级了。&lt;strong&gt;换句话说，剔除收购的一次性和摊销影响，公司的经营质量并没有恶化。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这也是为什么非GAAP口径下，经营利润10.11亿美元同比增长31.6%、净利润8.53亿美元同比增长26.7%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，非GAAP每股收益只增长7.4%，远低于净利润26.7%的增速。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;原因是收购CyberArk时增发了 &lt;strong&gt;1.12亿股&lt;/strong&gt; 股票。股本被稀释了，每股赚的钱自然就被摊薄了。这是「用股票买公司」必然的代价，也是这份财报里一个容易被忽略的负面因素。&lt;/p&gt;
-
-&lt;h2 id=&quot;全财年2025年8月-2026年7月&quot;&gt;全财年（2025年8月-2026年7月）&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;FY2026&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收&lt;/td&gt;
-      &lt;td&gt;114.8亿美元&lt;/td&gt;
-      &lt;td&gt;+24%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP净利润&lt;/td&gt;
-      &lt;td&gt;3.07亿美元&lt;/td&gt;
-      &lt;td&gt;——&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP每股收益&lt;/td&gt;
-      &lt;td&gt;0.40美元&lt;/td&gt;
-      &lt;td&gt;——&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP净利润&lt;/td&gt;
-      &lt;td&gt;29.31亿美元&lt;/td&gt;
-      &lt;td&gt;——&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP每股收益&lt;/td&gt;
-      &lt;td&gt;3.84美元&lt;/td&gt;
-      &lt;td&gt;——&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营活动现金流&lt;/td&gt;
-      &lt;td&gt;45.53亿美元&lt;/td&gt;
-      &lt;td&gt;——&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后自由现金流&lt;/td&gt;
-      &lt;td&gt;44.14亿美元&lt;/td&gt;
-      &lt;td&gt;——&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后自由现金流率&lt;/td&gt;
-      &lt;td&gt;38.4%&lt;/td&gt;
-      &lt;td&gt;——&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;全年44.14亿美元的调整后自由现金流，是这份财报里最扎实的数字。&lt;/strong&gt; 相对于114.8亿美元的营收，自由现金流率达到38.4%——这个水平在软件行业属于第一梯队。&lt;/p&gt;
-
-&lt;p&gt;现金层面：截至财年末，现金及等价物25.14亿美元，短期投资5.57亿美元，长期投资48.35亿美元。&lt;/p&gt;
-
-&lt;h1 id=&quot;三关键经营指标&quot;&gt;三、关键经营指标&lt;/h1&gt;
-
-&lt;p&gt;除了营收，Palo Alto的财报里有两个「先行指标」更值得关注：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;FY2026 Q4&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-      &lt;th&gt;含义&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;NGS ARR&lt;/td&gt;
-      &lt;td&gt;91.0亿美元&lt;/td&gt;
-      &lt;td&gt;+63%&lt;/td&gt;
-      &lt;td&gt;已锁定的年化订阅收入&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;剩余履约义务（RPO）&lt;/td&gt;
-      &lt;td&gt;212亿美元&lt;/td&gt;
-      &lt;td&gt;+34%&lt;/td&gt;
-      &lt;td&gt;已签约但尚未确认为收入的合同总额&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;RPO（Remaining Performance Obligations）&lt;/strong&gt; 可以理解为「合同在手金额」——客户已经签了字、承诺要付的钱，但服务还没提供完、收入还没确认。212亿美元的RPO相当于FY2026全年营收（114.8亿）的1.85倍，意味着公司未来近两年的收入基础已经相当稳固。&lt;/p&gt;
-
-&lt;p&gt;递延收入方面，短期递延收入77.47亿美元，长期递延收入70.09亿美元。&lt;/p&gt;
-
-&lt;h2 id=&quot;cyberark整合进展&quot;&gt;CyberArk整合进展&lt;/h2&gt;
-
-&lt;p&gt;根据管理层在业绩沟通中披露的信息，CyberArk的整合「快于计划」：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;与Palo Alto销售体系产生了 &lt;strong&gt;400多条共享销售线索&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;从存量客户中新签下 &lt;strong&gt;200多个净新增客户&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;CyberArk的年度合同价值（ACV）增速从FY2026 Q2的20%加速到Q4的27%&lt;/li&gt;
-  &lt;li&gt;秘钥管理（secrets）与AI相关业务的订单在FY2026增长约40%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;这组数字如果属实，是这次收购最重要的正面证据&lt;/strong&gt;——它说明CyberArk被装进Palo Alto的销售渠道后，销售效率是提升的，而不是被拖累的。&lt;/p&gt;
-
-&lt;h1 id=&quot;四指引这才是市场纠结的地方&quot;&gt;四、指引：这才是市场纠结的地方&lt;/h1&gt;
-
-&lt;h2 id=&quot;2027财年第一财季指引&quot;&gt;2027财年第一财季指引&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;指引&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;NGS ARR&lt;/td&gt;
-      &lt;td&gt;95.4亿-95.6亿美元&lt;/td&gt;
-      &lt;td&gt;+63%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;RPO&lt;/td&gt;
-      &lt;td&gt;208亿-209亿美元&lt;/td&gt;
-      &lt;td&gt;+34%~35%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收&lt;/td&gt;
-      &lt;td&gt;33.00亿-33.10亿美元&lt;/td&gt;
-      &lt;td&gt;+33%~34%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP每股收益&lt;/td&gt;
-      &lt;td&gt;0.96-0.98美元&lt;/td&gt;
-      &lt;td&gt;——（按8.37亿-8.44亿股计）&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;2027财年全年指引&quot;&gt;2027财年全年指引&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;指引&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;NGS ARR&lt;/td&gt;
-      &lt;td&gt;110.75亿-111.75亿美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+22%~23%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;RPO&lt;/td&gt;
-      &lt;td&gt;252亿-254亿美元&lt;/td&gt;
-      &lt;td&gt;+19%~20%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收&lt;/td&gt;
-      &lt;td&gt;141.0亿-142.0亿美元&lt;/td&gt;
-      &lt;td&gt;+23%~24%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP经营利润率&lt;/td&gt;
-      &lt;td&gt;29.5%&lt;/td&gt;
-      &lt;td&gt;——&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP每股收益&lt;/td&gt;
-      &lt;td&gt;4.16-4.19美元&lt;/td&gt;
-      &lt;td&gt;——（按8.44亿-8.47亿股计）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后自由现金流率&lt;/td&gt;
-      &lt;td&gt;38.0%&lt;/td&gt;
-      &lt;td&gt;——&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;这里藏着一个必须看懂的落差：Q1的NGS ARR指引同比增长63%，但全年只有22%-23%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;为什么差这么多？因为CyberArk是2026年2月11日并表的。FY2027第一财季（2026年8-10月）对比的是FY2026同期，那时CyberArk还没进来，所以增速看起来是63%；但到FY2027第三财季（2027年2月起），去年同期的基数里已经包含了CyberArk，增速就会断崖式回落。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;说白了：63%这个数字里有很大一块是收购带来的「一次性台阶」，不是可持续的内生增速。市场看到的全年22%-23%，才是剔除并表效应后的真实增长中枢。&lt;/strong&gt; 这也是为什么财报「全面超预期」，股价却不涨的核心原因之一。&lt;/p&gt;
-
-&lt;p&gt;另一个原因是毛利率。据媒体和业绩沟通中的信息，Q4非GAAP毛利率降至约74.8%，同比下降约100个基点，管理层提到云成本和硬件成本在上升。对一家以高毛利著称的软件公司来说，毛利率的方向比绝对值更敏感。&lt;/p&gt;
-
-&lt;p&gt;CFO Dipak Golechha的表态则更侧重现金流：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们的盈利性增长框架持续有效扩展，强化了我们对在2028财年实现40%调整后自由现金流率的信心。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;五亮点与隐忧&quot;&gt;五、亮点与隐忧&lt;/h1&gt;
-
-&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;单季度净新增NGS ARR接近10亿美元&lt;/strong&gt;——这是历史纪录，说明平台化战略的签约动能仍在。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;RPO 212亿美元，是全年营收的1.85倍&lt;/strong&gt;——未来收入的可见度很高。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;全年自由现金流44.14亿美元、现金流率38.4%&lt;/strong&gt;——真金白银的赚钱能力没有问题，且管理层给出了FY2028达到40%的路线图。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;CyberArk整合快于预期&lt;/strong&gt;——ACV增速从20%加速到27%，交叉销售出现实际成果。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;GAAP连续承压。&lt;/strong&gt; Q4净亏损2.82亿美元，全财年GAAP每股收益仅0.40美元，而非GAAP是3.84美元——两者相差近10倍。这个巨大的口径差距会持续存在数年（无形资产摊销周期），对看重GAAP利润的投资者不友好。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;增速的「台阶效应」即将消退。&lt;/strong&gt; 全年NGS ARR增速指引22%-23%，营收增速23%-24%，相比Q4的63%和34%是明显的降速。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;1.12亿股的股本稀释是永久性的。&lt;/strong&gt; 非GAAP净利润增长26.7%，但每股收益只增长7.4%，差额全被稀释吃掉了。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;毛利率在下行。&lt;/strong&gt; 云成本和硬件成本上升，这在2026年全行业算力和存储涨价的背景下不是Palo Alto独有的问题，但会持续压制利润率的扩张空间。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;六总结&quot;&gt;六、总结&lt;/h1&gt;
-
-&lt;p&gt;Palo Alto Networks这份财报是一个很好的案例，说明&lt;strong&gt;为什么「超预期」和「股价上涨」不是一回事&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;超预期的部分是真实的：营收、每股收益、下季度指引，全部高于市场预期；91亿美元的NGS ARR和212亿美元的RPO，把未来两年的收入基本盘锁住了；44亿美元的自由现金流证明这门生意本身极其健康。&lt;/p&gt;
-
-&lt;p&gt;但市场担心的也是真实的：63%的ARR增速里有大半来自CyberArk并表，全年指引已经把真实增速交了底——22%-23%；股本被永久稀释了1.12亿股；毛利率在往下走；GAAP口径下这个季度是亏损的。&lt;/p&gt;
-
-&lt;p&gt;对于关注AI安全这条赛道的人，这份财报里最有价值的信息其实是CyberArk的表现——&lt;strong&gt;当AI代理开始大规模自动执行任务时，「谁在管理AI的权限和凭证」会成为一个新的巨大市场。&lt;/strong&gt; Palo Alto花了超过200亿美元的对价（现金+股票）押的就是这件事，而Q4「秘钥与AI相关订单增长约40%」是第一个可量化的验证信号。&lt;/p&gt;
-
-&lt;p&gt;这笔押注划不划算，要等到FY2028——也就是管理层承诺实现40%自由现金流率的那一年——才能真正给出答案。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm&quot;&gt;Palo Alto Networks Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results（SEC Form 8-K, Exhibit 99.1，2026年9月1日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-10&quot;&gt;Palo Alto Networks 投资者关系官网 - 该季度新闻稿&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道与业绩沟通整理（用于补充市场预期、股价反应与CyberArk整合细节）：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html&quot;&gt;Palo Alto Networks (PANW) Q4 2026 earnings（CNBC）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://uk.investing.com/news/stock-market-news/earnings-call-transcript-palo-alto-networks-beats-q4-2026-estimates-shares-fall-93CH-4854504&quot;&gt;Earnings call transcript - Palo Alto Networks beats Q4 2026 estimates, shares fall（Investing.com）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 02 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/02/paloaltonetworks_fy2026q4_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/02/paloaltonetworks_fy2026q4_earnings/</guid>
-        
-        <category>PaloAltoNetworks</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>蔚来2026Q2电话会——李斌说单车成本已涨1.4万元，下半年还要再涨2000到3000元，但毛利率不会降</title>
-        <description>&lt;p&gt;北京时间2026年9月1日晚8点（美东时间当日上午8点），&lt;a href=&quot;https://ir.nio.com/news-events/events&quot;&gt;蔚来&lt;/a&gt;在发布二季度财报后召开了业绩电话会。出席的管理层是创始人、董事长兼CEO &lt;strong&gt;李斌&lt;/strong&gt;，以及首席财务官 &lt;strong&gt;曲玉&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这场电话会的背景很清楚：财报本身是漂亮的——毛利率18.4%、非GAAP经营利润连续两个季度为正、亏损同比收窄89%。但市场当天用脚投票，股价跌了4.4%。原因是营收321亿元低于预期的334亿元，而且8月交付量同比只增长14.5%，三季度指引的同比增速也从二季度的49.4%掉到了24%-27.5%。&lt;/p&gt;
-
-&lt;p&gt;所以这场电话会真正要回答的问题只有两个：&lt;strong&gt;增速为什么慢下来？毛利率还守得住吗？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;管理层给出的答案，比财报里含糊的「成本压力上升」四个字要具体得多。&lt;/p&gt;
-
-&lt;h2 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-上半年的成绩单李斌自己是这么总结的&quot;&gt;1. 上半年的成绩单，李斌自己是这么总结的&lt;/h3&gt;
-
-&lt;p&gt;李斌在开场时给了一组半年度口径的数字，比单季度更能说明问题：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「今年上半年，我们的销量同比增长67%，总营收同比增长86%。毛利润方面，同比增长282%，远快于营收的增长。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这句话的重点在最后半句——&lt;strong&gt;毛利润增速（282%）是营收增速（86%）的三倍多。&lt;/strong&gt; 意思是蔚来不只是卖得更多，而且每卖一台车赚到的钱在结构性地变多。&lt;/p&gt;
-
-&lt;p&gt;他还特意强调了蔚来品牌的定价能力：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「蔚来品牌的平均售价是40.6万元，远高于奔驰、宝马和奥迪。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这是一句有分量的话。中国市场上能把均价做到40万以上并且月销破2万的品牌，此前只有BBA。&lt;/p&gt;
-
-&lt;h3 id=&quot;2-成本端的坏消息单车成本已经涨了14万元&quot;&gt;2. 成本端的坏消息——单车成本已经涨了1.4万元&lt;/h3&gt;
-
-&lt;p&gt;CFO曲玉披露了这场电话会里最硬的一个数字：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;相比2025年底的水平，公司的平均单车成本已经上涨了约1.4万元人民币。&lt;/strong&gt;&lt;/p&gt;
-
-  &lt;p&gt;并且，下半年还存在&lt;strong&gt;每台车再增加2000到3000元&lt;/strong&gt;成本的风险，主要来自电池、芯片和原材料涨价。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这个数字需要放在背景里理解。蔚来二季度的汽车毛利率是18.5%，按平均单车售价约27万元估算（290.58亿元汽车收入除以107658台），单车毛利大约5万元。&lt;strong&gt;1.4万元的成本上涨，相当于吃掉了单车毛利的近三成。&lt;/strong&gt; 而蔚来居然还把毛利率从一季度的18.8%只降到18.5%，这背后是产品结构上移（高价车占比提升）在硬扛。&lt;/p&gt;
-
-&lt;p&gt;2026年全球电池级碳酸锂和存储芯片价格上行是行业共识，蔚来不是唯一受害者，但它是净利率最薄的那一个——二季度非GAAP净利率只有0.08%。&lt;/p&gt;
-
-&lt;h3 id=&quot;3-但管理层承诺毛利率不降&quot;&gt;3. 但管理层承诺毛利率不降&lt;/h3&gt;
-
-&lt;p&gt;面对成本压力，管理层给出的承诺相当明确：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;三季度和四季度的汽车毛利率，维持在二季度18.5%附近的水平&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;实现路径：稳住价格（不打价格战）+ 供应链持续优化 + 产品结构继续上移&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;4-四季度目标月均交付超过4万台&quot;&gt;4. 四季度目标——月均交付超过4万台&lt;/h3&gt;
-
-&lt;p&gt;这是财报里没有、只在电话会上给出的关键指引：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;四季度目标是月均交付超过4万台。&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;对比一下：8月交付35836台，三季度指引10.8万-11.1万台（月均3.6万-3.7万台）。四季度月均4万台意味着单季度12万台以上，与2025Q4的124807台大致持平或略高。考虑到2025Q4是历史峰值（有补贴退坡抢装因素），这个目标不算激进，但也不轻松。&lt;/p&gt;
-
-&lt;h3 id=&quot;5-费用与现金流的三条硬承诺&quot;&gt;5. 费用与现金流的三条硬承诺&lt;/h3&gt;
-
-&lt;p&gt;曲玉给了三条可量化的下半年目标：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;项目&lt;/th&gt;
-      &lt;th&gt;承诺&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP销售管理费用（SG&amp;amp;A）&lt;/td&gt;
-      &lt;td&gt;从上半年约13%降到营收的&lt;strong&gt;10%-11%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP研发费用&lt;/td&gt;
-      &lt;td&gt;维持在&lt;strong&gt;每季度约25亿元&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;全年资本开支（CapEx）&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;60亿-70亿元&lt;/strong&gt;，与2025年基本持平&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;三、四季度现金流&lt;/td&gt;
-      &lt;td&gt;经营性现金流和自由现金流均&lt;strong&gt;为正&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;这里有个值得注意的细节：&lt;strong&gt;二季度非GAAP研发费用只有19.83亿元，而下半年指引是每季度25亿元——意味着研发投入要重新往上走约26%。&lt;/strong&gt; 上半年靠压缩研发换来的利润改善，下半年要还回去一部分。这解释了为什么管理层只承诺现金流为正，而没有承诺利润转正。&lt;/p&gt;
-
-&lt;h2 id=&quot;二分析师问答中最有信息量的几个问题&quot;&gt;二、分析师问答中最有信息量的几个问题&lt;/h2&gt;
-
-&lt;h3 id=&quot;q1es8的高销量能持续吗&quot;&gt;Q1：ES8的高销量能持续吗？&lt;/h3&gt;
-
-&lt;p&gt;李斌的回答用数据说话：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「8月我们交付了大约10099台（ES8）。11个月里，我们已经交付了超过14万台ES8。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;并且他透露，第三代ES8本月即将逼近&lt;strong&gt;第15万台&lt;/strong&gt;交付。财报里的口径是「335天内交付14万台」，两个数据可以互相印证。&lt;/p&gt;
-
-&lt;p&gt;关于新推的旗舰ES9，李斌给了一个更有意思的指标：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;超过75%的ES9客户来自蔚来社区之外。&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这句话的价值在于：它说明ES9不是在老用户里做「换购内循环」，而是真的在从传统燃油豪华SUV手里抢客户。财报里也提到ES9在6月和7月的中国50万元以上乘用车销量中排名第一。&lt;/p&gt;
-
-&lt;h3 id=&quot;q2乐道onvo为什么增长不如预期&quot;&gt;Q2：乐道（ONVO）为什么增长不如预期？&lt;/h3&gt;
-
-&lt;p&gt;这是本场最被追问的问题。李斌的回答比较坦诚：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「乐道所处的市场，其实比蔚来和萤火虫的竞争都更激烈。」&lt;/p&gt;
-
-  &lt;p&gt;「当用户真正了解这个品牌和产品之后，他们下单的可能性会更大。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他给出的量化判断是：&lt;strong&gt;乐道目前的品牌认知度，大概相当于蔚来五六年前的水平。&lt;/strong&gt; 换句话说，管理层认为乐道的问题不是产品力，而是品牌认知的时间差。&lt;/p&gt;
-
-&lt;p&gt;另外一个数字值得记下来：&lt;strong&gt;乐道的平均成交价已经超过24万元&lt;/strong&gt;。对一个定位20-30万元家庭市场的品牌来说，能把均价做到24万以上，说明高配版本卖得不错，这也是本季度综合毛利率能维持的原因之一。&lt;/p&gt;
-
-&lt;h3 id=&quot;q3明年有什么新产品&quot;&gt;Q3：明年有什么新产品？&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;蔚来品牌&lt;/strong&gt;：来自 &lt;strong&gt;5系和6系&lt;/strong&gt; 产品线的新车&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;乐道品牌&lt;/strong&gt;：明年将推出「一款重要的战略性新产品」&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;萤火虫品牌&lt;/strong&gt;：继续维持&lt;strong&gt;单一车型 + 特别版&lt;/strong&gt;的策略&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;萤火虫「只做一款车」的策略值得注意。在中国车市普遍靠车海战术的环境下，蔚来选择让萤火虫保持单品聚焦，说明它更看重这个品牌的单车利润率而非规模。&lt;/p&gt;
-
-&lt;h3 id=&quot;q4智驾业务怎么变现&quot;&gt;Q4：智驾业务怎么变现？&lt;/h3&gt;
-
-&lt;p&gt;李斌给的数据：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;超过 &lt;strong&gt;70万&lt;/strong&gt; 用户已升级到最新版本软件&lt;/li&gt;
-  &lt;li&gt;升级后，蔚来品牌的城市领航辅助（Urban NOP+）里程增长 &lt;strong&gt;92.8%&lt;/strong&gt;，乐道品牌增长 &lt;strong&gt;127.8%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;智驾订阅服务的&lt;strong&gt;付费渗透率约20%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;商业模式：新车主&lt;strong&gt;免费5年&lt;/strong&gt;，二手车主 &lt;strong&gt;380元/月&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;目前订阅收入规模是「几千万元」量级&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;李斌承认目前订阅收入还只是「几千万元」的体量，但强调它「有长期意义」。&lt;strong&gt;说白了，这块现在不赚钱，但是在为未来的软件收入模式做用户习惯的铺垫。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;q5换电网络的经济账现在算得过来了吗&quot;&gt;Q5：换电网络的经济账现在算得过来了吗？&lt;/h3&gt;
-
-&lt;p&gt;这是蔚来长期最受质疑的一块。这次给出的数字有实质进展：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;全球累计换电站 &lt;strong&gt;4123座&lt;/strong&gt;，充电桩及目的地充电设施 &lt;strong&gt;30294根&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;2026年计划新增 &lt;strong&gt;1000座&lt;/strong&gt;换电站，&lt;strong&gt;由合作伙伴出资建设&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;第五代换电站单站成本约140万元，比第四代低约10万元&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;「由合作伙伴出资」这六个字是关键。它意味着蔚来在把换电网络从「自建重资产」转向「轻资产扩张」——这也是全年资本开支能压在60亿-70亿元、与去年持平的原因。&lt;/p&gt;
-
-&lt;p&gt;李斌还透露，蔚来正在与外部方洽谈换电合作，并规划将换电网络用于 &lt;strong&gt;Robotaxi（自动驾驶出租车）&lt;/strong&gt; 场景。&lt;/p&gt;
-
-&lt;h3 id=&quot;q6智驾负责人任少卿要出去创业&quot;&gt;Q6：智驾负责人任少卿要出去创业？&lt;/h3&gt;
-
-&lt;p&gt;这是电话会上最出人意料的一条人事消息：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;智能驾驶研发负责人任少卿将创办一家具身智能（physical AI）创业公司，蔚来作为战略股东；同时，任少卿继续负责蔚来的智驾部门。&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这个安排和前面提到的「神玑（GeniTech）芯片子公司引入外部融资、投后估值125亿元」是同一套逻辑：&lt;strong&gt;把高投入、长周期的前沿技术板块拆出去独立融资，蔚来保留股权和技术协同，但不再全额承担研发开支。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;对短期财务报表，这是明确的利好——研发费用从表内挪到表外。对长期，则是一个开放式问题：核心技术负责人一人分饰两角，蔚来能拿到多少注意力？&lt;/p&gt;
-
-&lt;h2 id=&quot;三这些表态意味着什么&quot;&gt;三、这些表态意味着什么&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，蔚来的经营逻辑已经从「抢份额」切换到「保毛利」。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;过去几年蔚来的关键词是交付量。这场电话会上，管理层反复承诺的是毛利率18.5%、SG&amp;amp;A降到10%-11%、现金流为正、资本开支持平——&lt;strong&gt;全是效率指标，没有一个是规模指标。&lt;/strong&gt; 唯一的规模承诺（四季度月均4万台）也相当保守。这是一家公司从「生存期」进入「精算期」的信号。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，成本压力是真实且量化的，管理层没有回避。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1.4万元的单车成本上涨已经发生，2000-3000元的进一步上涨是预期。承认这一点，同时承诺毛利率不降，等价于承诺&lt;strong&gt;产品结构会继续上移&lt;/strong&gt;——高价车型占比要继续提升，才能对冲成本。这也是为什么三季度营收指引增速（52.7%-56.2%）远高于交付量指引增速（24.0%-27.5%）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，「拆分融资」正在成为蔚来的系统性策略。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;神玑芯片子公司引入4.93亿元外部融资、任少卿的具身智能公司由蔚来战略入股、换电站由合作伙伴出资——这三件事发生在同一个季度，不是巧合。蔚来在系统性地把重资产和重研发从主体资产负债表上剥离。&lt;/p&gt;
-
-&lt;p&gt;这个打法的好处是显而易见的：财报变好看了，现金流压力小了。风险也同样明显：&lt;strong&gt;当核心技术不再完全由自己承担和控制时，长期的技术护城河会不会被稀释？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第四，市场为什么还是不满意？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;因为电话会没有回答一个问题：&lt;strong&gt;增速下台阶之后，蔚来的天花板在哪里。&lt;/strong&gt; 管理层提到长期看销量年增速目标是40%-50%，但三季度指引只有24%-27.5%。这个落差没有被解释清楚。当一家公司的估值逻辑建立在增长上，而增长在放缓、利润又还没真正转正时，市场的谨慎是合理的。&lt;/p&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;p&gt;这是一场信息量很足、也很坦诚的电话会。管理层没有粉饰成本压力，给出了可验证的量化承诺（毛利率18.5%、SG&amp;amp;A 10%-11%、CapEx 60亿-70亿元、四季度月均4万台、现金流为正），并且披露了两个重要的结构性动作（神玑融资、任少卿创业）。&lt;/p&gt;
-
-&lt;p&gt;对投资者来说，接下来三个月要盯的检查点很清楚：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;10月、11月、12月的月度交付量能否达到4万台&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;三季度财报的汽车毛利率是否守住18.5%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;三季度经营性现金流是否为正&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;这三条只要有一条落空，管理层这场电话会建立起来的信用就要打折扣。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1736541/000110465926104110/tm2624535d3_ex99-1.htm&quot;&gt;NIO Inc. Reports Unaudited Second Quarter 2026 Financial Results（SEC Form 6-K, Exhibit 99.1，2026年9月1日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ir.nio.com/news-events/events&quot;&gt;蔚来投资者关系 - 业绩电话会回放与活动页&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;电话会实录与整理（关键引述已在两个来源间交叉验证）：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-nio-posts-smaller-loss-in-q2-2026-shares-fall-44-93CH-4884205&quot;&gt;Earnings call transcript - NIO posts smaller loss in Q2 2026, shares fall 4.4%（Investing.com）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cnevpost.com/2026/09/01/nio-q2-2026-earnings-call-live/&quot;&gt;Nio Q2 2026 earnings call live（CnEVPost 现场实录）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.marketbeat.com/instant-alerts/transcript-nio-q2-earnings-call-highlights-2026-09-01/&quot;&gt;NIO Q2 Earnings Call Highlights（MarketBeat）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 02 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/02/nio_2026q2_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/02/nio_2026q2_earnings_call/</guid>
-        
-        <category>蔚来</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>蔚来2026Q2——营收321亿同比增长69%，毛利率飙到18.4%，离真正盈利只差5.3亿</title>
-        <description>&lt;p&gt;北京时间2026年9月1日晚，&lt;a href=&quot;https://ir.nio.com/&quot;&gt;蔚来&lt;/a&gt;（NYSE: NIO；港交所: 9866；新交所: NIO）发布了2026年第二季度（4-6月）未经审计的财务报告。&lt;/p&gt;
-
-&lt;p&gt;一句话总结这份财报：&lt;strong&gt;规模上来了，毛利上来了，亏损基本堵住了，但「真正赚钱」这一步还差最后一口气。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;季度总营收321.37亿元人民币（约47.36亿美元），同比增长69.1%；毛利润59.07亿元，同比增长211.3%——毛利润的增速是营收增速的三倍多，这是这份财报里最重要的一个信号。按美国通用会计准则（GAAP）计算，公司二季度仍净亏损5.28亿元，但相比去年同期的49.95亿元，亏损收窄了89.4%。&lt;/p&gt;
-
-&lt;p&gt;不过资本市场并不买账。财报发布当天蔚来美股下跌约4.4%，收于4.045美元附近，逼近52周低点。原因很简单：&lt;strong&gt;营收321亿元低于市场普遍预期的约334亿元。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-业务概览&quot;&gt;1. 业务概览&lt;/h2&gt;
-
-&lt;p&gt;蔚来是中国智能电动车企业，2014年11月成立，目前在纽约、香港、新加坡三地上市。它的产品线现在是清晰的「三品牌三价位」结构：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;蔚来（NIO）品牌&lt;/strong&gt;——高端市场，ES8、ES9等，平均成交价40万元以上&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;乐道（ONVO）品牌&lt;/strong&gt;——面向家庭的中端市场，L90、L80等，主打20-30万元大型SUV&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;萤火虫（FIREFLY）品牌&lt;/strong&gt;——高端小车，切的是精品小型车市场&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;除了卖车，蔚来还有一块很独特的资产：&lt;strong&gt;换电网络&lt;/strong&gt;。截至本季度，全球累计建成换电站4123座，充电桩及目的地充电设施30294根。换电是蔚来区别于所有竞争对手的基础设施，也长期是它最大的成本负担之一。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-这个季度到底发生了什么&quot;&gt;2. 这个季度到底发生了什么&lt;/h2&gt;
-
-&lt;p&gt;先看交付量的时间序列，这比任何一句评论都直观：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;季度&lt;/th&gt;
-      &lt;th&gt;交付量（台）&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2024Q3&lt;/td&gt;
-      &lt;td&gt;61,855&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2024Q4&lt;/td&gt;
-      &lt;td&gt;72,689&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2025Q1&lt;/td&gt;
-      &lt;td&gt;42,094&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2025Q2&lt;/td&gt;
-      &lt;td&gt;72,056&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2025Q3&lt;/td&gt;
-      &lt;td&gt;87,071&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2025Q4&lt;/td&gt;
-      &lt;td&gt;124,807&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2026Q1&lt;/td&gt;
-      &lt;td&gt;83,465&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;2026Q2&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;107,658&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;（数据来源：蔚来2026Q2财报「Key Operating Results」表）&lt;/p&gt;
-
-&lt;p&gt;可以看出两件事。第一，蔚来存在明显的季节性——每年一季度都是低谷（春节+补贴政策切换），四季度是高峰。第二，把同比口径拉出来看，2026Q2的107658台对比2025Q2的72056台，增长49.4%，趋势是实打实向上的。&lt;/p&gt;
-
-&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标（人民币百万元）&lt;/th&gt;
-      &lt;th&gt;2026Q2&lt;/th&gt;
-      &lt;th&gt;2026Q1&lt;/th&gt;
-      &lt;th&gt;2025Q2&lt;/th&gt;
-      &lt;th&gt;环比&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;汽车销售收入&lt;/td&gt;
-      &lt;td&gt;29,058.2&lt;/td&gt;
-      &lt;td&gt;22,783.7&lt;/td&gt;
-      &lt;td&gt;16,136.1&lt;/td&gt;
-      &lt;td&gt;+27.5%&lt;/td&gt;
-      &lt;td&gt;+80.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;汽车毛利率&lt;/td&gt;
-      &lt;td&gt;18.5%&lt;/td&gt;
-      &lt;td&gt;18.8%&lt;/td&gt;
-      &lt;td&gt;10.3%&lt;/td&gt;
-      &lt;td&gt;-30个基点&lt;/td&gt;
-      &lt;td&gt;+820个基点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收&lt;/td&gt;
-      &lt;td&gt;32,136.9&lt;/td&gt;
-      &lt;td&gt;25,532.7&lt;/td&gt;
-      &lt;td&gt;19,008.7&lt;/td&gt;
-      &lt;td&gt;+25.9%&lt;/td&gt;
-      &lt;td&gt;+69.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利润&lt;/td&gt;
-      &lt;td&gt;5,906.5&lt;/td&gt;
-      &lt;td&gt;4,859.1&lt;/td&gt;
-      &lt;td&gt;1,897.5&lt;/td&gt;
-      &lt;td&gt;+21.6%&lt;/td&gt;
-      &lt;td&gt;+211.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;综合毛利率&lt;/td&gt;
-      &lt;td&gt;18.4%&lt;/td&gt;
-      &lt;td&gt;19.0%&lt;/td&gt;
-      &lt;td&gt;10.0%&lt;/td&gt;
-      &lt;td&gt;-60个基点&lt;/td&gt;
-      &lt;td&gt;+840个基点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营亏损&lt;/td&gt;
-      &lt;td&gt;-347.2&lt;/td&gt;
-      &lt;td&gt;-308.8&lt;/td&gt;
-      &lt;td&gt;-4,908.9&lt;/td&gt;
-      &lt;td&gt;亏损扩大12.4%&lt;/td&gt;
-      &lt;td&gt;亏损收窄92.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经调整经营利润（非GAAP）&lt;/td&gt;
-      &lt;td&gt;206.9&lt;/td&gt;
-      &lt;td&gt;66.8&lt;/td&gt;
-      &lt;td&gt;-4,040.8&lt;/td&gt;
-      &lt;td&gt;+209.7%&lt;/td&gt;
-      &lt;td&gt;扭亏&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净亏损&lt;/td&gt;
-      &lt;td&gt;-528.0&lt;/td&gt;
-      &lt;td&gt;-332.1&lt;/td&gt;
-      &lt;td&gt;-4,994.8&lt;/td&gt;
-      &lt;td&gt;亏损扩大59.0%&lt;/td&gt;
-      &lt;td&gt;亏损收窄89.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经调整净利润（非GAAP）&lt;/td&gt;
-      &lt;td&gt;26.1&lt;/td&gt;
-      &lt;td&gt;43.5&lt;/td&gt;
-      &lt;td&gt;-4,126.7&lt;/td&gt;
-      &lt;td&gt;-40.0%&lt;/td&gt;
-      &lt;td&gt;扭亏&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;（数据来源：蔚来2026Q2财报「Key Financial Results」表）&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这张表里最值得说的三件事：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，毛利率的跃升是真实的，而且是靠产品结构撑起来的。&lt;/strong&gt; 汽车毛利率从去年同期的10.3%提升到18.5%，提升了8.2个百分点。什么意思？简单讲，去年蔚来每卖出100元的车，只能剩下10.3元覆盖研发、销售和管理开支；今年同样卖100元的车，能剩18.5元。财报里给出的原因是「更有利的产品组合（more favorable product mix）」——也就是高价车卖得更好了。蔚来品牌本季度交付60945台，占总量的57%，而蔚来品牌的平均成交价在40万元以上。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，研发费用同比降了28.7%，这是个需要辩证看的信号。&lt;/strong&gt; 二季度研发投入21.45亿元，比去年同期少了8.6亿元。财报解释是「组织优化带来的研发人员成本下降」和「不同开发阶段导致的设计开发成本下降」。翻译成大白话：&lt;strong&gt;裁员和项目节奏调整省下来的钱。&lt;/strong&gt; 对短期利润是好事，但对一家还在打技术战的车企来说，研发连续压缩不是能长期持续的策略。值得注意的是，环比一季度研发费用其实增长了13.8%，说明这轮压缩已经见底、开始重新爬升。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，销售管理费用（SG&amp;amp;A）环比涨了26.5%，是拖累环比毛利的主要因素。&lt;/strong&gt; 二季度SG&amp;amp;A为44.25亿元，同比增11.6%，环比增26.5%。财报说主要是「新产品上市带来的销售和市场活动增加」——ES8五座版、乐道L80这些新车都需要花钱推。这也解释了为什么营收环比涨了25.9%，经营亏损反而从3.09亿扩大到3.47亿。&lt;/p&gt;
-
-&lt;h2 id=&quot;关于非gaap净利润转正怎么理解&quot;&gt;关于「非GAAP净利润转正」怎么理解&lt;/h2&gt;
-
-&lt;p&gt;财报里有两个净利润口径，容易看晕，这里解释一下：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;GAAP净亏损5.28亿元&lt;/strong&gt;——这是按美国通用会计准则算的真实亏损&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;非GAAP经调整净利润0.26亿元&lt;/strong&gt;——这是把「股权激励费用」（share-based compensation）剔除后的数字&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;股权激励是公司发给员工的期权和限制性股票，它不花现金，但按会计准则要计入费用。蔚来二季度的股权激励费用大约5.5亿元。剔除后，公司「勉强」录得0.26亿元的正利润，这已经是连续第二个季度非GAAP净利为正（一季度为0.44亿元）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;客观地说：非GAAP转正是一个真实的里程碑，说明业务本身的造血能力接近了盈亏平衡点；但0.26亿元的利润对应321亿元的营收，净利率只有0.08%，这个安全边际薄得几乎不存在。&lt;/strong&gt; 一个季度的成本波动就能把它抹掉。&lt;/p&gt;
-
-&lt;h1 id=&quot;三分业务解读&quot;&gt;三、分业务解读&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-三个品牌都在涨但含金量不同&quot;&gt;1. 三个品牌都在涨，但含金量不同&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;蔚来品牌 60,945台&lt;/strong&gt;：主力仍是它。ES8自上市以来335天内交付突破14万台，在40万元级乘用车和大型SUV市场排名第一；ES9作为行政旗舰SUV，在6月和7月的50万元以上乘用车销量中排名第一。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;乐道品牌 29,124台&lt;/strong&gt;：靠L90和L80两款车，成为中国20-30万元大型SUV细分市场的销量第一。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;萤火虫品牌 17,589台&lt;/strong&gt;：连续15个月在中国高端小车市场份额排名第一。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-其他销售增长乏力&quot;&gt;2. 其他销售增长乏力&lt;/h2&gt;
-
-&lt;p&gt;除了卖车，蔚来的「其他销售」（配件、售后、二手车、能源服务等）二季度收入30.79亿元，同比只增长7.2%，环比增长12.0%。在整车交付同比增长49.4%的背景下，其他业务只增7.2%，说明&lt;strong&gt;用户规模扩大带来的服务变现效率还不高&lt;/strong&gt;。财报解释里也提到，零部件和售后服务收入的增长被二手车和技术研发服务收入的下降抵消了一部分。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-一个容易被忽略的动作神玑shenji融资&quot;&gt;3. 一个容易被忽略的动作——神玑（Shenji）融资&lt;/h2&gt;
-
-&lt;p&gt;财报「近期进展」里提到：2026年6月和8月，蔚来子公司神玑科技（GeniTech Co., Ltd.）分两轮引入中国投资者，合计融资4.93亿元人民币，投后估值125亿元。交易完成后，蔚来子公司持有神玑59.95%的控股权益。&lt;/p&gt;
-
-&lt;p&gt;神玑是蔚来的自研芯片业务。这个动作的含义是：&lt;strong&gt;蔚来正在把重资产、重研发的板块拆分出去独立融资，既能引入外部资金分摊研发压力，又能保住控股权。&lt;/strong&gt; 这和前面「研发费用同比下降28.7%」是同一个逻辑链条上的事——把成本从表内挪到表外。&lt;/p&gt;
-
-&lt;h1 id=&quot;四亮点与隐忧&quot;&gt;四、亮点与隐忧&lt;/h1&gt;
-
-&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;毛利率结构性改善&lt;/strong&gt;：从10.0%到18.4%，且已连续两个季度稳定在18%以上，这不是一次性的。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;经营层面接近自我造血&lt;/strong&gt;：非GAAP经营利润2.07亿元，连续两个季度为正，且财报明确提到本季度经营现金流为正。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;现金储备厚实&lt;/strong&gt;：截至6月30日，现金及等价物、受限资金、短期投资和长期定期存款合计567亿元人民币（约84亿美元）。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;销量惯性延续&lt;/strong&gt;：7月交付35934台，8月交付35836台，2026年前八个月累计交付262893台，同比增长57.9%，累计交付达1260485台。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;营收不及预期&lt;/strong&gt;：321亿元 vs 市场预期约334亿元，差了约13亿元。这是股价下跌的直接原因。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;环比毛利率在退&lt;/strong&gt;：综合毛利率从一季度的19.0%降到18.4%，汽车毛利率从18.8%降到18.5%。财报承认「成本压力上升」。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;8月交付同比只增14.5%&lt;/strong&gt;：对比二季度49.4%的同比增速，8月的14.5%是明显的降速。三季度指引10.8万-11.1万台，同比增速24.0%-27.5%，也远低于二季度水平。这意味着&lt;strong&gt;高增长阶段可能正在过去&lt;/strong&gt;。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;研发压缩不可持续&lt;/strong&gt;：靠削减研发换来的利润改善，本质上是在透支未来的产品竞争力。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;五展望&quot;&gt;五、展望&lt;/h1&gt;
-
-&lt;p&gt;管理层给出的三季度指引：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;交付量 108,000 - 111,000台&lt;/strong&gt;，同比增长24.0% - 27.5%&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;总营收 332.85亿 - 340.51亿元人民币&lt;/strong&gt;（约49.06亿 - 50.19亿美元），同比增长52.7% - 56.2%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;注意这里一个有意思的细节：&lt;strong&gt;营收增速（52.7%-56.2%）显著高于交付量增速（24.0%-27.5%）&lt;/strong&gt;，说明管理层预期平均单车售价还会继续上行。这与二季度「三个品牌的销量和平均成交价均同比、环比双增」的表述是一致的。&lt;/p&gt;
-
-&lt;p&gt;CEO李斌在财报中说：「第二季度公司交付了107658台智能电动汽车，同比增长49.4%。蔚来、乐道、萤火虫三个品牌在销量和平均成交价上均实现增长。」&lt;/p&gt;
-
-&lt;p&gt;CFO曲玉的表述则更谨慎：「在成本压力上升的情况下，得益于高毛利车型的强劲销售和成本结构的持续优化，我们维持了健康的毛利率和汽车毛利率……公司在本季度维持了正的非GAAP经营利润，进一步增加了现金储备。」&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;「成本压力上升」这五个字是这份财报里最值得警惕的信号。&lt;/strong&gt; 2026年全球动力电池和存储芯片价格上行是行业共识，对一家净利率只有0.08%的公司来说，成本端的任何风吹草动都会直接体现在盈亏线上。&lt;/p&gt;
-
-&lt;p&gt;总结一下：蔚来这份财报证明了它有能力把毛利率做到接近行业健康水平，也证明了它能在不烧钱的前提下运转。但它同时也暴露了下一个问题——&lt;strong&gt;当增长从「49%」降到「25%」时，靠规模摊薄成本这条路会变窄，蔚来必须找到第二条盈利曲线。&lt;/strong&gt; 换电、芯片、服务，哪一条能撑起来，会决定它2027年的位置。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1736541/000110465926104110/tm2624535d3_ex99-1.htm&quot;&gt;NIO Inc. Reports Unaudited Second Quarter 2026 Financial Results（SEC Form 6-K, Exhibit 99.1，2026年9月1日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1736541/000110465926104027/tm2624535d1_ex99-1.htm&quot;&gt;NIO Inc. Provides August 2026 Delivery Update（SEC Form 6-K, Exhibit 99.1，2026年9月1日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ir.nio.com/&quot;&gt;蔚来投资者关系官网&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（用于补充市场预期与股价反应）：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-nio-posts-smaller-loss-in-q2-2026-shares-fall-44-93CH-4884205&quot;&gt;Earnings call transcript - NIO posts smaller loss in Q2 2026, shares fall 4.4%（Investing.com）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cnevpost.com/2026/09/01/nio-q2-2026-earnings-call-live/&quot;&gt;Nio Q2 2026 earnings call live updates（CnEVPost）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 02 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/02/nio_2026q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/02/nio_2026q2_earnings/</guid>
-        
-        <category>蔚来</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>戴尔2027财年Q2——单季营收470亿美元同比增58%，AI服务器在手订单堆到950亿美元，全年指引一次性上调250亿</title>
-        <description>&lt;p&gt;美东时间2026年9月1日盘后（北京时间9月2日凌晨），&lt;a href=&quot;https://investors.delltechnologies.com/&quot;&gt;戴尔科技&lt;/a&gt;（NYSE: DELL）发布了2027财年第二财季财报（对应自然年2026年5-7月）。&lt;/p&gt;
-
-&lt;p&gt;这份财报可以用一句话概括：&lt;strong&gt;戴尔已经不再是一家PC公司了。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;季度营收470亿美元，同比增长58%，创下公司历史纪录。GAAP每股收益6.34美元，同比增长273%；非GAAP每股收益7.04美元，同比增长203%。而驱动这一切的，是一个数字——&lt;strong&gt;季末AI服务器在手订单积压（backlog）达到950亿美元。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;公司随即把2027财年全年营收指引从此前的1670亿美元&lt;strong&gt;一次性上调到1920亿美元&lt;/strong&gt;，上调幅度250亿美元，相当于凭空多出一个中型上市公司的年营收。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-戴尔现在靠什么赚钱&quot;&gt;1. 戴尔现在靠什么赚钱&lt;/h2&gt;
-
-&lt;p&gt;戴尔的业务分两大块，理解了这两块就理解了这份财报：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;ISG（基础设施解决方案集团）&lt;/strong&gt;——卖给企业和数据中心的服务器、网络设备、存储设备。这是现在的绝对主力。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;CSG（客户端解决方案集团）&lt;/strong&gt;——卖PC、笔记本、显示器，分商用和消费两条线。这是戴尔的传统基本盘。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;本季度ISG营收318亿美元，CSG营收150亿美元。&lt;strong&gt;ISG已经占到总营收的68%。&lt;/strong&gt; 五年前，这个比例是反过来的。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-什么是ai优化服务器&quot;&gt;2. 什么是「AI优化服务器」&lt;/h2&gt;
-
-&lt;p&gt;这个词在财报里反复出现，需要解释一下。&lt;/p&gt;
-
-&lt;p&gt;普通服务器是给传统企业应用（数据库、网站、办公系统）用的，核心是CPU。&lt;strong&gt;AI优化服务器&lt;/strong&gt;则是专门为训练和运行大模型设计的机器，核心是GPU（主要是英伟达的芯片），一台的价格可能是普通服务器的十几倍甚至几十倍。&lt;/p&gt;
-
-&lt;p&gt;戴尔在这块的角色，本质上是&lt;strong&gt;「英伟达芯片的系统集成商和交付商」&lt;/strong&gt;——买入GPU，配上机箱、散热、网络、电源、软件栈，整机柜交付给客户，并负责部署和售后。客户是OpenAI、xAI这类AI实验室，以及大型云厂商和主权AI项目。&lt;/p&gt;
-
-&lt;p&gt;理解了这一点，就能理解为什么戴尔的营收能一年涨58%，而利润率却是市场最担心的地方——&lt;strong&gt;这是一门规模巨大但毛利偏薄的生意。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2027财年Q2&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收&lt;/td&gt;
-      &lt;td&gt;470亿美元&lt;/td&gt;
-      &lt;td&gt;+58%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP经营利润&lt;/td&gt;
-      &lt;td&gt;54亿美元&lt;/td&gt;
-      &lt;td&gt;+204%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP经营利润&lt;/td&gt;
-      &lt;td&gt;59亿美元&lt;/td&gt;
-      &lt;td&gt;+160%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP净利润&lt;/td&gt;
-      &lt;td&gt;41亿美元&lt;/td&gt;
-      &lt;td&gt;+255%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP净利润&lt;/td&gt;
-      &lt;td&gt;46亿美元&lt;/td&gt;
-      &lt;td&gt;+189%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;6.34美元&lt;/td&gt;
-      &lt;td&gt;+273%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;7.04美元&lt;/td&gt;
-      &lt;td&gt;+203%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营活动现金流&lt;/td&gt;
-      &lt;td&gt;22亿美元&lt;/td&gt;
-      &lt;td&gt;——&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;（数据来源：戴尔2027财年Q2财报新闻稿，SEC Form 8-K Exhibit 99.1）&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这张表里有两个数字需要重点说明。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，利润增速远快于营收增速，这打破了市场的一个担忧。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;营收+58%，但经营利润+204%，净利润+255%。此前市场普遍担心：AI服务器是「赔本赚吆喝」的生意，卖得越多、毛利率越被稀释，尤其是2026年内存价格大涨的背景下。这份财报暂时否定了这个担忧——&lt;strong&gt;ISG经营利润48亿美元，同比增长225%，增速甚至快于该分部89%的营收增速。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，经营现金流只有22亿美元，远低于41亿美元的净利润。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这是这份财报里最需要注意的一个反差。净利润41亿，经营现金流只有22亿，意味着大量利润被压在了存货和应收账款上。对一家订单积压950亿美元的公司来说，这是可以理解的——&lt;strong&gt;为了交付未来的订单，必须先大量囤积GPU和内存等零部件，现金先流出去了。&lt;/strong&gt; 但如果这个缺口持续扩大，就会变成风险信号。&lt;/p&gt;
-
-&lt;h2 id=&quot;上半年累计&quot;&gt;上半年累计&lt;/h2&gt;
-
-&lt;p&gt;2027财年上半年（2-7月）累计营收908亿美元，同比增长71%。&lt;/p&gt;
-
-&lt;h1 id=&quot;三分业务解读&quot;&gt;三、分业务解读&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-isgai服务器是唯一的主角&quot;&gt;1. ISG：AI服务器是唯一的主角&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;ISG细分&lt;/th&gt;
-      &lt;th&gt;营收&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;AI优化服务器&lt;/td&gt;
-      &lt;td&gt;164亿美元&lt;/td&gt;
-      &lt;td&gt;+100%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;服务器与网络（含AI优化服务器）合计&lt;/td&gt;
-      &lt;td&gt;约269亿美元&lt;/td&gt;
-      &lt;td&gt;——&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;存储&lt;/td&gt;
-      &lt;td&gt;49亿美元&lt;/td&gt;
-      &lt;td&gt;+26%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;ISG合计&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;318亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+89%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ISG经营利润&lt;/td&gt;
-      &lt;td&gt;48亿美元&lt;/td&gt;
-      &lt;td&gt;+225%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;AI优化服务器单季收入164亿美元，同比翻倍。这一个细分业务的季度营收，已经超过了整个CSG（PC业务）的规模。&lt;/p&gt;
-
-&lt;p&gt;存储业务49亿美元、同比增长26%，是一个容易被忽略但很重要的信号——&lt;strong&gt;AI训练需要海量数据，数据需要存储。&lt;/strong&gt; 存储业务从过去几年的个位数增长跳到26%，说明AI的溢出效应已经传导到了戴尔的高毛利业务上。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-ai订单的三个数字必须放在一起看&quot;&gt;2. AI订单的三个数字，必须放在一起看&lt;/h2&gt;
-
-&lt;p&gt;这是本份财报的核心，值得单独拎出来：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;金额&lt;/th&gt;
-      &lt;th&gt;含义&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;本季新签AI服务器订单&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;609亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;客户这个季度下了多少单&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;本季AI服务器确认收入&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;164亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;实际交付并确认收入的部分&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;季末在手订单积压&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;950亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;已签约但还没交付的部分&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;用大白话解释这三个数字的关系：&lt;strong&gt;这个季度戴尔接了609亿美元的新单，交付了164亿美元，剩下的堆进了积压订单里，最终积压达到950亿美元。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;950亿美元是什么概念？&lt;strong&gt;接近戴尔2026财年（上一个完整财年）全年营收的85%。&lt;/strong&gt; 也就是说，戴尔手上握着相当于将近一年营收的、已经签约的AI订单还没交付。&lt;/p&gt;
-
-&lt;p&gt;但这里有两个需要冷静的地方：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;订单不等于收入。&lt;/strong&gt; 积压订单能否全部转化为收入，取决于GPU供应、客户资金状况和项目落地情况。AI行业的订单取消或延期并非没有先例。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;609亿的新签订单里有多少是「大单集中」？&lt;/strong&gt; 财报没有披露客户集中度。如果订单高度集中在少数几家AI实验室手里，风险敞口会很大。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;3-csgpc业务在悄悄复苏&quot;&gt;3. CSG：PC业务在悄悄复苏&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;CSG细分&lt;/th&gt;
-      &lt;th&gt;营收&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;商用PC&lt;/td&gt;
-      &lt;td&gt;132亿美元&lt;/td&gt;
-      &lt;td&gt;+22%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;消费级PC&lt;/td&gt;
-      &lt;td&gt;18亿美元&lt;/td&gt;
-      &lt;td&gt;+7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;CSG合计&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;150亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+20%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;CSG经营利润&lt;/td&gt;
-      &lt;td&gt;11亿美元&lt;/td&gt;
-      &lt;td&gt;+42%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;在AI服务器的光环下，很少有人注意到PC业务同比增长了20%，经营利润增长42%。商用PC增长22%，主要驱动是企业换机周期（Windows 10停止支持后的换机潮）和AI PC的渗透。&lt;/p&gt;
-
-&lt;h1 id=&quot;四股东回报&quot;&gt;四、股东回报&lt;/h1&gt;
-
-&lt;p&gt;本季度戴尔通过股票回购和分红向股东返还了 &lt;strong&gt;43亿美元&lt;/strong&gt;。董事会宣布季度股息 &lt;strong&gt;每股0.63美元&lt;/strong&gt;，10月30日支付。&lt;/p&gt;
-
-&lt;h1 id=&quot;五指引这才是股价的真正推手&quot;&gt;五、指引——这才是股价的真正推手&lt;/h1&gt;
-
-&lt;h2 id=&quot;2027财年第三季度指引&quot;&gt;2027财年第三季度指引&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;指引&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营收&lt;/td&gt;
-      &lt;td&gt;490亿美元&lt;/td&gt;
-      &lt;td&gt;+81%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;6.10美元&lt;/td&gt;
-      &lt;td&gt;+168%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;6.50美元&lt;/td&gt;
-      &lt;td&gt;+151%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;2027财年全年指引上调后&quot;&gt;2027财年全年指引（上调后）&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;新指引&lt;/th&gt;
-      &lt;th&gt;原指引&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;1920亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;1670亿美元&lt;/td&gt;
-      &lt;td&gt;+69%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;AI优化服务器营收&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;740亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;600亿美元&lt;/td&gt;
-      &lt;td&gt;+200%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;24.37美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;17.31美元&lt;/td&gt;
-      &lt;td&gt;+181%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;25.50美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;17.90美元&lt;/td&gt;
-      &lt;td&gt;+148%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;CFO David Kennedy在财报中说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们的各项优势相互强化，本季度我们利用这些优势推动了增长、份额提升、盈利能力和现金创造。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;副董事长兼COO Jeff Clarke的表述则更宏观：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「IT环境已经从成本中心转变为驱动增长和竞争优势的价值创造者，客户正在据此进行投资——这为我们的整个产品组合创造了机会。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;全年指引上调250亿美元，这是这份财报里冲击力最大的一件事。&lt;/strong&gt; 一家年营收近2000亿美元的公司，在财年过半时把全年目标上调15%，通常只发生在需求出现结构性跃迁的时候。&lt;/p&gt;
-
-&lt;h1 id=&quot;六市场反应与隐忧&quot;&gt;六、市场反应与隐忧&lt;/h1&gt;
-
-&lt;p&gt;财报发布前，戴尔股价在当天正常交易时段下跌6.8%收于425美元——市场提前担心的是内存涨价对服务器毛利的冲击。财报发布后，盘后股价一度反弹约6%至451美元附近，部分媒体统计的涨幅接近10%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这份财报的隐忧在哪里：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;现金流与利润的缺口。&lt;/strong&gt; 净利润41亿、经营现金流22亿，这个差距需要在后续季度收敛。囤货是为了交付，但囤货过度就是风险。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;AI服务器的毛利率天花板。&lt;/strong&gt; 尽管本季ISG利润增速跑赢了营收增速，但AI服务器本质上是低毛利的组装生意，且上游GPU和内存的定价权不在戴尔手里。2026年内存价格的上涨还在继续，下一个季度是不是同样的故事，需要观察。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;950亿积压订单的兑现风险。&lt;/strong&gt; 订单越大，客户集中度和取消风险的重要性就越高。财报没有披露这方面的细节。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;对英伟达的高度依赖。&lt;/strong&gt; 戴尔的AI业务本质上是英伟达GPU的交付渠道之一，而它的竞争对手（超微、慧与、鸿海、广达）也在做同样的事。这门生意的护城河更多来自供应链能力和企业客户关系，而不是技术壁垒。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;七总结&quot;&gt;七、总结&lt;/h1&gt;
-
-&lt;p&gt;戴尔这份财报最值得记住的，不是470亿美元的季度营收，也不是203%的每股收益增速，而是 &lt;strong&gt;950亿美元的AI服务器在手订单&lt;/strong&gt;——这个数字把戴尔未来四到六个季度的收入基本锁定了。&lt;/p&gt;
-
-&lt;p&gt;对于观察AI产业链的人来说，这份财报还提供了一个非常有价值的旁证：&lt;strong&gt;当英伟达的芯片订单最终传导到系统集成商这一层时，需求依然是真实且加速的。&lt;/strong&gt; 戴尔609亿美元的单季新签订单，是AI资本开支周期还在上行的一个硬证据。&lt;/p&gt;
-
-&lt;p&gt;但同样值得记住的是那22亿美元的经营现金流。在AI这场军备竞赛里，赚到的是利润表上的数字，先垫出去的是真金白银。这条线，比营收增速更值得盯。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000039/exhibit991earnings8kq2fy27.htm&quot;&gt;Dell Technologies Delivers Second Quarter Fiscal 2027 Financial Results（SEC Form 8-K, Exhibit 99.1，2026年9月1日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investors.delltechnologies.com/news-releases/news-release-details/dell-technologies-delivers-second-quarter-fiscal-2027-financial&quot;&gt;戴尔科技投资者关系官网 - 该季度新闻稿&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（用于补充市场预期与股价反应）：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html&quot;&gt;Dell surges 10% after lifting fiscal 2027 forecast on AI server strength（CNBC）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/company-news/dell-q2-fy27-slides-ai-server-backlog-hits-95b-revenue-up-58-93CH-4884718&quot;&gt;Dell Q2 FY27 slides - AI server backlog hits $95B, revenue up 58%（Investing.com）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 02 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/02/dell_fy2027q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/02/dell_fy2027q2_earnings/</guid>
-        
-        <category>戴尔</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

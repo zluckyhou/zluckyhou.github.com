@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 05 Sep 2026 09:56:15 +0800</pubDate>
-    <lastBuildDate>Sat, 05 Sep 2026 09:56:15 +0800</lastBuildDate>
+    <pubDate>Sat, 05 Sep 2026 11:16:13 +0800</pubDate>
+    <lastBuildDate>Sat, 05 Sep 2026 11:16:13 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -199,6 +199,132 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>AI Frontier Daily | 2026.09.05</title>
+        <description>&lt;h2 id=&quot;115-claude-用-11-天完成费马大定理首个端到端机器核验形式化证明&quot;&gt;1/15 Claude 用 11 天完成费马大定理首个端到端机器核验形式化证明&lt;/h2&gt;
+&lt;p&gt;Anthropic 称 Claude 在 Prove2Me 协作平台与多 Agent harness 支持下，主要自主工作 11 天，写出约 1,300 万行 Lean，并在最终证明中使用 29,500 个中间定理；Lean 已从标准公理出发核验整条证明链。成果形式化的是 Wiles 路线的简化版本，不是发现新的费马大定理证明；它展示的是把人类数学转成可机检代码的规模跃升。项目消耗约 60 亿输出 token，人工仍提供少量高层优先级指引。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AnthropicAI/status/2095947707605266436&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AnthropicAI&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;215-nvidia-专项-nemotron-在-ioi-2026-非正式赛测中超过最高人类得分&quot;&gt;2/15 NVIDIA 专项 Nemotron 在 IOI 2026 非正式赛测中超过最高人类得分&lt;/h2&gt;
+&lt;p&gt;NVIDIA 团队以 2.2 万道精选题训练 Nemotron-3-Nano-CC 与 Ultra-CC，并用 GenCorrect 在测试时生成、评估和修正多组方案。论文报告 Ultra-CC 在 IOI 2026 赛场旁路评测中得 535.4/600，高于金牌线 361.12 与最高人类选手 498.27；系统无互联网、采用同样时限和提交约束，但属于非正式参赛且使用竞赛专项后训练与系统编排，不能直接外推为通用软件工程能力。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/NVIDIAAI/status/2096032566310789528&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;315-microsoft-把-mai-image-26-与低延迟-flash-版带入-foundry-公测&quot;&gt;3/15 Microsoft 把 MAI-Image-2.6 与低延迟 Flash 版带入 Foundry 公测&lt;/h2&gt;
+&lt;p&gt;MAI-Image-2.6 系列现已进入 Microsoft Foundry Public Preview，支持最多五张参考图、多图编辑、Web grounding、动态宽高比和最高约 1.5K 输出。Microsoft 称 Flash 相比 GPT-Image-2-Medium 生成速度快 2.8 倍、资源效率高 72%，适合高吞吐生产；旗舰版偏重最终质量。排行榜、速度与效率数字来自厂商及上线时点的第三方榜单，实际价格、文字渲染和一致性仍需按工作负载复验。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mustafasuleyman&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/mustafasuleyman/status/2095907880209641517&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@mustafasuleyman 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/mustafasuleyman/status/2095909700088779005&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@mustafasuleyman 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;415-github-copilot-预览-hydrafusion让多模型按任务选择单跑级联或交叉批评&quot;&gt;4/15 GitHub Copilot 预览 HydraFusion，让多模型按任务选择单跑、级联或交叉批评&lt;/h2&gt;
+&lt;p&gt;HydraFusion 把一次编码请求建模为运行时编排：简单任务交给单模型，复杂任务先由低成本模型起草并经质量门升级，或让不同模型家族分别起草、只读批评再修订。GitHub 内部离线评测称其在 TerminalBench 2.1 相对 Claude Opus 5 提高 4.9 个百分点，同时估算成本低 67%。它已通过 Copilot CLI 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/experimental&lt;/code&gt; 向全部套餐开放，但仍是首轮、单提示任务优先的研究预览，结果与行为可能变化。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@satyanadella&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/satyanadella/status/2095912050535059918&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@satyanadella 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/satyanadella/status/2095912052472861085&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@satyanadella 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;515-google-将-lyria-35-扩至-gemini-app-与-api最长可生成三分钟音乐&quot;&gt;5/15 Google 将 Lyria 3.5 扩至 Gemini App 与 API，最长可生成三分钟音乐&lt;/h2&gt;
+&lt;p&gt;Google 把 7 月先在 Flow Music 上线的 Lyria 3.5 扩展到 Gemini App、Gemini API、AI Studio 与 Google Vids。新入口支持选择或描述曲风、有人声或纯音乐、短曲或长曲，也可由图片生成配乐；Google 称新版提升编曲、歌词遵循、声音表现和音频保真度。所有生成音轨嵌入 SynthID 水印；官方模型卡同时承认质量与创意控制仍需用户检查。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GoogleDeepMind/status/2095908028599968076&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;615-perplexity-公开-ivytuliprose-三层-gpu-检索推理栈&quot;&gt;6/15 Perplexity 公开 Ivy、Tulip、ROSE 三层 GPU 检索推理栈&lt;/h2&gt;
+&lt;p&gt;Perplexity 披露搜索答案生成前的 embedding 与 ranking 服务：Ivy 以 Rust HTTP 处理解析、分词和大批次拆分；Tulip 以 Rust gRPC 聚合请求，用 CUDA Graph 与异步 LazyTensor 降低 CPU/GPU 空转；ROSE 负责模型前向与内核选择，embedding 路径跳过 KV cache 并使用 ragged attention。该架构同时服务吞吐优先的离线索引与延迟优先的在线查询；“SoTA、降本提速”目前是公司自测结论，未给出统一外部复现实验。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@perplexity_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2095984677463191607&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2095984795629265124&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;715-cohere-汇总-696-万个-agent-工具只有-26-可独立完成职业任务&quot;&gt;7/15 Cohere 汇总 69.6 万个 Agent 工具，只有 2.6% 可独立完成职业任务&lt;/h2&gt;
+&lt;p&gt;Cohere Labs 从七个公共目录收集 123,069 个 MCP server、696,291 个工具，再将工具描述映射到 O*NET 职业任务。严格要求工具必须端到端执行任务、而非只提供信息或完成一个环节时，约 2.6% 通过；可识别部分主要集中在软件与 IT、Agent 基础设施及管理 Agent 的新工作。样本不含大量企业私有 MCP，因此 2.6% 更适合作为公共生态下限，而不是全社会自动化比例。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cohere/status/2095904551471554624&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cohere/status/2095904552830578695&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;815-gpt-6-astra-从限量发布转入广泛可用并迅速进入多家平台&quot;&gt;8/15 GPT-6 Astra 从限量发布转入广泛可用，并迅速进入多家平台&lt;/h2&gt;
+&lt;p&gt;OpenAI 宣布 Astra 已向 ChatGPT Work、Codex 的 Pro、Enterprise、Business Premium 用户和 API 开放，随后又称 Plus 与 Business rollout 已完成；GPT-6 Pro 也覆盖 Pro、Business、Enterprise。Perplexity Computer 面向 Pro/Max 接入，Databricks Unity Gateway 提供 day-zero 托管并沿用治理、审计和成本控制。相比昨日的发布信息，今天新增的是可用范围落地；伙伴方 OfficeQA 等质量结论仍属内部评测。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/OpenAI/status/2095968413646737608&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenAI&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/sama/status/2096008528834244741&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@sama&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/perplexity_ai/status/2096006336786133366&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@perplexity_ai&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2095991985219764494&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;915-astra-早期实测同时显示长链执行力与研究品味缺口&quot;&gt;9/15 Astra 早期实测同时显示长链执行力与研究品味缺口&lt;/h2&gt;
+&lt;p&gt;Ethan Mollick 让 Astra 把 1977 年文字冒险 Zork 改成可玩的 Three.js 3D 游戏，称模型保留原剧情与谜题并自行制作角色和环境；另一项预注册创业研究实验则得到技术正确、非 p-hacking、但选题乏味的论文。Matt Shumer 的“模拟中的模拟”展示 Agent 在给定计算机环境中继续写出子模拟，他也承认设定具有引导性。案例说明长链构建能力提升，但输出仍高度依赖 harness、权限、提示与人类对目标价值的判断。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2096047660662722620&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2095717185200988439&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/mattshumer_/status/2096034353344139519&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mattshumer_&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1015-databricks-用模型与-harness-动态路由控制编码-agent-成本&quot;&gt;10/15 Databricks 用模型与 harness 动态路由控制编码 Agent 成本&lt;/h2&gt;
+&lt;p&gt;Databricks 表示，团队不应只固定选择一次便宜模型，而应持续评测质量与价格、保留多模型和多 harness 可替换性，并减少系统提示、工具输出等 token 开销。其 Smart Routing 会按任务选择最低成本的合格模型，Omnigent 还可跨 Claude Code、Codex 等 harness 路由；公司内部测试称平均任务成本降低逾 30%，质量大致匹配候选集最贵模型。功能仍为 Beta，且需对全部候选模型有执行权限。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2095874637695422607&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1115-nvidia-给出推测解码五条硬件协同准则强调接受长度不等于真实加速&quot;&gt;11/15 NVIDIA 给出推测解码五条硬件协同准则，强调接受长度不等于真实加速&lt;/h2&gt;
+&lt;p&gt;NVIDIA 将推测解码拆为 draft length、接受长度、验证开销与 draft 成本的联合优化：提高 draft 长度可让 GEMM 更接近计算饱和，但 attention 主导时建议从 D=128/G−1 起步，并对齐 128 的 kernel tile；低延迟场景只在接受收益覆盖额外 draft 开销时继续加长。文章比较外部小模型、MTP、EAGLE-3、DFlash、DSpark 与 n-gram，要求在真实 workload 上同时测接受率和端到端吞吐。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2095916654081487339&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2095927174025118129&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1215-llamaindex-称文档抽取价格与准确率没有单调关系&quot;&gt;12/15 LlamaIndex 称文档抽取价格与准确率没有单调关系&lt;/h2&gt;
+&lt;p&gt;LlamaIndex 在 370 份企业文档上比较 14 个系统，再将准确率与每页成本放在同一图中。其内部结果称 Agentic Plus 准确率最高，成本不到第二名三分之一，Cost Effective 等低价档也经常超过更昂贵方案。该结论延续 ExtractBench 对字段级抽取的评估，但测试集、计费折算和产品 tier 都由供应商维护；选型时仍应使用自有合同、票据和长文档重跑，并分别观察字段 F1、延迟与失败恢复。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/llama_index/status/2095915704696340747&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@llama_index&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1315-replit-mcp-把外部-agent-接入应用创建更新与状态查询&quot;&gt;13/15 Replit MCP 把外部 Agent 接入应用创建、更新与状态查询&lt;/h2&gt;
+&lt;p&gt;Replit 介绍通过 MCP 从外部客户端远程驱动 Replit Agent。官方 beta server 使用 Streamable HTTP 与 OAuth 2.1/PKCE，公开 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create_app_from_prompt&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;update_app_using_prompt&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ask_question&lt;/code&gt; 三类工具；创建与更新为异步流程，调用方需保存 replId 和 replUrl 继续追踪。它把“从任何 Agent 操作 Replit”变成标准协议入口，但超时不等于任务失败，客户端必须避免盲目重试造成重复构建。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Replit/status/2095905074556072159&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Replit&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1415-runway-推出-29-席位-team-plan以共享额度组织生成与-agent-工作&quot;&gt;14/15 Runway 推出 2–9 席位 Team Plan，以共享额度组织生成与 Agent 工作&lt;/h2&gt;
+&lt;p&gt;Runway 的新自助 Team Plan 面向 2–9 人小团队，把席位纳入统一的 pooled credit balance，并提供 shared projects、评论、Agent skills 与 Agent Connectors。产品把个人创作工具向小团队协作与统一计费推进，减少逐席位额度碎片；公告未披露不同生成模型的实际消耗、权限粒度或 connector 数据边界，采购前仍需根据视频、世界模型和 Agent 工作量核算额度与访问控制。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/runwayml/status/2095918249674215599&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@runwayml&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1515-andrew-ng-发布-ai-engineering-skills-map强调编码-agent-时代的系统能力&quot;&gt;15/15 Andrew Ng 发布 AI Engineering Skills Map，强调编码 Agent 时代的系统能力&lt;/h2&gt;
+&lt;p&gt;Andrew Ng 公布面向编码 Agent 的 AI Engineering Skills Map，将有效使用 Agent 所需能力从“会提示”扩展到任务拆解、上下文与规范管理、工具连接、验证、调试、评测和安全边界。该内容主要是教学框架而非模型 benchmark，但高互动反映行业关注点正从单次代码补全转向可重复的工程流程：Agent 能写多少代码之外，团队如何定义验收、保存决策并审查外部动作，正在成为交付质量的主要变量。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AndrewYNg/status/2095890279865721217&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AndrewYNg&lt;/a&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
+
+&lt;h3 id=&quot;claude-形式化费马大定理验证规模突破依赖可分解可复用的-agent-协作图&quot;&gt;Claude 形式化费马大定理：验证规模突破依赖可分解、可复用的 Agent 协作图&lt;/h3&gt;
+&lt;p&gt;Claude 最初的尝试因 Agent 逐渐丢失项目状态和协作失效而失败，成功版本改用 Prove2Me：把待证定理维护为有向无环图，将 statement 与 proof 分文件编译，并为每条定理保留自然语言描述以支持搜索复用。几十个 Agent 在 Claude Code harness 中并行填充证明节点，11 天生成约 1,300 万行 Lean、30,300 个已证定理，其中 29,500 个进入最终证明；失败尝试仍贡献约 7% 的非模板代码。Lean 最终核验根节点只依赖三条标准公理，比较器确认命题与 Mathlib 的 FLT 陈述一致。项目使用约 60 亿输出 token、内部研究模型能力约等于 Claude Fable 5.1，并接受 Tianyi Peng 少量高层调度。它把“证明发现”和“证明形式化”区分开：价值在于大规模机器核验与未来审稿负担，而非取代可读的人类数学解释。
+&lt;a href=&quot;https://www.anthropic.com/research/formalizing-fermats-last-theorem&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;nemotron-ioi-系统专项后训练反馈修正与竞赛约束共同塑造-5354-分&quot;&gt;Nemotron IOI 系统：专项后训练、反馈修正与竞赛约束共同塑造 535.4 分&lt;/h3&gt;
+&lt;p&gt;论文以 2.2 万道精选竞赛题构建专项数据，训练 30B-A3B 的 Nemotron-3-Nano-CC 与 550B-A55B 的 Ultra-CC；Nano 同时使用 SFT 与 RL，Ultra 主要使用 SFT。GenCorrect 在测试时生成多样解、运行评估并迭代修正，把 Nano 在 IOI 2025 的 130 分提升到 468，Ultra 达 502。针对 IOI 2026 的 Ultra-CC 系统在乌兹别克斯坦与正式比赛并行、受国际技术委员会监督，使用同样时间、无互联网与提交限制，得 535.4/600，高于最高人类 498.27。结果证明专项系统已能在顶级竞赛条件下达到极高水平，但模型规模、题目策划、测试时计算和竞赛 harness 都是成绩组成部分；“超过最高选手”不等于对真实代码库、协作开发或需求理解的普遍胜出。
+&lt;a href=&quot;https://arxiv.org/abs/2609.02849&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mai-image-26旗舰质量与-flash-吞吐被拆成同一家族的两档服务&quot;&gt;MAI-Image-2.6：旗舰质量与 Flash 吞吐被拆成同一家族的两档服务&lt;/h3&gt;
+&lt;p&gt;MAI-Image-2.6 面向最终商业素材和高精度编辑，Flash 面向交互、批量变体与自动化流水线；两者都支持多参考图、Web grounding、动态宽高比与最高约 1.5K 输出。Microsoft AI 页面称旗舰版上线时在 Arena 的文生图和编辑均列第二，在 Artificial Analysis 文生图第二、编辑第一；Flash 相对 GPT-Image-2-Medium 快 2.8 倍，资源效率高 72%。Foundry 文章给出的起步价为旗舰每百万文本输入、图片输入、图片输出 token 5/8/38 美元，Flash 为 1.75/2.5/19 美元。榜单名次、比较基线与效率来自发布时快照，模型公测后更重要的是在品牌一致性、多人多物体编辑、文字准确率与真实并发下复验。
+&lt;a href=&quot;https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;hydrafusion从选哪个模型转为为任务动态组装哪条推理工作流&quot;&gt;HydraFusion：从“选哪个模型”转为“为任务动态组装哪条推理工作流”&lt;/h3&gt;
+&lt;p&gt;HydraFusion 先估计请求在推理、代码生成、调试和工具使用上的需求，再在 Single、Cascade、Critique 三条路径间选择。Cascade 让低成本模型先答，质量门不通过才升级；Critique 让不同模型家族的只读 reviewer 检查草稿，再由原模型修订一次。GitHub 以真实 Copilot 轨迹构造 CheckpointBench，并结合 DeepSWE 与 TerminalBench 2.1 迭代策略；其内部离线结果称 TerminalBench 2.1 的 verified quality 比 Claude Opus 5 高 4.9 个百分点，估算成本低 67%。预览在 Copilot CLI 全套餐的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/experimental&lt;/code&gt; 中开放，按实际调用模型 token 计费。官方明确当前更适合单轮、边界清楚的任务，多轮长会话、延迟与真实使用成本仍是下一阶段验证重点。
+&lt;a href=&quot;https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;perplexity-gpu-embeddingscpu-前处理批调度与模型内核被拆成三层&quot;&gt;Perplexity GPU Embeddings：CPU 前处理、批调度与模型内核被拆成三层&lt;/h3&gt;
+&lt;p&gt;Ivy 是 Rust HTTP gateway，负责解析、模板、tokenization 和大批次切分，再通过 gRPC 送往 Tulip；这样前处理迭代无需改动重型推理服务。Tulip 是轻量 Rust 调度层，按 token 而非请求数凑批，使用 CUDA Graph 预录 GPU 工作，并用 LazyTensor 让 CPU 准备下一批时 GPU 完成当前批。ROSE 是 Python 模型引擎，复用 LLM 与 embedding 的 kernel 基础设施，但 embedding 路径不建 KV cache，并按模型形状与序列长度选择 ragged-attention 后端。分层同时服务离线文档索引/打分的吞吐目标和在线查询的尾延迟目标。官方称组合后较现成方案更快、更便宜，但推文与博客没有给出足够统一的公开基准，架构价值应与性能数字分开判断。
+&lt;a href=&quot;https://www.perplexity.ai/hub/blog/fast-embeddings-on-gpus&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;agentic-task-ecosystem公共-mcp-的繁荣主要还不是职业任务端到端自动化&quot;&gt;Agentic Task Ecosystem：公共 MCP 的繁荣主要还不是职业任务端到端自动化&lt;/h3&gt;
+&lt;p&gt;Cohere Labs 在 2026 年 5 月抓取七个公开目录，去重得到 123,069 个 MCP server 和 696,291 个工具，再为每个工具寻找最接近的 O&lt;em&gt;NET task statement，并让模型判断它是否真正执行完整任务。严格过滤仅提供信息、只完成一环或仍需人类协调的工具后，仅约四十分之一、即 2.6% 达标。能映射到职业的部分明显偏向计算机工作；其余大量条目是运行 Agent 的基础设施、比 O&lt;/em&gt;NET 更细的动作，或管理 Agent 等新工作。数据缺少企业内部私有 server，因此作者把 2.6% 解释为公共生态的 floor，而非 automation ceiling。研究的贡献是提供“开发者实际在造什么工具”这一视角，补充理论可自动化程度和聊天使用日志，但工具描述、目录偏差与模型分类仍限制因果推断。
+&lt;a href=&quot;https://cohere.com/blog/automations-early-footprint&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lyria-35从-flow-music-扩展到大众应用开发-api-与视频工作流&quot;&gt;Lyria 3.5：从 Flow Music 扩展到大众应用、开发 API 与视频工作流&lt;/h3&gt;
+&lt;p&gt;Lyria 3.5 在 7 月先于 Google Flow Music 发布，9 月 4 日扩展到 Gemini Web/移动端、Gemini API、Google AI Studio、Google Vids，并继续供 Flow Music 与创作者使用。Gemini 中可直接描述曲风、选择人声或纯音乐、控制短曲或最长三分钟结构，也能用图片生成配乐。Google 模型卡称新版相对 Lyria 2 改善音频保真度、复杂歌词提示遵循、旋律结构和人声表达；训练采用 temporal audio latent 上的 latent diffusion。产品层对音频使用 SynthID 不可感知水印，并配合数据过滤、红队和输出安全策略。官方没有公开足以跨模型比较的完整评分，因而“最佳音质”应视为厂商定位，真实价值更可能来自多入口一致部署和长度、风格、素材控制。
+&lt;a href=&quot;https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;nvidia-推测解码准则最优-draft-取决于-gemmattention-tile-与真实接受率&quot;&gt;NVIDIA 推测解码准则：最优 draft 取决于 GEMM、attention tile 与真实接受率&lt;/h3&gt;
+&lt;p&gt;文章用 draft length D、acceptance length AL、目标模型验证时间和 draft 时间描述端到端加速。第一条准则是增大 D，直到 GEMM 从内存受限推向计算受限；当 attention 主导时，以 D=128/G−1 为起点，其中 G 是每个 KV head 共享的 query heads，并让 G×(1+D) 对齐 128 的 kernel tile，避免半空 tile 仍支付完整成本。低延迟区固定 kernel 启动开销更突出，只在 AL 增益大于 draft 开销时继续加长。外部 draft、MTP、EAGLE-3、DFlash、DSpark 与 n-gram 在训练成本、缓存、并行性和接受率上各有取舍；文章建议用 SPEED-Bench 等接近生产的 prompt，同时测 AL、draft latency 和完整 decode throughput。核心结论是高接受长度不是目标本身，硬件、batch、上下文与工作负载共同决定是否真正加速。
+&lt;a href=&quot;https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 05 Sep 2026 09:07:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/ai-daily/2026/09/05/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/09/05/</guid>
+        
+        <category>AI-Frontier</category>
+        
+        <category>Daily</category>
+        
+        
+        <category>ai-daily</category>
         
       </item>
     
@@ -2095,361 +2221,6 @@
         <pubDate>Fri, 04 Sep 2026 00:00:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/blog/2026/09/04/hpe_fy2026q3_earnings_call/</link>
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/04/hpe_fy2026q3_earnings_call/</guid>
-        
-        <category>慧与</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>慧与2026财年Q3——营收122亿美元同比增长34%，首次单季非GAAP每股收益破1美元，股价却跌了5%</title>
-        <description>&lt;p&gt;美东时间2026年9月2日盘后（北京时间9月3日凌晨），&lt;a href=&quot;https://investors.hpe.com/&quot;&gt;慧与&lt;/a&gt;（Hewlett Packard Enterprise，纽交所代码HPE）发布2026财年第三财季财报，该季度截至2026年7月31日。&lt;/p&gt;
-
-&lt;p&gt;先看四个数字：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;营收122.13亿美元&lt;/strong&gt;，同比增长34%，创历史纪录&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;GAAP毛利率40.1%&lt;/strong&gt;，同比提升10.9个百分点&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;非GAAP每股收益1.11美元&lt;/strong&gt;，公司历史上第一次单季突破1美元&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;股价次日下跌约5%&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;一份几乎所有指标都创纪录、还同时上调两个财年指引的财报，换来的是下跌。这中间的落差值得拆开讲。&lt;/p&gt;
-
-&lt;h1 id=&quot;一先搞清楚这家公司是什么&quot;&gt;一、先搞清楚这家公司是什么&lt;/h1&gt;
-
-&lt;p&gt;慧与是2015年惠普拆分后的企业业务那一半——&lt;strong&gt;卖服务器、存储、网络设备给企业和数据中心&lt;/strong&gt;，不做打印机和个人电脑（那是HP Inc.，另一家公司，上周我们写过&lt;a href=&quot;/blog/2026/08/27/hp_fy2026q3_earnings/&quot;&gt;它的三季报&lt;/a&gt;）。&lt;/p&gt;
-
-&lt;p&gt;理解现在的慧与，要抓住两件事：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，它在2025年完成了对瞻博网络（Juniper Networks）的收购。&lt;/strong&gt; 这笔约140亿美元的交易让慧与的网络业务规模翻了一倍多，也是本季度财报里很多数字看起来「暴涨」的原因。看财报时要特别注意「报告口径」和「可比口径」（normalized，即假设瞻博从2025财年初就并表）的区别——两个数字能差好几倍。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，它现在的增长引擎是AI。&lt;/strong&gt; 但和英伟达、博通不同，慧与卖的不是芯片，是装着芯片的整机、连接这些整机的交换机和路由器，以及企业自己部署AI要用的私有云平台。它的位置在AI产业链的「组装和交付」环节。&lt;/p&gt;
-
-&lt;h1 id=&quot;二核心财务数据&quot;&gt;二、核心财务数据&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;FY2026 Q3&lt;/th&gt;
-      &lt;th&gt;FY2025 Q3&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营收&lt;/td&gt;
-      &lt;td&gt;122.13亿美元&lt;/td&gt;
-      &lt;td&gt;91.36亿美元&lt;/td&gt;
-      &lt;td&gt;+33.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP毛利率&lt;/td&gt;
-      &lt;td&gt;40.1%&lt;/td&gt;
-      &lt;td&gt;29.2%&lt;/td&gt;
-      &lt;td&gt;+10.9个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP毛利率&lt;/td&gt;
-      &lt;td&gt;40.4%&lt;/td&gt;
-      &lt;td&gt;29.9%&lt;/td&gt;
-      &lt;td&gt;+10.5个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP经营利润&lt;/td&gt;
-      &lt;td&gt;13.93亿美元&lt;/td&gt;
-      &lt;td&gt;2.47亿美元&lt;/td&gt;
-      &lt;td&gt;+464%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP经营利润率&lt;/td&gt;
-      &lt;td&gt;11.4%&lt;/td&gt;
-      &lt;td&gt;2.7%&lt;/td&gt;
-      &lt;td&gt;+8.7个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP经营利润&lt;/td&gt;
-      &lt;td&gt;19.79亿美元&lt;/td&gt;
-      &lt;td&gt;7.77亿美元&lt;/td&gt;
-      &lt;td&gt;+155%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP经营利润率&lt;/td&gt;
-      &lt;td&gt;16.2%&lt;/td&gt;
-      &lt;td&gt;8.5%&lt;/td&gt;
-      &lt;td&gt;+7.7个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归母净利润&lt;/td&gt;
-      &lt;td&gt;15.40亿美元&lt;/td&gt;
-      &lt;td&gt;3.05亿美元&lt;/td&gt;
-      &lt;td&gt;+405%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP每股收益&lt;/td&gt;
-      &lt;td&gt;1.06美元&lt;/td&gt;
-      &lt;td&gt;0.21美元&lt;/td&gt;
-      &lt;td&gt;+0.85美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP每股收益&lt;/td&gt;
-      &lt;td&gt;1.11美元&lt;/td&gt;
-      &lt;td&gt;0.44美元&lt;/td&gt;
-      &lt;td&gt;+0.67美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营活动现金流&lt;/td&gt;
-      &lt;td&gt;16亿美元&lt;/td&gt;
-      &lt;td&gt;13亿美元&lt;/td&gt;
-      &lt;td&gt;+23%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;自由现金流&lt;/td&gt;
-      &lt;td&gt;9.58亿美元&lt;/td&gt;
-      &lt;td&gt;约7.6亿美元&lt;/td&gt;
-      &lt;td&gt;+约2亿美元&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;这份表里最值得注意的不是营收增长34%，而是&lt;strong&gt;毛利率一年提升了10.9个百分点&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;对一家做硬件组装的公司来说，这是极其罕见的。原因CFO Marie Myers在电话会上说得很清楚：内存等元器件短缺的环境下，慧与选择了&lt;strong&gt;严格的定价纪律&lt;/strong&gt;——不打价格战，把成本涨幅转嫁给客户；同时瞻博网络带来的高毛利网络业务占比上升。&lt;/p&gt;
-
-&lt;p&gt;两个原因叠加，把一家传统服务器公司的毛利率推到了40%。&lt;/p&gt;
-
-&lt;p&gt;不过管理层也主动提示了这不可持续。Myers的原话是，未来毛利率将「向更历史性的水平回落」，因为AI系统（毛利率低）的占比会上升。&lt;/p&gt;
-
-&lt;h1 id=&quot;三分业务看&quot;&gt;三、分业务看&lt;/h1&gt;
-
-&lt;h2 id=&quot;网络业务报告增长75实际增长10&quot;&gt;网络业务：报告增长75%，实际增长10%&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;网络子业务&lt;/th&gt;
-      &lt;th&gt;收入&lt;/th&gt;
-      &lt;th&gt;报告口径同比&lt;/th&gt;
-      &lt;th&gt;可比口径同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;网络业务合计&lt;/td&gt;
-      &lt;td&gt;29亿美元&lt;/td&gt;
-      &lt;td&gt;+74.9%&lt;/td&gt;
-      &lt;td&gt;+10%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;园区与分支&lt;/td&gt;
-      &lt;td&gt;14亿美元&lt;/td&gt;
-      &lt;td&gt;+31.0%&lt;/td&gt;
-      &lt;td&gt;+8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;路由&lt;/td&gt;
-      &lt;td&gt;7.88亿美元&lt;/td&gt;
-      &lt;td&gt;+270.0%&lt;/td&gt;
-      &lt;td&gt;+23%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;数据中心网络&lt;/td&gt;
-      &lt;td&gt;3.82亿美元&lt;/td&gt;
-      &lt;td&gt;+112.2%&lt;/td&gt;
-      &lt;td&gt;-6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;安全&lt;/td&gt;
-      &lt;td&gt;2.81亿美元&lt;/td&gt;
-      &lt;td&gt;+75.6%&lt;/td&gt;
-      &lt;td&gt;+12%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;这张表是本季财报里最容易被误读的部分。&lt;/strong&gt; 报告口径下路由业务增长270%，看起来爆炸，但那主要是因为去年同期还没有瞻博网络的路由产品并表。可比口径下是23%——依然很好，但不是一个量级。&lt;/p&gt;
-
-&lt;p&gt;网络业务真正的亮点在&lt;strong&gt;订单&lt;/strong&gt;，不在收入：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;网络业务订单同比增长&lt;strong&gt;36%&lt;/strong&gt;，是收入增速（10%）的3.5倍&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;面向AI的网络产品（Networks for AI）订单达到7亿美元&lt;/strong&gt;，创单季新高，同比增长三位数&lt;/li&gt;
-  &lt;li&gt;累计Networks for AI订单达&lt;strong&gt;22亿美元&lt;/strong&gt;，已超过2026财年原定目标；公司随即把年底目标上调到&lt;strong&gt;25亿至30亿美元&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;订单是收入的3.5倍，说明什么？&lt;strong&gt;说明产品卖得出去，但货交不出来。&lt;/strong&gt; CEO Antonio Neri在电话会上明确说，限制因素是供应，不是需求。&lt;/p&gt;
-
-&lt;p&gt;同期公司还官宣了一个重量级合作：&lt;strong&gt;甲骨文将在其AI云基础设施建设中部署慧与瞻博的路由器和交换机&lt;/strong&gt;，规模是「吉瓦级」。Neri透露，用的是基于博通Tomahawk 6芯片的QFX交换机（横向扩展），以及使用慧与自研Express 5芯片的PTX路由平台（跨域互联），「是多年期的多吉瓦规模」。&lt;/p&gt;
-
-&lt;p&gt;网络业务的经营利润率22.0%，与去年同期的22.1%基本持平。&lt;/p&gt;
-
-&lt;h2 id=&quot;云与ai业务90亿美元经营利润率翻了一倍多&quot;&gt;云与AI业务：90亿美元，经营利润率翻了一倍多&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;云与AI子业务&lt;/th&gt;
-      &lt;th&gt;收入&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;云与AI合计&lt;/td&gt;
-      &lt;td&gt;90亿美元&lt;/td&gt;
-      &lt;td&gt;+25.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;服务器&lt;/td&gt;
-      &lt;td&gt;68亿美元&lt;/td&gt;
-      &lt;td&gt;+35.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;存储&lt;/td&gt;
-      &lt;td&gt;13亿美元&lt;/td&gt;
-      &lt;td&gt;+10.2%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;金融服务&lt;/td&gt;
-      &lt;td&gt;9亿美元&lt;/td&gt;
-      &lt;td&gt;-0.3%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;这块业务最惊人的不是收入，是利润：&lt;strong&gt;经营利润率从去年同期的7.0%跳到17.0%，经营利润超过15亿美元，同比增长三位数。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;服务器收入增长35%，但管理层承认这主要靠&lt;strong&gt;平均售价（ASP）上涨&lt;/strong&gt;而非出货量——因为内存短缺卡住了产能。Neri在回答Bernstein分析师提问时说，预计四季度出货量会「走强」。&lt;/p&gt;
-
-&lt;p&gt;AI相关的具体数字：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;AI系统订单24亿美元&lt;/strong&gt;，环比增长超过30%&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;AI系统收入约16亿美元&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;AI系统订单积压（backlog）环比增长14%，创新高&lt;/li&gt;
-  &lt;li&gt;管理层称在手管线（pipeline）是订单积压的「数倍」&lt;/li&gt;
-  &lt;li&gt;私有云AI（PCAI）订单同比增长三位数&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;财报季度结束后，公司还拿下一笔&lt;strong&gt;数十亿美元级别的服务器订单，客户是一家超大规模云厂商，专门用于AI推理&lt;/strong&gt;。Neri特别澄清这不是过去那种「卖给云厂商去转售算力」的一级基础设施生意，而是这家客户&lt;strong&gt;自用&lt;/strong&gt;的AI推理设备——「它只是恰好被标签为超大规模云厂商，但它的行为是一个企业客户」。&lt;/p&gt;
-
-&lt;p&gt;另一个软性但重要的指标：&lt;strong&gt;GreenLake（混合云订阅服务）客户数从4.4万增长到5.2万，同比增长18%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;四指引上调了但市场不满意&quot;&gt;四、指引：上调了，但市场不满意&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指引&lt;/th&gt;
-      &lt;th&gt;内容&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;FY2026 Q4营收&lt;/td&gt;
-      &lt;td&gt;139亿–148亿美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;FY2026 Q4非GAAP每股收益&lt;/td&gt;
-      &lt;td&gt;1.20–1.30美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;FY2026全年营收增速&lt;/td&gt;
-      &lt;td&gt;34%–37%（上调）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;FY2026全年非GAAP每股收益&lt;/td&gt;
-      &lt;td&gt;3.75–3.85美元（上调）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;FY2026全年自由现金流&lt;/td&gt;
-      &lt;td&gt;至少37.5亿美元（上调）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;FY2027营收增速&lt;/td&gt;
-      &lt;td&gt;13%–17%（上调）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;FY2027非GAAP每股收益&lt;/td&gt;
-      &lt;td&gt;4.40–4.60美元，增长16%–20%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;FY2027自由现金流&lt;/td&gt;
-      &lt;td&gt;至少50亿美元（上调）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;FY2027经营利润率&lt;/td&gt;
-      &lt;td&gt;14%–15%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;所有数字都是上调。那为什么跌？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;答案在2027财年的每股收益增速：16%到20%，中值18%。而据媒体报道，FactSet的市场一致预期是18.7%。&lt;/strong&gt; 也就是说，看起来大幅上调的指引，落在市场预期的正中间偏下一点点。当一家公司的股价已经把「AI高增长」定价进去之后，「符合预期」就是利空。&lt;/p&gt;
-
-&lt;p&gt;第二个原因是供应。Neri在电话会上把短缺讲得很透：DDR5内存、闪存NAND、以及更底层的晶圆产能都在紧张，而且&lt;strong&gt;传统DRAM正在向HBM（高带宽内存，给GPU用的）迁移&lt;/strong&gt;，进一步挤压了普通服务器可用的内存供给。他说这个状况「会持续相当长一段时间」，并且「显然会对成本和定价产生影响」。&lt;/p&gt;
-
-&lt;p&gt;对投资者来说，这句话的含义是：&lt;strong&gt;收入的天花板不在需求，在供应；而利润率的下行压力已经在路上。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;五亮点与隐忧&quot;&gt;五、亮点与隐忧&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;三个真实的亮点：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;瞻博整合超预期。&lt;/strong&gt; 收购一年后，成本协同目标（2028财年底达成6亿美元年化节省）进度领先，整合费用低于计划。8月美国联邦法院批准了与司法部的和解协议，最大的监管不确定性消除。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;净杠杆率1.8倍，提前一年多达成目标。&lt;/strong&gt; 出售H3C股权拿到约14亿美元、卖掉电信解决方案业务，公司把定期贷款还掉了。四季度计划把至少75%的自由现金流返还股东。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;企业级AI真的开始落地。&lt;/strong&gt; Neri给的证据是慧与自己——公司内部有1200多个AI用例，其中300多个已经进入生产。他说私有云AI相比公有云可以把token成本降低最多60%。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;三个需要盯住的隐忧：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;库存涨到118亿美元。&lt;/strong&gt; 环比和同比都在上升，管理层解释是元器件涨价加上为满足订单的提前采购。这在需求确定时是好事，但一旦AI订单节奏放缓，库存会立刻变成减值风险。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;毛利率见顶信号明确。&lt;/strong&gt; 管理层自己说四季度经营利润率会环比下降，2027财年经营利润率指引是14%–15%，低于本季度的16.2%。40%的毛利率是一次性的「所有因素同时到位」，不是新常态。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;可比口径下的网络收入只增长10%。&lt;/strong&gt; 在网络设备行业普遍受益于AI建设的当下，这个数字确实偏弱——分析师Amit Daryanani在电话会上直接指出「比同行看起来要弱一些」。管理层的解释是供应受限，四季度会改善到11%–13%，2027财年到14%–17%。这是一个必须被兑现的承诺。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;六总结&quot;&gt;六、总结&lt;/h1&gt;
-
-&lt;p&gt;这份财报最准确的一句概括是：&lt;strong&gt;慧与已经变成了一家「订单接不完、货交不出去」的公司。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;订单同比增长42%，收入同比增长34%；网络业务订单增速是收入增速的3.5倍；AI系统订单积压创历史新高，管线是积压的数倍。这些数字组合在一起，说明需求侧的问题已经解决了，接下来所有的变量都在供应侧。&lt;/p&gt;
-
-&lt;p&gt;Neri在电话会结尾说了一句很直白的话：「我们的核心正在变成一家网络公司。」这是慧与过去十年最清晰的一次战略表态——服务器和存储是现金牛和入场券，瞻博带来的网络业务才是估值故事。&lt;/p&gt;
-
-&lt;p&gt;对投资者来说，接下来四个季度只需要盯三件事：&lt;strong&gt;网络业务的可比收入增速能不能追上订单、内存供应什么时候松动、以及2027财年4.40–4.60美元的每股收益指引在成本上涨的环境下守不守得住。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;慧与2026财年第三季度财报新闻稿（官方PDF）：&lt;a href=&quot;https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-press-release.pdf&quot;&gt;https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-press-release.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;慧与官方新闻稿页面：&lt;a href=&quot;https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-reports-fiscal-2026-third-quarter-results.html&quot;&gt;https://www.hpe.com/us/en/newsroom/press-release/2026/09/hpe-reports-fiscal-2026-third-quarter-results.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;慧与投资者关系页面：&lt;a href=&quot;https://investors.hpe.com/news-and-events&quot;&gt;https://investors.hpe.com/news-and-events&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;慧与2026财年第三季度业绩电话会实录：&lt;a href=&quot;https://singjupost.com/transcript-hewlett-packard-hpe-q3-fy26-earnings-call/&quot;&gt;https://singjupost.com/transcript-hewlett-packard-hpe-q3-fy26-earnings-call/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（仅用于市场预期与股价反应）：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;24/7 Wall St.：Hewlett Packard Enterprise Falls 5% as Supply Constraints Overshadow Raised Guidance&lt;/li&gt;
-  &lt;li&gt;Invezz：Why is HPE stock falling despite stronger-than-expected results, raised guidance?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;文中财务数据取自官方新闻稿及其附表，管理层表态取自电话会实录并译自英文原文。标注为计算所得的比率为作者根据披露数据推算，非公司披露口径。&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 04 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/04/hpe_fy2026q3_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/04/hpe_fy2026q3_earnings/</guid>
         
         <category>慧与</category>
         

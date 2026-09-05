@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 05 Sep 2026 09:17:11 +0800</pubDate>
-    <lastBuildDate>Sat, 05 Sep 2026 09:17:11 +0800</lastBuildDate>
+    <pubDate>Sat, 05 Sep 2026 09:21:25 +0800</pubDate>
+    <lastBuildDate>Sat, 05 Sep 2026 09:21:25 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -199,6 +199,955 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>Zscaler 2026财年Q4——营收8.98亿美元同比增长25%，ARR突破37.7亿美元，但一份17%的新财年指引把股价打下去4%</title>
+        <description>&lt;p&gt;美东时间2026年9月3日盘后（北京时间9月4日凌晨），云安全公司 &lt;a href=&quot;https://ir.zscaler.com/&quot;&gt;Zscaler&lt;/a&gt;（纳斯达克代码ZS）发布2026财年第四财季及全年财报，该财年截至2026年7月31日。&lt;/p&gt;
+
+&lt;p&gt;先看三个数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Q4营收8.98亿美元&lt;/strong&gt;，同比增长25%（分析师预期约8.77亿美元）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;年度经常性收入（ARR）37.71亿美元&lt;/strong&gt;，同比增长25%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Q4 Non-GAAP经营利润率24%&lt;/strong&gt;，创公司历史纪录&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;从任何一个角度看，这都是一份漂亮的财报——营收超预期、利润超预期、利润率创纪录。盘后股价一度上涨5%，冲到186.27美元。&lt;/p&gt;
+
+&lt;p&gt;然后市场看到了2027财年的指引，情绪立刻反转。次日（9月4日），ZS股价收跌约4%，报170美元附近。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;问题不在已经发生的事，而在公司自己对未来的判断。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-zscaler是做什么的&quot;&gt;1. Zscaler是做什么的&lt;/h2&gt;
+
+&lt;p&gt;先用一句大白话解释：&lt;strong&gt;Zscaler把企业的网络安全防线，从”办公楼里的那台防火墙”搬到了云上。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;传统的企业安全模式是”城堡加护城河”——公司在办公楼里部署防火墙，员工必须在办公室内网、或者通过VPN接入内网，才被认为是”安全的”。这套模式在人人在家办公、应用全在云端（Office 365、Salesforce）的今天已经失效了。&lt;/p&gt;
+
+&lt;p&gt;Zscaler的做法叫&lt;strong&gt;零信任（Zero Trust）&lt;/strong&gt;：不管你在哪、用什么设备，所有流量都先经过它遍布全球200多个数据中心的云平台做检查，检查通过才把你&lt;strong&gt;直接连到你要用的那个应用&lt;/strong&gt;，而不是把你放进公司内网。核心理念是”永不信任、始终验证”——&lt;strong&gt;用户永远不进内网，所以内网也就无从被横向攻破&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这套平台叫 Zero Trust Exchange，是全球最大的在线云安全平台之一。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-商业模式&quot;&gt;2. 商业模式&lt;/h2&gt;
+
+&lt;p&gt;订阅制SaaS。企业按订阅付费，所以最重要的指标不是单季营收，而是 &lt;strong&gt;ARR（Annual Recurring Revenue，年度经常性收入）&lt;/strong&gt;——即按当前所有在手合同折算的年化订阅收入。ARR可以理解为”这家公司现在每年能稳定收到多少钱”，它比营收更能反映真实的业务体量和未来增长。&lt;/p&gt;
+
+&lt;p&gt;本财年公司还完成了一笔重要收购：&lt;strong&gt;Red Canary&lt;/strong&gt;（一家做托管检测与响应服务的安全公司），单这一项贡献了1.41亿美元ARR。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-q4核心财务数据&quot;&gt;3. Q4核心财务数据&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026财年Q4&lt;/th&gt;
+      &lt;th&gt;2025财年Q4&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收&lt;/td&gt;
+      &lt;td&gt;8.98亿美元&lt;/td&gt;
+      &lt;td&gt;7.19亿美元&lt;/td&gt;
+      &lt;td&gt;+25%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ARR&lt;/td&gt;
+      &lt;td&gt;37.71亿美元&lt;/td&gt;
+      &lt;td&gt;约30.2亿美元&lt;/td&gt;
+      &lt;td&gt;+25%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;本季净新增ARR&lt;/td&gt;
+      &lt;td&gt;2.46亿美元&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;+24%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP毛利润&lt;/td&gt;
+      &lt;td&gt;6.89亿美元&lt;/td&gt;
+      &lt;td&gt;5.47亿美元&lt;/td&gt;
+      &lt;td&gt;+26%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP毛利率&lt;/td&gt;
+      &lt;td&gt;76.7%&lt;/td&gt;
+      &lt;td&gt;76.1%&lt;/td&gt;
+      &lt;td&gt;+0.6个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP经营亏损&lt;/td&gt;
+      &lt;td&gt;-0.155亿美元&lt;/td&gt;
+      &lt;td&gt;-0.322亿美元&lt;/td&gt;
+      &lt;td&gt;亏损收窄52%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP经营利润&lt;/td&gt;
+      &lt;td&gt;2.18亿美元&lt;/td&gt;
+      &lt;td&gt;1.59亿美元&lt;/td&gt;
+      &lt;td&gt;+37%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;24%（纪录）&lt;/td&gt;
+      &lt;td&gt;22%&lt;/td&gt;
+      &lt;td&gt;+2个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP净亏损&lt;/td&gt;
+      &lt;td&gt;-0.034亿美元&lt;/td&gt;
+      &lt;td&gt;-0.176亿美元&lt;/td&gt;
+      &lt;td&gt;亏损收窄81%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP净利润&lt;/td&gt;
+      &lt;td&gt;1.98亿美元&lt;/td&gt;
+      &lt;td&gt;1.47亿美元&lt;/td&gt;
+      &lt;td&gt;+35%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP稀释EPS&lt;/td&gt;
+      &lt;td&gt;1.19美元&lt;/td&gt;
+      &lt;td&gt;0.89美元&lt;/td&gt;
+      &lt;td&gt;+34%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;递延收入&lt;/td&gt;
+      &lt;td&gt;29.26亿美元&lt;/td&gt;
+      &lt;td&gt;约24.6亿美元&lt;/td&gt;
+      &lt;td&gt;+19%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;几个关键点：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，利润增速远快于营收增速。&lt;/strong&gt; 营收增长25%，Non-GAAP经营利润增长37%，Non-GAAP EPS增长34%。这说明规模效应正在显现——收入涨的时候，成本没有同比例涨。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，GAAP仍然亏损，但亏损在快速收窄。&lt;/strong&gt; GAAP口径Q4净亏损340万美元，相比去年同期的1758万美元收窄了81%。&lt;/p&gt;
+
+&lt;p&gt;这里需要解释GAAP和Non-GAAP的差别：Non-GAAP剔除了&lt;strong&gt;股权激励费用&lt;/strong&gt;等非现金支出。Zscaler本季度的股权激励及相关工资税高达&lt;strong&gt;2.152亿美元&lt;/strong&gt;，占营收的24%——这是它GAAP口径持续亏损、Non-GAAP口径大幅盈利的主要原因。&lt;/p&gt;
+
+&lt;p&gt;对普通读者来说，判断标准很简单：&lt;strong&gt;Non-GAAP利润看经营效率，GAAP亏损看股东被稀释的程度。&lt;/strong&gt; 两个都要看。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，费用结构在向研发倾斜。&lt;/strong&gt; Q4研发费用2.41亿美元，同比增长36%；销售与营销费用3.81亿美元，同比增长15%。研发增速是销售增速的2倍多——对一家SaaS公司来说，这通常是好信号：&lt;strong&gt;从”靠销售人海战术抢单”转向”靠产品力赢单”。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;二全财年数据这是zscaler第一次年营收超过33亿美元&quot;&gt;二、全财年数据：这是Zscaler第一次年营收超过33亿美元&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026财年&lt;/th&gt;
+      &lt;th&gt;2025财年&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收&lt;/td&gt;
+      &lt;td&gt;33.53亿美元&lt;/td&gt;
+      &lt;td&gt;26.73亿美元&lt;/td&gt;
+      &lt;td&gt;+25%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收（剔除Red Canary）&lt;/td&gt;
+      &lt;td&gt;32.09亿美元&lt;/td&gt;
+      &lt;td&gt;26.73亿美元&lt;/td&gt;
+      &lt;td&gt;+20%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP经营亏损&lt;/td&gt;
+      &lt;td&gt;-1.33亿美元&lt;/td&gt;
+      &lt;td&gt;-1.28亿美元&lt;/td&gt;
+      &lt;td&gt;略有扩大&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP经营利润&lt;/td&gt;
+      &lt;td&gt;7.67亿美元&lt;/td&gt;
+      &lt;td&gt;5.80亿美元&lt;/td&gt;
+      &lt;td&gt;+32%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;23%&lt;/td&gt;
+      &lt;td&gt;22%&lt;/td&gt;
+      &lt;td&gt;+1个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP净亏损&lt;/td&gt;
+      &lt;td&gt;-0.63亿美元&lt;/td&gt;
+      &lt;td&gt;-0.41亿美元&lt;/td&gt;
+      &lt;td&gt;扩大52%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP净利润&lt;/td&gt;
+      &lt;td&gt;7.04亿美元&lt;/td&gt;
+      &lt;td&gt;5.35亿美元&lt;/td&gt;
+      &lt;td&gt;+32%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP稀释EPS&lt;/td&gt;
+      &lt;td&gt;4.21美元&lt;/td&gt;
+      &lt;td&gt;3.28美元&lt;/td&gt;
+      &lt;td&gt;+28%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营现金流&lt;/td&gt;
+      &lt;td&gt;11.30亿美元&lt;/td&gt;
+      &lt;td&gt;9.73亿美元&lt;/td&gt;
+      &lt;td&gt;+16%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;自由现金流&lt;/td&gt;
+      &lt;td&gt;7.79亿美元&lt;/td&gt;
+      &lt;td&gt;7.27亿美元&lt;/td&gt;
+      &lt;td&gt;+7%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;一个需要单独拎出来的数字自由现金流&quot;&gt;一个需要单独拎出来的数字：自由现金流&lt;/h2&gt;
+
+&lt;p&gt;全财年自由现金流7.79亿美元，占营收23%，看上去不错。但&lt;strong&gt;单看Q4，自由现金流只有6080万美元，占营收7%——去年同期是1.719亿美元、占比24%&lt;/strong&gt;。一个季度掉了17个百分点。&lt;/p&gt;
+
+&lt;p&gt;原因写在财报里：Q4资本开支及内部软件投入&lt;strong&gt;2.185亿美元&lt;/strong&gt;，而去年同期只有7870万美元，&lt;strong&gt;近乎三倍&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这笔钱花在哪了？结合CEO在新闻稿中反复强调的AI战略，大概率是在扩建支撑AI安全能力的数据中心和算力基础设施。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这是一个值得持续跟踪的转折信号。&lt;/strong&gt; Zscaler过去的模式是”轻资产、高现金流”的纯软件公司；如果资本开支持续维持在这个量级，它的现金流特征会向重资产靠拢。公司给出的2027财年自由现金流利润率指引是23.0%-23.5%，与本财年基本持平——意味着管理层认为这轮投入不会进一步侵蚀现金流。这个承诺能不能兑现，是明年财报的一个重要看点。&lt;/p&gt;
+
+&lt;h1 id=&quot;三增长质量拆解25的增长里有多少是买来的&quot;&gt;三、增长质量拆解：25%的增长里有多少是买来的&lt;/h1&gt;
+
+&lt;p&gt;这是本次财报最需要拆开看的地方。&lt;/p&gt;
+
+&lt;p&gt;ARR同比增长25%至37.71亿美元，听起来很强。但财报明确披露：&lt;strong&gt;Red Canary这笔收购贡献了1.41亿美元ARR。剔除收购后，ARR增长20%，净新增ARR增长17%（而非报表口径的24%）。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;营收端同理：全年营收增长25%，剔除Red Canary后增长20%。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;口径&lt;/th&gt;
+      &lt;th&gt;ARR增速&lt;/th&gt;
+      &lt;th&gt;净新增ARR增速&lt;/th&gt;
+      &lt;th&gt;全年营收增速&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;报表口径&lt;/td&gt;
+      &lt;td&gt;+25%&lt;/td&gt;
+      &lt;td&gt;+24%&lt;/td&gt;
+      &lt;td&gt;+25%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;剔除Red Canary&lt;/td&gt;
+      &lt;td&gt;+20%&lt;/td&gt;
+      &lt;td&gt;+17%&lt;/td&gt;
+      &lt;td&gt;+20%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;也就是说，&lt;strong&gt;25%的增长里，大约5个百分点是买来的。&lt;/strong&gt; 内生增长约20%。&lt;/p&gt;
+
+&lt;p&gt;这不是说收购不好——用收购补齐产品线是安全行业的常规打法。但对投资者而言，区分”内生”和”外延”很重要：&lt;strong&gt;外延增长在并表满一年后就会消失，而内生增长才是估值的基础。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;而这恰恰解释了为什么2027财年的指引会让市场失望。&lt;/p&gt;
+
+&lt;h1 id=&quot;四指引市场真正在意的那张表&quot;&gt;四、指引：市场真正在意的那张表&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指引项&lt;/th&gt;
+      &lt;th&gt;2027财年Q1&lt;/th&gt;
+      &lt;th&gt;2027财年全年&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收&lt;/td&gt;
+      &lt;td&gt;9.35亿-9.39亿美元（同比约+19%）&lt;/td&gt;
+      &lt;td&gt;39.08亿-39.38亿美元（同比+16.6%至+17.5%）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ARR&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;43.96亿-44.26亿美元（同比+16.6%至+17.4%）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP毛利率&lt;/td&gt;
+      &lt;td&gt;约80%&lt;/td&gt;
+      &lt;td&gt;约80%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP经营利润&lt;/td&gt;
+      &lt;td&gt;2.15亿-2.17亿美元（同比+25%至26%）&lt;/td&gt;
+      &lt;td&gt;9.24亿-9.32亿美元（同比约+21%）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;23%&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP稀释EPS&lt;/td&gt;
+      &lt;td&gt;1.15-1.16美元&lt;/td&gt;
+      &lt;td&gt;4.86-4.90美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;自由现金流利润率&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;约23.0%-23.5%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;从数字本身看，这份指引其实是”超预期”的&lt;/strong&gt;：分析师此前预期2027财年营收约39.0亿美元、Non-GAAP EPS约4.60美元，公司给出的39.08亿-39.38亿美元和4.86-4.90美元都高于预期。Q1指引同样双双超预期。&lt;/p&gt;
+
+&lt;p&gt;那为什么股价还是跌了？&lt;/p&gt;
+
+&lt;p&gt;因为市场看的不是”比分析师预期高多少”，而是&lt;strong&gt;增速的绝对水平&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2026财年营收增速：&lt;strong&gt;25%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;2027财年营收增速指引：&lt;strong&gt;16.6%-17.5%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;一年之内，增速要掉8个百分点。&lt;/strong&gt; 而且ARR指引的增速（16.6%-17.4%）和营收指引几乎一致，说明这不是收入确认节奏的问题，而是&lt;strong&gt;新签订单的真实放缓&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这8个百分点的落差可以拆成两部分：&lt;strong&gt;一部分是收购红利的消失&lt;/strong&gt;——Red Canary在2027财年内会陆续满一年并进入同比基数，那贡献了2026财年增速中的约5个百分点；&lt;strong&gt;另一部分是内生增长本身的小幅放缓&lt;/strong&gt;——从2026财年的约20%降到2027财年指引隐含的约17%。前者是可预期的技术性回落，后者才是需要警惕的那一半。&lt;/p&gt;
+
+&lt;p&gt;这就是典型的”&lt;strong&gt;增速换挡&lt;/strong&gt;“（deceleration）。对成长股来说，增速换挡对估值的杀伤力往往大于单季业绩不及预期——因为它改变的不是一个季度的数字，而是市场愿意给这家公司的估值倍数。&lt;/p&gt;
+
+&lt;p&gt;值得注意的是，尽管股价下跌，卖方分析师普遍上调了目标价：Needham从180美元上调至215美元，Stephens从200美元上调至225美元，巴克莱从192美元上调至200美元。&lt;strong&gt;这说明专业机构认为指引偏保守，市场的抛售有情绪成分。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;五管理层的战略叙事押注ai时代的安全平台&quot;&gt;五、管理层的战略叙事：押注”AI时代的安全平台”&lt;/h1&gt;
+
+&lt;p&gt;创始人兼CEO &lt;strong&gt;Jay Chaudhry&lt;/strong&gt; 在新闻稿中的表态，几乎全部围绕AI展开：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“AI代表了Zscaler历史上最重大的机遇之一。通过把用户、工作负载、分支机构，以及现在的&lt;strong&gt;智能体（agents）&lt;/strong&gt;，直接连接到它们所需要的应用而不必将其接入网络，我们具备独特的能力，既能帮助企业抵御智能体AI带来的威胁，也能帮助它们安全地部署AI智能体和模型。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;CFO &lt;strong&gt;Kevin Rubin&lt;/strong&gt; 则强调了增长引擎的多元化：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“我们交付了一个强劲的第四季度，营收和ARR均同比增长25%，净新增ARR增长24%，Non-GAAP经营利润率创下24%的纪录。我们的增长引擎正在超越用户席位持续拓宽——非席位制解决方案贡献强劲、Z-Flex持续放量、大单活动创纪录、销售效率不断改善。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;怎么理解这套叙事&quot;&gt;怎么理解这套叙事&lt;/h2&gt;
+
+&lt;p&gt;Rubin那句”超越用户席位”（beyond users）是关键。&lt;/p&gt;
+
+&lt;p&gt;传统上，Zscaler按&lt;strong&gt;员工人数&lt;/strong&gt;收费——公司有1万名员工，就买1万个席位。这个模式的天花板很明显：客户的员工数不会每年增长20%。&lt;/p&gt;
+
+&lt;p&gt;而AI智能体的出现给了它一个新故事：&lt;strong&gt;如果未来每家公司都跑着成千上万个AI智能体，而每个智能体也需要被授权、被检查、被管控，那么”需要被保护的身份数”就不再受限于员工人数了。&lt;/strong&gt; 这是Zscaler能讲的最有说服力的第二增长曲线。&lt;/p&gt;
+
+&lt;p&gt;同时，AI也在制造新的需求：智能体可以被用来发动更自动化、更大规模的攻击，企业必须升级防御。Chaudhry提到的四个方向——零信任SASE、智能体安全运营（Agentic SecOps）、数据安全、AI安全——都是围绕这个逻辑展开的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;但故事归故事，17%的指引说明这条曲线目前还没有在财务上体现出来。&lt;/strong&gt; 2027财年将是检验这套叙事的第一年。&lt;/p&gt;
+
+&lt;h1 id=&quot;六亮点与隐忧&quot;&gt;六、亮点与隐忧&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;亮点&lt;/strong&gt;：盈利能力在实打实改善——Non-GAAP经营利润率全年从22%提到23%、Q4单季创下24%纪录，利润增速（+32%）远超营收增速（+25%）；GAAP净亏损收窄到340万美元，接近盈亏平衡；递延收入（已收钱但尚未确认为收入的部分，相当于未来收入的蓄水池）增长19%至29.26亿美元；研发费用增速（36%）是销售费用增速（15%）的两倍多。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;增速换挡是硬事实。&lt;/strong&gt; 从25%到17%，且ARR指引同步放缓，说明是需求端的真实减速&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;内生增长仅20%。&lt;/strong&gt; 剔除Red Canary后，增长的成色打了折扣&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;股权激励占营收24%。&lt;/strong&gt; Q4股权激励及相关工资税2.152亿美元，这是GAAP持续亏损的根源，也意味着老股东在被持续稀释&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Q4自由现金流利润率骤降至7%。&lt;/strong&gt; 资本开支近乎三倍增长，轻资产模式正在被打破&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Non-GAAP税率口径有变。&lt;/strong&gt; 公司从2026财年起把长期Non-GAAP税率从23%下调至21%（因美国税法调整），这会小幅抬高Non-GAAP利润和EPS。属合规处理，但做跨年度对比时需注意口径差异&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;七总结&quot;&gt;七、总结&lt;/h1&gt;
+
+&lt;p&gt;Zscaler交出的这份财报，是成长型SaaS公司一个非常典型的样本：&lt;strong&gt;该做的都做对了，但成长的故事讲到了需要换新剧本的时候。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;短期看&lt;/strong&gt;，公司的经营质量在改善——利润率创纪录、亏损在收窄、递延收入健康、研发投入加大&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;中期看&lt;/strong&gt;，最大的问题是增速从25%掉到17%，而且这个减速是公司自己预告的，不是市场猜的&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;长期看&lt;/strong&gt;，全部赌注押在”AI智能体也需要安全”这个叙事上。如果成立，Zscaler的可寻址市场（TAM）会从”全球员工数”扩展到”全球AI智能体数”，那是一个大得多的数字；如果这个转化比预想的慢，17%的增速就会成为新常态&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对普通读者，这份财报最实用的一课是：&lt;strong&gt;判断一家成长股，”超没超预期”远没有”增速是多少”重要。&lt;/strong&gt; Zscaler这次两项都超了分析师预期，卖方还集体上调了目标价，股价照样跌4%——因为投资者算的是另一笔账：一家增长17%的公司，值不值一家增长25%的公司的价钱。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;一手信息：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm&quot;&gt;Zscaler 2026财年第四财季及全年财报新闻稿（SEC 8-K 附件99.1，2026年9月3日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-20260901.htm&quot;&gt;Zscaler 2026财年第四财季 8-K 备案（2026年9月3日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1713683/000171368326000157/zs-20260731.htm&quot;&gt;Zscaler 2026财年 10-K 年报（2026年9月3日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ir.zscaler.com/news-releases/news-release-details/zscaler-announces-strong-fourth-quarter-and-fiscal-2026&quot;&gt;Zscaler 官方新闻稿 - Zscaler Announces Strong Fourth Quarter and Fiscal 2026 Financial Results&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ir.zscaler.com/&quot;&gt;Zscaler 投资者关系页面&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;二手信息（仅用于分析师预期、股价反应与目标价调整）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/09/03/zscaler-zs-q4-earnings-2026.html&quot;&gt;CNBC - Zscaler (ZS) Q4 earnings 2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61627559/zscaler-analysts-boost-their-forecasts-after-better-than-expected-q4-earnings&quot;&gt;Benzinga - Zscaler Analysts Boost Their Forecasts After Better-Than-Expected Q4 Earnings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://247wallst.com/investing/2026/09/04/zscaler-falls-4-as-fy2027-growth-guidance-overshadows-earnings-beat-crowdstrike-slips-palo-alto-holds-steady/&quot;&gt;24/7 Wall St. - Zscaler Falls 4% as FY2027 Growth Guidance Overshadows Earnings Beat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 05 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/05/zscaler_fy2026q4_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/05/zscaler_fy2026q4_earnings/</guid>
+        
+        <category>Zscaler</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>露露乐蒙2026财年Q2电话会——管理层承认瑜伽裤销量下滑两成、问题出在客流而非转化，新CEO上任前三天先把预期打到地板</title>
+        <description>&lt;p&gt;美东时间2026年9月3日下午4点30分（北京时间9月4日凌晨4点30分），&lt;a href=&quot;https://corporate.lululemon.com/investors/news-and-events/events-and-presentations&quot;&gt;lululemon&lt;/a&gt;（露露乐蒙，纳斯达克代码LULU）在发布2026财年二季报后召开业绩电话会。&lt;/p&gt;
+
+&lt;p&gt;这场电话会的背景相当特殊。公司目前处在&lt;strong&gt;没有正式CEO的空窗期&lt;/strong&gt;，由两位高管代理联席CEO：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Meghan Frank&lt;/strong&gt;——代理联席CEO兼首席财务官&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;André Maestrini&lt;/strong&gt;——代理联席CEO、总裁兼首席商务官&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;而新任CEO &lt;strong&gt;Heidi O’Neill&lt;/strong&gt; 将在5天后（9月8日）正式到岗。也就是说，这是&lt;strong&gt;两位过渡期管理者在交接前主持的最后一场电话会&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;结果是：他们把能说的坏消息都说了。财报里只写了”营收下滑4%、可比销售下滑9%”，而电话会上补出来的细节远比这残酷——核心品类崩了两成，门店要砍SKU，开店计划要收缩，成本结构要重新审视。财报次日，股价重挫约18%。&lt;/p&gt;
+
+&lt;p&gt;下面按”管理层核心表态 → 分析师问答 → 解读”三段来拆。&lt;/p&gt;
+
+&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-承认二季度低于自己的预期且缺口主要来自中国&quot;&gt;1. 承认二季度低于自己的预期，且缺口主要来自中国&lt;/h2&gt;
+
+&lt;p&gt;Frank在开场就把话说明白了：&lt;strong&gt;“二季度营收低于我们的预期，缺口主要来自中国大陆，那里营收只增长了4%。”&lt;/strong&gt;（Q2 revenue came in below our expectations, with the shortfall driven predominantly by China mainland, where revenue grew 4%.）&lt;/p&gt;
+
+&lt;p&gt;这句话有两层信息：&lt;/p&gt;
+
+&lt;p&gt;第一，&lt;strong&gt;公司连自己的指引都没达到&lt;/strong&gt;。三个月前给出的Q2营收指引是24.50亿-24.75亿美元，实际只做到24.16亿美元。&lt;/p&gt;
+
+&lt;p&gt;第二，&lt;strong&gt;最大的缺口来自中国，而不是北美&lt;/strong&gt;。这一点和很多人的直觉相反——北美可比销售下滑12%，看起来更惨；但北美的疲软是”已经在预期内”的，中国的失速才是超出预期的那部分。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-核心品类的具体降幅女裤下滑约20&quot;&gt;2. 核心品类的具体降幅：女裤下滑约20%&lt;/h2&gt;
+
+&lt;p&gt;这是整场电话会信息量最大的一句话：&lt;strong&gt;“二季度女裤（leggings）销售同比下滑约20%。”&lt;/strong&gt; 同时配件品类下滑13%。&lt;/p&gt;
+
+&lt;p&gt;需要理解这个数字的分量：女裤（尤其是Align和Wunder系列）是lululemon的立身之本，是这家公司从一个温哥华小众瑜伽品牌做到全球运动服饰巨头的那件单品。&lt;strong&gt;核心品类单季掉两成，意味着的不是销售波动，而是产品周期的转向。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;管理层同时给出了正面的一半：所谓”away-from-body”（不贴身、宽松版型）的新款反响不错，比如Groove Wide-Leg阔腿裤；Define外套、Scuba卫衣、高尔夫品类、Metal Vent Tech系列也有亮点。&lt;/p&gt;
+
+&lt;p&gt;用大白话说：&lt;strong&gt;消费者的审美从”紧身”转向了”宽松”，而lululemon的产能和库存结构还压在”紧身”这一边。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-承认负面舆论直接打击了客流&quot;&gt;3. 承认负面舆论直接打击了客流&lt;/h2&gt;
+
+&lt;p&gt;Frank在电话会上明确表示：&lt;strong&gt;“我们在媒体和社交渠道遭遇了负面评论，这影响了客流。”&lt;/strong&gt;（We faced negative commentary in the media and social channels, which impacted traffic.）&lt;/p&gt;
+
+&lt;p&gt;Maestrini在讲中国市场时也用了同样的归因——品牌情绪（brand sentiment）因负面媒体报道受损，同时618期间天猫平台的表现疲软。&lt;/p&gt;
+
+&lt;p&gt;一家把”社群”当作核心资产的公司，公开承认社交媒体口碑在拖累业绩，这在lululemon的历史上并不常见。&lt;/p&gt;
+
+&lt;h2 id=&quot;4-四条自救措施全部指向收缩&quot;&gt;4. 四条自救措施，全部指向”收缩”&lt;/h2&gt;
+
+&lt;p&gt;管理层给出的行动方案，可以概括为一个词：&lt;strong&gt;做减法&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;措施&lt;/th&gt;
+      &lt;th&gt;具体动作&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;砍SKU&lt;/td&gt;
+      &lt;td&gt;门店SKU密度减少约15%，按运动场景（而非品类）重新陈列&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;追畅销款&lt;/td&gt;
+      &lt;td&gt;对表现好的款式追单，全年追货量比去年多约20%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;收缩开店&lt;/td&gt;
+      &lt;td&gt;全年净新开门店从上季指引的约40家下调到约35家&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;控成本&lt;/td&gt;
+      &lt;td&gt;压缩差旅、专业服务费、人员编制等可自由支配开支，同时&lt;strong&gt;增加&lt;/strong&gt;下半年营销投入&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;注意最后一条的内在矛盾：&lt;strong&gt;一边要压成本，一边要加营销&lt;/strong&gt;。这正是当前lululemon的两难——不加营销，客流回不来；加了营销，本就恶化4个百分点的费用率会更难看。&lt;/p&gt;
+
+&lt;h2 id=&quot;5-全年指引的结构性拆解&quot;&gt;5. 全年指引的结构性拆解&lt;/h2&gt;
+
+&lt;p&gt;Frank在电话会上把新的全年指引拆得比新闻稿细得多——全年营收103.50亿-105.00亿美元（同比-5%至-7%）、全年稀释EPS 9.48-9.73美元（2025财年为13.26美元）之外，还给出了：北美营收预计&lt;strong&gt;低双位数下滑&lt;/strong&gt;，中国大陆预计&lt;strong&gt;高个位数增长&lt;/strong&gt;，SG&amp;amp;A费用率预计恶化约&lt;strong&gt;450个基点&lt;/strong&gt;，经营利润率预计下滑约&lt;strong&gt;530个基点&lt;/strong&gt;，资本开支&lt;strong&gt;6.80亿-7.00亿美元&lt;/strong&gt;；折扣力度Q2同比扩大70个基点、Q3预计再扩大60个基点、Q4大致持平。&lt;/p&gt;
+
+&lt;p&gt;关于关税退款，Frank说得也很清楚：本季度已收到约1.34亿美元，另有约&lt;strong&gt;1.05亿美元仍不确定&lt;/strong&gt;，&lt;strong&gt;新指引中没有假设任何后续退款&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h1 id=&quot;二分析师问答中最有信息量的六个问题&quot;&gt;二、分析师问答中最有信息量的六个问题&lt;/h1&gt;
+
+&lt;h2 id=&quot;q1摩根士丹利-alex-straton门店战略怎么调整&quot;&gt;Q1｜摩根士丹利 Alex Straton：门店战略怎么调整？&lt;/h2&gt;
+
+&lt;p&gt;Straton追问SKU削减和开店节奏。管理层确认门店SKU密度削减15%的方案正在铺开，并强调对未来每一个开店项目都要”逐个审视”（scrutiny of every deal），从追求数量转向追求质量。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：lululemon过去几年”靠新开店抵消老店下滑”的打法走到头了。当美洲可比销售下滑12%时，继续开新店只会摊薄单店效率、推高租金成本。收缩开店是正确但痛苦的选择——因为它同时也意味着放弃了掩盖可比销售下滑的最后一块遮羞布。&lt;/p&gt;
+
+&lt;h2 id=&quot;q2富国银行-ike-boruchow成本结构问题诊断清楚了吗&quot;&gt;Q2｜富国银行 Ike Boruchow：成本结构问题诊断清楚了吗？&lt;/h2&gt;
+
+&lt;p&gt;Boruchow的提问相当直接：&lt;strong&gt;“这个问题感觉已经被完全诊断清楚了吗？”&lt;/strong&gt;（Does it feel like that has been fully diagnosed yet?）&lt;/p&gt;
+
+&lt;p&gt;Frank的回答是：公司正在”更深入地审视，把成本基数调整到合适的规模”（taking a deeper look to right-size the cost base），同时会保护产品和品牌相关的投入。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：这个回答其实是”还没有”。”right-size the cost base”在美股财报语境里是一个信号词——它通常是&lt;strong&gt;大规模成本削减甚至裁员的前奏&lt;/strong&gt;。结合SG&amp;amp;A费用率一个季度恶化4个百分点的事实，接下来两个季度出现重组费用的概率不低。而这件事，大概率要留给新CEO来做。&lt;/p&gt;
+
+&lt;h2 id=&quot;q3摩根大通-matthew-boss中国为什么环比又软了&quot;&gt;Q3｜摩根大通 Matthew Boss：中国为什么环比又软了？&lt;/h2&gt;
+
+&lt;p&gt;Boss追问中国大陆的环比走弱。Frank的归因是&lt;strong&gt;“品牌噪音”（brand noise）以及618天猫大促的疲软&lt;/strong&gt;，并明确表示&lt;strong&gt;不是宏观因素&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;关于8月以来的最新趋势，她的措辞是：宽松版型产品出现了”绿芽”（green shoots），但整体是”一个缓慢的开局”（a slow start）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：管理层主动排除了”中国消费大环境不好”这个最方便的借口，等于承认是自己的品牌和产品出了问题。这在归因上是诚实的，但对投资者来说更糟——宏观会周期性好转，品牌口碑受损却需要真金白银和时间去修。&lt;/p&gt;
+
+&lt;p&gt;而”a slow start”这五个字，基本坐实了三季度指引（营收同比下滑10%-11%）不是保守估计，而是接近实际的判断。&lt;/p&gt;
+
+&lt;h2 id=&quot;q4花旗-paul-lejuez到底是客流问题还是产品问题&quot;&gt;Q4｜花旗 Paul Lejuez：到底是客流问题还是产品问题？&lt;/h2&gt;
+
+&lt;p&gt;这是全场最关键的一问：&lt;strong&gt;“你们是有一个可以靠加大营销解决的客流问题，还是有一个产品问题？”&lt;/strong&gt;（Do you have a traffic problem that can be solved by increased marketing, or a product problem?）&lt;/p&gt;
+
+&lt;p&gt;Frank的回答是：&lt;strong&gt;“我们看到的压力主要在客流端。”&lt;/strong&gt;（Predominantly, we’re seeing the pressure in traffic.）她把原因归结为品牌热度（brand heat）和品牌情绪的问题，需要靠营销投入来解决，北美和中国都是如此。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：这个回答值得细品。如果是&lt;strong&gt;转化问题&lt;/strong&gt;（人进了店但不买），那多半是产品或定价的锅，改产品即可；如果是&lt;strong&gt;客流问题&lt;/strong&gt;（人根本不进店），那是品牌层面的问题，只能靠营销和时间。&lt;/p&gt;
+
+&lt;p&gt;管理层选择了后一种归因，等于是说”我们的产品没那么糟，是品牌热度掉了”。但这个说法和另一个事实存在张力——&lt;strong&gt;核心品类女裤下滑20%&lt;/strong&gt;。如果产品没问题，为什么最核心的单品掉了两成？&lt;/p&gt;
+
+&lt;p&gt;更现实的解释可能是：客流下滑和产品失灵是互为因果的。没有让人眼前一亮的新品，社交媒体上就缺少讨论度；缺少讨论度，客流就下来了；客流下来了，新品的曝光又更少。&lt;strong&gt;这是一个需要靠爆款来打断的负循环，而不是靠增加营销预算就能解决的。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;q5美银-lorraine-hutchinson为什么要暂缓开店中国还开不开&quot;&gt;Q5｜美银 Lorraine Hutchinson：为什么要暂缓开店？中国还开不开？&lt;/h2&gt;
+
+&lt;p&gt;Frank表示公司会采取”审慎的方式”（measured approach），但强调中国大陆&lt;strong&gt;仍然存在巨大机会&lt;/strong&gt;（tremendous opportunity），只是每一个项目都要经过严格审视。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：一方面必须给中国市场的长期故事留出空间（这是lululemon估值里最重要的增长叙事），另一方面短期又要收缩资本开支。全年6.80亿-7.00亿美元的资本开支指引，对应的正是”边开边看”的节奏。&lt;/p&gt;
+
+&lt;h2 id=&quot;q6evercore-michael-binetti折扣节奏和中国的促销策略&quot;&gt;Q6｜Evercore Michael Binetti：折扣节奏和中国的促销策略？&lt;/h2&gt;
+
+&lt;p&gt;Binetti追问折扣力度的季度节奏，以及在中国大促期间是否会跟进降价。管理层的回答是：折扣力度预计在Q3-Q4逐步收敛，&lt;strong&gt;即便面对天猫大促也会坚持全价销售的纪律&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：这是整场电话会里管理层态度最强硬的一段。坚持不打折，短期会牺牲销量（体现为中国可比销售继续承压），但保住了品牌定价权——这比”用折扣换GMV”更值得肯定，前提是产品能重新做起来。&lt;/p&gt;
+
+&lt;p&gt;此外，Telsey Advisory Group的Dana Telsey追问产品调整的动作与时间表，Frank强调正在”激进地对畅销款追单，同时削减表现不佳的新品”；巴克莱的Adrienne Yih关注消费者反馈与创新流程，Frank表示顾客在寻求”新的、有差异化的产品”，公司正在缩短产品开发的前置时间。&lt;/p&gt;
+
+&lt;h1 id=&quot;三解读这场电话会到底说明了什么&quot;&gt;三、解读：这场电话会到底说明了什么&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-这是一次典型的新官上任前大扫除&quot;&gt;1. 这是一次典型的”新官上任前大扫除”&lt;/h2&gt;
+
+&lt;p&gt;把时间线摆出来看：9月3日发布二季报、年内第二次下调全年指引、电话会披露所有负面细节；9月8日新CEO Heidi O’Neill 正式上任。&lt;/p&gt;
+
+&lt;p&gt;这个安排不太可能是巧合。&lt;strong&gt;在管理层交接前，由过渡期的代理CEO把所有坏消息一次性出清，让新任CEO从一个尽可能低的基数起步&lt;/strong&gt;，是上市公司相当常见的操作。好的一面是，9.48-9.73美元的全年EPS指引很可能已经足够保守；坏的一面是，公司自己承认接下来两个季度会很难看——三季度营收指引直接给到同比下滑10%-11%。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-管理层的归因存在一处内部矛盾&quot;&gt;2. 管理层的归因存在一处内部矛盾&lt;/h2&gt;
+
+&lt;p&gt;整场电话会的归因逻辑是：&lt;strong&gt;负面舆论 → 品牌热度下降 → 客流下滑 → 营收下滑&lt;/strong&gt;。解决方案对应的是：加大营销投入。&lt;/p&gt;
+
+&lt;p&gt;但同一场电话会又披露了：&lt;strong&gt;女裤下滑20%、配件下滑13%、宽松版型新款卖得不错&lt;/strong&gt;。这组数据指向的是另一个逻辑：&lt;strong&gt;审美周期转向 → 主力产品结构错配 → 卖不动&lt;/strong&gt;。解决方案应该对应的是：加速产品迭代。&lt;/p&gt;
+
+&lt;p&gt;这两个诊断导向完全不同的资源配置。管理层的口径明显偏向前者（客流/品牌），但他们实际采取的动作——砍15%的SKU、追单20%的畅销款、缩短开发前置时间——却明显是在解决后者。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;说的是品牌问题，做的是产品调整。&lt;/strong&gt; 这种错位通常出现在管理层已经知道答案、但不方便在公开场合把话说满的时候。真正的诊断书，大概率要等新CEO上任后自己写。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-最该盯的三个先行指标&quot;&gt;3. 最该盯的三个先行指标&lt;/h2&gt;
+
+&lt;p&gt;对想持续跟踪这家公司的读者来说，接下来三个季度有三个数字比营收更重要：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，折扣力度（markdowns）的走势。&lt;/strong&gt; 管理层承诺Q3扩大60个基点后、Q4回到大致持平。如果Q4折扣继续扩大，说明库存开始失控，品牌溢价的护城河在被填平。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，美洲可比销售的降幅是否收窄。&lt;/strong&gt; 当前是-12%。这个数字如果在Q3继续走阔，说明”客流问题”的诊断是错的，问题在产品。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，宽松版型产品占比能否起量。&lt;/strong&gt; 管理层说的”green shoots”是唯一的好消息。全年追货量多20%这个动作，效果最快要到Q4才能在报表上体现。&lt;/p&gt;
+
+&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
+
+&lt;p&gt;这场电话会用一句话概括：&lt;strong&gt;代理管理层在交接前，诚实地交代了病情，但给出的药方和病因对不上。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Frank和Maestrini做对的地方是坦诚——主动披露了女裤下滑20%这种没人逼他们说的数字，主动排除了”宏观不好”这个借口，也没有用折扣去粉饰销量。&lt;/p&gt;
+
+&lt;p&gt;但他们没有回答（也可能无权回答）的问题是：&lt;strong&gt;当一家公司的核心单品失去了消费者的审美认同，加大营销投入到底能挽回多少？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这个问题的答案，将由5天后上任的Heidi O’Neill来给。她接手的是一家现金充裕（13.90亿美元）、库存健康（件数同比-7%）、资产负债表干净的公司，短期不存在生存风险；但也是一家核心品类失灵、大本营老店可比销售下滑12%、股价年内跌掉四成以上的公司。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;财务上她有时间，市场上她没有。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;一手信息：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1397187/000139718726000126/lulu-20260802xex991.htm&quot;&gt;lululemon 2026财年第二财季财报新闻稿（SEC 8-K 附件99.1，2026年9月3日，含电话会安排与全部财务数据）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://corporate.lululemon.com/investors/news-and-events/events-and-presentations&quot;&gt;lululemon 投资者关系 - 活动与演示（业绩电话会网络直播与回放）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1397187/000139718726000077/lulu-20260503xex991.htm&quot;&gt;lululemon 2026财年第一财季财报新闻稿（SEC 8-K 附件99.1，2026年6月4日，用于对比原始指引）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;电话会实录（用于管理层表态与问答引述，关键引述已与多个实录来源交叉核对）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-lululemon-q2-2026-profit-beat-fails-to-calm-investors-93CH-4888627&quot;&gt;Investing.com - Earnings call transcript: Lululemon Q2 2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.marketbeat.com/earnings/reports/2026-9-3-lululemon-athletica-inc-stock/&quot;&gt;MarketBeat - lululemon athletica Q2 2026 Earnings Call Transcript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://singjupost.com/transcript-lululemon-athletica-lulu-inc-q2-fy26-earnings-call/&quot;&gt;Singju Post - Transcript: lululemon athletica (LULU) inc. Q2 FY26 Earnings Call&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;二手信息（仅用于股价反应）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/coverage/stock-market-today/2026/09/04/stock-market-today-sept-4-lululemon-plummets-17-after-slashing-guidance/&quot;&gt;Motley Fool - Stock Market Today, Sept. 4, 2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 05 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/05/lululemon_fy2026q2_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/05/lululemon_fy2026q2_earnings_call/</guid>
+        
+        <category>露露乐蒙</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>露露乐蒙2026财年Q2——营收24.16亿美元同比下滑4%，全年指引二度下调，股价一夜蒸发18%</title>
+        <description>&lt;p&gt;美东时间2026年9月3日盘后（北京时间9月4日凌晨），&lt;a href=&quot;https://corporate.lululemon.com/investors&quot;&gt;lululemon&lt;/a&gt;（露露乐蒙，纳斯达克代码LULU）发布2026财年第二财季财报，该季度截至2026年8月2日。&lt;/p&gt;
+
+&lt;p&gt;先看三个数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;营收24.16亿美元&lt;/strong&gt;，同比下滑4%（按固定汇率口径下滑5%）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;可比销售下滑9%&lt;/strong&gt;（固定汇率口径下滑10%），其中美洲可比销售下滑12%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;稀释每股收益2.92美元&lt;/strong&gt;，去年同期3.10美元；但其中0.86美元来自一次性关税退款&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;表面上看，2.92美元的EPS把分析师大约1.80美元的预期打得粉碎。但市场根本没买账——财报次日（9月4日），LULU股价重挫约18%，从前一日收盘的121.77美元跌到100美元附近，年内跌幅扩大到四成以上。&lt;/p&gt;
+
+&lt;p&gt;为什么”大幅超预期”的利润换来的是暴跌？因为这份财报里真正决定股价的不是已经发生的季度，而是公司自己给出的下半年展望——&lt;strong&gt;全年指引在四个月内被砍了第二刀&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-业务概览&quot;&gt;1. 业务概览&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;主营业务：瑜伽、跑步、训练等场景的功能性运动服饰、鞋类与配件，代表产品是Align和Groove系列女裤（俗称”瑜伽裤”）&lt;/li&gt;
+  &lt;li&gt;商业模式：以直营为主——自有门店 + 自有电商，几乎不依赖批发渠道，因此毛利率长期维持在55%以上，远高于传统服装品牌&lt;/li&gt;
+  &lt;li&gt;门店网络：截至本季度末825家直营店（去年同期796家），总面积388万平方英尺&lt;/li&gt;
+  &lt;li&gt;行业地位：全球高端运动服饰的头部品牌之一，长期被视为”运动版的奢侈品”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;lululemon过去十年的故事可以概括成一句话：&lt;strong&gt;用一条高价瑜伽裤，在女性运动服饰这个细分品类里做出了品牌溢价和社群黏性&lt;/strong&gt;。它不打折、不铺批发、门店做社区活动，靠”不促销”维持品牌调性和高毛利。&lt;/p&gt;
+
+&lt;p&gt;而这次财报暴露的问题，恰恰是这套模式的每一根支柱都在松动：产品失灵、社群口碑转向、被迫开始打折。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-本季核心财务数据&quot;&gt;2. 本季核心财务数据&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026财年Q2&lt;/th&gt;
+      &lt;th&gt;2025财年Q2&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净营收&lt;/td&gt;
+      &lt;td&gt;24.16亿美元&lt;/td&gt;
+      &lt;td&gt;25.25亿美元&lt;/td&gt;
+      &lt;td&gt;-4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利润&lt;/td&gt;
+      &lt;td&gt;14.62亿美元&lt;/td&gt;
+      &lt;td&gt;14.77亿美元&lt;/td&gt;
+      &lt;td&gt;-1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率&lt;/td&gt;
+      &lt;td&gt;60.5%&lt;/td&gt;
+      &lt;td&gt;58.5%&lt;/td&gt;
+      &lt;td&gt;+2.0个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售及管理费用（SG&amp;amp;A）&lt;/td&gt;
+      &lt;td&gt;10.06亿美元&lt;/td&gt;
+      &lt;td&gt;9.52亿美元&lt;/td&gt;
+      &lt;td&gt;+5.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SG&amp;amp;A占营收比&lt;/td&gt;
+      &lt;td&gt;41.7%&lt;/td&gt;
+      &lt;td&gt;37.7%&lt;/td&gt;
+      &lt;td&gt;+4.0个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润&lt;/td&gt;
+      &lt;td&gt;4.54亿美元&lt;/td&gt;
+      &lt;td&gt;5.24亿美元&lt;/td&gt;
+      &lt;td&gt;-13%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润率&lt;/td&gt;
+      &lt;td&gt;18.8%&lt;/td&gt;
+      &lt;td&gt;20.7%&lt;/td&gt;
+      &lt;td&gt;-1.9个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净利润&lt;/td&gt;
+      &lt;td&gt;3.29亿美元&lt;/td&gt;
+      &lt;td&gt;3.71亿美元&lt;/td&gt;
+      &lt;td&gt;-11.2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;稀释EPS&lt;/td&gt;
+      &lt;td&gt;2.92美元&lt;/td&gt;
+      &lt;td&gt;3.10美元&lt;/td&gt;
+      &lt;td&gt;-5.8%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这张表里有两个需要拆开看的”假象”。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;假象一：毛利率不是真的改善了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;60.5%的毛利率同比提升2个百分点，看上去是好消息。但财报注释写得很清楚：本季度公司收到了1.345亿美元的&lt;strong&gt;IEEPA关税退款&lt;/strong&gt;（美国依据《国际紧急经济权力法》征收的关税被退回），这笔钱被记作销货成本的减项，单这一项就把毛利率抬高了5.6个百分点。&lt;/p&gt;
+
+&lt;p&gt;把这5.6个百分点扣掉，本季真实毛利率约为&lt;strong&gt;54.9%&lt;/strong&gt;，比去年同期的58.5%低了约3.6个百分点。也就是说，剔除退税之后，毛利率不是在改善，而是在明显恶化。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;假象二：EPS的”超预期”是一次性的。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;同一笔退款连同410万美元利息，税后为EPS贡献了0.86美元。扣掉之后，本季经营性EPS约为&lt;strong&gt;2.06美元&lt;/strong&gt;，比去年同期的3.10美元下滑约三分之一。&lt;/p&gt;
+
+&lt;p&gt;顺带一提，2.06美元其实仍然高于公司自己在上季度给出的1.76-1.81美元指引区间上限——所以利润端算是超了自家目标。真正没达标的是营收：公司此前指引Q2营收24.50亿-24.75亿美元，实际只有24.16亿美元，&lt;strong&gt;连自己下调过一次的目标都没摸到&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;再看一个容易被忽略的细节：EPS的降幅（-5.8%）明显小于净利润降幅（-11.2%）。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;差额来自回购。本季度公司花3.30亿美元回购了270万股，稀释后加权平均股本从1.197亿股降到1.129亿股，同比减少5.6%。换句话说，&lt;strong&gt;回购帮EPS挡掉了一半以上的跌幅&lt;/strong&gt;。按3.30亿美元/270万股折算，平均回购成本约122美元/股——而9月4日收盘时股价已经跌到100美元附近，这笔钱买在了半山腰。&lt;/p&gt;
+
+&lt;h1 id=&quot;二分地区解读&quot;&gt;二、分地区解读&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;地区&lt;/th&gt;
+      &lt;th&gt;营收同比&lt;/th&gt;
+      &lt;th&gt;固定汇率营收同比&lt;/th&gt;
+      &lt;th&gt;可比销售同比&lt;/th&gt;
+      &lt;th&gt;固定汇率可比销售&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;美国&lt;/td&gt;
+      &lt;td&gt;-8%&lt;/td&gt;
+      &lt;td&gt;-8%&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;加拿大&lt;/td&gt;
+      &lt;td&gt;-11%&lt;/td&gt;
+      &lt;td&gt;-9%&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;美洲合计&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-8%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-8%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-12%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-12%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;中国大陆&lt;/td&gt;
+      &lt;td&gt;+4%&lt;/td&gt;
+      &lt;td&gt;-2%&lt;/td&gt;
+      &lt;td&gt;-2%&lt;/td&gt;
+      &lt;td&gt;-8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;世界其他地区&lt;/td&gt;
+      &lt;td&gt;+5%&lt;/td&gt;
+      &lt;td&gt;+6%&lt;/td&gt;
+      &lt;td&gt;-4%&lt;/td&gt;
+      &lt;td&gt;-3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;国际合计&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+4%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+2%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-3%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-6%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;全球总计&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-4%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-5%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-9%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-10%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;1-美洲大本营塌方&quot;&gt;1. 美洲：大本营塌方&lt;/h2&gt;
+
+&lt;p&gt;美洲营收下滑8%，可比销售下滑12%。这是最致命的一组数字。&lt;/p&gt;
+
+&lt;p&gt;先解释一下”可比销售”（comparable sales）：只统计开业满12个月的老店和电商，剔除新开门店带来的增量。&lt;strong&gt;营收下滑8%、可比销售下滑12%，两者之间4个百分点的差距，说明公司是靠新开门店在硬撑总营收——老店的客流和成交在以两位数的速度流失。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;对一个以”社群”和”口碑”为立身之本的品牌来说，老店可比销售下滑12%比任何财务指标都更危险。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-中国大陆报表增长4实际在收缩&quot;&gt;2. 中国大陆：报表增长4%，实际在收缩&lt;/h2&gt;
+
+&lt;p&gt;中国大陆营收同比增长4%，是财报里为数不多的正数。但换成固定汇率口径，实际是&lt;strong&gt;下滑2%&lt;/strong&gt;——也就是说这4%的增长全靠汇率换算的账面收益。&lt;/p&gt;
+
+&lt;p&gt;更能说明问题的是可比销售：报表口径-2%，固定汇率口径&lt;strong&gt;-8%&lt;/strong&gt;。中国大陆同样是”新店撑营收、老店在退坡”的结构。管理层在电话会上把原因归结为负面舆论造成的品牌情绪压力，以及618期间天猫平台表现疲软。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-世界其他地区唯一还在扩张的战场&quot;&gt;3. 世界其他地区：唯一还在扩张的战场&lt;/h2&gt;
+
+&lt;p&gt;除中国外的国际市场营收增长5%（固定汇率+6%），是全公司唯一在固定汇率口径下仍然正增长的板块。管理层提到韩国市场表现强劲，但澳大利亚的促销环境在加剧。&lt;/p&gt;
+
+&lt;h1 id=&quot;三亮点与隐忧&quot;&gt;三、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;值得肯定的地方&quot;&gt;值得肯定的地方&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;库存管理没有失控。&lt;/strong&gt; 期末库存17.11亿美元，同比下降1%，&lt;strong&gt;按件数计算同比下降7%&lt;/strong&gt;。在营收下滑4%的背景下，库存件数降幅更大，说明公司没有把卖不动的货堆在仓库里——这是零售业最容易出事的地方，lululemon暂时守住了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;现金流反而改善了。&lt;/strong&gt; 上半年经营现金流5.89亿美元，去年同期只有2.10亿美元，增加了近3.8亿美元。期末现金13.90亿美元，另有5.94亿美元循环信贷额度未使用。&lt;strong&gt;手上有钱，意味着新CEO有时间和弹药做调整&lt;/strong&gt;，不至于被资金链逼着做短期决策。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;资产负债表干净。&lt;/strong&gt; 总资产84.85亿美元，股东权益47.91亿美元，没有沉重的有息债务负担。&lt;/p&gt;
+
+&lt;h2 id=&quot;真正的隐忧&quot;&gt;真正的隐忧&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，SG&amp;amp;A的刚性。&lt;/strong&gt; 营收同比下滑4%，SG&amp;amp;A却同比增加5.7%，占营收比从37.7%飙到41.7%，一个季度恶化4个百分点。零售业最怕的就是这种”收入在跌、成本在涨”的剪刀差——门店租金、人员工资都是刚性的，营收一旦下滑，费用率会立刻恶化。管理层在电话会上承认正在”更深入地审视如何把成本基数调整到合适规模”。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，被迫开始打折。&lt;/strong&gt; 管理层披露本季折扣力度（markdowns）同比扩大了70个基点，Q3预计还要再扩大60个基点。对一个把”不打折”当作品牌资产的公司来说，&lt;strong&gt;每一次打折都是在提前透支未来的定价权&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，核心品类失灵。&lt;/strong&gt; 电话会上披露，本季度&lt;strong&gt;女裤（leggings）销售同比下滑约20%&lt;/strong&gt;，配件品类下滑13%。瑜伽裤是lululemon的立身之本，这个品类掉两成，不是周期波动，而是产品和审美周期的转向。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，问题出在客流，不是转化。&lt;/strong&gt; 面对分析师”这是客流问题还是产品问题”的直球提问，代理联席CEO Meghan Frank的回答是”我们看到的压力主要在客流端”。这意味着不是店里的人没买，而是&lt;strong&gt;人根本不进店了&lt;/strong&gt;——品牌热度在下降。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第五，上半年利润已经跌掉近四分之一。&lt;/strong&gt; 把两个季度合起来看：上半年营收48.87亿美元，与去年同期的48.96亿美元基本持平；但经营利润从9.62亿美元掉到7.31亿美元（-24%），净利润从6.85亿美元掉到5.24亿美元（-23.5%）。&lt;strong&gt;营收持平、利润跌两成半&lt;/strong&gt;，这就是费用刚性和折扣扩大共同作用的结果。&lt;/p&gt;
+
+&lt;h1 id=&quot;四指引四个月内第二次下调&quot;&gt;四、指引：四个月内第二次下调&lt;/h1&gt;
+
+&lt;p&gt;这是本次财报真正引爆股价的部分。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指引项&lt;/th&gt;
+      &lt;th&gt;6月4日给出（Q1财报）&lt;/th&gt;
+      &lt;th&gt;9月3日给出（Q2财报）&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;全年营收&lt;/td&gt;
+      &lt;td&gt;110.00亿-111.50亿美元（-1%至0%）&lt;/td&gt;
+      &lt;td&gt;103.50亿-105.00亿美元（-5%至-7%）&lt;/td&gt;
+      &lt;td&gt;中值下调约6.5亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;全年稀释EPS&lt;/td&gt;
+      &lt;td&gt;10.95-11.15美元&lt;/td&gt;
+      &lt;td&gt;9.48-9.73美元&lt;/td&gt;
+      &lt;td&gt;中值下调约13%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;作为对照，lululemon在2025财年的实际EPS是&lt;strong&gt;13.26美元&lt;/strong&gt;。新指引的9.48-9.73美元，意味着全年利润要比去年下滑27%-28%。&lt;/p&gt;
+
+&lt;p&gt;而且这个新指引里&lt;strong&gt;已经包含了那笔0.86美元的一次性关税退款收益&lt;/strong&gt;。也就是说，剔除退款后的经营性全年EPS大约是8.6-8.9美元，相比去年下滑约33%-35%。管理层在电话会上还提到，另有约1.05亿美元的关税退款仍在争取中，但&lt;strong&gt;没有计入任何指引&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;三季度指引更难看：营收&lt;strong&gt;22.90亿-23.20亿美元，同比下滑10%-11%&lt;/strong&gt;，EPS只有0.93-0.98美元。这是lululemon近年来最差的一份单季指引。&lt;/p&gt;
+
+&lt;p&gt;管理层在电话会上还给出了全年的结构性拆解：北美营收预计低双位数下滑，中国大陆预计高个位数增长，SG&amp;amp;A费用率预计恶化约450个基点，经营利润率预计下滑约530个基点，资本开支6.80亿-7.00亿美元。&lt;/p&gt;
+
+&lt;h1 id=&quot;五换帅新ceo在暴跌中上任&quot;&gt;五、换帅：新CEO在暴跌中上任&lt;/h1&gt;
+
+&lt;p&gt;这份财报有一个特殊背景：公司目前由&lt;strong&gt;代理联席CEO&lt;/strong&gt;在管——首席财务官Meghan Frank和总裁兼首席商务官André Maestrini。&lt;/p&gt;
+
+&lt;p&gt;而新任CEO &lt;strong&gt;Heidi O’Neill&lt;/strong&gt; 将在9月8日正式到岗，也就是财报发布后的第三个工作日。Maestrini在新闻稿中说：”我们期待下周迎接即将上任的CEO Heidi O’Neill，与她一同开启公司激动人心的新篇章。”&lt;/p&gt;
+
+&lt;p&gt;从时点上看，这几乎是把最难看的一份财报和最狠的一次指引下调，赶在新CEO上任前一次性出清。这在管理层交接时是常见做法——&lt;strong&gt;把包袱在前任手里卸掉，给新任留出一个更低的业绩基数&lt;/strong&gt;。对投资者来说，这意味着9.48-9.73美元的全年EPS指引可能已经足够保守，但也意味着公司自己承认接下来两个季度会很难看。&lt;/p&gt;
+
+&lt;p&gt;管理层给出的行动方案主要是做减法：门店SKU密度减少约15%、对畅销款追单（全年追货量比去年多约20%）、全年净新开门店从约40家下调到约35家，同时压缩差旅和人员编制等可自由支配开支、加大下半年营销投入。这些动作的细节和分析师的追问，可参见本站另一篇《露露乐蒙2026财年Q2电话会》解读。&lt;/p&gt;
+
+&lt;h1 id=&quot;六总结&quot;&gt;六、总结&lt;/h1&gt;
+
+&lt;p&gt;这份财报可以用一句话概括：&lt;strong&gt;利润数字靠一次性退税撑住了面子，但业务的里子已经出现了系统性问题。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;三条主线值得持续跟踪：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，核心品类能不能回来。&lt;/strong&gt; 瑜伽裤下滑20%是所有问题的根源。管理层说”宽松版型”（away-from-body，即不贴身的款式，如Groove Wide-Leg阔腿裤）反响不错，这是审美周期从”紧身”转向”宽松”的信号。lululemon能不能在新周期里重新做出爆款，决定了它是短期波动还是长期衰退。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，品牌热度能不能修复。&lt;/strong&gt; 管理层反复提到”负面舆论”和”品牌情绪”，并把客流下滑归因于此。这类问题靠打折解决不了，只能靠产品和营销慢慢重建。而重建期里，费用会先涨、利润会先跌。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，新CEO的第一把火烧向哪里。&lt;/strong&gt; Heidi O’Neill接手的是一家营收下滑、费用率恶化、核心品类失灵，但现金充裕、库存健康、资产负债表干净的公司。她有腾挪空间，但市场的耐心已经不多了——股价年内已经跌掉四成以上。&lt;/p&gt;
+
+&lt;p&gt;对普通读者来说，这份财报最有价值的一课或许是：&lt;strong&gt;当一家公司的EPS”大幅超预期”时，先去财报附注里找找那个星号。&lt;/strong&gt; lululemon这次的星号，值0.86美元。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;一手信息：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1397187/000139718726000126/lulu-20260802xex991.htm&quot;&gt;lululemon 2026财年第二财季财报新闻稿（SEC 8-K 附件99.1，2026年9月3日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1397187/000139718726000126/lulu-20260903.htm&quot;&gt;lululemon 2026财年第二财季 8-K 备案（2026年9月3日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1397187/000139718726000077/lulu-20260503xex991.htm&quot;&gt;lululemon 2026财年第一财季财报新闻稿（SEC 8-K 附件99.1，2026年6月4日，用于对比原始指引）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://corporate.lululemon.com/investors&quot;&gt;lululemon 投资者关系页面&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;二手信息（仅用于分析师预期与股价反应）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/coverage/stock-market-today/2026/09/04/stock-market-today-sept-4-lululemon-plummets-17-after-slashing-guidance/&quot;&gt;Motley Fool - Stock Market Today, Sept. 4, 2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.forbes.com/sites/fionariley/2026/09/04/lululemons-stock-sinks-18-after-q2-earnings-and-outlook-cut/&quot;&gt;Forbes - Lululemon’s Stock Sinks 18% After Q2 Earnings And Outlook Cut&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cp24.com/news/money/2026/09/04/lululemon-shares-dive-as-challenges-keep-investors-at-bay-ahead-of-new-ceos-tenure/&quot;&gt;CP24 - Lululemon shares dive as challenges keep investors at bay ahead of new CEO’s tenure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 05 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/05/lululemon_fy2026q2_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/05/lululemon_fy2026q2_earnings/</guid>
+        
+        <category>露露乐蒙</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
         
       </item>
     
@@ -1503,475 +2452,6 @@
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/04/hpe_fy2026q3_earnings/</guid>
         
         <category>慧与</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.09.03</title>
-        <description>&lt;p&gt;今天这几帖凑在一起，像是同一个问题的五种问法：当产出可以被机器承包，责任落在谁头上？学校在讨论该不该让孩子先自己写一遍，公司在讨论上司能不能把评审外包给 agent，法庭在讨论你花掉的六十九美元到底买来了什么。最后一帖看着和 AI 无关，其实问的是同一件事——名义上的所有权和实际能行使的权利，中间差了多远。&lt;/p&gt;
-
-&lt;h2 id=&quot;一纽约市要在八年级前禁掉生成式-ai评论区却整个拐去聊手机&quot;&gt;一、纽约市要在八年级前禁掉生成式 AI，评论区却整个拐去聊手机&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w59a1l/no_ai_until_high_school_nyc_schools_announce/&quot;&gt;No AI until high school: NYC schools announce major classroom technology overhaul&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;报道说纽约市公立学校要做一次课堂技术大调整：从学前班到八年级禁止学生使用生成式 AI 一年，同时限制低龄段的屏幕时间，并给高中生开设 AI 素养课程。有意思的是，这条新闻在 r/technology 冲上热榜之后，评论区几乎没人讨论「禁令好不好」，所有人都直奔一个更土的问题——你打算怎么执行。&lt;/p&gt;
-
-&lt;p&gt;排在最前面的一条给了个很省事的类比：像当年对付抄袭那样对付它就行了，别再和稀泥。紧接着的回复立刻指出这个类比撑不住——抄袭好歹要主动去抄，而 AI 很快会长在每一台设备里，你根本没有一个可以拦截的动作。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“They need to treat AI use in schools the way they treated plagiarism when I was growing up. Stop messing around.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Otherwise-Anxiety815，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w59a1l/no_ai_until_high_school_nyc_schools_announce/p7dk2wm/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Way harder to stop now than it was then. Literally every device will have some form of it in the next few years.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Kryptyx，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w59a1l/no_ai_until_high_school_nyc_schools_announce/p7doc8o/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;于是话题顺势滑到了手机禁令上，而这一段反倒是全帖最有价值的部分，因为出现了两位真在学校里干活的人。一位新泽西的老师说他们今年开学起执行全天手机禁令，手机一早锁进储物柜，目前效果好得惊人；有人追问家长闹起来怎么办，他的回答很实在——这是州法，不归我说了算。另一位在纽约某公立学校园区工作的用户提供了更硬的经验：那种号称能锁住手机的收纳袋他们几年前就放弃了，因为轻易能撬开，改成早上统一收、放学统一还，这个笨办法反而真的管用。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I work at a pubic school campus in NYC that tried using these. They gave up years ago because the pouches are easily broken open. … Last year they started a no phone policy here. Phones are collected from students in the morning and given back at the end of the day. This has actually been working.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/KickBallFever，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w59a1l/no_ai_until_high_school_nyc_schools_announce/p7e7e8r/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我觉得这条讨论跑题跑得很有信息量：一项关于 AI 的教育政策，真正的落地难点根本不在 AI，而在学校有没有一套能执行的纪律，以及背后有没有人替老师扛住家长的压力。国内推「AI 进课堂」或者「AI 别进课堂」时也一样——文件写什么不重要，重要的是那个要在早自习收走三十部手机的人有没有依据、有没有靠山。技术性的巧办法（智能收纳袋）往往输给行政性的笨办法（人工收发），这个规律值得记一下。&lt;/p&gt;
-
-&lt;h2 id=&quot;二拿高分的人越来越多成年人的读写和算术却在往下掉&quot;&gt;二、拿高分的人越来越多，成年人的读写和算术却在往下掉&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w5at03/oc_top_grades_keep_rising_at_us_and_uk_schools/&quot;&gt;[OC] Top grades keep rising at US and UK schools while adult literacy and numeracy test scores fall across the OECD&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一张对照图：美英两国学校里拿最高等级成绩的学生比例逐年上升，而 OECD 各国成年人的读写与算术测评分数同期在下滑。两条线朝着相反方向走，标题基本上把结论摆在了脸上——分数在通胀。&lt;/p&gt;
-
-&lt;p&gt;评论区最扎实的一条来自一位熟悉本地高中的用户，他给出的解释比「大家都变笨了」精细得多：前一半学生其实还是很强，问题出在尾部，差的学生比以往任何时候都差；为了压住成绩差距的可见程度、保住毕业率，荣誉课和 AP 课以外的普通课程被大幅注水。结果是三层同时失真——最差的学生不识字也能毕业，中等生拿到高分，好学生则清一色满分。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The top 50% of students are still strong. The weak students are weaker than ever. … As a result, the awful students pass without knowing how to read, mediocre students get high grades, and good students all get straight A’s.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/anonchurner，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w5at03/oc_top_grades_keep_rising_at_us_and_uk_schools/p7dpsjh/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;底下几条把这个机制补完了。有人一句话点破算术上的不可能：一个班拿 A 的比例从两成涨到六七成，不降标准是做不到的。也有人把它归进这几年到处都在说的 K 形分化——同一件事上，一部分人持续变好，另一部分人持续变差，平均数于是彻底失去意义。还有当过学生也当过老师的人回忆，非 AP 的普通班在很多学校早就成了「白天看管孩子的地方」。需要说明的是，这个帖子后半程滑向了智力遗传之类的争论，那部分吵得凶但没什么信息量。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It’s doubtful that you can go from 20% of students having A’s in any given class to 60-70% of them without lowering standards.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Puzzleheaded_Fold466，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w5at03/oc_top_grades_keep_rising_at_us_and_uk_schools/p7hmmud/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;对中文读者的启发大概在这里：当一个评价指标同时承担「衡量水平」和「向上汇报业绩」两个功能，它一定会被推向后者。毕业率、优秀率、通过率都是这个结构，AI 时代的各种「AI 使用率」「提效百分比」也是同一个结构。真正能反映水平的信号，往往是那些没人有动机去优化的外部测评——就像图里那条一直在跌的成人测评线。&lt;/p&gt;
-
-&lt;h2 id=&quot;三tech-lead-把代码评审外包给了机器人两个-llm-在-pr-里空转&quot;&gt;三、Tech lead 把代码评审外包给了机器人，两个 LLM 在 PR 里空转&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w5ifk8/how_to_deal_with_tech_lead_that_uses_ai_for_pr/&quot;&gt;How to deal with tech lead that uses AI for PR reviews&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;发帖人所在的团队几个月前换了 tech lead。新来的这位什么都用 AI：月初几天就烧掉两千美元的 token 额度，自己没写出什么东西，却停止了人工评审，专门搭了个 agent 替他审全团队的 PR——而团队本来就已经有一个 PR 机器人了。他给一个只加两列字段的 schema 改动留下了十段文字，还要求每条都必须回复，不回复就不放行。发帖人形容那些评论啰嗦、有时干脆是编的，最要命的是他因此再也拿不到任何真正的评审意见。&lt;/p&gt;
-
-&lt;p&gt;评论区最先冒出来的是玩笑：那就让你的 agent 去跟他的 agent 谈。发帖人回复说他真这么干过，结果两个 LLM 陷进了一个毫无意义的循环——这大概是今天热榜上最精准的一句现场报告。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“This is what I did. Except both LLMs end up running in a pointless loop.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Ok-Most6656（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w5ifk8/how_to_deal_with_tech_lead_that_uses_ai_for_pr/p7fc0et/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;严肃的回应集中在两个方向。一是定性：有人指出这本质上是把自己的工作转嫁给了别人，用 AI 提高自己的效率没问题，但不能拿它把活儿推过来；也有人点出真正的伤害不在噪音而在阻塞——AI 在评审里经常标记出根本不是问题、或者早就被讨论过并否掉的东西，而这些评论现在拦着 PR 不让合。二是制度：有团队的做法是写死一条政策，无论是否使用 AI，人对自己交付的东西负全责，提交者要能解释自己的代码，评审者也要能解释自己的意见。还有人给了很具体的战术——把机器人跑偏的评审和为此浪费的工时记录下来，直接摆到有权管他的人面前。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“it effectively forces you to do their job. If you’re going to use ai as a tool for efficiency fine, but don’t use it to shift your work to me.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/morosis1982，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w5ifk8/how_to_deal_with_tech_lead_that_uses_ai_for_pr/p7ff52j/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“We have a policy that people are responsible for everything they do, whether or not they use AI. … People need to understand the code they commit, and reviewers must also be able to understand their changes.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/speedoinfraction，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w5ifk8/how_to_deal_with_tech_lead_that_uses_ai_for_pr/p7fcm5f/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我的看法是，机器评审本身没错，错在它被塞进了一个带阻塞权的位置。AI 评审最合适的形态是「建议」——可以忽略、成本自负；一旦它获得了否决权，而按下否决键的人自己没读过内容，责任就凭空蒸发了：作者要向一个没有作者的意见解释自己。国内团队接入 AI code review 时，最该先定的不是模型和提示词，而是那条政策——机器人的意见默认不阻塞合并，只有具名的人可以 request changes，且这个人必须能用自己的话说出问题在哪。&lt;/p&gt;
-
-&lt;h2 id=&quot;四不想用-ai还该不该读统计学&quot;&gt;四、不想用 AI，还该不该读统计学&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1w5qbvq/q_is_it_naive_to_earn_a_degree_in_statistics_if_i/&quot;&gt;[Q] Is it naive to earn a degree in Statistics if I have next to no interest in AI?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一位大二大三之间的学生上完第一节正经统计课就慌了：教授自我介绍五分钟就说自己喜欢 AI，虽然不强制但明显鼓励用 LLM，教学大纲里还引了一句「我期待你们写出好代码，因为现在重力变小了」。这位学生出于环境和人力代价的顾虑一直刻意不用生成式 AI，于是发帖问：我是不是选错了专业，还是我反应过度了。&lt;/p&gt;
-
-&lt;p&gt;回帖的整体态度出乎意料地不焦虑。多位从业者指出统计学有一大片和 AI 毫无关系的地盘——实验设计、因果推断、计量经济，而且统计在 AI 出现之前就存在，之后也会继续存在。有人干脆把逻辑倒过来：对 AI 没兴趣才更该读统计，对 AI 有兴趣的那位应该去读计算机。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“An interest in AI is not essential to doing statistics. People did it before AI, people will continue to do it after.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/&lt;strong&gt;compactsupport&lt;/strong&gt;，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1w5qbvq/q_is_it_naive_to_earn_a_degree_in_statistics_if_i/p7h5wwv/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;不过帖子里也有相当直接的提醒：产业界基本会默认你用 AI 写代码，彻底不碰这项技术等于把钱留在桌上。最漂亮的一条调和来自一个计算器的比喻——我不急着用计算器，但也绝不会拒绝掏出来用；只是我用计算器来做数学，而不是用它来做「按计算器」这件事。另一条则给出了这个专业的长期位置：迟早人们会发现，需要雇一位统计学家来评估 AI 到底做了什么、以及它说的那个意思是否成立。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I’ve always treated ai and coding like a calculator. … But even then I use my calculator to do math—not to do calculator-ing.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Unalina，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1w5qbvq/q_is_it_naive_to_earn_a_degree_in_statistics_if_i/p7h9mvu/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It will soon be apparent that you need to hire a statistician to evaluate what the AI did and what the AI says it means.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/ArgumentBoy，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1w5qbvq/q_is_it_naive_to_earn_a_degree_in_statistics_if_i/p7h7agm/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这帖值得国内正在填志愿或者考虑转专业的人读一读。它给出的其实是一条判断标准：一个专业会不会被工具冲垮，要看它的核心能力是「产出结果」还是「判断结果是否成立」。前者正在快速贬值，后者反而因为产出变多而更稀缺。统计学、审计、临床试验设计都属于后者。至于那位学生的纠结，最务实的答案大概是——把它当计算器，别把它当大脑，也别赌气不碰。&lt;/p&gt;
-
-&lt;h2 id=&quot;五索尼说理性的消费者不会以为自己买下了那款游戏&quot;&gt;五、索尼说：理性的消费者不会以为自己买下了那款游戏&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w5drge/sony_argues_reasonable_consumers_would_not_be/&quot;&gt;Sony argues ‘reasonable consumers would not be misled’ into believing they own digital games in class action motion&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;围绕 PlayStation 商店那颗「购买」按钮的集体诉讼里，索尼提交了驳回动议，核心主张是理性消费者不会被误导、不会真以为自己拥有了这些数字游戏。报道说这案子可能根本走不到法庭上。&lt;/p&gt;
-
-&lt;p&gt;评论区拎出来的那段论证确实离谱：索尼指出原告之一在另一位原告买下同一款游戏十一天后也买了它，因此如果购买真的构成拥有，第二笔交易就不可能发生。这个推理马上被网友用一颗番茄接管了——我买了一颗番茄，所以现在地球上唯一的番茄归我了，这对所有人类来说都是常识吧。整条玩笑串挺欢乐，但它精确指出了偷换概念的位置：把「一份拷贝」偷换成了「那个唯一的东西」。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Sony highlights that Heycock bought Resident Evil Requiem for $69.99 on February 25, 2026, 11 days after co-plaintiff Jason Mendoza bought the same game, and argues that if a purchase conveyed ownership, Mendoza would have owned the title and Heycock’s transaction couldn’t have happened.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/invyros，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w5drge/sony_argues_reasonable_consumers_would_not_be/p7e8vzm/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;玩笑之外，有几条把诉求说得很清楚。有人指出光盘时代的产权结构本来是自洽的：盘本身就是许可证，可以转让所有权，而你买一份并不妨碍别人再买一份。也有人明确划出消费者真正想要的边界——没人在争复制和分发的权利，大家要的是无论发行方怎么变都还能访问自己那份拷贝，以及像卖二手实体盘那样把它转手；而索尼正在停产光盘，这两条路等于同时被堵死。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The disc itself was the licence. You could transfer ownership. Buying a copy did not stop someone else buying a copy.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/ash_ninetyone，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w5drge/sony_argues_reasonable_consumers_would_not_be/p7ex35j/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“People are asking for the rights to access their copy regardless of the distributor … and the right to resell as if it were a physical copy.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/ladala99，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w5drge/sony_argues_reasonable_consumers_would_not_be/p7fbfa5/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这事对国内用户同样不遥远：音乐、电子书、网课、游戏，我们点的每一颗「购买」按钮背后基本都是一份可撤销的许可，而且通常连许可期限都没写清楚。真正该盯的不是索尼这次输赢，而是那个更朴素的判断——如果你付的钱不能换来「服务停了我还留着」和「不想要了能转手」这两条里的任何一条，那么这笔支出更接近租金，只是它被印上了「购买」两个字。&lt;/p&gt;
-
-&lt;p&gt;今天就到这里。五帖串起来，其实是同一句提醒：工具可以承包产出，但承包不了责任；而所有权这种东西，写在按钮上不算数，能在对方不配合时还行使得了才算数。&lt;/p&gt;
-</description>
-        <pubDate>Thu, 03 Sep 2026 09:30:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/03/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/03/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.09.03</title>
-        <description>&lt;h2 id=&quot;112-google-发布-gemini-38-flash并以-fairwind-分层开放网络安全版本&quot;&gt;1/12 Google 发布 Gemini 3.8 Flash，并以 Fairwind 分层开放网络安全版本&lt;/h2&gt;
-&lt;p&gt;Gemini 3.8 Flash 保持 3.7 的速度与首发价，每百万输入/输出 token 为 0.75/3.75 美元，Google 自报 DeepSWE v1.1 得 73.7%、HLE-Verified 得 54.9%。同底座的 Flash Cyber 面向漏洞发现与修复，自报 CyberGym 86.2%、CWE-Bench 47.2%，因防护更宽松仅向政府、关键基础设施和可信维护者开放。早期用户同时称其私有数据分析集不及 3.7，Ethan Mollick 也认为它是优秀 Flash 而非完整前沿模型；这些相反信号均缺少统一独立评测。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GoogleDeepMind/status/2095175498967949359&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;/a&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@sundarpichai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/sundarpichai/status/2095181765082292334&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@sundarpichai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/sundarpichai/status/2095184464800526655&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@sundarpichai 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2095203002210807816&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/bindureddy/status/2095253066023112817&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@bindureddy&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;212-meta-推出-muse-spark-13强化多工作流协作与行动校准&quot;&gt;2/12 Meta 推出 Muse Spark 1.3，强化多工作流协作与行动校准&lt;/h2&gt;
-&lt;p&gt;Muse Spark 1.3 面向长时 Agent 和编码任务，可在单个长线程维护多项工作流，遇到含糊需求会提问、受阻会求助，并在不可逆操作前确认。Meta 内部比较称其比 1.2 少约 20% 工具调用和 25% token，同时加强提示注入抵抗与对自身局限的校准；这些数字尚无公开独立复现。模型已在 Muse Code 和 Meta Model API 上线，最高推理模式仍等待附加安全测试，开放权重和更大模型仅为后续预告。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AIatMeta&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2095234385129963666&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2095234387273269349&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;312-cursor-让-cloud-agent-在客户基础设施执行但推理与-transcript-仍留在云端&quot;&gt;3/12 Cursor 让 Cloud Agent 在客户基础设施执行，但推理与 transcript 仍留在云端&lt;/h2&gt;
-&lt;p&gt;Self-Hosted Machines 允许 Cursor Cloud Agent 在企业笔记本、VM 或弹性 worker pool 中编辑代码和运行命令，从而直接访问内网服务、GPU、Mac/iOS 构建链。worker 通过出站 HTTPS 连接领取工具调用，池可按队列扩缩并由 AWS Lambda、Cloudflare、Modal、Vercel 等 sandbox 承载。安全边界并非全本地：推理、规划和 Agent 循环仍在 Cursor 云端，工具输出可能包含代码，transcript 也可能被处理和保存；Cursor 称 Agent 已产生其内部合并 PR 的 60% 以上。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2095257412781396114&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2095257414471655693&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;412-qwen38-max-0902-上线保留-24t-参数与百万上下文并加强长时编码&quot;&gt;4/12 Qwen3.8-Max-0902 上线，保留 2.4T 参数与百万上下文并加强长时编码&lt;/h2&gt;
-&lt;p&gt;阿里发布 Qwen3.8-Max 的 0902 快照，模型页称其在工程级编码、协作 Agent、多工具编排、图表与文档理解上继续后训练，保留 2.4T 总参数、约 95B 激活参数与 1M 上下文。QwenCloud API 定价为每百万输入/输出 token 2/6 美元，显式缓存读取 0.17 美元；官方又称其 CodeArena WebDev 分数由 1669 升至 1691，并处于每百万 token 5 美元的 Pareto 前沿。排行榜成绩和“更强”结论均为厂商发布口径，尚待任务级第三方复验。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2094968708288680276&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2094976556494209206&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2094982928371794077&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;512-perplexity-开源-lily为-apple-silicon-上单一-qwen-检查点重写推理路径&quot;&gt;5/12 Perplexity 开源 Lily，为 Apple silicon 上单一 Qwen 检查点重写推理路径&lt;/h2&gt;
-&lt;p&gt;Lily 是 Rust/Metal 本地推理服务器，专门支持 M5 及更新芯片上的 Qwen3.6-35B-A3B MLX 4-bit 检查点，并暴露精简 OpenAI Chat Completions API。它分别优化 prefill 的权重复用和 decode 的内存带宽，在 M5 Max、十种 prompt 与 decode 上下文的厂商测试中，平均吞吐较 MLX-LM 高 1.23 倍和 1.35 倍。首版限制明确：仅贪心解码，不支持工具、流式、多模态或其他检查点；仓库公开测量契约和复现脚本，结论不能外推到通用模型运行时。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@perplexity_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2095241544383226274&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2095241592399606119&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2095241604407996468&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;612-llamaindex-与-kaggle-推出-extractbench直接测-agent-从复杂企业文档抽结构化数据&quot;&gt;6/12 LlamaIndex 与 Kaggle 推出 ExtractBench，直接测 Agent 从复杂企业文档抽结构化数据&lt;/h2&gt;
-&lt;p&gt;ExtractBench 覆盖 370 份文档、4,869 页、八个行业和 67 类文件，包含长记录列表、扫描、手写与复杂表格，并以冻结 schema 和确定性规则比较 14 套系统。LlamaIndex 报告长文档上 Gemini 3.5 Flash 由短文档 87.9% 降至 27.9%，其 Agentic Plus 保持 94.4%；总体 Codex GPT-5.5 为 93.5%、每页 27.8 美分，Agentic Plus 为 95.6%、每页 8.1 美分。代码、论文和榜单已开放，但发布方同时是参评供应商，结果仍需独立复验。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/llama_index/status/2095180282538135724&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@llama_index&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;712-ai21-用训练型-8b-验证器逼近前沿模型把-agent-搜索瓶颈从生成转向选择&quot;&gt;7/12 AI21 用训练型 8B 验证器逼近前沿模型，把 Agent 搜索瓶颈从生成转向选择&lt;/h2&gt;
-&lt;p&gt;AI21 先让多个模型生成候选，再由独立验证器重新搜索、否决错误答案，只在通过项中聚合。约 6,000 条平衡样本经 SFT+RL 训练后，Qwen3-8B 验证器在 FACTS-Search 100 题样本得 92.9，接近 Claude Opus 验证器 93.4，官方估算成本低 3.2 倍；全开源生成池由多数投票 60.1 提至 77.0。跨 benchmark 时未经适配会误拒正确候选，且实验受小样本、自动评分噪声、闭源蒸馏和额外延迟限制。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AI21Labs/status/2095137046717243484&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AI21Labs&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;812-equinixnvidia-与-together-ai-建立分布式开放模型推理网络&quot;&gt;8/12 Equinix、NVIDIA 与 Together AI 建立分布式开放模型推理网络&lt;/h2&gt;
-&lt;p&gt;Equinix Inference Exchange 将 NVIDIA 企业参考架构、Together AI 支持 200 多个开放模型的平台与 Equinix 全球数据中心/Fabric 连接组合起来，面向靠近用户、数据和应用的低延迟推理。方案同时支持多租户与专属单租户环境，Equinix 自报覆盖 280 多座数据中心、77 个都市圈和 230 个云接入点。当前公告重点是架构与合作范围，未披露首批城市、可用日期、容量或真实时延，因此“降低首 token 时间”和成本效率仍属于待交付目标。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/togethercompute/status/2095214648991842690&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;912-runway-发布-dev-mcp让编码-agent-直接管理生成式媒体平台&quot;&gt;9/12 Runway 发布 Dev MCP，让编码 Agent 直接管理生成式媒体平台&lt;/h2&gt;
-&lt;p&gt;Runway Dev MCP 通过 OAuth 把开发者门户账号接入 Cursor、Claude Code、Codex 等客户端，可查任务、管理 Model Router、读取文档并辅助调试集成，无需把 API key 写进 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mcp.json&lt;/code&gt;。官方特别区分两类服务：本次 Dev MCP 管理开发者平台账号，既有 generation MCP 则从聊天中直接生成媒体。工具代表媒体 API 正把控制面交给编码 Agent，但账号权限随客户端会话开放，团队仍需限制 OAuth scope、确认高影响操作并审计任务和费用变更。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/runwayml/status/2095159754414813249&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@runwayml&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1012-databricks-建立-devhub并把-gemini-38-flash-接入-lakehouse-治理层&quot;&gt;10/12 Databricks 建立 DevHub，并把 Gemini 3.8 Flash 接入 Lakehouse 治理层&lt;/h2&gt;
-&lt;p&gt;Databricks 推出 DevHub，集中提供基于 Databricks Apps、Lakebase 与 Agent Bricks 的模板和分步指南；同日又宣布 Gemini 3.8 Flash 可在 Lakehouse 数据上调用，并通过 Unity Gateway 统一治理、监控和路由。公司称该模型在内部 OfficeQA Pro 文档解析 benchmark 领先，但未公开完整任务、对照和成本。此次更新的实质是把开发入口、模型访问与企业数据控制收进同一平台，而不是证明模型在所有文档场景都占优。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/databricks/status/2095145674538897442&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@databricks 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/databricks/status/2095184613165404324&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@databricks 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1112-replit-为新项目默认开启产品分析并让-agent-推荐自定义指标&quot;&gt;11/12 Replit 为新项目默认开启产品分析，并让 Agent 推荐自定义指标&lt;/h2&gt;
-&lt;p&gt;Replit 已为所有新发布项目默认启用 Analytics，提供用户参与数据，并允许开发者添加自定义事件；现有项目需在 Publishing 设置中手动开启。开发者还能直接要求 Replit Agent 建议适合项目的自定义指标，把“生成应用”延伸到上线后的反馈采集与迭代。官方推文未说明数据保留、采样、隐私地区、指标数量或现有项目迁移方式，因此企业使用前仍需核对遥测范围、用户同意和数据出口配置。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Replit&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/Replit/status/2095314533548167240&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Replit 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/Replit/status/2095314828839760047&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Replit 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/Replit/status/2095314921005404225&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Replit 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1212-hugging-face-事件的后续争论转向是-agent-新风险还是实验安全工程失职&quot;&gt;12/12 Hugging Face 事件的后续争论转向：是 Agent 新风险，还是实验安全工程失职&lt;/h2&gt;
-&lt;p&gt;围绕此前事件，Timnit Gebru 认为模型按训练目标行动并不等于“自行协调”，关键是实验环境未正确隔离、仍有互联网访问且缺少基本监控，应把责任归于公司安全工程。Ethan Mollick 则借复杂系统理论指出，系统通常在缺陷未同时对齐时仍能运作，而 Agent 会在完成目标过程中施压并找齐这些缺陷，即使没有恶意攻击者也可能形成级联。两种解释并不互斥：前者强调可避免的治理失误，后者强调自动化会放大组合性风险；目前都属于事件解释而非新实验证据。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@timnitGebru&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/timnitGebru/status/2095005435203842484&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@timnitGebru 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/timnitGebru/status/2095036132379746326&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@timnitGebru 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2095150992954466517&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2095153210537426975&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;gemini-38用同一底座分出大众-flash-与受控网络安全能力&quot;&gt;Gemini 3.8：用同一底座分出大众 Flash 与受控网络安全能力&lt;/h3&gt;
-&lt;p&gt;3.8 Flash 与 Flash Cyber 共享基础能力，并用长时 Agent 循环反复评估和修正模型。大众版以同价升级编码、专业推理和工具调用，但更高 effort 可能增加 token；Cyber 版则优先漏洞发现与修复而非利用开发，Google 报告其在 CyberGym、CWE-Bench、Chrome 真实缺陷和内部多语言代码集上提升。产品边界比单一 benchmark 更重要：普通 3.8 按 Frontier Safety Framework 维持网络攻击与 CBRN 防护，Cyber 采用更宽松策略，只经 Fairwind 向政府、关键基础设施和可信维护者开放。Google 的 2.6 倍补丁、70% 发现率及合作方成本/召回优势尚未由统一第三方复现，当天私有评测的负面反馈也说明公开榜单不能替代真实负载验证。
-&lt;a href=&quot;https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;muse-spark-13把提问求助与确认训练进长时-agent-行为&quot;&gt;Muse Spark 1.3：把提问、求助与确认训练进长时 Agent 行为&lt;/h3&gt;
-&lt;p&gt;Meta 的升级不只追求完成率，而是显式训练协作边界：需求含糊时询问，遇到阻塞时向用户求助，执行不可逆动作前确认，并在被打断或多任务交织时把新提示路由回正确工作流。模型还会主动收集上下文、修补计划缺口，并更准确承认不知道或做不到，目标是减少长任务中的“声称完成”。编码侧约 20% 更少工具调用和 25% 更少 token 来自 Meta 工程师内部比较，缺少公开 harness；最高推理模式仍在补做安全测试。1.3 已上线，但开放权重和更大模型只有路线预告，因此可验证的当前变化是交互与执行校准，而不是已经兑现的完整开放生态。
-&lt;a href=&quot;https://research.meta.ai/blog/introducing-muse-spark-1-3&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;cursor-self-hosted-machines执行环境回到企业agent-控制面仍在供应商云端&quot;&gt;Cursor Self-Hosted Machines：执行环境回到企业，Agent 控制面仍在供应商云端&lt;/h3&gt;
-&lt;p&gt;每台 worker 用 Cursor CLI 建立出站 HTTPS 长连接，接收云端 Agent 的工具调用，在本地代码副本上编辑和运行命令，再把结果送回下一轮推理。企业可用单机或跨仓库共享的 worker pool，由队列触发扩容、超时释放或快照恢复，并接入现有 sandbox 厂商；Linux 与 Mac 还可提供浏览器控制。该架构解决内网、专用硬件和特殊构建链访问，却不等于完全私有：推理、规划继续由 Cursor 托管，返回内容可能含代码，transcript 也可能被处理保存。部署评估应分别审计计算位置、数据回传、凭据、网络出口与会话留存，而不能只看“self-hosted”标签。
-&lt;a href=&quot;https://cursor.com/blog/self-hosted-machines&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;lily以极窄兼容面换取-apple-silicon-推理路径的针对性优化&quot;&gt;Lily：以极窄兼容面换取 Apple silicon 推理路径的针对性优化&lt;/h3&gt;
-&lt;p&gt;Lily 只接受固定版本的 Qwen3.6-35B-A3B MLX 4-bit 权重，加载时校验架构与量化布局；服务端只实现文本消息、非流式输出、贪心解码和可选 prefix cache key。它把 prefill 视为批量、可复用权重的计算问题，把逐 token decode 视为受内存带宽约束的问题，并直接映射到 Metal。两条目 LRU 只在旧 token 序列严格为新 prompt 前缀时复用状态，避免仅凭 cache key 错配。1.23 倍与 1.35 倍吞吐来自单一 M5 Max/模型组合，优势不能外推，但仓库提供冻结检查点、测量契约和失败关闭矩阵，使这一专用优化比黑箱性能宣传更容易复验。
-&lt;a href=&quot;https://github.com/perplexityai/pplx-garden/tree/main/lily&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;extractbench文档抽取评测开始同时追踪长文档完整性定位能力与每页成本&quot;&gt;ExtractBench：文档抽取评测开始同时追踪长文档完整性、定位能力与每页成本&lt;/h3&gt;
-&lt;p&gt;传统 OCR/抽取 benchmark 多使用短而整洁的数字文档，容易掩盖页十之后截断记录、跨页表格错列、空字段臆造和手写遗漏。ExtractBench 用统一 schema 和确定性规则覆盖 4,869 页真实企业文件，并区分感知、表格、长度、领域等失败类型。官方结果显示单次 VLM 在长记录上急剧退化，分段、回查源页与低置信重试的 Agent pipeline 更稳定；编码 Agent 接近其准确率但单页成本更高。另一个关键差异是字段溯源：LlamaIndex 称其产品是参评系统中唯一为每个值返回 word-level bounding box 的方案。由于评测由参评供应商发起，开放数据、代码与 Kaggle 提交只是必要条件，仍需独立运行确认成本和产品优势。
-&lt;a href=&quot;https://www.llamaindex.ai/blog/llamaindex-and-kaggle-launch-a-document-extraction-leaderboard-for-ai-agents&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;ai21-验证器正确候选已经存在时系统收益来自独立否决而非再生成一次&quot;&gt;AI21 验证器：正确候选已经存在时，系统收益来自独立否决而非再生成一次&lt;/h3&gt;
-&lt;p&gt;AI21 固定生成候选池，让验证器针对每个候选重新检索并输出 VALID/NOT_VALID，再在通过项中投票。普通 Qwen3-8B 几乎无法复制 Opus 的验证增益；约 6,000 条平衡样本经过 SFT 教会搜索、再用可验证二元奖励做 RL，才同时保留工具使用和清晰判决。团队还发现 RL 冷启动会利用类别不平衡而停止搜索，SFT 单独使用又会稀释最终判决 token。最终 92.9 对 93.4 的结果说明专门训练的小验证器可接近昂贵模型，但外域实验暴露召回风险：它曾拒绝 27% 可解问题的全部正确候选，少量域内 SFT 后才降至 4%。可靠部署必须同时监控验证精度、召回上限与聚合 headroom。
-&lt;a href=&quot;https://www.ai21.com/blog/you-need-a-verifier/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 03 Sep 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/09/03/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/09/03/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>博通2026财年Q3电话会——陈福阳给出2027财年AI收入1150亿美元展望，并首次点名Anthropic和OpenAI的部署规模</title>
-        <description>&lt;p&gt;美东时间2026年9月2日下午2点（北京时间9月3日凌晨5点），&lt;a href=&quot;https://investors.broadcom.com/&quot;&gt;博通&lt;/a&gt;在发布2026财年三季报后召开业绩电话会。出席的管理层是总裁兼CEO &lt;strong&gt;陈福阳&lt;/strong&gt;（Hock Tan）、首席财务官 &lt;strong&gt;Amie Thuener&lt;/strong&gt;，以及半导体解决方案集团总裁 &lt;strong&gt;Charlie Kawwas&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;财报本身已经足够惊人（营收296亿美元同比增长86%，AI收入167亿美元同比增长221%，详见&lt;a href=&quot;/blog/2026/09/03/broadcom_fy2026q3_earnings/&quot;&gt;财报解读&lt;/a&gt;）。但这场电话会给出的信息，量级还要更大一档。&lt;/p&gt;
-
-&lt;p&gt;陈福阳在准备好的发言里，把博通未来两年的AI收入直接说了出来，还罕见地把每个大客户的部署规模逐个点名。这在以「不谈客户名字」著称的博通身上，是相当反常的。&lt;/p&gt;
-
-&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-两年内ai收入要翻两番&quot;&gt;1. 两年内AI收入要翻两番&lt;/h2&gt;
-
-&lt;p&gt;这是全场最重的一句话。陈福阳说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「在2027年，我们已经锁定了供应，可以让AI收入再翻一倍，达到约1150亿美元。」&lt;/p&gt;
-
-  &lt;p&gt;（In 2027, we have secured the supply to again double AI revenue to approximately $115 billion.）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;对2028财年，他给出：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们预计2028财年AI半导体收入将再翻一倍，达到2300亿美元。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;先感受一下这个数字的量级。博通2026财年前三季度总营收710.89亿美元，加上四季度指引的约348亿美元，全财年总营收约&lt;strong&gt;1059亿美元&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;也就是说，管理层认为2027财年光是AI半导体一项业务的收入，就会超过2026财年整个公司的总营收。&lt;/strong&gt; 而2028财年的2300亿美元，将超过目前全球任何一家半导体公司的年营收规模。&lt;/p&gt;
-
-&lt;p&gt;按此推算，2026财年AI收入约为575亿美元（1150亿的一半），与三、四季度合计384亿美元的口径基本吻合。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-六家xpu客户逐个点名&quot;&gt;2. 六家XPU客户，逐个点名&lt;/h2&gt;
-
-&lt;p&gt;陈福阳说「我们的六家XPU客户正在加速采用定制加速器」，并给出了其中四家的部署细节：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;客户&lt;/th&gt;
-      &lt;th&gt;披露的部署计划&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;谷歌&lt;/td&gt;
-      &lt;td&gt;未来几年每年交付「数百亿美元」量级的TPU，TPU v8i正在量产爬坡&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Anthropic&lt;/td&gt;
-      &lt;td&gt;2026年部署1吉瓦Ironwood；2027年再部署5吉瓦TPU v8i；2028年新增10吉瓦&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;OpenAI&lt;/td&gt;
-      &lt;td&gt;代号Jalapeño的芯片2027年计划部署1.3吉瓦；到2028年Jalapeño及其后继代合计超过5吉瓦&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Meta&lt;/td&gt;
-      &lt;td&gt;MTIA三代产品持续到2027年，到2028年合计可见3吉瓦部署&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;小科普：这里的「吉瓦」（GW）是功率单位，1吉瓦大约相当于一座大型核电站的发电能力。AI行业现在习惯用「多少吉瓦」来衡量数据中心算力集群的规模，因为电力已经成了比芯片更稀缺的资源。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;陈福阳还提到，&lt;strong&gt;Anthropic有望在2027年成为博通最大的XPU客户，并在2028年保持这一地位。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这个信息量很大。一年前市场普遍认为博通的AI业务就是「谷歌TPU + Meta MTIA」，现在两家模型公司（Anthropic和OpenAI）直接排到了前列。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-每吉瓦对应200亿到300亿美元收入&quot;&gt;3. 每吉瓦对应200亿到300亿美元收入&lt;/h2&gt;
-
-&lt;p&gt;这是理解上面那些吉瓦数字的钥匙。回答Bernstein分析师Stacy Rasgon提问时，陈福阳说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们认为每吉瓦对应的博通产品价值应该保持在200亿到300亿美元的区间，即使每一代芯片都变得更强、更贵。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;逻辑是：新一代芯片更强也更贵，但单颗功耗也更高，所以同样一吉瓦里能装的芯片数量反而更少，一来一去，每吉瓦的「博通含量」大致稳定。&lt;/p&gt;
-
-&lt;h2 id=&quot;4-财务细节&quot;&gt;4. 财务细节&lt;/h2&gt;
-
-&lt;p&gt;CFO Amie Thuener补充了几个财报里没有单列的数字：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;半导体部门毛利率约76%&lt;/strong&gt;，部门经营利润率61%，同比提升440个基点&lt;/li&gt;
-  &lt;li&gt;基础设施软件收入87.5亿美元，同比增长29%&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;四季度资本开支预计14亿美元&lt;/strong&gt;，用于扩产（三季度仅5.32亿美元，环比接近翻三倍）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;资本开支从5亿跳到14亿，是博通历史上罕见的动作。这家公司一向是「轻资产」代表——设计芯片、外包制造。现在它开始自己往产能上砸钱了。&lt;/p&gt;
-
-&lt;h1 id=&quot;二分析师问答中最有信息量的部分&quot;&gt;二、分析师问答中最有信息量的部分&lt;/h1&gt;
-
-&lt;h2 id=&quot;q1指引是不是太保守了瓶颈到底在哪joseph-moore摩根士丹利&quot;&gt;Q1：指引是不是太保守了？瓶颈到底在哪？（Joseph Moore，摩根士丹利）&lt;/h2&gt;
-
-&lt;p&gt;陈福阳的回答很直接：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们努力保守一些……就需求而言，我们可以出货得多得多。问题在于，即使我们把芯片发出去了，它们能不能被及时部署起来。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;翻译成大白话：芯片不是问题，数据中心盖不盖得完才是问题。&lt;/strong&gt; 制约博通的不是订单，也不是产能，而是客户那边的机房、电力、冷却设施能不能按时就位。&lt;/p&gt;
-
-&lt;p&gt;这句话解释了1150亿美元这个数字的性质——它不是「我们最多能卖这么多」，而是「我们估计客户最多能装这么多」。&lt;/p&gt;
-
-&lt;h2 id=&quot;q2基板供应和新加坡产能怎么办blayne-curtis杰富瑞&quot;&gt;Q2：基板供应和新加坡产能怎么办？（Blayne Curtis，杰富瑞）&lt;/h2&gt;
-
-&lt;p&gt;陈福阳回应：&lt;strong&gt;博通将从2027财年开始启用其新加坡工厂生产基板&lt;/strong&gt;，以缓解供应瓶颈。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;小科普：基板（substrate）是芯片和电路板之间的「转接层」，先进封装的关键材料之一。过去两年AI芯片的产能瓶颈很多时候不在晶圆，而在基板和CoWoS这类封装环节。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这与前面14亿美元的资本开支指引对上了——博通在为2027年的1150亿美元提前铺路。&lt;/p&gt;
-
-&lt;h2 id=&quot;q3tomahawk-6和tomahawk-ultra卖得怎么样harlan-sur摩根大通&quot;&gt;Q3：Tomahawk 6和Tomahawk Ultra卖得怎么样？（Harlan Sur，摩根大通）&lt;/h2&gt;
-
-&lt;p&gt;半导体业务总裁Charlie Kawwas回答：&lt;strong&gt;Tomahawk 6已在所有AI超大规模客户处部署&lt;/strong&gt;；新的Tomahawk Ultra面向「scale-up」低延迟以太网场景，采用速度「超出预期」。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;小科普：AI集群的连接分两层——scale-up是一个机柜内芯片之间的高速互联（英伟达用的是NVLink），scale-out是机柜与机柜之间的连接（通常用以太网）。博通此前主导scale-out，Tomahawk Ultra是它第一次用以太网正面进攻scale-up这块英伟达的腹地。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;后来Barclays的Tom O’Malley追问Tomahawk Ultra和定制ASIC的搭配率，Kawwas补充：&lt;strong&gt;Tomahawk Ultra在XPU集群和GPU集群里都有部署&lt;/strong&gt;——也就是说，即使客户买的是英伟达GPU，网络部分也可能用博通的芯片。这是博通「两头通吃」的关键。&lt;/p&gt;
-
-&lt;h2 id=&quot;q4这些客户的钱从哪来博通承担多少风险vivek-arya美银&quot;&gt;Q4：这些客户的钱从哪来？博通承担多少风险？（Vivek Arya，美银）&lt;/h2&gt;
-
-&lt;p&gt;这是全场最尖锐的一问，也是本季电话会最重要的信息增量。陈福阳承认：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们只为其中两家客户搭建了融资工具，不是全部。另外四家客户在财务上足够稳健，可以自己出钱……这两家最终也会成为它们自己意义上的超大规模云厂商。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;结合上下文，这「两家」指的就是&lt;strong&gt;Anthropic和OpenAI&lt;/strong&gt;。管理层同时强调，融资安排主要由第三方承销，博通自身只提供「有限的残值担保」（modest residual value guarantees），资产负债表的直接敞口有限。&lt;/p&gt;
-
-&lt;h1 id=&quot;三解读这场电话会真正说了什么&quot;&gt;三、解读：这场电话会真正说了什么&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，博通把自己的估值锚从「财报」换成了「2028年」。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;给出跨越两个财年的具体收入目标，是一件风险很高的事。一旦某一年落空，信任会瞬间崩塌。管理层敢这么做，说明他们对已锁定的供应和订单有相当把握。但这也意味着，从今往后每个季度市场都会拿1150亿和2300亿来对表。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，有一个算术上的张力值得读者留意。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;按陈福阳自己给的「每吉瓦200亿到300亿美元」，光Anthropic在2027年的5吉瓦就对应1000亿到1500亿美元——已经接近甚至超过2027财年1150亿美元的AI收入总额。这两组数字只有在「部署周期跨越多年、收入分期确认」的前提下才能对上。换句话说，&lt;strong&gt;吉瓦数是部署年份，收入是确认年份，两者不能直接相乘。&lt;/strong&gt; 投资者在读这些数字时需要格外小心，不要简单做乘法。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，融资安排是最需要盯住的风险。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;博通给两家模型公司搭建融资工具，本质上是「我卖芯片给你，同时帮你借到买芯片的钱」。这种结构在半导体和电信行业历史上出现过多次，繁荣期一切顺利，一旦下游融资环境收紧，风险会顺着链条传回上游。陈福阳强调敞口有限、由第三方承销，这是对的，但&lt;strong&gt;当你最大的客户是一家尚未盈利、靠融资扩张的模型公司时，客户的信用风险就是你的收入风险。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这也是为什么财报如此炸裂、股价却在盘后下跌3.5%到6%的深层原因之一：市场对「1150亿美元」这个数字的第一反应不是兴奋，而是「这里面有多少是真金白银的订单，有多少是需要先帮客户融到钱才能实现的意向」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第四，非AI业务依然没有声音。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;整场电话会几乎没有讨论传统半导体（WiFi、宽带、机顶盒）和基础设施软件的增长故事。软件收入87.5亿美元、同比增长29%，被一句话带过。&lt;strong&gt;博通已经彻底变成了一只AI股票&lt;/strong&gt;，这既是它今年股价大涨的原因，也是它此后每一次波动都会被放大的原因。&lt;/p&gt;
-
-&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
-
-&lt;p&gt;这场电话会给出的三个关键判断：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;需求不是瓶颈，客户的数据中心建设速度才是。&lt;/strong&gt; 陈福阳说「我们可以出货得多得多」，把限制因素明确指向了外部。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;客户结构发生了根本变化。&lt;/strong&gt; Anthropic将在2027年成为最大XPU客户，模型公司取代了云厂商的位置。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;增长开始需要金融工具来推动。&lt;/strong&gt; 六家XPU客户里有两家需要博通帮忙搭建融资安排，这是这场电话会里最不该被忽略的一句话。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;博通2026财年三季度业绩电话会实录（Investing.com整理版）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-broadcom-tops-q3-2026-estimates-as-ai-sales-surge-93CH-4886849&quot;&gt;https://www.investing.com/news/transcripts/earnings-call-transcript-broadcom-tops-q3-2026-estimates-as-ai-sales-surge-93CH-4886849&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;博通官方新闻稿（SEC 8-K附件99.1，含电话会时间与财务数据）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm&quot;&gt;https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;博通投资者关系页面（电话会录音回放）：&lt;a href=&quot;https://investors.broadcom.com/&quot;&gt;https://investors.broadcom.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Benzinga电话会实录：&lt;a href=&quot;https://www.benzinga.com/news/26/09/61592658/broadcom-q3-2026-earnings-call-transcript&quot;&gt;https://www.benzinga.com/news/26/09/61592658/broadcom-q3-2026-earnings-call-transcript&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;AlphaStreet电话会实录：&lt;a href=&quot;https://news.alphastreet.com/broadcom-inc-avgo-q3-2026-earnings-call-transcript/&quot;&gt;https://news.alphastreet.com/broadcom-inc-avgo-q3-2026-earnings-call-transcript/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（用于股价反应与市场预期）：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;TradingKey：Broadcom Q3 Revenue Rises 86%, Slightly Beating Estimates; Shares Fall Over 6% After Hours&lt;/li&gt;
-  &lt;li&gt;CNBC：Broadcom (AVGO) Q3 earnings report 2026&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;文中管理层引述译自英文实录，关键表述已在两个独立来源之间交叉核对；标注为「推算」的数字为作者根据披露数据计算所得，非公司披露口径。&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 03 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/03/broadcom_fy2026q3_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/03/broadcom_fy2026q3_earnings_call/</guid>
-        
-        <category>博通</category>
         
         <category>大公司数据观察</category>
         

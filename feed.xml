@@ -5,9 +5,154 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Sep 2026 09:50:36 +0800</pubDate>
-    <lastBuildDate>Sun, 06 Sep 2026 09:50:36 +0800</lastBuildDate>
+    <pubDate>Mon, 07 Sep 2026 09:17:31 +0800</pubDate>
+    <lastBuildDate>Mon, 07 Sep 2026 09:17:31 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.09.07</title>
+        <description>&lt;p&gt;今天这五帖凑在一起，讲的其实是同一件事：换掉一样用了很久的旧东西，账该怎么算。CERN 为了不换 2200 台老电脑，把整个操作系统换了；联合国换了一张用了五百年的世界地图，代价是所有人对形状的直觉；肯尼亚有四万人靠替美国学生写作业为生，这个行业被 AI 一次性换掉了；Python 社区花了十几年才做出一个打包委员会，现在开始吵谁该坐在桌边；最后一张看起来无可争议的「工时越来越短」的图，被评论区从统计口径上拆了个底朝天。&lt;/p&gt;
+
+&lt;h2 id=&quot;一cern-把-2200-台机器从红帽系搬去了-debian&quot;&gt;一、CERN 把 2200 台机器从红帽系搬去了 Debian&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w8i64m/cern_is_moving_more_than_2200_specialized/&quot;&gt;CERN is moving more than 2,200 specialized computers from RHEL to Debian&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;事情的起因很技术：新版红帽系发行版把最低 CPU 要求提到了 x86-64-v3，而 CERN 有大量设备跑在十七年以上的老处理器上，装不了新系统。摆在面前的选择是换硬件还是换系统——CERN 选了后者，因为 Debian 13 还支持这些老 CPU。标题读起来像一次发行版之争，实际是一次成本计算。&lt;/p&gt;
+
+&lt;p&gt;评论区最有价值的是把「2200 台电脑」这个数字讲清楚了。那些不是机房里的算力集群，而是散布在整个加速器设施里的工业控制机：每一块磁铁、每一个腔体都需要同步控制、监测和告警，配套一堆定制的 ADC、DAC、时钟板，再加一台小电脑负责远程控制和数据落盘。所以它们不需要快，只需要一直在。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The computers in question are not huge servers that process a lot of data. They are mainly industrial control computers that are dustributed across the entire facility.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/wolfnest，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w8i64m/cern_is_moving_more_than_2200_specialized/p83vnlu/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;理解了这一点，另一条争论就有了意思。有人说二十年的硬件早就该换了，光电费差价就够买新机器；反对的人指出，这类系统的成本大头根本不是硬件，是把上千个控制模块在新平台上重新验证一遍所需要的时间和停机——高能物理现场还牵涉安全认证，有些实时子系统是用精简 C 甚至汇编写的，移植等于重做。还有人补了一句更现实的：加速器上那几十万个控制程序，改一次要人命。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“And how many years to make sure all the control modules, hardware and software works flawlessly on new hardware? People have this obsession about always using the latest and greatest instead of using what works.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Lille7，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w8i64m/cern_is_moving_more_than_2200_specialized/p843mqw/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺带一提，串里还翻出了一段旧账：CERN 当年自己维护过 Scientific Linux，后来转向 CentOS，CentOS Stream 那次变动之后又转去 AlmaLinux，现在再往 Debian 走。有人提到一个很实在的理由——科研要用的软件红帽根本不打包，而 Debian 有七万多个源码包。&lt;/p&gt;
+
+&lt;p&gt;对国内做工业软件和嵌入式的人来说，这帖的启发不在于「Debian 更好」，而在于那句「用能用的东西」。评论区里嘲笑 CERN 抠门的人，多半没算过一个数：在控制系统里，验证成本通常比采购成本高一个数量级，而停机成本可能再高一个数量级。选发行版的时候，支持周期和最低硬件要求这两栏，往往比性能跑分重要得多。&lt;/p&gt;
+
+&lt;h2 id=&quot;二联合国换掉了用了五百年的墨卡托地图&quot;&gt;二、联合国换掉了用了五百年的墨卡托地图&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/1w8wf6a/the_world_map_is_changing_the_un_has_backed/&quot;&gt;The world map is changing: The UN has backed replacing the 500-year-old Mercator projection with the accurate Equal Earth projection&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;联合国正式支持用 Equal Earth 投影作为参考地图，取代墨卡托。理由是老生常谈但确实成立：墨卡托为了保角，把高纬度地区放得很大——非洲被压小，格陵兰被撑到荒谬。Equal Earth 是等积投影，各块陆地的面积比例是对的。&lt;/p&gt;
+
+&lt;p&gt;评论区第一轮先把技术账算清楚：没有不失真的平面地图，只有换一种失真。墨卡托保的是角度和方向，所以它才成了几百年的航海标准，今天的 Google Maps 用的还是 Web Mercator——因为人看地图找路的时候，默认「上就是北」。Equal Earth 换来面积准确，代价是形状被横向挤压，越靠近两极越明显，而且离中央经线越远，经线越斜。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Mercator is also still used on most any maps used for navigation, because when people try to use a map to go somewhere, they generally expect north to always be straight up and east to always be straight left.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/TheDolphinGod，&lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/1w8wf6a/the_world_map_is_changing_the_un_has_backed/p86y5fb/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;但串里最好的一条反驳换了个角度：认知不对称。面积错了是可以脑补修正的——我们每天都在看同一个东西因远近而变大变小，所以你知道格陵兰其实没那么大，就能自动折算；但形状错了没法脑补，你没法一边看地图一边在脑子里把一个国家横向压扁、纵向拉长。也就是说，等积投影修好的是一个人们本来就能修的错，而弄坏的是一个修不了的。还有人替太平洋岛国抱不平：新图上它们更看不见了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If a country is too big, you can just know that and imagine it smaller. That’s easy to do. … But to remember to squish it sideways and lengthen it north-south, that’s weird to imagine.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/LeviAEthan512，&lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/1w8wf6a/the_world_map_is_changing_the_un_has_backed/p86qsgb/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这条思路值得借用到做图表上：所有可视化都是投影，都在保某个量、牺牲另一个量。真正该问的不是「哪种更准」，而是「读图的人会用它做什么判断」。做面积比较就用等积，做导航就用保角，两边都想要，就别做一张图。顺带一提，串里有人注意到新参考图把克里米亚画在了俄罗斯一侧——地图从来不只是几何问题。&lt;/p&gt;
+
+&lt;h2 id=&quot;三四万肯尼亚人替美国学生写了多年作业然后-ai-来了&quot;&gt;三、四万肯尼亚人替美国学生写了多年作业，然后 AI 来了&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w8vs93/kenyans_did_college_students_homework_for_years/&quot;&gt;Kenyans Did College Students’ Homework for Years. Then A.I. Arrived.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;《纽约时报》的报道：肯尼亚一度有数万人以替欧美大学生写论文作业为生，这是一条相当成熟的产业链，直到 ChatGPT 把价格打到接近零。一个靠人力套利存在的行业，被自动化一次性抹平。&lt;/p&gt;
+
+&lt;p&gt;评论区先被那个数字震住了——四万人做这门生意，意味着买方规模大得离谱。有人由此推出一个不太舒服的结论：不少人拿到文凭却什么都不会，是因为他们从来没做过那些作业。而更多人说这不是道德问题而是激励问题：大学早就从「求知的地方」变成了「体面生活的必要凭证」，付钱买的是那张纸，不是那堂课。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Most of them weren’t paying to be taught. They were paying to get a piece of paper that says they were taught.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/synept，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w8vs93/kenyans_did_college_students_homework_for_years/p8627c9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;串里最有信息量的是一位教授现身说法，讲学校这一侧的连锁反应。它不是从「无论如何都让他们过」开始的，而是从「多花点心思帮学生」开始的：要求老师在给不及格之前先联系学生五次以上，要求允许重做作业，行政层反复强调招生和留存的压力——最后就隐性地变成了必须让他们过。与此同时，先修课和分级考试因为被视为对弱势群体不友好而被砍掉，学生基础更差，标准还得继续降。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’m expected to reach out to each student 5+ times before they get an F. I’m expected to let them redo assignments.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/happybara_capybara，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w8vs93/kenyans_did_college_students_homework_for_years/p86gsac/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这帖对国内读者的启发可能在另一层：AI 干掉的不是「教育」，而是「用作业来证明学过」这个中介环节。这个环节其实早就被四万个肯尼亚人证伪了，只不过之前的作弊有价格门槛，看起来还像回事。现在门槛没了，考核方式就必须变——同样的逻辑正在很多以「交付物」为验收标准的岗位上重演：当交付物本身可以被批量生成，值钱的就只剩下能对结果负责的那个人。&lt;/p&gt;
+
+&lt;h2 id=&quot;四python-第一届打包委员会选举astral-公开站队引发争议&quot;&gt;四、Python 第一届打包委员会选举，Astral 公开站队引发争议&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1w928wf/astrals_endorsements_for_pythons_first_packaging/&quot;&gt;Astral’s endorsements for Python’s first Packaging Council&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Python 基金会正在选第一届打包委员会（Packaging Council），17 人竞选 5 个席位，投票 9 月 15 日截止。uv 和 ruff 背后的公司 Astral 公开发文背书了其中几位候选人，官方讨论区因此吵了起来。争议点不在候选人资质——被点名的几位确实都是长期做打包的人——而在于一家商业公司该不该在开源治理选举里公开站队。&lt;/p&gt;
+
+&lt;p&gt;评论区有人的第一反应就是：公司在这种选举里背书正常吗？也有人觉得 Astral 现在是打包工具链里权重最大的玩家，站队反而是明牌，比暗地里使劲坦荡；但同一个人也担心 17 选 5 本身就是隐患，而这个委员会最后到底能产出决策还是只增加一层扯皮，才是真正的考验。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“i still think 17 people for 5 spots is a disaster waiting to happen but whatever. the real test is if this council can actually get anything done or if its just gonna be another layer of discouse.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/wildlyaquaticsenator，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1w928wf/astrals_endorsements_for_pythons_first_packaging/p875vji/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;更实质的分歧关于历史包袱。有人说 Python 打包的复杂性是几十年欠债累积的结果——他试过让一个简单的 C 扩展在各操作系统和各 Python 版本上都编译通过，setup.py 折腾了三天，同样的事换成 C++ 加 CMake 一两个小时就完了。所以有人主张：先定义未来该是什么样，再想办法把遗留场景迁过去，不要让一小撮有历史需求的维护者拥有否决权。也有人从另一个方向担心 Astral 的影响力——万一 AI 泡沫破了公司没了怎么办，回应是代码开源，大不了 fork。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We cannot carry legacy use cases around forever, and they do not have an inherent seat at the table in shaping the future vision.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ColdPorridge，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1w928wf/astrals_endorsements_for_pythons_first_packaging/p88savz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Astral might not be around in a year or two; after the AI bubble pops.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Short_Inspection_746，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1w928wf/astrals_endorsements_for_pythons_first_packaging/p87lfh3/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;值得玩味的是串里一句抱怨：多少年大家求着修打包，社区无动于衷；uv 出来把问题解决了，突然就要成立委员会了。这话说得刻薄，但点出了开源治理里一个真实的次序——治理结构往往不是在问题最痛的时候建立的，而是在有人已经拿出解法、事实标准即将形成的时候才建立的。对依赖 Python 工具链的团队来说，这次选举结果值得看一眼：它多半会决定未来几年 uv 走的是「事实标准」还是「官方标准」这条路。&lt;/p&gt;
+
+&lt;h2 id=&quot;五一张工时越来越短的图被评论区从统计口径上拆掉了一半&quot;&gt;五、一张「工时越来越短」的图，被评论区从统计口径上拆掉了一半&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w8tutc/oc_annual_hours_worked_per_worker_in_the_14_rich/&quot;&gt;[OC] Annual hours worked per worker in the 14 rich countries with records back to 1870: the median has fallen from 3,138 hours to 1,561&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;数据来自 Our World in Data 整合的 Penn World Table 和 Huberman &amp;amp; Minns 的历史序列，只取 1870 年起有连续记录的 14 个高收入国家：人均年工时的中位数从 3138 小时降到 1561 小时，几乎腰斩。图上还画了 2080 小时（每周 40 小时 × 52 周）这条参考线作对照。&lt;/p&gt;
+
+&lt;p&gt;评论区最有价值的一条不是反对结论，而是提醒口径：这个统计包含兼职。一百多年前的典型家庭是一人全职上班、一人在家不计入劳动力，所以那时的平均值本质上是全职工的平均；今天则常是一人全职加一人兼职，同一个家庭的总工时未必少多少，但「人均」被摊薄了。顺着这条往下，有人指出更根本的遗漏——家务从来没被计入过。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Back in the good old days you had one person who works and one person at home who was unemployed and is not counted in this statistic.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Western-Internal-751，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w8tutc/oc_annual_hours_worked_per_worker_in_the_14_rich/p858xv2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The stay at home wife was harder work than today and her labor isn’t counted.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/lazyoldsailor，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w8tutc/oc_annual_hours_worked_per_worker_in_the_14_rich/p85angx/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;作者本人在串里也补了不少限定条件：1950 年以前只有八个数据点（1870、1880、1890、1900、1913、1929、1938、1950），中间那段线是直接连的；统计只算主业，副业和志愿工作不计。有人因此调侃「那这图不就没意义了」，也有人反过来说，工时减半正是生产率提升的证据，是实打实的进步。另有几条评论盯着图本身，怀疑它是 AI 生成的图表，顺带吵了一轮「slop chart」。&lt;/p&gt;
+
+&lt;p&gt;这帖的用处在于提供了一个通用的读图习惯：先看分母。一个「人均」指标下降，可能是分子变小，也可能是分母的构成变了——多了大量兼职者、多了退休后打零工的人，都会把曲线拉下来，而这跟「大家更轻松了」是两回事。同样的陷阱在国内很多讨论里也常见，人均可支配收入、人均居住面积、人均工时，谁被算进了「人」这个分母，往往比数字本身更值得追问。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Sep 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/07/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/07/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.06</title>
@@ -1903,201 +2048,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>Snowflake 2027财年Q2电话会——AI产品贡献了一半的增速加速，CEO称「模型中立」是最大护城河</title>
-        <description>&lt;p&gt;美东时间2026年9月2日下午2点（北京时间9月3日凌晨5点），&lt;a href=&quot;https://investors.snowflake.com/&quot;&gt;Snowflake&lt;/a&gt;在发布2027财年二季报后召开业绩电话会。出席的管理层是CEO &lt;strong&gt;Sridhar Ramaswamy&lt;/strong&gt;、CFO &lt;strong&gt;Brian Robins&lt;/strong&gt;、产品负责人（EVP of Product）&lt;strong&gt;Christian Kleinerman&lt;/strong&gt;，投资者关系负责人Katherine McCracken主持。&lt;/p&gt;
-
-&lt;p&gt;财报数字本身已经很漂亮（产品收入14.92亿美元同比增长37%，全年指引上调，详见&lt;a href=&quot;/blog/2026/09/04/snowflake_fy2027q2_earnings/&quot;&gt;财报解读&lt;/a&gt;）。但这场电话会回答了一个财报没法回答的问题：&lt;strong&gt;这37%的增长，到底有多少是AI带来的？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-ai产品贡献了大约一半的加速&quot;&gt;1. 「AI产品贡献了大约一半的加速」&lt;/h2&gt;
-
-&lt;p&gt;这是全场信息量最大的一句话。Evercore ISI分析师Kirk Materne直接问：这次的加速，有多少来自新的AI产品，有多少来自核心业务本身的飞轮效应？&lt;/p&gt;
-
-&lt;p&gt;Ramaswamy的回答很干脆：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我大致会说是一半一半。我们的AI产品贡献了大约一半的加速。」&lt;/p&gt;
-
-  &lt;p&gt;（I would roughly call it even. Our AI products contributed approximately half of the acceleration.）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这个表述值得拆开看。Snowflake上一财年末的产品收入增速是30%，本季度是37%，加速了7个百分点。按「一半一半」推算，AI产品大约贡献了3.5个百分点的增速，核心数据平台业务贡献另外3.5个百分点。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么这个回答比一个漂亮的AI收入数字更有价值？&lt;/strong&gt; 因为它同时说明了两件事：AI确实在赚钱，但核心业务也没有停滞。市场此前最担心的情形是——公司靠AI故事掩盖数据仓库业务的增长疲软。这个拆分否定了那个假设。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-模型中立被明确定义为竞争优势&quot;&gt;2. 「模型中立」被明确定义为竞争优势&lt;/h2&gt;
-
-&lt;p&gt;UBS分析师Karl Keirstead问了一个尖锐的问题：客户在前沿模型和开源模型之间的行为有变化吗？「模型中立」算不算竞争优势？&lt;/p&gt;
-
-&lt;p&gt;Ramaswamy的回答是「绝对算」（absolutely）。他说客户表现出「很强的意愿去切换模型，同时也要优化成本」。&lt;/p&gt;
-
-&lt;p&gt;产品负责人Christian Kleinerman补充的这句更具体：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们从很多客户那里听到，他们曾经对某一家特定的模型公司做出了很大的承诺……而对Snowflake的承诺给了他们那种灵活性。」&lt;/p&gt;
-
-  &lt;p&gt;（We’ve heard from many customers that they made large commitments to one specific model company… Whereas commitment to Snowflake gives them that flexibility.）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;配合本季度推出的 &lt;strong&gt;Cortex AI Gateway&lt;/strong&gt;——按客户自定义的策略把每个任务动态路由到合适的模型——这构成了Snowflake对AI时代的完整叙事：&lt;strong&gt;我不做模型，我做模型的调度层和数据底座。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-不做前沿大模型只做窄模型&quot;&gt;3. 不做前沿大模型，只做「窄模型」&lt;/h2&gt;
-
-&lt;p&gt;德意志银行分析师Brad Zelnick问到自研模型Arctic的战略。Kleinerman的回答划清了边界：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们不是在训练模型去进入前沿模型那一类……我们会继续在Arctic系列里开发那些更具体、更受约束的任务型模型。」&lt;/p&gt;
-
-  &lt;p&gt;（We’re not training models to go get into a frontier type… we continue developing models in the Arctic family for tasks that are more specific, more constrained.）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;翻译成大白话：&lt;strong&gt;Snowflake不打算和OpenAI、Anthropic正面竞争，它只做那些跑在自己平台上、专门解决特定任务的小模型。&lt;/strong&gt; 这既是能力的诚实认知，也是资本开支的克制——不训前沿模型，就不需要几十亿美元的GPU集群。&lt;/p&gt;
-
-&lt;h2 id=&quot;4-cfo给了两个明确的时间表&quot;&gt;4. CFO给了两个明确的时间表&lt;/h2&gt;
-
-&lt;p&gt;CFO Brian Robins在准备好的发言里给出了两个可以直接对表的承诺：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们仍然按计划在2028财年第四季度实现GAAP盈利。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;以及费用端的克制：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「本财年至今，我们净增了334名员工，其中包括来自Observe并购的173人。相比之下，去年同期净增935人。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他还补充了一条对建模很关键的信息：&lt;strong&gt;90亿美元的剩余履约义务（RPO）中，预计约54%会在未来12个月内确认为收入&lt;/strong&gt;——约48.6亿美元。对照60.7亿美元的全年产品收入指引，说明指引里已经有八成左右是有合同支撑的。&lt;/p&gt;
-
-&lt;h1 id=&quot;二分析师问答里最有信息量的几个问题&quot;&gt;二、分析师问答里最有信息量的几个问题&lt;/h1&gt;
-
-&lt;h2 id=&quot;q1摩根士丹利-sanjit-singh为什么coco是那个对的捕鼠夹&quot;&gt;Q1（摩根士丹利 Sanjit Singh）：为什么CoCo是那个「对的捕鼠夹」？&lt;/h2&gt;
-
-&lt;p&gt;分析师想问的其实是：一个AI助手，凭什么能撑起超出传统商业分析的场景？&lt;/p&gt;
-
-&lt;p&gt;Ramaswamy的回答：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「AI大幅缩短了数据和价值之间的距离。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他还提到一个细节：&lt;strong&gt;CoCo里的「成本优化」功能是使用频率排前十的技能。&lt;/strong&gt; 这是个很有意思的信号——客户用Snowflake自家的AI助手，来帮自己省Snowflake的钱。Ramaswamy把这解释为建立信任的方式。&lt;/p&gt;
-
-&lt;p&gt;在按用量收费的模式下，主动帮客户省钱是反直觉的；但如果省下来的钱被用于跑更多AI工作负载，总账反而更划算。&lt;/p&gt;
-
-&lt;h2 id=&quot;q2富国银行-ryan-macwilliamsai的加速具体来自哪里&quot;&gt;Q2（富国银行 Ryan MacWilliams）：AI的加速具体来自哪里？&lt;/h2&gt;
-
-&lt;p&gt;Ramaswamy给了一个可量化的证据：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「新客户达到其采购消费额80%的时间……在最新的客户群里已经明显缩短。这就是AI的力量。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这句话的含义是：&lt;strong&gt;新签客户从签约到把预付额度用完的周期变短了。&lt;/strong&gt; 对按用量收费的公司来说，这直接意味着续约和扩容会更早发生，收入确认更快。这比任何「AI收入X亿美元」的表述都更能说明AI在改变生意的物理特性。&lt;/p&gt;
-
-&lt;h2 id=&quot;q3rbc-matt-hedberg--美银-koji-ikedaai用户比非ai用户多消费多少&quot;&gt;Q3（RBC Matt Hedberg / 美银 Koji Ikeda）：AI用户比非AI用户多消费多少？&lt;/h2&gt;
-
-&lt;p&gt;Hedberg问CoCo在知识工作者中的渗透深度。Kleinerman说「我们在几乎每一个职能上都在用CoCo和CoWork」，Robins补充说财务部门的采用率&lt;strong&gt;「几乎接近100%」&lt;/strong&gt;，覆盖交易审批、税务、会计、FP&amp;amp;A和资金管理。&lt;/p&gt;
-
-&lt;p&gt;但当美银的Koji Ikeda追问「AI采用者相比非采用者的消费提升幅度是多少」时，Ramaswamy拒绝给数字：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「目前我们还不准备分享确切的提升数字。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他只承认，随着采用加深，客户群的行为差异「相当明显」（pretty noticeable）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这是本场电话会最大的信息缺口。&lt;/strong&gt; 管理层反复强调AI会带动核心平台消费，但拒绝量化。在AI叙事定价的市场里，这个数字迟早要给。&lt;/p&gt;
-
-&lt;h2 id=&quot;q4花旗-tyler-radke传统saas厂商都在接大模型snowflake怎么竞争&quot;&gt;Q4（花旗 Tyler Radke）：传统SaaS厂商都在接大模型，Snowflake怎么竞争？&lt;/h2&gt;
-
-&lt;p&gt;Ramaswamy的回答：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「拥有用户体验是关键……CoCo和CoWork对我们的未来是根本性的。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Kleinerman的比喻更好懂：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「如果我用三个应用，我不会把数据复制到三个不同的平台里。在Snowflake这样一个中心平台上整合会更容易。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这实际上是Snowflake对「数据重力」的重申——数据搬家成本极高，谁存着数据谁就有主场优势。&lt;/p&gt;
-
-&lt;h2 id=&quot;q5摩根大通-dharmik-jhaveri指引上调是核心业务变好了还是纯靠ai&quot;&gt;Q5（摩根大通 Dharmik Jhaveri）：指引上调是核心业务变好了，还是纯靠AI？&lt;/h2&gt;
-
-&lt;p&gt;CFO Robins的回答：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「这既反映了我们在AI产品上看到的强劲表现，也反映了核心业务的底层强度。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;和Ramaswamy的「一半一半」互相印证。&lt;/p&gt;
-
-&lt;h2 id=&quot;q6巴克莱-raimo-lenschow北美以外的区域表现如何&quot;&gt;Q6（巴克莱 Raimo Lenschow）：北美以外的区域表现如何？&lt;/h2&gt;
-
-&lt;p&gt;Robins：「所有区域都在表现，所有区域都运转得很好。」——这是一句没有信息量的回答，但至少排除了区域性走弱。&lt;/p&gt;
-
-&lt;h1 id=&quot;三一个容易被忽略的细节snowflake自己用ai省了多少钱&quot;&gt;三、一个容易被忽略的细节：Snowflake自己用AI省了多少钱&lt;/h1&gt;
-
-&lt;p&gt;Ramaswamy在准备好的发言里给了两个内部使用的数字：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;市场部用CoCo把搜索优化工作收回内部做，&lt;strong&gt;每年省下40万美元的代理商费用&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;销售团队自动化处理了&lt;strong&gt;超过12.5万个潜在客户线索&lt;/strong&gt;，&lt;strong&gt;70%的首次触达邮件由AI生成&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;40万美元对一家年收入60亿美元的公司来说是零头，但这个披露的意义不在金额，而在&lt;strong&gt;它把自己变成了产品的第一个案例研究&lt;/strong&gt;。Ramaswamy的原话是「我们把这些洞察直接带给客户」。&lt;/p&gt;
-
-&lt;h1 id=&quot;四解读这场电话会说明了什么&quot;&gt;四、解读：这场电话会说明了什么&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，Snowflake找到了一个可信的AI叙事，而且这个叙事不需要它去和OpenAI打仗。&lt;/strong&gt; 「模型中立 + 数据治理 + 调度层」这个定位，避开了最烧钱的赛道，同时把大模型的商品化变成自己的优势——模型越同质化，谁能帮客户在模型之间自由切换、控制成本，谁越值钱。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，管理层在用「不给数字」来管理预期。&lt;/strong&gt; AI消费提升的量化数据、AI收入的绝对金额，两个最关键的指标都被回避了。乐观的解读是数字还不稳定、不想给市场设锚；谨慎的解读是这些数字还不够好看。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，费用纪律是这次指引双升的真正基础。&lt;/strong&gt; 全年净增334人（剔除并购只有161人）对上35%以上的收入增长，这是一个非常极端的杠杆。但它也意味着后续的利润率改善空间正在被提前消耗——你不可能永远不招人。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;最值得盯住的一句话，是Ramaswamy关于「新客户消耗周期缩短」的表述。&lt;/strong&gt; 如果这是真的且可持续，它会以一种复利的方式改善Snowflake的每一个指标：收入确认更快、NRR更高、销售效率更高。如果只是最新一批客户的偶然现象，那么37%的增速就更像是一次性的反弹。&lt;/p&gt;
-
-&lt;p&gt;下一个财季的产品收入指引是15.88亿到15.93亿美元、增速37%到38%——管理层已经把话说出去了，四季度见分晓。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Snowflake 2027财年第二季度业绩电话会实录（StockAnalysis整理版，2026年9月2日）：&lt;a href=&quot;https://stockanalysis.com/stocks/snow/transcripts/681381-q2-2027/&quot;&gt;https://stockanalysis.com/stocks/snow/transcripts/681381-q2-2027/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Snowflake 2027财年第二季度财报新闻稿（SEC 8-K附件99.1）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm&quot;&gt;https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Snowflake投资者关系页面（电话会录音回放）：&lt;a href=&quot;https://investors.snowflake.com/&quot;&gt;https://investors.snowflake.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（仅用于市场反应）：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Seeking Alpha：Snowflake Inc. (SNOW) Q2 2027 Earnings Call Transcript&lt;/li&gt;
-  &lt;li&gt;Benzinga：Snowflake Q2 2027 Earnings Call, Complete Transcript&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;文中管理层引述译自英文实录；括号内为英文原文。标注为「推算」的数字为作者根据公开数据计算所得，非公司披露口径。&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 04 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/04/snowflake_fy2027q2_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/04/snowflake_fy2027q2_earnings_call/</guid>
-        
-        <category>Snowflake</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

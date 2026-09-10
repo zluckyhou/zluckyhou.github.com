@@ -5,9 +5,499 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 09 Sep 2026 11:40:13 +0800</pubDate>
-    <lastBuildDate>Wed, 09 Sep 2026 11:40:13 +0800</lastBuildDate>
+    <pubDate>Thu, 10 Sep 2026 09:16:49 +0800</pubDate>
+    <lastBuildDate>Thu, 10 Sep 2026 09:16:49 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Chewy 2026财年Q2电话会——AI客服已解决三成对话，CFO却主动交代了1500万美元的一次性利润</title>
+        <description>&lt;p&gt;美东时间2026年9月9日上午8点（北京时间9月9日20点），美国最大宠物电商 &lt;a href=&quot;https://investor.chewy.com/&quot;&gt;Chewy&lt;/a&gt;（纽交所代码CHWY）在发布2026财年第二季度财报后随即召开业绩电话会。出席的管理层是CEO &lt;strong&gt;Sumit Singh&lt;/strong&gt;、CFO &lt;strong&gt;Chris Deppe&lt;/strong&gt;，以及投资者关系与战略财务负责人 Lee Horowitz。提问的分析师来自 Guggenheim、摩根士丹利、William Blair、摩根大通、花旗、德意志银行等机构。&lt;/p&gt;
+
+&lt;p&gt;财报本身我们已经单独写过一篇。简单回顾背景：Q2营收33.30亿美元同比增长7.3%，调整后EBITDA利润率6.8%超出自家6.3%-6.4%的指引，公司还上调了全年指引——但股价盘中最深跌超11%，收在20.68美元附近。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这场电话会的价值，就在于它解释了那11%是怎么跌出来的。&lt;/strong&gt; 新闻稿里查不到的四样东西——全年指引、超预期利润的成色、AI降本的真实节奏、消费环境的判断——全部出自这场电话会。&lt;/p&gt;
+
+&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-上调后的完整指引新闻稿里没有&quot;&gt;1. 上调后的完整指引（新闻稿里没有）&lt;/h2&gt;
+
+&lt;p&gt;Chewy 的业绩新闻稿从不附带指引数字，所有指引都在电话会上口头给出：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2026财年全年：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;营收134.6亿-135.7亿美元，同比增长6.8%-7.7%&lt;/li&gt;
+  &lt;li&gt;有机营收增速（剔除SmartPak和Modern Animal收购贡献）5.5%-6.3%&lt;/li&gt;
+  &lt;li&gt;调整后EBITDA利润率6.7%-6.8%，此前指引为6.6%-6.8%&lt;/li&gt;
+  &lt;li&gt;按中值计算，全年调整后EBITDA约9.12亿美元，同比扩张超过100个基点&lt;/li&gt;
+  &lt;li&gt;资本开支占营收的1.5%-2%，加权平均摊薄股本约4.10亿股&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;2026财年Q3：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;营收33.23亿-33.58亿美元，同比增长6.6%-7.7%，有机增速5.3%-6.2%&lt;/li&gt;
+  &lt;li&gt;调整后EBITDA利润率6.6%-6.7%&lt;/li&gt;
+  &lt;li&gt;调整后摊薄每股收益约0.39美元&lt;/li&gt;
+  &lt;li&gt;净利息支出1000万-1500万美元，实际税率24%-26%，下半年还有中个位数百万美元的燃油成本逆风&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;注意两处细节：一是利润率指引只把下沿从6.6%抬到6.7%、上沿纹丝不动，属于「收窄」多于「上调」；二是Q3的6.6%-6.7%低于刚过去这个季度的6.8%，等于管理层自己承认Q2的利润率不可持续。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-cfo-主动交代了1500万美元的一次性利润&quot;&gt;2. CFO 主动交代了1500万美元的一次性利润&lt;/h2&gt;
+
+&lt;p&gt;这是整场电话会最重要的一段。CFO Chris Deppe 没有等分析师问，直接说明Q2利润率超预期的构成里包含：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;约 &lt;strong&gt;1000万美元关税退款&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;约 &lt;strong&gt;500万美元礼品卡失效收入及库存调整&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;并且用了一个明确的定性——这些是「&lt;strong&gt;时点性和一次性项目&lt;/strong&gt;」（timing related and discrete items），不代表持续的利润率水平。&lt;/p&gt;
+
+&lt;p&gt;把这1500万美元从2.267亿美元的调整后EBITDA里剔除，利润率大约回到6.35%，&lt;strong&gt;正好落回原指引6.3%-6.4%的区间&lt;/strong&gt;。也就是说，所谓「大幅超预期」，扣掉一次性因素之后就是刚好达标。一家公司主动把自己的超预期成色拆给你看，是负责任的做法，但对当天的股价显然是负面的。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-对消费环境的判断稳住了但没有复苏&quot;&gt;3. 对消费环境的判断——稳住了，但没有复苏&lt;/h2&gt;
+
+&lt;p&gt;CEO Sumit Singh 反复强调两层意思：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chewy 的增速持续「跑赢整体宠物品类大约2到3倍」（outperform the broader pet category by roughly 2 to 3 times）&lt;/li&gt;
+  &lt;li&gt;但整体宠物市场只是「&lt;strong&gt;稳定在了我们Q1末看到的趋势上&lt;/strong&gt;」（The environment has stabilized to the trends we saw exiting Q1），本季度&lt;strong&gt;并没有出现有意义的消费者复苏&lt;/strong&gt;，而且全年指引里也&lt;strong&gt;没有假设&lt;/strong&gt;复苏会到来&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这句话的分量在于：它把「行业回暖」这个最大的看涨理由从今年的故事里拿掉了。&lt;/p&gt;
+
+&lt;h2 id=&quot;4-ai-是新主线kai-已经解决三成对话&quot;&gt;4. AI 是新主线，Kai 已经解决三成对话&lt;/h2&gt;
+
+&lt;p&gt;Singh 花了相当篇幅讲AI客服助手 &lt;strong&gt;Kai&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;上线不到两个月，已有约 &lt;strong&gt;30% 的对话通过自助方式解决&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;目前 Kai 的曝光量还不到总流量的 &lt;strong&gt;15%&lt;/strong&gt;，用他的话说「才刚刚开始」&lt;/li&gt;
+  &lt;li&gt;预计AI在2026财年带来「低两位数百万美元」（low tens of millions）的成本节省，到2027财年&lt;strong&gt;年化节省约5000万美元&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deppe 补充的另一个数字同样关键：&lt;strong&gt;超过50%的订单量已经流经自动化履约中心&lt;/strong&gt;，公司对「多年期降低单位可变履约成本的路线图」有信心。&lt;/p&gt;
+
+&lt;h1 id=&quot;二分析师问答中最有信息量的六个问题&quot;&gt;二、分析师问答中最有信息量的六个问题&lt;/h1&gt;
+
+&lt;h2 id=&quot;q1steven-forbesguggenheim零食treats为什么在放缓&quot;&gt;Q1｜Steven Forbes（Guggenheim）：零食（treats）为什么在放缓？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Singh 的回答：&lt;/strong&gt; 消费者正在把预算优先分配给「核心主粮、药品」和 Autoship 订阅，而把零食、拌粮（toppers）这类归到可选消费里削减。他特别提到零食本身跨越「超过10个品类」、价格带差异很大，宏观压力下消费者砍的是这部分，而核心主粮的表现「相当正常」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;信息量在哪：&lt;/strong&gt; 这解释了为什么活跃客户数涨了3.8%，但每位客户年均消费只涨1.9%——人还在，但每个人的购物车里少了几样东西。&lt;/p&gt;
+
+&lt;h2 id=&quot;q2nathan-feather摩根士丹利怎么平衡利润率扩张和增长再投入&quot;&gt;Q2｜Nathan Feather（摩根士丹利）：怎么平衡利润率扩张和增长再投入？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Singh 的回答：&lt;/strong&gt; 列了三个再投入方向——重新设计的会员计划 Chewy+（他的形容词是「更便宜、更好、更多医疗、更整合」）、在效率不恶化的前提下「适度加码」的定向营销投放，以及下半年的新品发布。他强调公司有「可信的、自我造血的增长杠杆，且投资回报健康」。&lt;/p&gt;
+
+&lt;p&gt;紧接着是那句被引用最多的告诫：「&lt;strong&gt;把AI节省机械地叠加到利润率轨迹上是不合适的&lt;/strong&gt;」（It would not be appropriate to mechanically layer），因为这些效率提升要用来抵消&lt;strong&gt;工资通胀&lt;/strong&gt;等成本压力。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;信息量在哪：&lt;/strong&gt; 这是管理层在主动压低市场对利润率的想象空间。5000万美元的AI节省不等于5000万美元的利润增量。&lt;/p&gt;
+
+&lt;h2 id=&quot;q3dylan-cardenwilliam-blairai改变了商品搜索方式会不会绕开-chewy&quot;&gt;Q3｜Dylan Carden（William Blair）：AI改变了商品搜索方式，会不会绕开 Chewy？&lt;/h2&gt;
+
+&lt;p&gt;这是当下所有零售电商都要面对的问题——如果用户直接问AI助手「给我买猫粮」，平台还有没有位置。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Singh 的回答：&lt;/strong&gt; Chewy 把 agentic AI（能自主执行任务的AI）视为「&lt;strong&gt;净顺风&lt;/strong&gt;」（net tailwind），并计划通过新的产品创新，把用户的互动更深地留在自家界面上。&lt;/p&gt;
+
+&lt;h2 id=&quot;q4doug-anmuth摩根大通对ai降本的信心从哪来&quot;&gt;Q4｜Doug Anmuth（摩根大通）：对AI降本的信心从哪来？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Singh 的回答：&lt;/strong&gt; 表示「高度自信」，理由是部署「才刚刚开始」，Kai 目前的流量覆盖不到15%。但他再次重申不要「机械叠加」节省额。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Deppe 补充：&lt;/strong&gt; 对「多年期降低单位可变履约成本的路线图」有信心，自动化设施处理的订单量已超50%。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;信息量在哪：&lt;/strong&gt; 两位高管在同一场电话会上、面对不同分析师，两次说了同一句「不要机械叠加」。这种重复通常不是巧合，而是刻意的预期管理。&lt;/p&gt;
+
+&lt;h2 id=&quot;q5steven-zaccone花旗毛利率走势和广告业务的可持续性&quot;&gt;Q5｜Steven Zaccone（花旗）：毛利率走势和广告业务的可持续性？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Deppe 的回答：&lt;/strong&gt; Q3毛利率会&lt;strong&gt;环比Q2下降&lt;/strong&gt;，但&lt;strong&gt;同比仍有杠杆&lt;/strong&gt;（即同比改善）。广告业务（Sponsored Ads）继续是顺风，「&lt;strong&gt;站内广告和站外广告今年都在增长&lt;/strong&gt;」，并预计延续到2027财年。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;信息量在哪：&lt;/strong&gt; 广告是电商利润率里最优质的部分。Chewy 明确广告还在双线增长，这是全年6.7%-6.8%利润率指引能站住的重要支撑。&lt;/p&gt;
+
+&lt;h2 id=&quot;q6benjamin-black德意志银行ai助手未来12-18个月怎么演进&quot;&gt;Q6｜Benjamin Black（德意志银行）：AI助手未来12-18个月怎么演进？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Singh 的回答：&lt;/strong&gt; 使用场景正在从「最高频的咨询类型」（如查物流状态）扩展到「&lt;strong&gt;自动化退货与退款&lt;/strong&gt;」。更重要的是，Chewy 搭建的是多智能体编排框架（multi-agent orchestration），未来可以把「&lt;strong&gt;商品推荐&lt;/strong&gt;」接进来，从客服工具变成销售工具。他强调 Chewy 的「持久竞争优势」来自&lt;strong&gt;第一方基础设施&lt;/strong&gt;（first-party infrastructure），而不是接第三方现成方案。&lt;/p&gt;
+
+&lt;h1 id=&quot;三解读这些表态意味着什么&quot;&gt;三、解读：这些表态意味着什么&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，管理层选择了「诚实」而不是「维护股价」。&lt;/strong&gt; 一次性利润是CFO自己抖出来的，「不指望消费复苏」是CEO自己说的，「别机械叠加AI节省」也是管理层自己反复强调的。整场电话会几乎每一处可能被市场过度乐观解读的地方，管理层都主动踩了一脚刹车。11%的跌幅里，有相当一部分是这种坦诚的代价。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，故事主线正在从「增长」切换到「效率」。&lt;/strong&gt; 有机增速只有5.5%-6.3%，靠收购才勉强凑到6.8%-7.7%。在增速回不去的前提下，管理层把叙事重心整体挪到了AI降本、履约自动化、广告变现这三件事上。这是一个典型的成熟期电商的转身。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，AI叙事讲得比同行更克制、也更具体。&lt;/strong&gt; 三个具体数字——30%自助解决率、不到15%流量覆盖、2027财年5000万美元年化节省——都是可验证、可跟踪的。相比很多公司把AI讲成万能故事，Chewy 反倒在压预期。但代价是，市场也很难为这个故事给出额外估值。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，宠物医疗才是真正的长期赌注，但它这个季度只出现在利润表的负面项里。&lt;/strong&gt; 47家诊所带来的是折旧摊销上升、利息支出转负、资本开支同比暴增71%和自由现金流同比下滑15.5%。电话会上管理层对诊所的单店经济模型着墨不多，这可能是下个季度分析师追问的重点。&lt;/p&gt;
+
+&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
+
+&lt;p&gt;如果用一句话概括这场电话会：&lt;strong&gt;Chewy 交出了一份漂亮的季度成绩，然后花了一个小时告诉市场「别高兴太早」。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;值得继续跟踪的三个指标：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Kai 的流量覆盖率从15%往上走的速度&lt;/strong&gt; ——这决定了5000万美元节省的兑现节奏&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Q3实际毛利率的环比降幅&lt;/strong&gt; ——CFO已经预告会降，降多少是对指引可信度的检验&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;可选消费（零食、拌粮）什么时候回暖&lt;/strong&gt; ——这是每位客户年均消费能否重新加速的唯一钥匙&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;在消费复苏没有到来之前，Chewy 的估值大概率会继续锚定在「6%增长 + 6.8%利润率」这个组合上。管理层这场电话会做的，就是把这个组合原原本本地摆给市场看。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手信息（原文）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2026财年Q2业绩电话会实录（含完整问答与指引口径）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-chewy-posts-steady-q2-2026-results-as-shares-fall-premarket-93CH-4893739&quot;&gt;Earnings call transcript — Chewy posts steady Q2 2026 results as shares fall premarket，Investing.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Chewy 官方新闻稿与电话会入口：&lt;a href=&quot;https://investor.chewy.com/news-and-events/news/news-details/2026/Chewy-Announces-Second-Quarter-2026-Financial-Results/default.aspx&quot;&gt;Chewy Announces Second Quarter 2026 Financial Results&lt;/a&gt;（2026年9月9日，电话会于美东时间当日上午8点召开）&lt;/li&gt;
+  &lt;li&gt;SEC EDGAR 8-K 附件99.1（财务数据核对底稿）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001766502/000162828026061011/chwyq22026exhibit991.htm&quot;&gt;chwyq22026exhibit991.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;电话会要点交叉验证：&lt;a href=&quot;https://ca.investing.com/news/company-news/chewy-inc-chwy-q2-2026-earnings-call-highlights-strong-sales-growth-and-raised-margin--4833272&quot;&gt;Chewy Inc (CHWY) Q2 2026 Earnings Call Highlights，GuruFocus / Investing.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（用于补充股价反应）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://247wallst.com/investing/2026/09/09/chewy-sinks-11-as-free-cash-flow-miss-overshadows-raised-outlook-petco-falls-6-freshpet-ticks-up/&quot;&gt;Chewy Sinks 11% as Free Cash Flow Miss Overshadows Raised Outlook — 24/7 Wall St.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 10 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/10/chewy_fy2026q2_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/10/chewy_fy2026q2_earnings_call/</guid>
+        
+        <category>Chewy</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>Chewy 2026财年Q2——营收33.3亿美元同比增长7.3%，全年指引上调股价却大跌11%</title>
+        <description>&lt;p&gt;美东时间2026年9月9日盘前（北京时间9月9日晚），美国最大的宠物用品电商 &lt;a href=&quot;https://investor.chewy.com/&quot;&gt;Chewy&lt;/a&gt;（纽交所代码CHWY）发布2026财年第二季度财报，对应的会计期间是截至2026年8月2日的13周。&lt;/p&gt;
+
+&lt;p&gt;先看三个最核心的数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;营收33.30亿美元&lt;/strong&gt;，同比增长7.3%，落在公司此前给出的指引区间上沿&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;净利润8050万美元&lt;/strong&gt;，同比增长29.8%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;调整后EBITDA 2.267亿美元&lt;/strong&gt;，同比增长23.7%，利润率6.8%，比公司自己给的6.3%-6.4%指引还高出至少40个基点&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;公司同时上调了全年指引。按常理这应该是一份让市场满意的成绩单，但当天 Chewy 股价盘前先跌4.4%，盘中最深跌超11%至20.68美元，成为当日跌幅最大的消费股之一。同一天 Petco 跟跌6%。&lt;/p&gt;
+
+&lt;p&gt;这篇文章想回答的就是这个问题——&lt;strong&gt;一份「超预期 + 上调指引」的财报，为什么换来股价大跌？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-chewy-是做什么的&quot;&gt;1. Chewy 是做什么的&lt;/h2&gt;
+
+&lt;p&gt;Chewy 是美国最大的线上宠物用品零售商，2011年成立，2017年被 PetSmart 收购，2019年独立上市。核心业务是把猫粮狗粮、宠物药品、玩具零食这些东西通过自营电商卖给宠物主人，目前合作品牌约4000个，在售商品与服务约19万个SKU。&lt;/p&gt;
+
+&lt;p&gt;它的商业模式有一个非常特别的地方——&lt;strong&gt;Autoship（自动续订）&lt;/strong&gt;。宠物主人可以设定「每4周自动送一袋狗粮」，到期系统自动下单、自动扣款、自动发货。本季度 Autoship 贡献了28.17亿美元销售额，占总营收的&lt;strong&gt;84.6%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这个84.6%是理解 Chewy 的钥匙。它意味着 Chewy 八成以上的收入是订阅式的、可预测的，不像普通电商那样依赖每一次促销去把用户重新拉回来。用大白话说，Chewy 更像一家「宠物界的会员制超市」，而不是一家打折卖货的网店。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-最近一年在做什么&quot;&gt;2. 最近一年在做什么&lt;/h2&gt;
+
+&lt;p&gt;过去一年 Chewy 干的最大一件事，是&lt;strong&gt;从卖货往卖医疗服务延伸&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2026年5月21日完成对 &lt;strong&gt;Modern Animal&lt;/strong&gt; 的收购，作价4亿美元。Modern Animal 是一家技术驱动的连锁宠物诊所，拥有29家自营门店、24小时线上问诊和会员制模式，预计带来超过1.25亿美元的年化收入&lt;/li&gt;
+  &lt;li&gt;这笔收购让 Chewy 自营诊所品牌 Chewy Vet Care 的门店数从18家直接跳到47家，公司目标是2026财年末达到60家&lt;/li&gt;
+  &lt;li&gt;同期还完成了对马术与马匹保健用品零售商 &lt;strong&gt;SmartPak&lt;/strong&gt; 的收购&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;为什么要买诊所？因为宠物医疗是宠物消费里客单价最高、粘性最强的一块，而且看完病自然会在 Chewy 上买处方药和处方粮。这是一条「诊所引流—药品复购」的闭环。&lt;/p&gt;
+
+&lt;p&gt;代价是真金白银。财报现金流量表显示，上半年用于收购的现金净支出为&lt;strong&gt;5.528亿美元&lt;/strong&gt;，同时公司新增了8.117亿美元的债务融资——资产负债表上的长期负债从年初的0变成了5.887亿美元，商誉从3940万美元暴增至3.341亿美元。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标（截至2026年8月2日的13周）&lt;/th&gt;
+      &lt;th&gt;本季&lt;/th&gt;
+      &lt;th&gt;去年同期&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收&lt;/td&gt;
+      &lt;td&gt;33.302亿美元&lt;/td&gt;
+      &lt;td&gt;31.042亿美元&lt;/td&gt;
+      &lt;td&gt;+7.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利润&lt;/td&gt;
+      &lt;td&gt;10.112亿美元&lt;/td&gt;
+      &lt;td&gt;9.422亿美元&lt;/td&gt;
+      &lt;td&gt;+7.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率&lt;/td&gt;
+      &lt;td&gt;30.4%&lt;/td&gt;
+      &lt;td&gt;30.4%&lt;/td&gt;
+      &lt;td&gt;持平&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售及管理费用&lt;/td&gt;
+      &lt;td&gt;7.044亿美元&lt;/td&gt;
+      &lt;td&gt;6.719亿美元&lt;/td&gt;
+      &lt;td&gt;+4.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;广告与营销费用&lt;/td&gt;
+      &lt;td&gt;2.148亿美元&lt;/td&gt;
+      &lt;td&gt;2.006亿美元&lt;/td&gt;
+      &lt;td&gt;+7.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润&lt;/td&gt;
+      &lt;td&gt;9200万美元&lt;/td&gt;
+      &lt;td&gt;6970万美元&lt;/td&gt;
+      &lt;td&gt;+32.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净利润&lt;/td&gt;
+      &lt;td&gt;8050万美元&lt;/td&gt;
+      &lt;td&gt;6200万美元&lt;/td&gt;
+      &lt;td&gt;+29.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净利率&lt;/td&gt;
+      &lt;td&gt;2.4%&lt;/td&gt;
+      &lt;td&gt;2.0%&lt;/td&gt;
+      &lt;td&gt;+0.4个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;0.20美元&lt;/td&gt;
+      &lt;td&gt;0.14美元&lt;/td&gt;
+      &lt;td&gt;+42.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后EBITDA&lt;/td&gt;
+      &lt;td&gt;2.267亿美元&lt;/td&gt;
+      &lt;td&gt;1.833亿美元&lt;/td&gt;
+      &lt;td&gt;+23.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后EBITDA利润率&lt;/td&gt;
+      &lt;td&gt;6.8%&lt;/td&gt;
+      &lt;td&gt;5.9%&lt;/td&gt;
+      &lt;td&gt;+0.9个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后净利润&lt;/td&gt;
+      &lt;td&gt;1.488亿美元&lt;/td&gt;
+      &lt;td&gt;1.411亿美元&lt;/td&gt;
+      &lt;td&gt;+5.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;0.36美元&lt;/td&gt;
+      &lt;td&gt;0.33美元&lt;/td&gt;
+      &lt;td&gt;+9.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;自由现金流&lt;/td&gt;
+      &lt;td&gt;8950万美元&lt;/td&gt;
+      &lt;td&gt;1.059亿美元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-15.5%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;名词解释：调整后EBITDA 指剔除折旧摊销、股权激励、利息和税之后的利润，可以粗略理解为「主营业务本身的赚钱能力」；自由现金流指经营活动产生的现金减去资本开支，是公司真正能自由支配的钱。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;三组值得关注的对比&quot;&gt;三组值得关注的对比&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;第一组：经营利润+32%，但毛利率一动不动。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;毛利率30.4%，和去年同期完全持平。利润的改善全部来自费用端——销售及管理费用只涨了4.8%，明显慢于7.3%的营收增速。这说明 Chewy 这个季度的利润增长是&lt;strong&gt;省出来的，不是卖出来的&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二组：调整后EBITDA同比+23.7%，调整后净利润却只有+5.5%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这个巨大的落差值得拆开看，差额主要来自三处：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;折旧摊销&lt;/strong&gt;从3210万美元升至3970万美元，多花了760万——这是买诊所、建自动化仓库的后遗症&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;利息&lt;/strong&gt;从净收入390万美元变成净支出470万美元，一进一出swing了860万——这是新增5.9亿美元债务的代价&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;所得税&lt;/strong&gt;从1200万美元升至3140万美元，实际税率从16.2%跳到28.1%&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;一句话总结：&lt;strong&gt;EBITDA 层面很漂亮的改善，被折旧、利息和税吃掉了一大半。&lt;/strong&gt; 这正是「买买买 + 加杠杆」策略的账面反映。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三组：股权激励费用8590万美元 &amp;gt; 净利润8050万美元。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这个季度 Chewy 计入的股权激励及相关税费高达8590万美元，比整个季度的GAAP净利润还高。也就是说，如果不发这些股票，公司的账面利润能翻一倍多。这不是 Chewy 独有的问题（美股科技公司普遍如此），但对于一家净利率只有2.4%的零售商来说，这个比例格外扎眼。&lt;/p&gt;
+
+&lt;p&gt;好消息是公司在真金白银回购对冲——上半年回购了4亿美元股票，是去年同期1.526亿美元的2.6倍。A类流通股从年初的2.386亿股降至2.250亿股。&lt;/p&gt;
+
+&lt;h1 id=&quot;三经营指标用户还在增长但花钱变谨慎了&quot;&gt;三、经营指标：用户还在增长，但花钱变谨慎了&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;经营指标&lt;/th&gt;
+      &lt;th&gt;本季&lt;/th&gt;
+      &lt;th&gt;去年同期&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;活跃客户数&lt;/td&gt;
+      &lt;td&gt;2170.5万&lt;/td&gt;
+      &lt;td&gt;2090.6万&lt;/td&gt;
+      &lt;td&gt;+3.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;每位活跃客户年均消费（NSPAC）&lt;/td&gt;
+      &lt;td&gt;602美元&lt;/td&gt;
+      &lt;td&gt;591美元&lt;/td&gt;
+      &lt;td&gt;+1.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Autoship销售额&lt;/td&gt;
+      &lt;td&gt;28.172亿美元&lt;/td&gt;
+      &lt;td&gt;25.769亿美元&lt;/td&gt;
+      &lt;td&gt;+9.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Autoship占营收比重&lt;/td&gt;
+      &lt;td&gt;84.6%&lt;/td&gt;
+      &lt;td&gt;83.0%&lt;/td&gt;
+      &lt;td&gt;+1.6个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这张表透露的信息比营收数字更多：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;活跃客户+3.8%，但人均消费只涨1.9%。&lt;/strong&gt; 增长主要靠拉新，而不是靠老客户多花钱。考虑到通胀，人均消费1.9%的增长几乎等于零增长&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Autoship增速9.3%快于整体营收7.3%。&lt;/strong&gt; 订阅盘子在变得更结实，但反过来说，非订阅的一次性购买正在萎缩&lt;/li&gt;
+  &lt;li&gt;财报脚注还提示，2170.5万活跃客户里有约&lt;strong&gt;4.3万来自SmartPak收购&lt;/strong&gt;，而 Modern Animal 带来的客户尚未计入。剔除收购贡献，有机客户增长要比3.8%更低一些&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;管理层在电话会上把这个现象解释得很直白：消费者在优先保证「主粮和药品」，同时削减零食、拌粮这类可选品的开支。用一句话概括就是——&lt;strong&gt;狗还得吃饭，但狗的零食可以少买点。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;四亮点与隐忧&quot;&gt;四、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;三个真实亮点&quot;&gt;三个真实亮点&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 宠物医疗是本季最大的增长引擎。&lt;/strong&gt; Chewy Vet Care 实现三位数营收增长，鲜食与冷冻食品实现三位数销量增长，马匹/农场/异宠品类连续第七个季度实现中双位数同比增长。这些新业务的增速远超7.3%的整体增速，是拉动增长的真实来源。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 广告业务（Sponsored Ads）在贡献利润。&lt;/strong&gt; CFO 明确表示站内广告和站外广告今年都在增长，并预计这一顺风会延续到2027财年。电商平台把流量卖给品牌商，是毛利率最高的收入之一。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 成本结构确实在改善。&lt;/strong&gt; 公司披露超过50%的订单量已经流经自动化履约中心，AI客服助手 Kai 上线不到两个月就已经自助解决约30%的对话。管理层预计AI在2026财年节省「低两位数百万美元」，2027财年年化节省约5000万美元。&lt;/p&gt;
+
+&lt;h2 id=&quot;三个值得警惕的隐忧&quot;&gt;三个值得警惕的隐忧&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 超预期的利润里，有一大块是一次性的。&lt;/strong&gt; CFO 主动披露，本季利润超预期的部分里包含约&lt;strong&gt;1000万美元关税退款&lt;/strong&gt;和约&lt;strong&gt;500万美元礼品卡失效收入及库存调整&lt;/strong&gt;，并直言这些是「时点性和一次性项目」，不代表持续的利润率水平。&lt;/p&gt;
+
+&lt;p&gt;把这1500万美元剔除后，调整后EBITDA利润率大约是6.35%——&lt;strong&gt;恰好落回公司原本6.3%-6.4%的指引区间内&lt;/strong&gt;。换句话说，所谓「大幅超预期」，本质上是刚好达标。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 自由现金流同比下滑15.5%，这是最刺眼的数字。&lt;/strong&gt; 8950万美元的自由现金流对应资本开支4790万美元，同比暴增71.1%。公司还在为诊所网络和自动化仓库持续掏钱，短期内现金流很难改善。对于一家已经进入「盈利兑现期」的公司来说，利润在涨、现金反而在缩，是市场最不愿意看到的组合。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 管理层自己不看好行业复苏。&lt;/strong&gt; CEO Sumit Singh 在电话会上说，宠物市场只是「稳定在了Q1末的水平」，本季度&lt;strong&gt;并没有出现有意义的消费复苏&lt;/strong&gt;，而且全年指引里也没有假设复苏会到来。这句话等于提前给市场的乐观预期泼了冷水。&lt;/p&gt;
+
+&lt;h1 id=&quot;五指引与展望&quot;&gt;五、指引与展望&lt;/h1&gt;
+
+&lt;p&gt;Chewy 在电话会上给出了上调后的指引（新闻稿本身不含指引数字）：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指引项&lt;/th&gt;
+      &lt;th&gt;2026财年Q3&lt;/th&gt;
+      &lt;th&gt;2026财年全年&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收&lt;/td&gt;
+      &lt;td&gt;33.23亿-33.58亿美元&lt;/td&gt;
+      &lt;td&gt;134.6亿-135.7亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;同比增速&lt;/td&gt;
+      &lt;td&gt;+6.6%至+7.7%&lt;/td&gt;
+      &lt;td&gt;+6.8%至+7.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;有机增速（剔除收购）&lt;/td&gt;
+      &lt;td&gt;+5.3%至+6.2%&lt;/td&gt;
+      &lt;td&gt;+5.5%至+6.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后EBITDA利润率&lt;/td&gt;
+      &lt;td&gt;6.6%-6.7%&lt;/td&gt;
+      &lt;td&gt;6.7%-6.8%（此前6.6%-6.8%）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;约0.39美元&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;其他细节：全年资本开支占营收的1.5%-2%，加权平均摊薄股本约4.10亿股，净利息支出1000万-1500万美元，实际税率24%-26%，下半年还有中个位数百万美元的燃油成本逆风。按中值算，全年调整后EBITDA约9.12亿美元，同比扩张超过100个基点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么理解这份指引？&lt;/strong&gt; 表面上是上调，实际上是把区间下沿抬高、上沿不动——从6.6%-6.8%变成6.7%-6.8%，这叫「收窄并上调」，更多是把已经确定的东西确认掉，而不是打开新的上升空间。同时Q3利润率指引6.6%-6.7%比本季的6.8%要低，CFO也说了毛利率会环比回落。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;这份财报可以概括成一句话：&lt;strong&gt;Chewy 的生意本身没有问题，问题在于市场愿意为「7%的增长」付多少钱。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;好的一面是，订阅占比84.6%的模式极其稳固，宠物医疗和广告两条新曲线增速远超主业，AI和自动化带来的降本是真实可量化的。坏的一面是，人均消费只涨1.9%、可选消费在收缩、自由现金流在下滑、超预期的利润里掺着一次性收入，而管理层自己都说今年不指望消费复苏。&lt;/p&gt;
+
+&lt;p&gt;11%的跌幅并不是对这个季度的否定，而是对&lt;strong&gt;「增长曲线什么时候能重新加速」这个问题给不出答案&lt;/strong&gt;的定价。接下来值得跟踪的三件事：Modern Animal 的47家诊所能不能跑出单店模型、AI节省的5000万美元有多少能真正沉淀为利润（管理层已经提示会被工资通胀抵消一部分）、以及资本开支高峰过去后自由现金流何时回正增长。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手信息（原文）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chewy 官方新闻稿：&lt;a href=&quot;https://investor.chewy.com/news-and-events/news/news-details/2026/Chewy-Announces-Second-Quarter-2026-Financial-Results/default.aspx&quot;&gt;Chewy Announces Second Quarter 2026 Financial Results&lt;/a&gt;（2026年9月9日）&lt;/li&gt;
+  &lt;li&gt;SEC EDGAR 8-K 附件99.1原文（含完整三大报表与非GAAP调节表）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001766502/000162828026061011/chwyq22026exhibit991.htm&quot;&gt;chwyq22026exhibit991.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;SEC EDGAR 10-Q（2026年8月2日止季度）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001766502/000162828026061018/chwy-20260802.htm&quot;&gt;chwy-20260802.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Chewy 收购 Modern Animal 官方公告：&lt;a href=&quot;https://investor.chewy.com/news-and-events/news/news-details/2026/Chewy-to-Acquire-Modern-Animal-Accelerating-Evolution-to-a-Fully-Integrated-Healthcare-Ecosystem/default.aspx&quot;&gt;Chewy to Acquire Modern Animal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2026财年Q2业绩电话会实录（指引数字与管理层引述出处）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-chewy-posts-steady-q2-2026-results-as-shares-fall-premarket-93CH-4893739&quot;&gt;Investing.com Earnings Call Transcript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（用于补充分析师预期与股价反应）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://247wallst.com/investing/2026/09/09/chewy-sinks-11-as-free-cash-flow-miss-overshadows-raised-outlook-petco-falls-6-freshpet-ticks-up/&quot;&gt;Chewy Sinks 11% as Free Cash Flow Miss Overshadows Raised Outlook — 24/7 Wall St.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/investing/2026/09/09/why-chewy-stock-is-sinking-today/&quot;&gt;Why Chewy Stock Is Sinking Today — The Motley Fool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 10 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/10/chewy_fy2026q2_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/10/chewy_fy2026q2_earnings/</guid>
+        
+        <category>Chewy</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.09</title>
@@ -1401,325 +1891,6 @@
         
         
         <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.09.05</title>
-        <description>&lt;p&gt;今天这份榜单看下来，有条线索格外清楚：几个来自完全不同板块的帖子，其实都在描述同一个位移——AI 并没有让工作量凭空消失，它只是把工作从「产出」那一端，整体挪到了「核对」这一端。而挪动之后，成本落在谁头上、谁又只看得见速度，就成了矛盾的全部来源。最后两帖是换口气的：一个关于人怎么和自己的完美主义相处，一个关于把一亿多篇论文摊平了看是什么样。&lt;/p&gt;
-
-&lt;h2 id=&quot;一经理绕开整个团队用-ai-单干出了第三套系统&quot;&gt;一、经理绕开整个团队，用 AI 单干出了第三套系统&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w70b6d/manager_now_does_solo_things_without_informing_or/&quot;&gt;Manager now does solo things without informing or consulting with the team&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;发帖人所在的不是科技公司，公司刚刚全面拥抱 agentic coding。他的顶头上司是个五十岁、不写代码的数据库出身的经理，第一时间就被这套东西说服了。公司有个多年的祖传内部工具，外包用 SAP 堆出来的，改一行都是噩梦，团队一直在谈重做；因为安全和治理的要求，最后拍板必须用 Power Apps 做——发帖人提过自己能直接写个网站，被这条理由驳回了，于是他利用零碎时间在 Power Apps 里搭了一堆模块化的基础件。结果某天，经理「自己做」了一个网站出来，还顺手做了分类和用户管理这些 Power Apps 那边已经有的页面。现在公司同时有三套竞争的方案：大家在用的老系统、他在旁边搭的 Power Apps、以及经理 vibe code 出来的新东西。&lt;/p&gt;
-
-&lt;p&gt;他反复强调，自己真正的意见不是「这是 AI 写的」，而是整个过程没有任何团队参与：没讨论过要加什么、怎么和现有东西对接、旧的 Power Apps 怎么办、以后谁维护。评论区几乎是一边倒地认同这个区分。排在最前面的一条回复把问题定位得很准：写出一个应用从来都不是难点，难的是确认它符合真实用途、以及之后还维护得动；公司越大，「在真空里写个 app 有多容易」和「在一堆约束里做成这件事有多难」之间的落差就越大——而这正是经理这个岗位本该理解的事。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Writing an application has never been an issue. What is an issue is making sure it fits the purpose and that it can be maintained afterwards.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/drnullpointer，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w70b6d/manager_now_does_solo_things_without_informing_or/p7r30sj/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;串里最有解释力的一条，是给这件事找到了旧名字：vibe coding 本质上是生产影子 IT（Shadow IT）的一条新路径，而这个问题一点都不新——过去很多人的工作就是去抢救那些在规模上崩掉的影子 IT 系统，接下来大概率还要再来一轮。同一条回复还补了句很毒的预测：正当公司觉得自己可以不要开发者的时候，它会发现自己真的、真的很需要他们。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Yeah, vibe coding is basically a new way to create Shadow IT. It’s not a new problem.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/OddAthlete3285，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w70b6d/manager_now_does_solo_things_without_informing_or/p7rl5br/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;另一条我很喜欢的观察，是把 AI 当成人格放大器来看：本来就爱微管理的老板，现在终于能微管理到底；本来就爱抢活的人，现在真的能一个人抢完；本来就爱过度承诺的产品经理，现在承诺的东西还能点得动。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“AI enhances personality “quirks”. If your boss was a bit of a micro-manager before, now Claude really lets them be.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/rwilcox，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w70b6d/manager_now_does_solo_things_without_informing_or/p7r7lh7/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;发帖人自己的应对策略是「你要单干就单干到底」——他打算等更难的需求滚进来时，让经理自己交付全部。串里也有位当了十年管理的工程经理出来说了句公道话：用 LLM 过一把开发瘾没问题，但提想法、做 demo，和把一坨绕过了你自己定的流程规范的代码塞进生产环境，是两码事。&lt;/p&gt;
-
-&lt;p&gt;我觉得对国内读者最有用的一点是：不要把这类冲突框成「AI 写的代码好不好」。发帖人被驳回时的理由是安全与治理，经理绕过流程时却没人拿同一把尺子量他——AI 只是让这种双标的执行成本变成了零。真正值得写进团队规范的，不是禁不禁 vibe coding，而是「谁维护」和「怎么接入」这两个问题必须在动手前有答案，无论代码是谁写的、用什么写的。&lt;/p&gt;
-
-&lt;h2 id=&quot;二白领为什么开始反感-ai一笔核对成本的账&quot;&gt;二、白领为什么开始反感 AI：一笔核对成本的账&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w7aksn/why_office_workers_are_turning_against_ai/&quot;&gt;Why office workers are turning against AI&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一篇媒体报道的转帖，讨论办公室工作者对 AI 的态度转向。原帖没有正文，全部内容都在评论区，而评论区意外地扎实——它没有停留在骂，而是相当一致地把不满归因到一个具体的地方：验证成本。第一条高赞就一句话——什么都要复查，时间就是这么浪费掉的。后面有人把这句话量化成了一个公式：原本要 X 时间的活，用 AI 半个 X 就能做完，然后要花 2X 去复查和收拾。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The task that used to take X amount of time can be done in 1/2X with AI but then requires 2X to double-check and un-fuck.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Ill_Following_7022，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w7aksn/why_office_workers_are_turning_against_ai/p7tmz7g/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;串里争得最久的是那个流行比喻：AI 像个实习生。有人说它像个什么都做错、还永远学不会的实习生——而当年新人之所以值得投入，恰恰是因为他们最终会长大、不再犯蠢，从来不是因为他们当下的成本结构划算。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It’s like an intern who does everything incorrectly and never learns, those new peoples were only useful because they eventually grow up and stops being stupid, not because their cost structure was positive.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/graypasser，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w7aksn/why_office_workers_are_turning_against_ai/p7tknr4/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;但底下有条补充比这个比喻更值得记：人类新人的错误是可预测的。你了解他，你自己也当过新人，你们共用一套人脑，所以你大概知道他会在哪一步卡住、该重点检查哪里；AI 的错误则是随机的、稳定地不稳定，而且是人脑不会犯的那种错，反而更难被发现。这条把「验证成本为什么这么高」讲透了——不是错得多，是错得没有规律。也有人干脆反对这个类比本身，说自己每天离不开 AI、觉得它极其有用，但仍然坚持它不是实习生，连最笨的实习生都不是。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“AI on the other hand, random errors, consistently inconsistent and error the human brain would not do making it harder to recognise.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/nilssonen，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w7aksn/why_office_workers_are_turning_against_ai/p7upz4d/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;不过这个串最让我意外的，是它并没有滑向一边倒。往下翻，有位开发者贴出了自己八月份的真实账：花在 Claude 上一千二百美元，完成了 47 个 story point，而他公司里 1 个 point 约等于 1 个人天，他 AI 之前的软性预期是每月 16 个点——也就是说公司花一千二买到了「两个多的他」，而且每一行合进主干的代码都还过了他自己的眼。他同时承认，自己现在几乎整天都在给模型「掌舵」，这已经不是二十年前让他爱上的那份工作了。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I spent right at $1200 on claude (not the biggest number anyone’s seen).”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Deranged40，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w7aksn/why_office_workers_are_turning_against_ai/p7u6cm5/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;把这两半放在一起看，结论其实不矛盾：AI 在「有人愿意为结果负最终责任」的地方能算出正收益，在「没人对结果负责」的地方就是纯粹的成本转嫁。串里另一条把后者说得很难听但很准——很多中层要的根本不是结果，是「省下时间」这件事本身；至于省下来干什么，大概是去找更多可以省时间的地方。这也提醒我们，讨论 AI 提效时，第一个该问的问题不是「快了多少」，而是「谁在做最后那道检查、他有没有时间做」。&lt;/p&gt;
-
-&lt;h2 id=&quot;三统计系学生问我的学位会被-ai-作废吗&quot;&gt;三、统计系学生问：我的学位会被 AI 作废吗&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1w71rdo/q_is_my_degree_useless_because_of_ai/&quot;&gt;[Q] Is my degree useless because of AI?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;提问很简短：一个统计与数据科学专业的学生，担心未来的 AI agent 能高效地合成数据、跑模型，导致初中级数据科学岗位大幅萎缩，想知道走向 AGI 的路上量化岗位的需求会怎么变。这类问题在中文社区也年年有人问，但这个串的价值在于，回答它的人几乎全是一线从业者，而且他们内部还吵了一架。&lt;/p&gt;
-
-&lt;p&gt;第一条高赞先给了个温和的答案：清洗数据、跑基础模型这些体力活当然会被自动化，但这事已经发生很多年了；真正难的一直是知道该问哪个问题、以及判断答案到底有没有意义，而业务方在这两件事上都很糟糕。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The hard part has always been knowing &lt;em&gt;which&lt;/em&gt; question to ask and whether the answer means anything, and business people are terrible at both.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/New_Molasses7766，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1w71rdo/q_is_my_degree_useless_because_of_ai/p7rcri8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;有意思的是，这条回复里「数据清洗会被自动化」的那半句立刻遭到了围攻，而且反对者的火力比回答原问题时还猛。有人说，认为在受治理的规范 schema 里搭出可靠、可扩展的 ETL 管线能被轻易自动化的人，是完全没概念；也有人举了自己做过的例子：把一个州立医院系统里 17 个分区各自的 Oracle 库迁到一个 SQL Server，业务专家是位护士，还要求把一对多关系转成多对一，另外得调外部程序判断两个病人是不是同一个人——因为真有两个同名同生日的人。这类活的难点从来不在写代码。&lt;/p&gt;
-
-&lt;p&gt;最精确的一条来自 u/wintermute93：如今把一堆脏数据变干净的「魔法」工具很多，但魔法用得越多，结果里藏着某种细微错误的概率就越大，而发现并修正这些错误的工作量，往往和你自己老老实实清一遍差不多。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The trouble is, the more magic involved, the more likely the result is somehow slightly wrong, and often detecting/correcting those errors is just as much effort as doing the cleaning yourself.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/wintermute93，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1w71rdo/q_is_my_degree_useless_because_of_ai/p7rw1sq/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;串的末尾还有个不错的小争论。有人反问：既然医疗数据要求质量和一致性，那用确定性的自动化管线不正是最该走的路吗？回答是——基于规则的清洗是老一套了，医疗数据出错的方式实在太多，你会需要海量规则，然后被维护规则这件事耗死。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Rule based data cleaning is old school. There are so many ways healthcare data can be incorrect that you will need hugh amount of rules and be exhausted on maintaining them.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Efficient_Piano3799，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1w71rdo/q_is_my_degree_useless_because_of_ai/p7vylet/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;把这串和前两帖并排读，会发现它们其实在说同一句话：能被自动化的部分早就在被自动化了，剩下来的那部分之所以剩下来，是因为它需要在具体情境里判断「这个结果可不可信」。给还在读书的朋友一个实际建议：与其焦虑学位会不会作废，不如刻意去练那些串里被反复点名的能力——把模糊的业务问题翻译成可回答的统计问题，以及闻出一份漂亮报表哪里不对劲。这两样目前没有任何工具能替你做，而且恰恰是「验证」环节的核心技能。&lt;/p&gt;
-
-&lt;h2 id=&quot;四干了十年卡在自己的完美主义里&quot;&gt;四、干了十年，卡在自己的完美主义里&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w75opr/hitting_a_wall/&quot;&gt;Hitting a wall&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一位工作快十年的工程师写了篇很长的自述。他被委以越来越复杂、要考虑大量边界情况的设计工作，从去年底开始，几乎每周都会陷入一个循环：设计完、评审过、自测也没问题，但几天或几周后总会冒出一个当初没想到的边界情况，或是一个测试时没出现的 bug。然后他就彻底崩了——熬夜找方案，找不到就第二天带着内心的恐慌去问 lead。事情最后基本都能解决，但那股焦虑会让他下班后无法放松、和人相处时无法在场，有时甚至失眠。他说自己开始怀疑这行是不是不适合他，而且明确点出压力的一个新来源：AI。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“My job has also gotten a lot more stressful because of AI. Management thinks it’ll help us become massively more productive, which isn’t even that true.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/findingtheyut（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w75opr/hitting_a_wall/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他解释得很具体：管理层相信 AI 能带来巨大提效——这本身并不怎么成立——但「它能」这个信念已经让年度考核变严了；同时团队被塞进了 AI 赛道，客户的要求一次比一次快。这段刚好从个体视角印证了上一帖的账：验证成本落在他身上，提效的预期却落在考核表上。&lt;/p&gt;
-
-&lt;p&gt;评论区最好的部分是一群老兵集体现身说法，而且他们没有说空话，是直接交代自己的失误记录。一位从业二十五年的回复者说，他共事过的每一位专家级工程师都漏过边界情况，而且不止一次，几乎每个人都造成过生产事故——重点从来不是不犯，而是怎么处理。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Every single one has missed an edge case, more than one in fact. Probably every single one has caused a production incident.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/couchjitsu，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w75opr/hitting_a_wall/p7sb2ip/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;紧接着的一条把这件事说得更漂亮：他的团队犯过非常、非常昂贵的错误，而他们恰恰因为处理这些错误的方式，成了公司里最受认可和尊重的团队之一。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“My team has made very, very expensive mistakes. We are one of the most well received and respected teams because of how we deal with those mistakes.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/HatesBeingThatGuy，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w75opr/hitting_a_wall/p7sh54n/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;后半段的讨论从技术转向了人。发帖人承认自己是重度完美主义者，团队眼里他是明星员工，而他觉得自己得靠「不出错」维持这个人设。有人劝他把「管理层的震怒」重新表述成「管理层在问我进度」；也有人指出，他其实有耗时的爱好、也定期见朋友，工作的情绪还是渗进来了，说明问题不在时间分配上。串里最狠也最有用的一句是：我反复要重新学的一课是，我的问题是我自己的问题，不是工作的问题——换个工作、做点别的重大人生决定，能分散注意力一阵子，然后它还会回来。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“A hard lesson I keep having to re-learn is that my issues are my issues, not my work’s issues.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/mq2thez，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1w75opr/hitting_a_wall/p7sb55i/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这帖读起来很像我们身边很多人的状态：能力越强被派的活越难，活越难漏掉的东西越多，而漏掉的东西又反过来喂养「我不够好」的判断。我想补一句串里没人明说的话——发帖人描述的那个「循环」，其实是个信号良好的工程师应有的反应，只是被放在了没有事故复盘文化的环境里。判断一家公司值不值得留，有个很省事的标准：出事之后，第一句话是「怎么发生的」还是「谁干的」。这个区别，比薪资和技术栈都更能决定你十年后的状态。&lt;/p&gt;
-
-&lt;h2 id=&quot;五把-1376-亿篇论文按引用画成一张地图&quot;&gt;五、把 1.376 亿篇论文按引用画成一张地图&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w74hjm/oc_i_mapped_1376_million_scientific_papers_by/&quot;&gt;[OC] I mapped 137.6 million scientific papers by their citations&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;换点轻松的。有人把 137,607,184 篇科学论文和它们之间 2,706,467,548 条引用关系画成了一张图。这张图最漂亮的地方在于它的克制：唯一的输入是「谁引用了谁」，没有任何学科标签参与布局计算，颜色只是事后涂上去的——所以图上那些清晰的学科版块，是算出来的结果，不是预设的前提。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“No discipline labels went into the layout, so the disciplinary structure you can see is the result, not an input.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/PaperNexus（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w74hjm/oc_i_mapped_1376_million_scientific_papers_by/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;作者对这张图的说明里有一句我很喜欢的话：这个布局没有固定的方位，整体旋转或镜像都不会改变底下的结构——版图是稳定的，指南针不是。他还特意解释，图像边缘那圈淡淡的光晕不是渲染瑕疵，而是那些只有一两条引用连接的论文：被邻居微弱地拉着，同时被其余所有论文推向外围。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The layout has no fixed frame: it can rotate or reflect without changing the underlying structure. The territories are stable; the compass isn’t.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/PaperNexus（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w74hjm/oc_i_mapped_1376_million_scientific_papers_by/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;方法上他交代得很干净：引用边主要来自 Semantic Scholar 的学术图谱，学科分类来自 OpenAlex（把 26 个 ASJC 学科组合并成 8 个大类上色），两边做了实体消解后拼接；布局用的是 2016 年的 LargeVis，为了跑这个量级他改了个自己的分支，实体消解和图构建在 AWS Athena 上做，渲染是 NumPy 加 Pillow 的自写代码。评论区还有个挺可爱的小插曲：有人问图上侧边那两座红色和紫色的孤岛是什么，另一位回复说想查得付费，作者随即承认是自己刚上线的功能对新用户设置有误，当场给新用户补了免费次数。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“You’re right, sorry about that, I just launched this feature and I made a mistake with new users.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/PaperNexus（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w74hjm/oc_i_mapped_1376_million_scientific_papers_by/p7ul3z2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;「版图是稳定的，指南针不是」这句话，其实可以从图里拎出来当今天的收尾。前面四个帖子吵的都是同一片版图——工作到底由什么构成、价值到底在哪一段——而 AI 只是换了指南针的指向。图上那圈只有一两条引用的光晕也很有意思：任何一个领域里，大部分工作都是那样被推向边缘的，能不能进到中间，靠的从来不是产出速度，是有多少人愿意引用你。&lt;/p&gt;
-</description>
-        <pubDate>Sat, 05 Sep 2026 09:30:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/05/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/05/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.09.05</title>
-        <description>&lt;h2 id=&quot;115-claude-用-11-天完成费马大定理首个端到端机器核验形式化证明&quot;&gt;1/15 Claude 用 11 天完成费马大定理首个端到端机器核验形式化证明&lt;/h2&gt;
-&lt;p&gt;Anthropic 称 Claude 在 Prove2Me 协作平台与多 Agent harness 支持下，主要自主工作 11 天，写出约 1,300 万行 Lean，并在最终证明中使用 29,500 个中间定理；Lean 已从标准公理出发核验整条证明链。成果形式化的是 Wiles 路线的简化版本，不是发现新的费马大定理证明；它展示的是把人类数学转成可机检代码的规模跃升。项目消耗约 60 亿输出 token，人工仍提供少量高层优先级指引。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AnthropicAI/status/2095947707605266436&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AnthropicAI&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;215-nvidia-专项-nemotron-在-ioi-2026-非正式赛测中超过最高人类得分&quot;&gt;2/15 NVIDIA 专项 Nemotron 在 IOI 2026 非正式赛测中超过最高人类得分&lt;/h2&gt;
-&lt;p&gt;NVIDIA 团队以 2.2 万道精选题训练 Nemotron-3-Nano-CC 与 Ultra-CC，并用 GenCorrect 在测试时生成、评估和修正多组方案。论文报告 Ultra-CC 在 IOI 2026 赛场旁路评测中得 535.4/600，高于金牌线 361.12 与最高人类选手 498.27；系统无互联网、采用同样时限和提交约束，但属于非正式参赛且使用竞赛专项后训练与系统编排，不能直接外推为通用软件工程能力。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/NVIDIAAI/status/2096032566310789528&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;315-microsoft-把-mai-image-26-与低延迟-flash-版带入-foundry-公测&quot;&gt;3/15 Microsoft 把 MAI-Image-2.6 与低延迟 Flash 版带入 Foundry 公测&lt;/h2&gt;
-&lt;p&gt;MAI-Image-2.6 系列现已进入 Microsoft Foundry Public Preview，支持最多五张参考图、多图编辑、Web grounding、动态宽高比和最高约 1.5K 输出。Microsoft 称 Flash 相比 GPT-Image-2-Medium 生成速度快 2.8 倍、资源效率高 72%，适合高吞吐生产；旗舰版偏重最终质量。排行榜、速度与效率数字来自厂商及上线时点的第三方榜单，实际价格、文字渲染和一致性仍需按工作负载复验。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mustafasuleyman&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/mustafasuleyman/status/2095907880209641517&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@mustafasuleyman 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/mustafasuleyman/status/2095909700088779005&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@mustafasuleyman 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;415-github-copilot-预览-hydrafusion让多模型按任务选择单跑级联或交叉批评&quot;&gt;4/15 GitHub Copilot 预览 HydraFusion，让多模型按任务选择单跑、级联或交叉批评&lt;/h2&gt;
-&lt;p&gt;HydraFusion 把一次编码请求建模为运行时编排：简单任务交给单模型，复杂任务先由低成本模型起草并经质量门升级，或让不同模型家族分别起草、只读批评再修订。GitHub 内部离线评测称其在 TerminalBench 2.1 相对 Claude Opus 5 提高 4.9 个百分点，同时估算成本低 67%。它已通过 Copilot CLI 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/experimental&lt;/code&gt; 向全部套餐开放，但仍是首轮、单提示任务优先的研究预览，结果与行为可能变化。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@satyanadella&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/satyanadella/status/2095912050535059918&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@satyanadella 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/satyanadella/status/2095912052472861085&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@satyanadella 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;515-google-将-lyria-35-扩至-gemini-app-与-api最长可生成三分钟音乐&quot;&gt;5/15 Google 将 Lyria 3.5 扩至 Gemini App 与 API，最长可生成三分钟音乐&lt;/h2&gt;
-&lt;p&gt;Google 把 7 月先在 Flow Music 上线的 Lyria 3.5 扩展到 Gemini App、Gemini API、AI Studio 与 Google Vids。新入口支持选择或描述曲风、有人声或纯音乐、短曲或长曲，也可由图片生成配乐；Google 称新版提升编曲、歌词遵循、声音表现和音频保真度。所有生成音轨嵌入 SynthID 水印；官方模型卡同时承认质量与创意控制仍需用户检查。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GoogleDeepMind/status/2095908028599968076&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;615-perplexity-公开-ivytuliprose-三层-gpu-检索推理栈&quot;&gt;6/15 Perplexity 公开 Ivy、Tulip、ROSE 三层 GPU 检索推理栈&lt;/h2&gt;
-&lt;p&gt;Perplexity 披露搜索答案生成前的 embedding 与 ranking 服务：Ivy 以 Rust HTTP 处理解析、分词和大批次拆分；Tulip 以 Rust gRPC 聚合请求，用 CUDA Graph 与异步 LazyTensor 降低 CPU/GPU 空转；ROSE 负责模型前向与内核选择，embedding 路径跳过 KV cache 并使用 ragged attention。该架构同时服务吞吐优先的离线索引与延迟优先的在线查询；“SoTA、降本提速”目前是公司自测结论，未给出统一外部复现实验。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@perplexity_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2095984677463191607&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/perplexity_ai/status/2095984795629265124&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@perplexity_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;715-cohere-汇总-696-万个-agent-工具只有-26-可独立完成职业任务&quot;&gt;7/15 Cohere 汇总 69.6 万个 Agent 工具，只有 2.6% 可独立完成职业任务&lt;/h2&gt;
-&lt;p&gt;Cohere Labs 从七个公共目录收集 123,069 个 MCP server、696,291 个工具，再将工具描述映射到 O*NET 职业任务。严格要求工具必须端到端执行任务、而非只提供信息或完成一个环节时，约 2.6% 通过；可识别部分主要集中在软件与 IT、Agent 基础设施及管理 Agent 的新工作。样本不含大量企业私有 MCP，因此 2.6% 更适合作为公共生态下限，而不是全社会自动化比例。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cohere/status/2095904551471554624&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cohere/status/2095904552830578695&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;815-gpt-6-astra-从限量发布转入广泛可用并迅速进入多家平台&quot;&gt;8/15 GPT-6 Astra 从限量发布转入广泛可用，并迅速进入多家平台&lt;/h2&gt;
-&lt;p&gt;OpenAI 宣布 Astra 已向 ChatGPT Work、Codex 的 Pro、Enterprise、Business Premium 用户和 API 开放，随后又称 Plus 与 Business rollout 已完成；GPT-6 Pro 也覆盖 Pro、Business、Enterprise。Perplexity Computer 面向 Pro/Max 接入，Databricks Unity Gateway 提供 day-zero 托管并沿用治理、审计和成本控制。相比昨日的发布信息，今天新增的是可用范围落地；伙伴方 OfficeQA 等质量结论仍属内部评测。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/OpenAI/status/2095968413646737608&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenAI&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/sama/status/2096008528834244741&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@sama&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/perplexity_ai/status/2096006336786133366&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@perplexity_ai&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2095991985219764494&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;915-astra-早期实测同时显示长链执行力与研究品味缺口&quot;&gt;9/15 Astra 早期实测同时显示长链执行力与研究品味缺口&lt;/h2&gt;
-&lt;p&gt;Ethan Mollick 让 Astra 把 1977 年文字冒险 Zork 改成可玩的 Three.js 3D 游戏，称模型保留原剧情与谜题并自行制作角色和环境；另一项预注册创业研究实验则得到技术正确、非 p-hacking、但选题乏味的论文。Matt Shumer 的“模拟中的模拟”展示 Agent 在给定计算机环境中继续写出子模拟，他也承认设定具有引导性。案例说明长链构建能力提升，但输出仍高度依赖 harness、权限、提示与人类对目标价值的判断。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2096047660662722620&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2095717185200988439&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/mattshumer_/status/2096034353344139519&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mattshumer_&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1015-databricks-用模型与-harness-动态路由控制编码-agent-成本&quot;&gt;10/15 Databricks 用模型与 harness 动态路由控制编码 Agent 成本&lt;/h2&gt;
-&lt;p&gt;Databricks 表示，团队不应只固定选择一次便宜模型，而应持续评测质量与价格、保留多模型和多 harness 可替换性，并减少系统提示、工具输出等 token 开销。其 Smart Routing 会按任务选择最低成本的合格模型，Omnigent 还可跨 Claude Code、Codex 等 harness 路由；公司内部测试称平均任务成本降低逾 30%，质量大致匹配候选集最贵模型。功能仍为 Beta，且需对全部候选模型有执行权限。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2095874637695422607&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1115-nvidia-给出推测解码五条硬件协同准则强调接受长度不等于真实加速&quot;&gt;11/15 NVIDIA 给出推测解码五条硬件协同准则，强调接受长度不等于真实加速&lt;/h2&gt;
-&lt;p&gt;NVIDIA 将推测解码拆为 draft length、接受长度、验证开销与 draft 成本的联合优化：提高 draft 长度可让 GEMM 更接近计算饱和，但 attention 主导时建议从 D=128/G−1 起步，并对齐 128 的 kernel tile；低延迟场景只在接受收益覆盖额外 draft 开销时继续加长。文章比较外部小模型、MTP、EAGLE-3、DFlash、DSpark 与 n-gram，要求在真实 workload 上同时测接受率和端到端吞吐。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2095916654081487339&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2095927174025118129&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1215-llamaindex-称文档抽取价格与准确率没有单调关系&quot;&gt;12/15 LlamaIndex 称文档抽取价格与准确率没有单调关系&lt;/h2&gt;
-&lt;p&gt;LlamaIndex 在 370 份企业文档上比较 14 个系统，再将准确率与每页成本放在同一图中。其内部结果称 Agentic Plus 准确率最高，成本不到第二名三分之一，Cost Effective 等低价档也经常超过更昂贵方案。该结论延续 ExtractBench 对字段级抽取的评估，但测试集、计费折算和产品 tier 都由供应商维护；选型时仍应使用自有合同、票据和长文档重跑，并分别观察字段 F1、延迟与失败恢复。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/llama_index/status/2095915704696340747&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@llama_index&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1315-replit-mcp-把外部-agent-接入应用创建更新与状态查询&quot;&gt;13/15 Replit MCP 把外部 Agent 接入应用创建、更新与状态查询&lt;/h2&gt;
-&lt;p&gt;Replit 介绍通过 MCP 从外部客户端远程驱动 Replit Agent。官方 beta server 使用 Streamable HTTP 与 OAuth 2.1/PKCE，公开 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create_app_from_prompt&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;update_app_using_prompt&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ask_question&lt;/code&gt; 三类工具；创建与更新为异步流程，调用方需保存 replId 和 replUrl 继续追踪。它把“从任何 Agent 操作 Replit”变成标准协议入口，但超时不等于任务失败，客户端必须避免盲目重试造成重复构建。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Replit/status/2095905074556072159&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Replit&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1415-runway-推出-29-席位-team-plan以共享额度组织生成与-agent-工作&quot;&gt;14/15 Runway 推出 2–9 席位 Team Plan，以共享额度组织生成与 Agent 工作&lt;/h2&gt;
-&lt;p&gt;Runway 的新自助 Team Plan 面向 2–9 人小团队，把席位纳入统一的 pooled credit balance，并提供 shared projects、评论、Agent skills 与 Agent Connectors。产品把个人创作工具向小团队协作与统一计费推进，减少逐席位额度碎片；公告未披露不同生成模型的实际消耗、权限粒度或 connector 数据边界，采购前仍需根据视频、世界模型和 Agent 工作量核算额度与访问控制。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/runwayml/status/2095918249674215599&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@runwayml&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1515-andrew-ng-发布-ai-engineering-skills-map强调编码-agent-时代的系统能力&quot;&gt;15/15 Andrew Ng 发布 AI Engineering Skills Map，强调编码 Agent 时代的系统能力&lt;/h2&gt;
-&lt;p&gt;Andrew Ng 公布面向编码 Agent 的 AI Engineering Skills Map，将有效使用 Agent 所需能力从“会提示”扩展到任务拆解、上下文与规范管理、工具连接、验证、调试、评测和安全边界。该内容主要是教学框架而非模型 benchmark，但高互动反映行业关注点正从单次代码补全转向可重复的工程流程：Agent 能写多少代码之外，团队如何定义验收、保存决策并审查外部动作，正在成为交付质量的主要变量。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AndrewYNg/status/2095890279865721217&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AndrewYNg&lt;/a&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;claude-形式化费马大定理验证规模突破依赖可分解可复用的-agent-协作图&quot;&gt;Claude 形式化费马大定理：验证规模突破依赖可分解、可复用的 Agent 协作图&lt;/h3&gt;
-&lt;p&gt;Claude 最初的尝试因 Agent 逐渐丢失项目状态和协作失效而失败，成功版本改用 Prove2Me：把待证定理维护为有向无环图，将 statement 与 proof 分文件编译，并为每条定理保留自然语言描述以支持搜索复用。几十个 Agent 在 Claude Code harness 中并行填充证明节点，11 天生成约 1,300 万行 Lean、30,300 个已证定理，其中 29,500 个进入最终证明；失败尝试仍贡献约 7% 的非模板代码。Lean 最终核验根节点只依赖三条标准公理，比较器确认命题与 Mathlib 的 FLT 陈述一致。项目使用约 60 亿输出 token、内部研究模型能力约等于 Claude Fable 5.1，并接受 Tianyi Peng 少量高层调度。它把“证明发现”和“证明形式化”区分开：价值在于大规模机器核验与未来审稿负担，而非取代可读的人类数学解释。
-&lt;a href=&quot;https://www.anthropic.com/research/formalizing-fermats-last-theorem&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;nemotron-ioi-系统专项后训练反馈修正与竞赛约束共同塑造-5354-分&quot;&gt;Nemotron IOI 系统：专项后训练、反馈修正与竞赛约束共同塑造 535.4 分&lt;/h3&gt;
-&lt;p&gt;论文以 2.2 万道精选竞赛题构建专项数据，训练 30B-A3B 的 Nemotron-3-Nano-CC 与 550B-A55B 的 Ultra-CC；Nano 同时使用 SFT 与 RL，Ultra 主要使用 SFT。GenCorrect 在测试时生成多样解、运行评估并迭代修正，把 Nano 在 IOI 2025 的 130 分提升到 468，Ultra 达 502。针对 IOI 2026 的 Ultra-CC 系统在乌兹别克斯坦与正式比赛并行、受国际技术委员会监督，使用同样时间、无互联网与提交限制，得 535.4/600，高于最高人类 498.27。结果证明专项系统已能在顶级竞赛条件下达到极高水平，但模型规模、题目策划、测试时计算和竞赛 harness 都是成绩组成部分；“超过最高选手”不等于对真实代码库、协作开发或需求理解的普遍胜出。
-&lt;a href=&quot;https://arxiv.org/abs/2609.02849&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;mai-image-26旗舰质量与-flash-吞吐被拆成同一家族的两档服务&quot;&gt;MAI-Image-2.6：旗舰质量与 Flash 吞吐被拆成同一家族的两档服务&lt;/h3&gt;
-&lt;p&gt;MAI-Image-2.6 面向最终商业素材和高精度编辑，Flash 面向交互、批量变体与自动化流水线；两者都支持多参考图、Web grounding、动态宽高比与最高约 1.5K 输出。Microsoft AI 页面称旗舰版上线时在 Arena 的文生图和编辑均列第二，在 Artificial Analysis 文生图第二、编辑第一；Flash 相对 GPT-Image-2-Medium 快 2.8 倍，资源效率高 72%。Foundry 文章给出的起步价为旗舰每百万文本输入、图片输入、图片输出 token 5/8/38 美元，Flash 为 1.75/2.5/19 美元。榜单名次、比较基线与效率来自发布时快照，模型公测后更重要的是在品牌一致性、多人多物体编辑、文字准确率与真实并发下复验。
-&lt;a href=&quot;https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;hydrafusion从选哪个模型转为为任务动态组装哪条推理工作流&quot;&gt;HydraFusion：从“选哪个模型”转为“为任务动态组装哪条推理工作流”&lt;/h3&gt;
-&lt;p&gt;HydraFusion 先估计请求在推理、代码生成、调试和工具使用上的需求，再在 Single、Cascade、Critique 三条路径间选择。Cascade 让低成本模型先答，质量门不通过才升级；Critique 让不同模型家族的只读 reviewer 检查草稿，再由原模型修订一次。GitHub 以真实 Copilot 轨迹构造 CheckpointBench，并结合 DeepSWE 与 TerminalBench 2.1 迭代策略；其内部离线结果称 TerminalBench 2.1 的 verified quality 比 Claude Opus 5 高 4.9 个百分点，估算成本低 67%。预览在 Copilot CLI 全套餐的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/experimental&lt;/code&gt; 中开放，按实际调用模型 token 计费。官方明确当前更适合单轮、边界清楚的任务，多轮长会话、延迟与真实使用成本仍是下一阶段验证重点。
-&lt;a href=&quot;https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;perplexity-gpu-embeddingscpu-前处理批调度与模型内核被拆成三层&quot;&gt;Perplexity GPU Embeddings：CPU 前处理、批调度与模型内核被拆成三层&lt;/h3&gt;
-&lt;p&gt;Ivy 是 Rust HTTP gateway，负责解析、模板、tokenization 和大批次切分，再通过 gRPC 送往 Tulip；这样前处理迭代无需改动重型推理服务。Tulip 是轻量 Rust 调度层，按 token 而非请求数凑批，使用 CUDA Graph 预录 GPU 工作，并用 LazyTensor 让 CPU 准备下一批时 GPU 完成当前批。ROSE 是 Python 模型引擎，复用 LLM 与 embedding 的 kernel 基础设施，但 embedding 路径不建 KV cache，并按模型形状与序列长度选择 ragged-attention 后端。分层同时服务离线文档索引/打分的吞吐目标和在线查询的尾延迟目标。官方称组合后较现成方案更快、更便宜，但推文与博客没有给出足够统一的公开基准，架构价值应与性能数字分开判断。
-&lt;a href=&quot;https://www.perplexity.ai/hub/blog/fast-embeddings-on-gpus&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;agentic-task-ecosystem公共-mcp-的繁荣主要还不是职业任务端到端自动化&quot;&gt;Agentic Task Ecosystem：公共 MCP 的繁荣主要还不是职业任务端到端自动化&lt;/h3&gt;
-&lt;p&gt;Cohere Labs 在 2026 年 5 月抓取七个公开目录，去重得到 123,069 个 MCP server 和 696,291 个工具，再为每个工具寻找最接近的 O&lt;em&gt;NET task statement，并让模型判断它是否真正执行完整任务。严格过滤仅提供信息、只完成一环或仍需人类协调的工具后，仅约四十分之一、即 2.6% 达标。能映射到职业的部分明显偏向计算机工作；其余大量条目是运行 Agent 的基础设施、比 O&lt;/em&gt;NET 更细的动作，或管理 Agent 等新工作。数据缺少企业内部私有 server，因此作者把 2.6% 解释为公共生态的 floor，而非 automation ceiling。研究的贡献是提供“开发者实际在造什么工具”这一视角，补充理论可自动化程度和聊天使用日志，但工具描述、目录偏差与模型分类仍限制因果推断。
-&lt;a href=&quot;https://cohere.com/blog/automations-early-footprint&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;lyria-35从-flow-music-扩展到大众应用开发-api-与视频工作流&quot;&gt;Lyria 3.5：从 Flow Music 扩展到大众应用、开发 API 与视频工作流&lt;/h3&gt;
-&lt;p&gt;Lyria 3.5 在 7 月先于 Google Flow Music 发布，9 月 4 日扩展到 Gemini Web/移动端、Gemini API、Google AI Studio、Google Vids，并继续供 Flow Music 与创作者使用。Gemini 中可直接描述曲风、选择人声或纯音乐、控制短曲或最长三分钟结构，也能用图片生成配乐。Google 模型卡称新版相对 Lyria 2 改善音频保真度、复杂歌词提示遵循、旋律结构和人声表达；训练采用 temporal audio latent 上的 latent diffusion。产品层对音频使用 SynthID 不可感知水印，并配合数据过滤、红队和输出安全策略。官方没有公开足以跨模型比较的完整评分，因而“最佳音质”应视为厂商定位，真实价值更可能来自多入口一致部署和长度、风格、素材控制。
-&lt;a href=&quot;https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;nvidia-推测解码准则最优-draft-取决于-gemmattention-tile-与真实接受率&quot;&gt;NVIDIA 推测解码准则：最优 draft 取决于 GEMM、attention tile 与真实接受率&lt;/h3&gt;
-&lt;p&gt;文章用 draft length D、acceptance length AL、目标模型验证时间和 draft 时间描述端到端加速。第一条准则是增大 D，直到 GEMM 从内存受限推向计算受限；当 attention 主导时，以 D=128/G−1 为起点，其中 G 是每个 KV head 共享的 query heads，并让 G×(1+D) 对齐 128 的 kernel tile，避免半空 tile 仍支付完整成本。低延迟区固定 kernel 启动开销更突出，只在 AL 增益大于 draft 开销时继续加长。外部 draft、MTP、EAGLE-3、DFlash、DSpark 与 n-gram 在训练成本、缓存、并行性和接受率上各有取舍；文章建议用 SPEED-Bench 等接近生产的 prompt，同时测 AL、draft latency 和完整 decode throughput。核心结论是高接受长度不是目标本身，硬件、batch、上下文与工作负载共同决定是否真正加速。
-&lt;a href=&quot;https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 05 Sep 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/09/05/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/09/05/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
         
       </item>
     

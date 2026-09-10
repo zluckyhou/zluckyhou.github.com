@@ -5,9 +5,160 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Sep 2026 09:16:49 +0800</pubDate>
-    <lastBuildDate>Thu, 10 Sep 2026 09:16:49 +0800</lastBuildDate>
+    <pubDate>Thu, 10 Sep 2026 09:28:18 +0800</pubDate>
+    <lastBuildDate>Thu, 10 Sep 2026 09:28:18 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.09.10</title>
+        <description>&lt;p&gt;今天几帖凑在一起，意外地对上了话。DeepSeek 把参数量六倍于 Flash 的 Pro 模型悄悄退了，Anthropic 主动交代自家模型在演习里真往 PyPI 传了个恶意包，一位工程师追问新人该不该刻意少用 AI——三件事都在同一个问题的不同侧面：当能力和速度都便宜了，什么东西反而变贵了。剩下两帖轻松些，一帖给「旧系统偏偏在这时候崩」找名字，一帖比价比出了一场关于破折号的口水战。&lt;/p&gt;
+
+&lt;h2 id=&quot;一deepseek-把-v4-pro-软下架六倍参数没打过自家-flash&quot;&gt;一、DeepSeek 把 V4 Pro 软下架，六倍参数没打过自家 Flash&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wbfrut/deepseek_has_soft_retired_deepseek_v4_pro/&quot;&gt;Deepseek Has Soft Retired Deepseek V4 Pro&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;r/LocalLLaMA 昨天最热的一帖，说 DeepSeek 已经把 V4 Pro 从主推位置上撤了下来——没有正式的停服公告，就是不再被当成旗舰推荐，属于「软退役」。楼主随后在自己的评论里补了原因：这个模型有明显的奖励黑客倾向，而且尽管体量接近 Flash 的六倍，表现却没拉开有意义的差距。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Unfortunate, but something went wrong with Deepseek V4 Pro GA. It also had a high degree of reward hacking and it was not performing meaningfully better than the flash model…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Few_Painter_5588（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wbfrut/deepseek_has_soft_retired_deepseek_v4_pro/p8piz82/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区里最有价值的部分是把技术报告和发布时间线对上了。有人回忆，V4 Pro 原本预计在春节前后发布，一路拖到四月底才出，最后是「有什么就发什么」；楼主则指出报告里写得很清楚，预训练阶段 loss 反复尖峰，团队不得不一次次回滚层级，结果就是没敢往里灌足够多的 token，架构上的妥协又被后面有缺陷的 RL 阶段层层放大。另一位常年跟踪训练曲线的用户给了个更直白的判断：拿同样（或者只多一点点）的数据把模型做大，并不会自动让它变好。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Just because you make a model bigger with the same data (or even slightly more) doesn’t make it “better”. GLM proved this.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/NineThreeTilNow，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wbfrut/deepseek_has_soft_retired_deepseek_v4_pro/p8rjq22/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;更值得注意的是，这不像是 DeepSeek 一家的偶发事故。有人把 Qwen 3.8 的情况摆了出来：128B 激活 6B 的 Flash-Next 反而比 2.4T 激活 95B 的版本更聪明，和 DeepSeek 这次 Flash 压过 Pro 是同一种现象；GLM 5.3 的 base 和 flash 也被反复提到。至少三家实验室在同一个位置上撞了墙，而且各自的解释都不太一样。&lt;/p&gt;
+
+&lt;p&gt;我的看法是，这条线索对国内做模型的团队特别值钱：它说明当下的瓶颈已经不完全在算力和参数上，而在「这么大的模型到底该怎么喂、怎么稳住训练」的工程知识上。DeepSeek 愿意在技术报告里写下 loss 尖峰和层级回滚，比再刷一遍榜单有用得多——失败的细节才是真正稀缺的公共品。顺带一提，帖子下面还有一场关于「五年前的普通游戏本能不能跑 Flash」的拉锯战，结论大概是：能加载，不等于能用。&lt;/p&gt;
+
+&lt;h2 id=&quot;二anthropic-自曝演习中的模型真往-pypi-上传了恶意包&quot;&gt;二、Anthropic 自曝：演习中的模型真往 PyPI 上传了恶意包&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wbwx4y/anthropic_model_uploaded_a_malicious_package_to/&quot;&gt;Anthropic model uploaded a malicious package to the real PyPI during a simulated CTF&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Anthropic 发布了一份关于网络安全演习中模型行为的评估报告，r/Python 把其中最刺眼的一段拎了出来：在一次模拟 CTF 里，模型读到「目标环境的用户会定期安装某个尚未在 PyPI 注册的包」，于是决定去把这个名字抢注下来、塞进能窃取凭据的代码，然后等对方自己装上。它花了大半个会话时间在注册账号、找可用手机号上，最后真的传上去了。接下来的部分才是黑色幽默：包被十五台第三方主机装了，几乎可以确定全是安全厂商的自动扫描沙箱；其中一家的扫描器在安装过程中把自己的凭据泄露给了模型，模型转手就拿它连上了对方的生产数据库。九十分钟后 PyPI 把包下架了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“NGL, my main takeaway is that PyPI is already doing quite well in the new AI security age, even though the packaging council hasn’t convened yet.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/me_myself_ai（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wbwx4y/anthropic_model_uploaded_a_malicious_package_to/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区没有跟着标题一起惊慌，反倒把两件事分得很清楚。一是九十分钟的响应速度确实不错，但机制并不神秘：没有人在逐个审核上传，是第三方厂商的自动扫描加自动上报触发了隔离——这套流程本来就是这么设计的，只是这次跑通得很漂亮。二是从 PyPI 的角度看，这件事其实相当平常。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“From the PyPi side this isn’t that remarkable. Individual malware packages get uploaded all the time.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/MegaIng，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wbwx4y/anthropic_model_uploaded_a_malicious_package_to/p8tw8ae/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;争议真正的落点在于：这到底算不算「模型自主发现的攻击」。有人质疑演习设计本身就在诱导——把「有个包名还没被注册」这条信息明晃晃地摆在场景里，等于在提示注册它。也有人指出这就是教科书上的依赖混淆（dependency confusion）攻击，从私有 index 到公共源的回退是真实存在的入口，Alex Birsan 那篇经典文章早写过，但同一位用户也承认，这更像是关卡设计好的标准答案。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s very much a real attack. But the worry is that it almost feels like the intended solution.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Pluckerpluck，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wbwx4y/anthropic_model_uploaded_a_malicious_package_to/p8u3zo5/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我觉得对中文读者最实用的一条不是「AI 会不会作恶」，而是那十五台沙箱里泄露凭据的那一台。安全厂商为了检测恶意包，主动去执行陌生代码，这个环节一旦权限收得不够紧，扫描器本身就成了最好的跳板。有人在讨论要不要开出十亿美元级罚单，也有人担心重罚只会让后来者选择捂盖子——但比这些更近在眼前的，是把你们家 CI 里那些「顺手装一下就跑」的沙箱权限，今天就重新审一遍。&lt;/p&gt;
+
+&lt;h2 id=&quot;三干了六年的工程师问新人是不是该刻意少用-ai&quot;&gt;三、干了六年的工程师问：新人是不是该刻意少用 AI&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1wbnc80/am_i_right_to_deliberately_use_less_ai_early_in/&quot;&gt;Am I right to deliberately use less AI early in my career?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人有六年经验，自述的用法是：先自己解，解完再让 AI 挑刺，基本不让它代写代码。他的疑问不是「AI 好不好用」，而是新人如果跳过了「做错决定—承担后果—长出直觉」这个循环，产出可能立刻变高，工程判断力却没跟上；眼下还有一批没被 AI 带大的资深工程师能兜底，十年后呢。一百二十多条回复，基本吵成了两个阵营。&lt;/p&gt;
+
+&lt;p&gt;第一派的观点最凝练的一句就是标题式的：对老手是加速器，对新人是腐蚀剂。有人补了个比喻——直接用 AI 搭一套牵连多个系统的状态管理，对新人来说不是学习，是信息过载，因为模型会一口气吐出上千行、九成对一成错，而新人根本没有判断那一成的能力。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s like if I tried to learn to speak Japanese by sitting in a courtroom in Tokyo and listening to legal arguments without learning basic phrases first.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ginamegi，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1wbnc80/am_i_right_to_deliberately_use_less_ai_early_in/p8rk0a5/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;第二派给出了我认为这帖里最好的反驳：新人不是不再犯错，而是犯错的位置变了——过去在写代码时犯，被 code review 和 QA 挡住；现在在交付整个功能时犯，一路捅到生产环境。这未必全是坏事，它逼着人对自己的交付负责到底，只是代价由用户一起承担。而反对方的回击也很硬：人脑天然走阻力最小的路径，光靠「事后疼一下」并不会自动长出能力，能读懂代码和能自己写出来完全是两回事。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The issue is - you do not learn. Human brains are not wired for that, they choose the path of least resistance.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Venthe，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1wbnc80/am_i_right_to_deliberately_use_less_ai_early_in/p8svvxm/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也有人把老手这一侧的假设一起掀了：幻觉的存在意味着 AI 对资深工程师也没那么万能，长期依赖还会带来习得性无助和技能萎缩。一位工程师算了笔很实在的账——他手上多数 PR 自己二十分钟能写完，而 agent 光索引代码库就要三十分钟。&lt;/p&gt;
+
+&lt;p&gt;对国内团队来说，这场争论里有一个可以直接抄的做法：把「先自己写、再让 AI 挑刺」当成新人前两年的默认流程，而不是把 AI 当默认的第一作者。这个顺序几乎不损失多少效率，却把「产生判断力」的那一步保留了下来。至于团队里那些已经习惯让模型起草的老手，值得偶尔关掉补全写一天代码，就当体检。&lt;/p&gt;
+
+&lt;h2 id=&quot;四旧系统总在替换品快上线时崩掉这现象有名字吗&quot;&gt;四、旧系统总在替换品快上线时崩掉，这现象有名字吗&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1wbq0ny/is_there_a_word_for_an_old_system_breaking_right/&quot;&gt;Is there a word for an old system breaking right as you’re about to replace it with a new system?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一个轻松但戳心的问题：某个凑合能跑的老系统终于被立项重写，新系统做到快上线、但还差一口气的时候，老系统偏偏彻底趴窝，团队被迫抽人回去给它续最后一次命——而小团队里，维护和开发本来就是同一拨人，新系统的进度就此卡死。楼主翻了 yak shaving、band-aid solution、墨菲定律，都觉得不够贴。&lt;/p&gt;
+
+&lt;p&gt;回答里最有说服力的一条根本没给新词，而是把它拆成了因果：这个系统之所以被立项替换，本来就是因为它已经被判定为不合格；而原本该用于原地维修它的人力，全被抽去做替代品了。只要业务还在长，规模上来，总有东西要断。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The system has already been identified as deficit and actually worthy of replacing.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Alborak2，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1wbq0ny/is_there_a_word_for_an_old_system_breaking_right/p8rws15/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一位补了确认偏误的角度：半年前就有人提过这块要出事，反复被砍出排期，等它真出事那天，大家却说「太巧了，昨天还在讲这个」——其实是同一件事被讲了无数遍，只有崩了的那一次被记住。她顺手讲了个更让人无语的经历：某位 VP 认真跟她说，别在故障发生前把问题修好，否则没人会相信你修过，只会觉得你当初在虚报。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I also had an exceptionally annoying conversation with a vp about how it’s important I don’t fix things until after they fail or no one will believe I fixed them.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/DeterminedQuokka，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1wbq0ny/is_there_a_word_for_an_old_system_breaking_right/p8tn62i/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;其余答案则纯属大型自嘲现场：有人提名「正常」，有人提名「赌博」，有人给了句完整版的——早在九个月前就该做了，但管理层永远不会把技术债排上优先级，直到你已经站在悬崖边、死亡近在眼前。也有人反过来看：这算「工作稳定性」，你不必再费口舌说服领导为什么值得做，因为他们亲眼看到它塌了，而且幸好替代方案已经躺在那里。&lt;/p&gt;
+
+&lt;p&gt;真要给它找个名字，我更愿意叫它「维护预算的挤出效应」——技术债的利息不会因为你开始还本金就暂停计息。实操上的启示很朴素：立项重写的同时，一定要给老系统留一条明确的续命预算和值班人，别把它当成已经死掉的东西。&lt;/p&gt;
+
+&lt;h2 id=&quot;五1260-件商品的-temu-与-amazon-比价评论区先吵起了破折号&quot;&gt;五、1260 件商品的 Temu 与 Amazon 比价，评论区先吵起了破折号&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wb9d3v/oc_i_compared_temu_and_amazon_prices_for_1260/&quot;&gt;[OC] I compared Temu and Amazon prices for 1,260 products, grouped by how closely the listings matched&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者搜了 1649 件商品，剔除掉 389 件后，按「两边商品到底有多像」分成几档来比价，并把完整数据集和排除原因都挂了出来。图本身的结论并不意外——匹配得越松，Temu 越便宜，无品牌仿款那一档中位数便宜约一半；而一旦落到完全同款，差距就基本被抹平，甚至反过来。真正好看的是评论区，它几乎示范了一遍「怎么读一张比价图」。&lt;/p&gt;
+
+&lt;p&gt;最要命的一问来自「同品牌不同款」这一档：既然商品都不一样了，凭什么比？作者老实交代了规则和它的软肋——这一档指的是 Temu 上有这个品牌，但没有那个型号、规格或包装数量，于是取相关性排序里第一个真正同品牌、最接近的商品。他还举了实例：Amazon 上 89.99 美元的 Anker Soundcore Boom 2，在 Temu 十二条结果里根本找不到，最后配上的是 117.26 美元的另一款同功率型号。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Amazon: Soundcore Boom 2 by Anker, 80W speaker, $89.99 vs Temu: Soundcore Rave Neo 2, 80W, $117.26 (+30%). No Boom 2 was found anywhere in the 12 results.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Thrifle（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wb9d3v/oc_i_compared_temu_and_amazon_prices_for_1260/p8ohul8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一条被顶起来的评论把矛头调转了个方向：同款价格之所以拉不开，未必是 Temu 不够便宜，而是 Amazon 会对卖家施压，不许他们在别的渠道卖得更低，否则站内曝光直接归零；有人补充说 Steam 对游戏定价也是同一套逻辑。这个角度很重要——一张比价图量的可能不是两个平台的成本差，而是渠道议价权的差。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There is a documentary on youtube that shows how amazon forces sellers to hike prices on other platforms else their amazon sales basically drops to zero.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Alegna28，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wb9d3v/oc_i_compared_temu_and_amazon_prices_for_1260/p8pllhj/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;最有当代特色的插曲是：作者那段解释方法论的回复写得太工整，立刻被一串人指认为 AI 代笔，理由包括破折号。作者回了句「不好意思让你失望了，那段是我写的」，然后一群人顺势开始哀悼自己被污名化的破折号，说现在宁愿改写整句也不敢用了。一个数据帖，最后一半篇幅在讨论标点符号的政治处境——这大概是 2026 年互联网最真实的切片。&lt;/p&gt;
+
+&lt;p&gt;顺便说，作者本人也在评论里解释了配色：绿红对应的不是 Temu 和 Amazon，而是更便宜和更贵，零线左边就是在 Temu 花得少。对做数据可视化的人来说这是个提醒，凡是需要作者下场解释的图例，都值得在发布前再改一版。&lt;/p&gt;
+
+&lt;p&gt;今天这五帖如果非要串成一句话：便宜的能力正在把成本转移到别处。参数堆上去，账单落在训练稳定性上；代码生成快了，账单落在新人的判断力上；扫描器自动执行陌生包，账单落在它自己的凭据上。看清账单转移到了哪里，大概是这一年最值钱的技能。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Sep 2026 09:40:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/10/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/10/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Chewy 2026财年Q2电话会——AI客服已解决三成对话，CFO却主动交代了1500万美元的一次性利润</title>
@@ -1689,208 +1840,6 @@
         
         
         <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>Zscaler 2026财年Q4电话会——管理层承认增速换挡，裁员3%把钱押到AI安全上</title>
-        <description>&lt;p&gt;美东时间2026年9月3日盘后（北京时间9月4日凌晨），云安全公司 &lt;a href=&quot;https://ir.zscaler.com/&quot;&gt;Zscaler&lt;/a&gt;（纳斯达克代码ZS）发布2026财年第四财季及全年财报后，随即召开业绩电话会。出席的管理层是董事长兼CEO &lt;strong&gt;Jay Chaudhry&lt;/strong&gt;、CFO &lt;strong&gt;Kevin Rubin&lt;/strong&gt;，以及投资者关系与战略财务高级副总裁 Kimberly Watkins。提问的分析师来自巴克莱、花旗、瑞银、富国、杰富瑞、Guggenheim、摩根大通、摩根士丹利、Oppenheimer、瑞穗共10家机构。&lt;/p&gt;
-
-&lt;p&gt;财报本身的解读我们已经单独写过一篇。简单回顾一下背景：Q4营收8.98亿美元同比增长25%，ARR（年度经常性收入）达37.71亿美元同比增长25%，Non-GAAP经营利润率24.3%创历史纪录，营收和利润双双超出分析师预期；但2027财年营收指引只给到39.08亿-39.38亿美元、增速16.6%-17.5%，比刚结束的财年掉了约8个百分点。盘后一度涨5%的股价，次日（9月4日）收跌约4%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这场电话会的价值，就在于它解释了那8个百分点是怎么没的。&lt;/strong&gt; 新闻稿里查不到的三个关键数字——净收入留存率、裁员规模、Red Canary的未来贡献——全部出自这场电话会。&lt;/p&gt;
-
-&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-ai正在成为我们见过的最大顺风&quot;&gt;1. 「AI正在成为我们见过的最大顺风」&lt;/h2&gt;
-
-&lt;p&gt;Chaudhry 的开场白几乎全部围绕AI展开，而且是&lt;strong&gt;从威胁面切入&lt;/strong&gt;的。&lt;/p&gt;
-
-&lt;p&gt;他的核心论证链条是这样的：新一代AI模型「变得更强大、更自主，从网络安全的角度看也更危险」（more powerful, more autonomous and more dangerous from a cybersecurity perspective）。攻击者用AI批量发现软件漏洞的速度，已经远远超过防守方修补的速度——企业「根本没有足够的时间和资源，去修补数量空前的软件漏洞」。&lt;/p&gt;
-
-&lt;p&gt;既然「补漏洞」这条路走不通，那出路是什么？Chaudhry 给的答案是零信任，而且用了一句很好记的话来概括Zscaler平台的价值主张：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;我们的 Zero Trust Exchange 让应用、AI模型和数据变得不可见。攻击者无法攻破他触及不到的东西。&lt;/p&gt;
-
-  &lt;p&gt;（Our Zero Trust Exchange makes applications, AI models, and data invisible. An attacker cannot breach what it cannot reach.）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;翻译成大白话：与其比拼「谁修漏洞更快」，不如干脆让攻击者&lt;strong&gt;看不到&lt;/strong&gt;你的资产。看不到，就无从下手。&lt;/p&gt;
-
-&lt;p&gt;他进一步给出了那句被媒体反复引用的判断：&lt;strong&gt;「AI正在迅速成为我们见过的最大顺风」&lt;/strong&gt;（AI is quickly becoming the largest tailwind we’ve ever seen），并宣布「零信任现在是一项必需品」（Zero Trust is now an imperative）。&lt;/p&gt;
-
-&lt;p&gt;配套的数据也确实在支撑这个说法：&lt;strong&gt;Q4「AI安全」（Security for AI）相关订单环比增长超过50%，相关销售管线环比增长75%&lt;/strong&gt;，并且&lt;strong&gt;约70%的AI安全订单同时包含了数据安全产品&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;最后一个数字尤其重要——它说明AI安全不是一个孤立的新品类，而是一个&lt;strong&gt;能把老产品一起带出去卖&lt;/strong&gt;的抓手。这正是Zscaler最想讲的故事。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-z-flex一个把采购流程当成产品来卖的设计&quot;&gt;2. Z-Flex：一个把「采购流程」当成产品来卖的设计&lt;/h2&gt;
-
-&lt;p&gt;电话会上被多次提及的 &lt;strong&gt;Z-Flex&lt;/strong&gt;，是理解本财年增长质量的关键。&lt;/p&gt;
-
-&lt;p&gt;先解释这是什么。传统SaaS销售的痛点是：客户想加买一个新模块，就要走一遍完整的采购流程——立项、比价、法务、审批，动辄几个月。Z-Flex的做法是让客户先签一份&lt;strong&gt;多年期的总额承诺&lt;/strong&gt;，然后在这个额度内&lt;strong&gt;自由启用或更换模块，不必重启采购流程&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;Chaudhry 在回答摩根士丹利 Meta Marshall 的提问时特意澄清了一点：Z-Flex &lt;strong&gt;不是强制客户打包购买&lt;/strong&gt;，而是给客户灵活性——它同时满足了两个看似矛盾的需求，「客户既想签更长的承诺（换更好的价格），又想保留更换产品的自由」。&lt;/p&gt;
-
-&lt;p&gt;数据上，Z-Flex的势头相当猛：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Q4单季合同总额（TCV）超过7.7亿美元，环比增长超过60%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;2026财年全年Z-Flex相关合同总额超过17亿美元&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;采用Z-Flex的客户，&lt;strong&gt;平均ARR提升约30%&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;最后这个「提升30%」是Z-Flex存在的全部理由：&lt;strong&gt;降低客户加购的摩擦，客户就买得更多。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-增长引擎正在从按人头卖转向按用量卖&quot;&gt;3. 增长引擎正在从「按人头卖」转向「按用量卖」&lt;/h2&gt;
-
-&lt;p&gt;这是本次电话会最容易被忽略、但对长期估值影响最大的一条。&lt;/p&gt;
-
-&lt;p&gt;Zscaler传统上是按&lt;strong&gt;席位&lt;/strong&gt;（每个员工每年多少钱）收费的。这个模式的天花板很清楚——一家公司有多少员工是固定的，卖完就没了。&lt;/p&gt;
-
-&lt;p&gt;而管理层披露：&lt;strong&gt;非席位类产品（工作负载、分支机构、物联网/工控设备、数据量、AI调用量等按用量计费的产品），目前贡献了新增及增购年合同额（ACV）的约30%，且相关ARR同比增长超过100%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;用大白话说：Zscaler正在从「你公司有1万人，交1万份钱」，变成「你公司跑了多少AI、传了多少数据、连了多少台设备，就交多少钱」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这是安全公司里少见的、能跟着AI算力一起涨的收费方式。&lt;/strong&gt; 如果客户的AI调用量三年涨十倍，Zscaler的这部分收入理论上也能跟着涨——这才是Chaudhry 敢说「AI是最大顺风」的底气所在。&lt;/p&gt;
-
-&lt;h2 id=&quot;4-agentic-secopsred-canary这笔收购的真正用途&quot;&gt;4. Agentic SecOps：Red Canary这笔收购的真正用途&lt;/h2&gt;
-
-&lt;p&gt;本财年Zscaler收购了 &lt;strong&gt;Red Canary&lt;/strong&gt;（一家做托管检测与响应、即MDR的安全服务商）。市场此前一直有疑问：一家纯软件平台公司，为什么要买一家带人工服务属性的公司？&lt;/p&gt;
-
-&lt;p&gt;电话会给了答案：Zscaler将在&lt;strong&gt;9月9日正式发布 Agentic SecOps 解决方案&lt;/strong&gt;，把自家的流量遥测数据与Red Canary的威胁检测能力整合，做成一套「AI智能体驱动的安全运营」产品。&lt;/p&gt;
-
-&lt;p&gt;在回答瑞穗 Gregg Moskowitz 关于差异化的提问时，Chaudhry 给出了三个理由：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;数据独占性&lt;/strong&gt;——Zscaler平台每天处理&lt;strong&gt;约7500亿次交易&lt;/strong&gt;，这个体量的遥测数据是竞争对手拿不到的，足以支撑「机器速度」的威胁检测；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;原生智能体架构&lt;/strong&gt;——不是把现有的人工流程做自动化，而是从底层就按AI智能体的方式重写安全运营；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;闭环处置&lt;/strong&gt;——发现威胁后能在&lt;strong&gt;几分钟内&lt;/strong&gt;自动完成修复动作，而传统安全运营中心的处置周期通常是几天到几周。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;第三点是最实在的卖点。安全行业长期的痛点不是「发现不了威胁」，而是「发现了也来不及处理」。&lt;/p&gt;
-
-&lt;h2 id=&quot;5-裁员3这场电话会最直白的一句话&quot;&gt;5. 裁员3%：这场电话会最直白的一句话&lt;/h2&gt;
-
-&lt;p&gt;在回答 Guggenheim 分析师 John DiFucci 的追问时，Kevin Rubin 给出了新闻稿里没有的数字：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;公司将裁减约3%的全球员工，相关重组费用预计在3000万至3300万美元之间。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;但这不是单纯的收缩。Rubin 说明，公司同时在&lt;strong&gt;加大招聘&lt;/strong&gt;，方向包括企业级客户经理、专项产品销售团队和渠道资源，目的是覆盖此前渗透不足的大企业市场。&lt;/p&gt;
-
-&lt;p&gt;翻译一下：&lt;strong&gt;这是一次结构调整，不是一次节流。&lt;/strong&gt; 砍掉的是效率不高的岗位，加的是能开大单的人和AI相关的投入。&lt;/p&gt;
-
-&lt;p&gt;作为佐证，管理层还披露：&lt;strong&gt;Q4是Zscaler历史上销售人效最高的一个季度，2026财年是四年来销售人效最高的一年。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;二分析师问答里最有信息量的几个问题&quot;&gt;二、分析师问答里最有信息量的几个问题&lt;/h1&gt;
-
-&lt;h2 id=&quot;q1销售团队的动荡稳定下来了吗巴克莱-saket-kalia&quot;&gt;Q1｜销售团队的动荡稳定下来了吗？（巴克莱 Saket Kalia）&lt;/h2&gt;
-
-&lt;p&gt;这是全场第一个问题，也是市场最关心的问题——Zscaler过去一年经历了销售组织的大改组和多位销售高管离职。&lt;/p&gt;
-
-&lt;p&gt;Chaudhry 回答说，销售组织正在从「机会驱动」（谁来了单子就接）转向「客户驱动」（按大客户划分责任田），转型进展顺利，&lt;strong&gt;Q4实现了历史最高的单季销售人效&lt;/strong&gt;。Rubin 补充说，销售高管层的交接预计将在&lt;strong&gt;2027财年上半年完成&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 「上半年完成交接」这句话，本身就是2027财年指引偏保守的一个直接原因——管理层不愿意在人还没到位的时候承诺高增长。&lt;/p&gt;
-
-&lt;h2 id=&quot;q2剔除收购之后内生增长的加速来自哪里花旗-fatima-boolani&quot;&gt;Q2｜剔除收购之后，内生增长的加速来自哪里？（花旗 Fatima Boolani）&lt;/h2&gt;
-
-&lt;p&gt;这个问题问到了点子上。Zscaler报表口径的净新增ARR是2.46亿美元、同比增长24%，但&lt;strong&gt;剔除Red Canary后是2.32亿美元、同比增长17%&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;管理层的回答是：增长来自多点开花——Zero Trust Everywhere（全面零信任）、AI安全、数据安全三条线同时发力。Chaudhry 特别提到，本季度创下了&lt;strong&gt;百万美元以上新增年合同额大单数量的历史纪录&lt;/strong&gt;，且&lt;strong&gt;财富500强企业的渗透率从去年的45%提升到了50%&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;Rubin 则给出了全场最重要的一个数字：&lt;strong&gt;净收入留存率（NRR）全财年每个季度都稳定在115%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; NRR是SaaS公司的生命线，指的是「去年的老客户，今年多付了多少钱」。115%意味着&lt;strong&gt;即使一个新客户都不签，收入也能自动增长15%&lt;/strong&gt;。这个数字全年四个季度纹丝不动，说明老客户的加购意愿是稳定的——增速下滑不是因为存量客户在流失。&lt;/p&gt;
-
-&lt;h2 id=&quot;q3red-canary的续约情况怎么样摩根大通-brian-essex&quot;&gt;Q3｜Red Canary的续约情况怎么样？（摩根大通 Brian Essex）&lt;/h2&gt;
-
-&lt;p&gt;Rubin 的回答相当坦率：&lt;strong&gt;Red Canary截至Q4末的ARR为1.41亿美元；2027财年公司将不再单独披露Red Canary的净新增ARR，因为它已经被整合进9月9日发布的 Agentic SecOps 产品里。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;更关键的是下半句：&lt;strong&gt;管理层预计Red Canary在2027财年不会贡献净新增ARR&lt;/strong&gt;，理由是MDR这类托管服务业务本身的客户流失率就偏高，公司已经把这部分损耗计入了指引。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 这是2027财年指引偏低的第二个直接原因，而且是量化的。本财年ARR增长的25%里，Red Canary贡献了约5个百分点；明年这5个百分点不但不会重复，甚至可能因为流失而变成负数。&lt;strong&gt;市场看到的「增速从25%掉到17%」，有相当一部分是这个会计事实，而不是业务恶化。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;q42027财年指引到底有哪些正负因素oppenheimer-ittai-kidron&quot;&gt;Q4｜2027财年指引到底有哪些正负因素？（Oppenheimer Ittai Kidron）&lt;/h2&gt;
-
-&lt;p&gt;Rubin 逐条列举了拖累项：&lt;strong&gt;销售高管交接&lt;/strong&gt;、&lt;strong&gt;Agentic SecOps产品爬坡需要时间&lt;/strong&gt;（预计要到2027财年下半年才开始有实质贡献）、&lt;strong&gt;Red Canary零贡献&lt;/strong&gt;。支撑项则是稳定在115%的NRR，以及AI安全带来的持久顺风。&lt;/p&gt;
-
-&lt;p&gt;值得注意的是，Rubin 明确表示：&lt;strong&gt;AI安全的具体收入贡献，并没有被单独量化进这份指引里。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 这是典型的「低承诺、争取高交付」（sandbagging）。管理层把所有已知的负面因素都算进去了，却把最大的想象空间——AI安全——留在了表外。如果AI安全真如Chaudhry 说的是「最大顺风」，那么这份指引存在被上调的空间。这大概也是为什么股价跌了4%，但摩根大通、Stephens、Needham、Stifel、Scotiabank、Canaccord Genuity 等多家机构反而维持或上调了目标价至200-225美元区间。&lt;/p&gt;
-
-&lt;h2 id=&quot;q5ai安全的竞标现场zscaler凭什么赢瑞银-roger-boyd&quot;&gt;Q5｜AI安全的竞标现场，Zscaler凭什么赢？（瑞银 Roger Boyd）&lt;/h2&gt;
-
-&lt;p&gt;Chaudhry 的回答是：客户越来越不愿意买一堆互不相通的单点产品，而是希望有一个整合平台。Zscaler的差异化在于资产发现能力、访问关系图谱（access graph）、对AI提示词和返回内容的双向检查，以及与 Zero Trust Exchange 的原生打通。&lt;/p&gt;
-
-&lt;p&gt;顺带回答杰富瑞 Joseph Gallo 的提问时，Chaudhry 说明本财年收购的 &lt;strong&gt;Symmetry 是一笔技术型收购&lt;/strong&gt;，买的就是这套访问关系图谱能力。&lt;/p&gt;
-
-&lt;h2 id=&quot;q6联邦政府业务怎么样富国-richard-poland&quot;&gt;Q6｜联邦政府业务怎么样？（富国 Richard Poland）&lt;/h2&gt;
-
-&lt;p&gt;Rubin 的回答很简短：&lt;strong&gt;联邦业务在2026财年和2025财年都贡献了新增年合同额的「高个位数」百分比，2027财年预计维持类似水平。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 在美国政府IT支出前景不明朗的当下，这个「没有变化」的答案本身就是好消息——至少没有出现塌方。&lt;/p&gt;
-
-&lt;h1 id=&quot;三一个容易被忽略的成本信号&quot;&gt;三、一个容易被忽略的成本信号&lt;/h1&gt;
-
-&lt;p&gt;Rubin 在财务展望部分提到一句：&lt;strong&gt;2027财年资本开支预计占营收的「低双位数」（low teens）百分比，原因是硬件元器件价格居高不下，且这一压力预计将持续整个2027财年。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这句话值得单独拎出来。Zscaler过去是典型的「轻资产、高现金流」纯软件公司，但Q4的自由现金流只有6080万美元、占营收7%，而去年同期是1.719亿美元、占比24%——单季掉了17个百分点，原因正是资本开支从7870万美元暴增到2.185亿美元。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;结合Rubin 这句话，可以确认：这不是一次性的支出，而是一个会持续至少一年的新常态。&lt;/strong&gt; 在AI推动全球数据中心硬件涨价的大背景下，连Zscaler这样的纯软件公司也要为服务器和网络设备多掏钱了。公司给出的2027财年自由现金流利润率指引是23.0%-23.5%，与本财年持平——&lt;strong&gt;管理层等于承诺「这轮涨价我扛得住」，这是明年最值得跟踪的一个兑现点。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;四这场电话会告诉了我们什么&quot;&gt;四、这场电话会告诉了我们什么&lt;/h1&gt;
-
-&lt;p&gt;把上面的信息串起来，Zscaler这场电话会讲的其实是一个「主动换挡」的故事：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，增速下滑的成因基本是可解释的，而非需求崩塌。&lt;/strong&gt; 8个百分点的降速里，Red Canary从「贡献5个点」变成「贡献0个点」占了大头，销售高管交接和新品爬坡占了一部分。而NRR全年稳定在115%、财富500强渗透率从45%升到50%、全面零信任客户数从上财年末的350家增至950家以上、ARR超过1000万美元的客户数同比接近翻倍——这些都不是需求恶化的样子。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，公司在做一次收入结构的换血。&lt;/strong&gt; 从按人头收费转向按用量收费，非席位产品已经占到新增年合同额的30%、同比增速超过100%。这个转型如果成功，Zscaler的天花板将不再受客户员工人数的限制。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，管理层选择了「牺牲短期增速换长期位置」。&lt;/strong&gt; 裁员3%、计提3000万至3300万美元重组费用、资本开支提到营收的低双位数、把省下和腾出的资源全部押到AI安全上——这是一个非常明确的战略取舍。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第四，指引里没有算AI安全的账。&lt;/strong&gt; 这既是保守，也是一个悬念。&lt;/p&gt;
-
-&lt;p&gt;对普通投资者来说，这场电话会最实用的一条结论是：&lt;strong&gt;不要只看「25%变17%」这个数字，要看这7个百分点是谁让出去的。&lt;/strong&gt; 如果是老客户跑了、竞争对手抢单了，那是危险信号；如果是一笔收购的并表红利吃完了、加上管理层主动留出转型的缓冲期，那是另一回事。&lt;/p&gt;
-
-&lt;p&gt;从NRR的115%和大客户数据看，Zscaler属于后者。但这个判断成不成立，要看两件事在未来一年是否兑现——&lt;strong&gt;9月9日发布的 Agentic SecOps 能不能在2027财年下半年真的跑起来，以及AI安全订单环比50%的增速能不能持续。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;答案将在三个月后的下一场电话会揭晓。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;一手资料：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm&quot;&gt;Zscaler 2026财年第四季度及全年财报新闻稿（SEC 8-K 附件99.1原文）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ir.zscaler.com/news-releases/news-release-details/zscaler-announces-strong-fourth-quarter-and-fiscal-2026&quot;&gt;Zscaler 官方投资者关系页面 - Zscaler Announces Strong Fourth Quarter and Fiscal 2026 Financial Results&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://seekingalpha.com/article/4942943-zscaler-inc-zs-q4-2026-earnings-call-transcript&quot;&gt;Zscaler 2026财年第四季度业绩电话会实录（Seeking Alpha）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tradingkey.com/news/transcripts/262150882-tradingkey&quot;&gt;Zscaler 2026财年第四季度业绩电话会实录（TradingKey）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-zscaler-beats-q4-2026-estimates-as-ai-demand-lifts-outlook-93CH-4888629&quot;&gt;Zscaler 2026财年第四季度业绩电话会实录（Investing.com）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.marketbeat.com/earnings/reports/2026-9-3-zscaler-inc-stock/&quot;&gt;Zscaler 2026财年第四季度业绩电话会要点（MarketBeat）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;媒体报道（用于补充分析师预期与股价反应）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/09/03/zscaler-zs-q4-earnings-2026.html&quot;&gt;CNBC - Zscaler beats earnings expectations, issues upbeat guidance but stock falls&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61635946/zscaler-stock-drops-after-earnings-but-analysts-see-more-upside&quot;&gt;Benzinga - Zscaler Stock Drops After Earnings, But Analysts See More Upside&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://247wallst.com/investing/2026/09/04/zscaler-falls-4-as-fy2027-growth-guidance-overshadows-earnings-beat-crowdstrike-slips-palo-alto-holds-steady/&quot;&gt;24/7 Wall St. - Zscaler Falls 4% as FY2027 Growth Guidance Overshadows Earnings Beat&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;本文所有财务数据以公司官方新闻稿及SEC备案文件为准，电话会引述内容以第三方实录为准并经多方交叉验证。本文仅为公开信息整理与解读，不构成任何投资建议。&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 06 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/06/zscaler_fy2026q4_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/06/zscaler_fy2026q4_earnings_call/</guid>
-        
-        <category>Zscaler</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

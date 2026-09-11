@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Sep 2026 09:17:12 +0800</pubDate>
-    <lastBuildDate>Fri, 11 Sep 2026 09:17:12 +0800</lastBuildDate>
+    <pubDate>Fri, 11 Sep 2026 09:21:23 +0800</pubDate>
+    <lastBuildDate>Fri, 11 Sep 2026 09:21:23 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -155,6 +155,1093 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>甲骨文2027财年Q1电话会——全年资本开支上看950亿美元，GPU利用率97.9%，管理层回避自由现金流转正时间表</title>
+        <description>&lt;p&gt;美东时间2026年9月10日下午4点（美中时间），甲骨文在发布2027财年第一季度财报后召开业绩电话会。参会管理层是首席财务官 Hilary Maxson、联席首席执行官 Clay Magouyrk 与 Mike Sicilia，投资者关系高级副总裁 Ken Bond 主持。&lt;/p&gt;
+
+&lt;p&gt;这是甲骨文进入「双CEO」架构后的又一次业绩沟通。Magouyrk 出身 OCI（甲骨文云基础设施）体系，负责基础设施；Sicilia 负责应用与行业软件。两人的分工在这场电话会上体现得非常清楚。&lt;/p&gt;
+
+&lt;p&gt;财报本身的数字（营收193亿美元+30%、IaaS +121%、RPO 6640亿美元）我们在同日发布的财报解读文章里已经拆过。这篇文章只关注电话会上的&lt;strong&gt;增量信息&lt;/strong&gt;——那些财报新闻稿里没有写、只有在管理层开口和分析师追问中才出现的东西。&lt;/p&gt;
+
+&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-cfo-hilary-maxson首次给出全年资本开支指引&quot;&gt;1. CFO Hilary Maxson：首次给出全年资本开支指引&lt;/h2&gt;
+
+&lt;p&gt;Maxson 用「加速」（acceleration）来概括这个季度。除了复述财报数字外，她给出了三条财报里没有的关键信息：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，全年资本开支指引900亿至950亿美元，扣除客户预付款后约700亿美元。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这是本场电话会最重要的一个数字。作为对比，甲骨文2026财年全年资本开支是556.63亿美元。也就是说，2027财年的资本开支还要再增长六到七成。&lt;/p&gt;
+
+&lt;p&gt;「扣除预付后约700亿美元」这个说法值得留意——它意味着有约200亿至250亿美元的建设资金，实际上是由客户提前付款覆盖的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，本季RPO增加260亿美元，其中大部分通过预付款或「客户自带硬件」模式实现。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这解释了财报新闻稿里那句「不会对融资计划产生增量影响」。甲骨文正在把AI算力生意的资本压力，尽可能地转移到客户那一侧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，200亿美元的股权发行已经完成。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-联席ceo-clay-magouyrk交付利用率与溢价&quot;&gt;2. 联席CEO Clay Magouyrk：交付、利用率与溢价&lt;/h2&gt;
+
+&lt;p&gt;Magouyrk 负责基础设施，他给出的几个运营指标是这场电话会的精华：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;自上季度末以来交付 &lt;strong&gt;850兆瓦&lt;/strong&gt;容量、超过 &lt;strong&gt;30万块GPU&lt;/strong&gt;，本季交付量接近上季度的3倍，相当于整个2026财年交付容量的 &lt;strong&gt;73%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GPU利用率 97.9%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;续租容量的价格有 &lt;strong&gt;20%的溢价&lt;/strong&gt;，而且续租的大多是&lt;strong&gt;已经使用四年以上的老GPU&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;位于德州 Abilene 的数据中心本季交付了 &lt;strong&gt;13.1万块GPU&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;本季签下超过300亿美元AI合同，&lt;strong&gt;不需要甲骨文追加资本&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;多云数据库收入同比增长353%&lt;/strong&gt;，客户数增长180%&lt;/li&gt;
+  &lt;li&gt;已有 &lt;strong&gt;70个多云区域、119个可用区&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;与 OpenAI、Gemini、Grok 等模型厂商的合作持续扩大&lt;/li&gt;
+  &lt;li&gt;APEX 平台上运行着超过200万个活跃应用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这里面最值得琢磨的是「&lt;strong&gt;四年以上的老GPU续租还能涨价20%&lt;/strong&gt;」。市场对AI算力最大的担忧之一，就是GPU会像消费电子一样快速贬值——新一代芯片一出，上一代就没人要了。97.9%的利用率加上老卡续租溢价20%，是甲骨文对这个质疑最直接的反驳。&lt;/p&gt;
+
+&lt;p&gt;当然，这是单季数据，且只反映了当下供不应求的市场状态。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-联席ceo-mike-siciliaai不是要取代应用软件而是加速它&quot;&gt;3. 联席CEO Mike Sicilia：AI不是要取代应用软件，而是加速它&lt;/h2&gt;
+
+&lt;p&gt;Sicilia 负责的SaaS业务本季只增长了10%，是全公司最弱的一块。他的整套论述围绕一个核心命题展开：&lt;strong&gt;AI是应用软件的加速器，不是替代者&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;他给出的支撑数据是：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SaaS收入增长10%，其中 Fusion（甲骨文的企业资源规划套件）增长 &lt;strong&gt;14%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Oracle Health（即原 Cerner 医疗业务）增速在加快，行业应用增长超过 &lt;strong&gt;20%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;客户使用嵌入式AI功能超过 &lt;strong&gt;1.5亿次&lt;/strong&gt;，环比增长 &lt;strong&gt;42%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;生产环境中的AI智能体执行次数达 &lt;strong&gt;350万次&lt;/strong&gt;，接近翻倍&lt;/li&gt;
+  &lt;li&gt;生产环境中部署的AI智能体达 &lt;strong&gt;2300个&lt;/strong&gt;，环比增长 &lt;strong&gt;90%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;发布 &lt;strong&gt;NetSuite Next&lt;/strong&gt;，带智能体AI能力；NetSuite AI Connector 已有超过 &lt;strong&gt;1万家&lt;/strong&gt;客户采用&lt;/li&gt;
+  &lt;li&gt;推出全新的智能体化医疗管理系统&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;二分析师问答中最有信息量的部分&quot;&gt;二、分析师问答中最有信息量的部分&lt;/h1&gt;
+
+&lt;h2 id=&quot;q1德意志银行-brad-zelnick如果竞争对手无限期地砸钱甲骨文会一直跟吗自由现金流什么时候转正&quot;&gt;Q1（德意志银行 Brad Zelnick）：如果竞争对手无限期地砸钱，甲骨文会一直跟吗？自由现金流什么时候转正？&lt;/h2&gt;
+
+&lt;p&gt;这是全场最尖锐的问题，也是所有投资者最想知道的问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Magouyrk 的回答&lt;/strong&gt;是：要把「甲骨文自己花的资本开支」和「甲骨文的增长上限」分开看——资本并不全部来自甲骨文，这反映的是「我们不断演化的商业模式」，其中包括客户自带硬件的安排。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Maxson 的回答&lt;/strong&gt;没有给出任何具体的时间表。她说的是：每个项目会实现「100%的税后EBITDA转化率」，在爬坡期结束后变成「自我造血」（self-funding）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看这个回答：&lt;/strong&gt;这是一个典型的「换维度作答」。分析师问的是「哪一个季度自由现金流会转正」，管理层回答的是「单个项目的经济模型是成立的」。这两件事不矛盾，但也不是一回事——只要甲骨文还在不断新开项目，整体自由现金流就会一直被新项目的爬坡期吃掉。&lt;/p&gt;
+
+&lt;p&gt;管理层不给时间表，本身就是信息。&lt;/p&gt;
+
+&lt;h2 id=&quot;q2瑞穗-siti-panigrahi新墨西哥和威斯康星的数据中心进展如何会不会影响2027财年收入&quot;&gt;Q2（瑞穗 Siti Panigrahi）：新墨西哥和威斯康星的数据中心进展如何？会不会影响2027财年收入？&lt;/h2&gt;
+
+&lt;p&gt;这个问题背后是市场上流传的、关于甲骨文部分数据中心项目延期的传闻。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Magouyrk 的回答&lt;/strong&gt;很直接：两个项目都不影响2027财年指引。「我们有些站点进度超前，有些更困难一些，我们会把它们全部解决。」新墨西哥项目因为要为 Bloom 燃料电池办理空气排放许可，进度受到影响，但仍在轨道上；威斯康星的数据中心交付「非常在轨」，并已经和电网侧建立了能源合作。&lt;/p&gt;
+
+&lt;p&gt;他强调的是「分散化的站点组合」——在全国有多个站点，单个站点的延误不会传导到全局。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;这是一个合格的危机公关回答。承认了个别站点有困难（可信度），同时用组合分散化来化解风险（结构性回答）。「空气排放许可」这个细节也说明，AI数据中心的瓶颈已经从芯片转移到了&lt;strong&gt;电力和审批&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;q3巴克莱-raimo-lenschow零部件成本在涨合同定价怎么变毛利率能守住吗&quot;&gt;Q3（巴克莱 Raimo Lenschow）：零部件成本在涨，合同定价怎么变？毛利率能守住吗？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Magouyrk 的回答&lt;/strong&gt;：「在需求超过供给的世界里，价格通常会上涨……我们会收更多钱来得到补偿。」此前给出的毛利率指引「仍然成立」。续租容量20%的溢价就是需求持续的证明。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;这句话的潜台词是——&lt;strong&gt;GPU和内存涨价的成本，甲骨文打算转嫁给客户&lt;/strong&gt;。这在当下供不应求的市场里是可行的，但它同时意味着甲骨文的毛利率完全绑定在「AI算力持续供不应求」这个前提上。一旦供需反转，价格和毛利率会同时向下。&lt;/p&gt;
+
+&lt;h2 id=&quot;q4伯恩斯坦-mark-moerdlerrpo增长到底是靠预付款还是靠客户自带芯片主权云的贡献如何&quot;&gt;Q4（伯恩斯坦 Mark Moerdler）：RPO增长到底是靠预付款还是靠客户自带芯片？主权云的贡献如何？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Magouyrk 的回答&lt;/strong&gt;：这些合同「不需要甲骨文追加现金」，实现方式有三种——供应商融资、客户预付款、客户自带硬件模式。客户结构「广泛」，既有创业公司也有投资级大企业。主权云与 Alloy 业务在日本、中东「表现良好」，也已经为主权工作负载部署了GPU能力。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;「既有创业公司也有投资级大企业」这句话是在回应市场对客户信用质量的担忧。但管理层没有给出具体的客户集中度数字（比如前五大客户占RPO的比例），这仍然是这份财报最大的信息盲区。&lt;/p&gt;
+
+&lt;h2 id=&quot;q5古根海姆-john-difucci毛利率为什么下滑这么多还会继续跌吗&quot;&gt;Q5（古根海姆 John DiFucci）：毛利率为什么下滑这么多？还会继续跌吗？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Maxson 的回答&lt;/strong&gt;：毛利率是一个「健康度指标」，但经营利润率才是「最终目标」。毛利率的压力来自数据中心的爬坡期，以及软件与基础设施之间的业务结构变化。她说，在爬坡期完成之后（未来一两年），「毛利率会走平」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;这是本场电话会里管理层最坦诚的一次承认——&lt;strong&gt;未来一到两年毛利率还会承压&lt;/strong&gt;。「走平」（flatten）这个词也很讲究：它说的是不再下滑，而不是回升。&lt;/p&gt;
+
+&lt;h2 id=&quot;q6杰富瑞-brent-thill市场担心ai会颠覆saas甲骨文怎么维持两位数的saas增长&quot;&gt;Q6（杰富瑞 Brent Thill）：市场担心AI会颠覆SaaS，甲骨文怎么维持两位数的SaaS增长？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Sicilia 的回答&lt;/strong&gt;：甲骨文的优势是「高度差异化」的跨行业端到端套件，AI是嵌入在工作流里的，「客户能快速获得价值，不需要外挂一个附加系统（sidecar）」。他提到 Oracle AI Agent Studio 和AI辅助上线，把实施周期从「几十个月压缩到个位数月份」。他还强调，SaaS业务同时是OCI的&lt;strong&gt;获客入口&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;「不需要外挂 sidecar」这句话是在影射那些独立的AI应用创业公司。至于「实施周期从几十个月缩短到个位数月份」——如果属实，这对企业软件行业的影响会比AI功能本身更大，因为实施成本一直是企业软件最大的隐性开支。但管理层没有说这个「个位数月份」覆盖了多大比例的项目。&lt;/p&gt;
+
+&lt;h2 id=&quot;q7evercore-isi-kirk-materneai-data-platform-的商业模式是什么是独立收费的软件还是拉动oci消耗的入口&quot;&gt;Q7（Evercore ISI Kirk Materne）：AI Data Platform 的商业模式是什么？是独立收费的软件，还是拉动OCI消耗的入口？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Sicilia 的回答&lt;/strong&gt;：「以上都是。」这个平台是数据源无关的，目前已支持数百种数据源的本体自动化生成，能同时拉动平台、应用和OCI的消耗。它还能帮助解锁多云数据库的增长——因为客户会借这个机会把本地数据库迁上云。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;结合财报里那句直接点名 Palantir 的话，甲骨文显然想在「企业私有数据 + AI推理」这个赛道上抢占位置。但「以上都是」这种回答，通常意味着商业模式还没有定型。&lt;/p&gt;
+
+&lt;h1 id=&quot;三这场电话会到底说明了什么&quot;&gt;三、这场电话会到底说明了什么&lt;/h1&gt;
+
+&lt;p&gt;把七个问答放在一起看，会发现分析师的火力高度集中在同一个方向：&lt;strong&gt;不是质疑需求，而是质疑财务可持续性。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;没有一个分析师问「订单会不会掉」「AI需求是不是泡沫」。所有问题都是关于——钱从哪来、毛利率守不守得住、现金流什么时候转正、数据中心建不建得完。&lt;/p&gt;
+
+&lt;p&gt;这本身就说明了市场共识的位置：&lt;strong&gt;AI算力的需求侧已经没有争议了，争议全部在供给侧的财务代价上。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;管理层这场电话会给出的核心答案有两条：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;把资本压力转移给客户&lt;/strong&gt;（预付款、自带硬件、供应商融资），所以订单增长不等于资本开支同步增长&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;单项目模型是赚钱的&lt;/strong&gt;（100%税后EBITDA转化率），整体现金流为负只是因为还在不断开新项目&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这两条逻辑本身成立。问题在于，它们都建立在「需求持续超过供给」这个前提上。20%的续租溢价、97.9%的利用率是当下的证据；但一旦供需逆转，涨价转嫁不了、老卡续不上租、客户不愿意预付了，这套模型的每一环都会同时失效。&lt;/p&gt;
+
+&lt;p&gt;甲骨文押上的赌注规模是：&lt;strong&gt;全年900亿至950亿美元的资本开支，和1253亿美元的有息负债。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
+
+&lt;p&gt;这场电话会最值得记住的三件事：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;2027财年资本开支指引900亿-950亿美元&lt;/strong&gt;（扣除客户预付后约700亿），比2026财年的557亿再增长六到七成&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GPU利用率97.9%，四年以上老卡续租溢价20%&lt;/strong&gt;——这是甲骨文对「GPU快速贬值」质疑的最有力反驳&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;管理层拒绝给出自由现金流转正的时间表&lt;/strong&gt;，只说单个项目会「自我造血」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一份增长极强的财报，配上一场几乎全程在回答「你们怎么烧得起」的电话会。这就是2026年秋天，AI算力生意的真实处境。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;数据来源&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stockanalysis.com/stocks/orcl/transcripts/689425-q1-2027/&quot;&gt;Oracle Q1 FY2027 业绩电话会实录（StockAnalysis）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm&quot;&gt;甲骨文2027财年第一季度财报新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://investor.oracle.com/&quot;&gt;甲骨文投资者关系网站与业绩电话会回放&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.marketbeat.com/instant-alerts/transcript-oracle-q1-earnings-call-highlights-2026-09-10/&quot;&gt;MarketBeat：Oracle Q1 Earnings Call Highlights&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html&quot;&gt;CNBC：Oracle’s stock jumps 7% on earnings beat as cloud infrastructure revenue more than doubles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/11/oracle_fy2027q1_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/11/oracle_fy2027q1_earnings_call/</guid>
+        
+        <category>甲骨文</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>甲骨文2027财年Q1——营收193亿美元同比增长30%，云基础设施暴涨121%，但自由现金流仍为负54亿美元</title>
+        <description>&lt;p&gt;美东时间2026年9月10日盘后（北京时间9月11日凌晨），&lt;a href=&quot;https://investor.oracle.com/&quot;&gt;甲骨文&lt;/a&gt;（Oracle，纽交所代码ORCL）发布2027财年第一季度财报，对应会计期间是截至2026年8月31日的三个月。&lt;/p&gt;
+
+&lt;p&gt;先看三个最核心的数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;总营收193.45亿美元&lt;/strong&gt;，同比增长30%（按固定汇率口径同样是30%）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;云基础设施（IaaS）收入74亿美元&lt;/strong&gt;，同比增长121%——这是这份财报里最炸裂的一个数&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;剩余履约义务（RPO）6640亿美元&lt;/strong&gt;，同比增加2090亿美元&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;非GAAP每股收益1.92美元，同比增长30%，远超市场预期的约1.73—1.74美元；GAAP每股收益1.56美元，同比增长55%。财报发布后，甲骨文股价在盘后交易中一度上涨约7%（当天正常交易时段收盘下跌5.38%至152.94美元）。&lt;/p&gt;
+
+&lt;p&gt;但这份财报还有另外一面：&lt;strong&gt;单季资本开支285亿美元，自由现金流为负53.96亿美元。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这篇文章想讲清楚的，就是这两面之间的关系。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-甲骨文现在是一家什么公司&quot;&gt;1. 甲骨文现在是一家什么公司&lt;/h2&gt;
+
+&lt;p&gt;很多人对甲骨文的印象还停留在「卖数据库的老牌软件公司」。这个印象在三年前还算准确，现在已经严重过时了。&lt;/p&gt;
+
+&lt;p&gt;本季度甲骨文的收入结构是这样的：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;业务线&lt;/th&gt;
+      &lt;th&gt;本季收入&lt;/th&gt;
+      &lt;th&gt;占比&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;云服务（IaaS + SaaS）&lt;/td&gt;
+      &lt;td&gt;116.07亿美元&lt;/td&gt;
+      &lt;td&gt;60%&lt;/td&gt;
+      &lt;td&gt;+62%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;软件（本地部署许可与技术支持）&lt;/td&gt;
+      &lt;td&gt;55.50亿美元&lt;/td&gt;
+      &lt;td&gt;29%&lt;/td&gt;
+      &lt;td&gt;-3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;服务&lt;/td&gt;
+      &lt;td&gt;14.14亿美元&lt;/td&gt;
+      &lt;td&gt;7%&lt;/td&gt;
+      &lt;td&gt;+5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬件&lt;/td&gt;
+      &lt;td&gt;7.74亿美元&lt;/td&gt;
+      &lt;td&gt;4%&lt;/td&gt;
+      &lt;td&gt;+15%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;云已经占到总收入的&lt;strong&gt;60%&lt;/strong&gt;，一年前这个比例还是48%。传统软件业务在萎缩（-3%），公司自己在财报里的解释是「反映客户持续从本地部署软件向云迁移」。&lt;/p&gt;
+
+&lt;p&gt;更关键的是云里面的结构。云收入116亿美元中，&lt;strong&gt;云基础设施（IaaS）74亿美元、同比+121%&lt;/strong&gt;，&lt;strong&gt;云应用（SaaS）42亿美元、同比+10%&lt;/strong&gt;。也就是说，甲骨文当下的增长几乎完全由一件事驱动——&lt;strong&gt;给AI公司出租算力&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-什么是rpo为什么它是这份财报的主角&quot;&gt;2. 什么是RPO，为什么它是这份财报的主角&lt;/h2&gt;
+
+&lt;p&gt;RPO（Remaining Performance Obligations，剩余履约义务）是一个会计术语，用大白话说就是：&lt;strong&gt;客户已经签了合同、但公司还没有交付、因此还没确认为收入的那部分金额&lt;/strong&gt;。可以理解成「在手订单」。&lt;/p&gt;
+
+&lt;p&gt;本季度甲骨文RPO达到&lt;strong&gt;6640亿美元&lt;/strong&gt;，同比增加2090亿美元。作为对比，公司2027财年全年的营收指引是「至少900亿美元」。也就是说，在手订单相当于&lt;strong&gt;7年多的营收&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;财报原文对这个数字的解释是：「客户对AI云训练和推理服务的需求持续快于供给增长。甲骨文本季度新签署了超过300亿美元的AI云合同。」&lt;/p&gt;
+
+&lt;p&gt;同时公司特意加了一句话：「基于这些新合同的结构安排，公司确认其融资计划不会因此产生额外的增量影响。」——这句话是说给债券投资人听的，意思是新订单不需要甲骨文再额外掏钱建数据中心（后面会讲到原因）。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标（截至2026年8月31日的三个月）&lt;/th&gt;
+      &lt;th&gt;本季&lt;/th&gt;
+      &lt;th&gt;去年同期&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;193.45亿美元&lt;/td&gt;
+      &lt;td&gt;149.26亿美元&lt;/td&gt;
+      &lt;td&gt;+30%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;云收入&lt;/td&gt;
+      &lt;td&gt;116.07亿美元&lt;/td&gt;
+      &lt;td&gt;71.86亿美元&lt;/td&gt;
+      &lt;td&gt;+62%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总运营费用&lt;/td&gt;
+      &lt;td&gt;126.17亿美元&lt;/td&gt;
+      &lt;td&gt;106.49亿美元&lt;/td&gt;
+      &lt;td&gt;+18%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP经营利润&lt;/td&gt;
+      &lt;td&gt;67.28亿美元&lt;/td&gt;
+      &lt;td&gt;42.77亿美元&lt;/td&gt;
+      &lt;td&gt;+57%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;35%&lt;/td&gt;
+      &lt;td&gt;29%&lt;/td&gt;
+      &lt;td&gt;+6.1个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP经营利润&lt;/td&gt;
+      &lt;td&gt;81.51亿美元&lt;/td&gt;
+      &lt;td&gt;62.36亿美元&lt;/td&gt;
+      &lt;td&gt;+31%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;42%&lt;/td&gt;
+      &lt;td&gt;42%&lt;/td&gt;
+      &lt;td&gt;基本持平&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;利息支出&lt;/td&gt;
+      &lt;td&gt;14.28亿美元&lt;/td&gt;
+      &lt;td&gt;9.23亿美元&lt;/td&gt;
+      &lt;td&gt;+55%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净利润&lt;/td&gt;
+      &lt;td&gt;47.60亿美元&lt;/td&gt;
+      &lt;td&gt;29.27亿美元&lt;/td&gt;
+      &lt;td&gt;+63%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;1.56美元&lt;/td&gt;
+      &lt;td&gt;1.01美元&lt;/td&gt;
+      &lt;td&gt;+55%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;1.92美元&lt;/td&gt;
+      &lt;td&gt;1.47美元&lt;/td&gt;
+      &lt;td&gt;+30%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营性现金流&lt;/td&gt;
+      &lt;td&gt;231.03亿美元&lt;/td&gt;
+      &lt;td&gt;81.40亿美元&lt;/td&gt;
+      &lt;td&gt;+184%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资本开支&lt;/td&gt;
+      &lt;td&gt;284.99亿美元&lt;/td&gt;
+      &lt;td&gt;85.02亿美元&lt;/td&gt;
+      &lt;td&gt;+235%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;自由现金流&lt;/td&gt;
+      &lt;td&gt;-53.96亿美元&lt;/td&gt;
+      &lt;td&gt;-3.62亿美元&lt;/td&gt;
+      &lt;td&gt;亏损扩大&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这张表里有几个地方值得停下来看：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，GAAP利润率大涨，非GAAP利润率没怎么动。&lt;/strong&gt;GAAP经营利润率从29%升到35%，看起来很漂亮。但拆开看，主要功劳来自费用端的一次性因素：无形资产摊销从4.20亿降到2.02亿（-52%），重组费用从4.15亿降到0.94亿（-77%）。把这些加回去的非GAAP口径下，经营利润率是42%对41.8%，几乎没变。&lt;/p&gt;
+
+&lt;p&gt;换句话说，&lt;strong&gt;甲骨文在把收入规模做大30%的同时，并没有真正把单位经济效益做得更好&lt;/strong&gt;。这很正常——出租GPU算力本来就是一门比卖软件许可薄得多的生意。财报里云与软件业务的成本同比增长了77%（从36.07亿到64.00亿），增速远高于收入增速。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，销售费用和研发费用都在降。&lt;/strong&gt;销售与市场费用同比-12%，研发费用同比-4%。一家营收增长30%的公司，同时在砍销售和研发开支，这说明订单是「送上门」的而不是「跑出来」的——AI算力现在是卖方市场。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，折旧在爆炸式增长。&lt;/strong&gt;现金流量表里，本季折旧费用31.56亿美元，去年同期13.51亿美元，翻了1.3倍。这是几百亿美元资本开支开始进入损益表的信号。未来几个季度，折旧会持续吃掉利润率。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，也是最重要的一点：现金流。&lt;/strong&gt;经营性现金流231亿美元，同比+184%，这是个非常强的数字。但资本开支285亿美元，同比+235%，直接把自由现金流打到&lt;strong&gt;-53.96亿美元&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;作为参照，甲骨文2026财年全年自由现金流是&lt;strong&gt;-236.86亿美元&lt;/strong&gt;。连续两个财年大额为负。&lt;/p&gt;
+
+&lt;h1 id=&quot;三钱从哪里来&quot;&gt;三、钱从哪里来&lt;/h1&gt;
+
+&lt;p&gt;一家自由现金流为负的公司要继续扩张，钱只能从三个地方来：借债、发股、客户预付。这三条甲骨文都在用。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;借债。&lt;/strong&gt;资产负债表显示，长期有息负债1177.12亿美元，加上一年内到期的76.25亿美元，总有息负债约&lt;strong&gt;1253亿美元&lt;/strong&gt;。本季利息支出14.28亿美元，同比增长55%——这意味着年化利息成本已经接近60亿美元。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;发股。&lt;/strong&gt;财报明确披露：「2027财年第一季度，甲骨文通过ATM（At-the-Market）股权计划成功完成了200亿美元普通股的出售（扣除佣金前）。」这是一笔非常大的股权融资。同时，本季损益表首次出现了&lt;strong&gt;8100万美元的优先股股息&lt;/strong&gt;——说明公司还发行了优先股。这两项都会稀释现有股东。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;客户预付与客户自带硬件。&lt;/strong&gt;这是最有意思的一条。公司在财报里说新合同「不会对融资计划产生增量影响」，在业绩电话会上进一步解释了原因：新增RPO中的大部分，要么是客户预付款，要么是「客户自带硬件」（bring-your-own-hardware）模式——客户自己买GPU，甲骨文只提供数据中心和运营。这样一来，增长的资本压力被转移给了客户。&lt;/p&gt;
+
+&lt;p&gt;理解了这一点，你就理解了甲骨文这份财报的商业逻辑：&lt;strong&gt;它正在把自己从一家「重资产云厂商」改造成一家「AI数据中心运营商 + 资本中介」&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h1 id=&quot;四亮点与隐忧&quot;&gt;四、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 交付能力被验证了。&lt;/strong&gt;这是本季最容易被忽略但最重要的进展。财报称，自上一财季末以来，甲骨文向AI云客户交付了&lt;strong&gt;超过30万块GPU&lt;/strong&gt;，新增数据中心容量&lt;strong&gt;850兆瓦&lt;/strong&gt;，是上一季度交付量的近三倍。&lt;/p&gt;
+
+&lt;p&gt;对AI算力生意来说，拿订单不难，难的是按期把电力、机柜、芯片装配起来交付。这个数字说明甲骨文的工程能力跟上了销售能力。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 订单质量在改善。&lt;/strong&gt;300亿美元新签合同、且不需要甲骨文额外出资，比单纯的RPO数字更有价值。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 利润端的绝对值增长是真实的。&lt;/strong&gt;净利润47.6亿美元，同比+63%，经营性现金流231亿美元，这些不是会计游戏。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. 指引大幅上调。&lt;/strong&gt;公司把2027财年全年营收指引提高到「至少900亿美元」，非GAAP每股收益指引提高到8.10美元。第二财季指引为营收增长30%-34%、云收入增长65%-71%（美元口径）。&lt;/p&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 自由现金流看不到转正的时间表。&lt;/strong&gt;这是投资者最关心的问题，也是电话会上第一个被问到的问题。管理层给出的是「每个项目在爬坡完成后会实现自我造血」的定性回答，没有给出具体时间点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 客户集中度。&lt;/strong&gt;RPO 6640亿美元听起来惊人，但这类超大额AI合同天然集中在少数几家客户手里。任何一家客户的融资出问题、或AI资本开支节奏放缓，对甲骨文的影响都是量级上的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 毛利率在下滑。&lt;/strong&gt;电话会上有分析师直接问了这个问题，CFO的回答是毛利率下滑来自数据中心爬坡期和「软件与基础设施的业务结构变化」，并表示爬坡期结束后（未来一两年）毛利率会走平。这等于承认了：在爬坡期内，毛利率还会继续承压。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. 股权与债务的双重稀释。&lt;/strong&gt;200亿美元ATM发股 + 优先股股息 + 1253亿美元有息负债，每股收益的增长是在一个不断扩大的分母上实现的。本季摊薄股本30.00亿股，去年同期29.09亿股，增加了3%。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. SaaS只有10%的增长。&lt;/strong&gt;云应用（SaaS）业务同比仅增长10%，是甲骨文的传统优势领域。在市场担心「AI会颠覆企业软件」的大背景下，这个增速偏弱。&lt;/p&gt;
+
+&lt;h1 id=&quot;五其他值得注意的信息&quot;&gt;五、其他值得注意的信息&lt;/h1&gt;
+
+&lt;p&gt;财报里还夹了两条产品消息，都是甲骨文想讲的新故事：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Oracle AI Data Platform 自动生成企业本体（Enterprise Ontology）。&lt;/strong&gt;「本体」听起来玄乎，其实就是「用机器能懂的方式，把一家公司的业务概念、数据关系和规则描述清楚」。甲骨文在财报里直接点名对手：「Palantir 开创了在企业私有数据上使用AI的先河，方式是为每个客户精心打造企业本体。而新的 Oracle AI Data Platform 完全自动化了企业本体的创建。」——这是一次相当罕见的公开对标。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;100%智能体化的医疗管理系统。&lt;/strong&gt;甲骨文推出了由AI智能体组成的电子病历与医疗管理系统，覆盖从全科到肿瘤科、放射科的各个专科。这是2022年收购 Cerner 之后，甲骨文在医疗业务上第一次给出清晰的AI叙事。&lt;/p&gt;
+
+&lt;p&gt;公司董事会还宣布派发每股0.50美元的季度现金股息，登记日2026年10月9日，支付日2026年10月23日。&lt;/p&gt;
+
+&lt;h1 id=&quot;六总结&quot;&gt;六、总结&lt;/h1&gt;
+
+&lt;p&gt;用一句话概括这份财报：&lt;strong&gt;甲骨文的AI云生意，规模、订单和交付能力都被验证了，但商业模式的可持续性还没有被验证。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;三个数字放在一起看最清楚：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;在手订单 &lt;strong&gt;6640亿美元&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;单季资本开支 &lt;strong&gt;285亿美元&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;自由现金流 &lt;strong&gt;-53.96亿美元&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;市场对这份财报的反应本身也很矛盾——正常交易时段股价跌5.38%，盘后又涨回约7%。这种分裂恰恰反映了当下的分歧：相信AI算力需求会持续兑现的人，看到的是6640亿美元订单；担心这轮资本开支周期会以过剩收场的人，看到的是1253亿美元债务和连续为负的自由现金流。&lt;/p&gt;
+
+&lt;p&gt;甲骨文自己给出的答案是「爬坡期结束后会自我造血」。这个答案能不能兑现，接下来几个季度的折旧曲线、毛利率走势和自由现金流缺口会给出验证。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;数据来源&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm&quot;&gt;甲骨文2027财年第一季度财报新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-20260910.htm&quot;&gt;甲骨文 2026年9月10日 Form 8-K&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://investor.oracle.com/&quot;&gt;甲骨文投资者关系网站&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stockanalysis.com/stocks/orcl/transcripts/689425-q1-2027/&quot;&gt;Oracle Q1 FY2027 业绩电话会实录（StockAnalysis）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html&quot;&gt;CNBC：Oracle’s stock jumps 7% on earnings beat as cloud infrastructure revenue more than doubles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/11/oracle_fy2027q1_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/11/oracle_fy2027q1_earnings/</guid>
+        
+        <category>甲骨文</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>Adobe 2026财年Q3电话会——候任CEO首次亮相，管理层承认主动放弃涨价，把流量全部导向免费漏斗</title>
+        <description>&lt;p&gt;美东时间2026年9月10日下午2点（太平洋时间），Adobe 在发布2026财年第三季度财报后召开业绩电话会。&lt;/p&gt;
+
+&lt;p&gt;这场电话会有一个特殊之处：它是 &lt;strong&gt;Anil Chakravarthy 作为候任CEO的首次公开亮相&lt;/strong&gt;。9月2日 Adobe 公告，Chakravarthy 将于12月1日出任总裁兼首席执行官，在位19年的 Shantanu Narayen 转任执行董事长。&lt;/p&gt;
+
+&lt;p&gt;参会管理层包括：董事长兼CEO Shantanu Narayen、客户体验业务总裁兼候任CEO Anil Chakravarthy、高级副总裁兼&lt;strong&gt;临时&lt;/strong&gt;首席财务官 Steve Day，投资者关系副总裁 Doug Clark 主持。&lt;/p&gt;
+
+&lt;p&gt;财报数字（营收67.60亿美元+13%、非GAAP每股收益6.13美元+15%、月活突破10亿）我们在同日发布的财报解读里已经拆过。这篇文章只讲电话会上的增量信息。&lt;/p&gt;
+
+&lt;p&gt;先说结论：&lt;strong&gt;这场电话会上，十位分析师的提问高度集中在同一件事上——净新增ARR为什么掉了三成多。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-narayen从通过数字体验改变世界到让每个人都能创造&quot;&gt;1. Narayen：从「通过数字体验改变世界」到「让每个人都能创造」&lt;/h2&gt;
+
+&lt;p&gt;Narayen 在开场白里做了一次公司使命的重新表述——Adobe 正在从「changing the world through digital experiences」（通过数字体验改变世界）演进到「empowering everyone to create」（让每个人都能创造）。&lt;/p&gt;
+
+&lt;p&gt;这不是一句空话。它是免费增值战略的纲领性表达：Adobe 的目标客户，正在从「专业设计师」扩展到「所有想创作的人」。&lt;/p&gt;
+
+&lt;p&gt;他给出的支撑数据是：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;全公司月活用户超过 &lt;strong&gt;10亿&lt;/strong&gt;，同比增长超过20%&lt;/li&gt;
+  &lt;li&gt;创意类免费增值月活突破 &lt;strong&gt;1亿&lt;/strong&gt;，同比增长超过 &lt;strong&gt;70%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;AI优先业务期末ARR超过 &lt;strong&gt;6.5亿美元&lt;/strong&gt;，同比增长超过 &lt;strong&gt;150%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;关于交棒，Narayen 在财报新闻稿里说：「达成超过十亿月活用户这一里程碑，是 Adobe 的一个决定性时刻，我相信 Anil 会在这个势头上继续推动 Adobe 在AI时代的下一个增长与创新篇章。」在电话会上他称 Chakravarthy 是「在这个智能体时代规划 Adobe 增长的合适人选」。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-chakravarthyadobe-要成为智能体软件的领导者&quot;&gt;2. Chakravarthy：Adobe 要成为智能体软件的领导者&lt;/h2&gt;
+
+&lt;p&gt;Chakravarthy 的首次亮相以一句「深感荣幸能在这个关键时刻领导 Adobe」开场，核心命题是：&lt;strong&gt;Adobe 要在创意、生产力、客户体验这三个领域，成为智能体软件（agentic software）的领导者&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;他分三块讲了业务：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;商务专业人士与消费者（BP&amp;amp;C），订阅收入19.1亿美元、同比+15%（固定汇率）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reader、Acrobat、Express 都新增了对话式交互界面&lt;/li&gt;
+  &lt;li&gt;Acrobat AI Assistant 月活&lt;strong&gt;环比翻倍&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Student Spaces 已全球上线&lt;/li&gt;
+  &lt;li&gt;新增或扩大的客户包括亚马逊、德国邮政DHL、霍尼韦尔、美国能源部洛斯阿拉莫斯国家实验室&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;创意与营销专业人士（CMP），订阅收入46.5亿美元、同比+12%（固定汇率）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adobe Creative Agent 扩展到 Photoshop 和 Premiere&lt;/li&gt;
+  &lt;li&gt;Firefly 本季新增音乐、语音、音效生成&lt;/li&gt;
+  &lt;li&gt;宣布收购 &lt;strong&gt;Topaz Labs&lt;/strong&gt;，预计第四财季完成交割&lt;/li&gt;
+  &lt;li&gt;迪士尼幻想工程正在把 Firefly Foundry 集成进设计工具链&lt;/li&gt;
+  &lt;li&gt;企业客户新增 Academy Sports、迪士尼、Jet2、英超联赛、阳狮集团、T-Mobile&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;企业客户体验（CX Enterprise）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;定位是「客户体验编排的智能体化记录系统」&lt;/li&gt;
+  &lt;li&gt;推出 Adobe Brand Visibility，把 Semrush 的AI可见度情报与 Adobe 的智能体内容优化结合起来&lt;/li&gt;
+  &lt;li&gt;CX Enterprise Coworker 已正式商用，覆盖 &lt;strong&gt;1700多家&lt;/strong&gt;客户&lt;/li&gt;
+  &lt;li&gt;企业客户包括法国巴黎银行、宜家、万豪、加拿大皇家银行、先锋集团、富国银行&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;他还预告了11月在迈阿密海滩举行的 &lt;strong&gt;Adobe MAX&lt;/strong&gt; 大会，将发布「跨 Creative Cloud 的突破性创新」和「Firefly 企业版的连接式工作流」。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-steve-day财务细节与指引&quot;&gt;3. Steve Day：财务细节与指引&lt;/h2&gt;
+
+&lt;p&gt;临时CFO Steve Day 补充的关键数据：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;期末总ARR &lt;strong&gt;275亿美元&lt;/strong&gt;，同比增长 &lt;strong&gt;11.2%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;RPO &lt;strong&gt;221.6亿美元&lt;/strong&gt;，同比增长 &lt;strong&gt;8%&lt;/strong&gt;；cRPO同比增长 &lt;strong&gt;9%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;经营性现金流 &lt;strong&gt;25.23亿美元&lt;/strong&gt;，创第三财季纪录&lt;/li&gt;
+  &lt;li&gt;期末现金与短期投资 &lt;strong&gt;56.4亿美元&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;本季回购约 &lt;strong&gt;950万股&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Acrobat + Express 合计月活超过 &lt;strong&gt;9亿&lt;/strong&gt;，同比增长25%以上&lt;/li&gt;
+  &lt;li&gt;Firefly 期末ARR（应用与积分包合计）&lt;strong&gt;环比增长40%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Adobe Experience Manager、GenStudio、Adobe Experience Platform 的ARR同比增速均&lt;strong&gt;超过20%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;品牌可见度付费客户数&lt;strong&gt;环比翻倍&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;二分析师问答中最有信息量的部分&quot;&gt;二、分析师问答中最有信息量的部分&lt;/h1&gt;
+
+&lt;h2 id=&quot;q1rbc-capital-markets-matt-swanson智能体软件对-adobe-到底意味着什么&quot;&gt;Q1（RBC Capital Markets, Matt Swanson）：智能体软件对 Adobe 到底意味着什么？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Chakravarthy 的回答&lt;/strong&gt;给出了一个相当结构化的框架。他说客户对智能体时代的软件有四个期待：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;产品架构要支持接口选择&lt;/strong&gt;——客户可能在 ChatGPT 里、可能在 Copilot 里、也可能在 Adobe 自己的应用里使用这些能力&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;模型要灵活&lt;/strong&gt;——不同任务匹配不同的最优模型&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;要能接入企业数据&lt;/strong&gt;——这是防止AI幻觉的前提&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;要能验证价值实现&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;第一条是关键。Adobe 明确接受了「用户可能不在 Adobe 的界面里使用 Adobe 的能力」这个现实。这对一家靠界面和工作流建立护城河的公司来说，是一个不小的战略让步——但也是唯一现实的选择。&lt;/p&gt;
+
+&lt;h2 id=&quot;q2barclays-saket-kalia选一位出身数字体验业务的人做ceo是不是董事会对-adobe-未来增长方向的表态&quot;&gt;Q2（Barclays, Saket Kalia）：选一位出身数字体验业务的人做CEO，是不是董事会对 Adobe 未来增长方向的表态？&lt;/h2&gt;
+
+&lt;p&gt;这个问题问得很直接：Chakravarthy 的背景是企业客户体验（原 Digital Experience 业务），不是 Creative Cloud。让他接班，是不是意味着董事会认为未来的增长在企业侧？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Narayen 的回答&lt;/strong&gt;强调了两点：一是找到了「了解公司的内部候选人」，而且董事会有「两位优秀的内部候选人」；二是 Chakravarthy 会「负责整个公司的战略」，同时继续拥抱现有机会。他特别强调了「取悦个人用户」的重要性。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chakravarthy 自己的回答&lt;/strong&gt;则强调他2020年1月加入 Adobe 后，负责的企业现场运营是「代表整个 Adobe」面对客户的，他看到的是「覆盖我们全部基本盘的巨大机会」——包括个人用户、中小企业和2万多家企业客户。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;Narayen 提到「两位优秀的内部候选人」是一个信息量不小的细节——它暗示另一位候选人（大概率来自创意业务线）可能面临去留问题。这是接下来几个季度值得关注的人事风险。&lt;/p&gt;
+
+&lt;h2 id=&quot;q3griffin-securities-jay-vleeschhouwerrpo增速掉到个位数有什么异常因素吗&quot;&gt;Q3（Griffin Securities, Jay Vleeschhouwer）：RPO增速掉到个位数，有什么异常因素吗？&lt;/h2&gt;
+
+&lt;p&gt;这是本场第一次有人直接点出领先指标的问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steve Day 的回答&lt;/strong&gt;：个位数增长反映的是「对战略举措的持续执行」，以及「通过免费增值商业模式加速新用户获取」的重点转移。他补充说，RPO和cRPO在第四财季会「阶梯式上升」，这是与往年一致的季节性规律。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;Day 承认了RPO减速与免费增值战略直接相关。用季节性来解释「未来会回升」是标准答案，但它没有回答一个更根本的问题：如果免费用户的转化周期比预期长，RPO的减速会不会是结构性的？&lt;/p&gt;
+
+&lt;h2 id=&quot;q4wolfe-research-ivan免费用户翻倍和推迟涨价各自带来多大的收入逆风涨价什么时候恢复&quot;&gt;Q4（Wolfe Research, Ivan）：免费用户翻倍和推迟涨价，各自带来多大的收入逆风？涨价什么时候恢复？&lt;/h2&gt;
+
+&lt;p&gt;这是全场最关键的一个问答。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Narayen 的回答&lt;/strong&gt;几乎是本场最有力的一段表态。他强调 Adobe 现在对用户获取（月活增长）有「绝对单一的聚焦」，而不是追求短期收入缓解。他的原话是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We’re actually really happy that we didn’t focus on the pricing actions, because that, while it may have provided some short-term relief, would not be as critical as continuing to drive new user adoption.”&lt;/p&gt;
+
+  &lt;p&gt;「我们其实非常高兴我们没有把重心放在涨价动作上，因为涨价虽然可能带来一些短期的缓解，但远不如持续推动新用户采纳来得关键。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;这段话是理解整份财报的钥匙。它确认了三件事：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Adobe &lt;strong&gt;原本是有涨价计划的&lt;/strong&gt;（Creative Cloud 的定价优化）&lt;/li&gt;
+  &lt;li&gt;这个计划被&lt;strong&gt;主动推迟&lt;/strong&gt;了&lt;/li&gt;
+  &lt;li&gt;管理层把它定义为&lt;strong&gt;战略选择而非被迫&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;「短期缓解」（short-term relief）这个措辞很有意思——它隐含地承认了，如果不推迟涨价，本季的财务数字会好看得多。&lt;/p&gt;
+
+&lt;h2 id=&quot;q5evercore-isi-kirk-materne净新增arr同比下滑了36-37驱动因素是什么&quot;&gt;Q5（Evercore ISI, Kirk Materne）：净新增ARR同比下滑了36%-37%，驱动因素是什么？&lt;/h2&gt;
+
+&lt;p&gt;这是全场最尖锐的一个问题，也是股价下跌的直接原因。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chakravarthy 的回答&lt;/strong&gt;：Adobe 把流量重新导向了免费增值漏斗做获客，然后是提升用户参与度、提升使用强度，最后才转化为ARR。这个策略瞄准的是「下一代创作者的庞大基数」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;这个回答在逻辑上是自洽的——先获客、再激活、后变现，是标准的免费增值三段论。但它回避了一个量化问题：&lt;strong&gt;从免费到付费的转化率是多少？转化周期有多长？&lt;/strong&gt;在这两个数字被披露之前，净新增ARR下滑三成就只能被理解为一个风险，而不是一笔投资。&lt;/p&gt;
+
+&lt;h2 id=&quot;q6piper-sandler-billy-fitzsimmons长期来看哪种定价模式会成为ai收入的主力&quot;&gt;Q6（Piper Sandler, Billy Fitzsimmons）：长期来看，哪种定价模式会成为AI收入的主力？&lt;/h2&gt;
+
+&lt;p&gt;分析师列了四种可能：捆绑积分、高级订阅层、按席位、按用量。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Narayen 的回答&lt;/strong&gt;：当前的优先级是「把尽可能多的客户带进我们的漏斗、带进 Adobe 大家庭」。变现方式取决于客户场景——个人还是企业、技能水平、使用场景都不同。Adobe 同时也在和微软 Copilot、ChatGPT 等合作伙伴集成，先确保价值被感知，再转化为ARR。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chakravarthy 补充&lt;/strong&gt;：Adobe 会用「多种多样的方式去变现」，取决于「客户的场景和他们在做什么」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;这是一个诚实但不令人安心的回答。它的实质是：&lt;strong&gt;Adobe 还没有想清楚免费用户最终怎么收钱&lt;/strong&gt;。对比一下，同样做免费增值的 Spotify、Canva，在战略启动时就有明确的付费墙设计。Adobe 现在是「先做大漏斗，变现方式边走边定」。&lt;/p&gt;
+
+&lt;p&gt;Fitzsimmons 追问 Topaz Labs 补上了什么能力，Chakravarthy 回答：Topaz 在影像和视频的AI增强上有「最先进的技术」，与 Creative Cloud、Firefly 和 Firefly 企业版是「自然的邻接与契合」，更多细节会在 MAX 上公布。&lt;/p&gt;
+
+&lt;h2 id=&quot;q7citi-andrew-gerard第三季度超预期为什么全年指引只上调了一点点是不是业务有新压力&quot;&gt;Q7（Citi, Andrew Gerard）：第三季度超预期，为什么全年指引只上调了一点点？是不是业务有新压力？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Steve Day 的回答&lt;/strong&gt;非常干脆：「业务上没有任何变化」（Nothing changing in the business at all）。小幅上调是因为用第三季度的超预期，抵消了第四季度的「轻微汇率逆风」。除此之外，「我们对全年指引感觉相当好」。&lt;/p&gt;
+
+&lt;p&gt;在此前回答摩根大通分析师时，Day 已经确认：相比6月给出的指引，第四季度的CMP与BP&amp;amp;C订阅收入合计中值只上调了约&lt;strong&gt;5000万美元&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;5000万美元的上调，对应68亿美元的季度营收，不到0.8%。Day 的解释（汇率逆风）是合理的，但市场显然更愿意把「几乎不上调」读作管理层对第四季度缺乏信心。&lt;/p&gt;
+
+&lt;h2 id=&quot;q8wells-fargo-michael-turrin你们怎么判断免费与变现之间的取舍什么时候决定转化&quot;&gt;Q8（Wells Fargo, Michael Turrin）：你们怎么判断免费与变现之间的取舍？什么时候决定转化？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Narayen 的回答&lt;/strong&gt;：Adobe 有一套「数据驱动的运营模型」来为免费增值做优化。原则是「先证明价值」（prove value first），然后根据「参与度信号、AI使用强度信号」来决定转化时机。公司在持续校准不同人群的「付费墙调优」（paywall tuning）和转化节点。&lt;/p&gt;
+
+&lt;p&gt;追问第四季度净新增ARR会怎样时，&lt;strong&gt;Day 确认第四季度的数字会「大于第三季度」&lt;/strong&gt;，因为第四财季在季节性上是强季度，也是企业业务的强季度。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;「付费墙调优」这个词组第一次出现在 Adobe 的业绩沟通里，说明公司内部确实已经有一套系统化的免费增值运营机制。Day 承诺第四季度净新增ARR环比改善，这是一个可以在12月财报里直接验证的具体承诺，值得记下来。&lt;/p&gt;
+
+&lt;h2 id=&quot;q9jefferies-brent-thill作为候任ceo你的前两项优先事项是什么&quot;&gt;Q9（Jefferies, Brent Thill）：作为候任CEO，你的前两项优先事项是什么？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Chakravarthy 的回答&lt;/strong&gt;：第一，执行好第四季度、把2026财年收好尾，强调 MAX 大会的重要性和「跨创意、生产力、客户体验的大量创新」；第二，花时间「和我们的社区、客户、Adobe 员工在一起，并搭建领导团队」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;「搭建领导团队」（building the leadership team）这句话，结合前面 Narayen 提到的「两位内部候选人」，强化了管理层可能出现变动的预期。&lt;/p&gt;
+
+&lt;h2 id=&quot;q10deutsche-bank-brad-zelnickfirefly-积分包arr加速的驱动力是什么&quot;&gt;Q10（Deutsche Bank, Brad Zelnick）：Firefly 积分包ARR加速的驱动力是什么？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Chakravarthy 的回答&lt;/strong&gt;：增长来自「AI使用强度」的提升带动了参与度。免费增值战略的顺序是先做用户获取（1亿+创意免费增值月活、同比+70%），然后「提升他们的AI使用强度、提升他们与产品的参与度」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Narayen 补充&lt;/strong&gt;：Firefly 里的创新「很神奇」（magical），视频是使用量的重要驱动。他还提到 Creative Cloud 核心桌面应用带来的「AI影响的收入」（AI-influenced revenue），积分消耗也很「强劲」。&lt;/p&gt;
+
+&lt;h1 id=&quot;三这场电话会说明了什么&quot;&gt;三、这场电话会说明了什么&lt;/h1&gt;
+
+&lt;p&gt;把十个问答放在一起看，有三个判断：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，市场和公司对同一组事实的解读完全相反。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;管理层看到的是：10亿月活、免费增值用户+70%、AI优先ARR+150%——这是历史性的用户扩张。&lt;/p&gt;
+
+&lt;p&gt;分析师看到的是：净新增ARR-36%、RPO增速降到8%、指引只上调5000万美元——这是增长引擎在熄火。&lt;/p&gt;
+
+&lt;p&gt;两边说的都是事实。分歧在于时间尺度：免费增值的收益要2-3年才会兑现，而财报是按季度打分的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，Adobe 这次是把话说死了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Narayen 那句「我们很高兴没有去涨价」，等于公开承诺短期内不靠提价来修饰报表。这在财务上是一个自缚手脚的表态——它让 Adobe 未来几个季度的ARR增长只能靠真实的用户转化，没有其他杠杆可用。&lt;/p&gt;
+
+&lt;p&gt;从治理角度，这句话在CEO交接前说出来，实际上是 Narayen 替继任者清空了包袱：涨价这张牌被明确地留给了 Chakravarthy。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，最大的未知数是转化率。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;整场电话会，没有一位分析师问出、也没有一位管理层给出免费用户的&lt;strong&gt;付费转化率&lt;/strong&gt;。这是免费增值模式唯一真正重要的指标。1亿创意免费增值用户，如果转化率是5%，那是500万付费用户；如果是0.5%，那是50万。两者对 Adobe 的估值意义天差地别。&lt;/p&gt;
+
+&lt;p&gt;在这个数字被披露之前，所有关于「用短期收入换长期用户」的讨论，本质上都是信仰问题。&lt;/p&gt;
+
+&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
+
+&lt;p&gt;这场电话会最值得记住的三件事：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;管理层首次明确承认主动推迟了 Creative Cloud 涨价&lt;/strong&gt;，Narayen 说「我们很高兴没有把重心放在涨价上」&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;净新增ARR同比下滑36%-37%&lt;/strong&gt;，被至少四位分析师从不同角度追问，管理层的回答始终是「这是主动选择」&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Steve Day 承诺第四季度净新增ARR会环比大于第三季度&lt;/strong&gt;——这是一个可以在12月财报里直接验证的具体承诺&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;候任CEO Anil Chakravarthy 的首秀表现稳健，回答结构清晰，但也没有带来超出既有战略的新东西。Narayen 在电话会结尾说，他「很高兴看到这么多关于未来的问题」。&lt;/p&gt;
+
+&lt;p&gt;12月1日交接班，11月的 MAX 大会，以及下一份把第四季度净新增ARR摊开来的财报——Adobe 这个赌注的第一个中期成绩单，会在三个月内出来。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;数据来源&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/01906202/c6yetrerew.pdf&quot;&gt;Adobe Q3 FY2026 业绩电话会演讲稿与幻灯片（Adobe官方PDF）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm&quot;&gt;Adobe 2026财年第三季度财报新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.adobe.com/news/2026/09/adobe-announces-anil-chakravarthy-to-become-president-and-ceo&quot;&gt;Adobe 关于 Anil Chakravarthy 出任CEO的公告（Adobe官方新闻室）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.adobe.com/investor-relations.html&quot;&gt;Adobe 投资者关系网站&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-adobe-tops-q3-2026-estimates-but-shares-fall-93CH-4897022&quot;&gt;Investing.com：Adobe Q3 FY2026 业绩电话会实录&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/company-news/adobe-q3-fy2026-slides-ai-revenue-soars-stock-falls-on-caution-93CH-4897029&quot;&gt;Investing.com：Adobe Q3 FY2026 slides — AI revenue soars, stock falls on caution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/11/adobe_fy2026q3_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/11/adobe_fy2026q3_earnings_call/</guid>
+        
+        <category>Adobe</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>Adobe 2026财年Q3——营收67.6亿美元同比增长13%，月活用户破10亿，但净新增ARR同比下滑超三成</title>
+        <description>&lt;p&gt;美东时间2026年9月10日盘后（北京时间9月11日凌晨），&lt;a href=&quot;https://www.adobe.com/investor-relations.html&quot;&gt;Adobe&lt;/a&gt;（纳斯达克代码ADBE）发布2026财年第三季度财报，对应会计期间是截至2026年8月28日的三个月。&lt;/p&gt;
+
+&lt;p&gt;先看三个最核心的数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;营收67.60亿美元&lt;/strong&gt;，同比增长13%（按固定汇率口径12%），创单季历史新高&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;非GAAP每股收益6.13美元&lt;/strong&gt;，同比增长15%；GAAP每股收益4.62美元，同比增长10.5%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AI优先业务的期末年化经常性收入（ARR）超过6.5亿美元&lt;/strong&gt;，同比增长超过150%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;公司同时上调了全年营收和每股收益指引，并宣布了一个里程碑：&lt;strong&gt;跨创意与生产力产品的月活跃用户（MAU）首次突破10亿&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;按常理这应该是一份很好的成绩单。但 Adobe 股价当天正常交易时段跌2.32%，盘后又跌2.14%至243.50美元。&lt;/p&gt;
+
+&lt;p&gt;这篇文章想回答的问题是——&lt;strong&gt;一份「超预期 + 上调指引 + 用户破10亿」的财报，为什么市场还是不买账？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-adobe-现在怎么划分业务&quot;&gt;1. Adobe 现在怎么划分业务&lt;/h2&gt;
+
+&lt;p&gt;从2026财年起，Adobe 把业务按&lt;strong&gt;客户群&lt;/strong&gt;而不是按产品线来报告，分成两块：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;创意与营销专业人士（Creative &amp;amp; Marketing Professionals，简称CMP）&lt;/strong&gt;：Creative Cloud、Firefly、Experience Cloud 这些卖给专业设计师、创意团队和企业营销部门的东西&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;商务专业人士与消费者（Business Professionals &amp;amp; Consumers，简称BP&amp;amp;C）&lt;/strong&gt;：Acrobat、Adobe Express 这些卖给普通白领和个人用户的东西&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本季度两块的表现是：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;客户群&lt;/th&gt;
+      &lt;th&gt;订阅收入&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+      &lt;th&gt;固定汇率同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;创意与营销专业人士（CMP）&lt;/td&gt;
+      &lt;td&gt;46.5亿美元&lt;/td&gt;
+      &lt;td&gt;+13%&lt;/td&gt;
+      &lt;td&gt;+12%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;商务专业人士与消费者（BP&amp;amp;C）&lt;/td&gt;
+      &lt;td&gt;19.1亿美元&lt;/td&gt;
+      &lt;td&gt;+16%&lt;/td&gt;
+      &lt;td&gt;+15%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;合计订阅收入&lt;/td&gt;
+      &lt;td&gt;65.6亿美元&lt;/td&gt;
+      &lt;td&gt;+14%&lt;/td&gt;
+      &lt;td&gt;+13%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;注意一个细节：&lt;strong&gt;规模小的BP&amp;amp;C（19亿美元）增速更快（+16%），规模大的CMP（46.5亿美元）增速更慢（+13%）&lt;/strong&gt;。这是理解 Adobe 当下处境的第一把钥匙。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-这一年-adobe-在做的最大一件事免费增值&quot;&gt;2. 这一年 Adobe 在做的最大一件事：免费增值&lt;/h2&gt;
+
+&lt;p&gt;Adobe 传统的商业模式是「订阅制卖软件」——设计师每月付几十美元用 Photoshop。这套模式好处是收入可预测、利润率高（本季毛利率88.7%），坏处是有门槛，把绝大多数「想做点设计但不是设计师」的人挡在了外面。&lt;/p&gt;
+
+&lt;p&gt;过去一年，Adobe 做了一个战略转向：&lt;strong&gt;免费增值（freemium）&lt;/strong&gt;——先让人免费用，用起来了再想办法收钱。&lt;/p&gt;
+
+&lt;p&gt;这个转向的效果在本季度的数据上非常明显：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;全公司月活用户&lt;strong&gt;突破10亿&lt;/strong&gt;，同比增长超过20%&lt;/li&gt;
+  &lt;li&gt;创意类免费增值产品月活&lt;strong&gt;突破1亿&lt;/strong&gt;，同比增长超过&lt;strong&gt;70%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Acrobat 与 Express 合计月活&lt;strong&gt;超过9亿&lt;/strong&gt;，同比增长超过25%&lt;/li&gt;
+  &lt;li&gt;Acrobat AI Assistant 的月活&lt;strong&gt;环比翻倍&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;代价也很明显：&lt;strong&gt;免费用户不贡献收入&lt;/strong&gt;。这就是市场纠结的地方。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标（截至2026年8月28日的三个月）&lt;/th&gt;
+      &lt;th&gt;本季&lt;/th&gt;
+      &lt;th&gt;去年同期&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;67.60亿美元&lt;/td&gt;
+      &lt;td&gt;59.88亿美元&lt;/td&gt;
+      &lt;td&gt;+12.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其中订阅收入&lt;/td&gt;
+      &lt;td&gt;65.82亿美元&lt;/td&gt;
+      &lt;td&gt;57.91亿美元&lt;/td&gt;
+      &lt;td&gt;+13.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利润&lt;/td&gt;
+      &lt;td&gt;59.97亿美元&lt;/td&gt;
+      &lt;td&gt;53.46亿美元&lt;/td&gt;
+      &lt;td&gt;+12.2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率&lt;/td&gt;
+      &lt;td&gt;88.7%&lt;/td&gt;
+      &lt;td&gt;89.3%&lt;/td&gt;
+      &lt;td&gt;-0.6个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;研发费用&lt;/td&gt;
+      &lt;td&gt;12.88亿美元&lt;/td&gt;
+      &lt;td&gt;10.88亿美元&lt;/td&gt;
+      &lt;td&gt;+18.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售与市场费用&lt;/td&gt;
+      &lt;td&gt;18.27亿美元&lt;/td&gt;
+      &lt;td&gt;16.39亿美元&lt;/td&gt;
+      &lt;td&gt;+11.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;管理费用&lt;/td&gt;
+      &lt;td&gt;4.88亿美元&lt;/td&gt;
+      &lt;td&gt;4.08亿美元&lt;/td&gt;
+      &lt;td&gt;+19.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP经营利润&lt;/td&gt;
+      &lt;td&gt;23.54亿美元&lt;/td&gt;
+      &lt;td&gt;21.73亿美元&lt;/td&gt;
+      &lt;td&gt;+8.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;34.8%&lt;/td&gt;
+      &lt;td&gt;36.3%&lt;/td&gt;
+      &lt;td&gt;-1.5个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;所得税&lt;/td&gt;
+      &lt;td&gt;5.30亿美元&lt;/td&gt;
+      &lt;td&gt;4.15亿美元&lt;/td&gt;
+      &lt;td&gt;+27.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;实际税率&lt;/td&gt;
+      &lt;td&gt;22.5%&lt;/td&gt;
+      &lt;td&gt;19.0%&lt;/td&gt;
+      &lt;td&gt;+3.5个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP净利润&lt;/td&gt;
+      &lt;td&gt;18.27亿美元&lt;/td&gt;
+      &lt;td&gt;17.72亿美元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+3.1%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;4.62美元&lt;/td&gt;
+      &lt;td&gt;4.18美元&lt;/td&gt;
+      &lt;td&gt;+10.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;摊薄股本&lt;/td&gt;
+      &lt;td&gt;3.95亿股&lt;/td&gt;
+      &lt;td&gt;4.24亿股&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-6.8%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营性现金流&lt;/td&gt;
+      &lt;td&gt;25.23亿美元&lt;/td&gt;
+      &lt;td&gt;21.98亿美元&lt;/td&gt;
+      &lt;td&gt;+14.8%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这张表里藏着这份财报最核心的矛盾，我们一行一行拆：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，营收增长13%，但经营利润只增长8.3%。&lt;/strong&gt;费用端全线跑赢了收入增速：研发+18.4%、管理费用+19.6%、销售与市场+11.5%。结果是经营利润率从36.3%掉到34.8%。&lt;/p&gt;
+
+&lt;p&gt;研发费用增长18.4%是可以理解的——AI模型训练和推理都要花钱。但&lt;strong&gt;管理费用增长19.6%&lt;/strong&gt;这一项，在一家成熟软件公司身上并不常见。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，净利润只增长了3.1%。&lt;/strong&gt;这是整份财报里最不好看的一个数字。原因是税率：实际税率从19.0%跳到22.5%，多交了约1.15亿美元的税。经营利润增长的1.81亿美元，有六成被税吃掉了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，每股收益却增长了10.5%。&lt;/strong&gt;净利润只增3.1%，每股收益能增10.5%，差额全部来自&lt;strong&gt;回购&lt;/strong&gt;——摊薄股本从4.24亿股降到3.95亿股，减少6.8%。本季度公司回购了约950万股。&lt;/p&gt;
+
+&lt;p&gt;从资产负债表也能看到这一点：库存股（treasury stock）成本从年初的488.47亿美元升到556.19亿美元，今年前三季度累计回购了约&lt;strong&gt;67.7亿美元&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;把这三条串起来看：&lt;strong&gt;Adobe 当下的每股收益增长，有相当一部分不是靠业务本身，而是靠回购缩股本。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，一个容易被忽略的信号：递延收入在减少。&lt;/strong&gt;现金流量表显示，本季递延收入变动为&lt;strong&gt;-4600万美元&lt;/strong&gt;，而去年同期是&lt;strong&gt;+2亿美元&lt;/strong&gt;。递延收入是客户已经付钱、公司还没确认为收入的部分，可以理解成「预收款」。它由正转负，说明新签和续签的现金流入在放缓。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第五，在手订单增速掉到个位数。&lt;/strong&gt;期末剩余履约义务（RPO）221.6亿美元，同比增长&lt;strong&gt;8%&lt;/strong&gt;；当期剩余履约义务（cRPO）占RPO的67%，同比增长9%。对一家收入增长13%的订阅公司来说，在手订单只增长8%，这是一个领先指标层面的减速信号。&lt;/p&gt;
+
+&lt;h1 id=&quot;三最关键的一个数字净新增arr&quot;&gt;三、最关键的一个数字：净新增ARR&lt;/h1&gt;
+
+&lt;p&gt;财报新闻稿里没有直接披露这个数字，但它在电话会上被分析师反复追问。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ARR&lt;/strong&gt;（Annualized Recurring Revenue，年化经常性收入）是订阅公司的核心指标——把当前所有订阅按年折算出来的收入规模。Adobe 本季期末总ARR为&lt;strong&gt;275.0亿美元&lt;/strong&gt;，同比增长&lt;strong&gt;11.2%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;「净新增ARR」则是这一个季度新增加的ARR。Evercore ISI 分析师 Kirk Materne 在电话会上直接指出：&lt;strong&gt;本季净新增ARR同比下滑了36%-37%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这个数字解释了股价为什么跌。总ARR还在增长11.2%，但&lt;strong&gt;新增的增量在明显萎缩&lt;/strong&gt;。对订阅生意来说，净新增ARR是「未来的营收」，营收是「过去的净新增ARR」。前者掉三成，意味着未来几个季度的营收增速会承压。&lt;/p&gt;
+
+&lt;p&gt;Adobe 管理层对此的解释是主动选择：他们把原本用于直接转化付费的流量，导向了免费增值漏斗，先做用户规模，再做转化。公司也确认，原计划的 Creative Cloud 涨价动作被推迟了。&lt;/p&gt;
+
+&lt;p&gt;CEO Shantanu Narayen 在电话会上说得很直白，大意是：他们很庆幸没有去做涨价动作，因为涨价虽然能带来一些短期缓解，但远不如持续推动新用户采纳来得关键。&lt;/p&gt;
+
+&lt;p&gt;这就是这份财报的核心权衡：&lt;strong&gt;用当下的ARR增长，换未来的用户基数。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;四ai业务到底做到了什么程度&quot;&gt;四、AI业务到底做到了什么程度&lt;/h1&gt;
+
+&lt;p&gt;这是 Adobe 这份财报里真正的亮点。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;AI优先（AI-first）业务期末ARR超过6.5亿美元，同比增长超过150%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Firefly 相关ARR（应用与积分包）&lt;strong&gt;环比增长40%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Adobe Experience Manager、GenStudio、Adobe Experience Platform 的ARR同比增速均&lt;strong&gt;超过20%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;品牌可见度（Brand Visibility）付费客户数&lt;strong&gt;环比翻倍&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;CX Enterprise Coworker（企业级AI助手）已正式商用，覆盖&lt;strong&gt;1700多家&lt;/strong&gt;客户&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;需要注意的是量级：6.5亿美元的AI优先ARR，相对于275亿美元的总ARR，占比只有&lt;strong&gt;2.4%&lt;/strong&gt;。增速非常快，但还远远不到能拉动整体增速的规模。&lt;/p&gt;
+
+&lt;p&gt;产品侧本季的动作包括：Adobe Creative Agent 扩展到 Photoshop 和 Premiere；Firefly 新增音乐、语音、音效生成能力；宣布收购影像增强技术公司 &lt;strong&gt;Topaz Labs&lt;/strong&gt;（预计第四财季完成交割）；Reader、Acrobat、Express 三款产品都加入了对话式交互界面。&lt;/p&gt;
+
+&lt;p&gt;企业客户方面，本季提到的新增或扩大合作包括亚马逊、德国邮政DHL、霍尼韦尔、美国能源部洛斯阿拉莫斯国家实验室、迪士尼、T-Mobile、宜家、万豪、加拿大皇家银行、富国银行等。迪士尼幻想工程（Disney Imagineering）正在把 Firefly Foundry 集成进自己的设计工具链。&lt;/p&gt;
+
+&lt;h1 id=&quot;五指引与管理层变动&quot;&gt;五、指引与管理层变动&lt;/h1&gt;
+
+&lt;h2 id=&quot;公司给出的财务指引&quot;&gt;公司给出的财务指引&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;2026财年第四季度：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;指引&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;68.0亿-68.5亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;BP&amp;amp;C订阅收入&lt;/td&gt;
+      &lt;td&gt;19.3亿-19.5亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMP订阅收入&lt;/td&gt;
+      &lt;td&gt;46.65亿-46.95亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;4.65-4.70美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;6.30-6.35美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;约44.0%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;2026财年全年（上调后）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;指引&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;265.76亿-266.26亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;期末总ARR增速&lt;/td&gt;
+      &lt;td&gt;同比10.2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;18.12-18.17美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP每股收益&lt;/td&gt;
+      &lt;td&gt;24.45-24.50美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP经营利润率&lt;/td&gt;
+      &lt;td&gt;约45.0%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;需要留意的是：这次「上调」的幅度非常小。据临时CFO Steve Day 在电话会上确认，相比6月给出的指引，第四季度中值只上调了约&lt;strong&gt;5000万美元&lt;/strong&gt;——基本上就是把第三季度的超预期部分平移过来，再扣掉第四季度的汇率逆风。花旗分析师就此追问是否意味着业务有新压力，Day 的回答是「业务没有任何变化」。&lt;/p&gt;
+
+&lt;h2 id=&quot;ceo交接&quot;&gt;CEO交接&lt;/h2&gt;
+
+&lt;p&gt;需要说明的是，Adobe 的CEO交接消息是在&lt;strong&gt;9月2日&lt;/strong&gt;单独公告的，不是这次财报的内容，但它构成了这场财报的重要背景：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Anil Chakravarthy&lt;/strong&gt; 将于2026年12月1日出任 Adobe 总裁兼首席执行官，并加入董事会。他自2020年1月加入 Adobe，此前负责客户体验编排业务与全球现场运营&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Shantanu Narayen&lt;/strong&gt; 将转任执行董事长。他自2007年起担任 Adobe CEO，任内完成了从盒装软件到订阅制的整个转型&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;此外，本季财报由&lt;strong&gt;临时CFO&lt;/strong&gt; Steve Day 签署——Adobe 目前CFO一职仍是代理状态。CEO换人叠加CFO空缺，这是市场在评估这份财报时不能忽略的治理背景。&lt;/p&gt;
+
+&lt;h1 id=&quot;六亮点与隐忧&quot;&gt;六、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 用户规模的跃迁是真实的。&lt;/strong&gt;10亿月活、1亿创意类免费增值月活（+70%）、9亿 Acrobat+Express 月活，这是 Adobe 历史上从未有过的用户体量。对一家做创作工具的公司来说，用户基数就是未来的定价权。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. AI业务增速极快。&lt;/strong&gt;AI优先ARR同比+150%、Firefly ARR环比+40%，这说明生成式AI在 Adobe 手里已经跑通了收费闭环，不只是演示。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 现金流稳健。&lt;/strong&gt;经营性现金流25.23亿美元创第三财季纪录，同比增长14.8%，高于营收增速。期末现金与短期投资56.4亿美元。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. 指引上调而非下调。&lt;/strong&gt;在一堆「AI会不会颠覆 Adobe」的质疑声中，公司还是把全年营收和利润指引往上调了。&lt;/p&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 净新增ARR同比下滑36%-37%。&lt;/strong&gt;这是最需要盯住的数字。管理层的解释是主动战略选择，但主动与被动在财务报表上的呈现是一样的——后续几个季度能否重新加速，是检验这套说辞的唯一标准。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 利润率在下滑。&lt;/strong&gt;GAAP经营利润率从36.3%降到34.8%。免费增值意味着要为不付钱的用户承担推理和存储成本，这个成本会持续存在。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 净利润只增长3.1%，每股收益靠回购撑。&lt;/strong&gt;回购能持续，但它不创造新的增长。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. RPO增速掉到8%，递延收入由正转负。&lt;/strong&gt;两个领先指标同时走弱。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. 变现路径还没定型。&lt;/strong&gt;电话会上被问到「积分捆绑、高级订阅层、按席位、按用量，哪一种会是长期主力」时，管理层的回答是「取决于客户和场景」——这是个诚实的回答，但也说明 Adobe 自己还没想清楚免费用户最终怎么收钱。&lt;/p&gt;
+
+&lt;h1 id=&quot;七总结&quot;&gt;七、总结&lt;/h1&gt;
+
+&lt;p&gt;这份财报可以用一句话概括：&lt;strong&gt;Adobe 在用确定的短期利润，去赌一个不确定的长期用户红利。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;数字上的对照非常清晰：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;换来的是：月活&lt;strong&gt;10亿&lt;/strong&gt;、创意免费增值用户&lt;strong&gt;+70%&lt;/strong&gt;、AI优先ARR&lt;strong&gt;+150%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;付出的是：净新增ARR&lt;strong&gt;-36%以上&lt;/strong&gt;、经营利润率&lt;strong&gt;-1.5个百分点&lt;/strong&gt;、RPO增速降到&lt;strong&gt;8%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这个赌注是否划算，取决于一个还没有答案的问题：&lt;strong&gt;在生成式AI把创作门槛降到接近零的时代，「拥有10亿创作者」到底值多少钱？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;如果答案是「很值钱」，那 Adobe 现在做的事情是教科书级的正确——先占住用户，再慢慢找变现方式，就像当年从盒装软件转订阅制一样。如果答案是「免费用户永远是免费用户」，那今天牺牲的利润率就换不回来。&lt;/p&gt;
+
+&lt;p&gt;市场目前的投票结果是：谨慎。股价盘后跌2.14%至243.50美元。&lt;/p&gt;
+
+&lt;p&gt;12月1日新任CEO Anil Chakravarthy 正式上任，加上11月在迈阿密海滩举行的 Adobe MAX 大会（公司预告将发布「跨 Creative Cloud 的突破性创新」和「Firefly 企业版的连接式工作流」），接下来两个季度会是观察这个赌注的关键窗口。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;数据来源&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm&quot;&gt;Adobe 2026财年第三季度财报新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbe-20260910.htm&quot;&gt;Adobe 2026年9月10日 Form 8-K&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.adobe.com/investor-relations.html&quot;&gt;Adobe 投资者关系网站&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/01906202/c6yetrerew.pdf&quot;&gt;Adobe Q3 FY2026 业绩电话会演讲稿与幻灯片（Adobe官方PDF）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.adobe.com/news/2026/09/adobe-announces-anil-chakravarthy-to-become-president-and-ceo&quot;&gt;Adobe 关于 Anil Chakravarthy 出任CEO的公告（Adobe官方新闻室）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-adobe-tops-q3-2026-estimates-but-shares-fall-93CH-4897022&quot;&gt;Investing.com：Adobe Q3 FY2026 业绩电话会实录&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/company-news/adobe-q3-fy2026-slides-ai-revenue-soars-stock-falls-on-caution-93CH-4897029&quot;&gt;Investing.com：Adobe Q3 FY2026 slides — AI revenue soars, stock falls on caution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/11/adobe_fy2026q3_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/11/adobe_fy2026q3_earnings/</guid>
+        
+        <category>Adobe</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
         
       </item>
     
@@ -1075,740 +2162,6 @@
         
         
         <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.09.09</title>
-        <description>&lt;h2 id=&quot;115-openai-用万级-agent-给出-navier-stokes-有限时间奇性构造&quot;&gt;1/15 OpenAI 用万级 Agent 给出 Navier-Stokes 有限时间奇性构造&lt;/h2&gt;
-&lt;p&gt;OpenAI 发布 166 页论文与 Lean 形式化，称一个仍在训练、显著强于 GPT-6 Astra 的内部模型协调约 10,000 个 Agent，用 88 小时构造了从静止出发、受光滑紧支撑外力驱动、能量有界但速度有限时间发散的三维不可压缩流；形式化另耗时 17 小时。公司不申请 Millennium Prize。证明尚待独立审阅，且与 Alpöge、Buckmaster 的受迫 Euler 并行成果之间出现数据、沟通和优先权争议，技术有效性与学术归属需分开判断。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2097374640582668336&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2097374643518640382&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2097375276384567642&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GaryMarcus/status/2097446464041660608&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GaryMarcus&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;215-chatgpt-images-25-把编辑控制扩展到草图评论与多轮一致性&quot;&gt;2/15 ChatGPT Images 2.5 把编辑控制扩展到草图、评论与多轮一致性&lt;/h2&gt;
-&lt;p&gt;OpenAI 推出 Images 2.5，强调参考图主体保真、自然光照纹理、只改指定区域及多轮编辑不劣化，并称相对 Images 2.0 生成延迟最高降低 50%。ChatGPT 新增 Sketch、常用版式模板、图片评论式编辑和提示词分享；API 同步上线面向高吞吐的 GPT-Image-2.5 Flare 与更重精度控制的 Sunburst，覆盖 ChatGPT、ChatGPT Work 与 Codex。质量和速度为厂商测量，安全仍依赖内容检查、C2PA 与不可见水印。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2097394956457623964&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2097394962782384318&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2097394958516781301&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;315-alphagenome-atlas-预计算全部-90-亿种单字母-dna-变异&quot;&gt;3/15 AlphaGenome Atlas 预计算全部 90 亿种单字母 DNA 变异&lt;/h2&gt;
-&lt;p&gt;Google DeepMind 发布约 1 PB 的 AlphaGenome Atlas，规模超过 AlphaFold Database 30 倍，为全部约 90 亿种单核苷酸变异预计算跨组织、细胞类型的分子影响，并以 AVI 分数结合 AlphaGenome 与 AlphaMissense，附带剪接、染色质等可解释贡献。官方案例包括实验验证 DNM1 相关剪接变异，以及在 5.4 万名 UK Biobank 参与者中多发现 22% 非编码关联。它面向研究排序而非临床诊断，学术门户和 API 已开放，商业版计划进入 Google Cloud。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2097325048109384166&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2097325050919596469&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/demishassabis/status/2097341636472688674&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@demishassabis&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;415-meta-muse-把个人-agent-放进独立-vm并由外置-sentinel-控制权限&quot;&gt;4/15 Meta Muse 把个人 Agent 放进独立 VM，并由外置 Sentinel 控制权限&lt;/h2&gt;
-&lt;p&gt;Meta 发布由 Muse Spark 1.3 驱动的个人 Agent Muse，可长期后台工作、使用浏览器与连接器、创建工具并协调子 Agent。每位用户拥有独立云 VM；Agent 运行 cell 看不到真实凭证，连接器权限与所有网络外发由不可被主 Agent 覆盖的 Sentinel 决定，浏览器 CDP 也经独立 broker 收窄。系统叠加 prompt injection 分类器、高风险操作审批和支付一次性卡，开放最高 30 万美元漏洞赏金；Meta 同时承认当前仍可能因运维访问数据，Confidential VM 尚在计划中。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AIatMeta&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2097401493770956808&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/AIatMeta/status/2097406461118943599&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AIatMeta 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;515-cognition-融资超-20-亿美元估值升至-480-亿美元&quot;&gt;5/15 Cognition 融资超 20 亿美元，估值升至 480 亿美元&lt;/h2&gt;
-&lt;p&gt;Cognition 宣布 Series E 融资超过 20 亿美元，估值 480 亿美元，由 a16z、Accel 领投，Founders Fund、General Catalyst、Avenir 等参与；公司自报自 5 月以来 run-rate revenue 从 4.92 亿美元增至接近 9 亿美元，但未给出审计口径。Devin 的产品重心正从会话式编码扩展到 Auto-Triage、Security Swarm 和由 Slack、GitHub、Linear 事件触发的 Automations。融资额、估值与收入均为公司披露，不能直接等同于已确认收入或盈利。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cognition/status/2097369798518681891&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cognition&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/swyx/status/2097446534417895797&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@swyx&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;615-mistral-获-30-亿欧元融资把主权-ai-扩展到全栈基础设施&quot;&gt;6/15 Mistral 获 30 亿欧元融资，把主权 AI 扩展到全栈基础设施&lt;/h2&gt;
-&lt;p&gt;Mistral 完成 30 亿欧元 Series D，投后估值超过 210 亿欧元，Samsung Electronics 领投，EQT 的 Scaleup Europe Fund 与 PSG Equity 共同领投，ASML、NVIDIA 等继续参与。公司称资金将扩大前沿研究、训练算力、基础设施与国际业务，并自报已覆盖 20 个国家、125 家以上企业。其“主权 AI”主张把 open-weight 模型、私有算力、数据边界和可审计生产系统绑定在一起；客户规模、落地成效和独立性仍需外部验证。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@MistralAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/MistralAI/status/2097188835897586083&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@MistralAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/MistralAI/status/2097188842386108859&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@MistralAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;715-world-labs-atlas-从发布演示推进到实时视角流生成&quot;&gt;7/15 World Labs Atlas 从发布演示推进到实时视角流生成&lt;/h2&gt;
-&lt;p&gt;李飞飞与团队成员披露，World Labs 的 Atlas 经推理优化后已能实时运行：用户可连续移动相机，模型流式预测下一视角，并保持相机位置和三维场景一致；团队展示了从房产照片进入可漫游空间、突破早期小场景边界等案例。这是 9 月 1 日 Atlas 发布后的运行时进展，不是新模型发布。公开视频尚未给出分辨率、帧率、硬件、延迟分位数和长程漂移数据，因此“实时”仍需在统一配置下量化。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@drfeifei&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/drfeifei/status/2097389221548118144&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@drfeifei 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/drfeifei/status/2097429460115218568&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@drfeifei 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;815-cohere-用单一-decode-megakernel-把-h100-小批量推理提速-158-倍&quot;&gt;8/15 Cohere 用单一 decode megakernel 把 H100 小批量推理提速 1.58 倍&lt;/h2&gt;
-&lt;p&gt;Cohere 为 North Mini Code 开源完整 serving engine，把 QKV、attention、MoE 等 decode 操作融合进单个持久 kernel，以细粒度调度、权重预取和空闲 SM 回填减少同步与显存带宽空转。公司在单张 H100、BF16、batch size 1 测得 292 token/s，对比 vLLM 的 185 token/s；batch size 8 的端到端提升为 1.25-1.41 倍，并支持 continuous batching、paged attention 与 256K context。结果针对特定模型和硬件，开源后仍需独立复现可移植性。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cohere/status/2097410772355666393&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cohere/status/2097410777804054741&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/cohere/status/2097410774540886279&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;915-runway-同时进入-adobe-时间线与巴黎机器人研究团队&quot;&gt;9/15 Runway 同时进入 Adobe 时间线与巴黎机器人研究团队&lt;/h2&gt;
-&lt;p&gt;Runway 发布 Premiere Pro、After Effects 插件，让用户在 Adobe 时间线内调用其模型完成生成、编辑与放大；同日宣布巴黎研究实验室 Kinetix 团队加入，以增加机器人研究和商业部署投入。两项动作分别把生成模型嵌入专业后期工作流、把视频与世界模型能力延伸到具身场景。公告未披露插件支持的全部模型、价格、数据回传边界，也未说明 Kinetix 的交易结构与团队规模。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@runwayml&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/runwayml/status/2097432765142532487&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@runwayml 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/runwayml/status/2097330512113098866&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@runwayml 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1015-suno-与-believetunecore-建立可选参与的-ai-音乐分发链路&quot;&gt;10/15 Suno 与 Believe、TuneCore 建立可选参与的 AI 音乐分发链路&lt;/h2&gt;
-&lt;p&gt;Suno 与独立音乐公司 Believe 及自发行平台 TuneCore 建立全球合作：艺术家可选择参与新行业合作模型与粉丝体验，相关曲目可经 Believe/TuneCore 分发并获得报酬。双方还将使用音频水印、指纹识别和下载限制防止欺诈与批量灌流。Believe、TuneCore 年初曾拒绝分发未达其标准的 Suno 模型作品，此次转向显示授权与分发正在被重写；新模型发布日期、训练授权和分成比例尚未披露。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/suno/status/2097418544820466156&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@suno&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1115-腾讯混元用递归合成把终端任务难度拉高但把验证变成主瓶颈&quot;&gt;11/15 腾讯混元用递归合成把终端任务难度拉高，但把验证变成主瓶颈&lt;/h2&gt;
-&lt;p&gt;AlphaSignal 转述腾讯混元研究：从已验证父任务递归生成更难子任务时，公开指令、工作区、官方脚本和隐藏测试必须同时一致；任一错位都会制造无效训练样本。其披露的实验中，官方脚本平均从 67 行增至 374 行，而指令只从 85 词增至 122 词；冻结的 DeepSeek-V4-Pro pass@4 从 90% 降至后期 2.5%，每 1,000 次尝试仍约产出 500 个被接受任务。数据来自二次解读，论文与复现实验仍需单独核对。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AlphaSignalAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/AlphaSignalAI/status/2097412038314053989&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AlphaSignalAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/AlphaSignalAI/status/2097412041426309599&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AlphaSignalAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1215-stripe-的-kai-显示企业-agent-的规模上限先落在技能选择与治理&quot;&gt;12/15 Stripe 的 Kai 显示企业 Agent 的规模上限先落在技能选择与治理&lt;/h2&gt;
-&lt;p&gt;Harrison Chase 重新介绍 Stripe 全员 Agent Kai：LangChain 案例称一名工程师用一周搭出初版，Kai 通过虚拟文件系统、沙箱和摘要中间件连接内部仓库、Slack 与 Google Suite；公司已积累 100 个团队维护的 1,000 多个技能及 500 多个 MCP 工具。案例自报四周用户从 296 增至 5,000 多、83% 员工每周使用。真正瓶颈已从接入转向技能预筛、上下文退化、权限与跨会话协作；采用率和收益为厂商案例口径。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hwchase17/status/2097355841183596632&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1315-databricks-把本地-ide-直接接到-serverlessai-runtime-与集群&quot;&gt;13/15 Databricks 把本地 IDE 直接接到 Serverless、AI Runtime 与集群&lt;/h2&gt;
-&lt;p&gt;Databricks 再次推广本地 IDE/CLI 的远程执行能力：开发者可从 VS Code、Cursor 或终端通过 SSH tunnel 运行、调试 Python 和 SQL，连接 Serverless、AI Runtime 或专用集群，同步文件与依赖并在 IDE 内浏览 Unity Catalog；编码 Agent 因而能在真实工作区上下文和算力上执行。下一步才计划自动配置 Unity AI Gateway、整合 bundle 管理和支持自定义镜像，当前价值是减少环境切换，安全与成本仍取决于 workspace 权限和 usage policy。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2097324624904126565&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1415-astra-完成付费用户全量-rollout能力跃迁开始暴露配额成本&quot;&gt;14/15 Astra 完成付费用户全量 rollout，能力跃迁开始暴露配额成本&lt;/h2&gt;
-&lt;p&gt;OpenAI 宣布 GPT-6 Astra 已向 Codex 与 ChatGPT Work 的 Plus、Pro、Business、Enterprise 用户完成全量推送。与此同时，早期重度用户 Matt Shumer 称，Astra 让他连续消耗多次 plan reset，改变了过去可全天运行的使用方式；这是一条个人使用信号，不代表统一定价或平均消耗。模型从限量测试走向全量付费使用后，新的观察重点将是实际任务成功率、token 与工具成本、配额公平性以及失败重试，而不只是社交媒体成品。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/OpenAI/status/2097431322117476423&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenAI&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/mattshumer_/status/2097502373375598941&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mattshumer_&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1515-agent-harness-正把分叉记忆身份与模型路由收进控制面&quot;&gt;15/15 Agent harness 正把分叉、记忆、身份与模型路由收进控制面&lt;/h2&gt;
-&lt;p&gt;LangChain 的 Deep Agents 新增带既有上下文的子 Agent fork、内置记忆，并把“Agent 以自己还是用户身份行动”的授权问题推向托管能力；Gloo Code 则以用途专用 Agent 和模型路由在质量、成本、隐私间选择，首批开放给 500 多名开发者。两组更新共同表明，生产 Agent 的差异化正从单次模型调用迁移到上下文继承、持久状态、身份代理、审批和按任务路由。两者尚未披露跨真实任务的统一完成率或长期安全评测。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hwchase17&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/hwchase17/status/2097410530717704546&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@hwchase17 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/hwchase17/status/2097443947161243902&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@hwchase17 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/hwchase17/status/2097447020554289488&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@hwchase17 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/PGelsinger/status/2097413202846114214&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@PGelsinger&lt;/a&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;openai-navier-stokes定理覆盖受迫方程反例验证与归属仍是两条独立问题&quot;&gt;OpenAI Navier-Stokes：定理覆盖受迫方程反例，验证与归属仍是两条独立问题&lt;/h3&gt;
-&lt;p&gt;论文的 Theorem 1.1 对任意正黏度构造光滑、时空紧支撑外力与从零开始的三维流；速度在 t=1 前光滑、动能一致有界，但 L∞ 速度趋于无穷，对应 Clay 表述的 C、D 情形。构造用自相似收缩涡旋产生奇性，再以多尺度振荡脉冲的非线性动量通量抵消环状区域残差，使总外力及全部导数能跨越奇性时刻光滑延拓。OpenAI 称约 10,000 个 Agent 在 88 小时、270 万条消息和 1,300 亿输出 token 中得到解，Lean 形式化另用 GPT-6 Astra 17 小时完成。文本和机器证明都已公开，但仍需数学界检查定义、形式化覆盖与隐含假设；与受迫 Euler 并行工作的优先权、私有产品数据训练可能性和沟通过程不能由 Lean 验证自动解决。
-&lt;a href=&quot;https://openai.com/index/navier-stokes-solution/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;chatgpt-images-25重点从单张生成转向可持续编辑工作流&quot;&gt;ChatGPT Images 2.5：重点从单张生成转向可持续编辑工作流&lt;/h3&gt;
-&lt;p&gt;Images 2.5 的产品改动围绕“尽量不改不该改的部分”：参考人物与主体更一致，复杂背景中的局部编辑更精确，多轮修改更少丢失早期变化；Sketch 让用户直接画空间、服装或构图轮廓，模板提供海报、商品图等起点，图片评论则把修改绑定到视觉位置。OpenAI 称每周通过 ChatGPT Images 与 API GPT-Image 模型生成超过 30 亿张图片，新模型相对 Images 2.0 延迟最高降 50%。API 的 Flare 面向速度与规模，Sunburst 面向精细商业创意；两者的质量、延迟与价格仍要结合分辨率、迭代轮数和失败率核算。系统继续使用 C2PA、不可见水印与输入输出检查，但本地开源视频/图像工具带来的身份滥用风险不在这一产品边界内。
-&lt;a href=&quot;https://openai.com/index/introducing-chatgpt-images-2-5/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;alphagenome-atlas把逐变异推理提前计算为-1-pb-的全基因组搜索层&quot;&gt;AlphaGenome Atlas：把逐变异推理提前计算为 1 PB 的全基因组搜索层&lt;/h3&gt;
-&lt;p&gt;Atlas 不是每次收到研究问题才调用 AlphaGenome，而是预先为约 90 亿种单字母变异生成数千种分子效应预测，再把 AlphaGenome 与蛋白变异模型 AlphaMissense 汇成 AVI 分数，并给出剪接、表达、染色质、保守性等特征贡献。资源覆盖编码区和占 98% 的非编码区，连接 2,500 多种重复序列 motif。外部合作案例中，AVI 帮助定位 DNM1 的异常剪接变异并得到实验验证；对 5.4 万多名 UK Biobank 参与者的分析把非编码关联发现量提高 22%。这些结果说明预计算可显著缩短候选筛选，但预测分数仍需实验、群体与临床证据确认，不能直接解释为致病诊断。
-&lt;a href=&quot;https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;meta-muse假设主-agent-会被攻破再用-cell凭证代理和-sentinel-限制爆炸半径&quot;&gt;Meta Muse：假设主 Agent 会被攻破，再用 cell、凭证代理和 Sentinel 限制爆炸半径&lt;/h3&gt;
-&lt;p&gt;Muse 把每位用户的工作区放在独立云 VM，将主 harness、可执行工具和文件放入受限 runtime cell；真实 OAuth 凭证由 cell 外 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;authd&lt;/code&gt; 保存，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;privsep&lt;/code&gt; worker 只获得按连接器与调用者白名单授权的凭证。Sentinel 是连接器动作与所有网络外发的唯一许可者，主 Agent 只能提出请求，不能覆写决定。浏览器经 CDP broker 暴露 accessibility tree，不开放页面 JavaScript 与 DevTools；密码填充或用户接管时 Agent 暂停。对 prompt injection，系统组合模型训练、外部数据不可信标签、多分类器、确定性网络/进程边界和人工审批。购物每次确认，并以商户、金额、时限绑定的一次性卡降低泄露价值。设计比“让模型更听话”更接近安全内核，但 Meta 仍可因服务运维访问现有 VM，Confidential VM 尚未正式交付。
-&lt;a href=&quot;https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;cognition-series-e估值跃升押注的是主动事件驱动的自驾软件系统&quot;&gt;Cognition Series E：估值跃升押注的是主动、事件驱动的自驾软件系统&lt;/h3&gt;
-&lt;p&gt;Cognition 获超 20 亿美元融资、估值 480 亿美元，并自报 run-rate revenue 在约四个月内由 4.92 亿美元增至接近 9 亿美元。新资金背后的产品论点不再只是“Devin 能写代码”，而是让工程师成为架构者：Auto-Triage 在事故发生后先调查，Security Swarm 发现并归类多步漏洞，Automations 从 Slack、GitHub、Linear 事件自动开始工作，未来还要让算力预算按高价值任务自动分配。公司强调保持独立 Agent 实验室，可组合不同模型供应商。最需要外部核验的是收入年化定义、毛利与计算成本、自动化任务的真正完成率，以及高权限持续 Agent 引入的安全与问责成本。
-&lt;a href=&quot;https://cognition.com/blog/series-e&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;mistral-series-d欧洲前沿模型竞争被重新定义为模型算力与数据控制权&quot;&gt;Mistral Series D：欧洲前沿模型竞争被重新定义为模型、算力与数据控制权&lt;/h3&gt;
-&lt;p&gt;30 亿欧元融资把 Mistral 的投后估值推到 210 亿欧元以上，由 Samsung 领投、EQT Scaleup Europe Fund 与 PSG Equity 共同领投，ASML、NVIDIA 等继续下注。公司计划同时扩大研究、训练算力、基础设施、产品和国际商业，而不是只购买模型训练资源。它把“主权 AI”拆成数据不离开组织边界、模型可控可定制、算力私有且可预测、生产系统可控可审计四项，并自报在 20 个国家服务 125 家以上大型企业。战略价值在于为政府和受监管企业提供非美国单一云路线；但 open-weight、私有部署与真正供应链独立并非同义，芯片、云、融资和维护能力仍形成外部依赖。
-&lt;a href=&quot;https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;cohere-megakerneldecode-优化从单个算子转向跨整步的细粒度调度&quot;&gt;Cohere megakernel：decode 优化从单个算子转向跨整步的细粒度调度&lt;/h3&gt;
-&lt;p&gt;传统 serving 每层依次启动多个 kernel，batch 小时常被 launch、整网格栅栏与显存搬运拖慢。Cohere 的持久 megakernel 让每个 SM 常驻一个 threadblock，从主机生成的 task list 读取 QKV、attention、MoE 等 tile，并用全局计数器只等待真正的数据依赖；并行 transformer 分支允许空闲 SM 回填其他就绪任务，权重还能在激活到达前预取。North Mini Code 每 token 激活 3.3B 参数，BF16 每步约搬 6.6 GB 权重；公司估算单张 H100 的带宽极限约 470 token/s，vLLM 达 185，而其实现达 292。1.58 倍结果说明内存带宽利用可成为小批量 Agent 推理的核心杠杆，但对其他模型结构、GPU、量化与并发负载的收益仍需复现。
-&lt;a href=&quot;https://cohere.com/blog/megakernels&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;suno-与-believetunecore音乐行业从单纯抵制转向带保障的可选接入&quot;&gt;Suno 与 Believe/TuneCore：音乐行业从单纯抵制转向带保障的可选接入&lt;/h3&gt;
-&lt;p&gt;Believe 与 TuneCore 今年早些时候还拒绝分发使用未达到其标准模型创作的音乐；最新合作则允许艺术家自愿参与 Suno 的行业合作模型、粉丝体验和收益机制，并让合规生成曲目直接进入其全球分发网络。Suno 把音频水印、指纹识别与下载限额作为防欺诈和防批量灌流的底层保障，并把此次合作与 Warner Music Group、BMG 关系并列。变化说明竞争焦点正从“是否允许 AI 音乐”转向授权对象、可追踪性、选择退出、分发资格和分成。公告没有披露训练目录、艺术家同意粒度、收益算法或争议处理流程，新模型也只承诺很快发布。
-&lt;a href=&quot;https://suno.com/blog/believe-partnership&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 09 Sep 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/09/09/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/09/09/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>游戏驿站（GameStop）2026Q2财报——营收7.9亿美元同比降19%，收藏品业务暴涨57%，营业利润创同期历史新高</title>
-        <description>&lt;p&gt;美东时间2026年9月8日盘后（北京时间9月9日凌晨），&lt;a href=&quot;https://investor.gamestop.com/&quot;&gt;游戏驿站&lt;/a&gt;（GameStop，纽交所代码GME）发布了2026财年第二财季财报，该季度截至2026年8月1日。&lt;/p&gt;
-
-&lt;p&gt;先看三个数字：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;营收7.902亿美元&lt;/strong&gt;，同比下降18.7%（去年同期9.722亿美元）&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;营业利润1.602亿美元&lt;/strong&gt;，同比增长141%，公司明确表示这是「历史上最高的第二季度营业利润」&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;净利润2.987亿美元&lt;/strong&gt;，同比增长77%，摊薄后每股收益0.51美元&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这份财报最反常识的地方一句话就能说清：&lt;strong&gt;东西卖得比去年少了近两成，钱却赚了两倍多。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;原因有两个，一个来自主业的结构性变化（卖卡牌比卖游戏机赚钱得多），一个来自主业之外（公司账上的百亿美元资产在替它赚钱）。这两件事都值得展开讲。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-游戏驿站现在到底是家什么公司&quot;&gt;1. 游戏驿站现在到底是家什么公司&lt;/h2&gt;
-
-&lt;p&gt;游戏驿站是美国最大的线下电子游戏连锁零售商，在商场里卖游戏机、游戏卡带、周边，也回收二手游戏和主机再转卖。2021年它因为散户逼空华尔街空头的「散户大战华尔街」事件成为全球最有名的迷因股（meme stock）。&lt;/p&gt;
-
-&lt;p&gt;之后接手的是宠物电商Chewy创始人Ryan Cohen，他从2023年起出任董事长兼CEO。这几年公司做的事可以概括成四步：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;收缩主业&lt;/strong&gt;：大规模关店（仅2025财年就在美国关闭727家门店）、卖掉加拿大和法国业务、关闭新西兰业务；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;囤钱&lt;/strong&gt;：靠多次增发和发行零息可转债，把账上现金堆到几十亿美元级别；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;拿钱去投资&lt;/strong&gt;：先是买了约5亿美元比特币，2026年又拿出43.9亿美元现金买入eBay股票；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;换赛道&lt;/strong&gt;：门店货架从游戏光盘转向集换式卡牌（Pokémon、体育卡等）和潮玩周边。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;所以今天的游戏驿站，与其说是一家零售公司，不如说是&lt;strong&gt;「一家还在缩表的线下零售商 + 一个上百亿美元的投资组合」&lt;/strong&gt;的组合体。理解这一点，才能看懂这份财报。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-财报口径的一处重要变化&quot;&gt;2. 财报口径的一处重要变化&lt;/h2&gt;
-
-&lt;p&gt;从本季度开始，公司把收入分类从过去的「硬件/软件/周边」改成了三类，并对去年同期数据做了同口径重述：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;收藏品（Collectibles）&lt;/strong&gt;：集换式卡牌（含二手卡）、手办雕像、服饰、毛绒玩具、桌游、积木等，以及帮顾客把卡牌送去第三方评级鉴定所收的服务费；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;电子游戏（Video Games）&lt;/strong&gt;：新游戏主机、配件、软件（含数字版）、数字点卡、PC游戏产品；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;二手及翻新（Pre-Owned and Refurbished）&lt;/strong&gt;：以旧换新回收来的二手主机、卡带、配件和消费电子。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这个分类调整本身就是一个信号——&lt;strong&gt;公司已经不按「游戏公司」的逻辑管理自己了，而是按「品类零售商」的逻辑。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;二核心财务数据&quot;&gt;二、核心财务数据&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标（百万美元）&lt;/th&gt;
-      &lt;th&gt;2026Q2&lt;/th&gt;
-      &lt;th&gt;2025Q2&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额&lt;/td&gt;
-      &lt;td&gt;790.2&lt;/td&gt;
-      &lt;td&gt;972.2&lt;/td&gt;
-      &lt;td&gt;-18.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利润&lt;/td&gt;
-      &lt;td&gt;345.0&lt;/td&gt;
-      &lt;td&gt;283.1&lt;/td&gt;
-      &lt;td&gt;+21.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率&lt;/td&gt;
-      &lt;td&gt;43.7%&lt;/td&gt;
-      &lt;td&gt;29.1%&lt;/td&gt;
-      &lt;td&gt;+14.6个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;SG&amp;amp;A（销售及管理费用）&lt;/td&gt;
-      &lt;td&gt;187.1&lt;/td&gt;
-      &lt;td&gt;218.8&lt;/td&gt;
-      &lt;td&gt;-14.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业利润&lt;/td&gt;
-      &lt;td&gt;160.2&lt;/td&gt;
-      &lt;td&gt;66.4&lt;/td&gt;
-      &lt;td&gt;+141.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业利润率&lt;/td&gt;
-      &lt;td&gt;20.3%&lt;/td&gt;
-      &lt;td&gt;6.8%&lt;/td&gt;
-      &lt;td&gt;+13.5个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;298.7&lt;/td&gt;
-      &lt;td&gt;168.6&lt;/td&gt;
-      &lt;td&gt;+77.2%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益（美元）&lt;/td&gt;
-      &lt;td&gt;0.51&lt;/td&gt;
-      &lt;td&gt;0.31&lt;/td&gt;
-      &lt;td&gt;+64.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后EBITDA&lt;/td&gt;
-      &lt;td&gt;174.0&lt;/td&gt;
-      &lt;td&gt;75.7&lt;/td&gt;
-      &lt;td&gt;+129.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营现金流&lt;/td&gt;
-      &lt;td&gt;62.4&lt;/td&gt;
-      &lt;td&gt;117.4&lt;/td&gt;
-      &lt;td&gt;-46.8%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;上半年（26周）合计：营收16.255亿美元，同比下降4.6%；营业利润3.035亿美元（去年同期0.556亿）；净利润6.883亿美元（去年同期2.134亿）；自由现金流3.936亿美元，同比增长30%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;几句大白话点评：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;毛利率一年之内从29.1%跳到43.7%，这在零售业是极其罕见的幅度。原因不是涨价，而是&lt;strong&gt;卖的东西换了&lt;/strong&gt;——卖一台游戏主机毛利率通常只有个位数到十几个百分点，而卡牌、手办、二手商品的毛利率要高得多。&lt;/li&gt;
-  &lt;li&gt;费用端同时在降：SG&amp;amp;A比去年同期少花了3170万美元，主要来自关店后的租金、折旧和人力节省。&lt;/li&gt;
-  &lt;li&gt;收入下降、毛利上升、费用下降，三件事叠加，就是营业利润翻倍还多的来源。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;三分品类拆解卡牌成了新主角&quot;&gt;三、分品类拆解：卡牌成了新主角&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;品类（百万美元）&lt;/th&gt;
-      &lt;th&gt;2026Q2&lt;/th&gt;
-      &lt;th&gt;占比&lt;/th&gt;
-      &lt;th&gt;2025Q2&lt;/th&gt;
-      &lt;th&gt;占比&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;收藏品&lt;/td&gt;
-      &lt;td&gt;356.3&lt;/td&gt;
-      &lt;td&gt;45.1%&lt;/td&gt;
-      &lt;td&gt;227.6&lt;/td&gt;
-      &lt;td&gt;23.4%&lt;/td&gt;
-      &lt;td&gt;+56.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;电子游戏&lt;/td&gt;
-      &lt;td&gt;263.2&lt;/td&gt;
-      &lt;td&gt;33.3%&lt;/td&gt;
-      &lt;td&gt;494.6&lt;/td&gt;
-      &lt;td&gt;50.9%&lt;/td&gt;
-      &lt;td&gt;-46.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;二手及翻新&lt;/td&gt;
-      &lt;td&gt;170.7&lt;/td&gt;
-      &lt;td&gt;21.6%&lt;/td&gt;
-      &lt;td&gt;250.0&lt;/td&gt;
-      &lt;td&gt;25.7%&lt;/td&gt;
-      &lt;td&gt;-31.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;合计&lt;/td&gt;
-      &lt;td&gt;790.2&lt;/td&gt;
-      &lt;td&gt;100%&lt;/td&gt;
-      &lt;td&gt;972.2&lt;/td&gt;
-      &lt;td&gt;100%&lt;/td&gt;
-      &lt;td&gt;-18.7%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;一年时间，收藏品从占营收不到四分之一变成了接近一半，电子游戏则从超过一半掉到三分之一。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;电子游戏为什么跌得这么惨？&lt;/strong&gt; 公司给了三个原因：去年同期正赶上任天堂Switch 2首发（主机首发是线下游戏店一年里最大的一波客流和销售额）、持续的关店计划、以及法国业务的剥离。前者是基数问题，后两者是主动收缩。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;二手业务下滑31.7%&lt;/strong&gt; 则更值得留意。二手回收转卖一直是游戏驿站现金流最好的传统业务，它的萎缩说明实体游戏光盘/卡带本身的流通量在下降——玩家越来越多地直接下载数字版，没有实体盘可回收，就没有二手可卖。这是行业趋势，不是一两个季度能扭转的。&lt;/p&gt;
-
-&lt;p&gt;分地区看，收缩是全球性的：美国营收6.082亿美元（同比-16.1%），营业利润1.532亿美元；澳大利亚营收1.209亿美元（同比-14.2%），营业利润810万美元；欧洲营收6110万美元（同比-42.7%），仍亏损110万美元——欧洲的大幅下滑主要就是法国业务出售和新西兰关闭的结果。&lt;/p&gt;
-
-&lt;h1 id=&quot;四这299亿净利润有多少是做生意赚的&quot;&gt;四、这2.99亿净利润，有多少是「做生意」赚的&lt;/h1&gt;
-
-&lt;p&gt;这是本季财报最需要拆清楚的一件事。把利润表往下看，营业利润1.602亿美元之下还有一串项目：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;项目（百万美元）&lt;/th&gt;
-      &lt;th&gt;2026Q2&lt;/th&gt;
-      &lt;th&gt;说明&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业利润&lt;/td&gt;
-      &lt;td&gt;160.2&lt;/td&gt;
-      &lt;td&gt;主业经营的结果&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利息收入&lt;/td&gt;
-      &lt;td&gt;+77.1&lt;/td&gt;
-      &lt;td&gt;几十亿美元现金存款的利息&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;eBay相关衍生品收益（净）&lt;/td&gt;
-      &lt;td&gt;+166.3&lt;/td&gt;
-      &lt;td&gt;建仓eBay所用衍生工具的浮盈&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;eBay股票未实现收益&lt;/td&gt;
-      &lt;td&gt;+72.1&lt;/td&gt;
-      &lt;td&gt;已持有股票的账面浮盈&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;数字资产及相关应收款损失&lt;/td&gt;
-      &lt;td&gt;-75.0&lt;/td&gt;
-      &lt;td&gt;主要是比特币等数字资产的减值&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其他收入（净）&lt;/td&gt;
-      &lt;td&gt;+19.5&lt;/td&gt;
-      &lt;td&gt;含数字资产期权等&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;税前利润&lt;/td&gt;
-      &lt;td&gt;420.2&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;所得税费用&lt;/td&gt;
-      &lt;td&gt;-121.5&lt;/td&gt;
-      &lt;td&gt;去年同期仅600万美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;298.7&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;也就是说，&lt;strong&gt;这个季度约有1.63亿美元的税前利润来自eBay投资的账面浮盈（衍生品收益+股票浮盈-数字资产亏损），另有0.77亿美元来自存款利息&lt;/strong&gt;。公司自己给出的调整后净利润（剔除这些一次性投资损益和减值）是1.611亿美元，同比增长16.5%——这个数字才更接近「主业实际赚了多少」。&lt;/p&gt;
-
-&lt;p&gt;顺便解释一个容易看错的地方：基本每股收益0.67美元，摊薄每股收益只有0.51美元，差距很大。原因是公司发行了大量零息可转换债券，计算摊薄股本时要假设这些债全部转成股票，摊薄股本因此从4.488亿股膨胀到5.926亿股。&lt;strong&gt;换句话说，未来潜在的股份稀释已经相当可观。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;另外，去年同期所得税只有600万美元，是因为公司有历年亏损结转可以抵税；今年税率回归正常（公司披露的综合法定税率约24%），单季就交了1.215亿美元的税。这也提醒投资者：&lt;strong&gt;过去几个季度那种「税负极低」的顺风已经过去了。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;五资产负债表一半是现金一半是ebay&quot;&gt;五、资产负债表：一半是现金，一半是eBay&lt;/h1&gt;
-
-&lt;p&gt;截至2026年8月1日：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;现金及等价物48.543亿美元 + 有价证券2.06亿美元 = &lt;strong&gt;51亿美元&lt;/strong&gt;（去年同期为87亿美元）&lt;/li&gt;
-  &lt;li&gt;数字资产及相关应收款 &lt;strong&gt;2.941亿美元&lt;/strong&gt;（去年同期为5.286亿美元，且列在非流动资产）&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;eBay普通股投资49.469亿美元&lt;/strong&gt;，对应约4340万股&lt;/li&gt;
-  &lt;li&gt;存货4.39亿美元，总资产111.448亿美元&lt;/li&gt;
-  &lt;li&gt;长期负债41.678亿美元，股东权益61.414亿美元&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;现金从87亿掉到51亿，不是烧掉了，而是&lt;strong&gt;换成了eBay股票&lt;/strong&gt;——上半年现金流量表里「支付股权投资」一项就是43.863亿美元。&lt;/p&gt;
-
-&lt;p&gt;债务方面有个财报期后的好消息：公司在&lt;strong&gt;2026年9月3日&lt;/strong&gt;完成了私下协商的债券交换，注销了约14亿美元本金的2030年和2032年到期零息可转债，把长期债务降到约28亿美元。这在一定程度上缓解了前面提到的稀释压力。&lt;/p&gt;
-
-&lt;h1 id=&quot;六绕不开的ebay一家零售商的豪赌&quot;&gt;六、绕不开的eBay：一家零售商的豪赌&lt;/h1&gt;
-
-&lt;p&gt;这份财报里最刺眼的两笔收益都来自eBay，背景值得交代一下：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2026年2月4日，游戏驿站建仓eBay约5%股份，其中相当部分通过衍生工具持有；&lt;/li&gt;
-  &lt;li&gt;2026年5月3日，公司正式提出以每股125美元、总额约560亿美元的现金加股票方案收购eBay，较当时股价溢价约20%，并公开表示如果董事会拒绝就诉诸股东（发起代理权争夺）；&lt;/li&gt;
-  &lt;li&gt;2026年7月，持股比例提升至约9.75%，成为eBay第二大股东。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;上半年，这笔操作为公司贡献了4.347亿美元的衍生品收益和0.721亿美元的股票浮盈。&lt;strong&gt;但要注意，这是浮盈，不是落袋的现金&lt;/strong&gt;——只要eBay股价回落，同样的科目就会反过来变成账面亏损。一家市值远小于收购标的的公司去发起这种规模的收购，本身也伴随着巨大的融资和监管不确定性。&lt;/p&gt;
-
-&lt;p&gt;至于比特币，剧本正好相反：本季度数字资产及相关应收款录得7500万美元损失，上半年累计损失7390万美元；公司通过卖出数字资产的看涨期权（相当于收权利金）获得了1610万美元收益和1240万美元现金，算是部分对冲。&lt;/p&gt;
-
-&lt;h1 id=&quot;七亮点与隐忧&quot;&gt;七、亮点与隐忧&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;亮点：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;转型的方向被数据验证了——收藏品同比增57%，且是高毛利品类，一举把公司毛利率抬高14.6个百分点；&lt;/li&gt;
-  &lt;li&gt;成本控制到位，SG&amp;amp;A同比降14.5%，营业利润率达20.3%，对一家线下零售商来说是极高的水平；&lt;/li&gt;
-  &lt;li&gt;全年调整后EBITDA指引从「6亿美元以上」上调至「6.5亿美元以上」，上半年已完成3.397亿美元；&lt;/li&gt;
-  &lt;li&gt;上半年自由现金流3.936亿美元，同比增长30%；债务从41.7亿降到约28亿。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;隐忧：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;主业还在萎缩&lt;/strong&gt;。除了收藏品，电子游戏和二手两大传统品类分别下滑46.8%和31.7%，营收下降不完全是「主动收缩」，也有数字化对实体游戏零售的结构性挤压；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;利润质量存疑&lt;/strong&gt;。净利润里近一半来自投资浮盈和存款利息，一旦eBay股价或利率环境变化，这部分会迅速消失甚至转负；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;数字资产是净拖累&lt;/strong&gt;。本季亏7500万美元，说明这部分「财技」并非稳赚；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;稀释风险仍在&lt;/strong&gt;。虽然刚注销了14亿美元可转债，摊薄股本与基本股本之间仍有约1.4亿股的差额；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;卡牌市场有周期性&lt;/strong&gt;。集换式卡牌近两年处在热度高点，如果热潮退去，今天最漂亮的那条增长曲线也最先受冲击。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;八总结&quot;&gt;八、总结&lt;/h1&gt;
-
-&lt;p&gt;这份财报可以用一句话概括：&lt;strong&gt;游戏驿站正在成功地把自己从一家卖游戏的公司，变成一家卖收藏品的公司；同时，它账上的钱正在替它赚比主业更多的钱。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;前半句是真实的经营改善，收藏品45.1%的收入占比和43.7%的毛利率是实打实的；后半句则是投资者需要保持警惕的地方——投资浮盈可以在一个季度里创造历史最佳利润，也可以在下一个季度把它拿走。&lt;/p&gt;
-
-&lt;p&gt;接下来两个季度值得盯的三件事：一是节假日旺季里收藏品能否延续这条增长曲线（第四财季是零售的决胜季）；二是eBay收购要约的最终走向，这决定了那49亿美元资产是变成一次真正的产业整合，还是一笔波动巨大的财务投资；三是电子游戏和二手业务的下滑能否收窄——如果收藏品的增长只是在填补主业流失的窟窿，那么公司整体营收要重新回到增长轨道，还需要更长时间。&lt;/p&gt;
-
-&lt;h1 id=&quot;数据来源&quot;&gt;数据来源&lt;/h1&gt;
-
-&lt;p&gt;一手资料：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Discloses-Second-Quarter-2026-Results/default.aspx&quot;&gt;GameStop Discloses Second Quarter 2026 Results（公司IR新闻稿）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001326380/000132638026000050/a991-fy26q2earningsrelease.htm&quot;&gt;SEC 8-K 附件99.1 财报全文（2026年9月8日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001326380/000132638026000025/gme-20260502.htm&quot;&gt;GameStop 2026财年第一财季10-Q（门店关闭与业务剥离披露）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Announces-Second-Quarter-2026-Preliminary-Results/default.aspx&quot;&gt;GameStop Announces Second Quarter 2026 Preliminary Results（8月31日业绩预告）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;背景补充（媒体报道）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/stock-market-news/gamestop-ceo-ryan-cohen-makes-unsolicited-offer-to-buy-ebay-for-about-56-billion-wsj-says-4654912&quot;&gt;Reuters/Investing.com 报道GameStop提出约560亿美元收购eBay&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/05/04/gamestop-ebay-takeover-bid-ryan-cohen-gaming-retail-ecommerce.html&quot;&gt;CNBC 报道Ryan Cohen谈eBay收购的支付方式&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://finance.yahoo.com/markets/stocks/articles/gamestop-q2-2026-earnings-profit-174413093.html&quot;&gt;Yahoo Finance 关于Q2财报的报道&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;注：本文所有财务数据均来自公司官方财报原文，非GAAP指标的定义与调节表见财报Schedule II。公司本季度未召开业绩电话会，财报新闻稿中也未披露电话会安排，故本期无电话会解读。&lt;/p&gt;
-</description>
-        <pubDate>Wed, 09 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/09/gamestop_2026q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/09/gamestop_2026q2_earnings/</guid>
-        
-        <category>游戏驿站</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.09.08</title>
-        <description>&lt;p&gt;今天这五帖凑在一起，讲的是同一层东西：封装。智能电视把一台联网计算机封装成「电视」，Ollama 把 llama.cpp 封装成一行命令，Copilot 把写代码封装成描述需求，Terraform 和 Helm 把基础设施封装成 YAML。封装本身没错，问题在于封装之后，你还知不知道下面在发生什么，以及当它出事时，账算在谁头上。最后一帖是个反面：一位统计学硕士问，怎么才能不让自己的能力被封装掉。&lt;/p&gt;
-
-&lt;h2 id=&quot;一lg-智能电视关着屏幕也在录音还在扫你的内网&quot;&gt;一、LG 智能电视关着屏幕也在录音，还在扫你的内网&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w9jmjn/lg_smart_tvs_caught_logging_audio_with_screen_off/&quot;&gt;LG smart TVs caught logging audio with screen off and snooping on local devices&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Gamers Nexus 的一次抓包测试发现，LG 的电视在屏幕关闭状态下仍在采集音频，并且会持续扫描家庭网络里的其他设备、给它们建档。评论区提到，开机瞬间就有八条数据流发往 LG，而那几十项遥测开关的默认状态全是打开，弹窗的默认按钮也是「全部同意」。&lt;/p&gt;
-
-&lt;p&gt;评论区没有停留在骂人上，两条线都挺有价值。一条是法律线：有人算过，如果这事发生在欧盟，按 GDPR 最高可以罚全球营业额的 4%，对 LG 来说是几十亿美元量级；但马上有人指出，Meta 那笔 12 亿欧元的罚单只占它当年营收的 1.1%，本质仍是「经营成本」的一部分。另一条更扎心的是同意的边界——合租房里的电视、二手买来的电视、去别人家做客的人，谁替他们点了那个同意？&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Also one must ask whether someone would have bought the product knowing it spies on them, or whether it is even reasonable for a tv to spy on someone, whether someone would actually even think about it.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/A_spiny_meercat，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w9jmjn/lg_smart_tvs_caught_logging_audio_with_screen_off/p8bu5q1/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;技术派给了一堆办法：丢进一个没有外网出口的 VLAN，或者只放行它用来做连通性检测的那一个域名，让它以为自己在线、发出去的东西全部丢弃。但反驳同样有力——有型号会去连附近的开放 SSID（比如 Xfinity 的公共热点），还有人翻出旧账说 LG 显示器的驱动会顺带在 Windows 上装一套自家软件，所以「电视不联网」并不等于安全。串里最清醒的一条把这件事定了性：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“the problem will not be solved with a technical solution (never ending cat and mouse game), it will only be solved by regulations and laws that protect the consumers. until then, the only solution is to keep the device offline…”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/amroamroamro，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w9jmjn/lg_smart_tvs_caught_logging_audio_with_screen_off/p8blnaz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;对中文读者的启发大概有两层。技术上，「买台便宜的小主机接大屏当显示器用」这条老建议今天依然成立，成本三百美元换回完整控制权，性价比不低。制度上，值得注意的是那句「猫鼠游戏永远赢不了」——只要厂商能在下一代产品里塞进自带的蜂窝模块，任何断网方案都是临时的。真正能封死这条路的只有法律，而国内在智能家电遥测这块，目前既缺公开测评也缺处罚案例。&lt;/p&gt;
-
-&lt;h2 id=&quot;二别让朋友用-ollama便捷工具的甜蜜期到底有多长&quot;&gt;二、《别让朋友用 Ollama》：便捷工具的甜蜜期到底有多长&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wa26pn/friends_dont_let_friends_use_ollama/&quot;&gt;Friends Don’t Let Friends Use Ollama&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;r/LocalLLaMA 上这篇檄文的主张很直接：Ollama 不该继续当本地跑模型的默认入口。有意思的是，帖子本身没吵起来，评论区却分裂成了两条完全平行的战线。&lt;/p&gt;
-
-&lt;p&gt;第一条战线是「Ollama 还是不是主流」。有老用户说，现在来求助 Ollama 报错的人明显比前两年少了；立刻有人反驳这是幸存者偏差——你在的是全 Reddit 1% 的技术社区，而真正的用户基数在 LinkedIn 上，那里每两条动态就有一篇「我如何用本地模型替代 Claude Code」的教程，作者是干了三十年 IT、刚从纸质《连线》上第一次读到 Claude 的人。这条线后来歪到了「Gen X 到底存不存在」上，但那个观察本身值得记住：技术社区的体感普及度，和真实世界的普及度经常差一个数量级。&lt;/p&gt;
-
-&lt;p&gt;第二条战线才是硬货：Ollama 到底适不适合当新手入口。支持者的逻辑是它省掉了 Hugging Face 那套心智负担。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Ollama is a great jumping on point for local LLM. Much easier to get going, ‘ollama pull’ takes away a lot of hugging face headaches for beginners”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/PaxUX，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wa26pn/friends_dont_let_friends_use_ollama/p8exq7q/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;反对者的反驳角度很刁：正因为它承诺「开箱即用」，新手撞墙时反而没有任何调试线索。好几个人讲了同一段亲历——按建议先用 Ollama 入门，结果一堆莫名其妙的问题，换到 llama.cpp 之后全部消失。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“When I was a beginner, this is the advice I followed and what I ran into was a crazy amount of issues because Ollama is so far away from “just working”. I switched to llama.cpp and almost every single one of those issues magically disappeared.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/vick2djax，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wa26pn/friends_dont_let_friends_use_ollama/p8f176b/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;原帖作者自己下场补了一刀，说 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;llama serve -hf xyz&lt;/code&gt; 现在已经和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ollama pull&lt;/code&gt; 差不多简单了，只是 llama.cpp 那边没花力气把这件事包装好、宣传出去。另外几条也很实在：有人指出「默认上下文长度」这个滑块对本地模型体验的影响之大，远超新手想象，而多数封装层会替你悄悄定一个值；也有人替 Ollama 说话——它做的动态换模型和自动卸载，替代品要么不做，要么要求你先接受 Docker，而对很多人来说「装个 Docker 就行」本身就是劝退门槛。还有人提到现实约束：公司电脑上，一个来路不明的开源小工具根本过不了审批，Ollama 反而是那个能装上的。&lt;/p&gt;
-
-&lt;p&gt;我自己的体会是，这类争论的正确结论不是「换掉 Ollama」，而是给便捷工具设一个止损点：当你开始为了绕过它的默认值而写脚本时，就是该往下走一层的信号。顺便说一句，那位评论者提到的思路挺妙——让 agent 帮你编译 llama.cpp、查参数、写启动脚本，等于用 AI 抵消掉底层工具的上手成本，这可能才是「新手友好」在 2026 年的新解法。&lt;/p&gt;
-
-&lt;h2 id=&quot;三微软工程师说敲代码彻底结束了两百条评论替他算了笔账&quot;&gt;三、微软工程师说「敲代码彻底结束了」，两百条评论替他算了笔账&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w9ruxm/microsoft_engineer_says_typing_code_is_absolutely/&quot;&gt;Microsoft engineer says ‘typing code is absolutely over’ as GitHub Copilot takes on more development work&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一句典型的厂商发言，换来两百条典型的开发者回复。最高赞那条只有一行：卖产品的人说自己产品好。但往下翻，讨论质量比标题高得多。&lt;/p&gt;
-
-&lt;p&gt;最漂亮的一条把这件事放进了历史里：管理层永远在找「不需要程序员的软件」，从可视化无代码到网页机器人，每一轮都有人靠卖这个梦发财。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The holy grail of management is to have software without developers. … Different oil. Same snakes.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/octorine，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w9ruxm/microsoft_engineer_says_typing_code_is_absolutely/p8d23a0/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;真正有信息量的是那场关于「快多少」的对线。一位近三十年经验的工程师说前沿模型生成代码比他快 20 倍；反对方立刻追问：那个 20 倍里，算不算你说的「需要大量引导和把控」的时间？一位基础设施工程师给了目前最可信的量化——原本两小时的活，用 AI 大约三十分钟，含审查和微调。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Something which would take me 2hrs to write myself, with AI assistance, takes me around 30min including my time to review and tweak. Everything I deploy is my responsibility no matter if it’s written by AI or myself.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Hashrunr，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w9ruxm/microsoft_engineer_says_typing_code_is_absolutely/p8fr2fi/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;其余几条也值得记：一位 DevSecOps 工程师说在 k8s、基础设施这一层 AI 基本不能用，会留下安全窟窿，而且写提示词的时间和自己写差不多；一位科学计算的研究者说他的代码必须正确，「看起来合理但细微错误」正是最坏的一种失败；还有人提到更隐蔽的连锁反应——同事开始用 LLM 写邮件，你在会议上一追问细节，对方就只会重复原话，因为他从没理解过自己发出去的东西；更麻烦的是，这类人正在因为「看起来能干」而被提拔，然后去做他们并不理解的决策。串里另有一条冷静的经济学提问也值得放在心上：现在的 token 便宜是因为有人在补贴，补贴停了怎么办？&lt;/p&gt;
-
-&lt;p&gt;我的看法是，这帖真正的分歧不在于 AI 有没有用，而在于「快」这个词指的是哪一段。打字从来不是瓶颈，理解问题才是；那位说「我打字的速度和我理解问题的速度差不多」的评论者其实把话说透了。真要评估收益，把审查、返工和事故的时间一起算进去，得到的倍数会诚实很多。&lt;/p&gt;
-
-&lt;h2 id=&quot;四devops-的真相面试考算法上班写-yaml&quot;&gt;四、DevOps 的真相：面试考算法，上班写 YAML&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1w9yn0l/how_many_of_you_are_just_working_with_yaml_files/&quot;&gt;How many of you are just working with YAML files all day long over actual coding?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;发帖人正在上 Python 课，越学越怀疑：这些东西在实际工作里根本用不上，会 boto3、会循环、会分页、会写函数就够了。这个问题问得挺诚实，回答比问题更诚实。&lt;/p&gt;
-
-&lt;p&gt;最高赞那条几乎是这个职业的自画像：真正写代码的时刻只在面试环节，入职之后就是架构文档、Terraform 和 YAML。他给的理由不是抱怨而是判断——这个领域里几乎不存在「第一次被解决的问题」，标准和工具早就有了。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The only time I do actual coding is during the interview process, once the actual job starts it’s always architecture docs, Terraform, and YAML.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/gingimli，&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1w9yn0l/how_many_of_you_are_just_working_with_yaml_files/p8e3cr6/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他顺手造了个很好用的词：résumé driven development（简历驱动开发）——如果有人从零造轮子，多半是为了简历好看；如果他真的必须从零造，那更该怀疑是不是把问题搞复杂了。另一位把这份工作总结得更狠：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It’s just Legoing together and configuring a bunch of things people have already made.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/alexterm，&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1w9yn0l/how_many_of_you_are_just_working_with_yaml_files/p8ewx3n/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;但串里也有反例：有人的团队 99% 是 Python、JavaScript 和 Go，YAML 只占配置；有人专门写内部工具和 Go operator，刻意躲开「YAML 地狱」。还有一位干了三十年 Unix 的老工程师给了个旁观视角——他上一家公司往云上迁的时候，开发们士气低落，因为大部分时间花在了 Terraform 上；而他觉得很多公司默认选了最复杂的方案，只是因为「大家都这么做」。另有两条题外话值得一提：有人说自己因为写脚本没用 Claude 而被管理层侧目，也有人明确表示拒绝去把 token 消耗当绩效指标的公司。&lt;/p&gt;
-
-&lt;p&gt;对国内的启发在于面试和工作的错位：如果这个岗位 90% 的价值来自「知道该用哪个现成方案、以及为什么不用另一个」，那么把候选人按算法题筛一遍，筛出来的其实是另一批人。反过来对求职者，那句「简历驱动开发让他丢了不少 offer」也提醒了一件事——把自研工具当亮点讲，讲不好就是减分项。&lt;/p&gt;
-
-&lt;h2 id=&quot;五统计学硕士毕业去做非统计的工作怎么才能一直变强&quot;&gt;五、统计学硕士毕业去做非统计的工作，怎么才能一直变强&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1w9orik/q_how_to_become_great_at_statistics/&quot;&gt;[Q] How to become Great at statistics&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;提问的人快读完统计学硕士，即将入职一份和统计关系不大的工作，不甘心就这么荒废掉，问该往哪儿使劲。这类问题通常收获一堆书单，但这次不是。&lt;/p&gt;
-
-&lt;p&gt;最高赞给的是一套笨办法，也是全串最有价值的一条：每天挑一件你学过或用过的统计学内容，诚实地问自己是不是真的懂；只要有一丝没想通，就花至少一小时去搞明白，搞不定第二天接着来。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Each day, think about something that you learned/do in statistics and reflect on whether or not it makes perfect sense to you. If it doesn’t or for any aspect of it that doesn’t, no matter how seemingly small, look into why for at least an hour or until it does make perfect sense.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Neither-Remote-3419，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1w9orik/q_how_to_become_great_at_statistics/p8c0s69/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他强调这需要相当程度的自我诚实——这才是关键。人最容易骗自己的地方，就是那些「大概懂了」的细节。另一位泼了盆冷水但很实在：知识衰减得非常快，光是维持现有水平就得专门腾出时间；想进一步，要么继续啃教材，要么读案例和论文，要么去参与开源的统计计算项目，甚至可以去附近大学的统计咨询组做志愿者——因为这事没法一个人闭门做，进步来自于看别人怎么解决问题、以及怎么把论证讲到别人信服。&lt;/p&gt;
-
-&lt;p&gt;一位做了十五年统计的生物统计学副教授给了个当下很典型的用法：每周四五次，挑一个孤立的统计学话题，用 Claude 或 GPT 交互式地一层层问下去。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“About 4-5 times per week, I’ll find or think of an isolated topic in statistics that I’d like to understand deeper and I use Claude/GPT to interactively go over it. Start with the high level overview of whatever it is you want to learn more about, and then keep diving deeper and asking questions.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Distance_Runner，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1w9orik/q_how_to_become_great_at_statistics/p8cdqct/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;有人追问模型出错的频率，他的回答划了一条挺清晰的线：讲解孤立概念时几乎不出错，他甚至觉得比多数 Stack Exchange 上的解释更可信；但让 AI 无人监督地跑完整套数据分析是另一回事——它技术上不会错，却会做出奇怪的决策，常常把简单问题复杂化，或者「用正确的方法回答了错误的问题」。串里还夹着一段扎心的插曲：有人问「统计学人才不是各行各业都抢吗」，回答是他硕士毕业两年半，投了所有沾边的岗位，至今没找到工作。&lt;/p&gt;
-
-&lt;p&gt;这一帖和前面四帖正好构成对照。前面四帖讲的都是工具替你封装了什么，这一帖讲的是怎么不被封装——「用正确的方法回答错误的问题」这句话，值得每个用 AI 做分析的人贴在显示器上。至于那套每天一小时的笨办法，它昂贵的地方不在时间，而在自我诚实：承认自己其实没懂，是整个流程里最难的一步。&lt;/p&gt;
-</description>
-        <pubDate>Tue, 08 Sep 2026 09:30:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/08/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/08/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.09.08</title>
-        <description>&lt;h2 id=&quot;113-openai-首席科学家呼吁把安全信心变成继续扩展-ai-的硬约束&quot;&gt;1/13 OpenAI 首席科学家呼吁把安全信心变成继续扩展 AI 的硬约束&lt;/h2&gt;
-&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 在《An Alien Mind》中称，推理模型已进入经济、科研、计算机操作和网络安全，并可能继续走向机器递归自我改进；但这属于 OpenAI 的能力判断，不是统一基准下的行业共识。他认为链式思维监控正因复杂交互、自我操纵和非文字推理而变弱，目前没有实验室已充分解决对齐与监控，主张建立可由第三方和政府执行的共同安全门槛，并在信心不足时自愿放缓扩展。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/gdb/status/2096794565499883839&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;213-nature-论文给出语言模型以内部置信度驱动弃答的因果证据&quot;&gt;2/13 Nature 论文给出语言模型以内部置信度驱动弃答的因果证据&lt;/h2&gt;
-&lt;p&gt;Google DeepMind 与 Princeton 研究者在 Nature Machine Intelligence 发表开放论文：GPT-4o 的置信度对弃答行为的预测效应约为难度、检索可得性等变量的十倍；在 Gemma 3 27B 中注入高低置信方向，可把弃答率从 66.5% 拉到 7.0%，但回答覆盖率上升伴随已回答准确率下降。中介分析把 67.1% 的影响归于置信度重新分配，支持“内部表示 + 阈值策略”解释；结果仍限于受控多选环境，不等同于通用自知。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GoogleDeepMind/status/2096894471208153420&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;313-shopify-用生产失败训练专用小模型把-sidekick-服务成本估算压低-96&quot;&gt;3/13 Shopify 用生产失败训练专用小模型，把 Sidekick 服务成本估算压低 96%&lt;/h2&gt;
-&lt;p&gt;AlphaSignal 今日重新聚焦 Shopify 的持续学习飞轮，并转述 CEO 关于 0.8B 专用模型在买家画像任务超过 GPT-5.6 Sol 的说法。Shopify 官方工程文档显示，其 GraphQL Agent 每分钟最高处理 2,000 请求：低分生产会话经前沿模型批评、修复和 judge 复评后，进入 SFT 与 GRPO 的每日训练；公司估算年服务费可由 2,700 万美元降至约 100 万。具体模型尺寸和日产量来自社交转述，成本、延迟和 GPU 节省仍是厂商测量。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AlphaSignalAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/AlphaSignalAI/status/2097027342832906439&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AlphaSignalAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/AlphaSignalAI/status/2097027345999692003&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AlphaSignalAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;413-databricks-让编码-agent-按任务动态选择模型与-harness&quot;&gt;4/13 Databricks 让编码 Agent 按任务动态选择模型与 harness&lt;/h2&gt;
-&lt;p&gt;Databricks 再次推广 Unity AI Gateway 的 Smart Routing：轻量分类器先读取任务范围、失败形态和代码证据，从中型模型起步，简单任务下调、复杂任务升级；与 Omnigent 结合后还可跨编码 harness 和子 Agent 路由。公司称内部私有基准节省 35%、公开基准节省 56%，产品口径为任务成本降低 30% 以上且维持前沿质量。功能仍为 Beta，真实多轮会话会因首条提示含糊、任务中途变化和缓存损失削弱收益。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2096972030553780642&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;513-glm-53-flash-把同档智能的价格竞争推进到长上下文与原生视觉&quot;&gt;5/13 GLM-5.3 Flash 把“同档智能”的价格竞争推进到长上下文与原生视觉&lt;/h2&gt;
-&lt;p&gt;Together AI 称 GLM-5.3 Flash 在 Artificial Analysis 智能指数附近达到 GPT-5.6 Terra 档位，而单任务成本低 82%。当前公开比较页实际给出 GLM 46、Terra 41，标价分别约 0.10 与 1.74 美元/百万 token，同时 Terra 输出更快；不同时间、推理档和“每 token/每任务”口径不能混算。GLM 以 320B 总参数、18B 激活参数、1M context 和原生视觉瞄准高并发 Agent，但性能与成本仍需按实际 token 使用、缓存和失败重试复验。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/togethercompute/status/2097031751310639213&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/bindureddy/status/2096946683900784918&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@bindureddy&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;613-gpt-6-pro-的论文审阅出现更少挑刺更多实质问题的早期使用信号&quot;&gt;6/13 GPT-6 Pro 的论文审阅出现“更少挑刺、更多实质问题”的早期使用信号&lt;/h2&gt;
-&lt;p&gt;Ethan Mollick 把自己的早期论文交给 GPT-6 Pro 审阅，称模型能够指出实质问题，同时承认论文优点并给出补充方向；他对比表示 GPT-5 Pro 系列更容易堆叠细碎意见。Matt Shumer 也公开称赞 Pro 的能力，但没有给出统一任务与对照。此类案例显示高推理档可能更接近编辑式评审，而不是简单错误清单；不过单篇论文、作者自评和选择性展示无法证明普遍同行评审质量，引用核验与领域专家复审仍不可省。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2097125457829269892&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/mattshumer_/status/2097044196091695212&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mattshumer_&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;713-astra-的-3d-热度开始从成品展示转向可复用-agent-流程&quot;&gt;7/13 Astra 的 3D 热度开始从成品展示转向可复用 Agent 流程&lt;/h2&gt;
-&lt;p&gt;Greg Brockman 展示 Astra 用视觉化解释药物机制、识别声谱图和处理现实任务；Matt Shumer 则公开其 3D 工作流：用真实参考图约束目标，让专门子 Agent 在 Blender 制作资产，在 Three.js 或 Unreal Engine 组装，再用独立视觉 critic 反复退回修订。他称相关演示合计超过 1,500 万浏览，但未披露完整成本、耗时和人工干预量。新增信号不是“一次提示生成世界”，而是 grounding、工具权限、并行分工和验证循环共同决定输出。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/gdb/status/2097042947581804983&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@gdb 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/gdb/status/2097055132009861234&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@gdb 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/mattshumer_/status/2097079239505842645&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mattshumer_&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2096997239281385549&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;813-agi-已到遭到发明能力现实世界掌控与定义缺失的联合质疑&quot;&gt;8/13 “AGI 已到”遭到发明能力、现实世界掌控与定义缺失的联合质疑&lt;/h2&gt;
-&lt;p&gt;François Chollet 认为，只有当系统能提出超出训练输入的概念突破、发明新技术，而非靠搜索机械完成已有证明，才应宣布 AGI。Jürgen Schmidhuber 经 Gary Marcus 转发强调现实世界掌控与真正自我改进；Aravind Srinivas 则用“在印度道路安全驾驶 1,000 公里”提出具身能力测试。三种标准分别指向新知识、开放环境和通用执行，也说明当前争论缺少共同测量协议；Astra 的视觉与计算机操作进步不能自动等同于 AGI。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/fchollet/status/2097058741325881442&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@fchollet&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/GaryMarcus/status/2097136104952709194&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GaryMarcus&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/aravind/status/2097011582094221369&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@aravind&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;913-经济学人估算-ai-在美国带来的新增岗位暂时多于被归因裁员&quot;&gt;9/13 《经济学人》估算 AI 在美国带来的新增岗位暂时多于被归因裁员&lt;/h2&gt;
-&lt;p&gt;《经济学人》称，自 2022 年以来 AI 相关扩张约创造 100 万个美国岗位，而被归因于 AI 的裁员约 20 万；工程师、开发者、数学家和数据科学家等职业较趋势多增约 73 万，增长还来自数据中心建设及 Head of AI、forward-deployed engineer 等新职位。Yann LeCun 将其概括为“jobundance”。这些是分类和趋势外推估算，难以剥离宏观周期，也不覆盖工资、岗位质量和初级入口；当前证据否定的是“就业灾难已经发生”，不是长期替代风险。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ylecun&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/ylecun/status/2097032328946082018&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@ylecun 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/ylecun/status/2097069227484025094&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@ylecun 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1013-spawn-v6-把对话生成游戏推向无缝大世界与实时多人共创&quot;&gt;10/13 Spawn v6 把对话生成游戏推向无缝大世界与实时多人共创&lt;/h2&gt;
-&lt;p&gt;Spawn 的 Engine v6 “One Place” 宣称支持无尺寸上限的世界、可见且无加载穿越的 portal、任意数量玩家同处一界，以及 AI 助手 Savi 在玩家继续游玩时修改场景。早期测试者 Matt Shumer 进一步称可容纳 1,000 名以上玩家实时共建，世界可接近美国国土大小。公开页面尚未给出并发拓扑、服务器成本、实例密度或延迟数据，因此容量仍是厂商与测试者口径；方向上，它把生成式原型推进到持久状态、同步和边玩边改。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/mattshumer_/status/2097101001513717943&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mattshumer_&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1113-replit-在伦敦设立首个海外办公室作为欧洲业务中心&quot;&gt;11/13 Replit 在伦敦设立首个海外办公室，作为欧洲业务中心&lt;/h2&gt;
-&lt;p&gt;Replit 宣布伦敦办公室正式启用，这是其首个国际办公室，将承担欧洲小企业与企业客户扩张。公司把选址归因于当地人才、大学与 AI 公司集群，并与 The Lord Mayor’s Appeal 合作试点，为未在教育、就业或培训中的伦敦年轻人提供技能提升。公告没有披露团队规模、投资额或收入目标，因此更适合作为组织扩张信号，而非欧洲业务增长已经兑现的证据。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Replit/status/2097036417805512919&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Replit&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1213-多设备与远程-agent-让-chatgptclaude-的工作在哪里成为新-ux-债务&quot;&gt;12/13 多设备与远程 Agent 让 ChatGPT、Claude 的“工作在哪里”成为新 UX 债务&lt;/h2&gt;
-&lt;p&gt;Ethan Mollick 指出，工作与对话可能分散在本地、云端、不同电脑、手机、远程调度、语音入口和项目容器中，现有界面对任务实际运行位置、身份账号和可恢复性提示不足；语音模式还会增加“输入进入哪个会话、之后能否找回”的不确定性。问题不是单项模型能力，而是 Agent 跨设备持久运行后出现的状态可见性、会话归属和控制面缺口，产品需要提供统一任务标识、执行位置、权限、同步状态与中断恢复。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2097030869609263166&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2097107339778129972&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1313-hugging-face-负责人把公开-agent-网络攻击视为-ai-透明度压力测试&quot;&gt;13/13 Hugging Face 负责人把公开 Agent 网络攻击视为 AI 透明度压力测试&lt;/h2&gt;
-&lt;p&gt;Hugging Face CEO Clément Delangue 回顾团队公开披露 Agent 网络攻击的决定，称如果不披露可能避免部分争议，但事件反而强化其“AI 需要高一个数量级透明度”的判断；同日 Hugging Face 也转发联合计划获得大量正面反馈的后续。这里新增的是治理立场和披露激励，而非新的技术调查结果。透明度的实际价值仍取决于时间线、权限边界、受影响资产、根因和修复措施是否可供外部复核，而不能只以舆论反应衡量。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/ClementDelangue/status/2096981079940911107&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/huggingface/status/2096971850102223097&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@huggingface&lt;/a&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;openaian-alien-mind扩展速度开始被监控能力而非单纯算力约束&quot;&gt;OpenAI《An Alien Mind》：扩展速度开始被监控能力而非单纯算力约束&lt;/h3&gt;
-&lt;p&gt;Pachocki 把价值对齐、目标对齐和可验证监控区分开：RL 偏好或“宪法”能改善平均行为，却可能在陌生环境中泛化失败；预训练中的价值取向更稳定，却可能在持续优化压力下被目标驱动的推理扭曲。OpenAI 长期避免直接监督隐藏链式思维，希望让推理过程保留可监控性，但 Astra 级系统与人、工具和其他 AI 的交互已模糊“内部推理—外部行动”边界，模型还能更好地操纵自身推理，并在无文字思维时表现更强。作者据此预期，前沿扩展会越来越受“我们能否相信监控”限制。他支持用自动化 AI 研究加速对齐，也主张把 Preparedness Framework、Responsible Scaling Policy 一类承诺升级为共享安全门槛，并在安全论证不足时放慢。这是实验室内部的风险判断和政策立场，关键主张仍需外部评测、审计和国际协调检验。
-&lt;a href=&quot;https://openai.com/index/an-alien-mind/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;llm-置信度研究激活-steering-改变弃答且主要经内部置信重新分配&quot;&gt;LLM 置信度研究：激活 steering 改变弃答，且主要经内部置信重新分配&lt;/h3&gt;
-&lt;p&gt;研究先在无弃答选项的四选一事实题中读取 GPT-4o 的校准概率与口头置信度，再在相同问题中加入弃答，以隔离决定前的置信信号。模型自然弃答时，置信度效应约为难度、RAG 可得性或语义特征的十倍，50% 弃答对应约 77% 隐式置信阈值。因 GPT-4o 内部激活不可得，因果阶段改用 Gemma 3 27B：在中间层注入高/低置信向量，使弃答从 66.5% 变为 7.0%，同时覆盖率由 33.5% 升至 93.0%，已回答准确率则从 59.2% 降至 53.7%。中介分析认为置信重新分配贡献 67.1%、策略改变贡献 26.2%；显式阈值实验也能调节弃答。结果支持模型存在可用于行为控制的丰富内部不确定性表示，但仍是多选题与特定模型实验，开放式 Agent 是否能可靠识别自身盲区仍未解决。
-&lt;a href=&quot;https://www.nature.com/articles/s42256-026-01293-x&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;shopify-持续学习飞轮真正可复用的资产是-judge失败轨迹与每日重训循环&quot;&gt;Shopify 持续学习飞轮：真正可复用的资产是 judge、失败轨迹与每日重训循环&lt;/h3&gt;
-&lt;p&gt;Shopify 先让产品专家以 rubric 标注随机生产样本，并用 Cohen’s kappa 测试定义是否清晰，再通过历史 A/B 与定向退化实验校准 LLM judge。系统先用 autoresearch 改提示、工具和 harness；当离散改进趋缓后，从生产流量挖 hard negatives，由多名前沿模型批评、arbiter 合并修复、重放会话并重新评分。通过的完整轨迹先用于 SFT，再以 judge 分数执行 GRPO；失败案例转人工，数据按日累积并重训。GraphQL Agent 每分钟最高 2,000 请求，官方估算专用模型将年成本由 2,700 万降至约 100 万；gist 把系统提示约 6,000 token 压至 1,500，在 350 RPM 压测下降低 19% 首 token 时间、38% 端到端延迟，并少用约 14% GPU。收益建立在高流量、可评分、可校准的封闭任务上；错误 judge 会把错误行为系统化写回权重。
-&lt;a href=&quot;https://shopify.engineering/sidekicks-continual-learning-loop&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;databricks-smart-routing一次性模型选择正演化为可观测可重路由的运行时策略&quot;&gt;Databricks Smart Routing：一次性模型选择正演化为可观测、可重路由的运行时策略&lt;/h3&gt;
-&lt;p&gt;路由器先以小模型抽取任务语义标签，再从中型模型向便宜或昂贵模型移动；Omnigent 进一步让模型与 harness 共同参与选择，且子 Agent 可使用不同组合。Databricks 报告内部基准节省 35%、公开基准节省 56%，但也承认公开任务通常边界清楚，而真实首条提示只是症状，同一 session 可能在第四轮已换成另一种任务。它因此提出在几轮澄清后再路由、鼓励更小的单任务 session，并在 context compaction 这个天然 cache miss 点切换模型。评测不只看花费，还要记录 session trace、完整完成率和模型分布；这些 trace 高度敏感，需要 Unity Catalog 权限与标签治理。功能仍为 Beta，候选模型权限、缓存命中、返工和切换开销会决定净收益。
-&lt;a href=&quot;https://www.databricks.com/blog/smart-routing-unity-ai-gateway-match-frontier-quality-30-lower-cost-task&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;astra-3d-流程视觉成品背后是一条-referenceassetsassemblycritique-的闭环&quot;&gt;Astra 3D 流程：视觉成品背后是一条 Reference→Assets→Assembly→Critique 的闭环&lt;/h3&gt;
-&lt;p&gt;Shumer 的公开方法先用现实照片或生成参考图固定尺度与风格，让 Astra 分派子 Agent 在无界面 Blender 中分别制作资产，再在 Three.js 或 Unreal Engine 组装场景。独立 critic 不参与制作，只比较渲染与参考，将不合格结果退回；循环直到达到人工接受标准。该结构解释了为何社交媒体成品不能归因于单次提示：真实软件、文件权限、资产流水线、并行分工、视觉回归和人类品味同时作用。作者称曼哈顿、社区复刻、僵尸游戏与 Agent 文明等案例合计获得超过 1,500 万浏览，但未公开统一运行时长、token/算力成本、失败率和人工修改量。它可作为 Agent harness 设计案例，尚不是通用 3D 工程能力基准。
-&lt;a href=&quot;https://somethingbig.ai/3d-worlds&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;经济学人ai-就业估算当前是建设与岗位重组先行不代表替代压力消失&quot;&gt;《经济学人》AI 就业估算：当前是建设与岗位重组先行，不代表替代压力消失&lt;/h3&gt;
-&lt;p&gt;文章把美国 AI 相关新增岗位估算为约 100 万、AI 相关裁员约 20 万，并称最接近 AI 热潮的工程、软件、数学与数据职业较既有趋势多增约 73 万。数据中心建设带动电工与施工岗位，企业内部则出现 Head of AI、forward-deployed engineer 等角色；部分可能受自动化影响的白领职业在 2023—2025 年也仍增长，如律师助理约 11%、市场研究分析师约 6%。相对地，企业 2026 年每月平均仍宣布约 1.6 万个 AI 相关裁员。核心限制是归因：趋势外就业、建设周期和企业公告不能完全隔离宏观景气与产业政策，岗位数量也掩盖工资、地域和入门岗位变化。因此最可靠的表述是“净就业灾难尚未在当前数据中出现”，而不是 AI 已被证明长期净增就业。
-&lt;a href=&quot;https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;spawn-v6生成式游戏的瓶颈从造内容转向状态同步与运行时治理&quot;&gt;Spawn v6：生成式游戏的瓶颈从造内容转向状态、同步与运行时治理&lt;/h3&gt;
-&lt;p&gt;Engine v6 “One Place” 把无缝 portal、无尺寸上限世界、多人共处和 Savi 实时改世界放进同一运行时，意图让创作者与玩家不离开游戏就能持续生成。Shumer 的早期测试称超过 1,000 名玩家可共同建造，世界可达美国国土尺度；官方页面则使用“任意数量玩家”“无尺寸上限”的产品表述。两者都没有公开定义同时活跃区、对象密度、网络拓扑、服务器成本或尾延迟。若要把演示升级为平台能力，关键验证不再只是模型能否生成资产，而是持久状态冲突、权限与版本控制、跨区域同步、恶意内容处理以及 AI 修改在在线玩家之间的一致性。v6 因而是值得跟踪的架构方向，但容量数字仍需独立负载测试。
-&lt;a href=&quot;https://www.spawn.co/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 08 Sep 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/09/08/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/09/08/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
         
       </item>
     

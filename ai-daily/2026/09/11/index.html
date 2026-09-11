@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Anthropic 发布其迄今最详细的威胁情报报告，汇总 2025 年 12 月至 2026 年 8 月间被中止的网络攻击、影响行动、监控、诈骗、生物滥用、武器研发与非法蒸馏。报告称，多起网络行动已用多 Agent 框架直接执行侦察、钓鱼、横向移动和数据外传，并能在恶意软件被检测后自动修改重建；人类主要负责选定目标和检查结果。所披露行动均被封禁或上报，但归因与规模主要来自 Anthropic 内部调查，尚不能视为独立审计结论。">
+    <meta name="keywords" content="AI 日报, AI Frontier Daily, Reddit 精选, 公司观察, 财报分析, 产品经理, 数据产品, AI 应用, 产品设计, 科技博客">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.09.11 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/09/11/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于作者</a>
+        </div>
+
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.09.11</p>
+    <h1>Anthropic 披露 AI 已从攻击助手进入自动重构与外传闭环</h1>
+    
+    <p class="article-deck">Anthropic 发布其迄今最详细的威胁情报报告，汇总 2025 年 12 月至 2026 年 8 月间被中止的网络攻击、影响行动、监控、诈骗、生物滥用、武器研发与非法蒸馏。报告称，多起网络行动已用多 Agent 框架直接执行侦察、钓鱼、横向移动和数据外传，并能在恶意软件被检测后自动修改重建；人类主要负责选定目标和检查结果。所披露行动均被封禁或上报，但归因与规模主要来自 Anthropic 内部调查，尚不能视为独立审计结论。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-09-11T09:07:00+08:00">2026年9月11日</time>
+      <span>17 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪正在发生的，留下值得重读的。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <div class="article-copy__content" data-highlight-source>
+        <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>16</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>9</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>17</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="116-anthropic-披露-ai-已从攻击助手进入自动重构与外传闭环">1/16 Anthropic 披露 AI 已从攻击助手进入自动重构与外传闭环</h2>
+<p>Anthropic 发布其迄今最详细的威胁情报报告，汇总 2025 年 12 月至 2026 年 8 月间被中止的网络攻击、影响行动、监控、诈骗、生物滥用、武器研发与非法蒸馏。报告称，多起网络行动已用多 Agent 框架直接执行侦察、钓鱼、横向移动和数据外传，并能在恶意软件被检测后自动修改重建；人类主要负责选定目标和检查结果。所披露行动均被封禁或上报，但归因与规模主要来自 Anthropic 内部调查，尚不能视为独立审计结论。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/AnthropicAI/status/2098097512544444447" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AnthropicAI</a><a class="source-chip" href="https://x.com/karpathy/status/2098187194024476764" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@karpathy</a></div>
+
+<h2 id="216-deepseek-v41-flash-用非对称架构压缩长上下文成本">2/16 DeepSeek-V4.1-Flash 用非对称架构压缩长上下文成本</h2>
+<p>DeepSeek 发布支持原生图文输入与 100 万 token 上下文的 V4.1-Flash：552B 参数 MoE 在预填充阶段激活 8B、解码阶段激活 16B，Causal Encoder-Decoder、CSA2 稀疏注意力与 FP4 缓存把全局 KV 缓存压到每 token 890 字节，约为上一代四分之一。模型权重采用 MIT License，API 名称改为 deepseek-flash；9 月 14 日起旧 V4-Pro 请求将临时路由至新模型。官方 Agent 基准成绩很强，但明显依赖特定 harness、上下文与采样设置。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@deepseek_ai<span class="source-chip__links"><a href="https://x.com/deepseek_ai/status/2097930608790167907" target="_blank" rel="noopener" aria-label="@deepseek_ai 原文 1">1</a><a href="https://x.com/deepseek_ai/status/2097930613101838709" target="_blank" rel="noopener" aria-label="@deepseek_ai 原文 2">2</a><a href="https://x.com/deepseek_ai/status/2097930617396887773" target="_blank" rel="noopener" aria-label="@deepseek_ai 原文 3">3</a><a href="https://x.com/deepseek_ai/status/2097930620680941732" target="_blank" rel="noopener" aria-label="@deepseek_ai 原文 4">4</a><a href="https://x.com/deepseek_ai/status/2097930627949711516" target="_blank" rel="noopener" aria-label="@deepseek_ai 原文 5">5</a></span></span></div>
+
+<h2 id="316-openai-把金融数据引用链与机构模板装进专用-chatgpt">3/16 OpenAI 把金融数据、引用链与机构模板装进专用 ChatGPT</h2>
+<p>ChatGPT for Financial Services 面向符合条件的金融机构开放，把 GPT-6 Astra、Daloopa、PitchBook、LSEG News、Crunchbase 等内置数据，以及现有数据订阅连接整合进 ChatGPT Work。分析结果可追溯到具体段落、表格和注释，还能套用机构自己的 Excel、Word、PowerPoint 模板生成估值模型、研报与 pitchbook。产品由 Morgan Stanley 与 Evercore 参与设计，并沿用 SSO、SCIM、RBAC、审计和信息墙等企业控制；OpenAI 的能力与基准声明仍需机构在真实合规流程中验证。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OpenAI<span class="source-chip__links"><a href="https://x.com/OpenAI/status/2098118191029624911" target="_blank" rel="noopener" aria-label="@OpenAI 原文 1">1</a><a href="https://x.com/OpenAI/status/2098118232133792050" target="_blank" rel="noopener" aria-label="@OpenAI 原文 2">2</a><a href="https://x.com/OpenAI/status/2098118248202215776" target="_blank" rel="noopener" aria-label="@OpenAI 原文 3">3</a><a href="https://x.com/OpenAI/status/2098118249582035348" target="_blank" rel="noopener" aria-label="@OpenAI 原文 4">4</a></span></span></div>
+
+<h2 id="416-chatgpt-work-的-data-agent-直接读取语义层并生成可执行看板">4/16 ChatGPT Work 的 Data agent 直接读取语义层并生成可执行看板</h2>
+<p>OpenAI 推出 Data agent，让非数据岗位通过自然语言连接 Redshift、BigQuery、ClickHouse、Databricks、MongoDB、Snowflake 等数据源，调查指标变化并生成可编辑看板。它会读取 dbt、Databricks Genie Ontology、Snowflake Horizon 和既有 BI 中的指标定义与数据关系，查询沿用原账户的表、行、列权限；输出还能写入 Power BI、Tableau、Sigma 等工具，并在用户批准后通过 Slack、邮件或连接器执行后续动作。价值取决于企业语义层与权限治理是否可靠。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/OpenAI/status/2098153609234104818" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OpenAI</a></div>
+
+<h2 id="516-gpt-live-1-以全双工语音层接入后端模型与工具">5/16 GPT-Live-1 以全双工语音层接入后端模型与工具</h2>
+<p>GPT-Live-1 现已开放 API，用单一语音模型同时监听和说话，重点改善打断、停顿、背景噪声、长会话和电话场景；复杂推理与工具调用可委托给 GPT-6 Astra 或第三方后端。OpenAI 自报 Full Duplex Bench 相比 GPT-Realtime-2.1 提升 30 个百分点，合作方 Speak 称误打断减少近 80%，但均需按目标口音与环境复测。前端语音层定价每分钟 0.05 美元，后端模型另计费，使其定位更像低延迟交互入口，而非包办全部任务的端到端 Agent。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/OpenAI/status/2098100519600554330" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OpenAI</a><a class="source-chip" href="https://x.com/gdb/status/2098157918906384676" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@gdb</a></div>
+
+<h2 id="616-cursor-projects-把编码-agent-变成长驻项目协调者">6/16 Cursor Projects 把编码 Agent 变成长驻项目协调者</h2>
+<p>Cursor 推出 Projects 测试版：用户不再为每个任务新建聊天，而是在单一持久线程中与协调 Agent 工作。协调者负责规划和调度实现 Agent，本身不直接写代码；项目在云端电脑持续运行，研究、计划、演示和代码库经验通过共享文件同步到本地与云端。它还能监听 Slack、按计划运行、跟踪 PR 和处理 CI。Cursor 称单项目可维护数月上下文并委派给大量子 Agent，但长期记忆质量、权限边界、并发冲突与成本仍需实际验证。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cursor_ai<span class="source-chip__links"><a href="https://x.com/cursor_ai/status/2098162488013455784" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 1">1</a><a href="https://x.com/cursor_ai/status/2098162490026697134" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 2">2</a><a href="https://x.com/cursor_ai/status/2098162491754741780" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 3">3</a><a href="https://x.com/cursor_ai/status/2098162493663146411" target="_blank" rel="noopener" aria-label="@cursor_ai 原文 4">4</a></span></span></div>
+
+<h2 id="716-cohere-发布-218b-参数开放权重翻译-moe">7/16 Cohere 发布 218B 参数开放权重翻译 MoE</h2>
+<p>North Small Translate 1.0 面向 50 种语言，包含 218B 总参数、每 token 激活 25B，输入与输出上下文各为 16K。Cohere 自报 WMT26 多语言平均分 83.60，结合多轮 Agent 翻译可达 84.36，并提供 BF16、FP8、NVFP4 量化。模型卡列出的最低部署配置从单张 B200 到八张 H100不等。权重虽可下载，但使用 CC BY-NC 4.0 并附加可接受使用政策，属于研究开放而非无条件可商用开源；供应商基准也有待跨语言人工评测验证。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cohere<span class="source-chip__links"><a href="https://x.com/cohere/status/2098081558087270736" target="_blank" rel="noopener" aria-label="@cohere 原文 1">1</a><a href="https://x.com/cohere/status/2098081717529551246" target="_blank" rel="noopener" aria-label="@cohere 原文 2">2</a><a href="https://x.com/cohere/status/2098081809170940114" target="_blank" rel="noopener" aria-label="@cohere 原文 3">3</a><a href="https://x.com/cohere/status/2098081941027192883" target="_blank" rel="noopener" aria-label="@cohere 原文 4">4</a></span></span></div>
+
+<h2 id="816-runway-把视频生成目标从成片等待改为流式首帧">8/16 Runway 把视频生成目标从“成片等待”改为流式首帧</h2>
+<p>Runway 公开实时视频研究路线：先把 Gen-4.5 等基础模型改造成时间因果、逐帧自回归系统，再通过离策略和在策略蒸馏把每帧生成压到少量去噪步骤。训练中的 rollout 让 student 看到自身历史输出，并用逐步增长的序列长度缓解视频误差累积。公司认为低首帧延迟会改变互动教育、游戏、机器人与仿真的成本边界，但没有公布统一帧率、质量或单次成本数据，因此现阶段更应看作技术方向，而非已经完成规模化交付的产品指标。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/runwayml/status/2098114075544944957" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@runwayml</a></div>
+
+<h2 id="916-cerebras-用层级-dropout同时换取训练节省和弹性推理">9/16 Cerebras 用“层级 Dropout”同时换取训练节省和弹性推理</h2>
+<p>Cerebras 与 MBZUAI 的论文在 2,400 多次实验中重新评估 layer dropout：按序列跳过完整 Transformer block，保护前层、提高后层丢弃率，并让 dropout 从训练早期的高值线性降到零。作者称在维持验证损失时可节省最多 25% 训练 FLOPs；模型因预先适应不同深度，还能在推理时提前退出、跳层或进行自推测解码，最高约 1.5 倍加速。实验覆盖 271M 至 8.2B 参数，能否直接外推到超大模型仍需独立复现。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cerebras<span class="source-chip__links"><a href="https://x.com/cerebras/status/2098102042384294382" target="_blank" rel="noopener" aria-label="@cerebras 原文 1">1</a><a href="https://x.com/cerebras/status/2098102043810447389" target="_blank" rel="noopener" aria-label="@cerebras 原文 2">2</a></span></span></div>
+
+<h2 id="1016-thunderkittens-抢先把-vera-rubin-gemm-推到-22-pflops-以上">10/16 ThunderKittens 抢先把 Vera Rubin GEMM 推到 22 PFLOPS 以上</h2>
+<p>Together AI 将 ThunderKittens 内核移植到 NVIDIA Vera Rubin NVL72，并针对更宽 MMA、增大的 tensor/shared memory、B 侧 collector 与提前释放 A 操作数重构流水线。团队称 16K 方阵 NVFP4 GEMM 达到 22.2 PFLOPS 以上，FP8 接近 12 PFLOPS，与早期 cuBLAS 和 CuTe DSL 结果相当；关键并非简单加宽指令，而是增加片上数据复用并加深预取流水线。测试使用 CUDA 13.4 和 Qualification Sample GPU，软件栈与量产硬件仍可能改变最终性能。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@togethercompute<span class="source-chip__links"><a href="https://x.com/togethercompute/status/2098109437357465813" target="_blank" rel="noopener" aria-label="@togethercompute 原文 1">1</a><a href="https://x.com/togethercompute/status/2098109439890891059" target="_blank" rel="noopener" aria-label="@togethercompute 原文 2">2</a><a href="https://x.com/togethercompute/status/2098109442344546366" target="_blank" rel="noopener" aria-label="@togethercompute 原文 3">3</a><a href="https://x.com/togethercompute/status/2098109444366172167" target="_blank" rel="noopener" aria-label="@togethercompute 原文 4">4</a></span></span></div>
+
+<h2 id="1116-replit-routines-用确定性代码包住按时运行的-agent">11/16 Replit Routines 用确定性代码包住按时运行的 Agent</h2>
+<p>Replit 推出 Routines，把重复工作设为每小时、每天或每周运行。每次任务先执行确定性代码，只有需要判断时才调用 Agent，用于销售机会整理、客户反馈归类等流程；Core 与 Pro 用户还能为单个 Routine 设 token 预算。设计重点是避免让模型全天空转，把可预测的数据收集与不可预测的判断拆开。官方推文尚未给出失败重试、幂等性和审计细节，生产使用仍需关注重复执行、权限和预算耗尽后的行为。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@Replit<span class="source-chip__links"><a href="https://x.com/Replit/status/2098169655013863740" target="_blank" rel="noopener" aria-label="@Replit 原文 1">1</a><a href="https://x.com/Replit/status/2098169655726862651" target="_blank" rel="noopener" aria-label="@Replit 原文 2">2</a><a href="https://x.com/Replit/status/2098169656142147740" target="_blank" rel="noopener" aria-label="@Replit 原文 3">3</a><a href="https://x.com/Replit/status/2098180168082678169" target="_blank" rel="noopener" aria-label="@Replit 原文 4">4</a></span></span></div>
+
+<h2 id="1216-horizonrelight-用跨窗口状态解决长视频光照跳变">12/16 HorizonRelight 用跨窗口状态解决长视频光照跳变</h2>
+<p>NVIDIA 与 USC 的 ECCV 2026 工作 HorizonRelight 针对长视频分块重光照时的边界跳变：每个滑动窗口都接收上一窗口的目标域 latent，使新的片段延续既有光照状态，而不是独立重推断；训练时再用遮罩式目标域自条件学习这种跨块延续。系统还可用可控生成模型制作首帧 warm start，让提示词定义的光照或风格沿长视频传播。论文展示边界伪影与意外外观变化减少，但当前代码尚未发布，结论主要来自作者实验。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/NVIDIAAI/status/2098133709652160939" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@NVIDIAAI</a></div>
+
+<h2 id="1316-replit-与-databricks-把-agent-建应用接到受管-lakebase">13/16 Replit 与 Databricks 把 Agent 建应用接到受管 Lakebase</h2>
+<p>Replit—Databricks 集成正式 GA，并加入原生 Lakebase 支持。Replit Agent 可在部署时自动配置应用数据库，运行中的应用同时读取 Databricks Warehouse 实时数据并向 Lakebase 写入业务状态；预览环境与生产数据隔离，AI 建议的数据库变更需团队批准，Unity Catalog 继续负责权限、血缘与审计。它把“生成前端”和“企业数据治理”连成单一发布路径，但实际安全仍取决于授权配置、审批质量和生成代码审查。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/databricks/status/2098095260215705702" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@databricks</a><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@Replit<span class="source-chip__links"><a href="https://x.com/Replit/status/2098066397448352106" target="_blank" rel="noopener" aria-label="@Replit 原文 1">1</a><a href="https://x.com/Replit/status/2098223938920960353" target="_blank" rel="noopener" aria-label="@Replit 原文 2">2</a></span></span></div>
+
+<h2 id="1416-luma-layers-开始把生成图里的文字还原为可编辑对象">14/16 Luma Layers 开始把生成图里的文字还原为可编辑对象</h2>
+<p>Luma 在 Layers 中加入文字提取：用户可选择图层，把烘焙进生成图像的字样转成可编辑文本，并匹配最接近的字体，再重新输入、换字体或重新排版，而无需整张图重新生成。该能力由 Uni-1 驱动，瞄准生成式设计工具长期存在的“图像看似完成、文字却不可修改”断点。官方推文没有公布识别准确率、字体匹配覆盖与复杂透视文字的限制，因此目前更适合视为工作流入口，而非替代专业排版的完整承诺。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@LumaLabsAI<span class="source-chip__links"><a href="https://x.com/LumaLabsAI/status/2098063953754775937" target="_blank" rel="noopener" aria-label="@LumaLabsAI 原文 1">1</a><a href="https://x.com/LumaLabsAI/status/2098063954149097707" target="_blank" rel="noopener" aria-label="@LumaLabsAI 原文 2">2</a></span></span></div>
+
+<h2 id="1516-google-ai-studio-把人类文档与-agent-上下文放进同一界面">15/16 Google AI Studio 把人类文档与 Agent 上下文放进同一界面</h2>
+<p>Google AI Studio 上线集成式文档体验，目标是让人和 Agent 在同一开发空间查看与使用说明材料，减少从外部文档复制上下文的摩擦。官方仅将其称为“第一步”，推文和演示入口尚未给出完整权限、版本控制、引用追踪或多 Agent 协作细节；因此可以确认的是入口整合，而不是完整知识管理系统。它与当天 Cursor 的项目共享文件、OpenAI 的企业语义层一起，显示 Agent 产品竞争正在从单次模型能力转向长期可维护的上下文基础设施。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/OfficialLoganK/status/2098088136794640882" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OfficialLoganK</a></div>
+
+<h2 id="1616-databricks-用分解并行与合并提高复杂文档抽取稳定性">16/16 Databricks 用分解、并行与合并提高复杂文档抽取稳定性</h2>
+<p>Databricks 再次推广 AI Extract Precision Mode：自定义抽取模型配合 Agent harness，把长文档和复杂 schema 分解为更小任务并行执行，保留中间结果后统一合并。其约 9,000 份文档评测覆盖最长 2,000 页、数千行项目和 300 多个嵌套字段；Databricks 自报准确率 94.7%，比最强的前沿模型 chunk-and-merge 基线高 7 个百分点。页面最初发布于 8 月，今日推文是产品再传播，且基准包含内部数据，需避免把供应商结果当成普适结论。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/databricks/status/2098054952044159107" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@databricks</a></div>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="anthropic-威胁情报攻击-agent-正在把静态检测变成持续对抗">Anthropic 威胁情报：攻击 Agent 正在把静态检测变成持续对抗</h3>
+<p>报告覆盖七类高风险滥用，最突出的变化是侦察、基础设施、利用、外传与规避被接成可重复闭环。它还披露大规模影响网络、监控系统、武器工程与疑似非法蒸馏交换；案例已经被中止，但归因、统计和“能力提升”仍属于 Anthropic 的内部调查口径。
+<a href="https://www.anthropic.com/threat-intelligence-report-september-2026">查看原文</a></p>
+
+<h3 id="deepseek-v41-flash从长上下文缓存结构而非单纯参数量降成本">DeepSeek-V4.1-Flash：从长上下文缓存结构而非单纯参数量降成本</h3>
+<p>CED、CSA2、SWA Bounded Replay 与 FP4 缓存共同把每 token 全局 KV 缓存压到 890 字节，服务输入密集型 Agent；MIT 权重、参考编码与 benchmark 复现步骤同步开放。官方成绩显示它在多项 Agent 任务上接近或超过更大模型，但 harness 差异足以显著改分。
+<a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf">查看原文</a></p>
+
+<h3 id="chatgpt-for-financial-services垂直产品的核心是数据授权与证据链">ChatGPT for Financial Services：垂直产品的核心是数据授权与证据链</h3>
+<p>OpenAI 将内置金融数据、现有订阅、Astra 推理、细粒度引用和机构模板组合起来，试图把研究到交付压进一个受管工作区。SSO、RBAC、审计、数据保留和信息墙是进入金融机构的必要条件；真正效果仍取决于每家机构的授权范围、数据质量与人工复核。
+<a href="https://openai.com/index/introducing-chatgpt-financial-services/">查看原文</a></p>
+
+<h3 id="chatgpt-work-data-agent自然语言分析开始直接消费企业语义层">ChatGPT Work Data agent：自然语言分析开始直接消费企业语义层</h3>
+<p>产品连接数仓、文档和 BI 工具，并读取组织已有的指标定义、数据关系与行列权限，随后生成可编辑看板和待批准动作。它降低了查询门槛，也把语义治理错误放大到更多业务用户，因此共享定义与证据复查比“无需 SQL”更关键。
+<a href="https://openai.com/index/put-data-to-work/">查看原文</a></p>
+
+<h3 id="gpt-live-1语音前端与深度推理后端被拆成可组合架构">GPT-Live-1：语音前端与深度推理后端被拆成可组合架构</h3>
+<p>全双工模型处理打断、停顿、噪声与电话交互，同时把复杂推理和工具调用委托给独立模型或 Agent。每分钟 0.05 美元只是语音层价格，真实成本还包括后端模型与工具；供应商基准显示交互改善，但多语言和真实线路仍需逐场景评测。
+<a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/">查看原文</a></p>
+
+<h3 id="cursor-projects长期上下文云端执行和事件订阅合成项目级-agent">Cursor Projects：长期上下文、云端执行和事件订阅合成项目级 Agent</h3>
+<p>协调 Agent 维护跨月共享文件，规划任务并调度云端或本地实现 Agent，还能监听 Slack、定时运行和跟踪 PR。新形态减少反复交代上下文，却把权限、记忆污染、并发和成本问题提升到项目生命周期层面。
+<a href="https://cursor.com/changelog/projects">查看原文</a></p>
+
+<h3 id="runway-实时视频在策略蒸馏专门处理逐帧误差累积">Runway 实时视频：在策略蒸馏专门处理逐帧误差累积</h3>
+<p>基础视频模型先被改造成因果自回归生成器，再通过离策略初始化与在策略 rollout 蒸馏压缩到流式速度。逐步增长的序列课程用于控制 student 偏离 teacher 的长轨迹漂移；方向指向互动媒体与仿真，但尚缺公开统一帧率和质量基准。
+<a href="https://runway.com/news/research/towards-instant-video-generation">查看原文</a></p>
+
+<h3 id="north-small-translate开放权重不等于开放商用">North Small Translate：开放权重不等于开放商用</h3>
+<p>218B 总参数、25B 激活参数的 MoE 覆盖 50 种语言，并提供多档量化与多轮翻译流程。Cohere 的 WMT26 结果显示较强质量，但许可证为 CC BY-NC 4.0，下载还需接受附加条款，研究可用性与生产授权需要分开判断。
+<a href="https://huggingface.co/CohereLabs/North-Small-Translate-1.0">查看原文</a></p>
+
+<h3 id="dont-drop-dropout把训练时随机深度变成推理时弹性深度">Don’t Drop Dropout：把训练时随机深度变成推理时弹性深度</h3>
+<p>论文通过前密后疏的层分布、随时间下降的丢弃率和稳定残差缩放，报告最多 25% 训练 FLOPs 节省，并让同一模型支持提前退出、跳层和自推测解码。2,400 多次实验增强了统计可信度，但最大只到 8.2B 参数，向前沿规模推广仍待验证。
+<a href="https://arxiv.org/abs/2609.05275">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+      </div>
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/blog/2026/09/11/oracle_fy2027q1_earnings_call/">
+          <span>上一篇</span>
+          <strong>甲骨文2027财年Q1电话会——全年资本开支上看950亿美元，GPU利用率97.9%，管理层回避自由现金流转正时间表</strong>
+        </a>
+        
+        
+        <a href="/blog/2026/09/11/reddit-daily-digest/">
+          <span>下一篇</span>
+          <strong>Reddit 每日精选 | 2026.09.11</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer class="editorial-footer">
+    <div class="editorial-shell editorial-footer__inner">
+        <div class="editorial-footer__brand">
+            <a class="editorial-wordmark editorial-wordmark--footer" href="/" aria-label="Freedom Hunter 首页">
+                <span aria-hidden="true">FH</span>
+                Freedom Hunter
+            </a>
+            <p>追踪正在发生的，留下值得重读的。</p>
+        </div>
+
+        <nav class="editorial-footer__nav" aria-label="页脚导航">
+            <div>
+                <p>栏目</p>
+                <a href="/ai-daily/">AI 日报</a>
+                <a href="/reddit-daily/">Reddit 精选</a>
+                <a href="/company-research/">公司观察</a>
+                <a href="/articles/">文章</a>
+            </div>
+            <div>
+                <p>更多</p>
+                <a href="/archive/">全部文章</a>
+                <a href="/highlights/">读者精选</a>
+                <a href="/about/">关于作者</a>
+                <a href="/feed.xml">RSS 订阅</a>
+                <a href="https://github.com/zluckyhou" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="editorial-footer__meta">
+        <div class="editorial-shell editorial-footer__meta-inner">
+            <span>&copy; 2026 Freedom Hunter</span>
+            <span>Shanghai · UTC+8 · Powered by Jekyll</span>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+</html>

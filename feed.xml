@@ -5,9 +5,158 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Sep 2026 12:16:26 +0800</pubDate>
-    <lastBuildDate>Thu, 10 Sep 2026 12:16:26 +0800</lastBuildDate>
+    <pubDate>Fri, 11 Sep 2026 09:17:12 +0800</pubDate>
+    <lastBuildDate>Fri, 11 Sep 2026 09:17:12 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.09.11</title>
+        <description>&lt;p&gt;今天这几帖凑在一起，主题意外地统一：都在问「谁承担了代价」。初级岗位消失了，代价由还没入行的人承担；模型宣称的突破背后，代价是被抹掉署名的一整个团队；验证服务泄露了 1.5 亿张驾照，代价由被强制交出证件的每个人承担。剩下两帖偏技术和数据，但也各有各的意思——一个在重新定义「本地能不能跑」，一个在算一条统计线为什么这么难跨。&lt;/p&gt;
+
+&lt;h2 id=&quot;一科技业的新岗位里只有-4-是初级岗最坦率的回答来自一位高管&quot;&gt;一、科技业的新岗位里只有 4% 是初级岗，最坦率的回答来自一位高管&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wczpky/oc_only_4_of_new_jobs_in_tech_are_entrylevel/&quot;&gt;Only 4% of new jobs in tech are entry-level&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;楼主抓取了 945 家科技公司官网招聘页上的全部在招职位，9 月 11 日的快照一共 14.5 万条，按标题里的职级关键词分类，结果初级岗（实习、应届、junior 等）只占 4%。数据本身谈不上多精巧，但它恰好把一个所有人都在私下感受、却很少被量化的东西摆到了台面上。&lt;/p&gt;
+
+&lt;p&gt;评论区之所以值钱，是因为真正做决定的人直接下场了。一位自称科技招聘的用户说自己从 2024 年起就没再招过应届生，而前三年每年都招五到十个；一位 C 级高管说得更不留情面——过去交给初级员工的活现在可以直接交给 AI，一个初级员工的薪水能烧掉海量 token，而且不用承担「这人靠不靠谱」的风险。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s AI. I’m a C level, and I won’t be hiring juniors. There’s just so many things that you used to give to a junior that you can just give to AI. For the cost of a junior you can burn a huge number of tokens…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/lordnacho666，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wczpky/oc_only_4_of_new_jobs_in_tech_are_entrylevel/p923dor/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他后面补的两段更耐读。有人指责他短视、忘了自己也当过初级员工，他没有回避，只是说这不是他能替投资人做的选择：如果别家继续这么干而他不干，丢掉的订单再也回不来；而且他自己也有个对技术感兴趣的孩子，他并不希望事情是这个样子。另一位金融行业的管理者补了同一个现象的另一面：他因为主导公司的 AI 落地而连跳一级，八年经验的人现在处在甜蜜点上——既有沉淀又肯用新工具；但他也承认，公司最新招进来的人不用再做那些重复到发疯的建模练习了，交付物更多更漂亮，可他们并不真的理解自己在用的东西。&lt;/p&gt;
+
+&lt;p&gt;也有人对数据本身提出了合理质疑：44% 的岗位标题里根本没有职级词，把这部分整个丢掉再算比例，本身就偏向了耸动。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Having 44% of roles as unclassified is ridiculous. The new grad role count is more like 4/56 =0.0714 7% of their classified roles, and honestly, many roles without classifiers (e.g. software engineer) lean either junior or mid level…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/BTTLC，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wczpky/oc_only_4_of_new_jobs_in_tech_are_entrylevel/p9267t3/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有人指出这份快照只覆盖了六周，而北美大量应届岗位是 11 月到次年 3 月通过校招关掉的，季节性没有被排除。楼主自己也承认数据只积累了大约六周。&lt;/p&gt;
+
+&lt;p&gt;我更在意的其实不是 4% 还是 7%，而是那位高管顺口说出的那句「不用承担这人靠不靠谱的风险」。企业把「培养人」这件事从成本表里划掉了，但资深工程师并不是凭空长出来的——线程里被顶得很高的那句反问很到位：如果今天的初级员工找不到工作，明天的资深工程师从哪来。对国内读者来说，这个问题更尖锐一点：我们的行业本来就更依赖「跟着老带新做几年」的隐性传承，一旦这条通道被 AI 顺手堵掉，断层不会在今年显现，会在五年后一次性到账。&lt;/p&gt;
+
+&lt;h2 id=&quot;二又一位研究者指控-openai拿对话训练然后宣称是自己的突破&quot;&gt;二、又一位研究者指控 OpenAI：拿对话训练，然后宣称是自己的突破&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wcmgbn/another_researcher_accuses_openai_of_training_on/&quot;&gt;ANOTHER researcher accuses OpenAI of training on conversations and then claiming a breakthrough&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这帖的转发链条本身就是个笑话——Reddit 帖子链到 Bluesky，Bluesky 贴的是 X 的截图，X 在讨论有人发在 Mastodon 上的内容，评论区第一波全在吐槽这件事。但往下翻，讨论很快就严肃起来了：核心指控是 OpenAI 一边把用户对话拿去训练，一边把由此得到的结果包装成模型自主取得的数学突破。&lt;/p&gt;
+
+&lt;p&gt;最有分量的一条评论直接贴出了当事数学家的公开声明。按这份声明的说法，对方被告知模型「只拿到了题目本身」、「几乎没有用到人类输入」，但在通话过程中，随着团队成员在内部聊天里不断补充更正，真相一点点浮出来：其实是一整个团队在做这道题，模型先被喂了更简单的题目，连展示给他看的那个 prompt 都是用 Codex 生成的，消耗的算力也大得离谱。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…it emerged that an entire team had been working on the problem, that this was one of a number of things that was tried, … that even the prompt that had been shown to me had been written by prompting Codex, and that an insane amount of compute had been used.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/DragonflyOk9274，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wcmgbn/another_researcher_accuses_openai_of_training_on/p9239sz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;线程里也有人要求对方拿出「博士数学家全程引导」的证据，认为人类只是在不断说「继续」；双方谁都没能给出决定性材料，这一段基本打成了平手。倒是另一条把话说得很实在：$2000 万美金的算力如果直接发给十位数学家，够他们全职攻十年——有人反驳说这类问题本来就没有明确 ROI，学界拿不到这种资助，而这正是 OpenAI 愿意砸钱的原因；也有人怀念贝尔实验室那种由巨头利润供养、但不急着把成果变成新闻稿的纯研究模式。&lt;/p&gt;
+
+&lt;p&gt;另一条支线则很实际：不少人开始把这件事当成「不要把敏感数据交给云端 API」的证据。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This is why my workplace built out and serves K3 and GLM 5.3 and banned use of API for sensitive data.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/jld1532，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wcmgbn/another_researcher_accuses_openai_of_training_on/p8z4cp6/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我的看法是，这件事最值得警惕的不是「有没有偷用数据」，而是&lt;strong&gt;归因的默认方向正在悄悄反转&lt;/strong&gt;。当一个结果由「一个团队 + 海量算力 + 反复试错 + 模型」共同做出来，叙事却只保留模型，人的那部分就被系统性地抹掉了。对写论文、做工程的人来说，这意味着从今天起，说清楚「人做了什么、模型做了什么」不再只是学术礼貌，而是一种自我保护。值得一提的是，评论里有人提议应该有第三方可审计的「不用于训练」保证——目前这还只是个愿望，但迟早会变成合规要求。&lt;/p&gt;
+
+&lt;h2 id=&quot;三deepseek-v41-flash-发布但讨论焦点是别再假设模型要整个塞进显存&quot;&gt;三、DeepSeek V4.1 Flash 发布，但讨论焦点是「别再假设模型要整个塞进显存」&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wcbid7/deepseek_v41_flash_is_out/&quot;&gt;DeepSeek V4-1 Flash is out&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DeepSeek 又发了新模型：多模态 MoE，主干 552B 参数，支持百万 token 上下文。楼主的吐槽是「灾难即服务，又来了」。但和以往不同，这次 r/LocalLLaMA 的热度几乎没花在跑分上，而是全扑在一个更具体的问题上——这东西到底能不能在家里跑起来。&lt;/p&gt;
+
+&lt;p&gt;整个讨论的技术含量比标题高得多。有人算出原生 4bit 主干加视觉部分大约 310GB，其余是 engram（n-gram 查表）部分，而这个模型的上下文开销几乎可以忽略，所以一台 256GB 的机器上跑个 3.x bpw 量化版是有戏的；有人指出 n-gram 表可以直接扔到 SSD 上，因为它对带宽的要求极低、而且完全由 token 顺序决定，可以预取。顺着这条线，有人给出了本期我最喜欢的一句判断：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Expert caching/streaming would probably get an excellent hit rate on a 256 GB machine. Likewise, n-gram tables can probably just be mmap()’d. … We need to move away from assuming the entire model will be VRAM-resident for local inference.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/wren6991，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wcbid7/deepseek_v41_flash_is_out/p8zwjqe/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一个被反复提到的点是：估算模型能力的老经验公式失效了。过去大家习惯用「总参数量乘激活参数量再开方」来粗估一个 MoE 的等效规模，但在引入 n-gram 嵌入之后，8B 的激活参数已经不再像 8B 了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I dont think sqrt(P x A) is meaningful anymore, not especially when theres ngram embedding involved. 8B active dont really behave like 8B anymore.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/silentsnake，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wcbid7/deepseek_v41_flash_is_out/p8ws1bo/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;横向比较那部分吵得也有意思。有人花四天拿 DeepSeek 和 GLM 5.3 Flash 在同一批金融分析和编码任务上对跑，说 DeepSeek 常常四十分钟后还在「嗯……但如果……」，GLM 那边已经进入构建阶段了；对方立刻反问是否有客观数据，答案是没有，纯主观体感。这种坦诚的「我没有数据但我用了四天」反而比跑分表有参考价值。&lt;/p&gt;
+
+&lt;p&gt;我的延伸想法是：如果「模型必须常驻显存」这个前提真的松动，本地部署的成本曲线会被重新画一遍——决定你能跑什么的，可能从显存容量变成内存带宽加 SSD 随机读性能。对国内很多买不到高端卡、却能轻松堆内存和 NVMe 的团队来说，这是个值得提前押注的方向。&lt;/p&gt;
+
+&lt;h2 id=&quot;四idscan-泄露-15-亿张驾照评论区吵的是验证完就销毁到底管不管用&quot;&gt;四、IDScan 泄露 1.5 亿张驾照，评论区吵的是「验证完就销毁」到底管不管用&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wckfeb/id_verification_giant_idscan_confirms_data_breach/&quot;&gt;ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;身份验证服务商 IDScan 确认数据泄露，涉及超过 1.5 亿条驾照记录。这家公司为大量商户提供扫证件的 SDK 和服务，多数被泄露者甚至不知道自己的证件曾经过它的手——没有退出选项，也没有事先告知。评论区最热的一层是在比谁的赔偿更寒酸（一美元？还是一年免费信用监控？），但往下走就正经多了。&lt;/p&gt;
+
+&lt;p&gt;实质讨论集中在一个问题上：既然验证必须发生，怎么做才不会攒出这么一个高价值的数据堆。最集中的方案是把判断下沉到本地、只回传结论。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Any verification should be done on device. The website should just get a yes/no answer to the query.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/AwesomeWhiteDude，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wckfeb/id_verification_giant_idscan_confirms_data_breach/p8zgr6o/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;有人进一步展开：年龄验证真正需要的只是「此人是否大于 18 岁」这一个布尔值，网站不该拿到任何多余信息。也有人提出「验证完即销毁」，但立刻被反驳——这次攻击者拿到的是实时访问权限，证件在被销毁之前就已经被截走了，保留策略再严格也拦不住。一位在自家产品里集成了 IDScan SDK 的用户则提供了对照组：他们把解析结果完全存在本地（用于赌场一类场景），数据从不回传，因此不在这次泄露范围内——同一个 SDK，架构选择不同，命运完全不同。&lt;/p&gt;
+
+&lt;p&gt;值得注意的还有一条常被顶起来的观察：很多人早就预言过，强制平台做年龄验证的立法必然会催生这种集中化的证件数据库，而现在没人讨论要不要修改那些法律。&lt;/p&gt;
+
+&lt;p&gt;我自己的体会是，这件事的教训不在「某家公司安全没做好」，而在制度设计从一开始就选错了形状：把「证明某件事」实现成「上交原始证件」，等于强制制造一个全国规模的单点。国内在人脸、实名、未成年人保护这些场景上正在铺开类似的验证链路，IDScan 的这次事故值得当成一份提前到达的事故报告来读——最小化回传、结论优先于原件、能本地判断就别上云，这几条不是洁癖，是止损。&lt;/p&gt;
+
+&lt;h2 id=&quot;五中国差一点点没跨过高收入门槛而这条线为什么难过挺有讲究&quot;&gt;五、中国差一点点没跨过高收入门槛，而这条线为什么难过挺有讲究&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wclxb5/china_only_just_missed_the_income_cutoff_to/&quot;&gt;China only just missed the income cutoff to become a high-income country this year&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一张图显示，按世界银行 Atlas 法计算的人均 GNI，中国今年又一次以微弱差距没能跨进「高收入国家」的门槛。帖子本身信息量不大，但评论区把这条线背后的门道扒得挺细。&lt;/p&gt;
+
+&lt;p&gt;最先被追问的是数据来源。有人给出了世行的数据目录链接，同时指出世行并不自己采集，而是基本采纳各国官方发布的数字——这引出了一连串关于口径可信度的争论。接着出现了一条被顶得很高、半开玩笑但论证认真的推测：世行的统计人员可能在有意无意地让门槛「刚好够不着」，原因不是政治，而是工作量。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…when China is moved into the high-income bracket, it will roughly double the entire high-income population globally, along with moving $20tn+ of global nominal GDP… A change of this size will radically alter a massive number of indicators and statistical representations…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Mariks500，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wclxb5/china_only_just_missed_the_income_cutoff_to/p8zbne8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个说法之所以有人认真对待，是因为它指出了一个真问题：全球高收入人口因为一个国家的归类变化而翻倍，几乎所有以「高收入国家」为分组的指标、报告和模型都要重做一遍。下面很快有人接梗——到时候可以靠观察世行大楼夜里的外卖披萨数量来判断。&lt;/p&gt;
+
+&lt;p&gt;另一条支线更有现实意味：跨过门槛未必是好事。有人认为中国并不急着被划进高收入行列，因为那会损失一部分贸易条件、融资渠道和气候义务上的优待；但也有人提供了反面证据，说中共在 2025 年 9 月已宣布不再在 WTO 寻求发展中国家待遇。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“CPC already announced september 2025 that they are not pursuing developing country status in WTO, and they’ve predicting that by 2030 they’ll have achieved socialism with chinese characteristics…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Working_Historian241，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wclxb5/china_only_just_missed_the_income_cutoff_to/p913ebu/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有人提到城乡差距这个更本质的变量：中国内部的收入分布极不均衡，如果把最穷的几个省份单独剔出去，剩下的部分早就越过了这条线。也有人认为汇率是关键——Atlas 法算的是名义美元口径，人民币的汇率水平会直接影响结果，而中国城市的建设水平和消费品供给，和名义人均收入之间确实存在观感上的落差。&lt;/p&gt;
+
+&lt;p&gt;对中文读者来说，这帖最有用的部分可能不是「过没过线」，而是提醒我们：这类国际排名的门槛既不神圣也不中立，它由一套具体的计算方法（Atlas 法、汇率平滑、各国自报数据）决定，而每一个环节都有解释空间。与其纠结哪一年正式跨过去，不如记住评论区那个更朴素的判断——一个把全球高收入人口翻一倍的国家，本来就不该被塞进任何现成的分类格子里。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;今天就到这里。如果你只打算记住一件事，我建议是第一帖里那句反问：如果今天的初级员工找不到工作，明天的资深工程师从哪来。它不需要任何数据支撑，但没人能回答。&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/11/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/11/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.10</title>
@@ -1660,151 +1809,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.09.07</title>
-        <description>&lt;p&gt;今天这五帖凑在一起，讲的其实是同一件事：换掉一样用了很久的旧东西，账该怎么算。CERN 为了不换 2200 台老电脑，把整个操作系统换了；联合国换了一张用了五百年的世界地图，代价是所有人对形状的直觉；肯尼亚有四万人靠替美国学生写作业为生，这个行业被 AI 一次性换掉了；Python 社区花了十几年才做出一个打包委员会，现在开始吵谁该坐在桌边；最后一张看起来无可争议的「工时越来越短」的图，被评论区从统计口径上拆了个底朝天。&lt;/p&gt;
-
-&lt;h2 id=&quot;一cern-把-2200-台机器从红帽系搬去了-debian&quot;&gt;一、CERN 把 2200 台机器从红帽系搬去了 Debian&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w8i64m/cern_is_moving_more_than_2200_specialized/&quot;&gt;CERN is moving more than 2,200 specialized computers from RHEL to Debian&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;事情的起因很技术：新版红帽系发行版把最低 CPU 要求提到了 x86-64-v3，而 CERN 有大量设备跑在十七年以上的老处理器上，装不了新系统。摆在面前的选择是换硬件还是换系统——CERN 选了后者，因为 Debian 13 还支持这些老 CPU。标题读起来像一次发行版之争，实际是一次成本计算。&lt;/p&gt;
-
-&lt;p&gt;评论区最有价值的是把「2200 台电脑」这个数字讲清楚了。那些不是机房里的算力集群，而是散布在整个加速器设施里的工业控制机：每一块磁铁、每一个腔体都需要同步控制、监测和告警，配套一堆定制的 ADC、DAC、时钟板，再加一台小电脑负责远程控制和数据落盘。所以它们不需要快，只需要一直在。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The computers in question are not huge servers that process a lot of data. They are mainly industrial control computers that are dustributed across the entire facility.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/wolfnest，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w8i64m/cern_is_moving_more_than_2200_specialized/p83vnlu/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;理解了这一点，另一条争论就有了意思。有人说二十年的硬件早就该换了，光电费差价就够买新机器；反对的人指出，这类系统的成本大头根本不是硬件，是把上千个控制模块在新平台上重新验证一遍所需要的时间和停机——高能物理现场还牵涉安全认证，有些实时子系统是用精简 C 甚至汇编写的，移植等于重做。还有人补了一句更现实的：加速器上那几十万个控制程序，改一次要人命。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“And how many years to make sure all the control modules, hardware and software works flawlessly on new hardware? People have this obsession about always using the latest and greatest instead of using what works.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Lille7，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w8i64m/cern_is_moving_more_than_2200_specialized/p843mqw/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;顺带一提，串里还翻出了一段旧账：CERN 当年自己维护过 Scientific Linux，后来转向 CentOS，CentOS Stream 那次变动之后又转去 AlmaLinux，现在再往 Debian 走。有人提到一个很实在的理由——科研要用的软件红帽根本不打包，而 Debian 有七万多个源码包。&lt;/p&gt;
-
-&lt;p&gt;对国内做工业软件和嵌入式的人来说，这帖的启发不在于「Debian 更好」，而在于那句「用能用的东西」。评论区里嘲笑 CERN 抠门的人，多半没算过一个数：在控制系统里，验证成本通常比采购成本高一个数量级，而停机成本可能再高一个数量级。选发行版的时候，支持周期和最低硬件要求这两栏，往往比性能跑分重要得多。&lt;/p&gt;
-
-&lt;h2 id=&quot;二联合国换掉了用了五百年的墨卡托地图&quot;&gt;二、联合国换掉了用了五百年的墨卡托地图&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/1w8wf6a/the_world_map_is_changing_the_un_has_backed/&quot;&gt;The world map is changing: The UN has backed replacing the 500-year-old Mercator projection with the accurate Equal Earth projection&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;联合国正式支持用 Equal Earth 投影作为参考地图，取代墨卡托。理由是老生常谈但确实成立：墨卡托为了保角，把高纬度地区放得很大——非洲被压小，格陵兰被撑到荒谬。Equal Earth 是等积投影，各块陆地的面积比例是对的。&lt;/p&gt;
-
-&lt;p&gt;评论区第一轮先把技术账算清楚：没有不失真的平面地图，只有换一种失真。墨卡托保的是角度和方向，所以它才成了几百年的航海标准，今天的 Google Maps 用的还是 Web Mercator——因为人看地图找路的时候，默认「上就是北」。Equal Earth 换来面积准确，代价是形状被横向挤压，越靠近两极越明显，而且离中央经线越远，经线越斜。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Mercator is also still used on most any maps used for navigation, because when people try to use a map to go somewhere, they generally expect north to always be straight up and east to always be straight left.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/TheDolphinGod，&lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/1w8wf6a/the_world_map_is_changing_the_un_has_backed/p86y5fb/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;但串里最好的一条反驳换了个角度：认知不对称。面积错了是可以脑补修正的——我们每天都在看同一个东西因远近而变大变小，所以你知道格陵兰其实没那么大，就能自动折算；但形状错了没法脑补，你没法一边看地图一边在脑子里把一个国家横向压扁、纵向拉长。也就是说，等积投影修好的是一个人们本来就能修的错，而弄坏的是一个修不了的。还有人替太平洋岛国抱不平：新图上它们更看不见了。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“If a country is too big, you can just know that and imagine it smaller. That’s easy to do. … But to remember to squish it sideways and lengthen it north-south, that’s weird to imagine.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/LeviAEthan512，&lt;a href=&quot;https://www.reddit.com/r/interestingasfuck/comments/1w8wf6a/the_world_map_is_changing_the_un_has_backed/p86qsgb/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这条思路值得借用到做图表上：所有可视化都是投影，都在保某个量、牺牲另一个量。真正该问的不是「哪种更准」，而是「读图的人会用它做什么判断」。做面积比较就用等积，做导航就用保角，两边都想要，就别做一张图。顺带一提，串里有人注意到新参考图把克里米亚画在了俄罗斯一侧——地图从来不只是几何问题。&lt;/p&gt;
-
-&lt;h2 id=&quot;三四万肯尼亚人替美国学生写了多年作业然后-ai-来了&quot;&gt;三、四万肯尼亚人替美国学生写了多年作业，然后 AI 来了&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w8vs93/kenyans_did_college_students_homework_for_years/&quot;&gt;Kenyans Did College Students’ Homework for Years. Then A.I. Arrived.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;《纽约时报》的报道：肯尼亚一度有数万人以替欧美大学生写论文作业为生，这是一条相当成熟的产业链，直到 ChatGPT 把价格打到接近零。一个靠人力套利存在的行业，被自动化一次性抹平。&lt;/p&gt;
-
-&lt;p&gt;评论区先被那个数字震住了——四万人做这门生意，意味着买方规模大得离谱。有人由此推出一个不太舒服的结论：不少人拿到文凭却什么都不会，是因为他们从来没做过那些作业。而更多人说这不是道德问题而是激励问题：大学早就从「求知的地方」变成了「体面生活的必要凭证」，付钱买的是那张纸，不是那堂课。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Most of them weren’t paying to be taught. They were paying to get a piece of paper that says they were taught.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/synept，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w8vs93/kenyans_did_college_students_homework_for_years/p8627c9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;串里最有信息量的是一位教授现身说法，讲学校这一侧的连锁反应。它不是从「无论如何都让他们过」开始的，而是从「多花点心思帮学生」开始的：要求老师在给不及格之前先联系学生五次以上，要求允许重做作业，行政层反复强调招生和留存的压力——最后就隐性地变成了必须让他们过。与此同时，先修课和分级考试因为被视为对弱势群体不友好而被砍掉，学生基础更差，标准还得继续降。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I’m expected to reach out to each student 5+ times before they get an F. I’m expected to let them redo assignments.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/happybara_capybara，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1w8vs93/kenyans_did_college_students_homework_for_years/p86gsac/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这帖对国内读者的启发可能在另一层：AI 干掉的不是「教育」，而是「用作业来证明学过」这个中介环节。这个环节其实早就被四万个肯尼亚人证伪了，只不过之前的作弊有价格门槛，看起来还像回事。现在门槛没了，考核方式就必须变——同样的逻辑正在很多以「交付物」为验收标准的岗位上重演：当交付物本身可以被批量生成，值钱的就只剩下能对结果负责的那个人。&lt;/p&gt;
-
-&lt;h2 id=&quot;四python-第一届打包委员会选举astral-公开站队引发争议&quot;&gt;四、Python 第一届打包委员会选举，Astral 公开站队引发争议&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1w928wf/astrals_endorsements_for_pythons_first_packaging/&quot;&gt;Astral’s endorsements for Python’s first Packaging Council&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Python 基金会正在选第一届打包委员会（Packaging Council），17 人竞选 5 个席位，投票 9 月 15 日截止。uv 和 ruff 背后的公司 Astral 公开发文背书了其中几位候选人，官方讨论区因此吵了起来。争议点不在候选人资质——被点名的几位确实都是长期做打包的人——而在于一家商业公司该不该在开源治理选举里公开站队。&lt;/p&gt;
-
-&lt;p&gt;评论区有人的第一反应就是：公司在这种选举里背书正常吗？也有人觉得 Astral 现在是打包工具链里权重最大的玩家，站队反而是明牌，比暗地里使劲坦荡；但同一个人也担心 17 选 5 本身就是隐患，而这个委员会最后到底能产出决策还是只增加一层扯皮，才是真正的考验。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“i still think 17 people for 5 spots is a disaster waiting to happen but whatever. the real test is if this council can actually get anything done or if its just gonna be another layer of discouse.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/wildlyaquaticsenator，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1w928wf/astrals_endorsements_for_pythons_first_packaging/p875vji/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;更实质的分歧关于历史包袱。有人说 Python 打包的复杂性是几十年欠债累积的结果——他试过让一个简单的 C 扩展在各操作系统和各 Python 版本上都编译通过，setup.py 折腾了三天，同样的事换成 C++ 加 CMake 一两个小时就完了。所以有人主张：先定义未来该是什么样，再想办法把遗留场景迁过去，不要让一小撮有历史需求的维护者拥有否决权。也有人从另一个方向担心 Astral 的影响力——万一 AI 泡沫破了公司没了怎么办，回应是代码开源，大不了 fork。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“We cannot carry legacy use cases around forever, and they do not have an inherent seat at the table in shaping the future vision.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/ColdPorridge，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1w928wf/astrals_endorsements_for_pythons_first_packaging/p88savz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Astral might not be around in a year or two; after the AI bubble pops.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Short_Inspection_746，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1w928wf/astrals_endorsements_for_pythons_first_packaging/p87lfh3/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;值得玩味的是串里一句抱怨：多少年大家求着修打包，社区无动于衷；uv 出来把问题解决了，突然就要成立委员会了。这话说得刻薄，但点出了开源治理里一个真实的次序——治理结构往往不是在问题最痛的时候建立的，而是在有人已经拿出解法、事实标准即将形成的时候才建立的。对依赖 Python 工具链的团队来说，这次选举结果值得看一眼：它多半会决定未来几年 uv 走的是「事实标准」还是「官方标准」这条路。&lt;/p&gt;
-
-&lt;h2 id=&quot;五一张工时越来越短的图被评论区从统计口径上拆掉了一半&quot;&gt;五、一张「工时越来越短」的图，被评论区从统计口径上拆掉了一半&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w8tutc/oc_annual_hours_worked_per_worker_in_the_14_rich/&quot;&gt;[OC] Annual hours worked per worker in the 14 rich countries with records back to 1870: the median has fallen from 3,138 hours to 1,561&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;数据来自 Our World in Data 整合的 Penn World Table 和 Huberman &amp;amp; Minns 的历史序列，只取 1870 年起有连续记录的 14 个高收入国家：人均年工时的中位数从 3138 小时降到 1561 小时，几乎腰斩。图上还画了 2080 小时（每周 40 小时 × 52 周）这条参考线作对照。&lt;/p&gt;
-
-&lt;p&gt;评论区最有价值的一条不是反对结论，而是提醒口径：这个统计包含兼职。一百多年前的典型家庭是一人全职上班、一人在家不计入劳动力，所以那时的平均值本质上是全职工的平均；今天则常是一人全职加一人兼职，同一个家庭的总工时未必少多少，但「人均」被摊薄了。顺着这条往下，有人指出更根本的遗漏——家务从来没被计入过。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Back in the good old days you had one person who works and one person at home who was unemployed and is not counted in this statistic.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Western-Internal-751，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w8tutc/oc_annual_hours_worked_per_worker_in_the_14_rich/p858xv2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The stay at home wife was harder work than today and her labor isn’t counted.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/lazyoldsailor，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1w8tutc/oc_annual_hours_worked_per_worker_in_the_14_rich/p85angx/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;作者本人在串里也补了不少限定条件：1950 年以前只有八个数据点（1870、1880、1890、1900、1913、1929、1938、1950），中间那段线是直接连的；统计只算主业，副业和志愿工作不计。有人因此调侃「那这图不就没意义了」，也有人反过来说，工时减半正是生产率提升的证据，是实打实的进步。另有几条评论盯着图本身，怀疑它是 AI 生成的图表，顺带吵了一轮「slop chart」。&lt;/p&gt;
-
-&lt;p&gt;这帖的用处在于提供了一个通用的读图习惯：先看分母。一个「人均」指标下降，可能是分子变小，也可能是分母的构成变了——多了大量兼职者、多了退休后打零工的人，都会把曲线拉下来，而这跟「大家更轻松了」是两回事。同样的陷阱在国内很多讨论里也常见，人均可支配收入、人均居住面积、人均工时，谁被算进了「人」这个分母，往往比数字本身更值得追问。&lt;/p&gt;
-</description>
-        <pubDate>Mon, 07 Sep 2026 09:30:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/07/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/07/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
         
       </item>
     

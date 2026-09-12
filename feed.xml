@@ -5,9 +5,453 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Sep 2026 10:13:53 +0800</pubDate>
-    <lastBuildDate>Fri, 11 Sep 2026 10:13:53 +0800</lastBuildDate>
+    <pubDate>Sat, 12 Sep 2026 09:16:37 +0800</pubDate>
+    <lastBuildDate>Sat, 12 Sep 2026 09:16:37 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Kroger 2026财年Q2电话会——新CEO把降价拆成多年工程，坦言一半以上顾客看不懂自家促销</title>
+        <description>&lt;p&gt;美东时间2026年9月11日上午8点，&lt;a href=&quot;https://ir.kroger.com/&quot;&gt;Kroger&lt;/a&gt;（克罗格，纽交所代码KR）在发布2026财年第二季度财报后召开业绩电话会。&lt;/p&gt;
+
+&lt;p&gt;参会管理层包括：首席执行官 &lt;strong&gt;Greg Foran&lt;/strong&gt;、执行副总裁兼首席财务官 &lt;strong&gt;David Kennerley&lt;/strong&gt;，投资者关系副总裁 Rob Quast 主持。&lt;/p&gt;
+
+&lt;p&gt;这场电话会有一个特殊背景：Foran 是2026年2月9日才上任的CEO（此前是沃尔玛美国业务CEO、新西兰航空CEO），这是他上任半年后第一次带着一份「不太好看」的成绩单完整面对卖方分析师。&lt;/p&gt;
+
+&lt;p&gt;财报数字（总营收346.21亿美元同比+2.0%、剔除油品同店销售仅+0.2%、调整后每股收益1.09美元同比+4.8%、全年同店指引从1%-2%下调到0.2%-0.8%）我们在同日发布的财报解读里已经拆过。&lt;strong&gt;这篇文章只讲电话会上的增量信息。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;先说结论：十二位分析师的提问高度集中在两件事上——&lt;strong&gt;降价到底降了多少、以及销售掉了这么多为什么利润指引不动。&lt;/strong&gt;而Foran 的回答风格出人意料地克制。&lt;/p&gt;
+
+&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-foran-把本季度的缺口一项一项摊开&quot;&gt;1. Foran 把本季度的缺口一项一项摊开&lt;/h2&gt;
+
+&lt;p&gt;Foran 在开场白里直接给出了同店销售0.2%的「分解账」，这在超市行业的电话会里算是相当坦白：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;「我们的剔除油品同店销售本季度增长0.2%。」&lt;/li&gt;
+  &lt;li&gt;「本季度整个行业的营收端都很疲软。」&lt;/li&gt;
+  &lt;li&gt;「我们吸收了环孢子虫疫情的影响，这大约让我们损失了35个基点。」&lt;/li&gt;
+  &lt;li&gt;「药房的药价下降使销售额减少了大约140个基点。」&lt;/li&gt;
+  &lt;li&gt;「我们知道油价超过4美元会对消费者支出产生影响。」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这个拆法的潜台词是：&lt;strong&gt;0.2%里有约1.7个百分点是政策和意外事件造成的，别把它当成 Kroger 的经营能力评分。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-他给整个战略压缩成了一句话&quot;&gt;2. 他给整个战略压缩成了一句话&lt;/h2&gt;
+
+&lt;p&gt;Foran 对公司的经营逻辑给了一个非常「零售老兵」式的表述：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「公式很简单——降本省出来的钱用来投入价值，价值换来一趟到店，而这一趟到店才是让这门生意增长的东西。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;拆开就是：&lt;strong&gt;省钱 → 降价 → 客流 → 增长&lt;/strong&gt;。注意这个链条的起点不是「涨价」也不是「开新店」，而是省成本。他另外两句话印证了这个取向：「我们在追每一块能省下来的钱，你可以从我们的利润结果里看到这一点」、「本季度的采购与降本进度好于计划」。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-三块在增长的业务被反复强调&quot;&gt;3. 三块在增长的业务被反复强调&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;电商：「电商是未来几年我们这个行业大部分增长的来源」、「本季度调整后电商销售增长20%」&lt;/li&gt;
+  &lt;li&gt;零售媒体：「本季度零售媒体增长24%，这是2021年以来最好的表现」&lt;/li&gt;
+  &lt;li&gt;自有品牌：「我们的自有品牌仍然是真正的差异化优势。我们有35家工厂，因此可以控制成本和质量」、「Private Selection（中高端自有品牌线）本季度销售增长超过14%」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;4-管理层换血在继续&quot;&gt;4. 管理层换血在继续&lt;/h2&gt;
+
+&lt;p&gt;Foran 上任后一直在从外部补人。本季电话会上他宣布欢迎 &lt;strong&gt;Emily DiMartino 担任首席人力官&lt;/strong&gt;、&lt;strong&gt;Nate Faust 担任执行副总裁兼首席电商官&lt;/strong&gt;（Faust 9月1日到任）。此前9月2日公司还宣布沃尔玛与Asda背景的 &lt;strong&gt;Mark Ibbotson 担任首席门店运营官&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;一个季度内补齐人力、电商、门店运营三个一把手，说明 Foran 认为问题在执行层面，而不是战略层面。&lt;/p&gt;
+
+&lt;h2 id=&quot;5-cfo-的指引口径&quot;&gt;5. CFO 的指引口径&lt;/h2&gt;
+
+&lt;p&gt;Kennerley 守住了利润：「我们维持全年调整后FIFO经营利润50亿至52亿美元的指引。」他给出的理由是：「我们的财务模型里有很多杠杆，提供了灵活性，让我们能够在营收承压的情况下仍然交付盈利增长。」&lt;/p&gt;
+
+&lt;h1 id=&quot;二分析师问答里最有信息量的部分&quot;&gt;二、分析师问答里最有信息量的部分&lt;/h1&gt;
+
+&lt;h2 id=&quot;问题一ubsmichael-lasser到底投了多少钱降价价格差距目标是多少&quot;&gt;问题一（UBS，Michael Lasser）：到底投了多少钱降价，价格差距目标是多少？&lt;/h2&gt;
+
+&lt;p&gt;这是全场第一个问题，也是所有人最想知道的。Foran 的回答是&lt;strong&gt;拒绝给数字，但给了方向&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们不提供投入的确切数字，但我们是按地理区域投入的。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他同时给了一个可验证的结果：公司在「白牌」基础货架价上相对部分竞争对手的&lt;strong&gt;价格竞争力已经改善&lt;/strong&gt;，并且相对大盘竞争对手维持了份额增长。&lt;/p&gt;
+
+&lt;p&gt;解读：Kroger 选择了&lt;strong&gt;区域差异化降价&lt;/strong&gt;，而不是全国一刀切。这是成本可控、竞争对手难以立刻对标的打法，但也意味着效果出现得慢。&lt;/p&gt;
+
+&lt;h2 id=&quot;问题二wells-fargoedward-kelly是降货架价还是加促销&quot;&gt;问题二（Wells Fargo，Edward Kelly）：是降货架价还是加促销？&lt;/h2&gt;
+
+&lt;p&gt;Foran 这里给了本场最重要的一句战略定调：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「这是一个多年计划。」
+「你不会一次性全部做完，因为你没法一次性把它全部投得起。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他强调采取「审慎（measured）的做法」，按地理区域推进，同时「跟踪竞争对手在做什么」。&lt;/p&gt;
+
+&lt;p&gt;解读：这句话直接回答了市场最担心的问题——&lt;strong&gt;Kroger 不会打价格战&lt;/strong&gt;。它承认自己的价格竞争力有缺口，但要用好几年、用省下来的成本一点点填，而不是砸利润硬拼。对利润指引是好消息，对同店销售恢复的时间表是坏消息。&lt;/p&gt;
+
+&lt;h2 id=&quot;问题三guggenheimjohn-heinbockel顾客对价格的认知和现实差多少&quot;&gt;问题三（Guggenheim，John Heinbockel）：顾客对价格的「认知」和「现实」差多少？&lt;/h2&gt;
+
+&lt;p&gt;Foran 的回答里藏着一个让人意外的自我承认。他引用公司旗下数据分析公司 84.51° 的研究说，对现行的促销方案，「&lt;strong&gt;远远超过一半的顾客并不理解&lt;/strong&gt;」。&lt;/p&gt;
+
+&lt;p&gt;他接着说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「随着时间推移，顾客会开始明白你在做什么，然后他们会往你的购物篮里多放几件东西。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;解读：这等于承认 &lt;strong&gt;Kroger 的促销体系过于复杂，自己制造了认知障碍&lt;/strong&gt;。一半以上顾客看不懂促销，意味着公司花出去的促销费有相当一部分没有换来「我觉得这家便宜」的印象。这也是为什么降价效果要按年计——先把促销讲清楚，再等认知慢慢改变。&lt;/p&gt;
+
+&lt;h2 id=&quot;问题四bmokelly-baniaq2-减速的拆解以及药房还会拖多久&quot;&gt;问题四（BMO，Kelly Bania）：Q2 减速的拆解，以及药房还会拖多久？&lt;/h2&gt;
+
+&lt;p&gt;Kennerley 的回答是本场对下半年最重要的一条信息：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;通胀削减法案的影响「比Q1又恶化了大约10个基点」，「在今年剩下的时间里，我们预计还会再次恶化，主要原因是明年1月起会有新药进入（谈判）目录」。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;解读：药房这块的拖累&lt;strong&gt;不是一次性的，而是台阶式往下走的&lt;/strong&gt;。这解释了为什么全年同店指引被砍掉0.8-1.2个百分点——它不只是为环孢子虫买单，更是为IRA的持续加深买单。&lt;/p&gt;
+
+&lt;h2 id=&quot;问题五摩根大通thomas-palmer毛利率改善里关税退款贡献了多少&quot;&gt;问题五（摩根大通，Thomas Palmer）：毛利率改善里，关税退款贡献了多少？&lt;/h2&gt;
+
+&lt;p&gt;Kennerley 的回答很有意思：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们不会给出这个数字，但我告诉你我们怎么看它。第一，这个数字相当小。」
+「我们的思路是，如果我们拿到关税（退款），我们就把它花出去……总体上它对毛利率的影响是中性的。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;解读：这是在提前拆掉一颗雷。分析师担心的是「这个季度的毛利改善是靠一次性的关税退款撑起来的，不可持续」。Kennerley 的回答等于说：&lt;strong&gt;退款不大，而且我们全部拿去补贴顾客了，所以毛利改善是真实的经营改善。&lt;/strong&gt;同时这也符合前面那条「省钱→降价」的公式。&lt;/p&gt;
+
+&lt;h2 id=&quot;问题六evercoregreg-melich客流真的上升了吗客单价怎么样&quot;&gt;问题六（Evercore，Greg Melich）：客流真的上升了吗，客单价怎么样？&lt;/h2&gt;
+
+&lt;p&gt;Foran 的回答直接：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「是的，我们的客流确实小幅上升，我们对此感到满意，而客单价下降了。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他给出的原因是：「SNAP（食品券）有影响，油价有影响，购物篮里的件数变少了。」&lt;/p&gt;
+
+&lt;p&gt;解读：&lt;strong&gt;客流升、客单价降&lt;/strong&gt;是本季度最真实的消费者画像。客流上升说明 Kroger 的价格投入和门店执行没有失效；客单价下降说明消费者确实在削减每一次购物的支出。对超市来说，客流是更领先的指标，所以这个组合比「客流降、客单价升」要健康得多。&lt;/p&gt;
+
+&lt;h2 id=&quot;另外三个值得一提的回答&quot;&gt;另外三个值得一提的回答&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;通胀与运费（美银 Robert Ohmes）&lt;/strong&gt;：Foran 说柴油和运费「压力实际上还会增加」；Kennerley 则维持全年通胀假设在1%-2.5%区间，并说「我预计我们会低于CPI（消费者价格指数）」。德意志银行追问时 Kennerley 确认，柴油和运费的增量压力「已经嵌入了我们的展望里」&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;油品毛利（高盛 Leah Jordan）&lt;/strong&gt;：Kennerley 纠正了市场的一个误解——Q2油品并不是大顺风，「基本上只能算是个位数低段的利润增长」；并且下半年「我们预期并已经计入了比上半年更弱的油品毛利」&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;供应商涨价（Jefferies，Scott Marks）&lt;/strong&gt;：Foran 态度鲜明——「我们不希望出现这样一种局面：别人可以直接跑来涨价，却没有充分的理由」，以及「&lt;strong&gt;我不玩用通胀来制造额外销售额的游戏&lt;/strong&gt;」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;一句最能代表-foran-心态的话&quot;&gt;一句最能代表 Foran 心态的话&lt;/h2&gt;
+
+&lt;p&gt;摩根士丹利的 Simeon Gutman 问：销售走弱却守住利润，怎么平衡短期护利润和长期该投的钱？Foran 的回答是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我看到的机会比我刚开始（上任）时以为的还要多。」
+「我其实并不介意（环境变差）。我喜欢环境变得又紧又难，因为我觉得如果你有一个好计划，这种条件反而会创造机会。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;三这些表态意味着什么&quot;&gt;三、这些表态意味着什么&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，Kroger 明确选了「慢」。&lt;/strong&gt;降价是多年工程、按区域推进、用省下来的钱投、不打价格战。这意味着同店销售不会在一两个季度里突然反弹，但利润率不会失控。对追求短期弹性的投资者是失望，对看三年的投资者是安心。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，公司把「可解释的缺口」和「真实的疲软」分得很清楚。&lt;/strong&gt;IRA 约140个基点、环孢子虫约35个基点——这两项加起来接近1.8个百分点，管理层在开场白就摊开了。剩下的部分体现为客单价下降，也就是消费者本身的问题。这种拆法说服力不弱，但也让公司背上一个包袱：&lt;strong&gt;下半年如果IRA和生鲜都恢复了、同店销售还是不起来，就没有借口了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，最值得警惕的一句话来自CFO。&lt;/strong&gt;IRA的影响「还会再次恶化」，因为明年1月有新药进入谈判目录。这意味着&lt;strong&gt;药房拖累会跨年度延续到2027财年&lt;/strong&gt;，不是这一年的事。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，「一半以上顾客看不懂促销」是这场电话会里最有价值的一句自我批评。&lt;/strong&gt;它说明 Kroger 的问题不全在价格绝对值，而在价格沟通。修这个问题不需要花太多钱，但需要时间——而且修好了之后，同样的促销预算能换来更多客流。&lt;/p&gt;
+
+&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
+
+&lt;p&gt;这场电话会的关键词是&lt;strong&gt;克制&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;新CEO没有为了取悦市场承诺任何加速：不承诺同店销售何时回到2%，不给降价投入的具体数字，不把关税退款和油品毛利包装成利润来源，甚至主动把油品的贡献说小、把柴油和运费的压力说大。&lt;/p&gt;
+
+&lt;p&gt;他给的唯一时间表是 &lt;strong&gt;10月20日的投资者更新会&lt;/strong&gt;——公司将在那天公布战略细节和更长期的财务目标。Foran 在电话会上的说法是，届时会「把长期框架摆出来」。&lt;/p&gt;
+
+&lt;p&gt;所以对这家公司的判断可以先放一放：&lt;strong&gt;这个季度我们看到的是一个在修基本功的 Kroger，10月20日我们才会看到 Foran 到底要把它带去哪里。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;一手资料：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;业绩电话会实录（本文所有管理层与分析师引述均取自此处）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-kroger-posts-q2-2026-eps-beat-as-sales-stay-weak-93CH-4898002&quot;&gt;Earnings call transcript, Kroger posts Q2 2026 EPS beat as sales stay weak, Investing.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Kroger 官方新闻稿（财务数字、指引、电话会时间）：&lt;a href=&quot;https://www.prnewswire.com/news-releases/kroger-reports-second-quarter-2026-results-and-updates-guidance-for-2026-302876349.html&quot;&gt;Kroger Reports Second Quarter 2026 Results and Updates Guidance for 2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;美国证监会（SEC）EDGAR 8-K 附件99.1 全文：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/56873/000110465926106890/tm2625060d1_ex99-1.htm&quot;&gt;Kroger 8-K Exhibit 99.1, 2026-09-11&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Kroger CEO任命公告（Foran 履历与到任时间）：&lt;a href=&quot;https://ir.kroger.com/news/news-details/2026/Kroger-Appoints-Greg-Foran-as-Chief-Executive-Officer/default.aspx&quot;&gt;Kroger Appoints Greg Foran as Chief Executive Officer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;美国CDC 环孢子虫疫情调查通报：&lt;a href=&quot;https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/investigation.html&quot;&gt;Investigation Update, Cyclospora Outbreak, July 2026&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;媒体报道（用于背景与交叉验证）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.grocerydive.com/news/kroger-earnings-second-quarter-2026-grocery-supermarkets/830070/&quot;&gt;Kroger’s comps slide to near zero as cyclospora outbreak eats into produce sales, Grocery Dive&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.benzinga.com/news/26/09/61737535/kroger-reports-q2-2026-results-full-earnings-call-transcript&quot;&gt;Kroger Reports Q2 2026 Results, Full Earnings Call Transcript, Benzinga&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.supermarketnews.com/finance/kroger-cuts-same-store-sales-outlook-for-2026&quot;&gt;Kroger cuts same-store sales outlook for 2026, Supermarket News&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 12 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/12/kroger_fy2026q2_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/12/kroger_fy2026q2_earnings_call/</guid>
+        
+        <category>克罗格</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>Kroger 2026财年Q2——同店销售只增0.2%、全年指引下调，每股收益却涨5%全靠回购</title>
+        <description>&lt;p&gt;美东时间2026年9月11日盘前（北京时间9月11日晚间），美国最大的传统超市连锁 &lt;a href=&quot;https://ir.kroger.com/&quot;&gt;Kroger&lt;/a&gt;（克罗格，纽交所代码KR）发布2026财年第二季度财报，对应会计期间是截至2026年8月15日的12周。&lt;/p&gt;
+
+&lt;p&gt;先看三个最核心的数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;总营收346.21亿美元&lt;/strong&gt;，同比增长2.0%（去年同期339.40亿美元）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;剔除油品的同店销售（identical sales）只增长0.2%&lt;/strong&gt;，去年同期是3.4%——几乎停止增长&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;调整后每股收益1.09美元&lt;/strong&gt;，同比增长4.8%；按美国会计准则（GAAP）的每股收益1.05美元，同比增长15.4%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;公司同时干了一件看起来自相矛盾的事：&lt;strong&gt;把全年同店销售指引从「增长1%-2%」大幅下调到「增长0.2%-0.8%」，但全年利润和每股收益指引一个字都没改。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;市场的反应也很分裂。据媒体报道，财报出来后股价盘前一度跌约3%，但当天收盘反而涨3.09%到58.39美元。&lt;/p&gt;
+
+&lt;p&gt;这篇文章想回答的问题是——&lt;strong&gt;营收几乎不增长的超市，凭什么敢不下调利润指引？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-kroger-是一家什么公司&quot;&gt;1. Kroger 是一家什么公司&lt;/h2&gt;
+
+&lt;p&gt;Kroger 成立于1883年，总部在辛辛那提，是美国最大的传统超市集团（如果把沃尔玛、Costco 这类综合零售/会员店算进来，它排在后面）。按公司自己在财报里的说法，它旗下有多个超市品牌（Kroger、Ralphs、Fred Meyer、King Soopers、Harris Teeter 等），&lt;strong&gt;每天服务超过1100万名顾客，员工超过40万人&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;它的生意结构可以粗暴地拆成四块：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;卖食品杂货&lt;/strong&gt;：绝对主体，也是同店销售的主要来源&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;卖油（加油站）&lt;/strong&gt;：毛利率极低但体量大，所以 Kroger 讨论各种利润率时都会「剔除油品」（本文遇到的「剔除油品」都是这个意思）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;药房（pharmacy）&lt;/strong&gt;：超市里的处方药柜台，这一块本季度出了大问题，下面详细说&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;零售媒体（Kroger Precision Marketing，简称KPM）&lt;/strong&gt;：把自己的 App、网站、货架数据卖给品牌商做广告。体量不大但毛利极高，是这几年利润增长的主要引擎&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-今年-kroger-最大的变量是新ceo&quot;&gt;2. 今年 Kroger 最大的变量是新CEO&lt;/h2&gt;
+
+&lt;p&gt;2026年2月9日，Kroger 董事会任命 &lt;strong&gt;Greg Foran 为首席执行官，即刻生效&lt;/strong&gt;，接替自2025年3月起担任临时CEO的 Ron Sargent。&lt;/p&gt;
+
+&lt;p&gt;Foran 的履历很有说服力：他曾任沃尔玛美国业务总裁兼CEO，管理4600多家门店、上百万员工，任内做到过连续20个季度同店销售正增长；2020到2025年他是新西兰航空的CEO。也就是说，这是一个&lt;strong&gt;既懂超市运营又刚刚在航空业做过一轮重整的人&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;理解这一点很重要：本季度的财报，本质上是「&lt;strong&gt;新CEO上任半年后的第一份完整成绩单&lt;/strong&gt;」。而Foran的策略取向，在数字里已经看得很清楚——&lt;strong&gt;先保利润、修基本功，不追销售额&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026Q2&lt;/th&gt;
+      &lt;th&gt;2025Q2&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;346.21亿美元&lt;/td&gt;
+      &lt;td&gt;339.40亿美元&lt;/td&gt;
+      &lt;td&gt;+2.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;剔除油品同店销售&lt;/td&gt;
+      &lt;td&gt;+0.2%&lt;/td&gt;
+      &lt;td&gt;+3.4%&lt;/td&gt;
+      &lt;td&gt;大幅减速&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率&lt;/td&gt;
+      &lt;td&gt;22.4%&lt;/td&gt;
+      &lt;td&gt;22.5%&lt;/td&gt;
+      &lt;td&gt;-0.1个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润&lt;/td&gt;
+      &lt;td&gt;9.71亿美元&lt;/td&gt;
+      &lt;td&gt;8.63亿美元&lt;/td&gt;
+      &lt;td&gt;+12.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后FIFO经营利润&lt;/td&gt;
+      &lt;td&gt;10.76亿美元&lt;/td&gt;
+      &lt;td&gt;10.91亿美元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-1.4%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归属公司净利润&lt;/td&gt;
+      &lt;td&gt;6.41亿美元&lt;/td&gt;
+      &lt;td&gt;6.09亿美元&lt;/td&gt;
+      &lt;td&gt;+5.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后净利润&lt;/td&gt;
+      &lt;td&gt;6.67亿美元&lt;/td&gt;
+      &lt;td&gt;6.95亿美元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-4.0%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;1.05美元&lt;/td&gt;
+      &lt;td&gt;0.91美元&lt;/td&gt;
+      &lt;td&gt;+15.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后每股收益&lt;/td&gt;
+      &lt;td&gt;1.09美元&lt;/td&gt;
+      &lt;td&gt;1.04美元&lt;/td&gt;
+      &lt;td&gt;+4.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;摊薄股数&lt;/td&gt;
+      &lt;td&gt;6.06亿股&lt;/td&gt;
+      &lt;td&gt;6.62亿股&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-8.5%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这张表里最值得看的是加粗的三行。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一件事：GAAP净利润增长5.3%，每股收益却增长15.4%。&lt;/strong&gt;多出来的10个百分点，全部来自股本缩减——公司一年回购掉了8.5%的股份，同一块利润摊到更少的股票上，每股数字自然变好看。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二件事：调整后的口径其实在倒退。&lt;/strong&gt;Kroger 自己披露的「调整后FIFO经营利润」（剔除一次性项目和存货计价方法影响后的主营经营利润）是10.76亿美元，同比&lt;strong&gt;下滑1.4%&lt;/strong&gt;；调整后净利润6.67亿美元，同比&lt;strong&gt;下滑4.0%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;所以公司反复强调的「调整后每股收益增长5%」，拆开看是这样的：&lt;strong&gt;真实盈利下滑4%，回购让股本少了8.5%，一减一乘，变成每股增长5%。&lt;/strong&gt;这不是造假，回购确实是真金白银（本季度花了10亿美元），但把它理解成「经营层面的增长」就会误判。&lt;/p&gt;
+
+&lt;p&gt;为什么GAAP利润看起来还不错？因为去年同期有一堆一次性开支垫底：去年Q2的调整项目合计8600万美元，其中收购 Albertsons 失败引发的诉讼与和解开支9200万美元、遣散费3700万美元；今年Q2的调整项目只有2600万美元（转型开支4300万美元、并购诉讼900万美元，被投资收益2600万美元抵掉一部分）。基数干净了，GAAP数字就好看了。&lt;/p&gt;
+
+&lt;h2 id=&quot;毛利与费用一条正在被两头挤压的缝&quot;&gt;毛利与费用：一条正在被两头挤压的缝&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;毛利率22.4%&lt;/strong&gt;，比去年的22.5%略降。公司解释下降原因是油品销售占比上升的结构效应、损耗（shrink，指偷窃与变质损失）上升、运输成本上升，以及「为顾客让出了更多价值」（也就是降价）&lt;/li&gt;
+  &lt;li&gt;但剔除租金、折旧摊销和油品后的&lt;strong&gt;FIFO毛利率其实提升了13个基点&lt;/strong&gt;，功劳来自电商盈利改善、零售媒体、药房结构变化、采购降本和关税退款&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;剔除油品的经营及管理费用率（OG&amp;amp;A rate）上升33个基点&lt;/strong&gt;，原因是计划内的员工涨薪、医保成本上升，以及销售额不增长带来的「费用摊薄失灵」（sales deleverage）&lt;/li&gt;
+  &lt;li&gt;有个细节值得注意：OG&amp;amp;A的&lt;strong&gt;绝对金额59.52亿美元反而比去年的59.67亿美元少了&lt;/strong&gt;。费用率上升不是因为花得更多，而是因为分母不长了&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;另外两个小项：本季度后进先出法（LIFO）存货计价开支3900万美元，比去年的6200万美元少了；折旧摊销7.37亿美元，比去年的7.78亿美元下降5%。&lt;/p&gt;
+
+&lt;h2 id=&quot;现金流这是最容易被忽略的隐忧&quot;&gt;现金流：这是最容易被忽略的隐忧&lt;/h2&gt;
+
+&lt;p&gt;财报表格里有两个数字，公司新闻稿正文完全没提：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;年初至今（28周）经营活动现金流30.85亿美元&lt;/strong&gt;，去年同期是36.88亿美元，&lt;strong&gt;下降16.3%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;年初至今购置物业和设备支出24.37亿美元&lt;/strong&gt;，去年同期19.68亿美元，&lt;strong&gt;增长23.8%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一边现金流入减少6亿美元，一边资本开支多花近5亿美元。全年自由现金流指引维持在27亿-29亿美元不变，但从上半年的进度看，这个指引对下半年的要求不低。&lt;/p&gt;
+
+&lt;h1 id=&quot;三到底是什么把同店销售压到了02&quot;&gt;三、到底是什么把同店销售压到了0.2%&lt;/h1&gt;
+
+&lt;p&gt;这是本季财报最核心的问题。Kroger 的解释拆成了几块，每一块都有明确的数字：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 通胀削减法案（IRA）压药房销售：-138个基点&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这是最大的单一因素。IRA是美国的一项立法，其中一部分让联邦医保（Medicare）参保人自付的处方药价格下降。对患者是好事，但对卖药的超市来说，&lt;strong&gt;同一盒药收到的钱变少了，销售额直接缩水&lt;/strong&gt;。财报明确注明，本季度同店销售中含有&lt;strong&gt;138个基点的IRA不利影响&lt;/strong&gt;；全年指引里假设的影响约为140个基点。&lt;/p&gt;
+
+&lt;p&gt;换句话说：&lt;strong&gt;如果没有IRA这一项，这个季度的同店销售大约是1.6%，而不是0.2%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 环孢子虫（Cyclospora）疫情打击生鲜：-35个基点&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2026年7月，美国爆发了一轮由墨西哥产球生菜引发的环孢子虫（一种寄生虫）疫情。据美国CDC的调查通报，这轮多州疫情累计报告病例超过1.1万例、波及20个州。&lt;/p&gt;
+
+&lt;p&gt;问题在于消费者的反应是「&lt;strong&gt;整个生鲜区都不敢买&lt;/strong&gt;」，而不只是躲开召回的那一批生菜。CEO Foran 在电话会上说，这件事在本季度削掉了约35个基点的同店销售——而且它发生在&lt;strong&gt;季度末的最后一个统计周期&lt;/strong&gt;，意味着影响会拖进第三季度。这也是全年指引下调的直接原因之一。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 宏观：油价、SNAP与「客单价下降」&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;管理层在电话会里给了一个很清晰的画像：&lt;strong&gt;客流（traffic）是小幅上升的，但客单价（ticket）在下降&lt;/strong&gt;。原因包括消费者主动精打细算、一次买的件数变少，以及SNAP（美国补充营养援助计划，即俗称的食品券）补助缩减。Foran 还提到一句朴素的经验：「我们知道油价超过4美元会影响消费者的支出。」&lt;/p&gt;
+
+&lt;p&gt;把这三块叠起来看，结论是：&lt;strong&gt;0.2%这个数字里，约1.7个百分点是药房降价和食品安全事件造成的「技术性」缺口，剩下的才是真实的消费疲软。&lt;/strong&gt;这也解释了为什么公司敢不动利润指引——它认为伤口不在盈利能力上。&lt;/p&gt;
+
+&lt;h1 id=&quot;四亮点三个真正在增长的东西&quot;&gt;四、亮点：三个真正在增长的东西&lt;/h1&gt;
+
+&lt;p&gt;营收几乎不长，但有三块业务的增速相当亮眼，而且都是高毛利业务：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;调整后电商销售增长20%&lt;/strong&gt;（剔除退出无门店市场的履约中心、出售Vitacost和关停Ship Marketplace的影响）。更关键的是，据媒体对电话会的报道，电商业务实现了&lt;strong&gt;连续第二个季度盈利&lt;/strong&gt;——对美国超市行业来说这是个里程碑，生鲜电商长期以来是个赔钱生意&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;零售媒体KPM利润增长24%&lt;/strong&gt;，Foran 称这是&lt;strong&gt;2021年以来最好的表现&lt;/strong&gt;。这块业务几乎没有商品成本，增长直接掉进利润里&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;自有品牌&lt;/strong&gt;：Foran 说自有品牌是「真正的差异化优势，我们有35家工厂，可以控制成本和质量」，其中中高端线 Private Selection 本季销售增长超过14%&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;再加上股东回报：本季度回购10亿美元、年初至今回购12亿美元（2025年12月授权的20亿美元额度还剩约8亿），本季早些时候&lt;strong&gt;股息提高11%，这是连续第20年提高股息&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h1 id=&quot;五隐忧&quot;&gt;五、隐忧&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 债务杠杆在快速上升。&lt;/strong&gt;净债务/调整后EBITDA从一年前的1.63升到1.91。公司说目标区间是2.30-2.50，所以还有空间——但这个「空间」是留给回购和投资的，意味着杠杆还会继续往上走。同时，一年内到期的长期债务从8.27亿美元跳到18.38亿美元。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 利润指引不变的代价是「不许再出意外」。&lt;/strong&gt;全年调整后FIFO经营利润50亿-52亿美元、调整后每股收益5.10-5.30美元都维持原样，但同店销售的假设已经砍掉了0.8-1.2个百分点。这意味着下半年公司必须靠降本、油品毛利和零售媒体把缺口全填上。CFO David Kennerley 的原话是：「我们的财务模型里有很多杠杆，提供了灵活性，让我们能够在营收承压的情况下仍然交付盈利增长。」这话反过来读就是：&lt;strong&gt;杠杆终究是有限的。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. IRA的影响下半年会更重。&lt;/strong&gt;Kennerley 在电话会上明确说，IRA的拖累在Q2比Q1又恶化了约10个基点，「在今年剩下的时间里，我们预计还会进一步恶化，主要原因是明年1月起会有新药进入（谈判）目录」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. 涨价这条路被堵住了。&lt;/strong&gt;Foran 在电话会上有一句立场鲜明的话：「我不玩用通胀来制造额外销售额的游戏。」这是对的经营道德，但也意味着营收增长只能靠客流和份额，不能靠标价。&lt;/p&gt;
+
+&lt;h1 id=&quot;六展望与总结&quot;&gt;六、展望与总结&lt;/h1&gt;
+
+&lt;p&gt;把这份财报浓缩成一句话：&lt;strong&gt;这是一份「营收失速、利润守住」的过渡期财报，新CEO选择了先修内功。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;三个判断：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，0.2%的同店销售不必过度惊慌，但也不能当没发生。&lt;/strong&gt;IRA的138个基点是政策性的、可预期的；环孢子虫的35个基点是一次性的、但会拖到Q3。真正需要盯的是剩下的部分——客单价下降说明美国中低收入消费者确实在收紧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，利润端的增长质量在下降。&lt;/strong&gt;调整后经营利润和净利润都是负增长，每股收益的增长完全由回购贡献。回购能维持一两年，但20亿美元的授权额度只剩8亿，公司预计年内用完。&lt;strong&gt;明年的每股收益增长，必须从经营里来。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，真正的看点是10月20日的投资者更新会。&lt;/strong&gt;公司在新闻稿里专门写了这一条：将在那天披露战略举措细节和更长期的财务目标。Foran 在电话会上说，「在10月，我们会举行投资者更新会……我们会把长期框架摆出来。」对一个上任半年的CEO来说，那才是他真正交卷的日子。&lt;/p&gt;
+
+&lt;p&gt;Foran 自己的定调是：「Kroger交出了一个稳健的第二季度……提升销售势头仍然是首要任务。虽然还有很多工作要做，但我对我们成为美国人最喜爱的食品零售商的计划有信心。」&lt;/p&gt;
+
+&lt;p&gt;翻译成投资者语言：&lt;strong&gt;利润先守住了，销售还没修好，答案在10月。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;一手资料：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kroger 官方新闻稿：&lt;a href=&quot;https://www.prnewswire.com/news-releases/kroger-reports-second-quarter-2026-results-and-updates-guidance-for-2026-302876349.html&quot;&gt;Kroger Reports Second Quarter 2026 Results and Updates Guidance for 2026&lt;/a&gt;（2026年9月11日）&lt;/li&gt;
+  &lt;li&gt;美国证监会（SEC）EDGAR 8-K 附件99.1 全文与财务报表（营收、利润、现金流、调整项目、股数等全部数字取自此处）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/56873/000110465926106890/tm2625060d1_ex99-1.htm&quot;&gt;Kroger 8-K Exhibit 99.1, 2026-09-11&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Kroger 8-K 正文：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/56873/000110465926106890/tm2625060d1_8k.htm&quot;&gt;SEC EDGAR, The Kroger Co., 2026-09-11&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Kroger CEO任命公告：&lt;a href=&quot;https://ir.kroger.com/news/news-details/2026/Kroger-Appoints-Greg-Foran-as-Chief-Executive-Officer/default.aspx&quot;&gt;Kroger Appoints Greg Foran as Chief Executive Officer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;美国CDC 环孢子虫疫情调查通报：&lt;a href=&quot;https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/investigation.html&quot;&gt;Investigation Update, Cyclospora Outbreak, July 2026&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;业绩电话会实录（管理层引述）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-kroger-posts-q2-2026-eps-beat-as-sales-stay-weak-93CH-4898002&quot;&gt;Earnings call transcript, Kroger posts Q2 2026 EPS beat as sales stay weak, Investing.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;媒体报道（用于分析师预期与股价反应等背景）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qz.com/kroger-earnings-same-store-sales-guidance-cut-091126&quot;&gt;Kroger Q2 2026 earnings, stock falls as sales guidance cut, Quartz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.grocerydive.com/news/kroger-earnings-second-quarter-2026-grocery-supermarkets/830070/&quot;&gt;Kroger’s comps slide to near zero as cyclospora outbreak eats into produce sales, Grocery Dive&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.supermarketnews.com/finance/kroger-cuts-same-store-sales-outlook-for-2026&quot;&gt;Kroger cuts same-store sales outlook for 2026, Supermarket News&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 12 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/12/kroger_fy2026q2_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/12/kroger_fy2026q2_earnings/</guid>
+        
+        <category>克罗格</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.11</title>
@@ -1654,496 +2098,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>Chewy 2026财年Q2电话会——AI客服已解决三成对话，CFO却主动交代了1500万美元的一次性利润</title>
-        <description>&lt;p&gt;美东时间2026年9月9日上午8点（北京时间9月9日20点），美国最大宠物电商 &lt;a href=&quot;https://investor.chewy.com/&quot;&gt;Chewy&lt;/a&gt;（纽交所代码CHWY）在发布2026财年第二季度财报后随即召开业绩电话会。出席的管理层是CEO &lt;strong&gt;Sumit Singh&lt;/strong&gt;、CFO &lt;strong&gt;Chris Deppe&lt;/strong&gt;，以及投资者关系与战略财务负责人 Lee Horowitz。提问的分析师来自 Guggenheim、摩根士丹利、William Blair、摩根大通、花旗、德意志银行等机构。&lt;/p&gt;
-
-&lt;p&gt;财报本身我们已经单独写过一篇。简单回顾背景：Q2营收33.30亿美元同比增长7.3%，调整后EBITDA利润率6.8%超出自家6.3%-6.4%的指引，公司还上调了全年指引——但股价盘中最深跌超11%，收在20.68美元附近。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这场电话会的价值，就在于它解释了那11%是怎么跌出来的。&lt;/strong&gt; 新闻稿里查不到的四样东西——全年指引、超预期利润的成色、AI降本的真实节奏、消费环境的判断——全部出自这场电话会。&lt;/p&gt;
-
-&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-上调后的完整指引新闻稿里没有&quot;&gt;1. 上调后的完整指引（新闻稿里没有）&lt;/h2&gt;
-
-&lt;p&gt;Chewy 的业绩新闻稿从不附带指引数字，所有指引都在电话会上口头给出：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2026财年全年：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;营收134.6亿-135.7亿美元，同比增长6.8%-7.7%&lt;/li&gt;
-  &lt;li&gt;有机营收增速（剔除SmartPak和Modern Animal收购贡献）5.5%-6.3%&lt;/li&gt;
-  &lt;li&gt;调整后EBITDA利润率6.7%-6.8%，此前指引为6.6%-6.8%&lt;/li&gt;
-  &lt;li&gt;按中值计算，全年调整后EBITDA约9.12亿美元，同比扩张超过100个基点&lt;/li&gt;
-  &lt;li&gt;资本开支占营收的1.5%-2%，加权平均摊薄股本约4.10亿股&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;2026财年Q3：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;营收33.23亿-33.58亿美元，同比增长6.6%-7.7%，有机增速5.3%-6.2%&lt;/li&gt;
-  &lt;li&gt;调整后EBITDA利润率6.6%-6.7%&lt;/li&gt;
-  &lt;li&gt;调整后摊薄每股收益约0.39美元&lt;/li&gt;
-  &lt;li&gt;净利息支出1000万-1500万美元，实际税率24%-26%，下半年还有中个位数百万美元的燃油成本逆风&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;注意两处细节：一是利润率指引只把下沿从6.6%抬到6.7%、上沿纹丝不动，属于「收窄」多于「上调」；二是Q3的6.6%-6.7%低于刚过去这个季度的6.8%，等于管理层自己承认Q2的利润率不可持续。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-cfo-主动交代了1500万美元的一次性利润&quot;&gt;2. CFO 主动交代了1500万美元的一次性利润&lt;/h2&gt;
-
-&lt;p&gt;这是整场电话会最重要的一段。CFO Chris Deppe 没有等分析师问，直接说明Q2利润率超预期的构成里包含：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;约 &lt;strong&gt;1000万美元关税退款&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;约 &lt;strong&gt;500万美元礼品卡失效收入及库存调整&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;并且用了一个明确的定性——这些是「&lt;strong&gt;时点性和一次性项目&lt;/strong&gt;」（timing related and discrete items），不代表持续的利润率水平。&lt;/p&gt;
-
-&lt;p&gt;把这1500万美元从2.267亿美元的调整后EBITDA里剔除，利润率大约回到6.35%，&lt;strong&gt;正好落回原指引6.3%-6.4%的区间&lt;/strong&gt;。也就是说，所谓「大幅超预期」，扣掉一次性因素之后就是刚好达标。一家公司主动把自己的超预期成色拆给你看，是负责任的做法，但对当天的股价显然是负面的。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-对消费环境的判断稳住了但没有复苏&quot;&gt;3. 对消费环境的判断——稳住了，但没有复苏&lt;/h2&gt;
-
-&lt;p&gt;CEO Sumit Singh 反复强调两层意思：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Chewy 的增速持续「跑赢整体宠物品类大约2到3倍」（outperform the broader pet category by roughly 2 to 3 times）&lt;/li&gt;
-  &lt;li&gt;但整体宠物市场只是「&lt;strong&gt;稳定在了我们Q1末看到的趋势上&lt;/strong&gt;」（The environment has stabilized to the trends we saw exiting Q1），本季度&lt;strong&gt;并没有出现有意义的消费者复苏&lt;/strong&gt;，而且全年指引里也&lt;strong&gt;没有假设&lt;/strong&gt;复苏会到来&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这句话的分量在于：它把「行业回暖」这个最大的看涨理由从今年的故事里拿掉了。&lt;/p&gt;
-
-&lt;h2 id=&quot;4-ai-是新主线kai-已经解决三成对话&quot;&gt;4. AI 是新主线，Kai 已经解决三成对话&lt;/h2&gt;
-
-&lt;p&gt;Singh 花了相当篇幅讲AI客服助手 &lt;strong&gt;Kai&lt;/strong&gt;：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;上线不到两个月，已有约 &lt;strong&gt;30% 的对话通过自助方式解决&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;目前 Kai 的曝光量还不到总流量的 &lt;strong&gt;15%&lt;/strong&gt;，用他的话说「才刚刚开始」&lt;/li&gt;
-  &lt;li&gt;预计AI在2026财年带来「低两位数百万美元」（low tens of millions）的成本节省，到2027财年&lt;strong&gt;年化节省约5000万美元&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Deppe 补充的另一个数字同样关键：&lt;strong&gt;超过50%的订单量已经流经自动化履约中心&lt;/strong&gt;，公司对「多年期降低单位可变履约成本的路线图」有信心。&lt;/p&gt;
-
-&lt;h1 id=&quot;二分析师问答中最有信息量的六个问题&quot;&gt;二、分析师问答中最有信息量的六个问题&lt;/h1&gt;
-
-&lt;h2 id=&quot;q1steven-forbesguggenheim零食treats为什么在放缓&quot;&gt;Q1｜Steven Forbes（Guggenheim）：零食（treats）为什么在放缓？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Singh 的回答：&lt;/strong&gt; 消费者正在把预算优先分配给「核心主粮、药品」和 Autoship 订阅，而把零食、拌粮（toppers）这类归到可选消费里削减。他特别提到零食本身跨越「超过10个品类」、价格带差异很大，宏观压力下消费者砍的是这部分，而核心主粮的表现「相当正常」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;信息量在哪：&lt;/strong&gt; 这解释了为什么活跃客户数涨了3.8%，但每位客户年均消费只涨1.9%——人还在，但每个人的购物车里少了几样东西。&lt;/p&gt;
-
-&lt;h2 id=&quot;q2nathan-feather摩根士丹利怎么平衡利润率扩张和增长再投入&quot;&gt;Q2｜Nathan Feather（摩根士丹利）：怎么平衡利润率扩张和增长再投入？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Singh 的回答：&lt;/strong&gt; 列了三个再投入方向——重新设计的会员计划 Chewy+（他的形容词是「更便宜、更好、更多医疗、更整合」）、在效率不恶化的前提下「适度加码」的定向营销投放，以及下半年的新品发布。他强调公司有「可信的、自我造血的增长杠杆，且投资回报健康」。&lt;/p&gt;
-
-&lt;p&gt;紧接着是那句被引用最多的告诫：「&lt;strong&gt;把AI节省机械地叠加到利润率轨迹上是不合适的&lt;/strong&gt;」（It would not be appropriate to mechanically layer），因为这些效率提升要用来抵消&lt;strong&gt;工资通胀&lt;/strong&gt;等成本压力。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;信息量在哪：&lt;/strong&gt; 这是管理层在主动压低市场对利润率的想象空间。5000万美元的AI节省不等于5000万美元的利润增量。&lt;/p&gt;
-
-&lt;h2 id=&quot;q3dylan-cardenwilliam-blairai改变了商品搜索方式会不会绕开-chewy&quot;&gt;Q3｜Dylan Carden（William Blair）：AI改变了商品搜索方式，会不会绕开 Chewy？&lt;/h2&gt;
-
-&lt;p&gt;这是当下所有零售电商都要面对的问题——如果用户直接问AI助手「给我买猫粮」，平台还有没有位置。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Singh 的回答：&lt;/strong&gt; Chewy 把 agentic AI（能自主执行任务的AI）视为「&lt;strong&gt;净顺风&lt;/strong&gt;」（net tailwind），并计划通过新的产品创新，把用户的互动更深地留在自家界面上。&lt;/p&gt;
-
-&lt;h2 id=&quot;q4doug-anmuth摩根大通对ai降本的信心从哪来&quot;&gt;Q4｜Doug Anmuth（摩根大通）：对AI降本的信心从哪来？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Singh 的回答：&lt;/strong&gt; 表示「高度自信」，理由是部署「才刚刚开始」，Kai 目前的流量覆盖不到15%。但他再次重申不要「机械叠加」节省额。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Deppe 补充：&lt;/strong&gt; 对「多年期降低单位可变履约成本的路线图」有信心，自动化设施处理的订单量已超50%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;信息量在哪：&lt;/strong&gt; 两位高管在同一场电话会上、面对不同分析师，两次说了同一句「不要机械叠加」。这种重复通常不是巧合，而是刻意的预期管理。&lt;/p&gt;
-
-&lt;h2 id=&quot;q5steven-zaccone花旗毛利率走势和广告业务的可持续性&quot;&gt;Q5｜Steven Zaccone（花旗）：毛利率走势和广告业务的可持续性？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Deppe 的回答：&lt;/strong&gt; Q3毛利率会&lt;strong&gt;环比Q2下降&lt;/strong&gt;，但&lt;strong&gt;同比仍有杠杆&lt;/strong&gt;（即同比改善）。广告业务（Sponsored Ads）继续是顺风，「&lt;strong&gt;站内广告和站外广告今年都在增长&lt;/strong&gt;」，并预计延续到2027财年。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;信息量在哪：&lt;/strong&gt; 广告是电商利润率里最优质的部分。Chewy 明确广告还在双线增长，这是全年6.7%-6.8%利润率指引能站住的重要支撑。&lt;/p&gt;
-
-&lt;h2 id=&quot;q6benjamin-black德意志银行ai助手未来12-18个月怎么演进&quot;&gt;Q6｜Benjamin Black（德意志银行）：AI助手未来12-18个月怎么演进？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Singh 的回答：&lt;/strong&gt; 使用场景正在从「最高频的咨询类型」（如查物流状态）扩展到「&lt;strong&gt;自动化退货与退款&lt;/strong&gt;」。更重要的是，Chewy 搭建的是多智能体编排框架（multi-agent orchestration），未来可以把「&lt;strong&gt;商品推荐&lt;/strong&gt;」接进来，从客服工具变成销售工具。他强调 Chewy 的「持久竞争优势」来自&lt;strong&gt;第一方基础设施&lt;/strong&gt;（first-party infrastructure），而不是接第三方现成方案。&lt;/p&gt;
-
-&lt;h1 id=&quot;三解读这些表态意味着什么&quot;&gt;三、解读：这些表态意味着什么&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，管理层选择了「诚实」而不是「维护股价」。&lt;/strong&gt; 一次性利润是CFO自己抖出来的，「不指望消费复苏」是CEO自己说的，「别机械叠加AI节省」也是管理层自己反复强调的。整场电话会几乎每一处可能被市场过度乐观解读的地方，管理层都主动踩了一脚刹车。11%的跌幅里，有相当一部分是这种坦诚的代价。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，故事主线正在从「增长」切换到「效率」。&lt;/strong&gt; 有机增速只有5.5%-6.3%，靠收购才勉强凑到6.8%-7.7%。在增速回不去的前提下，管理层把叙事重心整体挪到了AI降本、履约自动化、广告变现这三件事上。这是一个典型的成熟期电商的转身。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，AI叙事讲得比同行更克制、也更具体。&lt;/strong&gt; 三个具体数字——30%自助解决率、不到15%流量覆盖、2027财年5000万美元年化节省——都是可验证、可跟踪的。相比很多公司把AI讲成万能故事，Chewy 反倒在压预期。但代价是，市场也很难为这个故事给出额外估值。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第四，宠物医疗才是真正的长期赌注，但它这个季度只出现在利润表的负面项里。&lt;/strong&gt; 47家诊所带来的是折旧摊销上升、利息支出转负、资本开支同比暴增71%和自由现金流同比下滑15.5%。电话会上管理层对诊所的单店经济模型着墨不多，这可能是下个季度分析师追问的重点。&lt;/p&gt;
-
-&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
-
-&lt;p&gt;如果用一句话概括这场电话会：&lt;strong&gt;Chewy 交出了一份漂亮的季度成绩，然后花了一个小时告诉市场「别高兴太早」。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;值得继续跟踪的三个指标：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Kai 的流量覆盖率从15%往上走的速度&lt;/strong&gt; ——这决定了5000万美元节省的兑现节奏&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Q3实际毛利率的环比降幅&lt;/strong&gt; ——CFO已经预告会降，降多少是对指引可信度的检验&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;可选消费（零食、拌粮）什么时候回暖&lt;/strong&gt; ——这是每位客户年均消费能否重新加速的唯一钥匙&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;在消费复苏没有到来之前，Chewy 的估值大概率会继续锚定在「6%增长 + 6.8%利润率」这个组合上。管理层这场电话会做的，就是把这个组合原原本本地摆给市场看。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手信息（原文）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2026财年Q2业绩电话会实录（含完整问答与指引口径）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-chewy-posts-steady-q2-2026-results-as-shares-fall-premarket-93CH-4893739&quot;&gt;Earnings call transcript — Chewy posts steady Q2 2026 results as shares fall premarket，Investing.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Chewy 官方新闻稿与电话会入口：&lt;a href=&quot;https://investor.chewy.com/news-and-events/news/news-details/2026/Chewy-Announces-Second-Quarter-2026-Financial-Results/default.aspx&quot;&gt;Chewy Announces Second Quarter 2026 Financial Results&lt;/a&gt;（2026年9月9日，电话会于美东时间当日上午8点召开）&lt;/li&gt;
-  &lt;li&gt;SEC EDGAR 8-K 附件99.1（财务数据核对底稿）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001766502/000162828026061011/chwyq22026exhibit991.htm&quot;&gt;chwyq22026exhibit991.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;电话会要点交叉验证：&lt;a href=&quot;https://ca.investing.com/news/company-news/chewy-inc-chwy-q2-2026-earnings-call-highlights-strong-sales-growth-and-raised-margin--4833272&quot;&gt;Chewy Inc (CHWY) Q2 2026 Earnings Call Highlights，GuruFocus / Investing.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（用于补充股价反应）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://247wallst.com/investing/2026/09/09/chewy-sinks-11-as-free-cash-flow-miss-overshadows-raised-outlook-petco-falls-6-freshpet-ticks-up/&quot;&gt;Chewy Sinks 11% as Free Cash Flow Miss Overshadows Raised Outlook — 24/7 Wall St.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 10 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/10/chewy_fy2026q2_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/10/chewy_fy2026q2_earnings_call/</guid>
-        
-        <category>Chewy</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Chewy 2026财年Q2——营收33.3亿美元同比增长7.3%，全年指引上调股价却大跌11%</title>
-        <description>&lt;p&gt;美东时间2026年9月9日盘前（北京时间9月9日晚），美国最大的宠物用品电商 &lt;a href=&quot;https://investor.chewy.com/&quot;&gt;Chewy&lt;/a&gt;（纽交所代码CHWY）发布2026财年第二季度财报，对应的会计期间是截至2026年8月2日的13周。&lt;/p&gt;
-
-&lt;p&gt;先看三个最核心的数字：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;营收33.30亿美元&lt;/strong&gt;，同比增长7.3%，落在公司此前给出的指引区间上沿&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;净利润8050万美元&lt;/strong&gt;，同比增长29.8%&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;调整后EBITDA 2.267亿美元&lt;/strong&gt;，同比增长23.7%，利润率6.8%，比公司自己给的6.3%-6.4%指引还高出至少40个基点&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;公司同时上调了全年指引。按常理这应该是一份让市场满意的成绩单，但当天 Chewy 股价盘前先跌4.4%，盘中最深跌超11%至20.68美元，成为当日跌幅最大的消费股之一。同一天 Petco 跟跌6%。&lt;/p&gt;
-
-&lt;p&gt;这篇文章想回答的就是这个问题——&lt;strong&gt;一份「超预期 + 上调指引」的财报，为什么换来股价大跌？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-chewy-是做什么的&quot;&gt;1. Chewy 是做什么的&lt;/h2&gt;
-
-&lt;p&gt;Chewy 是美国最大的线上宠物用品零售商，2011年成立，2017年被 PetSmart 收购，2019年独立上市。核心业务是把猫粮狗粮、宠物药品、玩具零食这些东西通过自营电商卖给宠物主人，目前合作品牌约4000个，在售商品与服务约19万个SKU。&lt;/p&gt;
-
-&lt;p&gt;它的商业模式有一个非常特别的地方——&lt;strong&gt;Autoship（自动续订）&lt;/strong&gt;。宠物主人可以设定「每4周自动送一袋狗粮」，到期系统自动下单、自动扣款、自动发货。本季度 Autoship 贡献了28.17亿美元销售额，占总营收的&lt;strong&gt;84.6%&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这个84.6%是理解 Chewy 的钥匙。它意味着 Chewy 八成以上的收入是订阅式的、可预测的，不像普通电商那样依赖每一次促销去把用户重新拉回来。用大白话说，Chewy 更像一家「宠物界的会员制超市」，而不是一家打折卖货的网店。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-最近一年在做什么&quot;&gt;2. 最近一年在做什么&lt;/h2&gt;
-
-&lt;p&gt;过去一年 Chewy 干的最大一件事，是&lt;strong&gt;从卖货往卖医疗服务延伸&lt;/strong&gt;：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2026年5月21日完成对 &lt;strong&gt;Modern Animal&lt;/strong&gt; 的收购，作价4亿美元。Modern Animal 是一家技术驱动的连锁宠物诊所，拥有29家自营门店、24小时线上问诊和会员制模式，预计带来超过1.25亿美元的年化收入&lt;/li&gt;
-  &lt;li&gt;这笔收购让 Chewy 自营诊所品牌 Chewy Vet Care 的门店数从18家直接跳到47家，公司目标是2026财年末达到60家&lt;/li&gt;
-  &lt;li&gt;同期还完成了对马术与马匹保健用品零售商 &lt;strong&gt;SmartPak&lt;/strong&gt; 的收购&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;为什么要买诊所？因为宠物医疗是宠物消费里客单价最高、粘性最强的一块，而且看完病自然会在 Chewy 上买处方药和处方粮。这是一条「诊所引流—药品复购」的闭环。&lt;/p&gt;
-
-&lt;p&gt;代价是真金白银。财报现金流量表显示，上半年用于收购的现金净支出为&lt;strong&gt;5.528亿美元&lt;/strong&gt;，同时公司新增了8.117亿美元的债务融资——资产负债表上的长期负债从年初的0变成了5.887亿美元，商誉从3940万美元暴增至3.341亿美元。&lt;/p&gt;
-
-&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标（截至2026年8月2日的13周）&lt;/th&gt;
-      &lt;th&gt;本季&lt;/th&gt;
-      &lt;th&gt;去年同期&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营收&lt;/td&gt;
-      &lt;td&gt;33.302亿美元&lt;/td&gt;
-      &lt;td&gt;31.042亿美元&lt;/td&gt;
-      &lt;td&gt;+7.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利润&lt;/td&gt;
-      &lt;td&gt;10.112亿美元&lt;/td&gt;
-      &lt;td&gt;9.422亿美元&lt;/td&gt;
-      &lt;td&gt;+7.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率&lt;/td&gt;
-      &lt;td&gt;30.4%&lt;/td&gt;
-      &lt;td&gt;30.4%&lt;/td&gt;
-      &lt;td&gt;持平&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售及管理费用&lt;/td&gt;
-      &lt;td&gt;7.044亿美元&lt;/td&gt;
-      &lt;td&gt;6.719亿美元&lt;/td&gt;
-      &lt;td&gt;+4.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;广告与营销费用&lt;/td&gt;
-      &lt;td&gt;2.148亿美元&lt;/td&gt;
-      &lt;td&gt;2.006亿美元&lt;/td&gt;
-      &lt;td&gt;+7.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润&lt;/td&gt;
-      &lt;td&gt;9200万美元&lt;/td&gt;
-      &lt;td&gt;6970万美元&lt;/td&gt;
-      &lt;td&gt;+32.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;8050万美元&lt;/td&gt;
-      &lt;td&gt;6200万美元&lt;/td&gt;
-      &lt;td&gt;+29.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利率&lt;/td&gt;
-      &lt;td&gt;2.4%&lt;/td&gt;
-      &lt;td&gt;2.0%&lt;/td&gt;
-      &lt;td&gt;+0.4个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;0.20美元&lt;/td&gt;
-      &lt;td&gt;0.14美元&lt;/td&gt;
-      &lt;td&gt;+42.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后EBITDA&lt;/td&gt;
-      &lt;td&gt;2.267亿美元&lt;/td&gt;
-      &lt;td&gt;1.833亿美元&lt;/td&gt;
-      &lt;td&gt;+23.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后EBITDA利润率&lt;/td&gt;
-      &lt;td&gt;6.8%&lt;/td&gt;
-      &lt;td&gt;5.9%&lt;/td&gt;
-      &lt;td&gt;+0.9个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后净利润&lt;/td&gt;
-      &lt;td&gt;1.488亿美元&lt;/td&gt;
-      &lt;td&gt;1.411亿美元&lt;/td&gt;
-      &lt;td&gt;+5.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;0.36美元&lt;/td&gt;
-      &lt;td&gt;0.33美元&lt;/td&gt;
-      &lt;td&gt;+9.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;自由现金流&lt;/td&gt;
-      &lt;td&gt;8950万美元&lt;/td&gt;
-      &lt;td&gt;1.059亿美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-15.5%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;名词解释：调整后EBITDA 指剔除折旧摊销、股权激励、利息和税之后的利润，可以粗略理解为「主营业务本身的赚钱能力」；自由现金流指经营活动产生的现金减去资本开支，是公司真正能自由支配的钱。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;三组值得关注的对比&quot;&gt;三组值得关注的对比&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;第一组：经营利润+32%，但毛利率一动不动。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;毛利率30.4%，和去年同期完全持平。利润的改善全部来自费用端——销售及管理费用只涨了4.8%，明显慢于7.3%的营收增速。这说明 Chewy 这个季度的利润增长是&lt;strong&gt;省出来的，不是卖出来的&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二组：调整后EBITDA同比+23.7%，调整后净利润却只有+5.5%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这个巨大的落差值得拆开看，差额主要来自三处：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;折旧摊销&lt;/strong&gt;从3210万美元升至3970万美元，多花了760万——这是买诊所、建自动化仓库的后遗症&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;利息&lt;/strong&gt;从净收入390万美元变成净支出470万美元，一进一出swing了860万——这是新增5.9亿美元债务的代价&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;所得税&lt;/strong&gt;从1200万美元升至3140万美元，实际税率从16.2%跳到28.1%&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;一句话总结：&lt;strong&gt;EBITDA 层面很漂亮的改善，被折旧、利息和税吃掉了一大半。&lt;/strong&gt; 这正是「买买买 + 加杠杆」策略的账面反映。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三组：股权激励费用8590万美元 &amp;gt; 净利润8050万美元。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这个季度 Chewy 计入的股权激励及相关税费高达8590万美元，比整个季度的GAAP净利润还高。也就是说，如果不发这些股票，公司的账面利润能翻一倍多。这不是 Chewy 独有的问题（美股科技公司普遍如此），但对于一家净利率只有2.4%的零售商来说，这个比例格外扎眼。&lt;/p&gt;
-
-&lt;p&gt;好消息是公司在真金白银回购对冲——上半年回购了4亿美元股票，是去年同期1.526亿美元的2.6倍。A类流通股从年初的2.386亿股降至2.250亿股。&lt;/p&gt;
-
-&lt;h1 id=&quot;三经营指标用户还在增长但花钱变谨慎了&quot;&gt;三、经营指标：用户还在增长，但花钱变谨慎了&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;经营指标&lt;/th&gt;
-      &lt;th&gt;本季&lt;/th&gt;
-      &lt;th&gt;去年同期&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;活跃客户数&lt;/td&gt;
-      &lt;td&gt;2170.5万&lt;/td&gt;
-      &lt;td&gt;2090.6万&lt;/td&gt;
-      &lt;td&gt;+3.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;每位活跃客户年均消费（NSPAC）&lt;/td&gt;
-      &lt;td&gt;602美元&lt;/td&gt;
-      &lt;td&gt;591美元&lt;/td&gt;
-      &lt;td&gt;+1.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Autoship销售额&lt;/td&gt;
-      &lt;td&gt;28.172亿美元&lt;/td&gt;
-      &lt;td&gt;25.769亿美元&lt;/td&gt;
-      &lt;td&gt;+9.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Autoship占营收比重&lt;/td&gt;
-      &lt;td&gt;84.6%&lt;/td&gt;
-      &lt;td&gt;83.0%&lt;/td&gt;
-      &lt;td&gt;+1.6个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;这张表透露的信息比营收数字更多：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;活跃客户+3.8%，但人均消费只涨1.9%。&lt;/strong&gt; 增长主要靠拉新，而不是靠老客户多花钱。考虑到通胀，人均消费1.9%的增长几乎等于零增长&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Autoship增速9.3%快于整体营收7.3%。&lt;/strong&gt; 订阅盘子在变得更结实，但反过来说，非订阅的一次性购买正在萎缩&lt;/li&gt;
-  &lt;li&gt;财报脚注还提示，2170.5万活跃客户里有约&lt;strong&gt;4.3万来自SmartPak收购&lt;/strong&gt;，而 Modern Animal 带来的客户尚未计入。剔除收购贡献，有机客户增长要比3.8%更低一些&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;管理层在电话会上把这个现象解释得很直白：消费者在优先保证「主粮和药品」，同时削减零食、拌粮这类可选品的开支。用一句话概括就是——&lt;strong&gt;狗还得吃饭，但狗的零食可以少买点。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;四亮点与隐忧&quot;&gt;四、亮点与隐忧&lt;/h1&gt;
-
-&lt;h2 id=&quot;三个真实亮点&quot;&gt;三个真实亮点&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;1. 宠物医疗是本季最大的增长引擎。&lt;/strong&gt; Chewy Vet Care 实现三位数营收增长，鲜食与冷冻食品实现三位数销量增长，马匹/农场/异宠品类连续第七个季度实现中双位数同比增长。这些新业务的增速远超7.3%的整体增速，是拉动增长的真实来源。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. 广告业务（Sponsored Ads）在贡献利润。&lt;/strong&gt; CFO 明确表示站内广告和站外广告今年都在增长，并预计这一顺风会延续到2027财年。电商平台把流量卖给品牌商，是毛利率最高的收入之一。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. 成本结构确实在改善。&lt;/strong&gt; 公司披露超过50%的订单量已经流经自动化履约中心，AI客服助手 Kai 上线不到两个月就已经自助解决约30%的对话。管理层预计AI在2026财年节省「低两位数百万美元」，2027财年年化节省约5000万美元。&lt;/p&gt;
-
-&lt;h2 id=&quot;三个值得警惕的隐忧&quot;&gt;三个值得警惕的隐忧&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;1. 超预期的利润里，有一大块是一次性的。&lt;/strong&gt; CFO 主动披露，本季利润超预期的部分里包含约&lt;strong&gt;1000万美元关税退款&lt;/strong&gt;和约&lt;strong&gt;500万美元礼品卡失效收入及库存调整&lt;/strong&gt;，并直言这些是「时点性和一次性项目」，不代表持续的利润率水平。&lt;/p&gt;
-
-&lt;p&gt;把这1500万美元剔除后，调整后EBITDA利润率大约是6.35%——&lt;strong&gt;恰好落回公司原本6.3%-6.4%的指引区间内&lt;/strong&gt;。换句话说，所谓「大幅超预期」，本质上是刚好达标。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. 自由现金流同比下滑15.5%，这是最刺眼的数字。&lt;/strong&gt; 8950万美元的自由现金流对应资本开支4790万美元，同比暴增71.1%。公司还在为诊所网络和自动化仓库持续掏钱，短期内现金流很难改善。对于一家已经进入「盈利兑现期」的公司来说，利润在涨、现金反而在缩，是市场最不愿意看到的组合。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. 管理层自己不看好行业复苏。&lt;/strong&gt; CEO Sumit Singh 在电话会上说，宠物市场只是「稳定在了Q1末的水平」，本季度&lt;strong&gt;并没有出现有意义的消费复苏&lt;/strong&gt;，而且全年指引里也没有假设复苏会到来。这句话等于提前给市场的乐观预期泼了冷水。&lt;/p&gt;
-
-&lt;h1 id=&quot;五指引与展望&quot;&gt;五、指引与展望&lt;/h1&gt;
-
-&lt;p&gt;Chewy 在电话会上给出了上调后的指引（新闻稿本身不含指引数字）：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指引项&lt;/th&gt;
-      &lt;th&gt;2026财年Q3&lt;/th&gt;
-      &lt;th&gt;2026财年全年&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营收&lt;/td&gt;
-      &lt;td&gt;33.23亿-33.58亿美元&lt;/td&gt;
-      &lt;td&gt;134.6亿-135.7亿美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;同比增速&lt;/td&gt;
-      &lt;td&gt;+6.6%至+7.7%&lt;/td&gt;
-      &lt;td&gt;+6.8%至+7.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;有机增速（剔除收购）&lt;/td&gt;
-      &lt;td&gt;+5.3%至+6.2%&lt;/td&gt;
-      &lt;td&gt;+5.5%至+6.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后EBITDA利润率&lt;/td&gt;
-      &lt;td&gt;6.6%-6.7%&lt;/td&gt;
-      &lt;td&gt;6.7%-6.8%（此前6.6%-6.8%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;约0.39美元&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;其他细节：全年资本开支占营收的1.5%-2%，加权平均摊薄股本约4.10亿股，净利息支出1000万-1500万美元，实际税率24%-26%，下半年还有中个位数百万美元的燃油成本逆风。按中值算，全年调整后EBITDA约9.12亿美元，同比扩张超过100个基点。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么理解这份指引？&lt;/strong&gt; 表面上是上调，实际上是把区间下沿抬高、上沿不动——从6.6%-6.8%变成6.7%-6.8%，这叫「收窄并上调」，更多是把已经确定的东西确认掉，而不是打开新的上升空间。同时Q3利润率指引6.6%-6.7%比本季的6.8%要低，CFO也说了毛利率会环比回落。&lt;/p&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;p&gt;这份财报可以概括成一句话：&lt;strong&gt;Chewy 的生意本身没有问题，问题在于市场愿意为「7%的增长」付多少钱。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;好的一面是，订阅占比84.6%的模式极其稳固，宠物医疗和广告两条新曲线增速远超主业，AI和自动化带来的降本是真实可量化的。坏的一面是，人均消费只涨1.9%、可选消费在收缩、自由现金流在下滑、超预期的利润里掺着一次性收入，而管理层自己都说今年不指望消费复苏。&lt;/p&gt;
-
-&lt;p&gt;11%的跌幅并不是对这个季度的否定，而是对&lt;strong&gt;「增长曲线什么时候能重新加速」这个问题给不出答案&lt;/strong&gt;的定价。接下来值得跟踪的三件事：Modern Animal 的47家诊所能不能跑出单店模型、AI节省的5000万美元有多少能真正沉淀为利润（管理层已经提示会被工资通胀抵消一部分）、以及资本开支高峰过去后自由现金流何时回正增长。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手信息（原文）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Chewy 官方新闻稿：&lt;a href=&quot;https://investor.chewy.com/news-and-events/news/news-details/2026/Chewy-Announces-Second-Quarter-2026-Financial-Results/default.aspx&quot;&gt;Chewy Announces Second Quarter 2026 Financial Results&lt;/a&gt;（2026年9月9日）&lt;/li&gt;
-  &lt;li&gt;SEC EDGAR 8-K 附件99.1原文（含完整三大报表与非GAAP调节表）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001766502/000162828026061011/chwyq22026exhibit991.htm&quot;&gt;chwyq22026exhibit991.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;SEC EDGAR 10-Q（2026年8月2日止季度）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001766502/000162828026061018/chwy-20260802.htm&quot;&gt;chwy-20260802.htm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Chewy 收购 Modern Animal 官方公告：&lt;a href=&quot;https://investor.chewy.com/news-and-events/news/news-details/2026/Chewy-to-Acquire-Modern-Animal-Accelerating-Evolution-to-a-Fully-Integrated-Healthcare-Ecosystem/default.aspx&quot;&gt;Chewy to Acquire Modern Animal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;2026财年Q2业绩电话会实录（指引数字与管理层引述出处）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-chewy-posts-steady-q2-2026-results-as-shares-fall-premarket-93CH-4893739&quot;&gt;Investing.com Earnings Call Transcript&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（用于补充分析师预期与股价反应）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://247wallst.com/investing/2026/09/09/chewy-sinks-11-as-free-cash-flow-miss-overshadows-raised-outlook-petco-falls-6-freshpet-ticks-up/&quot;&gt;Chewy Sinks 11% as Free Cash Flow Miss Overshadows Raised Outlook — 24/7 Wall St.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/investing/2026/09/09/why-chewy-stock-is-sinking-today/&quot;&gt;Why Chewy Stock Is Sinking Today — The Motley Fool&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 10 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/10/chewy_fy2026q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/10/chewy_fy2026q2_earnings/</guid>
-        
-        <category>Chewy</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

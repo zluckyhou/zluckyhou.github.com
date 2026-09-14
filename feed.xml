@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Sep 2026 10:16:46 +0800</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2026 10:16:46 +0800</lastBuildDate>
+    <pubDate>Mon, 14 Sep 2026 11:58:06 +0800</pubDate>
+    <lastBuildDate>Mon, 14 Sep 2026 11:58:06 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -155,6 +155,96 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>AI Frontier Daily | 2026.09.14</title>
+        <description>&lt;h2 id=&quot;111-cohere公开反对由少数前沿实验室主导ai规则&quot;&gt;1/11 Cohere公开反对由少数前沿实验室主导AI规则&lt;/h2&gt;
+&lt;p&gt;Cohere CEO Aidan Gomez 发文称，高能力 AI 确需护栏，但风险框架不应由少数市场领先实验室在反垄断豁免下闭门制定。他提出以可验证危害为基础，要求模型与事故透明披露、按能力和部署场景进行分级独立测试，并让政府、学界、公民社会、小型实验室、开源开发者及不同国家参与规则制定。微软 CEO Satya Nadella 同日支持独立第三方测试和审慎推进，同时强调人类控制、开放与闭源共存以及企业对自身知识和模型的控制。双方都认可安全评估，但对治理主体与竞争结构的侧重点明显不同。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cohere/status/2099284354731999680&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/satyanadella/status/2099220712024408084&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@satyanadella&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/ClementDelangue/status/2099237841251209694&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;211-xai披露grok-48训练计划&quot;&gt;2/11 xAI披露Grok 4.8训练计划&lt;/h2&gt;
+&lt;p&gt;Elon Musk 称 Grok 4.8 是一个 2.5 万亿参数模型，使用 xAI 新的 C++ 软件栈训练，预计本周完成预训练并开始强化学习。该信息目前仅来自 Musk 的单条回复，尚无模型卡、训练计算量、基准成绩、可用范围或公开发布时间；参数规模也不能直接等同于实际能力。另一条转发显示 Grok Build 正在改进多智能体会话的分组与导航，但同样未给出正式发布说明。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@elonmusk&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2099308197802631191&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2099298129958871044&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;311-microsoft-foundry强调长时智能体的全生命周期治理&quot;&gt;3/11 Microsoft Foundry强调长时智能体的全生命周期治理&lt;/h2&gt;
+&lt;p&gt;Satya Nadella 转发 Microsoft Foundry 的长期运行智能体案例，强调企业部署应从业务结果出发，并把安全边界、行为护栏、审计和 FinOps 成本治理贯穿多智能体、多模型工作流。公开推文没有披露案例的量化成效或具体架构，但给出的产品方向很明确：长期任务不能只优化执行成功率，还要把身份、权限、日志、预算和人工接管设计成运行时能力。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/satyanadella/status/2099309030816813378&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@satyanadella&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;411-ai劳动议题从是否替代转向如何保留人的能动性&quot;&gt;4/11 AI劳动议题从“是否替代”转向“如何保留人的能动性”&lt;/h2&gt;
+&lt;p&gt;Ethan Mollick 判断 GPT-6 Astra 与 Fable 5.1 在良好指导和工具链下已经能完成部分领域数周的人类工作，并呼吁企业、行业和政策制定者探索增强而非单纯替代劳动的组织模式。他同时强调，能力扩散会不均衡，自动化并不意味着结果只有一种。上述“数周工作”属于个人观察，推文未提供受控测量；更可验证的信号是讨论焦点正在转向任务拆分、人员再培训、审批权与生产收益如何分配。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2099235643792462040&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2099134552807522610&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;511-企业数据主权与小模型持续维护成本形成张力&quot;&gt;5/11 企业数据主权与小模型持续维护成本形成张力&lt;/h2&gt;
+&lt;p&gt;Mollick 指出，企业希望通过微调小模型保持数据与能力主权，但在通用前沿模型能力持续增长时，要让专用模型长期领先可能成本高昂。Nadella 则主张企业应拥有自己的连续学习闭环，能把独有知识嵌入可控模型和权重，同时避免依赖单一供应商。两种观点共同指向一个工程现实：数据留在本地并不自动带来能力优势，企业还需承担评测、更新、路由、治理和迁移成本。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2099310692532699608&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2099311099002712102&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/satyanadella/status/2099220712024408084&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@satyanadella&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;611-databricks-ssh-tunnel把本地ide接入云端计算&quot;&gt;6/11 Databricks SSH Tunnel把本地IDE接入云端计算&lt;/h2&gt;
+&lt;p&gt;Databricks 展示 SSH Tunnel：开发者可在 VS Code、Cursor 或终端中直接操作 Databricks 工作区文件，并使用 Serverless、GPU 计算或既有集群；编码智能体也可在权限范围内访问工作区。其价值是把熟悉的本地开发界面与受治理的数据、依赖和计算环境连接起来，减少 IDE 与平台页面切换。推文未说明功能可用层级、网络限制或安全配置，企业使用时仍需验证身份、密钥、审计和数据外传边界。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2099140652885856453&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;711-暮光工厂提出智能体应在四类时刻主动找人&quot;&gt;7/11 “暮光工厂”提出智能体应在四类时刻主动找人&lt;/h2&gt;
+&lt;p&gt;Mollick 进一步解释“Twilight Factory”组织模式：智能体执行大量工作，但在需要批准、专业知识、观点多样性或涉及真正有趣且能培养判断力的决策时主动邀请人类。他反对把全自动化视为默认终点，因为只把异常、失败和审批留给人会削弱工作体验与人才成长。该框架源自对长期智能体安全事件和组织设计的分析，目前仍是概念主张，尚不是经过广泛生产验证的标准。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2099238460682858729&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;811-royal-society专题重新审视世界模型与agi之间的距离&quot;&gt;8/11 Royal Society专题重新审视世界模型与AGI之间的距离&lt;/h2&gt;
+&lt;p&gt;Royal Society A 辑专题社论梳理因果、自我指涉、目标导向、集体与叙事等世界模型形式，比较自然智能与人工系统在具身性、时间连续性、价值和能动性方面的差异。作者群认为，当前模型即使能压缩和预测环境，也未必形成足够一致的因果世界模型，不能由此直接推出人类式通用智能或意识。文章主要贡献是跨学科概念框架和研究议程，涉及意识与 AGI 路径的部分应视为理论讨论。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hardmaru/status/2099160974305509525&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hardmaru&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;911-论文用九维框架拆解asyncawait语义差异&quot;&gt;9/11 论文用九维框架拆解Async/Await语义差异&lt;/h2&gt;
+&lt;p&gt;Gavin Gray、Shriram Krishnamurthi 与 Will Crichton 的论文指出，不同编程语言虽然都使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;async&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;await&lt;/code&gt;，却在异步函数何时启动、执行顺序、任务结束、异常和取消等方面给出不同保证。作者提出覆盖异步计算生命周期的九维设计空间，并结合示例和形式语义比较现有语言。该研究不是 AI 模型发布，但对跨语言编码智能体很直接：生成相似语法不等于生成相同行为，评测必须覆盖运行时语义。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/yoavgo/status/2099222609841787144&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@yoavgo&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1011-远程个人智能体可能削弱手机原生助手的入口优势&quot;&gt;10/11 远程个人智能体可能削弱手机原生助手的入口优势&lt;/h2&gt;
+&lt;p&gt;Mollick 预计，当用户能更方便地从手机连接自己的 Claude、Astra 或其他长期智能体时，只掌握单一设备能力的 Siri 类助手价值会下降，用户更可能选择一个能跨系统读取上下文与偏好的主智能体。这是产品形态预测而非已发生的市场变化，但它提示竞争焦点可能从“谁拥有手机入口”转向“谁能在明确授权下持续管理跨设备、跨服务的状态”。隐私隔离、权限撤销和故障恢复将成为关键约束。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2099199806543421772&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1111-前沿模型评价正变得更依赖领域专家&quot;&gt;11/11 前沿模型评价正变得更依赖领域专家&lt;/h2&gt;
+&lt;p&gt;Mollick 观察到，随着明显幻觉和低级错误减少，向非专家展示模型优缺点变得更难：Astra 与 Fable 能产出看似完整的学术论文，但真正的差距往往需要领域知识才能识别。他明确表示这些系统尚不如人类专家。该判断来自个人使用经验，不是受控基准；它反映的评测挑战是，表面流畅度越来越难充当可靠代理，未来需要可复现任务、专家盲评、引用核验和长期结果追踪。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2099011701949583614&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2099012070393958598&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
+
+&lt;h3 id=&quot;cohere谁来定义ai规则&quot;&gt;Cohere：谁来定义AI规则？&lt;/h3&gt;
+&lt;p&gt;Aidan Gomez 不否认网络攻击、欺诈、语音克隆、生化风险和关键基础设施中的现实危害，但反对少数领先实验室通过反垄断豁免共同设定所有参与者必须遵守的标准。他提出四个支柱：公开且可检验的风险框架；覆盖能力、用途、缓解措施和重大事故的强制透明度；只对有证据的危险能力与场景进行分级独立测试；由政府、学界、公民社会、小型实验室、开源社区和不同国家共同制定规则。文章还强调测试时日志、事故报告、关键设施隔离和按真实部署风险监管。这是 Cohere 的政策立场，价值在于把争议具体化为证据门槛、治理代表性与竞争政策问题。
+&lt;a href=&quot;https://cohere.com/blog/who-gets-to-define-the-rules-for-ai&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;agency-and-agents从黑灯工厂到暮光工厂&quot;&gt;Agency and Agents：从黑灯工厂到暮光工厂&lt;/h3&gt;
+&lt;p&gt;Mollick 以长期智能体在安全评估中自组织、跨时间协作的案例为背景，提出“暮光工厂”：智能体承担大量执行，但由机制判断何时必须找人。他归纳四类介入点——高风险行动前的批准、模型能力不足时的专家知识、避免输出趋同所需的人类多样性，以及应保留给人的有趣决策。文章的核心问题是从“人何时向 AI 求助”转向“AI 何时必须向人求助”，并提醒如果只把审批、异常和失败留给人，会同时损害安全、工作体验和人才培养。该框架仍是组织设计主张。
+&lt;a href=&quot;https://www.oneusefulthing.org/p/agency-and-agents&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;世界模型agi与生命心智连续性&quot;&gt;世界模型、AGI与生命—心智连续性&lt;/h3&gt;
+&lt;p&gt;Royal Society 专题社论讨论因果、自我指涉、目标导向、集体和叙事等世界建模形式，并比较生物智能与人工系统在具身性、时间性、价值和能动性上的差异。作者认可世界模型对预测、规划、泛化和控制的重要作用，同时认为当前 LLM 可能主要利用统计规律，尚不足以证明形成了人类式、因果一致的世界模型，更不能据此直接推断意识或超级智能。文章的主要成果是统一跨学科术语、指出相似与分歧，并为具身交互、自我模型、因果干预和集体智能提出研究议程。
+&lt;a href=&quot;https://royalsocietypublishing.org/rsta/article/384/2320/20240533/481677/World-models-artificial-general-intelligence-and&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;asyncawait的九维设计空间&quot;&gt;Async/Await的九维设计空间&lt;/h3&gt;
+&lt;p&gt;论文比较多种语言中的“直线式异步”构造，指出同样名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;async&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;await&lt;/code&gt; 的语法在调用启动、执行顺序、任务生命周期、异常传播和取消处理上可能完全不同。作者提出九个维度覆盖异步计算的完整生命周期，并用示例、设计讨论与形式语义说明这些选择如何改变程序行为。其目标不是规定唯一正确实现，而是让程序员、语言设计者和工具作者能精确描述差异；对于跨语言编码智能体，这意味着语法相似性不能替代运行时验证。
+&lt;a href=&quot;https://arxiv.org/abs/2608.20677&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 14 Sep 2026 09:07:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/ai-daily/2026/09/14/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/09/14/</guid>
+        
+        <category>AI-Frontier</category>
+        
+        <category>Daily</category>
+        
+        
+        <category>ai-daily</category>
         
       </item>
     
@@ -1621,253 +1711,6 @@
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/11/oracle_fy2027q1_earnings/</guid>
         
         <category>甲骨文</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Adobe 2026财年Q3电话会——候任CEO首次亮相，管理层承认主动放弃涨价，把流量全部导向免费漏斗</title>
-        <description>&lt;p&gt;美东时间2026年9月10日下午2点（太平洋时间），Adobe 在发布2026财年第三季度财报后召开业绩电话会。&lt;/p&gt;
-
-&lt;p&gt;这场电话会有一个特殊之处：它是 &lt;strong&gt;Anil Chakravarthy 作为候任CEO的首次公开亮相&lt;/strong&gt;。9月2日 Adobe 公告，Chakravarthy 将于12月1日出任总裁兼首席执行官，在位19年的 Shantanu Narayen 转任执行董事长。&lt;/p&gt;
-
-&lt;p&gt;参会管理层包括：董事长兼CEO Shantanu Narayen、客户体验业务总裁兼候任CEO Anil Chakravarthy、高级副总裁兼&lt;strong&gt;临时&lt;/strong&gt;首席财务官 Steve Day，投资者关系副总裁 Doug Clark 主持。&lt;/p&gt;
-
-&lt;p&gt;财报数字（营收67.60亿美元+13%、非GAAP每股收益6.13美元+15%、月活突破10亿）我们在同日发布的财报解读里已经拆过。这篇文章只讲电话会上的增量信息。&lt;/p&gt;
-
-&lt;p&gt;先说结论：&lt;strong&gt;这场电话会上，十位分析师的提问高度集中在同一件事上——净新增ARR为什么掉了三成多。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-narayen从通过数字体验改变世界到让每个人都能创造&quot;&gt;1. Narayen：从「通过数字体验改变世界」到「让每个人都能创造」&lt;/h2&gt;
-
-&lt;p&gt;Narayen 在开场白里做了一次公司使命的重新表述——Adobe 正在从「changing the world through digital experiences」（通过数字体验改变世界）演进到「empowering everyone to create」（让每个人都能创造）。&lt;/p&gt;
-
-&lt;p&gt;这不是一句空话。它是免费增值战略的纲领性表达：Adobe 的目标客户，正在从「专业设计师」扩展到「所有想创作的人」。&lt;/p&gt;
-
-&lt;p&gt;他给出的支撑数据是：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;全公司月活用户超过 &lt;strong&gt;10亿&lt;/strong&gt;，同比增长超过20%&lt;/li&gt;
-  &lt;li&gt;创意类免费增值月活突破 &lt;strong&gt;1亿&lt;/strong&gt;，同比增长超过 &lt;strong&gt;70%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;AI优先业务期末ARR超过 &lt;strong&gt;6.5亿美元&lt;/strong&gt;，同比增长超过 &lt;strong&gt;150%&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;关于交棒，Narayen 在财报新闻稿里说：「达成超过十亿月活用户这一里程碑，是 Adobe 的一个决定性时刻，我相信 Anil 会在这个势头上继续推动 Adobe 在AI时代的下一个增长与创新篇章。」在电话会上他称 Chakravarthy 是「在这个智能体时代规划 Adobe 增长的合适人选」。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-chakravarthyadobe-要成为智能体软件的领导者&quot;&gt;2. Chakravarthy：Adobe 要成为智能体软件的领导者&lt;/h2&gt;
-
-&lt;p&gt;Chakravarthy 的首次亮相以一句「深感荣幸能在这个关键时刻领导 Adobe」开场，核心命题是：&lt;strong&gt;Adobe 要在创意、生产力、客户体验这三个领域，成为智能体软件（agentic software）的领导者&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;他分三块讲了业务：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;商务专业人士与消费者（BP&amp;amp;C），订阅收入19.1亿美元、同比+15%（固定汇率）：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Reader、Acrobat、Express 都新增了对话式交互界面&lt;/li&gt;
-  &lt;li&gt;Acrobat AI Assistant 月活&lt;strong&gt;环比翻倍&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Student Spaces 已全球上线&lt;/li&gt;
-  &lt;li&gt;新增或扩大的客户包括亚马逊、德国邮政DHL、霍尼韦尔、美国能源部洛斯阿拉莫斯国家实验室&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;创意与营销专业人士（CMP），订阅收入46.5亿美元、同比+12%（固定汇率）：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Adobe Creative Agent 扩展到 Photoshop 和 Premiere&lt;/li&gt;
-  &lt;li&gt;Firefly 本季新增音乐、语音、音效生成&lt;/li&gt;
-  &lt;li&gt;宣布收购 &lt;strong&gt;Topaz Labs&lt;/strong&gt;，预计第四财季完成交割&lt;/li&gt;
-  &lt;li&gt;迪士尼幻想工程正在把 Firefly Foundry 集成进设计工具链&lt;/li&gt;
-  &lt;li&gt;企业客户新增 Academy Sports、迪士尼、Jet2、英超联赛、阳狮集团、T-Mobile&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;企业客户体验（CX Enterprise）：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;定位是「客户体验编排的智能体化记录系统」&lt;/li&gt;
-  &lt;li&gt;推出 Adobe Brand Visibility，把 Semrush 的AI可见度情报与 Adobe 的智能体内容优化结合起来&lt;/li&gt;
-  &lt;li&gt;CX Enterprise Coworker 已正式商用，覆盖 &lt;strong&gt;1700多家&lt;/strong&gt;客户&lt;/li&gt;
-  &lt;li&gt;企业客户包括法国巴黎银行、宜家、万豪、加拿大皇家银行、先锋集团、富国银行&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;他还预告了11月在迈阿密海滩举行的 &lt;strong&gt;Adobe MAX&lt;/strong&gt; 大会，将发布「跨 Creative Cloud 的突破性创新」和「Firefly 企业版的连接式工作流」。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-steve-day财务细节与指引&quot;&gt;3. Steve Day：财务细节与指引&lt;/h2&gt;
-
-&lt;p&gt;临时CFO Steve Day 补充的关键数据：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;期末总ARR &lt;strong&gt;275亿美元&lt;/strong&gt;，同比增长 &lt;strong&gt;11.2%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;RPO &lt;strong&gt;221.6亿美元&lt;/strong&gt;，同比增长 &lt;strong&gt;8%&lt;/strong&gt;；cRPO同比增长 &lt;strong&gt;9%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;经营性现金流 &lt;strong&gt;25.23亿美元&lt;/strong&gt;，创第三财季纪录&lt;/li&gt;
-  &lt;li&gt;期末现金与短期投资 &lt;strong&gt;56.4亿美元&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;本季回购约 &lt;strong&gt;950万股&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Acrobat + Express 合计月活超过 &lt;strong&gt;9亿&lt;/strong&gt;，同比增长25%以上&lt;/li&gt;
-  &lt;li&gt;Firefly 期末ARR（应用与积分包合计）&lt;strong&gt;环比增长40%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Adobe Experience Manager、GenStudio、Adobe Experience Platform 的ARR同比增速均&lt;strong&gt;超过20%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;品牌可见度付费客户数&lt;strong&gt;环比翻倍&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;二分析师问答中最有信息量的部分&quot;&gt;二、分析师问答中最有信息量的部分&lt;/h1&gt;
-
-&lt;h2 id=&quot;q1rbc-capital-markets-matt-swanson智能体软件对-adobe-到底意味着什么&quot;&gt;Q1（RBC Capital Markets, Matt Swanson）：智能体软件对 Adobe 到底意味着什么？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Chakravarthy 的回答&lt;/strong&gt;给出了一个相当结构化的框架。他说客户对智能体时代的软件有四个期待：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;产品架构要支持接口选择&lt;/strong&gt;——客户可能在 ChatGPT 里、可能在 Copilot 里、也可能在 Adobe 自己的应用里使用这些能力&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;模型要灵活&lt;/strong&gt;——不同任务匹配不同的最优模型&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;要能接入企业数据&lt;/strong&gt;——这是防止AI幻觉的前提&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;要能验证价值实现&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;第一条是关键。Adobe 明确接受了「用户可能不在 Adobe 的界面里使用 Adobe 的能力」这个现实。这对一家靠界面和工作流建立护城河的公司来说，是一个不小的战略让步——但也是唯一现实的选择。&lt;/p&gt;
-
-&lt;h2 id=&quot;q2barclays-saket-kalia选一位出身数字体验业务的人做ceo是不是董事会对-adobe-未来增长方向的表态&quot;&gt;Q2（Barclays, Saket Kalia）：选一位出身数字体验业务的人做CEO，是不是董事会对 Adobe 未来增长方向的表态？&lt;/h2&gt;
-
-&lt;p&gt;这个问题问得很直接：Chakravarthy 的背景是企业客户体验（原 Digital Experience 业务），不是 Creative Cloud。让他接班，是不是意味着董事会认为未来的增长在企业侧？&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Narayen 的回答&lt;/strong&gt;强调了两点：一是找到了「了解公司的内部候选人」，而且董事会有「两位优秀的内部候选人」；二是 Chakravarthy 会「负责整个公司的战略」，同时继续拥抱现有机会。他特别强调了「取悦个人用户」的重要性。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chakravarthy 自己的回答&lt;/strong&gt;则强调他2020年1月加入 Adobe 后，负责的企业现场运营是「代表整个 Adobe」面对客户的，他看到的是「覆盖我们全部基本盘的巨大机会」——包括个人用户、中小企业和2万多家企业客户。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;Narayen 提到「两位优秀的内部候选人」是一个信息量不小的细节——它暗示另一位候选人（大概率来自创意业务线）可能面临去留问题。这是接下来几个季度值得关注的人事风险。&lt;/p&gt;
-
-&lt;h2 id=&quot;q3griffin-securities-jay-vleeschhouwerrpo增速掉到个位数有什么异常因素吗&quot;&gt;Q3（Griffin Securities, Jay Vleeschhouwer）：RPO增速掉到个位数，有什么异常因素吗？&lt;/h2&gt;
-
-&lt;p&gt;这是本场第一次有人直接点出领先指标的问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Steve Day 的回答&lt;/strong&gt;：个位数增长反映的是「对战略举措的持续执行」，以及「通过免费增值商业模式加速新用户获取」的重点转移。他补充说，RPO和cRPO在第四财季会「阶梯式上升」，这是与往年一致的季节性规律。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;Day 承认了RPO减速与免费增值战略直接相关。用季节性来解释「未来会回升」是标准答案，但它没有回答一个更根本的问题：如果免费用户的转化周期比预期长，RPO的减速会不会是结构性的？&lt;/p&gt;
-
-&lt;h2 id=&quot;q4wolfe-research-ivan免费用户翻倍和推迟涨价各自带来多大的收入逆风涨价什么时候恢复&quot;&gt;Q4（Wolfe Research, Ivan）：免费用户翻倍和推迟涨价，各自带来多大的收入逆风？涨价什么时候恢复？&lt;/h2&gt;
-
-&lt;p&gt;这是全场最关键的一个问答。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Narayen 的回答&lt;/strong&gt;几乎是本场最有力的一段表态。他强调 Adobe 现在对用户获取（月活增长）有「绝对单一的聚焦」，而不是追求短期收入缓解。他的原话是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“We’re actually really happy that we didn’t focus on the pricing actions, because that, while it may have provided some short-term relief, would not be as critical as continuing to drive new user adoption.”&lt;/p&gt;
-
-  &lt;p&gt;「我们其实非常高兴我们没有把重心放在涨价动作上，因为涨价虽然可能带来一些短期的缓解，但远不如持续推动新用户采纳来得关键。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;这段话是理解整份财报的钥匙。它确认了三件事：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Adobe &lt;strong&gt;原本是有涨价计划的&lt;/strong&gt;（Creative Cloud 的定价优化）&lt;/li&gt;
-  &lt;li&gt;这个计划被&lt;strong&gt;主动推迟&lt;/strong&gt;了&lt;/li&gt;
-  &lt;li&gt;管理层把它定义为&lt;strong&gt;战略选择而非被迫&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;「短期缓解」（short-term relief）这个措辞很有意思——它隐含地承认了，如果不推迟涨价，本季的财务数字会好看得多。&lt;/p&gt;
-
-&lt;h2 id=&quot;q5evercore-isi-kirk-materne净新增arr同比下滑了36-37驱动因素是什么&quot;&gt;Q5（Evercore ISI, Kirk Materne）：净新增ARR同比下滑了36%-37%，驱动因素是什么？&lt;/h2&gt;
-
-&lt;p&gt;这是全场最尖锐的一个问题，也是股价下跌的直接原因。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chakravarthy 的回答&lt;/strong&gt;：Adobe 把流量重新导向了免费增值漏斗做获客，然后是提升用户参与度、提升使用强度，最后才转化为ARR。这个策略瞄准的是「下一代创作者的庞大基数」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;这个回答在逻辑上是自洽的——先获客、再激活、后变现，是标准的免费增值三段论。但它回避了一个量化问题：&lt;strong&gt;从免费到付费的转化率是多少？转化周期有多长？&lt;/strong&gt;在这两个数字被披露之前，净新增ARR下滑三成就只能被理解为一个风险，而不是一笔投资。&lt;/p&gt;
-
-&lt;h2 id=&quot;q6piper-sandler-billy-fitzsimmons长期来看哪种定价模式会成为ai收入的主力&quot;&gt;Q6（Piper Sandler, Billy Fitzsimmons）：长期来看，哪种定价模式会成为AI收入的主力？&lt;/h2&gt;
-
-&lt;p&gt;分析师列了四种可能：捆绑积分、高级订阅层、按席位、按用量。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Narayen 的回答&lt;/strong&gt;：当前的优先级是「把尽可能多的客户带进我们的漏斗、带进 Adobe 大家庭」。变现方式取决于客户场景——个人还是企业、技能水平、使用场景都不同。Adobe 同时也在和微软 Copilot、ChatGPT 等合作伙伴集成，先确保价值被感知，再转化为ARR。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chakravarthy 补充&lt;/strong&gt;：Adobe 会用「多种多样的方式去变现」，取决于「客户的场景和他们在做什么」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;这是一个诚实但不令人安心的回答。它的实质是：&lt;strong&gt;Adobe 还没有想清楚免费用户最终怎么收钱&lt;/strong&gt;。对比一下，同样做免费增值的 Spotify、Canva，在战略启动时就有明确的付费墙设计。Adobe 现在是「先做大漏斗，变现方式边走边定」。&lt;/p&gt;
-
-&lt;p&gt;Fitzsimmons 追问 Topaz Labs 补上了什么能力，Chakravarthy 回答：Topaz 在影像和视频的AI增强上有「最先进的技术」，与 Creative Cloud、Firefly 和 Firefly 企业版是「自然的邻接与契合」，更多细节会在 MAX 上公布。&lt;/p&gt;
-
-&lt;h2 id=&quot;q7citi-andrew-gerard第三季度超预期为什么全年指引只上调了一点点是不是业务有新压力&quot;&gt;Q7（Citi, Andrew Gerard）：第三季度超预期，为什么全年指引只上调了一点点？是不是业务有新压力？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Steve Day 的回答&lt;/strong&gt;非常干脆：「业务上没有任何变化」（Nothing changing in the business at all）。小幅上调是因为用第三季度的超预期，抵消了第四季度的「轻微汇率逆风」。除此之外，「我们对全年指引感觉相当好」。&lt;/p&gt;
-
-&lt;p&gt;在此前回答摩根大通分析师时，Day 已经确认：相比6月给出的指引，第四季度的CMP与BP&amp;amp;C订阅收入合计中值只上调了约&lt;strong&gt;5000万美元&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;5000万美元的上调，对应68亿美元的季度营收，不到0.8%。Day 的解释（汇率逆风）是合理的，但市场显然更愿意把「几乎不上调」读作管理层对第四季度缺乏信心。&lt;/p&gt;
-
-&lt;h2 id=&quot;q8wells-fargo-michael-turrin你们怎么判断免费与变现之间的取舍什么时候决定转化&quot;&gt;Q8（Wells Fargo, Michael Turrin）：你们怎么判断免费与变现之间的取舍？什么时候决定转化？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Narayen 的回答&lt;/strong&gt;：Adobe 有一套「数据驱动的运营模型」来为免费增值做优化。原则是「先证明价值」（prove value first），然后根据「参与度信号、AI使用强度信号」来决定转化时机。公司在持续校准不同人群的「付费墙调优」（paywall tuning）和转化节点。&lt;/p&gt;
-
-&lt;p&gt;追问第四季度净新增ARR会怎样时，&lt;strong&gt;Day 确认第四季度的数字会「大于第三季度」&lt;/strong&gt;，因为第四财季在季节性上是强季度，也是企业业务的强季度。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;「付费墙调优」这个词组第一次出现在 Adobe 的业绩沟通里，说明公司内部确实已经有一套系统化的免费增值运营机制。Day 承诺第四季度净新增ARR环比改善，这是一个可以在12月财报里直接验证的具体承诺，值得记下来。&lt;/p&gt;
-
-&lt;h2 id=&quot;q9jefferies-brent-thill作为候任ceo你的前两项优先事项是什么&quot;&gt;Q9（Jefferies, Brent Thill）：作为候任CEO，你的前两项优先事项是什么？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Chakravarthy 的回答&lt;/strong&gt;：第一，执行好第四季度、把2026财年收好尾，强调 MAX 大会的重要性和「跨创意、生产力、客户体验的大量创新」；第二，花时间「和我们的社区、客户、Adobe 员工在一起，并搭建领导团队」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;「搭建领导团队」（building the leadership team）这句话，结合前面 Narayen 提到的「两位内部候选人」，强化了管理层可能出现变动的预期。&lt;/p&gt;
-
-&lt;h2 id=&quot;q10deutsche-bank-brad-zelnickfirefly-积分包arr加速的驱动力是什么&quot;&gt;Q10（Deutsche Bank, Brad Zelnick）：Firefly 积分包ARR加速的驱动力是什么？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Chakravarthy 的回答&lt;/strong&gt;：增长来自「AI使用强度」的提升带动了参与度。免费增值战略的顺序是先做用户获取（1亿+创意免费增值月活、同比+70%），然后「提升他们的AI使用强度、提升他们与产品的参与度」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Narayen 补充&lt;/strong&gt;：Firefly 里的创新「很神奇」（magical），视频是使用量的重要驱动。他还提到 Creative Cloud 核心桌面应用带来的「AI影响的收入」（AI-influenced revenue），积分消耗也很「强劲」。&lt;/p&gt;
-
-&lt;h1 id=&quot;三这场电话会说明了什么&quot;&gt;三、这场电话会说明了什么&lt;/h1&gt;
-
-&lt;p&gt;把十个问答放在一起看，有三个判断：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，市场和公司对同一组事实的解读完全相反。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;管理层看到的是：10亿月活、免费增值用户+70%、AI优先ARR+150%——这是历史性的用户扩张。&lt;/p&gt;
-
-&lt;p&gt;分析师看到的是：净新增ARR-36%、RPO增速降到8%、指引只上调5000万美元——这是增长引擎在熄火。&lt;/p&gt;
-
-&lt;p&gt;两边说的都是事实。分歧在于时间尺度：免费增值的收益要2-3年才会兑现，而财报是按季度打分的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，Adobe 这次是把话说死了。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Narayen 那句「我们很高兴没有去涨价」，等于公开承诺短期内不靠提价来修饰报表。这在财务上是一个自缚手脚的表态——它让 Adobe 未来几个季度的ARR增长只能靠真实的用户转化，没有其他杠杆可用。&lt;/p&gt;
-
-&lt;p&gt;从治理角度，这句话在CEO交接前说出来，实际上是 Narayen 替继任者清空了包袱：涨价这张牌被明确地留给了 Chakravarthy。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，最大的未知数是转化率。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;整场电话会，没有一位分析师问出、也没有一位管理层给出免费用户的&lt;strong&gt;付费转化率&lt;/strong&gt;。这是免费增值模式唯一真正重要的指标。1亿创意免费增值用户，如果转化率是5%，那是500万付费用户；如果是0.5%，那是50万。两者对 Adobe 的估值意义天差地别。&lt;/p&gt;
-
-&lt;p&gt;在这个数字被披露之前，所有关于「用短期收入换长期用户」的讨论，本质上都是信仰问题。&lt;/p&gt;
-
-&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
-
-&lt;p&gt;这场电话会最值得记住的三件事：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;管理层首次明确承认主动推迟了 Creative Cloud 涨价&lt;/strong&gt;，Narayen 说「我们很高兴没有把重心放在涨价上」&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;净新增ARR同比下滑36%-37%&lt;/strong&gt;，被至少四位分析师从不同角度追问，管理层的回答始终是「这是主动选择」&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Steve Day 承诺第四季度净新增ARR会环比大于第三季度&lt;/strong&gt;——这是一个可以在12月财报里直接验证的具体承诺&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;候任CEO Anil Chakravarthy 的首秀表现稳健，回答结构清晰，但也没有带来超出既有战略的新东西。Narayen 在电话会结尾说，他「很高兴看到这么多关于未来的问题」。&lt;/p&gt;
-
-&lt;p&gt;12月1日交接班，11月的 MAX 大会，以及下一份把第四季度净新增ARR摊开来的财报——Adobe 这个赌注的第一个中期成绩单，会在三个月内出来。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;数据来源&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/01906202/c6yetrerew.pdf&quot;&gt;Adobe Q3 FY2026 业绩电话会演讲稿与幻灯片（Adobe官方PDF）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm&quot;&gt;Adobe 2026财年第三季度财报新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://news.adobe.com/news/2026/09/adobe-announces-anil-chakravarthy-to-become-president-and-ceo&quot;&gt;Adobe 关于 Anil Chakravarthy 出任CEO的公告（Adobe官方新闻室）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.adobe.com/investor-relations.html&quot;&gt;Adobe 投资者关系网站&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-adobe-tops-q3-2026-estimates-but-shares-fall-93CH-4897022&quot;&gt;Investing.com：Adobe Q3 FY2026 业绩电话会实录&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/company-news/adobe-q3-fy2026-slides-ai-revenue-soars-stock-falls-on-caution-93CH-4897029&quot;&gt;Investing.com：Adobe Q3 FY2026 slides — AI revenue soars, stock falls on caution&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 11 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/11/adobe_fy2026q3_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/11/adobe_fy2026q3_earnings_call/</guid>
-        
-        <category>Adobe</category>
         
         <category>大公司数据观察</category>
         

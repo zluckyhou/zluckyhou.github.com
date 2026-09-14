@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Sep 2026 11:58:06 +0800</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2026 11:58:06 +0800</lastBuildDate>
+    <pubDate>Mon, 14 Sep 2026 12:10:38 +0800</pubDate>
+    <lastBuildDate>Mon, 14 Sep 2026 12:10:38 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -160,57 +160,62 @@
     
       <item>
         <title>AI Frontier Daily | 2026.09.14</title>
-        <description>&lt;h2 id=&quot;111-cohere公开反对由少数前沿实验室主导ai规则&quot;&gt;1/11 Cohere公开反对由少数前沿实验室主导AI规则&lt;/h2&gt;
-&lt;p&gt;Cohere CEO Aidan Gomez 发文称，高能力 AI 确需护栏，但风险框架不应由少数市场领先实验室在反垄断豁免下闭门制定。他提出以可验证危害为基础，要求模型与事故透明披露、按能力和部署场景进行分级独立测试，并让政府、学界、公民社会、小型实验室、开源开发者及不同国家参与规则制定。微软 CEO Satya Nadella 同日支持独立第三方测试和审慎推进，同时强调人类控制、开放与闭源共存以及企业对自身知识和模型的控制。双方都认可安全评估，但对治理主体与竞争结构的侧重点明显不同。&lt;/p&gt;
+        <description>&lt;h2 id=&quot;112-cohere公开反对由少数前沿实验室主导ai规则&quot;&gt;1/12 Cohere公开反对由少数前沿实验室主导AI规则&lt;/h2&gt;
+&lt;p&gt;Cohere CEO Aidan Gomez 发文称，高能力 AI 确需护栏，但风险框架不应由少数市场领先实验室在反垄断豁免下闭门制定。他提出以可验证危害为基础，要求模型与事故透明披露、按能力和部署场景进行分级独立测试，并让政府、学界、公民社会、小型实验室、开源开发者及不同国家参与规则制定。微软 CEO Satya Nadella 同日支持独立第三方测试和审慎推进，同时强调人类控制、开放与闭源共存以及企业对自身知识和模型的控制；Microsoft AI CEO Mustafa Suleyman 也把“服务人类与促进繁荣”作为技术是否成功的标准。&lt;/p&gt;
 
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cohere/status/2099284354731999680&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/satyanadella/status/2099220712024408084&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@satyanadella&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/ClementDelangue/status/2099237841251209694&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/cohere/status/2099284354731999680&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/satyanadella/status/2099220712024408084&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@satyanadella&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/mustafasuleyman/status/2099223582434083103&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@mustafasuleyman&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/ClementDelangue/status/2099237841251209694&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;/a&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;211-xai披露grok-48训练计划&quot;&gt;2/11 xAI披露Grok 4.8训练计划&lt;/h2&gt;
+&lt;h2 id=&quot;212-治理争论延伸到现有法律责任与独立科学监督&quot;&gt;2/12 治理争论延伸到现有法律责任与独立科学监督&lt;/h2&gt;
+&lt;p&gt;完整补抓显示，另一组讨论者把焦点放在现有产品责任与监督独立性上。Gary Marcus 转发 Lina Khan 关于执法机构已有权追究危险、未经验证或缺陷产品责任的观点，并主张建立跨党派、由独立科学家参与的机制；Timnit Gebru 则集中批评由产业资助的安全机构和第三方审计可能形成监管俘获。相关推文多为观点或转发，不代表新法律已经出台，但显示争论已从单一的“减速或加速”分化为责任追究、证据标准、竞争结构和监督机构利益冲突等具体问题。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GaryMarcus&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/GaryMarcus/status/2099314147863543995&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GaryMarcus 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/GaryMarcus/status/2099287927650152482&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GaryMarcus 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/GaryMarcus/status/2099312127148544257&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GaryMarcus 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/timnitGebru/status/2099224551293153738&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@timnitGebru&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;312-xai披露grok-48训练计划&quot;&gt;3/12 xAI披露Grok 4.8训练计划&lt;/h2&gt;
 &lt;p&gt;Elon Musk 称 Grok 4.8 是一个 2.5 万亿参数模型，使用 xAI 新的 C++ 软件栈训练，预计本周完成预训练并开始强化学习。该信息目前仅来自 Musk 的单条回复，尚无模型卡、训练计算量、基准成绩、可用范围或公开发布时间；参数规模也不能直接等同于实际能力。另一条转发显示 Grok Build 正在改进多智能体会话的分组与导航，但同样未给出正式发布说明。&lt;/p&gt;
 
 &lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@elonmusk&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2099308197802631191&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/elonmusk/status/2099298129958871044&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@elonmusk 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;311-microsoft-foundry强调长时智能体的全生命周期治理&quot;&gt;3/11 Microsoft Foundry强调长时智能体的全生命周期治理&lt;/h2&gt;
+&lt;h2 id=&quot;412-microsoft-foundry强调长时智能体的全生命周期治理&quot;&gt;4/12 Microsoft Foundry强调长时智能体的全生命周期治理&lt;/h2&gt;
 &lt;p&gt;Satya Nadella 转发 Microsoft Foundry 的长期运行智能体案例，强调企业部署应从业务结果出发，并把安全边界、行为护栏、审计和 FinOps 成本治理贯穿多智能体、多模型工作流。公开推文没有披露案例的量化成效或具体架构，但给出的产品方向很明确：长期任务不能只优化执行成功率，还要把身份、权限、日志、预算和人工接管设计成运行时能力。&lt;/p&gt;
 
 &lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/satyanadella/status/2099309030816813378&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@satyanadella&lt;/a&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;411-ai劳动议题从是否替代转向如何保留人的能动性&quot;&gt;4/11 AI劳动议题从“是否替代”转向“如何保留人的能动性”&lt;/h2&gt;
+&lt;h2 id=&quot;512-ai劳动议题从是否替代转向如何保留人的能动性&quot;&gt;5/12 AI劳动议题从“是否替代”转向“如何保留人的能动性”&lt;/h2&gt;
 &lt;p&gt;Ethan Mollick 判断 GPT-6 Astra 与 Fable 5.1 在良好指导和工具链下已经能完成部分领域数周的人类工作，并呼吁企业、行业和政策制定者探索增强而非单纯替代劳动的组织模式。他同时强调，能力扩散会不均衡，自动化并不意味着结果只有一种。上述“数周工作”属于个人观察，推文未提供受控测量；更可验证的信号是讨论焦点正在转向任务拆分、人员再培训、审批权与生产收益如何分配。&lt;/p&gt;
 
 &lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2099235643792462040&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2099134552807522610&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;511-企业数据主权与小模型持续维护成本形成张力&quot;&gt;5/11 企业数据主权与小模型持续维护成本形成张力&lt;/h2&gt;
+&lt;h2 id=&quot;612-企业数据主权与小模型持续维护成本形成张力&quot;&gt;6/12 企业数据主权与小模型持续维护成本形成张力&lt;/h2&gt;
 &lt;p&gt;Mollick 指出，企业希望通过微调小模型保持数据与能力主权，但在通用前沿模型能力持续增长时，要让专用模型长期领先可能成本高昂。Nadella 则主张企业应拥有自己的连续学习闭环，能把独有知识嵌入可控模型和权重，同时避免依赖单一供应商。两种观点共同指向一个工程现实：数据留在本地并不自动带来能力优势，企业还需承担评测、更新、路由、治理和迁移成本。&lt;/p&gt;
 
 &lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2099310692532699608&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2099311099002712102&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/satyanadella/status/2099220712024408084&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@satyanadella&lt;/a&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;611-databricks-ssh-tunnel把本地ide接入云端计算&quot;&gt;6/11 Databricks SSH Tunnel把本地IDE接入云端计算&lt;/h2&gt;
+&lt;h2 id=&quot;712-databricks-ssh-tunnel把本地ide接入云端计算&quot;&gt;7/12 Databricks SSH Tunnel把本地IDE接入云端计算&lt;/h2&gt;
 &lt;p&gt;Databricks 展示 SSH Tunnel：开发者可在 VS Code、Cursor 或终端中直接操作 Databricks 工作区文件，并使用 Serverless、GPU 计算或既有集群；编码智能体也可在权限范围内访问工作区。其价值是把熟悉的本地开发界面与受治理的数据、依赖和计算环境连接起来，减少 IDE 与平台页面切换。推文未说明功能可用层级、网络限制或安全配置，企业使用时仍需验证身份、密钥、审计和数据外传边界。&lt;/p&gt;
 
 &lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/databricks/status/2099140652885856453&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@databricks&lt;/a&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;711-暮光工厂提出智能体应在四类时刻主动找人&quot;&gt;7/11 “暮光工厂”提出智能体应在四类时刻主动找人&lt;/h2&gt;
+&lt;h2 id=&quot;812-暮光工厂提出智能体应在四类时刻主动找人&quot;&gt;8/12 “暮光工厂”提出智能体应在四类时刻主动找人&lt;/h2&gt;
 &lt;p&gt;Mollick 进一步解释“Twilight Factory”组织模式：智能体执行大量工作，但在需要批准、专业知识、观点多样性或涉及真正有趣且能培养判断力的决策时主动邀请人类。他反对把全自动化视为默认终点，因为只把异常、失败和审批留给人会削弱工作体验与人才成长。该框架源自对长期智能体安全事件和组织设计的分析，目前仍是概念主张，尚不是经过广泛生产验证的标准。&lt;/p&gt;
 
 &lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2099238460682858729&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;811-royal-society专题重新审视世界模型与agi之间的距离&quot;&gt;8/11 Royal Society专题重新审视世界模型与AGI之间的距离&lt;/h2&gt;
+&lt;h2 id=&quot;912-royal-society专题重新审视世界模型与agi之间的距离&quot;&gt;9/12 Royal Society专题重新审视世界模型与AGI之间的距离&lt;/h2&gt;
 &lt;p&gt;Royal Society A 辑专题社论梳理因果、自我指涉、目标导向、集体与叙事等世界模型形式，比较自然智能与人工系统在具身性、时间连续性、价值和能动性方面的差异。作者群认为，当前模型即使能压缩和预测环境，也未必形成足够一致的因果世界模型，不能由此直接推出人类式通用智能或意识。文章主要贡献是跨学科概念框架和研究议程，涉及意识与 AGI 路径的部分应视为理论讨论。&lt;/p&gt;
 
 &lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/hardmaru/status/2099160974305509525&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@hardmaru&lt;/a&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;911-论文用九维框架拆解asyncawait语义差异&quot;&gt;9/11 论文用九维框架拆解Async/Await语义差异&lt;/h2&gt;
+&lt;h2 id=&quot;1012-论文用九维框架拆解asyncawait语义差异&quot;&gt;10/12 论文用九维框架拆解Async/Await语义差异&lt;/h2&gt;
 &lt;p&gt;Gavin Gray、Shriram Krishnamurthi 与 Will Crichton 的论文指出，不同编程语言虽然都使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;async&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;await&lt;/code&gt;，却在异步函数何时启动、执行顺序、任务结束、异常和取消等方面给出不同保证。作者提出覆盖异步计算生命周期的九维设计空间，并结合示例和形式语义比较现有语言。该研究不是 AI 模型发布，但对跨语言编码智能体很直接：生成相似语法不等于生成相同行为，评测必须覆盖运行时语义。&lt;/p&gt;
 
 &lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/yoavgo/status/2099222609841787144&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@yoavgo&lt;/a&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;1011-远程个人智能体可能削弱手机原生助手的入口优势&quot;&gt;10/11 远程个人智能体可能削弱手机原生助手的入口优势&lt;/h2&gt;
+&lt;h2 id=&quot;1112-远程个人智能体可能削弱手机原生助手的入口优势&quot;&gt;11/12 远程个人智能体可能削弱手机原生助手的入口优势&lt;/h2&gt;
 &lt;p&gt;Mollick 预计，当用户能更方便地从手机连接自己的 Claude、Astra 或其他长期智能体时，只掌握单一设备能力的 Siri 类助手价值会下降，用户更可能选择一个能跨系统读取上下文与偏好的主智能体。这是产品形态预测而非已发生的市场变化，但它提示竞争焦点可能从“谁拥有手机入口”转向“谁能在明确授权下持续管理跨设备、跨服务的状态”。隐私隔离、权限撤销和故障恢复将成为关键约束。&lt;/p&gt;
 
 &lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/emollick/status/2099199806543421772&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;/a&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;1111-前沿模型评价正变得更依赖领域专家&quot;&gt;11/11 前沿模型评价正变得更依赖领域专家&lt;/h2&gt;
+&lt;h2 id=&quot;1212-前沿模型评价正变得更依赖领域专家&quot;&gt;12/12 前沿模型评价正变得更依赖领域专家&lt;/h2&gt;
 &lt;p&gt;Mollick 观察到，随着明显幻觉和低级错误减少，向非专家展示模型优缺点变得更难：Astra 与 Fable 能产出看似完整的学术论文，但真正的差距往往需要领域知识才能识别。他明确表示这些系统尚不如人类专家。该判断来自个人使用经验，不是受控基准；它反映的评测挑战是，表面流畅度越来越难充当可靠代理，未来需要可复现任务、专家盲评、引用核验和长期结果追踪。&lt;/p&gt;
 
 &lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2099011701949583614&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2099012070393958598&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;

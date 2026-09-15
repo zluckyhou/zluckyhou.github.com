@@ -5,9 +5,731 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Sep 2026 12:10:38 +0800</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2026 12:10:38 +0800</lastBuildDate>
+    <pubDate>Tue, 15 Sep 2026 09:19:09 +0800</pubDate>
+    <lastBuildDate>Tue, 15 Sep 2026 09:19:09 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Copart 2026财年Q4电话会——CEO承认单车成本涨12.7%「我们知道了，正在处理」，七位分析师围着ACV收购追问</title>
+        <description>&lt;p&gt;美东时间2026年9月10日下午5点30分（北京时间9月11日凌晨5点30分），Copart 在同时发布2026财年第四季度财报和19亿美元收购 ACV 的公告之后，召开了业绩电话会。&lt;/p&gt;
+
+&lt;p&gt;参会管理层只有两位：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;A. Jayson Adair（Jay Adair）&lt;/strong&gt;，首席执行官兼执行董事长&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Leah C. Stearns&lt;/strong&gt;，首席财务官&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Adair 值得多说一句。他1990年加入 Copart，2010年至2022年任CEO，之后转任执行董事长，2025年又重新回到CEO岗位。他在这场电话会的结尾说了一句「&lt;strong&gt;it is great to be back at Copart&lt;/strong&gt;」（回到 Copart 真好）——这句话本身就是理解这场电话会基调的钥匙：一位创始人时代的老将回来了，带着一个「要动起来」的议程。&lt;/p&gt;
+
+&lt;p&gt;财报数字（Q4营收11.52亿美元+2.4%、净利润3.27亿美元-17.4%、每股收益0.35美元）我们在同日发布的财报解读里已经拆过。这篇文章只讲电话会上的增量信息。&lt;/p&gt;
+
+&lt;p&gt;先说结论：&lt;strong&gt;七位分析师提问，几乎每一个人的第一个问题都是ACV&lt;/strong&gt;。这场本该讨论业绩的电话会，实际上变成了一场收购说明会。&lt;/p&gt;
+
+&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-adair-重申三根增长支柱和三个差异化&quot;&gt;1. Adair 重申「三根增长支柱」和三个差异化&lt;/h2&gt;
+
+&lt;p&gt;Adair 开场就把公司的战略框架摆了出来。三根增长支柱：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;国际保险业务扩张&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;美国整车（whole car）业务扩张&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;技术与服务投入&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;以及他认为 Copart 区别于同行的三点：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「第一，我们是一家由创始人经营、带着创始人心态的公司。&lt;strong&gt;我们不以季度或年度来思考，我们以十年为单位思考&lt;/strong&gt;。第二是流动性……第三，本着像创业公司一样行动的精神，我们非常快。我们把产品和服务推向市场是以季度为单位，而不是以年为单位。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;最后一句是有承诺含义的：「我们预计在接下来的四个季度里会有一些成果推出。」&lt;/p&gt;
+
+&lt;h2 id=&quot;2-行业数据车祸在减少但修不如换在增加&quot;&gt;2. 行业数据：车祸在减少，但「修不如换」在增加&lt;/h2&gt;
+
+&lt;p&gt;Adair 花了相当长的篇幅讲行业环境，这些数字是理解 Copart 单量的前提：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;行业指标&lt;/th&gt;
+      &lt;th&gt;最新读数&lt;/th&gt;
+      &lt;th&gt;方向&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;碰撞索赔频率&lt;/td&gt;
+      &lt;td&gt;同比 -3.4%&lt;/td&gt;
+      &lt;td&gt;事故在减少（但降幅比2025年的高个位数有所收窄）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;全损率（total loss frequency）&lt;/td&gt;
+      &lt;td&gt;2026年Q2达23.3%，去年同期22.4%&lt;/td&gt;
+      &lt;td&gt;历年二季度最高纪录&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;平均碰撞维修严重度&lt;/td&gt;
+      &lt;td&gt;超过6300美元/案，同比 +8.8%&lt;/td&gt;
+      &lt;td&gt;三年多来最快，连续四个季度加速&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;维修成本（对比2019年）&lt;/td&gt;
+      &lt;td&gt;上涨超过50%（CCC数据）&lt;/td&gt;
+      &lt;td&gt;修车越来越贵&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;租车费率&lt;/td&gt;
+      &lt;td&gt;同比 +4.5%&lt;/td&gt;
+      &lt;td&gt;推高保险公司的总修理成本&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;行驶里程（VMT）&lt;/td&gt;
+      &lt;td&gt;同比 +0.27%&lt;/td&gt;
+      &lt;td&gt;基本持平&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;保有量（car park）&lt;/td&gt;
+      &lt;td&gt;同比 +1.6%&lt;/td&gt;
+      &lt;td&gt;缓慢增长&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Adair 用一个很具体的类比解释为什么他认为全损率还会继续上升：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「一架军用无人机有350万行代码，一架空客飞机有3000万行代码，Windows 10 操作系统有5000万行代码。有意思的是，&lt;strong&gt;一辆新特斯拉大约有1亿行代码&lt;/strong&gt;。所以当我们想到汽车时，它们真的正在变成装着轮子的电脑。我相信全损率会继续上升。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这是一个对 Copart 长期有利的判断：车越智能，事故越少（利空单量），但一旦出事故越修不起（利好全损率）。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-关于acv买的是入口不是土地&quot;&gt;3. 关于ACV：买的是「入口」，不是「土地」&lt;/h2&gt;
+
+&lt;p&gt;Adair 对这笔收购的描述很直接：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「ACV 每年销售超过80万辆车，&lt;strong&gt;而且几乎不拥有自己的土地&lt;/strong&gt;。我们很兴奋能用我们的场地作为它们车辆的中转区，把我们的全球买家群体和它们的数字市场、再营销技术结合起来。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他把双方带来的东西列得很清楚：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Copart 带来&lt;/strong&gt;：275个以上场地、每年销售400万辆以上车辆、185个国家的约100万会员、实体规模、保险机构关系、事故车处置专长、国际买家需求&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ACV 带来&lt;/strong&gt;：经销商流动性与关系、检测与估值技术、2025年约100亿美元GMV、2.2万以上活跃买家&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;关于交易结构，他强调了两点：&lt;strong&gt;全现金、来自自有现金、无融资条件&lt;/strong&gt;；&lt;strong&gt;要约收购结构支持相对快速干净的交割路径&lt;/strong&gt;。ACV 将作为独立子公司运营，由现有团队领导。&lt;/p&gt;
+
+&lt;h1 id=&quot;二分析师问答中最有信息量的六个问题&quot;&gt;二、分析师问答中最有信息量的六个问题&lt;/h1&gt;
+
+&lt;h2 id=&quot;q1cjs-securitiesbob-labickacv-和-copart-的文化能不能融会保留双品牌吗&quot;&gt;Q1（CJS Securities，Bob Labick）：ACV 和 Copart 的文化能不能融？会保留双品牌吗？&lt;/h2&gt;
+
+&lt;p&gt;Adair 的回答分两层。文化上：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「George（ACV的CEO George Chamoun）和我已经很熟了……他们真的有创业公司的心态，思维非常敏捷，&lt;strong&gt;你能想到的最不像大公司、最不官僚的公司就是他们&lt;/strong&gt;。他们和我们一样野路子（scrappy），能非常快地做决定。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;品牌和运营上，他给出了一个非常具体的边界：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们会保留两个品牌。但别搞错了，&lt;strong&gt;我们会打通买家。我们会把买家的流动性整合起来，让他们在两个平台上都能出价&lt;/strong&gt;。但他们会单独做市场推广，在他们自己的网站上卖那些车，同时使用 Copart 的物流。&lt;strong&gt;我们可以在不到24小时内把一辆车运到全国任何地方，有时一天做1.5万到2万次&lt;/strong&gt;。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这是整场电话会里最关键的整合思路——&lt;strong&gt;前台分开，后台打通&lt;/strong&gt;。两个网站、两个品牌、两套销售体系，但共用一个买家池和一个物流网络。这个设计既保住了 ACV 在经销商心中的独立形象（这是 Copart 自己做整车业务多年没做起来的原因之一），又能立刻拿到协同。&lt;/p&gt;
+
+&lt;h2 id=&quot;q2cjs-securitiesbob-labick做大整车和经销商业务怎么反过来帮到保险客户&quot;&gt;Q2（CJS Securities，Bob Labick）：做大整车和经销商业务，怎么反过来帮到保险客户？&lt;/h2&gt;
+
+&lt;p&gt;Adair 先开了个玩笑说这是「诱导性提问」，然后给了一个很实在的答案：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「随着我们引入更多独立经销商……尤其是更多特许经销商（他们的特许经销商比我们多），这些买家的加入会提高回报，特别是当你看保险车辆的时候。&lt;strong&gt;现在越来越多的车看起来不像该被报废的车，但它们是经济性全损&lt;/strong&gt;——它们还能开、还能修，但从经济上已经被判了死刑。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他还补充了国际物流的一环：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「他们那边有一定数量的低端置换车，我们的国际买家、特别是墨西哥买家非常喜欢……如果你从经销商那里买了50辆车，车还停在经销商那里，运车板车怎么进去拉？有了 Copart，我们可以把这些车挪到 Copart 场地，板车按自己的时间来拉，运到墨西哥或者港口。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这是把「经济性全损」这个趋势和「买家池」直接连起来。因为修车太贵，越来越多外观完好、还能开的车被判全损——这类车最适合卖给经销商而不是拆车厂。所以引入经销商买家，本质上是在为主业的车找更好的出价方。&lt;/p&gt;
+
+&lt;h2 id=&quot;q3bairdcraig-kennison单车运营成本涨了12你的计划是什么&quot;&gt;Q3（Baird，Craig Kennison）：单车运营成本涨了12%，你的计划是什么？&lt;/h2&gt;
+
+&lt;p&gt;Adair 的回答短得有些反常：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「&lt;strong&gt;我们在处理了（We are on it）。我能告诉你的就这些。我们知道了，我们已经定位了问题，我们在处理。&lt;/strong&gt; 我们会专注于降低成本，把成本降下来……另一方面是随着更多单量进来，我们会用更多单量摊薄这些成本。所以每车成本，我完全预期会下降。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;CFO Stearns 在另一个问题里给出了更有信息量的拆解。当巴克莱的 John Babcock 问「涨的成本里有多少是你自己决定的投资，有多少是你控制不了的」时，她说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「大部分是由新产品和服务的推出驱动的。举例来说，我认为&lt;strong&gt;场地运营成本同比增长中有1700万美元来自长途运输服务（long haul delivery）的成本增加&lt;/strong&gt;。而这是一项我们通常能赚到不错毛利的业务……&lt;strong&gt;只有一小部分与燃料成本上升有关&lt;/strong&gt;。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：CFO的数字比CEO的表态有用得多。它把「成本失控」重新定义成「主动投资」——公司在花钱买一个能赚钱的新收入项。但这里有一个逻辑缺口没有被追问：如果长途运输本身毛利不错，为什么整体毛利率会从45.3%掉到41.8%？可能的解释是新业务的毛利率低于公司均值，或者投入期的产能利用率还没上来。管理层没有展开。&lt;/p&gt;
+
+&lt;h2 id=&quot;q4bnp-paribas这笔收购会不会让你们两年内做不了别的并购&quot;&gt;Q4（BNP Paribas）：这笔收购会不会让你们两年内做不了别的并购？&lt;/h2&gt;
+
+&lt;p&gt;Adair 明确否认：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「不，我不认为这阻止我们做未来的任何收购。我们正在看拍卖领域其他可能想收购的业务。所以我们有很多选择。&lt;strong&gt;即便这笔交易做完，我们的资产负债表上还有超过20亿美元现金&lt;/strong&gt;。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他还给出了收购标准：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「对我真正重要的是，我们买的公司要说得通、要和 Copart 契合、要让 Copart 能增加很多价值。我不太热衷于买那些……我明天不会跑去买酒店，因为 Copart 在全国订酒店房间——&lt;strong&gt;那不够协同&lt;/strong&gt;。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这是一句给市场的定心丸——19亿美元没有把弹药打光。同时「拍卖领域其他业务」的措辞值得记下，说明并购不会停。&lt;/p&gt;
+
+&lt;h2 id=&quot;q5barclaysjohn-babcock新闻稿说fy2028增厚但ceo说第一个完整年度就增厚到底是哪个&quot;&gt;Q5（Barclays，John Babcock）：新闻稿说FY2028增厚，但CEO说第一个完整年度就增厚，到底是哪个？&lt;/h2&gt;
+
+&lt;p&gt;这是全场唯一一次管理层口径被当场纠正。Stearns 的回答：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们预期这笔交易在&lt;strong&gt;当前年度打平（breakeven）&lt;/strong&gt;，在&lt;strong&gt;第一个完整年度、也就是FY2028实质性增厚&lt;/strong&gt;……鉴于交割时间还存在不确定性，我们只指引到28年。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：书面新闻稿的表述是「在拥有ACV的第一个完整年度对每股收益中性，2028财年及以后增厚」，CEO 讲稿里说成了「第一个完整年度增厚」。CFO 的澄清和新闻稿一致。&lt;strong&gt;投资者应以「FY2028才增厚」为准&lt;/strong&gt;——也就是说，这19亿美元在未来两年里对每股收益没有正贡献。&lt;/p&gt;
+
+&lt;h2 id=&quot;q6jefferiesbret-jordan有同行在用降价抢量保险端的定价环境理性了吗&quot;&gt;Q6（Jefferies，Bret Jordan）：有同行在用降价抢量，保险端的定价环境理性了吗？&lt;/h2&gt;
+
+&lt;p&gt;Adair 的回答透露了竞争态势：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「这门生意你只有两个选择。你要么创造流动性、在单车上拿到好的回报……要么你就得大幅砍价，因为你拿不到那个回报，只能靠降价来对冲这个弱点。&lt;strong&gt;说到底，我们不需要玩这个游戏。&lt;/strong&gt; 我们有惊人的流动性，这（收购）只会让它更好……想想看，每一辆没有损坏或者只是轻微损坏的车，都会被摆在&lt;strong&gt;成千上万家经销商&lt;/strong&gt;面前。光这一点就让我很兴奋。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：Adair 没有点名，但行业里 Copart 在事故车拍卖领域的主要对手是 IAA（现属 RB Global）。他的意思很清楚：对手在用价格战抢保险公司的合同，Copart 拒绝跟进，选择用「卖得更贵」来守住客户。这解释了为什么美国保险单量跌了8%而ASP还能涨5.5%——这是一个主动的、以量换价的取舍。&lt;/p&gt;
+
+&lt;h1 id=&quot;三其他值得记录的表态&quot;&gt;三、其他值得记录的表态&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;关于欧洲扩张&lt;/strong&gt;。Stephens 的 Jeff Licht 问德国模式的进展，Adair 说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「好消息是我们把德国模式搞明白了。美国模式我们早就搞明白了，但现在我们也把德国模式搞明白了。&lt;strong&gt;所以是时候开始增长、开始向整个欧洲扩张了，我们会去做。&lt;/strong&gt;」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;当被追问「低双位数的增长率能不能持续」时，他拒绝了：「我从不对增长给指引。我只是以CEO的身份告诉你，我们要在那些市场开始增长。」&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于会不会做汽车回收（repo）业务&lt;/strong&gt;。Adair 明确划了线：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们没有买一个回收业务。我们不会去把车收回来……&lt;strong&gt;我不想成为电视上那个跑到别人家门口把车拖走的人&lt;/strong&gt;。但我们很喜欢卖回收车。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;关于客户流失的「戏剧性」是否结束&lt;/strong&gt;。Baird 的 Craig Kennison 问还有没有悬而未决的招标（RFP），Adair 的回答带着明显的情绪：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我不觉得有什么戏剧性。&lt;strong&gt;如果说有什么的话，现在 Copart 有的是气势（swagger）。&lt;/strong&gt; 我们对前进的方向很兴奋。我们有很多很棒的人在拼命干……我对我们和现有客户的关系感觉非常好。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;关于 ACV 的 VIPER 检测技术能否用到自己的场地、以及能否带到海外&lt;/strong&gt;。摩根大通的 Jash Patwa 问了这个问题，Adair 的回答是会成立团队评估双向的协同，但没有给具体承诺。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于收购的分手费和 go-shop 条款&lt;/strong&gt;。Northcoast Research 的 John Healy 追问交易确定性，Adair 拒绝在电话会上讨论：「我觉得最好还是让它在文件里体现出来。我不认为在电话会上讲合适……而且我也不是律师。」Stearns 补充说相关文件已经备案，分析师可以自行查阅。&lt;/p&gt;
+
+&lt;h1 id=&quot;四这场电话会到底说明了什么&quot;&gt;四、这场电话会到底说明了什么&lt;/h1&gt;
+
+&lt;p&gt;把七个问题的落点串起来，可以得到三个判断。&lt;/p&gt;
+
+&lt;h2 id=&quot;1-管理层把这个季度定义为投资期而不是衰退期&quot;&gt;1. 管理层把这个季度定义为「投资期」，而不是「衰退期」&lt;/h2&gt;
+
+&lt;p&gt;利润下滑17.4%，但整场电话会上没有一句道歉或反思。CEO 的态度是「我们知道成本涨了，我们在处理」，CFO 的态度是「这些成本大部分是我们主动花的，会有回报」。他们没有下调任何东西，因为&lt;strong&gt;Copart 从来不给业绩指引&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这是一种高度自信的沟通方式。好处是不被短期数字绑架，坏处是在业绩转弱时，市场没有任何锚可以抓。分析师在会上三次试图问出明年的利润率方向，三次被挡回去。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-acv-收购的核心不是财务而是渠道&quot;&gt;2. ACV 收购的核心不是财务，而是渠道&lt;/h2&gt;
+
+&lt;p&gt;管理层自己的数字说得很清楚：这笔交易两年内不增厚每股收益。既然财务上不划算（至少短期内），那买的一定是别的东西。&lt;/p&gt;
+
+&lt;p&gt;John Healy 的问题最一针见血：Copart 2007年就做了经销商服务，后来又有 BluCar、Copart Direct，非保险业务已占总量约四分之一，但为什么在特许经销商那里始终打不开局面？Adair 的答案是「需要一个不同的产品」——&lt;strong&gt;ACV 从入库、车况报告到交易流程的整套产品，和 Copart 是两个物种&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;换句话说，Copart 承认自己在经销商市场上，用自己的产品打不赢，所以买下了打赢的那个。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-前台分开后台打通是这次整合的全部关键&quot;&gt;3. 「前台分开、后台打通」是这次整合的全部关键&lt;/h2&gt;
+
+&lt;p&gt;Adair 讲得最具体的一段，就是双品牌如何共存：网站分开、营销分开、销售分开，但&lt;strong&gt;买家池打通、物流打通&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这个设计的价值在于：ACV 的经销商客户不需要觉得自己的车被扔进了「废车场」，而 Copart 的全球买家（尤其是买走美国38.2%车辆、贡献45.7%金额的国际买家）可以立刻出现在 ACV 的拍卖里。&lt;/p&gt;
+
+&lt;p&gt;如果这件事能做成，它就不只是把两家公司加在一起——&lt;strong&gt;它是把 Copart 的买家流动性，注入到 ACV 的卖家供给里&lt;/strong&gt;。Adair 说「每一辆没有损坏的车都会被摆在成千上万家经销商面前」，反过来也成立：ACV 的每一辆置换车，也会被摆在185个国家的100万会员面前。&lt;/p&gt;
+
+&lt;h1 id=&quot;五总结&quot;&gt;五、总结&lt;/h1&gt;
+
+&lt;p&gt;这场电话会最有价值的三条信息：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;CFO 明确澄清 ACV 收购在FY2028才增厚每股收益&lt;/strong&gt;，当年打平。CEO 讲稿的表述不准确，以CFO和新闻稿为准。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;单车运营费用同比上涨12.7%，管理层承诺会降下来&lt;/strong&gt;，但拒绝给任何时间表和量化目标。CFO 披露其中1700万美元来自长途运输业务的成本——这是主动投资而非失控。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;整合方案是双品牌、双网站、共享买家与物流&lt;/strong&gt;，ACV 作为独立子公司由原团队运营。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;最需要警惕的一点是：&lt;strong&gt;这场电话会里，没有一个分析师追问利润下滑本身&lt;/strong&gt;。所有人的注意力都被19亿美元的收购吸走了。对一家净利润刚刚下滑17.4%的公司来说，这种注意力的转移对管理层是有利的——但对投资者来说，下个季度当收购的新鲜感过去、而单车成本还没降下来的时候，这些问题会重新回来。&lt;/p&gt;
+
+&lt;p&gt;Adair 在结束时说：「我等不及要汇报下个季度了。」这句话可以当成一个承诺来记。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;数据来源&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/09/11/copart-cprt-q4-2026-earnings-call-transcript/&quot;&gt;The Motley Fool：Copart（CPRT）FY2026 Q4 业绩电话会完整实录&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/900075/000119312526387902/cprt-ex99_1.htm&quot;&gt;Copart 2026财年第四季度及全年财报新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322dex991.htm&quot;&gt;Copart 收购 ACV 的新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322d8k.htm&quot;&gt;Copart 关于合并协议的 Form 8-K（含要约收购与合并条款）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.copart.com/investorRelations&quot;&gt;Copart 投资者关系网站&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://finance.yahoo.com/markets/stocks/articles/company-news-sep-14-2026-132800928.html&quot;&gt;Yahoo Finance / Zacks：Company News for Sep 14, 2026（股价反应与市场预期）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 15 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/15/copart_fy2026q4_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/15/copart_fy2026q4_earnings_call/</guid>
+        
+        <category>Copart</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>Copart 2026财年Q4——营收11.5亿美元同比仅增2.4%，净利润大跌17.4%，同日宣布19亿美元收购ACV</title>
+        <description>&lt;p&gt;美东时间2026年9月10日盘后（北京时间9月11日凌晨），&lt;a href=&quot;https://www.copart.com/investorRelations&quot;&gt;Copart&lt;/a&gt;（纳斯达克代码CPRT）发布了2026财年第四季度及全年财报，对应会计期间是截至2026年7月31日的三个月和十二个月。&lt;/p&gt;
+
+&lt;p&gt;同一天，公司还扔出了另一份公告——&lt;strong&gt;以每股10.50美元全现金、合计约19亿美元收购数字二手车拍卖平台 ACV（纽交所代码ACVA）&lt;/strong&gt;。这是 Copart 历史上金额最大的一笔收购。&lt;/p&gt;
+
+&lt;p&gt;先看这份财报最核心的三个数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;第四季度营收11.52亿美元&lt;/strong&gt;，同比增长2.4%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;第四季度归属于 Copart 的净利润3.27亿美元&lt;/strong&gt;，同比下滑17.4%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;第四季度稀释每股收益0.35美元&lt;/strong&gt;，去年同期0.41美元，同比下滑14.6%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;营收在涨、利润在掉，这是 Copart 这份财报最刺眼的地方。市场的反应也很直接：9月11日当天 CPRT 股价下跌约2.6%，而被收购方 ACV 的股价盘后一度暴涨超过40%。&lt;/p&gt;
+
+&lt;p&gt;这篇文章想回答的问题是——&lt;strong&gt;一家常年经营利润率超过35%、几乎没有对手的「收费站」型公司，为什么突然利润下滑，又为什么要在这个时候花19亿美元买一家公司？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-copart-到底是做什么的&quot;&gt;1. Copart 到底是做什么的&lt;/h2&gt;
+
+&lt;p&gt;Copart 成立于1982年，做的是&lt;strong&gt;事故车（salvage vehicle）在线拍卖&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;business model 其实很朴素：一辆车出了车祸，保险公司评估后发现修车费超过车辆价值，就会把它判定为「全损」（total loss），赔钱给车主，然后车归保险公司。保险公司不想留着这堆废铁，就交给 Copart 去卖。Copart 把车拖到自己的场地、拍照、上架、办手续，在网上开拍，卖给全球的拆车厂、修车厂、出口商和个人买家，然后从中收取服务费。&lt;/p&gt;
+
+&lt;p&gt;这里有两个关键术语先解释清楚：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;服务收入（Service revenues）&lt;/strong&gt;：Copart 只是代卖，车不归自己，收的是佣金和各项服务费。这是高毛利生意，FY2026 占总收入的85%。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;车辆销售收入（Vehicle sales）&lt;/strong&gt;：Copart 自己先把车买下来再卖，赚差价。这部分要把整车售价计入收入，所以收入体量大但毛利率低（FY2026 美国自购车毛利率6.7%）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Copart 的护城河可以用一个词概括：&lt;strong&gt;流动性（liquidity）&lt;/strong&gt;。它在11个国家有250多个场地（电话会上CEO说「275+」），全球约100万注册会员遍布185个国家。买家越多，成交价越高；成交价越高，保险公司越愿意把车交给它；车越多，买家越愿意来。这是一个典型的双边网络效应飞轮。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-这一年的生意环境变了&quot;&gt;2. 这一年的生意环境变了&lt;/h2&gt;
+
+&lt;p&gt;Copart 的单量直接取决于两件事：&lt;strong&gt;车祸有多少&lt;/strong&gt;，以及&lt;strong&gt;出了车祸的车里有多少比例被判全损&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;FY2026 这两件事的方向是相反的：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;车祸在变少&lt;/strong&gt;：碰撞索赔频率（collision claim frequency）同比下降3.4%。车越来越智能，自动紧急刹车这类主动安全配置正在真实地减少事故。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;全损比例在变高&lt;/strong&gt;：2026年第二季度全损率达到&lt;strong&gt;23.3%&lt;/strong&gt;，是历年第二季度的最高纪录，去年同期是22.4%。原因是修车太贵了——据CCC的数据，维修成本比2019年上涨超过50%，平均碰撞维修严重度（severity）超过每案6300美元，同比上涨8.8%，是三年多来最快的涨幅，而且已经连续四个季度加速。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;翻译成大白话：&lt;strong&gt;车祸总数在减少，但每次车祸「修不如换」的概率在上升&lt;/strong&gt;，两个力量互相抵消。这个季度，抵消的结果是负的。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-第四季度2026年5月1日至7月31日&quot;&gt;1. 第四季度（2026年5月1日至7月31日）&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;FY2026 Q4&lt;/th&gt;
+      &lt;th&gt;FY2025 Q4&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;服务收入&lt;/td&gt;
+      &lt;td&gt;9.695亿美元&lt;/td&gt;
+      &lt;td&gt;9.562亿美元&lt;/td&gt;
+      &lt;td&gt;+1.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;车辆销售收入&lt;/td&gt;
+      &lt;td&gt;1.829亿美元&lt;/td&gt;
+      &lt;td&gt;1.689亿美元&lt;/td&gt;
+      &lt;td&gt;+8.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;总营收&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;11.524亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;11.251亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+2.4%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;场地运营成本&lt;/td&gt;
+      &lt;td&gt;4.507亿美元&lt;/td&gt;
+      &lt;td&gt;4.185亿美元&lt;/td&gt;
+      &lt;td&gt;+7.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;自购车成本&lt;/td&gt;
+      &lt;td&gt;1.642亿美元&lt;/td&gt;
+      &lt;td&gt;1.474亿美元&lt;/td&gt;
+      &lt;td&gt;+11.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;毛利&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;4.814亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;5.097亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-5.5%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;管理费用（G&amp;amp;A）&lt;/td&gt;
+      &lt;td&gt;0.978亿美元&lt;/td&gt;
+      &lt;td&gt;0.839亿美元&lt;/td&gt;
+      &lt;td&gt;+16.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;经营利润&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;3.689亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;4.126亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-10.6%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净利息收入&lt;/td&gt;
+      &lt;td&gt;0.396亿美元&lt;/td&gt;
+      &lt;td&gt;0.498亿美元&lt;/td&gt;
+      &lt;td&gt;-20.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;归母净利润&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;3.274亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;3.964亿美元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-17.4%&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;稀释每股收益&lt;/td&gt;
+      &lt;td&gt;0.35美元&lt;/td&gt;
+      &lt;td&gt;0.41美元&lt;/td&gt;
+      &lt;td&gt;-14.6%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这张表把问题说得很清楚：&lt;strong&gt;营收只增长2.4%，但所有的成本项都在以两位数或接近两位数的速度增长&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;具体拆一下从营收到净利润这条链上，利润是怎么一层层被吃掉的：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;毛利层面&lt;/strong&gt;：场地运营成本增加3220万美元（+7.7%），自购车成本增加1680万美元（+11.4%），场地折旧摊销增加660万美元（+14.0%）。三项加起来远超2730万美元的营收增量，于是毛利率从45.3%掉到41.8%，毛利反而少了2830万美元。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;经营利润层面&lt;/strong&gt;：管理费用再涨1390万美元（+16.6%），经营利润率从36.7%降到32.0%。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;净利润层面&lt;/strong&gt;：还有两个「非经营」因素。一是净利息收入减少1020万美元（-20.5%）——因为公司这一年花了16.3亿美元回购股票，账上的现金变少了，利息自然少收；二是去年同期有一笔约1300万美元的资产处置收益，今年变成了380万美元的其他支出，一进一出差了近2000万美元。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;最后一层是税&lt;/strong&gt;。这个季度实际税率19.2%（去年17.4%），拖累不算大。&lt;/p&gt;
+
+&lt;p&gt;顺带说一句：稀释每股收益跌14.6%，比净利润跌17.4%要轻一些，原因就是回购——稀释股本从9.778亿股降到9.321亿股，减少了4.7%。回购确实在托住每股收益，但代价是利息收入的减少，这笔账其实是拆东墙补西墙。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-全财年fy2026&quot;&gt;2. 全财年（FY2026）&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;FY2026&lt;/th&gt;
+      &lt;th&gt;FY2025&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;46.66亿美元&lt;/td&gt;
+      &lt;td&gt;46.47亿美元&lt;/td&gt;
+      &lt;td&gt;+0.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利&lt;/td&gt;
+      &lt;td&gt;20.84亿美元&lt;/td&gt;
+      &lt;td&gt;21.00亿美元&lt;/td&gt;
+      &lt;td&gt;-0.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润&lt;/td&gt;
+      &lt;td&gt;16.53亿美元&lt;/td&gt;
+      &lt;td&gt;16.97亿美元&lt;/td&gt;
+      &lt;td&gt;-2.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归母净利润&lt;/td&gt;
+      &lt;td&gt;14.84亿美元&lt;/td&gt;
+      &lt;td&gt;15.52亿美元&lt;/td&gt;
+      &lt;td&gt;-4.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;稀释每股收益&lt;/td&gt;
+      &lt;td&gt;1.55美元&lt;/td&gt;
+      &lt;td&gt;1.59美元&lt;/td&gt;
+      &lt;td&gt;-2.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流&lt;/td&gt;
+      &lt;td&gt;16.04亿美元&lt;/td&gt;
+      &lt;td&gt;18.00亿美元&lt;/td&gt;
+      &lt;td&gt;-10.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资本开支&lt;/td&gt;
+      &lt;td&gt;3.37亿美元&lt;/td&gt;
+      &lt;td&gt;5.69亿美元&lt;/td&gt;
+      &lt;td&gt;-40.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;股票回购&lt;/td&gt;
+      &lt;td&gt;16.33亿美元&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;全年营收几乎原地踏步（+0.4%）。管理层给出的解释是口径问题：FY2025 里包含了飓风 Helene 和 Milton 带来的一次性泡水车业务量，&lt;strong&gt;剔除这两场飓风的影响，FY2026 营收增长2.4%&lt;/strong&gt;。这个说法是合理的——自然灾害对 Copart 是典型的「不可持续的顺风」。&lt;/p&gt;
+
+&lt;p&gt;但即便按剔除飓风的口径，2.4%的增长对一家过去十年习惯了两位数增长的公司来说，依然是明显的失速。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-资产负债表一座现金山但正在变矮&quot;&gt;3. 资产负债表：一座现金山，但正在变矮&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;现金及等价物 &lt;strong&gt;19.08亿美元&lt;/strong&gt;（去年同期27.81亿）&lt;/li&gt;
+  &lt;li&gt;持有至到期证券 &lt;strong&gt;25.82亿美元&lt;/strong&gt;（去年同期20.09亿）&lt;/li&gt;
+  &lt;li&gt;两项合计约 &lt;strong&gt;44.90亿美元&lt;/strong&gt;，比去年的47.89亿减少约3亿&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;有息负债为零&lt;/strong&gt;，股东权益90.97亿美元&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一年之内现金下降主要有两个去处：16.33亿美元回购股票，3.37亿美元资本开支。值得注意的是&lt;strong&gt;留存收益从80.93亿降到79.81亿&lt;/strong&gt;——回购金额超过了当年净利润，公司在实打实地把钱还给股东。&lt;/p&gt;
+
+&lt;p&gt;这也解释了为什么它有底气做19亿美元的全现金收购：即便付完 ACV 的钱，CEO 在电话会上说账上仍有&lt;strong&gt;超过20亿美元现金&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h1 id=&quot;三分业务与分地区解读&quot;&gt;三、分业务与分地区解读&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-美国收入基本停滞利润在缩水&quot;&gt;1. 美国：收入基本停滞，利润在缩水&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;美国分部&lt;/th&gt;
+      &lt;th&gt;FY2026 Q4&lt;/th&gt;
+      &lt;th&gt;FY2025 Q4&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;9.303亿美元&lt;/td&gt;
+      &lt;td&gt;9.263亿美元&lt;/td&gt;
+      &lt;td&gt;+0.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润&lt;/td&gt;
+      &lt;td&gt;3.122亿美元&lt;/td&gt;
+      &lt;td&gt;3.575亿美元&lt;/td&gt;
+      &lt;td&gt;-12.7%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;美国是 Copart 的大本营，贡献了全年81.6%的收入。但这个季度美国单量同比下降5.7%，全年下降6.9%，其中&lt;strong&gt;保险车辆单量Q4下降7.5%、全年下降8%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;CEO 在电话会上给出了一个关键说明：&lt;strong&gt;如果剔除一家流失客户的影响，美国保险业务的委托量本应是增长2.3%的&lt;/strong&gt;。也就是说，8%的降幅里有相当一部分来自单一客户的丢失，而不是整个行业在崩。这个信息对判断趋势很重要，但公司没有披露这家客户是谁、占比多少，投资者只能选择相信或不相信。&lt;/p&gt;
+
+&lt;p&gt;好消息藏在非保险业务里：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;美国非保险单量Q4同比转正，增长0.2%&lt;/strong&gt;（全年为-3.9%）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;经销商单量Q4增长5.8%&lt;/strong&gt;，全年增长3.9%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;BluCar（服务银行、租车和车队客户的品牌）Q4增长近20%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Copart Direct（公司自购模式）Q4下降11.7%、全年下降34.5%，这是公司主动收缩的结果&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;价格端表现不错：美国平均成交价（ASP）Q4上涨4.2%、全年上涨5.5%；其中非保险车辆ASP上涨5.9%，Copart Direct 的ASP更是上涨29.2%。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-国际增长引擎但利润转化在变差&quot;&gt;2. 国际：增长引擎，但利润转化在变差&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;国际分部&lt;/th&gt;
+      &lt;th&gt;FY2026 Q4&lt;/th&gt;
+      &lt;th&gt;FY2025 Q4&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;2.221亿美元&lt;/td&gt;
+      &lt;td&gt;1.988亿美元&lt;/td&gt;
+      &lt;td&gt;+11.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利&lt;/td&gt;
+      &lt;td&gt;0.776亿美元&lt;/td&gt;
+      &lt;td&gt;0.694亿美元&lt;/td&gt;
+      &lt;td&gt;+11.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润&lt;/td&gt;
+      &lt;td&gt;0.568亿美元&lt;/td&gt;
+      &lt;td&gt;0.551亿美元&lt;/td&gt;
+      &lt;td&gt;+3.0%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;国际业务的营收和毛利都保持了接近12%的增长，单量增长10%，其中保险单量增长11.2%。CFO 说公司现在&lt;strong&gt;在所有国际市场都已实现盈利&lt;/strong&gt;，这是一个此前没有做到的里程碑。&lt;/p&gt;
+
+&lt;p&gt;但要注意一个细节：&lt;strong&gt;国际分部的毛利增长11.8%，经营利润却只增长3.0%&lt;/strong&gt;。原因是国际管理费用从1433万美元涨到2090万美元，同比增长45.8%。国际业务正在从「跑通模式」进入「铺开摊子」阶段，费用前置是正常的，但短期会压制利润转化。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-一个容易被忽略的数字国际买家&quot;&gt;3. 一个容易被忽略的数字：国际买家&lt;/h2&gt;
+
+&lt;p&gt;FY2026，来自美国境外的买家买走了 Copart 美国&lt;strong&gt;38.2%的车辆&lt;/strong&gt;，但贡献了&lt;strong&gt;45.7%的销售金额&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这意味着国际买家买的车明显比国内买家更贵。对 Copart 来说，这既是护城河（没人能复制这个全球买家网络），也是风险敞口（关税、汇率、贸易政策任何一项变化都会直接冲击成交价）。&lt;/p&gt;
+
+&lt;h1 id=&quot;四19亿美元收购acv这笔交易在买什么&quot;&gt;四、19亿美元收购ACV：这笔交易在买什么&lt;/h1&gt;
+
+&lt;p&gt;这是这份财报里信息量最大的部分。&lt;/p&gt;
+
+&lt;h2 id=&quot;1-交易条款&quot;&gt;1. 交易条款&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;对价&lt;/strong&gt;：每股10.50美元全现金，隐含股权价值约&lt;strong&gt;19亿美元&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;溢价&lt;/strong&gt;：较 ACV 在2026年8月10日（媒体报道潜在交易前的最后一个交易日）的未受影响收盘价溢价约&lt;strong&gt;45%&lt;/strong&gt;；较截至9月9日的30日成交量加权均价溢价约&lt;strong&gt;41%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;结构&lt;/strong&gt;：先发起要约收购（tender offer），接受股份数需超过 ACV 已发行股份的50%，随后根据特拉华州公司法251(h)条款直接合并，&lt;strong&gt;无需再开股东大会&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;资金&lt;/strong&gt;：全部来自自有现金，&lt;strong&gt;无融资条件&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;进度&lt;/strong&gt;：双方董事会已一致批准，需通过反垄断审查（HSR法案），预计&lt;strong&gt;2026日历年年底前完成交割&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;顾问&lt;/strong&gt;：Evercore 担任 Copart 财务顾问，J.P. Morgan 担任 ACV 独家财务顾问并出具公平意见&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-acv是谁&quot;&gt;2. ACV是谁&lt;/h2&gt;
+
+&lt;p&gt;ACV 是一家&lt;strong&gt;几乎不持有土地&lt;/strong&gt;的数字二手车批发拍卖平台，主要服务经销商与经销商之间的交易（dealer-to-dealer）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;每年成交&lt;strong&gt;超过80万辆&lt;/strong&gt;车&lt;/li&gt;
+  &lt;li&gt;2025年&lt;strong&gt;商品交易总额（GMV）约100亿美元&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2.2万以上活跃买家&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;核心资产是检测技术（如 VIPER）、车况报告和AI估值工具&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3-为什么是现在&quot;&gt;3. 为什么是现在&lt;/h2&gt;
+
+&lt;p&gt;把 Copart 的处境和这笔交易放在一起看，逻辑就很清楚了：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Copart 的主业正在触碰天花板。&lt;/strong&gt; 保险事故车的单量取决于车祸数量，而车祸数量在结构性下降。全损率上升能部分对冲，但对冲不了全部。要继续增长，必须走出「事故车」这个池子，进入更大的&lt;strong&gt;整车（whole car）批发市场&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;Copart 自己做过这件事——2007年成立经销商服务，后来又推出 BluCar、Copart Direct，如今非保险业务已占总量约四分之一。但在电话会上，分析师 John Healy 直接指出：这些尝试「有进展，但没有达到预期的声量」。CEO Jay Adair 承认，要打进&lt;strong&gt;特许经销商（franchise dealer）&lt;/strong&gt;和更高价值的置换车市场，「确实需要一个不同的产品」。&lt;/p&gt;
+
+&lt;p&gt;买 ACV，本质上是&lt;strong&gt;用19亿美元买一个自己做了近20年都没完全做成的入口&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;两家公司的互补性也确实存在：Copart 有250多个实体场地和全球买家网络，但缺经销商关系；ACV 有经销商关系和检测技术，但几乎没有土地，车辆大多停在经销商自己的停车场上，物流和仓储是它的短板。&lt;/p&gt;
+
+&lt;h2 id=&quot;4-财务上划不划算&quot;&gt;4. 财务上划不划算&lt;/h2&gt;
+
+&lt;p&gt;按19亿美元买一家年GMV约100亿美元的平台，&lt;strong&gt;约0.19倍GMV&lt;/strong&gt;。作为对照，Copart 自己 FY2026 卖了超过400万辆车，营收46.7亿美元。&lt;/p&gt;
+
+&lt;p&gt;管理层的说法是：&lt;strong&gt;交易在收购后的第一个完整年度对每股收益「持平」，从2027财年之后（即FY2028）开始增厚&lt;/strong&gt;。这里要注意，CEO 在讲稿里说的是「第一个完整年度增厚」，被分析师追问后，CFO Leah Stearns 做了明确澄清——&lt;strong&gt;当前年度打平，FY2028 才是真正增厚的年份&lt;/strong&gt;。以公司书面新闻稿和CFO的口径为准。&lt;/p&gt;
+
+&lt;p&gt;换句话说：这19亿美元&lt;strong&gt;至少两年内不会给每股收益带来增量&lt;/strong&gt;。对一家利润已经在下滑的公司来说，这是一个需要耐心的赌注。&lt;/p&gt;
+
+&lt;h1 id=&quot;五亮点与隐忧&quot;&gt;五、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;国际业务全面盈利且保持双位数增长&lt;/strong&gt;，单量+10%、收入+11.7%，且管理层明确表示要继续向新国家扩张。CEO 说他们「已经搞懂了德国模式」，接下来要在欧洲铺开。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;非保险业务出现拐点&lt;/strong&gt;，美国非保险单量在Q4转正（+0.2%），经销商单量+5.8%、BluCar +20%，这是多元化战略第一次给出正向读数。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;定价能力依然完好&lt;/strong&gt;。全球ASP上涨3.5%，跑赢曼海姆二手车价值指数（Manheim Used Vehicle Value Index）的2.8%。在单量下滑的同时还能涨价，说明拍卖场的流动性没有受损。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;零负债 + 约45亿美元现金和短期投资&lt;/strong&gt;，即便全现金买下 ACV 仍有充足余量。这种资产负债表在同行里极为罕见。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;买家池在扩大&lt;/strong&gt;。加入不到1年的新买家贡献了FY2026 总销量的8.9%（FY2025为8.3%），不到2年的买家贡献21.7%。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;成本失控是眼下最实在的问题&lt;/strong&gt;。CEO 自己在电话会上承认「单车运营费用Q4同比上涨12.7%」。管理层说这大部分是主动投资（长途运输服务、TitleExpress产权服务、25个专用批发场地），但无论主动被动，利润表上的减少是真实的。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;美国保险主业连续两年下滑&lt;/strong&gt;，FY2026 单量-8%。管理层用「剔除一家流失客户就是+2.3%」来解释，但这家客户的具体影响无法被外部验证。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;回购的副作用开始显现&lt;/strong&gt;。花16.3亿美元回购换来股本减少4.7%，但净利息收入下降20.5%。在利率仍然不低的环境里，把生息现金换成股票，短期是拉低利润的。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ACV 至少两年不增厚每股收益&lt;/strong&gt;，还要承担整合、培训、场地改造和技术投入的成本。Copart 过去的收购规模都小得多，这次是量级不同的挑战。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;公司完全不给业绩指引&lt;/strong&gt;。电话会上分析师三次试探明年的利润率和成本走向，CEO 的回答是「我们不给指引，你们看结果」。这在顺风期是自信，在逆风期会放大市场的不确定性折价。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;六展望与总结&quot;&gt;六、展望与总结&lt;/h1&gt;
+
+&lt;p&gt;把这份财报和这笔收购放在一起看，Copart 正在经历一次&lt;strong&gt;身份转换&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;过去二十年，它是一家近乎完美的「收费站」生意：保险公司别无选择，Copart 坐收佣金，经营利润率长期在35%以上，几乎不需要资本开支之外的投入。&lt;/p&gt;
+
+&lt;p&gt;但这个收费站的车流量正在变少。碰撞频率的下降不是周期性的，而是技术性的——ADAS（高级驾驶辅助系统）普及是不可逆的。全损率上升能顶一阵子（Adair 在电话会上讲了一个很生动的例子：一辆新特斯拉有约1亿行代码，比 Windows 10 的5000万行还多一倍，车正在变成「装轮子的电脑」，越复杂就越修不起，全损率还会继续升），但这只是把天花板抬高，不是拆掉天花板。&lt;/p&gt;
+
+&lt;p&gt;所以 Copart 选择了同时做两件事：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;对内&lt;/strong&gt;：花钱建长途运输、产权服务、专用批发场地，把单车收入从5.4%的增速继续往上推——代价是眼下的利润率&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;对外&lt;/strong&gt;：花19亿美元买下 ACV，直接买进特许经销商渠道——代价是两年内的每股收益增量&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这两件事都指向同一个判断：&lt;strong&gt;管理层认为增长比当下的利润率更重要&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;对投资者来说，接下来两到三个季度有三个很具体的观察点：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;单车运营费用能不能降下来&lt;/strong&gt;。CEO 承诺「会往下走」，这是可验证的。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ACV 交易能否在日历年年底前完成交割&lt;/strong&gt;，反垄断审查是最大变数——Copart 和 ACV 在整车批发领域是存在竞争关系的。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;美国非保险单量的正增长能否延续&lt;/strong&gt;。Q4的+0.2%只是刚刚转正，还谈不上趋势。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;一份营收+2.4%、净利润-17.4%的财报，配上一笔19亿美元的收购，市场给了-2.6%的回应。这个反应算得上克制——它既没有为「失速」恐慌，也没有为「转型」买单，而是选择了等待答案。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;数据来源&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/900075/000119312526387902/cprt-ex99_1.htm&quot;&gt;Copart 2026财年第四季度及全年财报新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/900075/000119312526387902/cprt-20260910.htm&quot;&gt;Copart 2026年9月10日业绩 Form 8-K&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322dex991.htm&quot;&gt;Copart 收购 ACV 的新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322d8k.htm&quot;&gt;Copart 关于合并协议的 Form 8-K（含要约收购与合并条款）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.copart.com/investorRelations&quot;&gt;Copart 投资者关系网站&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/09/11/copart-cprt-q4-2026-earnings-call-transcript/&quot;&gt;The Motley Fool：Copart FY2026 Q4 业绩电话会实录&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://finance.yahoo.com/markets/stocks/articles/company-news-sep-14-2026-132800928.html&quot;&gt;Yahoo Finance / Zacks：Company News for Sep 14, 2026（股价反应与市场预期）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.insurancejournal.com/news/east/2026/09/14/884939.htm&quot;&gt;Insurance Journal：Copart to Buy ACV Auctions in 1.9 Billion Deal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 15 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/15/copart_fy2026q4_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/15/copart_fy2026q4_earnings/</guid>
+        
+        <category>Copart</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.14</title>
@@ -1274,453 +1996,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>甲骨文2027财年Q1电话会——全年资本开支上看950亿美元，GPU利用率97.9%，管理层回避自由现金流转正时间表</title>
-        <description>&lt;p&gt;美东时间2026年9月10日下午4点（美中时间），甲骨文在发布2027财年第一季度财报后召开业绩电话会。参会管理层是首席财务官 Hilary Maxson、联席首席执行官 Clay Magouyrk 与 Mike Sicilia，投资者关系高级副总裁 Ken Bond 主持。&lt;/p&gt;
-
-&lt;p&gt;这是甲骨文进入「双CEO」架构后的又一次业绩沟通。Magouyrk 出身 OCI（甲骨文云基础设施）体系，负责基础设施；Sicilia 负责应用与行业软件。两人的分工在这场电话会上体现得非常清楚。&lt;/p&gt;
-
-&lt;p&gt;财报本身的数字（营收193亿美元+30%、IaaS +121%、RPO 6640亿美元）我们在同日发布的财报解读文章里已经拆过。这篇文章只关注电话会上的&lt;strong&gt;增量信息&lt;/strong&gt;——那些财报新闻稿里没有写、只有在管理层开口和分析师追问中才出现的东西。&lt;/p&gt;
-
-&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-cfo-hilary-maxson首次给出全年资本开支指引&quot;&gt;1. CFO Hilary Maxson：首次给出全年资本开支指引&lt;/h2&gt;
-
-&lt;p&gt;Maxson 用「加速」（acceleration）来概括这个季度。除了复述财报数字外，她给出了三条财报里没有的关键信息：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，全年资本开支指引900亿至950亿美元，扣除客户预付款后约700亿美元。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这是本场电话会最重要的一个数字。作为对比，甲骨文2026财年全年资本开支是556.63亿美元。也就是说，2027财年的资本开支还要再增长六到七成。&lt;/p&gt;
-
-&lt;p&gt;「扣除预付后约700亿美元」这个说法值得留意——它意味着有约200亿至250亿美元的建设资金，实际上是由客户提前付款覆盖的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，本季RPO增加260亿美元，其中大部分通过预付款或「客户自带硬件」模式实现。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这解释了财报新闻稿里那句「不会对融资计划产生增量影响」。甲骨文正在把AI算力生意的资本压力，尽可能地转移到客户那一侧。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，200亿美元的股权发行已经完成。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-联席ceo-clay-magouyrk交付利用率与溢价&quot;&gt;2. 联席CEO Clay Magouyrk：交付、利用率与溢价&lt;/h2&gt;
-
-&lt;p&gt;Magouyrk 负责基础设施，他给出的几个运营指标是这场电话会的精华：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;自上季度末以来交付 &lt;strong&gt;850兆瓦&lt;/strong&gt;容量、超过 &lt;strong&gt;30万块GPU&lt;/strong&gt;，本季交付量接近上季度的3倍，相当于整个2026财年交付容量的 &lt;strong&gt;73%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;GPU利用率 97.9%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;续租容量的价格有 &lt;strong&gt;20%的溢价&lt;/strong&gt;，而且续租的大多是&lt;strong&gt;已经使用四年以上的老GPU&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;位于德州 Abilene 的数据中心本季交付了 &lt;strong&gt;13.1万块GPU&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;本季签下超过300亿美元AI合同，&lt;strong&gt;不需要甲骨文追加资本&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;多云数据库收入同比增长353%&lt;/strong&gt;，客户数增长180%&lt;/li&gt;
-  &lt;li&gt;已有 &lt;strong&gt;70个多云区域、119个可用区&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;与 OpenAI、Gemini、Grok 等模型厂商的合作持续扩大&lt;/li&gt;
-  &lt;li&gt;APEX 平台上运行着超过200万个活跃应用&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这里面最值得琢磨的是「&lt;strong&gt;四年以上的老GPU续租还能涨价20%&lt;/strong&gt;」。市场对AI算力最大的担忧之一，就是GPU会像消费电子一样快速贬值——新一代芯片一出，上一代就没人要了。97.9%的利用率加上老卡续租溢价20%，是甲骨文对这个质疑最直接的反驳。&lt;/p&gt;
-
-&lt;p&gt;当然，这是单季数据，且只反映了当下供不应求的市场状态。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-联席ceo-mike-siciliaai不是要取代应用软件而是加速它&quot;&gt;3. 联席CEO Mike Sicilia：AI不是要取代应用软件，而是加速它&lt;/h2&gt;
-
-&lt;p&gt;Sicilia 负责的SaaS业务本季只增长了10%，是全公司最弱的一块。他的整套论述围绕一个核心命题展开：&lt;strong&gt;AI是应用软件的加速器，不是替代者&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;他给出的支撑数据是：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;SaaS收入增长10%，其中 Fusion（甲骨文的企业资源规划套件）增长 &lt;strong&gt;14%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Oracle Health（即原 Cerner 医疗业务）增速在加快，行业应用增长超过 &lt;strong&gt;20%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;客户使用嵌入式AI功能超过 &lt;strong&gt;1.5亿次&lt;/strong&gt;，环比增长 &lt;strong&gt;42%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;生产环境中的AI智能体执行次数达 &lt;strong&gt;350万次&lt;/strong&gt;，接近翻倍&lt;/li&gt;
-  &lt;li&gt;生产环境中部署的AI智能体达 &lt;strong&gt;2300个&lt;/strong&gt;，环比增长 &lt;strong&gt;90%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;发布 &lt;strong&gt;NetSuite Next&lt;/strong&gt;，带智能体AI能力；NetSuite AI Connector 已有超过 &lt;strong&gt;1万家&lt;/strong&gt;客户采用&lt;/li&gt;
-  &lt;li&gt;推出全新的智能体化医疗管理系统&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;二分析师问答中最有信息量的部分&quot;&gt;二、分析师问答中最有信息量的部分&lt;/h1&gt;
-
-&lt;h2 id=&quot;q1德意志银行-brad-zelnick如果竞争对手无限期地砸钱甲骨文会一直跟吗自由现金流什么时候转正&quot;&gt;Q1（德意志银行 Brad Zelnick）：如果竞争对手无限期地砸钱，甲骨文会一直跟吗？自由现金流什么时候转正？&lt;/h2&gt;
-
-&lt;p&gt;这是全场最尖锐的问题，也是所有投资者最想知道的问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Magouyrk 的回答&lt;/strong&gt;是：要把「甲骨文自己花的资本开支」和「甲骨文的增长上限」分开看——资本并不全部来自甲骨文，这反映的是「我们不断演化的商业模式」，其中包括客户自带硬件的安排。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Maxson 的回答&lt;/strong&gt;没有给出任何具体的时间表。她说的是：每个项目会实现「100%的税后EBITDA转化率」，在爬坡期结束后变成「自我造血」（self-funding）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看这个回答：&lt;/strong&gt;这是一个典型的「换维度作答」。分析师问的是「哪一个季度自由现金流会转正」，管理层回答的是「单个项目的经济模型是成立的」。这两件事不矛盾，但也不是一回事——只要甲骨文还在不断新开项目，整体自由现金流就会一直被新项目的爬坡期吃掉。&lt;/p&gt;
-
-&lt;p&gt;管理层不给时间表，本身就是信息。&lt;/p&gt;
-
-&lt;h2 id=&quot;q2瑞穗-siti-panigrahi新墨西哥和威斯康星的数据中心进展如何会不会影响2027财年收入&quot;&gt;Q2（瑞穗 Siti Panigrahi）：新墨西哥和威斯康星的数据中心进展如何？会不会影响2027财年收入？&lt;/h2&gt;
-
-&lt;p&gt;这个问题背后是市场上流传的、关于甲骨文部分数据中心项目延期的传闻。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Magouyrk 的回答&lt;/strong&gt;很直接：两个项目都不影响2027财年指引。「我们有些站点进度超前，有些更困难一些，我们会把它们全部解决。」新墨西哥项目因为要为 Bloom 燃料电池办理空气排放许可，进度受到影响，但仍在轨道上；威斯康星的数据中心交付「非常在轨」，并已经和电网侧建立了能源合作。&lt;/p&gt;
-
-&lt;p&gt;他强调的是「分散化的站点组合」——在全国有多个站点，单个站点的延误不会传导到全局。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;这是一个合格的危机公关回答。承认了个别站点有困难（可信度），同时用组合分散化来化解风险（结构性回答）。「空气排放许可」这个细节也说明，AI数据中心的瓶颈已经从芯片转移到了&lt;strong&gt;电力和审批&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;q3巴克莱-raimo-lenschow零部件成本在涨合同定价怎么变毛利率能守住吗&quot;&gt;Q3（巴克莱 Raimo Lenschow）：零部件成本在涨，合同定价怎么变？毛利率能守住吗？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Magouyrk 的回答&lt;/strong&gt;：「在需求超过供给的世界里，价格通常会上涨……我们会收更多钱来得到补偿。」此前给出的毛利率指引「仍然成立」。续租容量20%的溢价就是需求持续的证明。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;这句话的潜台词是——&lt;strong&gt;GPU和内存涨价的成本，甲骨文打算转嫁给客户&lt;/strong&gt;。这在当下供不应求的市场里是可行的，但它同时意味着甲骨文的毛利率完全绑定在「AI算力持续供不应求」这个前提上。一旦供需反转，价格和毛利率会同时向下。&lt;/p&gt;
-
-&lt;h2 id=&quot;q4伯恩斯坦-mark-moerdlerrpo增长到底是靠预付款还是靠客户自带芯片主权云的贡献如何&quot;&gt;Q4（伯恩斯坦 Mark Moerdler）：RPO增长到底是靠预付款还是靠客户自带芯片？主权云的贡献如何？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Magouyrk 的回答&lt;/strong&gt;：这些合同「不需要甲骨文追加现金」，实现方式有三种——供应商融资、客户预付款、客户自带硬件模式。客户结构「广泛」，既有创业公司也有投资级大企业。主权云与 Alloy 业务在日本、中东「表现良好」，也已经为主权工作负载部署了GPU能力。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;「既有创业公司也有投资级大企业」这句话是在回应市场对客户信用质量的担忧。但管理层没有给出具体的客户集中度数字（比如前五大客户占RPO的比例），这仍然是这份财报最大的信息盲区。&lt;/p&gt;
-
-&lt;h2 id=&quot;q5古根海姆-john-difucci毛利率为什么下滑这么多还会继续跌吗&quot;&gt;Q5（古根海姆 John DiFucci）：毛利率为什么下滑这么多？还会继续跌吗？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Maxson 的回答&lt;/strong&gt;：毛利率是一个「健康度指标」，但经营利润率才是「最终目标」。毛利率的压力来自数据中心的爬坡期，以及软件与基础设施之间的业务结构变化。她说，在爬坡期完成之后（未来一两年），「毛利率会走平」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;这是本场电话会里管理层最坦诚的一次承认——&lt;strong&gt;未来一到两年毛利率还会承压&lt;/strong&gt;。「走平」（flatten）这个词也很讲究：它说的是不再下滑，而不是回升。&lt;/p&gt;
-
-&lt;h2 id=&quot;q6杰富瑞-brent-thill市场担心ai会颠覆saas甲骨文怎么维持两位数的saas增长&quot;&gt;Q6（杰富瑞 Brent Thill）：市场担心AI会颠覆SaaS，甲骨文怎么维持两位数的SaaS增长？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Sicilia 的回答&lt;/strong&gt;：甲骨文的优势是「高度差异化」的跨行业端到端套件，AI是嵌入在工作流里的，「客户能快速获得价值，不需要外挂一个附加系统（sidecar）」。他提到 Oracle AI Agent Studio 和AI辅助上线，把实施周期从「几十个月压缩到个位数月份」。他还强调，SaaS业务同时是OCI的&lt;strong&gt;获客入口&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;「不需要外挂 sidecar」这句话是在影射那些独立的AI应用创业公司。至于「实施周期从几十个月缩短到个位数月份」——如果属实，这对企业软件行业的影响会比AI功能本身更大，因为实施成本一直是企业软件最大的隐性开支。但管理层没有说这个「个位数月份」覆盖了多大比例的项目。&lt;/p&gt;
-
-&lt;h2 id=&quot;q7evercore-isi-kirk-materneai-data-platform-的商业模式是什么是独立收费的软件还是拉动oci消耗的入口&quot;&gt;Q7（Evercore ISI Kirk Materne）：AI Data Platform 的商业模式是什么？是独立收费的软件，还是拉动OCI消耗的入口？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Sicilia 的回答&lt;/strong&gt;：「以上都是。」这个平台是数据源无关的，目前已支持数百种数据源的本体自动化生成，能同时拉动平台、应用和OCI的消耗。它还能帮助解锁多云数据库的增长——因为客户会借这个机会把本地数据库迁上云。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看：&lt;/strong&gt;结合财报里那句直接点名 Palantir 的话，甲骨文显然想在「企业私有数据 + AI推理」这个赛道上抢占位置。但「以上都是」这种回答，通常意味着商业模式还没有定型。&lt;/p&gt;
-
-&lt;h1 id=&quot;三这场电话会到底说明了什么&quot;&gt;三、这场电话会到底说明了什么&lt;/h1&gt;
-
-&lt;p&gt;把七个问答放在一起看，会发现分析师的火力高度集中在同一个方向：&lt;strong&gt;不是质疑需求，而是质疑财务可持续性。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;没有一个分析师问「订单会不会掉」「AI需求是不是泡沫」。所有问题都是关于——钱从哪来、毛利率守不守得住、现金流什么时候转正、数据中心建不建得完。&lt;/p&gt;
-
-&lt;p&gt;这本身就说明了市场共识的位置：&lt;strong&gt;AI算力的需求侧已经没有争议了，争议全部在供给侧的财务代价上。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;管理层这场电话会给出的核心答案有两条：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;把资本压力转移给客户&lt;/strong&gt;（预付款、自带硬件、供应商融资），所以订单增长不等于资本开支同步增长&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;单项目模型是赚钱的&lt;/strong&gt;（100%税后EBITDA转化率），整体现金流为负只是因为还在不断开新项目&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;这两条逻辑本身成立。问题在于，它们都建立在「需求持续超过供给」这个前提上。20%的续租溢价、97.9%的利用率是当下的证据；但一旦供需逆转，涨价转嫁不了、老卡续不上租、客户不愿意预付了，这套模型的每一环都会同时失效。&lt;/p&gt;
-
-&lt;p&gt;甲骨文押上的赌注规模是：&lt;strong&gt;全年900亿至950亿美元的资本开支，和1253亿美元的有息负债。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;四总结&quot;&gt;四、总结&lt;/h1&gt;
-
-&lt;p&gt;这场电话会最值得记住的三件事：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;2027财年资本开支指引900亿-950亿美元&lt;/strong&gt;（扣除客户预付后约700亿），比2026财年的557亿再增长六到七成&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;GPU利用率97.9%，四年以上老卡续租溢价20%&lt;/strong&gt;——这是甲骨文对「GPU快速贬值」质疑的最有力反驳&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;管理层拒绝给出自由现金流转正的时间表&lt;/strong&gt;，只说单个项目会「自我造血」&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;一份增长极强的财报，配上一场几乎全程在回答「你们怎么烧得起」的电话会。这就是2026年秋天，AI算力生意的真实处境。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;数据来源&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stockanalysis.com/stocks/orcl/transcripts/689425-q1-2027/&quot;&gt;Oracle Q1 FY2027 业绩电话会实录（StockAnalysis）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm&quot;&gt;甲骨文2027财年第一季度财报新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investor.oracle.com/&quot;&gt;甲骨文投资者关系网站与业绩电话会回放&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.marketbeat.com/instant-alerts/transcript-oracle-q1-earnings-call-highlights-2026-09-10/&quot;&gt;MarketBeat：Oracle Q1 Earnings Call Highlights&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html&quot;&gt;CNBC：Oracle’s stock jumps 7% on earnings beat as cloud infrastructure revenue more than doubles&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 11 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/11/oracle_fy2027q1_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/11/oracle_fy2027q1_earnings_call/</guid>
-        
-        <category>甲骨文</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>甲骨文2027财年Q1——营收193亿美元同比增长30%，云基础设施暴涨121%，但自由现金流仍为负54亿美元</title>
-        <description>&lt;p&gt;美东时间2026年9月10日盘后（北京时间9月11日凌晨），&lt;a href=&quot;https://investor.oracle.com/&quot;&gt;甲骨文&lt;/a&gt;（Oracle，纽交所代码ORCL）发布2027财年第一季度财报，对应会计期间是截至2026年8月31日的三个月。&lt;/p&gt;
-
-&lt;p&gt;先看三个最核心的数字：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;总营收193.45亿美元&lt;/strong&gt;，同比增长30%（按固定汇率口径同样是30%）&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;云基础设施（IaaS）收入74亿美元&lt;/strong&gt;，同比增长121%——这是这份财报里最炸裂的一个数&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;剩余履约义务（RPO）6640亿美元&lt;/strong&gt;，同比增加2090亿美元&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;非GAAP每股收益1.92美元，同比增长30%，远超市场预期的约1.73—1.74美元；GAAP每股收益1.56美元，同比增长55%。财报发布后，甲骨文股价在盘后交易中一度上涨约7%（当天正常交易时段收盘下跌5.38%至152.94美元）。&lt;/p&gt;
-
-&lt;p&gt;但这份财报还有另外一面：&lt;strong&gt;单季资本开支285亿美元，自由现金流为负53.96亿美元。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这篇文章想讲清楚的，就是这两面之间的关系。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-甲骨文现在是一家什么公司&quot;&gt;1. 甲骨文现在是一家什么公司&lt;/h2&gt;
-
-&lt;p&gt;很多人对甲骨文的印象还停留在「卖数据库的老牌软件公司」。这个印象在三年前还算准确，现在已经严重过时了。&lt;/p&gt;
-
-&lt;p&gt;本季度甲骨文的收入结构是这样的：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;业务线&lt;/th&gt;
-      &lt;th&gt;本季收入&lt;/th&gt;
-      &lt;th&gt;占比&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;云服务（IaaS + SaaS）&lt;/td&gt;
-      &lt;td&gt;116.07亿美元&lt;/td&gt;
-      &lt;td&gt;60%&lt;/td&gt;
-      &lt;td&gt;+62%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;软件（本地部署许可与技术支持）&lt;/td&gt;
-      &lt;td&gt;55.50亿美元&lt;/td&gt;
-      &lt;td&gt;29%&lt;/td&gt;
-      &lt;td&gt;-3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;服务&lt;/td&gt;
-      &lt;td&gt;14.14亿美元&lt;/td&gt;
-      &lt;td&gt;7%&lt;/td&gt;
-      &lt;td&gt;+5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;硬件&lt;/td&gt;
-      &lt;td&gt;7.74亿美元&lt;/td&gt;
-      &lt;td&gt;4%&lt;/td&gt;
-      &lt;td&gt;+15%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;云已经占到总收入的&lt;strong&gt;60%&lt;/strong&gt;，一年前这个比例还是48%。传统软件业务在萎缩（-3%），公司自己在财报里的解释是「反映客户持续从本地部署软件向云迁移」。&lt;/p&gt;
-
-&lt;p&gt;更关键的是云里面的结构。云收入116亿美元中，&lt;strong&gt;云基础设施（IaaS）74亿美元、同比+121%&lt;/strong&gt;，&lt;strong&gt;云应用（SaaS）42亿美元、同比+10%&lt;/strong&gt;。也就是说，甲骨文当下的增长几乎完全由一件事驱动——&lt;strong&gt;给AI公司出租算力&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-什么是rpo为什么它是这份财报的主角&quot;&gt;2. 什么是RPO，为什么它是这份财报的主角&lt;/h2&gt;
-
-&lt;p&gt;RPO（Remaining Performance Obligations，剩余履约义务）是一个会计术语，用大白话说就是：&lt;strong&gt;客户已经签了合同、但公司还没有交付、因此还没确认为收入的那部分金额&lt;/strong&gt;。可以理解成「在手订单」。&lt;/p&gt;
-
-&lt;p&gt;本季度甲骨文RPO达到&lt;strong&gt;6640亿美元&lt;/strong&gt;，同比增加2090亿美元。作为对比，公司2027财年全年的营收指引是「至少900亿美元」。也就是说，在手订单相当于&lt;strong&gt;7年多的营收&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;财报原文对这个数字的解释是：「客户对AI云训练和推理服务的需求持续快于供给增长。甲骨文本季度新签署了超过300亿美元的AI云合同。」&lt;/p&gt;
-
-&lt;p&gt;同时公司特意加了一句话：「基于这些新合同的结构安排，公司确认其融资计划不会因此产生额外的增量影响。」——这句话是说给债券投资人听的，意思是新订单不需要甲骨文再额外掏钱建数据中心（后面会讲到原因）。&lt;/p&gt;
-
-&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标（截至2026年8月31日的三个月）&lt;/th&gt;
-      &lt;th&gt;本季&lt;/th&gt;
-      &lt;th&gt;去年同期&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收&lt;/td&gt;
-      &lt;td&gt;193.45亿美元&lt;/td&gt;
-      &lt;td&gt;149.26亿美元&lt;/td&gt;
-      &lt;td&gt;+30%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;云收入&lt;/td&gt;
-      &lt;td&gt;116.07亿美元&lt;/td&gt;
-      &lt;td&gt;71.86亿美元&lt;/td&gt;
-      &lt;td&gt;+62%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总运营费用&lt;/td&gt;
-      &lt;td&gt;126.17亿美元&lt;/td&gt;
-      &lt;td&gt;106.49亿美元&lt;/td&gt;
-      &lt;td&gt;+18%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP经营利润&lt;/td&gt;
-      &lt;td&gt;67.28亿美元&lt;/td&gt;
-      &lt;td&gt;42.77亿美元&lt;/td&gt;
-      &lt;td&gt;+57%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP经营利润率&lt;/td&gt;
-      &lt;td&gt;35%&lt;/td&gt;
-      &lt;td&gt;29%&lt;/td&gt;
-      &lt;td&gt;+6.1个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP经营利润&lt;/td&gt;
-      &lt;td&gt;81.51亿美元&lt;/td&gt;
-      &lt;td&gt;62.36亿美元&lt;/td&gt;
-      &lt;td&gt;+31%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP经营利润率&lt;/td&gt;
-      &lt;td&gt;42%&lt;/td&gt;
-      &lt;td&gt;42%&lt;/td&gt;
-      &lt;td&gt;基本持平&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;利息支出&lt;/td&gt;
-      &lt;td&gt;14.28亿美元&lt;/td&gt;
-      &lt;td&gt;9.23亿美元&lt;/td&gt;
-      &lt;td&gt;+55%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;47.60亿美元&lt;/td&gt;
-      &lt;td&gt;29.27亿美元&lt;/td&gt;
-      &lt;td&gt;+63%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GAAP摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;1.56美元&lt;/td&gt;
-      &lt;td&gt;1.01美元&lt;/td&gt;
-      &lt;td&gt;+55%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;非GAAP摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;1.92美元&lt;/td&gt;
-      &lt;td&gt;1.47美元&lt;/td&gt;
-      &lt;td&gt;+30%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营性现金流&lt;/td&gt;
-      &lt;td&gt;231.03亿美元&lt;/td&gt;
-      &lt;td&gt;81.40亿美元&lt;/td&gt;
-      &lt;td&gt;+184%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;资本开支&lt;/td&gt;
-      &lt;td&gt;284.99亿美元&lt;/td&gt;
-      &lt;td&gt;85.02亿美元&lt;/td&gt;
-      &lt;td&gt;+235%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;自由现金流&lt;/td&gt;
-      &lt;td&gt;-53.96亿美元&lt;/td&gt;
-      &lt;td&gt;-3.62亿美元&lt;/td&gt;
-      &lt;td&gt;亏损扩大&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;这张表里有几个地方值得停下来看：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，GAAP利润率大涨，非GAAP利润率没怎么动。&lt;/strong&gt;GAAP经营利润率从29%升到35%，看起来很漂亮。但拆开看，主要功劳来自费用端的一次性因素：无形资产摊销从4.20亿降到2.02亿（-52%），重组费用从4.15亿降到0.94亿（-77%）。把这些加回去的非GAAP口径下，经营利润率是42%对41.8%，几乎没变。&lt;/p&gt;
-
-&lt;p&gt;换句话说，&lt;strong&gt;甲骨文在把收入规模做大30%的同时，并没有真正把单位经济效益做得更好&lt;/strong&gt;。这很正常——出租GPU算力本来就是一门比卖软件许可薄得多的生意。财报里云与软件业务的成本同比增长了77%（从36.07亿到64.00亿），增速远高于收入增速。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，销售费用和研发费用都在降。&lt;/strong&gt;销售与市场费用同比-12%，研发费用同比-4%。一家营收增长30%的公司，同时在砍销售和研发开支，这说明订单是「送上门」的而不是「跑出来」的——AI算力现在是卖方市场。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，折旧在爆炸式增长。&lt;/strong&gt;现金流量表里，本季折旧费用31.56亿美元，去年同期13.51亿美元，翻了1.3倍。这是几百亿美元资本开支开始进入损益表的信号。未来几个季度，折旧会持续吃掉利润率。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第四，也是最重要的一点：现金流。&lt;/strong&gt;经营性现金流231亿美元，同比+184%，这是个非常强的数字。但资本开支285亿美元，同比+235%，直接把自由现金流打到&lt;strong&gt;-53.96亿美元&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;作为参照，甲骨文2026财年全年自由现金流是&lt;strong&gt;-236.86亿美元&lt;/strong&gt;。连续两个财年大额为负。&lt;/p&gt;
-
-&lt;h1 id=&quot;三钱从哪里来&quot;&gt;三、钱从哪里来&lt;/h1&gt;
-
-&lt;p&gt;一家自由现金流为负的公司要继续扩张，钱只能从三个地方来：借债、发股、客户预付。这三条甲骨文都在用。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;借债。&lt;/strong&gt;资产负债表显示，长期有息负债1177.12亿美元，加上一年内到期的76.25亿美元，总有息负债约&lt;strong&gt;1253亿美元&lt;/strong&gt;。本季利息支出14.28亿美元，同比增长55%——这意味着年化利息成本已经接近60亿美元。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;发股。&lt;/strong&gt;财报明确披露：「2027财年第一季度，甲骨文通过ATM（At-the-Market）股权计划成功完成了200亿美元普通股的出售（扣除佣金前）。」这是一笔非常大的股权融资。同时，本季损益表首次出现了&lt;strong&gt;8100万美元的优先股股息&lt;/strong&gt;——说明公司还发行了优先股。这两项都会稀释现有股东。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;客户预付与客户自带硬件。&lt;/strong&gt;这是最有意思的一条。公司在财报里说新合同「不会对融资计划产生增量影响」，在业绩电话会上进一步解释了原因：新增RPO中的大部分，要么是客户预付款，要么是「客户自带硬件」（bring-your-own-hardware）模式——客户自己买GPU，甲骨文只提供数据中心和运营。这样一来，增长的资本压力被转移给了客户。&lt;/p&gt;
-
-&lt;p&gt;理解了这一点，你就理解了甲骨文这份财报的商业逻辑：&lt;strong&gt;它正在把自己从一家「重资产云厂商」改造成一家「AI数据中心运营商 + 资本中介」&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h1 id=&quot;四亮点与隐忧&quot;&gt;四、亮点与隐忧&lt;/h1&gt;
-
-&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;1. 交付能力被验证了。&lt;/strong&gt;这是本季最容易被忽略但最重要的进展。财报称，自上一财季末以来，甲骨文向AI云客户交付了&lt;strong&gt;超过30万块GPU&lt;/strong&gt;，新增数据中心容量&lt;strong&gt;850兆瓦&lt;/strong&gt;，是上一季度交付量的近三倍。&lt;/p&gt;
-
-&lt;p&gt;对AI算力生意来说，拿订单不难，难的是按期把电力、机柜、芯片装配起来交付。这个数字说明甲骨文的工程能力跟上了销售能力。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. 订单质量在改善。&lt;/strong&gt;300亿美元新签合同、且不需要甲骨文额外出资，比单纯的RPO数字更有价值。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. 利润端的绝对值增长是真实的。&lt;/strong&gt;净利润47.6亿美元，同比+63%，经营性现金流231亿美元，这些不是会计游戏。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. 指引大幅上调。&lt;/strong&gt;公司把2027财年全年营收指引提高到「至少900亿美元」，非GAAP每股收益指引提高到8.10美元。第二财季指引为营收增长30%-34%、云收入增长65%-71%（美元口径）。&lt;/p&gt;
-
-&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;1. 自由现金流看不到转正的时间表。&lt;/strong&gt;这是投资者最关心的问题，也是电话会上第一个被问到的问题。管理层给出的是「每个项目在爬坡完成后会实现自我造血」的定性回答，没有给出具体时间点。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. 客户集中度。&lt;/strong&gt;RPO 6640亿美元听起来惊人，但这类超大额AI合同天然集中在少数几家客户手里。任何一家客户的融资出问题、或AI资本开支节奏放缓，对甲骨文的影响都是量级上的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. 毛利率在下滑。&lt;/strong&gt;电话会上有分析师直接问了这个问题，CFO的回答是毛利率下滑来自数据中心爬坡期和「软件与基础设施的业务结构变化」，并表示爬坡期结束后（未来一两年）毛利率会走平。这等于承认了：在爬坡期内，毛利率还会继续承压。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. 股权与债务的双重稀释。&lt;/strong&gt;200亿美元ATM发股 + 优先股股息 + 1253亿美元有息负债，每股收益的增长是在一个不断扩大的分母上实现的。本季摊薄股本30.00亿股，去年同期29.09亿股，增加了3%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5. SaaS只有10%的增长。&lt;/strong&gt;云应用（SaaS）业务同比仅增长10%，是甲骨文的传统优势领域。在市场担心「AI会颠覆企业软件」的大背景下，这个增速偏弱。&lt;/p&gt;
-
-&lt;h1 id=&quot;五其他值得注意的信息&quot;&gt;五、其他值得注意的信息&lt;/h1&gt;
-
-&lt;p&gt;财报里还夹了两条产品消息，都是甲骨文想讲的新故事：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Oracle AI Data Platform 自动生成企业本体（Enterprise Ontology）。&lt;/strong&gt;「本体」听起来玄乎，其实就是「用机器能懂的方式，把一家公司的业务概念、数据关系和规则描述清楚」。甲骨文在财报里直接点名对手：「Palantir 开创了在企业私有数据上使用AI的先河，方式是为每个客户精心打造企业本体。而新的 Oracle AI Data Platform 完全自动化了企业本体的创建。」——这是一次相当罕见的公开对标。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;100%智能体化的医疗管理系统。&lt;/strong&gt;甲骨文推出了由AI智能体组成的电子病历与医疗管理系统，覆盖从全科到肿瘤科、放射科的各个专科。这是2022年收购 Cerner 之后，甲骨文在医疗业务上第一次给出清晰的AI叙事。&lt;/p&gt;
-
-&lt;p&gt;公司董事会还宣布派发每股0.50美元的季度现金股息，登记日2026年10月9日，支付日2026年10月23日。&lt;/p&gt;
-
-&lt;h1 id=&quot;六总结&quot;&gt;六、总结&lt;/h1&gt;
-
-&lt;p&gt;用一句话概括这份财报：&lt;strong&gt;甲骨文的AI云生意，规模、订单和交付能力都被验证了，但商业模式的可持续性还没有被验证。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;三个数字放在一起看最清楚：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;在手订单 &lt;strong&gt;6640亿美元&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;单季资本开支 &lt;strong&gt;285亿美元&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;自由现金流 &lt;strong&gt;-53.96亿美元&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;市场对这份财报的反应本身也很矛盾——正常交易时段股价跌5.38%，盘后又涨回约7%。这种分裂恰恰反映了当下的分歧：相信AI算力需求会持续兑现的人，看到的是6640亿美元订单；担心这轮资本开支周期会以过剩收场的人，看到的是1253亿美元债务和连续为负的自由现金流。&lt;/p&gt;
-
-&lt;p&gt;甲骨文自己给出的答案是「爬坡期结束后会自我造血」。这个答案能不能兑现，接下来几个季度的折旧曲线、毛利率走势和自由现金流缺口会给出验证。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;数据来源&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm&quot;&gt;甲骨文2027财年第一季度财报新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-20260910.htm&quot;&gt;甲骨文 2026年9月10日 Form 8-K&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investor.oracle.com/&quot;&gt;甲骨文投资者关系网站&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stockanalysis.com/stocks/orcl/transcripts/689425-q1-2027/&quot;&gt;Oracle Q1 FY2027 业绩电话会实录（StockAnalysis）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html&quot;&gt;CNBC：Oracle’s stock jumps 7% on earnings beat as cloud infrastructure revenue more than doubles&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 11 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/11/oracle_fy2027q1_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/11/oracle_fy2027q1_earnings/</guid>
-        
-        <category>甲骨文</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

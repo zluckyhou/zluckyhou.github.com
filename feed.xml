@@ -5,9 +5,346 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Sep 2026 10:22:51 +0800</pubDate>
-    <lastBuildDate>Tue, 15 Sep 2026 10:22:51 +0800</lastBuildDate>
+    <pubDate>Wed, 16 Sep 2026 09:15:22 +0800</pubDate>
+    <lastBuildDate>Wed, 16 Sep 2026 09:15:22 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>携程2026Q2——净收入157亿元同比增长6%，51.8亿反垄断罚款一次性砸出24亿净亏损</title>
+        <description>&lt;p&gt;北京时间2026年9月16日凌晨（美东时间9月15日18:00盘后），&lt;a href=&quot;https://investors.trip.com/&quot;&gt;携程集团&lt;/a&gt;（Trip.com Group，NASDAQ: TCOM，HKEX: 9961）发布2026年第二季度及上半年未经审计财报。&lt;/p&gt;
+
+&lt;p&gt;这是携程上市以来最”分裂”的一份财报：&lt;strong&gt;经营层面基本稳住了，报表层面却出现了一个巨大的黑洞。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;净收入156.63亿元人民币（约23.08亿美元），同比增长6%，环比下滑3%&lt;/li&gt;
+  &lt;li&gt;归属股东净亏损24.58亿元，而去年同期是净利润48.46亿元&lt;/li&gt;
+  &lt;li&gt;但剔除反垄断罚款后，净利润约27亿元；Non-GAAP归属股东净利润47.98亿元，同比只下滑约4%&lt;/li&gt;
+  &lt;li&gt;Non-GAAP摊薄每股收益7.27元，反而比去年同期的7.20元还高了一点&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;换句话说，这次的亏损&lt;strong&gt;不是生意做坏了，而是一张罚单一次性砸进了利润表&lt;/strong&gt;。下面把这两件事分开看。&lt;/p&gt;
+
+&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-业务概览&quot;&gt;1. 业务概览&lt;/h2&gt;
+
+&lt;p&gt;携程集团是亚洲最大的在线旅游平台，1999年成立，2003年在纳斯达克上市，2021年在港交所二次上市。目前旗下运营四个主要品牌：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;携程（Ctrip）&lt;/strong&gt;：国内主品牌，酒店机票大盘&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;去哪儿（Qunar）&lt;/strong&gt;：国内价格敏感型用户与下沉市场&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Trip.com&lt;/strong&gt;：国际站，面向亚太及全球用户&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Skyscanner（天巡）&lt;/strong&gt;：全球机票比价搜索入口&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;收入按四条业务线披露：住宿预订、交通票务、旅游度假（打包游）、商旅管理，另有”其他”（主要是广告、金融服务等）。&lt;/p&gt;
+
+&lt;p&gt;管理层这两年反复讲的战略叫 &lt;strong&gt;G2&lt;/strong&gt;，即”Globalization and Great Quality”（全球化与高品质）。执行董事会主席梁建章在本次财报中的表态是：「我们正在把自研AI能力推进到旅行旅程的每一个环节，以加速G2战略并打开新的增长空间。」&lt;/p&gt;
+
+&lt;h2 id=&quot;2-理解携程商业模式的一句话&quot;&gt;2. 理解携程商业模式的一句话&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;携程本质上是一个”佣金收单机构”&lt;/strong&gt;——它不拥有酒店、不拥有飞机，只是把住宿和交通的库存聚合起来卖给消费者，从中抽取佣金。这个模式的好处是不用背重资产、现金流极好（截至6月30日，现金及各类投资合计1005亿元，约148亿美元）；坏处是&lt;strong&gt;它的定价权高度依赖平台的议价地位&lt;/strong&gt;——而这正是本季度这张罚单的根源。&lt;/p&gt;
+
+&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
+
+&lt;p&gt;单位：人民币百万元。汇率按6月30日1美元=6.7851元人民币。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026Q2&lt;/th&gt;
+      &lt;th&gt;2025Q2&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+      &lt;th&gt;2026Q1（环比参考）&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净收入&lt;/td&gt;
+      &lt;td&gt;15,663&lt;/td&gt;
+      &lt;td&gt;14,843&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+6%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;16,208（环比-3%）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业成本&lt;/td&gt;
+      &lt;td&gt;3,160&lt;/td&gt;
+      &lt;td&gt;2,818&lt;/td&gt;
+      &lt;td&gt;+12%&lt;/td&gt;
+      &lt;td&gt;3,330&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品研发费用&lt;/td&gt;
+      &lt;td&gt;3,792&lt;/td&gt;
+      &lt;td&gt;3,500&lt;/td&gt;
+      &lt;td&gt;+8%&lt;/td&gt;
+      &lt;td&gt;4,062&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售与营销费用&lt;/td&gt;
+      &lt;td&gt;3,841&lt;/td&gt;
+      &lt;td&gt;3,326&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+15%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;3,747&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;管理费用&lt;/td&gt;
+      &lt;td&gt;6,332&lt;/td&gt;
+      &lt;td&gt;1,097&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+477%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;1,124&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营利润/（亏损）&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;(1,462)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;4,102&lt;/td&gt;
+      &lt;td&gt;转亏&lt;/td&gt;
+      &lt;td&gt;3,945&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其他收入/（损失）&lt;/td&gt;
+      &lt;td&gt;(1,199)&lt;/td&gt;
+      &lt;td&gt;1,114&lt;/td&gt;
+      &lt;td&gt;转亏&lt;/td&gt;
+      &lt;td&gt;176&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;归属股东净利润/（亏损）&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;(2,458)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;4,846&lt;/td&gt;
+      &lt;td&gt;转亏&lt;/td&gt;
+      &lt;td&gt;2,499&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP归属股东净利润&lt;/td&gt;
+      &lt;td&gt;4,798&lt;/td&gt;
+      &lt;td&gt;5,011&lt;/td&gt;
+      &lt;td&gt;-4%&lt;/td&gt;
+      &lt;td&gt;3,905（环比+23%）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经调整EBITDA&lt;/td&gt;
+      &lt;td&gt;4,565&lt;/td&gt;
+      &lt;td&gt;4,880&lt;/td&gt;
+      &lt;td&gt;-6%&lt;/td&gt;
+      &lt;td&gt;4,830&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经调整EBITDA利润率&lt;/td&gt;
+      &lt;td&gt;29%&lt;/td&gt;
+      &lt;td&gt;33%&lt;/td&gt;
+      &lt;td&gt;-4个百分点&lt;/td&gt;
+      &lt;td&gt;30%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Non-GAAP摊薄每股收益（元）&lt;/td&gt;
+      &lt;td&gt;7.27&lt;/td&gt;
+      &lt;td&gt;7.20&lt;/td&gt;
+      &lt;td&gt;+1%&lt;/td&gt;
+      &lt;td&gt;5.73&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;上半年合计：净收入318.71亿元，同比增长11%；经营利润24.83亿元，同比下滑68%；归属股东净利润仅0.41亿元（几乎归零），而去年同期是91.23亿元；Non-GAAP归属股东净利润87.03亿元，同比下滑5%。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;三个数字最值得注意：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，管理费用同比暴增477%。&lt;/strong&gt; 从10.97亿元跳到63.32亿元，占收入比例从7%飙到40%。原因只有一个：市场监管总局的反垄断罚款51.80亿元一次性计入。剔除这笔钱，管理费用是11.52亿元，同比仅增5%，占收入7%——完全正常。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，营收增长6%，正好落在指引中段。&lt;/strong&gt; 携程在6月的一季报电话会上给出的二季度指引是”同比增长约3%—8%”，当时被市场解读为”上市以来最慢”，股价创年内新低。最终交出6%，算是踩在了中间。华尔街对本季营收的一致预期约23亿美元，实际23.08亿美元，略超预期。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，Non-GAAP每股收益同比还涨了。&lt;/strong&gt; Non-GAAP净利润同比下滑4%，但每股收益同比增长1%，差额来自股本收缩：摊薄加权平均股数从6.957亿股降到6.594亿股，&lt;strong&gt;同比减少5.2%&lt;/strong&gt;。这意味着携程在持续回购，用注销股份对冲了利润端的压力。&lt;/p&gt;
+
+&lt;h1 id=&quot;三分业务解读国际在飞交通在拖&quot;&gt;三、分业务解读：国际在飞，交通在拖&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;业务线&lt;/th&gt;
+      &lt;th&gt;2026Q2收入&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+      &lt;th&gt;环比&lt;/th&gt;
+      &lt;th&gt;占总收入&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;住宿预订&lt;/td&gt;
+      &lt;td&gt;65.76亿元&lt;/td&gt;
+      &lt;td&gt;+6%&lt;/td&gt;
+      &lt;td&gt;+1%&lt;/td&gt;
+      &lt;td&gt;42%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;交通票务&lt;/td&gt;
+      &lt;td&gt;53.50亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-1%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;-12%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;34%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;旅游度假&lt;/td&gt;
+      &lt;td&gt;11.61亿元&lt;/td&gt;
+      &lt;td&gt;+8%&lt;/td&gt;
+      &lt;td&gt;+3%&lt;/td&gt;
+      &lt;td&gt;7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;商旅管理&lt;/td&gt;
+      &lt;td&gt;7.71亿元&lt;/td&gt;
+      &lt;td&gt;+11%&lt;/td&gt;
+      &lt;td&gt;+12%&lt;/td&gt;
+      &lt;td&gt;5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其他&lt;/td&gt;
+      &lt;td&gt;18.05亿元&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;+24%&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;-1%&lt;/td&gt;
+      &lt;td&gt;12%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;住宿预订：+6%，但这个数字被罚单压低了。&lt;/strong&gt; 公司明确说明，住宿收入的增长”部分被市场监管总局要求的冲减收入（contra-revenue）所抵消”。根据处罚决定，携程需退还向酒店多收的1.22亿元订单备付金，这笔钱按会计准则直接冲减收入，而不是计入费用。也就是说，如果没有这1.22亿元，住宿收入的真实增速会更接近7%。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;交通票务：同比-1%，环比-12%，是本季最大的拖累。&lt;/strong&gt; 公司给的解释是”高企的能源价格和地缘政治波动”等宏观逆风。翻译成大白话：&lt;strong&gt;油价涨了，机票贵了，长线飞行需求被压住了。&lt;/strong&gt; 交通票务占收入超三分之一，它一掉，整个大盘的增速就下来了。这也解释了为什么净收入环比会出现3%的下滑——一季度这块收入是60.50亿元，二季度只有53.50亿元，单这一项就少了7亿元。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;国际业务是唯一的全面加速项。&lt;/strong&gt; 财报把三个国际相关口径单独列为”关键亮点”：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;国际平台（Trip.com）收入同比&lt;strong&gt;增长超过50%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;入境游收入同比实现”高双位数”增长&lt;/li&gt;
+  &lt;li&gt;各个国际业务分项都实现了”强劲增长”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CEO孙洁（Jane Sun）的表述是：「入境游和’世界到世界’（world-to-world）的旅行需求正在持续获得动能，成为结构性增长驱动力。」”世界到世界”指的是既不涉及中国出发也不涉及中国到达的纯海外订单——这是携程真正意义上从”中国旅游公司”变成”全球旅游公司”的那块拼图。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“其他”收入同比+24%&lt;/strong&gt;，18.05亿元，是四条主业务线之外增长最快的部分，主要是广告和金融服务。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;商旅管理+11%&lt;/strong&gt;、环比+12%，在宏观逆风里逆势加速，说明企业出行预算在恢复。&lt;/p&gt;
+
+&lt;h1 id=&quot;四把那张罚单拆开看&quot;&gt;四、把那张罚单拆开看&lt;/h1&gt;
+
+&lt;p&gt;这是理解本季财报的关键，值得单独一节。&lt;/p&gt;
+
+&lt;p&gt;2026年1月，市场监管总局对携程立案调查。7月25日下发行政处罚决定（国市监处罚〔2026〕29号），7月27日携程公告”诚恳接受”。处罚构成：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;金额&lt;/th&gt;
+      &lt;th&gt;会计处理&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;没收违法所得&lt;/td&gt;
+      &lt;td&gt;16.58亿元&lt;/td&gt;
+      &lt;td&gt;计入管理费用&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;罚款&lt;/td&gt;
+      &lt;td&gt;35.21亿元&lt;/td&gt;
+      &lt;td&gt;计入管理费用&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;退还订单备付金&lt;/td&gt;
+      &lt;td&gt;1.22亿元&lt;/td&gt;
+      &lt;td&gt;冲减住宿预订收入&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;合计罚没&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;51.79亿元&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;其中35.21亿元罚款，相当于携程2025年境内销售额469.58亿元的&lt;strong&gt;7.5%&lt;/strong&gt;——这个比例在中国反垄断执法史上属于偏重的一档（法定上限是上一年度销售额的10%）。&lt;/p&gt;
+
+&lt;p&gt;被认定的违法行为有两类：一是对”特牌”酒店给流量和资源倾斜、换取独家合作；二是要求”金牌”及无标签酒店做”全网最低价”，强制跨平台经营的酒店把携程的价格保持在最低。用大白话说就是&lt;strong&gt;“二选一”加”最低价协议”&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;对读者而言，这张罚单有三层含义：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;财务上是一次性的。&lt;/strong&gt; 51.8亿元已在Q2全部计提完毕，不会再拖到后面的季度。剔除后Q2净利润约27亿元，环比一季度的25亿元还略有改善。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;经营上不是一次性的。&lt;/strong&gt; 被禁掉的”二选一”和”最低价”，过去恰恰是携程维持佣金率和价格优势的抓手。公司在财报里也承认，营收环比下滑的原因之一是”为适应不断演变的行业标准和合规框架而主动进行的运营调整”。&lt;strong&gt;这是长期的、对毛利率有持续影响的变化。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;不确定性反而下降了。&lt;/strong&gt; 靴子落地往往比悬着更好——7月底处罚公布时，携程港股是上涨的。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;五亮点与隐忧&quot;&gt;五、亮点与隐忧&lt;/h1&gt;
+
+&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;国际平台收入同比超50%增长&lt;/strong&gt;，且入境游同期高双位数增长。在国内大盘增速降到个位数的时候，国际是唯一还在给出高增速的引擎。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Non-GAAP盈利韧性很强。&lt;/strong&gt; Non-GAAP净利润47.98亿元，环比一季度39.05亿元增长23%，同比仅微降4%。经调整EBITDA 45.65亿元，利润率29%——在一边吃罚单、一边加营销的季度里，这个水平不算差。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;现金极其厚。&lt;/strong&gt; 1005亿元（148亿美元）的现金及投资，是51.8亿元罚款的近20倍。长期债务从年初的114.30亿元降到6.30亿元（大部分转入短期，短期债务从193.35亿元升到257.67亿元），债务结构在向短期集中，但以这个现金垫来看，偿付压力可以忽略。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;持续回购缩股。&lt;/strong&gt; 股数同比减5.2%，直接把每股收益顶住了。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;交通票务同比转负。&lt;/strong&gt; 这是携程第二大收入来源，同比-1%、环比-12%，如果油价和地缘因素持续，这块可能还要继续拖累。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;销售与营销费用同比+15%，快于收入增速6%的两倍以上&lt;/strong&gt;，占收入比例从22%升到25%。国际扩张和国内竞争都要花钱买流量，&lt;strong&gt;“增长越来越贵”的迹象是明确的&lt;/strong&gt;。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;投资端在失血。&lt;/strong&gt; 其他收入/损失从去年同期的+11.14亿元变成-11.99亿元，主因是股权投资和可交换债券的公允价值变动录得14.54亿元损失（去年同期是4.47亿元收益）。这跟主业无关，但确实吃掉了报表利润。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;经营利润率在下移。&lt;/strong&gt; 剔除罚款后的经营利润37.18亿元，同比下滑9%，经营利润率从27.6%降到23.7%——&lt;strong&gt;收入在涨，利润率在掉&lt;/strong&gt;，这是本季最需要盯住的趋势。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;六展望与总结&quot;&gt;六、展望与总结&lt;/h1&gt;
+
+&lt;p&gt;一句话总结这份财报：&lt;strong&gt;主业还在长，只是长得慢了；利润表被罚单砸了一个坑，但坑是一次性的。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;三条值得跟踪的主线：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，交通票务能不能回正。&lt;/strong&gt; 它占收入三分之一，同比转负是2026年出现的新情况。如果三季度（对应暑期旺季）还不能修复，说明宏观压力比公司描述的更持久。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，合规整改对佣金率的真实冲击有多大。&lt;/strong&gt; “二选一”和”最低价”被禁之后，酒店的议价能力上升，携程的实际佣金率会不会系统性下移？这在Q2的住宿收入里已经能看到端倪（+6%，且被冲减了1.22亿元），但完整影响可能要到三、四季度才会显现。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，国际业务的50%+增速能撑多久。&lt;/strong&gt; 这是目前唯一能对冲国内减速的引擎。Trip.com国际站和Skyscanner的规模在集团里仍然偏小，管理层没有单独披露国际业务的绝对收入体量，只给了增速——这一点对投资者来说信息是不够透明的。&lt;/p&gt;
+
+&lt;p&gt;对普通读者，可以这样理解：携程现在是一家”刚交完罚款、正在重新学习怎么和酒店做生意、同时把重心往海外挪”的公司。它账上有1000亿现金，短期不会有生存问题；但过去那套靠平台地位拿佣金的生意，规则已经被改写了。接下来它能不能靠国际化和AI找到新的增长逻辑，才是真正的考题。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;一手资料：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.prnewswire.com/news-releases/tripcom-group-limited-reports-unaudited-second-quarter-and-first-half-of-2026-financial-results-302878938.html&quot;&gt;Trip.com Group Limited Reports Unaudited Second Quarter and First Half of 2026 Financial Results（携程2026年第二季度及上半年未经审计财报官方新闻稿，2026年9月15日18:00 ET）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.prnewswire.com/news-releases/tripcom-group-sincerely-accepts-administrative-penalty-decision-issued-by-the-state-administration-for-market-regulation-of-the-peoples-republic-of-china-302834599.html&quot;&gt;Trip.com Group Sincerely Accepts Administrative Penalty Decision Issued by the State Administration for Market Regulation of the People’s Republic of China（携程接受反垄断处罚决定公告，2026年7月25日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.samr.gov.cn/xw/zj/art/2026/art_46d2c74cbd7249f189622dd030e3c3a7.html&quot;&gt;市场监管总局依法对携程集团有限公司实施垄断行为作出行政处罚并责令其全面整改&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.samr.gov.cn/zw/xzcfjd/art/2026/art_b1d5546730274f488a23aa524ccf6c67.html&quot;&gt;市场监管总局发布携程垄断案行政处罚决定书（国市监处罚〔2026〕29号）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://investors.trip.com/&quot;&gt;Trip.com Group 投资者关系页面&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://investors.trip.com/news-releases/news-release-details/tripcom-group-limited-reports-unaudited-first-quarter-2026&quot;&gt;Trip.com Group Limited Reports Unaudited First Quarter of 2026 Financial Results（一季报官方新闻稿，用于环比对照）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;媒体报道（仅用于补充分析师预期与股价反应等背景）：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.news.cn/20260725/a157103618f9406681f9af1aab1a85df/c.html&quot;&gt;罚没51.79亿元 市场监管总局对携程作出处罚 - 新华网&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.scmp.com/tech/policy/article/3361818/china-hits-tripcom-us765-million-antitrust-penalty-after-six-month-investigation&quot;&gt;China hits Trip.com with US$765 million antitrust penalty after 6-month investigation - South China Morning Post&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-07-27/trip-com-shares-jump-in-hong-kong-as-regulatory-overhang-clears&quot;&gt;Trip.com Fined in China Antitrust Case as Price Wars Continue - Bloomberg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nbd.com.cn/articles/2026-06-25/4436679.html&quot;&gt;携程2026年一季度净收入162亿元 预计第二季度增速大幅放缓 - 每日经济新闻&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;注：本文所有财务数字均取自官方新闻稿及其附表，与媒体报道口径不一致时以官方新闻稿为准。本季度业绩电话会于北京时间9月16日8:00召开，transcript尚未公开，待可获取后另作电话会解读。&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/16/tripcom_2026q2_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/16/tripcom_2026q2_earnings/</guid>
+        
+        <category>携程</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.15</title>
@@ -1758,250 +2095,6 @@
         <pubDate>Sat, 12 Sep 2026 00:00:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/blog/2026/09/12/kroger_fy2026q2_earnings_call/</link>
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/12/kroger_fy2026q2_earnings_call/</guid>
-        
-        <category>克罗格</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Kroger 2026财年Q2——同店销售只增0.2%、全年指引下调，每股收益却涨5%全靠回购</title>
-        <description>&lt;p&gt;美东时间2026年9月11日盘前（北京时间9月11日晚间），美国最大的传统超市连锁 &lt;a href=&quot;https://ir.kroger.com/&quot;&gt;Kroger&lt;/a&gt;（克罗格，纽交所代码KR）发布2026财年第二季度财报，对应会计期间是截至2026年8月15日的12周。&lt;/p&gt;
-
-&lt;p&gt;先看三个最核心的数字：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;总营收346.21亿美元&lt;/strong&gt;，同比增长2.0%（去年同期339.40亿美元）&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;剔除油品的同店销售（identical sales）只增长0.2%&lt;/strong&gt;，去年同期是3.4%——几乎停止增长&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;调整后每股收益1.09美元&lt;/strong&gt;，同比增长4.8%；按美国会计准则（GAAP）的每股收益1.05美元，同比增长15.4%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;公司同时干了一件看起来自相矛盾的事：&lt;strong&gt;把全年同店销售指引从「增长1%-2%」大幅下调到「增长0.2%-0.8%」，但全年利润和每股收益指引一个字都没改。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;市场的反应也很分裂。据媒体报道，财报出来后股价盘前一度跌约3%，但当天收盘反而涨3.09%到58.39美元。&lt;/p&gt;
-
-&lt;p&gt;这篇文章想回答的问题是——&lt;strong&gt;营收几乎不增长的超市，凭什么敢不下调利润指引？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-kroger-是一家什么公司&quot;&gt;1. Kroger 是一家什么公司&lt;/h2&gt;
-
-&lt;p&gt;Kroger 成立于1883年，总部在辛辛那提，是美国最大的传统超市集团（如果把沃尔玛、Costco 这类综合零售/会员店算进来，它排在后面）。按公司自己在财报里的说法，它旗下有多个超市品牌（Kroger、Ralphs、Fred Meyer、King Soopers、Harris Teeter 等），&lt;strong&gt;每天服务超过1100万名顾客，员工超过40万人&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;它的生意结构可以粗暴地拆成四块：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;卖食品杂货&lt;/strong&gt;：绝对主体，也是同店销售的主要来源&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;卖油（加油站）&lt;/strong&gt;：毛利率极低但体量大，所以 Kroger 讨论各种利润率时都会「剔除油品」（本文遇到的「剔除油品」都是这个意思）&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;药房（pharmacy）&lt;/strong&gt;：超市里的处方药柜台，这一块本季度出了大问题，下面详细说&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;零售媒体（Kroger Precision Marketing，简称KPM）&lt;/strong&gt;：把自己的 App、网站、货架数据卖给品牌商做广告。体量不大但毛利极高，是这几年利润增长的主要引擎&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-今年-kroger-最大的变量是新ceo&quot;&gt;2. 今年 Kroger 最大的变量是新CEO&lt;/h2&gt;
-
-&lt;p&gt;2026年2月9日，Kroger 董事会任命 &lt;strong&gt;Greg Foran 为首席执行官，即刻生效&lt;/strong&gt;，接替自2025年3月起担任临时CEO的 Ron Sargent。&lt;/p&gt;
-
-&lt;p&gt;Foran 的履历很有说服力：他曾任沃尔玛美国业务总裁兼CEO，管理4600多家门店、上百万员工，任内做到过连续20个季度同店销售正增长；2020到2025年他是新西兰航空的CEO。也就是说，这是一个&lt;strong&gt;既懂超市运营又刚刚在航空业做过一轮重整的人&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;理解这一点很重要：本季度的财报，本质上是「&lt;strong&gt;新CEO上任半年后的第一份完整成绩单&lt;/strong&gt;」。而Foran的策略取向，在数字里已经看得很清楚——&lt;strong&gt;先保利润、修基本功，不追销售额&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026Q2&lt;/th&gt;
-      &lt;th&gt;2025Q2&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收&lt;/td&gt;
-      &lt;td&gt;346.21亿美元&lt;/td&gt;
-      &lt;td&gt;339.40亿美元&lt;/td&gt;
-      &lt;td&gt;+2.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;剔除油品同店销售&lt;/td&gt;
-      &lt;td&gt;+0.2%&lt;/td&gt;
-      &lt;td&gt;+3.4%&lt;/td&gt;
-      &lt;td&gt;大幅减速&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率&lt;/td&gt;
-      &lt;td&gt;22.4%&lt;/td&gt;
-      &lt;td&gt;22.5%&lt;/td&gt;
-      &lt;td&gt;-0.1个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润&lt;/td&gt;
-      &lt;td&gt;9.71亿美元&lt;/td&gt;
-      &lt;td&gt;8.63亿美元&lt;/td&gt;
-      &lt;td&gt;+12.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后FIFO经营利润&lt;/td&gt;
-      &lt;td&gt;10.76亿美元&lt;/td&gt;
-      &lt;td&gt;10.91亿美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-1.4%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归属公司净利润&lt;/td&gt;
-      &lt;td&gt;6.41亿美元&lt;/td&gt;
-      &lt;td&gt;6.09亿美元&lt;/td&gt;
-      &lt;td&gt;+5.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后净利润&lt;/td&gt;
-      &lt;td&gt;6.67亿美元&lt;/td&gt;
-      &lt;td&gt;6.95亿美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-4.0%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;1.05美元&lt;/td&gt;
-      &lt;td&gt;0.91美元&lt;/td&gt;
-      &lt;td&gt;+15.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后每股收益&lt;/td&gt;
-      &lt;td&gt;1.09美元&lt;/td&gt;
-      &lt;td&gt;1.04美元&lt;/td&gt;
-      &lt;td&gt;+4.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄股数&lt;/td&gt;
-      &lt;td&gt;6.06亿股&lt;/td&gt;
-      &lt;td&gt;6.62亿股&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-8.5%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;这张表里最值得看的是加粗的三行。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一件事：GAAP净利润增长5.3%，每股收益却增长15.4%。&lt;/strong&gt;多出来的10个百分点，全部来自股本缩减——公司一年回购掉了8.5%的股份，同一块利润摊到更少的股票上，每股数字自然变好看。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二件事：调整后的口径其实在倒退。&lt;/strong&gt;Kroger 自己披露的「调整后FIFO经营利润」（剔除一次性项目和存货计价方法影响后的主营经营利润）是10.76亿美元，同比&lt;strong&gt;下滑1.4%&lt;/strong&gt;；调整后净利润6.67亿美元，同比&lt;strong&gt;下滑4.0%&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;所以公司反复强调的「调整后每股收益增长5%」，拆开看是这样的：&lt;strong&gt;真实盈利下滑4%，回购让股本少了8.5%，一减一乘，变成每股增长5%。&lt;/strong&gt;这不是造假，回购确实是真金白银（本季度花了10亿美元），但把它理解成「经营层面的增长」就会误判。&lt;/p&gt;
-
-&lt;p&gt;为什么GAAP利润看起来还不错？因为去年同期有一堆一次性开支垫底：去年Q2的调整项目合计8600万美元，其中收购 Albertsons 失败引发的诉讼与和解开支9200万美元、遣散费3700万美元；今年Q2的调整项目只有2600万美元（转型开支4300万美元、并购诉讼900万美元，被投资收益2600万美元抵掉一部分）。基数干净了，GAAP数字就好看了。&lt;/p&gt;
-
-&lt;h2 id=&quot;毛利与费用一条正在被两头挤压的缝&quot;&gt;毛利与费用：一条正在被两头挤压的缝&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;毛利率22.4%&lt;/strong&gt;，比去年的22.5%略降。公司解释下降原因是油品销售占比上升的结构效应、损耗（shrink，指偷窃与变质损失）上升、运输成本上升，以及「为顾客让出了更多价值」（也就是降价）&lt;/li&gt;
-  &lt;li&gt;但剔除租金、折旧摊销和油品后的&lt;strong&gt;FIFO毛利率其实提升了13个基点&lt;/strong&gt;，功劳来自电商盈利改善、零售媒体、药房结构变化、采购降本和关税退款&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;剔除油品的经营及管理费用率（OG&amp;amp;A rate）上升33个基点&lt;/strong&gt;，原因是计划内的员工涨薪、医保成本上升，以及销售额不增长带来的「费用摊薄失灵」（sales deleverage）&lt;/li&gt;
-  &lt;li&gt;有个细节值得注意：OG&amp;amp;A的&lt;strong&gt;绝对金额59.52亿美元反而比去年的59.67亿美元少了&lt;/strong&gt;。费用率上升不是因为花得更多，而是因为分母不长了&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;另外两个小项：本季度后进先出法（LIFO）存货计价开支3900万美元，比去年的6200万美元少了；折旧摊销7.37亿美元，比去年的7.78亿美元下降5%。&lt;/p&gt;
-
-&lt;h2 id=&quot;现金流这是最容易被忽略的隐忧&quot;&gt;现金流：这是最容易被忽略的隐忧&lt;/h2&gt;
-
-&lt;p&gt;财报表格里有两个数字，公司新闻稿正文完全没提：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;年初至今（28周）经营活动现金流30.85亿美元&lt;/strong&gt;，去年同期是36.88亿美元，&lt;strong&gt;下降16.3%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;年初至今购置物业和设备支出24.37亿美元&lt;/strong&gt;，去年同期19.68亿美元，&lt;strong&gt;增长23.8%&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;一边现金流入减少6亿美元，一边资本开支多花近5亿美元。全年自由现金流指引维持在27亿-29亿美元不变，但从上半年的进度看，这个指引对下半年的要求不低。&lt;/p&gt;
-
-&lt;h1 id=&quot;三到底是什么把同店销售压到了02&quot;&gt;三、到底是什么把同店销售压到了0.2%&lt;/h1&gt;
-
-&lt;p&gt;这是本季财报最核心的问题。Kroger 的解释拆成了几块，每一块都有明确的数字：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1. 通胀削减法案（IRA）压药房销售：-138个基点&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这是最大的单一因素。IRA是美国的一项立法，其中一部分让联邦医保（Medicare）参保人自付的处方药价格下降。对患者是好事，但对卖药的超市来说，&lt;strong&gt;同一盒药收到的钱变少了，销售额直接缩水&lt;/strong&gt;。财报明确注明，本季度同店销售中含有&lt;strong&gt;138个基点的IRA不利影响&lt;/strong&gt;；全年指引里假设的影响约为140个基点。&lt;/p&gt;
-
-&lt;p&gt;换句话说：&lt;strong&gt;如果没有IRA这一项，这个季度的同店销售大约是1.6%，而不是0.2%。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. 环孢子虫（Cyclospora）疫情打击生鲜：-35个基点&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;2026年7月，美国爆发了一轮由墨西哥产球生菜引发的环孢子虫（一种寄生虫）疫情。据美国CDC的调查通报，这轮多州疫情累计报告病例超过1.1万例、波及20个州。&lt;/p&gt;
-
-&lt;p&gt;问题在于消费者的反应是「&lt;strong&gt;整个生鲜区都不敢买&lt;/strong&gt;」，而不只是躲开召回的那一批生菜。CEO Foran 在电话会上说，这件事在本季度削掉了约35个基点的同店销售——而且它发生在&lt;strong&gt;季度末的最后一个统计周期&lt;/strong&gt;，意味着影响会拖进第三季度。这也是全年指引下调的直接原因之一。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. 宏观：油价、SNAP与「客单价下降」&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;管理层在电话会里给了一个很清晰的画像：&lt;strong&gt;客流（traffic）是小幅上升的，但客单价（ticket）在下降&lt;/strong&gt;。原因包括消费者主动精打细算、一次买的件数变少，以及SNAP（美国补充营养援助计划，即俗称的食品券）补助缩减。Foran 还提到一句朴素的经验：「我们知道油价超过4美元会影响消费者的支出。」&lt;/p&gt;
-
-&lt;p&gt;把这三块叠起来看，结论是：&lt;strong&gt;0.2%这个数字里，约1.7个百分点是药房降价和食品安全事件造成的「技术性」缺口，剩下的才是真实的消费疲软。&lt;/strong&gt;这也解释了为什么公司敢不动利润指引——它认为伤口不在盈利能力上。&lt;/p&gt;
-
-&lt;h1 id=&quot;四亮点三个真正在增长的东西&quot;&gt;四、亮点：三个真正在增长的东西&lt;/h1&gt;
-
-&lt;p&gt;营收几乎不长，但有三块业务的增速相当亮眼，而且都是高毛利业务：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;调整后电商销售增长20%&lt;/strong&gt;（剔除退出无门店市场的履约中心、出售Vitacost和关停Ship Marketplace的影响）。更关键的是，据媒体对电话会的报道，电商业务实现了&lt;strong&gt;连续第二个季度盈利&lt;/strong&gt;——对美国超市行业来说这是个里程碑，生鲜电商长期以来是个赔钱生意&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;零售媒体KPM利润增长24%&lt;/strong&gt;，Foran 称这是&lt;strong&gt;2021年以来最好的表现&lt;/strong&gt;。这块业务几乎没有商品成本，增长直接掉进利润里&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;自有品牌&lt;/strong&gt;：Foran 说自有品牌是「真正的差异化优势，我们有35家工厂，可以控制成本和质量」，其中中高端线 Private Selection 本季销售增长超过14%&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;再加上股东回报：本季度回购10亿美元、年初至今回购12亿美元（2025年12月授权的20亿美元额度还剩约8亿），本季早些时候&lt;strong&gt;股息提高11%，这是连续第20年提高股息&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h1 id=&quot;五隐忧&quot;&gt;五、隐忧&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;1. 债务杠杆在快速上升。&lt;/strong&gt;净债务/调整后EBITDA从一年前的1.63升到1.91。公司说目标区间是2.30-2.50，所以还有空间——但这个「空间」是留给回购和投资的，意味着杠杆还会继续往上走。同时，一年内到期的长期债务从8.27亿美元跳到18.38亿美元。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. 利润指引不变的代价是「不许再出意外」。&lt;/strong&gt;全年调整后FIFO经营利润50亿-52亿美元、调整后每股收益5.10-5.30美元都维持原样，但同店销售的假设已经砍掉了0.8-1.2个百分点。这意味着下半年公司必须靠降本、油品毛利和零售媒体把缺口全填上。CFO David Kennerley 的原话是：「我们的财务模型里有很多杠杆，提供了灵活性，让我们能够在营收承压的情况下仍然交付盈利增长。」这话反过来读就是：&lt;strong&gt;杠杆终究是有限的。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. IRA的影响下半年会更重。&lt;/strong&gt;Kennerley 在电话会上明确说，IRA的拖累在Q2比Q1又恶化了约10个基点，「在今年剩下的时间里，我们预计还会进一步恶化，主要原因是明年1月起会有新药进入（谈判）目录」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. 涨价这条路被堵住了。&lt;/strong&gt;Foran 在电话会上有一句立场鲜明的话：「我不玩用通胀来制造额外销售额的游戏。」这是对的经营道德，但也意味着营收增长只能靠客流和份额，不能靠标价。&lt;/p&gt;
-
-&lt;h1 id=&quot;六展望与总结&quot;&gt;六、展望与总结&lt;/h1&gt;
-
-&lt;p&gt;把这份财报浓缩成一句话：&lt;strong&gt;这是一份「营收失速、利润守住」的过渡期财报，新CEO选择了先修内功。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;三个判断：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，0.2%的同店销售不必过度惊慌，但也不能当没发生。&lt;/strong&gt;IRA的138个基点是政策性的、可预期的；环孢子虫的35个基点是一次性的、但会拖到Q3。真正需要盯的是剩下的部分——客单价下降说明美国中低收入消费者确实在收紧。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，利润端的增长质量在下降。&lt;/strong&gt;调整后经营利润和净利润都是负增长，每股收益的增长完全由回购贡献。回购能维持一两年，但20亿美元的授权额度只剩8亿，公司预计年内用完。&lt;strong&gt;明年的每股收益增长，必须从经营里来。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，真正的看点是10月20日的投资者更新会。&lt;/strong&gt;公司在新闻稿里专门写了这一条：将在那天披露战略举措细节和更长期的财务目标。Foran 在电话会上说，「在10月，我们会举行投资者更新会……我们会把长期框架摆出来。」对一个上任半年的CEO来说，那才是他真正交卷的日子。&lt;/p&gt;
-
-&lt;p&gt;Foran 自己的定调是：「Kroger交出了一个稳健的第二季度……提升销售势头仍然是首要任务。虽然还有很多工作要做，但我对我们成为美国人最喜爱的食品零售商的计划有信心。」&lt;/p&gt;
-
-&lt;p&gt;翻译成投资者语言：&lt;strong&gt;利润先守住了，销售还没修好，答案在10月。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;一手资料：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Kroger 官方新闻稿：&lt;a href=&quot;https://www.prnewswire.com/news-releases/kroger-reports-second-quarter-2026-results-and-updates-guidance-for-2026-302876349.html&quot;&gt;Kroger Reports Second Quarter 2026 Results and Updates Guidance for 2026&lt;/a&gt;（2026年9月11日）&lt;/li&gt;
-  &lt;li&gt;美国证监会（SEC）EDGAR 8-K 附件99.1 全文与财务报表（营收、利润、现金流、调整项目、股数等全部数字取自此处）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/56873/000110465926106890/tm2625060d1_ex99-1.htm&quot;&gt;Kroger 8-K Exhibit 99.1, 2026-09-11&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Kroger 8-K 正文：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/56873/000110465926106890/tm2625060d1_8k.htm&quot;&gt;SEC EDGAR, The Kroger Co., 2026-09-11&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Kroger CEO任命公告：&lt;a href=&quot;https://ir.kroger.com/news/news-details/2026/Kroger-Appoints-Greg-Foran-as-Chief-Executive-Officer/default.aspx&quot;&gt;Kroger Appoints Greg Foran as Chief Executive Officer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;美国CDC 环孢子虫疫情调查通报：&lt;a href=&quot;https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/investigation.html&quot;&gt;Investigation Update, Cyclospora Outbreak, July 2026&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;业绩电话会实录（管理层引述）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-kroger-posts-q2-2026-eps-beat-as-sales-stay-weak-93CH-4898002&quot;&gt;Earnings call transcript, Kroger posts Q2 2026 EPS beat as sales stay weak, Investing.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;媒体报道（用于分析师预期与股价反应等背景）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://qz.com/kroger-earnings-same-store-sales-guidance-cut-091126&quot;&gt;Kroger Q2 2026 earnings, stock falls as sales guidance cut, Quartz&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.grocerydive.com/news/kroger-earnings-second-quarter-2026-grocery-supermarkets/830070/&quot;&gt;Kroger’s comps slide to near zero as cyclospora outbreak eats into produce sales, Grocery Dive&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.supermarketnews.com/finance/kroger-cuts-same-store-sales-outlook-for-2026&quot;&gt;Kroger cuts same-store sales outlook for 2026, Supermarket News&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 12 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/12/kroger_fy2026q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/12/kroger_fy2026q2_earnings/</guid>
         
         <category>克罗格</category>
         

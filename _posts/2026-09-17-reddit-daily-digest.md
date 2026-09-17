@@ -1,0 +1,149 @@
+---
+layout: post
+title: "Reddit 每日精选 | 2026.09.17"
+headline: "今天五个帖子都在讲同一件事：真正贵的那些故障，都是不报错的那种"
+date: 2026-09-17 09:30:00 +0800
+categories: [reddit]
+tags: [Reddit, 每日精选]
+description: "导弹落在 AWS 机房上、硬盘价格两年翻倍、一个人被要求顶四个人的岗、绩效打分交给了 AI，还有一个让模型悄悄训歪的 PyTorch 陷阱"
+summary: "本期五帖：亚马逊承认中东机房被伊朗击中后有客户数据永久丢失，评论区把多可用区和多区域的差别讲透了；有人把 2024 年以来的硬盘价格全拉出来算了一遍，每 TB 单价两年翻倍；一位突尼斯工程师被美国创业公司邀请去顶替原本四人的团队，月薪 1800 美元；一位工程师发现新经理打算让 Claude 给全组打绩效分，且拒绝公开评分标准；最后是一个 PyTorch 和 TensorFlow 都会中招的静默广播 bug，不报错，只是让你的指标慢慢变得不对劲。"
+digest_count: 5
+---
+
+今天这五个帖子横跨云计算、硬件、招聘、职场和机器学习，本来毫无关系，但翻完评论区之后，它们在我脑子里拼成了同一句话：**真正让人付出代价的失败，几乎都不报错。**
+
+服务器还在跑，硬盘还在货架上，offer 还是一封热情洋溢的邮件，绩效系统照常出分，训练脚本也从头到尾没抛过一个异常——一切看上去都正常。但账已经在算了，只是没有人通知你。今天评论区里质量最高的那些回复，做的都是同一件事：把那个没有弹窗、没有告警、没有红字的地方指出来。
+
+## 一、导弹落在机房上，亚马逊说有些数据是真的找不回来了
+
+[伊朗对亚马逊数据中心的打击，造成客户数据永久丢失](https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/)
+
+r/technology 今天最有分量的一条：亚马逊承认，中东设施遭到伊朗打击之后，部分客户数据无法恢复。注意用词是「永久丢失」，不是「暂时不可用」。这句话的重量在于，云计算这十几年卖给企业的核心承诺之一，就是「机房会不会出事这件事，你不用再操心了」。
+
+评论区的第一反应是黑色幽默，但笑点底下埋着真问题：
+
+> "My DR plan doesnt cover drones or missiles, I should update that."
+>
+> <cite>— u/Stormraughtz，<a href="https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/pa9fggl/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+笑完之后，真正值得抄下来的是那条把架构讲清楚的回复。它点破了一个很多人从没细想过的区别：
+
+> "Multi availability zone is common. Multi region is rare. It’s possible Iran knew where each data centre was for a particular AZ and took the whole thing out."
+>
+> <cite>— u/may_be_indecisive，<a href="https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/pa9yn5y/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+多可用区（multi-AZ）几乎是默认配置，多区域（multi-region）则极少有人真做——因为贵，因为复杂，因为跨区域的一致性和故障切换是另一个量级的工程。而同一个 region 里几个 AZ 之间那点物理距离，在民用灾难的尺度上够用，在军事打击的尺度上根本不算距离。有人现身说法，他上一家公司真做了多区域，主力在 US-East-1 和 US-West-2，另外还铺了法兰克福、新加坡、悉尼，AWS 账单高得离谱，但「数据和服务基本上就是这家公司本身」。
+
+还有一条提醒，是把责任边界摆回桌面上的：
+
+> "Just a gentle reminder that they still expect you to be responsible with your data."
+>
+> <cite>— u/Mistrblank，<a href="https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/pa9x37i/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+另一位做过数据保护的人则说得更直白：当年把数据搬上云，一个主要理由恰恰就是「云厂商保证它会被复制到不同的物理位置」。现在回头看，这句承诺里那个被默认省略的前提是——你得自己付钱选那个跨物理位置的档位。
+
+**我的看法**：这件事对中文读者的现实意义不在于「云不可靠」，而在于共享责任模型（shared responsibility）里那条线，比多数团队以为的位置更靠自己这一侧。值得今天就去确认三件事：备份到底落在几个地理区域，快照是不是和生产在同一个 region，以及恢复流程有没有真演练过。顺便说，帖子里还有位工程师提到，巴林机房被击中之后他立刻被要求为「万一 us-west-2 也挨打」准备预案——这种一夜之间把地缘政治写进 DR 文档的经历，几年前听起来还像段子。
+
+## 二、有人不靠体感、真把硬盘价格拉出来算了一遍：每 TB 两年翻倍
+
+[每 TB 硬盘价格中位数，消费级 NAS 盘 vs 企业级，2024 到 2026 Q3](https://www.reddit.com/r/dataisbeautiful/comments/1whz77u/oc_median_price_per_tb_of_storage_hard_drives/)
+
+这是今天最扎实的一份自制数据。作者说他受够了「现在存储怎么这么贵」这类全靠体感的帖子，于是把美区 8TB 以上新盘的逐月价格历史全拉下来，算出每 TB 单价的月度中位数，再分成消费级 NAS 盘（WD Red、IronWolf）和企业级（Exos、MG、Ultrastar）两档对比。
+
+结论干脆利落：2024 年到 2025 年大部分时间，每 TB 价格平稳地趴在 20 美元左右；从 2025 年底到 2026 年 9 月，一路涨到 40 多美元并且就停在那儿了——大致翻倍。他给的原因是 AI 数据中心的需求，加上全球只剩三家主要硬盘厂商。更反直觉的是第二个发现：**消费级和企业级的每 TB 价格现在几乎一样，「买企业盘更划算」这条老经验对新盘已经不成立了**，两条线是同步涨上去的。唯一还便宜的是翻新/再认证的企业盘，10 到 15 美元每 TB，但保修短、通电时长不明、退货也没有零售标准，他因此没放进图里。
+
+评论区立刻有人用自己的账单来对表：
+
+> "Nearly doubled? I paid 149 dollars for a 8Tb Seagate Ironwolf in late 2023. That same drive is now 359."
+>
+> <cite>— u/nbfs-chili，<a href="https://www.reddit.com/r/dataisbeautiful/comments/1whz77u/oc_median_price_per_tb_of_storage_hard_drives/pa6itbu/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+作者的回复堪称教科书式的数据沟通——把个人轶事直接换算回图上的坐标：149 美元买 8TB 约合 18.6 美元每 TB，359 美元约合 45 美元每 TB，几乎正好是图里那条从 20 美元到 40 多美元的曲线，「你买在了那段平台期的尾巴上」。另一位加拿大网友 2024 年 11 月花 2700 加元买了四块 24TB，现在同样的配置要接近 8000 加元，涨幅比图上的两倍还猛。
+
+最让我觉得这个社区可爱的是最后一段：有人建议他换个算法，用两周滑动窗口取每款盘的最低价，这样能看出「打折的频率」。作者的回应是：
+
+> "Good idea. I took an afternoon and built it."
+>
+> <cite>— u/deeddy（原帖作者），<a href="https://www.reddit.com/r/dataisbeautiful/comments/1whz77u/oc_median_price_per_tb_of_storage_hard_drives/pa8ptq9/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+而且方法讲究：拿每天的最低价去比它自己近期价格的居中滚动中位数，这样真正的降价才算数，整体上涨的趋势不会被误判成打折；低于基准 5% 以上才计一次。结论是消费级 NAS 盘打折频率大约是企业级的四倍（十天一次 vs 四十天一次），但折扣幅度差不多，通常 10%、最深 30%，IronWolf Pro 打折最勤，Exos 和 Ultrastar 几乎纹丝不动。
+
+**我的看法**：这条对准备攒 NAS、做本地备份或者自建存储的人是硬信息——「等等党」在这轮周期里大概率是输的，因为涨价的驱动力是 AI 数据中心的结构性需求，不是季节性波动。但更值得学的是方法本身：把一句「我觉得贵了」变成可验证的曲线，成本其实只是一个下午。上一节讲要多地备份，这一节告诉你多地备份今年的单价翻了一倍——这两件事合起来，才是很多团队今年真实的处境。
+
+## 三、一个人顶四个人的岗，月薪 1800 美元：问题不在低，在于错位
+
+[一家创业公司想让我顶替原本四个工程师的团队，这现在是常态了吗？](https://www.reddit.com/r/ExperiencedDevs/comments/1whwmmd/a_startup_asked_me_to_replace_what_used_to_be_a/)
+
+r/ExperiencedDevs 今天最热的讨论。发帖人是一位有七年经验的后端工程师，Express.js、roadmap.sh、SolidJS 等项目的开源贡献者，做过同时承载约 13000 台设备的 IoT 遥测平台。他面了一家 25 人左右的美国创业公司，流程相当正规：筛选、带回家作业、现场编码、系统设计，最后和 CTO 聊架构。聊到职责范围时画风变了——后端 API 和数据库架构，可以；CI/CD 和 Kubernetes 部署，也行；然后是监控、Redis、RabbitMQ、AI 集成、线上事故、基础设施成本、性能优化、安全评审。他忍不住问：那基础设施和运维是谁负责？CTO 答：你就是基础设施和运维团队。
+
+薪酬是每月 1800 美元，合同工。发帖人在突尼斯，当地平均月薪约 400 美元——公司也正是用这个框架把这个数字递过来的。这里最见功力的是他自己的判断，我认为是整个帖子的题眼：
+
+> "what's off isn't the number against Tunisia though, it's the number against the scope."
+>
+> <cite>— u/Nervous-Quote975（原帖作者），<a href="https://www.reddit.com/r/ExperiencedDevs/comments/1whwmmd/a_startup_asked_me_to_replace_what_used_to_be_a/pa6ckke/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+评论区大致分成三派，而且吵得很有营养。一派认为无论在哪都说不过去：
+
+> "Being asked to replace 3 discreet departments for $21k a year, regardless of geographical location, is objectively a piss take."
+>
+> <cite>— u/ScriptingInJava，<a href="https://www.reddit.com/r/ExperiencedDevs/comments/1whwmmd/a_startup_asked_me_to_replace_what_used_to_be_a/pa72dz4/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+一派给出了可操作的锚点：别拿你住哪儿当参照系，拿生活成本相近的全球人才当参照系。有位尼日利亚网友给了具体数字，说这个范围常见的是 3.5 万到 7 万美元，美国公司连客服和虚拟助理这类岗位给的都比这高。有位在法国公司带过大量突尼斯同事的网友则说，同样的活他们开的是 5 万到 6 万欧元起，而这在巴黎市场上还算低的。
+
+第三派浇了盆冷水，也是最现实的一条：
+
+> "it's extremely rare that a company that hires remotely will value u according to global talent, it's sad but that's the reality of the situation"
+>
+> <cite>— u/BragdyMan，<a href="https://www.reddit.com/r/ExperiencedDevs/comments/1whwmmd/a_startup_asked_me_to_replace_what_used_to_be_a/pa81ijr/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+而真正让我觉得值得记下来的建议，是关于时间维度的那条：这个岗位不会随着公司长大而变轻松，只会更重；如果开局就是这个范围，一年后只会更多。所以该问的不是「这个薪水够不够」，而是「职级路径是什么，你们打算什么时候招人进来分担」——如果答案是「到时候再说」，那就可以走了。发帖人最后的更新是：准备放弃这个机会，因为职责和报酬的落差太大，而且足够多人给了同样的判断，让他不再自我怀疑。
+
+**我的看法**：这个帖子对做远程外包、接海外单的中文读者几乎是逐句可用的。核心不是喊价喊多高，而是把两件事分开谈——**地理套利谈的是生活成本，职责范围谈的是岗位数量**。公司很喜欢把两者混在一起讲：用你所在地的物价来定价，用硅谷的标准来定范围。识破这一点之后，谈判的语言就有了：我可以接受不按美国薪资，但你不能让一个人干四个人的活；如果你想按本地薪资招人，那就在本地招一个团队。另外那句「不会变轻松，只会更重」值得所有考虑「一个人扛下整条产品线」的人贴在显示器上。
+
+## 四、新经理打算让 Claude 给全组打绩效分，还不肯公开评分标准
+
+[新经理正在用 AI agent 给我们团队做绩效排名](https://www.reddit.com/r/cscareerquestions/comments/1wicpoq/new_manager_is_using_an_ai_agent_to_stack_rank_my/)
+
+发帖人的团队 9 月 30 日结束绩效周期。新经理习惯把所有思考都外包给 Claude，这已经是每周都要拉扯一次的事。真正让他紧张的是最近一次一对一：经理随口提到，他打算做一个绩效评估的 AI skill，让 Claude 去翻全组的 PR、commit、code review、JIRA、Confluence 编辑记录，然后给每个人打一个分。而且经理明确表示不会公开评分规则，理由是公开了大家就会去刷分。发帖人的反问很朴素也很致命：那我们怎么知道该往哪儿使劲？
+
+评论区最有分量的一条，把这件事从「AI 好不好用」拉回到了管理学的基本面：
+
+> "IBM knew this 40 years ago or so when they said a computer cannot make a management decision because the computer cannot be held responsible."
+>
+> <cite>— u/__golf，<a href="https://www.reddit.com/r/cscareerquestions/comments/1wicpoq/new_manager_is_using_an_ai_agent_to_stack_rank_my/pa9hhbc/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+同一条评论其实给了一个挺公允的分界：用 AI 去汇总团队指标、找出你自己看不到的模式，只要你亲自校验数据，那是非常有用的；让 AI 直接写评语、直接排名，那是糟糕的主意。发帖人的补充说明了为什么这条线在他这儿守不住——他的经理把模型输出当成事实和不会错的东西，「我跟他为此吵过很多次没必要的架，因为 Claude 告诉他代码里有个问题，而那个问题根本不存在，模型只是找错了地方」。一个连代码定位都会搞错的流程，现在要拿来给人打分。
+
+另一派的回应很 Reddit：既然是打分，那就打给它看。有人建议直接在代码注释里写提示词注入；有人说别再 squash 了，PR 越多越好，再小的事也开 JIRA 单，每天都提交，哪怕只是改注释；发帖人自己也接上了这个梗，说打算让 Claude 把过去一年所有的工单和文档描述都改写一遍，专门堆上「这项工作对系统有多么变革性」的措辞——至少在经理那个 Claude agent 眼里是变革性的。
+
+还有人指出，隐藏评分标准这件事本身是有防御性理由的（公开了必然产生扭曲激励），但和 AI 打分叠加之后就变了味：
+
+> "Stack ranking employees during performance reviews is normal. Doing it only based on a series of metrics that are hidden is not."
+>
+> <cite>— u/Altruistic-Cattle761，<a href="https://www.reddit.com/r/cscareerquestions/comments/1wicpoq/new_manager_is_using_an_ai_agent_to_stack_rank_my/pa9k3xx/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+也有替经理说话的：至少他在试图做基于证据和数据的决策，而不是凭感觉、看谁会拍马屁、靠办公室政治。这条得票不低，值得认真对待——很多人反对 AI 打分时，心里比较的对象是一个并不存在的公正人类经理。另外一条提醒很实用：查一下当地法律，在欧盟，这类做法可能已经被 AI 法案盯上了。
+
+**我的看法**：这件事的要害不是「AI 能不能评人」，而是**责任的去向**。PR 数量、commit 频率、工单条数这些指标，在被拿来当奖惩依据的那一刻，就会立刻停止度量它们原本度量的东西——古德哈特定律从来没失效过，AI 只是把执行成本降到了零，让每个经理都能随手搭一套。有位评论说得挺狠：真正懂技术管理的人都知道，指标顶多只占你该考量的三成。对国内读者来说，这个帖子值得当成预演：当「让大模型读一遍我们的研发数据然后排个序」变成一个下午就能做出来的东西，你所在组织里唯一还能挡住它的，就是有没有人愿意为这个排名署名负责。
+
+## 五、不报错才最可怕：那个能悄悄把你模型训歪的广播 bug
+
+[静默广播仍然是个大问题，它可能正在毁掉你手上的工作](https://www.reddit.com/r/datascience/comments/1wi6isq/silent_broadcasting_is_still_a_big_problem_and/)
+
+最后这个帖子最技术，但也最适合当今天的收尾。发帖人说，他团队里的一位数据科学家白白烧掉了不少算力，而且全程没意识到出了问题：PyTorch 和 TensorFlow 在模型输出和目标张量形状不匹配时，会静默地做广播（broadcasting），把两者拉成同一个形状继续算下去。不抛异常，不打警告，损失函数照常下降，训练照常跑完——只是算的东西已经不是你想算的了。
+
+评论区两条回复，一条讲症状，一条讲这不是深度学习框架独有的毛病。第一条几乎是所有踩过坑的人的共同记忆：
+
+> "Broadcasting bugs are the worst because nothing fails, your metrics just quietly get weird and you're left questioning your entire pipeline."
+>
+> <cite>— u/Odd_Yard6663，<a href="https://www.reddit.com/r/datascience/comments/1wi6isq/silent_broadcasting_is_still_a_big_problem_and/pa822pz/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+他说自己曾经为此烧掉半天，最后才想起来打印一下形状，并且建议这篇总结应该钉进每个团队的新人文档里。另一条把视野拉宽了——同类陷阱在 R 里同样存在，而且更激进：
+
+> "If you try to add two vectors together, and one's length is an integer multiple of the other, it'll automatically cycle the smaller one so it can do the operation."
+>
+> <cite>— u/Deto，<a href="https://www.reddit.com/r/datascience/comments/1wi6isq/silent_broadcasting_is_still_a_big_problem_and/pa8979l/" target="_blank" rel="noopener">原帖评论</a></cite>
+
+R 的向量循环（recycling）规则是：只要长度成整数倍，短的那个就自动循环补齐，运算照做不误。NumPy 的广播也是同一家族的设计——这些规则当初都是为了方便而生的，代价是把一整类形状错误从「立刻崩溃」变成了「安静地算错」。
+
+**我的看法**：这是今天五个帖子里最具体、最能立刻拿去用的一个。防御手段其实很便宜：在 loss 之前加一行 `assert pred.shape == target.shape`，或者对着关键张量写形状断言；`squeeze()` 和 `[:, 0]` 这类降维操作之后尤其要查一遍；把形状打印进训练日志的前几个 step，几乎不花成本。更值得琢磨的是这个帖子和前面四个的关系——一个不报错的广播、一份没人核过的绩效分、一个没写进合同的职责范围、一次没演练过的跨区域恢复、一条两年翻倍却没人注意的价格曲线，性质是一样的：**系统没有义务在你搞错的时候提醒你，能不能及时发现，取决于你有没有主动去看一眼。**

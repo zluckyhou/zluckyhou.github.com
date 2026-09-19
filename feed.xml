@@ -5,9 +5,242 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Sep 2026 10:06:03 +0800</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2026 10:06:03 +0800</lastBuildDate>
+    <pubDate>Sat, 19 Sep 2026 09:20:02 +0800</pubDate>
+    <lastBuildDate>Sat, 19 Sep 2026 09:20:02 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>携程2026Q2电话会——说好要给的三季度指引最后没出现，一二级分销体系被整体取消</title>
+        <description>&lt;p&gt;美东时间2026年9月15日晚8点（北京时间9月16日早8点），&lt;a href=&quot;https://investors.trip.com/&quot;&gt;携程集团&lt;/a&gt;（Trip.com Group，NASDAQ: TCOM，HKEX: 9961）召开2026年第二季度业绩电话会。财报本身已在电话会前两小时发布，我们在&lt;a href=&quot;/blog/2026/09/16/tripcom_2026q2_earnings/&quot;&gt;前一篇财报解读&lt;/a&gt;里拆过数字：净收入156.63亿元同比增长6%，因市场监管总局51.8亿元反垄断处罚一次性计提，单季由盈转亏24.58亿元，剔除罚款后净利润约27亿元。&lt;/p&gt;
+
+&lt;p&gt;这篇只讲电话会上的增量信息——新闻稿里没有、只有管理层开口才能知道的东西。&lt;/p&gt;
+
+&lt;p&gt;参会管理层三位，由高级投资者关系总监 Michelle Qi 主持：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;梁建章&lt;/strong&gt;（James Liang），联合创始人、董事会执行主席&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;孙洁&lt;/strong&gt;（Jane Sun），首席执行官&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;王肖璠&lt;/strong&gt;（Cindy Wang），首席财务官&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;全场41分钟，7位分析师提问，覆盖高盛、花旗、美银、摩根士丹利、杰富瑞、瑞银、瑞穗。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;先说这场电话会最反常的一点：一个本该出现、却始终没有出现的数字。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;一最重要的信息是一句没说出口的话&quot;&gt;一、最重要的信息是一句没说出口的话&lt;/h1&gt;
+
+&lt;p&gt;开场白里，Michelle Qi 交代了议程，原话是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「梁建章、孙洁和王肖璠会分享我们的战略与业务进展、运营亮点和2026年第二季度的财务表现，&lt;strong&gt;以及2026年第三季度的一些展望&lt;/strong&gt;。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;但翻完整份实录，三位高管的准备发言和全部7个问答里，&lt;strong&gt;没有任何一句涉及三季度的收入指引或增速区间&lt;/strong&gt;。王肖璠的财务部分以一句「我们将继续保持有纪律的执行和战略性投入」收尾，直接把话筒交给了问答环节。当天的业绩新闻稿里同样没有任何前瞻性指引段落。&lt;/p&gt;
+
+&lt;p&gt;这是个值得注意的对比：三个月前的一季报电话会上，携程明确给出了二季度「同比增长约3%—8%」的指引，最终实现6%，踩在中段。这一次，指引消失了。&lt;/p&gt;
+
+&lt;p&gt;为什么？最接近答案的是王肖璠回答美银分析师时的一句话（见下文问答三）：&lt;strong&gt;「随着合作伙伴向新运营模式过渡、市场惯例随之调整，我们预计国内业务表现会出现一些波动。」&lt;/strong&gt; 整改期内，携程自己也说不准国内这盘棋会被搅动到什么程度。&lt;/p&gt;
+
+&lt;p&gt;对普通投资者来说，这件事的含义很直接：&lt;strong&gt;接下来一到两个季度，携程国内业务的能见度是低的，连公司自己都不愿意画一条线。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;二管理层核心表态&quot;&gt;二、管理层核心表态&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-孙洁一级二级分销体系全部取消&quot;&gt;1. 孙洁：一级、二级分销体系全部取消&lt;/h2&gt;
+
+&lt;p&gt;这是本场电话会信息量最大、也最具体的一段。孙洁在准备发言里第一次系统说明了反垄断整改究竟改了什么：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「作为整改措施的一部分，我们正在&lt;strong&gt;终止一级分销计划&lt;/strong&gt;，把合作伙伴迁移到一个新的多层级框架下，给他们在与我们合作的方式上更多选择……同时，我们通过&lt;strong&gt;终止二级分销计划&lt;/strong&gt;来优化定价生态，给合作伙伴在商业决策上更大的自主权。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;用大白话解释：过去携程与酒店的合作里，存在按层级划分的分销体系，携程可以据此对价格和库存施加较强的控制力。所谓「二级分销」涉及定价环节，监管认定其中存在垄断行为。现在这两层结构被整体拆掉，酒店在定价上拿回了自主权。&lt;/p&gt;
+
+&lt;p&gt;配套的还有排序算法的调整。孙洁说新框架包含「客户反馈、服务质量、信息完备程度、产品竞争力、历史转化率等等」若干维度，通过&lt;strong&gt;动态加权&lt;/strong&gt;来匹配供需。&lt;/p&gt;
+
+&lt;p&gt;这句话的潜台词是：&lt;strong&gt;排序权重从「谁给的价格和佣金条件好」转向「谁的服务和转化好」。&lt;/strong&gt; 对携程而言，这意味着短期内它在酒店端的议价筹码变少了；对酒店而言，这是实打实的让利。&lt;/p&gt;
+
+&lt;p&gt;孙洁还提到简化平台规则和促销流程、加大数据与国际营销投入来帮商家获客——这些是「拿走一些、补回一些」的平衡动作。&lt;/p&gt;
+
+&lt;h2 id=&quot;2-梁建章ai-改变的是界面不是履约&quot;&gt;2. 梁建章：AI 改变的是界面，不是履约&lt;/h2&gt;
+
+&lt;p&gt;梁建章的准备发言几乎全部给了 AI，核心是一句定性：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「AI 或许会改变旅行被发现的方式，但它&lt;strong&gt;不会消除交付旅行的复杂性&lt;/strong&gt;。每一次出行仍然依赖高质量的供给、可信的信息、实时的可用性与价格、交易基础设施、履约和可靠的服务。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;配合的数据是：Trip.com 上由 AI 助手 TripGenie 辅助产生的订单&lt;strong&gt;同比增长约400%&lt;/strong&gt;，近60%的 TripGenie 交互已经与预订直接相关，覆盖酒店、机票和景点。&lt;/p&gt;
+
+&lt;p&gt;这个表态放在2026年的语境下并不平淡。当 AI 智能体开始直接帮用户订机票订酒店，OTA 最怕的就是自己被降维成一个「后台库存接口」。梁建章的回答是：&lt;strong&gt;恰恰相反，AI 会让底层基础设施更值钱。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-王肖璠罚款是一次性的但国内会有波动&quot;&gt;3. 王肖璠：罚款是一次性的，但国内会有波动&lt;/h2&gt;
+
+&lt;p&gt;财务部分的增量信息主要是费用结构：剔除股权激励后，产品研发费用同比增7%，管理费用（再剔除罚款）同比增8%，&lt;strong&gt;销售与市场费用同比增15%&lt;/strong&gt;——明显高于收入6%的增速，原因是「支持全球业务扩张的营销投入加大」。&lt;/p&gt;
+
+&lt;p&gt;现金端，截至2026年6月30日，现金及等价物、受限资金、短期投资、持有至到期定期存款和理财产品合计&lt;strong&gt;1005亿元人民币（148亿美元）&lt;/strong&gt;。罚款51.8亿元相对这个盘子不算伤筋动骨。&lt;/p&gt;
+
+&lt;p&gt;值得一提的是：&lt;strong&gt;全场没有任何人提到回购或分红。&lt;/strong&gt; 这与财报里股本同比缩减5.2%所暗示的持续回购形成了一个小小的信息缺口。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;三分析师问答里最有价值的六个问题&quot;&gt;三、分析师问答里最有价值的六个问题&lt;/h1&gt;
+
+&lt;h2 id=&quot;q1高盛-simon-cheung反垄断调查结束后战略优先级怎么变&quot;&gt;Q1（高盛 Simon Cheung）：反垄断调查结束后，战略优先级怎么变？&lt;/h2&gt;
+
+&lt;p&gt;孙洁的回答是「不变，而且更聚焦」。她把整改直接接到了 G2 战略（Globalization 全球化 + Great Quality 高品质）上，其中一句值得单独拎出来：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「这让我们能够在&lt;strong&gt;更广义的价值&lt;/strong&gt;上竞争，而不是主要靠价格。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;翻译过来：过去靠价格和分销控制拿份额的打法被监管掐掉了，那就把叙事切换到服务、技术和供给质量上。这是被动，也是顺势。&lt;/p&gt;
+
+&lt;h2 id=&quot;q2花旗-brian-gong新的酒店合作框架具体长什么样会不会削弱竞争力&quot;&gt;Q2（花旗 Brian Gong）：新的酒店合作框架具体长什么样？会不会削弱竞争力？&lt;/h2&gt;
+
+&lt;p&gt;孙洁给出了上文提到的五个排序维度，并强调是「动态加权」。她没有正面回答「会不会削弱竞争力」，只说目标是「在满足多样化客户需求与高质量酒店供给之间做更好的匹配，同时给酒店一个更灵活、更市场化的合作环境」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;回避本身就是信息&lt;/strong&gt;：携程不愿意承诺短期份额不受影响。&lt;/p&gt;
+
+&lt;h2 id=&quot;q3美银-joyce-ju罚款对经营和财务的近期与长期影响&quot;&gt;Q3（美银 Joyce Ju）：罚款对经营和财务的近期与长期影响？&lt;/h2&gt;
+
+&lt;p&gt;王肖璠的回答是本场最直白的一段风险提示：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「从会计角度，我们在二季度确认了51.8亿元费用和1.22亿元的&lt;strong&gt;冲减收入&lt;/strong&gt;。这些是一次性项目，不反映本季度业务的真实表现。短期内，在经营层面，随着合作伙伴向新运营模式过渡、市场惯例随之调整，&lt;strong&gt;我们预计国内业务表现会出现一些波动&lt;/strong&gt;。但长期看，我们预计增长轨迹将由业务的内在强度和 G2 战略驱动，尤其是全球足迹的扩张。我们预计国际业务将贡献越来越高比例的集团收入和增量增长。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这段话把「国内承压、靠国际补」的路径说得很清楚。注意那1.22亿元冲减收入——它直接压低了住宿预订收入，王肖璠在准备发言里说，剔除这一项住宿收入本应同比增长8%而非6%。&lt;/p&gt;
+
+&lt;h2 id=&quot;q4摩根士丹利-yang-liuai-智能体开始做搜索和预订携程怎么应对&quot;&gt;Q4（摩根士丹利 Yang Liu）：AI 智能体开始做搜索和预订，携程怎么应对？&lt;/h2&gt;
+
+&lt;p&gt;梁建章给了一个完整的四阶段框架，这是全场最有体系感的回答：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;灵感（inspiration）&lt;/strong&gt;：用户需求模糊时的发现环节。梁建章承认 AI 智能体会成为越来越重要的发现渠道，因此携程正在「扩大与领先 AI 平台的合作，探索新兴的 AI 发现渠道」。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;搜索（search）&lt;/strong&gt;：意图清晰后，比拼的是信息的及时、完整与准确。他强调携程的专有数据不只有酒店和航班信息，还有「库存、价格、可用性、政策」。对外做 &lt;strong&gt;GEO 和 AEO&lt;/strong&gt;（生成式引擎优化 / 答案引擎优化，即让内容更容易被 AI 引用），探索&lt;strong&gt;智能体之间的协作&lt;/strong&gt;（agent-to-agent）；对内把大模型与自有旅行数据结合。二季度已经上线了&lt;strong&gt;全面 AI 驱动的搜索&lt;/strong&gt;。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;交易（transaction）&lt;/strong&gt;：实时库存、价格、支付、确认的闭环。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;履约（fulfillment）&lt;/strong&gt;：改签、取消、重订、突发状况和落地支持。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;结论句是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们把 AI 看作旅行用户界面的一次演进，而不仅仅是一个新的流量渠道。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;q5杰富瑞-thomas-chongai-投入会不会带来显著的资本开支&quot;&gt;Q5（杰富瑞 Thomas Chong）：AI 投入会不会带来显著的资本开支？&lt;/h2&gt;
+
+&lt;p&gt;这是财务上最实用的一问。王肖璠的回答很克制：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「短期内，随着我们扩展算力基础设施和 AI 能力，我们预计 AI 相关资本开支会有所增加。但我们的大部分工作是&lt;strong&gt;面向应用的开发和后训练优化，而不是从零开始构建大规模基础模型&lt;/strong&gt;。因此我们预计增量投入将保持克制和可控。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一句话：&lt;strong&gt;携程不打算自己烧钱训基座大模型。&lt;/strong&gt; 在国内互联网公司普遍把资本开支往上顶的2026年，这是一个明显不同的选择——它意味着携程的自由现金流不会被 AI 军备竞赛吞掉，但也意味着它在模型层没有自主权，要依赖外部大模型厂商。&lt;/p&gt;
+
+&lt;h2 id=&quot;q6瑞银-wei-xiong旅游市场各板块的最新趋势用户行为有什么变化&quot;&gt;Q6（瑞银 Wei Xiong）：旅游市场各板块的最新趋势？用户行为有什么变化？&lt;/h2&gt;
+
+&lt;p&gt;孙洁把短期和长期分开讲。短期三个拖累因素：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;中东的战争&lt;/strong&gt;——航空公司在削减长航线；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;能源价格&lt;/strong&gt;——让出行变贵；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;夏季的暴雨和风暴&lt;/strong&gt;——对交通造成压力。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;长期则是她自创的「&lt;strong&gt;三个 P&lt;/strong&gt;」：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Premium（高端服务）&lt;/strong&gt;：高端客群韧性极强，全球到处飞，增长很强；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Purpose（有目的的旅行）&lt;/strong&gt;：研学、文化、历史类主题游；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pro-leisure / bleisure（商旅休闲融合）&lt;/strong&gt;：孙洁描述了一个「&lt;strong&gt;周四现象&lt;/strong&gt;」——商务客周一到周四出差，周五加两天周末顺便玩附近景点。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这三个 P 恰好解释了财报里两个异常高的数字：2026年上半年 Trip.com 上头等舱和商务舱预订同比增长超70%，定制游预订同比增长600%。&lt;/p&gt;
+
+&lt;h2 id=&quot;q7瑞穗-wei-fang国际业务的运营细节&quot;&gt;Q7（瑞穗 Wei Fang）：国际业务的运营细节？&lt;/h2&gt;
+
+&lt;p&gt;孙洁按三个层面拆了国际 OTA 平台超50%的收入增长：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;产品&lt;/strong&gt;：机票因运力收紧和票价上涨承压，但客单价提升部分对冲；住宿持续强劲；景点门票和打包产品保持高增长，交叉销售有进展。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;地区&lt;/strong&gt;：亚太仍是最大增长来源，&lt;strong&gt;欧洲和美洲在较小基数上增速更快&lt;/strong&gt;。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;渠道&lt;/strong&gt;：移动端预订占比创新高，&lt;strong&gt;超过总预订量的70%&lt;/strong&gt;；来自 GEO 和 AI 智能体渠道的流量增长强劲，但绝对占比仍小。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最关键的一句是盈利质量：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「Trip.com 品牌在第二季度实现了&lt;strong&gt;有意义的利润率改善&lt;/strong&gt;，得益于更好的营销效率、规模经济和改善的机票经济性。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这解决了市场长期以来的一个疑问：国际业务的高增长到底是不是靠烧钱买来的。管理层的回答是——规模开始产生杠杆了。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;四这场电话会到底说明了什么&quot;&gt;四、这场电话会到底说明了什么&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，携程正在用国际业务的确定性，对冲国内业务的不确定性。&lt;/strong&gt; 王肖璠明说国内会波动、国际占比会上升；孙洁的国际答问是全场最有数据支撑的一段；而三季度指引的缺席，正是国内不确定性的价格。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，反垄断整改是真整改，不是走过场。&lt;/strong&gt; 取消一级和二级分销体系、重做排序算法权重，都是动到商业模式的调整。短期看这会压缩携程在酒店端的变现效率；中期看，如果行业竞争真的从价格转向服务质量，携程作为服务能力最强的一方未必吃亏。这是管理层在赌的那一面。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，AI 战略的核心是「不当冤大头」。&lt;/strong&gt; 梁建章负责讲故事——AI 改变界面、不改变履约；王肖璠负责兜底——不训基座模型、资本开支可控。两人一软一硬，把 AI 叙事和现金流纪律同时握住了。TripGenie 订单400%的增速确实亮眼，但携程没有把它包装成需要天量投入的新引擎。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，入境游是唯一被给了长期目标的业务。&lt;/strong&gt; 孙洁说携程的目标是「&lt;strong&gt;在未来五年服务2亿人次入境旅客&lt;/strong&gt;」。这是全场唯一一个带年限的量化承诺，也说明了公司真正押注的方向在哪里。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;五总结&quot;&gt;五、总结&lt;/h1&gt;
+
+&lt;p&gt;这是一场「坏消息已经出完、好消息还没法量化」的电话会。&lt;/p&gt;
+
+&lt;p&gt;罚款是一次性的，市场也早已消化——财报发布当日港股9961一度涨2.25%，美股盘前一度涨超5%，媒体报道显示当天盘前报40.96美元左右、涨约4.36%。投资者在意的从来不是那51.8亿元，而是整改之后携程还剩多少定价能力。&lt;/p&gt;
+
+&lt;p&gt;这场电话会没有回答这个问题，甚至用「没有三季度指引」明确告诉市场：&lt;strong&gt;现在还不知道。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;接下来两个季度要盯的，是三件事：国内住宿收入在失去分销杠杆后的真实增速、交通票务能否从同比负增长里爬出来、以及国际 OTA 平台在利润率改善之后能否继续维持50%以上的收入增速。三季度财报会给出第一份答案。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;一手资料：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://finance.yahoo.com/quote/TCOM/earnings/TCOM-Q2-2026-earnings_call-683413.html&quot;&gt;Trip.com Group Limited (TCOM) Q2 FY2026 earnings call transcript（2026年第二季度业绩电话会完整实录，由 Quartr 制作，美东时间2026年9月15日20:00）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1269238/000119312526392473/d167816dex991.htm&quot;&gt;Trip.com Group Limited Reports Unaudited Second Quarter and First Half of 2026 Financial Results（业绩新闻稿，SEC Form 6-K 附件99.1，2026年9月15日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1269238/000119312526392473/d167816d6k.htm&quot;&gt;Trip.com Group Ltd Form 6-K，2026年9月16日报备&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://investors.trip.com/financial-information/quarterly-results&quot;&gt;Trip.com Group 投资者关系页面——季度业绩与电话会回放&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.samr.gov.cn/xw/zj/art/2026/art_46d2c74cbd7249f189622dd030e3c3a7.html&quot;&gt;市场监管总局依法对携程集团有限公司实施垄断行为作出行政处罚并责令其全面整改&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;媒体报道（仅用于补充分析师预期、股价反应等背景）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fx168news.com/article/1093352&quot;&gt;携程Q2营收23亿美元超预期，国际业务成最大亮点，盘前涨逾5% - FX168&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.qq.com/rain/a/20260916A05PKO00&quot;&gt;携程集团财报亏损，股价却上涨了 - 腾讯新闻&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.qq.com/rain/a/20260916A0CO7400&quot;&gt;携程Q2业绩会：51.79亿罚单致短期亏损，AI订单暴涨400% - 腾讯新闻&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ca.investing.com/news/company-news/tripcom-group-ltd-tcom-q2-2026-earnings-call-highlights-international-ota-revenue-jumps--4841675&quot;&gt;Trip.com Group Ltd (TCOM) (Q2 2026) Earnings Call Highlights - GuruFocus / Investing.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;注：本文所有引述均译自上述电话会实录，财务数字以官方新闻稿为准。电话会中管理层口径的部分表述（如一级、二级分销计划的终止、排序算法维度、三个 P、移动端占比超70%）不在新闻稿内，已在正文中注明来自电话会。文中「没有给出三季度指引」这一判断，经核对电话会实录全文与当日业绩新闻稿全文，两者均未出现三季度收入指引。&lt;/p&gt;
+</description>
+        <pubDate>Sat, 19 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/19/tripcom_2026q2_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/19/tripcom_2026q2_earnings_call/</guid>
+        
+        <category>携程</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.18</title>
@@ -2095,295 +2328,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>Copart 2026财年Q4电话会——CEO承认单车成本涨12.7%「我们知道了，正在处理」，七位分析师围着ACV收购追问</title>
-        <description>&lt;p&gt;美东时间2026年9月10日下午5点30分（北京时间9月11日凌晨5点30分），Copart 在同时发布2026财年第四季度财报和19亿美元收购 ACV 的公告之后，召开了业绩电话会。&lt;/p&gt;
-
-&lt;p&gt;参会管理层只有两位：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;A. Jayson Adair（Jay Adair）&lt;/strong&gt;，首席执行官兼执行董事长&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Leah C. Stearns&lt;/strong&gt;，首席财务官&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Adair 值得多说一句。他1990年加入 Copart，2010年至2022年任CEO，之后转任执行董事长，2025年又重新回到CEO岗位。他在这场电话会的结尾说了一句「&lt;strong&gt;it is great to be back at Copart&lt;/strong&gt;」（回到 Copart 真好）——这句话本身就是理解这场电话会基调的钥匙：一位创始人时代的老将回来了，带着一个「要动起来」的议程。&lt;/p&gt;
-
-&lt;p&gt;财报数字（Q4营收11.52亿美元+2.4%、净利润3.27亿美元-17.4%、每股收益0.35美元）我们在同日发布的财报解读里已经拆过。这篇文章只讲电话会上的增量信息。&lt;/p&gt;
-
-&lt;p&gt;先说结论：&lt;strong&gt;七位分析师提问，几乎每一个人的第一个问题都是ACV&lt;/strong&gt;。这场本该讨论业绩的电话会，实际上变成了一场收购说明会。&lt;/p&gt;
-
-&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-adair-重申三根增长支柱和三个差异化&quot;&gt;1. Adair 重申「三根增长支柱」和三个差异化&lt;/h2&gt;
-
-&lt;p&gt;Adair 开场就把公司的战略框架摆了出来。三根增长支柱：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;国际保险业务扩张&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;美国整车（whole car）业务扩张&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;技术与服务投入&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;以及他认为 Copart 区别于同行的三点：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「第一，我们是一家由创始人经营、带着创始人心态的公司。&lt;strong&gt;我们不以季度或年度来思考，我们以十年为单位思考&lt;/strong&gt;。第二是流动性……第三，本着像创业公司一样行动的精神，我们非常快。我们把产品和服务推向市场是以季度为单位，而不是以年为单位。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;最后一句是有承诺含义的：「我们预计在接下来的四个季度里会有一些成果推出。」&lt;/p&gt;
-
-&lt;h2 id=&quot;2-行业数据车祸在减少但修不如换在增加&quot;&gt;2. 行业数据：车祸在减少，但「修不如换」在增加&lt;/h2&gt;
-
-&lt;p&gt;Adair 花了相当长的篇幅讲行业环境，这些数字是理解 Copart 单量的前提：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;行业指标&lt;/th&gt;
-      &lt;th&gt;最新读数&lt;/th&gt;
-      &lt;th&gt;方向&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;碰撞索赔频率&lt;/td&gt;
-      &lt;td&gt;同比 -3.4%&lt;/td&gt;
-      &lt;td&gt;事故在减少（但降幅比2025年的高个位数有所收窄）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;全损率（total loss frequency）&lt;/td&gt;
-      &lt;td&gt;2026年Q2达23.3%，去年同期22.4%&lt;/td&gt;
-      &lt;td&gt;历年二季度最高纪录&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;平均碰撞维修严重度&lt;/td&gt;
-      &lt;td&gt;超过6300美元/案，同比 +8.8%&lt;/td&gt;
-      &lt;td&gt;三年多来最快，连续四个季度加速&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;维修成本（对比2019年）&lt;/td&gt;
-      &lt;td&gt;上涨超过50%（CCC数据）&lt;/td&gt;
-      &lt;td&gt;修车越来越贵&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;租车费率&lt;/td&gt;
-      &lt;td&gt;同比 +4.5%&lt;/td&gt;
-      &lt;td&gt;推高保险公司的总修理成本&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;行驶里程（VMT）&lt;/td&gt;
-      &lt;td&gt;同比 +0.27%&lt;/td&gt;
-      &lt;td&gt;基本持平&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;保有量（car park）&lt;/td&gt;
-      &lt;td&gt;同比 +1.6%&lt;/td&gt;
-      &lt;td&gt;缓慢增长&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Adair 用一个很具体的类比解释为什么他认为全损率还会继续上升：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「一架军用无人机有350万行代码，一架空客飞机有3000万行代码，Windows 10 操作系统有5000万行代码。有意思的是，&lt;strong&gt;一辆新特斯拉大约有1亿行代码&lt;/strong&gt;。所以当我们想到汽车时，它们真的正在变成装着轮子的电脑。我相信全损率会继续上升。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这是一个对 Copart 长期有利的判断：车越智能，事故越少（利空单量），但一旦出事故越修不起（利好全损率）。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-关于acv买的是入口不是土地&quot;&gt;3. 关于ACV：买的是「入口」，不是「土地」&lt;/h2&gt;
-
-&lt;p&gt;Adair 对这笔收购的描述很直接：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「ACV 每年销售超过80万辆车，&lt;strong&gt;而且几乎不拥有自己的土地&lt;/strong&gt;。我们很兴奋能用我们的场地作为它们车辆的中转区，把我们的全球买家群体和它们的数字市场、再营销技术结合起来。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他把双方带来的东西列得很清楚：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Copart 带来&lt;/strong&gt;：275个以上场地、每年销售400万辆以上车辆、185个国家的约100万会员、实体规模、保险机构关系、事故车处置专长、国际买家需求&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;ACV 带来&lt;/strong&gt;：经销商流动性与关系、检测与估值技术、2025年约100亿美元GMV、2.2万以上活跃买家&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;关于交易结构，他强调了两点：&lt;strong&gt;全现金、来自自有现金、无融资条件&lt;/strong&gt;；&lt;strong&gt;要约收购结构支持相对快速干净的交割路径&lt;/strong&gt;。ACV 将作为独立子公司运营，由现有团队领导。&lt;/p&gt;
-
-&lt;h1 id=&quot;二分析师问答中最有信息量的六个问题&quot;&gt;二、分析师问答中最有信息量的六个问题&lt;/h1&gt;
-
-&lt;h2 id=&quot;q1cjs-securitiesbob-labickacv-和-copart-的文化能不能融会保留双品牌吗&quot;&gt;Q1（CJS Securities，Bob Labick）：ACV 和 Copart 的文化能不能融？会保留双品牌吗？&lt;/h2&gt;
-
-&lt;p&gt;Adair 的回答分两层。文化上：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「George（ACV的CEO George Chamoun）和我已经很熟了……他们真的有创业公司的心态，思维非常敏捷，&lt;strong&gt;你能想到的最不像大公司、最不官僚的公司就是他们&lt;/strong&gt;。他们和我们一样野路子（scrappy），能非常快地做决定。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;品牌和运营上，他给出了一个非常具体的边界：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们会保留两个品牌。但别搞错了，&lt;strong&gt;我们会打通买家。我们会把买家的流动性整合起来，让他们在两个平台上都能出价&lt;/strong&gt;。但他们会单独做市场推广，在他们自己的网站上卖那些车，同时使用 Copart 的物流。&lt;strong&gt;我们可以在不到24小时内把一辆车运到全国任何地方，有时一天做1.5万到2万次&lt;/strong&gt;。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这是整场电话会里最关键的整合思路——&lt;strong&gt;前台分开，后台打通&lt;/strong&gt;。两个网站、两个品牌、两套销售体系，但共用一个买家池和一个物流网络。这个设计既保住了 ACV 在经销商心中的独立形象（这是 Copart 自己做整车业务多年没做起来的原因之一），又能立刻拿到协同。&lt;/p&gt;
-
-&lt;h2 id=&quot;q2cjs-securitiesbob-labick做大整车和经销商业务怎么反过来帮到保险客户&quot;&gt;Q2（CJS Securities，Bob Labick）：做大整车和经销商业务，怎么反过来帮到保险客户？&lt;/h2&gt;
-
-&lt;p&gt;Adair 先开了个玩笑说这是「诱导性提问」，然后给了一个很实在的答案：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「随着我们引入更多独立经销商……尤其是更多特许经销商（他们的特许经销商比我们多），这些买家的加入会提高回报，特别是当你看保险车辆的时候。&lt;strong&gt;现在越来越多的车看起来不像该被报废的车，但它们是经济性全损&lt;/strong&gt;——它们还能开、还能修，但从经济上已经被判了死刑。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他还补充了国际物流的一环：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「他们那边有一定数量的低端置换车，我们的国际买家、特别是墨西哥买家非常喜欢……如果你从经销商那里买了50辆车，车还停在经销商那里，运车板车怎么进去拉？有了 Copart，我们可以把这些车挪到 Copart 场地，板车按自己的时间来拉，运到墨西哥或者港口。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这是把「经济性全损」这个趋势和「买家池」直接连起来。因为修车太贵，越来越多外观完好、还能开的车被判全损——这类车最适合卖给经销商而不是拆车厂。所以引入经销商买家，本质上是在为主业的车找更好的出价方。&lt;/p&gt;
-
-&lt;h2 id=&quot;q3bairdcraig-kennison单车运营成本涨了12你的计划是什么&quot;&gt;Q3（Baird，Craig Kennison）：单车运营成本涨了12%，你的计划是什么？&lt;/h2&gt;
-
-&lt;p&gt;Adair 的回答短得有些反常：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「&lt;strong&gt;我们在处理了（We are on it）。我能告诉你的就这些。我们知道了，我们已经定位了问题，我们在处理。&lt;/strong&gt; 我们会专注于降低成本，把成本降下来……另一方面是随着更多单量进来，我们会用更多单量摊薄这些成本。所以每车成本，我完全预期会下降。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;CFO Stearns 在另一个问题里给出了更有信息量的拆解。当巴克莱的 John Babcock 问「涨的成本里有多少是你自己决定的投资，有多少是你控制不了的」时，她说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「大部分是由新产品和服务的推出驱动的。举例来说，我认为&lt;strong&gt;场地运营成本同比增长中有1700万美元来自长途运输服务（long haul delivery）的成本增加&lt;/strong&gt;。而这是一项我们通常能赚到不错毛利的业务……&lt;strong&gt;只有一小部分与燃料成本上升有关&lt;/strong&gt;。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：CFO的数字比CEO的表态有用得多。它把「成本失控」重新定义成「主动投资」——公司在花钱买一个能赚钱的新收入项。但这里有一个逻辑缺口没有被追问：如果长途运输本身毛利不错，为什么整体毛利率会从45.3%掉到41.8%？可能的解释是新业务的毛利率低于公司均值，或者投入期的产能利用率还没上来。管理层没有展开。&lt;/p&gt;
-
-&lt;h2 id=&quot;q4bnp-paribas这笔收购会不会让你们两年内做不了别的并购&quot;&gt;Q4（BNP Paribas）：这笔收购会不会让你们两年内做不了别的并购？&lt;/h2&gt;
-
-&lt;p&gt;Adair 明确否认：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「不，我不认为这阻止我们做未来的任何收购。我们正在看拍卖领域其他可能想收购的业务。所以我们有很多选择。&lt;strong&gt;即便这笔交易做完，我们的资产负债表上还有超过20亿美元现金&lt;/strong&gt;。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他还给出了收购标准：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「对我真正重要的是，我们买的公司要说得通、要和 Copart 契合、要让 Copart 能增加很多价值。我不太热衷于买那些……我明天不会跑去买酒店，因为 Copart 在全国订酒店房间——&lt;strong&gt;那不够协同&lt;/strong&gt;。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这是一句给市场的定心丸——19亿美元没有把弹药打光。同时「拍卖领域其他业务」的措辞值得记下，说明并购不会停。&lt;/p&gt;
-
-&lt;h2 id=&quot;q5barclaysjohn-babcock新闻稿说fy2028增厚但ceo说第一个完整年度就增厚到底是哪个&quot;&gt;Q5（Barclays，John Babcock）：新闻稿说FY2028增厚，但CEO说第一个完整年度就增厚，到底是哪个？&lt;/h2&gt;
-
-&lt;p&gt;这是全场唯一一次管理层口径被当场纠正。Stearns 的回答：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们预期这笔交易在&lt;strong&gt;当前年度打平（breakeven）&lt;/strong&gt;，在&lt;strong&gt;第一个完整年度、也就是FY2028实质性增厚&lt;/strong&gt;……鉴于交割时间还存在不确定性，我们只指引到28年。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：书面新闻稿的表述是「在拥有ACV的第一个完整年度对每股收益中性，2028财年及以后增厚」，CEO 讲稿里说成了「第一个完整年度增厚」。CFO 的澄清和新闻稿一致。&lt;strong&gt;投资者应以「FY2028才增厚」为准&lt;/strong&gt;——也就是说，这19亿美元在未来两年里对每股收益没有正贡献。&lt;/p&gt;
-
-&lt;h2 id=&quot;q6jefferiesbret-jordan有同行在用降价抢量保险端的定价环境理性了吗&quot;&gt;Q6（Jefferies，Bret Jordan）：有同行在用降价抢量，保险端的定价环境理性了吗？&lt;/h2&gt;
-
-&lt;p&gt;Adair 的回答透露了竞争态势：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「这门生意你只有两个选择。你要么创造流动性、在单车上拿到好的回报……要么你就得大幅砍价，因为你拿不到那个回报，只能靠降价来对冲这个弱点。&lt;strong&gt;说到底，我们不需要玩这个游戏。&lt;/strong&gt; 我们有惊人的流动性，这（收购）只会让它更好……想想看，每一辆没有损坏或者只是轻微损坏的车，都会被摆在&lt;strong&gt;成千上万家经销商&lt;/strong&gt;面前。光这一点就让我很兴奋。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：Adair 没有点名，但行业里 Copart 在事故车拍卖领域的主要对手是 IAA（现属 RB Global）。他的意思很清楚：对手在用价格战抢保险公司的合同，Copart 拒绝跟进，选择用「卖得更贵」来守住客户。这解释了为什么美国保险单量跌了8%而ASP还能涨5.5%——这是一个主动的、以量换价的取舍。&lt;/p&gt;
-
-&lt;h1 id=&quot;三其他值得记录的表态&quot;&gt;三、其他值得记录的表态&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;关于欧洲扩张&lt;/strong&gt;。Stephens 的 Jeff Licht 问德国模式的进展，Adair 说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「好消息是我们把德国模式搞明白了。美国模式我们早就搞明白了，但现在我们也把德国模式搞明白了。&lt;strong&gt;所以是时候开始增长、开始向整个欧洲扩张了，我们会去做。&lt;/strong&gt;」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;当被追问「低双位数的增长率能不能持续」时，他拒绝了：「我从不对增长给指引。我只是以CEO的身份告诉你，我们要在那些市场开始增长。」&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;关于会不会做汽车回收（repo）业务&lt;/strong&gt;。Adair 明确划了线：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们没有买一个回收业务。我们不会去把车收回来……&lt;strong&gt;我不想成为电视上那个跑到别人家门口把车拖走的人&lt;/strong&gt;。但我们很喜欢卖回收车。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;关于客户流失的「戏剧性」是否结束&lt;/strong&gt;。Baird 的 Craig Kennison 问还有没有悬而未决的招标（RFP），Adair 的回答带着明显的情绪：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我不觉得有什么戏剧性。&lt;strong&gt;如果说有什么的话，现在 Copart 有的是气势（swagger）。&lt;/strong&gt; 我们对前进的方向很兴奋。我们有很多很棒的人在拼命干……我对我们和现有客户的关系感觉非常好。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;关于 ACV 的 VIPER 检测技术能否用到自己的场地、以及能否带到海外&lt;/strong&gt;。摩根大通的 Jash Patwa 问了这个问题，Adair 的回答是会成立团队评估双向的协同，但没有给具体承诺。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;关于收购的分手费和 go-shop 条款&lt;/strong&gt;。Northcoast Research 的 John Healy 追问交易确定性，Adair 拒绝在电话会上讨论：「我觉得最好还是让它在文件里体现出来。我不认为在电话会上讲合适……而且我也不是律师。」Stearns 补充说相关文件已经备案，分析师可以自行查阅。&lt;/p&gt;
-
-&lt;h1 id=&quot;四这场电话会到底说明了什么&quot;&gt;四、这场电话会到底说明了什么&lt;/h1&gt;
-
-&lt;p&gt;把七个问题的落点串起来，可以得到三个判断。&lt;/p&gt;
-
-&lt;h2 id=&quot;1-管理层把这个季度定义为投资期而不是衰退期&quot;&gt;1. 管理层把这个季度定义为「投资期」，而不是「衰退期」&lt;/h2&gt;
-
-&lt;p&gt;利润下滑17.4%，但整场电话会上没有一句道歉或反思。CEO 的态度是「我们知道成本涨了，我们在处理」，CFO 的态度是「这些成本大部分是我们主动花的，会有回报」。他们没有下调任何东西，因为&lt;strong&gt;Copart 从来不给业绩指引&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这是一种高度自信的沟通方式。好处是不被短期数字绑架，坏处是在业绩转弱时，市场没有任何锚可以抓。分析师在会上三次试图问出明年的利润率方向，三次被挡回去。&lt;/p&gt;
-
-&lt;h2 id=&quot;2-acv-收购的核心不是财务而是渠道&quot;&gt;2. ACV 收购的核心不是财务，而是渠道&lt;/h2&gt;
-
-&lt;p&gt;管理层自己的数字说得很清楚：这笔交易两年内不增厚每股收益。既然财务上不划算（至少短期内），那买的一定是别的东西。&lt;/p&gt;
-
-&lt;p&gt;John Healy 的问题最一针见血：Copart 2007年就做了经销商服务，后来又有 BluCar、Copart Direct，非保险业务已占总量约四分之一，但为什么在特许经销商那里始终打不开局面？Adair 的答案是「需要一个不同的产品」——&lt;strong&gt;ACV 从入库、车况报告到交易流程的整套产品，和 Copart 是两个物种&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;换句话说，Copart 承认自己在经销商市场上，用自己的产品打不赢，所以买下了打赢的那个。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-前台分开后台打通是这次整合的全部关键&quot;&gt;3. 「前台分开、后台打通」是这次整合的全部关键&lt;/h2&gt;
-
-&lt;p&gt;Adair 讲得最具体的一段，就是双品牌如何共存：网站分开、营销分开、销售分开，但&lt;strong&gt;买家池打通、物流打通&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这个设计的价值在于：ACV 的经销商客户不需要觉得自己的车被扔进了「废车场」，而 Copart 的全球买家（尤其是买走美国38.2%车辆、贡献45.7%金额的国际买家）可以立刻出现在 ACV 的拍卖里。&lt;/p&gt;
-
-&lt;p&gt;如果这件事能做成，它就不只是把两家公司加在一起——&lt;strong&gt;它是把 Copart 的买家流动性，注入到 ACV 的卖家供给里&lt;/strong&gt;。Adair 说「每一辆没有损坏的车都会被摆在成千上万家经销商面前」，反过来也成立：ACV 的每一辆置换车，也会被摆在185个国家的100万会员面前。&lt;/p&gt;
-
-&lt;h1 id=&quot;五总结&quot;&gt;五、总结&lt;/h1&gt;
-
-&lt;p&gt;这场电话会最有价值的三条信息：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;CFO 明确澄清 ACV 收购在FY2028才增厚每股收益&lt;/strong&gt;，当年打平。CEO 讲稿的表述不准确，以CFO和新闻稿为准。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;单车运营费用同比上涨12.7%，管理层承诺会降下来&lt;/strong&gt;，但拒绝给任何时间表和量化目标。CFO 披露其中1700万美元来自长途运输业务的成本——这是主动投资而非失控。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;整合方案是双品牌、双网站、共享买家与物流&lt;/strong&gt;，ACV 作为独立子公司由原团队运营。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;最需要警惕的一点是：&lt;strong&gt;这场电话会里，没有一个分析师追问利润下滑本身&lt;/strong&gt;。所有人的注意力都被19亿美元的收购吸走了。对一家净利润刚刚下滑17.4%的公司来说，这种注意力的转移对管理层是有利的——但对投资者来说，下个季度当收购的新鲜感过去、而单车成本还没降下来的时候，这些问题会重新回来。&lt;/p&gt;
-
-&lt;p&gt;Adair 在结束时说：「我等不及要汇报下个季度了。」这句话可以当成一个承诺来记。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;数据来源&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/09/11/copart-cprt-q4-2026-earnings-call-transcript/&quot;&gt;The Motley Fool：Copart（CPRT）FY2026 Q4 业绩电话会完整实录&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/900075/000119312526387902/cprt-ex99_1.htm&quot;&gt;Copart 2026财年第四季度及全年财报新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322dex991.htm&quot;&gt;Copart 收购 ACV 的新闻稿原文（SEC 8-K 附件99.1）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322d8k.htm&quot;&gt;Copart 关于合并协议的 Form 8-K（含要约收购与合并条款）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.copart.com/investorRelations&quot;&gt;Copart 投资者关系网站&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://finance.yahoo.com/markets/stocks/articles/company-news-sep-14-2026-132800928.html&quot;&gt;Yahoo Finance / Zacks：Company News for Sep 14, 2026（股价反应与市场预期）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 15 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/15/copart_fy2026q4_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/15/copart_fy2026q4_earnings_call/</guid>
-        
-        <category>Copart</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

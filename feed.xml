@@ -5,9 +5,160 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Sep 2026 10:10:07 +0800</pubDate>
-    <lastBuildDate>Sat, 19 Sep 2026 10:10:07 +0800</lastBuildDate>
+    <pubDate>Sun, 20 Sep 2026 09:24:04 +0800</pubDate>
+    <lastBuildDate>Sun, 20 Sep 2026 09:24:04 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.09.20</title>
+        <description>&lt;p&gt;今天这五个帖子排在一起，有种奇妙的对照感。前两个是程序员的日常手艺：一个问「你最想早点学会的调试技巧是什么」，另一个问「2026 年的 Python 该长什么样」，两个楼里都吵得很热闹，而且吵的点比答案本身更有意思。中间一个是硬核的信息论：Intel 把一个已经压到 1.58 比特的模型又榨出了 0.1 比特，评论区有人三行字就把原理算明白了。后两个则是 AI 的另一面——一边是赌博公司用它精准找出最会输钱的人，一边是普通人发现它规划的旅行有将近一半是错的。&lt;/p&gt;
+
+&lt;h2 id=&quot;一问最好的调试技巧最高票答案是-print&quot;&gt;一、问「最好的调试技巧」，最高票答案是 print&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wktvbr/whats_a_debugging_technique_that_saved_you_hours/&quot;&gt;原帖：What’s a debugging technique that saved you hours and you wish you’d learned earlier?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;r/Python 上有人问了个老生常谈的问题：哪个调试习惯为你省下了最多时间？一百多条回复里，排在最前面的一批答案朴素得令人发笑——&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print(&quot;---------------- reached ----------------&quot;)&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print(&quot;here&quot;)&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print(&quot;got here 2&quot;)&lt;/code&gt;。有人甚至给出了进阶版：在调试输出前面加一串彩色 emoji，或者统一加一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;##JSTEST&lt;/code&gt; 之类的独特前缀，这样在刷屏的日志里 grep 一下就能把自己的那几行捞出来。&lt;/p&gt;
+
+&lt;p&gt;真正的争论从「这才是正道」那条回复底下开始。有人说 print 只是没学会用调试器之前的替代品，很快被反驳：干这行二十年，最后还是回到 print，真需要上 gdb 的场景已经少之又少。而支持调试器的一方给出了最具体的分界线：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…until you get into async and multithreaded code and print statement debugging inhibits velocity. Knowing how to actually use the debugging tools is one of those things that separates junior from a senior imo.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/mfc1__，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wktvbr/whats_a_debugging_technique_that_saved_you_hours/patx9g0/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;楼里另一条回复顺手解释了为什么这个问题会年年被问：调试根本没人教。学校教语法、教数据结构、教操作系统原语，然后就把人扔进工业界了；版本控制、调试器、IDE 这些真正决定日常效率的东西，全靠自学或者运气好碰上个愿意带你的人。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“At least in US, school doesn’t even touch source control, debugging, ides, etc. … You’d be surprised how many “senior” engineers in the US can’t use pdb.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/marr75，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wktvbr/whats_a_debugging_technique_that_saved_you_hours/pavgihd/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;除了 print 和调试器这两大阵营，楼里还散落着一些真正有含量的小技巧。比如用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;importlib.reload()&lt;/code&gt; 配合 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;code.interact(local=vars(foo))&lt;/code&gt;，相当于把 REPL「cd」进某个模块内部，改完 .py 文件直接 reload 就能继续交互，不用重启整个应用——代价是不能用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;from x import y&lt;/code&gt; 那种写法，因为 reload 对它无效。再比如日志的性能细节：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;log.debug(f&quot;var is {var}&quot;)&lt;/code&gt; 比 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;log.debug(&quot;var is %s&quot;, var)&lt;/code&gt; 慢，因为后者只在这条日志真的会被输出时才去拼字符串。还有人给出了一个更上层的建议：与其纠结用什么工具调试，不如先学会写「可调试的代码」，而这件事往往和写「可测试的代码」是一回事。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子最有价值的地方不是某个具体技巧，而是它暴露了一个行业性的断层——几乎所有人都在用自己摸索出来的土办法，而且都觉得自己这套挺好。print 之所以长盛不衰，是因为它零配置、零心智负担、在任何环境下都能跑；调试器之所以打不过它，往往不是能力问题而是启动成本问题。国内不少团队在这件事上还要更极端一点：线上环境不给 attach、容器里没有调试器、日志级别调不动，于是 print 就成了唯一选项。真想提效，与其教大家用 pdb，不如先把「随时能打开 DEBUG 日志」这件基础设施做好。&lt;/p&gt;
+
+&lt;h2 id=&quot;二2026-年的-python-技术栈评论区不同意其中一半&quot;&gt;二、2026 年的 Python 技术栈，评论区不同意其中一半&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wkziub/state_of_the_art_in_python_2026/&quot;&gt;原帖：State of the art in Python 2026?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;有人列了一份相当完整的清单请大家批评：包管理全用 uv、lint 和格式化用 ruff、数据建模用 Pydantic 和 dataclass、配置统一写进 pyproject.toml、CI 里跑 pyright 或 pyrefly 做类型检查、测试用 pytest 加 Hypothesis，然后是一大串按领域划分的库。结果评论区不是来点赞的，是来逐条拆的。&lt;/p&gt;
+
+&lt;p&gt;争议最集中的两处，一是 pandas 还算不算「先进」。这个问题在楼里几乎没有悬念，Polars 的支持者一边倒：更快、更省内存，而且语法本身就更直白。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Pandas is definitely not state of the art in the big 2026”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/bossExtremeSwag，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wkziub/state_of_the_art_in_python_2026/paupxr5/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;二是类型检查器选谁。Astral 家的 ty、Meta 家的 pyrefly、微软家的 pyright 各有拥趸，吵到后来有人干脆给出了最实在的建议：三个都装上跑一遍，看哪个报错信息对你最有用就留哪个。有意思的是关于版本号的插曲——有人以 ty 还是 0.0.x 为由说它没法上生产，立刻被指出 uv 和 ruff 到今天也没发过 1.0，照样满世界在用，Astral 似乎就是不爱给软件挂 1.0 这个标签。&lt;/p&gt;
+
+&lt;p&gt;还有一条逆流而上的回复，把清单里两个「政治正确」的选项一起否了：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’d also skip Pydantic for most things—it’s overkill, slow for ser/de, and can usually be replaced with a dataclass. Hypothesis is really cool in theory but I’ve never found a need for it in practice.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/busybody124，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wkziub/state_of_the_art_in_python_2026/paus9tg/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;楼里我最喜欢的一条建议来自科学计算方向：写 NumPy 代码时把自己限制在 Array API 这个子集里。理由不只是可移植（backend 从 NumPy 换成 PyTorch 不用改代码），更重要的是 API 小意味着读代码的人需要学的东西少，而且这套标准把各种角落里的怪异行为都清理掉了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Also, the Array API has superior design. The corner cases have been eliminated, and nearly every operation supports broadcasting in the obvious way.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/NeilGirdhar，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wkziub/state_of_the_art_in_python_2026/pauzt6g/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这类清单帖的真实用途，从来不是照抄，而是看哪些项没人反对。uv 和 ruff 全场零质疑，说明工具链层面 Astral 已经赢了；Polars 取代 pandas 在新项目里基本成为共识；而类型检查器、日志库、文档工具这些位置仍然是三国混战，说明它们的差异还没大到能分出胜负。对国内团队而言，前两类可以放心跟进，后几类则完全没必要为了「先进」去换——毕竟楼里还有人在认真为 Sphinx 和 reStructuredText 辩护，理由是 intersphinx 到今天也没有对手。&lt;/p&gt;
+
+&lt;h2 id=&quot;三158-比特再压成-1485评论区当场算出这是香农极限&quot;&gt;三、1.58 比特再压成 1.485，评论区当场算出这是香农极限&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wkfbm0/intel_squeezed_a_158bit_llm_down_to_1485_bits/&quot;&gt;原帖：Intel squeezed a 1.58-bit LLM down to 1.485 bits without changing a single weight&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;三值大模型把每个权重存成 -1、0、+1 三种状态之一，按信息论算下来每个权重需要 log₂3 ≈ 1.585 比特，这个数字一直被当成三值模型的存储下限。Intel 的做法是在不改动任何一个权重的前提下把它压到了 1.485 比特，顺带让数据处理快了约 10%——换句话说，等效提升了显存带宽。&lt;/p&gt;
+
+&lt;p&gt;帖子底下最热闹的其实是一个外行问题：一个比特怎么会有小数？几条回复很快把它讲清楚了——比特数是 log₂(状态数)，三种状态自然就是 1.58 个比特；而这 1.58 之所以还能再降，是因为 log₂3 这个公式有个前提假设。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Log2(3) assumes that all symbols appear with the same probability. If some symbols are more common than others, the average number of bits per symbol can be even lower.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/NanoAlpaca，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wkfbm0/intel_squeezed_a_158bit_llm_down_to_1485_bits/parfnjo/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;真正的神回复来自另一位网友，他直接把这个数字反推了回去：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“1.4845bits/symbol is precisely the Shannon limit of having 51.48% of your symbols be a zero and the rest evenly distributed between 1 and -1. So basically, they ran ANS compression (zstd) on the values.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Successful-Money4995，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wkfbm0/intel_squeezed_a_158bit_llm_down_to_1485_bits/parmayi/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也就是说，所谓的「压缩突破」本质上是发现三值权重里零的占比超过一半（约 51.5%），于是用 ANS（zstd 里那套熵编码）把这个偏斜利用起来，正好打到香农极限。楼里还顺带澄清了一个常见误解：有人担心压缩会让数据更怕出错，被搞通信的网友纠正说，压缩属于信源编码、纠错属于信道编码，两者在流水线的不同阶段，无损压缩本身不会让数据更易错。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这条新闻的标题写法很容易让人以为出现了什么新算法，实际上它是一次很漂亮的工程落地——把一个学过信息论的人都知道的事实（符号分布不均时熵低于 log₂ 状态数）真正做进了推理路径，而且做到了不掉精度、还顺手提了速。对做端侧推理的人来说，这个 6% 的体积缩减本身可能不是重点，「等效带宽提升 10%」才是，因为本地跑大模型的瓶颈几乎从来都是带宽而不是算力。另外值得记一笔的是：一个技术贴的评论区里能有人三行字复现出论文的核心思路，这种含金量在今天的中文技术社区已经不太容易见到了。&lt;/p&gt;
+
+&lt;h2 id=&quot;四draftkings-用-ai-找出最会输钱的人然后给他们发优惠券&quot;&gt;四、DraftKings 用 AI 找出最会输钱的人，然后给他们发优惠券&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wkkikp/how_draftkings_uses_ai_to_target_the_gamblers/&quot;&gt;原帖：How DraftKings Uses A.I. to Target the Gamblers Likeliest to Lose&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;纽约时报的报道说，DraftKings 用数据科学来判断该给谁发投注激励，而那个模型优化的目标是找出最可能输钱的人；与此同时，公司一直没把同样的技术用在识别和保护成瘾风险用户上。帖子标题里那个对照本身就足够说明问题，而评论区的反应是——这有什么新鲜的。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Social media platforms have been able to determine which users are depressed, and how to tailor their feeds and ads to keep them hooked/spending money, for like 10+ years now. Example: Depressed women, particularly young women, are shown more beauty content.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Less-Engineer-9637，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wkkikp/how_draftkings_uses_ai_to_target_the_gamblers/parh6jw/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;楼里有自称做过博彩公司反洗钱与欺诈分析的人出来说，所谓「负责任博彩」的监管基本是个笑话，广告应该按香烟和酒精的标准来管。也有赌徒自己现身说法：他每天给自己设 20 美元上限、把娱乐场限额调到 10 美分，但坦白说这是因为他已经四十多岁了，二十多岁时绝对守不住这种自律。另一条老手回复提到一个反直觉的事实——这些平台不只是纵容输家，还会主动限制甚至关掉赢家的账户，理由写作「可疑活动」。&lt;/p&gt;
+
+&lt;p&gt;最有画面感的是一位网友对「到底有没有人真赢钱」的实地考证：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I went to the leaderboard, and the person that had won the most money, around $1,000, had spent $991 on bets. So the top ‘winner’ on the entire platform, had only profited $9 after betting nearly $1,000.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/NUMBerONEisFIRST，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wkkikp/how_draftkings_uses_ai_to_target_the_gamblers/pav6xr5/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子真正值得中文读者留意的，不是赌博本身，而是那条「社交平台十年前就在这么干了」的提醒。推荐系统的目标函数写成什么，系统就会往哪儿演化——写「用户停留时长」，它就去找最容易上瘾的人；写「付费转化率」，它就去找最容易冲动的人。技术上，识别「高风险成瘾用户」和识别「高价值输家」用的是同一个模型、同一批特征，区别只在于产品经理决定拿这个分数去做什么。所以每次看到「算法是中立的」这种说法，都可以追问一句：那目标函数是谁定的？&lt;/p&gt;
+
+&lt;h2 id=&quot;五356-次旅行的统计ai-规划的行程43-的天数有毛病&quot;&gt;五、356 次旅行的统计：AI 规划的行程，43% 的天数有毛病&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wkwun0/43_of_aiplanned_days_carry_a_fault_a_356trip_study/&quot;&gt;原帖：43% of AI-Planned Days Carry a Fault: A 356-Trip Study&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;有人统计了 356 次用 AI 规划的旅行，结论是接近一半的行程日里存在某种错误——营业时间不对、闭馆日没查、两个景点之间的通勤时间明显不现实之类。这类「AI 不靠谱」的数据本身不算意外，帖子不大，但评论区有两条回复正好站在了这件事的两端。&lt;/p&gt;
+
+&lt;p&gt;一端认为这根本不是模型的问题，而是产品的问题：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Feels like something very easy to fix with proper tool calls and is more indicative of a shit product rather than underlying issues”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ClearlyCylindrical，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wkwun0/43_of_aiplanned_days_carry_a_fault_a_356trip_study/paurlbp/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一端则跳出了「准确率多少才够」的框架。有人把 AI 比作那个老是搞砸事情、还会张口就编的笨同事，接下来这条回复顺着这个比喻推了一步，我认为是全楼最有价值的一句：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Except we have a sort of intuition for the types of errors dumb coworkers make: we know which bits to double check, we can smell when they are BSing.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/FoolishConsistency17，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wkwun0/43_of_aiplanned_days_carry_a_fault_a_356trip_study/pavah1w/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这句话点破了「AI 就像个不靠谱的同事」这个流行比喻的失效之处。和人类同事共事久了，你会形成一套错误画像——他记性差所以日程要确认，他爱夸海口所以进度要打折，他心虚的时候语速会变。这套直觉让你能把复核成本花在刀刃上。而大模型的错误分布跟人完全不同：它在最该犹豫的地方最流畅，在最简单的事实上翻车，语气永远稳定自信，不给你任何可供识别的信号。所以真正的问题不是「43% 高不高」，而是你根本不知道该复核哪 43%——除非像上面那条回复说的，把营业时间、交通耗时这类硬事实统统交给工具调用去查，只让模型负责编排。这大概也是所有 AI 应用最终都要走向 agent 加工具的原因：不是模型不够聪明，是我们需要一个可以被验证的接缝。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Sep 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/20/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/20/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.19</title>
@@ -2172,175 +2323,6 @@
         
         
         <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.09.15</title>
-        <description>&lt;p&gt;今天翻完这一圈，五个帖子来自完全不搭界的板块，却意外地在做同一件事：&lt;strong&gt;拆标签&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;超级智能、美国造的模型、生命周期结束、全美最高薪——这些词都写得斩钉截铁，像是有人认真定义过。可一旦有人当真追问下去，会发现定义要么压根不存在，要么写定义的人并没有资格写，要么定义的标准早就换成了另一件事的代理指标。今天的评论区里最好的那些回复，几乎都是同一个动作：不去争论结论对不对，先问一句「这个词是谁定的，按什么定的」。&lt;/p&gt;
-
-&lt;h2 id=&quot;一桑德斯要立法禁止超级智能评论区翻出了国会九十年代关掉的那个办公室&quot;&gt;一、桑德斯要立法禁止超级智能，评论区翻出了国会九十年代关掉的那个办公室&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wg1uq3/new_bernie_sanders_bill_would_ban/&quot;&gt;New Bernie Sanders bill would ban superintelligent AI and threaten developers with 20 years in prison&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;伯尼·桑德斯提出了一份法案，要禁止「超级智能」的开发，违规的开发者最高面临二十年监禁。帖子一天之内冲到了 r/technology 和 r/popular 的前列，但热度和支持不是一回事——评论区几乎一边倒地在批评，而且批评的角度分成了很不一样的两拨。&lt;/p&gt;
-
-&lt;p&gt;第一拨是关于策略的。有人说这本来就不是奔着通过去的，是一份「宣示性法案」（messaging bill），作用是提醒选民应该向自己的政治体制要求什么。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“He doesn’t expect to succeed. He’s setting an example to remind voters of what they should be demanding of their democracy.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/OkWillingness2817，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wg1uq3/new_bernie_sanders_bill_would_ban/p9qx2bp/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;反驳也很快：明知不会通过还提，风险是让自己显得脱离实际、只顾表演；而且这个话题早就被从各种角度讨论了很多年，一份笼统的禁令并没有开启任何新讨论，只是「砸出一声闷响」。还有人务实地问：就算美国禁了，凭什么让别的国家停下来？&lt;/p&gt;
-
-&lt;p&gt;但真正让我停住的是第二拨——有人顺着「国会根本不懂技术」这句抱怨，往下挖了一层，挖出了一段制度性的旧账：美国国会曾经有一个技术评估办公室（Office of Technology Assessment），养着一批领域专家，专门给议员做立法前的技术简报。这个办公室在九十年代被关掉了，公开理由是太费钱。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“They used to have an office of technological assessment that had subject matter experts that would brief Senators and Representatives on proposed legislation. Newt Gingrich closed the office down in the 90s.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/bolerobell，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wg1uq3/new_bernie_sanders_bill_would_ban/p9rhk6t/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这条评论把整个帖子的性质变了。大家嘲笑议员不懂技术，嘲笑的是个人；但一个国家的立法机构有没有独立的技术判断能力，这是制度设计问题——你砍掉了唯一那个不受游说方向左右的评估机构，三十年后收获一批只能靠直觉立法的议员，这不算意外。对中文读者来说，这一点比法案本身有用得多：任何一个社会在面对新技术时，真正稀缺的从来不是「要不要管」的态度，而是&lt;strong&gt;有没有一个既懂技术、又不替任何一方站台的常设机构去回答「到底该管什么」&lt;/strong&gt;。态度可以随时表，能力得养几十年。&lt;/p&gt;
-
-&lt;h2 id=&quot;二什么样的模型才算美国造开源社区发现这个问题根本没法验证&quot;&gt;二、什么样的模型才算「美国造」？开源社区发现这个问题根本没法验证&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wfqwfh/right_to_intelligence_protect_your_right_to_run/&quot;&gt;Right to Intelligence. Protect your right to run local AI.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;和上一帖恰好接上：r/LocalLLaMA 有人发起了一个叫「Right to Intelligence」的倡议，主张保护个人在自己机器上跑本地 AI 的权利，理由是眼下这一轮 AI 安全监管的风向里，开源权重很可能被顺手一起收拾掉。（顺带一提，帖子里最有用的一条回复其实是技术性的：有人发现该站点被某个知名威胁情报名单拦截、且 TLS 配置有问题，随后又跟进说联系维护者确认是误报、已在移除——这种「发现问题、追到底、回来更正」的评论质量，是这个板块少见的好。）&lt;/p&gt;
-
-&lt;p&gt;讨论很快跑到了执行层面，而这才是最有意思的部分。有人指出，即使真的立法禁止，对个人几乎无效——参考盗版史——但对企业极其有效，因为公司必须走合法路径，而公司才是 AI 厂商的主要收入来源。换句话说，这类禁令真正的作用不是拦住技术扩散，而是重新分配谁能合法地从中赚钱。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Criminalizing the usage of open models is a good enough deterrance for the corporations. While individual users can get by with piracy, companies have to do things the legal way, and they are the main revenue stream for most AI companies.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/zdy132，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wfqwfh/right_to_intelligence_protect_your_right_to_run/p9p79jy/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;紧接着是一连串没人答得上来的追问：一个模型要满足什么条件才算「美国造」？训练数据吗，可各家实验室的数据来自全世界；那按服务器所在地算，可这些公司在中东建了巨型数据中心；那按研究人员国籍算——祝你好运。还有人补了一刀：轻微微调、改几个参数、做一次消融，就足以让来源变得难以追溯，要求「整个模型在美国境内训练」在验证上根本不可行。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Or just doing something superficial, like a tune, parameter change, or obliteration. Requiring that the whole model be trained in the US seems infeasible to verify.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/techno156，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wfqwfh/right_to_intelligence_protect_your_right_to_run/p9pd5yo/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这一串追问其实指向一个很朴素的道理：&lt;strong&gt;一个无法验证的标准，最终不会变成技术标准，只会变成执法者的自由裁量权。&lt;/strong&gt;对中文读者尤其现实的一点是，这场争论里被反复当作论据的是「中国实验室还会不会继续放开源权重」——也就是说，今天全球开源生态的下限，有相当一部分是由中国团队的发布策略决定的。这个位置既是筹码也是责任，值得国内做模型的人认真想想。&lt;/p&gt;
-
-&lt;h2 id=&quot;三97-的数据库管理员在用过时软件一线的反问是过时是谁说了算&quot;&gt;三、97% 的数据库管理员在用「过时」软件，一线的反问是：过时是谁说了算&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wgeryg/97_of_us_database_administrators_are_running/&quot;&gt;97% of US database administrators are running obsolete programs&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一份调查报告说，97% 的美国数据库管理员在运行已经过了官方生命周期终点（EOL）的数据库软件。标题写得像一则安全警报，评论区的反应却基本是「这数字听起来吓人，但你先搞清楚它在说什么」。&lt;/p&gt;
-
-&lt;p&gt;最高赞的回复直接引了报告里的例证：MySQL 5.7 升到 8.0 意味着数据字典的大改和查询缓存的移除——升级从来不是把版本号加一，而是一次高风险工程。然后他把矛头对准了整个行业的习惯：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“In the last 15 years the tech industry has gotten into a bad habit where we move from thing to thing at light speed without ever really bothering to make sure that the money and time spent were actually a good investment with positive ROI for the underlying business.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/The__Toast，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wgeryg/97_of_us_database_administrators_are_running/p9tpjvk/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他还有一句更锋利的观察：厂商在用 EOL 当棍子敲打任何一个不想跟着换的人；市场上明明存在大量「极度看重稳定、几乎不需要新特性」的客户，却没人愿意服务他们，因为不逼着人升级就卖不动专业服务。&lt;/p&gt;
-
-&lt;p&gt;然后一批做工业控制的人进来了，帖子的质地一下子变了。有人管交通信号控制器，说自家硬件比别人落后二十年是常态，因为需求根本不同：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Sure, your iPhone has way more computing power and connectivity, but I need something that is rock solid that will run for decades thru winter storms and summer heat waves and take power brownouts like a champ.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Vincent_LeRoux，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wgeryg/97_of_us_database_administrators_are_running/p9u4d64/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他补充说，路上还跑着几台八十年代中期的 170 型控制器，稳定得很，只是芯片开始坏了——这句话恰好也说出了另一面。另一位 CERN 相关的评论提到，那边大量定制嵌入式控制设备跑在二十年前的处理器上，如今被迫迁移操作系统，不是因为设备不行，而是因为上游发行版不再支持这么老的 CPU 指令集。&lt;/p&gt;
-
-&lt;p&gt;但帖子里最值得记住的，是一位 IT 从业者对那些「跑了十五年好好的服务器，安全部门天天发邮件催」的抱怨的回应。他没有站在任何一边，而是把真正的风险说清楚了：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“as long as you have a plan for when it dies, which could be any day now - or still 5 years off, that’s fine. If literally anything in that server dies though, the odds of getting a replacement part in a timely or reliable manner are zero.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Arathrain，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wgeryg/97_of_us_database_administrators_are_running/p9uuik8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这段对话对国内很多团队都有直接参考价值。我们习惯把「老系统」说成技术债，但这个帖子提醒了两件事：第一，EOL 是厂商的商业日历，不是你的风险日历，两者经常被混为一谈；第二，老系统真正的风险通常不在 CVE 列表里，而在&lt;strong&gt;备件、文档和还记得它怎么跑的那个人&lt;/strong&gt;。前者能靠扫描器发现，后者只能靠提前盘点。安全部门群发邮件很容易，跟业务方一起把每台老机器的「它死了怎么办」写下来很难，但只有后者才算做了事。&lt;/p&gt;
-
-&lt;h2 id=&quot;四资深工程师要不要转管理三十五年老兵说我在-ai-时代掉队了&quot;&gt;四、资深工程师要不要转管理：三十五年老兵说，我在 AI 时代掉队了&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1wfs3wz/do_you_regret_remaining_an_ic_later_in_your_career/&quot;&gt;Do you regret remaining an IC later in your career?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;发帖人做了八年一线工程师（IC），眼看隔壁带人的同事离职、位置空出来，开始动念头：如果一直不转管理，二三十年后会不会后悔被别人甩在身后？这是个老问题，但这次的回答密度很高，而且不是清一色的「别转，管理很烦」。&lt;/p&gt;
-
-&lt;p&gt;先是几位老兵现身说法：一位四十五岁、二十五年经验的资深 IC 说自己拒过十几次管理岗，从不后悔，核心理由不是情怀而是自由度——不带下属，时间和节奏都由自己安排。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I’ve turned down management roles like 10+ times over the years. I get shit done, but because I’m IC, my hours and time are more flexible than people with direct reports.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/trhoppe，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1wfs3wz/do_you_regret_remaining_an_ic_later_in_your_career/p9ooq3k/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;六十四岁还在写代码的、管过一段又管回去的、把非正式带徒弟当成管理瘾的解药的——各种版本都有。但真正提高这个帖子价值的是两条泼冷水的。&lt;/p&gt;
-
-&lt;p&gt;第一条讲的是 IC 路线的结构性风险：技术好不等于安全，你还得让高层看得见你。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The downside to IC is you need to make sure you are visible to executives and they think you bring value. I’ve seen some ICs lose visibility and when layoffs come there was no one to defend the head count.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/CorrectPeanut5，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1wfs3wz/do_you_regret_remaining_an_ic_later_in_your_career/p9qrlow/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;第二条更坦白，也更让人心里一沉。一位三十五年经验、同样多次拒绝管理岗的工程师说，在 AI 出现之前，他觉得自己在编码、设计、算法题上都能跟年轻人掰手腕；现在他也拥抱了工具，却发现产出被同事拉开了一倍多的差距——不是因为他不会用，而是因为「想法快用完了」。他末尾那句「早知道当管理层这部分会轻松些」，是整条线里最诚实的一句话。&lt;/p&gt;
-
-&lt;p&gt;顺带一提，另一条评论提到彼得原理（Peter principle）拿走了他身边太多最好的同事——把最强的工程师提拔成平庸的管理者，公司两头都亏。这也是为什么他在每次绩效周期里都推动公司建立一条不需要带人的晋升通道。&lt;/p&gt;
-
-&lt;p&gt;对国内读者，我想补一句不太一样的：这个帖子里几乎所有正面回答都建立在一个前提上——&lt;strong&gt;公司有一条走得通的资深 IC 通道&lt;/strong&gt;，有 principal、有 fellow，级别和薪酬能对齐 VP。在没有这条通道的组织里，「不转管理」不是一个选择，而是一个天花板。所以真正该先问的不是「我要不要转管理」，而是「我现在这家公司，资深 IC 的上限长什么样，有没有活人走到过那个位置」。前一个问题是性格问题，后一个是事实问题，而事实问题应该先问。&lt;/p&gt;
-
-&lt;h2 id=&quot;五加州程序员薪资全美最高按物价一折算冠军变成了爱荷华&quot;&gt;五、加州程序员薪资全美最高，按物价一折算，冠军变成了爱荷华&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wgdaao/oc_tech_pays_highest_in_california_adjust_for/&quot;&gt;[OC] Tech pays highest in California, adjust for cost, and it becomes Iowa.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作者抓取了六万多条在招的美国科技岗位（截至 9 月 13 日），取招聘启事里薪资区间的中位数、只算基本工资，再用各州的物价水平做平价折算。名义薪资榜上加州毫无悬念地第一；折算之后，榜首换成了爱荷华。&lt;/p&gt;
-
-&lt;p&gt;这类图的常见毛病是被人当成「该去哪儿工作」的结论，但作者自己把注意事项写得很清楚，其中一条尤其值得注意：&lt;strong&gt;没有薪资透明法的州，数据是自选的&lt;/strong&gt;——那些州只有愿意公开薪资的公司才会出现在样本里，而愿意公开的往往是给得起的那些。这意味着低透明度州的数字天然偏高。一张图最诚实的部分，经常在图外面的备注里。&lt;/p&gt;
-
-&lt;p&gt;评论区最生动的一条来自洛杉矶：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Well yeah, my tech salary in LA has afforded me a million dollar house. When my family from Louisiana comes to visit, looks like I’m lower middle class to them.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/BlackGold09，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wgdaao/oc_tech_pays_highest_in_california_adjust_for/p9tc2n0/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;一百万美元的房子，在外地亲戚眼里看着像中下层——平价折算这四个字，用一句生活场景说完了。顺着房价，有人解释了为什么加州的高成本不是「多盖点小房子」能解决的：贵的是地，不是房。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“You can’t simply build smaller houses so they’re more affordable. The land is still ridiculously expensive.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/mr_ji，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wgdaao/oc_tech_pays_highest_in_california_adjust_for/p9tm17n/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他的推论是：地价既定，开发商要么往上盖成「沙丁鱼罐头」，要么盖豪宅把地块价值榨干，中间那档在经济上根本不成立——这也解释了为什么「刚需小户型」在高地价城市总是消失。这套逻辑在北上广深同样适用，只是我们更习惯用政策语言而不是地价来解释它。&lt;/p&gt;
-
-&lt;p&gt;不过我想给这张图加一个不那么舒服的注脚：平价折算能算清物价，算不清&lt;strong&gt;机会密度&lt;/strong&gt;。爱荷华的折算后薪资更高，但你被裁之后方圆五十公里有几家公司在招同样的岗位，这个数字不会出现在任何一张购买力地图上。远程工作把这个问题拖延了几年，并没有取消它。真正该折算的，从来不只是你能买到多少东西，还有你换一份工作要付出多大代价。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;今天这五帖凑在一起，给我留下的其实是一句很不浪漫的操作建议：下次再看到一个写得很确定的标签——某个系统「已过时」、某个岗位「更有前途」、某个地方「薪资最高」、某项技术「必须禁止」——先花三十秒问三个问题：这个词是谁定的？按什么标准？这个标准和我关心的事是同一件事吗？&lt;/p&gt;
-
-&lt;p&gt;大部分时候，问完你会发现自己面对的不是一个结论，而是别人的一份商业日历、一张自选样本，或者一个从来没打算被验证的说法。&lt;/p&gt;
-</description>
-        <pubDate>Tue, 15 Sep 2026 09:45:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/15/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/15/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
         
       </item>
     

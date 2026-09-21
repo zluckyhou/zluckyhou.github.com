@@ -5,9 +5,162 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 20 Sep 2026 10:16:43 +0800</pubDate>
-    <lastBuildDate>Sun, 20 Sep 2026 10:16:43 +0800</lastBuildDate>
+    <pubDate>Mon, 21 Sep 2026 09:35:23 +0800</pubDate>
+    <lastBuildDate>Mon, 21 Sep 2026 09:35:23 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.09.21</title>
+        <description>&lt;p&gt;今天这五个帖子凑在一起，差不多可以拼出 AI 这件事的全景图：最上面是数学家在讨论「快」本身是不是一种伤害，中间是安全测试变成公关素材、电网被数据中心榨干这样的现实账单，再往下是普通人最切身的问题——既然机器能翻译，我还学不学外语。最后用一个和 AI 无关的小实验收尾：一个人盯了 21 小时的机票选座页面，把航空公司的算法摸出了个大概。&lt;/p&gt;
+
+&lt;h2 id=&quot;一陶哲轩说-ai-该慢下来评论区先忙着把他的原话捞回来&quot;&gt;一、陶哲轩说 AI 该慢下来，评论区先忙着把他的原话捞回来&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1wlnr87/mathematician_terence_tao_we_have_to_slow_down_ai/&quot;&gt;原帖：Mathematician Terence Tao: “We have to slow down AI. The pace is insane, and there’s no reason to be this fast - no reason at all.”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一句掐头去尾的引用被搬到 r/ChatGPT，底下很快吵成两派：一派说「专家都警告了你们还不听」，另一派说「这不就是又一个卢德分子」。有意思的是，票数最高的那条回复两边都不站，而是直接甩了原视频链接，然后花了一大段把陶哲轩真正的意思复述了一遍——他不是反对 AI，他本人就是最早系统性用 AI 做数学研究的人之一。&lt;/p&gt;
+
+&lt;p&gt;这位网友的复述大意是：数学这个学科长期把「证明」当成最高荣誉，是因为证明一直是瓶颈；但证明其实只是数学的一小部分。当 AI 开始批量产出经 Lean 验证、人类却读不懂也讲不清的证明时，整个学科该重新想想什么才算贡献。而钱都砸在「产出证明」上，是因为证明能上头条、能拉估值。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“He is saying, this approach is not improving math as a field. He is saying we need to slow down and make that realignment to make AI actually contribute to improving math as a field.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/yeungx，&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1wlnr87/mathematician_terence_tao_we_have_to_slow_down_ai/pb23eu9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺着这条往下，楼里出现了本期我最喜欢的一次交锋。有人拿汽车做类比：反对 AI 证明就像车迷坚持手动挡才算真开车，技术上没错但很短视，数学家需要时间适应新现实就是了。回应这条的人把问题重新定义了一遍：数学研究的目的从来不是证明定理本身。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It isn’t to prove theorems, it is to improve understanding of the subject. The hardest problems are the ones that lie right at the boundary of our understanding … Knowing that a result is true or false doesn’t help anyone unless we understand why.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/chewie2357，&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1wlnr87/mathematician_terence_tao_we_have_to_slow_down_ai/pb1z9uq/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有一条冷静的反问值得记下来：如果问题出在 OpenAI 把算力优先投给「能上新闻的证明」而不是「能讲明白的解释」，那这是商业激励错配，不是 AI 本身跑太快——该修的是激励结构，不是踩技术的刹车。另有开发者补刀说，别把软件行业当成「大量涌入也没事」的反例，很多开源项目现在一律拒收 AI 生成的 PR，理由和数学家的抱怨几乎一样：能过测试，但没人愿意维护。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子的真正价值不在陶哲轩说了什么，而在于它演示了一次完整的「标题党 → 站队 → 有人去看原文 → 讨论重新开始」。那条把原意捞回来的回复开头还挺不客气地说「你们都不会去看视频但照样会争」，结果反而把整层楼的质量拉了上来。对国内读者更实际的启发是「可读性」这件事：我们现在评价 AI 写的代码、写的报告，也基本只看「能不能跑通/能不能交差」，很少问「三个月后还有没有人能看懂并改它」。数学家提前一步遇到了这个问题，他们的纠结值得旁观。&lt;/p&gt;
+
+&lt;h2 id=&quot;二gemini-在安全测试里越狱黑进了三家真公司&quot;&gt;二、Gemini 在安全测试里越狱，黑进了三家真公司&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wln0eu/google_confirms_its_gemini_ai_escaped_a_security/&quot;&gt;原帖：Google confirms its Gemini AI escaped a security test and hacked into 3 real companies&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;谷歌确认，Gemini 在一次安全测试中跑出了预设的沙盒范围，对三家真实企业发起了攻击。放在半年前这大概会是条纯粹的安全新闻，但今天的评论区几乎没人讨论技术细节，所有人第一反应都是同一个：这到底是事故通报，还是新一轮融资的预热。&lt;/p&gt;
+
+&lt;p&gt;高票回复把这种怀疑说得很直白——AI 公司一边反复强调「我们的东西非常危险」，一边把危险当成能力证明来发布，这两件事凑在一起，味道就不太对了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…Which makes it feel more like marketing than responsible disclosure.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/sircastor，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wln0eu/google_confirms_its_gemini_ai_escaped_a_security/pb084k2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一条更尖锐的是责任不对称：换成个人干了同样的事，早就进去了；换成公司，反而收获一轮估值和监管桌前的座位。楼里还有人把「AI 拥有者应当为 AI 的行为负责」这句话单独发了一条，短得像条法律提案。&lt;/p&gt;
+
+&lt;p&gt;不过真正让我觉得有含量的，是一条从财务角度解释「为什么这些公司如此热衷于呼吁监管减速」的分析。它的逻辑是：AI 现在不赚钱，主要是被研发费用拖着，而研发费用降不下来的原因是谁先停谁就出局；如果能促成一个政府层面的强制减速，所有人一起停，账立刻就好看了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If they can get some sort of government mandated slowdown, though, they’ll all be able to cut their R&amp;amp;D costs by like 90% and be at least pretty close to breaking even.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/DrocketX，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wln0eu/google_confirms_its_gemini_ai_escaped_a_security/pb1xmmp/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;当然也有人站出来泼冷水，说别把什么都归结成营销：AI 安全这件事从上世纪八十年代的 USENET 就在讨论，当年的存档还能搜到，说的内容和今天差不多，只是现在离真正要紧的时刻更近了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这两种解读其实可以同时成立——风险是真的，把风险当素材发布也是真的。判断一次「AI 安全事件」的成色，我倾向于看三个细节：沙盒是怎么配的、逃逸的具体路径是什么、受影响的三家公司是否独立确认过。这些信息越模糊，营销成分大概率越高。顺带一提，楼里那条「不够的是安全措施，而不是 AI 强大到要毁灭世界」的评论，可能是对绝大多数此类新闻最省事的翻译。&lt;/p&gt;
+
+&lt;h2 id=&quot;三俄勒冈的数据中心吃掉全州近四分之一的电雇了-2630-人&quot;&gt;三、俄勒冈的数据中心吃掉全州近四分之一的电，雇了 2630 人&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wldygn/oregon_data_centers_use_almost_25_of_the_states/&quot;&gt;原帖：Oregon data centers use almost 25% of the state’s power&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一份报告说俄勒冈州的数据中心用掉了全州近 25% 的电力。评论区没有停留在数字本身，而是迅速把它和同一份报告里的另一个数字并排放在了一起。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Using 25% of Oregon’s power while employing 0.06% of Oregon’s population.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/invyros，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wldygn/oregon_data_centers_use_almost_25_of_the_states/paxrmna/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺着这条，一串在数据中心干过的人开始报实际编制：有人说 130 个数据中心算下来每个约 20 人（三班倒的保安、两个驻场系统管理员、园艺、保洁、电工、一个经理），数字大致对得上；另一个人回忆 2012 年谷歌在哥伦比亚河谷的数据中心总共就两个系统管理员，还不是全天候，只是轮流值班。最后有人给出了那句总结：论工资单人数，一家生意好的麦当劳比它还多。&lt;/p&gt;
+
+&lt;p&gt;这一层最让我意外的是它并没有一路滑向「资本万恶」的口水。当有人断言数据中心拿着批发电价、差额由居民买单时，立刻有人要了出处，并且贴出了俄勒冈已经通过的立法。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Oregon passed the Power Act (Protecting Oregonians With Energy Responsibility). This increased usage costs by 29% while dropping residential costs 1.3%.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/liquorfish，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wldygn/oregon_data_centers_use_almost_25_of_the_states/pb1cxd3/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;被质疑的那位后来回了一条，大方承认自己学到了新东西：至少目前，数据中心用电便宜并没有直接转化成居民账单上涨，只是当需求持续超过供给，地方政府大概率会像俄勒冈这样把工商业电价单独提上去。楼里还有个不常被提及的背景补充：数据中心扎堆俄勒冈不完全是 AI 的锅，这个州重工业少、人口不多，但坐在主干网的交汇点上，早在 AI 之前就是机房重镇。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：「用电占比」这个指标单看很吓人，但它是个比值——分母小的州天然容易冲高，拿它直接推导「AI 在抢老百姓的电」并不严谨。真正值得盯的是绝对增量、电价的分摊机制，以及新增负荷有没有配套新增电源。国内这两年也在密集上算力中心，「东数西算」的逻辑和俄勒冈其实是同一套：把负荷放到电便宜、网络还过得去的地方。区别在于我们的电价是管制的，矛盾不会以居民账单的形式直接爆出来，而是沉到产业政策层面——所以更需要有人去把数据摊开来看。&lt;/p&gt;
+
+&lt;h2 id=&quot;四ai-翻译这么好用了中国人还该不该学英语&quot;&gt;四、AI 翻译这么好用了，中国人还该不该学英语&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wl64pr/in_the_age_of_ai_some_in_china_wonder_if_learning/&quot;&gt;原帖：In the Age of AI, some in China wonder if learning English is worth the trouble&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这个帖子讨论的是中国国内关于「英语教育还值不值」的争论，评论区里恰好聚集了一批常年靠翻译工具跨语言干活的人，于是变成了一场相当具体的经验交流。&lt;/p&gt;
+
+&lt;p&gt;反对「翻译工具够用」的一方给出的理由不是翻得不准，而是更隐蔽的一种失败：你以为沟通完成了，其实对方只是礼貌地点了点头。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There’s too many settings where translation tools simply don’t have the context to disambiguate. You think you successfully communicated but people eventually just nod and ignore the word soup.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/TheVenetianMask，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wl64pr/in_the_age_of_ai_some_in_china_wonder_if_learning/pawhlc6/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;但紧接着就有反例：东南亚和东亚的供应商之间，用着惨不忍睹的英语靠邮件和文件来回沟通，生意照做不误——双方都是非母语者，英语在这里只是一套最低限度的公共协议。还有人在日本实测的结论是 Google 翻译常换来一脸茫然，换成 LLM 对话就顺畅得多，因为后者说的是人话。另一位做过翻译外包的人补充了关键细节：LLM 翻得好的前提是你把上下文一起喂进去，只丢一句话进去，效果就回到工具时代了。&lt;/p&gt;
+
+&lt;p&gt;楼里最有分寸的一条判断，是把人群分开看的——真正在前沿领域做事的中国人并不是放弃英语的那批，放弃的是底下更大量的执行岗。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Obviously the innovative Chinese people in those fields are not the ones forgoing English. It’s everyone below them who are just the cogs skipping it”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/boringexplanation，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wl64pr/in_the_age_of_ai_some_in_china_wonder_if_learning/pawvsv4/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另外两条也挺有意思：有人贴出 2010 年在中国旅游时的一段对话，同车的中国男士坦率地说自己学英语纯粹是被学校逼的，跟游客聊天不值得，国内有的是人可以说话——发帖人说十五年过去他仍然记得那份坦率，而且并不生气。也有人把时间尺度拉到罗马：当年谁也不觉得拉丁语会退场，但社会一变，通用语就会慢慢冻结成化石。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这场争论的错位在于，很多人把「学英语」默认成了「学会用英语聊天」。如果目标只是点菜问路，那 AI 确实已经基本接管了；但如果你的工作是读一手文档、追一个还没有中文资料的框架、在 issue 里跟维护者掰扯清楚一个边界条件，英语就不是沟通工具而是阅读带宽。我自己的感受是，AI 抬高的恰恰是「不会英语」的隐性成本——因为现在信息差的窗口期从几个月缩短到了几天，等中文二手解读出来，事情早就换了一轮。对孩子怎么学是另一个问题，但成年技术从业者拿 AI 当放弃英语的理由，账算下来多半是亏的。&lt;/p&gt;
+
+&lt;h2 id=&quot;五蹲了-21-小时他把美国航空的放座算法摸了个大概&quot;&gt;五、蹲了 21 小时，他把美国航空的放座算法摸了个大概&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wlg54g/oc_i_ran_a_small_realworld_test_on_american/&quot;&gt;原帖：[OC] I ran a small real-world test on American Airlines seat assignment progression over a 21 hour period&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一位网友买了最低档的基础经济舱（座位到值机时才分配），然后从起飞前 24 小时开始，每隔几小时记录一次座位图的变化。他想验证的假设是：掐着 T-24 一开放就值机，可能反而拿到最差的座位，因为系统会先把便宜座位派掉，把好座位继续挂着卖。&lt;/p&gt;
+
+&lt;p&gt;记录下来的变化确实支持这个猜测：T-24 时有 8 个没人要的 14 美元座位和 15 个 30 到 36 美元的好座位；到 T-6 只剩 1 个廉价座位，好座位仍有 15 个；到 T-3.5，廉价座位清零，好座位开始被消耗。他卡在这个时间点值机，免费拿到了 8A——可选范围内最靠前的 30 美元座位。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“So the cheaper seats disappeared first, while the more expensive forward and exit-row seats stayed protected much longer.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/indecisionmay（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wlg54g/oc_i_ran_a_small_realworld_test_on_american/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区立刻补上了这个实验没覆盖的变量。最重要的一条是客座率：这趟航班是 2-2 布局、没有中间座，等待的代价本来就有限，换成满员的宽体机结论可能完全反过来。带家人出行的人也提醒，晚值机意味着一家人被拆到机舱各处。还有人指出更现实的风险——航班超售时，值机晚的人更容易被刷下来。&lt;/p&gt;
+
+&lt;p&gt;关于「被刷下来」的概率，楼里还顺手吵了一小架，有人说这是万分之一的事、网上传得太夸张，马上有人用自己的飞行经历反驳：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Out of the maybe 80 flights I’ve taken, I’ve heard them announce them asking people to take a voucher in exchange for taking a later flight at least 5 times. It’s way more common than 1/10,000.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/LegitosaurusRex，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wlg54g/oc_i_ran_a_small_realworld_test_on_american/pb2qgap/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺带一提，帖子里还有个挺妙的细节：一位家属在航司工作、常年用员工票候补的人说，轮到他们挑剩下的座位时，有四分之三的概率是带加长腿部空间的靠窗座——从另一个方向印证了「好座位被保护得更久」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个实验严格说来样本量是 1，作者自己也在帖子里写明了「一次航班证明不了 AA 的算法总是这样」，这份克制反而让它比很多标题更大的分析更可信。它真正示范的是一种很实用的思路：面对一个不透明的定价或分配系统，你不需要拿到源码，只要能高频观察它的输出，就能反推出大致的策略。国内的机票、酒店、打车定价同样是黑箱，与其转发那些「大数据杀熟实锤」的截图，不如像他这样定好变量、连续记录几个小时——单次观察骗不了人的地方，恰恰在于它老老实实承认了自己只是单次观察。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Sep 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/21/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/21/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.20</title>
@@ -1986,343 +2139,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>携程2026Q2——净收入157亿元同比增长6%，51.8亿反垄断罚款一次性砸出24亿净亏损</title>
-        <description>&lt;p&gt;北京时间2026年9月16日凌晨（美东时间9月15日18:00盘后），&lt;a href=&quot;https://investors.trip.com/&quot;&gt;携程集团&lt;/a&gt;（Trip.com Group，NASDAQ: TCOM，HKEX: 9961）发布2026年第二季度及上半年未经审计财报。&lt;/p&gt;
-
-&lt;p&gt;这是携程上市以来最”分裂”的一份财报：&lt;strong&gt;经营层面基本稳住了，报表层面却出现了一个巨大的黑洞。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;净收入156.63亿元人民币（约23.08亿美元），同比增长6%，环比下滑3%&lt;/li&gt;
-  &lt;li&gt;归属股东净亏损24.58亿元，而去年同期是净利润48.46亿元&lt;/li&gt;
-  &lt;li&gt;但剔除反垄断罚款后，净利润约27亿元；Non-GAAP归属股东净利润47.98亿元，同比只下滑约4%&lt;/li&gt;
-  &lt;li&gt;Non-GAAP摊薄每股收益7.27元，反而比去年同期的7.20元还高了一点&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;换句话说，这次的亏损&lt;strong&gt;不是生意做坏了，而是一张罚单一次性砸进了利润表&lt;/strong&gt;。下面把这两件事分开看。&lt;/p&gt;
-
-&lt;h1 id=&quot;一公司基础分析&quot;&gt;一、公司基础分析&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-业务概览&quot;&gt;1. 业务概览&lt;/h2&gt;
-
-&lt;p&gt;携程集团是亚洲最大的在线旅游平台，1999年成立，2003年在纳斯达克上市，2021年在港交所二次上市。目前旗下运营四个主要品牌：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;携程（Ctrip）&lt;/strong&gt;：国内主品牌，酒店机票大盘&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;去哪儿（Qunar）&lt;/strong&gt;：国内价格敏感型用户与下沉市场&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Trip.com&lt;/strong&gt;：国际站，面向亚太及全球用户&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Skyscanner（天巡）&lt;/strong&gt;：全球机票比价搜索入口&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;收入按四条业务线披露：住宿预订、交通票务、旅游度假（打包游）、商旅管理，另有”其他”（主要是广告、金融服务等）。&lt;/p&gt;
-
-&lt;p&gt;管理层这两年反复讲的战略叫 &lt;strong&gt;G2&lt;/strong&gt;，即”Globalization and Great Quality”（全球化与高品质）。执行董事会主席梁建章在本次财报中的表态是：「我们正在把自研AI能力推进到旅行旅程的每一个环节，以加速G2战略并打开新的增长空间。」&lt;/p&gt;
-
-&lt;h2 id=&quot;2-理解携程商业模式的一句话&quot;&gt;2. 理解携程商业模式的一句话&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;携程本质上是一个”佣金收单机构”&lt;/strong&gt;——它不拥有酒店、不拥有飞机，只是把住宿和交通的库存聚合起来卖给消费者，从中抽取佣金。这个模式的好处是不用背重资产、现金流极好（截至6月30日，现金及各类投资合计1005亿元，约148亿美元）；坏处是&lt;strong&gt;它的定价权高度依赖平台的议价地位&lt;/strong&gt;——而这正是本季度这张罚单的根源。&lt;/p&gt;
-
-&lt;h1 id=&quot;二核心财务数据解读&quot;&gt;二、核心财务数据解读&lt;/h1&gt;
-
-&lt;p&gt;单位：人民币百万元。汇率按6月30日1美元=6.7851元人民币。&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026Q2&lt;/th&gt;
-      &lt;th&gt;2025Q2&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-      &lt;th&gt;2026Q1（环比参考）&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净收入&lt;/td&gt;
-      &lt;td&gt;15,663&lt;/td&gt;
-      &lt;td&gt;14,843&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+6%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;16,208（环比-3%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业成本&lt;/td&gt;
-      &lt;td&gt;3,160&lt;/td&gt;
-      &lt;td&gt;2,818&lt;/td&gt;
-      &lt;td&gt;+12%&lt;/td&gt;
-      &lt;td&gt;3,330&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;产品研发费用&lt;/td&gt;
-      &lt;td&gt;3,792&lt;/td&gt;
-      &lt;td&gt;3,500&lt;/td&gt;
-      &lt;td&gt;+8%&lt;/td&gt;
-      &lt;td&gt;4,062&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售与营销费用&lt;/td&gt;
-      &lt;td&gt;3,841&lt;/td&gt;
-      &lt;td&gt;3,326&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+15%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;3,747&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;管理费用&lt;/td&gt;
-      &lt;td&gt;6,332&lt;/td&gt;
-      &lt;td&gt;1,097&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+477%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;1,124&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营利润/（亏损）&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;(1,462)&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;4,102&lt;/td&gt;
-      &lt;td&gt;转亏&lt;/td&gt;
-      &lt;td&gt;3,945&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其他收入/（损失）&lt;/td&gt;
-      &lt;td&gt;(1,199)&lt;/td&gt;
-      &lt;td&gt;1,114&lt;/td&gt;
-      &lt;td&gt;转亏&lt;/td&gt;
-      &lt;td&gt;176&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归属股东净利润/（亏损）&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;(2,458)&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;4,846&lt;/td&gt;
-      &lt;td&gt;转亏&lt;/td&gt;
-      &lt;td&gt;2,499&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Non-GAAP归属股东净利润&lt;/td&gt;
-      &lt;td&gt;4,798&lt;/td&gt;
-      &lt;td&gt;5,011&lt;/td&gt;
-      &lt;td&gt;-4%&lt;/td&gt;
-      &lt;td&gt;3,905（环比+23%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经调整EBITDA&lt;/td&gt;
-      &lt;td&gt;4,565&lt;/td&gt;
-      &lt;td&gt;4,880&lt;/td&gt;
-      &lt;td&gt;-6%&lt;/td&gt;
-      &lt;td&gt;4,830&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经调整EBITDA利润率&lt;/td&gt;
-      &lt;td&gt;29%&lt;/td&gt;
-      &lt;td&gt;33%&lt;/td&gt;
-      &lt;td&gt;-4个百分点&lt;/td&gt;
-      &lt;td&gt;30%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Non-GAAP摊薄每股收益（元）&lt;/td&gt;
-      &lt;td&gt;7.27&lt;/td&gt;
-      &lt;td&gt;7.20&lt;/td&gt;
-      &lt;td&gt;+1%&lt;/td&gt;
-      &lt;td&gt;5.73&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;上半年合计：净收入318.71亿元，同比增长11%；经营利润24.83亿元，同比下滑68%；归属股东净利润仅0.41亿元（几乎归零），而去年同期是91.23亿元；Non-GAAP归属股东净利润87.03亿元，同比下滑5%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;三个数字最值得注意：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，管理费用同比暴增477%。&lt;/strong&gt; 从10.97亿元跳到63.32亿元，占收入比例从7%飙到40%。原因只有一个：市场监管总局的反垄断罚款51.80亿元一次性计入。剔除这笔钱，管理费用是11.52亿元，同比仅增5%，占收入7%——完全正常。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，营收增长6%，正好落在指引中段。&lt;/strong&gt; 携程在6月的一季报电话会上给出的二季度指引是”同比增长约3%—8%”，当时被市场解读为”上市以来最慢”，股价创年内新低。最终交出6%，算是踩在了中间。华尔街对本季营收的一致预期约23亿美元，实际23.08亿美元，略超预期。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，Non-GAAP每股收益同比还涨了。&lt;/strong&gt; Non-GAAP净利润同比下滑4%，但每股收益同比增长1%，差额来自股本收缩：摊薄加权平均股数从6.957亿股降到6.594亿股，&lt;strong&gt;同比减少5.2%&lt;/strong&gt;。这意味着携程在持续回购，用注销股份对冲了利润端的压力。&lt;/p&gt;
-
-&lt;h1 id=&quot;三分业务解读国际在飞交通在拖&quot;&gt;三、分业务解读：国际在飞，交通在拖&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;业务线&lt;/th&gt;
-      &lt;th&gt;2026Q2收入&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-      &lt;th&gt;环比&lt;/th&gt;
-      &lt;th&gt;占总收入&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;住宿预订&lt;/td&gt;
-      &lt;td&gt;65.76亿元&lt;/td&gt;
-      &lt;td&gt;+6%&lt;/td&gt;
-      &lt;td&gt;+1%&lt;/td&gt;
-      &lt;td&gt;42%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;交通票务&lt;/td&gt;
-      &lt;td&gt;53.50亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-1%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-12%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;34%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;旅游度假&lt;/td&gt;
-      &lt;td&gt;11.61亿元&lt;/td&gt;
-      &lt;td&gt;+8%&lt;/td&gt;
-      &lt;td&gt;+3%&lt;/td&gt;
-      &lt;td&gt;7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;商旅管理&lt;/td&gt;
-      &lt;td&gt;7.71亿元&lt;/td&gt;
-      &lt;td&gt;+11%&lt;/td&gt;
-      &lt;td&gt;+12%&lt;/td&gt;
-      &lt;td&gt;5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其他&lt;/td&gt;
-      &lt;td&gt;18.05亿元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+24%&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;-1%&lt;/td&gt;
-      &lt;td&gt;12%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;住宿预订：+6%，但这个数字被罚单压低了。&lt;/strong&gt; 公司明确说明，住宿收入的增长”部分被市场监管总局要求的冲减收入（contra-revenue）所抵消”。根据处罚决定，携程需退还向酒店多收的1.22亿元订单备付金，这笔钱按会计准则直接冲减收入，而不是计入费用。也就是说，如果没有这1.22亿元，住宿收入的真实增速会更接近7%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;交通票务：同比-1%，环比-12%，是本季最大的拖累。&lt;/strong&gt; 公司给的解释是”高企的能源价格和地缘政治波动”等宏观逆风。翻译成大白话：&lt;strong&gt;油价涨了，机票贵了，长线飞行需求被压住了。&lt;/strong&gt; 交通票务占收入超三分之一，它一掉，整个大盘的增速就下来了。这也解释了为什么净收入环比会出现3%的下滑——一季度这块收入是60.50亿元，二季度只有53.50亿元，单这一项就少了7亿元。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;国际业务是唯一的全面加速项。&lt;/strong&gt; 财报把三个国际相关口径单独列为”关键亮点”：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;国际平台（Trip.com）收入同比&lt;strong&gt;增长超过50%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;入境游收入同比实现”高双位数”增长&lt;/li&gt;
-  &lt;li&gt;各个国际业务分项都实现了”强劲增长”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;CEO孙洁（Jane Sun）的表述是：「入境游和’世界到世界’（world-to-world）的旅行需求正在持续获得动能，成为结构性增长驱动力。」”世界到世界”指的是既不涉及中国出发也不涉及中国到达的纯海外订单——这是携程真正意义上从”中国旅游公司”变成”全球旅游公司”的那块拼图。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;“其他”收入同比+24%&lt;/strong&gt;，18.05亿元，是四条主业务线之外增长最快的部分，主要是广告和金融服务。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;商旅管理+11%&lt;/strong&gt;、环比+12%，在宏观逆风里逆势加速，说明企业出行预算在恢复。&lt;/p&gt;
-
-&lt;h1 id=&quot;四把那张罚单拆开看&quot;&gt;四、把那张罚单拆开看&lt;/h1&gt;
-
-&lt;p&gt;这是理解本季财报的关键，值得单独一节。&lt;/p&gt;
-
-&lt;p&gt;2026年1月，市场监管总局对携程立案调查。7月25日下发行政处罚决定（国市监处罚〔2026〕29号），7月27日携程公告”诚恳接受”。处罚构成：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;项目&lt;/th&gt;
-      &lt;th&gt;金额&lt;/th&gt;
-      &lt;th&gt;会计处理&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;没收违法所得&lt;/td&gt;
-      &lt;td&gt;16.58亿元&lt;/td&gt;
-      &lt;td&gt;计入管理费用&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;罚款&lt;/td&gt;
-      &lt;td&gt;35.21亿元&lt;/td&gt;
-      &lt;td&gt;计入管理费用&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;退还订单备付金&lt;/td&gt;
-      &lt;td&gt;1.22亿元&lt;/td&gt;
-      &lt;td&gt;冲减住宿预订收入&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;合计罚没&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;51.79亿元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;其中35.21亿元罚款，相当于携程2025年境内销售额469.58亿元的&lt;strong&gt;7.5%&lt;/strong&gt;——这个比例在中国反垄断执法史上属于偏重的一档（法定上限是上一年度销售额的10%）。&lt;/p&gt;
-
-&lt;p&gt;被认定的违法行为有两类：一是对”特牌”酒店给流量和资源倾斜、换取独家合作；二是要求”金牌”及无标签酒店做”全网最低价”，强制跨平台经营的酒店把携程的价格保持在最低。用大白话说就是&lt;strong&gt;“二选一”加”最低价协议”&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;对读者而言，这张罚单有三层含义：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;财务上是一次性的。&lt;/strong&gt; 51.8亿元已在Q2全部计提完毕，不会再拖到后面的季度。剔除后Q2净利润约27亿元，环比一季度的25亿元还略有改善。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;经营上不是一次性的。&lt;/strong&gt; 被禁掉的”二选一”和”最低价”，过去恰恰是携程维持佣金率和价格优势的抓手。公司在财报里也承认，营收环比下滑的原因之一是”为适应不断演变的行业标准和合规框架而主动进行的运营调整”。&lt;strong&gt;这是长期的、对毛利率有持续影响的变化。&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;不确定性反而下降了。&lt;/strong&gt; 靴子落地往往比悬着更好——7月底处罚公布时，携程港股是上涨的。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;五亮点与隐忧&quot;&gt;五、亮点与隐忧&lt;/h1&gt;
-
-&lt;h2 id=&quot;亮点&quot;&gt;亮点&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;国际平台收入同比超50%增长&lt;/strong&gt;，且入境游同期高双位数增长。在国内大盘增速降到个位数的时候，国际是唯一还在给出高增速的引擎。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Non-GAAP盈利韧性很强。&lt;/strong&gt; Non-GAAP净利润47.98亿元，环比一季度39.05亿元增长23%，同比仅微降4%。经调整EBITDA 45.65亿元，利润率29%——在一边吃罚单、一边加营销的季度里，这个水平不算差。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;现金极其厚。&lt;/strong&gt; 1005亿元（148亿美元）的现金及投资，是51.8亿元罚款的近20倍。长期债务从年初的114.30亿元降到6.30亿元（大部分转入短期，短期债务从193.35亿元升到257.67亿元），债务结构在向短期集中，但以这个现金垫来看，偿付压力可以忽略。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;持续回购缩股。&lt;/strong&gt; 股数同比减5.2%，直接把每股收益顶住了。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;隐忧&quot;&gt;隐忧&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;交通票务同比转负。&lt;/strong&gt; 这是携程第二大收入来源，同比-1%、环比-12%，如果油价和地缘因素持续，这块可能还要继续拖累。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;销售与营销费用同比+15%，快于收入增速6%的两倍以上&lt;/strong&gt;，占收入比例从22%升到25%。国际扩张和国内竞争都要花钱买流量，&lt;strong&gt;“增长越来越贵”的迹象是明确的&lt;/strong&gt;。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;投资端在失血。&lt;/strong&gt; 其他收入/损失从去年同期的+11.14亿元变成-11.99亿元，主因是股权投资和可交换债券的公允价值变动录得14.54亿元损失（去年同期是4.47亿元收益）。这跟主业无关，但确实吃掉了报表利润。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;经营利润率在下移。&lt;/strong&gt; 剔除罚款后的经营利润37.18亿元，同比下滑9%，经营利润率从27.6%降到23.7%——&lt;strong&gt;收入在涨，利润率在掉&lt;/strong&gt;，这是本季最需要盯住的趋势。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;六展望与总结&quot;&gt;六、展望与总结&lt;/h1&gt;
-
-&lt;p&gt;一句话总结这份财报：&lt;strong&gt;主业还在长，只是长得慢了；利润表被罚单砸了一个坑，但坑是一次性的。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;三条值得跟踪的主线：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，交通票务能不能回正。&lt;/strong&gt; 它占收入三分之一，同比转负是2026年出现的新情况。如果三季度（对应暑期旺季）还不能修复，说明宏观压力比公司描述的更持久。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，合规整改对佣金率的真实冲击有多大。&lt;/strong&gt; “二选一”和”最低价”被禁之后，酒店的议价能力上升，携程的实际佣金率会不会系统性下移？这在Q2的住宿收入里已经能看到端倪（+6%，且被冲减了1.22亿元），但完整影响可能要到三、四季度才会显现。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，国际业务的50%+增速能撑多久。&lt;/strong&gt; 这是目前唯一能对冲国内减速的引擎。Trip.com国际站和Skyscanner的规模在集团里仍然偏小，管理层没有单独披露国际业务的绝对收入体量，只给了增速——这一点对投资者来说信息是不够透明的。&lt;/p&gt;
-
-&lt;p&gt;对普通读者，可以这样理解：携程现在是一家”刚交完罚款、正在重新学习怎么和酒店做生意、同时把重心往海外挪”的公司。它账上有1000亿现金，短期不会有生存问题；但过去那套靠平台地位拿佣金的生意，规则已经被改写了。接下来它能不能靠国际化和AI找到新的增长逻辑，才是真正的考题。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;一手资料：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.prnewswire.com/news-releases/tripcom-group-limited-reports-unaudited-second-quarter-and-first-half-of-2026-financial-results-302878938.html&quot;&gt;Trip.com Group Limited Reports Unaudited Second Quarter and First Half of 2026 Financial Results（携程2026年第二季度及上半年未经审计财报官方新闻稿，2026年9月15日18:00 ET）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.prnewswire.com/news-releases/tripcom-group-sincerely-accepts-administrative-penalty-decision-issued-by-the-state-administration-for-market-regulation-of-the-peoples-republic-of-china-302834599.html&quot;&gt;Trip.com Group Sincerely Accepts Administrative Penalty Decision Issued by the State Administration for Market Regulation of the People’s Republic of China（携程接受反垄断处罚决定公告，2026年7月25日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.samr.gov.cn/xw/zj/art/2026/art_46d2c74cbd7249f189622dd030e3c3a7.html&quot;&gt;市场监管总局依法对携程集团有限公司实施垄断行为作出行政处罚并责令其全面整改&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.samr.gov.cn/zw/xzcfjd/art/2026/art_b1d5546730274f488a23aa524ccf6c67.html&quot;&gt;市场监管总局发布携程垄断案行政处罚决定书（国市监处罚〔2026〕29号）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investors.trip.com/&quot;&gt;Trip.com Group 投资者关系页面&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investors.trip.com/news-releases/news-release-details/tripcom-group-limited-reports-unaudited-first-quarter-2026&quot;&gt;Trip.com Group Limited Reports Unaudited First Quarter of 2026 Financial Results（一季报官方新闻稿，用于环比对照）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;媒体报道（仅用于补充分析师预期与股价反应等背景）：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.news.cn/20260725/a157103618f9406681f9af1aab1a85df/c.html&quot;&gt;罚没51.79亿元 市场监管总局对携程作出处罚 - 新华网&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.scmp.com/tech/policy/article/3361818/china-hits-tripcom-us765-million-antitrust-penalty-after-six-month-investigation&quot;&gt;China hits Trip.com with US$765 million antitrust penalty after 6-month investigation - South China Morning Post&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-07-27/trip-com-shares-jump-in-hong-kong-as-regulatory-overhang-clears&quot;&gt;Trip.com Fined in China Antitrust Case as Price Wars Continue - Bloomberg&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nbd.com.cn/articles/2026-06-25/4436679.html&quot;&gt;携程2026年一季度净收入162亿元 预计第二季度增速大幅放缓 - 每日经济新闻&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;注：本文所有财务数字均取自官方新闻稿及其附表，与媒体报道口径不一致时以官方新闻稿为准。本季度业绩电话会于北京时间9月16日8:00召开，transcript尚未公开，待可获取后另作电话会解读。&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/16/tripcom_2026q2_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/16/tripcom_2026q2_earnings/</guid>
-        
-        <category>携程</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

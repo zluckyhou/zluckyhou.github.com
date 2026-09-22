@@ -5,9 +5,120 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 Sep 2026 10:16:32 +0800</pubDate>
-    <lastBuildDate>Mon, 21 Sep 2026 10:16:32 +0800</lastBuildDate>
+    <pubDate>Tue, 22 Sep 2026 09:19:30 +0800</pubDate>
+    <lastBuildDate>Tue, 22 Sep 2026 09:19:30 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.09.22</title>
+        <description>&lt;p&gt;今天这四个帖子看似风马牛不相及，但连起来读，居然拼出了一条从硬件到人心的链条：先是显卡这种最实在的东西，什么时候才轮得到普通人；再往上是一道统计学小题，逼着大家去想「概率」这个词到底在说什么；然后是打工人日复一日为自己并不认同的产品写代码的纠结；最后收在一个冷冰冰的数字上——一场让全网炸锅的风波，平均 6 天就没人再搜了。&lt;/p&gt;
+
+&lt;h2 id=&quot;一普通人这辈子显存就卡-16gb-了评论区聊着聊着聊到了-ai-泡沫&quot;&gt;一、普通人这辈子显存就卡 16GB 了？评论区聊着聊着聊到了 AI 泡沫&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wmb875/16gb_and_in_many_cases_12gb_is_the_max_vram_most/&quot;&gt;原帖：16GB (and in many cases 12GB) is the max vram most people will ever reasonably have&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人提醒 r/LocalLLaMA 这帮硬件发烧友别活在信息茧房里：论坛里动不动就是 3 张 3090、5090 甚至更夸张的配置，但对全世界绝大多数人来说，16GB 显存已经是天花板，换到发展中国家，12GB 都算奢侈。好消息是这半年局部模型进步飞快，16GB 卡如今也能跑得动像样的智能体编程了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“16GB is pretty much the high end for most. And this completely changes in most of the rest of the world where even 12GB would be a luxury.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ECrispy（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wmb875/16gb_and_in_many_cases_12gb_is_the_max_vram_most/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;有意思的是，评论区没怎么纠结「显存够不够用」，而是齐刷刷拐到了一个更大的问题上：显存这么贵，到底什么时候才会降？大家给出的答案惊人地一致——得等 AI 数据中心这波建设降温，甚至泡沫破掉。有人把逻辑掰得很清楚：现在的算力扩张是投资人的钱在烧，没有哪家大厂拿出过可信的盈利路径；一旦数据中心租不出去、赚不到钱，堆积如山的显卡就会一批批流向二手市场。楼里已经有人拿老型号举例，说 Tesla P100 现在只要八十几美元，V100 也就两百出头，等 A100 这一代租不动了，同样会被抛售。还有人补了一句让人印象深刻的对比：自 2022 年起，英伟达一家的市值已经超过了除德国以外任何一个欧洲经济体，这本身就透着不真实。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“When the datacenters can’t make money renting out the a100’s, they will be sold. And it will continue up the value chain.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/RemarkableRadish6547，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wmb875/16gb_and_in_many_cases_12gb_is_the_max_vram_most/pb893k7/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这条帖子最妙的地方，是它把「我想买张便宜显卡」这么朴素的愿望，和「AI 泡沫会不会破」这么宏大的命题接到了一起——原来发烧友们盼着二手 A100 白菜价，某种程度上就是在盼着这轮狂热退潮。对国内玩家其实也有参考：与其现在高位追新卡，不如留意数据中心退役的专业卡什么时候批量涌出。当然，另一种可能是英伟达为了维护价格自己回购销毁，那这场「等降价」就会落空。到底哪种，取决于这口气还能撑多久。&lt;/p&gt;
+
+&lt;h2 id=&quot;二一道开门-30-次没见鬼的题把频率派和贝叶斯派吵到分家&quot;&gt;二、一道「开门 30 次没见鬼」的题，把频率派和贝叶斯派吵到分家&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1wmi430/discussion_can_this_simple_binomial_question/&quot;&gt;原帖：Can this simple binomial question really only be solved with Bayesian stats?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;题目本身像个脑筋急转弯：你开一扇门开了 30 次，一次鬼都没见到。现在有人问你——「这门后面至少有 10% 的概率闹鬼」这个说法成立的概率是多少？发帖人自己算了一通（如果真有 10% 的概率闹鬼，30 次全躲开的概率约 4%），然后困惑地问：这题难道只能用贝叶斯统计做吗？评论区随即分裂成两派，把一道小题吵成了统计学的地基之争。&lt;/p&gt;
+
+&lt;p&gt;一派直接说：这个问句本身在频率派眼里就不成立。因为「门后有没有 10% 的概率闹鬼」是个客观事实，它要么是真要么是假，不是随机事件，谈不上「它成立的概率」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“That question makes no sense frequentist statistics. The statement isn’t random so it’s either 100% or 0% true.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/freemath，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1wmi430/discussion_can_this_simple_binomial_question/pb72xwt/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一派则不服，觉得没必要上纲上线：这不就是个二项分布的参数估计吗，跑个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;binom.test(0, 30, p=0.10)&lt;/code&gt; 给出置信区间就完事了，凭什么说只有贝叶斯能做。两边来回拉扯了十几层，最后被一条评论说明白了根子上的区别——频率派把模型参数当成固定但未知的真值，从不给「非随机的量」分配概率；而贝叶斯派把一切不确定性一视同仁，所以才能自然地回答「这门至少 10% 闹鬼的概率是多少」。换句话说，不是这题太难，而是这个问法从一开始就是用贝叶斯的语言提出来的。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Why would that only be answerable by Bayesian statistics? I can just, say, assume the same binomial model for the data and obtain an estimate and confidence interval of the probability parameter.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/CarnivorousGoose，&lt;a href=&quot;https://www.reddit.com/r/statistics/comments/1wmi430/discussion_can_this_simple_binomial_question/pb75u0l/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这场争论对非统计背景的人特别有启发，因为它戳破了一个日常误解——我们张口就说「这事有百分之多少的可能」，但严格讲，一件已经确定的事实是没有概率的，有概率的是我们对它的「信念」。频率派和贝叶斯派之争说到底不是谁对谁错，而是「概率」这个词到底在指什么：是长期频率，还是主观置信度。下次再看到「专家预测某事有 70% 概率发生」，不妨想一想，这个 70% 究竟是哪一种。&lt;/p&gt;
+
+&lt;h2 id=&quot;三一家监控公司被骂到员工想辞职评论区却在聊打工人的共谋&quot;&gt;三、一家监控公司被骂到员工想辞职，评论区却在聊「打工人的共谋」&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wm2b9s/people_hate_flock_so_much_its_employees_are_now/&quot;&gt;原帖：People hate Flock so much its employees are now demoralized and thinking of quitting&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Flock 是做车牌识别监控的公司，因为在全美铺设自动车牌读取器而被骂惨，据报道连内部员工都士气低落、动了辞职的念头。帖子底下第一反应大多是「活该」，但很快，讨论就从这一家公司，滑向了一个更普遍、也更扎心的问题：当你并不认同自己公司做的东西，却又离不开这份工资，你算不算共谋？&lt;/p&gt;
+
+&lt;p&gt;有人现身说法，讲自己在一家做零件的工厂上班，某天看到订单客户是雷神（军火商），意识到自己造的东西五年后可能会变成某枚导弹的一部分、去炸死素不相识的人——「这确实很糟，可我他妈还能怎么办？」这种无力感底下有一长串「+1」，大家反复提到同一个现实：科技行业裁员潮里，丢了工作未必找得到下一份，为了不饿肚子只能捏着鼻子干。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“So there’s a non zero chance I’ve helped make a thing that in 5 years will be used to help make another part in a missle that will explode random people. So yeah that fact sucks, but wtf else am I supposed to do?”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/crinkledcu91，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wm2b9s/people_hate_flock_so_much_its_employees_are_now/pb3v0j4/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺着这个话头，楼里翻出了那句在硅谷流传多年的名言——早期 Facebook 高管 Hammerbacher 的吐槽：我们这一代最聪明的脑子，都在琢磨怎么让人多点几下广告。还有人接着讲，财富到了某个量级会形成一个「吸走顶尖人才」的漩涡：本可以去当医生、搞科研的聪明人，纷纷涌进金融、会计、法律，一天到晚为富豪守护和扩张利益，挺让人唏嘘。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The best minds of my generation are thinking about how to make people click ads. That sucks.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/westside_fool，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wm2b9s/people_hate_flock_so_much_its_employees_are_now/pb4k59o/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这条帖子从一家人人喊打的监控公司起步，最后落到了每个技术人都躲不开的问题上——你的能力正在为谁服务。评论区难得没有站在道德高地上骂人，而是承认了那种「明知不太对、但还得养家」的两难。我觉得比较务实的态度，或许是那句被点赞的话的引申：作为个体能做的事有限，但至少可以时不时停下来，认真掂量一下自己这身本事，究竟被谁拿走、用去了哪里。这份清醒，本身就有意义。&lt;/p&gt;
+
+&lt;h2 id=&quot;四互联网的愤怒能撑几天有人量了量中位数-6-天&quot;&gt;四、互联网的愤怒能撑几天？有人量了量：中位数 6 天&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wmlgtl/oc_how_long_does_the_internet_stay_angry_search/&quot;&gt;原帖：How long does the internet stay angry? Search interest around 15 controversies&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一位网友挑了 15 桩美国的新闻、娱乐、科技风波，用谷歌趋势追踪它们的搜索热度，得出一个略显冷酷的结论：从峰值跌到「持续低于峰值 25%」，中位数只要 6 天。发帖人特意强调这不是说人类注意力只有 6 天，只是这 15 个案例在给定口径下的中位数。但评论区显然对这个数字更感兴趣——如果愤怒有保质期，那它就能被人算计。&lt;/p&gt;
+
+&lt;p&gt;很快就有人把这层意思挑明：既然公众的关注这么短、这么可预测，坏人只要熬过这几天风头，基本就能全身而退。还有人干脆给这套玩法起了个名字——「算法化的信息战」，并笃定 PR 公司早就在用比这精细得多的模型运作了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…bad actors can make pretty simple calculation to determine how long they need to survive/manage a controversy to effectively get away with it.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Tellnicknow，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wmlgtl/oc_how_long_does_the_internet_stay_angry_search/pb844um/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也有人给这份数据泼了盆冷静的水，指出一个方法论上的漏洞：谷歌搜索衡量的其实是「多少人在陆续得知这件事」，而不是「大家还气不气」。一件事火起来之后，真正的讨论往往转移到了社交平台，不再体现为搜索。所以这条曲线与其说是「愤怒的衰减」，不如说是「消息的扩散」。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This is a measure of discovery not of uhhh vibes”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Ryeballs，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wmlgtl/oc_how_long_does_the_internet_stay_angry_search/pb8nn1m/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这一小节其实给了本期一个不错的收尾。一方面，「愤怒有保质期，且能被计算」这件事本身就值得警惕——热搜撤下不代表问题解决，很多时候只是大家累了、忘了；懂这个规律的人，正靠着「拖过风头」把事情糊弄过去。另一方面，评论里那条方法论质疑同样重要：面对任何一张漂亮的图表，先问一句「它到底量的是什么」，往往比图上的数字更有价值。对我们这些每天被热搜牵着走的人来说，能有意识地把某件真正要紧的事记得比 6 天更久，也许就是一种小小的抵抗。&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Sep 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/22/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/22/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.21</title>
@@ -1970,163 +2081,6 @@
         
         
         <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.09.16</title>
-        <description>&lt;p&gt;今天这五个帖子来自五个毫不相干的板块，但翻完之后，脑子里浮现的是同一个动作：&lt;strong&gt;有人把标价牌翻过来，看背面写了什么。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;一个标着「全世界最便宜」的 API、一段标着「能跑就行」的代码、一份标着薪资范围的 JD、一条标着断崖式下跌的 GDP 曲线、一纸标着「我们终止了监控合约」的公告——这些数字和说法本身都没撒谎，问题在于它们统计的东西和你以为的不是同一样。今天评论区里质量最高的那批回复，做的都是同一件事：不急着为结论叫好或骂街，先问一句「这个数字到底在计量什么」。&lt;/p&gt;
-
-&lt;h2 id=&quot;一全世界最便宜的推理服务扒开是一层-openrouter-套壳&quot;&gt;一、「全世界最便宜的推理服务」，扒开是一层 OpenRouter 套壳&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wgwe4n/crofai_cheapest_inference_provider_in_the_world/&quot;&gt;CrofAI 被曝是 OpenRouter 套壳，悄悄把请求路由到更便宜的小模型，加价最高 20 倍&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;r/LocalLLaMA 今天最热的帖子，是一份写得极其扎实的调查复盘。CrofAI（crof.ai / nahcrof.com）是一家小型推理服务商，主打「什么新模型都有，而且比谁都便宜」，老板公开宣称自己写了定制推理引擎，别家贵是因为「技术不行」。实际情况是：它就是个 OpenRouter 套壳，你点名要的模型会被悄悄换成更便宜的那个——比如按 $2/$10 的价格卖 kimi-k3，转手路由到 GLM 5.3 Flash，输入端加价 13.3 倍、输出端 20 倍；它那个号称自研的 greg 系列模型，逐个对上的都是别家开源模型。&lt;/p&gt;
-
-&lt;p&gt;最值得一读的是调查者留出的那段「宽限期」：对方一共做了五次「修复」，每一次改的都不是路由，而是怎么把 OpenRouter 的指纹藏得更深。还有一些算术上的硬伤——声称用 Vast 上租的 RTX Pro 6000 跑 Kimi K3，可那模型即便量化到 Q2_K 也要约 802 GiB，而 Vast 上最大的那种机器八卡加起来只有 765 GiB；又说要在自己的 DGX Spark 上跑 deepseek-v4-flash 来「排查问题」，而 Spark 只有 128 GB 内存。曝光之后这人先宣布关站，接着伪造出一个「团队接管、两周后恢复服务」的剧本，几小时后所有线上痕迹一并删除。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I cannot stress this enough: if you bought any credits (even if you used them up) you are entitled to a full refund for every transaction as the victim of fraud.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/SorosAhaverom（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wgwe4n/crofai_cheapest_inference_provider_in_the_world/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;评论区里最清醒的一条来自老用户，他承认自己当初就是冲着「便宜得离谱的订阅计划」去的：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“They were a small player, but the cheapest several months ago (with ridiculously generous subscription plans). Of course it turned out that the cheapness was only possible because they weren’t providing the actual models.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/creamyhorror，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wgwe4n/crofai_cheapest_inference_provider_in_the_world/p9xpbiq/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;同一位还提到，这个圈子本身就很「打一枪换一个地方」，大家早就习惯把用量分散在多家服务商、同时买好几份订阅，并且「心里都清楚多数零数据留存（ZDR）的承诺大概率是假的」——于是有人干脆拉了个 Discord，专门交换各家究竟把请求转给了谁、各家输出质量有什么差别。另一条评论则是今天最好笑也最扎心的黑色幽默：既然他们连自己声称的模型都提供不了，大概也没本事偷你的数据。&lt;/p&gt;
-
-&lt;p&gt;对中文读者的现实意义很直接：&lt;strong&gt;这一轮 API 中间商的价格战里，「比官方便宜一大截」几乎是一个可以独立成立的风险信号。&lt;/strong&gt;判断方法其实不玄，都是可验证的——固定 prompt 反复测输出风格与 tokenizer 行为、对比响应头和限流特征、做同题横评。真要用，至少别把生产密钥和客户数据放上去；原帖作者最后那条建议尤其值得抄作业：一旦发现服务商有问题，默认你发过去的所有内容都已被记录，轮换密钥、换卡，别抱侥幸。&lt;/p&gt;
-
-&lt;h2 id=&quot;二sega-模拟器作者我的代码-100-手工无-ai然后评论区吵起来了&quot;&gt;二、Sega 模拟器作者：我的代码 100% 手工、无 AI——然后评论区吵起来了&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wgmvb1/if_a_computer_does_all_the_hard_work_whats_the/&quot;&gt;「如果电脑把苦活都干了，那还有什么意义？」BlastEm 作者炮轰 AI 垃圾项目&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;BlastEm 是一个以精度著称的 Sega Genesis 模拟器，作者公开表态：这个项目至今由 100% 手工、不含 AI 的代码组成，并且打算一直这样；他说自己不否认 AI 在商业开发里能提速，但复古模拟这个圈子里 vibe coding 项目泛滥，让他觉得挺泄气。帖子一出，r/technology 罕见地没有一边倒。&lt;/p&gt;
-
-&lt;p&gt;第一种声音是替用户说话的：意义当然是「能用」。会去逆向一台主机、去优化模拟内核的人永远是极少数，而想跑个老游戏的人是海量的——模拟器的下载量比模拟器项目多几个数量级，这本身就是答案。&lt;/p&gt;
-
-&lt;p&gt;第二种声音则把账算到了更长的时间尺度上，我觉得这是今天最有分量的一条：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It’s simply not just about having a program that runs, it’s about obtaining and maintaining knowledge with an archivist mindset. Preservation, accuracy and long-term thinking are goals too.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/NightSpaghetti，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wgmvb1/if_a_computer_does_all_the_hard_work_whats_the/p9ww1lh/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;同一条评论补了一句很具体的抱怨：真正让老项目维护者头疼的，不是新人用 AI，而是一堆又大又乱的 vibe-coded 代码涌进社区，作者半年后就腻了，留下没人接手的烂摊子。这句话把「AI 写代码好不好」这个空泛问题，换成了一个可操作的问题——&lt;strong&gt;谁来维护？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;反对意见同样犀利，而且落点不在技术上：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I respect him holding these opinions, I don’t respect the take.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/seridos，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wgmvb1/if_a_computer_does_all_the_hard_work_whats_the/p9zndw4/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他的理由是：你要是真为自己写的，闷头写就是了，不必把「手工代码」当成营销词挂在门口，这是在立牌坊。还有人给出了更冷静的一刀——坚持「纯手工」在长期未必占优，可能反而会被用了工具的竞品甩开；不过，他有他的动机，用户也有用户的动机，各自选就好。&lt;/p&gt;
-
-&lt;p&gt;我的看法：这场争论里真正被忽略的不是立场，而是&lt;strong&gt;成本发生在哪个时点&lt;/strong&gt;。AI 生成的代码把成本挪到了未来——挪到调试、理解、交接、五年后有人来修一个诡异边缘 case 的那一刻。一次性的小工具，这笔挪账划得来；要维护十年的精度敏感项目，账就完全反过来。「用不用 AI」从来不是价值观问题，是项目生命周期的问题。&lt;/p&gt;
-
-&lt;h2 id=&quot;三波士顿终止了-flock-的合约然后签了另外两家&quot;&gt;三、波士顿终止了 Flock 的合约，然后签了另外两家&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wgyj0f/boston_drops_flock_after_outside_agencies_gained/&quot;&gt;外部机构违规获取车牌数据后，波士顿弃用 Flock&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;波士顿警方在车牌识别公司 Flock 被曝出「外部机构能拿到本地车辆数据」之后，终止了与它的试点。听上去是隐私倡导者的一场胜利，然后评论区的第一条高赞回复就把这个胜利拆了：终止 Flock 之后，波士顿警方转头开了两个新试点——今年 2 月和 Motorola 合作的 45 个摄像头，6 月和 Axon 合作的 30 个。用另一位的话说，砍掉一个蛇头，长出来两个。&lt;/p&gt;
-
-&lt;p&gt;真正涨知识的是接下来那一串技术性补充：Flock 有个叫 Wing Gateway 的产品，可以往任何现成的闭路电视信号上挂一个盒子，那路摄像头就等效变成了一台不起眼的 Flock 摄像头。也就是说，「合约结束」不等于「设备下线」，这才引出了今天这个板块里最本质的一条观察：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The important thing is that the product that Flock actually sells is access to EVERYONE’S cameras. So they have an interest in keeping cameras up even if the places they are in don’t want them.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/AnAncientBog，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wgyj0f/boston_drops_flock_after_outside_agencies_gained/p9z94id/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他还预判了下一步：这些公司最终大概会把数据汇到一起，到那时候「摄像头是哪家装的」就不重要了。顺着这个逻辑，另一位常在这条线里补充事实的用户给出了结论：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“We have to push for regulations to preserve privacy against mass surveillance instead of just trying to get one specific product by a specific manufacturer taken down at a time”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/NotFlameRetardant，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wgyj0f/boston_drops_flock_after_outside_agencies_gained/p9z2h17/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他的论据是：公众压力推倒一个产品所需的时间，永远长于厂商推出下一个产品所需的时间（他顺带提到 Flock 目前增长最快的产品线是无人机）。所以逐个产品地抵制，注定是场猫鼠游戏。&lt;/p&gt;
-
-&lt;p&gt;这条思路值得单独拎出来：&lt;strong&gt;围绕单一供应商的抗议，赢的是新闻标题；围绕数据本身的规则，赢的才是结构。&lt;/strong&gt;真正该写进规则的其实是几个很枯燥的条款——数据保存多久、谁有权查询、每次查询是否留痕可审计、合约终止时硬件是否必须物理拆除。这些条款一条都不上头条，但它们才是那笔账真正的金额。&lt;/p&gt;
-
-&lt;h2 id=&quot;四雇主正在用你的个人数据算出你最低能接受多少薪水&quot;&gt;四、雇主正在用你的个人数据，算出你最低能接受多少薪水&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1whewrj/employers_are_using_your_personal_data_to_figure/&quot;&gt;报道：雇主用个人数据推算你愿意接受的最低薪资&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是今天 r/technology 上升最快的帖子之一：有报道称雇主正在借助个人数据，估算候选人能接受的薪资下限，然后精确地报到那个位置。这类报道通常容易流于耸动，但这条帖子的评论区几乎立刻提供了「体感证据」——第一条高赞就是一段刚发生的亲历：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Anecdotally, I just got a new job last week and the offer came in at literally the exact lowest number I told myself I’d accept for the job. No idea if they are using a system like this or not, but crazy how exact they hit it.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/YeetedApple，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1whewrj/employers_are_using_your_personal_data_to_figure/pa1wzr8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他后来也补了下文：试着往上谈，对方态度很硬；考虑到自己原岗位正在被外包、这个新职位仍算晋升加薪，最终还是接了。这个细节恰恰说明了这套机制的要害——它并不需要读你的心，只要能估出你当下的处境有多被动就够了。&lt;/p&gt;
-
-&lt;p&gt;对策层面，评论区的共识意外地一致而朴素：报价一定要往上谈，10%～15% 是个安全区间。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I’ve asked 3 times and have been successful 3 times. The only time I didn’t ask was when they asked what my range was and added 10% to it with the offer.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/binger5，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1whewrj/employers_are_using_your_personal_data_to_figure/pa25m08/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;也有反例：一位失业了半年的求职者走完全部面试后拿到录用，只因多要 5000 美元（135k 对 140k）就被晾了两个月，直到岗位重新挂出来才第二次入职成功——但他说那家公司后来成了他干过最好的地方，入职半年还涨了 15%。同一个帖子里还有人提到，妻子面完好几轮之后，拿到的报价远低于职位描述上写的范围，推回去之后才往上挪了一点。&lt;/p&gt;
-
-&lt;p&gt;我的延伸想法：这条新闻最该让人警觉的地方，不是「公司在压价」——公司一直在压价——而是&lt;strong&gt;压价从一门看人下菜碟的手艺，变成了可规模化、可复用、还会持续迭代的系统。&lt;/strong&gt;你的谈判对手不再是对面那个招聘经理的经验，而是一个见过几十万个候选人的模型。国内求职场景里那句「说说你目前的薪资和期望」，在这个语境下的分量得重新掂量：那不是流程，那是在给模型喂标注。对个人来说唯一稳定有效的对冲还是老三样——不主动报当前薪资、让对方先出数字、手上尽量保持第二个选项。&lt;/p&gt;
-
-&lt;h2 id=&quot;五日本-gdp-少了-8670-亿美元评论区把这笔账重算了一遍&quot;&gt;五、日本 GDP 少了 8670 亿美元，评论区把这笔账重算了一遍&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wh0txn/oc_japans_gdp_in_dollars_has_fallen_by_867/&quot;&gt;[OC] 以美元计价，日本 GDP 自 2019 年以来减少了 8670 亿美元（IMF，2026 年预测）&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一张图：按美元计价，日本 GDP 相比 2019 年蒸发了 8670 亿美元。这种图天生适合被当成「某国崩了」的素材，而 r/dataisbeautiful 的评论区今天干了件好事——把这个数字拆回它真正计量的东西。&lt;/p&gt;
-
-&lt;p&gt;最先出现的是人口视角：这段时间日本人口减少了约 2%～3%，按比例算大约对应 1500 亿美元的 GDP，老龄化确实是日本最大的问题之一。但马上有人指出，这解释不了主要部分：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Again, GDP is actually growing if you disregard the weak yen, which has very little to do with the population crisis, and very much to do with government policy.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/_WasteOfSkin_，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wh0txn/oc_japans_gdp_in_dollars_has_fallen_by_867/p9yl08w/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;也就是说：以日元计价，日本 GDP 是在增长的；这张图画的与其说是日本经济，不如说是日元汇率。另有评论直接甩出一句「实际 GDP 增长了 3%，所以这根本不算新闻」，以及一个补充视角——人口既然在减少，人均口径下这张图会更好看。至于日元为什么跌，回答从利差与套息交易，讲到日本央行购买国债、美债收益率上行吸走资本，而我认为最完整的是这一条：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Japan is just very odd with its combo of aging/shrinking population, high savings rate and massive domestic-held sovereign debt that just crashes everything into deflation every time BoJ tries to raise rates for real.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Tjaeng，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wh0txn/oc_japans_gdp_in_dollars_has_fallen_by_867/p9yw8m5/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;同一条评论还点出了真正的分配问题：日本是全球最大的债权国之一，海外资产以日元计价的价值和收益，让日本企业和有资产的退休者依然相对富裕；而拿固定工资、又吃下全部输入型通胀的上班族，日子并不好过。&lt;strong&gt;同一个汇率变动，在资产端是账面增值，在工资端是实际购买力缩水。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;这一节最值得带走的不是关于日本的任何结论，而是一个读图习惯：&lt;strong&gt;任何跨国、跨年的「美元计价」对比，第一步都该问汇率贡献了多少。&lt;/strong&gt;不管是 GDP、人均收入、企业营收还是研发投入，用同一个单位换算之后，你可能是在观察一个国家，也可能只是在观察一条汇率曲线。这个提醒对天天看中美经济体量对比图的人来说，大概比日本本身更有用。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;写到这儿回头看，今天这五帖的共同点其实挺朴素：&lt;strong&gt;便宜的 API、省力的代码、终止的合约、体面的报价、下跌的曲线——每一个数字都成立，每一个数字都不完整。&lt;/strong&gt;而评论区里那些真正有价值的回复，几乎都不是在反驳结论，只是在补上被省略的那一栏：这笔钱最后由谁付、什么时候付。&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Sep 2026 09:40:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/16/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/16/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
         
       </item>
     

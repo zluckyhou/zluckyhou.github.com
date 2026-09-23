@@ -5,9 +5,158 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 22 Sep 2026 10:21:46 +0800</pubDate>
-    <lastBuildDate>Tue, 22 Sep 2026 10:21:46 +0800</lastBuildDate>
+    <pubDate>Wed, 23 Sep 2026 09:09:10 +0800</pubDate>
+    <lastBuildDate>Wed, 23 Sep 2026 09:09:10 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.09.23</title>
+        <description>&lt;p&gt;今天这五个帖子，有两个讲的其实是同一件事的正反面：AI 到底是在替你干活，还是在替你把活儿的意义抽走。一位工程师说自己现在一天 12 小时就是按回车键，而另一个家庭在饭桌上因为一条 AI 的回复，把一位正在中风的父亲送进了医院。中间夹着阿里的新模型、一项让加密形同虚设的窃听研究，和一场关于「什么代码值得写测试」的务实讨论。&lt;/p&gt;
+
+&lt;h2 id=&quot;一一天按-12-小时回车键评论区说锅不在-ai在管理层&quot;&gt;一、「一天按 12 小时回车键」：评论区说，锅不在 AI，在管理层&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wn7qdj/engineer_says_claude_code_has_made_his_job/&quot;&gt;原帖：Engineer says Claude Code has made his job soul-sucking as workers spend 12-hour days pressing enter&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一位工程师抱怨自己的工作被 AI 编程工具掏空了：以前是设计、思考、写，现在是一整天盯着 AI 生成的代码点「同意」，12 小时下来只剩下按回车的肌肉记忆。这话戳中了太多人，帖子迅速冲上 r/technology 热榜。&lt;/p&gt;
+
+&lt;p&gt;但评论区最高赞的那一条立刻把焦点挪开了：问题不是 AI 有多强，而是管理层默认「你有了 AI，所以你应该是个巫师」。于是压力变成了不断交付你自己都没看懂、没测过、勉强能跑的代码。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This is not because AI is amazing, its because modern day tech managers think engineers are all wizards because they have AI. Its about the pressure to constantly ship code you dont understand, that hasnt been tested and that barely works”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/thrway-fatpos，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wn7qdj/engineer_says_claude_code_has_made_his_job/pbcoae1/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺着这条往下，楼里逐渐拼出了一幅相当完整的「AI 时代打工人怨气图」。有人说现在成了稳赔不赚的买卖：出了事是工程师的锅，想出了漂亮方案功劳算 AI 的。有人说整个组织里已经没人会因为做得好而被表扬了，因为所有人默认「那不是你做的，是 AI 做的」。还有人提到代码行数又回来了——一堆人拿「我 vibe coding 出来的应用有几万行」当勋章，而底下马上有人搬出比尔·盖茨那句老话：用代码行数衡量编程进度，就像用重量衡量造飞机的进度。&lt;/p&gt;
+
+&lt;p&gt;最扎心的一条总结把这件事拔高到了自动化的老问题上：被自动化掉的恰恰是有创造性、让人愉快的那部分，留给你的是洗碗和叠衣服，而且还要求你产出更高。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Just like with art and graphic design, they’ve automated the stuff that brings joy and requires creativity and left you to do the crap work. Automate the fun and leave you with doing the dishes and folding the laundry and expect you to be more productive.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/modsuperstar，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wn7qdj/engineer_says_claude_code_has_made_his_job/pbd2ouy/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一条支线也挺值得注意：不少人说连业余爱好的社区也沦陷了。有人在复古游戏破解社区做了几年的爱好项目，被人用 AI 一天糊出一个版本抢先发布；还有人干脆不写业余代码了，去练山地车——「上班已经受够了，下班没必要再来一遍」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子有意思的地方在于，骂得最凶的人其实都没说 AI 不好用，他们抱怨的是「效率提升的收益去哪了」。工具让单人产出翻倍，如果组织的回应是把交付预期也翻倍、把审查责任全压给个人，那对当事人来说体验当然是变差的。国内很多团队正在经历同一个阶段，值得提醒的一点是：AI 把写代码的成本打下去之后，真正稀缺的变成了判断力——判断这段代码该不该合、这个需求该不该做。如果管理者还用行数、PR 数、交付速度来衡量，那就等于把唯一还值钱的东西从考核里删掉了。&lt;/p&gt;
+
+&lt;h2 id=&quot;二一条-ai-回复把一位准备睡一觉就好的父亲送进了医院&quot;&gt;二、一条 AI 回复，把一位准备「睡一觉就好」的父亲送进了医院&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/&quot;&gt;原帖：We almost let my dad sleep through a stroke. ChatGPT is the reason we didn’t.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人讲了一个饭桌上的惊魂夜：父亲两次掉了筷子，说右手有点麻，嘴角看着「有点不对劲」，说话发黏，站起来时得扶一下椅背。最要命的是几分钟后他看起来又好了，于是全家都想说服自己没事，父亲坚持要去睡一觉。发帖人站在厨房里把症状一条条打进 AI 健康助手，本来是想证明自己大惊小怪。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The response basically screamed: possible stroke or TIA, emergency care now, do not wait even if the symptoms are going away. I read it out loud.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Past-Boot9764（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;父亲的反应很典型：AI 不都是往最坏的说吗。但发帖人抓起车钥匙硬把人拉去了医院，确诊缺血性脑卒中，治疗及时，人保住了。&lt;/p&gt;
+
+&lt;p&gt;评论区的反应分成清楚的三层。最温暖的一层是道贺和「相信直觉」；最有用的一层是科普：一堆人把 FAST 口诀（Face 面部下垂、Arm 手臂无力、Speech 言语不清、Time 立刻呼叫急救）刷了一遍，还有人补了个发帖人没做对的细节——别自己开车送，叫救护车，因为救护车上就能开始处理。而最冷静的一层是泼冷水：这些症状是教科书级别的中风表现，本来就不该需要 AI 来确认。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“BUT honestly, these symptoms are clear signs of a stroke. One shouldn’t need to consult AI to verify that.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/smoothvibe，&lt;a href=&quot;https://www.reddit.com/r/ChatGPT/comments/1wmxjs0/we_almost_let_my_dad_sleep_through_a_stroke/pbb2qty/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;有意思的是，这条泼冷水下面并没有吵起来，反而引出了另一批人现身说法：有人的妻子今年差点因为医生懒得多查而被误诊送命，有人的孩子被两位医生误诊三次才转到专科，有人花了 24 年才确诊一个先天疾病。大家的共识慢慢变成了一句相当克制的话——人和 AI 都会出错，关键是别让任何一方成为「不去医院」的理由。楼里还有一条提醒被顶得很高：在健康问题上，AI 唯一可接受的结尾是「立刻就医」，而不是「再观察观察」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：把这件事说成「AI 救了一条命」其实抬高了 AI，也低估了真正起作用的东西。真正起作用的是发帖人那句「我不在乎白跑一晚上」——AI 提供的不是诊断，是一个足以压过家庭内部分歧的外部权威。中国家庭对这种场面应该更熟悉：长辈嫌麻烦、怕花钱、觉得晦气，晚辈不敢坚持。从这个角度看，AI 的价值可能不在医学，而在「给犹豫的人一个敢于坚持的理由」。当然前提是你得知道 FAST 这四个字母——它值得今天就背下来，别等到要问 AI 的那一刻。&lt;/p&gt;
+
+&lt;h2 id=&quot;三阿里发布-qwen-4海外玩家已经在算什么时候能退掉云端订阅&quot;&gt;三、阿里发布 Qwen 4，海外玩家已经在算什么时候能退掉云端订阅&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wmxfjs/qwen_4_announced_at_apsara_conference/&quot;&gt;原帖：Qwen 4 Announced at Apsara Conference&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;阿里在云栖大会正式宣布了 Qwen 4，消息传到 r/LocalLLaMA 后，第一反应不是跑分，而是一句几乎条件反射的「Qwen 4 27B 会封神」。这个社区最在意的从来都是：多大的模型能塞进我家的显卡。&lt;/p&gt;
+
+&lt;p&gt;评论区里最一致的情绪是「本地模型正在把云端订阅挤出去」。有人说上一代的 27B 已经让自己对云端模型的依赖大减，Qwen 4 可能会彻底终结它；有人说已经退了订阅，百分之百用本地模型写代码；还有人明确表示打算今年二月不再续费云端的编程订阅。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I already canceled my subscription, I’m using 100% qwen 3.8 27b to assist me in coding. Qwen4 will be crazy. I think you’ll be able to get rid of cloud models !”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/sadomazoku，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wmxfjs/qwen_4_announced_at_apsara_conference/pbbk642/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;但兴奋底下藏着一个越来越疼的现实：显卡在疯涨。有人说自己两个月前买的卡现在贵了 600 美元，还有人刚买一个月零两天的 5090 已经涨了超过 37%，楼里于是流传出一句苦笑式的建议——「买两张吧，马上还要涨」。另一半讨论则集中在 A 卡和 N 卡的取舍上：同样是 32GB 显存，AMD 的专业卡价格只有英伟达同类的零头，但带宽差了将近三倍，而且整个生态是 CUDA 优先、ROCm 靠后。也有人说这一年 ROCm 成熟得很快，AMD 总算意识到拖后腿的一直是自己的软件。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I just paid out the ass for my 5090, which in the 1 month 2 days since I bought it has gone up over 37%.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/mvandemar，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wmxfjs/qwen_4_announced_at_apsara_conference/pbamzhh/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：在一个以英语为主的技术社区里，大家讨论的是「要不要退掉云端订阅改用中国开源模型」，这件事本身比模型参数更有信息量。真正被国产开源模型改变的不只是榜单，而是一部分开发者的消费决策——这是比跑分更硬的指标。对国内开发者的启发大概是：本地部署的性价比已经越过了某条线，只要你能搞到显存。而显存的价格，正被另一场远在天边的算力军备竞赛推着走。&lt;/p&gt;
+
+&lt;h2 id=&quot;四隔着-30-米听你的耳机评论区一句话说穿了原理&quot;&gt;四、隔着 30 米「听」你的耳机，评论区一句话说穿了原理&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wn9o00/researchers_found_a_way_to_eavesdrop_on/&quot;&gt;原帖：Researchers found a way to eavesdrop on headphones from 30 meters away, and encryption can’t stop it&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;研究者展示了一种叫 InjectEave 的手法：在 30 米外就能还原耳机里正在播放的内容，而且加密、掩码、随机化这些数字层面的防护统统无效，因为泄漏发生在模拟信号这一段。听起来很玄，评论区第一批人却相当淡定。&lt;/p&gt;
+
+&lt;p&gt;一条高赞回复用一句话把原理讲明白了：每个扬声器本质上都是麦克风。线圈在声压下会动，动就会产生电流，只是有没有被放大到噪声之上而已。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Every speaker is a microphone. If there’s a DAC in the middle, it’s only a mic until you hit the DAC circuit.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/neonsphinx，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wn9o00/researchers_found_a_way_to_eavesdrop_on/pbdhpzb/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也有人提出了很实在的质疑：既然攻击链路这么绕，那跟直接架一支高灵敏度麦克风去录耳机漏出来的声音相比，到底强在哪？&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“At some point I wonder how more efficient this method is compared to having a very sensitive microphone to listen to the sound emitted by the headphone directly.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/IntelArtiGen，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wn9o00/researchers_found_a_way_to_eavesdrop_on/pbd6m33/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;再往下就变成了一场很可爱的怀旧：有人少年时用一副坏掉的耳机当麦克风录「搞笑歌曲」，有人把电吉他插进家里音响的麦克风口因为比自己的小音箱响得多，还有人回忆办公室的电脑音箱偶尔会串进隔壁消防局的无线电，诡异了好一阵才搞明白怎么回事。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子最有价值的部分不是那项研究本身，而是评论区展示的一种思维方式——当有人告诉你「加密也防不住」时，别急着恐慌，先问泄漏发生在哪一层。密码学保护的是数字比特，而声音终究要变回空气的振动，那一段物理世界谁也加密不了。这个道理可以推广到很多安全话题上：屏幕的电磁辐射、键盘的敲击声、散热风扇的转速，都是加密算法管不着的地方。&lt;/p&gt;
+
+&lt;h2 id=&quot;五什么代码值得写测试一条比覆盖率靠谱的标准&quot;&gt;五、什么代码值得写测试？一条比覆盖率靠谱的标准&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wne8wt/whats_your_testing_philosophy_for_scripts_vs/&quot;&gt;原帖：What’s your testing philosophy for scripts vs. production-grade Python code?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;提问的人说得很实在：小脚本就是跑一遍、看看输出对不对；但生产代码总该更有章法吧？这种问题在 r/Python 很容易收获一堆「上 pytest、追求 100% 覆盖率」的标准答案，但这次最好的回答换了个维度。&lt;/p&gt;
+
+&lt;p&gt;有人建议别按「脚本还是生产」来划线，而是按「出错的代价」来划：在生产库的只读副本上跑个查询，出错代价基本为零；而一次账单套餐的数据迁移错了，那就是一场灾难。所以该做的是找出那些代价昂贵的失败路径，针对它们写测试，而不是盯着覆盖率数字。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’d split on cost of the mistake instead of env. … So: construct angles for expensive failures and test those. And no need to reach 100% code coverage.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/c1rno123，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wne8wt/whats_your_testing_philosophy_for_scripts_vs/pbec1al/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一条同样务实的建议是关于习惯的：写完一个函数就顺手写个最笨的测试，别一上来就追求覆盖所有边界情况——那是最后才做的事。还有人分享了一套自己的判据：不定期跑、不进版本库的，就是「快糙脚本」。然后跟了一句让全楼会心一笑的话。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Sometimes my quick and dirty scripts become production without my realizing it.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/FatDog69，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wne8wt/whats_your_testing_philosophy_for_scripts_vs/pbeagq8/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：「按出错代价分级」这个标准，比任何覆盖率指标都更值得贴在墙上，因为它承认了一个现实——测试的目的不是证明代码对，而是控制赔不起的那部分风险。而那句「快糙脚本不知不觉就上生产了」之所以好笑，是因为它太常见了：真正该被管理的不是脚本的质量，而是脚本从个人电脑溜进生产环境的那条路径。回头看今天的第一个帖子，这两件事其实是连着的：当 AI 让写代码变得极其廉价，「哪些代码值得认真对待」这个判断，反而成了工程师最不能外包出去的工作。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;以上内容整理自当日 Reddit 各板块热帖及其评论区，引用的英文原文均来自帖子和评论的公开 RSS。&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Sep 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/23/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/23/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.22</title>
@@ -1570,183 +1719,6 @@
         
         
         <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.09.17</title>
-        <description>&lt;p&gt;今天这五个帖子横跨云计算、硬件、招聘、职场和机器学习，本来毫无关系，但翻完评论区之后，它们在我脑子里拼成了同一句话：&lt;strong&gt;真正让人付出代价的失败，几乎都不报错。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;服务器还在跑，硬盘还在货架上，offer 还是一封热情洋溢的邮件，绩效系统照常出分，训练脚本也从头到尾没抛过一个异常——一切看上去都正常。但账已经在算了，只是没有人通知你。今天评论区里质量最高的那些回复，做的都是同一件事：把那个没有弹窗、没有告警、没有红字的地方指出来。&lt;/p&gt;
-
-&lt;h2 id=&quot;一导弹落在机房上亚马逊说有些数据是真的找不回来了&quot;&gt;一、导弹落在机房上，亚马逊说有些数据是真的找不回来了&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/&quot;&gt;伊朗对亚马逊数据中心的打击，造成客户数据永久丢失&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;r/technology 今天最有分量的一条：亚马逊承认，中东设施遭到伊朗打击之后，部分客户数据无法恢复。注意用词是「永久丢失」，不是「暂时不可用」。这句话的重量在于，云计算这十几年卖给企业的核心承诺之一，就是「机房会不会出事这件事，你不用再操心了」。&lt;/p&gt;
-
-&lt;p&gt;评论区的第一反应是黑色幽默，但笑点底下埋着真问题：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“My DR plan doesnt cover drones or missiles, I should update that.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Stormraughtz，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/pa9fggl/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;笑完之后，真正值得抄下来的是那条把架构讲清楚的回复。它点破了一个很多人从没细想过的区别：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Multi availability zone is common. Multi region is rare. It’s possible Iran knew where each data centre was for a particular AZ and took the whole thing out.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/may_be_indecisive，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/pa9yn5y/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;多可用区（multi-AZ）几乎是默认配置，多区域（multi-region）则极少有人真做——因为贵，因为复杂，因为跨区域的一致性和故障切换是另一个量级的工程。而同一个 region 里几个 AZ 之间那点物理距离，在民用灾难的尺度上够用，在军事打击的尺度上根本不算距离。有人现身说法，他上一家公司真做了多区域，主力在 US-East-1 和 US-West-2，另外还铺了法兰克福、新加坡、悉尼，AWS 账单高得离谱，但「数据和服务基本上就是这家公司本身」。&lt;/p&gt;
-
-&lt;p&gt;还有一条提醒，是把责任边界摆回桌面上的：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Just a gentle reminder that they still expect you to be responsible with your data.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Mistrblank，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/pa9x37i/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;另一位做过数据保护的人则说得更直白：当年把数据搬上云，一个主要理由恰恰就是「云厂商保证它会被复制到不同的物理位置」。现在回头看，这句承诺里那个被默认省略的前提是——你得自己付钱选那个跨物理位置的档位。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这件事对中文读者的现实意义不在于「云不可靠」，而在于共享责任模型（shared responsibility）里那条线，比多数团队以为的位置更靠自己这一侧。值得今天就去确认三件事：备份到底落在几个地理区域，快照是不是和生产在同一个 region，以及恢复流程有没有真演练过。顺便说，帖子里还有位工程师提到，巴林机房被击中之后他立刻被要求为「万一 us-west-2 也挨打」准备预案——这种一夜之间把地缘政治写进 DR 文档的经历，几年前听起来还像段子。&lt;/p&gt;
-
-&lt;h2 id=&quot;二有人不靠体感真把硬盘价格拉出来算了一遍每-tb-两年翻倍&quot;&gt;二、有人不靠体感、真把硬盘价格拉出来算了一遍：每 TB 两年翻倍&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1whz77u/oc_median_price_per_tb_of_storage_hard_drives/&quot;&gt;每 TB 硬盘价格中位数，消费级 NAS 盘 vs 企业级，2024 到 2026 Q3&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是今天最扎实的一份自制数据。作者说他受够了「现在存储怎么这么贵」这类全靠体感的帖子，于是把美区 8TB 以上新盘的逐月价格历史全拉下来，算出每 TB 单价的月度中位数，再分成消费级 NAS 盘（WD Red、IronWolf）和企业级（Exos、MG、Ultrastar）两档对比。&lt;/p&gt;
-
-&lt;p&gt;结论干脆利落：2024 年到 2025 年大部分时间，每 TB 价格平稳地趴在 20 美元左右；从 2025 年底到 2026 年 9 月，一路涨到 40 多美元并且就停在那儿了——大致翻倍。他给的原因是 AI 数据中心的需求，加上全球只剩三家主要硬盘厂商。更反直觉的是第二个发现：&lt;strong&gt;消费级和企业级的每 TB 价格现在几乎一样，「买企业盘更划算」这条老经验对新盘已经不成立了&lt;/strong&gt;，两条线是同步涨上去的。唯一还便宜的是翻新/再认证的企业盘，10 到 15 美元每 TB，但保修短、通电时长不明、退货也没有零售标准，他因此没放进图里。&lt;/p&gt;
-
-&lt;p&gt;评论区立刻有人用自己的账单来对表：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Nearly doubled? I paid 149 dollars for a 8Tb Seagate Ironwolf in late 2023. That same drive is now 359.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/nbfs-chili，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1whz77u/oc_median_price_per_tb_of_storage_hard_drives/pa6itbu/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;作者的回复堪称教科书式的数据沟通——把个人轶事直接换算回图上的坐标：149 美元买 8TB 约合 18.6 美元每 TB，359 美元约合 45 美元每 TB，几乎正好是图里那条从 20 美元到 40 多美元的曲线，「你买在了那段平台期的尾巴上」。另一位加拿大网友 2024 年 11 月花 2700 加元买了四块 24TB，现在同样的配置要接近 8000 加元，涨幅比图上的两倍还猛。&lt;/p&gt;
-
-&lt;p&gt;最让我觉得这个社区可爱的是最后一段：有人建议他换个算法，用两周滑动窗口取每款盘的最低价，这样能看出「打折的频率」。作者的回应是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Good idea. I took an afternoon and built it.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/deeddy（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1whz77u/oc_median_price_per_tb_of_storage_hard_drives/pa8ptq9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;而且方法讲究：拿每天的最低价去比它自己近期价格的居中滚动中位数，这样真正的降价才算数，整体上涨的趋势不会被误判成打折；低于基准 5% 以上才计一次。结论是消费级 NAS 盘打折频率大约是企业级的四倍（十天一次 vs 四十天一次），但折扣幅度差不多，通常 10%、最深 30%，IronWolf Pro 打折最勤，Exos 和 Ultrastar 几乎纹丝不动。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这条对准备攒 NAS、做本地备份或者自建存储的人是硬信息——「等等党」在这轮周期里大概率是输的，因为涨价的驱动力是 AI 数据中心的结构性需求，不是季节性波动。但更值得学的是方法本身：把一句「我觉得贵了」变成可验证的曲线，成本其实只是一个下午。上一节讲要多地备份，这一节告诉你多地备份今年的单价翻了一倍——这两件事合起来，才是很多团队今年真实的处境。&lt;/p&gt;
-
-&lt;h2 id=&quot;三一个人顶四个人的岗月薪-1800-美元问题不在低在于错位&quot;&gt;三、一个人顶四个人的岗，月薪 1800 美元：问题不在低，在于错位&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1whwmmd/a_startup_asked_me_to_replace_what_used_to_be_a/&quot;&gt;一家创业公司想让我顶替原本四个工程师的团队，这现在是常态了吗？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;r/ExperiencedDevs 今天最热的讨论。发帖人是一位有七年经验的后端工程师，Express.js、roadmap.sh、SolidJS 等项目的开源贡献者，做过同时承载约 13000 台设备的 IoT 遥测平台。他面了一家 25 人左右的美国创业公司，流程相当正规：筛选、带回家作业、现场编码、系统设计，最后和 CTO 聊架构。聊到职责范围时画风变了——后端 API 和数据库架构，可以；CI/CD 和 Kubernetes 部署，也行；然后是监控、Redis、RabbitMQ、AI 集成、线上事故、基础设施成本、性能优化、安全评审。他忍不住问：那基础设施和运维是谁负责？CTO 答：你就是基础设施和运维团队。&lt;/p&gt;
-
-&lt;p&gt;薪酬是每月 1800 美元，合同工。发帖人在突尼斯，当地平均月薪约 400 美元——公司也正是用这个框架把这个数字递过来的。这里最见功力的是他自己的判断，我认为是整个帖子的题眼：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“what’s off isn’t the number against Tunisia though, it’s the number against the scope.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Nervous-Quote975（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1whwmmd/a_startup_asked_me_to_replace_what_used_to_be_a/pa6ckke/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;评论区大致分成三派，而且吵得很有营养。一派认为无论在哪都说不过去：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Being asked to replace 3 discreet departments for $21k a year, regardless of geographical location, is objectively a piss take.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/ScriptingInJava，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1whwmmd/a_startup_asked_me_to_replace_what_used_to_be_a/pa72dz4/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;一派给出了可操作的锚点：别拿你住哪儿当参照系，拿生活成本相近的全球人才当参照系。有位尼日利亚网友给了具体数字，说这个范围常见的是 3.5 万到 7 万美元，美国公司连客服和虚拟助理这类岗位给的都比这高。有位在法国公司带过大量突尼斯同事的网友则说，同样的活他们开的是 5 万到 6 万欧元起，而这在巴黎市场上还算低的。&lt;/p&gt;
-
-&lt;p&gt;第三派浇了盆冷水，也是最现实的一条：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“it’s extremely rare that a company that hires remotely will value u according to global talent, it’s sad but that’s the reality of the situation”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/BragdyMan，&lt;a href=&quot;https://www.reddit.com/r/ExperiencedDevs/comments/1whwmmd/a_startup_asked_me_to_replace_what_used_to_be_a/pa81ijr/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;而真正让我觉得值得记下来的建议，是关于时间维度的那条：这个岗位不会随着公司长大而变轻松，只会更重；如果开局就是这个范围，一年后只会更多。所以该问的不是「这个薪水够不够」，而是「职级路径是什么，你们打算什么时候招人进来分担」——如果答案是「到时候再说」，那就可以走了。发帖人最后的更新是：准备放弃这个机会，因为职责和报酬的落差太大，而且足够多人给了同样的判断，让他不再自我怀疑。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子对做远程外包、接海外单的中文读者几乎是逐句可用的。核心不是喊价喊多高，而是把两件事分开谈——&lt;strong&gt;地理套利谈的是生活成本，职责范围谈的是岗位数量&lt;/strong&gt;。公司很喜欢把两者混在一起讲：用你所在地的物价来定价，用硅谷的标准来定范围。识破这一点之后，谈判的语言就有了：我可以接受不按美国薪资，但你不能让一个人干四个人的活；如果你想按本地薪资招人，那就在本地招一个团队。另外那句「不会变轻松，只会更重」值得所有考虑「一个人扛下整条产品线」的人贴在显示器上。&lt;/p&gt;
-
-&lt;h2 id=&quot;四新经理打算让-claude-给全组打绩效分还不肯公开评分标准&quot;&gt;四、新经理打算让 Claude 给全组打绩效分，还不肯公开评分标准&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/cscareerquestions/comments/1wicpoq/new_manager_is_using_an_ai_agent_to_stack_rank_my/&quot;&gt;新经理正在用 AI agent 给我们团队做绩效排名&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;发帖人的团队 9 月 30 日结束绩效周期。新经理习惯把所有思考都外包给 Claude，这已经是每周都要拉扯一次的事。真正让他紧张的是最近一次一对一：经理随口提到，他打算做一个绩效评估的 AI skill，让 Claude 去翻全组的 PR、commit、code review、JIRA、Confluence 编辑记录，然后给每个人打一个分。而且经理明确表示不会公开评分规则，理由是公开了大家就会去刷分。发帖人的反问很朴素也很致命：那我们怎么知道该往哪儿使劲？&lt;/p&gt;
-
-&lt;p&gt;评论区最有分量的一条，把这件事从「AI 好不好用」拉回到了管理学的基本面：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“IBM knew this 40 years ago or so when they said a computer cannot make a management decision because the computer cannot be held responsible.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/__golf，&lt;a href=&quot;https://www.reddit.com/r/cscareerquestions/comments/1wicpoq/new_manager_is_using_an_ai_agent_to_stack_rank_my/pa9hhbc/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;同一条评论其实给了一个挺公允的分界：用 AI 去汇总团队指标、找出你自己看不到的模式，只要你亲自校验数据，那是非常有用的；让 AI 直接写评语、直接排名，那是糟糕的主意。发帖人的补充说明了为什么这条线在他这儿守不住——他的经理把模型输出当成事实和不会错的东西，「我跟他为此吵过很多次没必要的架，因为 Claude 告诉他代码里有个问题，而那个问题根本不存在，模型只是找错了地方」。一个连代码定位都会搞错的流程，现在要拿来给人打分。&lt;/p&gt;
-
-&lt;p&gt;另一派的回应很 Reddit：既然是打分，那就打给它看。有人建议直接在代码注释里写提示词注入；有人说别再 squash 了，PR 越多越好，再小的事也开 JIRA 单，每天都提交，哪怕只是改注释；发帖人自己也接上了这个梗，说打算让 Claude 把过去一年所有的工单和文档描述都改写一遍，专门堆上「这项工作对系统有多么变革性」的措辞——至少在经理那个 Claude agent 眼里是变革性的。&lt;/p&gt;
-
-&lt;p&gt;还有人指出，隐藏评分标准这件事本身是有防御性理由的（公开了必然产生扭曲激励），但和 AI 打分叠加之后就变了味：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Stack ranking employees during performance reviews is normal. Doing it only based on a series of metrics that are hidden is not.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Altruistic-Cattle761，&lt;a href=&quot;https://www.reddit.com/r/cscareerquestions/comments/1wicpoq/new_manager_is_using_an_ai_agent_to_stack_rank_my/pa9k3xx/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;也有替经理说话的：至少他在试图做基于证据和数据的决策，而不是凭感觉、看谁会拍马屁、靠办公室政治。这条得票不低，值得认真对待——很多人反对 AI 打分时，心里比较的对象是一个并不存在的公正人类经理。另外一条提醒很实用：查一下当地法律，在欧盟，这类做法可能已经被 AI 法案盯上了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这件事的要害不是「AI 能不能评人」，而是&lt;strong&gt;责任的去向&lt;/strong&gt;。PR 数量、commit 频率、工单条数这些指标，在被拿来当奖惩依据的那一刻，就会立刻停止度量它们原本度量的东西——古德哈特定律从来没失效过，AI 只是把执行成本降到了零，让每个经理都能随手搭一套。有位评论说得挺狠：真正懂技术管理的人都知道，指标顶多只占你该考量的三成。对国内读者来说，这个帖子值得当成预演：当「让大模型读一遍我们的研发数据然后排个序」变成一个下午就能做出来的东西，你所在组织里唯一还能挡住它的，就是有没有人愿意为这个排名署名负责。&lt;/p&gt;
-
-&lt;h2 id=&quot;五不报错才最可怕那个能悄悄把你模型训歪的广播-bug&quot;&gt;五、不报错才最可怕：那个能悄悄把你模型训歪的广播 bug&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1wi6isq/silent_broadcasting_is_still_a_big_problem_and/&quot;&gt;静默广播仍然是个大问题，它可能正在毁掉你手上的工作&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;最后这个帖子最技术，但也最适合当今天的收尾。发帖人说，他团队里的一位数据科学家白白烧掉了不少算力，而且全程没意识到出了问题：PyTorch 和 TensorFlow 在模型输出和目标张量形状不匹配时，会静默地做广播（broadcasting），把两者拉成同一个形状继续算下去。不抛异常，不打警告，损失函数照常下降，训练照常跑完——只是算的东西已经不是你想算的了。&lt;/p&gt;
-
-&lt;p&gt;评论区两条回复，一条讲症状，一条讲这不是深度学习框架独有的毛病。第一条几乎是所有踩过坑的人的共同记忆：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Broadcasting bugs are the worst because nothing fails, your metrics just quietly get weird and you’re left questioning your entire pipeline.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Odd_Yard6663，&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1wi6isq/silent_broadcasting_is_still_a_big_problem_and/pa822pz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他说自己曾经为此烧掉半天，最后才想起来打印一下形状，并且建议这篇总结应该钉进每个团队的新人文档里。另一条把视野拉宽了——同类陷阱在 R 里同样存在，而且更激进：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“If you try to add two vectors together, and one’s length is an integer multiple of the other, it’ll automatically cycle the smaller one so it can do the operation.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Deto，&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1wi6isq/silent_broadcasting_is_still_a_big_problem_and/pa8979l/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;R 的向量循环（recycling）规则是：只要长度成整数倍，短的那个就自动循环补齐，运算照做不误。NumPy 的广播也是同一家族的设计——这些规则当初都是为了方便而生的，代价是把一整类形状错误从「立刻崩溃」变成了「安静地算错」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这是今天五个帖子里最具体、最能立刻拿去用的一个。防御手段其实很便宜：在 loss 之前加一行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assert pred.shape == target.shape&lt;/code&gt;，或者对着关键张量写形状断言；&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;squeeze()&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[:, 0]&lt;/code&gt; 这类降维操作之后尤其要查一遍；把形状打印进训练日志的前几个 step，几乎不花成本。更值得琢磨的是这个帖子和前面四个的关系——一个不报错的广播、一份没人核过的绩效分、一个没写进合同的职责范围、一次没演练过的跨区域恢复、一条两年翻倍却没人注意的价格曲线，性质是一样的：&lt;strong&gt;系统没有义务在你搞错的时候提醒你，能不能及时发现，取决于你有没有主动去看一眼。&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 17 Sep 2026 09:30:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/17/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/17/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
         
       </item>
     

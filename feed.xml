@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 23 Sep 2026 09:09:10 +0800</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2026 09:09:10 +0800</lastBuildDate>
+    <pubDate>Wed, 23 Sep 2026 09:19:43 +0800</pubDate>
+    <lastBuildDate>Wed, 23 Sep 2026 09:19:43 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -155,6 +155,614 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>AutoZone 2026财年Q4电话会——CEO称5%的客流跌幅「在这个行业不正常」，2028财年开店目标从500家下调到430家</title>
+        <description>&lt;p&gt;美东时间2026年9月22日上午10点（北京时间9月22日22点），美国最大的汽车配件零售商之一 &lt;a href=&quot;https://investors.autozone.com/&quot;&gt;AutoZone&lt;/a&gt;（NYSE: AZO）召开了2026财年第四季度（16周，截至2026年8月29日）业绩电话会。财报已于当天美股开盘前发布，我们在&lt;a href=&quot;/blog/2026/09/23/autozone_fy2026q4_earnings/&quot;&gt;前一篇财报解读&lt;/a&gt;里拆过数字：Q4营收65.95亿美元同比增长5.6%但不及预期，每股收益56.05美元同比增长15.1%并超预期，毛利率提升182个基点但几乎全部来自关税退款和LIFO两项一次性因素，核心的DIY同店销售同比转负0.6%。&lt;/p&gt;
+
+&lt;p&gt;这篇只讲电话会上的&lt;strong&gt;增量信息&lt;/strong&gt;——新闻稿里没有、只有管理层开口才能知道的东西。&lt;/p&gt;
+
+&lt;p&gt;参会管理层三位：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Phil Daniele&lt;/strong&gt;，总裁兼首席执行官&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jamere Jackson&lt;/strong&gt;，首席财务官&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Brian Campbell&lt;/strong&gt;，副总裁、财务主管兼投资者关系负责人&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这场会的基调可以用一句话概括：&lt;strong&gt;管理层几乎没有为数字辩护，而是反复强调「我们知道问题在哪，钱已经花下去了，等它兑现」。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;一管理层的核心表态&quot;&gt;一、管理层的核心表态&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-2027财年指引默认客流还要再负一年&quot;&gt;1. 2027财年指引：默认客流还要再负一年&lt;/h3&gt;
+
+&lt;p&gt;Jackson 给出的2027财年框架是：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2027财年指引&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;美国本土同店销售&lt;/td&gt;
+      &lt;td&gt;持平到低个位数增长&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;客单价增长&lt;/td&gt;
+      &lt;td&gt;约4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;商业客户（DIFM）销售增长&lt;/td&gt;
+      &lt;td&gt;高个位数到低双位数&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;国际同店（恒定汇率）&lt;/td&gt;
+      &lt;td&gt;低到中个位数&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;新开门店&lt;/td&gt;
+      &lt;td&gt;约400家，其中 Mega Hub 40家以上&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资本开支&lt;/td&gt;
+      &lt;td&gt;约16.5亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率（GAAP口径）&lt;/td&gt;
+      &lt;td&gt;持平到提升25个基点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;全年LIFO计提&lt;/td&gt;
+      &lt;td&gt;8500万至9000万美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Q1税率&lt;/td&gt;
+      &lt;td&gt;约22.7%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这张表最值得玩味的是前两行的组合：&lt;strong&gt;同店只给「持平到低个位数」，而客单价预期涨约4%&lt;/strong&gt;。两个数字一减，意味着管理层自己就预期交易笔数（客流）在2027财年仍然是负的。涨价撑场的剧本，还要再演一年。&lt;/p&gt;
+
+&lt;p&gt;Jackson 对通胀节奏的描述是：「我们认为第一季度会和今年第四季度处在同一个区间，大概接近5%，然后我们预期它会随时间逐步放缓，全年平均在4%左右。」这里说的是「同SKU通胀」，也就是同一件商品的售价涨幅——把商品结构变化剔除后的纯涨价幅度。&lt;/p&gt;
+
+&lt;h3 id=&quot;2-关税退款大头已经吃完了&quot;&gt;2. 关税退款：大头已经吃完了&lt;/h3&gt;
+
+&lt;p&gt;CFO 确认了那笔撑起本季度毛利率的钱的来龙去脉：「这笔退款大部分在第四季度。正如我们之前说过的，我们有略超过1亿美元的 IEEPA 关税。我们在第四季度拿到了其中大部分，这基本上对应的是我们已经卖掉的那批库存。我们预计剩余部分会在2027财年零星流入。」&lt;/p&gt;
+
+&lt;p&gt;这段话把「一次性」三个字说得很清楚。更关键的是后面回答 Guggenheim 分析师时的补充——见下文问答部分。&lt;/p&gt;
+
+&lt;h3 id=&quot;3-对自己的市场份额从不满足&quot;&gt;3. 对自己的市场份额「从不满足」&lt;/h3&gt;
+
+&lt;p&gt;被问到是否对当前的份额增长满意时，Daniele 的回答罕见地直接：「你问我们满意吗？答案是不。我们从不满足于自己的市场份额增长。」&lt;/p&gt;
+
+&lt;p&gt;他给出的量化目标是：商业客户业务要做到&lt;strong&gt;市场增速的两倍&lt;/strong&gt;。公司自己估算，美国商业配件市场规模接近1000亿美元，AutoZone 目前份额只有5%到6%——无论是在独立修车铺（UDS）还是全国性连锁账户上都还有空间。&lt;/p&gt;
+
+&lt;h3 id=&quot;4-投资周期接近尾声&quot;&gt;4. 投资周期接近尾声&lt;/h3&gt;
+
+&lt;p&gt;这是本场会上对估值最有意义的一句表态。Daniele 表示，供应链和技术（以云为主）的投入大部分已接近完成，未来资本开支的「抬升幅度」会逐步收窄。翻译一下：2026财年14.96亿、2027财年约16.5亿美元的资本开支，很可能就是这一轮的顶部区域。&lt;/p&gt;
+
+&lt;h2 id=&quot;二问答环节六个最有信息量的交锋&quot;&gt;二、问答环节：六个最有信息量的交锋&lt;/h2&gt;
+
+&lt;h3 id=&quot;brett-jordanjefferies退款到底还剩多少通胀什么节奏&quot;&gt;Brett Jordan（Jefferies）：退款到底还剩多少，通胀什么节奏&lt;/h3&gt;
+
+&lt;p&gt;Jordan 一上来就问了两个最实际的问题：关税退款的时间分布，以及2027财年同SKU通胀的节奏。&lt;/p&gt;
+
+&lt;p&gt;Jackson 的回答已在上文引用：超过1亿美元的退款大部分落在Q4，余下部分在2027财年从自营进口和供应商返利两条路径零星流入；通胀Q1约5%、全年平均约4%，随着油价气价压力缓解会「回到更正常化的通胀水平」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：想在2027财年再看到一次182个基点的毛利率跳升，基本不可能。公司给的毛利率指引是「持平到+25个基点」，已经把这层意思写在明面上了。&lt;/p&gt;
+
+&lt;h3 id=&quot;steven-zacconecitidiy到底怎么了&quot;&gt;Steven Zaccone（Citi）：DIY到底怎么了&lt;/h3&gt;
+
+&lt;p&gt;这是全场最关键的一问。Daniele 的回答值得完整引述：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「交易笔数下滑5%甚至更多，在这个行业里不是典型现象，我们预期它会回到更正常的客流水平。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他补充说，从长周期看，行业正常的交易笔数变化是&lt;strong&gt;下滑1%到3%&lt;/strong&gt;，然后由客单价增长抵消掉——这是汽配零售几十年的常态模式。本季度超过5%的跌幅属于异常值。&lt;/p&gt;
+
+&lt;p&gt;Jackson 在旁边补了一个数字：&lt;strong&gt;两年累计客单价上涨9%&lt;/strong&gt;，这反映的是消费者承受的显著通胀。&lt;/p&gt;
+
+&lt;p&gt;Daniele 给出的安慰是：「我们喜欢这个退出季度时的DIY速率。」公司口径是销售在6月见底、之后逐周改善，Q4最后八周明显好于前八周。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：管理层把DIY的疲软定性为&lt;strong&gt;周期性而非结构性&lt;/strong&gt;——消费者被价格劝退，而不是不再修车了。这个判断如果对，2027财年会逐季好转；如果错（比如电商、Amazon 或者车队直采在结构性抢份额），那么1.6%的本土同店就不是底部。这是持有这只股票最核心的分歧点。&lt;/p&gt;
+
+&lt;h3 id=&quot;simeon-gutmanmorgan-stanley指引的账怎么算&quot;&gt;Simeon Gutman（Morgan Stanley）：指引的账怎么算&lt;/h3&gt;
+
+&lt;p&gt;Gutman 让管理层把同店指引的加权算法说清楚。Jackson 的口径是：把DIY和商业客户的分项指引加权，大致得到2%到5%的区间，基础假设是「客单价通胀维持在偏高水平」而交易笔数逐步收敛。&lt;/p&gt;
+
+&lt;p&gt;顺着这个问题，Gutman 追问了市场份额和损益表何时正常化——于是有了上文「我们从不满足」那句，以及「投资周期接近尾声」的表态。&lt;/p&gt;
+
+&lt;h3 id=&quot;christopher-horversjpmorganq1的隐含数字以及费用率拐点&quot;&gt;Christopher Horvers（JPMorgan）：Q1的隐含数字，以及费用率拐点&lt;/h3&gt;
+
+&lt;p&gt;Horvers 把Q1的账直接算给管理层听：DIY持平、DIFM隐含约6%，加权下来美国本土同店约2%。Daniele 没有否认，只强调8月的退出速率显示出反弹，「我们喜欢DIY的退出速率」。&lt;/p&gt;
+
+&lt;p&gt;第二问更具体：SG&amp;amp;A什么时候能重新产生经营杠杆？Jackson 的回答是，模型假设费用增速能与销售增速持平，同时保留根据近期环境上下调节的灵活性。公司给的量化口径是&lt;strong&gt;单店费用增长约4%&lt;/strong&gt;（Q1和全年皆然）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：单店费用涨4%、客单价涨4%、客流为负——这套组合拳下，2027财年费用率大概率仍然难以改善。这也是为什么全年营业利润增速（3.1%）远低于营收增速（7.4%）的局面短期内不容易逆转。&lt;/p&gt;
+
+&lt;h3 id=&quot;michael-lasserubs钱花出去了回报在哪&quot;&gt;Michael Lasser（UBS）：钱花出去了，回报在哪&lt;/h3&gt;
+
+&lt;p&gt;Lasser 的问题最尖锐：这几年大幅增加的资本开支和费用，回报如何量化？&lt;/p&gt;
+
+&lt;p&gt;Daniele 承认同店没有达到自己希望的水平，但强调新店的成熟曲线「略好于计划」——新店第一年销售额约170万美元，到第六年约270万美元。他承认近期ROIC会承压（全年调整后税后ROIC已从41.3%降至35.8%），但认为随着门店成熟会反转成「更好、增长更快的生意」。&lt;/p&gt;
+
+&lt;p&gt;Lasser 接着问了一个防御性的问题：如果同店掉到3%到4%的区间以下，损益表还有多少腾挪空间？Jackson 的回答很直白：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「在销售偏低的环境里，我们有能力进到损益表里把SG&amp;amp;A往下管。我们有这块肌肉，而且我们过去一直在做。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：管理层在给市场一个「盈利下限」的暗示——即便销售不达预期，他们也会砍费用来保每股收益。对短期EPS是好事，但如果砍的是门店人手和服务，恰恰会伤害他们口中「靠服务和备货抢份额」的长期故事。&lt;/p&gt;
+
+&lt;h3 id=&quot;steven-forbesguggenheim毛利率指引里到底有没有把关税红利算进去&quot;&gt;Steven Forbes（Guggenheim）：毛利率指引里到底有没有把关税红利算进去&lt;/h3&gt;
+
+&lt;p&gt;这个问题问得很专业。既然2027财年还有退款流入，为什么毛利率指引只有「持平到+25个基点」？&lt;/p&gt;
+
+&lt;p&gt;Jackson 的解释很有意思：退款环境本身是&lt;strong&gt;通缩性&lt;/strong&gt;的——因为零售商和供应商都拿到了成本减免，整个行业提价的速度反而比没有退款时更慢。换句话说，退款的好处有一部分已经通过更温和的终端售价让渡给消费者了，不能既算成本下降又算售价上涨，&lt;strong&gt;否则就是重复计算&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;他同时确认，2027财年的毛利率指引已经包含了关税因素的同比基数效应（lapping）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：这是全场最诚实的一段回答。它等于告诉投资者：&lt;strong&gt;不要把Q4的53.3%毛利率当成新常态。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;scot-ciccarellitruist开店计划被下调了&quot;&gt;Scot Ciccarelli（Truist）：开店计划被下调了&lt;/h3&gt;
+
+&lt;p&gt;Ciccarelli 注意到开店节奏的变化，直接问2028财年的计划。Daniele 的回答：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「我们仍然认为美国会做到大约300家店，墨西哥在120家左右，巴西大约20家。我们会朝着每年大约430家净新增门店的方向继续走。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他确认，2028财年的目标从原先的约500家&lt;strong&gt;下调到了430家&lt;/strong&gt;。原因是巴西放缓——公司选择把资源集中在「美国本土和墨西哥业务」上，等巴西市场进一步成熟再加速。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：这是本场会上最具体的一个战略收缩信号。结合CEO那句「投资周期接近尾声」，可以读出管理层的优先级正在从「不惜代价扩张」向「把已经开出来的店做成熟、把ROIC拉回去」切换。对2027财年的营收增速是利空，对2028财年之后的自由现金流是利好。&lt;/p&gt;
+
+&lt;h3 id=&quot;补充seth-sigmanbarclays关于-mega-hub-的一问&quot;&gt;补充：Seth Sigman（Barclays）关于 Mega Hub 的一问&lt;/h3&gt;
+
+&lt;p&gt;Sigman 问 Mega Hub 的经济模型是否在改善。Daniele 给的数据是：约2000个接入 Mega Hub 网络的商业客户项目，年销售额比未接入的高出16%，且这个提升幅度「长期以来相当稳定」。Jackson 补充说，随着网络扩张、接入更多门店，这个回报「预计会同样好、甚至更好」。&lt;/p&gt;
+
+&lt;p&gt;公司的中期目标是&lt;strong&gt;三年内把 Mega Hub 从目前的172家扩到300家&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;三怎么看这场电话会&quot;&gt;三、怎么看这场电话会&lt;/h2&gt;
+
+&lt;p&gt;把八组问答串起来，管理层其实给出了一个相当自洽、也相当保守的叙事：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，他们不否认问题。&lt;/strong&gt; DIY客流跌超5%被明确定性为「不正常」，市场份额增长被明确定性为「不满意」，ROIC下滑被明确承认。在美股财报电话会上，这种坦率程度不算常见。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，他们把问题归因于周期，而不是结构。&lt;/strong&gt; 核心论据是客流在6月见底、之后逐周改善，以及两年9%的客单价涨幅正在见顶回落。这个判断成立与否，2027财年Q1（11月底左右发布）就会有第一次验证。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，他们在悄悄降速。&lt;/strong&gt; 2028财年开店目标从500家降到430家，巴西放缓，资本开支抬升幅度收窄，「投资周期接近尾声」。这是一家公司从扩张期转向收获期的标准动作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，他们给了一个明确的盈利下限。&lt;/strong&gt; 「我们有能力进到损益表里把SG&amp;amp;A往下管，我们有这块肌肉」——这句话是说给担心每股收益的人听的。&lt;/p&gt;
+
+&lt;p&gt;最后提醒一件事：管理层反复暗示的「最坏的时候过去了」，市场当天用6%的涨幅买了单。但这份乐观的全部证据，目前只有「8月的退出速率」这一个季度末的短周期观察。真正的检验点是2027财年Q1——那时候关税退款这层滤镜会基本消失，DIY同店能不能自己站回正数，会是一个干净得多的答案。&lt;/p&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/09/22/autozone-azo-q4-2026-earnings-call-transcript/&quot;&gt;AutoZone 2026财年Q4业绩电话会实录（The Motley Fool，2026年9月22日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0000866787/000117184326006159/exh_991.htm&quot;&gt;AutoZone 2026财年第四季度业绩新闻稿（SEC Form 8-K 附件99.1，2026年9月22日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://investors.autozone.com/&quot;&gt;AutoZone 投资者关系页面（含电话会 webcast 与配套幻灯片）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（用于补充分析师预期与股价反应）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://247wallst.com/investing/2026/09/22/autozone-climbs-6-as-profit-beat-offsets-revenue-miss-advance-auto-parts-rises-6-oreilly-automotive-gains-4/&quot;&gt;AutoZone Climbs 6% as Profit Beat Offsets Revenue Miss（24/7 Wall St.）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/23/autozone_fy2026q4_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/23/autozone_fy2026q4_earnings_call/</guid>
+        
+        <category>AutoZone</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>AutoZone 2026财年Q4——每股收益56.05美元同比增15%，但DIY同店销售转负、毛利率暴涨靠的是关税退款</title>
+        <description>&lt;p&gt;美东时间2026年9月22日美股开盘前（北京时间9月22日晚间），美国最大的汽车配件零售商之一 &lt;a href=&quot;https://investors.autozone.com/&quot;&gt;AutoZone&lt;/a&gt;（NYSE: AZO）发布了截至2026年8月29日的2026财年第四季度（16周）及全年（52周）财报。&lt;/p&gt;
+
+&lt;p&gt;这是一份「利润比营收好看得多、而好看的部分大半不可持续」的财报。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Q4净销售额65.95亿美元，同比增长5.6%，低于市场预期的67.1亿美元&lt;/li&gt;
+  &lt;li&gt;Q4净利润9.32亿美元，同比增长11.3%&lt;/li&gt;
+  &lt;li&gt;Q4摊薄每股收益56.05美元，同比增长15.1%，高于市场预期的54.30美元&lt;/li&gt;
+  &lt;li&gt;全年净销售额203.39亿美元，同比增长7.4%，公司历史上首次突破200亿美元&lt;/li&gt;
+  &lt;li&gt;全年摊薄每股收益152.55美元，同比增长5.3%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;财报发布当天，AZO股价上涨6%收于2977.26美元。在此之前该股年内累计下跌13%，上一季度（2026财年Q3）财报后单日曾暴跌9%。同一天，同行 Advance Auto Parts 和 O’Reilly 在没有发布任何自家消息的情况下分别跟涨6%和4%——市场把 AutoZone 的数字当成了整个汽配零售行业的风向标。&lt;/p&gt;
+
+&lt;h2 id=&quot;先搞清楚这家公司靠什么赚钱&quot;&gt;先搞清楚这家公司靠什么赚钱&lt;/h2&gt;
+
+&lt;p&gt;AutoZone 是美国最大的汽车「售后配件」零售商之一。它卖的不是新车零件，而是车开旧了之后要换的东西：电瓶、刹车片、机油、雨刮、火花塞、传动带。截至2026年8月29日，它在美国有6863家店、墨西哥1001家、巴西167家，合计8031家。&lt;/p&gt;
+
+&lt;p&gt;它的生意分成两条腿：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;DIY（Do-It-Yourself）&lt;/strong&gt;：车主自己来店里买配件回家换。这是 AutoZone 的传统主业，毛利率高。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Commercial / DIFM（Do-It-For-Me，也叫商业客户或专业客户）&lt;/strong&gt;：把配件批发送货给街边修车铺、4S店、车队。毛利率低一截，但客单大、复购稳，是行业公认的增长方向。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;还有一个绕不开的概念叫 &lt;strong&gt;Mega Hub（超级中心店）&lt;/strong&gt;：面积是普通门店数倍的大型门店，备货 SKU 数量远超普通店，既直接卖货，也给周边几十家普通门店和修车厂当「后方弹药库」——修车厂要一个冷门型号的零件，普通店没有，Mega Hub 几十分钟内送到。这是 AutoZone 近几年最核心的战略投入。&lt;/p&gt;
+
+&lt;p&gt;理解了这三个词，下面的数字才读得懂。&lt;/p&gt;
+
+&lt;h2 id=&quot;核心财务数据&quot;&gt;核心财务数据&lt;/h2&gt;
+
+&lt;h3 id=&quot;第四季度16周截至2026年8月29日&quot;&gt;第四季度（16周，截至2026年8月29日）&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;FY2026 Q4&lt;/th&gt;
+      &lt;th&gt;FY2025 Q4&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净销售额&lt;/td&gt;
+      &lt;td&gt;65.95亿美元&lt;/td&gt;
+      &lt;td&gt;62.43亿美元&lt;/td&gt;
+      &lt;td&gt;+5.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利润&lt;/td&gt;
+      &lt;td&gt;35.18亿美元&lt;/td&gt;
+      &lt;td&gt;32.16亿美元&lt;/td&gt;
+      &lt;td&gt;+9.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率&lt;/td&gt;
+      &lt;td&gt;53.3%&lt;/td&gt;
+      &lt;td&gt;51.5%&lt;/td&gt;
+      &lt;td&gt;+182个基点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;运营及管理费用&lt;/td&gt;
+      &lt;td&gt;22.01亿美元&lt;/td&gt;
+      &lt;td&gt;20.20亿美元&lt;/td&gt;
+      &lt;td&gt;+8.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;费用率&lt;/td&gt;
+      &lt;td&gt;33.4%&lt;/td&gt;
+      &lt;td&gt;32.4%&lt;/td&gt;
+      &lt;td&gt;+101个基点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业利润&lt;/td&gt;
+      &lt;td&gt;13.17亿美元&lt;/td&gt;
+      &lt;td&gt;11.96亿美元&lt;/td&gt;
+      &lt;td&gt;+10.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净利润&lt;/td&gt;
+      &lt;td&gt;9.32亿美元&lt;/td&gt;
+      &lt;td&gt;8.37亿美元&lt;/td&gt;
+      &lt;td&gt;+11.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;56.05美元&lt;/td&gt;
+      &lt;td&gt;48.71美元&lt;/td&gt;
+      &lt;td&gt;+15.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;摊薄股本&lt;/td&gt;
+      &lt;td&gt;1662万股&lt;/td&gt;
+      &lt;td&gt;1718万股&lt;/td&gt;
+      &lt;td&gt;-3.3%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;这张表里藏着 AutoZone 最经典的一套打法：&lt;strong&gt;营收只增5.6%，净利润增11.3%，每股收益却增15.1%&lt;/strong&gt;。三个数字一层层放大，靠的是两件事——毛利率提升把利润率撑起来，股票回购把分母压下去。回购一项就贡献了每股收益增幅里约4个百分点。&lt;/p&gt;
+
+&lt;h3 id=&quot;全年52周&quot;&gt;全年（52周）&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;FY2026&lt;/th&gt;
+      &lt;th&gt;FY2025&lt;/th&gt;
+      &lt;th&gt;同比变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净销售额&lt;/td&gt;
+      &lt;td&gt;203.39亿美元&lt;/td&gt;
+      &lt;td&gt;189.39亿美元&lt;/td&gt;
+      &lt;td&gt;+7.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率&lt;/td&gt;
+      &lt;td&gt;52.3%&lt;/td&gt;
+      &lt;td&gt;52.6%&lt;/td&gt;
+      &lt;td&gt;-30个基点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;费用率&lt;/td&gt;
+      &lt;td&gt;34.0%&lt;/td&gt;
+      &lt;td&gt;33.6%&lt;/td&gt;
+      &lt;td&gt;+40个基点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业利润&lt;/td&gt;
+      &lt;td&gt;37.23亿美元&lt;/td&gt;
+      &lt;td&gt;36.10亿美元&lt;/td&gt;
+      &lt;td&gt;+3.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净利润&lt;/td&gt;
+      &lt;td&gt;25.73亿美元&lt;/td&gt;
+      &lt;td&gt;24.98亿美元&lt;/td&gt;
+      &lt;td&gt;+3.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;152.55美元&lt;/td&gt;
+      &lt;td&gt;144.87美元&lt;/td&gt;
+      &lt;td&gt;+5.3%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;把镜头拉长到全年，故事完全变味了：&lt;strong&gt;营收增7.4%，营业利润只增3.1%&lt;/strong&gt;。也就是说，AutoZone 在2026财年是「花钱买增长」——开店、建 Mega Hub、扩供应链，销售额上去了，利润跟不上。Q4那个漂亮的利润率，更像是全年爬坡后的一次单季回光。&lt;/p&gt;
+
+&lt;h2 id=&quot;毛利率提升182个基点究竟是怎么来的&quot;&gt;毛利率提升182个基点，究竟是怎么来的&lt;/h2&gt;
+
+&lt;p&gt;这是整份财报最需要拆开看的地方。公司在新闻稿里写得很明白：Q4毛利率同比提升182个基点，其中&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;关税退款贡献145个基点&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;LIFO（后进先出存货会计）净非现金影响贡献105个基点&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;商业客户占比上升（毛利率较低）&lt;strong&gt;部分抵消&lt;/strong&gt;了上述两项&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;两项加起来是250个基点，实际只提升了182个基点，说明业务结构变化（商业客户占比提升）反向拖了约68个基点。&lt;/p&gt;
+
+&lt;p&gt;这两项各是什么意思，用大白话解释一下：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关税退款&lt;/strong&gt;：美国此前依据 IEEPA（《国际紧急经济权力法》）征收的部分关税被退还。CFO Jamere Jackson 在电话会上确认，这笔钱总额「略超过1亿美元」，大部分在Q4到账，对应的是已经卖掉的那批库存——所以直接变成了当期毛利。这是&lt;strong&gt;一次性的&lt;/strong&gt;。剩余部分会在2027财年陆续流入，但金额会小很多。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LIFO&lt;/strong&gt;：美国会计准则允许企业假设「最后进的货先卖出去」。通货膨胀时期，这种算法会让成本显得更高、利润更低；而当通胀降温时，此前计提的准备可以冲回，利润看起来变好。本季度 LIFO 计提只有1500万美元，去年同期是8000万美元，一进一出就是6500万美元的利润差。这同样&lt;strong&gt;不是经营改善&lt;/strong&gt;，是会计口径的摆动。&lt;/p&gt;
+
+&lt;p&gt;把这两项剔掉，AutoZone 本季度的真实毛利率其实是&lt;strong&gt;同比下滑&lt;/strong&gt;的——因为增长最快的商业客户业务毛利率更低。&lt;/p&gt;
+
+&lt;p&gt;顺带一提，公司在电话会上给出的2027财年毛利率指引是「持平到提升25个基点」，同时预计全年 LIFO 计提将达到8500万至9000万美元（今年只有一部分）。换句话说，管理层自己也认为这波红利到此为止。&lt;/p&gt;
+
+&lt;h2 id=&quot;同店销售数字背后的两个世界&quot;&gt;同店销售：数字背后的两个世界&lt;/h2&gt;
+
+&lt;p&gt;同店销售（Same Store Sales，简称同店或可比销售）指开业满一年的门店销售额同比变化，是零售业衡量「不靠开新店的真实增长」的核心指标。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;同店销售&lt;/th&gt;
+      &lt;th&gt;Q4（16周）&lt;/th&gt;
+      &lt;th&gt;Q4恒定汇率&lt;/th&gt;
+      &lt;th&gt;全年（52周）&lt;/th&gt;
+      &lt;th&gt;全年恒定汇率&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;美国本土&lt;/td&gt;
+      &lt;td&gt;+1.6%&lt;/td&gt;
+      &lt;td&gt;+1.6%&lt;/td&gt;
+      &lt;td&gt;+3.3%&lt;/td&gt;
+      &lt;td&gt;+3.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;国际（墨西哥+巴西）&lt;/td&gt;
+      &lt;td&gt;+10.7%&lt;/td&gt;
+      &lt;td&gt;+1.3%&lt;/td&gt;
+      &lt;td&gt;+13.5%&lt;/td&gt;
+      &lt;td&gt;+2.2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;合计&lt;/td&gt;
+      &lt;td&gt;+2.7%&lt;/td&gt;
+      &lt;td&gt;+1.5%&lt;/td&gt;
+      &lt;td&gt;+4.5%&lt;/td&gt;
+      &lt;td&gt;+3.2%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;第一个要盯的数字：国际业务的 +10.7% 和 +1.3% 差了将近10个百分点。&lt;/strong&gt; 这个差额全部来自汇率——墨西哥比索对美元升值，把墨西哥门店的本地销售额换算成美元后凭空放大了一截。剔除汇率后，国际同店只增长1.3%，比美国本土的1.6%还低。去年同期国际恒定汇率同店是+7.2%，今年只剩1.3%，这是一次明显的减速。公司也在电话会上把「重新加速国际业务」列为2027财年的重点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二个要盯的数字：美国本土同店+1.6%，去年同期是+4.8%。&lt;/strong&gt; 增速几乎砍掉三分之二。&lt;/p&gt;
+
+&lt;p&gt;而本土这1.6%里面，两条腿的走向完全相反：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;商业客户（DIFM）Q4销售19.13亿美元，同比增长8.6%&lt;/strong&gt;；全年57.62亿美元，同比增长10.6%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DIY同店销售同比下滑0.6%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这是本季财报里最重要、也最容易被漂亮的每股收益盖住的一件事：&lt;strong&gt;AutoZone 赖以起家、毛利率最高的散客零售业务，同店销售转负了。&lt;/strong&gt; CEO Phil Daniele 在电话会上承认，本季度交易笔数（也就是客流）跌幅超过5%，而历史上正常区间是下滑1%到3%——靠客单价上涨才把同店拉回接近零的位置。而客单价上涨的原因，很大一部分是关税和通胀推高的商品售价。管理层提到，两年累计客单价涨幅达到9%。&lt;/p&gt;
+
+&lt;p&gt;翻译成人话：&lt;strong&gt;买配件的人变少了，只是每个人被迫花了更多钱。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;不过 Daniele 也给了一个安慰性的细节：销售在6月见底，之后逐周改善，「我们喜欢这个退出季度时的速率」。&lt;/p&gt;
+
+&lt;h2 id=&quot;扩张史上最激进的开店年&quot;&gt;扩张：史上最激进的开店年&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Q4新开175家门店（美国97家、墨西哥68家、巴西10家），去年同期141家&lt;/li&gt;
+  &lt;li&gt;全年新开374家，公司历史上单财年最多，去年304家&lt;/li&gt;
+  &lt;li&gt;Q4新开16家 Mega Hub，全年39家，总数达到172家&lt;/li&gt;
+  &lt;li&gt;门店总数8031家，其中6443家配有商业客户配送业务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;管理层在电话会上给出的中期目标是&lt;strong&gt;三年内 Mega Hub 达到300家&lt;/strong&gt;，2027财年计划再开约400家门店、40多家 Mega Hub，资本开支从2026财年的14.96亿美元提升到约16.5亿美元。&lt;/p&gt;
+
+&lt;p&gt;Mega Hub 到底值不值？公司给的证据是：接入 Mega Hub 网络的商业客户项目（约2000个），年销售额比未接入的高出16%。这个数字管理层称「长期以来相当稳定」。&lt;/p&gt;
+
+&lt;p&gt;但扩张是有代价的，代价写在下面这张表里。&lt;/p&gt;
+
+&lt;h2 id=&quot;三个值得警惕的信号&quot;&gt;三个值得警惕的信号&lt;/h2&gt;
+
+&lt;h3 id=&quot;一投资回报率明显下滑&quot;&gt;一、投资回报率明显下滑&lt;/h3&gt;
+
+&lt;p&gt;调整后税后投入资本回报率（ROIC）从去年的41.3%降到&lt;strong&gt;35.8%&lt;/strong&gt;。这是 AutoZone 这类公司最被投资者看重的指标之一。CEO 的解释是新店需要时间爬坡：新店第一年销售额约170万美元，到第六年爬到约270万美元。理由说得通，但5.5个百分点的降幅本身是实打实的。&lt;/p&gt;
+
+&lt;h3 id=&quot;二库存周转变慢对供应商的占款能力下降&quot;&gt;二、库存周转变慢，对供应商的占款能力下降&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;库存指标&lt;/th&gt;
+      &lt;th&gt;FY2026末&lt;/th&gt;
+      &lt;th&gt;FY2025末&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;存货&lt;/td&gt;
+      &lt;td&gt;77.36亿美元&lt;/td&gt;
+      &lt;td&gt;70.26亿美元（+10.1%）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;单店存货&lt;/td&gt;
+      &lt;td&gt;96.3万美元&lt;/td&gt;
+      &lt;td&gt;91.8万美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;应付账款/存货&lt;/td&gt;
+      &lt;td&gt;111.1%&lt;/td&gt;
+      &lt;td&gt;114.2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;库存周转（滚动5季度）&lt;/td&gt;
+      &lt;td&gt;1.3次&lt;/td&gt;
+      &lt;td&gt;1.4次&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;「应付账款/存货」超过100%意味着 AutoZone 卖货收到的钱，比它付给供应商的账还早——等于供应商在给它免费垫资。这个比例从114.2%降到111.1%，说明这层缓冲在变薄。库存增长10.1%也明显快过销售增长的7.4%。&lt;/p&gt;
+
+&lt;h3 id=&quot;三回购价高于当前股价且花的钱超过了自由现金流&quot;&gt;三、回购价高于当前股价，且花的钱超过了自由现金流&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Q4回购22.3万股，均价&lt;strong&gt;3125美元&lt;/strong&gt;，耗资6.975亿美元&lt;/li&gt;
+  &lt;li&gt;全年回购57.9万股，均价&lt;strong&gt;3496美元&lt;/strong&gt;，耗资20亿美元&lt;/li&gt;
+  &lt;li&gt;剩余回购授权16.07亿美元&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;而财报当天的收盘价是2977.26美元。也就是说，全年20亿美元的回购，平均买入价比当前股价高出约15%。&lt;/p&gt;
+
+&lt;p&gt;同时，2026财年经营性现金流33.03亿美元，资本开支14.96亿美元，自由现金流约18.07亿美元——&lt;strong&gt;回购的20亿美元超过了自由现金流&lt;/strong&gt;，差额靠加杠杆补上（总债务从88.00亿增至90.78亿美元）。AutoZone 常年维持负的股东权益（本期为-25.02亿美元，去年为-34.14亿美元），这本身是它多年高强度回购的结果，倒不算新闻，但「借钱回购且买贵了」值得记一笔。&lt;/p&gt;
+
+&lt;p&gt;好消息是杠杆率没有恶化：调整后债务/EBITDAR 维持在2.5倍，与去年持平，也是公司自己设定的目标水平。&lt;/p&gt;
+
+&lt;h2 id=&quot;2027财年指引&quot;&gt;2027财年指引&lt;/h2&gt;
+
+&lt;p&gt;管理层在电话会上给出的2027财年框架：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;指引&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;美国本土同店销售&lt;/td&gt;
+      &lt;td&gt;持平到低个位数增长&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;客单价增长&lt;/td&gt;
+      &lt;td&gt;约4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;商业客户销售增长&lt;/td&gt;
+      &lt;td&gt;高个位数到低双位数&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;国际同店（恒定汇率）&lt;/td&gt;
+      &lt;td&gt;低到中个位数&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;新开门店&lt;/td&gt;
+      &lt;td&gt;约400家&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资本开支&lt;/td&gt;
+      &lt;td&gt;约16.5亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率（GAAP口径）&lt;/td&gt;
+      &lt;td&gt;持平到+25个基点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;LIFO计提&lt;/td&gt;
+      &lt;td&gt;8500万至9000万美元&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;「持平到低个位数」的本土同店指引，配上「约4%的客单价增长」，倒推出来的意思很直白：&lt;strong&gt;管理层预期客流仍然是负的&lt;/strong&gt;。增长靠涨价，不靠人流。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;AutoZone 这份Q4财报是典型的「表层亮眼、内里承压」：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;亮的部分是真的&lt;/strong&gt;——每股收益56.05美元超预期、全年营收首破200亿美元、史上最多的374家新店、商业客户业务连续两年双位数增长、ROIC仍有35.8%这种绝大多数零售商望尘莫及的水平。市场当天给出6%的涨幅，主要买的是「最坏的时候可能过去了」这个预期。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;压的部分也是真的&lt;/strong&gt;——毛利率的提升几乎全靠关税退款和LIFO这两项一次性因素，剔除后反而下滑；核心的DIY同店转负、客流跌幅超过5%；全年营业利润增速（3.1%）只有营收增速（7.4%）的一半不到；ROIC一年掉5.5个百分点；回购花的钱超过自由现金流且买在了比现价高15%的位置。&lt;/p&gt;
+
+&lt;p&gt;接下来值得盯的，说到底就是一个问题：&lt;strong&gt;公司砸下去的资本开支（新店、Mega Hub、供应链），到底能不能在2027财年把美国本土同店从1.6%拉回到3%以上，并且是靠人流而不是靠涨价。&lt;/strong&gt; 管理层自己的指引已经默认了「涨价撑场」还要再演一年。CEO 说「我们从不满足于现在的市场份额增长」，这句话在电话会上说得很诚恳，但它同时也是对现状最准确的描述。&lt;/p&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一手资料&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0000866787/000117184326006159/exh_991.htm&quot;&gt;AutoZone 2026财年第四季度业绩新闻稿（SEC Form 8-K 附件99.1，2026年9月22日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://investors.autozone.com/&quot;&gt;AutoZone 投资者关系页面&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/09/22/autozone-azo-q4-2026-earnings-call-transcript/&quot;&gt;AutoZone 2026财年Q4业绩电话会实录（The Motley Fool，2026年9月22日）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体报道（用于补充分析师预期与股价反应）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://247wallst.com/investing/2026/09/22/autozone-climbs-6-as-profit-beat-offsets-revenue-miss-advance-auto-parts-rises-6-oreilly-automotive-gains-4/&quot;&gt;AutoZone Climbs 6% as Profit Beat Offsets Revenue Miss（24/7 Wall St.）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/23/autozone_fy2026q4_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/23/autozone_fy2026q4_earnings/</guid>
+        
+        <category>AutoZone</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
         
       </item>
     
@@ -1177,543 +1785,6 @@
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/19/tripcom_2026q2_earnings_call/</guid>
         
         <category>携程</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.09.18</title>
-        <description>&lt;p&gt;今天的五个帖子分别落在编译原理、职场、航天和公司治理，按说八竿子打不着，但翻完评论区之后我发现它们在讲同一件事：&lt;strong&gt;真正卡住一件事的，几乎从来不是「技术上做不做得到」。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;空结尾字符串该怎么改，业内早有共识；重返月球的火箭技术比 1969 年强出几个数量级；让 AI 写一封结构完整的邮件是两秒钟的事；把高管年薪从三千万砍到一百万也不需要任何新发明。这些事在技术层面全都是已解决问题。可它们照样卡着。今天评论区里最有价值的那些回复，做的都是同一件事：把「技术之外的那道坎」具体是什么，一条一条摆出来。&lt;/p&gt;
-
-&lt;h2 id=&quot;一计算机的地基里有哪些早该改现在改不动的东西&quot;&gt;一、计算机的地基里，有哪些「早该改、现在改不动」的东西&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/askscience/comments/1wj5ggy/is_there_anything_at_the_heart_of_computer_coding/&quot;&gt;计算机编程的底层，有没有什么事后看本该优化、但现在陷得太深已经改不了的设计？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;r/askscience 上一个开放式提问，结果炸出了一整条技术史。大端小端没能统一、x86 里塞满几十年没人用的向后兼容指令、C 的 ABI 规定函数只能返回一个值——这些答案都很扎实，但评论区真正的主角只有一个：C 语言的空结尾字符串（null-terminated string）。&lt;/p&gt;
-
-&lt;p&gt;一位自称做了三十年安全方向开发的用户，用一句话给它定了性：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The null-terminated string in C is the single most expensive bug in the history of software. Speaking as a security-specialized developer for more than 30 years.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/the_quark，&lt;a href=&quot;https://www.reddit.com/r/askscience/comments/1wj5ggy/is_there_anything_at_the_heart_of_computer_coding/pah8x4b/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;底下有人老实追问「字符串带上长度到底能解决什么」，于是引出了整条线里最好的科普。C 里的字符串只记一个起始地址，读到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\0&lt;/code&gt; 才算完——所以程序永远不知道「该读到哪」，只知道「读到那个标记就停」。一旦那个标记因为任何原因没出现在该出现的地方，读写就会一路跑出缓冲区，而越界读写正是绝大多数真实漏洞的根。有人把这个道理讲得很土但很准：如果当初每个字符串都自带长度，程序就永远知道该读多远、写多远，一大半的内存安全问题根本不会存在。&lt;/p&gt;
-
-&lt;p&gt;不过我最喜欢的是另一条唱反调的。有人说「更好」这个词要先定义清楚——更高效、更快、更安全，那当然都有更好的做法，但这恰恰不是关键：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“But a big reason why the web software ecosystem expanded so fast and got so large is that the barrier to entry for new tools and applications was so low. I doubt we’d be where we are had the WWW been built on CORBA instead of html/http.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/zeromeasure，&lt;a href=&quot;https://www.reddit.com/r/askscience/comments/1wj5ggy/is_there_anything_at_the_heart_of_computer_coding/paha0wt/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他顺手提到了那篇老文章《Worse is Better》。这条思路很值得中文读者抄下来：HTML 和 HTTP 之所以赢，恰恰因为它们又脏又简单，随便谁都能上手；如果当年 Web 建在 CORBA 那种「设计正确」的东西上，今天大概根本没有今天。还有一条盘点也很清醒——指令集在修（x86 到 ARM）、网络协议在修（HTTP/3、加密 DNS）、内存安全在修（Rust），这些巨型改造虽然慢得离谱但确实在推进，证明「陷太深」并非绝对；真正一点动静都没有的是 HTML 和 PDF，因为它们已经嵌进了世界本身。&lt;/p&gt;
-
-&lt;p&gt;所以「改不动」也分两种：一种是技术上难，一种是已经变成了地基。前一种还有救，后一种只能绕。&lt;/p&gt;
-
-&lt;h2 id=&quot;二shopify-ceo-造了个词垃圾手榴弹&quot;&gt;二、Shopify CEO 造了个词：垃圾手榴弹&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wiw7m7/shopify_ceo_says_employees_slop_grenades_are/&quot;&gt;Shopify CEO 说员工扔出的「垃圾手榴弹」正在给所有人增加工作量&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;slop grenade，字面是「垃圾手榴弹」：你花两秒让 AI 生成一大坨东西丢进群里，然后转身走人，剩下的人得花两小时把它读完、分辨哪部分是真的。这个词精准到评论区一堆人当场表示要拿去用。&lt;/p&gt;
-
-&lt;p&gt;最扎心的现身说法来自一位被 600 字邮件轰炸的上班族：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“This is definitely starting to happen in my office. … Lots of useful things AI can do for us but I don’t think outsourcing communication with other people should be one of them.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/MaybeSecondBestMan，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wiw7m7/shopify_ceo_says_employees_slop_grenades_are/padsaum/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他补的细节比结论更狠：以前只会回「收到 谢谢」的同事，现在能甩出 600 字的长邮件；而且这些邮件特别擅长建议「团队」该做什么，却从不认领任何一件具体的事。一位前端开发讲的那个瞬间更是让人后背发凉——后端同事发来一张需求单外加一份他「写完」的 API 说明，前端打电话去问细节，对方答：等我看看，那个我其实没读过。&lt;/p&gt;
-
-&lt;p&gt;由此引出了全场我认为最该被裱起来的一句：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“If an AI did your job and you have no idea what it did, then just give me your job and your pay and I’ll run the AI myself”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/matrinox，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wiw7m7/shopify_ceo_says_employees_slop_grenades_are/paexaoz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;评论区还给这类人起了一串外号：肉身代理（meat proxy）、二手思考者（second-hand thinker）。但也有一条反方值得听——有人说他同事本来表达能力极差，给你的信息不是太少就是多到没法读，现在靠 AI 把意识流整理成人话，他反而是感激的。紧跟着的回复则一针见血：那这个人的沟通能力从此再也不会进步了。&lt;/p&gt;
-
-&lt;p&gt;我的看法是，这事的本质不是 AI 好不好，而是&lt;strong&gt;成本的转嫁&lt;/strong&gt;。写一千字的成本降到了接近零，读一千字的成本一点没降。以前长文本身就是诚意的证明，因为写它要花时间；现在这个信号彻底失效了，于是筛选的负担全部压到了接收方。在中文办公环境里这个问题只会更明显——周报、日报、复盘、方案，本来就是长度崇拜的重灾区。&lt;/p&gt;
-
-&lt;h2 id=&quot;三一个入职两周的工程师在发愁活干得太快怎么装忙&quot;&gt;三、一个入职两周的工程师在发愁：活干得太快，怎么装忙&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/cscareerquestions/comments/1wj4grj/how_do_i_make_myself_look_productive_while_in/&quot;&gt;如果没事可做，怎么在办公室里让自己看起来很忙？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是上一节的镜像，也是今天最有戏剧性的一帖。发帖人 2.5 年经验，七月被裁，九月入职新公司，薪资福利都变差了。新团队的资深工程师和 tech lead 基本不用 AI，而他把 Claude Code 装进了 IDE。于是他遇到一个挺现代的困境：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“After being assigned very simple tickets, I was able to finish them in just a day or two but that would make it look incredibly obvious the code was just all AI generated.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/fuckthis_job（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/cscareerquestions/comments/1wj4grj/how_do_i_make_myself_look_productive_while_in/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;被估成一周的工单，他一两天就交了，反而不敢交——因为交得太快等于自曝。注意这里的荒诞：效率提升在这个环境里不是资产，是需要藏起来的证据。&lt;/p&gt;
-
-&lt;p&gt;票数最高的回复完全不吃这套，反过来告诉他这是天大的好机会。团队本来就要求他做一次「你怎么用 AI」的分享，那就把这次的过程写成材料：怎么用的、怎么验证的、而不是闭眼梭哈：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“You’re new on the job and coming into an org that seems to not have adopted the new way many people are doing things. This is an opportunity to show off and make a good impression.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/S0mething-clev3r，&lt;a href=&quot;https://www.reddit.com/r/cscareerquestions/comments/1wj4grj/how_do_i_make_myself_look_productive_while_in/pafqytk/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;同一个人后来还揪出了帖子里一个被所有人忽略的雷：发帖人似乎还在用前东家的 AI 订阅账号。这不是省钱不省钱的问题，是把新公司的代码和数据喂进了老公司名下的账户，属于商业秘密层面的即刻开除条款。&lt;/p&gt;
-
-&lt;p&gt;最妙的转折在后面。有人开玩笑说「你怎么不直接问 AI」，发帖人真去问了，然后把答案贴了回来——而那个答案的核心建议是：别压着做完的活不交，为了显得像人而故意拖慢是不诚实的，也会压死你的上限；真正建立信任的不是速度，是你能不能在没有任何提示的情况下把这段代码讲清楚，包括为什么这么结构、边界情况在哪。他自己的评价是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I put my exact post into Claude, honestly it seems like pretty damn good advice.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/fuckthis_job（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/cscareerquestions/comments/1wj4grj/how_do_i_make_myself_look_productive_while_in/pafti30/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;把这一节和上一节并排读特别有意思：上一节骂的是「用了 AI 却不为产出负责」，这一节给的解药恰好是同一条——能不能冷不丁被问住。用不用 AI 从来不是分界线，&lt;strong&gt;能不能为你交出去的东西兜底&lt;/strong&gt;才是。对国内不少「AI 提效」考核而言，这句话可能比任何工具选型都重要。&lt;/p&gt;
-
-&lt;h2 id=&quot;四六十年代的技术能登月今天反而回不去了&quot;&gt;四、六十年代的技术能登月，今天反而回不去了&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/askscience/comments/1wikj7q/we_landed_humans_on_the_moon_with_1960s/&quot;&gt;我们用 1960 年代的技术就把人送上了月球，以今天远超当年的技术，重返月球不该更容易更便宜吗？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这个问题几乎每年都要被问一遍，但今天这条线的回答质量相当高。第一条高票答案先给了肯定的回答，然后立刻把账摆出来：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The Apollo program cost roughly $25b in the 1960s, and by today’s standards, that would be $228b today … So even if modern technology reduced the cost in half, that would still be over $100b to go back to the moon, and there just isn’t a big enough political commitment to do that.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Kri77777，&lt;a href=&quot;https://www.reddit.com/r/askscience/comments/1wikj7q/we_landed_humans_on_the_moon_with_1960s/pad29bo/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;注意最后半句——缺的不是技术，是「足够大的政治承诺」。有人接着补刀：NASA 2026 财年全部预算是 244 亿美元，连零头都不够。但紧跟着的反驳把这笔账算得更准：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Those expenditures came over nearly a decade of budgets. $10B a year for 10 years could (conceivably) get you back to the Moon.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/h3r4ld，&lt;a href=&quot;https://www.reddit.com/r/askscience/comments/1wikj7q/we_landed_humans_on_the_moon_with_1960s/pae9d4t/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;阿波罗的钱是摊在近十年里花的，拿单个财年的预算去比整个计划的总成本并不公平——每年一百亿、连续十年，理论上是能回去的。问题在于那意味着 NASA 要把三分之一以上的预算压在一个项目上，而国会几十年来一直在削它的预算。&lt;/p&gt;
-
-&lt;p&gt;这条线里技术含量最高的一段，是关于「回去之后落在哪」的争论。月球南极的沙克尔顿撞击坑之所以人人惦记，是因为坑底永久无日照处有水冰、坑沿却几乎永远有阳光。但有人把地形数据摊开了讲：有阳光的坑沿比永暗的坑底高 4.2 公里，中间是大约 30 度的松散碎石坡；把太阳能板架在坑沿、基地放在坑底，就得拉十公里以上的输电线，而且基地要长期泡在约 90 K（零下 183 摄氏度）的深低温和纯人工照明里。他顺带指出，中国的注意力更多放在靠近赤道、可能存在熔岩管的区域——地形平坦适合重型设备、地下温度常年稳定在二十来度，虽然没水，但月壤里氧占了四成质量，把氢运上去造水反而便宜。&lt;/p&gt;
-
-&lt;p&gt;对中文读者最实在的启发是：登月这件事的瓶颈早就从「能不能」变成了「愿不愿意连续十年愿意」。这跟很多国内长周期项目的处境其实一模一样——技术评审从来不是最难过的那关，连续十年的预算承诺才是。&lt;/p&gt;
-
-&lt;h2 id=&quot;五任天堂不裁员不是因为日本人善良&quot;&gt;五、任天堂不裁员，不是因为日本人善良&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wj2tc4/japanese_companies_like_nintendo_capcom_and/&quot;&gt;专家称任天堂、卡普空、科乐美这些日本公司更健康，因为团队更小、不频繁裁员、也不给高管开三千万美元&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这个论断本身不新鲜，但评论区把它从「文化差异」推进到了「制度约束」，含金量就完全不同了。&lt;/p&gt;
-
-&lt;p&gt;开场是对高管薪酬的集中开火，一条回复把逻辑挑明：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Almost like pilfering the company coffers for personal gain instead of reinvesting back into the company is a parasitic business strategy.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/CondescendingShitbag，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wj2tc4/japanese_companies_like_nintendo_capcom_and/pafc9gx/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;有人给了具体数字，对比感很强：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Want to know how much their brass is making? CEO, CFO, etc… the top 6. Combined: under 10 million.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/fredy31，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wj2tc4/japanese_companies_like_nintendo_capcom_and/pafis7m/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;任天堂最高的六位高管，年薪加起来不到一千万美元——而原帖里美国同行是一个人三千万。但真正让这一节值得写的，是一位在日本生活的用户泼的冷水。他说这根本不是什么与生俱来的善意，而是社会和法律根本不允许：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Nintendo can’t lay off their workers unless they show they have no other choice. Executive salary cuts are one of the measures that the Japanese government expects before they can even think about it.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/LifeInJapan1999，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wj2tc4/japanese_companies_like_nintendo_capcom_and/pagg8up/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这句话是今天信息密度最高的一条。日本的整理解雇法理要求企业证明「确实没有别的办法」，而&lt;strong&gt;先削减高管薪酬&lt;/strong&gt;正是政府预期你应当先做的措施之一。换句话说，「高管带头降薪」在日本不是一个感人的企业文化故事，是裁员合法性的前置条件。顺序是反的：不是因为高管高尚所以不裁员，是因为想裁员就必须先动自己的钱包，所以裁员这件事本身变贵了。&lt;/p&gt;
-
-&lt;p&gt;底下还有人补充了一个更结构性的观察：日本社会的阶层割裂相对小，清洁工、警察、CEO、全职主妇能在同一个剑道俱乐部里做朋友，真正的敌人是财富差距和继承性财富；虽然这个差距近年也在扩大，但至少在日本，「贫富差距是社会病」还是能公开讲的共识。&lt;/p&gt;
-
-&lt;p&gt;看完这段我想到的是：讨论「别人家的公司为什么更健康」时，我们太容易停在文化和老板人品上，而真正可迁移的从来是制度设计——把某个行为的成本提上去，行为自然就少了。靠呼吁老板有良心，效果约等于零。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;把五个帖子串起来看，今天这份清单其实挺让人清醒的。空结尾字符串怎么改，业内知道了三十年；重返月球的技术，人类掌握了五十七年；AI 生成的长邮件该由谁负责读，是个常识问题；高管少拿两千万公司会不会倒，答案摆在任天堂的财报里。&lt;/p&gt;
-
-&lt;p&gt;每一件事的技术方案都不缺，缺的是别的东西——地基的惯性、连续十年的预算、一句「这是我写的我负责」、以及一条写进法律的前置条件。下次再看到「这个技术上能不能实现」的讨论，也许该先问一句：技术真的是那个卡住的地方吗？&lt;/p&gt;
-</description>
-        <pubDate>Fri, 18 Sep 2026 09:40:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/18/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/18/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>莱纳2026财年Q3电话会——米勒承认市场「自上次电话会以来已经恶化」，但用利润换产量的策略一个字都不改</title>
-        <description>&lt;p&gt;美东时间2026年9月17日上午11点（北京时间9月17日23点），美国最大的住宅建筑商之一&lt;a href=&quot;https://investors.lennar.com/&quot;&gt;莱纳公司&lt;/a&gt;（Lennar Corporation，NYSE: LEN / LEN.B）召开了2026财年第三季度业绩电话会。财报本身已于前一天（9月16日）盘后发布，我们在&lt;a href=&quot;/blog/2026/09/17/lennar_fy2026q3_earnings/&quot;&gt;前一篇财报解读&lt;/a&gt;里拆过数字：每股收益1.19美元同比腰斩，新订单同比下滑9%，全年交付目标从8.2万至8.3万套下调到8万至8.1万套。&lt;/p&gt;
-
-&lt;p&gt;这篇只讲电话会上的增量信息——也就是新闻稿里没有、只有管理层开口才能知道的东西。&lt;/p&gt;
-
-&lt;p&gt;参会管理层四位（另有财务总监 David Collins 在场）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Stuart Miller&lt;/strong&gt;，执行董事长、首席执行官兼总裁&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Diane Bessette&lt;/strong&gt;，首席财务官&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Jim Parker&lt;/strong&gt;，首席运营官（2026年6月5日刚上任，此前是东部区域总裁）&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;David Grove&lt;/strong&gt;，住宅建筑业务执行副总裁（同日上任，此前是西部区域总裁）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;帕克和格罗夫是三个月前刚被提到 C 级岗位的两位老将，各有30年行业经验。这场电话会是他们第二次以新身份出席，也是本场问答里回答最具体的两个人——分析师问到劳动力、施工成本和二手房竞争这类「地面上的事」，米勒基本都推给了他们。&lt;/p&gt;
-
-&lt;p&gt;先说结论：&lt;strong&gt;这场电话会最重要的信息不是数字，而是一个否定句——管理层被反复追问「要不要减产保毛利」，答案始终是不。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-米勒定调市场比上次电话会时更差了但策略不变&quot;&gt;1. 米勒定调：市场比上次电话会时更差了，但策略不变&lt;/h2&gt;
-
-&lt;p&gt;米勒开场的定调句在新闻稿里也出现过，但电话会上说得更直白：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「利率和消费者信心，限制了我们进入本季度时所预期的改善。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他给出的利率读数是：30年期固定房贷利率在季度末约6.8%，之后还在往上走，目前在&lt;strong&gt;7%附近&lt;/strong&gt;；而上个季度这个数字是6.4%到6.5%。半个百分点看着不多，但对一个均价37.2万美元的房子来说，月供差出一两百美元——对莱纳的主力客群（首次购房者和刚需换房者）是直接的生死线。&lt;/p&gt;
-
-&lt;p&gt;米勒对需求端的描述是本场最扎心的一句：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「按家庭收入中位数计算的购房者，要承担一套房子，支出已经远远超过总收入的30%。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;30%是美国房贷行业公认的「可负担性」红线——月供占税前收入三成以内才算健康。米勒等于是说：&lt;strong&gt;现在的中位数家庭买房，已经超出健康区间了。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;他还给了一个更具体的现场数据：在许多市场，&lt;strong&gt;近50%的到访看房客户当场无法通过贷款资格审核&lt;/strong&gt;。这不是「犹豫要不要买」，而是「想买也批不下来」。&lt;/p&gt;
-
-&lt;p&gt;但即使如此，米勒把策略重申了一遍，一个字没改：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们按市场定价，并维持产量，以便在可负担的价位上满足需求。」&lt;/p&gt;
-
-  &lt;p&gt;「我们在牺牲毛利率，以换取产量的维持。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;以及那句本场最有分量的：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们不是在等市场来帮我们把毛利率修好。我们是在消化一个在另一种市场环境下形成的土地成本基数。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;翻译成大白话：&lt;strong&gt;我们手上还有一批在房价高、利率低的年代买贵了的地，这批地必须用低毛利卖出去才能出清，与其等三年不如现在亏着做完。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-运营指标几乎每一项效率数字都创了纪录&quot;&gt;2. 运营指标：几乎每一项效率数字都创了纪录&lt;/h2&gt;
-
-&lt;p&gt;米勒用了相当长的篇幅列效率数据，这部分是他的底气所在：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;运营指标&lt;/th&gt;
-      &lt;th&gt;本季读数&lt;/th&gt;
-      &lt;th&gt;对比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;建安成本（每平方英尺）&lt;/td&gt;
-      &lt;td&gt;80美元&lt;/td&gt;
-      &lt;td&gt;环比 -1%，同比 -6%，较2023财年Q4基准 -14%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;建造周期（cycle time）&lt;/td&gt;
-      &lt;td&gt;116天&lt;/td&gt;
-      &lt;td&gt;公司历史最低，上季度121天，去年同期126天&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;已完工未售库存&lt;/td&gt;
-      &lt;td&gt;1.8套/社区&lt;/td&gt;
-      &lt;td&gt;上季度2.1套，第一季度3套&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;库存周转率&lt;/td&gt;
-      &lt;td&gt;2.4次&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;在售社区数&lt;/td&gt;
-      &lt;td&gt;1713个&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;开工节奏与销售节奏&lt;/td&gt;
-      &lt;td&gt;均为4.1套/社区/月&lt;/td&gt;
-      &lt;td&gt;两者完全对齐&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;最后一行值得解释：开工节奏和销售节奏都是4.1套，意味着&lt;strong&gt;盖多少卖多少&lt;/strong&gt;，库存不积压也不断档。这是莱纳「均匀流水线」（even flow）模式的核心指标，也是它敢于不减产的技术前提。&lt;/p&gt;
-
-&lt;h2 id=&quot;3-土地只拥有不到25其余全部靠期权控制&quot;&gt;3. 土地：只拥有不到2.5%，其余全部靠期权控制&lt;/h2&gt;
-
-&lt;p&gt;米勒在会上重申了土地轻资产模式的数字：全公司拥有和控制的宅基地约&lt;strong&gt;48.8万块&lt;/strong&gt;，其中记在自己资产负债表上的&lt;strong&gt;不到2.5%&lt;/strong&gt;，其余全部通过第三方土地银行的期权合约控制——按当前产量算大约是六年的土地储备。本季度交付的房子里，&lt;strong&gt;86%来自土地银行的地&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;他对土地讲了一句很有意思的话：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「土地是我们唯一无法重新设计的投入。我们只能把它做完、交付掉。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;意思是：钢材可以换供应商，户型可以改小，人工可以优化排期，但一块两年前按高价签下的地，成本就钉死在那里了，只能通过把房子卖掉来实现出清。这也解释了为什么他坚持「保产量」——&lt;strong&gt;产量就是土地的出清速度。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;4-第四季度指引&quot;&gt;4. 第四季度指引&lt;/h2&gt;
-
-&lt;p&gt;新闻稿里给出的正式指引：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026财年Q4指引&lt;/th&gt;
-      &lt;th&gt;本季实际&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;新订单&lt;/td&gt;
-      &lt;td&gt;19500 - 20500套&lt;/td&gt;
-      &lt;td&gt;20879套&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;交付量&lt;/td&gt;
-      &lt;td&gt;22000 - 23000套&lt;/td&gt;
-      &lt;td&gt;20840套&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;平均售价&lt;/td&gt;
-      &lt;td&gt;37.0万 - 38.0万美元&lt;/td&gt;
-      &lt;td&gt;37.2万美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;房屋销售毛利率&lt;/td&gt;
-      &lt;td&gt;15.5% - 16.0%&lt;/td&gt;
-      &lt;td&gt;15.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售及管理费用率&lt;/td&gt;
-      &lt;td&gt;8.7% - 9.0%&lt;/td&gt;
-      &lt;td&gt;9.2%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;金融服务经营利润&lt;/td&gt;
-      &lt;td&gt;0.90亿 - 0.95亿美元&lt;/td&gt;
-      &lt;td&gt;1.29亿美元&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;贝塞特在电话会上补充了新闻稿里没有的几项：多户住宅业务预计亏损约2500万美元，「其他」板块预计亏损约2000万美元，核心管理费用约占营收1.7%，税率约25%，加权平均股本约2.35亿股。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这几个补充数字加起来的意思是：第四季度虽然交付量要放大到2.2万至2.3万套，但非住宅板块的拖累会比本季更大。&lt;/strong&gt;多户住宅本季只亏了300万美元，指引却是亏2500万。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;二分析师问答里最有信息量的几个&quot;&gt;二、分析师问答里最有信息量的几个&lt;/h1&gt;
-
-&lt;h2 id=&quot;q1-高盛-susan-maklari库存周转还能不能继续提高现金要怎么用&quot;&gt;Q1. 高盛 Susan Maklari：库存周转还能不能继续提高？现金要怎么用？&lt;/h2&gt;
-
-&lt;p&gt;米勒的回答是明确的「不会更高了」：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我认为我们暂时会维持在这个区间左右……如果你想想我们的产量——我们本来预期它会增长，结果它维持了一个稳定的轨迹。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这句话的潜台词是：&lt;strong&gt;库存周转率的提升，靠的是产量增长，而不是压库存。产量上不去，周转率就停在2.4次。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;在现金用途上，米勒说了本场最直白的一句：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「别以为我们没注意到我们的股价正在打折。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;本季度公司回购了300万股、花了2.56亿美元，平均回购价85.49美元；同时赎回了4亿美元到期的5.25%优先票据，付了1.19亿美元股息。贝塞特补充了公司对现金余额的态度：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们尽可能把现金余额管得低一些，因为我们有一笔31亿美元的授信额度，随时可以动用。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;季末公司账上现金12亿美元，循环授信已提用6.5亿美元，总流动性36亿美元。&lt;strong&gt;换句话说：手上现金降到12亿并不是缺钱，而是刻意的——公司宁可用授信额度当缓冲，把自有现金用在回购和还债上。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;q2-wolfe-research-的-trevor-allinson成本还能继续降吗哪里在涨&quot;&gt;Q2. Wolfe Research 的 Trevor Allinson：成本还能继续降吗？哪里在涨？&lt;/h2&gt;
-
-&lt;p&gt;这是本场最有增量的一问。米勒把问题定性为「地理问题」：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「劳动力绝对是一个地理问题……是数据中心，是移民执法行动……它非常因地而异。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;格罗夫给了具体比例：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「目前大约有20%的分公司，面临的压力比其余绝大多数要大。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这两句话信息量很大。&lt;strong&gt;美国住宅建筑业正在和 AI 数据中心抢同一批蓝领工人&lt;/strong&gt;——电工、混凝土工、管道工在数据中心工地上能拿到更高的日薪；同时移民执法收紧又直接缩小了建筑业的劳动力池子。莱纳建安成本同比还在降6%，靠的是规模采购和周期缩短对冲了工价上涨，但这个对冲能撑多久，是接下来几个季度最值得盯的变量。&lt;/p&gt;
-
-&lt;p&gt;帕克则强调了供应链关系的作用：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们的采购团队和我们的分包伙伴合作得非常好……我们和合作伙伴、和劳动力之间有极高的可见度。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;q3-瑞银-john-lovallo第四季度交付量要涨8毛利率指引为什么还是持平&quot;&gt;Q3. 瑞银 John Lovallo：第四季度交付量要涨8%，毛利率指引为什么还是持平？&lt;/h2&gt;
-
-&lt;p&gt;帕克的回答很实在：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我现在没看到我们在市场上要做的事情有多大的差别。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他补充说，团队花了大量时间在「战略性定价」上——&lt;strong&gt;对不同户型、不同位置的房子用不同的定价和补贴组合，做对了的社区，补贴反而是往下走的。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;米勒随后加了一句风险提示：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「市场有能力给我们扔一个曲线球……我们会继续专注同一套打法，就是随市场的实际情况做调整。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;格罗夫则点出了压力来源：随着利率上升，&lt;strong&gt;补贴的压力可能会以「利率买断成本」的形式出现&lt;/strong&gt;——即公司替客户把房贷利率从7%买到5%点几所付出的贴息。&lt;/p&gt;
-
-&lt;h2 id=&quot;q4-citizens-bank-的-jay-mccanless利率买断到底花了多少钱&quot;&gt;Q4. Citizens Bank 的 Jay McCanless：利率买断到底花了多少钱？&lt;/h2&gt;
-
-&lt;p&gt;贝塞特罕见地拒绝给数字：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「这是个很难回答的问题……取决于是固定利率贷款还是浮动利率贷款，取决于是政府担保贷款还是常规贷款，也取决于起始利率是多少、你要往下买多少个点。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这个「答不出来」本身就是信息：&lt;strong&gt;利率买断的成本已经复杂到公司不愿意给单一口径的数字，只能整体体现在12.0%的销售补贴率里。&lt;/strong&gt;对投资者来说，这意味着补贴率这个指标短期内不会有更细的拆分。&lt;/p&gt;
-
-&lt;h2 id=&quot;q5-evercore-isi-的-stephen-kim单套库存价值为什么在涨&quot;&gt;Q5. Evercore ISI 的 Stephen Kim：单套库存价值为什么在涨？&lt;/h2&gt;
-
-&lt;p&gt;米勒的回答揭开了一个容易被忽略的成本：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们很多土地和土地合约，是在另一个时间、按另一个价格区间谈下来的……而且由于我们放缓了增长，我们的期权维持费（option maintenance fees）累积的时间也变长了。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;期权维持费&lt;/strong&gt;是土地轻资产模式的代价：莱纳不买地，而是付一笔费用锁定购地权利，什么时候真正开发才什么时候付地价。好处是资产负债表轻，坏处是——如果开发节奏被迫放慢，锁定期就要延长，维持费就要一直付下去。米勒说公司现在已经把这笔费用实时算进每一个项目的毛利里。&lt;/p&gt;
-
-&lt;p&gt;这解释了一个财报上的矛盾：公司「只拥有2.5%的地」，但库存账面价值却在上升。&lt;strong&gt;轻资产不等于低成本，只是把成本从资产负债表挪到了损益表。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;q6-关于二手房竞争空前但米勒说这是飞轮&quot;&gt;Q6. 关于二手房：竞争空前，但米勒说这是「飞轮」&lt;/h2&gt;
-
-&lt;p&gt;多位分析师追问了德州和佛州的二手房竞争。格罗夫的观察是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「随着挂牌天数拉长，你开始看到二手房卖家越来越愿意在售价上做让步。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;米勒承认竞争强度是多年未见的：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们看到来自二手房市场的竞争，是很长时间以来最激烈的。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;但他和帕克都给出了反向解读。帕克说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我不认为这总是负面的。我认为当你看到二手房交易活跃起来，我们会看到多得多的、准备好升级去买新房的潜在客户。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;米勒把它总结成一个词——飞轮：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「当二手房市场开始转动起来，每一个卖房子的人都需要买一套房子，这就是那个开始向前转动的飞轮。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;这是本场最重要的一个判断分歧点。&lt;/strong&gt;空头会说：二手房降价抢客，直接压低新房价格和毛利。米勒的多头逻辑是：二手房成交本身会释放出换房需求，而换房者最终有相当一部分会买新房。两种解读在短期内都成立——但只有在成交量真正起来之后，才能验证谁对。&lt;/p&gt;
-
-&lt;h2 id=&quot;q7-关于费用率技术投入有试错的成本&quot;&gt;Q7. 关于费用率：技术投入有「试错的成本」&lt;/h2&gt;
-
-&lt;p&gt;分析师追问销售及管理费用率为什么从去年同期的8.2%涨到9.2%。新闻稿的解释是「营收下降导致摊薄不足，加上营销费用增加」。米勒在电话会上补了一层更坦率的说法：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们确实做了大量投入。其中一些投入是走了弯路，另一些则是我们未来一年的核心……随着2027年推进，我们会看到一些正常化。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;「走了弯路」（false starts）是一位CEO在公开电话会上不常说的话。&lt;strong&gt;它承认了技术投入里有一部分是打了水漂的&lt;/strong&gt;，同时也把费用率回落的时间点明确锚定在2027财年，而不是下个季度。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;三这场电话会到底说明了什么&quot;&gt;三、这场电话会到底说明了什么&lt;/h1&gt;
-
-&lt;p&gt;三点。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，莱纳把「产量」当成了信仰，而不是变量。&lt;/strong&gt; 从Q1到Q3，市场一路走弱，公司的回应始终是降价、加补贴、压成本，从来没有考虑过减少开工。这背后的逻辑其实是财务的：48.8万块地的期权维持费在持续走表，产量一停，这笔钱就变成纯亏损；只有让房子不断交付，土地才能变成现金。&lt;strong&gt;产量对莱纳来说不是经营选择，而是现金流的生命线。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，成本下降的引擎可能快到头了。&lt;/strong&gt; 建安成本同比降6%、周期116天创纪录，这两个数字都很漂亮，但20%的分公司已经在感受劳动力压力，而竞争对手是出手更阔绰的数据中心。如果工价上涨的速度超过周期缩短带来的节省，「压成本换毛利」这条路就走不通了——到那时公司要么减产，要么让毛利率跌破15.5%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，管理层对需求端给的是一个「时间换空间」的答案，没有给时间表。&lt;/strong&gt; 米勒反复说市场会回来、飞轮会转动、住房短缺没有解决，但当分析师问到具体的改善节点时，他给的全是条件句：「除非市场条件显著改善」「市场有能力给我们扔一个曲线球」。&lt;strong&gt;公司的指引里没有任何一处假设第四季度会好转——新订单指引甚至低于本季实际。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;对普通读者，这场电话会可以这样理解：&lt;/p&gt;
-
-&lt;p&gt;美国最大的住宅建筑商之一，正在用自己的利润表给购房者发补贴，一边发一边说「我们不等市场了」。它的效率数字是全行业最好看的，它的资产负债表是全行业最轻的，但它每卖100美元的房子，净利润已经从去年的9.3美元降到6.6美元。&lt;strong&gt;这不是一家经营出了问题的公司，而是一家在用极高的执行力，硬扛一个不属于它能控制的宏观变量——房贷利率。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;米勒在电话会结尾说：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们对全公司莱纳员工所做的非凡工作，简直不能更自豪了……他们在一段真正艰难的长周期里完成了执行，建立了新能力，压低了成本，缩短了周期。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这段话听起来是表扬，其实是一个提醒：&lt;strong&gt;所有能靠自己努力改善的地方，公司都已经做到极致了。剩下的，要看利率。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;财报发布后，公司股价在9月17日基本走平，收在78.5美元附近，接近76.07至134.07美元这一52周区间的下沿。市场对这份「利润大跌+下调指引」的成绩单反应平淡——说明悲观预期早已被定价。真正的变数不在财报里，在美联储那里。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;一手资料：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/09/17/lennar-len-q3-2026-earnings-call-transcript/&quot;&gt;Lennar (LEN) Q3 2026 Earnings Call Transcript - The Motley Fool（2026财年第三季度业绩电话会完整实录，2026年9月17日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/920760/000162828026062287/ex991-2026831x8kq3.htm&quot;&gt;Lennar Reports Third Quarter 2026 Results（业绩新闻稿，SEC 8-K 附件99.1，2026年9月16日，含第四季度正式指引表）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/920760/000162828026062287/len-20260916.htm&quot;&gt;Lennar Corporation Form 8-K, filed September 16, 2026（8-K 正文，Item 2.02 业绩披露）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://newsroom.lennar.com/2026-06-05-Lennar-Names-Jim-Parker-Chief-Operating-Officer-and-David-Grove-EVP,-Homebuilding&quot;&gt;Lennar Names Jim Parker Chief Operating Officer and David Grove EVP, Homebuilding（2026年6月5日高管任命公告，用于核实参会管理层职务）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investors.lennar.com/&quot;&gt;Lennar 投资者关系页面&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;媒体报道（仅用于补充分析师预期、股价反应等背景）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-lennar-misses-q3-2026-estimates-as-housing-demand-softens-93CH-4906240&quot;&gt;Earnings call transcript - Lennar misses Q3 2026 estimates as housing demand softens - Investing.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gurufocus.com/news/9087038/lennar-corp-len-q3-2026-earnings-call-highlights-record-cycle-times-and-margin-gains-amid-softening-demand&quot;&gt;Lennar Corp (LEN) Q3 2026 Earnings Call Highlights - GuruFocus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.stocktitan.net/news/LEN/lennar-reports-third-quarter-2026-q0xey1vxxpxn.html&quot;&gt;Lennar Q3 Earnings Fall to $284M as Orders Drop 9% - StockTitan&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;注：本文所有引述均译自上述电话会实录，财务数字以官方新闻稿为准。电话会中管理层口径的部分数字（如30年期房贷利率约7%、期权维持费、分板块补充指引）不在新闻稿内，已在正文中注明来自电话会。财报口径为2026财年第三季度，对应自然时间2026年6月1日至8月31日。&lt;/p&gt;
-</description>
-        <pubDate>Fri, 18 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/18/lennar_fy2026q3_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/18/lennar_fy2026q3_earnings_call/</guid>
-        
-        <category>莱纳</category>
         
         <category>大公司数据观察</category>
         

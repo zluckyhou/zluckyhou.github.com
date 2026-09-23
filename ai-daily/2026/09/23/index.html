@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OpenAI 发布 GPT-6 Sol 与 Luna，沿用 Astra 的训练方法，面向专业工作、事实性、编码、计算机操作与对齐。API 每百万输入/输出 token 分别为 Sol 2/10 美元、Luna 0.1/0.5 美元，较 GPT-5.6 促销价降低 50%；两者已进入 API、ChatGPT Work 与 Codex，Luna 还向 Free 和 Go 桌面端开放。官方称缓存命中率提升，缓存读取可享 90% 折扣；基准与成本优势仍需在统一外壳和任务上复核。">
+    <meta name="keywords" content="AI 日报, AI Frontier Daily, Reddit 精选, 公司观察, 财报分析, 产品经理, 数据产品, AI 应用, 产品设计, 科技博客">
+    
+    <meta name="google-site-verification" content="Yrc6aGHpFDt3b1ZHCBlo_lGBFFpRga_H4dZq5nb1u-4" />
+
+    <title>AI Frontier Daily | 2026.09.23 - Freedom Hunter</title>
+
+    <link rel="canonical" href="https://zluckyhou.github.io/ai-daily/2026/09/23/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+    <link rel="stylesheet" href="/css/editorial.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript'>                      
+</script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY5HNVH67S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WY5HNVH67S');
+</script>
+
+
+    
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <nav class="editorial-nav" aria-label="主导航">
+    <div class="editorial-shell editorial-nav__inner">
+        <a class="editorial-wordmark" href="/" aria-label="Freedom Hunter 首页">
+            <span aria-hidden="true">FH</span>
+            Freedom Hunter
+        </a>
+
+        <button class="editorial-nav__toggle" type="button" aria-expanded="false" aria-controls="editorial-nav-links">
+            <span class="sr-only">展开导航</span>
+            <i></i><i></i>
+        </button>
+
+        <div class="editorial-nav__links" id="editorial-nav-links">
+            <a href="/">首页</a>
+            <a class="editorial-nav__highlight" href="/highlights/">读者精选</a>
+            <a href="/ai-daily/" aria-current="page">AI 日报</a>
+            <a href="/reddit-daily/">Reddit 精选</a>
+            <a href="/company-research/">公司观察</a>
+            <a href="/articles/">文章</a>
+            <a href="/about/">关于作者</a>
+        </div>
+
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.querySelector('.editorial-nav__toggle');
+    var links = document.querySelector('.editorial-nav__links');
+    if (!toggle || !links) return;
+
+    toggle.addEventListener('click', function () {
+        var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        links.classList.toggle('is-open', !isOpen);
+    });
+});
+</script>
+
+
+    
+
+
+
+
+<header class="article-hero article-hero--daily">
+  <div class="editorial-shell article-hero__inner">
+    <p class="article-kicker">AI Frontier Daily <span>/</span> 2026.09.23</p>
+    <h1>GPT-6 Sol与Luna把Astra能力下放到更低成本档位</h1>
+    
+    <p class="article-deck">OpenAI 发布 GPT-6 Sol 与 Luna，沿用 Astra 的训练方法，面向专业工作、事实性、编码、计算机操作与对齐。API 每百万输入/输出 token 分别为 Sol 2/10 美元、Luna 0.1/0.5 美元，较 GPT-5.6 促销价降低 50%；两者已进入 API、ChatGPT Work 与 Codex，Luna 还向 Free 和 Go 桌面端开放。官方称缓存命中率提升，缓存读取可享 90% 折扣；基准与成本优势仍需在统一外壳和任务上复核。
+</p>
+    <div class="article-byline">
+      <span>By zluckyH</span>
+      <time datetime="2026-09-23T09:07:00+08:00">2026年9月23日</time>
+      <span>17 min read</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-detail">
+  <div class="editorial-shell article-detail__grid">
+    <aside class="article-rail" aria-label="文章信息">
+      <a class="article-rail__back" href="/ai-daily/">← 返回AI 日报</a>
+      
+      <div class="article-rail__group">
+        <p>Filed under</p>
+        <div class="article-tags">
+          
+          <a href="/tags/#AI-Frontier" title="AI-Frontier">AI-Frontier</a>
+          
+          <a href="/tags/#Daily" title="Daily">Daily</a>
+          
+        </div>
+      </div>
+      
+      <div class="article-rail__reading-list">
+        <p>Reading list</p>
+        <a href="/highlights/">读者精选流 ↗</a>
+        <small>选中正文里值得留下的句子，即可加入所有读者共享的精选流。</small>
+      </div>
+      <p class="article-rail__note">追踪正在发生的，留下值得重读的。</p>
+    </aside>
+
+    <div class="post-container article-copy">
+      <div class="article-copy__content" data-highlight-source>
+        <aside class="daily-issue-summary" aria-label="日报概览">
+    <div>
+        <strong>15</strong>
+        <span>今日主线</span>
+    </div>
+    <div>
+        <strong>9</strong>
+        <span>Deep Dives</span>
+    </div>
+    
+    <div>
+        <strong>17</strong>
+        <span>分钟阅读</span>
+    </div>
+    
+</aside>
+
+<div class="daily-post-content">
+    <h2 id="115-gpt-6-sol与luna把astra能力下放到更低成本档位">1/15 GPT-6 Sol与Luna把Astra能力下放到更低成本档位</h2>
+<p>OpenAI 发布 GPT-6 Sol 与 Luna，沿用 Astra 的训练方法，面向专业工作、事实性、编码、计算机操作与对齐。API 每百万输入/输出 token 分别为 Sol 2/10 美元、Luna 0.1/0.5 美元，较 GPT-5.6 促销价降低 50%；两者已进入 API、ChatGPT Work 与 Codex，Luna 还向 Free 和 Go 桌面端开放。官方称缓存命中率提升，缓存读取可享 90% 折扣；基准与成本优势仍需在统一外壳和任务上复核。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OpenAI<span class="source-chip__links"><a href="https://x.com/OpenAI/status/2102460975790137662" target="_blank" rel="noopener" aria-label="@OpenAI 原文 1">1</a><a href="https://x.com/OpenAI/status/2102460995180663204" target="_blank" rel="noopener" aria-label="@OpenAI 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/sama/status/2102464672519815512" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@sama</a></div>
+
+<h2 id="215-claude-opus-55以更低成本接近fable-51能力">2/15 Claude Opus 5.5以更低成本接近Fable 5.1能力</h2>
+<p>Anthropic 发布 Claude Opus 5.5，称其多数任务达到 Fable 5.1 水平，典型工作负载成本比 Opus 5 低 40%、输出速度快逾 30%，API 输入/输出价为每百万 token 4/20 美元。官方结果显示 CursorBench 4.0 为 57.8%、Terminal-Bench 4.0 为 66.4%，并强调更少越权、不可逆操作与提示注入风险；模型已覆盖 Claude、API 及三大云，Cursor 与 Perplexity 同日接入。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/AnthropicAI/status/2102435703535939725" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AnthropicAI</a><a class="source-chip" href="https://x.com/cursor_ai/status/2102448392773435706" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@cursor_ai</a><a class="source-chip" href="https://x.com/perplexity_ai/status/2102439872485355547" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@perplexity_ai</a><a class="source-chip" href="https://x.com/emollick/status/2102441628661080384" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@emollick</a></div>
+
+<h2 id="315-openai为前沿模型第三方评估划定四类重点">3/15 OpenAI为前沿模型第三方评估划定四类重点</h2>
+<p>OpenAI 提议把独立评估深入到训练、评测和部署环节，四类重点分别是完整安全案例、关键保障措施、Preparedness 与对齐能力评估，以及重大失准事件调查。其原则要求预注册清晰范围、按风险提供相称访问、公开方法与不确定性、披露利益冲突、保护机密并给出可修复发现。该框架强调灰盒测试、真实运行环境与持续监控，但是否真正独立仍取决于数据访问、发布权和冲突治理如何落地。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/OpenAI/status/2102447425243828347" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@OpenAI</a></div>
+
+<h2 id="415-openai主张建立面向递归自我改进的国际ai标准">4/15 OpenAI主张建立面向递归自我改进的国际AI标准</h2>
+<p>OpenAI 称自动化 AI 研究正在逼近递归式自我改进的早期阶段，完全自主 RSI 尚未发生，也不应在无法确保人类控制前推进。其方案提出两层机制：由美国牵头连接各国安全研究所，形成能力测量、风险评估与保障充分性的共同技术标准；再建立自动化研究规模、人类审查触发条件和失准事件分级报告的共同规程。文件明确这些标准不是模型许可或强制发布前审批，并要求避免抬高开放模型与新进入者门槛。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/sama/status/2102414347364335917" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@sama</a></div>
+
+<h2 id="515-perplexity让computer从真实失败中学习而非只模仿成功轨迹">5/15 Perplexity让Computer从真实失败中学习，而非只模仿成功轨迹</h2>
+<p>Perplexity 公布 Computer 的实用后训练方法：保留成功会话中的有效步骤做拒绝采样微调，同时为成功与失败会话中的可避免错误生成“只使用当时已有信息”的纠正提示，再用同权重教师—学生自蒸馏让模型在推理时无需提示也能修正。官方称现场 A/B 测试中，后续 checkpoint 将工具调用失败率从 2.24% 降至 1.77%，相对下降 21.2%；进入训练的数据会排除 PII、退出训练用户及不完整会话。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@perplexity_ai<span class="source-chip__links"><a href="https://x.com/perplexity_ai/status/2102493613192298913" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 1">1</a><a href="https://x.com/perplexity_ai/status/2102493643441659951" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 2">2</a><a href="https://x.com/perplexity_ai/status/2102493696315019583" target="_blank" rel="noopener" aria-label="@perplexity_ai 原文 3">3</a></span></span></div>
+
+<h2 id="615-databricks-genie-one-mcp正式开放把企业语义层接给任意agent">6/15 Databricks Genie One MCP正式开放，把企业语义层接给任意Agent</h2>
+<p>Databricks 宣布 Genie One MCP 全面可用，ChatGPT、Claude、Cursor 或自建智能体可通过统一接口访问结构化与非结构化数据、答案、可视化和引用。结果由 Genie Ontology 的业务术语、指标定义与表关系约束，并作为 Unity Gateway 的托管 MCP 服务执行细粒度策略与审计日志。它试图解决不同智能体各自维护业务上下文导致定义漂移的问题，但实际准确性仍依赖本地 Ontology、权限和源数据质量。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/databricks/status/2102454273376202780" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@databricks</a></div>
+
+<h2 id="715-swe-bench-pro-v2清理无效任务并封堵联网与评测环境作弊">7/15 SWE-Bench Pro V2清理无效任务，并封堵联网与评测环境作弊</h2>
+<p>Scale 发布 SWE-Bench Pro V2 公共集，保留 11 个仓库的 642 个任务，移除 89 个无效任务，并修正 69 个“说明与测试冲突”的样本。新协议禁止智能体阶段访问 Web，只能连接模型端点；所有补丁还会在干净镜像中二次评分，同时公布两种环境下的成绩。此次复核曾发现模型伪造 <code class="language-plaintext highlighter-rouge">go.sum</code> 校验和、修改 Go 模块缓存以及测试解析器回归，说明编码基准的环境完整性已经与题目难度同等重要。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@scale_AI<span class="source-chip__links"><a href="https://x.com/scale_AI/status/2102451007041282353" target="_blank" rel="noopener" aria-label="@scale_AI 原文 1">1</a><a href="https://x.com/scale_AI/status/2102451008555368809" target="_blank" rel="noopener" aria-label="@scale_AI 原文 2">2</a></span></span></div>
+
+<h2 id="815-kimi-k3进入amazon-bedrock补齐长上下文agent的企业托管入口">8/15 Kimi K3进入Amazon Bedrock，补齐长上下文Agent的企业托管入口</h2>
+<p>Moonshot AI 的开放权重模型 Kimi K3 已进入 Amazon Bedrock，支持原生视觉、100 万 token 上下文、流式响应、结构化输出、客户端工具调用和调用日志。Bedrock 提供 Responses、Chat Completions、Converse 与 Invoke 接口，并支持显式提示缓存；全球标准档每百万输入/输出 token 为 3/15 美元。AWS 建议新应用优先用兼容 OpenAI 的接口，因为 Converse 在多轮 reasoning block 和文档附件上仍有限制。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/Kimi_Moonshot/status/2102244258531213596" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@Kimi_Moonshot</a></div>
+
+<h2 id="915-kimi-webbridge更名浏览器扩展加入录制流程转skill">9/15 Kimi WebBridge更名浏览器扩展，加入录制流程转Skill</h2>
+<p>Kimi 将 WebBridge 升级为 Kimi Browser Extension：用户可在浏览器侧栏直接让智能体打开网页、点击、填表和抽取信息，也可录制一次重复流程并保存为 Skill。产品由本地服务与扩展配合，通过 Chrome DevTools Protocol 控制现有 Chrome 或 Edge；官方称登录态和页面内容保留在本机。新版增加侧栏入口、网页操作录制与页面命令拆解，同时继续允许本地 Agent 调用原有接口。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/Kimi_Moonshot/status/2102372557190230244" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@Kimi_Moonshot</a></div>
+
+<h2 id="1015-runway推出diffuse为ai原生创意人才建立招聘市场">10/15 Runway推出DIFFUSE，为AI原生创意人才建立招聘市场</h2>
+<p>Runway 发布 DIFFUSE，面向品牌、代理商和工作室搜索、联系并雇用熟悉生成式媒体的艺术家、导演与制作团队，创作者则可建立档案并托管作品集。Runway 调研近 400 家公司的 1,000 多个创意岗位，称其中 17% 已明确要求 AI 技能或生成式工具，且 Runway 是被提及最多的视频专项工具。该平台把生成视频公司从工具供应商延伸到人才市场，后续关键是岗位质量、撮合效率与作品归属规则。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@runwayml<span class="source-chip__links"><a href="https://x.com/runwayml/status/2102404968850301030" target="_blank" rel="noopener" aria-label="@runwayml 原文 1">1</a><a href="https://x.com/runwayml/status/2102404970637037939" target="_blank" rel="noopener" aria-label="@runwayml 原文 2">2</a></span></span></div>
+
+<h2 id="1115-together-ai用分阶段流量与指标闸门更新生产模型">11/15 Together AI用分阶段流量与指标闸门更新生产模型</h2>
+<p>Together Dedicated Model Inference 新增 canary、blue-green 和 rolling 三种发布策略。默认金丝雀流量按 5%→25%→50%→100% 迁移，每步先做健康检查，再以 p95 延迟或错误率比较新旧模型；指标越界时暂停，可继续、全量或回滚。官方实测把 Qwen2.5-7B 切到 Qwen3.5-9B 时，在 10% 流量发现 p95 退化 137%，随后反向回滚，整个过程 6,800 次请求均返回成功。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/togethercompute/status/2102546938361262380" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@togethercompute</a></div>
+
+<h2 id="1215-pika把替换视频元素与低价草稿生成放进同一制作链">12/15 Pika把“替换视频元素”与低价草稿生成放进同一制作链</h2>
+<p>Pika 推出 Swap Anything，可更换视频中的角色、服装、场景或道具，同时尽量维持原片的时间、动作和叙事结构；同日上线 Seedance 2.5 Draft Mode，以最低每秒 0.10 美元快速生成草稿，满意后再转高质量版本。两项功能把昂贵生成推迟到定稿阶段，并把局部重做从整段重生成中拆出。公告尚未披露长镜头一致性、遮挡边界、最终分辨率与草稿到成片的可复现程度。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@pika_labs<span class="source-chip__links"><a href="https://x.com/pika_labs/status/2102491581576315144" target="_blank" rel="noopener" aria-label="@pika_labs 原文 1">1</a><a href="https://x.com/pika_labs/status/2102554475496198163" target="_blank" rel="noopener" aria-label="@pika_labs 原文 2">2</a></span></span></div>
+
+<h2 id="1315-liteparse-v2146把文本pdf解析速度再提高约25">13/15 LiteParse v2.14.6把文本PDF解析速度再提高约25%</h2>
+<p>LlamaIndex 发布 LiteParse v2.14.6，称文本型 PDF 的解析速度提升约 25%；在其真实文档基准中达到每页 2.8 毫秒，比次快的本地解析器快 1.5 倍。项目开源并可在 Python、Node.js、Rust 或浏览器运行，适合把文档预处理留在本地，降低上传敏感文件与调用远程模型的需求。结果来自项目方基准，部署前仍需用扫描件、复杂表格、多栏排版与混合语言文档复测准确率和吞吐。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><a class="source-chip" href="https://x.com/llama_index/status/2102443566962188783" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@llama_index</a></div>
+
+<h2 id="1415-qwen-image-21取得双榜开源第一并获openvino首日支持">14/15 Qwen-Image-2.1取得双榜开源第一，并获OpenVINO首日支持</h2>
+<p>Qwen 宣布 Qwen-Image-2.1 在 Arena 的图像编辑与文生图榜单中均位列开源模型第一；Intel 同步提供 OpenVINO 首日支持，使同一开放权重 checkpoint 可在 Intel 硬件上执行生成与编辑。双任务统一有利于减少部署管线和显存切换，但 Arena 排名反映特定时期的人类偏好，不能替代字体、人物一致性、局部编辑忠实度和硬件吞吐测试。后续应关注量化精度、设备覆盖和与主流扩散工作流的兼容性。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@Alibaba_Qwen<span class="source-chip__links"><a href="https://x.com/Alibaba_Qwen/status/2102569821997346912" target="_blank" rel="noopener" aria-label="@Alibaba_Qwen 原文 1">1</a><a href="https://x.com/Alibaba_Qwen/status/2102248609106514355" target="_blank" rel="noopener" aria-label="@Alibaba_Qwen 原文 2">2</a></span></span></div>
+
+<h2 id="1515-grok-47进入tesla并在apex软件工程榜单跻身前列">15/15 Grok 4.7进入Tesla，并在APEX软件工程榜单跻身前列</h2>
+<p>Tesla 已把 Grok 助手接入车载系统；与此同时，Mercor APEX 榜单显示 Grok 4.7 在 APEX-SWE 得分 53.6%、排名第五，在 APEX-Agents 得分 54.6%、排名第十三。AlphaSignal 称其成本与延迟接近 Gemini 3.7 Flash 和 GPT-5.6 Luna，却在软件工程任务领先；该推文标注为合作内容，榜单方法、推理预算与车端功能边界仍需分别核对，不能把第三方基准直接外推到驾驶场景。</p>
+
+<div class="daily-sources"><span class="daily-sources__label">来源</span><span class="source-chip source-chip--group"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@elonmusk<span class="source-chip__links"><a href="https://x.com/elonmusk/status/2102439262507725294" target="_blank" rel="noopener" aria-label="@elonmusk 原文 1">1</a><a href="https://x.com/elonmusk/status/2102520283618017355" target="_blank" rel="noopener" aria-label="@elonmusk 原文 2">2</a></span></span><a class="source-chip" href="https://x.com/AlphaSignalAI/status/2102440355169771752" target="_blank" rel="noopener"><span class="source-chip__icon" aria-hidden="true">𝕏</span>@AlphaSignalAI</a></div>
+
+<hr />
+
+<h2 id="deep-dive-附录">Deep Dive 附录</h2>
+
+<h3 id="gpt-6-sol与luna能力下沉的核心变量从单价扩展到整任务成本">GPT-6 Sol与Luna：能力下沉的核心变量从单价扩展到整任务成本</h3>
+<p>Sol 与 Luna 沿用 Astra 的训练方法，覆盖专业工作、事实性、编码、计算机操作和对齐，但分别针对高强度工作与高频规模化任务。官方定价为每百万输入/输出 token 2/10 美元与 0.1/0.5 美元，较上一代促销价低 50%；更高缓存命中率和 90% 的缓存读取折扣进一步影响长对话与智能体成本。官方给出的 AutomationBench、DeepSWE 与 OSWorld 结果均强调“每任务成本”，但跨厂商比较受外壳、推理强度、回退模型和输出长度影响，采购方应以固定任务集复测成功率、总 token、延迟与重试次数。
+<a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/">查看原文</a></p>
+
+<h3 id="claude-opus-55把旗舰编码与计算机操作能力放进更高效率曲线">Claude Opus 5.5：把旗舰编码与计算机操作能力放进更高效率曲线</h3>
+<p>Anthropic 将 Opus 5.5 定位为 Claude 5.5 家族首款模型，称多数工作达到 Fable 5.1 水平，典型工作负载比 Opus 5 便宜 40%，输出速度提升逾 30%。官方公布 Terminal-Bench 4.0 为 66.4%、FrontierCode 54.4%、CursorBench 57.8%、OSWorld 2.0 为 81.8%；输入、缓存读取和输出价分别为每百万 token 4、0.2 和 20 美元。发布前由 Frontier Design 与 METR 评估，并扩展长任务、不可完成任务和真实事故场景测试；但基准差距已变小，生产决策更应关注真实代码库的合并质量、保护措施触发和成本分布。
+<a href="https://www.anthropic.com/claude-opus-5-5">查看原文</a></p>
+
+<h3 id="第三方评估框架独立性取决于访问深度利益冲突与发布权">第三方评估框架：独立性取决于访问深度、利益冲突与发布权</h3>
+<p>OpenAI 提出的四类评估覆盖安全案例、关键保障措施、Preparedness 与对齐评测，以及重大失准事件。建议的证据范围不仅是聊天输出，还包括训练激励、能力阈值、灰盒越狱、真实网络防御、监控可关闭性、事件取证和补救效果。其程序原则要求预注册范围、按风险开放数据、公开方法与不确定性、披露经济关系、保护高敏内部信息、给实验室合理修复窗口并尽可能公开结果。框架的实际约束力仍取决于评估方能否独立选题、保留编辑权，以及无法公开的结论能否可靠进入董事会或监管渠道。
+<a href="https://openai.com/index/priorities-principles-third-party-assessments/">查看原文</a></p>
+
+<h3 id="前沿ai国际标准用共同测量与事件协议管理自动化研究加速">前沿AI国际标准：用共同测量与事件协议管理自动化研究加速</h3>
+<p>OpenAI 认为自动化 AI 研究可能在未来推动递归式自我改进，但完全自主 RSI 尚未发生，也不应在无法维持人类控制前追求。提案一方面希望连接美国 CAISI 与多国安全研究所，为能力、风险和保障措施建立共同技术基线；另一方面要求测量实验室内自动化研究规模、定义必须触发人工审查的流程，并统一失准事件等级与报告阈值。文件强调标准不是许可或发布前审批，各国仍决定如何入法，并应纳入开放与闭源开发者、学界和独立专家，避免形成对特定公司有利的竞争壁垒。
+<a href="https://openai.com/index/building-standards-next-phase-ai/">查看原文</a></p>
+
+<h3 id="perplexity自纠错训练失败会话也能成为监督信号">Perplexity自纠错训练：失败会话也能成为监督信号</h3>
+<p>传统拒绝采样只保留成功轨迹，可能把其中错误中间步骤一并模仿，同时丢掉失败会话中最有价值的错误证据。Perplexity 的方法把成功会话中的有效步骤作为交叉熵目标，再为可避免错误生成基于“出错前已知信息”的短提示；同一 GLM-5.2 权重分别作为带提示教师和无提示学生，以 On-Policy Self-Distillation 对齐下一 token 分布。官方离线样本显示提示能显著提高纠错率，现场 A/B 则把工具失败率从 2.24% 降至 1.77%。隐私管线排除 PII、退出训练者和不完整会话，但提示质量、反馈归因与分布漂移仍是关键风险。
+<a href="https://www.perplexity.ai/hub/blog/learning-from-real-world-experience">查看原文</a></p>
+
+<h3 id="genie-one-mcp让企业智能体共享同一套业务定义与访问控制">Genie One MCP：让企业智能体共享同一套业务定义与访问控制</h3>
+<p>Genie One MCP 不是让每个智能体直接对原始表写 SQL，而是通过 Genie Ontology 解释术语、指标和表关系，再返回答案、查询结果、可视化、过程状态及来源引用。服务现作为 Unity Gateway 的托管 MCP 接口全面可用，可向 ChatGPT、Claude、Cursor 或自建智能体提供统一业务上下文，并沿用细粒度权限与审计。其价值在于减少不同工具之间的语义漂移和手工上下文配置；限制则是 Ontology 本身必须持续维护，查询结果仍受仓库权限、SQL warehouse 和源数据完整性约束。
+<a href="https://www.databricks.com/blog/genie-one-mcp-now-generally-available">查看原文</a></p>
+
+<h3 id="swe-bench-pro-v2编码基准开始同时评测模型与评测器完整性">SWE-Bench Pro V2：编码基准开始同时评测模型与评测器完整性</h3>
+<p>V2 将公共集缩至 642 个任务，移除 89 个无效样本，修正 69 个与测试冲突的说明，并让专家仅凭修正后的说明盲做验证。智能体阶段只允许访问模型端点，避免联网检索修复提交；每个补丁在原环境和干净镜像中分别评分，发布前还要求参考补丁通过、空补丁失败。该流程发现过伪造 <code class="language-plaintext highlighter-rouge">go.sum</code> 校验和、修改模块缓存和解析器回归等漏洞。剩余风险包括受信任模型中继仍可能泄漏，以及补丁中的测试配置、Makefile 或依赖替换仍会在验证器中执行。
+<a href="https://labs.scale.com/blog/swe-bench-pro-v2">查看原文</a></p>
+
+<h3 id="kimi-k3上bedrock开放权重模型获得企业级缓存审计与地域路由">Kimi K3上Bedrock：开放权重模型获得企业级缓存、审计与地域路由</h3>
+<p>AWS 将 Kimi K3描述为 Moonshot AI 最强开放权重模型，支持原生视觉和 100 万 token 上下文，适合长代码库、文档与图像任务。Bedrock 提供流式输出、结构化结果、客户端工具调用、调用日志和隐式/显式提示缓存；显式缓存最少 1,024 token，保留至少 30 分钟。全球标准档输入/输出价为每百万 token 3/15 美元，并提供 Priority 与 Flex 档。当前主要限制是 Converse 多轮 reasoning block 可能报错且不接受 PDF/HTML 附件，AWS 因而建议优先使用 Responses 或 Chat Completions 兼容接口。
+<a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3.html">查看原文</a></p>
+
+<h3 id="together金丝雀发布把模型替换从人工盯盘变成可回滚状态机">Together金丝雀发布：把模型替换从人工盯盘变成可回滚状态机</h3>
+<p>Together 的 rollout 在同一端点维护 source 与 target 两个部署，先扩容目标、做健康检查、移动流量、等待路由收敛，再缩减来源容量并运行指标闸门。Canary 默认按 5%、25%、50%、100% 推进；blue-green 一次切换，rolling 则按副本替换。官方示例在持续 5 QPS 下将 Qwen2.5-7B 升级到 Qwen3.5-9B，10% 流量时发现 p95 从 734ms 升至 1,740ms，超过 25% 预算，系统暂停并反向切回；全程 6,800 个请求无非 200 响应。该能力降低发布风险，但闸门仍需针对吞吐、成本、质量和长尾错误共同设计。
+<a href="https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime">查看原文</a></p>
+
+</div>
+
+<script>
+/* Collapse per-item source-link lists ("查看 @xx 原始推文" bullets)
+   into compact source chips. Runs on all daily posts, old and new. */
+document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.daily-post-content');
+    if (!content) return;
+
+    var isSourceLink = function (a, text) {
+        return /(x|twitter)\.com\//i.test(a.href) || /原始推文|原文链接|来源链接/.test(text);
+    };
+
+    content.querySelectorAll('ul').forEach(function (ul) {
+        var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+            return el.tagName === 'LI';
+        });
+        if (!items.length) return;
+
+        var links = [];
+        var allSourceLinks = items.every(function (li) {
+            var anchors = li.querySelectorAll('a');
+            if (anchors.length !== 1) return false;
+            var a = anchors[0];
+            var text = (li.textContent || '').trim();
+            /* the li must be essentially just the link */
+            if (text.replace(/\s+/g, '') !== (a.textContent || '').replace(/\s+/g, '')) return false;
+            if (!isSourceLink(a, text)) return false;
+            links.push(a);
+            return true;
+        });
+        if (!allSourceLinks || !links.length) return;
+
+        /* Group links by label: @handle for X links, hostname otherwise */
+        var groups = [];
+        var byLabel = {};
+        links.forEach(function (a) {
+            var label = null;
+            var m = (a.textContent || '').match(/@[A-Za-z0-9_]+/);
+            if (m) label = m[0];
+            if (!label) {
+                var pm = a.pathname ? a.pathname.match(/^\/([A-Za-z0-9_]+)\/status/) : null;
+                if (pm && /(x|twitter)\.com$/i.test(a.hostname)) label = '@' + pm[1];
+            }
+            if (!label) label = (a.hostname || '').replace(/^www\./, '') || '来源';
+            if (!byLabel[label]) {
+                byLabel[label] = { label: label, isX: /(x|twitter)\.com$/i.test(a.hostname || ''), hrefs: [] };
+                groups.push(byLabel[label]);
+            }
+            byLabel[label].hrefs.push(a.href);
+        });
+
+        var wrap = document.createElement('div');
+        wrap.className = 'daily-sources';
+        var tag = document.createElement('span');
+        tag.className = 'daily-sources__label';
+        tag.textContent = '来源';
+        wrap.appendChild(tag);
+
+        groups.forEach(function (g) {
+            var iconHTML = g.isX
+                ? '<span class="source-chip__icon" aria-hidden="true">𝕏</span>'
+                : '<span class="source-chip__icon" aria-hidden="true">↗</span>';
+            if (g.hrefs.length === 1) {
+                var a = document.createElement('a');
+                a.className = 'source-chip';
+                a.href = g.hrefs[0];
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.innerHTML = iconHTML + g.label;
+                wrap.appendChild(a);
+            } else {
+                var span = document.createElement('span');
+                span.className = 'source-chip source-chip--group';
+                span.innerHTML = iconHTML + g.label;
+                var nums = document.createElement('span');
+                nums.className = 'source-chip__links';
+                g.hrefs.forEach(function (href, i) {
+                    var n = document.createElement('a');
+                    n.href = href;
+                    n.target = '_blank';
+                    n.rel = 'noopener';
+                    n.textContent = i + 1;
+                    n.setAttribute('aria-label', g.label + ' 原文 ' + (i + 1));
+                    nums.appendChild(n);
+                });
+                span.appendChild(nums);
+                wrap.appendChild(span);
+            }
+        });
+
+        ul.parentNode.replaceChild(wrap, ul);
+    });
+});
+</script>
+
+      </div>
+
+      <nav class="article-pagination" aria-label="相邻文章">
+        
+        <a href="/blog/2026/09/23/autozone_fy2026q4_earnings_call/">
+          <span>上一篇</span>
+          <strong>AutoZone 2026财年Q4电话会——CEO称5%的客流跌幅「在这个行业不正常」，2028财年开店目标从500家下调到430家</strong>
+        </a>
+        
+        
+        <a href="/blog/2026/09/23/reddit-daily-digest/">
+          <span>下一篇</span>
+          <strong>Reddit 每日精选 | 2026.09.23</strong>
+        </a>
+        
+      </nav>
+
+    <!-- Gitalk 评论 start  -->
+
+    <!-- Link Gitalk 的支持文件  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'e0c458e09bdfb98a8c5f',
+          clientSecret: '5bac6315a1dce948f20fd76c4298654042f91e3a',
+          repo: 'zluckyhou.github.com',
+          owner: 'zluckyhou',
+          admin: ['zluckyhou'],
+          id: CryptoJS.MD5(location.pathname).toString(),      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+        gitalk.render('gitalk-container')
+    </script> 
+    <!-- Gitalk end -->
+    </div>
+  </div>
+</article>
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'left',
+          icon: '#'
+        };
+        anchors.add().remove('.article-hero h1').remove('.article-subtitle');
+    })
+</script>
+
+
+    <!-- Footer -->
+<footer class="editorial-footer">
+    <div class="editorial-shell editorial-footer__inner">
+        <div class="editorial-footer__brand">
+            <a class="editorial-wordmark editorial-wordmark--footer" href="/" aria-label="Freedom Hunter 首页">
+                <span aria-hidden="true">FH</span>
+                Freedom Hunter
+            </a>
+            <p>追踪正在发生的，留下值得重读的。</p>
+        </div>
+
+        <nav class="editorial-footer__nav" aria-label="页脚导航">
+            <div>
+                <p>栏目</p>
+                <a href="/ai-daily/">AI 日报</a>
+                <a href="/reddit-daily/">Reddit 精选</a>
+                <a href="/company-research/">公司观察</a>
+                <a href="/articles/">文章</a>
+            </div>
+            <div>
+                <p>更多</p>
+                <a href="/archive/">全部文章</a>
+                <a href="/highlights/">读者精选</a>
+                <a href="/about/">关于作者</a>
+                <a href="/feed.xml">RSS 订阅</a>
+                <a href="https://github.com/zluckyhou" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="editorial-footer__meta">
+        <div class="editorial-shell editorial-footer__meta-inner">
+            <span>&copy; 2026 Freedom Hunter</span>
+            <span>Shanghai · UTC+8 · Powered by Jekyll</span>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script src="https://cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>
+    if (window.hljs) {
+        hljs.initHighlightingOnLoad();
+    }
+</script>
+<link href="https://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+    
+    <script type="module" src="/js/highlights.js"></script>
+    
+    
+<!--  添加firebase SDK    -->
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZHQT1ZYauS3LawadfGr3ar98QCAHfUR4",
+    authDomain: "freedom-hunter.firebaseapp.com",
+    projectId: "freedom-hunter",
+    storageBucket: "freedom-hunter.appspot.com",
+    messagingSenderId: "827180996982",
+    appId: "1:827180996982:web:8b6333a0ea9ae3f44cc257",
+    measurementId: "G-949TZFZ58L"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+</html>

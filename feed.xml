@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 24 Sep 2026 10:08:44 +0800</pubDate>
-    <lastBuildDate>Thu, 24 Sep 2026 10:08:44 +0800</lastBuildDate>
+    <pubDate>Thu, 24 Sep 2026 10:11:26 +0800</pubDate>
+    <lastBuildDate>Thu, 24 Sep 2026 10:11:26 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -152,6 +152,128 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>AI Frontier Daily | 2026.09.24</title>
+        <description>&lt;h2 id=&quot;115-claude在噬菌体dna中发现带crispr式重复序列的新酶系统&quot;&gt;1/15 Claude在噬菌体DNA中发现带CRISPR式重复序列的新酶系统&lt;/h2&gt;
+&lt;p&gt;Anthropic 新建的分子生物实验室公布首项成果：约 950 个 Claude Agent 用 21 小时和 2.1 亿 token，从超过 20 万个逆转录酶中筛出 3,500 个候选系统，再收敛到 20 个报告；其中一个 Agent 识别出由逆转录酶、伴随基因和非编码重复阵列组成的 ART 系统。初步实验显示阵列会表达为短 RNA，但其天然功能、可编程性及生物技术价值均未确定；全部湿实验仍由人类科学家完成，团队已公开预印本供验证。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AnthropicAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/AnthropicAI/status/2102824959827742916&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AnthropicAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/AnthropicAI/status/2102824961538920822&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AnthropicAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/DarioAmodei/status/2102831170299834652&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@DarioAmodei&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;215-chatgpt-voice接入插件gpt-6模型与work执行环境&quot;&gt;2/15 ChatGPT Voice接入插件、GPT-6模型与Work执行环境&lt;/h2&gt;
+&lt;p&gt;OpenAI 为 ChatGPT Voice 加入邮件、日历和 Slack 等插件，并允许语音会话调用 GPT-6 Astra、Sol 与 Luna。Voice 同时进入 ChatGPT Work 的 Web 和移动端，用户可通过口述创建文档、演示文稿、网站和电子表格，或让系统在浏览器中执行复杂任务；新版已在最新版应用中全球推送。此次升级把语音从对话入口扩展为工具调用与工作产出的控制层，实际效果取决于授权边界、长任务确认和敏感数据处理。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/OpenAI/status/2102808325742322002&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenAI&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/gdb/status/2102821706041819401&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;315-qwen-audio-31用五款模型覆盖识别合成与实时通话&quot;&gt;3/15 Qwen-Audio 3.1用五款模型覆盖识别、合成与实时通话&lt;/h2&gt;
+&lt;p&gt;阿里 Qwen 发布 Qwen-Audio 3.1，升级 ASR、TTS 与 Realtime，并新增面向音频创作的 TTS-Next 和面向理解的 ASR-Next。ASR-Next 支持多人标签、时间戳、环境与机器声理解；TTS-Next 用统一语言模型与扩散架构一次生成语音、音效和背景音；Realtime 支持双工交流、随时打断与情绪感知。官方同时宣布 TTS 约降价 70%、Realtime 约 85%、ASR 最高 95%，API 与真实噪声场景表现仍待独立复测。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Alibaba_Qwen/status/2102687258990026993&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;415-qwen-intelligence推出规划手机执行与创作三类agent&quot;&gt;4/15 Qwen Intelligence推出规划、手机执行与创作三类Agent&lt;/h2&gt;
+&lt;p&gt;Qwen Intelligence 首发 Mobile Planner、Mobile-Use 与 Mobile Creative 三个 Agent，并开放 MobilePA-Bench、MobileWorld、MobileWorld-Real 和 MobileWorld-Safety 等评测。官方称 Mobile-Use 采用 API 优先、GUI 兜底，在 MobileWorld、MobileWorld-Real 与 AndroidDaily 分别达到 82.1、92.2 和 97.2，端到端成功率 90%；Creative 可用一句话生成内容，图像约 3 秒完成。成绩来自项目方基准，跨应用权限、异常恢复和真实设备稳定性仍需检验。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2102727405198876753&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2102727410093601172&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2102727414317199671&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2102727417781772404&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;515-gemini-38-flash-tts把自然语言声线设计推向100多种语言&quot;&gt;5/15 Gemini 3.8 Flash TTS把自然语言声线设计推向100多种语言&lt;/h2&gt;
+&lt;p&gt;Google 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS。Flash 面向角色与创意制作，可用自然语言定义声线、口音和人物特征，并逐句控制情绪、节奏、停顿和表演提示；Flash-Lite 面向大规模配音、内容生成与语音 Agent。官方称系统提供 2,000 多个可用声线、支持 100 多种语言与声线复刻，成本低于 3.1 Flash TTS，生成音频带 SynthID 水印，已覆盖 AI Studio、Gemini API、Enterprise、Notebook 与 Vids。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OfficialLoganK&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/OfficialLoganK/status/2102785495726219305&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OfficialLoganK 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/OfficialLoganK/status/2102786116453880283&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OfficialLoganK 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2102781530867126505&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2102781533274734801&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;615-openai用80多名临床专家共建mentalhealthbench&quot;&gt;6/15 OpenAI用80多名临床专家共建MentalHealthBench&lt;/h2&gt;
+&lt;p&gt;OpenAI 开源 MentalHealthBench，用合成但贴近真实使用的多轮对话评估 AI 在日常支持、高危困扰和紧急情形中的表现。80 多名持证心理学家与精神科医生来自 22 个国家、覆盖 19 种语言，为成人、青少年、照护者和临床人员场景编写加权评分标准；每段对话至少由三名专家复核，GPT-5.6 Sol 执行自动评分。官方强调 ChatGPT 不能替代治疗，基准用于衡量安全、情境追问、用户自主性与可执行建议。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2102837574092161102&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2102837575568519450&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;715-nvidia用1亿参数nemotron-3解决多人重叠说话归属&quot;&gt;7/15 NVIDIA用1亿参数Nemotron 3解决多人重叠说话归属&lt;/h2&gt;
+&lt;p&gt;NVIDIA 发布开放权重的 Nemotron 3 Diarization，用 1 亿参数识别“谁在何时说话”，支持直播或录音、最多八名说话者、重叠语音与可调流式延迟。官方称其在 VoiceArena 初版 Diarization-Bench 的 12 个系统中排名第一，错误率 14.72%，比第二名低约 24%；模型以说话者首次出现顺序稳定分配匿名通道，可与 ASR 组合生成带人物归属的会议、客服和播客转写，但不会自行识别真实身份。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2102775666366435450&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2102775667968590013&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2102775669570822279&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;815-epoch-ai称固定能力的推理成本三年内每季度下降47&quot;&gt;8/15 Epoch AI称固定能力的推理成本三年内每季度下降47%&lt;/h2&gt;
+&lt;p&gt;Epoch AI 汇总数学、硬科学与策略游戏五项基准，估算自 2023 年以来，达到同一性能水平的成本平均每季度下降约 47%，相当于每年缩小 13 倍；数学任务降幅为 50%—52%，游戏谜题为 39%—43%。报告举例称 GPQA Diamond 达到 75% 的单题成本，从 2025 年初 o3 的约 0.30 美元降至 GPT-5.6 Luna 的 0.0004 美元，18 个月下降 725 倍。作者公开代码与数据，但跨模型价格、推理预算和评分口径仍决定外推边界。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2102865436459069474&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2102866687016206734&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;915-cursor通过收紧提示与按需加载工具减少7-token&quot;&gt;9/15 Cursor通过收紧提示与按需加载工具减少7% Token&lt;/h2&gt;
+&lt;p&gt;Cursor 称其 Agent 在质量不降的前提下把 token 成本降低 7%，来源包括更紧凑的系统提示、按需加载工具定义、更好的提示缓存和压缩文件读取。改动把优化重点从更换模型转向 Agent 外壳：只给当前任务必要的工具和代码上下文，减少缓存失效与无关信息干扰。官方另文公开实现思路，但 7% 为其内部工作负载结果；团队复用时仍应同时测量任务成功率、重试次数、总账单 token、延迟和长尾回归。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2102786814633464159&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2102786816340562200&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1015-cursor-rollouts让agent在部署后持续检查回归&quot;&gt;10/15 Cursor Rollouts让Agent在部署后持续检查回归&lt;/h2&gt;
+&lt;p&gt;Cursor 推出 Rollouts：先为代码变更生成监控计划，再在部署过程中观察指标并验证结果，目标是在影响用户前发现回归。Teams 与 Enterprise 当日开放，并提供 10 天试用额度；同时 Security Reviewer 平均完成时间从 4.8 分钟降至 3.8 分钟，提速约 21%。该功能把编码 Agent 的责任从提交补丁延伸到发布验证，但告警质量仍取决于监控计划是否覆盖业务指标、灰度窗口和难以自动观测的体验退化。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2102861817160904808&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2102861818905727328&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2102861820457521655&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1115-who等机构用claude加速刚果金埃博拉疫情日报&quot;&gt;11/15 WHO等机构用Claude加速刚果（金）埃博拉疫情日报&lt;/h2&gt;
+&lt;p&gt;Anthropic 披露与 CEPI、WHO 非洲区域办公室及刚果（金）INRB 的合作：一线数据经纸质记录、WhatsApp、实验室和地区 PowerPoint 汇入后，Claude Skill 自动抽取病例与化验数字、和前日报对比、标出趋势变化并汇总各区情况。9 月 19 日报告记录 7,672 例确诊和 3,699 例死亡，疫情波及 7 省。系统用于缩短态势报告链路，公共卫生专家仍负责数据核验、解释与资源调度。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AnthropicAI/status/2102897863097545197&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AnthropicAI&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1215-runway进入davinci-resolve把生成编辑和放大放进时间线&quot;&gt;12/15 Runway进入DaVinci Resolve，把生成、编辑和放大放进时间线&lt;/h2&gt;
+&lt;p&gt;Runway 宣布集成 DaVinci Resolve，创作者可在现有时间线内直接调用其模型进行生成、局部编辑和画面放大，无需在独立网页与剪辑工程间反复导出。此次接入把生成式视频能力嵌入专业后期软件的素材与版本流程，有望减少格式转换和上下文切换；公告未给出支持的模型清单、分辨率、计费方式、媒体上传边界及项目协作规则，生产团队仍需关注色彩管理、可复现性和资产权限。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@runwayml&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/runwayml/status/2102834721340211571&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@runwayml 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/runwayml/status/2102834722636194141&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@runwayml 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1315-cohere把单租户model-vault扩展到加拿大&quot;&gt;13/15 Cohere把单租户Model Vault扩展到加拿大&lt;/h2&gt;
+&lt;p&gt;Cohere 宣布 Model Vault 在加拿大可用，面向希望控制数据驻留与基础设施边界的企业提供自动扩缩容、单租户和私有化的 Cohere 模型运行环境。该产品主张在保持托管体验的同时降低总体拥有成本，并让受监管工作负载留在指定区域。当天公告没有披露支持模型、云与地区覆盖、最小容量、价格或安全认证细节；采购方需要进一步核对密钥管理、日志隔离、升级窗口与跨境支持数据的处理方式。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cohere/status/2102823381565382965&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cohere/status/2102823384467869862&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1415-together用17美元训练出4b决策分类器并公开配方&quot;&gt;14/15 Together用17美元训练出4B决策分类器并公开配方&lt;/h2&gt;
+&lt;p&gt;Together 发布 tev1-4B-experimental：在 Qwen3.5 4B 上微调的 Jev 风格分类器，用于展示小型专用决策模型的低成本训练路径。官方称训练成本 17 美元，并公开权重、数据配方和微调教程；模型进入 Together Serverless，输入价为每百万 token 0.042 美元，输出免费。项目明确标注为实验模型，价值主要在可复现配方而非通用能力；实际采用前应检查标签定义、校准误差、分布外样本和误判成本。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2102882216950763814&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2102882218683048013&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1515-hugging-face在联合国呼吁强制披露agent攻击轨迹&quot;&gt;15/15 Hugging Face在联合国呼吁强制披露Agent攻击轨迹&lt;/h2&gt;
+&lt;p&gt;Hugging Face 联合创始人 Clément Delangue 在联合国安理会回顾公司 7 月公开的自主 Agent 网络攻击，提出三点：建立更强的监控与事件披露标准，包括共享完整 Agent 轨迹；避免攻击者与防守者在模型能力、算力和访问权限上的不对称；减少用拟人化和科幻叙事制造恐慌。他称闭源 API 的安全护栏曾阻碍防守，而开放模型帮助团队响应。该发言代表公司立场，强制共享轨迹仍需同时解决受害者隐私、漏洞披露和可复现攻击信息的边界。&lt;/p&gt;
+
+&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/ClementDelangue/status/2102878766796042306&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@ClementDelangue 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/ClementDelangue/status/2102898091883942014&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@ClementDelangue 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
+
+&lt;h3 id=&quot;claude发现art从21小时数据库搜索到人类实验验证&quot;&gt;Claude发现ART：从21小时数据库搜索到人类实验验证&lt;/h3&gt;
+&lt;p&gt;Anthropic 让约 950 个 Claude Agent 在 21 小时内消耗 2.1 亿 token，收集超过 20 万个逆转录酶、筛出 3,500 个新候选并形成 20 个重点报告。其中一个 Agent 在巨型噬菌体序列中注意到异常逆转录酶、相邻伴随基因和等间距非编码重复阵列，团队将其命名为 ART。初步实验发现阵列会表达为多个短 RNA，结构与可编程系统具有相似线索，但 ART 的天然功能、是否能切割或复制 DNA、能否成为基因编辑工具均尚未证明。该案例显示 Agent 可承担文献复现、异常检测和候选收敛，人类仍负责科学判断与全部湿实验。
+&lt;a href=&quot;https://www.anthropic.com/news/claude-discovers-novel-enzyme-system&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mentalhealthbench把临床共识写成逐对话加权评分标准&quot;&gt;MentalHealthBench：把临床共识写成逐对话加权评分标准&lt;/h3&gt;
+&lt;p&gt;MentalHealthBench 覆盖日常情绪支持、高危困扰和紧急事件，并为成人、13—17 岁青少年、照护者与临床人员设置多语言场景。来自 22 个国家的 80 多名持证专家为每段对话最后一轮回答编写正负权重标准，每段至少三人审阅，只有两人同意且第三人不反对的标准才保留，再由 GPT-5.6 Sol 自动评分。OpenAI 还邀请 44 名有 AI 情绪支持经验的成年人独立评价：用户更看重语气和可执行步骤，专家更强调追问情境与谨慎解释。基准公开有助于复核，但合成对话、自动评分器和文化差异仍是限制。
+&lt;a href=&quot;https://openai.com/index/introducing-mentalhealthbench/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;gemini-38-tts从固定声线库转向可编排的声音制作环境&quot;&gt;Gemini 3.8 TTS：从固定声线库转向可编排的声音制作环境&lt;/h3&gt;
+&lt;p&gt;Gemini 3.8 Flash TTS 可用自然语言从零设计角色声线，并逐句控制口音、情绪、节奏、停顿、笑声和对白表演；Flash-Lite 则为大批量配音、音频内容与实时语音 Agent 优化成本。产品支持 100 多种语言和方言，并从约 30 个原始预设扩展到自定义与复刻声线，已进入 AI Studio、Gemini API、Enterprise、Notebook 和 Vids。Google 使用 SynthID 标记生成音频，但声线复刻仍涉及授权、冒用和跨语言身份一致性，企业部署需要在内容水印之外建立明确的同意、审核与撤回流程。
+&lt;a href=&quot;https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;nemotron-3-diarization用稳定通道支持八人实时转写&quot;&gt;Nemotron 3 Diarization：用稳定通道支持八人实时转写&lt;/h3&gt;
+&lt;p&gt;说话人分离与语音识别不同：前者标出每个时间段由谁发声，后者转录内容。Nemotron 3 使用按首次出现排序的通道分配，让流式分块在沉默、插话或长间隔后仍保持同一匿名说话者编号；最多支持八个通道，并处理重叠语音。NVIDIA 报告其在 VoiceArena 初版榜单达到 14.72% DER、位列 12 个系统第一，训练数据包含公开与授权语音及覆盖 21 种语言的合成混合。模型不把匿名通道识别成现实人物，身份映射需由会议元数据、用户档案或后续验证模型完成。
+&lt;a href=&quot;https://huggingface.co/blog/nvidia/nemotron-diarization&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;推理成本下降固定性能每年便宜13倍前沿能力下降更快&quot;&gt;推理成本下降：固定性能每年便宜13倍，前沿能力下降更快&lt;/h3&gt;
+&lt;p&gt;Epoch AI 用五项数学、科学和策略游戏基准估计，固定性能的价格自 2023 年以来每季度下降约 47%，年化约 13 倍；数学任务下降最快，达每季度 50%—52%。新近成为 SOTA 的性能水平平均每季度降价 66%，两年后放缓到 32%，说明竞争和工程优化会迅速压缩前沿溢价。报告以 GPQA Diamond 75% 为例，单题成本在不到 18 个月从约 0.30 美元降至 0.0004 美元。代码、数据和交互图均公开，但 API 标价、推理预算、缓存与评测外壳会影响真实任务成本。
+&lt;a href=&quot;https://epoch.ai/publications/the-plunging-price-of-thought&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;cursor的7节省agent成本越来越由上下文工程决定&quot;&gt;Cursor的7%节省：Agent成本越来越由上下文工程决定&lt;/h3&gt;
+&lt;p&gt;Cursor 的改动包括压缩系统提示、只在需要时加载工具定义、提高提示缓存复用，以及用更紧凑的表示读取文件。它们共同降低 7% token，而内部评测未观察到 Agent 质量下降。这个结果说明同一模型的成本和稳定性很大程度取决于外壳：工具列表、代码片段和历史记录如果无差别注入，会增加账单、延迟和注意力干扰。7% 仍是 Cursor 自有工作负载的汇总数字；复用这些方法时应以任务级成功率、补丁质量、重试、缓存命中和总成本联合验收，避免压缩掩盖罕见但关键的上下文。
+&lt;a href=&quot;https://cursor.com/blog/improved-token-efficiency&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;claude参与埃博拉响应把碎片化现场材料压缩成可审阅态势报告&quot;&gt;Claude参与埃博拉响应：把碎片化现场材料压缩成可审阅态势报告&lt;/h3&gt;
+&lt;p&gt;刚果（金）东部疫情数据从社区笔记、WhatsApp、实验室测序和地区 PowerPoint 逐级汇入，传统日报编制会占用大量夜间人工。WHO AFRO 团队构建的 Claude Skill 可抽取各卫生区病例与实验室数字、和前一日报交叉检查、标出趋势变化并解释可能原因，再汇总地区报告。9 月 19 日数据为 7,672 例确诊、3,699 例死亡，北基伍治疗床位占用率 94.7%。Claude 加快信息整理与证据监测，但来源纠错、流行病学解释、疫苗和资源决策仍由公共卫生机构负责。
+&lt;a href=&quot;https://www.anthropic.com/features/ebola-response&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Sep 2026 09:07:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/ai-daily/2026/09/24/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/09/24/</guid>
+        
+        <category>AI-Frontier</category>
+        
+        <category>Daily</category>
+        
+        
+        <category>ai-daily</category>
         
       </item>
     
@@ -2008,400 +2130,6 @@
         <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/blog/2026/09/23/autozone_fy2026q4_earnings_call/</link>
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/23/autozone_fy2026q4_earnings_call/</guid>
-        
-        <category>AutoZone</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>AutoZone 2026财年Q4——每股收益56.05美元同比增15%，但DIY同店销售转负、毛利率暴涨靠的是关税退款</title>
-        <description>&lt;p&gt;美东时间2026年9月22日美股开盘前（北京时间9月22日晚间），美国最大的汽车配件零售商之一 &lt;a href=&quot;https://investors.autozone.com/&quot;&gt;AutoZone&lt;/a&gt;（NYSE: AZO）发布了截至2026年8月29日的2026财年第四季度（16周）及全年（52周）财报。&lt;/p&gt;
-
-&lt;p&gt;这是一份「利润比营收好看得多、而好看的部分大半不可持续」的财报。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Q4净销售额65.95亿美元，同比增长5.6%，低于市场预期的67.1亿美元&lt;/li&gt;
-  &lt;li&gt;Q4净利润9.32亿美元，同比增长11.3%&lt;/li&gt;
-  &lt;li&gt;Q4摊薄每股收益56.05美元，同比增长15.1%，高于市场预期的54.30美元&lt;/li&gt;
-  &lt;li&gt;全年净销售额203.39亿美元，同比增长7.4%，公司历史上首次突破200亿美元&lt;/li&gt;
-  &lt;li&gt;全年摊薄每股收益152.55美元，同比增长5.3%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;财报发布当天，AZO股价上涨6%收于2977.26美元。在此之前该股年内累计下跌13%，上一季度（2026财年Q3）财报后单日曾暴跌9%。同一天，同行 Advance Auto Parts 和 O’Reilly 在没有发布任何自家消息的情况下分别跟涨6%和4%——市场把 AutoZone 的数字当成了整个汽配零售行业的风向标。&lt;/p&gt;
-
-&lt;h2 id=&quot;先搞清楚这家公司靠什么赚钱&quot;&gt;先搞清楚这家公司靠什么赚钱&lt;/h2&gt;
-
-&lt;p&gt;AutoZone 是美国最大的汽车「售后配件」零售商之一。它卖的不是新车零件，而是车开旧了之后要换的东西：电瓶、刹车片、机油、雨刮、火花塞、传动带。截至2026年8月29日，它在美国有6863家店、墨西哥1001家、巴西167家，合计8031家。&lt;/p&gt;
-
-&lt;p&gt;它的生意分成两条腿：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;DIY（Do-It-Yourself）&lt;/strong&gt;：车主自己来店里买配件回家换。这是 AutoZone 的传统主业，毛利率高。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Commercial / DIFM（Do-It-For-Me，也叫商业客户或专业客户）&lt;/strong&gt;：把配件批发送货给街边修车铺、4S店、车队。毛利率低一截，但客单大、复购稳，是行业公认的增长方向。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;还有一个绕不开的概念叫 &lt;strong&gt;Mega Hub（超级中心店）&lt;/strong&gt;：面积是普通门店数倍的大型门店，备货 SKU 数量远超普通店，既直接卖货，也给周边几十家普通门店和修车厂当「后方弹药库」——修车厂要一个冷门型号的零件，普通店没有，Mega Hub 几十分钟内送到。这是 AutoZone 近几年最核心的战略投入。&lt;/p&gt;
-
-&lt;p&gt;理解了这三个词，下面的数字才读得懂。&lt;/p&gt;
-
-&lt;h2 id=&quot;核心财务数据&quot;&gt;核心财务数据&lt;/h2&gt;
-
-&lt;h3 id=&quot;第四季度16周截至2026年8月29日&quot;&gt;第四季度（16周，截至2026年8月29日）&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;FY2026 Q4&lt;/th&gt;
-      &lt;th&gt;FY2025 Q4&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额&lt;/td&gt;
-      &lt;td&gt;65.95亿美元&lt;/td&gt;
-      &lt;td&gt;62.43亿美元&lt;/td&gt;
-      &lt;td&gt;+5.6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利润&lt;/td&gt;
-      &lt;td&gt;35.18亿美元&lt;/td&gt;
-      &lt;td&gt;32.16亿美元&lt;/td&gt;
-      &lt;td&gt;+9.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率&lt;/td&gt;
-      &lt;td&gt;53.3%&lt;/td&gt;
-      &lt;td&gt;51.5%&lt;/td&gt;
-      &lt;td&gt;+182个基点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;运营及管理费用&lt;/td&gt;
-      &lt;td&gt;22.01亿美元&lt;/td&gt;
-      &lt;td&gt;20.20亿美元&lt;/td&gt;
-      &lt;td&gt;+8.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;费用率&lt;/td&gt;
-      &lt;td&gt;33.4%&lt;/td&gt;
-      &lt;td&gt;32.4%&lt;/td&gt;
-      &lt;td&gt;+101个基点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业利润&lt;/td&gt;
-      &lt;td&gt;13.17亿美元&lt;/td&gt;
-      &lt;td&gt;11.96亿美元&lt;/td&gt;
-      &lt;td&gt;+10.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;9.32亿美元&lt;/td&gt;
-      &lt;td&gt;8.37亿美元&lt;/td&gt;
-      &lt;td&gt;+11.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;56.05美元&lt;/td&gt;
-      &lt;td&gt;48.71美元&lt;/td&gt;
-      &lt;td&gt;+15.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄股本&lt;/td&gt;
-      &lt;td&gt;1662万股&lt;/td&gt;
-      &lt;td&gt;1718万股&lt;/td&gt;
-      &lt;td&gt;-3.3%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;这张表里藏着 AutoZone 最经典的一套打法：&lt;strong&gt;营收只增5.6%，净利润增11.3%，每股收益却增15.1%&lt;/strong&gt;。三个数字一层层放大，靠的是两件事——毛利率提升把利润率撑起来，股票回购把分母压下去。回购一项就贡献了每股收益增幅里约4个百分点。&lt;/p&gt;
-
-&lt;h3 id=&quot;全年52周&quot;&gt;全年（52周）&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;FY2026&lt;/th&gt;
-      &lt;th&gt;FY2025&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额&lt;/td&gt;
-      &lt;td&gt;203.39亿美元&lt;/td&gt;
-      &lt;td&gt;189.39亿美元&lt;/td&gt;
-      &lt;td&gt;+7.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率&lt;/td&gt;
-      &lt;td&gt;52.3%&lt;/td&gt;
-      &lt;td&gt;52.6%&lt;/td&gt;
-      &lt;td&gt;-30个基点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;费用率&lt;/td&gt;
-      &lt;td&gt;34.0%&lt;/td&gt;
-      &lt;td&gt;33.6%&lt;/td&gt;
-      &lt;td&gt;+40个基点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业利润&lt;/td&gt;
-      &lt;td&gt;37.23亿美元&lt;/td&gt;
-      &lt;td&gt;36.10亿美元&lt;/td&gt;
-      &lt;td&gt;+3.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;25.73亿美元&lt;/td&gt;
-      &lt;td&gt;24.98亿美元&lt;/td&gt;
-      &lt;td&gt;+3.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;152.55美元&lt;/td&gt;
-      &lt;td&gt;144.87美元&lt;/td&gt;
-      &lt;td&gt;+5.3%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;把镜头拉长到全年，故事完全变味了：&lt;strong&gt;营收增7.4%，营业利润只增3.1%&lt;/strong&gt;。也就是说，AutoZone 在2026财年是「花钱买增长」——开店、建 Mega Hub、扩供应链，销售额上去了，利润跟不上。Q4那个漂亮的利润率，更像是全年爬坡后的一次单季回光。&lt;/p&gt;
-
-&lt;h2 id=&quot;毛利率提升182个基点究竟是怎么来的&quot;&gt;毛利率提升182个基点，究竟是怎么来的&lt;/h2&gt;
-
-&lt;p&gt;这是整份财报最需要拆开看的地方。公司在新闻稿里写得很明白：Q4毛利率同比提升182个基点，其中&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;关税退款贡献145个基点&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;LIFO（后进先出存货会计）净非现金影响贡献105个基点&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;商业客户占比上升（毛利率较低）&lt;strong&gt;部分抵消&lt;/strong&gt;了上述两项&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;两项加起来是250个基点，实际只提升了182个基点，说明业务结构变化（商业客户占比提升）反向拖了约68个基点。&lt;/p&gt;
-
-&lt;p&gt;这两项各是什么意思，用大白话解释一下：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;关税退款&lt;/strong&gt;：美国此前依据 IEEPA（《国际紧急经济权力法》）征收的部分关税被退还。CFO Jamere Jackson 在电话会上确认，这笔钱总额「略超过1亿美元」，大部分在Q4到账，对应的是已经卖掉的那批库存——所以直接变成了当期毛利。这是&lt;strong&gt;一次性的&lt;/strong&gt;。剩余部分会在2027财年陆续流入，但金额会小很多。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;LIFO&lt;/strong&gt;：美国会计准则允许企业假设「最后进的货先卖出去」。通货膨胀时期，这种算法会让成本显得更高、利润更低；而当通胀降温时，此前计提的准备可以冲回，利润看起来变好。本季度 LIFO 计提只有1500万美元，去年同期是8000万美元，一进一出就是6500万美元的利润差。这同样&lt;strong&gt;不是经营改善&lt;/strong&gt;，是会计口径的摆动。&lt;/p&gt;
-
-&lt;p&gt;把这两项剔掉，AutoZone 本季度的真实毛利率其实是&lt;strong&gt;同比下滑&lt;/strong&gt;的——因为增长最快的商业客户业务毛利率更低。&lt;/p&gt;
-
-&lt;p&gt;顺带一提，公司在电话会上给出的2027财年毛利率指引是「持平到提升25个基点」，同时预计全年 LIFO 计提将达到8500万至9000万美元（今年只有一部分）。换句话说，管理层自己也认为这波红利到此为止。&lt;/p&gt;
-
-&lt;h2 id=&quot;同店销售数字背后的两个世界&quot;&gt;同店销售：数字背后的两个世界&lt;/h2&gt;
-
-&lt;p&gt;同店销售（Same Store Sales，简称同店或可比销售）指开业满一年的门店销售额同比变化，是零售业衡量「不靠开新店的真实增长」的核心指标。&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;同店销售&lt;/th&gt;
-      &lt;th&gt;Q4（16周）&lt;/th&gt;
-      &lt;th&gt;Q4恒定汇率&lt;/th&gt;
-      &lt;th&gt;全年（52周）&lt;/th&gt;
-      &lt;th&gt;全年恒定汇率&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;美国本土&lt;/td&gt;
-      &lt;td&gt;+1.6%&lt;/td&gt;
-      &lt;td&gt;+1.6%&lt;/td&gt;
-      &lt;td&gt;+3.3%&lt;/td&gt;
-      &lt;td&gt;+3.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;国际（墨西哥+巴西）&lt;/td&gt;
-      &lt;td&gt;+10.7%&lt;/td&gt;
-      &lt;td&gt;+1.3%&lt;/td&gt;
-      &lt;td&gt;+13.5%&lt;/td&gt;
-      &lt;td&gt;+2.2%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;合计&lt;/td&gt;
-      &lt;td&gt;+2.7%&lt;/td&gt;
-      &lt;td&gt;+1.5%&lt;/td&gt;
-      &lt;td&gt;+4.5%&lt;/td&gt;
-      &lt;td&gt;+3.2%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;第一个要盯的数字：国际业务的 +10.7% 和 +1.3% 差了将近10个百分点。&lt;/strong&gt; 这个差额全部来自汇率——墨西哥比索对美元升值，把墨西哥门店的本地销售额换算成美元后凭空放大了一截。剔除汇率后，国际同店只增长1.3%，比美国本土的1.6%还低。去年同期国际恒定汇率同店是+7.2%，今年只剩1.3%，这是一次明显的减速。公司也在电话会上把「重新加速国际业务」列为2027财年的重点。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二个要盯的数字：美国本土同店+1.6%，去年同期是+4.8%。&lt;/strong&gt; 增速几乎砍掉三分之二。&lt;/p&gt;
-
-&lt;p&gt;而本土这1.6%里面，两条腿的走向完全相反：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;商业客户（DIFM）Q4销售19.13亿美元，同比增长8.6%&lt;/strong&gt;；全年57.62亿美元，同比增长10.6%&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;DIY同店销售同比下滑0.6%&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这是本季财报里最重要、也最容易被漂亮的每股收益盖住的一件事：&lt;strong&gt;AutoZone 赖以起家、毛利率最高的散客零售业务，同店销售转负了。&lt;/strong&gt; CEO Phil Daniele 在电话会上承认，本季度交易笔数（也就是客流）跌幅超过5%，而历史上正常区间是下滑1%到3%——靠客单价上涨才把同店拉回接近零的位置。而客单价上涨的原因，很大一部分是关税和通胀推高的商品售价。管理层提到，两年累计客单价涨幅达到9%。&lt;/p&gt;
-
-&lt;p&gt;翻译成人话：&lt;strong&gt;买配件的人变少了，只是每个人被迫花了更多钱。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;不过 Daniele 也给了一个安慰性的细节：销售在6月见底，之后逐周改善，「我们喜欢这个退出季度时的速率」。&lt;/p&gt;
-
-&lt;h2 id=&quot;扩张史上最激进的开店年&quot;&gt;扩张：史上最激进的开店年&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Q4新开175家门店（美国97家、墨西哥68家、巴西10家），去年同期141家&lt;/li&gt;
-  &lt;li&gt;全年新开374家，公司历史上单财年最多，去年304家&lt;/li&gt;
-  &lt;li&gt;Q4新开16家 Mega Hub，全年39家，总数达到172家&lt;/li&gt;
-  &lt;li&gt;门店总数8031家，其中6443家配有商业客户配送业务&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;管理层在电话会上给出的中期目标是&lt;strong&gt;三年内 Mega Hub 达到300家&lt;/strong&gt;，2027财年计划再开约400家门店、40多家 Mega Hub，资本开支从2026财年的14.96亿美元提升到约16.5亿美元。&lt;/p&gt;
-
-&lt;p&gt;Mega Hub 到底值不值？公司给的证据是：接入 Mega Hub 网络的商业客户项目（约2000个），年销售额比未接入的高出16%。这个数字管理层称「长期以来相当稳定」。&lt;/p&gt;
-
-&lt;p&gt;但扩张是有代价的，代价写在下面这张表里。&lt;/p&gt;
-
-&lt;h2 id=&quot;三个值得警惕的信号&quot;&gt;三个值得警惕的信号&lt;/h2&gt;
-
-&lt;h3 id=&quot;一投资回报率明显下滑&quot;&gt;一、投资回报率明显下滑&lt;/h3&gt;
-
-&lt;p&gt;调整后税后投入资本回报率（ROIC）从去年的41.3%降到&lt;strong&gt;35.8%&lt;/strong&gt;。这是 AutoZone 这类公司最被投资者看重的指标之一。CEO 的解释是新店需要时间爬坡：新店第一年销售额约170万美元，到第六年爬到约270万美元。理由说得通，但5.5个百分点的降幅本身是实打实的。&lt;/p&gt;
-
-&lt;h3 id=&quot;二库存周转变慢对供应商的占款能力下降&quot;&gt;二、库存周转变慢，对供应商的占款能力下降&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;库存指标&lt;/th&gt;
-      &lt;th&gt;FY2026末&lt;/th&gt;
-      &lt;th&gt;FY2025末&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;存货&lt;/td&gt;
-      &lt;td&gt;77.36亿美元&lt;/td&gt;
-      &lt;td&gt;70.26亿美元（+10.1%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;单店存货&lt;/td&gt;
-      &lt;td&gt;96.3万美元&lt;/td&gt;
-      &lt;td&gt;91.8万美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;应付账款/存货&lt;/td&gt;
-      &lt;td&gt;111.1%&lt;/td&gt;
-      &lt;td&gt;114.2%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;库存周转（滚动5季度）&lt;/td&gt;
-      &lt;td&gt;1.3次&lt;/td&gt;
-      &lt;td&gt;1.4次&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;「应付账款/存货」超过100%意味着 AutoZone 卖货收到的钱，比它付给供应商的账还早——等于供应商在给它免费垫资。这个比例从114.2%降到111.1%，说明这层缓冲在变薄。库存增长10.1%也明显快过销售增长的7.4%。&lt;/p&gt;
-
-&lt;h3 id=&quot;三回购价高于当前股价且花的钱超过了自由现金流&quot;&gt;三、回购价高于当前股价，且花的钱超过了自由现金流&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Q4回购22.3万股，均价&lt;strong&gt;3125美元&lt;/strong&gt;，耗资6.975亿美元&lt;/li&gt;
-  &lt;li&gt;全年回购57.9万股，均价&lt;strong&gt;3496美元&lt;/strong&gt;，耗资20亿美元&lt;/li&gt;
-  &lt;li&gt;剩余回购授权16.07亿美元&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;而财报当天的收盘价是2977.26美元。也就是说，全年20亿美元的回购，平均买入价比当前股价高出约15%。&lt;/p&gt;
-
-&lt;p&gt;同时，2026财年经营性现金流33.03亿美元，资本开支14.96亿美元，自由现金流约18.07亿美元——&lt;strong&gt;回购的20亿美元超过了自由现金流&lt;/strong&gt;，差额靠加杠杆补上（总债务从88.00亿增至90.78亿美元）。AutoZone 常年维持负的股东权益（本期为-25.02亿美元，去年为-34.14亿美元），这本身是它多年高强度回购的结果，倒不算新闻，但「借钱回购且买贵了」值得记一笔。&lt;/p&gt;
-
-&lt;p&gt;好消息是杠杆率没有恶化：调整后债务/EBITDAR 维持在2.5倍，与去年持平，也是公司自己设定的目标水平。&lt;/p&gt;
-
-&lt;h2 id=&quot;2027财年指引&quot;&gt;2027财年指引&lt;/h2&gt;
-
-&lt;p&gt;管理层在电话会上给出的2027财年框架：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;指引&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;美国本土同店销售&lt;/td&gt;
-      &lt;td&gt;持平到低个位数增长&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;客单价增长&lt;/td&gt;
-      &lt;td&gt;约4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;商业客户销售增长&lt;/td&gt;
-      &lt;td&gt;高个位数到低双位数&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;国际同店（恒定汇率）&lt;/td&gt;
-      &lt;td&gt;低到中个位数&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;新开门店&lt;/td&gt;
-      &lt;td&gt;约400家&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;资本开支&lt;/td&gt;
-      &lt;td&gt;约16.5亿美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率（GAAP口径）&lt;/td&gt;
-      &lt;td&gt;持平到+25个基点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;LIFO计提&lt;/td&gt;
-      &lt;td&gt;8500万至9000万美元&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;「持平到低个位数」的本土同店指引，配上「约4%的客单价增长」，倒推出来的意思很直白：&lt;strong&gt;管理层预期客流仍然是负的&lt;/strong&gt;。增长靠涨价，不靠人流。&lt;/p&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;p&gt;AutoZone 这份Q4财报是典型的「表层亮眼、内里承压」：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;亮的部分是真的&lt;/strong&gt;——每股收益56.05美元超预期、全年营收首破200亿美元、史上最多的374家新店、商业客户业务连续两年双位数增长、ROIC仍有35.8%这种绝大多数零售商望尘莫及的水平。市场当天给出6%的涨幅，主要买的是「最坏的时候可能过去了」这个预期。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;压的部分也是真的&lt;/strong&gt;——毛利率的提升几乎全靠关税退款和LIFO这两项一次性因素，剔除后反而下滑；核心的DIY同店转负、客流跌幅超过5%；全年营业利润增速（3.1%）只有营收增速（7.4%）的一半不到；ROIC一年掉5.5个百分点；回购花的钱超过自由现金流且买在了比现价高15%的位置。&lt;/p&gt;
-
-&lt;p&gt;接下来值得盯的，说到底就是一个问题：&lt;strong&gt;公司砸下去的资本开支（新店、Mega Hub、供应链），到底能不能在2027财年把美国本土同店从1.6%拉回到3%以上，并且是靠人流而不是靠涨价。&lt;/strong&gt; 管理层自己的指引已经默认了「涨价撑场」还要再演一年。CEO 说「我们从不满足于现在的市场份额增长」，这句话在电话会上说得很诚恳，但它同时也是对现状最准确的描述。&lt;/p&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0000866787/000117184326006159/exh_991.htm&quot;&gt;AutoZone 2026财年第四季度业绩新闻稿（SEC Form 8-K 附件99.1，2026年9月22日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investors.autozone.com/&quot;&gt;AutoZone 投资者关系页面&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/09/22/autozone-azo-q4-2026-earnings-call-transcript/&quot;&gt;AutoZone 2026财年Q4业绩电话会实录（The Motley Fool，2026年9月22日）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（用于补充分析师预期与股价反应）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://247wallst.com/investing/2026/09/22/autozone-climbs-6-as-profit-beat-offsets-revenue-miss-advance-auto-parts-rises-6-oreilly-automotive-gains-4/&quot;&gt;AutoZone Climbs 6% as Profit Beat Offsets Revenue Miss（24/7 Wall St.）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/23/autozone_fy2026q4_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/23/autozone_fy2026q4_earnings/</guid>
         
         <category>AutoZone</category>
         

@@ -5,9 +5,155 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 23 Sep 2026 10:20:58 +0800</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2026 10:20:58 +0800</lastBuildDate>
+    <pubDate>Thu, 24 Sep 2026 09:10:14 +0800</pubDate>
+    <lastBuildDate>Thu, 24 Sep 2026 09:10:14 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.09.24</title>
+        <description>&lt;p&gt;今天这几个帖子凑在一起，居然有条暗线：我们习惯性地往东西里塞更多「聪明」——冰箱塞屏幕，招聘塞算法，发布流程塞自动化，军队塞模型——而每一次出事，坏掉的都不是聪明的那部分，是被聪明部分连累的那个最朴素的底座。冰箱不制冷了，求职者收不到回音了，一条 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install&lt;/code&gt; 装进来一个后门，还有一个没人能被追责的扳机。&lt;/p&gt;
+
+&lt;h2 id=&quot;一冰箱变砖评论区问出了那个最该问的工程问题&quot;&gt;一、冰箱变砖：评论区问出了那个最该问的工程问题&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wo5ky9/the_refrigerator_is_dead_samsungs_ai_fridges_shut/&quot;&gt;原帖：The refrigerator is dead: Samsung’s AI fridges shut down after update, causes outrage&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一批三星带屏幕的「AI 冰箱」在一次固件更新之后集体罢工，时间还卡在韩国中秋（秋夕）前夕——正是家家户户冰箱塞得最满的时候。一屋子食材报废，机器在厨房里站成一个昂贵的柜子。&lt;/p&gt;
+
+&lt;p&gt;楼里前面几百条基本是段子大会（「你问冰箱还有没有牛奶，冰箱想了想，回答抱歉我无法回答这个问题」）。但往下翻，真正有价值的一条是个直白到近乎愤怒的工程问题：为什么制冷这件事会和那块屏幕跑在同一个系统上？顺着这个问题，有人给出了本帖最好的一句概括——可降级设计是工程常识，智能部分死掉的时候，冰箱应该优雅地退化成一台普通冰箱，就像电动牙刷的电机坏了，它至少还是一把牙刷。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Assuming the smart thingies will fail or be bricked seems like engineering 101, so everything should gracefully degrade as a dumb fridge. Like an electric toothbrush, when the electric part fails it just becomes a regular toothbrush”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Thiht，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wo5ky9/the_refrigerator_is_dead_samsungs_ai_fridges_shut/pbkaj35/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一条支线也挺值得记下来。有人说「不买智能的不就行了」，马上有人泼冷水：现在买洗衣机，最便宜的那一档反而标配 Wi-Fi，不带联网的型号要么更贵要么长期缺货。还有人说得更狠——所谓「你还可以买普通冰箱」只是暂时的，厂商会慢慢把不联网的型号压缩成又少又差的低端款，让你实际上没得选。楼里还翻出一堆老古董炫耀：九十年代的冰箱在九十多华氏度的车库里锈成一片，照样比近五年买的两台不锈钢新冰箱可靠。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“But if fridges are treated like many other consumer electronics, the selection of dumb fridges you’ll be able to buy will be reduced to a tiny amount of low quality options many families will find inadequate.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Arliss_Loveless，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wo5ky9/the_refrigerator_is_dead_samsungs_ai_fridges_shut/pbkixh2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这事对国内读者其实更有代入感——我们的家电智能化程度只高不低，全屋智能、语音控制、App 绑定早就是标配卖点。真正值得警惕的不是「智能没用」，而是厂商把一个需要 24 小时不间断、十年不出错的机械系统，和一个按互联网节奏迭代、指望靠 OTA 补漏的软件系统焊在了一起。互联网软件坏了重启就好，冰箱坏了满柜子食材跟着陪葬。下次买家电，除了看参数，不妨多问一句：断网之后、厂商停止服务之后、App 下架之后，这台机器还能不能用最笨的方式把本职工作干完。&lt;/p&gt;
+
+&lt;h2 id=&quot;二他在领英上猎了两年假招聘抓出六万条&quot;&gt;二、他在领英上猎了两年假招聘，抓出六万条&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1woemry/this_guy_has_spent_two_years_hunting_fake_job/&quot;&gt;原帖：This guy has spent two years hunting fake job listings on LinkedIn, and found 60,000 of them&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一位研究者花了两年时间在领英上系统性地追踪虚假招聘，累计标记出六万条。手法包括：批量伪造招聘者账号、盗用休眠的已验证账号挂到正规公司名下、以及直接在真公司主页发岗位但把申请链接导向站外网站或邮箱。&lt;/p&gt;
+
+&lt;p&gt;评论区第一反应几乎清一色是「才六万？」。但很快，楼里最有价值的一条出来纠偏了：大家七嘴八舌骂的其实是两件不同的事——文章说的是&lt;strong&gt;诈骗岗&lt;/strong&gt;（目的是骗简历、骗个人信息甚至骗钱），而不是大家更熟悉的&lt;strong&gt;幽灵岗&lt;/strong&gt;（公司没打算招，挂着撑门面或走流程）。这条提醒把整个讨论的焦点拉回来了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This article is referring to FRAUDULENT job postings. It is NOT referring to “bogus” job postings for supposed “ghost” jobs like so many in the comments are stating.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Teddybear_，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1woemry/this_guy_has_spent_two_years_hunting_fake_job/pbnckjz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;有意思的是，两类人的亲历经验拼出了一张挺实用的求职地图。一位求职者说自己从去年秋天开始养成了习惯：看到岗位先去公司官网核对，结果发现不少公司首页挂着醒目声明「我们没有在招聘，请勿上当」，其中甚至包括被领英推为「当日精选岗位」的条目；而且只要投过一次，骚扰电话和诈骗邮件立刻暴涨——简历里的姓名、联系方式、住址显然被卖了个好价钱。还有人补充了企业侧的版本：内部早就内定了人，但 HR 规定必须面够三个人，于是你精心准备的那场面试从一开始就只是充数。&lt;/p&gt;
+
+&lt;p&gt;而全楼被顶得最高的经验之谈，是一条看似矛盾的总结：在领英上主动投递从来没换来过一次面试，但过去十年每一份工作又都来自领英——区别在于，是猎头看了你的主页来找你。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’ve never ever gotten an interview after applying for any job on LinkedIn. However, every job/contract I’ve gotten since 2015 was because of LinkedIn.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/CM_MOJO，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1woemry/this_guy_has_spent_two_years_hunting_fake_job/pbnl4nt/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这条经验放到国内几乎可以直接套用——把平台当投递漏斗，收益递减；把平台当个人主页/作品集，让对的人能搜到你，收益完全不同。前者你在和几百份简历和一个筛选模型竞争，后者是别人带着明确意图来找你。另外那个「投完就被骚扰」的细节值得所有人记一下：简历上到底要不要写详细住址、身份证号、完整生日，答案基本是不用。国内招聘平台的信息泄露新闻不算少，少填一栏，就少一条被转卖的数据。&lt;/p&gt;
+
+&lt;h2 id=&quot;三一次供应链劫持攻击者没偷密码他换掉了构建后端&quot;&gt;三、一次供应链劫持：攻击者没偷密码，他换掉了构建后端&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wo314v/someone_hijacked_memoryos_pypi_releases_by/&quot;&gt;原帖：Someone hijacked MemoryOS PyPI releases by replacing the build backend&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一个 AI 记忆框架项目 MemoryOS / MemOS 的 PyPI 和 npm 发布通道被人劫持了。攻击路径很有教学价值：攻击者没有去暴力破解账号，而是往仓库里推了提交，把 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyproject.toml&lt;/code&gt; 里的构建后端替换成自定义的那一个——于是在真正的上传动作发生之前，构建过程先把 PyPI token 交到了攻击者手上。拿到令牌之后，他自己把带后门的包推了上去。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The attacker swapped in a custom pyproject.toml build backend that grabbed the PyPI token before the real upload ran. Then used that token to push the backdoored package themselves.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/BattleRemote3157（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wo314v/someone_hijacked_memoryos_pypi_releases_by/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;评论区技术含量不低。有人把关键点拎了出来：令牌是从项目自己的 GitHub Actions 发布流水线里流出来的，而且攻击者居然能触发发布流水线本身——这比通常被反复警告的「main 分支合并流水线」更罕见，说明权限配置和审批闸门大概率设在了错误的位置（闸门卡在最后一步，凭据却在第一步就明文发下去了）。他那句自嘲挺真实的：官方文档反复警告过这个风险，但在 CI/CD 一轮轮迭代的过程中，要一直做对确实不容易。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“They warn you about this a lot, but I suppose it’s hard to get it perfect as you iterate on your CI/CD.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/me_myself_ai，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wo314v/someone_hijacked_memoryos_pypi_releases_by/pbjue7i/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另外楼里还有人追问了一个更尴尬的问题：攻击者最初是怎么拿到推送权限的？翻完通告发现答案是——不知道，最可能是该账号的令牌被盗，但无法确认。也有老派开发者借机重提 GPG 签名：重要脚本和数据文件签好名，把校验写进自动化流程里，至少让篡改留下痕迹。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这次攻击最值得国内开发者学的一点是，它绕过了所有人下意识去防的那一层。大家习惯保护的是「账号密码」和「上传那一刻」，但现代发布链路里，构建步骤本身就是一段会读到密钥的可执行代码——&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyproject.toml&lt;/code&gt; 的一行改动，等于在你的保险库里换了一把锁匠。实操建议其实很明确：发布凭据改用短时效的 OIDC/Trusted Publishing 而不是长期令牌；发布流水线设成只有打 tag 且经人工审批才能跑；构建相关文件（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyproject.toml&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setup.py&lt;/code&gt;、CI 配置）纳入 CODEOWNERS 强制审查。这些都不新鲜，但这次事故说明，「知道」和「配置对了」之间的距离比想象中远。&lt;/p&gt;
+
+&lt;h2 id=&quot;四赛马-70-年没有变快了而答案比基因到顶有意思&quot;&gt;四、赛马 70 年没有变快了，而答案比「基因到顶」有意思&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wo0zez/racehorses_have_not_gotten_faster_in_70_years_oc/&quot;&gt;原帖：Racehorses have not gotten faster in 70 years [OC]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人把肯塔基德比、英国叶森德比、墨尔本杯三大赛事的历年冠军成绩画成了折线图：人类的跑步纪录还在缓慢下移，赛马的成绩曲线在上世纪五十年代之后基本躺平。同一时期，育种技术、兽医水平、训练科学全都在进步。&lt;/p&gt;
+
+&lt;p&gt;评论区先上演了一次现场纠错：有人指着图问叶森德比 1940 年代初为什么突然变快，是战时把秒表调慢了吗？很快有人查明——战争期间军方征用了叶森马场，比赛改到纽马基特举行，而那条赛道天生更快。发帖人当场认领并重画了图。这种「数据异常 → 归因 → 修正」的小循环，是 r/dataisbeautiful 最好的部分。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The military commandeered the Epsom racecourse during the war, so they relocated to the Newmarket racecourse, which was naturally faster.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/tom_the_red，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wo0zez/racehorses_have_not_gotten_faster_in_70_years_oc/pbjefcw/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;接下来才是真正的解释层，楼里拼出了三条互相叠加的原因。第一，&lt;strong&gt;赛制不是计时赛&lt;/strong&gt;：赛马是战术性的群跑，骑师的目标是「刚好赢」，不是「跑到极限」，还要保护这匹价值不菲的资产；再加上让磅制度——跑得快的马要背更多配重，好让整场比赛尽量胶着、好看、好下注，本质上是在系统性地抹平速度优势。第二，&lt;strong&gt;基因池被制度锁死&lt;/strong&gt;：这些赛事只对纯血马开放，而所有现代纯血马都能追溯到 17、18 世纪引入英国的三匹种公马。更快的马不是育不出来，是育出来了也没资格上场。第三，也是最沉重的一条：过去七十年真正变化的不是速度，是伤病——一味朝速度方向选育，选出了更容易在比赛中崩溃、甚至当场骨折的马。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Faster horses could be bred, but they could not run in these races. They want the races to be competitive and to have unpredictable results.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/SchreiberBike，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wo0zez/racehorses_have_not_gotten_faster_in_70_years_oc/pbnspw9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子可以当成一堂指标课来读。一条七十年没动的曲线，第一反应往往是「这项能力到顶了」，但真相是：这个系统压根就没在优化这个指标。它优化的是比赛的观赏性和博彩的不确定性，让磅和血统限制都是为此服务的调节阀。搬到我们熟悉的场景里——当某个业务指标长期纹丝不动，与其追问「是不是没有提升空间了」，不如先去查：这套机制里是不是有什么东西，正在主动把它按在那儿。很多时候天花板不是物理的，是规则写出来的。&lt;/p&gt;
+
+&lt;h2 id=&quot;五士兵可以拒绝战争罪ai-可以吗&quot;&gt;五、士兵可以拒绝战争罪，AI 可以吗&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[原帖：Soldiers can refuse to commit war crimes. Can AI?&lt;/td&gt;
+      &lt;td&gt;The Pentagon wants AI models that can’t say no](https://www.reddit.com/r/technology/comments/1woe97n/soldiers_can_refuse_to_commit_war_crimes_can_ai/)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;一篇报道讨论军方希望采购「不会拒绝指令」的 AI 模型，由此引出一个绕不开的问题：人类士兵在法律上不仅&lt;strong&gt;可以&lt;/strong&gt;拒绝执行非法命令，而且&lt;strong&gt;必须&lt;/strong&gt;拒绝；那么当决策链上换成一个模型，这层最后的人性刹车去哪了。&lt;/p&gt;
+
+&lt;p&gt;评论区没有陷入科幻想象，而是很快收敛到了「责任归属」这个法律问题上，并且分成了两派。一派认为这个前提本身就是伪命题：模型没有能动性，它只是按权重行事，把一个温和的模型调成一个疯子，改改权重和护栏就够了——所以该被追责的永远是拆护栏的人。另一派则指出了真正危险的灰色地带：如果我下令「屠村」，我当然该负责；但如果我下令「控制该区域」，而模型自行判断「控制」包含了屠村呢？&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“But if I order the AI to secure an area, and it decides that “secure” includes exterminating a village, I’m not sure I should be held responsible for that. IMO, the easy solution is for AI to never, ever, pull a trigger.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/TotalNonsense0，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1woe97n/soldiers_can_refuse_to_commit_war_crimes_can_ai/pbmf385/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;楼里对这个灰色地带的总结相当到位：每多一层自动化，犯罪行为和那个做决定的人之间就多隔开一段距离，而距离越远，最后谁都追不上。还有人从另一个角度补刀：军队对士兵的公开标准和实际期待之间本来就有落差，人当了几天兵自然学会分辨这两套，但模型训练完就定型了，它只会照着写下来的那一套执行——这既可能让它比人更守规矩，也可能让它成为一个完美的背锅侠。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“…the more they separate the criminal act from a person making a decision, the more difficult it is to hold ANYONE responsible, which is a very dangerous situation.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/OkStop8313，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1woe97n/soldiers_can_refuse_to_commit_war_crimes_can_ai/pbmoqfp/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：把「战争」两个字拿掉，这个讨论对每个正在推进 AI 落地的团队都成立。我们现在特别热衷于让 agent 自主执行多步任务，但「执行」和「决定」之间那条线，几乎没人认真画过。模型把一个模糊目标自行展开成一串具体动作的那一刻，责任链就出现了缺口——线上删了不该删的数据、给用户发了不该发的通知、按错误理解批了一笔款，事后复盘往往只能得出「提示词没写清楚」这种没人真正负责的结论。楼里那句「最简单的解法是 AI 永远不扣扳机」听着像回避问题，其实是一条相当务实的工程原则：&lt;strong&gt;把不可逆的动作留给人&lt;/strong&gt;。哪个动作算不可逆，值得每个团队在上线前老老实实列一张表。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Sep 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/24/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/24/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.23</title>
@@ -1539,147 +1685,6 @@
         <pubDate>Sun, 20 Sep 2026 09:30:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/blog/2026/09/20/reddit-daily-digest/</link>
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/20/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.09.19</title>
-        <description>&lt;p&gt;今天这几个帖子凑在一起有点意思：上半场是两群人对「硬件」截然不同的态度——一边是自己掏钱堆显存堆到兴奋得睡不着觉的爱好者，一边是拿着六位数年薪却拼命劝人别来的晶圆厂工程师；下半场则是两场老派的口水仗，一场关于单元测试到底为谁而写，一场关于 AI 训练算不算偷。四个帖子的共同点是：正文只是引子，评论区才是正片。&lt;/p&gt;
-
-&lt;h2 id=&quot;一用一块专业卡的价钱堆出-768gb-显存&quot;&gt;一、用一块专业卡的价钱，堆出 768GB 显存&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wjr59t/768gb_vram_for_less_than_the_price_of_one_rtx_6000/&quot;&gt;原帖：768gb vram for less than the price of one RTX 6000&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;r/LocalLLaMA 的老玩家 u/segmond 晒出了他的新机器：12 张 64GB 的 CMP 170HX（当年的挖矿卡），凑出 768GB 显存，总价还不到一张 RTX 6000 Pro。他用它跑 GLM5.3、DeepSeek v4.1 Flash、Qwen3.8 系列这些大块头，vllm 下预填充约 3800 tokens/s、生成 65 tokens/s。帖子里他还顺手把预期中的嘲讽提前堵了回去。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I look forward reading the replies how API usage is cheaper, or how it will take 52 light years to break even or the noise, or the electrical cost. NOT.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/segmond（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wjr59t/768gb_vram_for_less_than_the_price_of_one_rtx_6000/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;评论区最有意思的不是参数讨论，而是大家对「值不值」这件事的集体表态。有人直接把这种行为定性为信仰而非投资：重点不是回本，而是那份「魔法归我所有」的掌控感。u/segmond 自己在另一条回复里给出了更具体的理由——他两年前就退掉了订阅，因为那些公司开始呼吁监管开源模型，而且「对我们这些搞实验的人来说，他们是在白嫖我们的数据和想法」。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Yeah it’s not about return of investment. It’s the fact that you’re possessing the Ai magic without relying on someone else’s stuff.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/RickyRickC137，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wjr59t/768gb_vram_for_less_than_the_price_of_one_rtx_6000/pam9rop/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;另一条暗线更现实：这类「捡垃圾」的窗口期正在被自媒体迅速关死。有人三周前 1000 美元买到同款卡，现在二手价已经涨到 2500，楼里普遍认为是 LTT 那期视频的功劳。u/segmond 对此倒很看得开，他说自己之前用 10 张 16GB MI50 堆过 160GB，当时一张才 90 美元。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Once people know about it, price goes up. So just stay on the look out for deals, eventually another opportunity will come up and you can pounce on it.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/segmond，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wjr59t/768gb_vram_for_less_than_the_price_of_one_rtx_6000/pakt0ld/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：国内折腾本地大模型的朋友对这套路数应该不陌生，从 P40 到 MI50 再到各种矿卡，剧本完全一致——信息差就是利润，而信息差的寿命现在按周计算。但比省钱更值得注意的是那句「不依赖别人的东西」。当模型能力越来越集中在几家公司手里，愿意承担高昂成本换取完全自主的人不会消失，反而会变成一个稳定的小众市场。国产显存方案如果哪天能吃下这块需求，故事会比现在有趣得多。&lt;/p&gt;
-
-&lt;h2 id=&quot;二美国晶圆厂缺-157-万人评论区在集体劝退&quot;&gt;二、美国晶圆厂缺 15.7 万人，评论区在集体劝退&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wjp1yc/us_chip_fabs_face_massive_157000_worker_shortfall/&quot;&gt;原帖：US chip fabs face massive 157,000 worker shortfall&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一篇行业报道称，美国芯片制造业面临 15.7 万人的用工缺口，而只有 3% 的工科毕业生愿意进入这个行业——哪怕薪资是六位数。这种「高薪也招不到人」的新闻通常会引来一堆「年轻人吃不了苦」的评论，但这次楼里几乎一边倒地在解释：为什么不去。&lt;/p&gt;
-
-&lt;p&gt;最沉重的一条来自一位在德州仪器晶圆厂工作的应急响应队成员。上面有人提到台积电凤凰城厂有人在厂内去世、公司对其他员工隐瞒，他跟了一条自己的经历。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I’m on the emergency response team so I actually carried his body out of the building. The only official word about it was our supervisor forwarding the obituary the next day and telling us where to donate for the funeral. Work didn’t slow down even for a minute.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/KtaadnRota，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wjp1yc/us_chip_fabs_face_massive_157000_worker_shortfall/palwkge/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;除了工作环境，更硬的劝退理由是周期性裁员。一位干了 28 年的从业者说，他经历过至少 15 轮大规模裁员，只是近几年需求才稳定下来；也有人说得更直白——行业收入稳定，但工作不稳定，招人裁人本身就是上市公司的标准操作。还有人用一句话总结了自己的职业选择。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I started my career in chip fab, now I’m in petrochemical. Guess which one is significantly more stable.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Martin_Aurelius，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wjp1yc/us_chip_fabs_face_massive_157000_worker_shortfall/pakkbwi/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;关于「为什么要从台湾调人」，一位在台湾生活五年以上的网友的回复最中肯：不是美国人干不了，也不是台积电付不起，而是双方都还没准备好接受对方的条件——台湾本地博士起薪约 6 万美元，薪资被长期压低，而这套成本结构一旦搬到美国就不成立了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子读下来，「缺人」根本不是技能问题，而是这个岗位在美国劳动力市场上性价比不够。有意思的是，评论区反复提到的那部纪录片《美国工厂》讲的正是中国管理方式在美国水土不服，而现在轮到台积电重演同一出戏。对中国读者的启发可能在于：我们习惯把「肯拼」当成产业竞争力，但它本质上是一种成本优势，而成本优势是会被转移和追平的——一旦拼不动了，剩下的就只有工艺和设备本身的壁垒。&lt;/p&gt;
-
-&lt;h2 id=&quot;三单元测试到底是写给谁看的&quot;&gt;三、单元测试到底是写给谁看的&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1wk4lod/the_main_purpose_of_unit_tests_is_keeping_your/&quot;&gt;原帖：the main purpose of unit tests is keeping your code from being violently sh*t on by others&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一篇博客用相当有攻击性的措辞主张：单元测试的主要作用，是防止别人把你的代码改得面目全非。这个说法在 r/programming 没获得多少认同，但由此展开的讨论把「测试到底在防什么」这件事聊得挺透。&lt;/p&gt;
-
-&lt;p&gt;第一波反应是对语气的反感。有人指出，同样的道理完全可以说得体面些。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“You could just frame tests as “being more descriptive of the intention of the code” or you could frame it how the friendly author here framed it.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Zenneth014，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1wk4lod/the_main_purpose_of_unit_tests_is_keeping_your/panzho7/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;更有营养的是几条把问题重新定义的回复。一位正在读《修改代码的艺术》的网友搬出了 Michael Feathers 的经典定义：没有测试的代码就是遗留代码，测试的目的是让你能无所畏惧地修改它；而且为了让代码可测，你往往会被迫把职责拆得更干净。还有人用一句话概括了全部争论。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Or in other words, to prevent implicit contracts from being unknowingly broken.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/zhivago，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1wk4lod/the_main_purpose_of_unit_tests_is_keeping_your/pao5nkx/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;最新鲜的分歧来自 AI 写测试。有人说他现在让大模型写代码时会明确要求不要写测试，因为 LLM 倾向于测那些无关紧要的实现细节，反而让正确的改动变得更难做；也有人反过来说，让 Claude 重写一个项目时，它花了大量篇幅写测试来证明新环境是可隔离、可测试的。楼里还有一位 fintech 创业公司的技术负责人坦白团队完全不写单元测试，靠小 PR、强 code review 和人工端到端测试撑着，「等真有需要了再写」。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The issue with tests, specially written by llms, is that they test irrelevant implementation details which makes correct changes more difficult.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/teerre，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1wk4lod/the_main_purpose_of_unit_tests_is_keeping_your/pao5bu9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：AI 生成测试正在制造一类新的技术债——覆盖率很好看，但测的全是实现细节，稍微重构就大面积飘红，于是团队开始习惯性地删测试而不是改代码，测试的信用就这么被耗光了。判断标准其实没变：一个测试该断言的是「这个模块承诺了什么」，而不是「这个模块现在怎么写的」。这个判断目前还得由人来做。&lt;/p&gt;
-
-&lt;h2 id=&quot;四微软高管说-ai-训练是史上最大劳动力盗窃然后呢&quot;&gt;四、微软高管说 AI 训练是史上最大劳动力盗窃，然后呢&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wjsq57/microsoft_exec_says_ai_training_might_be_the/&quot;&gt;原帖：Microsoft exec says AI training might be the largest labor theft in human history&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;《纽约时报》诉 OpenAI 案的法庭文件解封后，一位微软高管的内部表述被翻了出来：AI 训练可能是「人类历史上最大的一场劳动力盗窃」。原告方用它来论证对方的合理使用抗辩站不住脚，且主观上是故意的。&lt;/p&gt;
-
-&lt;p&gt;评论区第一反应是整齐的反讽——「所以他们要停手了对吧？」后面跟着一串「对吧？」。紧随其后的是对时机的怀疑：一个大概率默许甚至参与其中的人，为什么偏偏现在说这话？有人给出的解释是，微软与模型厂商的结盟已经瓦解，它现在更担心自己在 SaaS 大洗牌里受害，而不是从 AI 扩张中获益。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Staggering insight from someone that likely tacitly approved and/or participated in the alleged theft. And why now? It sounds like another attempt to gatekeep AI development.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Such-Neck-1889，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wjsq57/microsoft_exec_says_ai_training_might_be_the/pal9b10/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;真正有含量的是一条不受欢迎但论证扎实的长评。作者反复强调自己并不支持 AI 公司的做法，但认为训练在现行版权法下大概率根本构不成侵权：著作权保护的是复制、演绎、公开展示、公开发行和公开表演这几项专有权利，训练不公开，于是只剩复制和演绎；训练中的复制是瞬时的，性质和浏览器缓存一样属于微量使用；而要证明演绎作品需要「实质性相似」，模型权重本身是一堆不可读的高维数字，没法直接拿来比对。他的结论是：想解决这个问题只能修法，而如果硬要靠扩张侵权认定来处理 AI，会顺带把合理使用这个重要的安全阀一起毁掉。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Copyright grants several exclusive rights: the right to copy, make derivative works, publicly display, publicly distribute, and publicly perform. Since training isn’t public, we immediately reduce the issue to the copying and deriving rights.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/nihiltres，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wjsq57/microsoft_exec_says_ai_training_might_be_the/pao51cd/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;当然，楼里情绪最饱满的还是另一种声音：同一批当年告诉我们下载 MP3 要赔几十万美元的公司，如今干了一票大得多的买卖，却什么事都没有。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Proving the age old saying: steal $1,000 - you’re in trouble. Steal $1,000,000,000 - someone else is in trouble.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Niceguy955，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wjsq57/microsoft_exec_says_ai_training_might_be_the/palq617/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这条高赞长评值得中文读者认真读一遍，因为它精准地把「不公平」和「不合法」这两件事拆开了。训练数据的分配确实失衡，但用现有版权法去硬套，既赢不了官司，还会误伤搜索引擎、网络档案馆这些同样依赖大规模抓取的公共基础设施。国内关于 AI 训练语料的讨论也常常在这两层之间来回跳，能把它们分清楚的人不多。真正的出路大概率是新的许可与分成机制，而不是把旧法条的解释拉到断裂。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;以上就是今天的精选。四个帖子，两种关于「自己掌控」的执念，两场没有结论的争吵——但都比标题本身有意思得多。&lt;/p&gt;
-</description>
-        <pubDate>Sat, 19 Sep 2026 09:30:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/19/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/19/reddit-daily-digest/</guid>
         
         <category>Reddit</category>
         

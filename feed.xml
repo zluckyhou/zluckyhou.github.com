@@ -5,9 +5,156 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 24 Sep 2026 10:11:26 +0800</pubDate>
-    <lastBuildDate>Thu, 24 Sep 2026 10:11:26 +0800</lastBuildDate>
+    <pubDate>Fri, 25 Sep 2026 09:09:08 +0800</pubDate>
+    <lastBuildDate>Fri, 25 Sep 2026 09:09:08 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.09.25</title>
+        <description>&lt;p&gt;今天这五个帖子看着八竿子打不着，但放在一起有条挺清楚的线索：&lt;strong&gt;信息被怎么处理，决定了谁获益&lt;/strong&gt;。书被扫描成数据之后纸张就成了负担，于是被粉碎；收入被公开成数据之后谈薪就有了底气，但攀比也跟着来了；&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;None&lt;/code&gt; 被显式处理还是被运算符吞掉，决定了代码是清爽还是隐蔽；数据库的默认配置是为二十年前的嵌入式设备写的，照搬到 Web 服务上就会翻车；而一份漂亮的图表背后，可能藏着一个把韩国犯罪片字幕当成猫王电影的匹配错误。&lt;/p&gt;
+
+&lt;h2 id=&quot;一整吨买书扫完粉碎这件事比烧书复杂也比无所谓严重&quot;&gt;一、整吨买书、扫完粉碎：这件事比「烧书」复杂，也比「无所谓」严重&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wp3sd8/japanese_used_bookstores_see_5x_sales_surge_as/&quot;&gt;原帖：Japanese used bookstores see 5x sales surge as books are being bought by the ton&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;日本的二手书店最近销量暴涨五倍，买家不按本买，按吨买。有一笔 50 吨的订单被发往美国，据称进了 AI 公司的「扫描—粉碎」流水线。帖子一出，楼里第一反应就是两个字：焚书。&lt;/p&gt;
+
+&lt;p&gt;但评论区很快把这事从情绪拉回到了机制。真正有信息量的那批回复给出了两个理由，而且是叠加的：第一，破坏式扫描本来就便宜得多——切掉书脊、把散页一张张过进纸机，比用那种能自动翻页的昂贵扫描仪快一个量级，书其实是在扫描过程中就已经散架了，不存在「扫完再销毁」这个额外步骤；第二，也是更荒诞的一条，销毁是法律上的安全选择。楼里反复被引用的是 Bartz v. Anthropic 那个判决：把纸质书转成数字副本能被认定为合理使用，前提之一恰恰是原件被销毁，这样世界上的副本总数没有增加。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Firstly, because it is cheaper to scan destructively than in a way that preserves the book. … Bartz v. Anthropic suggests that creating a virtual copy of a physical book is legal under fair use as long as the physical copy is destroyed afterwards (thus meaning the number of copies hasn’t increased).”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/HexaShadow13，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wp3sd8/japanese_used_bookstores_see_5x_sales_surge_as/pbsn2i9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;顺着这条线，楼里还出现了一次挺有质量的自我纠偏：有人说销毁只是因为便宜、跟版权无关，还拿 Sony 案（把自己买的 CD 转成 MP3 不需要毁掉 CD）来类比，结果被人直接指出 Bartz 案里「扫描具有破坏性」是被法官写进合理使用认定的关键要素之一——对方看完就承认自己记错了。这种在争吵里真的改主意的场面，在 r/technology 不算常见。&lt;/p&gt;
+
+&lt;p&gt;当然也有另一派坚持认为「便宜」和「合法」都不构成理由。最激烈的一条质问：书一旦被销毁，这些公司想怎么改书里的内容都行，谁还能对得上原文？&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Once these books are destroyed, these billionaire asshats can change whatever they want in them and how is anyone to know the difference?”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/raxnahali，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wp3sd8/japanese_used_bookstores_see_5x_sales_surge_as/pbs70pe/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;对这条，楼里也有人泼了冷水：毁掉你自己那本《哈利波特》，并不会让世界上所有的《哈利波特》消失；被买走的绝大多数是有 ISBN、仍在版权期内、但已经绝版、捐赠站不收、书店也卖不掉的存货，不是孤本善本。还有人补了一刀：书店、出版社、慈善商店甚至图书馆每年销毁的书，比这多得多，只是没人拍下来发上网。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这件事最值得琢磨的地方，不是 AI 公司有多坏，而是一条为「防止副本增殖」而设计的规则，在工业规模下被执行成了「必须销毁实体」。法律想保护的是作者的复制权，结果实际效果是纸被粉碎、作者一分钱没多拿、公司拿到了干净的数据。这种规则和后果对不上的情形，在国内讨论数据合规时同样值得警惕——我们很容易把合规做成一套「怎么让流程看起来没问题」的仪式，而不是去问这套流程到底在保护谁。另外，那句反驳其实点到了真问题：担心的不该是知识消失，而是唯一的高质量数字副本握在私人手里，既不会进公共档案，公司倒闭时大概率也一起没了。&lt;/p&gt;
+
+&lt;h2 id=&quot;二挪威把所有人的收入挂在网上但你查了谁对方一小时内就知道&quot;&gt;二、挪威把所有人的收入挂在网上，但你查了谁，对方一小时内就知道&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/todayilearned/comments/1woxer8/til_in_norway_everyones_income_net_wealth_and_tax/&quot;&gt;原帖：TIL in Norway everyone’s income, net wealth and tax paid are published online&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;挪威把每个人的净收入、净资产和已缴税额公开在网上，任何人可查。但这套系统有三个限制条件：你必须登录才能查；被查的人会在一小时内在自己的查询记录里看到你的名字；每人每月上限 500 次。公开透明和「被看见自己在看」这两件事被绑在了一起。&lt;/p&gt;
+
+&lt;p&gt;评论区里最有意思的不是制度本身，而是北欧本地人讲的实际效果。最直接的收益是谈薪：瑞典网友说自己每次投简历前都先查同公司同岗位的人实际拿多少，心里有个数再开价；另一位说他朋友每年绩效面谈都先把老板的收入调出来，老板涨了多少，他就要求涨得不少于这个数。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I live in Sweden and when applying for work I look up the tax records of how much people make in the same or similar roles at the company so I have a rough idea of what to ask for.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Optimal-Result-3282，&lt;a href=&quot;https://www.reddit.com/r/todayilearned/comments/1woxer8/til_in_norway_everyones_income_net_wealth_and_tax/pbu3bx6/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;有人担心这是小偷和骗子的天堂：知道谁有钱、开什么车、住哪儿，不就等于画了张靶子？回应相当漂亮——所有查询都会变成政府记录，并且直接推送给被查的人，罪犯通常不喜欢主动给目标留一份带自己名字的档案。楼里还举了个真实案例：三名男子专门筛查某片区七十岁以上的富裕老人，冒充医护人员上门盗窃珠宝，最后被判刑，而查询记录本身就是现成的证据链。当然也有人指出漏洞：用盗来的账号查就行，留下的痕迹指向的是被盗号的人。&lt;/p&gt;
+
+&lt;p&gt;另一个副作用没那么好处理。有挪威网友说，这套制度确实压制了薪资歧视和逃税，但也放大了「幸福感差距」——有钱人上榜洋洋得意，收入不如人的那一半则无处可藏。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Imagine attending your 10th school reunion where former classmates snicker that your income is well below average. You can’t hide it.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/p33k4y，&lt;a href=&quot;https://www.reddit.com/r/todayilearned/comments/1woxer8/til_in_norway_everyones_income_net_wealth_and_tax/pbqr7e4/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子里最值得抄作业的不是「公开收入」，而是那个查询留痕的设计。透明制度真正的难点从来不是要不要公开，而是怎么防止公开被单向滥用——挪威的答案是让「观看」这个动作本身也变得可见，于是被查者和查询者处在同一层规则之下。对照国内，我们其实早就活在大量信息不对称里：企业能查你的征信、工作履历、消费能力，你查不了任何人的。如果一定要选一个改良方向，把「谁查了我的数据、什么时候查的」做成人人可见，可能比争论某类数据该不该公开更现实，也更有杀伤力。&lt;/p&gt;
+
+&lt;h2 id=&quot;三python-第-n-次尝试引入--和-这次会卡在哪&quot;&gt;三、Python 第 N 次尝试引入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?.&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;??&lt;/code&gt;，这次会卡在哪&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1worhqr/pep_823_824_noneaware_access_operators/&quot;&gt;原帖：PEP 823, 824 – None-aware access operators &amp;amp; None-coalescing operators&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;两份新 PEP 提议给 Python 加四个运算符：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?.&lt;/code&gt;（空值安全属性访问）、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?[]&lt;/code&gt;（空值安全索引）、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;??&lt;/code&gt;（空值合并）和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;??=&lt;/code&gt;（空值合并赋值）。语义和 JavaScript、C# 里的同名运算符基本一致：左边是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;None&lt;/code&gt; 就短路返回 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;None&lt;/code&gt;，否则继续求值。&lt;/p&gt;
+
+&lt;p&gt;评论区分成了相当清晰的两派。支持的一方大多有 C#/TypeScript 背景，说法出奇一致：真正的价值不在单个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?.&lt;/code&gt;，而在链式调用——处理 JSON 转过来的嵌套字典时，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a?.b.c?.d&lt;/code&gt; 和三层嵌套判空的可读性差距不是一点半点，判空的仪式感会把真正的业务逻辑淹没。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The chaining is where most of the value lives in practice. Something like result = obj?.child?.name reads clean and the alternative is three nested None checks that make the actual logic invisible.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Khavel_dev，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1worhqr/pep_823_824_noneaware_access_operators/pbq9ce5/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;反对的意见集中在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;??=&lt;/code&gt; 上，而且给出了一条我觉得相当漂亮的论证。有人说「既然有了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;??&lt;/code&gt;，按 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+=&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;|=&lt;/code&gt; 的惯例自然也该有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;??=&lt;/code&gt;」，马上被反驳：这个类比不成立，因为 Python 里唯独 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;and&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;or&lt;/code&gt; 这两个短路运算符就没有增强赋值版本，而 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;??&lt;/code&gt; 恰恰和它们同类——右边有时候根本不会被求值，这其实是控制流，不是普通运算。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There’s no augmented assignment version of and and or , which share the property of being short circuiting - they don’t evaluate the RHS unless needed.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Brian，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1worhqr/pep_823_824_noneaware_access_operators/pbueour/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有两条容易被忽略的提醒。一是 PEP 自己写明了：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?.&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?[]&lt;/code&gt; 只处理「值是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;None&lt;/code&gt;」，不处理「键/属性根本不存在」，后者该用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dict.get&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getattr&lt;/code&gt; 的还得用。二是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;??&lt;/code&gt; 对新手是个坑——当对象没有假值形态时它和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;or&lt;/code&gt; 行为完全一致，但对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;str&lt;/code&gt; 就完全不同（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0 or 5&lt;/code&gt; 得 5，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0 ?? 5&lt;/code&gt; 得 0）。至于这次能不能过，老 Python 用户普遍不乐观，楼里翻出了十一年前那次讨论，当年 Guido 坚持要把这个运算符叫做「uptalk」，然后整个帖子就在命名上散掉了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这两个 PEP 的分歧其实是「显式优于隐式」这条 Python 信条在现实压力下的又一次让步试探。我自己的经验是：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?.&lt;/code&gt; 值得加，因为它消除的是真正无法避免的重复——从外部 API 拿回来的嵌套数据，判空是刚需，没有更优雅的写法；而 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;??=&lt;/code&gt; 更像是给已经不多的省字空间再抠两个字符，代价是把一次赋值和一次条件判断压缩到一个容易被眼睛滑过去的符号里。写业务代码的人可以留意 Python 3.15 的动向，但别指望这次就能定下来——这个议题已经在 python-ideas 上活了十几年了。&lt;/p&gt;
+
+&lt;h2 id=&quot;四sqlite-上生产评论区补上了文章里最关键的那条坑&quot;&gt;四、SQLite 上生产：评论区补上了文章里最关键的那条坑&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wowf4q/sqlite_in_production_why_wal_mode_busy_timeout/&quot;&gt;原帖：SQLite in Production: Why WAL Mode, busy_timeout, and 1-Writer Pools&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者写了篇相当实在的调优贴：SQLite 之所以背着「一并发就 database is locked」的名声，是因为它的默认配置是二十多年前为低资源嵌入式设备设计的，不是为 Web 服务。改成 WAL 日志模式、设好 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;busy_timeout&lt;/code&gt;、再配一个「多读单写」的连接池，在一台便宜 VPS 上扛住每秒几千请求并不难，而且省掉了 Postgres 的网络往返。&lt;/p&gt;
+
+&lt;p&gt;评论区最有价值的一条是给文章打补丁的。有人指出 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BEGIN IMMEDIATE&lt;/code&gt; 那一节被低估了：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;busy_timeout&lt;/code&gt; 在最典型的那个场景里根本不起作用——当一个延迟开启的读事务想升级成写事务、而快照已经过期时，你会立刻拿到 database is locked，哪怕超时设成了 5 秒也没用。作者自己也认了这个坑，说第一次遇到时完全没反应过来。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The BEGIN IMMEDIATE point deserves more attention. busy_timeout does nothing when a deferred read transaction tries to upgrade to a write on a stale snapshot…”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Hot_Bank7701，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wowf4q/sqlite_in_production_why_wal_mode_busy_timeout/pbqfd8o/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一条泼冷水的更根本：真正的危险不是撞上锁，而是撞不上锁。SQLite 的文件锁只有在本地裸盘上才真正可靠，换成网络挂载（NFS/SMB）就可能悄悄失效，然后你的数据库就废了。作者回应说标准云 VPS 上内核处理的是本地锁，和裸机一样稳；但这条提醒对任何打算把 db 文件放共享存储上的人都值千金——楼里就有人现身说法，把大 SQLite 库放在 WSL 挂载的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/mnt/d&lt;/code&gt; 下，结果可想而知。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The problem isn’t hitting locks. The problem is not hitting locks, because SQLite’s file locking mechanisms are only truly reliable if you are running on local, bare-metal, unvirtualized disks.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/sennalen，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wowf4q/sqlite_in_production_why_wal_mode_busy_timeout/pbr937x/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有人直接质疑动机：这么折腾，不如在同一台机器上跑个 Postgres，这不是在给一个不存在的问题造复杂方案吗？作者的回答挺有说服力：SQLite 常驻内存约 15MB，Postgres 加上连接进程轻松吃掉 250–500MB，在 512MB 或 1GB 的小机器上这是决定性的差别；再加上零运维、单文件备份、进程内调用没有序列化开销。但他也划了线——多节点或写入密集，Postgres 才是对的选择。楼里一位跑天气服务的开发者给出了最佳注脚：Web 容器、调度器、数据管线三个容器共用一个 SQLite 文件，跑在 2GB 的 Lightsail 上，唯一麻烦的是换机器要先进维护模式停写、拷文件、切 DNS。另外还有人解释了「默认配置为什么这么差」这个朴素疑问：SQLite 本来就是给嵌入式设备用的，WAL 是有额外开销的，你手机上装一百个 App，每个都为了快 0.1 毫秒交这份开销，才是不合理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这帖子最该被记住的不是那几行 PRAGMA，而是「默认值是为别人的场景调的」这个通用教训。SQLite 的默认配置、Redis 的默认持久化策略、Nginx 的默认超时，全都是某个特定历史场景下的合理取舍，搬到你的场景里就可能是定时炸弹。国内很多团队的技术选型习惯是「大厂都用 X 所以我也用 X」，而这个帖子展示的是另一种更省钱的思路：先老老实实算清楚自己的量级，单机几千 QPS 的内部工具真的不需要一套分布式数据库。当然前提是你得知道 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BEGIN IMMEDIATE&lt;/code&gt; 这种坑长什么样——所以这类帖子真正的价值往往在评论区。&lt;/p&gt;
+
+&lt;h2 id=&quot;五两万五千部电影的脏话统计和作者在评论区的当场翻车&quot;&gt;五、两万五千部电影的脏话统计，和作者在评论区的当场翻车&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wp34ek/oc_swearing_in_25401_englishlanguage_films/&quot;&gt;原帖：Swearing in 25,401 English-language films, 1930-2023&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;有人扒了两万五千多部英语电影的字幕，统计脏话出现频率，结论符合直觉：1968 年海斯法典（Hays Code）废除之前，这些词在银幕上几乎不存在，之后一路走高。图很漂亮，但这个帖子真正的看点是评论区。&lt;/p&gt;
+
+&lt;p&gt;先是有人眼尖地问：为什么 2005 年前后有个明显的凹陷？作者的回答相当克制，把「真实效应」和「数据噪声」拆开讲：一方面，千禧年初确实是好莱坞冲 PG-13 分级的高峰期，热门片里「一句脏话都没有」的比例在 2003–04 年冲到 56–57%，两侧大约只有 50%；另一方面，纪录片在语料里的占比从 2003 年起从 3% 跳到 8%，而纪录片本来就不怎么说脏话，加上整体比率被极少数「超级脏」的片子主导，某一年的高低很大程度上取决于语料里正好收了哪几部。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“documentaries jump from ~3% of the films to ~8% from 2003 onwards, and they swear a lot less. The rate is also driven by a small number of extremely sweary films, so a year can swing up or down depending on which of those are in the corpus.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/andrewthecoder（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wp34ek/oc_swearing_in_25401_englishlanguage_films/pbrzhrp/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;更精彩的在后面。有人问：1950 年代居然有片子出现 F 开头的词，是哪一部？作者第一时间回答是 1951 年奥逊·威尔斯版的《奥赛罗》，几十分钟后自己回来发了条更正——那份字幕其实来自 2001 年的高中背景翻拍片《O》，证据是高频词里出现了 Odin、Hugo、Desi 这些角色名。顺手他还查出另一个异常点：1957 年猫王的《Loving You》，匹配到的是一部韩国犯罪片的字幕。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Same story for the other big pre-1965 hit: Elvis’s Loving You (1957) turns out to be the subtitles for a Korean crime drama (top words: Yoo, Jin, Park, detective, prosecutor). I’m working on catching these.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/andrewthecoder（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wp34ek/oc_swearing_in_25401_englishlanguage_films/pbsipcq/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这是我今天最喜欢的一节，因为它演示了一次教科书级的数据排查。异常点不是噪声，是线索——当一个 1951 年的片子出现了本不该有的词，正确反应不是删掉离群值，也不是拿它当爆款结论去发帖，而是顺着高频词回去看原始数据到底匹配到了什么。用公开字幕库做分析时，「文件名对得上 ≠ 内容对得上」这个假设几乎必然会咬你一口，尤其在早期年份，样本少、一个错配就能改变整条曲线。作者在自己爆火的帖子底下公开更正自己，并且把排查过程写清楚，比那张图本身更值得学。&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Sep 2026 09:30:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/25/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/25/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.24</title>
@@ -1923,220 +2070,6 @@
         
         
         <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>AutoZone 2026财年Q4电话会——CEO称5%的客流跌幅「在这个行业不正常」，2028财年开店目标从500家下调到430家</title>
-        <description>&lt;p&gt;美东时间2026年9月22日上午10点（北京时间9月22日22点），美国最大的汽车配件零售商之一 &lt;a href=&quot;https://investors.autozone.com/&quot;&gt;AutoZone&lt;/a&gt;（NYSE: AZO）召开了2026财年第四季度（16周，截至2026年8月29日）业绩电话会。财报已于当天美股开盘前发布，我们在&lt;a href=&quot;/blog/2026/09/23/autozone_fy2026q4_earnings/&quot;&gt;前一篇财报解读&lt;/a&gt;里拆过数字：Q4营收65.95亿美元同比增长5.6%但不及预期，每股收益56.05美元同比增长15.1%并超预期，毛利率提升182个基点但几乎全部来自关税退款和LIFO两项一次性因素，核心的DIY同店销售同比转负0.6%。&lt;/p&gt;
-
-&lt;p&gt;这篇只讲电话会上的&lt;strong&gt;增量信息&lt;/strong&gt;——新闻稿里没有、只有管理层开口才能知道的东西。&lt;/p&gt;
-
-&lt;p&gt;参会管理层三位：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Phil Daniele&lt;/strong&gt;，总裁兼首席执行官&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Jamere Jackson&lt;/strong&gt;，首席财务官&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Brian Campbell&lt;/strong&gt;，副总裁、财务主管兼投资者关系负责人&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这场会的基调可以用一句话概括：&lt;strong&gt;管理层几乎没有为数字辩护，而是反复强调「我们知道问题在哪，钱已经花下去了，等它兑现」。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;一管理层的核心表态&quot;&gt;一、管理层的核心表态&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-2027财年指引默认客流还要再负一年&quot;&gt;1. 2027财年指引：默认客流还要再负一年&lt;/h3&gt;
-
-&lt;p&gt;Jackson 给出的2027财年框架是：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2027财年指引&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;美国本土同店销售&lt;/td&gt;
-      &lt;td&gt;持平到低个位数增长&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;客单价增长&lt;/td&gt;
-      &lt;td&gt;约4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;商业客户（DIFM）销售增长&lt;/td&gt;
-      &lt;td&gt;高个位数到低双位数&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;国际同店（恒定汇率）&lt;/td&gt;
-      &lt;td&gt;低到中个位数&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;新开门店&lt;/td&gt;
-      &lt;td&gt;约400家，其中 Mega Hub 40家以上&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;资本开支&lt;/td&gt;
-      &lt;td&gt;约16.5亿美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率（GAAP口径）&lt;/td&gt;
-      &lt;td&gt;持平到提升25个基点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;全年LIFO计提&lt;/td&gt;
-      &lt;td&gt;8500万至9000万美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Q1税率&lt;/td&gt;
-      &lt;td&gt;约22.7%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;这张表最值得玩味的是前两行的组合：&lt;strong&gt;同店只给「持平到低个位数」，而客单价预期涨约4%&lt;/strong&gt;。两个数字一减，意味着管理层自己就预期交易笔数（客流）在2027财年仍然是负的。涨价撑场的剧本，还要再演一年。&lt;/p&gt;
-
-&lt;p&gt;Jackson 对通胀节奏的描述是：「我们认为第一季度会和今年第四季度处在同一个区间，大概接近5%，然后我们预期它会随时间逐步放缓，全年平均在4%左右。」这里说的是「同SKU通胀」，也就是同一件商品的售价涨幅——把商品结构变化剔除后的纯涨价幅度。&lt;/p&gt;
-
-&lt;h3 id=&quot;2-关税退款大头已经吃完了&quot;&gt;2. 关税退款：大头已经吃完了&lt;/h3&gt;
-
-&lt;p&gt;CFO 确认了那笔撑起本季度毛利率的钱的来龙去脉：「这笔退款大部分在第四季度。正如我们之前说过的，我们有略超过1亿美元的 IEEPA 关税。我们在第四季度拿到了其中大部分，这基本上对应的是我们已经卖掉的那批库存。我们预计剩余部分会在2027财年零星流入。」&lt;/p&gt;
-
-&lt;p&gt;这段话把「一次性」三个字说得很清楚。更关键的是后面回答 Guggenheim 分析师时的补充——见下文问答部分。&lt;/p&gt;
-
-&lt;h3 id=&quot;3-对自己的市场份额从不满足&quot;&gt;3. 对自己的市场份额「从不满足」&lt;/h3&gt;
-
-&lt;p&gt;被问到是否对当前的份额增长满意时，Daniele 的回答罕见地直接：「你问我们满意吗？答案是不。我们从不满足于自己的市场份额增长。」&lt;/p&gt;
-
-&lt;p&gt;他给出的量化目标是：商业客户业务要做到&lt;strong&gt;市场增速的两倍&lt;/strong&gt;。公司自己估算，美国商业配件市场规模接近1000亿美元，AutoZone 目前份额只有5%到6%——无论是在独立修车铺（UDS）还是全国性连锁账户上都还有空间。&lt;/p&gt;
-
-&lt;h3 id=&quot;4-投资周期接近尾声&quot;&gt;4. 投资周期接近尾声&lt;/h3&gt;
-
-&lt;p&gt;这是本场会上对估值最有意义的一句表态。Daniele 表示，供应链和技术（以云为主）的投入大部分已接近完成，未来资本开支的「抬升幅度」会逐步收窄。翻译一下：2026财年14.96亿、2027财年约16.5亿美元的资本开支，很可能就是这一轮的顶部区域。&lt;/p&gt;
-
-&lt;h2 id=&quot;二问答环节六个最有信息量的交锋&quot;&gt;二、问答环节：六个最有信息量的交锋&lt;/h2&gt;
-
-&lt;h3 id=&quot;brett-jordanjefferies退款到底还剩多少通胀什么节奏&quot;&gt;Brett Jordan（Jefferies）：退款到底还剩多少，通胀什么节奏&lt;/h3&gt;
-
-&lt;p&gt;Jordan 一上来就问了两个最实际的问题：关税退款的时间分布，以及2027财年同SKU通胀的节奏。&lt;/p&gt;
-
-&lt;p&gt;Jackson 的回答已在上文引用：超过1亿美元的退款大部分落在Q4，余下部分在2027财年从自营进口和供应商返利两条路径零星流入；通胀Q1约5%、全年平均约4%，随着油价气价压力缓解会「回到更正常化的通胀水平」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：想在2027财年再看到一次182个基点的毛利率跳升，基本不可能。公司给的毛利率指引是「持平到+25个基点」，已经把这层意思写在明面上了。&lt;/p&gt;
-
-&lt;h3 id=&quot;steven-zacconecitidiy到底怎么了&quot;&gt;Steven Zaccone（Citi）：DIY到底怎么了&lt;/h3&gt;
-
-&lt;p&gt;这是全场最关键的一问。Daniele 的回答值得完整引述：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「交易笔数下滑5%甚至更多，在这个行业里不是典型现象，我们预期它会回到更正常的客流水平。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他补充说，从长周期看，行业正常的交易笔数变化是&lt;strong&gt;下滑1%到3%&lt;/strong&gt;，然后由客单价增长抵消掉——这是汽配零售几十年的常态模式。本季度超过5%的跌幅属于异常值。&lt;/p&gt;
-
-&lt;p&gt;Jackson 在旁边补了一个数字：&lt;strong&gt;两年累计客单价上涨9%&lt;/strong&gt;，这反映的是消费者承受的显著通胀。&lt;/p&gt;
-
-&lt;p&gt;Daniele 给出的安慰是：「我们喜欢这个退出季度时的DIY速率。」公司口径是销售在6月见底、之后逐周改善，Q4最后八周明显好于前八周。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：管理层把DIY的疲软定性为&lt;strong&gt;周期性而非结构性&lt;/strong&gt;——消费者被价格劝退，而不是不再修车了。这个判断如果对，2027财年会逐季好转；如果错（比如电商、Amazon 或者车队直采在结构性抢份额），那么1.6%的本土同店就不是底部。这是持有这只股票最核心的分歧点。&lt;/p&gt;
-
-&lt;h3 id=&quot;simeon-gutmanmorgan-stanley指引的账怎么算&quot;&gt;Simeon Gutman（Morgan Stanley）：指引的账怎么算&lt;/h3&gt;
-
-&lt;p&gt;Gutman 让管理层把同店指引的加权算法说清楚。Jackson 的口径是：把DIY和商业客户的分项指引加权，大致得到2%到5%的区间，基础假设是「客单价通胀维持在偏高水平」而交易笔数逐步收敛。&lt;/p&gt;
-
-&lt;p&gt;顺着这个问题，Gutman 追问了市场份额和损益表何时正常化——于是有了上文「我们从不满足」那句，以及「投资周期接近尾声」的表态。&lt;/p&gt;
-
-&lt;h3 id=&quot;christopher-horversjpmorganq1的隐含数字以及费用率拐点&quot;&gt;Christopher Horvers（JPMorgan）：Q1的隐含数字，以及费用率拐点&lt;/h3&gt;
-
-&lt;p&gt;Horvers 把Q1的账直接算给管理层听：DIY持平、DIFM隐含约6%，加权下来美国本土同店约2%。Daniele 没有否认，只强调8月的退出速率显示出反弹，「我们喜欢DIY的退出速率」。&lt;/p&gt;
-
-&lt;p&gt;第二问更具体：SG&amp;amp;A什么时候能重新产生经营杠杆？Jackson 的回答是，模型假设费用增速能与销售增速持平，同时保留根据近期环境上下调节的灵活性。公司给的量化口径是&lt;strong&gt;单店费用增长约4%&lt;/strong&gt;（Q1和全年皆然）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：单店费用涨4%、客单价涨4%、客流为负——这套组合拳下，2027财年费用率大概率仍然难以改善。这也是为什么全年营业利润增速（3.1%）远低于营收增速（7.4%）的局面短期内不容易逆转。&lt;/p&gt;
-
-&lt;h3 id=&quot;michael-lasserubs钱花出去了回报在哪&quot;&gt;Michael Lasser（UBS）：钱花出去了，回报在哪&lt;/h3&gt;
-
-&lt;p&gt;Lasser 的问题最尖锐：这几年大幅增加的资本开支和费用，回报如何量化？&lt;/p&gt;
-
-&lt;p&gt;Daniele 承认同店没有达到自己希望的水平，但强调新店的成熟曲线「略好于计划」——新店第一年销售额约170万美元，到第六年约270万美元。他承认近期ROIC会承压（全年调整后税后ROIC已从41.3%降至35.8%），但认为随着门店成熟会反转成「更好、增长更快的生意」。&lt;/p&gt;
-
-&lt;p&gt;Lasser 接着问了一个防御性的问题：如果同店掉到3%到4%的区间以下，损益表还有多少腾挪空间？Jackson 的回答很直白：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「在销售偏低的环境里，我们有能力进到损益表里把SG&amp;amp;A往下管。我们有这块肌肉，而且我们过去一直在做。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：管理层在给市场一个「盈利下限」的暗示——即便销售不达预期，他们也会砍费用来保每股收益。对短期EPS是好事，但如果砍的是门店人手和服务，恰恰会伤害他们口中「靠服务和备货抢份额」的长期故事。&lt;/p&gt;
-
-&lt;h3 id=&quot;steven-forbesguggenheim毛利率指引里到底有没有把关税红利算进去&quot;&gt;Steven Forbes（Guggenheim）：毛利率指引里到底有没有把关税红利算进去&lt;/h3&gt;
-
-&lt;p&gt;这个问题问得很专业。既然2027财年还有退款流入，为什么毛利率指引只有「持平到+25个基点」？&lt;/p&gt;
-
-&lt;p&gt;Jackson 的解释很有意思：退款环境本身是&lt;strong&gt;通缩性&lt;/strong&gt;的——因为零售商和供应商都拿到了成本减免，整个行业提价的速度反而比没有退款时更慢。换句话说，退款的好处有一部分已经通过更温和的终端售价让渡给消费者了，不能既算成本下降又算售价上涨，&lt;strong&gt;否则就是重复计算&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;他同时确认，2027财年的毛利率指引已经包含了关税因素的同比基数效应（lapping）。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：这是全场最诚实的一段回答。它等于告诉投资者：&lt;strong&gt;不要把Q4的53.3%毛利率当成新常态。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;scot-ciccarellitruist开店计划被下调了&quot;&gt;Scot Ciccarelli（Truist）：开店计划被下调了&lt;/h3&gt;
-
-&lt;p&gt;Ciccarelli 注意到开店节奏的变化，直接问2028财年的计划。Daniele 的回答：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;「我们仍然认为美国会做到大约300家店，墨西哥在120家左右，巴西大约20家。我们会朝着每年大约430家净新增门店的方向继续走。」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;他确认，2028财年的目标从原先的约500家&lt;strong&gt;下调到了430家&lt;/strong&gt;。原因是巴西放缓——公司选择把资源集中在「美国本土和墨西哥业务」上，等巴西市场进一步成熟再加速。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这意味着什么&lt;/strong&gt;：这是本场会上最具体的一个战略收缩信号。结合CEO那句「投资周期接近尾声」，可以读出管理层的优先级正在从「不惜代价扩张」向「把已经开出来的店做成熟、把ROIC拉回去」切换。对2027财年的营收增速是利空，对2028财年之后的自由现金流是利好。&lt;/p&gt;
-
-&lt;h3 id=&quot;补充seth-sigmanbarclays关于-mega-hub-的一问&quot;&gt;补充：Seth Sigman（Barclays）关于 Mega Hub 的一问&lt;/h3&gt;
-
-&lt;p&gt;Sigman 问 Mega Hub 的经济模型是否在改善。Daniele 给的数据是：约2000个接入 Mega Hub 网络的商业客户项目，年销售额比未接入的高出16%，且这个提升幅度「长期以来相当稳定」。Jackson 补充说，随着网络扩张、接入更多门店，这个回报「预计会同样好、甚至更好」。&lt;/p&gt;
-
-&lt;p&gt;公司的中期目标是&lt;strong&gt;三年内把 Mega Hub 从目前的172家扩到300家&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;三怎么看这场电话会&quot;&gt;三、怎么看这场电话会&lt;/h2&gt;
-
-&lt;p&gt;把八组问答串起来，管理层其实给出了一个相当自洽、也相当保守的叙事：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，他们不否认问题。&lt;/strong&gt; DIY客流跌超5%被明确定性为「不正常」，市场份额增长被明确定性为「不满意」，ROIC下滑被明确承认。在美股财报电话会上，这种坦率程度不算常见。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，他们把问题归因于周期，而不是结构。&lt;/strong&gt; 核心论据是客流在6月见底、之后逐周改善，以及两年9%的客单价涨幅正在见顶回落。这个判断成立与否，2027财年Q1（11月底左右发布）就会有第一次验证。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，他们在悄悄降速。&lt;/strong&gt; 2028财年开店目标从500家降到430家，巴西放缓，资本开支抬升幅度收窄，「投资周期接近尾声」。这是一家公司从扩张期转向收获期的标准动作。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第四，他们给了一个明确的盈利下限。&lt;/strong&gt; 「我们有能力进到损益表里把SG&amp;amp;A往下管，我们有这块肌肉」——这句话是说给担心每股收益的人听的。&lt;/p&gt;
-
-&lt;p&gt;最后提醒一件事：管理层反复暗示的「最坏的时候过去了」，市场当天用6%的涨幅买了单。但这份乐观的全部证据，目前只有「8月的退出速率」这一个季度末的短周期观察。真正的检验点是2027财年Q1——那时候关税退款这层滤镜会基本消失，DIY同店能不能自己站回正数，会是一个干净得多的答案。&lt;/p&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;一手资料&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/09/22/autozone-azo-q4-2026-earnings-call-transcript/&quot;&gt;AutoZone 2026财年Q4业绩电话会实录（The Motley Fool，2026年9月22日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0000866787/000117184326006159/exh_991.htm&quot;&gt;AutoZone 2026财年第四季度业绩新闻稿（SEC Form 8-K 附件99.1，2026年9月22日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investors.autozone.com/&quot;&gt;AutoZone 投资者关系页面（含电话会 webcast 与配套幻灯片）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;媒体报道（用于补充分析师预期与股价反应）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://247wallst.com/investing/2026/09/22/autozone-climbs-6-as-profit-beat-offsets-revenue-miss-advance-auto-parts-rises-6-oreilly-automotive-gains-4/&quot;&gt;AutoZone Climbs 6% as Profit Beat Offsets Revenue Miss（24/7 Wall St.）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/23/autozone_fy2026q4_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/23/autozone_fy2026q4_earnings_call/</guid>
-        
-        <category>AutoZone</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
         
       </item>
     

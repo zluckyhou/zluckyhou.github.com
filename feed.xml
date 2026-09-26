@@ -5,9 +5,204 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 25 Sep 2026 10:25:45 +0800</pubDate>
-    <lastBuildDate>Fri, 25 Sep 2026 10:25:45 +0800</lastBuildDate>
+    <pubDate>Sat, 26 Sep 2026 09:13:08 +0800</pubDate>
+    <lastBuildDate>Sat, 26 Sep 2026 09:13:08 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Reddit 每日精选 | 2026.09.26</title>
+        <description>&lt;p&gt;今天这五个帖子有一条挺隐蔽的共同线索：&lt;strong&gt;技术决策的账，最后都不是在技术层面结的&lt;/strong&gt;。微服务的账结在组织架构上，三十年向后兼容的账结在一代人的职业记忆里，端到端所有权的账结在绩效考核表上，AI 智能体的账结在客户的时间成本上——只有最后那个把大模型记忆嫁接到小模型上的实验，是真的在技术层面把账算清楚了，而且算得很漂亮。&lt;/p&gt;
+
+&lt;h2 id=&quot;一微服务是伪装成架构的组织债务吵到最后全楼都在说康威定律&quot;&gt;一、微服务是伪装成架构的组织债务：吵到最后，全楼都在说康威定律&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1wq8nbw/microservices_are_organizational_debt_disguised/&quot;&gt;原帖：Microservices are organizational debt disguised as architecture&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人的观察很朴素：微服务每次被推销时都无可挑剔——团队独立、职责清晰、按需扩容；一年之后就变成几十个服务、三套部署模式、满地追踪链路，没人说得清全貌。他怀疑真正需要微服务的公司，比行业假装的要少得多。&lt;/p&gt;
+
+&lt;p&gt;这个话题在 2026 年重提，楼里第一反应是嘲讽（有人贴出了那个著名的 nocode 仓库，还有人吐槽「不敢相信我们在 2026 年还在讨论微服务」），但很快被一条相当克制的反驳顶了回去：每年都有新人入行，每年都有中级升高级、开始承担系统设计责任，每年也都有人退休把经验带走——用「这题早就有定论了」堵住讨论，其实什么都没回答。&lt;/p&gt;
+
+&lt;p&gt;真正有信息量的那一支，是把问题从架构挪到了组织。这一层的关键词是康威定律：系统设计终将映射出组织结构。有人说他们公司正在反向操作——先想清楚架构该长什么样，再照这个样子重组团队：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Microservices can be good, but in my experience, Conway’s law (that system design will end up mirroring the org structure) is a thing, and you have to fight hard against it. My org is actually doing reverse Conway’s law.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/plasticbug，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1wq8nbw/microservices_are_organizational_debt_disguised/pc24lw0/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这条下面立刻有人现身说法：反向康威在真实公司里很难落地，因为重组永远不会停，每一轮努力都被下一轮重组抹掉。更细的一条指出了根本阻力——把人调到新团队意味着换直属经理，这对个人晋升不利，于是最后妥协成矩阵式管理，然后所有人都痛恨矩阵式，于是又把《Team Topologies》翻出来重读，纳闷到底错在哪一步。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Then everyone hates every aspect of that and we crack open Team Topologies again wondering where we went wrong. GOTO 10. I definitely think it can work and I keep trying it because I want it to.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/gefahr，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1wq8nbw/microservices_are_organizational_debt_disguised/pc2ha0f/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一派则替微服务说了句公道话，而且说得很实在：单体的好日子只存在于小团队里。「所有人都想要单体，直到你要和另外 150 个人在同一个单体上干活」——这条被顶得很高，后面还有人补充自己维护过 1000 万行的代码库，启动要 15 分钟，而且基本只能垂直扩容。但这条也被一句更狠的反驳了：Linux 内核每个开发周期都有上千人协作，单体本身很少是问题，糟糕的代码、范围蔓延和缺乏整体设计才是。&lt;/p&gt;
+
+&lt;p&gt;有意思的是，反对微服务最有力的论据也来自同一个人：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The issue is, in practice, microservices often devolve into a big ball of interdependent services that do almost nothing. … That often also creates the illusion that useful work is getting done.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/edgmnt_net，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1wq8nbw/microservices_are_organizational_debt_disguised/pc2qvri/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;楼里还有一个被忽略但很务实的声音：没人考虑那个显而易见的中间地带——中等粒度的服务。以及一条判定标准，我觉得是全楼最可操作的一句：如果一个微服务不拥有自己的数据，那它就是反模式。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子真正的价值不在于站哪一边，而在于它把「架构选型」暴露成了一个组织问题。国内团队讨论拆不拆微服务时，往往只算技术账——QPS、部署耦合、故障隔离，很少有人把「我们有几个团队、几个经理、晋升通道怎么设计」摊在同一张桌子上。但楼里那条矩阵式管理的抱怨说得太准了：最后卡住架构演进的，常常不是技术债，而是「换团队会影响我明年评级」这种极其具体的个人利益。另外那句「Linux 内核上千人协作也是单体」值得贴在很多会议室里——如果一个团队连单体都管不好，拆成微服务只会把设计能力的缺口变成分布式系统的缺口。&lt;/p&gt;
+
+&lt;h2 id=&quot;二一个-1993-年发布今天还在维护的开发工具楼里变成了程序员的集体自省现场&quot;&gt;二、一个 1993 年发布、今天还在维护的开发工具：楼里变成了程序员的集体自省现场&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1wpuggf/we_still_maintain_a_development_tool_first/&quot;&gt;原帖：We still maintain a development tool first released in 1993. Here’s what 30+ years of backwards compatibility looks like&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人是这个工具的维护者，讲了三十多年保持向后兼容是什么体感。最新的一笔大动作是在 2026 年把开发环境从 Delphi 7 的老代码库迁移到 Delphi 11——他自己的评价是，这种项目在开始之前看起来总要合理得多。&lt;/p&gt;
+
+&lt;p&gt;技术细节这部分，楼里的老 Delphi 用户很快就问到了痛点：Delphi 7 早于泛型时代，当年只有指针列表可用。作者的回答里有一条我觉得是整个帖子的方法论精华——迁移给了他们现代化改造的机会，但一次改太多会让本来就危险的迁移雪上加霜，所以他们选择了「有选择地现代化」，把兼容性放在第一位：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Moving to Delphi 11 gave us the opportunity to modernize all of that, but changing too much at once would have made an already risky migration even harder. We modernized selectively and kept compatibility as the first priority.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/luissinlios（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1wpuggf/we_still_maintain_a_development_tool_first/pbzfg9x/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;但这个帖子真正跑偏成好内容的地方，是评论区拐进了另一个话题：你写的代码，有多少还活着？一位入行二十年的开发者说，除了现在这份工作，他只能确信一个应用还在跑——「这个行业里你的作品消失得有多快，实在让人吃惊」。这条下面那句回应几乎成了全楼名言：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“What’s amazing to me is how some of the roughest stuff I made that I’m most embarrassed about will hang around forever, while some of the cleanest stuff that I’m most proud of will get deleted most quickly.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/WingZeroCoder，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1wpuggf/we_still_maintain_a_development_tool_first/pbzqa1a/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也有相反的样本：干了 25 年的人说自己参与过的东西基本都还在运行，连 2000 年开的开源项目至今还有提交，尽管他本人已经十五年没用过了；另一位说他 25 年前给 Akamai 写的守护进程据说还在跑，核心几乎没变。作品能不能活下来，运气的成分比手艺大——同一楼里那位做政府外包和教育科技的，作品被 SaaS 和并购整合扫得一个不剩。最后那条 37 年、13 份工作的自述，用了《银翼杀手》的台词收尾：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“All that time spent crafting efficient code for OS/2 apps, or long retired Unix systems. All those moments will be lost in time, like tears in rain.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/madman1969，&lt;a href=&quot;https://www.reddit.com/r/programming/comments/1wpuggf/we_still_maintain_a_development_tool_first/pc1wzkz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：「有选择地现代化，兼容性优先」这八个字，比任何重构方法论都更值得记住——尤其在当下这种人人想用 AI 一键重写祖传代码的氛围里。风险迁移最容易犯的错，就是顺手把「反正都要动了」的改进一起塞进去，结果一旦出问题，你根本分不清是迁移坏了还是改进坏了。至于代码的寿命，我倒觉得那句「最不好意思的代码活得最久」不是自嘲而是规律：能活下来的代码通常是因为它嵌在真实业务里、没人敢动，而漂亮代码往往属于那些还没找到业务位置的新项目，所以死得快。如果你想让作品活久一点，答案可能不是写得更优雅，而是让它变成别人绕不过去的那一环。&lt;/p&gt;
+
+&lt;h2 id=&quot;三数据科学家的端到端所有权是成长机会还是换了好名字的无偿粘合剂工作&quot;&gt;三、数据科学家的「端到端所有权」：是成长机会，还是换了好名字的无偿粘合剂工作&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1wpwag3/is_endtoend_ownership_actually_good_for_data/&quot;&gt;原帖：Is end-to-end ownership actually good for Data Scientists, or is it just unpaid glue work with a nicer name?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发帖人在「拥有结果」是真实要求而非价值观口号的数据团队待了多年，他很享受这种节奏，因为一两个迭代内就能看到自己工作的影响。但他也待过那种纯支撑型团队：几乎什么都没交付出去，被贴上象牙塔标签，时间全耗在一直被降优先级的概念验证上——不过那种团队确实给了他做深入统计工作的空间。他的问题是：数据科学家被要求横跨定义问题、建模、上线、运维、跟业务对齐的全链路，这到底是职业加速器，还是把别人不干的活换了个体面说法。&lt;/p&gt;
+
+&lt;p&gt;评论区第一条就把问题切准了：端到端对齐的团队是好的，但数据科学家往往是链条末端那个人，于是所有问题最后都落在他手上。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“But DS often ends up holding the problem because they’re at the end of the chain. True e2e ownership for outcomes should sit with a solution or product owner. … I absolutely don’t expect the DS guys to address bad upstream data in production.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Stargazer1884，&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1wpwag3/is_endtoend_ownership_actually_good_for_data/pbyx5ly/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;标题里「无偿」两个字则引发了一场小型价值观冲突。一派认为这是很奇怪的低能动性思维：只要不是在工作时间之外做的，就不存在无偿。另一派给了个更冷静的判定标准——如果这些工作不体现在绩效评估里，那就算无偿，因为它挡住了你涨薪的路；关键不是这活有没有价值，而是有些公司根本不为这种价值付钱，在那种地方你就不该做。&lt;/p&gt;
+
+&lt;p&gt;全楼最透彻的一条，把这个争论直接归因到组织健康度：这类问题很难和组织的运营能力分开看——组织越混乱失能，「所有权」就越像是在替一堆不知道自己该干什么的人兜底，因为职责边界从来没被讲清楚；这时候「端到端所有权」就不再是一种可运转的模式，而更像管理层用来许愿的流行词，盼着总有人会把事情接下来。同一条也给出了健康版本的定义：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“End to end ownership in a well-functining organisation to me should basically just be your role in a project doesn’t end when something is deployed.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/ghostofkilgore，&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1wpwag3/is_endtoend_ownership_actually_good_for_data/pbyxe5h/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;按他的说法，这意味着模型出问题、有人想改模型、有人要投资源优化模型，或者某个总监又冒出个「把 AI 融进去」的糟主意时，你应该被咨询、被卷入——仅此而已。&lt;/p&gt;
+
+&lt;p&gt;真正给出解法的是另一条长回复。那位正在组建结果导向数据团队的人把工作拆成三段——问题发现、方案发现、交付——并且刻意不让数据科学家平摊在整条链上：数据科学家少量参与问题发现，大量参与方案发现，相当程度参与交付；问题发现则交给一个「产品三人组」，其中的量化产品经理最好由偏产品的资深数据科学家担任，而不是传统 PM。他的判定标准一句话戳破了很多人的处境：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“But your average data scientist in an outcomes-oriented team should not be maxing out at every stage. At that point you’re either a stealth product manager or doing multiple roles at the same time.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/geebr，&lt;a href=&quot;https://www.reddit.com/r/datascience/comments/1wpwag3/is_endtoend_ownership_actually_good_for_data/pbzvthh/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个讨论对国内的算法和数据岗位几乎是逐句对应的，只是我们通常把它叫做「业务闭环」或者「端到端负责」。楼里那条绩效标准我认为最值得抄：判断一份额外承担是成长还是消耗，不看它有多重要，而看它有没有被写进评估口径——公司愿意为哪部分付钱，是有客观答案的。另外那句「你在每个阶段都满负荷，说明你是个隐形产品经理」值得每个人对着自己的日程表核一遍：如果你既在定义问题、又在建模、又在追数据质量、还在跟业务对齐，那不是所有权，那是三个岗位的工作被装进了一个头衔。&lt;/p&gt;
+
+&lt;h2 id=&quot;四ai-智能体的真实惨案开始批量涌现评论区顺手算清了用-ai-查-ai这笔账&quot;&gt;四、AI 智能体的真实惨案开始批量涌现：评论区顺手算清了「用 AI 查 AI」这笔账&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wppgtp/the_personal_ai_agent_horror_stories_are_rolling/&quot;&gt;原帖：The personal AI agent horror stories are rolling in&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一篇关于个人 AI 智能体翻车案例的报道。文章里有一句被楼里抓住反复鞭打的表述：某公司 CEO 说他们已经加了一套系统，用来在智能体回应或行动之前捕捉幻觉。&lt;/p&gt;
+
+&lt;p&gt;楼里的反应可以概括成一句「哦，怎么之前没人想到呢」——直接加个系统让智能体不产生幻觉就行了，仿佛这不是大语言模型里一个尚未解决、而且可能无法解决的问题。还有人用伪代码把这个荒诞感写到了极致：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if (hallucinating) { dont(); }&lt;/code&gt;。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Oh dang, why didn’t anyone think of this before? Just add a system to not make the agent hallucinate. As if it isn’t an unsolved and likely unsolvable problem with large language models.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/OPsSecretAccount，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wppgtp/the_personal_ai_agent_horror_stories_are_rolling/pbxkfdr/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;但楼里并非只有嘲讽。有一条把「用模型查模型」这套做法的经济账算得很清楚：现在不少企业的做法是跑两遍、最好用不同模型，两边不一致就让第三个模型裁决——这位网友管它叫《EVA》里的 MAGI 系统。纸面上这能把 20% 的错误率压到 4%，但他强调实际上很少这么理想，因为不同模型的训练数据高度重叠：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“On paper this reduces a 20% error rate to 4% but it’s rarely that good, due to overlap in models and training data.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Dreadgoat，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wppgtp/the_personal_ai_agent_horror_stories_are_rolling/pc070hj/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他接着补了一句我觉得该被印在所有 AI 医疗方案封面上的话：4% 听起来很低，直到你把它换成「25 个病人里有 1 个会被误诊」。而当你为此付出双倍甚至三倍的 token、同时订阅三家模型时，成本已经高到无法证明这套工具值得用了。&lt;/p&gt;
+
+&lt;p&gt;另一条从组织角度补了一刀，说他们公司就是这样：高层被销售话术说服了，每次有人指出 AI 在流程里的失败，得到的答案永远是再加一层 AI 检查。还有一条讨论切到了根因——问题出在训练过程更奖励给出正确答案，而不奖励承认不确定，于是瞎猜能得分、说不知道得零分，幻觉自然被养出来。&lt;/p&gt;
+
+&lt;p&gt;最有价值的是楼里的第一手惨案。一位网友的妻子打电话咨询车库门维修，明确说要再问问别家才决定，结果当天就收到了预约确认邮件；他打回去解释，对方只回了一句「您是要取消还是改期」，他这才意识到自己和妻子从头到尾都没跟人类说过话。找到真人之后，对方笑着说「是啊，我猜是 AI 机器人搞错了」。他的结论比故事本身更扎心：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s infuriating that using AI pushes yet more of the responsibility to the customer to make sure things go right.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/tippiedog，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wppgtp/the_personal_ai_agent_horror_stories_are_rolling/pbzf6wx/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他最后找了个自己接电话的个体户，对方上门诊断完要约下次时间，从卡车里掏出一本纸质日历——这位 62 岁的网友说，这让他挺高兴的。另一条则是求职者视角：有人经历了一场 AI 面试，问了几个私人问题（办公室附近最喜欢哪家餐厅、天气怎么样、你中间名是什么）之后对方立刻崩了；但他已经交了求职信、简历，还配合演完了一场假面试，事后他百分之百确信自己是在求职的名义下被当成了免费测试样本。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子里最该被产品经理读三遍的，是那句「AI 把确保事情不出错的责任进一步推给了客户」。这正是当下很多 AI 客服和智能体产品的真实体验：效率提升被公司拿走了，校验成本被转嫁给用户，而用户连「我在跟机器说话」这个前提都没被告知。至于那笔多模型交叉验证的账，我觉得它点出了一个被普遍低估的事实——靠堆模型来压错误率，成本是线性涨的，而错误率的下降远低于独立性假设给出的理论值。真正能把 4% 变成可接受的，从来不是第三个模型，而是流程设计：哪些操作允许智能体自己执行，哪些必须留人类确认。那个车库门预约恰恰是典型的、本就不该交给智能体自主执行的动作。&lt;/p&gt;
+
+&lt;h2 id=&quot;五把-51b-的-n-gram-记忆嫁接到-08b-小模型上一个人用-kaggle-免费-gpu-做出了-5-困惑度下降&quot;&gt;五、把 51B 的 n-gram 记忆嫁接到 0.8B 小模型上：一个人用 Kaggle 免费 GPU 做出了 5% 困惑度下降&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wpvep4/qwengram08b_i_transferred_qwen38_flashnexts_ngram/&quot;&gt;原帖：Qwengram-0.8B: I transferred Qwen3.8 Flash-Next’s n-gram memory into Qwen3.5-0.8B&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是本期唯一一个纯技术帖，也是我最喜欢的一个。作者做的事情可以这样理解：把大模型 Qwen3.8-Flash-Next 里那套预训练好的 PLE n-gram 记忆（约 510 亿参数）整块冻结，接到一个同样冻结的 0.8B 小模型上，中间只训练一个很小的读取器，插在第 3 层和第 9 层解码器，后一处的注入强度由一个随 token 变化的门控决定。骨干网络完全不微调。结果是验证集困惑度从 18.28 降到 17.35，下降 5.05%。作者特别声明这是语言模型验证结果，不是基准准确率提高 5% 的意思——这种自我设限在 r/LocalLLaMA 里值得表扬。&lt;/p&gt;
+
+&lt;p&gt;更有价值的是他列出的那些消融发现：真实的预训练记忆确实优于随机记忆和打乱记忆的对照组（说明有效信息不是来自参数量本身）；读取器训练到 2000 万 token 时总体语言模型损失还在改善，但数学能力开始退化，所以 1500 万 token 才是平衡点；在晚层强行固定注入记忆会损害 LAMBADA 表现，靠动态门控才把这个代价找回来；同样的记忆预算下，学出来的注入位置优于随机打乱的位置。他还顺手实现了 llama.cpp 的推理路径，Q8_0 量化能保留 99.1% 的收益。&lt;/p&gt;
+
+&lt;p&gt;评论区的定位相当精准。最热的一条形象比喻是「一个小脑袋配一个巨大的记忆库」，随后被起名 franqwenstein；而真正说到点子上的是这条：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s sort of like the MoE idea taken to extremes. The model is no better at reasoning than the parameter count allows but has more knowledge.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/SkoomaDentist，&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wpvep4/qwengram08b_i_transferred_qwen38_flashnexts_ngram/pbzo1jd/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这条下面的追问也挺好：知识变多会不会间接改善推理？回答是有可能——更多世界知识相当于提供了预先算好的捷径，模型不必从头推导，出错的机会就更少。&lt;/p&gt;
+
+&lt;p&gt;作者本人在楼里的回答比原帖更清楚地交代了边界和下一步。有人问这个记忆表在真实场景里能带来什么，他的回答是：主要帮助事实性和词汇性的召回——人名、罕见短语、结构化文本、代码模式，以及在基座模型不确定时预测正确的后续；速度基本不受影响，因为 PLE 每个 token 都查，但注入只在两个点发生，门控决定用多强，所以模型可以在记忆没用时基本忽略它。他还提到最想试的是 35B-A3B 那个 MoE 骨干，理由很有说服力：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“So, in principle, adding a large external n-gram memory could be especially useful there: you keep the relatively low active compute of the MoE, while giving the model access to a much larger store of lexical/statistical patterns through the injected memory.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;— u/Nicolodeva（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1wpvep4/qwengram08b_i_transferred_qwen38_flashnexts_ngram/pbyvf1e/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;可惜这个实验因为免费算力额度烧完而暂停了——他用的是 Modal 的免费额度，很快就用光了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子最提气的地方，是它证明了在 2026 年，一个人靠免费的 Kaggle notebook 仍然能做出有信息量的模型结构研究。关键在于选题的聪明：不去和大厂比训练规模，而是找到一个「把别人已经付费预训练好的部件搬过来复用」的角度，并且用随机记忆、打乱记忆这些对照组把因果关系钉死。这种做法对国内资源有限的研究者和独立开发者很有参考价值——算力差距是真的，但对照实验设计得干净，一样能得出可被信任的结论。另外，那条「知识增加等于提供预先算好的捷径」的猜想其实指向一个更大的问题：我们把「推理能力」和「记忆检索」分得很开，但人类专家的所谓直觉，很大程度上正是把推理过程压缩成了记忆。这个方向值得继续盯。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;今天这五个帖子摆在一起，我最大的感受是：&lt;strong&gt;技术圈里真正难的从来不是选项本身，而是把代价归到正确的人头上&lt;/strong&gt;。微服务的代价被归给了架构，其实该归给组织；端到端所有权的代价被归给了成长，其实该归给绩效口径；AI 智能体的代价被归给了效率提升，其实被转嫁给了客户。只有最后那个小模型实验，老老实实用对照组把每一份收益的来源都归到了位——这大概就是它读起来最舒服的原因。&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Sep 2026 09:40:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/26/reddit-daily-digest/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/26/reddit-daily-digest/</guid>
+        
+        <category>Reddit</category>
+        
+        <category>每日精选</category>
+        
+        
+        <category>reddit</category>
+        
+      </item>
     
       <item>
         <title>Reddit 每日精选 | 2026.09.25</title>
@@ -1893,329 +2088,6 @@
         <pubDate>Thu, 24 Sep 2026 00:00:00 +0800</pubDate>
         <link>https://zluckyhou.github.io/blog/2026/09/24/generalmills_fy2027q1_earnings_call/</link>
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/24/generalmills_fy2027q1_earnings_call/</guid>
-        
-        <category>通用磨坊</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>通用磨坊2027财年Q1——营收44亿美元同比降3%，每股收益暴跌67%，但这是去年那笔10亿美元卖厂收益造成的假象</title>
-        <description>&lt;p&gt;美东时间2026年9月23日美股开盘前（北京时间9月23日晚间），美国食品巨头 &lt;a href=&quot;https://investors.generalmills.com/&quot;&gt;通用磨坊&lt;/a&gt;（General Mills，NYSE: GIS）发布了截至2026年8月30日的2027财年第一季度财报。&lt;/p&gt;
-
-&lt;p&gt;这份财报的表层数字很吓人，但吓人的部分基本是会计造成的。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;净销售额44亿美元，同比下滑3%&lt;/li&gt;
-  &lt;li&gt;有机销售额（剔除汇率和并购剥离影响后的口径）与去年同期基本持平&lt;/li&gt;
-  &lt;li&gt;营业利润6.34亿美元，同比暴跌63%&lt;/li&gt;
-  &lt;li&gt;归属股东净利润3.97亿美元，同比下滑67%&lt;/li&gt;
-  &lt;li&gt;摊薄每股收益0.74美元，同比下滑67%&lt;/li&gt;
-  &lt;li&gt;调整后每股收益0.75美元，按固定汇率同比下滑13%，高于市场预期的0.72美元&lt;/li&gt;
-  &lt;li&gt;净销售额43.9亿美元也高于市场预期的约43.5亿美元&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;营业利润那个负63%，和每股收益那个负67%，绝大部分来自同一件事——2026财年第一季度（也就是去年同期）通用磨坊卖掉了美国酸奶业务，一次性确认了约10亿美元的出售收益。今年没有这笔收益，基数自然塌了。真正反映经营的是调整后口径的负11%（营业利润）和负13%（每股收益）。&lt;/p&gt;
-
-&lt;p&gt;财报当天，GIS股价小幅走低。&lt;/p&gt;
-
-&lt;h2 id=&quot;先搞清楚这家公司靠什么赚钱&quot;&gt;先搞清楚这家公司靠什么赚钱&lt;/h2&gt;
-
-&lt;p&gt;通用磨坊是全球最大的包装食品公司之一，总部在明尼阿波利斯。中国读者对它的认知通常来自两个牌子——&lt;strong&gt;哈根达斯&lt;/strong&gt;（Häagen-Dazs）和&lt;strong&gt;湾仔码头&lt;/strong&gt;（速冻水饺）。但在美国本土，它更大的身份是早餐麦片和宠物食品公司。&lt;/p&gt;
-
-&lt;p&gt;它的业务分成四个报告分部：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;北美零售（North America Retail）&lt;/strong&gt;：最大的一块，占营收一半以上。包括 Big G 麦片（Cheerios 脆谷乐、Honey Nut Cheerios）、美国零食、美国正餐与烘焙（Betty Crocker、Totino’s 披萨卷）。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;北美宠物（North America Pet）&lt;/strong&gt;：主要是 2018 年花80亿美元买来的 Blue Buffalo（中文名「蓝馔」），高端宠物粮。近两年是公司最大的麻烦所在。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;北美餐饮服务（North America Foodservice）&lt;/strong&gt;：把产品卖给学校、医院、餐厅、便利店，不走商超货架。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;国际（International）&lt;/strong&gt;：北美以外的所有市场，包括中国、印度、巴西（已剥离）和各分销商市场。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;还有两个不并表的合资公司：&lt;strong&gt;CPW&lt;/strong&gt;（与雀巢合资的北美以外麦片业务）和&lt;strong&gt;哈根达斯日本&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;另外两个反复出现的术语需要解释一下：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;有机销售额（Organic Net Sales）&lt;/strong&gt;：把汇率波动、以及买卖业务造成的口径变化剔除掉之后的销售额。用来判断「现有生意本身」是涨是跌。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;HMM（Holistic Margin Management，整体毛利管理）&lt;/strong&gt;：通用磨坊用了二十多年的一套降本方法论，本质是持续不断地在配方、包装、采购、生产工艺上抠成本，用来对冲原材料涨价。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;核心财务数据&quot;&gt;核心财务数据&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2027财年Q1&lt;/th&gt;
-      &lt;th&gt;2026财年Q1&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额&lt;/td&gt;
-      &lt;td&gt;44亿美元&lt;/td&gt;
-      &lt;td&gt;45亿美元&lt;/td&gt;
-      &lt;td&gt;-3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;有机销售额&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-      &lt;td&gt;持平&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;毛利率&lt;/td&gt;
-      &lt;td&gt;33.9%&lt;/td&gt;
-      &lt;td&gt;33.9%&lt;/td&gt;
-      &lt;td&gt;持平&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后毛利率&lt;/td&gt;
-      &lt;td&gt;33.3%&lt;/td&gt;
-      &lt;td&gt;34.2%&lt;/td&gt;
-      &lt;td&gt;-90个基点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业利润&lt;/td&gt;
-      &lt;td&gt;6.34亿美元&lt;/td&gt;
-      &lt;td&gt;17亿美元&lt;/td&gt;
-      &lt;td&gt;-63%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业利润率&lt;/td&gt;
-      &lt;td&gt;14.4%&lt;/td&gt;
-      &lt;td&gt;38.2%&lt;/td&gt;
-      &lt;td&gt;-2380个基点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后营业利润&lt;/td&gt;
-      &lt;td&gt;6.34亿美元&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-      &lt;td&gt;-11%（固定汇率）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后营业利润率&lt;/td&gt;
-      &lt;td&gt;14.4%&lt;/td&gt;
-      &lt;td&gt;15.7%&lt;/td&gt;
-      &lt;td&gt;-130个基点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;归属股东净利润&lt;/td&gt;
-      &lt;td&gt;3.97亿美元&lt;/td&gt;
-      &lt;td&gt;12亿美元&lt;/td&gt;
-      &lt;td&gt;-67%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;0.74美元&lt;/td&gt;
-      &lt;td&gt;2.24美元&lt;/td&gt;
-      &lt;td&gt;-67%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后每股收益&lt;/td&gt;
-      &lt;td&gt;0.75美元&lt;/td&gt;
-      &lt;td&gt;—&lt;/td&gt;
-      &lt;td&gt;-13%（固定汇率）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;经营活动现金流&lt;/td&gt;
-      &lt;td&gt;2.98亿美元&lt;/td&gt;
-      &lt;td&gt;3.97亿美元&lt;/td&gt;
-      &lt;td&gt;-25%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;几个要点：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;毛利率是这份财报里最实的隐忧。&lt;/strong&gt; 报表毛利率33.9%持平，但那是因为里面包含了对冲工具的市价重估（mark-to-market）收益。剔除这些噪音后的调整后毛利率33.3%，同比下降了90个基点，原因写得很直白——&lt;strong&gt;原材料成本上涨&lt;/strong&gt;。管理层在电话会上确认Q1通胀约4%。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;销量还在掉。&lt;/strong&gt; 整个公司的销量贡献是&lt;strong&gt;负4个百分点&lt;/strong&gt;，价格与产品结构贡献正1个百分点。也就是说，卖出去的东西少了，靠卖得贵一点补回来一部分。对一家食品公司来说，这是消费者在货架前用脚投票的直接证据。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;现金流同比下滑25%&lt;/strong&gt;，经营活动现金流从3.97亿降到2.98亿美元。同期公司发了3.30亿美元股息，资本开支0.90亿美元——&lt;strong&gt;本季度股票回购为零&lt;/strong&gt;。这个细节值得注意：通用磨坊上季度末净债务与EBITDA之比略高于4倍，远高于自己3倍的目标，公司把现金优先用来还债了。&lt;/p&gt;
-
-&lt;h2 id=&quot;四个分部两好两坏&quot;&gt;四个分部，两好两坏&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;分部&lt;/th&gt;
-      &lt;th&gt;净销售额&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-      &lt;th&gt;有机同比&lt;/th&gt;
-      &lt;th&gt;分部营业利润&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;北美零售&lt;/td&gt;
-      &lt;td&gt;24.52亿美元&lt;/td&gt;
-      &lt;td&gt;-7%&lt;/td&gt;
-      &lt;td&gt;-3%&lt;/td&gt;
-      &lt;td&gt;4.79亿美元&lt;/td&gt;
-      &lt;td&gt;-15%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;国际&lt;/td&gt;
-      &lt;td&gt;7.94亿美元&lt;/td&gt;
-      &lt;td&gt;+4%&lt;/td&gt;
-      &lt;td&gt;+4%&lt;/td&gt;
-      &lt;td&gt;0.75亿美元&lt;/td&gt;
-      &lt;td&gt;+14%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;北美宠物&lt;/td&gt;
-      &lt;td&gt;6.13亿美元&lt;/td&gt;
-      &lt;td&gt;持平&lt;/td&gt;
-      &lt;td&gt;持平&lt;/td&gt;
-      &lt;td&gt;1.00亿美元&lt;/td&gt;
-      &lt;td&gt;-12%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;北美餐饮服务&lt;/td&gt;
-      &lt;td&gt;5.23亿美元&lt;/td&gt;
-      &lt;td&gt;+1%&lt;/td&gt;
-      &lt;td&gt;+4%&lt;/td&gt;
-      &lt;td&gt;0.79亿美元&lt;/td&gt;
-      &lt;td&gt;+12%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;北美零售最大的盘子最难看的数字&quot;&gt;北美零售——最大的盘子，最难看的数字&lt;/h3&gt;
-
-&lt;p&gt;营收24.5亿美元同比下滑7%，其中4个百分点来自酸奶业务剥离，剩下3个百分点是真跌。拆到细分：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Big G 麦片与加拿大业务：&lt;strong&gt;双位数下滑&lt;/strong&gt;（含酸奶剥离影响）&lt;/li&gt;
-  &lt;li&gt;美国零食：中个位数下滑&lt;/li&gt;
-  &lt;li&gt;美国正餐与烘焙：持平&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;分部营业利润4.79亿美元，同比下滑15%。&lt;/p&gt;
-
-&lt;p&gt;但这里有个反转信号：公司说本季度北美零售的&lt;strong&gt;零售端销售额环比改善了2个百分点&lt;/strong&gt;，而且在多数重点品类里市场份额趋势在变好。电话会上给出的具体数字是——麦片份额同比只丢了0.1个百分点，而一年前是丢0.9个百分点；汤类份额丢0.1个百分点，一年前是0.4个百分点。&lt;/p&gt;
-
-&lt;p&gt;换句话说：&lt;strong&gt;总量还在跌，但跌的速度在明显放缓，而且它不再比对手跌得更快了。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;国际中国和印度是亮点&quot;&gt;国际——中国和印度是亮点&lt;/h3&gt;
-
-&lt;p&gt;营收7.94亿美元同比增长4%，有机同样增长4%。公司明确点名增长来自&lt;strong&gt;分销商市场、印度和中国&lt;/strong&gt;。分部利润0.75亿美元同比增长14%，靠的是销量增长和原材料成本下降，尽管媒体投放同比双位数增加。&lt;/p&gt;
-
-&lt;p&gt;这是四个分部里唯一一个「量价利三线同向」的。销量贡献正6个百分点，价格结构负3个百分点——&lt;strong&gt;靠降价换量，而且换成功了&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h3 id=&quot;北美宠物最大的长期问号&quot;&gt;北美宠物——最大的长期问号&lt;/h3&gt;
-
-&lt;p&gt;营收6.13亿美元，与去年持平。但内部结构分化极大：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;猫粮：&lt;strong&gt;双位数增长&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;宠物零食：低个位数增长&lt;/li&gt;
-  &lt;li&gt;狗粮：&lt;strong&gt;高个位数下滑&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;更值得注意的是量价结构：销量贡献&lt;strong&gt;负6个百分点&lt;/strong&gt;，价格与产品结构贡献&lt;strong&gt;正7个百分点&lt;/strong&gt;。这是一个典型的「卖得越来越少、但越来越贵」的组合。分部营业利润1.00亿美元，同比下滑12%。&lt;/p&gt;
-
-&lt;p&gt;管理层在电话会上承认，干狗粮这个品类整体在以中个位数下滑，而 Blue Buffalo 旗下的 Wilderness（荒野）系列跌得比品类还快。CEO Jeff Harmening 说他们会用改造猫粮 Tastefuls 的同一套方法来救狗粮，但坦言&lt;strong&gt;需要18到24个月&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h3 id=&quot;北美餐饮服务最稳的一块&quot;&gt;北美餐饮服务——最稳的一块&lt;/h3&gt;
-
-&lt;p&gt;营收5.23亿美元同比增长1%（含酸奶剥离的2个百分点拖累），有机增长4%，由麦片和冷冻正餐拉动。分部利润0.79亿美元同比增长12%。公司说这个分部在&lt;strong&gt;100%的重点业务上都保住或抢到了份额&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h3 id=&quot;合资公司&quot;&gt;合资公司&lt;/h3&gt;
-
-&lt;p&gt;CPW（与雀巢合资的国际麦片）固定汇率下净销售额同比下滑4%，哈根达斯日本下滑3%。但合资公司合计税后利润从0.07亿美元升到0.19亿美元——这个增长不是经营变好，而是去年同期CPW有一笔资产减值和交易费用，基数太低。&lt;/p&gt;
-
-&lt;h2 id=&quot;亮点与隐忧&quot;&gt;亮点与隐忧&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;亮点：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;份额趋势明确好转。&lt;/strong&gt; 麦片、汤、Totino’s 三个老大难品类的份额跌幅都在收窄，Totino’s 的跌幅「砍掉了一半」。对一家过去两年被自有品牌和健康零食夹击的老牌食品公司，这是最实质的进展。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;创新占比在提升。&lt;/strong&gt; 新品现在占净销售额的5%，两年前是3%；新品推出数量两年内增加了约50%。高蛋白麦片（尤其是高蛋白版 Honey Nut Cheerios）被管理层点名表现强劲。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;国际业务重新增长&lt;/strong&gt;，且中国被点名为增长来源。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;全年指引一字未改&lt;/strong&gt;，在通胀走高的背景下这本身就是一种表态。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;隐忧：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;销量还在负增长。&lt;/strong&gt; 全公司销量贡献负4个百分点，宠物分部负6个百分点。份额跌幅收窄只说明「跌得比同行慢了」，不等于消费者回来了。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;原材料通胀在Q4会加速。&lt;/strong&gt; 管理层指引Q1到Q3通胀约4%，但&lt;strong&gt;第四季度约6%&lt;/strong&gt;，会超出原先4%-5%的区间上限。小麦成本尤其偏高，公司全年约75%做了套保——反过来说，还有四分之一敞口。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;杠杆偏高。&lt;/strong&gt; 净债务与EBITDA之比略高于4倍，回到3倍目标「至少需要两年」（CFO Kofi Bruce 原话）。这直接解释了为什么本季度零回购。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;狗粮的修复周期是18-24个月&lt;/strong&gt;，这几乎等于说2027财年内不会好转。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;消费者还在等打折。&lt;/strong&gt; 管理层描述中低收入消费者「仍然在等商品打折时才买，而不是等到日常货架价再买」，且假设这一行为会持续整个财年。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;全年指引重申未做任何调整&quot;&gt;全年指引（重申，未做任何调整）&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2027财年指引&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;有机销售额&lt;/td&gt;
-      &lt;td&gt;下滑1.5% 至 增长0.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后营业利润（固定汇率）&lt;/td&gt;
-      &lt;td&gt;下滑13% 至 下滑8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后每股收益&lt;/td&gt;
-      &lt;td&gt;3.00 至 3.20美元&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;自由现金流转化率&lt;/td&gt;
-      &lt;td&gt;约为调整后税后利润的95%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;需要提醒的是，这个「下滑13%到8%」看着很惨，但公司说明里写清楚了：其中约&lt;strong&gt;9个百分点&lt;/strong&gt;的营业利润拖累、约&lt;strong&gt;11个百分点&lt;/strong&gt;的每股收益拖累，来自三件与经营无关的事——上一财年多出来的第53周、恢复正常水平的员工激励计提、以及2026财年那几笔业务剥离。剔除这三项，实际经营层面的降幅是个位数。&lt;/p&gt;
-
-&lt;p&gt;此外，通用磨坊的巴西业务已于2026年9月2日完成剥离，即本季度结束之后——这意味着下个季度的报表口径还会再变一次。&lt;/p&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;p&gt;这是一份&lt;strong&gt;「表面惨烈、内里企稳」&lt;/strong&gt;的财报。&lt;/p&gt;
-
-&lt;p&gt;对普通投资者最容易踩的坑是被负67%的每股收益吓到。真正该看的三件事是：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;调整后每股收益0.75美元超预期&lt;/strong&gt;，营收也超预期；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;北美零售的份额跌幅在明显收窄&lt;/strong&gt;，这是一年多以来第一次能拿出像样的改善证据；&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;全年指引没有任何下调&lt;/strong&gt;，管理层在Q4通胀预计冲到6%的情况下仍然守住了数字。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;风险也很清楚：销量仍在掉、宠物狗粮要修两年、杠杆高到暂停回购、Q4通胀会加速。CEO Jeff Harmening 用的词是「encouraging start（一个令人鼓舞的开局）」——注意他说的是「开局」，不是「转折」。&lt;/p&gt;
-
-&lt;p&gt;市场的反应也很诚实：超预期，但股价还是低走了。华尔街显然认为「跌得慢一点」还不足以支撑重新定价。&lt;/p&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/40704/000162828026063141/a20260923ex99.htm&quot;&gt;通用磨坊 2027财年第一季度业绩新闻稿原文（SEC 8-K Exhibit 99，2026年9月23日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investors.generalmills.com/&quot;&gt;通用磨坊投资者关系官网&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-general-mills-tops-q1-2026-estimates-shares-slip-93CH-4913312&quot;&gt;通用磨坊 2027财年Q1业绩电话会实录（Investing.com）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.benzinga.com/markets/earnings/26/09/61953557/general-mills-warns-inflation-could-hit-6-and-price-hikes-are-still-on-the-table&quot;&gt;Benzinga 报道「通用磨坊警告通胀可能达到6%，提价仍在选项中」&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.marketbeat.com/instant-alerts/transcript-general-mills-q1-earnings-call-highlights-2026-09-23/&quot;&gt;MarketBeat 通用磨坊Q1电话会要点&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 24 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/24/generalmills_fy2027q1_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/24/generalmills_fy2027q1_earnings/</guid>
         
         <category>通用磨坊</category>
         

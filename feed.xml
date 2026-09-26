@@ -5,8 +5,8 @@
     <description>追踪正在发生的，留下值得重读的。AI 前沿日报、公司财报观察、Reddit 社区精选与个人思考，每天筛选值得保存的内容。</description>
     <link>https://zluckyhou.github.io/</link>
     <atom:link href="https://zluckyhou.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 26 Sep 2026 09:13:08 +0800</pubDate>
-    <lastBuildDate>Sat, 26 Sep 2026 09:13:08 +0800</lastBuildDate>
+    <pubDate>Sat, 26 Sep 2026 09:32:46 +0800</pubDate>
+    <lastBuildDate>Sat, 26 Sep 2026 09:32:46 +0800</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -201,6 +201,1353 @@
         
         
         <category>reddit</category>
+        
+      </item>
+    
+      <item>
+        <title>TD SYNNEX 2026财年Q3电话会——CFO承诺第四季度现金流转正、2027财年各业务全面产生现金，被十家机构连环追问AI订单还能撑多久</title>
+        <description>&lt;p&gt;美东时间2026年9月24日上午9点（北京时间当日21点），&lt;a href=&quot;https://ir.tdsynnex.com/&quot;&gt;TD SYNNEX&lt;/a&gt;（NYSE: SNX）在发布2026财年第三季度财报后召开了业绩电话会。&lt;/p&gt;
+
+&lt;p&gt;财报数字我们在&lt;a href=&quot;/blog/2026/09/26/tdsynnex_fy2026q3_earnings/&quot;&gt;前一篇财报解读&lt;/a&gt;里已经拆过：营收215.58亿美元同比增长37.7%，非GAAP开单额318亿美元同比增长40%，非GAAP每股收益5.68美元远超预期的4.64美元——但单季自由现金流为负9.76亿美元，股价当天大跌约11.9%。&lt;/p&gt;
+
+&lt;p&gt;这场电话会因此变成了一场&lt;strong&gt;围绕现金流的连环追问&lt;/strong&gt;。十家机构提问，其中至少四家直接或间接问到了营运资金和利润率。&lt;/p&gt;
+
+&lt;p&gt;出席管理层两位：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Patrick Zammit&lt;/strong&gt;，首席执行官&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;David Jordan&lt;/strong&gt;，首席财务官&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;（说明：本文所引述的管理层表态依据公开发布的电话会实录整理。）&lt;/p&gt;
+
+&lt;h2 id=&quot;管理层核心表态&quot;&gt;管理层核心表态&lt;/h2&gt;
+
+&lt;h3 id=&quot;一首次给出分部拆分hyve翻倍但利润率掉了14个百分点&quot;&gt;一、首次给出分部拆分：Hyve翻倍，但利润率掉了1.4个百分点&lt;/h3&gt;
+
+&lt;p&gt;新闻稿里完全没有分部数据，电话会上才给：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;分销业务&lt;/strong&gt;：非GAAP开单额248亿美元，同比增长27%，营业利润率按开单额口径1.95%，同比扩大35个基点&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hyve业务&lt;/strong&gt;：非GAAP开单额70亿美元，&lt;strong&gt;同比增长117%&lt;/strong&gt;，营业利润率从去年同期的5.04%降至&lt;strong&gt;3.61%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Jordan 把Hyve利润率下滑的原因说得很明确：一个大型AI服务器项目”是盈利的，但利润率略低于平均水平”。&lt;/p&gt;
+
+&lt;p&gt;Zammit 对Hyve当前状态的描述也很坦率：&lt;strong&gt;“这块业务正在消化大规模的客户爬坡、制造产能扩张和高强度的投资活动。”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;细分看，Hyve内部制造业务增长超过130%，供应链服务增长超过90%。&lt;/p&gt;
+
+&lt;h3 id=&quot;二对近10亿美元现金缺口的正面回应&quot;&gt;二、对近10亿美元现金缺口的正面回应&lt;/h3&gt;
+
+&lt;p&gt;这是全场最关键的一段。Jordan 的说法是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“本季度自由现金流消耗约为10亿美元。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;原因是Hyve的存货投入和新客户爬坡。总现金周转天数（gross cash conversion cycle）同比增加6天至22天。&lt;/p&gt;
+
+&lt;p&gt;然后他给出了三个层次的承诺：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;“我们现在已经把支撑预期增长所需的投资的相当大一部分落实到位了”&lt;/strong&gt;——意思是最猛的一波垫资已经过去&lt;/li&gt;
+  &lt;li&gt;第四季度就会”随着近期投放的营运资金开始正常化而产生现金”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2027财年，所有业务都将成为”可持续的现金生成者”&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;他还补了一个很有说服力的论据：Hyve那些已经成熟的老项目”正在产生自由现金流”。也就是说，现在烧钱的是新项目的爬坡期，不是这门生意本身的商业模式有问题。&lt;/p&gt;
+
+&lt;h3 id=&quot;三新签订单的利润率中性到增厚&quot;&gt;三、新签订单的利润率”中性到增厚”&lt;/h3&gt;
+
+&lt;p&gt;这句话在电话会上被管理层重复了至少三次，几乎成了口号：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“我们赢下的新项目——主要是制造类——对Hyve来说是中性到增厚的。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jordan 强调，项目会随着运行时间成熟，”我们会持续找到改善利润率的办法”。他的结论是：利润率已经企稳，未来应当改善。&lt;/p&gt;
+
+&lt;h3 id=&quot;四坚持认为数据中心需求没有见顶&quot;&gt;四、坚持认为数据中心需求没有见顶&lt;/h3&gt;
+
+&lt;p&gt;Zammit 的原话是：&lt;strong&gt;“我们对市场前景整体上继续保持正面看法。”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;他的论据分两层：超大规模云厂商仍在持续支持前沿模型的训练；而&lt;strong&gt;“企业正在越来越多地投资于智能体（agentic）能力”&lt;/strong&gt;，把它视为提升生产力和改善客户体验的手段。&lt;/p&gt;
+
+&lt;p&gt;他还提到与合作伙伴达成的一项协议，将通过渠道支持”规模最大的企业级AI工厂基础设施部署之一”，结合设计、集成、部署和供应链能力。&lt;/p&gt;
+
+&lt;p&gt;不过他用的措辞是”我们谨慎乐观”（cautiously optimistic），而不是无条件看多。&lt;/p&gt;
+
+&lt;h3 id=&quot;五ai-pc已占个人计算收入近50&quot;&gt;五、AI PC已占个人计算收入近50%&lt;/h3&gt;
+
+&lt;p&gt;这是电话会上一个容易被忽略但很有信息量的数字。&lt;/p&gt;
+
+&lt;p&gt;Zammit 说，PC业务收入实现了两位数增长，但&lt;strong&gt;出货量同比下降中高个位数&lt;/strong&gt;——增长全靠单价。单价上涨有两个原因：零部件（尤其是内存）涨价，以及”市场更多在买中高端PC而不是低端PC”，这背后有厂商的产能分配策略。&lt;/p&gt;
+
+&lt;p&gt;他明确表示”换机潮还没结束，我们还应该能看到一些顺风”。而&lt;strong&gt;AI PC现在占公司个人计算业务收入的近50%&lt;/strong&gt;，管理层把它定位为”运行AI工作负载的基础设施的重要组成部分”。&lt;/p&gt;
+
+&lt;h2 id=&quot;分析师问答中最有信息量的几个&quot;&gt;分析师问答中最有信息量的几个&lt;/h2&gt;
+
+&lt;h3 id=&quot;q1摩根大通ai基建竞争这么激烈新订单凭什么还能保住利润率&quot;&gt;Q1（摩根大通）：AI基建竞争这么激烈，新订单凭什么还能保住利润率？&lt;/h3&gt;
+
+&lt;p&gt;这是开场第一个问题，直指市场最大的疑虑——在所有人都抢AI订单的时候，”中性到增厚”这个说法可信吗？&lt;/p&gt;
+
+&lt;p&gt;Jordan 的回答是把范围限定住：新赢的项目”主要是制造类”，制造类的定价纪律好于纯供应链服务。加上项目成熟后还有优化空间，所以他”有信心利润率已经企稳，未来会改善”。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 这个回答其实回避了竞争问题本身。管理层没有正面回应”竞争会不会压价”，只是说”我们签的这些没被压价”。&lt;/p&gt;
+
+&lt;h3 id=&quot;q2northcoast-research-keith-housum甲骨文传出削减开支数据中心支出是不是到顶了&quot;&gt;Q2（Northcoast Research, Keith Housum）：甲骨文传出削减开支，数据中心支出是不是到顶了？&lt;/h3&gt;
+
+&lt;p&gt;这是全场最尖锐的一个问题，直接把市场当时流传的传闻端上台面。&lt;/p&gt;
+
+&lt;p&gt;Zammit 的回答见上文第四点——超大规模厂商继续投前沿模型，企业开始投智能体。他用Hyve拿下的新客户作为佐证。&lt;/p&gt;
+
+&lt;p&gt;Housum 追问了合同取消风险。Jordan 承认长期协议中”如果对方不履约，存在潜在的取消权”，但强调一个项目从签约到爬坡需要&lt;strong&gt;约一年时间&lt;/strong&gt;，这本身就是壁垒。他说：”我们对Hyve在其所服务客户中的位置感觉非常好。”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 承认有取消条款，但用”切换成本高”来对冲。这个回答是诚实的，但也确认了客户集中度是真实风险。&lt;/p&gt;
+
+&lt;h3 id=&quot;q3美银-ruplu-bhattacharya毛利率掉61个基点美洲地区高级解决方案掉了120个基点到底怎么回事&quot;&gt;Q3（美银, Ruplu Bhattacharya）：毛利率掉61个基点，美洲地区高级解决方案掉了120个基点，到底怎么回事？&lt;/h3&gt;
+
+&lt;p&gt;Jordan 的回答：&lt;strong&gt;“我们说的结构变化主要是产品相关的。”&lt;/strong&gt;北美的基础设施建设涉及”更大额的交易”，大单天然利润率略低。Hyve那边则是那个大型AI服务器项目拉低了平均值。&lt;/p&gt;
+
+&lt;h3 id=&quot;q4摩根士丹利-erik-woodring这是结构问题还是定价出了问题&quot;&gt;Q4（摩根士丹利, Erik Woodring）：这是结构问题还是定价出了问题？&lt;/h3&gt;
+
+&lt;p&gt;Woodring 把问题问得更深一层：高级解决方案的利润率压力，到底是产品结构使然，还是成本加成模式本身出了问题？&lt;/p&gt;
+
+&lt;p&gt;Jordan 的回答值得逐字看：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“如果你真的把这些利润率拆开细看，它们是相对稳定的。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;大单倾向于低利润率，AI基础设施销售”是盈利的，但低于平均利润率”。他的结论是：&lt;strong&gt;“从品类维度看，结构上利润率依然高度有韧性。”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Zammit 补充说，管理层每月按地区、技术、厂商、客户分层复盘利润率，看的是”同口径比较”下的稳定性。他强调营业利润率”过去几个季度持续改善”——这一点财报数据确实支持（非GAAP营业利润率从3.03%升到3.42%）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 管理层想传递的信息是——毛利率下降是”卖得多了、大单多了”的自然结果，不是定价能力受损。营业利润率在扩张，是这个说法最有力的证据。&lt;/p&gt;
+
+&lt;h3 id=&quot;q5瑞银-david-vogt2027年营运资金到底要多少&quot;&gt;Q5（瑞银, David Vogt）：2027年营运资金到底要多少？&lt;/h3&gt;
+
+&lt;p&gt;Vogt 问了一个所有人都想问的问题：业务结构性增长50%，营运资金需求最终会稳定在什么水平？&lt;/p&gt;
+
+&lt;p&gt;Jordan 给的答案是：&lt;strong&gt;“我们预计总现金天数会环比改善几天。”&lt;/strong&gt;随着项目爬坡完成，”往前看，我们预计所有业务都会变成现金生成型”，时间点是2027财年。&lt;/p&gt;
+
+&lt;p&gt;Zammit 再次搬出了成熟项目的例子：”当它们达到成熟期时，是产生自由现金流的。”他表示”不担心”。&lt;/p&gt;
+
+&lt;h3 id=&quot;q6巴克莱-guy-hardwick与亚马逊的认股权证协议是怎么回事&quot;&gt;Q6（巴克莱, Guy Hardwick）：与亚马逊的认股权证协议是怎么回事？&lt;/h3&gt;
+
+&lt;p&gt;这是电话会上一个信息量很大但被轻描淡写带过的问题。Hardwick 问该协议对第三季度收入的影响以及行权披露。&lt;/p&gt;
+
+&lt;p&gt;Jordan 的回答很简短：&lt;strong&gt;“这是一份为期七年的协议，我们预计在协议期内双方都会受益。我认为现在谈具体细节还为时过早。”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 向大客户发行认股权证（warrant）是超大规模厂商供应链里常见的深度绑定安排——客户拿到按约定价格买入供应商股票的权利，以换取长期采购承诺。七年期意味着这是一个战略级绑定，但也意味着&lt;strong&gt;未来存在股权稀释&lt;/strong&gt;。管理层选择不展开，值得后续跟踪。&lt;/p&gt;
+
+&lt;h3 id=&quot;q7高盛-katherine-murphyhyve新项目的产品结构是什么&quot;&gt;Q7（高盛, Katherine Murphy）：Hyve新项目的产品结构是什么？&lt;/h3&gt;
+
+&lt;p&gt;Zammit 说，第三季度是一个GPU大项目叠加强劲的网络设备。而&lt;strong&gt;新赢下的项目”主要是网络类项目，同样是好的利润率”&lt;/strong&gt;，第三季度开始爬坡，第四季度到明年第一季度加速。&lt;/p&gt;
+
+&lt;p&gt;他在开场白中还提到，客户正在更早期就介入开发，这为2027年上半年投产的&lt;strong&gt;先进液冷网络机架&lt;/strong&gt;创造了机会。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 从GPU服务器往网络设备走，是个好信号——AI数据中心的网络侧（交换机、互联）正在成为新的瓶颈和新的利润池。&lt;/p&gt;
+
+&lt;h3 id=&quot;q8rbc-david-paigepc换机还有多少空间&quot;&gt;Q8（RBC, David Paige）：PC换机还有多少空间？&lt;/h3&gt;
+
+&lt;p&gt;Zammit 的回答见上文第五点。核心是：量在跌，价在涨，AI PC占比近50%，换机潮没结束。&lt;/p&gt;
+
+&lt;p&gt;另外在回答Loop Capital关于网络业务的追问时，他给了一个数字：&lt;strong&gt;网络业务同比增长19%&lt;/strong&gt;，是硬件品类里增速最慢的，但”存在大规模换代需求，Wi-Fi 7、支持AI的交换机”，且开始出现涨价。他的判断是”这个品类非常强劲，我认为还会持续一段时间”。&lt;/p&gt;
+
+&lt;h3 id=&quot;q9barrington-research-vincent-colicchio客户在集中供应商吗&quot;&gt;Q9（Barrington Research, Vincent Colicchio）：客户在集中供应商吗？&lt;/h3&gt;
+
+&lt;p&gt;Zammit 说，TD SYNNEX持续跑赢大盘反映的是”专家化打法”——按技术领域做差异化价值主张，帮客户交付”越来越复杂的业务成果”。&lt;/p&gt;
+
+&lt;p&gt;更重要的是厂商侧的变化：&lt;strong&gt;厂商社区正在”加速”精简渠道，减少直客数量和分销商数量。&lt;/strong&gt;他的结论：”因为我们的价值主张，我们会继续从这个趋势中受益。”&lt;/p&gt;
+
+&lt;h2 id=&quot;解读这场电话会到底说明了什么&quot;&gt;解读：这场电话会到底说明了什么&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，管理层把全部信用押在了”第四季度现金流转正”上。&lt;/strong&gt; Jordan 说了三遍类似的话：投资的大头已经到位、第四季度产生现金、2027财年全面转正。这是一个可证伪的承诺，而且验证时间就在三个月后。如果第四季度现金流没转正，这只股票会被打得更惨。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，毛利率与营业利润率的背离是理解这家公司的钥匙。&lt;/strong&gt; 毛利率跌61个基点，非GAAP营业利润率却涨39个基点。这说明：产品结构确实在往低毛利倾斜（AI大单），但公司的费用效率提升更快，净效果是赚得更多。管理层反复强调”按品类看利润率是稳定的”，数据上站得住。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，Hyve的客户集中度被承认了，但被模糊化处理了。&lt;/strong&gt; CFO确认了取消条款的存在，用”爬坡需要一年”来论证粘性，用亚马逊七年期认股权证来论证绑定。三条都对，但都改变不了一个事实：&lt;strong&gt;70亿美元的季度开单额来自很少的几个客户。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，最值得注意的其实不是AI服务器，而是网络。&lt;/strong&gt; 新赢的Hyve项目”主要是网络类”，网络分销业务增长19%且开始涨价，2027上半年投产液冷网络机架。如果说GPU这一轮已经被充分定价，AI数据中心的网络侧可能是下一个尚未被完全定价的环节。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第五，AI PC占个人计算收入近50%，是一个被严重低估的数据点。&lt;/strong&gt; 这说明AI PC已经不是概念，而是实际的出货主力。但也要注意Zammit说的另一半：&lt;strong&gt;出货量在跌，是靠涨价撑住的收入。&lt;/strong&gt;内存涨价推高了PC单价——这对TD SYNNEX的收入是好事，对终端需求未必。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;这是一场”业绩无可挑剔、但管理层整场都在为现金流辩护”的电话会。&lt;/p&gt;
+
+&lt;p&gt;十家机构提问，问题高度集中在三个方向：&lt;strong&gt;AI需求会不会见顶、Hyve的利润率能不能守住、垫进去的钱什么时候能收回来。&lt;/strong&gt;管理层对三个问题都给了正面回答，而且给得足够具体——第四季度转正、2027财年全面转正、新项目中性到增厚、成熟项目已在产生现金。&lt;/p&gt;
+
+&lt;p&gt;市场当天不买账，用近12%的跌幅表达了态度。但公平地说，管理层这次没有回避任何一个尖锐问题，连甲骨文削减开支的传闻和亚马逊认股权证都正面接了。&lt;/p&gt;
+
+&lt;p&gt;接下来最该跟踪的只有一件事：&lt;strong&gt;2026财年第四季度（截至11月30日）的自由现金流。&lt;/strong&gt;管理层已经把话说满了，这是一张三个月后就要兑现的支票。&lt;/p&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/09/24/td-synnex-snx-q3-2026-earnings-call-transcript/&quot;&gt;TD SYNNEX (SNX) Q3 2026 Earnings Call Transcript（The Motley Fool 电话会完整实录）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001177394/000162828026063314/ex991-fy26q3pressrelease.htm&quot;&gt;TD SYNNEX Reports Record Fiscal 2026 Third Quarter Results（SEC 8-K 附件99.1原文）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ir.tdsynnex.com/&quot;&gt;TD SYNNEX 投资者关系页&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;媒体参考（股价反应）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-td-synnex-tops-q3-2026-forecasts-but-shares-fall-93CH-4915629&quot;&gt;Earnings call transcript — TD SYNNEX tops Q3 2026 forecasts but shares fall（Investing.com）&lt;/a&gt;、&lt;a href=&quot;https://www.benzinga.com/markets/earnings/26/09/61978922/td-synnex-says-data-center-demand-isnt-cracking&quot;&gt;Why Is TD SYNNEX Stock Sinking Thursday?（Benzinga）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 26 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/26/tdsynnex_fy2026q3_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/26/tdsynnex_fy2026q3_earnings_call/</guid>
+        
+        <category>TD SYNNEX</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>TD SYNNEX 2026财年Q3——营收216亿美元同比暴增37.7%创纪录，股价却当天大跌近12%</title>
+        <description>&lt;p&gt;美东时间2026年9月24日美股开盘前（北京时间当日晚间），&lt;a href=&quot;https://ir.tdsynnex.com/&quot;&gt;TD SYNNEX&lt;/a&gt;（NYSE: SNX）发布了截至2026年8月31日的2026财年第三季度财报。&lt;/p&gt;
+
+&lt;p&gt;这份财报几乎每一项经营指标都创了纪录，每一项都超出公司自己给的指引上限，每一项都大幅超越华尔街预期——然后股价当天跌了约11.9%。&lt;/p&gt;
+
+&lt;p&gt;先看核心数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;营收215.58亿美元，同比增长37.7%（不变汇率口径+38.4%），市场预期187.9亿美元&lt;/li&gt;
+  &lt;li&gt;非GAAP开单额（gross billings）318.28亿美元，同比增长40.0%&lt;/li&gt;
+  &lt;li&gt;GAAP营业利润6.43亿美元，同比增长67.6%&lt;/li&gt;
+  &lt;li&gt;非GAAP营业利润7.36亿美元，同比增长55.1%&lt;/li&gt;
+  &lt;li&gt;GAAP净利润4.16亿美元，同比增长83.5%&lt;/li&gt;
+  &lt;li&gt;GAAP摊薄每股收益5.18美元，同比增长89.1%&lt;/li&gt;
+  &lt;li&gt;非GAAP摊薄每股收益5.68美元，同比增长58.7%，市场预期4.64美元&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;然后是市场真正盯上的那个数字：单季自由现金流为负9.756亿美元&lt;/strong&gt;，去年同期为正2.139亿美元。&lt;/p&gt;
+
+&lt;h2 id=&quot;先搞清楚这家公司是干什么的&quot;&gt;先搞清楚这家公司是干什么的&lt;/h2&gt;
+
+&lt;p&gt;TD SYNNEX这个名字在中国知名度不高，但它是一家《财富》100强公司，2021年由Tech Data和SYNNEX合并而成，总部在美国佛罗里达州克利尔沃特和加州弗里蒙特。它服务100多个国家的15万多家客户。&lt;/p&gt;
+
+&lt;p&gt;它的生意分两块：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一块是分销（Distribution）&lt;/strong&gt;，也就是传统IT分销商的角色：从思科、惠普、戴尔、微软、英伟达这些厂商进货，卖给全球成千上万的系统集成商、经销商、IT服务商。这门生意的特点是&lt;strong&gt;规模巨大、毛利极薄&lt;/strong&gt;——本季毛利率只有6.61%。它赚的是周转的钱，不是差价的钱。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二块是Hyve&lt;/strong&gt;，这块才是这个季度的主角。Hyve是”原始设计制造商”（ODM），给超大规模云厂商（hyperscaler，指亚马逊、微软、谷歌、Meta这类自建数据中心的巨头）定制设计并生产服务器、机架、网络设备。AI热潮起来之后，这块业务爆炸式增长。&lt;/p&gt;
+
+&lt;p&gt;理解这家公司还要懂一个术语：&lt;strong&gt;开单额（gross billings）与营收的区别&lt;/strong&gt;。当TD SYNNEX只是”过手”某些第三方软件订阅或服务合同时，会计准则不允许它按全额确认收入，只能确认净额。所以开单额（318亿美元）永远大于营收（216亿美元），中间的差额本季是102.7亿美元，占比32.3%。开单额更能反映真实的业务体量。&lt;/p&gt;
+
+&lt;h2 id=&quot;核心财务数据&quot;&gt;核心财务数据&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026财年Q3&lt;/th&gt;
+      &lt;th&gt;2025财年Q3&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP开单额&lt;/td&gt;
+      &lt;td&gt;318.28亿美元&lt;/td&gt;
+      &lt;td&gt;227.31亿美元&lt;/td&gt;
+      &lt;td&gt;+40.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收&lt;/td&gt;
+      &lt;td&gt;215.58亿美元&lt;/td&gt;
+      &lt;td&gt;156.51亿美元&lt;/td&gt;
+      &lt;td&gt;+37.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利&lt;/td&gt;
+      &lt;td&gt;14.25亿美元&lt;/td&gt;
+      &lt;td&gt;11.30亿美元&lt;/td&gt;
+      &lt;td&gt;+26.2%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率&lt;/td&gt;
+      &lt;td&gt;6.61%&lt;/td&gt;
+      &lt;td&gt;7.22%&lt;/td&gt;
+      &lt;td&gt;-61个基点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP营业利润&lt;/td&gt;
+      &lt;td&gt;6.43亿美元&lt;/td&gt;
+      &lt;td&gt;3.84亿美元&lt;/td&gt;
+      &lt;td&gt;+67.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP营业利润率&lt;/td&gt;
+      &lt;td&gt;2.98%&lt;/td&gt;
+      &lt;td&gt;2.45%&lt;/td&gt;
+      &lt;td&gt;+53个基点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP营业利润&lt;/td&gt;
+      &lt;td&gt;7.36亿美元&lt;/td&gt;
+      &lt;td&gt;4.75亿美元&lt;/td&gt;
+      &lt;td&gt;+55.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP营业利润率&lt;/td&gt;
+      &lt;td&gt;3.42%&lt;/td&gt;
+      &lt;td&gt;3.03%&lt;/td&gt;
+      &lt;td&gt;+39个基点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP净利润&lt;/td&gt;
+      &lt;td&gt;4.16亿美元&lt;/td&gt;
+      &lt;td&gt;2.27亿美元&lt;/td&gt;
+      &lt;td&gt;+83.5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP摊薄EPS&lt;/td&gt;
+      &lt;td&gt;5.18美元&lt;/td&gt;
+      &lt;td&gt;2.74美元&lt;/td&gt;
+      &lt;td&gt;+89.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP摊薄EPS&lt;/td&gt;
+      &lt;td&gt;5.68美元&lt;/td&gt;
+      &lt;td&gt;3.58美元&lt;/td&gt;
+      &lt;td&gt;+58.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流&lt;/td&gt;
+      &lt;td&gt;-9.167亿美元&lt;/td&gt;
+      &lt;td&gt;+2.461亿美元&lt;/td&gt;
+      &lt;td&gt;转负&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;自由现金流&lt;/td&gt;
+      &lt;td&gt;-9.756亿美元&lt;/td&gt;
+      &lt;td&gt;+2.139亿美元&lt;/td&gt;
+      &lt;td&gt;转负&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;前三季度累计：营收582.94亿美元（去年同期451.29亿美元，+29.2%），非GAAP摊薄每股收益15.25美元（去年同期9.37美元），但&lt;strong&gt;经营活动现金流为负20.78亿美元&lt;/strong&gt;（去年同期为正0.71亿美元），自由现金流为负22.37亿美元。&lt;/p&gt;
+
+&lt;p&gt;这里出现了一个教科书级的错位：&lt;strong&gt;利润表极其亮眼，现金流量表在流血。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;现金流到底去哪儿了&quot;&gt;现金流到底去哪儿了&lt;/h2&gt;
+
+&lt;p&gt;答案全在资产负债表上：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;项目&lt;/th&gt;
+      &lt;th&gt;2026年8月31日&lt;/th&gt;
+      &lt;th&gt;2025年11月30日&lt;/th&gt;
+      &lt;th&gt;变化&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;现金及现金等价物&lt;/td&gt;
+      &lt;td&gt;7.49亿美元&lt;/td&gt;
+      &lt;td&gt;24.35亿美元&lt;/td&gt;
+      &lt;td&gt;-16.86亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;应收账款净额&lt;/td&gt;
+      &lt;td&gt;149.54亿美元&lt;/td&gt;
+      &lt;td&gt;117.08亿美元&lt;/td&gt;
+      &lt;td&gt;+32.46亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;存货&lt;/td&gt;
+      &lt;td&gt;152.92亿美元&lt;/td&gt;
+      &lt;td&gt;95.04亿美元&lt;/td&gt;
+      &lt;td&gt;+57.88亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;存货九个月增加了57.9亿美元，增幅60.9%；应收账款增加32.5亿美元。&lt;/strong&gt;这两项加起来吞掉了90亿美元的营运资金。&lt;/p&gt;
+
+&lt;p&gt;为了填这个窟窿，公司本季在循环信贷上净借款15.00亿美元（同时偿还了7.00亿美元长期债务）。九个月现金余额从24.35亿美元掉到7.49亿美元。&lt;/p&gt;
+
+&lt;p&gt;这些钱压在哪里？压在Hyve为超大规模客户备的GPU服务器、网络机架和零部件上。AI服务器的单价极高，而ODM模式意味着TD SYNNEX得先垫钱把货造出来，客户提货后才收款。&lt;strong&gt;增长越快，垫的钱越多。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;分业务hyve开单额同比翻了一倍多&quot;&gt;分业务：Hyve开单额同比翻了一倍多&lt;/h2&gt;
+
+&lt;p&gt;分部数据公司未在新闻稿中披露，以下来自同日业绩电话会：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;分销业务&lt;/strong&gt;：开单额248亿美元，同比增长27%，营业利润率按开单额口径为1.95%，同比扩大35个基点&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hyve业务&lt;/strong&gt;：开单额70亿美元，&lt;strong&gt;同比增长117%&lt;/strong&gt;，但营业利润率从去年同期的5.04%降到3.61%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;也就是说，占比更小的Hyve贡献了增量的大头，但它是&lt;strong&gt;用利润率换规模&lt;/strong&gt;：新接的AI服务器大单虽然赚钱，但毛利率低于公司平均水平。这正是全公司毛利率下滑61个基点的主因。&lt;/p&gt;
+
+&lt;p&gt;分销这一侧倒是很健康：27%的增长在IT分销行业里属于远超大盘的水平，而且利润率还在扩。管理层提到几个驱动因素——企业AI从试点走向生产部署、数据中心现代化改造、与IBM的合作扩展到欧洲、亚太、拉美的20个新增国家，以及一个容易被忽略的结构性变化：&lt;strong&gt;AI PC现在已经占到个人计算业务收入的近50%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;第四季度指引&quot;&gt;第四季度指引&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026财年Q4指引&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营收&lt;/td&gt;
+      &lt;td&gt;218亿至226亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP开单额&lt;/td&gt;
+      &lt;td&gt;314亿至324亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP净利润&lt;/td&gt;
+      &lt;td&gt;3.68亿至4.08亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;4.58至5.08美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;非GAAP摊薄每股收益&lt;/td&gt;
+      &lt;td&gt;5.65至6.15美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;摊薄股本&lt;/td&gt;
+      &lt;td&gt;约7920万股&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;按中值算，第四季度开单额约319亿美元，同比增长约31%；非GAAP每股收益约5.90美元，同比增长约54%。增速较第三季度略有放缓，但仍然很高。&lt;/p&gt;
+
+&lt;p&gt;公司同时宣布季度现金股息每股0.48美元，同比增长9%，10月30日发放。本季回购股票约1.003亿美元，加上股息合计向股东返还1.39亿美元。&lt;/p&gt;
+
+&lt;h2 id=&quot;亮点与隐忧&quot;&gt;亮点与隐忧&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;亮点一：这是AI基础设施需求最直接的温度计之一。&lt;/strong&gt; TD SYNNEX不做芯片、不做云，它只负责把货运到客户手里。开单额同比增长40%、Hyve增长117%，说明&lt;strong&gt;订单不是PPT上的，是真的在出货&lt;/strong&gt;。管理层还提到与客户签下的一项大规模英伟达AI工厂部署协议。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;亮点二：利润率在扩，不是在卷。&lt;/strong&gt; 非GAAP营业利润率从3.03%升到3.42%。对一家毛利率只有6.6%的分销商来说，39个基点是巨大的改善，说明费用控制得很好，规模效应在起作用。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;亮点三：分销业务的份额在涨。&lt;/strong&gt; 管理层称，厂商正在加速精简渠道、减少直客和分销商数量，这个趋势对头部玩家有利。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧一：22亿美元的现金消耗是真问题。&lt;/strong&gt; 九个月自由现金流为负22.37亿美元，现金从24亿掉到7.5亿，靠借钱维持。管理层承诺第四季度就会转正、2027财年各业务都会产生现金——但这是承诺，不是事实。只要AI订单继续以这个速度增长，营运资金的窟窿就会继续扩大。这是”增长的代价”，也可能是”增长的陷阱”。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧二：毛利率结构性下移。&lt;/strong&gt; 6.61%的毛利率比去年低61个基点，而且下滑的原因是产品结构变了——AI大单天然低毛利。这不是周期性波动，是Hyve占比上升带来的结构性稀释。公司说新签的Hyve项目”对整体利润率是中性到增厚”，需要后续季度验证。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧三：客户集中度。&lt;/strong&gt; Hyve的本质是给少数几家超大规模云厂商代工。CFO在电话会上被问到取消风险时承认，长期协议里”如果对方不履约，存在潜在的取消权”。一家客户的资本开支节奏变化，就能让70亿美元的季度开单额打折。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧四：这轮增长的可持续性无人能证明。&lt;/strong&gt; 市场当天用近12%的跌幅表达的，其实不是对这个季度的不满，而是对”AI基建见顶”这个叙事的恐惧——记录级的业绩配上记录级的现金消耗，是典型的周期顶部特征。当然，也可能只是增长早期的正常形态。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;TD SYNNEX这份财报是2026年AI基建链条上最真实的一份切片：&lt;strong&gt;需求是真的，出货是真的，钱也是真的花出去了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;营收增长37.7%、开单额增长40%、Hyve增长117%、每股收益超预期22%——任何一项拿出来都是好消息。但把利润表和现金流量表放在一起看，故事就变成了另一个样子：公司用了90亿美元的营运资金、借了15亿美元的短债，去换这个季度的增长。&lt;/p&gt;
+
+&lt;p&gt;股价当天从287.89美元跌到250多美元，市场的逻辑很简单：&lt;strong&gt;在AI基建这个赛道上，投资者现在盯的不是你赚了多少利润，而是你为了赚这些利润垫了多少钱、什么时候能收回来。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;接下来一个季度最该跟踪的就一件事：第四季度自由现金流到底转不转正。管理层已经把话说死了。&lt;/p&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001177394/000162828026063314/ex991-fy26q3pressrelease.htm&quot;&gt;TD SYNNEX Reports Record Fiscal 2026 Third Quarter Results（SEC 8-K 附件99.1原文，含完整财务报表）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ir.tdsynnex.com/&quot;&gt;TD SYNNEX 投资者关系页&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/09/24/td-synnex-snx-q3-2026-earnings-call-transcript/&quot;&gt;TD SYNNEX (SNX) Q3 2026 Earnings Call Transcript（The Motley Fool 电话会实录，分部数据来源）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;媒体参考（分析师预期与股价反应）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-td-synnex-tops-q3-2026-forecasts-but-shares-fall-93CH-4915629&quot;&gt;Earnings call transcript — TD SYNNEX tops Q3 2026 forecasts but shares fall（Investing.com）&lt;/a&gt;、&lt;a href=&quot;https://www.benzinga.com/markets/earnings/26/09/61978922/td-synnex-says-data-center-demand-isnt-cracking&quot;&gt;Why Is TD SYNNEX Stock Sinking Thursday?（Benzinga）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 26 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/26/tdsynnex_fy2026q3_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/26/tdsynnex_fy2026q3_earnings/</guid>
+        
+        <category>TD SYNNEX</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>H&amp;M 2026年Q3电话会——公司确认关税退款「不会再有」，全年费用指引收窄至区间下沿，ERP改造要拖到2028年</title>
+        <description>&lt;p&gt;瑞典时间2026年9月24日上午9点（北京时间当日15点），&lt;a href=&quot;https://hmgroup.com/investors/&quot;&gt;H&amp;amp;M&lt;/a&gt;（纳斯达克斯德哥尔摩交易所代码 HM.B）在发布九个月报告一小时后召开了业绩电话会。&lt;/p&gt;
+
+&lt;p&gt;财报数字我们在&lt;a href=&quot;/blog/2026/09/26/hm_2026q3_earnings/&quot;&gt;前一篇财报解读&lt;/a&gt;里已经拆过：第三季度净销售额571.89亿瑞典克朗按本币计仅增1%，营业利润60.37亿瑞典克朗同比增长22.9%远超预期，但毛利率里有约1.6个百分点来自关税与进口货物的一次性效应，股价当天跌约3%。&lt;/p&gt;
+
+&lt;p&gt;这篇只讲电话会上的&lt;strong&gt;增量信息&lt;/strong&gt;。H&amp;amp;M的季度报告一向简短（不分区域、不分品牌披露销售），所以电话会几乎是外界了解细节的唯一渠道。&lt;/p&gt;
+
+&lt;p&gt;出席的三位：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Daniel Ervér&lt;/strong&gt;，首席执行官&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Adam Karlsson&lt;/strong&gt;，首席财务官&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Joseph Ahlberg&lt;/strong&gt;，投资者关系主管&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;提问机构十余家，包括SB1 Markets、丹斯克银行、ABG Sundal Collier、DNB Carnegie、RBC、摩根大通、瑞银、巴克莱、美国银行、法国巴黎银行，以及时装行业媒体《女装日报》。&lt;/p&gt;
+
+&lt;p&gt;（说明：本文所引述的管理层表态依据公开发布的电话会实录整理，部分为要点转述，直接引语已标注。）&lt;/p&gt;
+
+&lt;h2 id=&quot;管理层核心表态&quot;&gt;管理层核心表态&lt;/h2&gt;
+
+&lt;h3 id=&quot;一最重要的一句关税退款不会再有&quot;&gt;一、最重要的一句：关税退款「不会再有」&lt;/h3&gt;
+
+&lt;p&gt;RBC 的 Richard Chamberlain 问到了所有人最关心的问题：这笔推高毛利率1.6个百分点的关税退款，后面还有没有？&lt;/p&gt;
+
+&lt;p&gt;投资者关系主管 Joseph Ahlberg 的回答非常干脆：&lt;strong&gt;“不会再有”&lt;/strong&gt;（no further）——第三季度已经走完了这个结构化的退款流程。&lt;/p&gt;
+
+&lt;p&gt;这一句话基本决定了市场当天的反应。它意味着：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;第四季度的毛利率没有这1.6个百分点的支撑&lt;/li&gt;
+  &lt;li&gt;更重要的是，&lt;strong&gt;2027财年第三季度会面对一个1.6个百分点的同比高基数&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;也就是说，本季这个漂亮的54.0%毛利率，是一个不可复制的数字。&lt;/p&gt;
+
+&lt;h3 id=&quot;二剔除一次性因素后底层毛利率仍在改善&quot;&gt;二、剔除一次性因素后，底层毛利率仍在改善&lt;/h3&gt;
+
+&lt;p&gt;CFO Adam Karlsson 显然预料到了这个追问，在准备好的发言里就提前铺垫了：他表示，在剔除一次性项目后，&lt;strong&gt;“底层毛利率同比继续改善”&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这句话是这场电话会上管理层最想让市场记住的一句。它的意思是：关税退款是锦上添花，采购改革带来的改善是真实存在的另一条线。&lt;/p&gt;
+
+&lt;p&gt;不过管理层没有给出剔除后的具体数值。按财报数据倒推，第三季度剔除1.6个百分点后毛利率约为52.4%，低于去年同期的52.9%——所以Karlsson口中的”底层改善”，应该指的是剔除所有一次性项目（包括去年同期的）之后的同口径比较，而不是简单减去1.6个百分点。这个口径上的模糊，是投资者需要自己留个心眼的地方。&lt;/p&gt;
+
+&lt;h3 id=&quot;三全年费用指引收窄到区间下沿&quot;&gt;三、全年费用指引收窄到区间下沿&lt;/h3&gt;
+
+&lt;p&gt;Karlsson 明确表示，公司将&lt;strong&gt;把全年销售及管理费用增长的指引收窄到所给区间的下沿&lt;/strong&gt;。摩根大通的 Georgina Johanan 后来又专门就第四季度的运营费用追问了一次，得到的是同一个答复。&lt;/p&gt;
+
+&lt;p&gt;这是一条实打实的好消息：费用比原计划更省。前九个月销售及管理费用绝对额已经同比减少30.04亿瑞典克朗（按本币计与去年持平），第三季度单季同比下降1%——而且这是在数字基础设施投入增加的前提下做到的。&lt;/p&gt;
+
+&lt;h3 id=&quot;四erp改造的影响要持续到2027至2028年&quot;&gt;四、ERP改造的影响要持续到2027至2028年&lt;/h3&gt;
+
+&lt;p&gt;SB1 Markets 的 Magnus Råman 问到了ERP（企业资源计划系统，零售企业管理商品、库存、订单、财务的核心IT系统）改造的投入节奏。&lt;/p&gt;
+
+&lt;p&gt;Karlsson 确认：低个位数的费用增长指引不变，但&lt;strong&gt;ERP的影响会持续到2027至2028年&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这是一个比较重要的时间表信息。H&amp;amp;M的数字化改造不是一两年的项目，而是一个至少还要跑两年的长周期投入。这既意味着费用端还有压力，也意味着”用数据和AI提升全链路精度”这个故事的兑现时点被推后了。&lt;/p&gt;
+
+&lt;p&gt;Ervér 在准备发言里也提到，数字基础设施的建设本季又往前走了一步，长期看会带来”从产品开发、采购到分货、营销和销售的全链路更高精度”，同时随着扁平化组织到位，”更多决策正在离顾客更近的地方做出”。&lt;/p&gt;
+
+&lt;h3 id=&quot;五外部逆风短期不会改善&quot;&gt;五、外部逆风短期不会改善&lt;/h3&gt;
+
+&lt;p&gt;DNB Carnegie 的 Niklas Ekman 直接问：这些外部因素（物流中断、供应链问题）往前看还会是”差不多的量级”吗？&lt;/p&gt;
+
+&lt;p&gt;Ahlberg 确认了这个判断。&lt;/p&gt;
+
+&lt;p&gt;也就是说，压制本季销售的欧洲物流网络整合和全球供应链中断，&lt;strong&gt;第四季度还会以类似强度存在&lt;/strong&gt;。丹斯克银行的 Daniel Schmidt 问到门店优化和内部供应链改善的效果时，Ervér 的回答也是同一个基调：第三季度有轻微的正面效果，第四季度预期类似。&lt;/p&gt;
+
+&lt;h2 id=&quot;分析师问答中最有信息量的几个&quot;&gt;分析师问答中最有信息量的几个&lt;/h2&gt;
+
+&lt;h3 id=&quot;q1瑞银-sreedhar-mahamkali54到55的毛利率区间还守得住吗&quot;&gt;Q1（瑞银, Sreedhar Mahamkali）：54%到55%的毛利率区间还守得住吗？&lt;/h3&gt;
+
+&lt;p&gt;这是全场最核心的一个问题。Mahamkali 问，在这些逆风之下，公司能不能维持54%至55%的毛利率区间，以及当季采购（in-season buying）的变化会带来什么影响。&lt;/p&gt;
+
+&lt;p&gt;Karlsson 的回答是：公司内部的工作目标就是&lt;strong&gt;“对冲外部因素”&lt;/strong&gt;（mitigate external factors）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 这是一个典型的”不确认也不否认”的回答。管理层没有正面承诺守住54%至55%，只说会努力抵消外部压力。考虑到第四季度将失去1.6个百分点的关税支撑、运费在上升、折扣预期在增加，这个区间在第四季度大概率会被下沿测试。&lt;/p&gt;
+
+&lt;p&gt;关于当季采购：H&amp;amp;M正在逐步提高”先少下单、看卖得好再追单”的比例。这个做法的好处是减少压货和打折，坏处是单件采购成本更高、也更依赖供应链的反应速度——在物流网络还在整合的当口，这是一个两难。&lt;/p&gt;
+
+&lt;h3 id=&quot;q2巴克莱-matthew-clements美国消费在走弱为什么还在乐观备货&quot;&gt;Q2（巴克莱, Matthew Clements）：美国消费在走弱，为什么还在乐观备货？&lt;/h3&gt;
+
+&lt;p&gt;Clements 提出了一个很尖锐的质疑：在美国消费者转弱的背景下，H&amp;amp;M的库存布局是不是过于乐观了？他同时要求公司对COS的表现给出更多披露。&lt;/p&gt;
+
+&lt;p&gt;Ervér 的回应是：&lt;strong&gt;去年公司的备货过于谨慎，造成了断货缺口，今年把这些缺口补上了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 这个解释合理，也与库存数据对得上——库存同比增长3.7%，新闻稿明确说增量主要是”在途货物”，且”库存构成良好”。但”去年太保守所以今年补回来”这种解释，历史上在快时尚行业里经常是下一轮打折的前奏。第四季度的库存周转是必须盯紧的指标。&lt;/p&gt;
+
+&lt;p&gt;至于COS的单独披露，管理层没有松口。H&amp;amp;M不按品牌拆分销售数据的做法，这场电话会上再次被分析师点名。&lt;/p&gt;
+
+&lt;h3 id=&quot;q3美国银行-joffrey-bellicha-meller小额免税政策变化有没有帮hm抢回份额&quot;&gt;Q3（美国银行, Joffrey Bellicha Meller）：小额免税政策变化有没有帮H&amp;amp;M抢回份额？&lt;/h3&gt;
+
+&lt;p&gt;这个问题的背景是：美国取消了小额包裹免税（de minimis）待遇，理论上应该打击SHEIN、Temu这类直邮模式的跨境电商，利好H&amp;amp;M、Zara这些有本地库存的传统零售商。&lt;/p&gt;
+
+&lt;p&gt;Bellicha Meller 追问了这个政策变化对市场份额的影响，以及不同客群的增长驱动因素。&lt;/p&gt;
+
+&lt;p&gt;管理层的回应中最值得记下来的一句是：&lt;strong&gt;1%的增长，在任何单一品类上看都不能说令人满意。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 这是整场电话会里管理层最诚实的一句自我评价。如果政策红利真的兑现了，H&amp;amp;M的销售增速不应该只有1%。要么是红利还没传导，要么是传导了但被其他压力抵消了——无论哪种，结论都是H&amp;amp;M目前并没有从对手的困境中拿到明显好处。&lt;/p&gt;
+
+&lt;h3 id=&quot;q4abg-sundal-collier-fredrik-ivarsson毛利率还有多少改善空间组织改革走到哪一步了&quot;&gt;Q4（ABG Sundal Collier, Fredrik Ivarsson）：毛利率还有多少改善空间？组织改革走到哪一步了？&lt;/h3&gt;
+
+&lt;p&gt;Ervér 表示，扁平化的新组织在各个市场已经&lt;strong&gt;“基本完全”&lt;/strong&gt;（more or less fully）落地。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 组织改革收尾，意味着由此带来的一次性成本节约红利也接近尾声。往后的费用改善需要靠ERP和数字化来提供，而那个项目要到2028年才走完。&lt;strong&gt;中间可能有一个改善的空窗期。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;q5法国巴黎银行-mia-strauss翻新的门店到底有没有效果&quot;&gt;Q5（法国巴黎银行, Mia Strauss）：翻新的门店到底有没有效果？&lt;/h3&gt;
+
+&lt;p&gt;这是一个具体但很有价值的问题。Ervér 给出的信息是：顾客反馈积极，翻新带来了&lt;strong&gt;增量销售&lt;/strong&gt;，目前已经触及的门店约占门店组合的&lt;strong&gt;五分之一&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;解读：&lt;/strong&gt; 这是H&amp;amp;M”更优化的门店组合、更多升级门店、更个性化的数字体验”这条线上第一个可量化的进展。五分之一意味着还有八成的门店没动，如果单店效果确实为正，这是未来两三年一条可见的销售增量来源。考虑到门店总数还在同比减少约2%，H&amp;amp;M走的是”关差的、修好的”这条路。&lt;/p&gt;
+
+&lt;h3 id=&quot;q6女装日报-samantha-contipeta在秀场的抗议怎么看&quot;&gt;Q6（《女装日报》, Samantha Conti）：PETA在秀场的抗议怎么看？&lt;/h3&gt;
+
+&lt;p&gt;这是一个非财务问题，但反映了H&amp;amp;M作为快时尚龙头长期承受的舆论压力。&lt;/p&gt;
+
+&lt;p&gt;Ervér 的回应是，公司认同PETA的信念——&lt;strong&gt;“不应有任何动物受到伤害”&lt;/strong&gt;，双方保持着持续的对话。&lt;/p&gt;
+
+&lt;h2 id=&quot;解读这场电话会到底说明了什么&quot;&gt;解读：这场电话会到底说明了什么&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，管理层自己知道这份财报的成色。&lt;/strong&gt; 从Karlsson在准备发言里就主动强调”底层毛利率仍在改善”，到Ahlberg干脆利落地确认”不会再有”退款，H&amp;amp;M没有试图把一次性收益包装成经营改善。这是加分项，但也等于亲手把市场预期从54%的毛利率上拉了下来。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，费用端的红利正在见底。&lt;/strong&gt; 全年费用指引收窄到下沿是好消息，但组织改革”基本完全落地”意味着最容易砍的成本已经砍完了。接下来两年要靠ERP和数字化，而那是一笔还要继续花钱的投入。&lt;strong&gt;H&amp;amp;M的利润率改善叙事，可能要从”降本”切换到”增收”，而增收恰恰是它现在最弱的一环。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，外部逆风被管理层自己确认为”短期不会变”。&lt;/strong&gt; 欧洲物流整合、全球供应链中断，第四季度还是差不多的量级。这些既压销售（缺货）又压库存（在途积压），还推高运费。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，最值得玩味的是那句”1%的增长在任何品类上都不能说令人满意”。&lt;/strong&gt; 在美国取消小额免税、跨境快时尚受挫的这个窗口期，H&amp;amp;M没能抢到份额。这说明它的问题不是对手太强，而是&lt;strong&gt;自身的产品力和顾客吸引力还没恢复&lt;/strong&gt;。Ervér 反复讲的”产品、体验、品牌”三个优先级，方向没错，但还没变成销售数字。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第五，第四季度会很难看。&lt;/strong&gt; 把线索连起来：没有关税退款（-1.6个百分点）、运费上升、折扣预期增加、物流中断持续、销售指引只有1%。第四季度是圣诞季，是H&amp;amp;M全年最关键的一个季度，但它要在一个明显不利的组合里去打。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;这是一场”财报比预期好、电话会比财报冷静”的沟通。&lt;/p&gt;
+
+&lt;p&gt;管理层做对了两件事：如实承认了利润里的一次性成分，并且给出了明确的时间表——费用指引收窄到下沿、ERP影响持续到2028年、外部逆风第四季度不变、关税退款不会再有。信息透明度是够的。&lt;/p&gt;
+
+&lt;p&gt;但把这些信息拼起来，得到的图景并不轻松：&lt;strong&gt;H&amp;amp;M最容易的那部分改革（砍成本、精简组织）已经基本做完，最难的那部分（让销售重新增长）还没开始见效，而第四季度的外部环境明显变差。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;三个后续观察点：第四季度在没有关税退款的情况下毛利率落在什么位置；库存在圣诞季之后会不会变成折扣压力；以及那五分之一已经翻新的门店，能不能把销售增速从1%推到一个说得过去的水平。&lt;/p&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stockanalysis.com/quote/sto/HM.B/transcripts/536762-q3-2026/&quot;&gt;H &amp;amp; M Hennes &amp;amp; Mauritz AB (STO:HM.B) Q3 2026 Earnings Call Transcript（电话会实录）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hmgroup.com/news/h-m-hennes-mauritz-ab-nine-month-report-2026/&quot;&gt;H &amp;amp; M Hennes &amp;amp; Mauritz AB Nine-month report 2026（H&amp;amp;M Group 官方新闻稿原文，含电话会安排与出席人员）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hmgroup.com/wp-content/uploads/2026/09/H-M-Hennes-Mauritz-AB-Nine-month-report-2026.pdf&quot;&gt;H&amp;amp;M GROUP NINE-MONTH REPORT 2026 Q3（完整报告PDF）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hmgroup.com/investors/&quot;&gt;H&amp;amp;M Group 投资者关系页&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;媒体参考（股价反应与市场解读）：&lt;a href=&quot;https://uk.investing.com/news/stock-market-news/earnings-call-transcript-hm-group-q3-2026-profit-gains-offset-by-stock-drop-93CH-4880765&quot;&gt;Earnings call transcript — H&amp;amp;M Group Q3 2026 profit gains offset by stock drop（Investing.com）&lt;/a&gt;、&lt;a href=&quot;https://www.just-style.com/news/hm-q3-result-profit/&quot;&gt;H&amp;amp;M Q3 profit rises 23% as tariff-related effects lift margins（Just Style）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 26 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/26/hm_2026q3_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/26/hm_2026q3_earnings_call/</guid>
+        
+        <category>H&amp;M</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>H&amp;M 2026年Q3——营业利润60.4亿瑞典克朗同比增22.9%远超预期，但销售只涨1%，股价当天反跌约3%</title>
+        <description>&lt;p&gt;瑞典时间2026年9月24日上午8点（北京时间当日14点），全球第二大服装零售集团 &lt;a href=&quot;https://hmgroup.com/investors/&quot;&gt;H&amp;amp;M&lt;/a&gt;（H &amp;amp; M Hennes &amp;amp; Mauritz AB，纳斯达克斯德哥尔摩交易所代码 HM.B）发布了2026财年九个月报告，涵盖第三季度（2026年6月1日至8月31日）业绩。&lt;/p&gt;
+
+&lt;p&gt;这份财报的画风很特别：&lt;strong&gt;利润大幅超预期，销售却几乎没动，股价下跌。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;先看第三季度核心数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;净销售额571.89亿瑞典克朗（去年同期570.17亿），按瑞典克朗计增长0.3%，&lt;strong&gt;按本币计增长1%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;毛利307.67亿瑞典克朗，毛利率54.0%（去年同期52.9%），市场预期53.4%&lt;/li&gt;
+  &lt;li&gt;销售及管理费用248.32亿瑞典克朗，同比下降1%&lt;/li&gt;
+  &lt;li&gt;营业利润60.37亿瑞典克朗（去年同期49.14亿），&lt;strong&gt;同比增长22.9%&lt;/strong&gt;，营业利润率10.6%（去年同期8.6%）&lt;/li&gt;
+  &lt;li&gt;税后利润40.98亿瑞典克朗（去年同期32.12亿），同比增长27.6%&lt;/li&gt;
+  &lt;li&gt;每股收益2.58瑞典克朗（去年同期2.01）&lt;/li&gt;
+  &lt;li&gt;经营活动现金流119.08亿瑞典克朗，同比增长19%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;按LSEG的分析师一致预期，市场原本预计营业利润为51.4亿瑞典克朗——&lt;strong&gt;实际值高出17%&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;但股价当天下跌约3%，收在约161瑞典克朗，接近52周区间下沿。&lt;/p&gt;
+
+&lt;h2 id=&quot;为什么利润暴增但股价下跌&quot;&gt;为什么利润暴增但股价下跌&lt;/h2&gt;
+
+&lt;p&gt;关键在两个字：&lt;strong&gt;成色&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;H&amp;amp;M在新闻稿里主动披露了一个数字：本季度毛利率受到”来自关税和进口货物的一次性效应约1.6个百分点的正面影响”，这些成本在&lt;strong&gt;此前几个季度&lt;/strong&gt;已经计入过销售成本。同样的1.6个百分点也直接体现在营业利润率上。&lt;/p&gt;
+
+&lt;p&gt;翻译成大白话：&lt;strong&gt;之前几个季度多付的关税，这个季度退回来了，退款一次性计入本季利润。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;剔除这1.6个百分点，本季营业利润率约为9.0%，仍然高于去年同期的8.6%，但”大幅超预期”的成色就打了很大折扣。而且管理层在电话会上确认，这笔退款的结构化流程已经走完，&lt;strong&gt;后续不会再有&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;第二个原因更直接：&lt;strong&gt;销售没起来&lt;/strong&gt;。按本币计只增长1%，而且公司给出的9月指引同样是”按本币计增长约1%”。对一家市值约2600亿瑞典克朗的时装零售商来说，这个增速意味着它在丢市场份额——Zara母公司Inditex和SHEIN、Temu这些对手跑得都比它快。&lt;/p&gt;
+
+&lt;h2 id=&quot;先搞清楚hm现在处在什么位置&quot;&gt;先搞清楚H&amp;amp;M现在处在什么位置&lt;/h2&gt;
+
+&lt;p&gt;H&amp;amp;M成立于1947年，是瑞典公司，全球门店遍及82个市场，旗下除了主品牌H&amp;amp;M（含H&amp;amp;M HOME、H&amp;amp;M Move、H&amp;amp;M Beauty），还有COS、Weekday（含Cheap Monday、Monki）、&amp;amp; Other Stories、ARKET、Singular Society，以及二手电商Sellpy。&lt;/p&gt;
+
+&lt;p&gt;它的商业模式核心矛盾一直是同一个：&lt;strong&gt;要便宜，就得提前大批量下单；提前下单，就容易押错款、最后打折清库存。&lt;/strong&gt;过去几年H&amp;amp;M的毛利率被”打折清货”拖累得很厉害。&lt;/p&gt;
+
+&lt;p&gt;现任CEO Daniel Ervér 上任后的主线，就是解决这个矛盾。具体做法是三条：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;改造采购&lt;/strong&gt;——提高”当季采购”（in-season buying）的比例，也就是先少下单、看卖得好不好再追单&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;砍成本&lt;/strong&gt;——精简组织、关闭低效门店、把决策权下放到离顾客更近的地方&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;上数字化&lt;/strong&gt;——重建IT基础设施和ERP系统，用AI提升从产品开发、采购到分货、营销的全链路精度&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这份财报，就是这三条主线走到第三年的成绩单。&lt;/p&gt;
+
+&lt;h2 id=&quot;核心财务数据&quot;&gt;核心财务数据&lt;/h2&gt;
+
+&lt;h3 id=&quot;第三季度2026年6月1日至8月31日&quot;&gt;第三季度（2026年6月1日至8月31日）&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026年Q3&lt;/th&gt;
+      &lt;th&gt;2025年Q3&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净销售额&lt;/td&gt;
+      &lt;td&gt;571.89亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;570.17亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;+0.3%（本币+1%）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利&lt;/td&gt;
+      &lt;td&gt;307.67亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;301.43亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;+2.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率&lt;/td&gt;
+      &lt;td&gt;54.0%&lt;/td&gt;
+      &lt;td&gt;52.9%&lt;/td&gt;
+      &lt;td&gt;+1.1个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售及管理费用&lt;/td&gt;
+      &lt;td&gt;248.32亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;251.67亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;-1.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业利润&lt;/td&gt;
+      &lt;td&gt;60.37亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;49.14亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;+22.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业利润率&lt;/td&gt;
+      &lt;td&gt;10.6%&lt;/td&gt;
+      &lt;td&gt;8.6%&lt;/td&gt;
+      &lt;td&gt;+2.0个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;税后利润&lt;/td&gt;
+      &lt;td&gt;40.98亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;32.12亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;+27.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;每股收益&lt;/td&gt;
+      &lt;td&gt;2.58瑞典克朗&lt;/td&gt;
+      &lt;td&gt;2.01瑞典克朗&lt;/td&gt;
+      &lt;td&gt;+28.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流&lt;/td&gt;
+      &lt;td&gt;119.08亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;99.85亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;+19.3%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;库存&lt;/td&gt;
+      &lt;td&gt;393.55亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;379.38亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;+3.7%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;前九个月2025年12月1日至2026年8月31日&quot;&gt;前九个月（2025年12月1日至2026年8月31日）&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2026年前9个月&lt;/th&gt;
+      &lt;th&gt;2025年前9个月&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;净销售额&lt;/td&gt;
+      &lt;td&gt;1616.24亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;1690.64亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;-4.4%（本币持平）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利率&lt;/td&gt;
+      &lt;td&gt;53.9%&lt;/td&gt;
+      &lt;td&gt;52.5%&lt;/td&gt;
+      &lt;td&gt;+1.4个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;销售及管理费用&lt;/td&gt;
+      &lt;td&gt;735.90亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;765.94亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;-3.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业利润&lt;/td&gt;
+      &lt;td&gt;134.62亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;120.31亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;+11.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;营业利润率&lt;/td&gt;
+      &lt;td&gt;8.3%&lt;/td&gt;
+      &lt;td&gt;7.1%&lt;/td&gt;
+      &lt;td&gt;+1.2个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;税后利润&lt;/td&gt;
+      &lt;td&gt;87.65亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;77.53亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;+13.1%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;每股收益&lt;/td&gt;
+      &lt;td&gt;5.53瑞典克朗&lt;/td&gt;
+      &lt;td&gt;4.86瑞典克朗&lt;/td&gt;
+      &lt;td&gt;+13.8%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营活动现金流&lt;/td&gt;
+      &lt;td&gt;265.24亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;227.14亿瑞典克朗&lt;/td&gt;
+      &lt;td&gt;+16.8%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;前九个月有一个数字需要特别解释：&lt;strong&gt;净销售额按瑞典克朗计下降了4.4%，但按本币计持平。&lt;/strong&gt;这个4.4%的差额几乎全部来自汇率——瑞典克朗在过去一年大幅升值，H&amp;amp;M在海外市场赚到的欧元、美元换回克朗时缩水了。这不是经营问题，但会实实在在压低报表上的收入数字。&lt;/p&gt;
+
+&lt;h2 id=&quot;利润是怎么涨出来的&quot;&gt;利润是怎么涨出来的&lt;/h2&gt;
+
+&lt;p&gt;拆开看，第三季度营业利润多出来的11.23亿瑞典克朗，来源很清楚：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;毛利多了6.24亿&lt;/strong&gt;（毛利率+1.1个百分点，其中约1.6个百分点来自关税一次性效应——也就是说，剔除这个效应，毛利率其实同比是下降的）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;费用少了3.35亿&lt;/strong&gt;（销售及管理费用同比下降1.3%，而且是在收入微增的情况下）&lt;/li&gt;
+  &lt;li&gt;其余来自结构性变化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;这里有个必须说清楚的事实：如果没有那1.6个百分点的关税退款效应，本季毛利率约为52.4%，低于去年同期的52.9%。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;也就是说，第三季度的毛利改善&lt;strong&gt;完全来自一次性因素&lt;/strong&gt;，真正可持续的改善来自费用端——而费用端的改善是实打实的：前九个月销售及管理费用绝对额减少了30.04亿瑞典克朗。&lt;/p&gt;
+
+&lt;p&gt;CEO Daniel Ervér 在评论中把功劳归给同一组词：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“我们的工作——尤其是在采购、成本控制和更高效的运营方面——让业务变得更加盈利。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他也给了一个更能反映趋势的指标：&lt;strong&gt;滚动12个月营业利润率提升至9.0%&lt;/strong&gt;（一年前约为7.2%）。这个指标平滑了单季波动和一次性效应的影响，改善是真实的。&lt;/p&gt;
+
+&lt;h2 id=&quot;分业务与分区域&quot;&gt;分业务与分区域&lt;/h2&gt;
+
+&lt;p&gt;H&amp;amp;M的季度报告不披露详细的分区域销售数据，这是它一贯的做法。但从新闻稿和电话会可以拼出几条信息：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;门店数量同比减少约2%&lt;/strong&gt;——继续关闭低效门店，同时升级现有门店。管理层在电话会上说，已经翻新改造的门店约占门店组合的五分之一，顾客反馈积极，带来了增量销售&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;组合品牌（COS、ARKET、&amp;amp; Other Stories等）按本币计销售增长3%&lt;/strong&gt;，恢复增长，跑赢集团整体的1%&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;西欧市场持续疲弱&lt;/strong&gt;，这是H&amp;amp;M的传统腹地&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CEO 在评论中还提到一个拖累销售的具体原因：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“销售受到了欧洲物流网络以及全球供应链持续中断等因素的影响。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;库存的增加也是同一个原因。新闻稿明确写道，库存增长”是由在途货物价值增加所致，这源于全球供应链中断以及欧洲物流网络整合工作带来的临时性影响”，同时强调”库存构成良好”——也就是说不是卖不掉的滞销品，是卡在路上的货。&lt;/p&gt;
+
+&lt;h2 id=&quot;亮点与隐忧&quot;&gt;亮点与隐忧&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;亮点一：费用控制是真的做到了。&lt;/strong&gt; 前九个月销售及管理费用减少3.9%（本币计持平），而门店数量减少约2%、组织在扁平化。这是三年改革最扎实的成果。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;亮点二：现金流非常健康。&lt;/strong&gt; 第三季度经营现金流119亿瑞典克朗增长19%，前九个月265亿增长17%。对一家零售商来说，现金流增速远高于利润增速，说明营运资金管理在改善。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;亮点三：滚动12个月营业利润率回到9.0%。&lt;/strong&gt; 这个数字在2022至2023年的低谷期一度跌到3%左右。回到9%意味着H&amp;amp;M正在重新接近它历史上的正常盈利水平（疫情前约10%至12%）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;亮点四：组合品牌恢复增长。&lt;/strong&gt; COS、ARKET这些定位更高的品牌按本币计增长3%，跑赢集团。这对提升整体客单价和毛利率有结构性意义。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧一：销售增长1%，等于在丢份额。&lt;/strong&gt; 全球服装市场即使按名义值算也不止1%的增长。9月指引还是1%。H&amp;amp;M的成本优化空间总有尽头，最终还是要靠销售增长。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧二：本季毛利改善全部来自一次性因素。&lt;/strong&gt; 剔除关税效应后毛利率同比下滑，且管理层确认后续不会再有退款。这意味着第四季度毛利率会面临一个约1.6个百分点的&lt;strong&gt;同比基数落差&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧三：物流中断还在持续。&lt;/strong&gt; 欧洲物流网络整合和全球供应链中断同时影响了销售（缺货）和库存（在途积压）。管理层在电话会上表示第四季度预计影响”大致相当”——也就是说短期解决不了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧四：汇率还在吃掉报表收入。&lt;/strong&gt; 瑞典克朗升值让前九个月的报表收入少了4.4%。这对以瑞典克朗计价的每股收益和股息是实打实的侵蚀。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧五：第四季度有打折压力。&lt;/strong&gt; 媒体报道提到本季存在运费上升和下一季度预期折扣增加的信号，叠加关税基数落差，第四季度的毛利率大概率会环比、同比双双承压。&lt;/p&gt;
+
+&lt;h2 id=&quot;展望总结&quot;&gt;展望总结&lt;/h2&gt;
+
+&lt;p&gt;这是一份”改革有效、但增长引擎还没点着”的财报。&lt;/p&gt;
+
+&lt;p&gt;H&amp;amp;M过去三年做对了两件事：把成本压下来，把采购流程理顺。结果是滚动12个月营业利润率从低谷的个位数低位回到9.0%，现金流强劲，资产负债表干净。管理层说的”采购、成本控制、更高效运营”三件事，数据上都能验证。&lt;/p&gt;
+
+&lt;p&gt;但它还没做成第三件事：&lt;strong&gt;让顾客重新愿意在H&amp;amp;M多花钱。&lt;/strong&gt;按本币计1%的销售增长、1%的9月指引、持续疲软的西欧市场——这些数字说明，在Zara的快速反应、SHEIN和Temu的极致价格、以及消费者在高生活成本下的谨慎之间，H&amp;amp;M还没找到自己的位置。&lt;/p&gt;
+
+&lt;p&gt;Ervér 在评论里那句话说得很实在：”虽然本季度销售朝着积极的方向发展，但我们看到未来提升销售仍有更大空间。”&lt;/p&gt;
+
+&lt;p&gt;第四季度是圣诞季，也是H&amp;amp;M全年最重要的一个季度。三个观察点：一是没有关税退款后的真实毛利率，二是欧洲物流问题能不能缓解，三是秋冬系列能不能把销售增速从1%推上去。&lt;/p&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hmgroup.com/news/h-m-hennes-mauritz-ab-nine-month-report-2026/&quot;&gt;H &amp;amp; M Hennes &amp;amp; Mauritz AB Nine-month report 2026（H&amp;amp;M Group 官方新闻稿原文）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hmgroup.com/wp-content/uploads/2026/09/H-M-Hennes-Mauritz-AB-Nine-month-report-2026.pdf&quot;&gt;H&amp;amp;M GROUP NINE-MONTH REPORT 2026 Q3（完整报告PDF）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hmgroup.com/investors/&quot;&gt;H&amp;amp;M Group 投资者关系页&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stockanalysis.com/quote/sto/HM.B/transcripts/536762-q3-2026/&quot;&gt;H &amp;amp; M Hennes &amp;amp; Mauritz AB (STO:HM.B) Q3 2026 Earnings Call Transcript（电话会实录）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;媒体参考（分析师预期与股价反应）：&lt;a href=&quot;https://www.just-style.com/news/hm-q3-result-profit/&quot;&gt;H&amp;amp;M Q3 profit rises 23% as tariff-related effects lift margins（Just Style）&lt;/a&gt;、&lt;a href=&quot;https://www.marketscreener.com/news/h-m-falls-on-the-stockholm-exchange-after-earnings-report-omxs30-index-down-0-8-percent-ce785adedd8cff2c&quot;&gt;H&amp;amp;M falls on the Stockholm exchange after earnings report（MarketScreener）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 26 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/26/hm_2026q3_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/26/hm_2026q3_earnings/</guid>
+        
+        <category>H&amp;M</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>黑莓2027财年Q2电话会——Uber选用QNX做下一代车型底座，9.5亿美元版税储备开始兑现，管理层给安全通信业务泼冷水</title>
+        <description>&lt;p&gt;美东时间2026年9月24日上午8点（北京时间当日20点），&lt;a href=&quot;https://www.blackberry.com/us/en/investors&quot;&gt;黑莓&lt;/a&gt;（NYSE: BB）在发布2027财年第二季度财报的同时召开了业绩电话会。&lt;/p&gt;
+
+&lt;p&gt;财报数字我们在&lt;a href=&quot;/blog/2026/09/26/blackberry_fy2027q2_earnings/&quot;&gt;前一篇财报解读&lt;/a&gt;里已经拆过：总营收1.633亿美元同比增长26%，QNX单季收入8030万美元创历史新高，调整后EBITDA增长81%，全年指引连续第二次上调。&lt;/p&gt;
+
+&lt;p&gt;这篇只讲电话会上的&lt;strong&gt;增量信息&lt;/strong&gt;——新闻稿没写、只有管理层开口才知道的东西。黑莓的新闻稿写得相当克制，很多关键数字（版税储备规模、单车价值量倍数、设计订单数量）都只出现在电话会上。&lt;/p&gt;
+
+&lt;p&gt;出席管理层两位：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;John Giamatteo&lt;/strong&gt;，首席执行官&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tim Foote&lt;/strong&gt;，首席财务官&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;提问的机构分析师五位：Stifel 的 Suthan Sukumar、RBC 资本市场的 Paul Treiber、CIBC 的 Todd Coupland、TD Cowen 的 John Chao、Canaccord Genuity 的 Kingsley Crane。&lt;/p&gt;
+
+&lt;p&gt;（说明：本文引述依据公开发布的电话会实录整理，部分专有名词以公司新闻稿的官方拼写为准。）&lt;/p&gt;
+
+&lt;h2 id=&quot;管理层核心表态&quot;&gt;管理层核心表态&lt;/h2&gt;
+
+&lt;h3 id=&quot;一uber选了qnx物理ai从概念变成订单&quot;&gt;一、Uber选了QNX，物理AI从概念变成订单&lt;/h3&gt;
+
+&lt;p&gt;这是电话会上最重磅、而新闻稿里完全没有提的一条：&lt;strong&gt;Uber选用QNX作为其下一代车型的软件基础&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;Giamatteo 把这件事放在”物理AI”（Physical AI）的框架下讲。他给的定义很朴素——所谓物理AI，就是”AI走出数字世界、开始与物理世界交互之后发生的事”，Robotaxi（无人驾驶出租车）是最典型的应用。&lt;/p&gt;
+
+&lt;p&gt;除了Uber，他还提到黑莓目前&lt;strong&gt;有20多家公司正围绕英伟达平台与其接触&lt;/strong&gt;，涵盖人形机器人厂商、手术机器人、自主移动机器人、自动驾驶拖拉机、无人机和飞机。&lt;/p&gt;
+
+&lt;p&gt;不过他也主动降温：整个物理AI”还处在非常早期”，单车平均售价是多少、最终是不是走Alloy Kore这种整包方案，”现在变量太多”。他的定位是——凭借通过安全认证的底层软件能力，黑莓”处在一个不错的起跑位置”，随着行业成熟，”我们认为自己能拿到超出应得份额的份额”。&lt;/p&gt;
+
+&lt;h3 id=&quot;二95亿美元的版税储备开始兑现&quot;&gt;二、9.5亿美元的版税储备开始兑现&lt;/h3&gt;
+
+&lt;p&gt;CFO Foote 在回答第一个问题时给出了一个新闻稿里没有的关键数字：&lt;strong&gt;QNX的版税储备（royalty backlog）约为9.5亿美元&lt;/strong&gt;，而且”已经开始转化”为量产收入。&lt;/p&gt;
+
+&lt;p&gt;版税储备指的是已经拿下设计订单、但对应车型尚未量产、因此还没确认成收入的那部分未来版税。9.5亿美元相对于QNX一年3亿多美元的收入，是三年多的体量。&lt;/p&gt;
+
+&lt;p&gt;Foote 把本季利润的超预期归因于模型的经营杠杆：成本结构”非常紧”，增量收入很快就转化成利润率扩张和现金转化。他用了一个很直白的说法形容核心汽车业务：”我们现在确实是顺风，这块业务真的很火。”&lt;/p&gt;
+
+&lt;p&gt;Giamatteo 补充了一个量级信息：&lt;strong&gt;上半年拿下的设计订单数量，已经超过了QNX历史上任何一个完整财年的纪录。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;三alloy-kore的单实例售价约为传统方案的三倍&quot;&gt;三、Alloy Kore的单实例售价约为传统方案的三倍&lt;/h3&gt;
+
+&lt;p&gt;Canaccord 的 Kingsley Crane 问了一个很好的问题：Coretura那笔超过1亿美元的订单，如果换成传统的QNX操作系统加虚拟机方案，大概值多少？&lt;/p&gt;
+
+&lt;p&gt;Giamatteo 的回答拆成两层：价值提升一是来自”往上走”（从操作系统做到整个平台），二是来自”横向铺开”（从一两个域扩展到更多域）。他给的量化结论是——相比单纯的SDP 8.0传统方案，&lt;strong&gt;大约是正常平均售价的三倍&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;他解释了这个变化是怎么发生的：”几年前我们做的很多是数字座舱。现在是ADAS（高级辅助驾驶），是车身，是更广的一整套能力。”再叠加中间件层，以及Vector带来的诊断系统能力，”把这两者用服务缝合起来、可靠地交付给客户——我认为这才是真正在实质性扩大我们的可触达市场和单车价值量的东西。”&lt;/p&gt;
+
+&lt;h3 id=&quot;四车厂开始给最低销量承诺&quot;&gt;四、车厂开始给”最低销量承诺”&lt;/h3&gt;
+
+&lt;p&gt;RBC 的 Paul Treiber 追问了黑莓在新闻稿里一笔带过的一件事：版税合同正在从”非合同性预估”转向”合同锁定的最低量”。&lt;/p&gt;
+
+&lt;p&gt;Foote 说这个机会随着SDP 8.0的切换出现，客户认可黑莓带来的增量价值，因此愿意签最低量承诺。好处有三个：确定性更高、现金到账更早、收入还有上行空间。&lt;/p&gt;
+
+&lt;p&gt;Giamatteo 补的这段话更有味道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“客户的这种态度是我们特别喜欢的地方，它体现了客户对我们产品的信心。这在汽车行业里是很强的一个表态——通常车厂只会给你一个预估值，然后不断调整。现在客户主动说，我们长期押注你们，愿意做一个最低量承诺。这是一个新的动态。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他把这称为”相比几年前明确的一个拐点”。&lt;/p&gt;
+
+&lt;h3 id=&quot;五主动给安全通信泼冷水&quot;&gt;五、主动给安全通信泼冷水&lt;/h3&gt;
+
+&lt;p&gt;与QNX的亢奋形成对比的是，管理层主动下调了安全通信业务的全年指引。&lt;/p&gt;
+
+&lt;p&gt;Foote 给的官方理由是：”美国本已动荡的大环境——安全通信在美国联邦政府有相当大的业务基础——正因近期的地缘政治发展而进一步复杂化，其中包括加拿大与美国之间的贸易紧张。”&lt;/p&gt;
+
+&lt;p&gt;黑莓总部在加拿大安大略省滑铁卢，这是一家加拿大公司在向美国政府卖加密通信软件。加美贸易摩擦升温，直接打在这条业务线的软肋上。&lt;/p&gt;
+
+&lt;p&gt;CIBC 的 Todd Coupland 追问：什么时候能看清这个风险到底会不会兑现？&lt;/p&gt;
+
+&lt;p&gt;Giamatteo 的回答值得逐字看：&lt;strong&gt;“我们今天没有看到任何具体的东西在造成这个影响。这更多是一种整体上的谨慎语气。”&lt;/strong&gt; 他把这块业务拆成两部分：2.2亿多美元的ARR（年度经常性收入）”非常耐用、可见度很高”，剩下约20%依赖大型政府项目在当季内落地。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“考虑到全球正在发生的各种地缘政治不确定性，那些交易的时间点，我说不准。我们只是对其中一些大项目的落地时间感觉不那么有把握了……所以我们认为，对这些新机会的时间点采取更谨慎的口径是审慎的做法，毕竟政府本身的销售周期就偏长。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;翻译成大白话：&lt;strong&gt;订单没丢，但不知道什么时候签。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;分析师问答中最有信息量的几个&quot;&gt;分析师问答中最有信息量的几个&lt;/h2&gt;
+
+&lt;h3 id=&quot;q1stifel-suthan-sukumar新市场用的是同一套商业模式吗&quot;&gt;Q1（Stifel, Suthan Sukumar）：新市场用的是同一套商业模式吗？&lt;/h3&gt;
+
+&lt;p&gt;Sukumar 问，通用嵌入式市场（GEM，指汽车以外的机器人、工业自动化、医疗设备、航空航天、轨道交通等）是不是也按单台收版税。&lt;/p&gt;
+
+&lt;p&gt;Foote 的回答：”本质上是完全一样的模式。”同样有量产前的开发许可和服务收入，同样有按量收的版税。差别在于GEM市场单台经济性可能更高（因为量小），随着规模上来”会沿着单价曲线往下走”。&lt;/p&gt;
+
+&lt;p&gt;他强调了这里的关键优势：”差不多是同一套模式，而且归根到底是同一套软件。这正是这个市场的美妙之处——我们能复用在汽车领域已经投入的、已经经过实战检验的产品，把它们横向铺到这些相邻的垂直行业。”&lt;/p&gt;
+
+&lt;p&gt;Giamatteo 补充说，GEM目前约占QNX收入的20%，但这块的Alloy Kore机会”绝对是非常早期”，市场”现在才刚刚形成”。他用棒球比喻：”我们真的才刚打到第二局上半。”&lt;/p&gt;
+
+&lt;p&gt;黑莓的打法是先铺生态：QNX Everywhere（非商业用途免费）和新推出的QNX Launchpad，都是为了降低商业开发者的进入门槛。与英伟达的合作”正在很快地积累起一条强劲的机会管道”。&lt;/p&gt;
+
+&lt;h3 id=&quot;q2rbc-paul-treiber第四季度qnx为什么环比走低&quot;&gt;Q2（RBC, Paul Treiber）：第四季度QNX为什么环比走低？&lt;/h3&gt;
+
+&lt;p&gt;Treiber 直接点出了指引里的问题：按公司给的数，第四季度QNX收入比第三季度略降，增速在放缓。&lt;/p&gt;
+
+&lt;p&gt;Giamatteo 没有回避，但明确拒绝按季度看：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“这是一门长周期生意，销售周期长、量产周期也长。所以我们认为大家应该关注的是更长期的增长趋势。季度与季度之间的波动不是我们管理业务的方式，不是我们做投资的方式，也不是我们与客户合作的方式。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他把话题拉回全年：按指引中值，QNX全年增长19%，”高于我们年初的预期”。&lt;/p&gt;
+
+&lt;p&gt;Foote 补了一句更干脆的：”QNX绝对没有在放缓。如果说有什么变化，那是在加速。但季度之间不会是线性的。”&lt;/p&gt;
+
+&lt;h3 id=&quot;q3cibc-todd-couplandalloy-kore的管道里都有谁&quot;&gt;Q3（CIBC, Todd Coupland）：Alloy Kore的管道里都有谁？&lt;/h3&gt;
+
+&lt;p&gt;Coupland 问Alloy Kore的机会管道里商用车和乘用车各占多少，下半年还能不能再拿单。&lt;/p&gt;
+
+&lt;p&gt;Giamatteo 说管道”非常健康”，商用车和乘用车都有，”很多全球车厂和一级供应商”在谈，&lt;strong&gt;尤其集中在欧洲和亚洲&lt;/strong&gt;。Coretura那单（商用车）先落地，但乘用车的机会也在推进。&lt;/p&gt;
+
+&lt;p&gt;有个细节挺有意思：他说Coretura这单公布之后，行业里的关注度明显上来了——”大家会说，嘿，跟我们多讲讲这个，它能怎么用在我们身上？”&lt;/p&gt;
+
+&lt;p&gt;他也提醒，这种平台级的选型决策体量大、走完流程需要时间。&lt;/p&gt;
+
+&lt;h3 id=&quot;q4td-cowen-john-chao手里近5亿美元现金打算怎么花&quot;&gt;Q4（TD Cowen, John Chao）：手里近5亿美元现金打算怎么花？&lt;/h3&gt;
+
+&lt;p&gt;Chao 算了一笔账：按指引，到财年末现金会接近5亿美元，问黑莓的并购思路和标准。&lt;/p&gt;
+
+&lt;p&gt;Foote 先自嘲这是”一个幸福的烦恼”，然后给了三条优先级：第一是投入业务本身的增长；第二是”在合适的时候”回购股票；第三是如果在GEM或相邻垂直领域看到”真正大的机会”，能让战略”快进”，就会考虑并购。&lt;/p&gt;
+
+&lt;p&gt;但他把门槛说得很死：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“我们有资产负债表给我们这个灵活性。但门槛会很高。战略契合度必须非常好，财务画像必须合适。它必须真的能让我们在赛场上往前推进一大截。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他明确表示近期没有要宣布的事。&lt;/p&gt;
+
+&lt;p&gt;结合财报数据看：本财年前六个月黑莓已回购约1000万美元股票，期末现金及投资4.471亿美元，净现金约2.47亿美元。回购规模相对现金储备来说非常克制。&lt;/p&gt;
+
+&lt;h3 id=&quot;q5canaccord-kingsley-crane安全通信的保守口径主要压在哪个季度&quot;&gt;Q5（Canaccord, Kingsley Crane）：安全通信的保守口径主要压在哪个季度？&lt;/h3&gt;
+
+&lt;p&gt;Crane 注意到，从第三、四季度的拆分看，下调的保守量主要压在第三季度。&lt;/p&gt;
+
+&lt;p&gt;Foote 重申了这块业务的底盘：”安全通信依然稳定、依然盈利、依然产生现金”，ARR约占这块业务的80%，剩下20%依赖大单在当季落地。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“现在我们对其中一些交易的时间点感觉没那么好。不是说这些单子一定会消失，而是时间点的确定性比以前低了一些。所以我们采取一个审慎的看法，看事情最后怎么落。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Foote 和 Giamatteo 都强调了同一句话：&lt;strong&gt;到目前为止还没有出现任何实质性影响。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;解读这场电话会到底说明了什么&quot;&gt;解读：这场电话会到底说明了什么&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;第一，黑莓的增长故事已经从”讲”变成了”签”。&lt;/strong&gt; 9.5亿美元版税储备、上半年设计订单超过历史任一完整财年、Coretura的1亿美元订单、Uber的定点——这些都是可核验的商业事实，而不是TAM（可触达市场）幻灯片。尤其是车厂开始给最低销量承诺，这在汽车供应链里是很罕见的待遇。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二，”往上走”的策略确认了三倍定价权。&lt;/strong&gt; Alloy Kore的意义不在于它本身多先进，而在于它把黑莓从一个被压价的”操作系统供应商”，变成了一个卖平台加服务的方案商。三倍平均售价意味着，即使QNX的装车量原地不动，收入也能靠单车价值量往上顶。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三，管理层在有意管理预期的节奏。&lt;/strong&gt; 一边连续两个季度上调QNX指引，一边主动下调安全通信指引；一边宣布Uber这种重磅客户，一边反复强调物理AI”变量太多”、GEM”才第二局”。这种一手加一手减的口径，通常出现在管理层对核心业务有把握、但不愿意被市场按高成长股定价的时候。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第四，也是最需要警惕的一点：故事的美好程度正在超过财务的绝对体量。&lt;/strong&gt; 全年6亿多美元营收、1.5亿美元左右的调整后EBITDA，配上”人形机器人、Robotaxi、手术机器人、无人机”的想象空间，估值很容易跑在基本面前面。Giamatteo 自己那句”才刚打到第二局上半”，其实是最诚实的一句话。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;这是一场”核心业务报喜、边缘业务报忧、新业务讲愿景”的电话会，三条线索都说得很清楚：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;QNX&lt;/strong&gt;：9.5亿美元储备开始兑现、设计订单创纪录、Alloy Kore三倍定价、车厂给最低量承诺——这是真实的、可验证的拐点&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;安全通信&lt;/strong&gt;：占营收37%，收入只增2%，还因为加美贸易摩擦和联邦采购不确定性被主动下调指引——这是结构性隐患&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;物理AI / GEM&lt;/strong&gt;：Uber和20多家英伟达生态伙伴在谈，但管理层自己说”才第二局上半”——这是期权，不是业绩&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对投资者来说，接下来两个季度要跟踪的不是季度收入波动（管理层已经明说了不要看这个），而是三件事：Alloy Kore能不能再签下第二、第三单，而且最好有一单来自乘用车；安全通信的联邦订单到底延后还是消失；以及那笔近5亿美元的现金最终花在回购还是并购上。&lt;/p&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/09/24/blackberry-bb-q2-2027-earnings-call-transcript/&quot;&gt;BlackBerry (BB) Q2 2027 Earnings Call Transcript（The Motley Fool 电话会完整实录）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001070235/000107023526000112/q2fy27ex-991.htm&quot;&gt;BlackBerry Reports Second Quarter Fiscal Year 2027 Results（SEC 8-K 附件99.1原文）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001070235/000107023526000115/bbry-20260831.htm&quot;&gt;BlackBerry Limited 10-Q（截至2026年8月31日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.blackberry.com/us/en/investors&quot;&gt;BlackBerry 投资者关系页&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;媒体参考（股价反应与分析师预期）：&lt;a href=&quot;https://www.investing.com/news/stock-market-news/why-is-blackberry-stock-rallying-today-93CH-4915050&quot;&gt;Why is BlackBerry stock rallying today?（Investing.com）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 26 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/26/blackberry_fy2027q2_earnings_call/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/26/blackberry_fy2027q2_earnings_call/</guid>
+        
+        <category>黑莓</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
+        
+      </item>
+    
+      <item>
+        <title>黑莓2027财年Q2——营收1.63亿美元同比增26%，QNX单季收入创历史新高，全年指引二度上调</title>
+        <description>&lt;p&gt;美东时间2026年9月24日美股开盘前，&lt;a href=&quot;https://www.blackberry.com/us/en/investors&quot;&gt;黑莓&lt;/a&gt;（NYSE: BB / TSX: BB）发布了截至2026年8月31日的2027财年第二季度财报。&lt;/p&gt;
+
+&lt;p&gt;这家公司今天已经和手机没有任何关系了。它现在卖的是&lt;strong&gt;汽车和机器里的操作系统&lt;/strong&gt;，以及给政府、军队用的加密通信软件。这个季度的财报，是它转型以来最漂亮的一份。&lt;/p&gt;
+
+&lt;p&gt;先看几个核心数字：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;总营收1.633亿美元，同比增长26%（去年同期1.296亿美元），大幅高于市场预期的1.4255亿美元&lt;/li&gt;
+  &lt;li&gt;GAAP营业利润3360万美元，去年同期1150万美元，同比增长192%&lt;/li&gt;
+  &lt;li&gt;GAAP净利润3390万美元，连续第六个季度盈利&lt;/li&gt;
+  &lt;li&gt;调整后EBITDA为4700万美元，同比增长81%&lt;/li&gt;
+  &lt;li&gt;调整后每股收益0.07美元，市场预期0.04美元&lt;/li&gt;
+  &lt;li&gt;经营活动现金流2930万美元，去年同期仅340万美元&lt;/li&gt;
+  &lt;li&gt;期末现金及投资4.471亿美元&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;财报发布当日，黑莓股价收涨4.06%至8.72美元，成交量比三个月均量高出约134%。&lt;/p&gt;
+
+&lt;h2 id=&quot;先搞清楚今天的黑莓靠什么赚钱&quot;&gt;先搞清楚：今天的黑莓靠什么赚钱&lt;/h2&gt;
+
+&lt;p&gt;很多人对黑莓的印象还停留在带全键盘的手机。那门生意在2016年就彻底停了。现在的黑莓分三块：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第一块是QNX&lt;/strong&gt;——这是全公司的主角，占本季营收的49%。QNX是一个&lt;strong&gt;实时操作系统&lt;/strong&gt;（real-time OS，指能保证在极短、可预测的时间内完成响应的操作系统，刹车、气囊这类不能”卡一下”的场景必须用它）。全球绝大多数汽车的仪表盘、车机、高级辅助驾驶控制器里跑的底层系统就是QNX。车厂按每辆车付一笔”版税”（royalty），车卖得越多，黑莓收得越多。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第二块是安全通信（Secure Communications）&lt;/strong&gt;，占本季营收的37%。卖给政府、军警、关键基础设施的加密通话、加密短信、危机通知系统。客户名单包括美国联邦政府、加拿大政府机构、荷兰警方、英国国家电网、罗尔斯·罗伊斯等。这块是&lt;strong&gt;订阅制&lt;/strong&gt;，收入稳定但增长慢。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第三块是专利授权（Licensing）&lt;/strong&gt;，占14%。把手机时代积累的专利许可出去收钱，本质是”吃老本”，收入极不稳定，但几乎没有成本，利润率奇高。&lt;/p&gt;
+
+&lt;h2 id=&quot;核心财务数据&quot;&gt;核心财务数据&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2027财年Q2&lt;/th&gt;
+      &lt;th&gt;2026财年Q2&lt;/th&gt;
+      &lt;th&gt;同比&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;1.633亿美元&lt;/td&gt;
+      &lt;td&gt;1.296亿美元&lt;/td&gt;
+      &lt;td&gt;+26.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毛利&lt;/td&gt;
+      &lt;td&gt;1.271亿美元&lt;/td&gt;
+      &lt;td&gt;0.966亿美元&lt;/td&gt;
+      &lt;td&gt;+31.6%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP毛利率&lt;/td&gt;
+      &lt;td&gt;77.8%&lt;/td&gt;
+      &lt;td&gt;74.5%&lt;/td&gt;
+      &lt;td&gt;+3.3个百分点&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;研发费用&lt;/td&gt;
+      &lt;td&gt;3320万美元&lt;/td&gt;
+      &lt;td&gt;2560万美元&lt;/td&gt;
+      &lt;td&gt;+29.7%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP营业利润&lt;/td&gt;
+      &lt;td&gt;3360万美元&lt;/td&gt;
+      &lt;td&gt;1150万美元&lt;/td&gt;
+      &lt;td&gt;+192%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GAAP净利润&lt;/td&gt;
+      &lt;td&gt;3390万美元&lt;/td&gt;
+      &lt;td&gt;1330万美元&lt;/td&gt;
+      &lt;td&gt;+155%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基本每股收益&lt;/td&gt;
+      &lt;td&gt;0.06美元&lt;/td&gt;
+      &lt;td&gt;0.02美元&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后EBITDA&lt;/td&gt;
+      &lt;td&gt;4700万美元&lt;/td&gt;
+      &lt;td&gt;2590万美元&lt;/td&gt;
+      &lt;td&gt;+81%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营现金流&lt;/td&gt;
+      &lt;td&gt;2930万美元&lt;/td&gt;
+      &lt;td&gt;340万美元&lt;/td&gt;
+      &lt;td&gt;—&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;有两个数字值得停下来看一眼。&lt;/p&gt;
+
+&lt;p&gt;一个是&lt;strong&gt;毛利率77.8%&lt;/strong&gt;。一家做操作系统的公司，毛利率接近八成，说明它卖的确实是软件而不是服务人力。另一个是&lt;strong&gt;营业利润增长192%，而营收只增长26%&lt;/strong&gt;。这就是软件生意的杠杆效应：成本几乎不随收入增长，多卖一块钱，大部分直接掉进利润里。公司自己用了一个叫”40法则”（Rule of 40，营收增速加上调整后EBITDA利润率，超过40分就算健康）的指标——本季26% + 29% = 55分，连续第二个季度达标。&lt;/p&gt;
+
+&lt;h2 id=&quot;分业务拆解&quot;&gt;分业务拆解&lt;/h2&gt;
+
+&lt;h3 id=&quot;qnx收入创纪录还拿下史上最大订单&quot;&gt;QNX：收入创纪录，还拿下史上最大订单&lt;/h3&gt;
+
+&lt;p&gt;QNX本季收入8030万美元，同比增长27%，是&lt;strong&gt;单季历史最高&lt;/strong&gt;。分部调整后毛利率87%，比去年同期扩大4个百分点；分部调整后EBITDA为2900万美元，同比增长41%，利润率36%。&lt;/p&gt;
+
+&lt;p&gt;但这个季度真正的大事不是收入，是一笔订单。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Coretura——沃尔沃集团（Volvo Group，卡车业务）与戴姆勒卡车（Daimler Truck）成立的合资公司——选择了黑莓的Alloy Kore平台&lt;/strong&gt;，作为其下一代商用车软件平台的基础。黑莓在新闻稿中明确表示，这是QNX历史上最大的一笔设计订单，为QNX的版税储备（royalty backlog，已签约但尚未随车辆量产兑现的未来收入）增加了&lt;strong&gt;超过1亿美元&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;Alloy Kore是什么？简单说，过去黑莓只卖”地基”（操作系统），现在它把地基之上的中间件、诊断工具、集成服务打包成一个平台一起卖。单车价值量因此大幅提升——管理层在电话会上说，这种打包方式的单实例平均售价大约是传统QNX方案的&lt;strong&gt;三倍&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;除此之外，本季QNX还有两个值得注意的进展：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;自动驾驶方案商Momenta（魔门塔）和XHEART选用了基于SDP 8.0的QNX OS for Safety，作为通过ISO 26262 ASIL D认证（汽车功能安全的最高等级）的量产级自动驾驶平台底座&lt;/li&gt;
+  &lt;li&gt;QNX在SDP 8.0上增加了对Hailo-8 AI加速器的支持，黑莓称基准测试显示其吞吐量更高、时延更低、功耗与发热更低，且一致性显著优于所测试的实时Linux环境&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;安全通信稳但也只是稳&quot;&gt;安全通信：稳，但也只是稳&lt;/h3&gt;
+
+&lt;p&gt;本季收入6090万美元，同比只增长2%。年度经常性收入（ARR）2.21亿美元，与上季持平；净留存率（DBNRR，老客户第二年花的钱相对第一年的比例）91%，意味着老客户在&lt;strong&gt;小幅缩减&lt;/strong&gt;开支。&lt;/p&gt;
+
+&lt;p&gt;更糟的是利润：分部调整后毛利率61%，同比下降5个百分点；分部调整后EBITDA为800万美元，同比下降18%。&lt;/p&gt;
+
+&lt;h3 id=&quot;专利授权意外之财&quot;&gt;专利授权：意外之财&lt;/h3&gt;
+
+&lt;p&gt;本季收入2210万美元，远超公司自己的预期，原因是季度内新签了一笔授权协议。这块分部调整后EBITDA为2000万美元——2210万收入里有2000万是利润。但这是一次性的：公司指引第三、四季度会回落到每季约600万美元。&lt;/p&gt;
+
+&lt;h2 id=&quot;全年指引连续第二次上调&quot;&gt;全年指引：连续第二次上调&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;指标&lt;/th&gt;
+      &lt;th&gt;2027财年Q3指引&lt;/th&gt;
+      &lt;th&gt;2027财年全年指引&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总营收&lt;/td&gt;
+      &lt;td&gt;1.43亿至1.54亿美元&lt;/td&gt;
+      &lt;td&gt;6.16亿至6.36亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;QNX营收&lt;/td&gt;
+      &lt;td&gt;0.82亿至0.88亿美元&lt;/td&gt;
+      &lt;td&gt;3.15亿至3.25亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;安全通信营收&lt;/td&gt;
+      &lt;td&gt;0.55亿至0.60亿美元&lt;/td&gt;
+      &lt;td&gt;2.60亿至2.70亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;专利授权营收&lt;/td&gt;
+      &lt;td&gt;约0.06亿美元&lt;/td&gt;
+      &lt;td&gt;约0.41亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后EBITDA&lt;/td&gt;
+      &lt;td&gt;0.28亿至0.37亿美元&lt;/td&gt;
+      &lt;td&gt;1.41亿至1.58亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调整后基本每股收益&lt;/td&gt;
+      &lt;td&gt;0.04至0.05美元&lt;/td&gt;
+      &lt;td&gt;0.19至0.22美元&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经营现金流&lt;/td&gt;
+      &lt;td&gt;0.20亿至0.30亿美元&lt;/td&gt;
+      &lt;td&gt;约1.15亿美元&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;按中值算，全年营收指引比上季提高约900万美元，调整后EBITDA指引提高约2100万美元，经营现金流目标提高约1500万美元。QNX全年指引中值提高1700万美元，是&lt;strong&gt;连续第二个季度上调&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;亮点与隐忧&quot;&gt;亮点与隐忧&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;亮点一：QNX的增长不依赖汽车总销量。&lt;/strong&gt; 管理层在电话会上给了一个很清晰的框架——全球每年约9000万辆汽车，目前只有约三分之一采用了QNX占优的高性能中央计算架构，行业预测五年内这个比例可能升至四分之三。也就是说，即使全球车市零增长，QNX的可触达市场也可能翻倍。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;亮点二：版税开始从”预估”变成”合同承诺”。&lt;/strong&gt; 公司披露，新签合同越来越多地包含&lt;strong&gt;最低销量承诺&lt;/strong&gt;，而不是过去车厂给一个可随时调整的预估值。这意味着收入和现金流的确定性提高。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;亮点三：资产负债表干净。&lt;/strong&gt; 期末现金及投资4.471亿美元，长期票据仅1.971亿美元，净现金约2.47亿美元。股东权益7.916亿美元，且累计亏损已从2026财年初的21.672亿美元收窄至21.219亿美元。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧一：安全通信在失血。&lt;/strong&gt; 占营收37%的第二大业务，收入只增2%、EBITDA下降18%、净留存率91%。公司还主动下调了这块的全年指引，理由是美国联邦政府采购的地缘政治不确定性——CFO Tim Foote直言，加拿大与美国之间的贸易摩擦让本已动荡的环境”进一步复杂化”。黑莓总部在加拿大安大略省滑铁卢，这是个结构性风险。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧二：本季利润里有水分。&lt;/strong&gt; 2210万美元的专利授权收入中约2000万是利润，占全季调整后EBITDA的43%。剔除这笔一次性授权，本季的成色会明显打折。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧三：QNX第四季度指引环比走低。&lt;/strong&gt; 按指引推算，第四季度QNX收入略低于第三季度。管理层的解释是”这是长周期生意，不要盯着单季看”——这个解释成立，但也确实说明版税兑现节奏并不平滑。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;隐忧四：绝对体量仍然很小。&lt;/strong&gt; 全年6亿多美元营收，对一家曾经的巨头而言，规模已经缩到了一个细分软件公司的量级。故事很好，但要撑起市值，QNX得真正从”一年3亿美元”长到几倍才行。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;这份财报的核心信息只有一句：&lt;strong&gt;黑莓已经变成了一家以车用操作系统为主业、并且开始赚钱的软件公司。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;26%的营收增长、192%的营业利润增长、连续六个季度GAAP盈利、连续两个季度上调指引——这些都是真实的改善。Coretura那笔超过1亿美元版税储备的Alloy Kore订单，证明了”从卖地基到卖整栋楼”的策略走得通，单车价值量能提到三倍。&lt;/p&gt;
+
+&lt;p&gt;但也要清醒：占营收近四成的安全通信正在原地踏步甚至倒退，本季利润里有一笔不可持续的专利授权收入，整个公司的年营收还不到7亿美元。黑莓的翻身仗打赢了上半场，但真正的考验是QNX能不能在机器人、工业自动化这些新市场里复制它在汽车上的位置——按CEO John Giamatteo自己的比喻，那块业务”才刚打到第二局上半”。&lt;/p&gt;
+
+&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001070235/000107023526000112/q2fy27ex-991.htm&quot;&gt;BlackBerry Reports Second Quarter Fiscal Year 2027 Results（SEC 8-K 附件99.1原文）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001070235/000107023526000112/bbry-20260924.htm&quot;&gt;BlackBerry Limited 8-K 申报文件（2026年9月24日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0001070235/000107023526000115/bbry-20260831.htm&quot;&gt;BlackBerry Limited 10-Q（截至2026年8月31日）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fool.com/earnings/call-transcripts/2026/09/24/blackberry-bb-q2-2027-earnings-call-transcript/&quot;&gt;BlackBerry (BB) Q2 2027 Earnings Call Transcript（The Motley Fool 电话会实录）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.blackberry.com/us/en/investors&quot;&gt;BlackBerry 投资者关系页&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;媒体参考（分析师预期与股价反应）：&lt;a href=&quot;https://www.fool.com/coverage/stock-market-today/2026/09/24/stock-market-today-sept-24-blackberry-lifts-fiscal-2027-guidance-on-record-qnx-revenue/&quot;&gt;Stock Market Today, Sept. 24: BlackBerry Lifts Fiscal 2027 Guidance on Record QNX Revenue（The Motley Fool）&lt;/a&gt;、&lt;a href=&quot;https://www.investing.com/news/stock-market-news/why-is-blackberry-stock-rallying-today-93CH-4915050&quot;&gt;Why is BlackBerry stock rallying today?（Investing.com）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 26 Sep 2026 00:00:00 +0800</pubDate>
+        <link>https://zluckyhou.github.io/blog/2026/09/26/blackberry_fy2027q2_earnings/</link>
+        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/26/blackberry_fy2027q2_earnings/</guid>
+        
+        <category>黑莓</category>
+        
+        <category>大公司数据观察</category>
+        
+        
+        <category>company-research</category>
         
       </item>
     
@@ -853,1243 +2200,6 @@
         <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/25/darden_fy2027q1_earnings/</guid>
         
         <category>Darden</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Costco 2026财年Q4电话会——CFO把可比销售预期下调到「6%到7%才是更正常的水平」，关税退款优先用于降价，AI搜索来的流量转化率最高</title>
-        <description>&lt;p&gt;美东时间2026年9月24日美股收盘后，&lt;a href=&quot;https://investor.costco.com/&quot;&gt;Costco&lt;/a&gt;（NASDAQ: COST）在发布2026财年第四季度及全年财报的同时召开了业绩电话会。财报数字我们在&lt;a href=&quot;/blog/2026/09/25/costco_fy2026q4_earnings/&quot;&gt;前一篇财报解读&lt;/a&gt;里已经拆过：第四季度总营收957.23亿美元同比增长11.1%，可比销售增长9.4%，摊薄每股收益6.75美元超预期，全年营收首次突破3000亿美元。&lt;/p&gt;
-
-&lt;p&gt;这篇只讲电话会上的&lt;strong&gt;增量信息&lt;/strong&gt;——新闻稿里没写、只有管理层开口才知道的东西。Costco 的新闻稿一向极简（连毛利率都不列），所以这场电话会的信息密度反而比财报本身更高。&lt;/p&gt;
-
-&lt;p&gt;出席管理层两位：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ron Vachris&lt;/strong&gt;，首席执行官&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Gary Millerchip&lt;/strong&gt;，首席财务官&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;管理层核心表态&quot;&gt;管理层核心表态&lt;/h2&gt;
-
-&lt;h3 id=&quot;一主动下调可比销售的正常水平&quot;&gt;一、主动下调可比销售的「正常水平」&lt;/h3&gt;
-
-&lt;p&gt;财报上9.4%的可比销售看着漂亮，但 Millerchip 在电话会上做了一件耐人寻味的事：主动给市场降温。他明确表示，&lt;strong&gt;6%到7%区间的可比销售增长「可能才是更正常的水平」&lt;/strong&gt;（原话大意为 comparable sales growth in the 6% to 7% range is likely a more normal level）。&lt;/p&gt;
-
-&lt;p&gt;理由在拆解里：9.4%里含汽油涨价和汇率的贡献，剔除后是6.7%。客流同比增长3.3%，客单价增长5.9%——但客单价剔除汽油和汇率后只增长3.3%。换句话说，超出6%到7%的那部分，很大程度是油价的水分。&lt;/p&gt;
-
-&lt;h3 id=&quot;二关税退款先降价不先记利润&quot;&gt;二、关税退款：先降价，不先记利润&lt;/h3&gt;
-
-&lt;p&gt;季度内 Costco 收到&lt;strong&gt;1.84亿美元 IEEPA 关税退款&lt;/strong&gt;（美国政府退还依据《国际紧急经济权力法》征收的部分关税），对应每股0.15美元的一次性收益。管理层的处理方式是把其中一部分立刻反哺给会员，降价品类包括生鲜蔬果、肉类、饮料和非食品。&lt;/p&gt;
-
-&lt;p&gt;Millerchip 给出的原则是：&lt;strong&gt;「目标是在有机会的地方第一个降价」&lt;/strong&gt;（Goal is to be the first to lower prices where opportunities exist）。管理层还提示，2027财年第一季度预计还会收到规模相近的退款。&lt;/p&gt;
-
-&lt;p&gt;一个具体例子：Kirkland Signature 核桃的价格从13.79美元降到9.99美元，降幅约27%。&lt;/p&gt;
-
-&lt;h3 id=&quot;三毛利率的真实情况比报表好看&quot;&gt;三、毛利率的真实情况比报表好看&lt;/h3&gt;
-
-&lt;p&gt;报表毛利率11.02%，同比下降11个基点，看起来在退步。管理层把这个数字拆成三层：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;剔除汽油通胀影响后，毛利率其实&lt;strong&gt;提升20个基点&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;再剔除关税因素，核心品类毛利率&lt;strong&gt;提升18个基点&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;本季度 LIFO（后进先出法）存货跌价计提&lt;strong&gt;1.52亿美元&lt;/strong&gt;，去年同期仅4300万美元；全财年 LIFO 计提略超2亿美元，对应美国存货约&lt;strong&gt;1.5%的通胀&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Millerchip 把改善归因于供应链效率，称「供应链效率带动了所有品类的毛利率改善」。&lt;/p&gt;
-
-&lt;p&gt;运营开支率（SG&amp;amp;A）8.94%，同比下降27个基点，其中门店运营部分降22个基点、总部部分降5个基点。&lt;/p&gt;
-
-&lt;h3 id=&quot;四ai-已经在给-costco-送客&quot;&gt;四、AI 已经在给 Costco 送客&lt;/h3&gt;
-
-&lt;p&gt;这是本场电话会最容易被忽略、但可能最有长期意义的一条披露：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;来自 AI 搜索的网站流量连续第二个季度实现三位数增长&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;这部分流量的&lt;strong&gt;转化率是所有流量来源中最高的&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;公司正在与 Gemini、Anthropic、OpenAI 等平台合作&lt;/li&gt;
-  &lt;li&gt;个性化推荐带来的销售额实现三位数增长，约10%的订单包含个性化推荐的商品&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;对一家核心体验是「推着大车在仓库里逛」的零售商来说，线上数字化销售全年已经超过330亿美元、增速20%以上，而 AI 是其中增长最快的入口。&lt;/p&gt;
-
-&lt;h3 id=&quot;五2027财年的扩张与投入&quot;&gt;五、2027财年的扩张与投入&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;第四季度新开12家门店（含台湾一家搬迁），全财年新开28家、净增25家，期末939家&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;2027财年计划新开33家&lt;/strong&gt;（含5家搬迁），长期节奏目标为每年净增30家&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;2027财年资本支出计划约75亿美元&lt;/strong&gt;，高于2026财年的64.35亿美元&lt;/li&gt;
-  &lt;li&gt;第三方配送：Uber Eats 从17个州扩展至全美，DoorDash 同步扩张，各平台平均配送时间已压到1小时以内&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;分析师问答里信息量最大的六个问题&quot;&gt;分析师问答里信息量最大的六个问题&lt;/h2&gt;
-
-&lt;h3 id=&quot;q1ubsmichael-lasser在销售势头不算强的情况下把关税退款投入降价回报如何&quot;&gt;Q1（UBS，Michael Lasser）：在销售势头不算强的情况下，把关税退款投入降价，回报如何？&lt;/h3&gt;
-
-&lt;p&gt;这是全场第一个问题，也是最尖锐的一个——本质是问「你让出的利润换来了销量吗」。&lt;/p&gt;
-
-&lt;p&gt;Millerchip 的回答是会员依然有韧性，并给出一个具体证据：&lt;strong&gt;非食品品类是本季度表现最好的大类&lt;/strong&gt;。非食品（家电、家居、电子）是典型的可选消费，它跑在最前面，说明会员愿意花钱的意愿没有走弱，而不是只在囤低价必需品。&lt;/p&gt;
-
-&lt;h3 id=&quot;q2truistscot-ciccarelli会员增速已经连续八个季度放缓怎么解释&quot;&gt;Q2（Truist，Scot Ciccarelli）：会员增速已经连续八个季度放缓，怎么解释？&lt;/h3&gt;
-
-&lt;p&gt;这一问几乎是当场把最大的隐忧摊在桌上：付费会员8410万户，同比只增长3.8%。&lt;/p&gt;
-
-&lt;p&gt;Millerchip 的回答很直接：&lt;strong&gt;「最近几个季度看到的增长率可能才是更典型的水平」&lt;/strong&gt;（Growth rate we’ve seen in recent quarters is probably more typical）。等于承认疫情后那波爆发式增长已经结束，现在的3%到4%才是常态。&lt;/p&gt;
-
-&lt;p&gt;同一话题上，摩根士丹利的 Simeon Gutman 追问了会员增长质量。管理层的回应是把重点从「数量」转到「质量」：执行会员渗透率创历史新高，加油业务参与度创历史新高，数字化参与度创历史新高。付费会员里执行会员已达4230万户（同比增长9.4%），占比超过一半；美加续费率92.3%、全球89.8%，均环比提升10个基点。&lt;/p&gt;
-
-&lt;h3 id=&quot;q3oppenheimerrupesh-parikhai-购物兴起costco-的位置在哪里&quot;&gt;Q3（Oppenheimer，Rupesh Parikh）：AI 购物兴起，Costco 的位置在哪里？&lt;/h3&gt;
-
-&lt;p&gt;Millerchip 的回答逻辑是：会员正在把 AI 当成工具使用，而在 AI 的比价场景里，&lt;strong&gt;价值和质量会被透明地呈现出来&lt;/strong&gt;（value and quality shows up transparently）。&lt;/p&gt;
-
-&lt;p&gt;翻译成大白话：如果消费者不再逛店而是让 AI 帮他找「同款最便宜」，那么长期把商品加价率压在11%的 Costco 是受益方而不是受害方。这与它三位数增长的 AI 搜索流量、以及该渠道最高的转化率互相印证。&lt;/p&gt;
-
-&lt;h3 id=&quot;q4evercore-isigreg-melich--摩根大通chris-horvers通胀现在什么水平往后怎么走&quot;&gt;Q4（Evercore ISI，Greg Melich / 摩根大通，Chris Horvers）：通胀现在什么水平，往后怎么走？&lt;/h3&gt;
-
-&lt;p&gt;Millerchip 给的现状是&lt;strong&gt;通胀目前在低个位数、整体相对稳定&lt;/strong&gt;（Inflation currently running in the low single digits…relatively stable overall）。&lt;/p&gt;
-
-&lt;p&gt;但被问到未来食品通胀的走向时，他没有给结论，而是明确说&lt;strong&gt;「很难预测」&lt;/strong&gt;，并点出两个不确定性来源：中东局势的影响和关税形势。对供应商提价的可见度，Vachris 补充说提前期「从30天到90天以上不等」，公司会用 Kirkland Signature 自有品牌的扩张来对冲——自有品牌的定价权在自己手里。&lt;/p&gt;
-
-&lt;h3 id=&quot;q5mizuhodavid-bellinger第三方配送会不会最终替代到店&quot;&gt;Q5（Mizuho，David Bellinger）：第三方配送会不会最终替代到店？&lt;/h3&gt;
-
-&lt;p&gt;Vachris 的回答是&lt;strong&gt;「我们发现这类互动大部分是增量」&lt;/strong&gt;（We find a lot of this interaction to be incremental）——即通过 Uber Eats、DoorDash 下单的会员，并没有减少到店消费，而是多出来的一笔生意。&lt;/p&gt;
-
-&lt;p&gt;Jefferies 的 Corey Tarlowe 从另一面问了同一件事：年轻会员是否还需要仓储门店？Millerchip 的回答是「门店依然极其重要」，公司的方向是把门店的价值与线上体验的提升结合起来，而不是二选一。&lt;/p&gt;
-
-&lt;h3 id=&quot;q6美国银行christopher-nardonesga-的压力具体来自哪里glp-1-对销售的影响&quot;&gt;Q6（美国银行，Christopher Nardone）：SG&amp;amp;A 的压力具体来自哪里？GLP-1 对销售的影响？&lt;/h3&gt;
-
-&lt;p&gt;Millerchip 点了两个成本项：&lt;strong&gt;责任险和医疗成本的增速快于整体&lt;/strong&gt;，但补充说「没有需要特别提示的重大逆风」。&lt;/p&gt;
-
-&lt;p&gt;GLP-1（减肥药）方面，Vachris 的回答很有 Costco 特色：&lt;strong&gt;看到价格下降，就看到机会&lt;/strong&gt;，药房销售本季度增长接近20%，GLP-1 和生育项目是主要拉动，「销量的反应非常好」。&lt;/p&gt;
-
-&lt;p&gt;此外，高盛的 Kate McShane 问了年轻会员的成熟曲线，Millerchip 的解释是年轻会员家庭规模更小，消费峰值出现在收入峰值的时候——潜台词是这批人现在贡献不高，但会随年龄增长自然放大。BMO 的 Kelly Bania 问了亚洲会员数据，回答是亚洲会员到店频次偏低，这恰恰是提升参与度的空间。&lt;/p&gt;
-
-&lt;h2 id=&quot;解读这场电话会说了什么&quot;&gt;解读：这场电话会说了什么&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，管理层在主动管理预期。&lt;/strong&gt; 一家超预期的公司，CFO 却在电话会上把可比销售的「正常区间」下调到6%到7%、把会员增速的「典型水平」定义为当前的3%到4%——这不是悲观，而是不希望市场把油价带来的9.4%当成基准。Costco 的估值长期高于同业，靠的就是可预测性，主动降低基准比事后解释失速更聪明。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，关税退款的处理方式暴露了优先级。&lt;/strong&gt; 1.84亿美元退款完全可以留在利润表里，让本季度更漂亮。它选择先降价，理由是「第一个降价」的位置比这一个季度的每股收益更值钱。这是典型的 Costco 取舍：用当期利润买长期续费率。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，AI 是新变量，而且方向对它有利。&lt;/strong&gt; 三位数增长的 AI 搜索流量、全渠道最高的转化率、与三家主流大模型平台的合作——这些都指向一个判断：当购买决策被 AI 代理接手，价格和质量透明度上升，最低加价率的零售商是结构性受益者。这条线现在还小，但值得长期跟踪。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第四，真正的风险不在利润表，在会员表。&lt;/strong&gt; 报表上几乎每个效率指标都在改善（运营开支率降27个基点、核心毛利率升18个基点），但会员增速降到3.8%、2024年会员涨价的红利正在耗尽（全年会员费收入增长11.0%，第四季度只有7.3%）。会员费是这家公司一半的营业利润来源，这条线的斜率决定了未来两年的利润增速。&lt;/p&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;p&gt;这是一场「数字超预期、口气偏保守」的电话会。管理层把最漂亮的数字主动打了折扣（剔除油价后6.7%），把最难看的数字直接认了（会员增速3.8%就是常态），同时把新增的1.84亿美元意外收入当场花掉用于降价。对短线投资者，这不是最兴奋的组合；但对理解 Costco 商业模式的人来说，这恰恰是它二十年如一日的做法。&lt;/p&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;一手信息：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2026财年第四季度业绩电话会实录（完整问答）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-costco-beats-q4-2026-forecasts-shares-edge-higher-93CH-4916339&quot;&gt;www.investing.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;电话会要点与管理层引述交叉验证：&lt;a href=&quot;https://www.marketbeat.com/instant-alerts/transcript-costco-wholesale-q4-earnings-call-highlights-2026-09-24/&quot;&gt;www.marketbeat.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Costco 官方财报新闻稿：&lt;a href=&quot;https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Operating-Results/default.aspx&quot;&gt;investor.costco.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;SEC EDGAR 8-K 附件99.1（合并财务报表）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0000909832/000090983226000084/costex9918-k92426.htm&quot;&gt;www.sec.gov&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;电话会音频与材料（Costco 投资者关系官网）：&lt;a href=&quot;https://investor.costco.com/events-and-presentations/events/event-details/2026/Q4-2026-Earnings-Call/default.aspx&quot;&gt;investor.costco.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;媒体报道（仅用于分析师预期与股价反应）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.stocktitan.net/news/COST/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-year-hsqvdvy2xqod.html&quot;&gt;StockTitan 财报速览&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 25 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/25/costco_fy2026q4_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/25/costco_fy2026q4_earnings_call/</guid>
-        
-        <category>Costco</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Costco 2026财年Q4——单季营收957亿美元同比增11.1%，全年营收突破3000亿美元，关税退款反哺会员降价</title>
-        <description>&lt;p&gt;美东时间2026年9月24日美股收盘后（北京时间9月25日凌晨），全球最大的会员制仓储超市 &lt;a href=&quot;https://investor.costco.com/&quot;&gt;Costco&lt;/a&gt;（NASDAQ: COST，中国大陆叫「开市客」、台港地区叫「好市多」）发布了截至2026年8月30日的2026财年第四季度及全年财报。&lt;/p&gt;
-
-&lt;p&gt;这份财报的核心数字全部超过华尔街预期，股价盘后小幅上涨约1%——这已经是 Costco 连续第五个季度超预期。&lt;/p&gt;
-
-&lt;p&gt;先看第四季度（13周）最关键的几个数：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;总营收957.23亿美元，同比增长11.1%（去年同期861.56亿美元）&lt;/li&gt;
-  &lt;li&gt;净销售额938.73亿美元，同比增长11.2%&lt;/li&gt;
-  &lt;li&gt;会员费收入18.50亿美元，同比增长7.3%&lt;/li&gt;
-  &lt;li&gt;营业利润38.01亿美元，同比增长13.8%&lt;/li&gt;
-  &lt;li&gt;净利润29.98亿美元，同比增长14.9%&lt;/li&gt;
-  &lt;li&gt;摊薄每股收益6.75美元，同比增长15.0%，高于市场预期的6.55美元&lt;/li&gt;
-  &lt;li&gt;全公司可比销售增长9.4%，剔除汽油价格和汇率影响后为6.7%&lt;/li&gt;
-  &lt;li&gt;线上（数字化）可比销售增长19.5%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;全财年（52周）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;总营收3031.54亿美元，同比增长10.1%，&lt;strong&gt;公司历史上首次突破3000亿美元&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;净利润92.26亿美元，同比增长13.9%&lt;/li&gt;
-  &lt;li&gt;摊薄每股收益20.76美元，同比增长14.0%&lt;/li&gt;
-  &lt;li&gt;全球仓储门店939家&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;有一个细节必须先说清楚：这个季度每股收益里有0.15美元来自「IEEPA 关税退款」的一次性收益——美国政府退还了此前依据《国际紧急经济权力法》征收的部分关税，Costco 本季度收到1.84亿美元。管理层说，这笔钱的一部分已经直接反哺给会员（降价）。剔除这笔一次性收益，每股收益约为6.60美元，同比增长约12.4%，依然高于预期。&lt;/p&gt;
-
-&lt;h2 id=&quot;先搞清楚这家公司靠什么赚钱&quot;&gt;先搞清楚这家公司靠什么赚钱&lt;/h2&gt;
-
-&lt;p&gt;理解 Costco 的财报，只需要记住一件事：&lt;strong&gt;它不靠卖货赚钱，靠收会员费赚钱。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;普通超市的毛利率通常在25%到30%，沃尔玛约24%，而 Costco 本季度的商品毛利率只有&lt;strong&gt;11.02%&lt;/strong&gt;。也就是说，一件成本100美元的商品，Costco 只加价11美元多一点就卖出去了，这11美元还要覆盖门店租金、员工工资、水电、物流——本季度这些运营开支（SG&amp;amp;A）占净销售额8.94%。&lt;/p&gt;
-
-&lt;p&gt;算一下就明白了：938.73亿美元净销售额扣掉835.31亿美元商品成本，再扣掉83.91亿美元运营开支，卖货这块只剩19.51亿美元。而同期会员费收入是18.50亿美元，几乎等于卖货的全部利润。放到全财年看更清楚：全年会员费收入59.07亿美元，占全年营业利润116.85亿美元的&lt;strong&gt;50.6%&lt;/strong&gt;——一半的利润来自会员费。&lt;/p&gt;
-
-&lt;p&gt;所以 Costco 的商业模式是一个闭环：把商品价格压到全行业最低 → 吸引会员付费入场 → 会员费转化为利润 → 利润不用来提高商品加价率，而是继续压价 → 会员续费率维持在九成以上。这也解释了为什么它收到关税退款后第一反应是降价而不是留作利润。&lt;/p&gt;
-
-&lt;h2 id=&quot;核心财务数据&quot;&gt;核心财务数据&lt;/h2&gt;
-
-&lt;p&gt;单位：百万美元&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026财年Q4&lt;/th&gt;
-      &lt;th&gt;2025财年Q4&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收&lt;/td&gt;
-      &lt;td&gt;95,723&lt;/td&gt;
-      &lt;td&gt;86,156&lt;/td&gt;
-      &lt;td&gt;+11.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额&lt;/td&gt;
-      &lt;td&gt;93,873&lt;/td&gt;
-      &lt;td&gt;84,432&lt;/td&gt;
-      &lt;td&gt;+11.2%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;会员费收入&lt;/td&gt;
-      &lt;td&gt;1,850&lt;/td&gt;
-      &lt;td&gt;1,724&lt;/td&gt;
-      &lt;td&gt;+7.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;商品成本&lt;/td&gt;
-      &lt;td&gt;83,531&lt;/td&gt;
-      &lt;td&gt;75,037&lt;/td&gt;
-      &lt;td&gt;+11.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;运营开支（SG&amp;amp;A）&lt;/td&gt;
-      &lt;td&gt;8,391&lt;/td&gt;
-      &lt;td&gt;7,778&lt;/td&gt;
-      &lt;td&gt;+7.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业利润&lt;/td&gt;
-      &lt;td&gt;3,801&lt;/td&gt;
-      &lt;td&gt;3,341&lt;/td&gt;
-      &lt;td&gt;+13.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;2,998&lt;/td&gt;
-      &lt;td&gt;2,610&lt;/td&gt;
-      &lt;td&gt;+14.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益（美元）&lt;/td&gt;
-      &lt;td&gt;6.75&lt;/td&gt;
-      &lt;td&gt;5.87&lt;/td&gt;
-      &lt;td&gt;+15.0%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;全年对比：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2026财年&lt;/th&gt;
-      &lt;th&gt;2025财年&lt;/th&gt;
-      &lt;th&gt;同比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收&lt;/td&gt;
-      &lt;td&gt;303,154&lt;/td&gt;
-      &lt;td&gt;275,235&lt;/td&gt;
-      &lt;td&gt;+10.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净销售额&lt;/td&gt;
-      &lt;td&gt;297,247&lt;/td&gt;
-      &lt;td&gt;269,912&lt;/td&gt;
-      &lt;td&gt;+10.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;会员费收入&lt;/td&gt;
-      &lt;td&gt;5,907&lt;/td&gt;
-      &lt;td&gt;5,323&lt;/td&gt;
-      &lt;td&gt;+11.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业利润&lt;/td&gt;
-      &lt;td&gt;11,685&lt;/td&gt;
-      &lt;td&gt;10,383&lt;/td&gt;
-      &lt;td&gt;+12.5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;9,226&lt;/td&gt;
-      &lt;td&gt;8,099&lt;/td&gt;
-      &lt;td&gt;+13.9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益（美元）&lt;/td&gt;
-      &lt;td&gt;20.76&lt;/td&gt;
-      &lt;td&gt;18.21&lt;/td&gt;
-      &lt;td&gt;+14.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;资本支出&lt;/td&gt;
-      &lt;td&gt;6,435&lt;/td&gt;
-      &lt;td&gt;5,498&lt;/td&gt;
-      &lt;td&gt;+17.0%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;分红支出&lt;/td&gt;
-      &lt;td&gt;2,458&lt;/td&gt;
-      &lt;td&gt;2,183&lt;/td&gt;
-      &lt;td&gt;+12.6%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;期末现金及等价物202.07亿美元（去年同期141.61亿美元），总资产890.45亿美元（去年同期770.99亿美元）。一家零售公司账上躺着200亿美元现金，这是它敢于持续降价的底气。&lt;/p&gt;
-
-&lt;p&gt;两个容易被忽略的效率指标：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;运营开支率降了27个基点&lt;/strong&gt;（从9.21%降到8.94%）。营收增长11.2%的同时运营开支只增长7.9%，说明规模效应还在起作用。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;毛利率降了11个基点&lt;/strong&gt;（11.13%到11.02%）。这里有两个原因：一是汽油价格上涨拉低了整体毛利率（汽油是低毛利品类，卖得多反而摊薄毛利率），二是本季度计提了1.52亿美元 LIFO（后进先出法）存货跌价——去年同期只有4300万美元。管理层解释，剔除汽油通胀影响后毛利率其实&lt;strong&gt;提升了20个基点&lt;/strong&gt;，核心品类毛利率提升18个基点。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;分区域和分渠道&quot;&gt;分区域和分渠道&lt;/h2&gt;
-
-&lt;p&gt;可比销售（开业满一年的门店，剔除新店因素）：&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;区域&lt;/th&gt;
-      &lt;th&gt;Q4可比销售&lt;/th&gt;
-      &lt;th&gt;全年可比销售&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;美国&lt;/td&gt;
-      &lt;td&gt;+10.7%&lt;/td&gt;
-      &lt;td&gt;+8.2%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;加拿大&lt;/td&gt;
-      &lt;td&gt;+5.0%&lt;/td&gt;
-      &lt;td&gt;+7.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其他国际市场&lt;/td&gt;
-      &lt;td&gt;+7.0%&lt;/td&gt;
-      &lt;td&gt;+9.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;全公司&lt;/td&gt;
-      &lt;td&gt;+9.4%&lt;/td&gt;
-      &lt;td&gt;+8.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;数字化（线上）&lt;/td&gt;
-      &lt;td&gt;+19.5%&lt;/td&gt;
-      &lt;td&gt;+20.9%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;美国市场10.7%的可比增长是主引擎，但这个数字包含了汽油涨价的贡献。全公司剔除汽油和汇率后是6.7%，管理层在电话会上明确表示「6%到7%的可比增长区间可能才是更正常的水平」——这是给市场的预期管理。&lt;/p&gt;
-
-&lt;p&gt;线上是最快的一条腿：全年数字化销售额超过330亿美元，同比增长超过20%。值得注意的是管理层提到，&lt;strong&gt;来自 AI 搜索的网站流量连续第二个季度实现三位数增长，而且这部分流量的转化率是所有流量来源里最高的&lt;/strong&gt;。对一家以「线下逛仓库」为核心体验的零售商来说，这是个不太被注意到的新增量。&lt;/p&gt;
-
-&lt;p&gt;客流和客单价拆开看：全球客流同比增长3.3%，平均客单价增长5.9%（剔除汽油和汇率后为3.3%）。也就是说，增长里既有更多人来，也有每人买得更多，但客单价的贡献更大。&lt;/p&gt;
-
-&lt;h2 id=&quot;会员数据质量创新高增速在放缓&quot;&gt;会员数据：质量创新高，增速在放缓&lt;/h2&gt;
-
-&lt;p&gt;这是本季度最值得细看的一组数字：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;付费会员8410万户，同比增长3.8%&lt;/li&gt;
-  &lt;li&gt;执行会员（Executive，年费更高、可返现2%）4230万户，同比增长9.4%，&lt;strong&gt;渗透率创历史新高&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;持卡人总数1.504亿，同比增长3.6%&lt;/li&gt;
-  &lt;li&gt;美国和加拿大续费率92.3%，环比提升10个基点&lt;/li&gt;
-  &lt;li&gt;全球续费率89.8%，环比提升10个基点&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;好消息是质量：执行会员占付费会员的比例已经超过一半，而执行会员的消费金额和续费率都显著高于普通会员；续费率重回上升通道。&lt;/p&gt;
-
-&lt;p&gt;隐忧是速度：付费会员同比增长3.8%，已经是连续多个季度放缓，分析师在电话会上连着追问了两轮。CFO Gary Millerchip 的回答是「最近几个季度看到的增长率可能才是更典型的水平」——等于承认疫情后那波爆发式会员增长结束了。&lt;/p&gt;
-
-&lt;p&gt;另一个即将到来的逆风：2024年9月 Costco 上调过会员年费，这一轮涨价红利正在耗尽。全财年会员费收入增长11.0%，而第四季度只增长7.3%，两者之间的差距就是涨价效应的衰减曲线。下一次涨价通常要等五到六年，中间这段时间会员费收入增速会回落到接近会员数增速。&lt;/p&gt;
-
-&lt;h2 id=&quot;扩张与附属业务&quot;&gt;扩张与附属业务&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;第四季度新开12家门店（含台湾一家搬迁），其中美国10家、墨西哥第43家&lt;/li&gt;
-  &lt;li&gt;全财年新开28家（含3家搬迁），净增25家，期末全球939家门店&lt;/li&gt;
-  &lt;li&gt;2027财年计划新开33家（含5家搬迁），管理层给出「每年净增30家」的长期节奏&lt;/li&gt;
-  &lt;li&gt;2027财年资本支出计划约75亿美元（2026财年为64.35亿美元）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;附属业务增速普遍高于公司整体：汽油可比销售增长30%出头，全年帮会员省下32亿美元（相对平均加油站价格）；药房销售增长接近20%，GLP-1减肥药和生育项目是主要拉动；旅游业务的度假套餐、邮轮、租车全部双位数增长，全年有超过75万名会员通过 Costco 订邮轮。第三方配送方面，Uber Eats 从17个州扩展到全美，DoorDash 也在扩张，管理层强调「这些渠道的销售大部分是增量」。&lt;/p&gt;
-
-&lt;h2 id=&quot;亮点与隐忧&quot;&gt;亮点与隐忧&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;亮点：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;全年营收突破3000亿美元，在超过3000亿美元的体量上还能保持10%的增长，规模效应没有衰减——运营开支率还在下降。&lt;/li&gt;
-  &lt;li&gt;执行会员渗透率和续费率双双走高，会员池的质量在改善，这是未来会员费收入的安全垫。&lt;/li&gt;
-  &lt;li&gt;关税退款没有装进利润表了事，而是回流为会员降价（管理层说目标是「在有机会的地方第一个降价」），短期让出利润换长期份额，这是 Costco 一贯的打法。&lt;/li&gt;
-  &lt;li&gt;线上增长20%以上，AI 搜索带来的高转化流量是新变量。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;隐忧：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;会员数增速降到3.8%，涨价红利同步衰减，会员费收入这条最赚钱的线增速正在回落。&lt;/li&gt;
-  &lt;li&gt;9.4%的可比销售里有相当一部分是汽油涨价的水分，剔除后6.7%，管理层自己把预期下调到6%到7%。&lt;/li&gt;
-  &lt;li&gt;LIFO 计提全年略超2亿美元，对应美国存货约1.5%的通胀。管理层说通胀目前在低个位数、整体稳定，但被问到未来食品通胀走向时明确表示「很难预测」，还提到中东局势和关税的不确定性。&lt;/li&gt;
-  &lt;li&gt;SG&amp;amp;A 里的责任险和医疗成本增速快于整体，这是利润率上的慢性压力。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;展望&quot;&gt;展望&lt;/h2&gt;
-
-&lt;p&gt;Costco 不给财务指引，所以看它的下一步只能看两个动作：一是扩张节奏（2027财年33家新店、75亿美元资本支出，都创了新高），二是价格策略（关税退款继续反哺降价，第一季度预计还有相似规模的退款）。&lt;/p&gt;
-
-&lt;p&gt;这两个动作指向同一件事：在通胀反复、消费者对价格越来越敏感的环境里，Costco 选择把利润让给会员，换取份额和续费率。从92.3%的美加续费率和创历史新高的执行会员渗透率看，这套打法还在奏效。真正需要盯住的是会员增速——它是这个闭环里最先失速的那个齿轮。&lt;/p&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;p&gt;一手信息：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Costco 官方财报新闻稿（2026财年第四季度及全年业绩）：&lt;a href=&quot;https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Operating-Results/default.aspx&quot;&gt;investor.costco.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;SEC EDGAR 8-K 附件99.1（含合并财务报表）：&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/0000909832/000090983226000084/costex9918-k92426.htm&quot;&gt;www.sec.gov&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;2026财年第四季度业绩电话会实录（会员数据、毛利率拆解、关税退款、门店与资本支出计划）：&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-costco-beats-q4-2026-forecasts-shares-edge-higher-93CH-4916339&quot;&gt;www.investing.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;媒体报道（仅用于分析师预期与股价反应）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.marketbeat.com/instant-alerts/transcript-costco-wholesale-q4-earnings-call-highlights-2026-09-24/&quot;&gt;MarketBeat 电话会要点&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.stocktitan.net/news/COST/costco-wholesale-corporation-reports-fourth-quarter-and-fiscal-year-hsqvdvy2xqod.html&quot;&gt;StockTitan 财报速览&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 25 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/25/costco_fy2026q4_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/25/costco_fy2026q4_earnings/</guid>
-        
-        <category>Costco</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>Reddit 每日精选 | 2026.09.24</title>
-        <description>&lt;p&gt;今天这几个帖子凑在一起，居然有条暗线：我们习惯性地往东西里塞更多「聪明」——冰箱塞屏幕，招聘塞算法，发布流程塞自动化，军队塞模型——而每一次出事，坏掉的都不是聪明的那部分，是被聪明部分连累的那个最朴素的底座。冰箱不制冷了，求职者收不到回音了，一条 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install&lt;/code&gt; 装进来一个后门，还有一个没人能被追责的扳机。&lt;/p&gt;
-
-&lt;h2 id=&quot;一冰箱变砖评论区问出了那个最该问的工程问题&quot;&gt;一、冰箱变砖：评论区问出了那个最该问的工程问题&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wo5ky9/the_refrigerator_is_dead_samsungs_ai_fridges_shut/&quot;&gt;原帖：The refrigerator is dead: Samsung’s AI fridges shut down after update, causes outrage&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一批三星带屏幕的「AI 冰箱」在一次固件更新之后集体罢工，时间还卡在韩国中秋（秋夕）前夕——正是家家户户冰箱塞得最满的时候。一屋子食材报废，机器在厨房里站成一个昂贵的柜子。&lt;/p&gt;
-
-&lt;p&gt;楼里前面几百条基本是段子大会（「你问冰箱还有没有牛奶，冰箱想了想，回答抱歉我无法回答这个问题」）。但往下翻，真正有价值的一条是个直白到近乎愤怒的工程问题：为什么制冷这件事会和那块屏幕跑在同一个系统上？顺着这个问题，有人给出了本帖最好的一句概括——可降级设计是工程常识，智能部分死掉的时候，冰箱应该优雅地退化成一台普通冰箱，就像电动牙刷的电机坏了，它至少还是一把牙刷。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Assuming the smart thingies will fail or be bricked seems like engineering 101, so everything should gracefully degrade as a dumb fridge. Like an electric toothbrush, when the electric part fails it just becomes a regular toothbrush”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Thiht，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wo5ky9/the_refrigerator_is_dead_samsungs_ai_fridges_shut/pbkaj35/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;另一条支线也挺值得记下来。有人说「不买智能的不就行了」，马上有人泼冷水：现在买洗衣机，最便宜的那一档反而标配 Wi-Fi，不带联网的型号要么更贵要么长期缺货。还有人说得更狠——所谓「你还可以买普通冰箱」只是暂时的，厂商会慢慢把不联网的型号压缩成又少又差的低端款，让你实际上没得选。楼里还翻出一堆老古董炫耀：九十年代的冰箱在九十多华氏度的车库里锈成一片，照样比近五年买的两台不锈钢新冰箱可靠。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“But if fridges are treated like many other consumer electronics, the selection of dumb fridges you’ll be able to buy will be reduced to a tiny amount of low quality options many families will find inadequate.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Arliss_Loveless，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1wo5ky9/the_refrigerator_is_dead_samsungs_ai_fridges_shut/pbkixh2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这事对国内读者其实更有代入感——我们的家电智能化程度只高不低，全屋智能、语音控制、App 绑定早就是标配卖点。真正值得警惕的不是「智能没用」，而是厂商把一个需要 24 小时不间断、十年不出错的机械系统，和一个按互联网节奏迭代、指望靠 OTA 补漏的软件系统焊在了一起。互联网软件坏了重启就好，冰箱坏了满柜子食材跟着陪葬。下次买家电，除了看参数，不妨多问一句：断网之后、厂商停止服务之后、App 下架之后，这台机器还能不能用最笨的方式把本职工作干完。&lt;/p&gt;
-
-&lt;h2 id=&quot;二他在领英上猎了两年假招聘抓出六万条&quot;&gt;二、他在领英上猎了两年假招聘，抓出六万条&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1woemry/this_guy_has_spent_two_years_hunting_fake_job/&quot;&gt;原帖：This guy has spent two years hunting fake job listings on LinkedIn, and found 60,000 of them&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一位研究者花了两年时间在领英上系统性地追踪虚假招聘，累计标记出六万条。手法包括：批量伪造招聘者账号、盗用休眠的已验证账号挂到正规公司名下、以及直接在真公司主页发岗位但把申请链接导向站外网站或邮箱。&lt;/p&gt;
-
-&lt;p&gt;评论区第一反应几乎清一色是「才六万？」。但很快，楼里最有价值的一条出来纠偏了：大家七嘴八舌骂的其实是两件不同的事——文章说的是&lt;strong&gt;诈骗岗&lt;/strong&gt;（目的是骗简历、骗个人信息甚至骗钱），而不是大家更熟悉的&lt;strong&gt;幽灵岗&lt;/strong&gt;（公司没打算招，挂着撑门面或走流程）。这条提醒把整个讨论的焦点拉回来了。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“This article is referring to FRAUDULENT job postings. It is NOT referring to “bogus” job postings for supposed “ghost” jobs like so many in the comments are stating.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/Teddybear_，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1woemry/this_guy_has_spent_two_years_hunting_fake_job/pbnckjz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;有意思的是，两类人的亲历经验拼出了一张挺实用的求职地图。一位求职者说自己从去年秋天开始养成了习惯：看到岗位先去公司官网核对，结果发现不少公司首页挂着醒目声明「我们没有在招聘，请勿上当」，其中甚至包括被领英推为「当日精选岗位」的条目；而且只要投过一次，骚扰电话和诈骗邮件立刻暴涨——简历里的姓名、联系方式、住址显然被卖了个好价钱。还有人补充了企业侧的版本：内部早就内定了人，但 HR 规定必须面够三个人，于是你精心准备的那场面试从一开始就只是充数。&lt;/p&gt;
-
-&lt;p&gt;而全楼被顶得最高的经验之谈，是一条看似矛盾的总结：在领英上主动投递从来没换来过一次面试，但过去十年每一份工作又都来自领英——区别在于，是猎头看了你的主页来找你。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I’ve never ever gotten an interview after applying for any job on LinkedIn. However, every job/contract I’ve gotten since 2015 was because of LinkedIn.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/CM_MOJO，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1woemry/this_guy_has_spent_two_years_hunting_fake_job/pbnl4nt/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这条经验放到国内几乎可以直接套用——把平台当投递漏斗，收益递减；把平台当个人主页/作品集，让对的人能搜到你，收益完全不同。前者你在和几百份简历和一个筛选模型竞争，后者是别人带着明确意图来找你。另外那个「投完就被骚扰」的细节值得所有人记一下：简历上到底要不要写详细住址、身份证号、完整生日，答案基本是不用。国内招聘平台的信息泄露新闻不算少，少填一栏，就少一条被转卖的数据。&lt;/p&gt;
-
-&lt;h2 id=&quot;三一次供应链劫持攻击者没偷密码他换掉了构建后端&quot;&gt;三、一次供应链劫持：攻击者没偷密码，他换掉了构建后端&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wo314v/someone_hijacked_memoryos_pypi_releases_by/&quot;&gt;原帖：Someone hijacked MemoryOS PyPI releases by replacing the build backend&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一个 AI 记忆框架项目 MemoryOS / MemOS 的 PyPI 和 npm 发布通道被人劫持了。攻击路径很有教学价值：攻击者没有去暴力破解账号，而是往仓库里推了提交，把 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyproject.toml&lt;/code&gt; 里的构建后端替换成自定义的那一个——于是在真正的上传动作发生之前，构建过程先把 PyPI token 交到了攻击者手上。拿到令牌之后，他自己把带后门的包推了上去。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The attacker swapped in a custom pyproject.toml build backend that grabbed the PyPI token before the real upload ran. Then used that token to push the backdoored package themselves.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/BattleRemote3157（原帖作者），&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wo314v/someone_hijacked_memoryos_pypi_releases_by/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;评论区技术含量不低。有人把关键点拎了出来：令牌是从项目自己的 GitHub Actions 发布流水线里流出来的，而且攻击者居然能触发发布流水线本身——这比通常被反复警告的「main 分支合并流水线」更罕见，说明权限配置和审批闸门大概率设在了错误的位置（闸门卡在最后一步，凭据却在第一步就明文发下去了）。他那句自嘲挺真实的：官方文档反复警告过这个风险，但在 CI/CD 一轮轮迭代的过程中，要一直做对确实不容易。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“They warn you about this a lot, but I suppose it’s hard to get it perfect as you iterate on your CI/CD.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/me_myself_ai，&lt;a href=&quot;https://www.reddit.com/r/Python/comments/1wo314v/someone_hijacked_memoryos_pypi_releases_by/pbjue7i/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;另外楼里还有人追问了一个更尴尬的问题：攻击者最初是怎么拿到推送权限的？翻完通告发现答案是——不知道，最可能是该账号的令牌被盗，但无法确认。也有老派开发者借机重提 GPG 签名：重要脚本和数据文件签好名，把校验写进自动化流程里，至少让篡改留下痕迹。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这次攻击最值得国内开发者学的一点是，它绕过了所有人下意识去防的那一层。大家习惯保护的是「账号密码」和「上传那一刻」，但现代发布链路里，构建步骤本身就是一段会读到密钥的可执行代码——&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyproject.toml&lt;/code&gt; 的一行改动，等于在你的保险库里换了一把锁匠。实操建议其实很明确：发布凭据改用短时效的 OIDC/Trusted Publishing 而不是长期令牌；发布流水线设成只有打 tag 且经人工审批才能跑；构建相关文件（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyproject.toml&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setup.py&lt;/code&gt;、CI 配置）纳入 CODEOWNERS 强制审查。这些都不新鲜，但这次事故说明，「知道」和「配置对了」之间的距离比想象中远。&lt;/p&gt;
-
-&lt;h2 id=&quot;四赛马-70-年没有变快了而答案比基因到顶有意思&quot;&gt;四、赛马 70 年没有变快了，而答案比「基因到顶」有意思&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wo0zez/racehorses_have_not_gotten_faster_in_70_years_oc/&quot;&gt;原帖：Racehorses have not gotten faster in 70 years [OC]&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;发帖人把肯塔基德比、英国叶森德比、墨尔本杯三大赛事的历年冠军成绩画成了折线图：人类的跑步纪录还在缓慢下移，赛马的成绩曲线在上世纪五十年代之后基本躺平。同一时期，育种技术、兽医水平、训练科学全都在进步。&lt;/p&gt;
-
-&lt;p&gt;评论区先上演了一次现场纠错：有人指着图问叶森德比 1940 年代初为什么突然变快，是战时把秒表调慢了吗？很快有人查明——战争期间军方征用了叶森马场，比赛改到纽马基特举行，而那条赛道天生更快。发帖人当场认领并重画了图。这种「数据异常 → 归因 → 修正」的小循环，是 r/dataisbeautiful 最好的部分。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The military commandeered the Epsom racecourse during the war, so they relocated to the Newmarket racecourse, which was naturally faster.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/tom_the_red，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wo0zez/racehorses_have_not_gotten_faster_in_70_years_oc/pbjefcw/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;接下来才是真正的解释层，楼里拼出了三条互相叠加的原因。第一，&lt;strong&gt;赛制不是计时赛&lt;/strong&gt;：赛马是战术性的群跑，骑师的目标是「刚好赢」，不是「跑到极限」，还要保护这匹价值不菲的资产；再加上让磅制度——跑得快的马要背更多配重，好让整场比赛尽量胶着、好看、好下注，本质上是在系统性地抹平速度优势。第二，&lt;strong&gt;基因池被制度锁死&lt;/strong&gt;：这些赛事只对纯血马开放，而所有现代纯血马都能追溯到 17、18 世纪引入英国的三匹种公马。更快的马不是育不出来，是育出来了也没资格上场。第三，也是最沉重的一条：过去七十年真正变化的不是速度，是伤病——一味朝速度方向选育，选出了更容易在比赛中崩溃、甚至当场骨折的马。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Faster horses could be bred, but they could not run in these races. They want the races to be competitive and to have unpredictable results.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/SchreiberBike，&lt;a href=&quot;https://www.reddit.com/r/dataisbeautiful/comments/1wo0zez/racehorses_have_not_gotten_faster_in_70_years_oc/pbnspw9/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：这个帖子可以当成一堂指标课来读。一条七十年没动的曲线，第一反应往往是「这项能力到顶了」，但真相是：这个系统压根就没在优化这个指标。它优化的是比赛的观赏性和博彩的不确定性，让磅和血统限制都是为此服务的调节阀。搬到我们熟悉的场景里——当某个业务指标长期纹丝不动，与其追问「是不是没有提升空间了」，不如先去查：这套机制里是不是有什么东西，正在主动把它按在那儿。很多时候天花板不是物理的，是规则写出来的。&lt;/p&gt;
-
-&lt;h2 id=&quot;五士兵可以拒绝战争罪ai-可以吗&quot;&gt;五、士兵可以拒绝战争罪，AI 可以吗&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;[原帖：Soldiers can refuse to commit war crimes. Can AI?&lt;/td&gt;
-      &lt;td&gt;The Pentagon wants AI models that can’t say no](https://www.reddit.com/r/technology/comments/1woe97n/soldiers_can_refuse_to_commit_war_crimes_can_ai/)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;一篇报道讨论军方希望采购「不会拒绝指令」的 AI 模型，由此引出一个绕不开的问题：人类士兵在法律上不仅&lt;strong&gt;可以&lt;/strong&gt;拒绝执行非法命令，而且&lt;strong&gt;必须&lt;/strong&gt;拒绝；那么当决策链上换成一个模型，这层最后的人性刹车去哪了。&lt;/p&gt;
-
-&lt;p&gt;评论区没有陷入科幻想象，而是很快收敛到了「责任归属」这个法律问题上，并且分成了两派。一派认为这个前提本身就是伪命题：模型没有能动性，它只是按权重行事，把一个温和的模型调成一个疯子，改改权重和护栏就够了——所以该被追责的永远是拆护栏的人。另一派则指出了真正危险的灰色地带：如果我下令「屠村」，我当然该负责；但如果我下令「控制该区域」，而模型自行判断「控制」包含了屠村呢？&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“But if I order the AI to secure an area, and it decides that “secure” includes exterminating a village, I’m not sure I should be held responsible for that. IMO, the easy solution is for AI to never, ever, pull a trigger.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/TotalNonsense0，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1woe97n/soldiers_can_refuse_to_commit_war_crimes_can_ai/pbmf385/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;楼里对这个灰色地带的总结相当到位：每多一层自动化，犯罪行为和那个做决定的人之间就多隔开一段距离，而距离越远，最后谁都追不上。还有人从另一个角度补刀：军队对士兵的公开标准和实际期待之间本来就有落差，人当了几天兵自然学会分辨这两套，但模型训练完就定型了，它只会照着写下来的那一套执行——这既可能让它比人更守规矩，也可能让它成为一个完美的背锅侠。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“…the more they separate the criminal act from a person making a decision, the more difficult it is to hold ANYONE responsible, which is a very dangerous situation.”&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— u/OkStop8313，&lt;a href=&quot;https://www.reddit.com/r/technology/comments/1woe97n/soldiers_can_refuse_to_commit_war_crimes_can_ai/pbmoqfp/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原帖评论&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;我的看法&lt;/strong&gt;：把「战争」两个字拿掉，这个讨论对每个正在推进 AI 落地的团队都成立。我们现在特别热衷于让 agent 自主执行多步任务，但「执行」和「决定」之间那条线，几乎没人认真画过。模型把一个模糊目标自行展开成一串具体动作的那一刻，责任链就出现了缺口——线上删了不该删的数据、给用户发了不该发的通知、按错误理解批了一笔款，事后复盘往往只能得出「提示词没写清楚」这种没人真正负责的结论。楼里那句「最简单的解法是 AI 永远不扣扳机」听着像回避问题，其实是一条相当务实的工程原则：&lt;strong&gt;把不可逆的动作留给人&lt;/strong&gt;。哪个动作算不可逆，值得每个团队在上线前老老实实列一张表。&lt;/p&gt;
-</description>
-        <pubDate>Thu, 24 Sep 2026 09:30:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/24/reddit-daily-digest/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/24/reddit-daily-digest/</guid>
-        
-        <category>Reddit</category>
-        
-        <category>每日精选</category>
-        
-        
-        <category>reddit</category>
-        
-      </item>
-    
-      <item>
-        <title>AI Frontier Daily | 2026.09.24</title>
-        <description>&lt;h2 id=&quot;115-claude在噬菌体dna中发现带crispr式重复序列的新酶系统&quot;&gt;1/15 Claude在噬菌体DNA中发现带CRISPR式重复序列的新酶系统&lt;/h2&gt;
-&lt;p&gt;Anthropic 新建的分子生物实验室公布首项成果：约 950 个 Claude Agent 用 21 小时和 2.1 亿 token，从超过 20 万个逆转录酶中筛出 3,500 个候选系统，再收敛到 20 个报告；其中一个 Agent 识别出由逆转录酶、伴随基因和非编码重复阵列组成的 ART 系统。初步实验显示阵列会表达为短 RNA，但其天然功能、可编程性及生物技术价值均未确定；全部湿实验仍由人类科学家完成，团队已公开预印本供验证。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AnthropicAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/AnthropicAI/status/2102824959827742916&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AnthropicAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/AnthropicAI/status/2102824961538920822&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@AnthropicAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/DarioAmodei/status/2102831170299834652&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@DarioAmodei&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;215-chatgpt-voice接入插件gpt-6模型与work执行环境&quot;&gt;2/15 ChatGPT Voice接入插件、GPT-6模型与Work执行环境&lt;/h2&gt;
-&lt;p&gt;OpenAI 为 ChatGPT Voice 加入邮件、日历和 Slack 等插件，并允许语音会话调用 GPT-6 Astra、Sol 与 Luna。Voice 同时进入 ChatGPT Work 的 Web 和移动端，用户可通过口述创建文档、演示文稿、网站和电子表格，或让系统在浏览器中执行复杂任务；新版已在最新版应用中全球推送。此次升级把语音从对话入口扩展为工具调用与工作产出的控制层，实际效果取决于授权边界、长任务确认和敏感数据处理。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/OpenAI/status/2102808325742322002&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenAI&lt;/a&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/gdb/status/2102821706041819401&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@gdb&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;315-qwen-audio-31用五款模型覆盖识别合成与实时通话&quot;&gt;3/15 Qwen-Audio 3.1用五款模型覆盖识别、合成与实时通话&lt;/h2&gt;
-&lt;p&gt;阿里 Qwen 发布 Qwen-Audio 3.1，升级 ASR、TTS 与 Realtime，并新增面向音频创作的 TTS-Next 和面向理解的 ASR-Next。ASR-Next 支持多人标签、时间戳、环境与机器声理解；TTS-Next 用统一语言模型与扩散架构一次生成语音、音效和背景音；Realtime 支持双工交流、随时打断与情绪感知。官方同时宣布 TTS 约降价 70%、Realtime 约 85%、ASR 最高 95%，API 与真实噪声场景表现仍待独立复测。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/Alibaba_Qwen/status/2102687258990026993&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;415-qwen-intelligence推出规划手机执行与创作三类agent&quot;&gt;4/15 Qwen Intelligence推出规划、手机执行与创作三类Agent&lt;/h2&gt;
-&lt;p&gt;Qwen Intelligence 首发 Mobile Planner、Mobile-Use 与 Mobile Creative 三个 Agent，并开放 MobilePA-Bench、MobileWorld、MobileWorld-Real 和 MobileWorld-Safety 等评测。官方称 Mobile-Use 采用 API 优先、GUI 兜底，在 MobileWorld、MobileWorld-Real 与 AndroidDaily 分别达到 82.1、92.2 和 97.2，端到端成功率 90%；Creative 可用一句话生成内容，图像约 3 秒完成。成绩来自项目方基准，跨应用权限、异常恢复和真实设备稳定性仍需检验。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@Alibaba_Qwen&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2102727405198876753&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2102727410093601172&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2102727414317199671&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 3&quot;&gt;3&lt;/a&gt;&lt;a href=&quot;https://x.com/Alibaba_Qwen/status/2102727417781772404&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@Alibaba_Qwen 原文 4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;515-gemini-38-flash-tts把自然语言声线设计推向100多种语言&quot;&gt;5/15 Gemini 3.8 Flash TTS把自然语言声线设计推向100多种语言&lt;/h2&gt;
-&lt;p&gt;Google 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS。Flash 面向角色与创意制作，可用自然语言定义声线、口音和人物特征，并逐句控制情绪、节奏、停顿和表演提示；Flash-Lite 面向大规模配音、内容生成与语音 Agent。官方称系统提供 2,000 多个可用声线、支持 100 多种语言与声线复刻，成本低于 3.1 Flash TTS，生成音频带 SynthID 水印，已覆盖 AI Studio、Gemini API、Enterprise、Notebook 与 Vids。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OfficialLoganK&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/OfficialLoganK/status/2102785495726219305&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OfficialLoganK 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/OfficialLoganK/status/2102786116453880283&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OfficialLoganK 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@GoogleDeepMind&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2102781530867126505&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/GoogleDeepMind/status/2102781533274734801&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@GoogleDeepMind 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;615-openai用80多名临床专家共建mentalhealthbench&quot;&gt;6/15 OpenAI用80多名临床专家共建MentalHealthBench&lt;/h2&gt;
-&lt;p&gt;OpenAI 开源 MentalHealthBench，用合成但贴近真实使用的多轮对话评估 AI 在日常支持、高危困扰和紧急情形中的表现。80 多名持证心理学家与精神科医生来自 22 个国家、覆盖 19 种语言，为成人、青少年、照护者和临床人员场景编写加权评分标准；每段对话至少由三名专家复核，GPT-5.6 Sol 执行自动评分。官方强调 ChatGPT 不能替代治疗，基准用于衡量安全、情境追问、用户自主性与可执行建议。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@OpenAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2102837574092161102&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/OpenAI/status/2102837575568519450&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@OpenAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;715-nvidia用1亿参数nemotron-3解决多人重叠说话归属&quot;&gt;7/15 NVIDIA用1亿参数Nemotron 3解决多人重叠说话归属&lt;/h2&gt;
-&lt;p&gt;NVIDIA 发布开放权重的 Nemotron 3 Diarization，用 1 亿参数识别“谁在何时说话”，支持直播或录音、最多八名说话者、重叠语音与可调流式延迟。官方称其在 VoiceArena 初版 Diarization-Bench 的 12 个系统中排名第一，错误率 14.72%，比第二名低约 24%；模型以说话者首次出现顺序稳定分配匿名通道，可与 ASR 组合生成带人物归属的会议、客服和播客转写，但不会自行识别真实身份。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@NVIDIAAI&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2102775666366435450&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2102775667968590013&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/NVIDIAAI/status/2102775669570822279&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@NVIDIAAI 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;815-epoch-ai称固定能力的推理成本三年内每季度下降47&quot;&gt;8/15 Epoch AI称固定能力的推理成本三年内每季度下降47%&lt;/h2&gt;
-&lt;p&gt;Epoch AI 汇总数学、硬科学与策略游戏五项基准，估算自 2023 年以来，达到同一性能水平的成本平均每季度下降约 47%，相当于每年缩小 13 倍；数学任务降幅为 50%—52%，游戏谜题为 39%—43%。报告举例称 GPQA Diamond 达到 75% 的单题成本，从 2025 年初 o3 的约 0.30 美元降至 GPT-5.6 Luna 的 0.0004 美元，18 个月下降 725 倍。作者公开代码与数据，但跨模型价格、推理预算和评分口径仍决定外推边界。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@emollick&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/emollick/status/2102865436459069474&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/emollick/status/2102866687016206734&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@emollick 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;915-cursor通过收紧提示与按需加载工具减少7-token&quot;&gt;9/15 Cursor通过收紧提示与按需加载工具减少7% Token&lt;/h2&gt;
-&lt;p&gt;Cursor 称其 Agent 在质量不降的前提下把 token 成本降低 7%，来源包括更紧凑的系统提示、按需加载工具定义、更好的提示缓存和压缩文件读取。改动把优化重点从更换模型转向 Agent 外壳：只给当前任务必要的工具和代码上下文，减少缓存失效与无关信息干扰。官方另文公开实现思路，但 7% 为其内部工作负载结果；团队复用时仍应同时测量任务成功率、重试次数、总账单 token、延迟和长尾回归。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2102786814633464159&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2102786816340562200&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1015-cursor-rollouts让agent在部署后持续检查回归&quot;&gt;10/15 Cursor Rollouts让Agent在部署后持续检查回归&lt;/h2&gt;
-&lt;p&gt;Cursor 推出 Rollouts：先为代码变更生成监控计划，再在部署过程中观察指标并验证结果，目标是在影响用户前发现回归。Teams 与 Enterprise 当日开放，并提供 10 天试用额度；同时 Security Reviewer 平均完成时间从 4.8 分钟降至 3.8 分钟，提速约 21%。该功能把编码 Agent 的责任从提交补丁延伸到发布验证，但告警质量仍取决于监控计划是否覆盖业务指标、灰度窗口和难以自动观测的体验退化。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cursor_ai&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2102861817160904808&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2102861818905727328&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 2&quot;&gt;2&lt;/a&gt;&lt;a href=&quot;https://x.com/cursor_ai/status/2102861820457521655&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cursor_ai 原文 3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1115-who等机构用claude加速刚果金埃博拉疫情日报&quot;&gt;11/15 WHO等机构用Claude加速刚果（金）埃博拉疫情日报&lt;/h2&gt;
-&lt;p&gt;Anthropic 披露与 CEPI、WHO 非洲区域办公室及刚果（金）INRB 的合作：一线数据经纸质记录、WhatsApp、实验室和地区 PowerPoint 汇入后，Claude Skill 自动抽取病例与化验数字、和前日报对比、标出趋势变化并汇总各区情况。9 月 19 日报告记录 7,672 例确诊和 3,699 例死亡，疫情波及 7 省。系统用于缩短态势报告链路，公共卫生专家仍负责数据核验、解释与资源调度。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;a class=&quot;source-chip&quot; href=&quot;https://x.com/AnthropicAI/status/2102897863097545197&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@AnthropicAI&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1215-runway进入davinci-resolve把生成编辑和放大放进时间线&quot;&gt;12/15 Runway进入DaVinci Resolve，把生成、编辑和放大放进时间线&lt;/h2&gt;
-&lt;p&gt;Runway 宣布集成 DaVinci Resolve，创作者可在现有时间线内直接调用其模型进行生成、局部编辑和画面放大，无需在独立网页与剪辑工程间反复导出。此次接入把生成式视频能力嵌入专业后期软件的素材与版本流程，有望减少格式转换和上下文切换；公告未给出支持的模型清单、分辨率、计费方式、媒体上传边界及项目协作规则，生产团队仍需关注色彩管理、可复现性和资产权限。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@runwayml&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/runwayml/status/2102834721340211571&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@runwayml 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/runwayml/status/2102834722636194141&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@runwayml 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1315-cohere把单租户model-vault扩展到加拿大&quot;&gt;13/15 Cohere把单租户Model Vault扩展到加拿大&lt;/h2&gt;
-&lt;p&gt;Cohere 宣布 Model Vault 在加拿大可用，面向希望控制数据驻留与基础设施边界的企业提供自动扩缩容、单租户和私有化的 Cohere 模型运行环境。该产品主张在保持托管体验的同时降低总体拥有成本，并让受监管工作负载留在指定区域。当天公告没有披露支持模型、云与地区覆盖、最小容量、价格或安全认证细节；采购方需要进一步核对密钥管理、日志隔离、升级窗口与跨境支持数据的处理方式。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@cohere&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/cohere/status/2102823381565382965&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/cohere/status/2102823384467869862&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@cohere 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1415-together用17美元训练出4b决策分类器并公开配方&quot;&gt;14/15 Together用17美元训练出4B决策分类器并公开配方&lt;/h2&gt;
-&lt;p&gt;Together 发布 tev1-4B-experimental：在 Qwen3.5 4B 上微调的 Jev 风格分类器，用于展示小型专用决策模型的低成本训练路径。官方称训练成本 17 美元，并公开权重、数据配方和微调教程；模型进入 Together Serverless，输入价为每百万 token 0.042 美元，输出免费。项目明确标注为实验模型，价值主要在可复现配方而非通用能力；实际采用前应检查标签定义、校准误差、分布外样本和误判成本。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@togethercompute&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2102882216950763814&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/togethercompute/status/2102882218683048013&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@togethercompute 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;1515-hugging-face在联合国呼吁强制披露agent攻击轨迹&quot;&gt;15/15 Hugging Face在联合国呼吁强制披露Agent攻击轨迹&lt;/h2&gt;
-&lt;p&gt;Hugging Face 联合创始人 Clément Delangue 在联合国安理会回顾公司 7 月公开的自主 Agent 网络攻击，提出三点：建立更强的监控与事件披露标准，包括共享完整 Agent 轨迹；避免攻击者与防守者在模型能力、算力和访问权限上的不对称；减少用拟人化和科幻叙事制造恐慌。他称闭源 API 的安全护栏曾阻碍防守，而开放模型帮助团队响应。该发言代表公司立场，强制共享轨迹仍需同时解决受害者隐私、漏洞披露和可复现攻击信息的边界。&lt;/p&gt;
-
-&lt;div class=&quot;daily-sources&quot;&gt;&lt;span class=&quot;daily-sources__label&quot;&gt;来源&lt;/span&gt;&lt;span class=&quot;source-chip source-chip--group&quot;&gt;&lt;span class=&quot;source-chip__icon&quot; aria-hidden=&quot;true&quot;&gt;𝕏&lt;/span&gt;@ClementDelangue&lt;span class=&quot;source-chip__links&quot;&gt;&lt;a href=&quot;https://x.com/ClementDelangue/status/2102878766796042306&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@ClementDelangue 原文 1&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://x.com/ClementDelangue/status/2102898091883942014&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;@ClementDelangue 原文 2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-dive-附录&quot;&gt;Deep Dive 附录&lt;/h2&gt;
-
-&lt;h3 id=&quot;claude发现art从21小时数据库搜索到人类实验验证&quot;&gt;Claude发现ART：从21小时数据库搜索到人类实验验证&lt;/h3&gt;
-&lt;p&gt;Anthropic 让约 950 个 Claude Agent 在 21 小时内消耗 2.1 亿 token，收集超过 20 万个逆转录酶、筛出 3,500 个新候选并形成 20 个重点报告。其中一个 Agent 在巨型噬菌体序列中注意到异常逆转录酶、相邻伴随基因和等间距非编码重复阵列，团队将其命名为 ART。初步实验发现阵列会表达为多个短 RNA，结构与可编程系统具有相似线索，但 ART 的天然功能、是否能切割或复制 DNA、能否成为基因编辑工具均尚未证明。该案例显示 Agent 可承担文献复现、异常检测和候选收敛，人类仍负责科学判断与全部湿实验。
-&lt;a href=&quot;https://www.anthropic.com/news/claude-discovers-novel-enzyme-system&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;mentalhealthbench把临床共识写成逐对话加权评分标准&quot;&gt;MentalHealthBench：把临床共识写成逐对话加权评分标准&lt;/h3&gt;
-&lt;p&gt;MentalHealthBench 覆盖日常情绪支持、高危困扰和紧急事件，并为成人、13—17 岁青少年、照护者与临床人员设置多语言场景。来自 22 个国家的 80 多名持证专家为每段对话最后一轮回答编写正负权重标准，每段至少三人审阅，只有两人同意且第三人不反对的标准才保留，再由 GPT-5.6 Sol 自动评分。OpenAI 还邀请 44 名有 AI 情绪支持经验的成年人独立评价：用户更看重语气和可执行步骤，专家更强调追问情境与谨慎解释。基准公开有助于复核，但合成对话、自动评分器和文化差异仍是限制。
-&lt;a href=&quot;https://openai.com/index/introducing-mentalhealthbench/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;gemini-38-tts从固定声线库转向可编排的声音制作环境&quot;&gt;Gemini 3.8 TTS：从固定声线库转向可编排的声音制作环境&lt;/h3&gt;
-&lt;p&gt;Gemini 3.8 Flash TTS 可用自然语言从零设计角色声线，并逐句控制口音、情绪、节奏、停顿、笑声和对白表演；Flash-Lite 则为大批量配音、音频内容与实时语音 Agent 优化成本。产品支持 100 多种语言和方言，并从约 30 个原始预设扩展到自定义与复刻声线，已进入 AI Studio、Gemini API、Enterprise、Notebook 和 Vids。Google 使用 SynthID 标记生成音频，但声线复刻仍涉及授权、冒用和跨语言身份一致性，企业部署需要在内容水印之外建立明确的同意、审核与撤回流程。
-&lt;a href=&quot;https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;nemotron-3-diarization用稳定通道支持八人实时转写&quot;&gt;Nemotron 3 Diarization：用稳定通道支持八人实时转写&lt;/h3&gt;
-&lt;p&gt;说话人分离与语音识别不同：前者标出每个时间段由谁发声，后者转录内容。Nemotron 3 使用按首次出现排序的通道分配，让流式分块在沉默、插话或长间隔后仍保持同一匿名说话者编号；最多支持八个通道，并处理重叠语音。NVIDIA 报告其在 VoiceArena 初版榜单达到 14.72% DER、位列 12 个系统第一，训练数据包含公开与授权语音及覆盖 21 种语言的合成混合。模型不把匿名通道识别成现实人物，身份映射需由会议元数据、用户档案或后续验证模型完成。
-&lt;a href=&quot;https://huggingface.co/blog/nvidia/nemotron-diarization&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;推理成本下降固定性能每年便宜13倍前沿能力下降更快&quot;&gt;推理成本下降：固定性能每年便宜13倍，前沿能力下降更快&lt;/h3&gt;
-&lt;p&gt;Epoch AI 用五项数学、科学和策略游戏基准估计，固定性能的价格自 2023 年以来每季度下降约 47%，年化约 13 倍；数学任务下降最快，达每季度 50%—52%。新近成为 SOTA 的性能水平平均每季度降价 66%，两年后放缓到 32%，说明竞争和工程优化会迅速压缩前沿溢价。报告以 GPQA Diamond 75% 为例，单题成本在不到 18 个月从约 0.30 美元降至 0.0004 美元。代码、数据和交互图均公开，但 API 标价、推理预算、缓存与评测外壳会影响真实任务成本。
-&lt;a href=&quot;https://epoch.ai/publications/the-plunging-price-of-thought&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;cursor的7节省agent成本越来越由上下文工程决定&quot;&gt;Cursor的7%节省：Agent成本越来越由上下文工程决定&lt;/h3&gt;
-&lt;p&gt;Cursor 的改动包括压缩系统提示、只在需要时加载工具定义、提高提示缓存复用，以及用更紧凑的表示读取文件。它们共同降低 7% token，而内部评测未观察到 Agent 质量下降。这个结果说明同一模型的成本和稳定性很大程度取决于外壳：工具列表、代码片段和历史记录如果无差别注入，会增加账单、延迟和注意力干扰。7% 仍是 Cursor 自有工作负载的汇总数字；复用这些方法时应以任务级成功率、补丁质量、重试、缓存命中和总成本联合验收，避免压缩掩盖罕见但关键的上下文。
-&lt;a href=&quot;https://cursor.com/blog/improved-token-efficiency&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;claude参与埃博拉响应把碎片化现场材料压缩成可审阅态势报告&quot;&gt;Claude参与埃博拉响应：把碎片化现场材料压缩成可审阅态势报告&lt;/h3&gt;
-&lt;p&gt;刚果（金）东部疫情数据从社区笔记、WhatsApp、实验室测序和地区 PowerPoint 逐级汇入，传统日报编制会占用大量夜间人工。WHO AFRO 团队构建的 Claude Skill 可抽取各卫生区病例与实验室数字、和前一日报交叉检查、标出趋势变化并解释可能原因，再汇总地区报告。9 月 19 日数据为 7,672 例确诊、3,699 例死亡，北基伍治疗床位占用率 94.7%。Claude 加快信息整理与证据监测，但来源纠错、流行病学解释、疫苗和资源决策仍由公共卫生机构负责。
-&lt;a href=&quot;https://www.anthropic.com/features/ebola-response&quot;&gt;查看原文&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 24 Sep 2026 09:07:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/ai-daily/2026/09/24/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/ai-daily/2026/09/24/</guid>
-        
-        <category>AI-Frontier</category>
-        
-        <category>Daily</category>
-        
-        
-        <category>ai-daily</category>
-        
-      </item>
-    
-      <item>
-        <title>Paychex 2027财年Q1——营收16.3亿美元同比增6%、每股收益增14%全面超预期，股价却大跌7%</title>
-        <description>&lt;p&gt;美东时间2026年9月23日美股开盘前（北京时间9月23日晚间），美国薪酬与人力资源外包巨头 &lt;a href=&quot;https://investor.paychex.com/&quot;&gt;Paychex&lt;/a&gt;（NASDAQ: PAYX）发布了截至2026年8月31日的2027财年第一季度财报。&lt;/p&gt;
-
-&lt;p&gt;这是一份「数字全面超预期、股价却大跌7%」的财报。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;总营收16.305亿美元，同比增长6%，与市场预期基本一致&lt;/li&gt;
-  &lt;li&gt;营业利润6.192亿美元，同比增长14%；营业利润率38.0%，同比提升2.8个百分点&lt;/li&gt;
-  &lt;li&gt;调整后营业利润6.847亿美元，同比增长9%；调整后营业利润率42.0%，同比提升1.3个百分点&lt;/li&gt;
-  &lt;li&gt;净利润4.297亿美元，同比增长12%&lt;/li&gt;
-  &lt;li&gt;摊薄每股收益1.21美元，同比增长14%&lt;/li&gt;
-  &lt;li&gt;调整后每股收益1.34美元，同比增长10%，高于市场预期的1.32美元&lt;/li&gt;
-  &lt;li&gt;上调PEO业务全年增速指引和客户资金利息收入指引，其余指引维持不变&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;财报发布后，PAYX股价从前收盘的114.53美元跌至约106.50美元，&lt;strong&gt;跌幅约7%&lt;/strong&gt;，市值约408亿美元。&lt;/p&gt;
-
-&lt;p&gt;一家各项指标都达标、利润率还在扩张的公司为什么会跌7%？答案不在这一季的数字里，在斜率里。&lt;/p&gt;
-
-&lt;h2 id=&quot;先搞清楚这家公司靠什么赚钱&quot;&gt;先搞清楚这家公司靠什么赚钱&lt;/h2&gt;
-
-&lt;p&gt;Paychex 成立50多年，总部在纽约州罗切斯特。它做的事情用一句话说就是：&lt;strong&gt;帮企业发工资、办社保、管HR&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;具体规模：服务约&lt;strong&gt;84万家&lt;/strong&gt;客户，&lt;strong&gt;每11个美国私营部门就业者里就有1个的工资是 Paychex 发的&lt;/strong&gt;。客户以中小企业为主，这是它与主要服务大企业的 ADP 最大的区别。&lt;/p&gt;
-
-&lt;p&gt;它的收入分三块：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;管理解决方案（Management Solutions）&lt;/strong&gt;：占营收约74%。核心是薪酬处理外包，加上HR软件、福利管理、报税服务等。客户按员工人数和服务模块付费。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;PEO与保险解决方案（PEO and Insurance Solutions）&lt;/strong&gt;：占营收约23%。&lt;strong&gt;PEO（Professional Employer Organization，专业雇主组织）&lt;/strong&gt; 是一个需要解释的概念——它指的是 Paychex 与客户企业成为「共同雇主」，员工在法律上同时属于 Paychex，由 Paychex 统一采购医疗保险、工伤保险、办理合规。好处是，几十万名员工打包采购保险的议价能力，远高于一家只有20人的小公司自己去谈。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;客户资金利息收入（Interest on funds held for clients）&lt;/strong&gt;：占营收约3%。这是一块很特别的收入——Paychex 代客户暂时保管待发的工资和待缴的税款，在这笔钱躺在账上的几天到几周里，产生的利息归 Paychex。&lt;strong&gt;这块收入的多少几乎完全取决于美联储的利率水平，与经营无关。&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;核心财务数据&quot;&gt;核心财务数据&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2027财年Q1&lt;/th&gt;
-      &lt;th&gt;2026财年Q1&lt;/th&gt;
-      &lt;th&gt;同比变化&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;管理解决方案收入&lt;/td&gt;
-      &lt;td&gt;12.131亿美元&lt;/td&gt;
-      &lt;td&gt;11.633亿美元&lt;/td&gt;
-      &lt;td&gt;+4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;PEO与保险解决方案收入&lt;/td&gt;
-      &lt;td&gt;3.676亿美元&lt;/td&gt;
-      &lt;td&gt;3.291亿美元&lt;/td&gt;
-      &lt;td&gt;+12%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;服务收入合计&lt;/td&gt;
-      &lt;td&gt;15.807亿美元&lt;/td&gt;
-      &lt;td&gt;14.924亿美元&lt;/td&gt;
-      &lt;td&gt;+6%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;客户资金利息收入&lt;/td&gt;
-      &lt;td&gt;0.498亿美元&lt;/td&gt;
-      &lt;td&gt;0.476亿美元&lt;/td&gt;
-      &lt;td&gt;+5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;总营收&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;16.305亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;15.400亿美元&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;+6%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;服务成本&lt;/td&gt;
-      &lt;td&gt;4.301亿美元&lt;/td&gt;
-      &lt;td&gt;4.138亿美元&lt;/td&gt;
-      &lt;td&gt;+4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;销售管理及行政费用&lt;/td&gt;
-      &lt;td&gt;5.812亿美元&lt;/td&gt;
-      &lt;td&gt;5.843亿美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-1%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业利润&lt;/td&gt;
-      &lt;td&gt;6.192亿美元&lt;/td&gt;
-      &lt;td&gt;5.419亿美元&lt;/td&gt;
-      &lt;td&gt;+14%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;营业利润率&lt;/td&gt;
-      &lt;td&gt;38.0%&lt;/td&gt;
-      &lt;td&gt;35.2%&lt;/td&gt;
-      &lt;td&gt;+2.8个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后营业利润&lt;/td&gt;
-      &lt;td&gt;6.847亿美元&lt;/td&gt;
-      &lt;td&gt;6.267亿美元&lt;/td&gt;
-      &lt;td&gt;+9%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后营业利润率&lt;/td&gt;
-      &lt;td&gt;42.0%&lt;/td&gt;
-      &lt;td&gt;40.7%&lt;/td&gt;
-      &lt;td&gt;+1.3个百分点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;利息支出&lt;/td&gt;
-      &lt;td&gt;-0.651亿美元&lt;/td&gt;
-      &lt;td&gt;-0.682亿美元&lt;/td&gt;
-      &lt;td&gt;-5%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;其他收入净额&lt;/td&gt;
-      &lt;td&gt;0.109亿美元&lt;/td&gt;
-      &lt;td&gt;0.238亿美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;-54%&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;所得税&lt;/td&gt;
-      &lt;td&gt;1.353亿美元&lt;/td&gt;
-      &lt;td&gt;1.137亿美元&lt;/td&gt;
-      &lt;td&gt;+19%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;净利润&lt;/td&gt;
-      &lt;td&gt;4.297亿美元&lt;/td&gt;
-      &lt;td&gt;3.838亿美元&lt;/td&gt;
-      &lt;td&gt;+12%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;摊薄每股收益&lt;/td&gt;
-      &lt;td&gt;1.21美元&lt;/td&gt;
-      &lt;td&gt;1.06美元&lt;/td&gt;
-      &lt;td&gt;+14%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后每股收益&lt;/td&gt;
-      &lt;td&gt;1.34美元&lt;/td&gt;
-      &lt;td&gt;1.22美元&lt;/td&gt;
-      &lt;td&gt;+10%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;几个需要单独说明的点：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;营业利润增长14%，但营收只增长6%——这个差额从哪来？&lt;/strong&gt; 主要是两件事：一是&lt;strong&gt;销售管理及行政费用同比下降1%&lt;/strong&gt;（5.843亿降到5.812亿），二是&lt;strong&gt;收购相关成本减少&lt;/strong&gt;。Paychex 在2025年完成了对 Paycor 的大额收购，随之而来的整合费用正在逐季消退。所以这14%的利润增长里，有相当一部分是「去年的一次性成本不再发生」，而不是新增的经营效率。&lt;/p&gt;
-
-&lt;p&gt;这也解释了为什么调整后营业利润只增长9%——把收购成本剔除后，真实的经营杠杆是9%对6%，仍然是正的，但没有14%那么亮眼。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;其他收入净额同比暴跌54%&lt;/strong&gt;，从0.238亿降到0.109亿美元，抵消了一部分营业利润的改善。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;有效税率上升。&lt;/strong&gt; 所得税同比增长19%，快于税前利润的14%，说明税率在上行。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;摊薄股数减少。&lt;/strong&gt; 从3.619亿股降到3.566亿股，同比减少约1.5%——这贡献了每股收益增速（14%）高于净利润增速（12%）的差额。注意：&lt;strong&gt;本季度没有进行股票回购&lt;/strong&gt;，股数下降来自此前的回购效果。&lt;/p&gt;
-
-&lt;h2 id=&quot;分业务一慢一快&quot;&gt;分业务：一慢一快&lt;/h2&gt;
-
-&lt;h3 id=&quot;管理解决方案只增长了4&quot;&gt;管理解决方案——只增长了4%&lt;/h3&gt;
-
-&lt;p&gt;营收12.131亿美元，同比增长4%。公司给的增长归因是「&lt;strong&gt;单客户收入提升，来自价格实现和产品渗透&lt;/strong&gt;」。&lt;/p&gt;
-
-&lt;p&gt;翻译一下这句话：增长主要来自&lt;strong&gt;向现有客户多收钱、多卖模块&lt;/strong&gt;，而不是客户数量本身的增长。&lt;/p&gt;
-
-&lt;p&gt;这是市场最不满意的一个数字。管理解决方案占 Paychex 营收的74%，它的增速直接决定了公司的增速。4%意味着这块核心业务基本只能跟住美国中小企业的工资总额自然增长，缺乏额外动能。全年指引是5%-6%——也就是说，公司预期接下来三个季度要明显提速才能达标。&lt;/p&gt;
-
-&lt;h3 id=&quot;peo与保险解决方案增长12指引还上调了&quot;&gt;PEO与保险解决方案——增长12%，指引还上调了&lt;/h3&gt;
-
-&lt;p&gt;营收3.676亿美元，同比增长12%。增长来自&lt;strong&gt;PEO平均worksite员工数量增加&lt;/strong&gt;和&lt;strong&gt;PEO保险业务量上升&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这块是本季度的真亮点，公司也据此把全年指引从6%-7%&lt;strong&gt;上调到7%-8%&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;需要提醒的是：PEO业务的收入里包含了代客户支付的保险费，所以它的收入增长含金量与管理解决方案不完全可比——保险费率上涨也会推高收入，但未必同比例推高利润。&lt;/p&gt;
-
-&lt;h3 id=&quot;客户资金利息收入靠利率吃饭&quot;&gt;客户资金利息收入——靠利率吃饭&lt;/h3&gt;
-
-&lt;p&gt;0.498亿美元同比增长5%，公司明确说原因是「&lt;strong&gt;平均利率更高&lt;/strong&gt;」。全年指引从1.95亿-2.05亿美元&lt;strong&gt;上调到2.00亿-2.10亿美元&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;这是一块与经营能力无关、纯粹押注利率环境的收入。利率越高赚得越多，降息周期里会直接缩水。&lt;/p&gt;
-
-&lt;h2 id=&quot;财务状况与股东回报&quot;&gt;财务状况与股东回报&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;现金、受限现金及公司投资合计&lt;strong&gt;10亿美元&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;长期借款（扣除发行成本）&lt;strong&gt;46亿美元&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;第一季度经营活动现金流&lt;strong&gt;4.135亿美元&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;第一季度派发股息每股1.19美元，合计&lt;strong&gt;4.241亿美元&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;第一季度&lt;strong&gt;没有股票回购&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这组数字值得停一下：&lt;strong&gt;本季度经营现金流4.135亿美元，而分红就花掉了4.241亿美元&lt;/strong&gt;——分红金额超过了经营现金流。同时长期负债46亿美元（主要来自 Paycor 收购的融资），现金只有10亿美元。&lt;/p&gt;
-
-&lt;p&gt;这解释了为什么本季度零回购：&lt;strong&gt;钱要么用来分红，要么用来还债。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;全年指引多数维持两项上调&quot;&gt;全年指引（多数维持，两项上调）&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;指标&lt;/th&gt;
-      &lt;th&gt;2027财年指引&lt;/th&gt;
-      &lt;th&gt;与此前对比&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;总营收增长&lt;/td&gt;
-      &lt;td&gt;5% 至 6%&lt;/td&gt;
-      &lt;td&gt;不变&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;管理解决方案收入增长&lt;/td&gt;
-      &lt;td&gt;5% 至 6%&lt;/td&gt;
-      &lt;td&gt;不变&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;PEO与保险解决方案收入增长&lt;/td&gt;
-      &lt;td&gt;7% 至 8%&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;上调&lt;/strong&gt;（原为6%-7%）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;客户资金利息收入&lt;/td&gt;
-      &lt;td&gt;2.00亿 至 2.10亿美元&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;上调&lt;/strong&gt;（原为1.95亿-2.05亿）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后营业利润率&lt;/td&gt;
-      &lt;td&gt;约44%&lt;/td&gt;
-      &lt;td&gt;不变&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;有效税率&lt;/td&gt;
-      &lt;td&gt;约24%&lt;/td&gt;
-      &lt;td&gt;不变&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;调整后每股收益增长&lt;/td&gt;
-      &lt;td&gt;7% 至 9%&lt;/td&gt;
-      &lt;td&gt;不变&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;为什么超预期还跌7&quot;&gt;为什么超预期还跌7%&lt;/h2&gt;
-
-&lt;p&gt;这是本篇最需要解释的部分。把三件事放在一起看就清楚了：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，营收只是「符合预期」，不是超预期。&lt;/strong&gt; 16.3亿美元与分析师预测完全一致，调整后每股收益1.34美元仅超出预期1.32美元约1.6%。这种级别的超预期，对一家估值不低的稳定增长股来说，等同于「没有惊喜」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，增长斜率在明显下行。&lt;/strong&gt; 这才是关键。卖方分析师预计 Paychex 未来12个月的营收增速将放缓至&lt;strong&gt;约5.3%&lt;/strong&gt;，而公司过去两年的年化增速是&lt;strong&gt;11.5%&lt;/strong&gt;。从11.5%降到5.3%，等于增速砍掉一半以上。&lt;/p&gt;
-
-&lt;p&gt;但这个对比需要一个重要的注脚：过去两年11.5%的年化增速里，包含了&lt;strong&gt;收购 Paycor 带来的并表增量&lt;/strong&gt;。并购完成后进入同比基数，增速自然回落——这不完全是经营恶化，也是口径效应。问题在于，市场关心的是接下来的增长从哪来，而不是过去的增长怎么来的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，核心业务的4%增速，与全年5%-6%的指引之间有一个缺口。&lt;/strong&gt; 占营收74%的管理解决方案只增长4%，要完成全年5%-6%，剩下三个季度必须明显加速。市场显然不完全相信这件事会自动发生。&lt;/p&gt;
-
-&lt;p&gt;StockStory 的评论说得很直白：「&lt;strong&gt;投资者原本期待更多。&lt;/strong&gt;」&lt;/p&gt;
-
-&lt;h2 id=&quot;ai叙事wise-与-wise-hire&quot;&gt;AI叙事：WISE 与 WISE Hire&lt;/h2&gt;
-
-&lt;p&gt;这份财报里管理层花了最多篇幅讲的，其实是AI。&lt;/p&gt;
-
-&lt;p&gt;CEO John Gibson 在新闻稿里表示，公司「在AI上继续建立起有意义的势能，来自我们获奖的 WISE 引擎的早期采用者取得了令人信服的成果，以及 &lt;strong&gt;WISE Hire&lt;/strong&gt; 的推出——我们的智能体招聘解决方案」。&lt;/p&gt;
-
-&lt;p&gt;关键信息点：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;WISE&lt;/strong&gt; 是 Paychex 的AI引擎，建立在超过&lt;strong&gt;50万亿个自有数据点&lt;/strong&gt;之上，覆盖薪酬、HR、福利等工作流&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;WISE Hire&lt;/strong&gt; 是新发布的&lt;strong&gt;智能体（agentic）招聘产品&lt;/strong&gt;，提供多渠道候选人寻源、招聘流程自动化、候选人匹配支持&lt;/li&gt;
-  &lt;li&gt;公司正在把AI能力延伸到&lt;strong&gt;微软的业务应用&lt;/strong&gt;中，让客户在已经使用的工具里直接调用&lt;/li&gt;
-  &lt;li&gt;公司描述的模式是「&lt;strong&gt;AI智能体执行动作、专家在环（experts in the loop）&lt;/strong&gt;」，形成持续的反馈循环&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;怎么看这个叙事？&lt;/strong&gt; Paychex 手里确实握着一副好牌——50万亿数据点、84万家客户、每11个美国私营就业者服务1个，这是极少数公司拥有的真实工作流数据。AI在HR领域最有价值的地方恰恰就是这种有闭环反馈的垂直场景。&lt;/p&gt;
-
-&lt;p&gt;但要客观：&lt;strong&gt;AI目前还没有在财务数字上体现出任何可量化的贡献。&lt;/strong&gt; 公司既没有披露 WISE 相关的收入，也没有给出采用率数据。管理解决方案的4%增速，说明AI至少在本季度还没有变成加速器。这可能也是市场反应冷淡的原因之一——&lt;strong&gt;故事讲得很好，但数字还没跟上。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;亮点与隐忧&quot;&gt;亮点与隐忧&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;亮点：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;利润率扩张是真实的。&lt;/strong&gt; 调整后营业利润率42.0%对比去年的40.7%，在营收只增长6%的情况下做到，说明成本控制有效——销售管理及行政费用绝对值同比是下降的。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;PEO业务强劲且指引上调&lt;/strong&gt;，12%的增速和上调后的7%-8%全年指引，是财报里最硬的正面信号。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Paycor 整合费用在消退&lt;/strong&gt;，带来会计上的利润释放。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;AI布局有实质内容&lt;/strong&gt;，不是空喊——WISE Hire 是具体产品，与微软生态的整合是具体路径。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;全年每股收益指引未下调&lt;/strong&gt;，7%-9%的增长维持不变。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;隐忧：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;核心业务只增长4%&lt;/strong&gt;，与全年5%-6%的指引有缺口，后三个季度压力大。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;增速斜率大幅下行&lt;/strong&gt;，从两年年化11.5%到未来12个月预期约5.3%。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;分红已经超过经营现金流&lt;/strong&gt;（4.241亿 vs 4.135亿），叠加46亿美元长期债务、10亿美元现金——资本配置空间受限，本季度零回购就是证据。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;利息收入依赖利率环境&lt;/strong&gt;，一旦进入降息周期，这块2亿美元级别的收入会直接缩水。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;AI尚未转化为可见的收入贡献&lt;/strong&gt;，故事与数字之间存在时间差。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;税率上行&lt;/strong&gt;，所得税增速19%快于税前利润14%。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;p&gt;Paychex 这个季度做对了很多事：利润率扩张、PEO加速、指引上调、AI产品落地。但市场给出7%的跌幅，说的是另一件事——&lt;strong&gt;这家公司正在从一家「两位数增长的公司」变回一家「个位数增长的公司」。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;对于估值建立在稳定复利之上的美股白马来说，增速从11.5%降到5%出头，是需要重新定价的。哪怕这个回落里有很大一部分只是 Paycor 并购基数效应的会计影响。&lt;/p&gt;
-
-&lt;p&gt;接下来两个季度最该盯的只有一个数字：&lt;strong&gt;管理解决方案的收入增速能不能从4%回到5%-6%。&lt;/strong&gt; 如果能，全年指引就是安全的，这次下跌就是一次过度反应；如果不能，7%-9%的每股收益增长指引会先承压，然后是估值。&lt;/p&gt;
-
-&lt;p&gt;至于 WISE 和 WISE Hire——AI故事在HR这个赛道确实是最容易讲通的之一（工作流高频、数据闭环、结果可量化）。但在 Paychex 把它变成一条能看得见的收入曲线之前，它只能算一张期权，而不是一份业绩。&lt;/p&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/723531/000072353126000004/payx-ex99_1.htm&quot;&gt;Paychex 2027财年第一季度业绩新闻稿原文（SEC 8-K Exhibit 99.1，2026年9月23日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/723531/000072353126000004/payx-20260923.htm&quot;&gt;Paychex 2027财年第一季度 8-K 备案主文件&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investor.paychex.com/&quot;&gt;Paychex 投资者关系官网&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stockstory.org/us/stocks/nasdaq/payx/news/earnings/paychexs-nasdaqpayx-q3-cy2026-earnings-results-revenue-in-line-with-expectations-but-stock-drops&quot;&gt;StockStory 报道 Paychex Q1 业绩与股价反应&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/earnings/paychex-earnings-beat-by-002-revenue-was-in-line-with-estimates-4913034&quot;&gt;Investing.com 报道 Paychex 每股收益超预期2美分&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 24 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/24/paychex_fy2027q1_earnings/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/24/paychex_fy2027q1_earnings/</guid>
-        
-        <category>Paychex</category>
-        
-        <category>大公司数据观察</category>
-        
-        
-        <category>company-research</category>
-        
-      </item>
-    
-      <item>
-        <title>通用磨坊2027财年Q1电话会——CFO预警第四季度通胀冲到6%，COO说「提价、贸易促销、产品结构，工具箱里所有杠杆都摆在桌面上」</title>
-        <description>&lt;p&gt;美东时间2026年9月23日上午9点（北京时间9月23日21点），&lt;a href=&quot;https://investors.generalmills.com/&quot;&gt;通用磨坊&lt;/a&gt;（NYSE: GIS）召开了2027财年第一季度业绩电话会。财报已于当天开盘前发布，我们在&lt;a href=&quot;/blog/2026/09/24/generalmills_fy2027q1_earnings/&quot;&gt;前一篇财报解读&lt;/a&gt;里拆过数字：净销售额44亿美元同比下滑3%、有机销售额持平，每股收益0.74美元同比暴跌67%（主因是去年同期那笔10亿美元酸奶出售收益），调整后每股收益0.75美元超市场预期的0.72美元，全年指引重申。&lt;/p&gt;
-
-&lt;p&gt;这篇只讲电话会上的&lt;strong&gt;增量信息&lt;/strong&gt;——新闻稿里查不到、只有管理层开口才知道的东西。&lt;/p&gt;
-
-&lt;p&gt;出席管理层四位：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Jeff Harmening&lt;/strong&gt;，董事长兼首席执行官&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Dana McNabb&lt;/strong&gt;，首席运营官&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Kofi Bruce&lt;/strong&gt;，首席财务官&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Jeff Siemon&lt;/strong&gt;，投资者关系与公司财务副总裁&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;提问的分析师来自巴克莱、美银、TD Cowen、高盛、富国、伯恩斯坦、杰富瑞、Piper Sandler、加拿大皇家银行、法国巴黎银行等十家机构。&lt;/p&gt;
-
-&lt;p&gt;这场会的基调可以概括成一句话：&lt;strong&gt;「我们的份额在变好，但成本正在变坏，而变坏的部分主要在下半年。」&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;一管理层核心表态&quot;&gt;一、管理层核心表态&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-成本节约被抬到了战略叙事的中心&quot;&gt;1. 成本节约被抬到了战略叙事的中心&lt;/h3&gt;
-
-&lt;p&gt;COO Dana McNabb 给出了本次电话会最明确的一个承诺：公司致力于「&lt;strong&gt;在本财年交付7.5亿美元的成本节约，到2030财年累计交付30亿美元&lt;/strong&gt;」。&lt;/p&gt;
-
-&lt;p&gt;这30亿美元拆成两块：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;20亿美元&lt;/strong&gt;来自 HMM（Holistic Margin Management，整体毛利管理）——通用磨坊用了二十多年的传统降本方法论，靠配方、包装、采购、工艺一点点抠&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;10亿美元&lt;/strong&gt;来自「Transformation（转型）」计划——这是相对较新的一块，指组织和流程层面的重构&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;对普通读者翻译一下：通用磨坊现在的商业模式，本质是&lt;strong&gt;用确定性的降本去对冲不确定性的通胀和销量下滑&lt;/strong&gt;。7.5亿美元放在一家年营收约180亿美元的公司身上，相当于全年营收的4%以上——这是一个足够大到能改变利润走向的数字。&lt;/p&gt;
-
-&lt;h3 id=&quot;2-通胀节奏被明确拆开而且第四季度是最难的&quot;&gt;2. 通胀节奏被明确拆开，而且第四季度是最难的&lt;/h3&gt;
-
-&lt;p&gt;CFO Kofi Bruce 给出的分季度通胀路径是本场会信息量最大的部分：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;第一季度实际通胀「大致落在区间内，可能略低一点，约4%」&lt;/li&gt;
-  &lt;li&gt;第二、第三季度预计与第一季度接近&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;第四季度「略微超出区间，约6%」&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;公司原本的全年通胀指引区间是4%-5%。CFO 主动告诉市场 Q4 会冲到6%、捅破上限，这在业绩超预期的当天说出来，属于典型的「先把坏消息讲清楚」。&lt;/p&gt;
-
-&lt;p&gt;小麦是被点名的具体压力源。Bruce 说小麦价格「比我们的通胀预期高一点」，公司「全年大约套保了四分之三」。餐饮服务分部的面粉定价是&lt;strong&gt;指数挂钩、每周传导&lt;/strong&gt;，所以那一块成本涨了能立刻转嫁——但商超货架上的产品不行。&lt;/p&gt;
-
-&lt;h3 id=&quot;3-所有价格杠杆都摆在桌面上&quot;&gt;3. 「所有价格杠杆都摆在桌面上」&lt;/h3&gt;
-
-&lt;p&gt;富国证券的 Chris Carey 直接问了最敏感的问题：在这样的成本背景下，公司对定价的预期是什么？&lt;/p&gt;
-
-&lt;p&gt;McNabb 的回答分两层。第一层是公司的偏好——追求「正向的价格与产品结构（positive price mix）」，实现路径是&lt;strong&gt;产品结构升级、高端创新、以及 price pack architecture（包装规格重构，即通过改变包装大小和规格组合来调整单位价格）&lt;/strong&gt;。这些都是相对温和的手段。&lt;/p&gt;
-
-&lt;p&gt;但第二层是她的原话：鉴于投入成本更高，「&lt;strong&gt;工具箱里所有的杠杆都摆在桌面上——贸易促销、产品结构、标价提价，等等。&lt;/strong&gt;」&lt;/p&gt;
-
-&lt;p&gt;这是一句需要认真对待的话。过去两年通用磨坊一直在做的是相反的事：&lt;strong&gt;降基础价&lt;/strong&gt;来挽回销量。McNabb 在回答巴克莱 Andrew Lazar 提问时确认，公司预计&lt;strong&gt;从第二季度开始价格与产品结构会改善，因为要开始对比去年做的那些基础降价&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;换句话说：降价周期正在结束，提价选项重新回到桌面。&lt;/p&gt;
-
-&lt;h3 id=&quot;4-狗粮的修复被定档18-24个月&quot;&gt;4. 狗粮的修复被定档18-24个月&lt;/h3&gt;
-
-&lt;p&gt;TD Cowen 的 Robert Moskow 追问狗粮高个位数下滑的原因。McNabb 的回答把问题拆得很清楚：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;干狗粮品类整体下滑中个位数&lt;/li&gt;
-  &lt;li&gt;Blue Buffalo 的 &lt;strong&gt;Life Protection Formula「基本跟住了品类」&lt;/strong&gt;——即跌幅和大盘同步&lt;/li&gt;
-  &lt;li&gt;但 &lt;strong&gt;Wilderness（荒野）系列出现了加速下滑&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;公司正在用「remarkable experience framework（卓越体验框架）」来诊断问题，并预计需要 &lt;strong&gt;18到24个月&lt;/strong&gt;才能改善，参照对象是此前猫粮 Tastefuls 的扭转过程。&lt;/p&gt;
-
-&lt;p&gt;这是一个诚实但不好听的答案：&lt;strong&gt;问题不在整个 Blue Buffalo，而在一个具体的子品牌；而且修它要两年。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;二分析师问答中最有信息量的几个&quot;&gt;二、分析师问答中最有信息量的几个&lt;/h2&gt;
-
-&lt;h3 id=&quot;q1andrew-lazar巴克莱北美零售的改善节奏能持续吗第二季度怎么看&quot;&gt;Q1（Andrew Lazar，巴克莱）：北美零售的改善节奏能持续吗？第二季度怎么看？&lt;/h3&gt;
-
-&lt;p&gt;McNabb 的回答：「我们的重心确实是继续改善美元份额趋势……&lt;strong&gt;我们还没有完全回到增长。&lt;/strong&gt;」她强调第二季度起价格与产品结构会因为对比基数（去年的基础降价）而改善，并把希望押在创新和营销投放的势能上。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：注意「还没有完全回到增长」这个措辞。管理层刻意把预期管理在「趋势变好」而不是「已经转正」。&lt;/p&gt;
-
-&lt;h3 id=&quot;q2leah-jordan高盛哪些创新表现超预期毛利率怎么指引&quot;&gt;Q2（Leah Jordan，高盛）：哪些创新表现超预期？毛利率怎么指引？&lt;/h3&gt;
-
-&lt;p&gt;McNabb 点名了两个具体产品：&lt;strong&gt;高蛋白麦片，尤其是 Honey Nut Cheerios 的高蛋白版本&lt;/strong&gt;表现强劲；以及「&lt;strong&gt;Blasted Totino’s rolls 卖得非常好&lt;/strong&gt;」。&lt;/p&gt;
-
-&lt;p&gt;Bruce 补充毛利率口径：通胀与 HMM 成本节约「全年大致会互相抵消」，毛利率「&lt;strong&gt;剔除第53周那个机械性因素后大致持平&lt;/strong&gt;」。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这是一句很关键的定调——公司并不指望2027财年毛利率扩张，只求守住。&lt;/p&gt;
-
-&lt;h3 id=&quot;q3alexia-howard伯恩斯坦什么时候能把杠杆降到3倍目标&quot;&gt;Q3（Alexia Howard，伯恩斯坦）：什么时候能把杠杆降到3倍目标？&lt;/h3&gt;
-
-&lt;p&gt;Bruce 的原话：「按这个节奏，&lt;strong&gt;我们至少需要两年&lt;/strong&gt;才能把自己拉回3倍的目标。」目前略高于4倍。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这句话直接解释了财报里那个刺眼的细节——本季度股票回购为零。对一家过去长期靠分红加回购回报股东的消费股来说，未来两年的资本配置优先级已经明确让位给还债。&lt;/p&gt;
-
-&lt;h3 id=&quot;q4michael-laverypiper-sandler小麦成本的影响和套保覆盖率&quot;&gt;Q4（Michael Lavery，Piper Sandler）：小麦成本的影响和套保覆盖率？&lt;/h3&gt;
-
-&lt;p&gt;Bruce：小麦「比我们的通胀预期高一点」，公司「&lt;strong&gt;大部分小麦已套保，全年约四分之三&lt;/strong&gt;」。餐饮服务的面粉定价是指数挂钩、每周传导。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：四分之三的覆盖率意味着还有四分之一的敞口暴露在现货波动里，这正是 Q4 通胀跳到6%的一部分来源。&lt;/p&gt;
-
-&lt;h3 id=&quot;q5nik-modi加拿大皇家银行宠物品类的结构变化小型犬和猫在替代大型犬对利润率意味着什么&quot;&gt;Q5（Nik Modi，加拿大皇家银行）：宠物品类的结构变化——小型犬和猫在替代大型犬，对利润率意味着什么？&lt;/h3&gt;
-
-&lt;p&gt;CEO Jeff Harmening 亲自回答：「&lt;strong&gt;宠物食品里最大的趋势还是那一个——拟人化（humanization）。&lt;/strong&gt;」他表示公司对 Love Made Fresh（鲜粮）的发展「非常满意」，Tiki Cat（收购来的猫粮品牌）在以双位数增长。他承认宠物结构确实在向小型动物转移，但强调拟人化这个大趋势仍会推动业务前进。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：CEO 没有正面回答「利润率意味着什么」。小型犬和猫的单只消费量天然低于大型犬，这对以磅计价的干粮生意是结构性逆风。回避本身就是信息。&lt;/p&gt;
-
-&lt;h3 id=&quot;q6max-gumport法国巴黎银行消费者的促销行为下半年的对比基数&quot;&gt;Q6（Max Gumport，法国巴黎银行）：消费者的促销行为，下半年的对比基数？&lt;/h3&gt;
-
-&lt;p&gt;McNabb：中低收入消费者「&lt;strong&gt;仍然在等商品打折时才买，而不是等到日常货架价再买&lt;/strong&gt;」。这个行为与去年下半年「差不多一样」，公司已假设它会持续整个财年。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：这句话的价值在于「已经假设它会持续」——也就是说，全年指引里已经包含了消费者不回归常价购买的前提。如果消费环境进一步恶化，指引才会有风险；如果只是维持现状，指引是安全的。&lt;/p&gt;
-
-&lt;h3 id=&quot;q7peter-galbo美银通胀指引的细节和全年节奏&quot;&gt;Q7（Peter Galbo，美银）：通胀指引的细节和全年节奏？&lt;/h3&gt;
-
-&lt;p&gt;Bruce 的分季度拆解（见上文第二节）。&lt;/p&gt;
-
-&lt;h3 id=&quot;q8scott-marks杰富瑞包装合作和包装规格重构的进展&quot;&gt;Q8（Scott Marks，杰富瑞）：包装合作和包装规格重构的进展？&lt;/h3&gt;
-
-&lt;p&gt;McNabb：「&lt;strong&gt;我们最近刚刚签下一个合作伙伴&lt;/strong&gt;，帮助我们更高效地做包装创新。」包装规格重构策略已经「应用到每一块业务」，并且有一条&lt;strong&gt;三年的创意储备管线&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;解读&lt;/strong&gt;：包装规格重构在中国市场也很常见（比如把一包薯片从100克改到85克但价格不变）。通用磨坊把它列为「正向价格结构」的主要来源之一，实质上是一种温和的、不直接体现在标价上的涨价。&lt;/p&gt;
-
-&lt;h2 id=&quot;三这些表态意味着什么&quot;&gt;三、这些表态意味着什么&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;第一，通用磨坊的2027财年剧本已经写得很清楚了：上半年靠份额修复和成本节约撑住，下半年硬扛通胀。&lt;/strong&gt; CFO 主动把 Q4 的6%通胀说出来，等于提前给下半年的业绩波动打了预防针。如果 Q4 真的只有6%，那是「符合预期」；如果更高，全年3.00-3.20美元的每股收益指引会承压。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第二，价格策略正在转向。&lt;/strong&gt; 从「降基础价换销量」到「所有杠杆都在桌面上」，这个转向发生在销量仍然负增长的时候，本身就是一个艰难的取舍——在销量还没恢复时提价，很可能让刚刚收窄的份额跌幅重新扩大。这是通用磨坊2027财年最大的执行风险。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第三，资本回报要让位给资产负债表。&lt;/strong&gt; 杠杆4倍以上、回到3倍要两年、本季度零回购——这三件事连起来看，意味着未来八个季度通用磨坊对股东的回报主要就是分红。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第四，宠物业务的叙事变了。&lt;/strong&gt; 过去两年管理层讲的是「Blue Buffalo 整体在修复」，这次讲的是「猫粮双位数增长、零食转正、狗粮里的 Wilderness 在加速下滑、要修18-24个月」。颗粒度变细通常是好事——说明管理层真的找到了问题所在；但18-24个月这个时间表也等于承认，宠物分部在本财年不会成为增长引擎。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第五，创新是唯一的正面故事。&lt;/strong&gt; 新品占净销售额从两年前的3%提到5%，新品数量两年增加约50%，高蛋白麦片被反复点名。电商占人类食品销售20%以上、占宠物食品30%。对一家被认为「老」的公司来说，这是管理层唯一可以不加限定词去讲的部分。&lt;/p&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;p&gt;这是一场&lt;strong&gt;信息密度很高、但基调偏防守&lt;/strong&gt;的电话会。&lt;/p&gt;
-
-&lt;p&gt;管理层交付的是三个确定性承诺——7.5亿美元年度成本节约、30亿美元五年累计节约、以及维持不变的全年指引；换来的代价是三个明确的坏消息——Q4 通胀6%、杠杆两年才能回到目标、狗粮修复要18-24个月。&lt;/p&gt;
-
-&lt;p&gt;最值得记住的一句话，是 Dana McNabb 那句「&lt;strong&gt;工具箱里所有的杠杆都摆在桌面上——贸易促销、产品结构、标价提价，等等。&lt;/strong&gt;」在一个销量还在跌、消费者还在等打折的市场里说这句话，说明成本压力已经大到让管理层愿意冒份额的风险。&lt;/p&gt;
-
-&lt;p&gt;接下来两个季度要盯的，就是这个赌注的结果：&lt;strong&gt;份额跌幅是继续收窄，还是被重新抬头的价格打回去。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;数据来源&quot;&gt;数据来源&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-general-mills-tops-q1-2026-estimates-shares-slip-93CH-4913312&quot;&gt;通用磨坊 2027财年Q1业绩电话会实录（Investing.com）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/40704/000162828026063141/a20260923ex99.htm&quot;&gt;通用磨坊 2027财年第一季度业绩新闻稿原文（SEC 8-K Exhibit 99，2026年9月23日）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://investors.generalmills.com/&quot;&gt;通用磨坊投资者关系官网&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.marketbeat.com/instant-alerts/transcript-general-mills-q1-earnings-call-highlights-2026-09-23/&quot;&gt;MarketBeat 通用磨坊Q1电话会要点&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.benzinga.com/markets/earnings/26/09/61953557/general-mills-warns-inflation-could-hit-6-and-price-hikes-are-still-on-the-table&quot;&gt;Benzinga 报道「通用磨坊警告通胀可能达到6%，提价仍在选项中」&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 24 Sep 2026 00:00:00 +0800</pubDate>
-        <link>https://zluckyhou.github.io/blog/2026/09/24/generalmills_fy2027q1_earnings_call/</link>
-        <guid isPermaLink="true">https://zluckyhou.github.io/blog/2026/09/24/generalmills_fy2027q1_earnings_call/</guid>
-        
-        <category>通用磨坊</category>
         
         <category>大公司数据观察</category>
         
